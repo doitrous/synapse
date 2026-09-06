@@ -6,12 +6,20 @@
     "subject": "gyn",
     "status": "Draft",
     "owner": "Claude",
-    "universities": ["kau"],
-    "years": ["KAU_Y2"],
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y2"
+    ],
     "module": "207 END",
-    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "exam_weight_by_year": {
+      "KAU_Y2": "moderate"
+    },
     "question_only_for": "",
-    "resource_ids": ["src_3c7b49ee6f8407106c2a"],
+    "resource_ids": [
+      "src_3c7b49ee6f8407106c2a"
+    ],
     "source_citation": "Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, {page}",
     "setting": "Academic",
     "difficulty": "Moderate",
@@ -23,6 +31,80 @@
     "topic": "Anatomy"
   },
   "questions": [
+    {
+      "key": "q02",
+      "id": "QST-KASR207END-GALALREPRO-002",
+      "page": "Q2",
+      "subject": "fnd",
+      "title": "Part of levator ani inserted into the perineal body",
+      "question": "Which part of the levator ani is inserted into the perineal body?",
+      "options": {
+        "A": "Levator prostatae (pubovaginalis).",
+        "B": "Puborectalis.",
+        "C": "Iliococcygeus.",
+        "D": "Ischiococcygeus.",
+        "E": "Sphincter urethrae."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The most anterior, medial fibres of pubococcygeus — levator prostatae in the male and pubovaginalis in the female — sweep backwards and decussate in the perineal body, giving it muscular support. This anterior sling is the levator-ani component attached to the perineal body.",
+        "B": "Incorrect. Puborectalis loops as a U-shaped sling behind the anorectal junction to form the puborectal (anorectal) angle; it does not insert into the perineal body.",
+        "C": "Incorrect. Iliococcygeus arises from the tendinous arch and ischial spine and inserts into the anococcygeal raphe and coccyx, not the perineal body.",
+        "D": "Incorrect. Ischiococcygeus (coccygeus) passes from the ischial spine to the lateral coccyx and lower sacrum and is not attached to the perineal body.",
+        "E": "Incorrect. The sphincter urethrae is a perineal-pouch muscle of the urogenital region, not a part of the levator ani."
+      },
+      "main_concept": "CON-FND-32989C33B35848",
+      "concept_ids": [
+        "CON-FND-32989C33B35848"
+      ],
+      "subtopic": "Pelvic floor",
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
+      "module_subject": "207 END > Anatomy > Pelvic floor",
+      "learning_objective": "State that the anterior pubococcygeus fibres (levator prostatae/pubovaginalis) insert into the perineal body.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option, render-verified p.1 (Q2=a)",
+        "kasr": "Dr Galal repro bank"
+      }
+    },
+    {
+      "key": "q03",
+      "id": "QST-KASR207END-GALALREPRO-003",
+      "page": "Q3",
+      "subject": "fnd",
+      "title": "Levator ani component and faecal continence",
+      "question": "A 55-year-old woman complains of faecal incontinence. Atrophy, paralysis or dysfunction of which of the following structures is the most likely contributing factor?",
+      "options": {
+        "A": "Pubococcygeus muscle.",
+        "B": "Iliococcygeus muscle.",
+        "C": "Coccygeus muscle.",
+        "D": "Urogenital diaphragm."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Pubococcygeus, including its puborectalis fibres, is the functional part of the levator ani that maintains the anorectal angle and supports the anal canal. Weakness or atrophy of this part, often after obstetric injury, is the main muscular cause of faecal incontinence.",
+        "B": "Incorrect. Iliococcygeus is a thin, largely aponeurotic posterior part of levator ani that contributes little active sphincteric support to the anal canal.",
+        "C": "Incorrect. Coccygeus (ischiococcygeus) supports the pelvic viscera posteriorly and flexes the coccyx; it has no role in anal continence.",
+        "D": "Incorrect. The urogenital diaphragm surrounds the membranous urethra and is concerned with urinary, not faecal, continence."
+      },
+      "main_concept": "CON-FND-EE21DFB1BF362B",
+      "concept_ids": [
+        "CON-FND-EE21DFB1BF362B"
+      ],
+      "subtopic": "Pelvic floor",
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
+      "module_subject": "207 END > Anatomy > Pelvic floor",
+      "learning_objective": "Attribute the maintenance of faecal continence to the pubococcygeus/puborectalis part of levator ani.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option, render-verified p.1 (Q3=a)",
+        "kasr": "Dr Galal repro bank"
+      }
+    },
     {
       "key": "q05",
       "id": "QST-KASR207END-GALALREPRO-005",
@@ -44,12 +126,55 @@
         "D": "Incorrect. The inferior gluteal nerve leaves the pelvis through the greater sciatic foramen below piriformis, not the lesser sciatic foramen."
       },
       "main_concept": "CON-FND-F816C223E98743",
-      "concept_ids": ["CON-FND-F816C223E98743"],
+      "concept_ids": [
+        "CON-FND-F816C223E98743"
+      ],
       "subtopic": "Pelvic wall",
-      "library_ids": ["ART-FND-207END-GALAL-PELVIS-PERINEUM"],
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
       "module_subject": "207 END > Anatomy > Pelvic wall",
       "learning_objective": "State that the obturator internus tendon leaves the pelvis through the lesser sciatic foramen.",
-      "field_notes": { "keySource": "circled option, printed p.5 answer (Q5=c)", "kasr": "Dr Galal repro bank, p.1" }
+      "field_notes": {
+        "keySource": "circled option, printed p.5 answer (Q5=c)",
+        "kasr": "Dr Galal repro bank, p.1"
+      }
+    },
+    {
+      "key": "q06",
+      "id": "QST-KASR207END-GALALREPRO-006",
+      "page": "Q6",
+      "subject": "renal",
+      "title": "Structure crossing the pelvic brim",
+      "question": "Which of the following crosses the pelvic brim?",
+      "options": {
+        "A": "Fallopian tube.",
+        "B": "Uterine artery.",
+        "C": "Ureter.",
+        "D": "Lateral sacral artery."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The fallopian tube lies within the true pelvis in the free edge of the broad ligament; it does not cross the pelvic brim.",
+        "B": "Incorrect. The uterine artery arises from the internal iliac within the pelvis and runs medially in the broad ligament; it does not cross the brim.",
+        "C": "Correct. The ureter enters the pelvis by crossing the pelvic brim in front of the bifurcation of the common iliac artery, over the sacroiliac joint, then runs down on the lateral pelvic wall. This crossing at the brim is the classic landmark for finding the ureter.",
+        "D": "Incorrect. The lateral sacral artery is an intrapelvic branch of the internal iliac that runs down the anterior sacrum; it does not cross the brim."
+      },
+      "main_concept": "CON-REN-DA344D96683A16",
+      "concept_ids": [
+        "CON-REN-DA344D96683A16"
+      ],
+      "subtopic": "Female pelvic viscera",
+      "library_ids": [
+        "ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"
+      ],
+      "module_subject": "207 END > Anatomy > Ureter",
+      "learning_objective": "State that the ureter crosses the pelvic brim anterior to the common iliac bifurcation.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option, render-verified p.1 (Q6=c)",
+        "kasr": "Dr Galal repro bank"
+      }
     },
     {
       "key": "q07",
@@ -71,12 +196,55 @@
         "D": "Incorrect. The ureter is closely related to the supravaginal cervix and lateral fornix, passing about 1-2 cm lateral to the cervix beneath the uterine artery, not the sides of the body."
       },
       "main_concept": "CON-GYN-D781EB8B9BB952",
-      "concept_ids": ["CON-GYN-D781EB8B9BB952"],
+      "concept_ids": [
+        "CON-GYN-D781EB8B9BB952"
+      ],
       "subtopic": "Uterus",
-      "library_ids": ["ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"
+      ],
       "module_subject": "207 END > Anatomy > Uterus",
       "learning_objective": "State that lymphatics from the uterine fundus follow the ovarian vessels to the para-aortic nodes.",
-      "field_notes": { "keySource": "circled option (Q7=c)", "kasr": "Dr Galal repro bank, p.2" }
+      "field_notes": {
+        "keySource": "circled option (Q7=c)",
+        "kasr": "Dr Galal repro bank, p.2"
+      }
+    },
+    {
+      "key": "q11",
+      "id": "QST-KASR207END-GALALREPRO-011",
+      "page": "Q11",
+      "subject": "gyn",
+      "title": "Uterine ligament derived from the gubernaculum",
+      "question": "Which of the following uterine ligaments is derived from the gubernaculum?",
+      "options": {
+        "A": "Pubocervical ligament.",
+        "B": "Uterosacral ligament.",
+        "C": "Suspensory ligament of the ovary.",
+        "D": "Round ligament of the uterus."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The pubocervical ligament is a bladder-supporting condensation of pelvic fascia, not a gubernacular derivative.",
+        "B": "Incorrect. The uterosacral ligament is a condensation of endopelvic fascia running back to the sacrum; it is not derived from the gubernaculum.",
+        "C": "Incorrect. The suspensory ligament of the ovary is a peritoneal fold carrying the ovarian vessels; it is not a gubernacular remnant, although the ovarian ligament is.",
+        "D": "Correct. The gubernaculum in the female persists as the ovarian ligament (ovary to uterus) and the round ligament of the uterus (uterus through the inguinal canal to the labium majus). The round ligament is therefore the gubernacular derivative among these options."
+      },
+      "main_concept": "CON-GYN-CEA5D49ABDE776",
+      "concept_ids": [
+        "CON-GYN-CEA5D49ABDE776"
+      ],
+      "subtopic": "Genital development",
+      "library_ids": [
+        "ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT"
+      ],
+      "module_subject": "207 END > Embryology > Genital system",
+      "learning_objective": "Identify the round ligament of the uterus (and ovarian ligament) as gubernaculum derivatives.",
+      "topic": "Embryology",
+      "field_notes": {
+        "keySource": "circled option, render-verified p.2 (Q11=d)",
+        "kasr": "Dr Galal repro bank"
+      }
     },
     {
       "key": "q12",
@@ -98,12 +266,19 @@
         "D": "Incorrect. Para-aortic nodes are a later, higher tier reached after the iliac nodes, not the site of the initial cervical metastasis."
       },
       "main_concept": "CON-GYN-8C7E35074738D7",
-      "concept_ids": ["CON-GYN-8C7E35074738D7"],
+      "concept_ids": [
+        "CON-GYN-8C7E35074738D7"
+      ],
       "subtopic": "Cervix",
-      "library_ids": ["ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"
+      ],
       "module_subject": "207 END > Anatomy > Cervix",
       "learning_objective": "Identify the internal iliac nodes as the first-echelon drainage of the cervix in early carcinoma.",
-      "field_notes": { "keySource": "circled option (Q12=a)", "kasr": "Dr Galal repro bank, p.2" }
+      "field_notes": {
+        "keySource": "circled option (Q12=a)",
+        "kasr": "Dr Galal repro bank, p.2"
+      }
     },
     {
       "key": "q14",
@@ -125,12 +300,55 @@
         "D": "Incorrect. The lower third of the rectum is extraperitoneal; only the upper rectum is covered by peritoneum anteriorly and laterally."
       },
       "main_concept": "CON-GYN-FBE32836A66C99",
-      "concept_ids": ["CON-GYN-FBE32836A66C99"],
+      "concept_ids": [
+        "CON-GYN-FBE32836A66C99"
+      ],
       "subtopic": "Fallopian tube",
-      "library_ids": ["ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"
+      ],
       "module_subject": "207 END > Anatomy > Fallopian tube",
       "learning_objective": "State that the fallopian tube is invested by peritoneum (mesosalpinx) and is intraperitoneal.",
-      "field_notes": { "keySource": "circled option (Q14=b)", "kasr": "Dr Galal repro bank, p.3" }
+      "field_notes": {
+        "keySource": "circled option (Q14=b)",
+        "kasr": "Dr Galal repro bank, p.3"
+      }
+    },
+    {
+      "key": "q15",
+      "id": "QST-KASR207END-GALALREPRO-015",
+      "page": "Q15",
+      "subject": "gyn",
+      "title": "Vessel at risk near the external iliac artery in pelvic surgery",
+      "question": "A 37-year-old woman underwent a tubal ligation. Two days later she developed fever and signs of hypovolaemic shock, and imaging showed a large haematoma adjacent to the external iliac artery. Which of the following vessels was most likely injured?",
+      "options": {
+        "A": "Ovarian artery.",
+        "B": "Ascending branch of the uterine artery.",
+        "C": "Descending branch of the uterine artery.",
+        "D": "Superior vesical artery."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The ovarian vessels descend within the suspensory ligament of the ovary (infundibulopelvic ligament), which crosses the external iliac vessels at the pelvic brim to reach the ovary and tube. Surgery on the tube or ovary near the brim can tear the ovarian artery, producing a haematoma right beside the external iliac artery.",
+        "B": "Incorrect. The ascending (main) branch of the uterine artery runs up the side of the uterus within the broad ligament, well medial to the external iliac artery.",
+        "C": "Incorrect. The descending (cervicovaginal) branch of the uterine artery supplies the cervix and vagina low in the pelvis, not at the pelvic brim.",
+        "D": "Incorrect. The superior vesical artery runs to the bladder from the internal iliac and is not related to the external iliac at the brim."
+      },
+      "main_concept": "CON-GYN-F2B565B5C920E8",
+      "concept_ids": [
+        "CON-GYN-F2B565B5C920E8"
+      ],
+      "subtopic": "Female pelvic viscera",
+      "library_ids": [
+        "ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"
+      ],
+      "module_subject": "207 END > Anatomy > Female pelvic viscera",
+      "learning_objective": "Relate the ovarian vessels in the suspensory ligament to their crossing of the external iliac vessels at the brim.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option, render-verified p.3 (Q15=a)",
+        "kasr": "Dr Galal repro bank"
+      }
     },
     {
       "key": "q16",
@@ -152,12 +370,19 @@
         "D": "Correct. The ovary develops high on the posterior abdominal wall and descends carrying its vessels and lymphatics. Its lymph vessels ascend with the ovarian vessels in the suspensory ligament to the para-aortic (lumbar) nodes at the L1-L2 level. This high drainage is why ovarian cancer can reach para-aortic nodes without pelvic-node disease."
       },
       "main_concept": "CON-GYN-05174E3BED5362",
-      "concept_ids": ["CON-GYN-05174E3BED5362"],
+      "concept_ids": [
+        "CON-GYN-05174E3BED5362"
+      ],
       "subtopic": "Ovary",
-      "library_ids": ["ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"
+      ],
       "module_subject": "207 END > Anatomy > Ovary",
       "learning_objective": "State that ovarian lymphatics drain to the para-aortic nodes along the ovarian vessels.",
-      "field_notes": { "keySource": "circled option (Q16=d)", "kasr": "Dr Galal repro bank, p.3" }
+      "field_notes": {
+        "keySource": "circled option (Q16=d)",
+        "kasr": "Dr Galal repro bank, p.3"
+      }
     },
     {
       "key": "q18",
@@ -179,12 +404,55 @@
         "D": "Incorrect. The uterovesical (anterior) pouch lies in front of the uterus and is reached through the anterior, not the posterior, fornix."
       },
       "main_concept": "CON-GYN-476696E6CF00F8",
-      "concept_ids": ["CON-GYN-476696E6CF00F8"],
+      "concept_ids": [
+        "CON-GYN-476696E6CF00F8"
+      ],
       "subtopic": "Vagina",
-      "library_ids": ["ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA"
+      ],
       "module_subject": "207 END > Anatomy > Vagina",
       "learning_objective": "State that a needle through the posterior vaginal fornix enters the rectouterine pouch (culdocentesis).",
-      "field_notes": { "keySource": "circled option (Q18=a)", "kasr": "Dr Galal repro bank, p.3" }
+      "field_notes": {
+        "keySource": "circled option (Q18=a)",
+        "kasr": "Dr Galal repro bank, p.3"
+      }
+    },
+    {
+      "key": "q19",
+      "id": "QST-KASR207END-GALALREPRO-019",
+      "page": "Q19",
+      "subject": "gyn",
+      "title": "Female homologue of the scrotum",
+      "question": "The scrotum has as its counterpart (homologue) in the female the:",
+      "options": {
+        "A": "Bulb of the vestibule.",
+        "B": "Crura of the clitoris.",
+        "C": "Labia majora.",
+        "D": "Labia minora."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The bulb of the vestibule is the female homologue of the bulb of the penis (corpus spongiosum), not of the scrotum.",
+        "B": "Incorrect. The crura of the clitoris are homologous with the crura of the penis (corpora cavernosa), from the genital tubercle.",
+        "C": "Correct. The labioscrotal (genital) swellings form the scrotum in the male and the labia majora in the female. The labia majora are therefore the female homologue of the scrotum. The other options are erectile or urethral-fold derivatives with different male counterparts.",
+        "D": "Incorrect. The labia minora are homologous with the ventral penile shaft skin, derived from the urethral folds, not the labioscrotal swellings."
+      },
+      "main_concept": "CON-GYN-068ED1036E4594",
+      "concept_ids": [
+        "CON-GYN-068ED1036E4594"
+      ],
+      "subtopic": "Genital development",
+      "library_ids": [
+        "ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT"
+      ],
+      "module_subject": "207 END > Embryology > Genital system",
+      "learning_objective": "Pair the labia majora with the scrotum as labioscrotal-swelling homologues.",
+      "topic": "Embryology",
+      "field_notes": {
+        "keySource": "circled option, render-verified p.3 (Q19=c)",
+        "kasr": "Dr Galal repro bank"
+      }
     },
     {
       "key": "q22",
@@ -207,12 +475,55 @@
         "D": "Correct. The superior gluteal artery is the largest branch of the posterior division of the internal iliac artery, and the inferior gluteal artery arises from its anterior division. Both leave the pelvis through the greater sciatic foramen, the superior above piriformis and the inferior below it, to supply the gluteal region."
       },
       "main_concept": "CON-FND-1636287FEC6E52",
-      "concept_ids": ["CON-FND-1636287FEC6E52"],
+      "concept_ids": [
+        "CON-FND-1636287FEC6E52"
+      ],
       "subtopic": "Internal iliac artery",
-      "library_ids": ["ART-FND-207END-GALAL-PELVIS-PERINEUM"],
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
       "module_subject": "207 END > Anatomy > Internal iliac artery",
       "learning_objective": "State that the superior and inferior gluteal arteries are branches of the internal iliac artery.",
-      "field_notes": { "keySource": "circled option, render-verified p.4 (Q22=d)", "kasr": "Dr Galal repro bank, p.4" }
+      "field_notes": {
+        "keySource": "circled option, render-verified p.4 (Q22=d)",
+        "kasr": "Dr Galal repro bank, p.4"
+      }
+    },
+    {
+      "key": "q25",
+      "id": "QST-KASR207END-GALALREPRO-025",
+      "page": "Q25",
+      "subject": "fnd",
+      "title": "Medial wall of the ischiorectal fossa",
+      "question": "The medial wall of the ischiorectal fossa is formed by which of the following?",
+      "options": {
+        "A": "Urogenital diaphragm.",
+        "B": "Levator ani and external anal sphincter.",
+        "C": "Obturator internus muscle.",
+        "D": "Levator ani and obturator fascia."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The urogenital diaphragm lies in the anterior (urogenital) perineum between the ischiopubic rami; it is not a wall of the ischiorectal fossa.",
+        "B": "Correct. The medial (superomedial) wall of the ischiorectal fossa is formed by the levator ani sloping down towards the anal canal and, below it, the external anal sphincter. This wall separates the fossa from the anal canal.",
+        "C": "Incorrect. Obturator internus, covered by its fascia, forms the LATERAL wall of the ischiorectal fossa, not the medial wall.",
+        "D": "Incorrect. Levator ani with obturator fascia describes the sloping lateral/upper relation; the medial wall is levator ani with the external anal sphincter."
+      },
+      "main_concept": "CON-FND-20AC76FA6CE9ED",
+      "concept_ids": [
+        "CON-FND-20AC76FA6CE9ED"
+      ],
+      "subtopic": "Perineum",
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
+      "module_subject": "207 END > Anatomy > Perineum",
+      "learning_objective": "Identify the medial wall of the ischiorectal fossa as levator ani and the external anal sphincter.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option, render-verified p.4 (Q25=b)",
+        "kasr": "Dr Galal repro bank"
+      }
     },
     {
       "key": "q28",
@@ -235,12 +546,19 @@
         "D": "Incorrect. The prostatic urethra lies within the prostate, above (proximal to) the urogenital diaphragm."
       },
       "main_concept": "CON-AND-752F8796D3A389",
-      "concept_ids": ["CON-AND-752F8796D3A389"],
+      "concept_ids": [
+        "CON-AND-752F8796D3A389"
+      ],
       "subtopic": "Male urethra",
-      "library_ids": ["ART-FND-207END-GALAL-PELVIS-PERINEUM"],
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
       "module_subject": "207 END > Anatomy > Male urethra",
       "learning_objective": "State that the membranous urethra is the part of the male urethra that traverses the urogenital diaphragm.",
-      "field_notes": { "keySource": "circled option (Q28=c)", "kasr": "Dr Galal repro bank, p.5" }
+      "field_notes": {
+        "keySource": "circled option (Q28=c)",
+        "kasr": "Dr Galal repro bank, p.5"
+      }
     },
     {
       "key": "q34",
@@ -263,12 +581,19 @@
         "D": "Incorrect. The ischiocavernosus lies laterally along the ischiopubic ramus, well away from the midline perineal body."
       },
       "main_concept": "CON-GYN-CC072D09A02D0A",
-      "concept_ids": ["CON-GYN-CC072D09A02D0A"],
+      "concept_ids": [
+        "CON-GYN-CC072D09A02D0A"
+      ],
       "subtopic": "Perineum",
-      "library_ids": ["ART-FND-207END-GALAL-PELVIS-PERINEUM"],
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
       "module_subject": "207 END > Anatomy > Perineum",
       "learning_objective": "Identify the external anal sphincter as the structure behind the perineal body torn by an extended median episiotomy.",
-      "field_notes": { "keySource": "circled option, render-verified p.6 (Q34=b)", "kasr": "Dr Galal repro bank, p.6" }
+      "field_notes": {
+        "keySource": "circled option, render-verified p.6 (Q34=b)",
+        "kasr": "Dr Galal repro bank, p.6"
+      }
     },
     {
       "key": "q35",
@@ -291,12 +616,19 @@
         "D": "Incorrect. The perineal membrane forms the ROOF of the superficial perineal pouch, not its floor."
       },
       "main_concept": "CON-FND-9C22AF412F9F7A",
-      "concept_ids": ["CON-FND-9C22AF412F9F7A"],
+      "concept_ids": [
+        "CON-FND-9C22AF412F9F7A"
+      ],
       "subtopic": "Perineum",
-      "library_ids": ["ART-FND-207END-GALAL-PELVIS-PERINEUM"],
+      "library_ids": [
+        "ART-FND-207END-GALAL-PELVIS-PERINEUM"
+      ],
       "module_subject": "207 END > Anatomy > Perineum",
       "learning_objective": "State that the perineal membrane forms the floor of the deep perineal pouch and the roof of the superficial pouch.",
-      "field_notes": { "keySource": "circled option, render-verified p.6 (Q35=c)", "kasr": "Dr Galal repro bank, p.6" }
+      "field_notes": {
+        "keySource": "circled option, render-verified p.6 (Q35=c)",
+        "kasr": "Dr Galal repro bank, p.6"
+      }
     },
     {
       "key": "q36",
@@ -318,12 +650,19 @@
         "D": "Incorrect. The nipple normally overlies the 4th intercostal space in the male and nulliparous female, not the 6th."
       },
       "main_concept": "CON-GYN-45091FB96FEA64",
-      "concept_ids": ["CON-GYN-45091FB96FEA64"],
+      "concept_ids": [
+        "CON-GYN-45091FB96FEA64"
+      ],
       "subtopic": "Breast",
-      "library_ids": ["ART-GYN-207END-GALAL-BREAST-ANATOMY"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-BREAST-ANATOMY"
+      ],
       "module_subject": "207 END > Anatomy > Breast",
       "learning_objective": "State that the breast lies on the pectoralis major and serratus anterior across the retromammary space.",
-      "field_notes": { "keySource": "circled option, render-verified p.6 (Q36=c)", "kasr": "Dr Galal repro bank, p.6" }
+      "field_notes": {
+        "keySource": "circled option, render-verified p.6 (Q36=c)",
+        "kasr": "Dr Galal repro bank, p.6"
+      }
     },
     {
       "key": "q37",
@@ -345,12 +684,19 @@
         "D": "Incorrect. The axillary tail (of Spence) pierces the deep fascia to enter the axilla and is related to the pectoral muscles, not deep to the teres major."
       },
       "main_concept": "CON-GYN-D4D865BF895C48",
-      "concept_ids": ["CON-GYN-D4D865BF895C48"],
+      "concept_ids": [
+        "CON-GYN-D4D865BF895C48"
+      ],
       "subtopic": "Breast",
-      "library_ids": ["ART-GYN-207END-GALAL-BREAST-ANATOMY"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-BREAST-ANATOMY"
+      ],
       "module_subject": "207 END > Anatomy > Breast",
       "learning_objective": "State that the medial breast drains to the internal thoracic (parasternal) lymph nodes.",
-      "field_notes": { "keySource": "circled option, render-verified p.6 (Q37=a)", "kasr": "Dr Galal repro bank, p.6" }
+      "field_notes": {
+        "keySource": "circled option, render-verified p.6 (Q37=a)",
+        "kasr": "Dr Galal repro bank, p.6"
+      }
     },
     {
       "key": "q40",
@@ -372,12 +718,19 @@
         "D": "Incorrect. The lateral mammary branches of the 2nd-4th posterior intercostal arteries do supply the breast."
       },
       "main_concept": "CON-GYN-6B067FA55E5571",
-      "concept_ids": ["CON-GYN-6B067FA55E5571"],
+      "concept_ids": [
+        "CON-GYN-6B067FA55E5571"
+      ],
       "subtopic": "Breast",
-      "library_ids": ["ART-GYN-207END-GALAL-BREAST-ANATOMY"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-BREAST-ANATOMY"
+      ],
       "module_subject": "207 END > Anatomy > Breast",
       "learning_objective": "Recognise that the anterior circumflex humeral artery does not supply the breast.",
-      "field_notes": { "keySource": "circled option (Q40=c)", "kasr": "Dr Galal repro bank, p.7" }
+      "field_notes": {
+        "keySource": "circled option (Q40=c)",
+        "kasr": "Dr Galal repro bank, p.7"
+      }
     },
     {
       "key": "q42",
@@ -399,12 +752,19 @@
         "D": "Incorrect. The lower part of the vagina develops from the urogenital sinus (sinovaginal bulbs), not the paramesonephric duct."
       },
       "main_concept": "CON-GYN-F3B21CECED7AE4",
-      "concept_ids": ["CON-GYN-F3B21CECED7AE4"],
+      "concept_ids": [
+        "CON-GYN-F3B21CECED7AE4"
+      ],
       "subtopic": "Genital development",
-      "library_ids": ["ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT"
+      ],
       "module_subject": "207 END > Embryology > Genital system",
       "learning_objective": "State that the uterine tube is derived from the paramesonephric (Mullerian) duct.",
-      "field_notes": { "keySource": "circled option (Q42=a)", "kasr": "Dr Galal repro bank, p.7" }
+      "field_notes": {
+        "keySource": "circled option (Q42=a)",
+        "kasr": "Dr Galal repro bank, p.7"
+      }
     },
     {
       "key": "q44",
@@ -426,12 +786,19 @@
         "D": "Incorrect. In the developing ovary the medullary cords DO degenerate; it is the cortical cords that persist to form follicles."
       },
       "main_concept": "CON-GYN-AAA4AAA6BED1AA",
-      "concept_ids": ["CON-GYN-AAA4AAA6BED1AA"],
+      "concept_ids": [
+        "CON-GYN-AAA4AAA6BED1AA"
+      ],
       "subtopic": "Genital development",
-      "library_ids": ["ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT"],
+      "library_ids": [
+        "ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT"
+      ],
       "module_subject": "207 END > Embryology > Gonad development",
       "learning_objective": "Describe the migration of primordial germ cells along the dorsal mesentery of the hindgut to the genital ridge.",
-      "field_notes": { "keySource": "circled option (Q44=a)", "kasr": "Dr Galal repro bank, p.7" }
+      "field_notes": {
+        "keySource": "circled option (Q44=a)",
+        "kasr": "Dr Galal repro bank, p.7"
+      }
     }
   ]
 }

@@ -1693,3 +1693,780 @@ sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-
 resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on pp.4/6); no department book located/read this pass.
 
 ---
+# Item
+## id
+CON-FND-32989C33B35848
+## label
+The anterior pubococcygeus fibres (levator prostatae / pubovaginalis) insert into the perineal body
+## canonical_key
+levator-ani.pubococcygeus.inserts-into-perineal-body
+## aliases
+Levator prostatae and pubovaginalis
+Levator ani attachment to the perineal body
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The perineal body is anchored anterosuperiorly by the most medial anterior fibres of pubococcygeus — called levator prostatae in the male and pubovaginalis in the female — which decussate in it. Puborectalis instead slings behind the anorectal junction, while iliococcygeus and ischiococcygeus attach to the anococcygeal raphe, coccyx and sacrum.
+## explicit_objective
+State that the anterior pubococcygeus fibres (levator prostatae/pubovaginalis) insert into the perineal body.
+## pitfalls
+Assuming puborectalis (which forms the anorectal sling) or the posterior levator parts insert into the perineal body.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T04
+## topic
+Anatomy
+## subtopic
+Pelvic floor
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Pelvic floor
+## article_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-FND-EE21DFB1BF362B
+## label
+Pubococcygeus (with puborectalis) maintains faecal continence
+## canonical_key
+levator-ani.pubococcygeus.faecal-continence
+## aliases
+Levator ani and anal continence
+Puborectalis and the anorectal angle
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pubococcygeus part of levator ani, especially its puborectalis sling, holds the anorectal angle and supports the anal canal, and is the muscular key to faecal continence. Its atrophy or denervation predisposes to faecal incontinence, whereas the posterior levator parts (iliococcygeus, coccygeus) and the urogenital diaphragm play little or no role.
+## explicit_objective
+Attribute the maintenance of faecal continence to the pubococcygeus/puborectalis part of levator ani.
+## pitfalls
+Attributing faecal continence to iliococcygeus, coccygeus or the urogenital diaphragm.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T04
+## topic
+Anatomy
+## subtopic
+Pelvic floor
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Pelvic floor
+## article_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-REN-DA344D96683A16
+## label
+The ureter crosses the pelvic brim at the bifurcation of the common iliac artery
+## canonical_key
+ureter.pelvic-brim.crosses-at-common-iliac-bifurcation
+## aliases
+Ureter at the pelvic brim
+Ureteric crossing of the common iliac
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each ureter descends on psoas, crosses the pelvic brim by passing in front of the bifurcation of the common iliac artery over the sacroiliac joint, and then runs down the lateral pelvic wall to the bladder. The fallopian tube, uterine artery and lateral sacral artery all lie within the pelvis and do not cross the brim.
+## explicit_objective
+State that the ureter crosses the pelvic brim anterior to the common iliac bifurcation.
+## pitfalls
+Confusing intrapelvic structures (uterine artery, tube) with the ureter, which alone crosses the brim.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+renal
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-REN-T01
+## topic
+Anatomy
+## subtopic
+Female pelvic viscera
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Ureter
+## article_ids
+ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-GYN-CEA5D49ABDE776
+## label
+The round ligament of the uterus is a derivative of the gubernaculum
+## canonical_key
+round-ligament-of-uterus.development.gubernaculum-derivative
+## aliases
+Gubernaculum derivatives in the female
+Ovarian ligament and round ligament from the gubernaculum
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The female gubernaculum runs from the gonad to the labioscrotal swelling and, becoming attached to the uterus, persists as two ligaments: the ovarian ligament (ovary to uterine cornu) and the round ligament of the uterus (uterine cornu through the inguinal canal to the labium majus). The pubocervical and uterosacral ligaments are fascial condensations and the suspensory ligament of the ovary is a peritoneal fold, none gubernacular.
+## explicit_objective
+Identify the round ligament of the uterus (and ovarian ligament) as gubernaculum derivatives.
+## pitfalls
+Confusing fascial supports (pubocervical, uterosacral) or the peritoneal suspensory ligament with the gubernacular round ligament.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-EMB-T03
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Embryology
+## subtopic
+Genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Embryology > Genital system
+## article_ids
+ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-GYN-F2B565B5C920E8
+## label
+The ovarian vessels cross the external iliac vessels at the pelvic brim within the suspensory ligament
+## canonical_key
+ovarian-vessels.suspensory-ligament.cross-external-iliac-at-brim
+## aliases
+Suspensory ligament of the ovary and the pelvic brim
+Ovarian artery relation to the external iliac
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The ovarian artery from the abdominal aorta and the ovarian vein descend retroperitoneally and enter the pelvis within the suspensory ligament of the ovary (infundibulopelvic ligament), crossing the external iliac vessels at the pelvic brim to reach the ovary and lateral tube. This relation makes the ovarian vessels vulnerable in surgery near the brim, and a bleed here lies adjacent to the external iliac artery.
+## explicit_objective
+Relate the ovarian vessels in the suspensory ligament to their crossing of the external iliac vessels at the brim.
+## pitfalls
+Attributing a pelvic-brim bleed to the uterine or vesical branches, which lie deeper and more medially in the pelvis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Anatomy
+## subtopic
+Female pelvic viscera
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Female pelvic viscera
+## article_ids
+ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-GYN-068ED1036E4594
+## label
+The labia majora are the female homologue of the scrotum
+## canonical_key
+labia-majora.homologue.scrotum
+## aliases
+Labioscrotal swelling derivatives
+External genitalia homologues
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The labioscrotal (genital) swellings give the scrotum in the male and the labia majora in the female. Other homologues: the genital tubercle forms the glans penis or clitoris; the urethral folds form the penile spongy urethra and shaft or the labia minora; and the bulb of the vestibule and crura of the clitoris correspond to the bulb and crura of the penis.
+## explicit_objective
+Pair the labia majora with the scrotum as labioscrotal-swelling homologues.
+## pitfalls
+Confusing the labia minora (urethral folds) or the vestibular bulb and clitoral crura (erectile homologues) with the labioscrotal-derived labia majora.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-EMB-T03
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Embryology
+## subtopic
+Genital development
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Embryology > Genital system
+## article_ids
+ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---
+# Item
+## id
+CON-FND-20AC76FA6CE9ED
+## label
+The medial wall of the ischiorectal fossa is levator ani and the external anal sphincter
+## canonical_key
+ischiorectal-fossa.medial-wall.levator-ani-and-external-anal-sphincter
+## aliases
+Walls of the ischiorectal (ischioanal) fossa
+Medial versus lateral wall of the ischiorectal fossa
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The wedge-shaped ischiorectal (ischioanal) fossa has a lateral wall formed by obturator internus and its fascia (with the pudendal canal), and a sloping medial wall formed by the levator ani descending to the anal canal with the external anal sphincter below. Its base is the perineal skin and its apex is where levator ani meets obturator fascia.
+## explicit_objective
+Identify the medial wall of the ischiorectal fossa as levator ani and the external anal sphincter.
+## pitfalls
+Swapping the medial wall (levator ani, external anal sphincter) with the lateral wall (obturator internus).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+fnd
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-FND-T04
+## topic
+Anatomy
+## subtopic
+Perineum
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Anatomy > Perineum
+## article_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard regional-anatomy / embryology (Snell / Last's / Moore / Langman-level) teaching corroborated by this bank's own keyed stem/options (answer key render-verified on the source page); no department book located/read this pass.
+
+---

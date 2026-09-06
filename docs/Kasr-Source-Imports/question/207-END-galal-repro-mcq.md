@@ -9,6 +9,292 @@
 # Item
 
 ## id
+QST-KASR207END-GALALREPRO-002
+
+## title
+Part of levator ani inserted into the perineal body
+
+## question
+Which part of the levator ani is inserted into the perineal body?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Levator prostatae (pubovaginalis).
+
+## explanation_a
+Correct. The most anterior, medial fibres of pubococcygeus — levator prostatae in the male and pubovaginalis in the female — sweep backwards and decussate in the perineal body, giving it muscular support. This anterior sling is the levator-ani component attached to the perineal body.
+
+## answer_b
+Puborectalis.
+
+## explanation_b
+Incorrect. Puborectalis loops as a U-shaped sling behind the anorectal junction to form the puborectal (anorectal) angle; it does not insert into the perineal body.
+
+## answer_c
+Iliococcygeus.
+
+## explanation_c
+Incorrect. Iliococcygeus arises from the tendinous arch and ischial spine and inserts into the anococcygeal raphe and coccyx, not the perineal body.
+
+## answer_d
+Ischiococcygeus.
+
+## explanation_d
+Incorrect. Ischiococcygeus (coccygeus) passes from the ischial spine to the lateral coccyx and lower sacrum and is not attached to the perineal body.
+
+## answer_e
+Sphincter urethrae.
+
+## explanation_e
+Incorrect. The sphincter urethrae is a perineal-pouch muscle of the urogenital region, not a part of the levator ani.
+
+## topic
+Anatomy
+
+## subtopic
+Pelvic floor
+
+## main_concept
+CON-FND-32989C33B35848
+
+## concept_ids
+CON-FND-32989C33B35848
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Pelvic floor
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+State that the anterior pubococcygeus fibres (levator prostatae/pubovaginalis) insert into the perineal body.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q2
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.1 (Q2=a)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
+QST-KASR207END-GALALREPRO-003
+
+## title
+Levator ani component and faecal continence
+
+## question
+A 55-year-old woman complains of faecal incontinence. Atrophy, paralysis or dysfunction of which of the following structures is the most likely contributing factor?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Pubococcygeus muscle.
+
+## explanation_a
+Correct. Pubococcygeus, including its puborectalis fibres, is the functional part of the levator ani that maintains the anorectal angle and supports the anal canal. Weakness or atrophy of this part, often after obstetric injury, is the main muscular cause of faecal incontinence.
+
+## answer_b
+Iliococcygeus muscle.
+
+## explanation_b
+Incorrect. Iliococcygeus is a thin, largely aponeurotic posterior part of levator ani that contributes little active sphincteric support to the anal canal.
+
+## answer_c
+Coccygeus muscle.
+
+## explanation_c
+Incorrect. Coccygeus (ischiococcygeus) supports the pelvic viscera posteriorly and flexes the coccyx; it has no role in anal continence.
+
+## answer_d
+Urogenital diaphragm.
+
+## explanation_d
+Incorrect. The urogenital diaphragm surrounds the membranous urethra and is concerned with urinary, not faecal, continence.
+
+## topic
+Anatomy
+
+## subtopic
+Pelvic floor
+
+## main_concept
+CON-FND-EE21DFB1BF362B
+
+## concept_ids
+CON-FND-EE21DFB1BF362B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Pelvic floor
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Attribute the maintenance of faecal continence to the pubococcygeus/puborectalis part of levator ani.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q3
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.1 (Q3=a)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
 QST-KASR207END-GALALREPRO-005
 
 ## title
@@ -149,6 +435,146 @@ kasr: Dr Galal repro bank, p.1
 # Item
 
 ## id
+QST-KASR207END-GALALREPRO-006
+
+## title
+Structure crossing the pelvic brim
+
+## question
+Which of the following crosses the pelvic brim?
+
+## subject
+renal
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Fallopian tube.
+
+## explanation_a
+Incorrect. The fallopian tube lies within the true pelvis in the free edge of the broad ligament; it does not cross the pelvic brim.
+
+## answer_b
+Uterine artery.
+
+## explanation_b
+Incorrect. The uterine artery arises from the internal iliac within the pelvis and runs medially in the broad ligament; it does not cross the brim.
+
+## answer_c
+Ureter.
+
+## explanation_c
+Correct. The ureter enters the pelvis by crossing the pelvic brim in front of the bifurcation of the common iliac artery, over the sacroiliac joint, then runs down on the lateral pelvic wall. This crossing at the brim is the classic landmark for finding the ureter.
+
+## answer_d
+Lateral sacral artery.
+
+## explanation_d
+Incorrect. The lateral sacral artery is an intrapelvic branch of the internal iliac that runs down the anterior sacrum; it does not cross the brim.
+
+## topic
+Anatomy
+
+## subtopic
+Female pelvic viscera
+
+## main_concept
+CON-REN-DA344D96683A16
+
+## concept_ids
+CON-REN-DA344D96683A16
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Ureter
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+State that the ureter crosses the pelvic brim anterior to the common iliac bifurcation.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q6
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.1 (Q6=c)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
 QST-KASR207END-GALALREPRO-007
 
 ## title
@@ -283,6 +709,146 @@ yes
 ## author_notes
 keySource: circled option (Q7=c)
 kasr: Dr Galal repro bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-GALALREPRO-011
+
+## title
+Uterine ligament derived from the gubernaculum
+
+## question
+Which of the following uterine ligaments is derived from the gubernaculum?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Pubocervical ligament.
+
+## explanation_a
+Incorrect. The pubocervical ligament is a bladder-supporting condensation of pelvic fascia, not a gubernacular derivative.
+
+## answer_b
+Uterosacral ligament.
+
+## explanation_b
+Incorrect. The uterosacral ligament is a condensation of endopelvic fascia running back to the sacrum; it is not derived from the gubernaculum.
+
+## answer_c
+Suspensory ligament of the ovary.
+
+## explanation_c
+Incorrect. The suspensory ligament of the ovary is a peritoneal fold carrying the ovarian vessels; it is not a gubernacular remnant, although the ovarian ligament is.
+
+## answer_d
+Round ligament of the uterus.
+
+## explanation_d
+Correct. The gubernaculum in the female persists as the ovarian ligament (ovary to uterus) and the round ligament of the uterus (uterus through the inguinal canal to the labium majus). The round ligament is therefore the gubernacular derivative among these options.
+
+## topic
+Embryology
+
+## subtopic
+Genital development
+
+## main_concept
+CON-GYN-CEA5D49ABDE776
+
+## concept_ids
+CON-GYN-CEA5D49ABDE776
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Embryology > Genital system
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Identify the round ligament of the uterus (and ovarian ligament) as gubernaculum derivatives.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q11
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.2 (Q11=d)
+kasr: Dr Galal repro bank
 
 ---
 
@@ -569,6 +1135,146 @@ kasr: Dr Galal repro bank, p.3
 # Item
 
 ## id
+QST-KASR207END-GALALREPRO-015
+
+## title
+Vessel at risk near the external iliac artery in pelvic surgery
+
+## question
+A 37-year-old woman underwent a tubal ligation. Two days later she developed fever and signs of hypovolaemic shock, and imaging showed a large haematoma adjacent to the external iliac artery. Which of the following vessels was most likely injured?
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Ovarian artery.
+
+## explanation_a
+Correct. The ovarian vessels descend within the suspensory ligament of the ovary (infundibulopelvic ligament), which crosses the external iliac vessels at the pelvic brim to reach the ovary and tube. Surgery on the tube or ovary near the brim can tear the ovarian artery, producing a haematoma right beside the external iliac artery.
+
+## answer_b
+Ascending branch of the uterine artery.
+
+## explanation_b
+Incorrect. The ascending (main) branch of the uterine artery runs up the side of the uterus within the broad ligament, well medial to the external iliac artery.
+
+## answer_c
+Descending branch of the uterine artery.
+
+## explanation_c
+Incorrect. The descending (cervicovaginal) branch of the uterine artery supplies the cervix and vagina low in the pelvis, not at the pelvic brim.
+
+## answer_d
+Superior vesical artery.
+
+## explanation_d
+Incorrect. The superior vesical artery runs to the bladder from the internal iliac and is not related to the external iliac at the brim.
+
+## topic
+Anatomy
+
+## subtopic
+Female pelvic viscera
+
+## main_concept
+CON-GYN-F2B565B5C920E8
+
+## concept_ids
+CON-GYN-F2B565B5C920E8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Female pelvic viscera
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-GALAL-FEMALE-PELVIC-VISCERA
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Relate the ovarian vessels in the suspensory ligament to their crossing of the external iliac vessels at the brim.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q15
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.3 (Q15=a)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
 QST-KASR207END-GALALREPRO-016
 
 ## title
@@ -849,6 +1555,146 @@ kasr: Dr Galal repro bank, p.3
 # Item
 
 ## id
+QST-KASR207END-GALALREPRO-019
+
+## title
+Female homologue of the scrotum
+
+## question
+The scrotum has as its counterpart (homologue) in the female the:
+
+## subject
+gyn
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Bulb of the vestibule.
+
+## explanation_a
+Incorrect. The bulb of the vestibule is the female homologue of the bulb of the penis (corpus spongiosum), not of the scrotum.
+
+## answer_b
+Crura of the clitoris.
+
+## explanation_b
+Incorrect. The crura of the clitoris are homologous with the crura of the penis (corpora cavernosa), from the genital tubercle.
+
+## answer_c
+Labia majora.
+
+## explanation_c
+Correct. The labioscrotal (genital) swellings form the scrotum in the male and the labia majora in the female. The labia majora are therefore the female homologue of the scrotum. The other options are erectile or urethral-fold derivatives with different male counterparts.
+
+## answer_d
+Labia minora.
+
+## explanation_d
+Incorrect. The labia minora are homologous with the ventral penile shaft skin, derived from the urethral folds, not the labioscrotal swellings.
+
+## topic
+Embryology
+
+## subtopic
+Genital development
+
+## main_concept
+CON-GYN-068ED1036E4594
+
+## concept_ids
+CON-GYN-068ED1036E4594
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Embryology > Genital system
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-GALAL-GENITAL-DEVELOPMENT
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Pair the labia majora with the scrotum as labioscrotal-swelling homologues.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q19
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.3 (Q19=c)
+kasr: Dr Galal repro bank
+
+---
+
+# Item
+
+## id
 QST-KASR207END-GALALREPRO-022
 
 ## title
@@ -983,6 +1829,146 @@ yes
 ## author_notes
 keySource: circled option, render-verified p.4 (Q22=d)
 kasr: Dr Galal repro bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-GALALREPRO-025
+
+## title
+Medial wall of the ischiorectal fossa
+
+## question
+The medial wall of the ischiorectal fossa is formed by which of the following?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Urogenital diaphragm.
+
+## explanation_a
+Incorrect. The urogenital diaphragm lies in the anterior (urogenital) perineum between the ischiopubic rami; it is not a wall of the ischiorectal fossa.
+
+## answer_b
+Levator ani and external anal sphincter.
+
+## explanation_b
+Correct. The medial (superomedial) wall of the ischiorectal fossa is formed by the levator ani sloping down towards the anal canal and, below it, the external anal sphincter. This wall separates the fossa from the anal canal.
+
+## answer_c
+Obturator internus muscle.
+
+## explanation_c
+Incorrect. Obturator internus, covered by its fascia, forms the LATERAL wall of the ischiorectal fossa, not the medial wall.
+
+## answer_d
+Levator ani and obturator fascia.
+
+## explanation_d
+Incorrect. Levator ani with obturator fascia describes the sloping lateral/upper relation; the medial wall is levator ani with the external anal sphincter.
+
+## topic
+Anatomy
+
+## subtopic
+Perineum
+
+## main_concept
+CON-FND-20AC76FA6CE9ED
+
+## concept_ids
+CON-FND-20AC76FA6CE9ED
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Anatomy > Perineum
+
+## question_only_for
+
+## library_ids
+ART-FND-207END-GALAL-PELVIS-PERINEUM
+
+## resource_ids
+src_3c7b49ee6f8407106c2a
+
+## learning_objective
+Identify the medial wall of the ischiorectal fossa as levator ani and the external anal sphincter.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Galal reproductive/pelvic anatomy MCQ bank, Q25
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: circled option, render-verified p.4 (Q25=b)
+kasr: Dr Galal repro bank
 
 ---
 
