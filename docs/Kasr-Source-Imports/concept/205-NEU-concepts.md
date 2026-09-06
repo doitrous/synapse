@@ -20245,3 +20245,1323 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 10 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-F8D57058717CB7
+## label
+Dopamine is the major neurotransmitter of the substantia nigra
+## canonical_key
+substantianigra.neurotransmitter.dopamine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The substantia nigra is a midbrain basal-ganglia nucleus whose pars compacta contains dopaminergic neurons; DOPAMINE is therefore its major neurotransmitter. These neurons project to the striatum (nigrostriatal pathway) to modulate movement, and their degeneration causes Parkinson's disease. Dopamine, not noradrenaline, acetylcholine or serotonin, is the transmitter that defines the substantia nigra.
+## explicit_objective
+Identify dopamine as the major neurotransmitter of the substantia nigra and its nigrostriatal role.
+## pitfalls
+Confusing the substantia nigra's dopamine with noradrenaline (locus coeruleus), acetylcholine or serotonin (raphe).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Basal ganglia
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor System > Basal Ganglia
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following acts as the major neurotransmitter in substantia nigra? a- Dopamine b- Noradrenaline c- Acetylcholine d- Serotonin" ANSWER: a (205 NEU EOM 2023, Q90)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 11 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-268A466A84FD40
+## label
+The hypothalamus controls temperature, endocrine output, food intake and autonomic function, but not somatic motor function
+## canonical_key
+hypothalamus.functions.autonomic-endocrine-temperature-not-motor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The hypothalamus is the chief integrator of homeostasis: it regulates body TEMPERATURE, controls ENDOCRINE output (via the pituitary), governs FOOD and water intake (hunger/satiety and thirst centres), and drives autonomic, emotional and circadian responses. It is NOT a centre for somatic MOTOR control; voluntary movement is governed by the motor cortex, basal ganglia and cerebellum. So of temperature, endocrine, food intake and motor control, motor function is the exception.
+## explicit_objective
+List hypothalamic homeostatic functions and recognise that somatic motor control is not among them.
+## pitfalls
+Assigning somatic motor control to the hypothalamus; that belongs to cortex/basal ganglia/cerebellum, while the hypothalamus handles homeostasis.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Hypothalamus
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Diencephalon > Hypothalamic Functions
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following are functions of hypothalamus Except: a- Temperature regulation b- Endocrine function c- Control of food intake d- Control of motor function" ANSWER: d (205 NEU EOM 2023, Q93)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 11 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E5A34630F84397
+## label
+Retinal ganglion cells are the only retinal neurons whose axons fire action potentials and form the optic nerve
+## canonical_key
+retina.ganglion-cell.axons-form-optic-nerve-action-potentials
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Of the retinal neurons, only the GANGLION CELLS generate propagated action potentials, and it is their axons that converge at the optic disc and form the OPTIC NERVE. Photoreceptors, bipolar, horizontal and amacrine cells signal with graded (non-spiking) potentials and do not project into the optic nerve. So the cells transmitting action potentials via optic-nerve axons are the ganglion cells.
+## explicit_objective
+Identify retinal ganglion cells as the spiking output neurons whose axons form the optic nerve.
+## pitfalls
+Thinking bipolar, horizontal or amacrine cells project into the optic nerve; they use graded potentials, and only ganglion-cell axons form the optic nerve.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Retina and vision
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Retinal Neurons
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following cells transmit action potentials via axons in the optic nerve? a- ganglion cells b- bipolar cells c- amacrine cells d- horizontal cells" ANSWER: a (205 NEU EOM 2023, Q94)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 11 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-97B07F804602F8
+## label
+During near vision the ciliary muscle contracts, suspensory ligaments slacken and the lens becomes more curved (accommodation)
+## canonical_key
+accommodation.near-vision.increased-lens-curvature
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+For near vision the eye ACCOMMODATES: the ciliary muscle CONTRACTS, which relaxes the tension in the suspensory ligaments (zonules), allowing the elastic lens to bulge and INCREASE the curvature of its anterior surface. The greater lens curvature raises refractive power to focus near objects on the retina. It is the LENS, not the cornea (fixed curvature), that changes; and the ciliary muscle contracts rather than relaxes.
+## explicit_objective
+Describe accommodation for near vision as ciliary-muscle contraction, zonule relaxation and increased lens curvature.
+## pitfalls
+Thinking the ciliary muscle relaxes or the cornea changes curvature during near vision; the ciliary muscle contracts and the lens bulges.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Accommodation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Accommodation
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following occurs during near vision? a- More light enters the eye b- The curvature of the cornea increases c- The ciliary muscles relax and decreases the tension from suspensory ligaments d- Increase the curvature of anterior surface of the lens" ANSWER: d (205 NEU EOM 2023, Q95)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 11 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-47B045C8DC686E
+## label
+Presbyopia is the age-related loss of accommodation from a stiffened lens
+## canonical_key
+presbyopia.definition.age-related-loss-of-accommodation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Presbyopia is the progressive, age-related loss of the power of accommodation. With ageing the lens loses elasticity and hardens, so the ciliary muscle can no longer make it bulge for near focus; by about 70 years accommodation is essentially lost. It is distinct from cataract (lens opacity), cycloplegia (drug-/nerve-induced paralysis of the ciliary muscle) and myopia (short-sightedness from an over-long eye). Total loss of accommodation with age is, by definition, presbyopia.
+## explicit_objective
+Define presbyopia as the age-related loss of accommodation due to lens stiffening.
+## pitfalls
+Confusing presbyopia with cataract (opacity), cycloplegia (ciliary paralysis) or myopia (refractive length error).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Accommodation
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Presbyopia
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Total loss of accommodation in persons over 70 years of age is called: a- Cataract b- Cycloplegia c- Myopia d- Presbyopia" ANSWER: d (205 NEU EOM 2023, Q96)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 11 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-5461EF9A4CF725
+## label
+Compared with cones, rods are more sensitive to dim light (scotopic vision) but not to detail or colour
+## canonical_key
+rodcell.function.dim-light-scotopic-sensitivity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rods and cones divide the visual work. RODS contain rhodopsin, are far more numerous and highly convergent, and are exquisitely sensitive to DIM LIGHT, mediating scotopic (night) vision. CONES, concentrated in the fovea, mediate colour vision and high-acuity detail in bright light. So relative to cones, rods are MORE sensitive to dim light, but they are not concentrated in the fovea, not for colour, and not for fine detail.
+## explicit_objective
+Contrast rods (dim-light/scotopic) with cones (fovea, colour, detail).
+## pitfalls
+Attributing colour, detail or foveal concentration to rods; those are cone properties, whereas rods excel at dim-light sensitivity.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Retina and vision
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Rods and Cones
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"On comparison to the cones, the rods are more: a- concentrated in the fovea region b- sensitive to dim light c- important for color vision d- sensitive to details" ANSWER: b (205 NEU EOM 2023, Q97)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-4F6712D034C6D9
+## label
+In sound transmission the stapes footplate pushes inward on the oval window while the round window bulges outward
+## canonical_key
+cochlea.sound-transmission.stapes-oval-window-round-window-bulge
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sound reaches the cochlea through the ossicular chain: the STAPES footplate moves inward against the OVAL WINDOW, displacing the incompressible cochlear fluid, which travels through the scala vestibuli and tympani and, because the fluid cannot compress, forces the ROUND WINDOW membrane to bulge OUTWARD. This oval-in/round-out reciprocity lets the fluid move and creates the travelling wave along the basilar membrane. The malleus and incus transmit the vibration to the stapes but do not themselves seat on the oval window.
+## explicit_objective
+Describe the stapes-at-oval-window / round-window-bulge mechanics of cochlear sound transmission.
+## pitfalls
+Assigning the oval-window contact to the malleus or incus, or reversing the oval/round window roles; the stapes drives the oval window and the round window relieves the pressure.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Auditory physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Cochlear Sound Transmission
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"During transmission of sound waves in the cochlea: a- The foot of the stapes moves inward against the oval window, and the round window bulges outward b- ...stapes against the round window, oval window bulges c- ...head of the malleus against oval window d- ...incus against oval window" ANSWER: a (205 NEU EOM 2023, Q98)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-77B0BFCD4C4035
+## label
+Hair cells are depolarized by potassium ions entering the stereocilia from the K+-rich endolymph
+## canonical_key
+haircell.transduction.endolymph-potassium-influx-depolarization
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cochlear and vestibular hair cells are bathed apically by ENDOLYMPH, which is uniquely rich in POTASSIUM (K+) and carries a positive endocochlear potential. When the stereocilia are deflected toward the tallest row, mechanically gated channels open and K+ flows from the endolymph INTO the hair cell, DEPOLARISING it and triggering transmitter release. So the ion that moves from endolymph into the stereocilia to depolarise the hair cell is potassium, not calcium, chloride or sodium.
+## explicit_objective
+State that K+ influx from the endolymph depolarises hair cells during mechanotransduction.
+## pitfalls
+Assuming Na+ (as in most excitable cells) or Ca2+ carries the transduction current; in hair cells the depolarising ion is K+ from the K+-rich endolymph.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Auditory and vestibular transduction
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Hair Cell Transduction
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which molecules move from the endolymph into the stereocilia and depolarize the hair cell? a- Calcium ions b- Chloride ions c- Potassium ions d- Sodium ions" ANSWER: c (205 NEU EOM 2023, Q99)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-58AD639453B75F
+## label
+Anosmia means absence (loss) of the sense of smell
+## canonical_key
+anosmia.definition.loss-of-sense-of-smell
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Anosmia is the absence or loss of the sense of SMELL. It results from damage to the olfactory pathway — olfactory epithelium, olfactory nerve filaments crossing the cribriform plate, or the olfactory bulb/tract — as in head injury, viral infection or a cribriform-plate fracture. It should be distinguished from insomnia (absence of sleep), ageusia (loss of taste) and blindness (loss of vision).
+## explicit_objective
+Define anosmia as loss of the sense of smell.
+## pitfalls
+Confusing anosmia (smell) with ageusia (taste), insomnia (sleep) or loss of vision.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Olfaction
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Olfaction
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"What is the meaning of anosmia? a- Absence of sleep b- Absence of taste c- Absence of smell d- Absence of vision" ANSWER: c (205 NEU EOM 2023, Q100)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-843A849C0033F7
+## label
+The subsynaptic web anchors neurotransmitter receptors to the postsynaptic membrane; electrical synapses use gap junctions
+## canonical_key
+synapse.ultrastructure.subsynaptic-web-anchors-receptors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ultrastructurally, the postsynaptic membrane of a chemical synapse carries a SUBSYNAPTIC (synaptic) WEB — a filamentous, electron-dense meshwork that FIXES the neurotransmitter receptors in place on the membrane. Other true features: the chemical synaptic cleft is about 20-30 NANOmetres (not micrometres) wide; the presynaptic axon terminal is RICH in mitochondria (it is metabolically active); and ELECTRICAL synapses are formed by GAP junctions (not tight junctions), which let ionic current spread directly between cells. So the correct statement is that the synaptic web fixes the receptors to the membrane.
+## explicit_objective
+State that the subsynaptic web anchors postsynaptic receptors, and correct common synapse-ultrastructure errors.
+## pitfalls
+Giving the cleft in micrometres (it is ~20-30 nm), calling the terminal mitochondria-poor, or saying electrical synapses use tight (rather than gap) junctions.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Synapse histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Synapse
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Choose the correct statement regarding the synapse: a- Synaptic cleft of chemical synapse is about 20-30 um b- Electrical synapse contains tight junction permitting spread of electrical current c- Axon terminal side of the chemical synapse lacks mitochondria d- Synaptic web fixes the neurotransmitter receptors to cell membrane" ANSWER: d (205 NEU EOM 2023, Q101)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-9BC26432CAAE34
+## label
+The cochlear (spiral) and vestibular ganglia contain bipolar neurons
+## canonical_key
+spiralvestibularganglion.neuron-type.bipolar
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cochlear (SPIRAL) ganglion and the VESTIBULAR (Scarpa's) ganglion of the inner ear are made of BIPOLAR neurons — each with one dendrite to the hair cells and one axon into the vestibulocochlear nerve. Bipolar sensory ganglia are otherwise uncommon (the retina and olfactory epithelium are the other classic examples); most sensory ganglia are pseudounipolar. They are not multipolar stellate, pyriform (Purkinje) or pyramidal neurons.
+## explicit_objective
+Classify the spiral and vestibular ganglion neurons as bipolar.
+## pitfalls
+Calling inner-ear ganglion neurons pseudounipolar (like dorsal-root ganglia) or multipolar; the spiral and vestibular ganglia are bipolar.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nerve histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Ganglia
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Cochlear and Vestibular ganglia in the ear are examples of: a- Multipolar stellate neurons b- Bipolar neurons c- Multipolar pyriform neurons d- Multipolar pyramidal neurons" ANSWER: b (205 NEU EOM 2023, Q103)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-4263EFC8E997B9
+## label
+Retinal pigment epithelial cells hold melanin granules in their inner (apical) parts and interdigitate with photoreceptors, joined by junctional complexes
+## canonical_key
+retinalpigmentepithelium.histology.apical-melanin-granules
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The retinal pigment epithelium (RPE) is a single layer of cells resting on Bruch's membrane. Its INNER (apical) cytoplasm and apical microvilli are rich in MELANIN granules, which absorb stray light, and these microvilli interdigitate with the outer segments of the RODS and CONES (not with ganglion cells). Adjacent RPE cells are joined LATERALLY by junctional complexes (tight junctions) that form the outer blood-retinal barrier. So the correct statement is that the inner parts of the cells are rich in melanin.
+## explicit_objective
+Recall RPE histology: apical melanin, interdigitation with photoreceptors and lateral junctional complexes.
+## pitfalls
+Placing melanin basally, saying RPE microvilli meet ganglion cells, or that its lateral membranes lack junctions; melanin is apical, it interdigitates with photoreceptors, and lateral tight junctions form the barrier.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Eye histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Eye > Retinal Pigment Epithelium
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In the retinal pigmented epithelium, the correct answer is: a- Inner parts of the cells are rich in melanin pigments b- Is resting on the outer limiting membrane c- Their lateral cell membranes lack cellular junctions d- Their microvilli interdigitate with ganglion cells" ANSWER: a (205 NEU EOM 2023, Q105)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp, Histology image-only) have no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neuroscience consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 12 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 3), de-duplicated against the ~184 already-authored 205 NEU stems before authoring.

@@ -4,7 +4,7 @@
 | 2024-eom-head-and-neck-anatomy | 26 | 2 | 0 | 28 |
 | 2024-eom-physiology | 23 | 0 | 0 | 23 |
 | 2024-eom-physiology-b | 34 | 4 | 0 | 38 |
-| 2023-eom-head-and-neck-anatomy | 67 | 0 | 28 | 95 |
+| 2023-eom-head-and-neck-anatomy | 79 | 0 | 10 | 89 |
 
 `2023-eom-head-and-neck-anatomy` is the EOM (2023 sitting) paper src_1d0cd2a7afeb66dcfd85
 (printed 30/11/2023). First pass: Q1-24 read (pages 1-3), 20 genuinely-new items authored,
@@ -40,6 +40,17 @@ new physiology concepts minted (unsalted university-blind, collision-checked), 8
 ART-NEU-205NEU-CNS-PHYSIOLOGY and 3 (motor control / vestibular) to ART-NEU-205NEU-CNS-PHYSIOLOGY-B
 coverage. `total` = 115 - 20 dupes = 95; authored 56 -> 67; `remaining` = Q88-115 (pages 11-14,
 image-only) + Section B (held for image attachment).
+
+Third pass SLICE 3 (2026-09-06): Q88-105 read (pages 11-12). 12 genuinely-new items authored
+(Q90,93,94,95,96,97,98,99,100,101,103,105 — basal ganglia, hypothalamus, vision, hearing,
+olfaction, synapse & nerve/eye histology) into seed eom2023-head-and-neck-anatomy-p5.json ->
+batch 205-NEU-2023eom-head-neck-p5-mcq.md; 6 skipped as near-duplicates (Q88 cerebellar ataxia,
+Q89 paleocerebellum servo-correction = intermediate-zone, Q91 Parkinsonism features, Q92 REM sleep,
+Q102 nerve degeneration [exact EOY198 twin], Q104 neuroglia astrocyte morphology). 12 new concepts
+minted (unsalted university-blind, collision-checked); 9 added to ART-NEU-205NEU-CNS-PHYSIOLOGY-B and
+3 (synapse/ganglion/RPE histology) to ART-NEU-205NEU-SPECIAL-SENSES-NERVE-HISTOLOGY coverage.
+`total` = 115 - 26 dupes = 89; authored 67 -> 79; `remaining` = Q106-115 (pages 13-14, image-only)
++ Section B (held for image attachment).
 
 ## Held
 - 2024eom-q20 — Printed options are Lingual/Hypoglossal/Internal laryngeal/Glossopharyngeal for the nerve related to the superior thyroid artery; the source's own hand annotation crosses out the green-highlighted "Internal laryngeal" and corrects it in the margin to "External laryngeal" — the anatomically correct nerve (external laryngeal nerve is closely related to the superior thyroid artery, not internal laryngeal) — but "External laryngeal" is not one of the four printed options. No printed option is source-supported as correct after the correction; held per the book-is-the-source rule rather than authored against a key the source's own correction contradicts.

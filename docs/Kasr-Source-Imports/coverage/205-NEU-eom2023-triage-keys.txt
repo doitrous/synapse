@@ -83,4 +83,23 @@ Q79.A Q80.A Q81.B Q82.A Q83.B Q84.B Q85.B Q86.A Q87.D
 #   Q86 (crista: depolarization when stereocilia bend toward kinocilium) == EXACT existing "hair cells of the crista ampullaris" stereocilia-kinocilium fact.
 #   Q87 (frontal-lobe speech-centre stroke -> Broca) == existing Broca stems ("inability to talk", "poorly articulated slow effortful speech"); also key ambiguous (margin d vs classic expressive-aphasia b).
 #
-# NOT YET TRIAGED: Q88-115 (pages 11-14, image-only) and Section B (extended cross-match, held for image attachment).
+# ============================================================================
+# THIRD PASS (2026-09-06) — SLICE 3: Q88-105 (pages 11-12) rendered at 200dpi,
+# margin letters read by eye and cross-checked against standard neuroscience.
+# Keys read this slice (Q88-105):
+Q88.C Q89.B Q90.A Q91.D Q92.C Q93.D Q94.A Q95.D Q96.D
+Q97.B Q98.A Q99.C Q100.C Q101.D Q102.D Q103.B Q104.A Q105.A
+#
+# AUTHORED this slice (12 genuinely-new items, seed eom2023-head-and-neck-anatomy-p5.json
+# -> batch 205-NEU-2023eom-head-neck-p5-mcq.md):
+#   Q90, Q93, Q94, Q95, Q96, Q97, Q98, Q99, Q100, Q101, Q103, Q105
+#
+# SKIPPED as near-duplicates of already-authored 205 NEU stems:
+#   Q88 (cerebellar dysfunction -> drunken gait/ataxia) == 2024eom-q89 "cerebellar disease produces which symptoms" (ataxia).
+#   Q89 (paleocerebellum -> servo-correction of movement) == 2024eom-q88 "functional role of the intermediate zone" (servo comparator; spinocerebellum = paleocerebellum).
+#   Q91 (Parkinsonism features except kinetic tremor) == 2024eom-q86 "symptom of Parkinsonism".
+#   Q92 (REM sleep -> marked hypotonia) == 2024eom-q91 "characteristic finding in REM sleep phase".
+#   Q102 (nerve degeneration -> digestion/fermentation chambers distal) == EXACT existing EOY198 stem "Regarding degeneration of nerves" (digestion chambers, ans d).
+#   Q104 (neuroglia -> fibrous astrocytes few long processes) == 2024eom-q103 "The answer that best applies to neuroglia" (astrocyte-morphology concept; its distractor states the same fact for protoplasmic astrocytes).
+#
+# NOT YET TRIAGED: Q106-115 (pages 13-14, image-only) and Section B (extended cross-match, held for image attachment).
