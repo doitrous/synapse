@@ -1982,3 +1982,898 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The e
 ## randomise_answers
 yes
 ## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-21
+## title
+Optic disc oedema seen in all except open angle glaucoma
+## question
+Optic disc oedema may seen in all except:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Papilledema
+## explanation_a
+Incorrect (a genuine cause). Raised intracranial pressure swells the disc (papilledema).
+## answer_b
+CRVO
+## explanation_b
+Incorrect (a genuine cause). Central retinal vein occlusion causes disc swelling with congested veins.
+## answer_c
+Open angle glaucoma
+## explanation_c
+Correct. Open-angle glaucoma hollows out the disc (cupping); it does not swell it, so it is the exception.
+## answer_d
+Hypertensive retinopathy
+## explanation_d
+Incorrect (a genuine cause). Malignant/accelerated hypertension causes disc oedema.
+## topic
+Ophthalmology
+## subtopic
+Optic disc
+## main_concept
+CON-MUL-1FF9285F996F54
+## concept_ids
+CON-MUL-1FF9285F996F54
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude open-angle glaucoma (which cups the disc) from the causes of optic disc swelling.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-22
+## title
+Retrobulbar optic neuritis: impaired direct light reflex
+## question
+Retro-bulbar optic neuritis is characterized by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Marked swelling of the optic disc
+## explanation_a
+Incorrect. In retrobulbar neuritis the disc looks normal acutely (the inflammation is behind the globe).
+## answer_b
+Impaired direct light reflex in the affected eye
+## explanation_b
+Correct. There is an impaired direct light reflex in the affected eye (a relative afferent pupillary defect).
+## answer_c
+Impaired consensual light reflex in the affected eye
+## explanation_c
+Incorrect. The consensual response of the affected eye (when the normal eye is lit) is intact; the efferent pathway is normal.
+## answer_d
+Normal visual acuity
+## explanation_d
+Incorrect. Visual acuity is reduced in the affected eye.
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## main_concept
+CON-MUL-5581B670718650
+## concept_ids
+CON-MUL-5581B670718650
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise an impaired direct light reflex (relative afferent pupillary defect) in retrobulbar optic neuritis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-23
+## title
+Features of primary optic atrophy
+## question
+Primary optic atrophy is characterized by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Optic disc is white in color.
+## explanation_a
+Incorrect only as a sole answer — it is a true feature, but not the complete answer.
+## answer_b
+Lamina cribrosa is well seen
+## explanation_b
+Incorrect only as a sole answer — it is a true feature, but not the complete answer.
+## answer_c
+Retina and blood vessels are normal
+## explanation_c
+Incorrect only as a sole answer — it is a true feature, but not the complete answer.
+## answer_d
+all of the above.
+## explanation_d
+Correct. Primary optic atrophy shows a white disc, a well-seen lamina cribrosa and a normal retina with normal vessels — all of the above.
+## topic
+Ophthalmology
+## subtopic
+Optic atrophy
+## main_concept
+CON-MUL-D5DB9390A1A334
+## concept_ids
+CON-MUL-D5DB9390A1A334
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the white disc, visible lamina cribrosa and normal retina of primary optic atrophy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-24
+## title
+Horner’s syndrome does NOT include lagophthalmos
+## question
+Clinical picture of Horner’s syndrome does NOT Include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Lagophthalmos
+## explanation_a
+Correct. Lagophthalmos (incomplete lid closure) is not a feature of Horner’s syndrome; the lid droops (partial ptosis), it does not fail to close.
+## answer_b
+Ptosis
+## explanation_b
+Incorrect (a genuine feature). A partial ptosis from Muller’s-muscle paralysis is characteristic.
+## answer_c
+Enophthalmos
+## explanation_c
+Incorrect (a genuine feature). Apparent enophthalmos occurs.
+## answer_d
+anhydrosis
+## explanation_d
+Incorrect (a genuine feature). Ipsilateral facial anhidrosis occurs.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-DDAE5BF64386BD
+## concept_ids
+CON-MUL-DDAE5BF64386BD
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that lagophthalmos is not part of Horner’s syndrome.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-25
+## title
+Pseudotumor cerebri causes a lateral rectus palsy
+## question
+High ICT due to Pseudotumor cerebri can affect the eye by one of the following:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Optic neuritis
+## explanation_a
+Incorrect. Raised intracranial pressure causes papilledema, not optic neuritis.
+## answer_b
+Lateral rectus palsy
+## explanation_b
+Correct. Raised intracranial pressure stretches the sixth nerve, causing a lateral rectus palsy (a false localising sign).
+## answer_c
+Iridocyclitis
+## explanation_c
+Incorrect. Iridocyclitis is unrelated to raised intracranial pressure.
+## answer_d
+High intraocular pressure
+## explanation_d
+Incorrect. Raised intracranial pressure does not raise the intraocular pressure.
+## topic
+Ophthalmology
+## subtopic
+Optic disc
+## main_concept
+CON-MUL-0D89C958F3BA46
+## concept_ids
+CON-MUL-0D89C958F3BA46
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise a sixth-nerve (lateral rectus) palsy as a false localising effect of raised intracranial pressure.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-26
+## title
+Retrobulbar neuritis characteristics (all of the above)
+## question
+Retrobulbar neuritis is characterized by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+May be acute or chronic
+## explanation_a
+Incorrect only as a sole answer — a true feature, but not the complete answer.
+## answer_b
+Shows central or paracentral scotoma for red & green
+## explanation_b
+Incorrect only as a sole answer — a true feature, but not the complete answer.
+## answer_c
+Inflammation of optic nerve behind the eye
+## explanation_c
+Incorrect only as a sole answer — a true feature, but not the complete answer.
+## answer_d
+May be due to disseminated sclerosis
+## explanation_d
+Incorrect only as a sole answer — a true feature, but not the complete answer.
+## answer_e
+all of the above
+## explanation_e
+Correct. Retrobulbar neuritis may be acute or chronic, shows a central/paracentral red-green scotoma, is inflammation of the optic nerve behind the globe, and may be due to disseminated sclerosis — all of the above.
+## topic
+Ophthalmology
+## subtopic
+Optic neuritis
+## main_concept
+CON-MUL-5581B670718650
+## concept_ids
+CON-MUL-5581B670718650
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the combined features of retrobulbar neuritis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-27
+## title
+One retina projects to both visual cortices
+## question
+Stimulation of one retina will result into electric activity in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+contralateral visual cortex
+## explanation_a
+Incorrect. Only the nasal fibres cross; the temporal fibres stay ipsilateral, so both cortices are activated.
+## answer_b
+Ipsilateral visual cortex
+## explanation_b
+Incorrect. The crossing nasal fibres also project to the contralateral cortex.
+## answer_c
+both visual cortices
+## explanation_c
+Correct. At the chiasm the nasal fibres cross and the temporal fibres stay, so one retina projects to both visual cortices.
+## answer_d
+contralateral sensory cortex
+## explanation_d
+Incorrect. The visual pathway ends in the occipital visual cortex, not the (parietal) sensory cortex.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that each retina projects to both visual cortices (via chiasmal hemidecussation).
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.130); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-28
+## title
+Left optic tract lesion causes a right homonymous hemianopia
+## question
+Left optic tract lesion causes:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Bitemporal hemianopia
+## explanation_a
+Incorrect. A bitemporal hemianopia is a chiasmal defect.
+## answer_b
+Left superior quadrantanopia.
+## explanation_b
+Incorrect. That points to a right temporal-lobe lesion, not the left optic tract.
+## answer_c
+Right homonymous hemianopia.
+## explanation_c
+Correct. A left optic tract lesion (carrying fibres for the right visual field) causes a right homonymous hemianopia.
+## answer_d
+Left homonymous hemianopia.
+## explanation_d
+Incorrect. A left homonymous hemianopia would follow a right-sided retrochiasmal lesion.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Localise a right homonymous hemianopia to a left optic tract lesion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.131); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-29
+## title
+Causes of miosis EXCEPT third nerve palsy
+## question
+All the following can cause miosis EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Opium toxicity.
+## explanation_a
+Incorrect (a genuine cause). Opioids cause pinpoint miosis.
+## answer_b
+Pontine hemorrhage.
+## explanation_b
+Incorrect (a genuine cause). A pontine haemorrhage causes miosis.
+## answer_c
+3rd nerve palsy.
+## explanation_c
+Correct. A third nerve palsy paralyses the sphincter and dilates the pupil (mydriasis); it does not cause miosis.
+## answer_d
+Horner syndrome.
+## explanation_d
+Incorrect (a genuine cause). Sympathetic paralysis in Horner’s syndrome causes miosis.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-79A95C3D32D326
+## concept_ids
+CON-MUL-79A95C3D32D326
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude the third nerve palsy (which dilates the pupil) from the causes of miosis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.131); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

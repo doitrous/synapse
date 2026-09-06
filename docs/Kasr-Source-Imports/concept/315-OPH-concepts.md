@@ -31771,3 +31771,225 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q11-20) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1FF9285F996F54
+## label
+Causes of optic disc swelling (and the glaucoma exception)
+## canonical_key
+ophthalmology.optic-disc-swelling.causes-and-glaucoma-exception
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Optic disc oedema (a swollen disc) is seen in papilledema (raised intracranial pressure), central retinal vein occlusion, malignant/accelerated hypertensive retinopathy, and papillitis/ischaemic optic neuropathy. Open-angle glaucoma does NOT swell the disc — it hollows it out (glaucomatous cupping) — so glaucoma is the exception.
+## explicit_objective
+List the causes of a swollen optic disc and recognise that open-angle glaucoma causes cupping, not swelling.
+## pitfalls
+Listing open-angle glaucoma as a cause of disc swelling; glaucoma produces optic-disc cupping, not oedema.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic disc
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic disc
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q21-29) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D5DB9390A1A334
+## label
+Features of primary optic atrophy
+## canonical_key
+ophthalmology.optic-atrophy.primary-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Primary optic atrophy follows a direct optic-nerve insult without preceding disc swelling. The disc is chalky-white with sharply defined margins, the lamina cribrosa is clearly seen through the atrophic nerve head, and the retina and its blood vessels are normal. This contrasts with secondary (post-papilloedema/papillitis) atrophy, where the margins are blurred and the lamina is obscured.
+## explicit_objective
+Recognise the white disc, visible lamina cribrosa and normal retina/vessels of primary optic atrophy.
+## pitfalls
+Confusing primary optic atrophy (sharp margins, visible lamina) with secondary optic atrophy (blurred margins, obscured lamina from prior disc swelling).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic atrophy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic atrophy
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q21-29) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
