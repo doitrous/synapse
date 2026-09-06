@@ -490,3 +490,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-6
+## title
+Vision loss in a child on long-term spring-catarrh treatment
+## question
+The most likely cause of bilateral defective vision in a 14-year-old child receiving long-term treatment for spring catarrh:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Complicated cataract.
+## explanation_a
+Correct. Long-term topical steroids for spring catarrh cause a complicated (posterior subcapsular) cataract.
+## answer_b
+Retinopathy of prematurity.
+## explanation_b
+Incorrect. Retinopathy of prematurity affects premature neonates, not a treated 14-year-old.
+## answer_c
+Optic neuritis.
+## explanation_c
+Incorrect. Optic neuritis is usually unilateral and painful, not a steroid effect.
+## answer_d
+Central retinal vein occlusion.
+## explanation_d
+Incorrect. Vein occlusion is a disease of older, vasculopathic patients.
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## main_concept
+CON-MUL-ADABACA39BCBB2
+## concept_ids
+CON-MUL-ADABACA39BCBB2
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Attribute bilateral visual loss on long-term topical steroids to a complicated cataract.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.183); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-7
+## title
+Drug causing bull's eye maculopathy
+## question
+Which of the following drugs cause bull's eye maculopathy:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Interferons.
+## explanation_a
+Incorrect. Interferon causes cotton-wool spots and haemorrhages, not a bull's-eye lesion.
+## answer_b
+Steroids.
+## explanation_b
+Incorrect. Steroids cause cataract and raised pressure, not bull's-eye maculopathy.
+## answer_c
+Amiodarone.
+## explanation_c
+Incorrect. Amiodarone causes optic neuropathy and corneal deposits, not this lesion.
+## answer_d
+Chloroquines.
+## explanation_d
+Correct. Chloroquine classically produces a bull's-eye maculopathy.
+## topic
+Ophthalmology
+## subtopic
+Drug-induced retinopathy
+## main_concept
+CON-MUL-ABFA4137BF930C
+## concept_ids
+CON-MUL-ABFA4137BF930C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify chloroquine as the cause of bull's-eye maculopathy.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-8
+## title
+Drug of choice for dendritic corneal ulcer
+## question
+The drug of choice for dendritic corneal ulcer:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Vidarabine.
+## explanation_a
+Incorrect. Vidarabine is an older, more toxic antiviral.
+## answer_b
+IDU.
+## explanation_b
+Incorrect. IDU is toxic to the epithelium and largely superseded.
+## answer_c
+Trifluorothymidine.
+## explanation_c
+Incorrect. Trifluorothymidine is effective but not the preferred first choice here.
+## answer_d
+Acyclovir.
+## explanation_d
+Correct. Acyclovir is the drug of choice for a dendritic (herpes simplex) corneal ulcer.
+## topic
+Ophthalmology
+## subtopic
+Antiviral drugs
+## main_concept
+CON-MUL-80FBC54356B5FC
+## concept_ids
+CON-MUL-80FBC54356B5FC
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Select acyclovir as the drug of choice for a dendritic corneal ulcer.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-9
+## title
+Duration of atropine cycloplegia
+## question
+The cycloplegic effect of atropine eye drops can extend up to:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+48 hours.
+## explanation_a
+Incorrect. Atropine's action far outlasts 48 hours.
+## answer_b
+7 days.
+## explanation_b
+Incorrect. Its effect commonly exceeds one week.
+## answer_c
+10 days.
+## explanation_c
+Incorrect. The effect can last longer than 10 days.
+## answer_d
+14 days.
+## explanation_d
+Correct. Atropine cycloplegia can extend up to 14 days (about two weeks).
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## main_concept
+CON-MUL-8C898B7DA6A2AB
+## concept_ids
+CON-MUL-8C898B7DA6A2AB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that atropine cycloplegia can last up to two weeks.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-10
+## title
+Uses of fluorescein dye — EXCEPT
+## question
+Fluorescein dye is used in diagnosis of the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Corneal epithelial abrasions.
+## explanation_a
+Incorrect (a genuine use). Fluorescein stains corneal epithelial abrasions.
+## answer_b
+Dry eye.
+## explanation_b
+Incorrect (a genuine use). Fluorescein assesses the tear film in dry eye.
+## answer_c
+Measurement of IOP.
+## explanation_c
+Incorrect (a genuine use). Fluorescein is used for applanation measurement of intraocular pressure.
+## answer_d
+Removal of corneal foreign body.
+## explanation_d
+Correct. Removing a corneal foreign body is a procedure, not a diagnostic use of fluorescein; it is the exception.
+## topic
+Ophthalmology
+## subtopic
+Diagnostic dyes
+## main_concept
+CON-MUL-9F7814A0FE281C
+## concept_ids
+CON-MUL-9F7814A0FE281C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude foreign-body removal from the diagnostic uses of fluorescein.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.184); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
