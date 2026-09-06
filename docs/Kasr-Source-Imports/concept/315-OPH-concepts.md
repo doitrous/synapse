@@ -7710,3 +7710,2355 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
 nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D7C67ACC9E2C22
+## label
+The pre-corneal tear film depends on goblet-cell mucin
+## canonical_key
+ophthalmology.precorneal-tear-film.affected-by-goblet-cell-deficiency
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pre-corneal tear film nourishes, lubricates and antibacterially protects the cornea, and its innermost mucin layer is produced by the conjunctival goblet cells; loss of goblet cells destabilises the film, so it is not true that the film is unaffected by goblet-cell deficiency.
+## explicit_objective
+Recognise that goblet-cell (mucin) deficiency does affect the pre-corneal tear film.
+## pitfalls
+Assuming only the aqueous (lacrimal) layer matters; mucin from goblet cells is essential for tear-film stability.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Tear film
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Tear film
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1F14CA653FB3A7
+## label
+Fluorescein angiography is not part of the epiphora work-up
+## canonical_key
+ophthalmology.epiphora-workup.excludes-fluorescein-angiography
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Investigation of a watering eye examines the lids, face and lacrimal passages and uses dye tests such as the Jones dye test; fluorescein angiography images the retinal and choroidal circulation and has no role in assessing lacrimal drainage.
+## explicit_objective
+Recognise that fluorescein angiography is not an investigation for epiphora.
+## pitfalls
+Confusing fluorescein dye tests of tear drainage (Jones test) with retinal fluorescein angiography.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Lacrimal drainage
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Lacrimal drainage
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-EEC014D3C77F25
+## label
+Squint is not a complication of acute dacryocystitis
+## canonical_key
+ophthalmology.acute-dacryocystitis.complications-exclude-squint
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute dacryocystitis can spread to cause orbital cellulitis, cavernous sinus thrombosis and a lacrimal fistula; squint (ocular misalignment) is unrelated and is not one of its complications.
+## explicit_objective
+Recognise that squint is not a complication of acute dacryocystitis.
+## pitfalls
+Assuming any orbital-region infection causes squint; the true complications are cellulitis, cavernous sinus thrombosis and fistula.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Dacryocystitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Dacryocystitis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E94C3D6F8203A4
+## label
+Chronic dacryocystitis gives a positive regurgitation test
+## canonical_key
+ophthalmology.chronic-dacryocystitis.presentation-excludes-negative-regurge
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic dacryocystitis presents with epiphora, fullness and a swelling below the medial palpebral ligament, and pressure over the sac regurgitates mucopurulent material (a positive regurge test); a negative regurge test is therefore not part of the picture.
+## explicit_objective
+Recognise that chronic dacryocystitis produces a positive, not negative, regurge test.
+## pitfalls
+Expecting a negative regurge test; the retained sac contents make the test positive.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Dacryocystitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Dacryocystitis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-10459CF674AEBE
+## label
+Indications for contrast dacryocystography
+## canonical_key
+ophthalmology.dacryocystography.indications-obstruction-site-fistula-filling-defects
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Contrast dacryocystography opacifies the lacrimal drainage system to confirm the site of obstruction before lacrimal surgery, to demonstrate diverticula and fistulae, and to reveal filling defects caused by tumours or stones; all of these are recognised indications.
+## explicit_objective
+List the indications for contrast dacryocystography.
+## pitfalls
+Thinking dacryocystography has a single indication; it is used for obstruction site, diverticula/fistula and filling defects alike.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Lacrimal drainage
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Lacrimal drainage
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-34DDC1B58275E8
+## label
+Squamous blepharitis is not a suppurative lid-gland inflammation
+## canonical_key
+ophthalmology.lid-gland-inflammation.excludes-squamous-blepharitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ulcerative blepharitis, hordeolum externum (Zeis/Moll gland) and hordeolum internum (meibomian gland) are inflammations of the lid glands; squamous (seborrhoeic) blepharitis is a scaling disorder of the lid margin rather than a suppurative gland inflammation.
+## explicit_objective
+Recognise squamous blepharitis as the exception among lid-gland inflammations.
+## pitfalls
+Grouping seborrhoeic (squamous) blepharitis with the suppurative gland infections.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Blepharitis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Blepharitis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1D7E7CD2017AAA
+## label
+Levator resection is used for ptosis with good levator function
+## canonical_key
+ophthalmology.levator-resection.indicated-in-moderate-ptosis-with-good-levator-function
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Levator resection shortens the levator muscle and requires useful residual levator action, so it is indicated in moderate ptosis with good levator function; severe ptosis with poor levator function is instead treated by a frontalis (brow) sling.
+## explicit_objective
+Identify moderate ptosis with good levator function as the indication for levator resection.
+## pitfalls
+Choosing levator resection when levator function is poor; those cases need a frontalis sling.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Ptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3E1BDF6BD2ED75
+## label
+Thyroid eye disease can occur in any thyroid state
+## canonical_key
+ophthalmology.thyroid-eye-disease.occurs-in-hyper-hypo-and-euthyroid-states
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroid (dysthyroid) eye disease is an autoimmune orbitopathy that can occur when the patient is hyperthyroid, hypothyroid or euthyroid; it is not confined to the hyperthyroid state.
+## explicit_objective
+Recognise that thyroid eye disease occurs in hyper-, hypo- and euthyroid patients.
+## pitfalls
+Assuming thyroid eye disease only accompanies hyperthyroidism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Thyroid eye disease
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Thyroid eye disease
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-B5BFC2C5716666
+## label
+Endophthalmitis does not cause proptosis
+## canonical_key
+ophthalmology.proptosis.absent-in-endophthalmitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Endophthalmitis is an infection confined to the intraocular cavities and does not push the globe forward, so proptosis is absent; panophthalmitis, orbital cellulitis and Graves' disease all involve or expand orbital tissue and do produce proptosis.
+## explicit_objective
+Recognise that endophthalmitis, unlike panophthalmitis, does not cause proptosis.
+## pitfalls
+Confusing endophthalmitis (intraocular only) with panophthalmitis (extends to the orbit), which does cause proptosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Proptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Proptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-770665490880E3
+## label
+Vitamin A deficiency does not cause ophthalmoplegia
+## canonical_key
+ophthalmology.vitamin-a-deficiency.effects-exclude-ophthalmoplegia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vitamin A deficiency causes xerophthalmia - night blindness, Bitot spots and keratomalacia; ophthalmoplegia is not a feature and points instead to causes such as thiamine deficiency.
+## explicit_objective
+Recognise that ophthalmoplegia is not a manifestation of vitamin A deficiency.
+## pitfalls
+Attributing ophthalmoplegia to vitamin A deficiency rather than to the xerophthalmia signs.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Dry eye
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Dry eye
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C04AF9B455ACE0
+## label
+Horner's syndrome does not cause proptosis
+## canonical_key
+ophthalmology.proptosis.causes-exclude-horner-syndrome
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Orbital cellulitis, thyroid ophthalmopathy, idiopathic orbital inflammation and rhabdomyosarcoma expand orbital contents and cause proptosis; Horner's syndrome produces a mild ptosis and apparent enophthalmos, not proptosis.
+## explicit_objective
+Recognise that Horner's syndrome is not a cause of proptosis.
+## pitfalls
+Expecting proptosis in Horner's syndrome, which actually gives ptosis and pseudo-enophthalmos.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Proptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Proptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3A0335118BC156
+## label
+Chalazion does not cause proptosis
+## canonical_key
+ophthalmology.proptosis.causes-exclude-chalazion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Orbital and adnexal masses such as retinoblastoma, childhood leukaemic deposits and lacrimal gland tumours can push the globe forward; a chalazion is a lid-margin granuloma within the tarsal plate and does not cause proptosis.
+## explicit_objective
+Recognise that a chalazion, unlike orbital tumours, does not cause proptosis.
+## pitfalls
+Treating any lid or orbital lesion as a cause of proptosis; a chalazion is confined to the tarsal plate.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Proptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Proptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4242207F6B1538
+## label
+Chest x-ray is not a routine proptosis investigation
+## canonical_key
+ophthalmology.proptosis-workup.excludes-chest-x-ray
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A case of proptosis is investigated with CT and MRI of the orbit, thyroid function tests and, for tumours, surgical biopsy; a chest x-ray is not a routine part of the proptosis work-up.
+## explicit_objective
+Recognise that chest x-ray is not a standard investigation for proptosis.
+## pitfalls
+Adding a chest x-ray to the routine proptosis work-up instead of orbital imaging, thyroid tests and biopsy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Proptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Proptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-59D0316B92F69D
+## label
+Thyroxine is not a treatment for thyroid eye disease
+## canonical_key
+ophthalmology.thyroid-eye-disease.management-excludes-thyroxine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Management of thyroid eye disease centres on controlling the hyperthyroidism (antithyroid drugs, radioactive iodine or thyroidectomy) plus ocular measures; giving thyroxine is not a treatment for the eye disease.
+## explicit_objective
+Recognise that thyroxine is not part of thyroid eye disease management.
+## pitfalls
+Listing thyroxine as a treatment; it is replacement for hypothyroidism, not therapy for the orbitopathy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Thyroid eye disease
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Thyroid eye disease
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-09CA701462633A
+## label
+Cavernous haemangioma is the commonest benign orbital tumour
+## canonical_key
+ophthalmology.orbital-tumours.commonest-benign-is-cavernous-haemangioma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cavernous haemangioma is the commonest benign orbital tumour causing proptosis in adults; rhabdomyosarcoma and lymphoma are malignant, and meningioma is a less common primary orbital cause.
+## explicit_objective
+Identify cavernous haemangioma as the commonest benign orbital tumour.
+## pitfalls
+Confusing the commonest benign orbital tumour with malignant lesions such as rhabdomyosarcoma or lymphoma.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Orbital tumours
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Orbital tumours
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3C4F9FBABF7B2A
+## label
+Ectropion is not a feature of thyroid eye disease
+## canonical_key
+ophthalmology.thyroid-eye-disease.features-exclude-ectropion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroid eye disease features diplopia, optic neuropathy and upper-lid retraction; ectropion (outward turning of the lid margin) is not one of its features.
+## explicit_objective
+Recognise that ectropion is not a feature of thyroid eye disease.
+## pitfalls
+Confusing lid retraction, the true thyroid sign, with ectropion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Thyroid eye disease
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Thyroid eye disease
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E8647F7F8F09A1
+## label
+Hypertension does not predispose to acute hordeolum
+## canonical_key
+ophthalmology.acute-hordeolum.predisposing-causes-exclude-hypertension
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diabetes mellitus, lack of sleep and uncorrected refractive error (asthenopia) predispose to acute hordeolum; hypertension is not a predisposing factor.
+## explicit_objective
+Recognise that hypertension is not a predisposing cause of acute hordeolum.
+## pitfalls
+Listing hypertension among hordeolum risk factors instead of diabetes, fatigue and asthenopia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Hordeolum
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Hordeolum
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F12333D41868C7
+## label
+Chalazion is not a staphylococcal infection
+## canonical_key
+ophthalmology.staphylococcal-lid-infections.exclude-chalazion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Staphylococcus causes stye, ulcerative blepharitis and acute dacryocystitis; a chalazion is a sterile lipogranuloma of a blocked meibomian gland, not a staphylococcal infection.
+## explicit_objective
+Recognise that a chalazion is sterile, not a staphylococcal infection.
+## pitfalls
+Treating a chalazion as an infection; it is a granulomatous reaction to retained sebum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Lid infections
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Lid infections
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A69B65E94D6570
+## label
+Cicatricial ectropion is treated by skin grafting
+## canonical_key
+ophthalmology.cicatricial-ectropion.treated-by-skin-grafting
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cicatricial ectropion results from shortage or scarring of the anterior lid skin, so treatment restores skin length by a skin graft or Z-plasty; horizontal lid shortening is used for involutional (laxity) ectropion, not cicatricial.
+## explicit_objective
+Identify skin grafting as the treatment of cicatricial ectropion.
+## pitfalls
+Applying horizontal lid-shortening (an involutional-ectropion procedure) to cicatricial ectropion, which needs added skin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ectropion
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Ectropion
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1D97FF80B56713
+## label
+Orbicularis oculi closes the lid via the facial nerve
+## canonical_key
+ophthalmology.eyelid-closure.by-orbicularis-oculi-via-facial-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The orbicularis oculi closes the eyelids and is supplied by the facial (7th) nerve, while the levator palpebrae superioris (oculomotor nerve) opens the lid; so lid closure is a facial-nerve function.
+## explicit_objective
+Recognise that lid closure is by orbicularis oculi supplied by the facial nerve.
+## pitfalls
+Attributing lid closure to the levator, or the orbicularis to the oculomotor nerve.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Eyelid anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Eyelid anatomy
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-429F5C44699F97
+## label
+Severe unilateral congenital ptosis can cause amblyopia
+## canonical_key
+ophthalmology.congenital-ptosis.severe-unilateral-cases-cause-amblyopia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A severe unilateral congenital ptosis that covers the visual axis can cause stimulus-deprivation amblyopia and so needs early surgery; poor levator function is corrected by a frontalis sling rather than levator resection.
+## explicit_objective
+Recognise that severe unilateral congenital ptosis risks amblyopia and needs early treatment.
+## pitfalls
+Deferring surgery in a severe unilateral case; occlusion of the pupil causes deprivation amblyopia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Ptosis
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The protective system of the eye > Ptosis
+## article_ids
+ART-OPH-315-PROTECTIVE-SYSTEM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against existing corpus IDs -- no collision, new concept.
+nodeChoice: 315 OPH has no dedicated lids/lacrimal/orbit (adnexa) node in DIS-OPH; filed on the closest verified node DIS-OPH-T02 (Anterior segment), matching the Chapter-1 adnexa precedent.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.3 Q41-91) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

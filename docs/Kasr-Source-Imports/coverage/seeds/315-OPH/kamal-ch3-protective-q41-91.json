@@ -1,0 +1,642 @@
+{
+  "lane": "KASR-315OPH",
+  "cluster": "kamal-ch3-protective-q41-91",
+  "header": "Kasr Al Ainy 315 OPH (Year 3) · Chapter 3 The protective system of the eye (lids, lacrimal apparatus, orbit), tranche 4 MCQ Q41-91, from Dr. Ahmed Kamal's ophthalmology question bank. Stems+options native text (no OCR); correct answers from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), each key re-verified against the option text. 25 authored (Q41-46, Q51-52, Q54-58, Q77-88) / 5 held (Q47, Q50, Q53 answer-key omits the row; Q48, Q49 are two-option True/False items below the four-option MCQ floor) / 0 excluded. The clinical-vignette block Q59-76 and the remaining single-best items Q89-91 are deferred to the next tranche; Q59-76 need multi-true adjudication (each lists more than one correct statement).",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "315 OPH",
+    "module_subject": "315 OPH > Ophthalmology > The protective system of the eye",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-OPH-315-PROTECTIVE-SYSTEM"],
+    "resource_ids": ["src_c30b94e296cd15ba86c2"],
+    "source_citation": "Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.3 The protective system of the eye (PDF p.{page}); key from companion printed answer key",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Ophthalmology",
+    "subtopic": "The protective system of the eye",
+    "question_type": "Recall",
+    "difficulty": "Easy",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "field_notes": {
+      "keySource": "companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf), Ch.3 chapter->Q->letter table, re-verified against option text"
+    }
+  },
+  "questions": [
+    {
+      "key": "q41",
+      "id": "QST-KASR315OPH-KAMAL-CH3-41",
+      "page": 14,
+      "title": "Source of the tear-film mucin layer",
+      "question": "The mucin layer of the pre-corneal tear film is secreted by:",
+      "options": {
+        "A": "The goblet cells",
+        "B": "The lacrimal gland",
+        "C": "The meibomian gland",
+        "D": "The limbal stem cells"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The innermost mucin layer of the pre-corneal tear film is produced by the conjunctival goblet cells. Mucin lets the aqueous tears wet the hydrophobic corneal epithelium and keeps the film stable. Loss of goblet cells therefore causes mucin-deficient dry eye.",
+        "B": "Incorrect. The lacrimal gland secretes the aqueous (middle) layer, not mucin.",
+        "C": "Incorrect. The meibomian glands secrete the outer lipid layer that retards evaporation.",
+        "D": "Incorrect. Limbal stem cells renew the corneal epithelium; they do not secrete the tear film."
+      },
+      "main_concept": "CON-MUL-E9CD9AA2B15518",
+      "concept_ids": ["CON-MUL-E9CD9AA2B15518"],
+      "subtopic": "Tear film",
+      "learning_objective": "Identify goblet cells as the source of the tear-film mucin layer."
+    },
+    {
+      "key": "q42",
+      "id": "QST-KASR315OPH-KAMAL-CH3-42",
+      "page": 14,
+      "title": "False statement about the pre-corneal tear film",
+      "question": "All the following statements about the pre-corneal tear film are correct EXCEPT:",
+      "options": {
+        "A": "It provides nutrition to the cornea.",
+        "B": "It protects the cornea through its anti-bacterial effect.",
+        "C": "It lubricates the corneal surface.",
+        "D": "It is not affected by deficiency of the goblet cells."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a true statement). The film supplies oxygen and nutrients to the avascular cornea.",
+        "B": "Incorrect (it is a true statement). Tear lysozyme, lactoferrin and immunoglobulins give an anti-bacterial action.",
+        "C": "Incorrect (it is a true statement). The film lubricates the ocular surface for smooth lid movement.",
+        "D": "Correct. This is the false statement: the mucin layer comes from the goblet cells, so goblet-cell deficiency destabilises the tear film and produces mucin-deficient dry eye. The film is therefore very much affected by goblet-cell loss. Saying it is unaffected is wrong."
+      },
+      "main_concept": "CON-MUL-D7C67ACC9E2C22",
+      "concept_ids": ["CON-MUL-D7C67ACC9E2C22"],
+      "subtopic": "Tear film",
+      "learning_objective": "Recognise that goblet-cell (mucin) deficiency does affect the pre-corneal tear film."
+    },
+    {
+      "key": "q43",
+      "id": "QST-KASR315OPH-KAMAL-CH3-43",
+      "page": 15,
+      "title": "Investigation not used in epiphora",
+      "question": "Investigations done in a case of epiphora include all of the following EXCEPT:",
+      "options": {
+        "A": "Examination of the cheeks and face for scars.",
+        "B": "Examination of the lid margin.",
+        "C": "Jones dye test.",
+        "D": "Fluorescein angiography."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is done). Facial scars may point to a cicatricial cause of the watering.",
+        "B": "Incorrect (it is done). The lid margin is examined for malposition, punctal problems and blepharitis.",
+        "C": "Incorrect (it is done). The Jones dye test assesses patency of the lacrimal drainage passages.",
+        "D": "Correct. This is the exception: fluorescein angiography images the retinal and choroidal circulation and has no role in a watering-eye work-up. Assessment of epiphora targets the lids, face and lacrimal passages instead. Hence fluorescein angiography is not one of these investigations."
+      },
+      "main_concept": "CON-MUL-1F14CA653FB3A7",
+      "concept_ids": ["CON-MUL-1F14CA653FB3A7"],
+      "subtopic": "Lacrimal drainage",
+      "learning_objective": "Recognise that fluorescein angiography is not an investigation for epiphora."
+    },
+    {
+      "key": "q44",
+      "id": "QST-KASR315OPH-KAMAL-CH3-44",
+      "page": 15,
+      "title": "Not a complication of acute dacryocystitis",
+      "question": "Complications of acute dacryocystitis include all of the following EXCEPT:",
+      "options": {
+        "A": "Cavernous sinus thrombosis.",
+        "B": "Orbital cellulitis.",
+        "C": "Fistula.",
+        "D": "Squint."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a complication). Infection can spread posteriorly to cause cavernous sinus thrombosis.",
+        "B": "Incorrect (it is a complication). Spread into the orbit produces orbital cellulitis.",
+        "C": "Incorrect (it is a complication). The sac abscess may discharge through the skin, leaving a fistula.",
+        "D": "Correct. This is the exception: squint (ocular misalignment) is not caused by acute dacryocystitis. The recognised complications are the spread of infection - orbital cellulitis, cavernous sinus thrombosis and a lacrimal fistula. Squint is therefore the odd one out."
+      },
+      "main_concept": "CON-MUL-EEC014D3C77F25",
+      "concept_ids": ["CON-MUL-EEC014D3C77F25"],
+      "subtopic": "Dacryocystitis",
+      "learning_objective": "Recognise that squint is not a complication of acute dacryocystitis."
+    },
+    {
+      "key": "q45",
+      "id": "QST-KASR315OPH-KAMAL-CH3-45",
+      "page": 15,
+      "title": "Feature not seen in chronic dacryocystitis",
+      "question": "A case diagnosed as having chronic dacryocystitis will present with the following clinical picture EXCEPT:",
+      "options": {
+        "A": "Fullness related to the medial canthus.",
+        "B": "Epiphora.",
+        "C": "Swelling below the medial canthus.",
+        "D": "Negative regurge test."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is present). Retained sac contents cause fullness at the medial canthus.",
+        "B": "Incorrect (it is present). Blocked drainage causes epiphora.",
+        "C": "Incorrect (it is present). A mucocele swells below the medial palpebral ligament.",
+        "D": "Correct. This is the exception: in chronic dacryocystitis pressure over the sac regurgitates mucopurulent material, giving a POSITIVE regurge test. A negative regurge test therefore contradicts the diagnosis. So a negative test is the feature that does not fit."
+      },
+      "main_concept": "CON-MUL-E94C3D6F8203A4",
+      "concept_ids": ["CON-MUL-E94C3D6F8203A4"],
+      "subtopic": "Dacryocystitis",
+      "learning_objective": "Recognise that chronic dacryocystitis gives a positive, not negative, regurge test."
+    },
+    {
+      "key": "q46",
+      "id": "QST-KASR315OPH-KAMAL-CH3-46",
+      "page": 15,
+      "title": "Indications for contrast dacryocystography",
+      "question": "Contrast dacryocystography is indicated in the following conditions:",
+      "options": {
+        "A": "To confirm the site of obstruction especially prior to lacrimal surgery.",
+        "B": "To aid in the diagnosis of diverticula and fistula.",
+        "C": "To diagnose the filling defects caused by tumours or stones.",
+        "D": "All of the above."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (true but not the whole answer). Localising the obstruction before surgery is one valid indication.",
+        "B": "Incorrect (true but not the whole answer). Diverticula and fistulae are shown by the contrast study.",
+        "C": "Incorrect (true but not the whole answer). Filling defects from tumours or stones are also demonstrated.",
+        "D": "Correct. Contrast dacryocystography is used for all three purposes - to confirm the site of obstruction before lacrimal surgery, to demonstrate diverticula and fistulae, and to reveal filling defects from tumours or stones. Each option is a genuine indication. So all of the above is the complete answer."
+      },
+      "main_concept": "CON-MUL-10459CF674AEBE",
+      "concept_ids": ["CON-MUL-10459CF674AEBE"],
+      "subtopic": "Lacrimal drainage",
+      "learning_objective": "List the indications for contrast dacryocystography."
+    },
+    { "key": "q47", "hold": "Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule." },
+    { "key": "q48", "hold": "Bank item is a two-option True/False statement (a True, b False); below the four-option MCQ floor the emitter enforces, so it cannot be authored as a single-best-answer item." },
+    { "key": "q49", "hold": "Bank item is a two-option True/False statement (a True, b False); below the four-option MCQ floor the emitter enforces, so it cannot be authored as a single-best-answer item." },
+    { "key": "q50", "hold": "Answer-key table omits the Q50 row (it skips from Q49 to Q51); the item is also a two-option True/False statement. Held per the never-guess rule and the four-option floor." },
+    {
+      "key": "q51",
+      "id": "QST-KASR315OPH-KAMAL-CH3-51",
+      "page": 16,
+      "title": "Not a suppurative inflammation of a lid gland",
+      "question": "Inflammation of lid glands includes all of the following EXCEPT:",
+      "options": {
+        "A": "Ulcerative blepharitis",
+        "B": "Hordeolum externum",
+        "C": "Hordeolum internum",
+        "D": "Squamous blepharitis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a gland inflammation). Ulcerative blepharitis is a staphylococcal infection of the lash follicles and glands of Zeis and Moll.",
+        "B": "Incorrect (it is a gland inflammation). Hordeolum externum (stye) is acute suppuration of a gland of Zeis or Moll.",
+        "C": "Incorrect (it is a gland inflammation). Hordeolum internum is acute suppuration of a meibomian gland.",
+        "D": "Correct. This is the exception: squamous (seborrhoeic) blepharitis is a chronic scaling disorder of the lid margin, not a suppurative inflammation of a lid gland. The other three are true gland infections. Hence squamous blepharitis is the odd one out."
+      },
+      "main_concept": "CON-MUL-34DDC1B58275E8",
+      "concept_ids": ["CON-MUL-34DDC1B58275E8"],
+      "subtopic": "Blepharitis",
+      "learning_objective": "Recognise squamous blepharitis as the exception among lid-gland inflammations."
+    },
+    {
+      "key": "q52",
+      "id": "QST-KASR315OPH-KAMAL-CH3-52",
+      "page": 16,
+      "title": "Indication for levator resection in ptosis",
+      "question": "Levator resection operation should be used in:",
+      "options": {
+        "A": "Mild ptosis with levator function",
+        "B": "Moderate ptosis with good levator function",
+        "C": "Moderate ptosis with poor levator function",
+        "D": "Severe ptosis with poor levator function"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Mild ptosis is usually corrected by a smaller procedure such as a Muller-muscle (Fasanella-Servat) resection.",
+        "B": "Correct. Levator resection shortens the levator, so it needs useful residual levator action and is the operation of choice for moderate ptosis with good levator function. The amount of resection is matched to the degree of ptosis and the levator power. This is the classic indication.",
+        "C": "Incorrect. With poor levator function a resection gives an unpredictable result.",
+        "D": "Incorrect. Severe ptosis with poor levator function is treated by a frontalis (brow) sling, not levator resection."
+      },
+      "main_concept": "CON-MUL-1D7E7CD2017AAA",
+      "concept_ids": ["CON-MUL-1D7E7CD2017AAA"],
+      "subtopic": "Ptosis",
+      "learning_objective": "Identify moderate ptosis with good levator function as the indication for levator resection."
+    },
+    { "key": "q53", "hold": "Answer-key table omits the Q53 row (it skips from Q52 to Q54); no printed key to re-verify against, held per the never-guess rule." },
+    {
+      "key": "q54",
+      "id": "QST-KASR315OPH-KAMAL-CH3-54",
+      "page": 16,
+      "title": "Thyroid states in which thyroid eye disease occurs",
+      "question": "Thyroid eye disease can occur in:",
+      "options": {
+        "A": "Hyperthyroid state",
+        "B": "Hypothyroid state",
+        "C": "Normal thyroid state",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (true but not the whole answer). It is most often seen with hyperthyroidism.",
+        "B": "Incorrect (true but not the whole answer). It can also occur in hypothyroid patients.",
+        "C": "Incorrect (true but not the whole answer). It can occur when the patient is euthyroid.",
+        "D": "Correct. Thyroid (dysthyroid) eye disease is an autoimmune orbitopathy that can develop in the hyperthyroid, hypothyroid or euthyroid state. It is not confined to hyperthyroidism. So all of the above is correct."
+      },
+      "main_concept": "CON-MUL-3E1BDF6BD2ED75",
+      "concept_ids": ["CON-MUL-3E1BDF6BD2ED75"],
+      "subtopic": "Thyroid eye disease",
+      "learning_objective": "Recognise that thyroid eye disease occurs in hyper-, hypo- and euthyroid patients."
+    },
+    {
+      "key": "q55",
+      "id": "QST-KASR315OPH-KAMAL-CH3-55",
+      "page": 16,
+      "title": "Condition in which proptosis is absent",
+      "question": "Proptosis is NOT a clinical presentation in:",
+      "options": {
+        "A": "Panophthalmitis",
+        "B": "Orbital cellulitis",
+        "C": "Endophthalmitis",
+        "D": "Graves' disease"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (proptosis occurs). Panophthalmitis inflames the whole globe and spreads to orbital tissue, pushing the eye forward.",
+        "B": "Incorrect (proptosis occurs). Orbital cellulitis swells the orbital contents and causes proptosis.",
+        "C": "Correct. This is the exception: endophthalmitis is infection confined to the intraocular cavities, so it does not push the globe forward and proptosis is absent. Panophthalmitis, orbital cellulitis and Graves' disease all involve or expand orbital tissue and do cause proptosis. Endophthalmitis is therefore the odd one out.",
+        "D": "Incorrect (proptosis occurs). Graves' (thyroid) orbitopathy is a leading cause of proptosis."
+      },
+      "main_concept": "CON-MUL-B5BFC2C5716666",
+      "concept_ids": ["CON-MUL-B5BFC2C5716666"],
+      "subtopic": "Proptosis",
+      "learning_objective": "Recognise that endophthalmitis, unlike panophthalmitis, does not cause proptosis."
+    },
+    {
+      "key": "q56",
+      "id": "QST-KASR315OPH-KAMAL-CH3-56",
+      "page": 16,
+      "title": "Effect not caused by vitamin A deficiency",
+      "question": "Vitamin A deficiency can cause any of the following EXCEPT:",
+      "options": {
+        "A": "Ophthalmoplegia.",
+        "B": "Keratomalacia.",
+        "C": "Bitot spots.",
+        "D": "Night blindness."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is the exception: ophthalmoplegia is not caused by vitamin A deficiency and points instead to causes such as thiamine deficiency. Vitamin A deficiency produces xerophthalmia - keratomalacia, Bitot spots and night blindness. Ophthalmoplegia is therefore the odd one out.",
+        "B": "Incorrect (it does occur). Severe deficiency causes corneal melting (keratomalacia).",
+        "C": "Incorrect (it does occur). Bitot spots are keratinised conjunctival plaques of xerophthalmia.",
+        "D": "Incorrect (it does occur). Night blindness is the earliest symptom of vitamin A deficiency."
+      },
+      "main_concept": "CON-MUL-770665490880E3",
+      "concept_ids": ["CON-MUL-770665490880E3"],
+      "subtopic": "Dry eye",
+      "learning_objective": "Recognise that ophthalmoplegia is not a manifestation of vitamin A deficiency."
+    },
+    {
+      "key": "q57",
+      "id": "QST-KASR315OPH-KAMAL-CH3-57",
+      "page": 16,
+      "title": "Nerve whose palsy causes lagophthalmos",
+      "question": "Lagophthalmos occurs as a result of paralysis of:",
+      "options": {
+        "A": "5th cranial nerve.",
+        "B": "Levator palpebrae superioris.",
+        "C": "6th cranial nerve.",
+        "D": "7th cranial nerve.",
+        "E": "Muller's muscle."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The 5th (trigeminal) nerve is sensory to the cornea; its palsy causes neurotrophic keratitis, not failure of lid closure.",
+        "B": "Incorrect. The levator opens the lid; its weakness causes ptosis, the opposite problem.",
+        "C": "Incorrect. The 6th nerve moves the lateral rectus; its palsy causes an esotropia, not lagophthalmos.",
+        "D": "Correct. The facial (7th) nerve supplies the orbicularis oculi, the muscle that closes the lids. When it is paralysed the lids cannot close fully, giving lagophthalmos with corneal exposure. Hence a 7th-nerve palsy is the cause.",
+        "E": "Incorrect. Muller's muscle only fine-tunes lid elevation; its loss causes slight ptosis, not lagophthalmos."
+      },
+      "main_concept": "CON-MUL-9028DBB3377E0B",
+      "concept_ids": ["CON-MUL-9028DBB3377E0B"],
+      "subtopic": "Lagophthalmos",
+      "learning_objective": "Recognise that facial (7th) nerve palsy causes lagophthalmos."
+    },
+    {
+      "key": "q58",
+      "id": "QST-KASR315OPH-KAMAL-CH3-58",
+      "page": 16,
+      "title": "Condition that does not cause proptosis",
+      "question": "Proptosis may be present in the following conditions EXCEPT:",
+      "options": {
+        "A": "Orbital cellulitis.",
+        "B": "Horner's syndrome.",
+        "C": "Thyroid ophthalmopathy.",
+        "D": "Idiopathic orbital inflammation.",
+        "E": "Rhabdomyosarcoma."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (proptosis occurs). Orbital cellulitis swells the orbital contents.",
+        "B": "Correct. This is the exception: Horner's syndrome results from a sympathetic lesion and causes a mild ptosis with apparent enophthalmos, not proptosis. The other conditions all expand orbital contents and push the globe forward. Horner's syndrome is therefore the odd one out.",
+        "C": "Incorrect (proptosis occurs). Thyroid ophthalmopathy enlarges the extraocular muscles and orbital fat.",
+        "D": "Incorrect (proptosis occurs). Idiopathic orbital inflammation (orbital pseudotumour) is a classic cause of proptosis.",
+        "E": "Incorrect (proptosis occurs). Rhabdomyosarcoma is the commonest primary orbital malignancy of childhood and causes rapid proptosis."
+      },
+      "main_concept": "CON-MUL-C04AF9B455ACE0",
+      "concept_ids": ["CON-MUL-C04AF9B455ACE0"],
+      "subtopic": "Proptosis",
+      "learning_objective": "Recognise that Horner's syndrome is not a cause of proptosis."
+    },
+    {
+      "key": "q77",
+      "id": "QST-KASR315OPH-KAMAL-CH3-77",
+      "page": 20,
+      "title": "Cause that does not produce proptosis",
+      "question": "The following may cause proptosis EXCEPT:",
+      "options": {
+        "A": "Retinoblastoma.",
+        "B": "Leukemia in children.",
+        "C": "Chalazion.",
+        "D": "Lacrimal gland tumors."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it can cause proptosis). Advanced retinoblastoma can extend into the orbit and push the globe forward.",
+        "B": "Incorrect (it can cause proptosis). Leukaemic (granulocytic) orbital deposits cause proptosis in children.",
+        "C": "Correct. This is the exception: a chalazion is a granuloma of a blocked meibomian gland within the tarsal plate of the lid and does not displace the globe. The other options are orbital masses that do cause proptosis. Hence a chalazion is the odd one out.",
+        "D": "Incorrect (it can cause proptosis). Lacrimal gland tumours occupy the superotemporal orbit and cause proptosis."
+      },
+      "main_concept": "CON-MUL-3A0335118BC156",
+      "concept_ids": ["CON-MUL-3A0335118BC156"],
+      "subtopic": "Proptosis",
+      "learning_objective": "Recognise that a chalazion, unlike orbital tumours, does not cause proptosis."
+    },
+    {
+      "key": "q78",
+      "id": "QST-KASR315OPH-KAMAL-CH3-78",
+      "page": 20,
+      "title": "Commonest cause of unilateral proptosis in adults",
+      "question": "The commonest cause of unilateral proptosis in adults is:",
+      "options": {
+        "A": "Cavernous haemangioma.",
+        "B": "Grave's disease.",
+        "C": "Neurofibroma.",
+        "D": "Metastasis."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Cavernous haemangioma is the commonest benign orbital tumour but not the commonest overall cause of proptosis.",
+        "B": "Correct. Thyroid (Graves') orbitopathy is the commonest cause of both unilateral and bilateral proptosis in adults. It enlarges the extraocular muscles and orbital fat, and can present asymmetrically as a unilateral proptosis. Hence Graves' disease is the answer.",
+        "C": "Incorrect. Neurofibroma is an uncommon orbital tumour.",
+        "D": "Incorrect. Orbital metastases occur but are far less common than thyroid orbitopathy."
+      },
+      "main_concept": "CON-MUL-E7BFE48AD48903",
+      "concept_ids": ["CON-MUL-E7BFE48AD48903"],
+      "subtopic": "Proptosis",
+      "learning_objective": "Identify thyroid (Graves') orbitopathy as the commonest cause of adult proptosis."
+    },
+    {
+      "key": "q79",
+      "id": "QST-KASR315OPH-KAMAL-CH3-79",
+      "page": 21,
+      "title": "Feature not seen in thyroid eye disease",
+      "question": "The clinical features of thyroid eye disease include all the following EXCEPT:",
+      "options": {
+        "A": "Limited adduction.",
+        "B": "Limited elevation.",
+        "C": "Ptosis.",
+        "D": "Proptosis."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it is a feature). Fibrosis of the medial rectus limits adduction.",
+        "B": "Incorrect (it is a feature). Fibrosis of the inferior rectus limits elevation (the commonest restriction).",
+        "C": "Correct. This is the exception: thyroid eye disease characteristically causes upper-lid RETRACTION, not ptosis. Restrictive myopathy limits eye movements and proptosis is typical, but the lid is retracted rather than drooping. Hence ptosis is the odd one out.",
+        "D": "Incorrect (it is a feature). Proptosis from muscle and fat swelling is a cardinal sign."
+      },
+      "main_concept": "CON-MUL-E99C4C95828A27",
+      "concept_ids": ["CON-MUL-E99C4C95828A27"],
+      "subtopic": "Thyroid eye disease",
+      "learning_objective": "Recognise that thyroid eye disease causes lid retraction, not ptosis."
+    },
+    {
+      "key": "q80",
+      "id": "QST-KASR315OPH-KAMAL-CH3-80",
+      "page": 21,
+      "title": "Investigation not routine in proptosis",
+      "question": "Investigations of a case of proptosis include all the following EXCEPT:",
+      "options": {
+        "A": "CT and MRI of the orbit.",
+        "B": "Thyroid function tests.",
+        "C": "Surgical biopsy in case of tumors.",
+        "D": "Chest x-ray."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is done). CT and MRI define the orbital lesion and its extent.",
+        "B": "Incorrect (it is done). Thyroid function tests identify the common thyroid cause.",
+        "C": "Incorrect (it is done). A surgical biopsy is taken when a tumour is suspected.",
+        "D": "Correct. This is the exception: a chest x-ray is not a routine part of the proptosis work-up. Orbital imaging, thyroid function tests and biopsy of a suspected tumour are the standard investigations. Hence chest x-ray is the odd one out."
+      },
+      "main_concept": "CON-MUL-4242207F6B1538",
+      "concept_ids": ["CON-MUL-4242207F6B1538"],
+      "subtopic": "Proptosis",
+      "learning_objective": "Recognise that chest x-ray is not a standard proptosis investigation."
+    },
+    {
+      "key": "q81",
+      "id": "QST-KASR315OPH-KAMAL-CH3-81",
+      "page": 21,
+      "title": "Measure not used to manage thyroid eye disease",
+      "question": "Management of thyroid eye disease includes all the following EXCEPT:",
+      "options": {
+        "A": "Antithyroid drugs.",
+        "B": "Radioactive iodine.",
+        "C": "Thyroidectomy.",
+        "D": "Thyroxin."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is used). Antithyroid drugs control the underlying hyperthyroidism.",
+        "B": "Incorrect (it is used). Radioactive iodine ablates the overactive gland.",
+        "C": "Incorrect (it is used). Thyroidectomy is an option for controlling the hyperthyroidism.",
+        "D": "Correct. This is the exception: thyroxine is hormone replacement for hypothyroidism and is not a treatment for the eye disease. Management aims to render the patient euthyroid (antithyroid drugs, radioactive iodine or surgery) alongside ocular measures. Hence thyroxine is the odd one out."
+      },
+      "main_concept": "CON-MUL-59D0316B92F69D",
+      "concept_ids": ["CON-MUL-59D0316B92F69D"],
+      "subtopic": "Thyroid eye disease",
+      "learning_objective": "Recognise that thyroxine is not part of thyroid eye disease management."
+    },
+    {
+      "key": "q82",
+      "id": "QST-KASR315OPH-KAMAL-CH3-82",
+      "page": 21,
+      "title": "Commonest benign orbital tumour causing proptosis",
+      "question": "The commonest benign orbital tumor causing proptosis is:",
+      "options": {
+        "A": "Haemangioma.",
+        "B": "Meningioma.",
+        "C": "Rhabdomyosarcoma.",
+        "D": "Lymphoma."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Cavernous haemangioma is the commonest benign orbital tumour causing proptosis in adults. It is a slow-growing vascular lesion, usually within the muscle cone, that produces gradual axial proptosis. Hence haemangioma is the answer.",
+        "B": "Incorrect. Meningioma is less common as a primary orbital tumour.",
+        "C": "Incorrect. Rhabdomyosarcoma is a malignant childhood tumour, not benign.",
+        "D": "Incorrect. Orbital lymphoma is a malignant lymphoproliferative tumour."
+      },
+      "main_concept": "CON-MUL-09CA701462633A",
+      "concept_ids": ["CON-MUL-09CA701462633A"],
+      "subtopic": "Orbital tumours",
+      "learning_objective": "Identify cavernous haemangioma as the commonest benign orbital tumour."
+    },
+    {
+      "key": "q83",
+      "id": "QST-KASR315OPH-KAMAL-CH3-83",
+      "page": 21,
+      "title": "Feature not part of thyroid eye disease",
+      "question": "Clinical features of thyroid eye disease include the following EXCEPT:",
+      "options": {
+        "A": "Diplopia.",
+        "B": "Optic neuropathy.",
+        "C": "Lid retraction.",
+        "D": "Ectropion."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is a feature). Restrictive myopathy of the extraocular muscles causes diplopia.",
+        "B": "Incorrect (it is a feature). Crowding at the orbital apex can compress the optic nerve (dysthyroid optic neuropathy).",
+        "C": "Incorrect (it is a feature). Upper-lid retraction is a classic sign.",
+        "D": "Correct. This is the exception: ectropion (outward turning of the lid margin) is not a feature of thyroid eye disease, which instead retracts the lid. Diplopia, optic neuropathy and lid retraction are all recognised features. Hence ectropion is the odd one out."
+      },
+      "main_concept": "CON-MUL-3C4F9FBABF7B2A",
+      "concept_ids": ["CON-MUL-3C4F9FBABF7B2A"],
+      "subtopic": "Thyroid eye disease",
+      "learning_objective": "Recognise that ectropion is not a feature of thyroid eye disease."
+    },
+    {
+      "key": "q84",
+      "id": "QST-KASR315OPH-KAMAL-CH3-84",
+      "page": 21,
+      "title": "Not a predisposing cause of acute hordeolum",
+      "question": "Predisposing causes for acute hordeolum include the following EXCEPT:",
+      "options": {
+        "A": "Diabetes mellitus.",
+        "B": "Hypertension.",
+        "C": "Lack of sleep.",
+        "D": "Asthenopia."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (it is a cause). Diabetes predisposes to staphylococcal lid infection.",
+        "B": "Correct. This is the exception: hypertension is not a predisposing factor for a stye. The recognised predispositions are diabetes, lack of sleep and eyestrain from uncorrected refractive error (asthenopia). Hence hypertension is the odd one out.",
+        "C": "Incorrect (it is a cause). General debility and lack of sleep predispose to hordeolum.",
+        "D": "Incorrect (it is a cause). Asthenopia from uncorrected refractive error is a recognised predisposition."
+      },
+      "main_concept": "CON-MUL-E8647F7F8F09A1",
+      "concept_ids": ["CON-MUL-E8647F7F8F09A1"],
+      "subtopic": "Hordeolum",
+      "learning_objective": "Recognise that hypertension is not a predisposing cause of acute hordeolum."
+    },
+    {
+      "key": "q85",
+      "id": "QST-KASR315OPH-KAMAL-CH3-85",
+      "page": 21,
+      "title": "Lid condition not caused by staphylococcus",
+      "question": "Staphylococcus is the causative agent for all the following EXCEPT:",
+      "options": {
+        "A": "Stye.",
+        "B": "Ulcerative blepharitis.",
+        "C": "Acute dacryocystitis.",
+        "D": "Chalazion."
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (it is staphylococcal). A stye is acute staphylococcal suppuration of a gland of Zeis or Moll.",
+        "B": "Incorrect (it is staphylococcal). Ulcerative blepharitis is a staphylococcal infection of the lash follicles.",
+        "C": "Incorrect (it can be staphylococcal). Acute dacryocystitis is commonly caused by staphylococci or streptococci.",
+        "D": "Correct. This is the exception: a chalazion is a sterile lipogranuloma of a blocked meibomian gland, not a staphylococcal infection. The other three are staphylococcal lid or lacrimal infections. Hence a chalazion is the odd one out."
+      },
+      "main_concept": "CON-MUL-F12333D41868C7",
+      "concept_ids": ["CON-MUL-F12333D41868C7"],
+      "subtopic": "Lid infections",
+      "learning_objective": "Recognise that a chalazion is sterile, not a staphylococcal infection."
+    },
+    {
+      "key": "q86",
+      "id": "QST-KASR315OPH-KAMAL-CH3-86",
+      "page": 21,
+      "title": "Treatment of cicatricial ectropion",
+      "question": "Cicatricial ectropion is treated by:",
+      "options": {
+        "A": "Horizontal lid shortening.",
+        "B": "Levator muscle resection.",
+        "C": "Skin grafting.",
+        "D": "Lateral tarsorrhaphy."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Horizontal lid shortening corrects involutional (laxity) ectropion, not cicatricial.",
+        "B": "Incorrect. Levator resection is a ptosis operation, unrelated to ectropion.",
+        "C": "Correct. Cicatricial ectropion is due to shortage or scarring of the anterior lamella (skin), so treatment adds skin length by a skin graft or Z-plasty to release the pull. Correcting the skin deficiency lets the lid return to the globe. Hence skin grafting is the answer.",
+        "D": "Incorrect. Lateral tarsorrhaphy narrows the palpebral aperture and does not correct a cicatricial ectropion."
+      },
+      "main_concept": "CON-MUL-A69B65E94D6570",
+      "concept_ids": ["CON-MUL-A69B65E94D6570"],
+      "subtopic": "Ectropion",
+      "learning_objective": "Identify skin grafting as the treatment of cicatricial ectropion."
+    },
+    {
+      "key": "q87",
+      "id": "QST-KASR315OPH-KAMAL-CH3-87",
+      "page": 21,
+      "title": "Correct statement about the lid muscles",
+      "question": "Regarding muscles of the lid, which statement is correct?",
+      "options": {
+        "A": "The levator palpebrae muscle is responsible for closing the lid.",
+        "B": "The facial nerve is the nerve responsible for lid closure.",
+        "C": "Orbicularis oculi is responsible for lid opening.",
+        "D": "The oculomotor nerve supplies the orbicularis oculi muscle."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The levator opens (elevates) the upper lid; it does not close it.",
+        "B": "Correct. Lid closure is performed by the orbicularis oculi, which is supplied by the facial (7th) nerve. The levator palpebrae superioris, supplied by the oculomotor nerve, opens the lid. So lid closure is a facial-nerve function.",
+        "C": "Incorrect. The orbicularis oculi closes the lid; the levator opens it.",
+        "D": "Incorrect. The oculomotor nerve supplies the levator, not the orbicularis; the orbicularis is supplied by the facial nerve."
+      },
+      "main_concept": "CON-MUL-1D97FF80B56713",
+      "concept_ids": ["CON-MUL-1D97FF80B56713"],
+      "subtopic": "Eyelid anatomy",
+      "learning_objective": "Recognise that lid closure is by orbicularis oculi supplied by the facial nerve."
+    },
+    {
+      "key": "q88",
+      "id": "QST-KASR315OPH-KAMAL-CH3-88",
+      "page": 22,
+      "title": "Correct statement about congenital ptosis treatment",
+      "question": "Regarding the treatment of congenital ptosis, which statement is correct?",
+      "options": {
+        "A": "All cases should be treated as early as possible to achieve good results.",
+        "B": "Levator muscle resection is done if levator action is poor.",
+        "C": "Amblyopia may occur in severe unilateral cases.",
+        "D": "Frontalis suspension is done in mild cases."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Surgery is usually timed to preschool age unless the lid covers the pupil; not every case is operated as early as possible.",
+        "B": "Incorrect. With poor levator action a frontalis (brow) sling is used, not a levator resection.",
+        "C": "Correct. A severe unilateral congenital ptosis that covers the visual axis deprives that eye of clear images and can cause stimulus-deprivation amblyopia. Such a case needs early surgery to prevent permanent visual loss. Hence amblyopia may occur in severe unilateral cases.",
+        "D": "Incorrect. Frontalis suspension is reserved for severe ptosis with poor levator function, not mild cases."
+      },
+      "main_concept": "CON-MUL-429F5C44699F97",
+      "concept_ids": ["CON-MUL-429F5C44699F97"],
+      "subtopic": "Ptosis",
+      "learning_objective": "Recognise that severe unilateral congenital ptosis risks amblyopia and needs early treatment."
+    }
+  ]
+}
