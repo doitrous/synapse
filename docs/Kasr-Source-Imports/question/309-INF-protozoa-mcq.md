@@ -5797,3 +5797,969 @@ Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protoz
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-47
+
+## title
+Babesiosis is transmitted by the bite of ticks
+
+## question
+Babesiosis is transmitted by bite of:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Mosquito
+
+## explanation_a
+Incorrect. The mosquito transmits malaria and filariasis, not babesiosis.
+
+## answer_b
+Sandfly
+
+## explanation_b
+Incorrect. The sandfly transmits leishmaniasis, not babesiosis.
+
+## answer_c
+Reduviid bug
+
+## explanation_c
+Incorrect. The reduviid (triatomine) bug transmits Trypanosoma cruzi (Chagas disease), not Babesia.
+
+## answer_d
+Ticks
+
+## explanation_d
+Correct. Babesia is an intra-erythrocytic protozoan transmitted by the bite of hard (ixodid) ticks, which acquire it while feeding on an infected host and inoculate it at a subsequent blood meal. The tick is the biological vector of babesiosis. Bite of a tick is therefore the mode of transmission.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-C91BDF64022D8A
+
+## concept_ids
+CON-INF-C91BDF64022D8A
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Babesia
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify the hard tick as the vector of babesiosis.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-48
+
+## title
+African trypanosomes are not found in muscle
+
+## question
+The following is not a parasite that may be found in muscles:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Cysticercus cellulose
+
+## explanation_a
+Incorrect. Cysticercus cellulosae (the larva of Taenia solium) encysts in skeletal and cardiac muscle.
+
+## answer_b
+Trichinella spiralis
+
+## explanation_b
+Incorrect. Trichinella spiralis larvae encyst characteristically in striated muscle.
+
+## answer_c
+African trypanosomes
+
+## explanation_c
+Correct. African trypanosomes (Trypanosoma brucei gambiense and rhodesiense) live in blood, lymph and cerebrospinal fluid and do not inhabit muscle. Unlike the muscle-dwelling larval cestodes and Trichinella, they have no tissue-cyst stage in muscle. African trypanosomes are therefore the parasite not found in muscle.
+
+## answer_d
+Sparganum
+
+## explanation_d
+Incorrect. The sparganum (plerocercoid larva of Spirometra) migrates through and lodges in subcutaneous tissue and muscle.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-8487659E3E7C24
+
+## concept_ids
+CON-INF-8487659E3E7C24
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma brucei
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that African trypanosomes are not muscle parasites.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-50
+
+## title
+Cats are a source of toxocariasis and toxoplasmosis
+
+## question
+Cats may be a source of Infection with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Coenurosis & hydatidosis
+
+## explanation_a
+Incorrect. Coenurosis and hydatidosis are acquired from dog tapeworm eggs (Taenia multiceps, Echinococcus), not from cats.
+
+## answer_b
+Toxocariasis & hydatidosis
+
+## explanation_b
+Incorrect. Hydatidosis comes from the dog, so this pair is wrong even though toxocariasis can involve cats.
+
+## answer_c
+Toxocariasis & toxoplasmosis
+
+## explanation_c
+Correct. The cat is the definitive host of Toxoplasma gondii, shedding infective oocysts in its faeces, and also harbours Toxocara cati, the cause of toxocariasis. Both toxoplasmosis and toxocariasis can therefore be acquired from cats. This pair is the cat-associated one.
+
+## answer_d
+Strongyloidiasis & capillariasis
+
+## explanation_d
+Incorrect. Strongyloidiasis and capillariasis are acquired from soil/water and fish, not from cats.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-BA887014068010
+
+## concept_ids
+CON-INF-BA887014068010
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Toxoplasma gondii
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Identify toxocariasis and toxoplasmosis as cat-acquired infections.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-51
+
+## title
+Man is both final and intermediate host of Cystoisospora belli
+
+## question
+Man acts as both final and Intermediate hosts In Infection with:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Toxoplasma gondii
+
+## explanation_a
+Incorrect. For Toxoplasma the cat is the definitive host; man is only an intermediate host.
+
+## answer_b
+Plasmodium malariae
+
+## explanation_b
+Incorrect. For Plasmodium malariae the mosquito is the definitive host (sexual cycle) and man the intermediate host.
+
+## answer_c
+Babesia bovis
+
+## explanation_c
+Incorrect. For Babesia the tick is the definitive host and the vertebrate the intermediate host.
+
+## answer_d
+Cystoisospora belli
+
+## explanation_d
+Correct. Cystoisospora belli completes its entire life cycle, both the asexual (schizogony) and the sexual (gametogony) phases, within the intestinal epithelium of one human host. Man therefore acts simultaneously as final and intermediate host. This single-host coccidian is the answer.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-08CE9F89A5F000
+
+## concept_ids
+CON-INF-08CE9F89A5F000
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Cystoisospora belli
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that man is both final and intermediate host for Cystoisospora belli.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-53
+
+## title
+Plasmodium falciparum does not appear in urine
+
+## question
+Parasite that does not appear in urine:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Microfilaria of W. bancrofti
+
+## explanation_a
+Incorrect. Microfilariae of Wuchereria bancrofti may appear in urine as chyluria when lymphatics rupture into the urinary tract.
+
+## answer_b
+Egg of Schistosoma haematobium
+
+## explanation_b
+Incorrect. Eggs of Schistosoma haematobium are shed in urine, the basis of urinary schistosomiasis diagnosis.
+
+## answer_c
+Hydatid sand
+
+## explanation_c
+Incorrect. Hydatid sand can appear in urine when a renal hydatid cyst ruptures into the urinary tract (hydatiduria).
+
+## answer_d
+Plasmodium falciparum
+
+## explanation_d
+Correct. Plasmodium falciparum is a strictly intra-erythrocytic blood parasite diagnosed on a blood film, and it is not excreted in urine. Unlike the other three, no parasite stage of falciparum reaches the urinary tract. Plasmodium falciparum is therefore the parasite not found in urine.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-610F3C4E0BD402
+
+## concept_ids
+CON-INF-610F3C4E0BD402
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium falciparum
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that Plasmodium falciparum is not found in urine.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-55
+
+## title
+Giardia cysts are not detected in sputum
+
+## question
+A parasitic stage that is not detected in sputum:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Hydatid sand
+
+## explanation_a
+Incorrect. Hydatid sand is coughed up in sputum when a pulmonary hydatid cyst ruptures into a bronchus.
+
+## answer_b
+Cysts of Giardia lamblia
+
+## explanation_b
+Correct. Giardia lamblia is a small-intestinal protozoan whose cysts are passed in stool and are never found in sputum, because the parasite has no pulmonary phase. Its habitat is confined to the duodenum and jejunum. Giardia cysts are therefore the stage not detected in sputum.
+
+## answer_c
+Entamoeba histolytica trophozoites
+
+## explanation_c
+Incorrect. Entamoeba histolytica trophozoites appear in sputum in pulmonary amoebiasis (rupture of a hepatic abscess into the lung).
+
+## answer_d
+Larvae of Ascaris
+
+## explanation_d
+Incorrect. Ascaris larvae migrate through the lungs and can be found in sputum during the pulmonary (Loeffler) phase.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-5087AB2020D02D
+
+## concept_ids
+CON-INF-5087AB2020D02D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+State that Giardia cysts are not found in sputum.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-BANK-PROTOZOA-56
+
+## title
+Dysentery with a barrel-shaped egg points to Trichuris
+
+## question
+Dysentery with barrel shaped egg:
+
+## subject
+inf
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+H. nana
+
+## explanation_a
+Incorrect. Hymenolepis nana has a spherical egg with polar filaments and does not cause dysentery.
+
+## answer_b
+Heterophyes
+
+## explanation_b
+Incorrect. Heterophyes has a small operculated egg and causes intestinal and ectopic (egg-embolic) disease, not a barrel-shaped egg.
+
+## answer_c
+Fasciola hepatica
+
+## explanation_c
+Incorrect. Fasciola hepatica has a large operculated egg and causes hepatobiliary, not dysenteric, disease.
+
+## answer_d
+Trichuris trichiura
+
+## explanation_d
+Correct. Trichuris trichiura (whipworm) produces a barrel- (lemon-) shaped egg with a mucoid plug at each pole, and heavy infection causes chronic colitis with dysentery. The bipolar barrel-shaped egg is diagnostic. Dysentery with a barrel-shaped egg therefore identifies Trichuris trichiura.
+
+## topic
+Parasitology
+
+## subtopic
+Protozoology
+
+## main_concept
+CON-INF-DC41B15B85FE5D
+
+## concept_ids
+CON-INF-DC41B15B85FE5D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+309 INF
+
+## module_subject
+309 INF > Parasitology > Nematoda > Trichuris trichiura
+
+## question_only_for
+
+## library_ids
+ART-INF-309-PROTOZOA
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+
+## learning_objective
+Associate the barrel-shaped bipolar egg and dysentery with Trichuris trichiura.
+
+## source_citation
+Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.18
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes

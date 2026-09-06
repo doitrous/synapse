@@ -14378,3 +14378,780 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-C91BDF64022D8A
+## label
+Babesiosis is transmitted by the bite of a hard tick
+## canonical_key
+parasitology.babesia.tick-transmission
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Babesia species are intra-erythrocytic protozoa transmitted to man by the bite of hard (ixodid) ticks, chiefly Ixodes, which acquire and pass the parasite while feeding on blood. The tick is the biological vector, distinguishing babesiosis from the mosquito-borne, sandfly-borne and reduviid-borne blood protozoa. Babesiosis is therefore a tick-transmitted infection.
+## explicit_objective
+State that babesiosis is transmitted by the bite of a hard (ixodid) tick.
+## pitfalls
+Babesia vector = hard tick, not mosquito (malaria), sandfly (leishmania) or reduviid bug (Chagas).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Babesia
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-8487659E3E7C24
+## label
+African trypanosomes are not found in muscle
+## canonical_key
+parasitology.african-trypanosomes.not-in-muscle
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+African trypanosomes (Trypanosoma brucei gambiense and rhodesiense) circulate in blood, lymph and, after CNS invasion, cerebrospinal fluid, but they do not encyst or reside in skeletal muscle. In contrast, Cysticercus cellulosae, Trichinella spiralis and the sparganum larva are all classic muscle-dwelling parasites. African trypanosomes are therefore the parasite not found in muscle.
+## explicit_objective
+State that African trypanosomes are not found in muscle (they are blood/CSF parasites).
+## pitfalls
+Muscle parasites = Cysticercus, Trichinella, sparganum; African trypanosomes stay in blood/lymph/CSF.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma brucei
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-BA887014068010
+## label
+Cats are a source of toxocariasis and toxoplasmosis
+## canonical_key
+parasitology.cat.toxocariasis-toxoplasmosis-source
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The cat is the definitive host of Toxoplasma gondii, shedding infective oocysts in its faeces, and it also harbours Toxocara cati, whose eggs cause toxocariasis (visceral/ocular larva migrans). Both toxoplasmosis and toxocariasis are therefore acquired from cats. Coenurosis, hydatidosis and strongyloidiasis are linked to dogs or soil, not cats.
+## explicit_objective
+Identify the cat as a source of both toxocariasis and toxoplasmosis.
+## pitfalls
+Cat-source pair = toxocariasis + toxoplasmosis; hydatidosis/coenurosis come from dogs.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Toxoplasma gondii
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-08CE9F89A5F000
+## label
+Man is both final and intermediate host of Cystoisospora belli
+## canonical_key
+parasitology.cystoisospora-belli.man-final-and-intermediate-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cystoisospora belli is a human coccidian in which the whole life cycle, both the sexual (gametogony, the definitive-host phase) and the asexual (schizogony/merogony, the intermediate-host phase), is completed in the enterocytes of one human host. Man therefore serves simultaneously as final and intermediate host. Toxoplasma, Plasmodium and Babesia each split these roles between different hosts.
+## explicit_objective
+State that man acts as both final and intermediate host in Cystoisospora belli infection.
+## pitfalls
+Single-host coccidian (both sexual and asexual cycle in man) = Cystoisospora belli, not Toxoplasma/Plasmodium/Babesia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Cystoisospora belli
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-610F3C4E0BD402
+## label
+Plasmodium falciparum does not appear in urine
+## canonical_key
+parasitology.plasmodium-falciparum.not-in-urine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Plasmodium falciparum is a strictly intra-erythrocytic blood parasite and is not excreted in urine; malaria is diagnosed on a blood film, not a urine sample. By contrast, microfilariae of Wuchereria bancrofti (chyluria), eggs of Schistosoma haematobium and hydatid sand (from a ruptured cyst) can all appear in urine. Plasmodium falciparum is therefore the parasite that does not appear in urine.
+## explicit_objective
+State that Plasmodium falciparum does not appear in urine.
+## pitfalls
+Urine parasites = W. bancrofti microfilaria, S. haematobium egg, hydatid sand; P. falciparum stays in blood.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium falciparum
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-5087AB2020D02D
+## label
+Giardia cysts are not detected in sputum
+## canonical_key
+parasitology.giardia-lamblia.cyst-not-in-sputum
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Giardia lamblia is a purely intestinal (small-bowel) protozoan whose cysts are shed in stool and are never found in sputum. In contrast, hydatid sand (pulmonary hydatid), Entamoeba histolytica trophozoites (pulmonary amoebiasis) and Ascaris larvae (pulmonary migration/Loeffler) can all be recovered from sputum. Giardia cysts are therefore the stage not detected in sputum.
+## explicit_objective
+State that Giardia cysts are not detected in sputum (Giardia is confined to the small intestine).
+## pitfalls
+Sputum parasites = hydatid sand, E. histolytica trophozoites, Ascaris larvae; Giardia stays in the gut.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Giardia lamblia
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-DC41B15B85FE5D
+## label
+Trichuris trichiura has a barrel-shaped egg and causes dysentery
+## canonical_key
+parasitology.trichuris-trichiura.barrel-egg-dysentery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trichuris trichiura (whipworm) produces a characteristic barrel- (lemon-) shaped egg with a transparent mucoid plug at each pole, and heavy infection causes a chronic colitis with dysentery and, in children, rectal prolapse. The barrel-shaped bipolar egg is diagnostic on stool microscopy. Dysentery with a barrel-shaped egg therefore identifies Trichuris trichiura.
+## explicit_objective
+Associate the barrel-shaped bipolar egg and dysentery with Trichuris trichiura.
+## pitfalls
+Barrel-shaped bipolar-plugged egg + dysentery = Trichuris, not Heterophyes/Fasciola/H. nana.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichuris trichiura
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
