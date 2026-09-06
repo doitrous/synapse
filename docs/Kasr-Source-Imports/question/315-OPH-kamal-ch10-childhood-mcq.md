@@ -3631,3 +3631,395 @@ yes
 ## author_notes
 
 ---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-57
+## title
+Photophobia and large cornea with patent passages — diagnosis
+## question
+An infant was brought with photophobia and lacrimation. Examination revealed normal tear passages but a large cornea. The diagnosis is probably:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Congenital dacryocystitis.
+## explanation_a
+Incorrect. Dacryocystitis would show blocked tear passages, which are normal here.
+## answer_b
+Buphthalmos.
+## explanation_b
+Correct. Photophobia and lacrimation with a large cornea and patent passages indicate buphthalmos.
+## answer_c
+Keratitis.
+## explanation_c
+Incorrect. Keratitis gives a red painful eye, not an enlarged cornea.
+## answer_d
+Keratoconus.
+## explanation_d
+Incorrect. Keratoconus is a corneal thinning disorder of later life, not infant buphthalmos.
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## main_concept
+CON-MUL-B7C588C27BAE1B
+## concept_ids
+CON-MUL-B7C588C27BAE1B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Diagnose buphthalmos from a large cornea with patent tear passages.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-58
+## title
+Lacrimation with positive regurge — diagnosis
+## question
+An infant was brought with lacrimation. Examination revealed a normal anterior segment but a positive regurge. The diagnosis is probably:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Keratitis.
+## explanation_a
+Incorrect. Keratitis gives a red painful eye, not a positive regurge test.
+## answer_b
+Buphthalmos.
+## explanation_b
+Incorrect. Buphthalmos shows a large cornea, not a normal anterior segment with regurge.
+## answer_c
+Congenital nasolacrimal duct obstruction.
+## explanation_c
+Correct. A normal anterior segment with a positive regurge test indicates congenital nasolacrimal duct obstruction.
+## answer_d
+Keratoconus.
+## explanation_d
+Incorrect. Keratoconus is unrelated to a positive regurge test.
+## topic
+Ophthalmology
+## subtopic
+Congenital nasolacrimal duct obstruction
+## main_concept
+CON-MUL-043A6922E55651
+## concept_ids
+CON-MUL-043A6922E55651
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Diagnose duct obstruction from a positive regurge with a normal anterior segment.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-59
+## title
+Best surgical option in congenital glaucoma
+## question
+The best surgical option in congenital glaucoma is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Goniotomy in a hazy cornea of less than 13 mm diameter.
+## explanation_a
+Incorrect. Goniotomy needs a clear cornea; it cannot be done through a hazy cornea.
+## answer_b
+Trabeculotomy in a recurrent case with high IOP.
+## explanation_b
+Incorrect. This is not the best-matched option; trabeculotomy is chosen by corneal clarity, not simply recurrence.
+## answer_c
+Trabeculotomy in a case with large hazy cornea.
+## explanation_c
+Correct. When the cornea is large and hazy so the angle cannot be seen, trabeculotomy is the best surgical option.
+## answer_d
+Goniotomy in a recurrent case with a clear cornea.
+## explanation_d
+Incorrect. Goniotomy suits a clear cornea, but this option's recurrent-case framing is not the best match.
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## main_concept
+CON-MUL-7EF3AC85B409F5
+## concept_ids
+CON-MUL-7EF3AC85B409F5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Choose trabeculotomy for a large hazy cornea in congenital glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-60
+## title
+Primary congenital glaucoma — clinical statement
+## question
+Primary congenital glaucoma (buphthalmos):
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Corneal haze may be noticed by parents.
+## explanation_a
+Correct. Corneal haze (from Haab striae) may first be noticed by the parents.
+## answer_b
+Corneal diameter of 12mm or less is typical of advanced buphthalmos.
+## explanation_b
+Incorrect. Advanced buphthalmos has an enlarged cornea (>13 mm), not 12 mm or less.
+## answer_c
+Goniotomy is usually the initial treatment provided angle cannot be visualized.
+## explanation_c
+Incorrect. Goniotomy needs the angle to be visualised through a clear cornea.
+## answer_d
+Disease is commonly autosomal dominant.
+## explanation_d
+Incorrect. It is usually autosomal recessive, not dominant.
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## main_concept
+CON-MUL-0E2B7DFBE8EDAA
+## concept_ids
+CON-MUL-0E2B7DFBE8EDAA
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise parent-noticed corneal haze in primary congenital glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
