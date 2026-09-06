@@ -9786,3 +9786,1683 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.12-13, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-318B39CBBC8DED
+## label
+Conjugation is the exchange of nuclear material between two protozoa
+## canonical_key
+parasitology.protozoa.conjugation-nuclear-material-exchange
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Conjugation is a form of sexual reproduction in ciliate protozoa such as Balantidium coli in which two organisms temporarily join, exchange micronuclear (nuclear) material, and then separate. It is distinguished from syngamy, which is the fusion of two gametes into a zygote, from gamogony, which is the formation of gametes, and from budding, which is an asexual process. The defining feature of conjugation is the reciprocal transfer of nuclear material between two cells that then part.
+## explicit_objective
+Define conjugation as the exchange of nuclear material between two protozoa.
+## pitfalls
+Conjugation is exchange of nuclear material; syngamy is fusion of gametes, gamogony is gamete formation and budding is asexual, so do not confuse conjugation with these.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > General protozoology
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F7B04A91486986
+## label
+Granulomatous reactions (amoeboma) occur in Entamoeba histolytica infection
+## canonical_key
+parasitology.entamoeba-histolytica.amoeboma-granulomatous-reaction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic intestinal amoebiasis due to Entamoeba histolytica can produce an amoeboma, a granulomatous tumour-like mass of granulation tissue in the bowel wall (usually caecum or sigmoid) that may mimic carcinoma. This granulomatous reaction is a recognised complication of invasive amoebiasis. The non-invasive or luminal protozoa in the list — Cyclospora, Giardia and Naegleria — do not form such intestinal granulomas.
+## explicit_objective
+Recognise that Entamoeba histolytica infection can cause a granulomatous amoeboma.
+## pitfalls
+The granulomatous (amoeboma) reaction is caused by Entamoeba histolytica; Giardia, Cyclospora and Naegleria do not form intestinal granulomas.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba histolytica
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1FC7DEF4527FAA
+## label
+Haemolytic anaemia is central to the pathogenesis of malaria
+## canonical_key
+parasitology.plasmodium.haemolytic-anaemia-pathogenesis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malaria produces anaemia chiefly through haemolysis: intra-erythrocytic Plasmodium schizonts rupture infected red cells at the end of each erythrocytic cycle, and immune and splenic clearance also destroys uninfected cells, giving a haemolytic anaemia. This contrasts with the iron-deficiency anaemia of hookworm and the megaloblastic B12-deficiency anaemia of Diphyllobothrium. Haemolysis is therefore the key mechanism of anaemia in malaria.
+## explicit_objective
+Attribute the anaemia of malaria to haemolysis.
+## pitfalls
+Malarial anaemia is haemolytic; hookworm causes iron-deficiency and Diphyllobothrium causes megaloblastic B12-deficiency anaemia, so the mechanisms differ.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium (malaria)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-69D9736990C907
+## label
+Trichomonas vaginalis has no cystic stage
+## canonical_key
+parasitology.trichomonas-vaginalis.no-cyst-stage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trichomonas vaginalis exists only as a trophozoite and has no cyst stage, so it cannot survive long outside the host and is transmitted directly, chiefly by sexual contact, rather than through a resistant cyst. Giardia, Balantidium and Cryptosporidium all form cysts or oocysts that mediate faecal-oral transmission. The absence of a cyst is what makes Trichomonas the organism not transmitted through a cystic stage.
+## explicit_objective
+State that Trichomonas vaginalis lacks a cyst stage and is transmitted as a trophozoite.
+## pitfalls
+Trichomonas vaginalis has only a trophozoite and no cyst; Giardia, Balantidium and Cryptosporidium form (oo)cysts, so they ARE cyst-transmitted.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trichomonas vaginalis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-78529557932C2C
+## label
+Plasmodium falciparum infection may cause multiorgan failure
+## canonical_key
+parasitology.plasmodium-falciparum.multiorgan-failure-complication
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Plasmodium falciparum is the species responsible for severe, complicated malaria and can progress to multiorgan failure because its infected red cells cytoadhere and sequester in the microvasculature of the brain, kidney, lung and other organs. Blackwater fever is due to massive intravascular haemolysis rather than cytoadherence, nephrotic syndrome is a feature of P. malariae rather than P. vivax, and hyper-reactive malarial splenomegaly is linked to elevated IgM. The true complication statement is therefore that P. falciparum may end in multiorgan failure.
+## explicit_objective
+Recognise multiorgan failure as a complication of Plasmodium falciparum malaria.
+## pitfalls
+Multiorgan failure is a P. falciparum complication; blackwater fever is intravascular haemolysis (not cytoadherence), P. malariae (not vivax) causes nephrotic syndrome, and HMS is linked to raised IgM (not IgG).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium falciparum
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F6AC270E01B565
+## label
+Modified Diamond’s medium yields trophozoites of Trichomonas vaginalis
+## canonical_key
+parasitology.trichomonas-vaginalis.diamond-medium-culture
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In-vitro culture on modified Diamond’s medium is used to grow Trichomonas vaginalis, which appears as motile trophozoites. Culture of Leishmania, for example on NNN medium, yields promastigotes rather than amastigotes, and NNN culture of trypanosomes yields insect-stage forms, not blood trypomastigotes. The correct culture statement is that modified Diamond’s medium yields Trichomonas trophozoites.
+## explicit_objective
+Match modified Diamond’s medium to the culture of Trichomonas vaginalis trophozoites.
+## pitfalls
+Diamond’s medium grows Trichomonas trophozoites; NNN culture of Leishmania yields promastigotes (not amastigotes) and does not yield blood trypomastigotes of T. cruzi.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trichomonas vaginalis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4F28B75028785B
+## label
+High IgM in Trypanosoma brucei infection is due to antigenic variation
+## canonical_key
+parasitology.trypanosoma-brucei.igm-elevation-antigenic-variation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+African trypanosomes (Trypanosoma brucei) repeatedly change their variant surface glycoprotein coat by antigenic variation, so the host mounts wave after wave of new antibody responses, producing the characteristic very high polyclonal IgM levels of sleeping sickness. The IgM elevation reflects this continual antigenic switching rather than a simple hypersensitivity or autoimmune reaction, and microfilariae are irrelevant to trypanosomes. Antigenic variation is therefore the cause of the raised IgM.
+## explicit_objective
+Attribute the high IgM of Trypanosoma brucei infection to antigenic variation.
+## pitfalls
+The raised IgM in T. brucei is driven by antigenic variation (VSG switching); it is not primarily a hypersensitivity or autoimmune phenomenon, and microfilariae are unrelated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma brucei
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F8FEEE2DE86CD6
+## label
+Transplacental malaria does not relapse
+## canonical_key
+parasitology.plasmodium.no-relapse-transplacental-transmission
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Relapse in malaria is caused by dormant liver hypnozoites of Plasmodium vivax and ovale, which form only when sporozoites are inoculated by a mosquito bite. In transplacental (congenital) malaria the fetus receives blood-stage parasites directly across the placenta, so no exo-erythrocytic liver stage and no hypnozoites are established, and the infection therefore cannot relapse. Congenital or transfusion malaria may recrudesce from persisting blood forms but does not truly relapse.
+## explicit_objective
+Explain that transplacentally transmitted malaria does not relapse because no hypnozoites form.
+## pitfalls
+No-relapse malaria follows transplacental (or transfusion) transmission because blood-stage parasites bypass the liver; relapse needs mosquito-inoculated sporozoites forming hypnozoites, and is unrelated to immunosuppression, incomplete treatment or mixed infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium (malaria)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-AC1D2C0B09D01B
+## label
+Leishmania braziliensis destroys nasal cartilage (mucocutaneous leishmaniasis)
+## canonical_key
+parasitology.leishmania-braziliensis.nasal-cartilage-destruction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Leishmania braziliensis causes mucocutaneous leishmaniasis (espundia), in which metastatic spread to the naso-oropharyngeal mucosa produces destructive, disfiguring lesions that erode the nasal septum and cartilage. The dermotropic species L. tropica and L. major cause simple skin sores, and the viscerotropic L. infantum/donovani cause kala-azar, none of which destroy nasal cartilage. Destruction of nasal cartilage is therefore characteristic of L. braziliensis.
+## explicit_objective
+Identify Leishmania braziliensis as the cause of nasal cartilage destruction (mucocutaneous leishmaniasis).
+## pitfalls
+Nasal cartilage destruction is caused by L. braziliensis (mucocutaneous/espundia); L. tropica, L. major and L. infantum do not erode nasal cartilage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Leishmania braziliensis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4C39425B754ADA
+## label
+Fine malaria pigment is found in Plasmodium vivax-infected red cells
+## canonical_key
+parasitology.plasmodium-vivax.fine-malaria-pigment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Malaria pigment (haemozoin) seen in infected red cells differs by species: Plasmodium vivax produces a fine, scattered, light-brown pigment, whereas P. malariae produces coarse, dark pigment. Recognising the fine pigment of P. vivax alongside an enlarged red cell bearing Schuffner dots helps distinguish it on a blood film. Fine pigment is therefore characteristic of P. vivax.
+## explicit_objective
+Associate fine malaria pigment with Plasmodium vivax.
+## pitfalls
+Fine pigment is a P. vivax feature; P. malariae shows coarse dark pigment, so pigment texture helps separate the species.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium vivax
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1266DBDD4005A8
+## label
+The Maltese-cross tetrad confirms babesiosis
+## canonical_key
+parasitology.babesia.maltese-cross-diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Babesia species multiply inside red cells and can form a tetrad of four merozoites arranged as a Maltese cross, which is pathognomonic and confirms the diagnosis of babesiosis on a stained blood film. Ring forms alone can be mistaken for Plasmodium falciparum, so it is the Maltese-cross tetrad, rather than rings, sporozoites or liver merozoites, that is diagnostic. Detecting the Maltese cross therefore confirms babesiosis.
+## explicit_objective
+Recognise the Maltese-cross tetrad as confirmatory of babesiosis.
+## pitfalls
+The confirmatory finding in babesiosis is the Maltese-cross tetrad; rings resemble falciparum, and Babesia has no liver-cell merozoite or intra-RBC sporozoite stage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Babesia
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-12F2FEE259064F
+## label
+Nephrotic syndrome is a complication of Plasmodium malariae
+## canonical_key
+parasitology.plasmodium-malariae.nephrotic-syndrome-complication
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic Plasmodium malariae (quartan) infection can cause an immune-complex glomerulonephritis that presents as the nephrotic syndrome, classically in children and known as quartan malarial nephropathy. The immune-complex deposition in the glomerular basement membrane is a type III hypersensitivity reaction and is specific to P. malariae among the malaria species. Nephrotic syndrome is therefore a recognised complication of P. malariae.
+## explicit_objective
+Identify nephrotic syndrome as a complication of Plasmodium malariae.
+## pitfalls
+Nephrotic syndrome (immune-complex nephropathy) complicates P. malariae, not P. vivax, ovale or falciparum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium malariae
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-8D563ECF48B5F4
+## label
+Acanthamoeba keratitis may progress to endophthalmitis
+## canonical_key
+parasitology.acanthamoeba.keratitis-endophthalmitis-complication
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acanthamoeba keratitis is a sight-threatening corneal infection, and in an immunocompromised (for example AIDS) patient the infection can extend beyond the cornea to cause endophthalmitis. This is a local ocular complication of the keratitis, distinct from the disseminated granulomatous amoebic encephalitis (GAE) that Acanthamoeba can also cause. Endophthalmitis is therefore the ocular complication that keratitis can produce.
+## explicit_objective
+Recognise endophthalmitis as an ocular complication of Acanthamoeba keratitis.
+## pitfalls
+Keratitis extending locally gives endophthalmitis; GAE is the separate disseminated CNS disease, not a direct sequel of the keratitis, and Acanthamoeba does not cause gastroenteritis or respiratory infection here.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Acanthamoeba
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B2CBB9DE65157B
+## label
+Naegleria fowleri is acquired by swimming in contaminated fresh water
+## canonical_key
+parasitology.naegleria-fowleri.freshwater-swimming-transmission
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Naegleria fowleri is a free-living amoeba of warm fresh water, and infection follows swimming or diving in contaminated water when the amoebae enter the nose and cross the cribriform plate to cause primary amoebic meningoencephalitis. Acanthamoeba, by contrast, usually enters through skin, cornea or the respiratory route rather than by swimming, and Toxoplasma and Dracunculus use unrelated routes. Swimming in contaminated fresh water is therefore the route for Naegleria.
+## explicit_objective
+Link swimming in contaminated fresh water to Naegleria fowleri infection.
+## pitfalls
+Naegleria fowleri is acquired by swimming in warm fresh water (nasal route to primary amoebic meningoencephalitis); Acanthamoeba is not chiefly swimming-acquired and Toxoplasma/Dracunculus use other routes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Naegleria fowleri
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-15FBC6A13F2C6B
+## label
+Acanthamoeba is free-living and needs no human host to complete its life cycle
+## canonical_key
+parasitology.acanthamoeba.free-living-no-human-host
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acanthamoeba is a free-living amoeba whose normal habitat is soil and water, and it completes its entire life cycle of trophozoite and cyst in the environment without requiring a human host; humans are only accidental hosts. Corneal scraping is in fact a reliable way to isolate it, it is a protozoan and not a helminth, and keratitis is seen mainly in immunocompetent contact-lens wearers. The true statement is therefore that Acanthamoeba does not depend on a human host to complete its life cycle.
+## explicit_objective
+State that Acanthamoeba is free-living and completes its life cycle without a human host.
+## pitfalls
+Acanthamoeba is a free-living protozoan that needs no human host; corneal scraping IS reliable, it is not a helminth, and keratitis does occur in immunocompetent (contact-lens) hosts.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Acanthamoeba
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.

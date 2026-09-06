@@ -420,3 +420,101 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was located/read this pass -- written from standard parasitology teaching corroborated by this question bank's own printed-answer-key stems and options (Nematoda section, answer table p.13).
 ## reading_time
 8
+
+
+---
+
+# Item
+## id
+ART-INF-309-PROTOZOA
+## title
+Protozoa of medical importance (Plasmodium, Babesia, Leishmania, Trypanosoma, Entamoeba, Trichomonas and the free-living amoebae)
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Parasitology
+## summary
+This article groups the protozoal facts tested by the Protozoology section of the paper (Q1-16 authored so far, of a 84-question section). It covers general protozoan biology (conjugation as the exchange of nuclear material between two protozoa), the malaria parasites (haemolytic anaemia as the mechanism of malarial anaemia, Plasmodium falciparum as the cause of severe multiorgan-failure malaria, the fine red-cell pigment of P. vivax, the immune-complex nephrotic syndrome of quartan P. malariae, and the absence of relapse when malaria is transmitted transplacentally rather than by mosquito-inoculated sporozoites that form liver hypnozoites), Babesia (the confirmatory Maltese-cross tetrad), the trypanosomes (very high IgM from antigenic variation in Trypanosoma brucei), the leishmaniae (nasal-cartilage-destroying mucocutaneous disease of L. braziliensis), Trichomonas vaginalis (its lack of a cyst stage and its culture as trophozoites on modified Diamond medium), and the free-living amoebae (Naegleria fowleri acquired by swimming in warm fresh water, and Acanthamoeba as a soil/water free-living protozoan that needs no human host and whose keratitis may progress to endophthalmitis). Each linked concept carries one atomic fact about a protozoan's structure, life cycle, diagnosis, pathology or clinical association.
+## sections
+### Definition
+This article groups the protozoal concepts tested by the paper; each linked concept carries one atomic fact about a protozoan's structure, mode of reproduction, transmission, diagnosis, pathology or clinical association.
+### Mechanism
+The facts follow protozoan biology and life cycles: ciliate conjugation exchanges nuclear material; malaria parasites multiply inside red cells, causing haemolytic anaemia and, for P. falciparum, cytoadherent multiorgan disease, while P. malariae drives an immune-complex nephropathy and relapse depends on liver hypnozoites that transplacental transmission bypasses; Babesia forms an intra-erythrocytic Maltese-cross tetrad; Trypanosoma brucei escapes immunity by antigenic variation with high IgM; Leishmania braziliensis metastasises to erode naso-oropharyngeal cartilage; Trichomonas vaginalis persists only as a cyst-less trophozoite and is grown on Diamond medium; and the free-living amoebae Naegleria and Acanthamoeba complete their cycles in water and soil, entering man accidentally.
+### Key determinants
+Discriminators tested here: fine pigment and Schuffner dots mark P. vivax while coarse pigment marks P. malariae; multiorgan failure and cytoadherence mark P. falciparum; nephrotic syndrome marks quartan P. malariae; the Maltese cross confirms Babesia; high IgM in sleeping sickness reflects antigenic variation; nasal cartilage destruction marks mucocutaneous L. braziliensis; absence of a cyst marks Trichomonas vaginalis; and Naegleria (swimming, nasal route) versus Acanthamoeba (soil/water, contact-lens keratitis, no human-host dependence) separate the free-living amoebae.
+### Clinical significance
+These facts underlie diagnosis and management of the medically important protozoa: reading species-specific malaria films and recognising severe falciparum disease and malarial nephropathy, confirming babesiosis by the Maltese cross, interpreting the high IgM of trypanosomiasis, recognising espundia, culturing and treating trichomoniasis, and distinguishing the water-borne free-living amoebic infections.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (fine P. vivax pigment vs coarse P. malariae pigment; multiorgan falciparum vs nephrotic-syndrome P. malariae; cyst-less Trichomonas vs cyst-forming Giardia/Balantidium/Cryptosporidium; swimming-acquired Naegleria vs contact-lens Acanthamoeba).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology
+## subtopic
+Protozoology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 parasitology
+## high_yield
+Core
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## related_concepts
+CON-INF-318B39CBBC8DED
+CON-INF-F7B04A91486986
+CON-INF-1FC7DEF4527FAA
+CON-INF-69D9736990C907
+CON-INF-78529557932C2C
+CON-INF-F6AC270E01B565
+CON-INF-4F28B75028785B
+CON-INF-F8FEEE2DE86CD6
+CON-INF-AC1D2C0B09D01B
+CON-INF-4C39425B754ADA
+CON-INF-1266DBDD4005A8
+CON-INF-12F2FEE259064F
+CON-INF-8D563ECF48B5F4
+CON-INF-B2CBB9DE65157B
+CON-INF-15FBC6A13F2C6B
+## related_articles
+ART-INF-309-PARA-GENERAL
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+nodeChoice: Filed on DIS-PAR-T01 (protozoa) -- the protozoology node under DIS-PAR, sibling to DIS-PAR-T02 (Helminthology) used by the trematode/cestode/nematode articles; matches the ASU-LOCO parasitology precedent that files protozoan concepts under DIS-PAR-T01.
+university_notes: No department book PDF was read this pass -- written from standard parasitology teaching corroborated by this question bank's own printed-answer-key stems and options (Protozoology section, answer table p.21).
+## reading_time
+8

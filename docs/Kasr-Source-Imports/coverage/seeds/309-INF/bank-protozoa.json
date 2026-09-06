@@ -1,0 +1,433 @@
+{
+  "lane": "KASR-309INF",
+  "cluster": "bank-protozoa",
+  "header": "Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Protozoology section (Q1-84) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.21 'Answers of Protozoology']. This slice covers Q1-16 (pp.14-15). 15 authored / 0 held (Q6 deferred to a later slice for closer immunology scrutiny). Keys read from the printed answer table p.21 (native text; no OCR). New file + new article ART-INF-309-PROTOZOA (protozoa node DIS-PAR-T01). Q17-84 remain untriaged; in-source exact duplicates flagged for later holds: Q52=Q41, Q54=Q48, Q57=Q50, Q58=Q51, Q59=Q8, Q84=Q11.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y3"
+    ],
+    "module": "309 INF",
+    "exam_weight_by_year": {
+      "KAU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-INF-309-PROTOZOA"
+    ],
+    "resource_ids": [
+      "src_10f1a669aa2eeedf3cd9"
+    ],
+    "source_citation": "Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Protozoology, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Parasitology",
+    "subtopic": "Protozoology",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "module_subject": "309 INF > Parasitology > Protozoology",
+    "field_notes": {
+      "keySource": "printed answer table 'Answers of Protozoology' p.21 (native text; text layer authoritative, no OCR)"
+    }
+  },
+  "questions": [
+    {
+      "key": "q01",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-1",
+      "page": 14,
+      "title": "Exchange of nuclear material between two protozoa",
+      "question": "Exchange of nuclear materials between two protozoa is called:",
+      "options": {
+        "A": "Syngamy",
+        "B": "Conjugation",
+        "C": "Gamogony",
+        "D": "Budding"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Syngamy is the fusion of two gametes to form a zygote, not the exchange of nuclear material between two organisms.",
+        "B": "Correct. Conjugation is a form of sexual reproduction in ciliate protozoa (such as Balantidium coli) in which two organisms temporarily join and exchange micronuclear (nuclear) material before separating. It is the reciprocal transfer of nuclear material that defines the process. This distinguishes conjugation from the other listed processes.",
+        "C": "Incorrect. Gamogony is the formation of gametes, not the exchange of nuclear material.",
+        "D": "Incorrect. Budding is an asexual mode of reproduction and involves no exchange of nuclear material."
+      },
+      "main_concept": "CON-INF-318B39CBBC8DED",
+      "concept_ids": [
+        "CON-INF-318B39CBBC8DED"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > General protozoology",
+      "learning_objective": "Define conjugation as the exchange of nuclear material between two protozoa."
+    },
+    {
+      "key": "q02",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-2",
+      "page": 14,
+      "title": "Protozoan causing granulomatous reactions",
+      "question": "Granulomatous reactions may occur in infection with:",
+      "options": {
+        "A": "Cyclospora cayetanensis",
+        "B": "Giardia lamblia",
+        "C": "Entamoeba histolytica",
+        "D": "Naegleria fowleri"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Cyclospora causes a watery diarrhoeal illness, not a granulomatous reaction.",
+        "B": "Incorrect. Giardia is a non-invasive luminal parasite of the small bowel and does not form granulomas.",
+        "C": "Correct. Chronic invasive intestinal amoebiasis due to Entamoeba histolytica can produce an amoeboma, a granulomatous tumour-like mass of granulation tissue in the bowel wall that may mimic carcinoma. This granulomatous reaction is a recognised complication of invasive amoebiasis. The other listed protozoa do not form intestinal granulomas.",
+        "D": "Incorrect. Naegleria fowleri causes primary amoebic meningoencephalitis, not intestinal granulomas."
+      },
+      "main_concept": "CON-INF-F7B04A91486986",
+      "concept_ids": [
+        "CON-INF-F7B04A91486986"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Entamoeba histolytica",
+      "learning_objective": "Recognise Entamoeba histolytica as the cause of a granulomatous amoeboma."
+    },
+    {
+      "key": "q03",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-3",
+      "page": 14,
+      "title": "Haemolytic anaemia in pathogenesis",
+      "question": "Haemolytic anaemia is involved in the pathogenesis of:",
+      "options": {
+        "A": "Malaria",
+        "B": "Hookworm infection",
+        "C": "Schistosomiasis",
+        "D": "Diphyllobothriasis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Malaria produces anaemia chiefly through haemolysis: intra-erythrocytic Plasmodium schizonts rupture infected red cells at the end of each erythrocytic cycle, and immune and splenic clearance also destroys uninfected cells. The result is a haemolytic anaemia. This is the mechanism of malarial anaemia.",
+        "B": "Incorrect. Hookworm causes a chronic iron-deficiency anaemia from intestinal blood loss, not a haemolytic anaemia.",
+        "C": "Incorrect. Schistosomiasis causes anaemia mainly through chronic blood loss and inflammation, not haemolysis.",
+        "D": "Incorrect. Diphyllobothrium latum causes a megaloblastic (vitamin B12-deficiency) anaemia, not a haemolytic one."
+      },
+      "main_concept": "CON-INF-1FC7DEF4527FAA",
+      "concept_ids": [
+        "CON-INF-1FC7DEF4527FAA"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium (malaria)",
+      "learning_objective": "Attribute the anaemia of malaria to haemolysis."
+    },
+    {
+      "key": "q04",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-4",
+      "page": 14,
+      "title": "Not transmitted through a cystic stage",
+      "question": "The following is NOT transmitted through a cystic stage:",
+      "options": {
+        "A": "Giardia lamblia",
+        "B": "Trichomonas vaginalis",
+        "C": "Balantidium coli",
+        "D": "Cryptosporidium parvum"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Giardia lamblia forms a resistant cyst that is the transmissible faecal-oral stage.",
+        "B": "Correct. Trichomonas vaginalis exists only as a trophozoite and has no cyst stage, so it cannot survive long outside the host and is transmitted directly, chiefly by sexual contact, rather than through a resistant cyst. The absence of a cyst distinguishes it from the other three. It is therefore the organism not transmitted through a cystic stage.",
+        "C": "Incorrect. Balantidium coli forms a cyst that mediates faecal-oral transmission.",
+        "D": "Incorrect. Cryptosporidium parvum is transmitted by a thick-walled oocyst shed in stool."
+      },
+      "main_concept": "CON-INF-69D9736990C907",
+      "concept_ids": [
+        "CON-INF-69D9736990C907"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Trichomonas vaginalis",
+      "learning_objective": "State that Trichomonas vaginalis lacks a cyst stage."
+    },
+    {
+      "key": "q05",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-5",
+      "page": 14,
+      "title": "True statement on complications of malaria",
+      "question": "As regards complications of malaria, the following is true:",
+      "options": {
+        "A": "Blackwater fever is the result of cytoadherence of RBCs",
+        "B": "Infection with Plasmodium falciparum may end up with multiorgan failure",
+        "C": "Nephrotic syndrome is a common complication of infection with Plasmodium vivax",
+        "D": "Hyper-reactive malarial splenomegaly is associated with an elevation of serum IgG"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Blackwater fever results from massive intravascular haemolysis of red cells, not from cytoadherence.",
+        "B": "Correct. Plasmodium falciparum causes severe, complicated malaria and can progress to multiorgan failure because its infected red cells cytoadhere and sequester in the microvasculature of the brain, kidney and lung. This sequestration underlies cerebral, renal and pulmonary complications. Multiorgan failure is therefore a recognised outcome of severe falciparum malaria.",
+        "C": "Incorrect. Nephrotic syndrome is a complication of chronic Plasmodium malariae infection, not of P. vivax.",
+        "D": "Incorrect. Hyper-reactive malarial splenomegaly is associated with elevated serum IgM, not IgG."
+      },
+      "main_concept": "CON-INF-78529557932C2C",
+      "concept_ids": [
+        "CON-INF-78529557932C2C"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium falciparum",
+      "learning_objective": "Recognise multiorgan failure as a complication of Plasmodium falciparum malaria."
+    },
+    {
+      "key": "q07",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-7",
+      "page": 14,
+      "title": "True statement on in vitro culture methods",
+      "question": "As regards in vitro culture methods, the following is true:",
+      "options": {
+        "A": "It reveals amastigotes of Leishmania",
+        "B": "Stool culture for 48 hours yields filariform larvae of Strongyloides",
+        "C": "Culture on NNN medium reveals trypomastigotes of Trypanosoma cruzi",
+        "D": "Culture on modified Diamond's medium yields trophozoites of Trichomonas vaginalis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Culture of Leishmania (for example on NNN medium) yields promastigotes, the flagellated insect-stage form, not amastigotes.",
+        "B": "Incorrect. Filariform larvae of Strongyloides develop in faecal culture (Harada-Mori) but over about a week, not reliably in 48 hours, and this is not the true statement.",
+        "C": "Incorrect. NNN culture of trypanosomes yields the insect (epimastigote/promastigote) stages, not blood trypomastigotes of T. cruzi.",
+        "D": "Correct. In-vitro culture on modified Diamond's medium is used to grow Trichomonas vaginalis, which appears as motile trophozoites. Diamond's medium is the standard culture system for this flagellate. Culture yielding Trichomonas trophozoites is therefore the true statement."
+      },
+      "main_concept": "CON-INF-F6AC270E01B565",
+      "concept_ids": [
+        "CON-INF-F6AC270E01B565"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Trichomonas vaginalis",
+      "learning_objective": "Match modified Diamond's medium to culture of Trichomonas vaginalis trophozoites."
+    },
+    {
+      "key": "q08",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-8",
+      "page": 14,
+      "title": "Cause of high IgM in Trypanosoma brucei infection",
+      "question": "High level of IgM in Trypanosoma brucei infection is due to:",
+      "options": {
+        "A": "Hypersensitivity reaction",
+        "B": "Antigenic variation",
+        "C": "Presence of microfilaria in blood",
+        "D": "Autoimmune reaction"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The IgM rise is not primarily a hypersensitivity reaction.",
+        "B": "Correct. African trypanosomes repeatedly change their variant surface glycoprotein coat by antigenic variation, so the host mounts wave after wave of new antibody responses, producing the very high polyclonal IgM levels characteristic of sleeping sickness. The IgM elevation reflects this continual antigenic switching. Antigenic variation is therefore the cause of the raised IgM.",
+        "C": "Incorrect. Trypanosoma brucei does not produce microfilariae; that stage belongs to the filarial nematodes.",
+        "D": "Incorrect. The high IgM is driven by antigenic variation, not by an autoimmune reaction."
+      },
+      "main_concept": "CON-INF-4F28B75028785B",
+      "concept_ids": [
+        "CON-INF-4F28B75028785B"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Trypanosoma brucei",
+      "learning_objective": "Attribute the high IgM of Trypanosoma brucei infection to antigenic variation."
+    },
+    {
+      "key": "q09",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-9",
+      "page": 14,
+      "title": "When malaria shows no relapse",
+      "question": "Malaria infection with no relapse occurs when:",
+      "options": {
+        "A": "Transmission is transplacental",
+        "B": "Patients are immunosuppressed",
+        "C": "Treatment is incomplete",
+        "D": "There's mixed infection with different species"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Relapse is caused by dormant liver hypnozoites of Plasmodium vivax and ovale, which form only when sporozoites are inoculated by a mosquito bite. In transplacental (congenital) malaria the fetus receives blood-stage parasites directly across the placenta, so no liver stage and no hypnozoites are established, and the infection cannot relapse. Transplacental transmission therefore gives malaria with no relapse.",
+        "B": "Incorrect. Immunosuppression does not remove hypnozoites and is not the reason for absence of relapse.",
+        "C": "Incorrect. Incomplete treatment tends to permit recrudescence or relapse, not to abolish relapse.",
+        "D": "Incorrect. Mixed-species infection does not explain the absence of relapse."
+      },
+      "main_concept": "CON-INF-F8FEEE2DE86CD6",
+      "concept_ids": [
+        "CON-INF-F8FEEE2DE86CD6"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium (malaria)",
+      "learning_objective": "Explain that transplacentally transmitted malaria does not relapse."
+    },
+    {
+      "key": "q10",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-10",
+      "page": 14,
+      "title": "Parasite causing destruction of nasal cartilage",
+      "question": "Which of the following parasites causes destruction of nasal cartilage?",
+      "options": {
+        "A": "Leishmania donovani",
+        "B": "Leishmania infantum",
+        "C": "Leishmania tropica",
+        "D": "Leishmania braziliensis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Leishmania donovani causes visceral leishmaniasis (kala-azar), not destruction of nasal cartilage.",
+        "B": "Incorrect. Leishmania infantum causes visceral (and some cutaneous) disease, not mucocutaneous cartilage destruction.",
+        "C": "Incorrect. Leishmania tropica causes localised cutaneous leishmaniasis (oriental sore), which does not destroy nasal cartilage.",
+        "D": "Correct. Leishmania braziliensis causes mucocutaneous leishmaniasis (espundia), in which metastatic spread to the naso-oropharyngeal mucosa produces destructive, disfiguring lesions that erode the nasal septum and cartilage. This mucosal metastasis is characteristic of the species. Destruction of nasal cartilage therefore points to L. braziliensis."
+      },
+      "main_concept": "CON-INF-AC1D2C0B09D01B",
+      "concept_ids": [
+        "CON-INF-AC1D2C0B09D01B"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Leishmania braziliensis",
+      "learning_objective": "Identify L. braziliensis as the cause of nasal cartilage destruction."
+    },
+    {
+      "key": "q11",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-11",
+      "page": 15,
+      "title": "Species with fine malaria pigment",
+      "question": "Fine malaria pigment is found in RBCs infected with:",
+      "options": {
+        "A": "Plasmodium falciparum",
+        "B": "Plasmodium ovale",
+        "C": "Plasmodium malariae",
+        "D": "Plasmodium vivax"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Plasmodium falciparum shows one or two blocks of dark pigment in its gametocytes, not the fine scattered pigment of vivax.",
+        "B": "Incorrect. Plasmodium ovale is not the species characterised by fine pigment in this comparison.",
+        "C": "Incorrect. Plasmodium malariae characteristically produces coarse, dark pigment, the opposite of fine pigment.",
+        "D": "Correct. Plasmodium vivax produces a fine, scattered, light-brown malaria pigment (haemozoin) in the infected red cell, in contrast to the coarse dark pigment of P. malariae. Recognising fine pigment alongside an enlarged red cell with Schuffner dots helps identify P. vivax on a film. Fine pigment is therefore characteristic of P. vivax."
+      },
+      "main_concept": "CON-INF-4C39425B754ADA",
+      "concept_ids": [
+        "CON-INF-4C39425B754ADA"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium vivax",
+      "learning_objective": "Associate fine malaria pigment with Plasmodium vivax."
+    },
+    {
+      "key": "q12",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-12",
+      "page": 15,
+      "title": "Finding that confirms babesiosis",
+      "question": "To confirm diagnosis of babesiosis, we should detect:",
+      "options": {
+        "A": "Ring stages in RBCs",
+        "B": "Maltese cross form in RBCs",
+        "C": "Sporozoites in RBCs",
+        "D": "Merozoites in liver cell"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Ring stages in red cells occur in Babesia but closely resemble Plasmodium falciparum rings, so they are not confirmatory.",
+        "B": "Correct. Babesia multiplies inside red cells and can form a tetrad of four merozoites arranged as a Maltese cross, which is pathognomonic and confirms babesiosis on a stained blood film. This tetrad distinguishes Babesia from the ring-only forms of Plasmodium. Detecting the Maltese cross therefore confirms the diagnosis.",
+        "C": "Incorrect. Babesia does not present diagnostic sporozoites within red cells.",
+        "D": "Incorrect. Babesia has no exo-erythrocytic liver stage, so liver-cell merozoites are not seen."
+      },
+      "main_concept": "CON-INF-1266DBDD4005A8",
+      "concept_ids": [
+        "CON-INF-1266DBDD4005A8"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Babesia",
+      "learning_objective": "Recognise the Maltese-cross tetrad as confirmatory of babesiosis."
+    },
+    {
+      "key": "q13",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-13",
+      "page": 15,
+      "title": "Malaria species causing nephrotic syndrome",
+      "question": "Nephrotic syndrome occurs as a complication of:",
+      "options": {
+        "A": "Plasmodium ovale",
+        "B": "Plasmodium malariae",
+        "C": "Plasmodium falciparum",
+        "D": "Plasmodium vivax"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Plasmodium ovale is not associated with the immune-complex nephropathy of quartan malaria.",
+        "B": "Correct. Chronic Plasmodium malariae (quartan) infection can cause an immune-complex glomerulonephritis that presents as nephrotic syndrome, classically in children (quartan malarial nephropathy). Immune complexes deposit in the glomerular basement membrane as a type III reaction. Nephrotic syndrome is therefore a complication specific to P. malariae.",
+        "C": "Incorrect. Plasmodium falciparum causes acute renal failure from tubular necrosis, not the nephrotic syndrome of quartan nephropathy.",
+        "D": "Incorrect. Plasmodium vivax is not the species that causes nephrotic syndrome."
+      },
+      "main_concept": "CON-INF-12F2FEE259064F",
+      "concept_ids": [
+        "CON-INF-12F2FEE259064F"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Plasmodium malariae",
+      "learning_objective": "Identify nephrotic syndrome as a complication of Plasmodium malariae."
+    },
+    {
+      "key": "q14",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-14",
+      "page": 15,
+      "title": "Complication of Acanthamoeba keratitis in AIDS",
+      "question": "Acanthamoeba keratitis in AIDS patients can cause:",
+      "options": {
+        "A": "Endophthalmitis",
+        "B": "GAE",
+        "C": "Gastroenteritis",
+        "D": "Respiratory tract infection"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Acanthamoeba keratitis is a sight-threatening corneal infection, and in an immunocompromised (AIDS) patient it can extend beyond the cornea to cause endophthalmitis. This is a local ocular complication arising directly from the keratitis. Endophthalmitis is therefore the ocular complication produced by the keratitis.",
+        "B": "Incorrect. Granulomatous amoebic encephalitis is a separate disseminated CNS disease of Acanthamoeba, not a direct sequel of keratitis.",
+        "C": "Incorrect. Acanthamoeba does not cause gastroenteritis.",
+        "D": "Incorrect. Respiratory tract infection is not the ocular complication asked about here."
+      },
+      "main_concept": "CON-INF-8D563ECF48B5F4",
+      "concept_ids": [
+        "CON-INF-8D563ECF48B5F4"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Acanthamoeba",
+      "learning_objective": "Recognise endophthalmitis as an ocular complication of Acanthamoeba keratitis."
+    },
+    {
+      "key": "q15",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-15",
+      "page": 15,
+      "title": "Infection from swimming in contaminated water",
+      "question": "Swimming in contaminated water can cause infection with:",
+      "options": {
+        "A": "Acanthamoeba",
+        "B": "Toxoplasma gondii",
+        "C": "Naegleria fowleri",
+        "D": "Dracunculus medinensis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Acanthamoeba usually enters through skin, cornea (contact lenses) or the respiratory route, not chiefly by swimming.",
+        "B": "Incorrect. Toxoplasma is acquired by ingesting oocysts or tissue cysts, not by swimming.",
+        "C": "Correct. Naegleria fowleri is a free-living amoeba of warm fresh water, and infection follows swimming or diving in contaminated water when the amoebae enter the nose and cross the cribriform plate to cause primary amoebic meningoencephalitis. Swimming is the classic exposure. Contaminated-water swimming therefore points to Naegleria fowleri.",
+        "D": "Incorrect. Dracunculus medinensis is acquired by drinking water containing infected Cyclops, not by swimming."
+      },
+      "main_concept": "CON-INF-B2CBB9DE65157B",
+      "concept_ids": [
+        "CON-INF-B2CBB9DE65157B"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Naegleria fowleri",
+      "learning_objective": "Link swimming in contaminated fresh water to Naegleria fowleri."
+    },
+    {
+      "key": "q16",
+      "id": "QST-KASR309INF-BANK-PROTOZOA-16",
+      "page": 15,
+      "title": "True statement on Acanthamoeba keratitis",
+      "question": "Which of the following statements is true regarding Acanthamoeba keratitis?",
+      "options": {
+        "A": "For isolation of the causative agent, corneal scraping is not reliable",
+        "B": "The causative agent, Acanthamoeba, is a helminth whose normal habitat is soil",
+        "C": "Keratitis due to Acanthamoeba is not seen in the immunocompromised host",
+        "D": "Acanthamoeba does not depend upon a human host for the completion of its life cycle"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Corneal scraping is in fact a reliable specimen for isolating Acanthamoeba.",
+        "B": "Incorrect. Acanthamoeba is a free-living protozoan (amoeba), not a helminth, although its habitat does include soil and water.",
+        "C": "Incorrect. Keratitis is seen mainly in immunocompetent contact-lens wearers, but Acanthamoeba can also affect the immunocompromised, so this statement is false.",
+        "D": "Correct. Acanthamoeba is a free-living amoeba whose normal habitat is soil and water, and it completes its entire life cycle of trophozoite and cyst in the environment without requiring a human host; humans are only accidental hosts. It therefore does not depend on a human host to complete its life cycle. This is the true statement."
+      },
+      "main_concept": "CON-INF-15FBC6A13F2C6B",
+      "concept_ids": [
+        "CON-INF-15FBC6A13F2C6B"
+      ],
+      "module_subject": "309 INF > Parasitology > Protozoology > Acanthamoeba",
+      "learning_objective": "State that Acanthamoeba is free-living and needs no human host."
+    }
+  ]
+}

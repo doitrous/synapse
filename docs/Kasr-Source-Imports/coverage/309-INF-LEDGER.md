@@ -5,8 +5,9 @@
 | bank Introduction + Trematoda MCQ (Q1-19, `8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf`) | 18 | 1 | 0 | 0 | 19 |
 | bank Cestoda MCQ (Q1-28, answer table p.6) | 25 | 3 | 0 | 0 | 28 |
 | bank Nematoda MCQ (Q1-67, answer table p.13) | 59 | 8 | 0 | 0 | 67 |
-| **bank Trematoda + Cestoda + Nematoda clusters total** | **102** | **12** | **0** | Protozoology + Entomology | — |
-| 309 INF module (Microbiology + Parasitology sub-corpora) | 102 | 12 | 0 | Protozoology p.14-20, Entomology p.22 | — |
+| bank Protozoology MCQ (Q1-16 of 84, answer table p.21) | 15 | 0 | 0 | Q6 + Q17-84 | 84 |
+| **bank Trematoda + Cestoda + Nematoda + Protozoology clusters total** | **117** | **12** | **0** | Protozoology Q6/Q17-84 + Entomology | — |
+| 309 INF module (Microbiology + Parasitology sub-corpora) | 117 | 12 | 0 | Protozoology Q6 + Q17-84 p.14-20, Entomology p.22 | — |
 
 ## Module opened
 
@@ -231,9 +232,40 @@ Gates (all from `.gates/`): **batch** items=59 errors=0 (question) + 88 errors=0
 concept/article/resource `--with` siblings; **simulate**/**audit** below — category-neutral vs the 309-INF baseline (no NEW
 category type; count scales with the added 13 questions + 11 concepts).
 
+## Cluster — bank Protozoology (Q1-16 of 84)
+
+**15/16 authored, 0 held, Q6 deferred** (this slice covers Q1-16, pp.14-15; the Protozoology section has **84 questions**,
+all keyed by the single printed answer table **'Answers of Protozoology' p.21**, native text, no OCR). Opened a NEW question
+file `question/309-INF-protozoa-mcq.md` (seed `coverage/seeds/309-INF/bank-protozoa.json`) and a NEW article
+**`ART-INF-309-PROTOZOA`** cross-linked to `ART-INF-309-PARA-GENERAL`. **Protozoa node chosen: `DIS-PAR-T01`** — the
+protozoa node under DIS-PAR (sibling to DIS-PAR-T02 Helminthology used by the trematode/cestode/nematode articles, and
+DIS-PAR-T03 Arthropods); this matches the ASU-LOCO parasitology precedent that files protozoan flagellate concepts under
+DIS-PAR-T01. Keys read from the p.21 table: `1 B 2 C 3 A 4 B 5 B | 6 B 7 D 8 B 9 A 10 D | 11 D 12 B 13 B 14 A 15 C | 16 D …`.
+Sample cross-checked against parasitology (Q1 conjugation=nuclear exchange B, Q4 Trichomonas has no cyst B, Q10 nasal
+cartilage→L. braziliensis D, Q12 Maltese cross→Babesia B, Q13 nephrotic→P. malariae B, Q15 swimming→Naegleria C — all
+consistent). Authored Q1-5 and Q7-16.
+
+**Q6 deferred** (not held, left in Remaining): its immunology (IgA dating of toxoplasma seroconversion vs IgG-avidity
+claims) warrants closer scrutiny than a first pass; parked for a later Protozoology slice rather than authored quickly.
+
+**15 concepts minted** university-blind (`CON-INF-` + first 14 hex of SHA-256 of the canonical key, uppercased;
+collision-checked corpus-wide incl. `docs/import-ready` — no collisions), one atomic fact per question, filed under
+`DIS-PAR-T01` (Protozoology) and grouped into `ART-INF-309-PROTOZOA`. Canonical keys follow the module's own
+`parasitology.<genus>.<fact>` convention (consistent with the 88 existing 309-INF concepts). All records
+`publication_status=needs_evidence` / `status=Draft`.
+
+**In-source duplicates flagged for later holds** (seen while recovering the p.21 keys, to hold when Q17-84 are authored):
+Q52=Q41 ('man is intermediate host only…', key A), Q54=Q48 ('not a parasite found in muscles', key C), Q57=Q50 ('cats may
+be a source of…', key C), Q58=Q51 ('man acts as both final and intermediate hosts…', key D), Q59=Q8 ('high IgM in T.
+brucei…', key B), Q84=Q11 ('fine pigment in RBCs…', vivax). Q78 also re-tests the Q2 granuloma fact.
+
+Gates (all from `.gates/`): **batch** items=15 errors=0 (question) + 103 errors=0 (concept) + 5 errors=0 (article), with
+concept/article/resource `--with` siblings; **simulate**/**audit** below — category-neutral vs the 309-INF baseline (no NEW
+category type; count scales with the added 15 questions + 15 concepts + 1 article).
+
 ## Next cluster
 
-The Nematoda section is complete (Q1-67). Next: **Protozoology** (pp.14-20; new answer table ~p.21, in a new
-`question/309-INF-protozoa-mcq.md` and a new `ART-INF-309-PROTOZOA` article cross-linked to `ART-INF-309-PARA-GENERAL`;
-choose the protozoology taxonomy node from the DIS-PAR children, not the helminthology T02). Then **Entomology** (p.22,
-answers p.23). Recover each section's keys from its own printed answer table before authoring.
+**Protozoology remainder** (Q6 + Q17-84, pp.15-21; same 'Answers of Protozoology' table p.21), appending to
+`question/309-INF-protozoa-mcq.md` and `ART-INF-309-PROTOZOA` — hold the in-source duplicates listed above (Q52/Q54/Q57/Q58/
+Q59/Q84 and Q78) as their originals are authored. Then **Entomology** (p.22, answers p.23) as a new section. Recover each
+section's keys from its own printed answer table before authoring.
