@@ -87,3 +87,61 @@ Q15 — two-correct-answer stem: "one of the following is an example of pre-anal
 # Next tranche (remaining, keys captured / to capture)
 Section 3 "Malpractice & medical responsibility" (p9): first MCQ Q38.D captured; Q39+ not yet keyed.
 Further MCQ sections at p20/p25/p29/p35/p44/p45 not yet triaged.
+
+# ============================================================================
+# UPDATE 2026-09-06 — Sections 6-9 triaged & authored (this completes ALL MCQ
+# sections of the paper; the last "1) MCQs" red header is Section 9 on p45).
+# Keys from the yellow-highlight fill (pagetext keys, pp.29-45), each cross-
+# checked against the printed option text. 0 ambiguous. No render needed
+# (the only detector-0-marked MCQ, Q134, is a held duplicate of Q127).
+# ============================================================================
+
+# Section 6 "Legal regulations for procedures of special nature" (pp.29-31) — MCQ
+Q127.C  (organ transplantation allowed in Egypt from -> Living spouse; living related donor)
+Q128.B  (traditional/classic surrogacy -> surrogate donates her own ovum, genetic link)
+Q129.A  (psychiatric+hormonal treatment before gender correction -> at least Two years)
+Q130.A  (homologous artificial insemination, all true EXCEPT -> obtained from a donor)
+Q131.C  (IVF most important rule -> sperm and ovum from the meant couple)
+Q132.A  (gestational surrogacy -> carries another couple's embryo, no genetic link)
+Q133.A  (DUP of Q130 — HELD)      Q134.(unmarked) (DUP of Q127, no yellow fill — HELD)
+Q135.A  (DUP of Q132 — HELD)      Q136.C (DUP of Q127 — HELD)
+Q137.D  (assisted-reproduction centres keep case records for at least -> Ten years)
+Q138.B  (DUP of Q128 — HELD)      Q139.A (DUP of Q132 — HELD)
+Q140.A  (DUP of Q129, extra 5th option e Ten years — HELD)   Q141.A (DUP of Q130 — HELD)
+# Section 6 T/F (EXCLUDED, not authored): Q142-157
+
+# Section 7 "Ethical aspects for patients in special situations" (pp.35-41) — MCQ
+Q158.C  (aggressive patient -> talk to him politely with sympathy)
+Q159.B  (pregnant 15-yo minor, non-disclosure request -> No, parental consent a must as she is a minor)
+Q160.D  (HIV+ child with pneumonia -> Treat the child and notify the authority)
+Q161.A  (seductive patient -> Call in a nurse [chaperone])
+Q162.C  (DUP of Q158 — HELD)      Q163.B (DUP of Q161, 'call in a chaperone' — HELD)
+Q164.C  ("respect and courtesy" principle -> Dignity)
+Q165.C  (17-yo minor appendicitis, protect physician -> informed consent from the guardians) [shares concept w/ Q159]
+Q167.B  (phone consultation accepted in -> Corona virus infection)   # source skips Q166
+Q168.A  (doctors for imprisoned patients should NOT -> Assist in interrogation)
+Q169.C  (sedate mentally-ill child for parents' convenience -> Refuse to give the medication)
+Q170.A  (competent adult refuses HIV test -> Do not test for HIV)
+Q171.D  (DUP of Q158 — HELD)      Q172.C (DUP of Q168 — HELD)   Q173.B (DUP of Q161 — HELD)
+Q174.C  (DUP of Q169 — HELD)      Q175.A (DUP of Q170 — HELD)   Q176.C (DUP of Q164 — HELD)
+Q177.D  ("least restrictive / free to enjoy life" principle -> Liberty)
+Q178.C  (DUP of Q165 — HELD)      Q180.C (DUP of Q158 — HELD; source skips Q179)   Q181.C (DUP of Q167 — HELD)
+# Section 7 T/F (EXCLUDED, not authored): Q182-199
+
+# Section 8 "Research on human subjects" (p44) — MCQ
+Q200.C  (vulnerable groups in medical research -> Mentally ill)
+Q201.C  (DUP of Q200 — HELD)
+# Section 8 T/F (EXCLUDED, not authored): Q202-203
+
+# Section 9 "Ethical decision making" (p45) — MCQ (LAST MCQ section)
+Q204.B  (release brother's records without consent -> sue for Breach of confidentiality)
+Q205.B  (Hippocratic Oath guiding principle -> Beneficence)
+Q206.C  ("first come, first managed" triage -> Justice)
+Q207.B  (conflict between two moral principles -> Dilemma)
+# Section 9 has no T/F and no in-section duplicates.
+
+# STATUS: All MCQ sections of "MPE 327 PY Answered" are now mined (Sections 1-9).
+# Remaining un-authored content is True/False sentences only (excluded by scope)
+# plus a separate tail on pp.46-54 (restarted numbering Q1.., mixed yellow-fill /
+# red-text markers, NO "1) MCQs" header) that is outside the enumerated MCQ
+# section list and needs its own triage if ever in scope.

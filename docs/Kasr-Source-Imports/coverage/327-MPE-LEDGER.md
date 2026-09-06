@@ -2,9 +2,13 @@
 |---|---:|---:|---:|---:|
 | defensive-medicine | 10 | 6 | 0 | 16 |
 | ems | 1 | 0 | 0 | 1 |
+| ethical-decision-making | 4 | 0 | 0 | 4 |
 | malpractice | 19 | 13 | 0 | 32 |
 | medical-errors | 15 | 7 | 0 | 22 |
 | professional-misconduct | 9 | 6 | 0 | 15 |
+| research-ethics | 1 | 1 | 0 | 2 |
+| special-procedures | 7 | 8 | 0 | 15 |
+| special-situations | 11 | 11 | 0 | 22 |
 
 ## Held
 - defensive-medicine-q117 — exact in-section duplicate of Q115 (example of positive defensive medicine = referring every headache to a neurologist; key B, render-confirmed p26) — authored once as Q115
@@ -39,6 +43,26 @@
 - professional-misconduct-q98 — exact in-section duplicate of Q90 (registration erased for a criminal offence; key C) — authored once as Q90
 - professional-misconduct-q99 — exact in-section duplicate of Q96 (senior surgeon's outdated technique = medical malpractice; key A) — authored once as Q96
 - professional-misconduct-q100 — same-fact duplicate of Q97 with reordered options (crude jokes about patients = professional misconduct; key B) — authored once as Q97
+- research-ethics-q201 — exact in-section duplicate of Q200 (vulnerable groups in research -> mentally ill; key C) — authored once as Q200
+- special-procedures-q133 — exact in-section duplicate of Q130 (homologous artificial insemination, all true except -> obtained from a donor; key A) — authored once as Q130
+- special-procedures-q134 — in-section duplicate of Q127 with reordered options (organ transplantation allowed from -> living spouse); additionally no yellow-highlight fill was detected on it — authored once as Q127
+- special-procedures-q135 — exact in-section duplicate of Q132 (gestational surrogacy -> carries another couple's embryo; key A) — authored once as Q132
+- special-procedures-q136 — exact in-section duplicate of Q127 (organ transplantation allowed from -> living spouse; key C) — authored once as Q127
+- special-procedures-q138 — exact in-section duplicate of Q128 (traditional/classic surrogacy -> donates her ovum; key B) — authored once as Q128
+- special-procedures-q139 — exact in-section duplicate of Q132 (gestational surrogacy -> carries another couple's embryo; key A) — authored once as Q132
+- special-procedures-q140 — in-section duplicate of Q129 with an extra fifth option e) Ten years (gender correction -> at least two years; key A) — authored once as Q129
+- special-procedures-q141 — exact in-section duplicate of Q130 (homologous artificial insemination, all true except -> obtained from a donor; key A) — authored once as Q130
+- special-situations-q162 — exact in-section duplicate of Q158 (aggressive patient -> talk to him politely with sympathy; key C) — authored once as Q158
+- special-situations-q163 — reworded in-section duplicate of Q161 (seductive patient; key B here = 'Call in a chaperone', same safeguard as Q161's 'Call in a nurse') — authored once as Q161
+- special-situations-q171 — exact in-section duplicate of Q158 with reordered options (aggressive patient -> talk to him politely with sympathy; key D) — authored once as Q158
+- special-situations-q172 — exact in-section duplicate of Q168 with reordered options (prisoners -> must not assist in interrogation; key C) — authored once as Q168
+- special-situations-q173 — reworded in-section duplicate of Q161/Q163 (seductive patient -> call in a chaperone; key B) — authored once as Q161
+- special-situations-q174 — exact in-section duplicate of Q169 (refuse non-indicated sedation for a child; key C) — authored once as Q169
+- special-situations-q175 — exact in-section duplicate of Q170 (refuses HIV test -> do not test; key A) — authored once as Q170
+- special-situations-q176 — exact in-section duplicate of Q164 (respect and courtesy -> dignity; key C) — authored once as Q164
+- special-situations-q178 — exact in-section duplicate of Q165 (17-year-old surgery -> consent from guardians; key C) — authored once as Q165
+- special-situations-q180 — exact in-section duplicate of Q158 (aggressive patient -> talk to him politely with sympathy; key C) — authored once as Q158; source numbering skips Q179
+- special-situations-q181 — reordered in-section duplicate of Q167 (phone consultation accepted -> corona virus infection; key C) — authored once as Q167
 
 ## Remaining
 (none)

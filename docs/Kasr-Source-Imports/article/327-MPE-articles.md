@@ -678,3 +678,181 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the special-situations professionalism concepts on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication) at the Professional conduct node DIS-PEC-T05, reaching Consent and capacity DIS-PEC-T01 for the minor-consent and HIV-testing-consent concepts. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
 ## reading_time
 6
+
+
+---
+
+# Item
+## id
+ART-MPE-327-RESEARCH-ETHICS
+## title
+Ethics of research on human subjects
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Medical Professionalism & Ethics
+## summary
+This article covers the research-ethics fact tested by the "Research on human subjects" MCQs of the bank: that the mentally ill are a vulnerable group in medical research because their illness can impair the capacity to give free and informed consent, so they require special protection against coercion and exploitation. Vulnerability in this sense is about compromised autonomy and the ability to consent, not physical illness such as cancer, immobility, or terminal disease. The section's True/False items (voluntary consent, the right to withdraw at any time) reinforce the same core principle of protecting autonomous, informed participation.
+## sections
+### Definition
+Research on human subjects is governed by the requirement of free, informed, voluntary consent and the right to withdraw, with additional protection for vulnerable groups whose capacity to consent may be compromised.
+### Mechanism
+Vulnerability arises when a participant's autonomy or consent capacity is impaired; the mentally ill are protected because their illness can undermine truly free, informed consent, exposing them to coercion or exploitation unless safeguards are applied.
+### Key determinants
+Discriminator tested here: the vulnerable group is the mentally ill (impaired consent capacity), not cancer patients, the immobile, or the terminally ill, whose physical conditions do not by themselves impair the capacity to consent.
+### Clinical significance
+Recognising and protecting vulnerable participants keeps research ethical and consensual: consent must be voluntary and informed, participants may withdraw at any time, and groups with impaired capacity need extra safeguards.
+### Common misconceptions
+See the linked concept's pitfalls field for the exact reversal the distractors exploit (treating a physical illness such as cancer or terminal disease as the mark of vulnerability instead of impaired consent capacity).
+## universities
+kau
+## years
+KAU_Y3
+## module
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Research on human subjects
+## subtopic
+Research on human subjects
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 medical professionalism & ethics
+## high_yield
+Core
+## primary_node_id
+DIS-PEC-T01
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-100A122737AADA
+## related_articles
+ART-MPE-327-SPECIAL-SITUATIONS
+ART-MPE-327-ETHICAL-DECISION-MAKING
+## resource_ids
+src_d21e884926be1b92ec4a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a 327 MPE source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Holds the research-ethics vulnerable-groups concept on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication) at the Consent and capacity node DIS-PEC-T01. Ethics has no body-system code, so the concept carries subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
+## reading_time
+4
+
+---
+
+# Item
+## id
+ART-MPE-327-ETHICAL-DECISION-MAKING
+## title
+Core bioethical principles and ethical decision making
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Medical Professionalism & Ethics
+## summary
+This article groups the ethical-decision-making facts tested by the last MCQ section of the bank. It sets out that releasing a competent adult patient's records to a relative without consent is a breach of confidentiality (not abandonment, incompetence, or negligence); that beneficence — acting for the patient's benefit — is regarded as the guiding principle of the Hippocratic Oath; that applying a neutral "first come, first managed" rule to allocate limited care is an application of justice; and that a conflict between two moral principles is defined as an ethical dilemma. Together these cover the four principles of bioethics (autonomy, beneficence, non-maleficence, justice) as applied in decision making, plus confidentiality and the definition of a dilemma.
+## sections
+### Definition
+Ethical decision making applies the core bioethical principles — autonomy, beneficence, non-maleficence and justice — together with duties such as confidentiality, and names the situation where valid principles conflict as a dilemma.
+### Mechanism
+Each principle governs a different aspect of a decision: beneficence directs acting for the patient's good (the Oath's guiding theme), justice directs fair allocation of limited care, confidentiality protects the patient's information, and when two valid principles point to incompatible actions the clinician faces a dilemma that must be weighed.
+### Key determinants
+Discriminators tested here: unauthorised release of a competent patient's records = breach of confidentiality; the Hippocratic Oath's guiding principle = beneficence; first-come-first-managed allocation = justice; and a conflict between two moral principles = a dilemma.
+### Clinical significance
+Naming the principle at stake structures sound ethical reasoning: it tells the clinician which duty governs (protect information, act for benefit, allocate fairly) and flags when principles conflict, so decisions are justified rather than arbitrary.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (a confidentiality breach relabelled as negligence or incompetence, non-maleficence taken as the Oath's guiding principle instead of beneficence, or a fair-allocation rule mistaken for beneficence).
+## universities
+kau
+## years
+KAU_Y3
+## module
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical decision making
+## subtopic
+Ethical decision making
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 medical professionalism & ethics
+## high_yield
+Core
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+DIS-PEC-T02
+## related_concepts
+CON-MUL-DACEF3986C72A3
+CON-MUL-4035442CCFFF26
+CON-MUL-9228CC5A29F8BF
+CON-MUL-A4027759C57A6F
+## related_articles
+ART-MPE-327-RESEARCH-ETHICS
+ART-MPE-327-MALPRACTICE
+## resource_ids
+src_d21e884926be1b92ec4a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a 327 MPE source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the confidentiality and core-bioethics-principle concepts on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication) at the Professional conduct node DIS-PEC-T05, reaching Confidentiality DIS-PEC-T02 for the record-release concept. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
+## reading_time
+5

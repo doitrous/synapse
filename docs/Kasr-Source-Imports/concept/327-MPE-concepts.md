@@ -6904,3 +6904,559 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard mental-health-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+
+---
+
+# Item
+## id
+CON-MUL-100A122737AADA
+## label
+The mentally ill are a vulnerable group in research because their illness can impair capacity to consent
+## canonical_key
+researchethics.vulnerable-groups.mentally-ill
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In research on human subjects, the mentally ill are a vulnerable group because their illness may impair the capacity to give free and informed consent, so they need special protection against coercion and exploitation. Vulnerability here concerns compromised autonomy and consent capacity, not physical illness such as cancer, immobility, or terminal disease.
+## explicit_objective
+Identify the mentally ill as a vulnerable group in research because of impaired capacity to consent.
+## pitfalls
+Cancer, immobility, and terminal illness are physical states that do not by themselves impair consent capacity; the mentally ill are the vulnerable group in the capacity sense.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T01
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Vulnerable groups
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Research on human subjects
+## article_ids
+ART-MPE-327-RESEARCH-ETHICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard research-ethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-DACEF3986C72A3
+## label
+Releasing a competent patient's records without consent is a breach of confidentiality
+## canonical_key
+confidentiality.records.unauthorised-release-is-a-breach
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Disclosing a competent adult patient's records to a third party (such as a relative) without the patient's consent is a breach of confidentiality, for which the patient can take legal action. It is distinct from abandonment, incompetence, or negligence: the wrong is unauthorised disclosure of information, not a failure of skill or care.
+## explicit_objective
+Recognise unauthorised release of a competent patient's records as a breach of confidentiality.
+## pitfalls
+Do not misclassify unauthorised disclosure as abandonment, incompetence, or negligence; it is specifically a confidentiality breach.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T02
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Confidentiality
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical decision making
+## article_ids
+ART-MPE-327-ETHICAL-DECISION-MAKING
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard confidentiality teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4035442CCFFF26
+## label
+Beneficence is regarded as the guiding principle of the Hippocratic Oath
+## canonical_key
+bioethics.hippocratic-oath.guiding-principle-beneficence
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The guiding principle of the Hippocratic Oath is beneficence — the physician's positive commitment to act for the benefit of the sick and to use treatment to help the patient. Autonomy and justice are principles emphasised by modern bioethics, and although non-maleficence ("first do no harm") is closely associated with Hippocratic teaching, the guiding commitment is the positive duty to benefit the patient.
+## explicit_objective
+State that beneficence is regarded as the guiding principle of the Hippocratic Oath.
+## pitfalls
+Non-maleficence is often quoted alongside the Oath, but the keyed guiding principle here is beneficence; autonomy and justice are modern principles.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Principles of bioethics
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical decision making
+## article_ids
+ART-MPE-327-ETHICAL-DECISION-MAKING
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-9228CC5A29F8BF
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard bioethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9228CC5A29F8BF
+## label
+Justice is the ethical principle of fair, impartial allocation of limited care
+## canonical_key
+bioethics.principle.justice-first-come-first-served-triage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Justice is the bioethical principle governing the fair and impartial distribution of benefits and burdens; applying a neutral rule such as "first come, first managed" to allocate a doctor's limited time among many patients is an application of justice. It concerns how care is shared out, distinct from beneficence (doing good) and non-maleficence (avoiding harm).
+## explicit_objective
+Recognise fair allocation of care, such as first-come-first-managed, as an application of justice.
+## pitfalls
+A fair-allocation rule is justice, not beneficence or non-maleficence; abandonment is not an ethical principle at all.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Principles of bioethics
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical decision making
+## article_ids
+ART-MPE-327-ETHICAL-DECISION-MAKING
+## related_article_ids
+
+## related_concept_ids
+CON-MUL-4035442CCFFF26
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard bioethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A4027759C57A6F
+## label
+An ethical dilemma is a conflict between two moral principles
+## canonical_key
+bioethics.ethical-dilemma.conflict-between-two-moral-principles
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An ethical dilemma is defined as a conflict between two moral principles, a situation in which two valid principles point to incompatible actions so that honouring one means breaching the other. The decision-maker must weigh the competing principles because both cannot be fully satisfied. It is distinct from legal wrongs such as assault, indecency, or negligence.
+## explicit_objective
+Define an ethical dilemma as a conflict between two moral principles.
+## pitfalls
+Do not confuse the term with assault, indecency, or negligence, which are legal wrongs, not a clash of moral principles.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Ethical reasoning
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Ethical decision making
+## article_ids
+ART-MPE-327-ETHICAL-DECISION-MAKING
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against 15,618 live IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard bioethics teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
