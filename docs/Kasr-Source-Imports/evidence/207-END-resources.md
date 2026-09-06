@@ -309,3 +309,41 @@ Kasr Al Ainy END 207 gross-anatomy MCQ topic bank by Dr Jalal (NON-EOM; not an e
 true
 
 ---
+
+# Item
+## id
+src_1b57cb8c6e1e06c67ec5
+## title
+Histo MCQ by Dr.Zahra [END]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Histology Dpt Histology [1st priority]/MCQs/Histo MCQ by Dr.Zahra [END].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+29
+## sha256
+1b57cb8c6e1e06c67ec52a4fdb05c73090700ba8375b630f68761a7bf24b6986
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 Dr Ahmed Zahra HISTOLOGY MCQ bank (endocrine + reproductive systems). A doctor's bank filed under the Histology Dpt [1st priority] folder (filename names Zahra), so examSittingYear is null. Native text layer, 29 pages, three sections (Endocrine, Male, Female), each with its own numbered "Dr Zahra MCQ" stream and "Department MCQ" stream. SOLVED: printed answer tables on p.11 (Endocrine: Dr Zahra Q1-45 + Department Q1-69), p.19 (Male) and p.29 (Female), each giving a Dr Zahra key set and a Department key set for its own stream. Keys spot-verified against histology first principles (e.g. Department Q1a ACTH=basophils, Q2a GH=acidophils, Q3d orange-G=somatotrophs, Q7a corticotrophs=ACTH, Q13c pituicytes=pars nervosa, Q16c pituicytes=glial). This bank OPENS the histology frontier of the 207 END module (the anatomy banks are exhausted). First authoring pass: the Endocrine section's pituitary/anterior-lobe fresh single-best items (Dr Zahra Q2/Q3/Q4/Q10/Q20/Q45 and Department Q10); dupes of the authored 207-END histology corpus skipped. Dr Zahra Q7 (pineal "formed of acini & ducts" keyed) is a bad item and is NOT authored. The Male, Female and remaining Endocrine streams remain for later slices.
+## confidence
+0.9
+## is_assessment
+true
+
+---
