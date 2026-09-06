@@ -63,6 +63,7 @@ CON-INF-E33402CF625073
 ## related_articles
 ART-INF-309-PARA-TREMATODA
 ART-INF-309-CESTODA
+ART-INF-309-NEMATODA
 ## resource_ids
 src_10f1a669aa2eeedf3cd9
 ## nanotopic
@@ -285,5 +286,105 @@ Admin team
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 university_notes: No department book PDF was located/read this pass -- written from standard parasitology teaching corroborated by this question bank's own printed-answer-key stems and options (Cestoda section, answer table p.6).
+## reading_time
+8
+
+---
+
+# Item
+## id
+ART-INF-309-NEMATODA
+## title
+Nematodes: intestinal and tissue roundworms (Strongyloides, Ascaris, Trichuris, Enterobius, hookworm, Capillaria, Toxocara)
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Parasitology
+## summary
+This article groups the nematode (roundworm) facts tested by the Nematoda section of the paper (Q1-20 of this tranche). It covers Strongyloides stercoralis (skin-penetration infection by filariform larvae, the rhabditiform larva as the stool diagnostic stage, both internal and external autoinfection, larva currens, and its capacity to cause different types of anaemia), the intestinal soil-transmitted worms Ascaris lumbricoides (protein-energy malnutrition and biliary ascariasis diagnosed by MRCP), Trichuris trichiura (rectal prolapse in heavy infection and diagnosis by proctoscopy), Enterobius vermicularis (nocturnal pruritus ani and its non-oral routes of retroinfection and inhalation) and hookworm Ancylostoma duodenale (iron-deficiency anaemia and the filariform larva as the infective stage), together with Trichostrongylus colubriformis (faecal-oral, non-vector transmission), Capillaria philippinensis (internal autoinfection and acquisition by eating infected freshwater fish), Toxocara visceral larva migrans (chronic eosinophilia) and the pig as the shared host of Balantidium coli and Taenia solium.
+## sections
+### Definition
+This article groups the nematode concepts tested by the paper; each linked concept carries one atomic fact about a roundworm's larval stage, mode of infection, autoinfection, diagnosis, pathology or clinical association.
+### Mechanism
+The facts follow nematode life cycles: soil-dwelling filariform larvae of Strongyloides and hookworm penetrate skin and migrate through the lungs to the gut; Ascaris, Trichuris and Enterobius are acquired by swallowing eggs (Enterobius also by retroinfection and inhalation); Trichostrongylus and Capillaria are ingested as larvae on plants or in fish; and disease arises from blood-sucking (hookworm iron-deficiency anaemia), malabsorption (Strongyloides, Capillaria), heavy worm burden (Ascaris malnutrition, Trichuris prolapse), autoinfection (Strongyloides internal and external, Capillaria internal) or an eosinophilic response to migrating larvae (Toxocara visceral larva migrans).
+### Key determinants
+Discriminators tested here: Strongyloides is skin-penetrating, diagnosed by rhabditiform larvae in stool, shows internal AND external autoinfection and causes larva currens and different anaemias; Capillaria philippinensis shows internal autoinfection only and is fish-borne; hookworm causes iron-deficiency anaemia with the filariform larva as the infective stage; Ascaris causes protein-energy malnutrition and biliary ascariasis (MRCP); Trichuris causes rectal prolapse and is seen on proctoscopy; Enterobius causes pruritus ani and is not exclusively oral; Trichostrongylus is non-vector faecal-oral; visceral larva migrans (Toxocara) shows chronic eosinophilia; and the pig is the source of both Balantidium coli and Taenia solium.
+### Clinical significance
+These facts underlie diagnosis and control of the medically important roundworms: recognising percutaneous versus oral acquisition, diagnosing Strongyloides by stool rhabditiform larvae and guarding against hyperinfection in the immunosuppressed, treating hookworm iron-deficiency anaemia, imaging biliary ascariasis, and interrupting faecal-oral transmission through sanitation, safe water and food hygiene rather than vector control.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (rhabditiform stool stage vs filariform infective stage; internal-only Capillaria vs internal-and-external Strongyloides; iron-deficiency hookworm anaemia vs the several anaemias of Strongyloides; pruritus ani of Enterobius vs rectal prolapse of Trichuris; non-vector faecal-oral Trichostrongylus vs insect-borne parasites).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda
+## subtopic
+Nematoda
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 parasitology
+## high_yield
+Core
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## related_concepts
+CON-INF-B62B9FB4C7D556
+CON-INF-C40504A90D83F9
+CON-INF-7F2AE5E6AA055E
+CON-INF-91B7D5DB19A9B7
+CON-INF-B11783ED1FC082
+CON-INF-19B470E718ED09
+CON-INF-848175DB22D158
+CON-INF-AE2341B790B16E
+CON-INF-4214A9F78B77B0
+CON-INF-91EE545642BBAA
+CON-INF-19C4AF7483726F
+CON-INF-D224C0382962BD
+CON-INF-35AA55DED910AF
+CON-INF-ECBC2F7C57EAB8
+CON-INF-621A94B9409492
+CON-INF-5FE99BA373F17F
+CON-INF-26656E518A5766
+CON-INF-1AAC26110CD919
+## related_articles
+ART-INF-309-PARA-GENERAL
+ART-INF-309-CESTODA
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard parasitology teaching corroborated by this question bank's own printed-answer-key stems and options (Nematoda section, answer table p.13).
 ## reading_time
 8

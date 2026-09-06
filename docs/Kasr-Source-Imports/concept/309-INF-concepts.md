@@ -4236,3 +4236,2001 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Cestoda section, p.4-6); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B62B9FB4C7D556
+## label
+Strongyloides can cause different types of anaemia
+## canonical_key
+parasitology.strongyloides.malabsorption-causes-anaemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic Strongyloides stercoralis infection produces intestinal malabsorption and chronic blood/protein loss, so it can give rise to SEVERAL different types of anaemia — iron-deficiency (microcytic), megaloblastic (folate/B12 malabsorption) and the anaemia of chronic disease — unlike worms that cause a single defined anaemia.
+## explicit_objective
+Explain why Strongyloides stercoralis can cause different types of anaemia.
+## pitfalls
+Do not confuse with hookworm (iron-deficiency anaemia only) or Diphyllobothrium (megaloblastic B12 anaemia only); the point is that Strongyloides malabsorption produces MORE THAN ONE type of anaemia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-C40504A90D83F9
+## label
+Strongyloides is acquired by skin penetration of filariform larvae
+## canonical_key
+parasitology.strongyloides.transmission-skin-penetration
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Strongyloides stercoralis is contracted when infective filariform larvae in soil actively penetrate intact skin (typically bare feet), then migrate via blood and lungs to mature in the small intestine — the same skin-penetration route as hookworm.
+## explicit_objective
+Identify skin penetration by filariform larvae as the route of Strongyloides infection.
+## pitfalls
+Not acquired by ingesting fish (Diphyllobothrium), insect bite (filariae) or eating beef (Taenia saginata); the mode is percutaneous larval penetration.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-7F2AE5E6AA055E
+## label
+Trichostrongylus is faecal-oral, not vector-borne, so insect repellent is not a control
+## canonical_key
+parasitology.trichostrongylus.transmission-oral-not-vector-borne
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Trichostrongylus colubriformis is transmitted by the faecal-oral route — ingestion of infective larvae on contaminated water, soil or plants — with no insect vector; control therefore rests on sanitation, safe water and food hygiene, and insect repellent does nothing to interrupt its cycle.
+## explicit_objective
+Explain that Trichostrongylus is faecal-oral, so insect repellent is not a valid control measure.
+## pitfalls
+The distractor is treating it as vector-borne; because no insect transmits it, repelling insects is the one measure that does NOT prevent infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichostrongylus colubriformis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-91B7D5DB19A9B7
+## label
+Pruritus ani is the hallmark of enterobiasis
+## canonical_key
+parasitology.enterobius.pruritus-ani
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nocturnal pruritus ani (perianal itching) is the hallmark of Enterobius vermicularis infection: the gravid female migrates out of the anus at night to lay sticky eggs on the perianal skin, and the local irritation plus hypersensitivity to the eggs causes intense night-time itching.
+## explicit_objective
+Associate nocturnal pruritus ani with Enterobius vermicularis.
+## pitfalls
+Do not attribute perianal itch to Trichuris (rectal prolapse), Toxocara (larva migrans) or hookworm (ground itch); the nocturnal perianal itch is specific to pinworm.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Enterobius vermicularis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B11783ED1FC082
+## label
+Rectal prolapse is a feature of heavy trichuriasis
+## canonical_key
+parasitology.trichuris.rectal-prolapse
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rectal prolapse is the classic feature of heavy Trichuris trichiura (whipworm) infection, typically in malnourished children: a large worm burden studding the rectal mucosa with chronic straining and tenesmus causes the rectal mucosa to prolapse, sometimes with worms visible on its surface.
+## explicit_objective
+Recognise rectal prolapse as a feature of heavy Trichuris trichiura infection.
+## pitfalls
+Rectal prolapse is not caused by Ascaris (obstruction), Enterobius (pruritus) or Strongyloides (larva currens); it marks massive whipworm infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichuris trichiura
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-19B470E718ED09
+## label
+Rhabditiform larva is the stool diagnostic stage of Strongyloides
+## canonical_key
+parasitology.strongyloides.diagnostic-stage-rhabditiform-larva-in-stool
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The typical diagnostic stage of Strongyloides stercoralis in fresh stool is the rhabditiform (first-stage) larva, because the eggs hatch within the intestinal mucosa; it is distinguished from a hookworm rhabditiform larva by its short buccal cavity and prominent genital primordium.
+## explicit_objective
+Identify the rhabditiform larva as the stool diagnostic stage of Strongyloides.
+## pitfalls
+Unlike hookworm, Strongyloides eggs are NOT usually seen in stool because they hatch in the mucosa; the filariform larva is the infective/autoinfective stage, not the routine stool finding.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-848175DB22D158
+## label
+Capillaria philippinensis shows internal autoinfection
+## canonical_key
+parasitology.capillaria-philippinensis.internal-autoinfection
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Capillaria philippinensis is characterised by internal autoinfection: larviparous females produce larvae that develop and reinfect the same host's intestine without leaving the body, causing progressive worm build-up and a severe, potentially fatal protein-losing enteropathy.
+## explicit_objective
+Recognise internal autoinfection (larvipary) as a feature of Capillaria philippinensis.
+## pitfalls
+Ascaris, Trichuris and Trichostrongylus need soil development and do not autoinfect; internal autoinfection among these is unique to Capillaria (a feature otherwise shared with Strongyloides).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Capillaria philippinensis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-AE2341B790B16E
+## label
+Chronic eosinophilia is the most common feature of visceral larva migrans
+## canonical_key
+parasitology.toxocara.visceral-larva-migrans-chronic-eosinophilia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The most common and characteristic feature of visceral larva migrans (usually Toxocara canis/cati larvae) is a marked chronic eosinophilia: non-human larvae wander through the viscera, cannot mature, and provoke a sustained eosinophilic host response, often with hepatomegaly and hypergammaglobulinaemia.
+## explicit_objective
+Identify chronic eosinophilia as the most common feature of visceral larva migrans.
+## pitfalls
+Seizures (CNS involvement) and non-specific leucocytosis are less characteristic; the laboratory hallmark of VLM is persistent eosinophilia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Toxocara
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4214A9F78B77B0
+## label
+Pig is the source for both Balantidium coli and Taenia solium
+## canonical_key
+parasitology.pig-host.balantidium-coli-and-taenia-solium
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pig is the reservoir/source for both Balantidium coli (its main reservoir host; man infected by cysts from pig faeces) and Taenia solium (the pork tapeworm, acquired by eating undercooked pork with Cysticercus cellulosae), tying both parasites epidemiologically to pigs.
+## explicit_objective
+Recognise the pig as the reservoir/source for both Balantidium coli and Taenia solium.
+## pitfalls
+Taenia saginata is cattle-borne (not pig), and Entamoeba coli is a harmless human commensal with no pig link; only the Balantidium coli + Taenia solium pair is pig-related.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Host associations
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-91EE545642BBAA
+## label
+Strongyloides shows both internal and external autoinfection
+## canonical_key
+parasitology.strongyloides.internal-and-external-autoinfection
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Strongyloides stercoralis shows both internal and external autoinfection: rhabditiform larvae mature to infective filariform larvae inside the gut and re-penetrate the intestinal mucosa (internal) or re-penetrate the perianal skin (external), allowing lifelong persistence and, in the immunosuppressed, life-threatening hyperinfection.
+## explicit_objective
+Recognise that Strongyloides stercoralis shows both internal and external autoinfection.
+## pitfalls
+Capillaria philippinensis shows internal autoinfection only; the dual internal-AND-external pattern is specific to Strongyloides.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-19C4AF7483726F
+## label
+MRCP aids diagnosis of biliary ascariasis
+## canonical_key
+parasitology.ascaris.biliary-ascariasis-mrcp-diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Magnetic resonance cholangiopancreatography (MRCP) is useful in biliary ascariasis: adult Ascaris lumbricoides can migrate through the ampulla into the biliary tree or pancreatic duct, causing biliary colic, cholangitis or pancreatitis, and appears as a linear filling defect within the ducts on MRCP.
+## explicit_objective
+Recognise MRCP as an imaging aid in biliary ascariasis.
+## pitfalls
+Capillaria, Trichuris and hookworm are purely intestinal and do not invade the biliary tree; the large adult Ascaris is the one that warrants biliary imaging.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-D224C0382962BD
+## label
+Proctoscopy is a diagnostic tool for trichuriasis
+## canonical_key
+parasitology.trichuris.diagnosis-proctoscopy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Proctoscopy (or sigmoidoscopy) is a diagnostic tool for trichuriasis: in heavy infection the thin adult whipworms are seen on endoscopy studding the inflamed rectal/colonic mucosa and on the surface of a prolapsed rectum, confirming the diagnosis alongside the barrel-shaped bipolar-plugged eggs in stool.
+## explicit_objective
+Identify proctoscopy as a diagnostic tool for trichuriasis.
+## pitfalls
+The NIH swab is for Enterobius, the string test for duodenal Giardia/Strongyloides, and bronchial lavage for lung-migrating larvae; direct visualisation on proctoscopy is what fits Trichuris.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Trichuris trichiura
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-35AA55DED910AF
+## label
+Enterobius is not exclusively transmitted by the oral route
+## canonical_key
+parasitology.enterobius.transmission-not-exclusively-oral
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Enterobius vermicularis is not exclusively transmitted by the oral route: besides faecal-oral ingestion of eggs, it also spreads by retroinfection (larvae hatching on the perianal skin migrate back through the anus into the intestine) and by inhalation of airborne eggs from contaminated bedding and dust.
+## explicit_objective
+Explain that Enterobius spreads by retroinfection and inhalation, not only by ingestion.
+## pitfalls
+Ascaris, Fasciola and Hymenolepis nana are acquired only by ingestion; pinworm is the exception because of retroinfection and airborne-egg inhalation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Enterobius vermicularis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-ECBC2F7C57EAB8
+## label
+Protein-energy malnutrition is a feature of heavy ascariasis
+## canonical_key
+parasitology.ascaris.protein-energy-malnutrition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Protein-energy malnutrition is a recognised feature of heavy Ascaris lumbricoides infection in children: a large worm burden competes for ingested food, impairs digestion and absorption of protein and fat, and reduces appetite, contributing to malnutrition and growth retardation.
+## explicit_objective
+Associate protein-energy malnutrition with heavy Ascaris lumbricoides infection.
+## pitfalls
+Fascioliasis is a hepatobiliary fluke disease and halzoun a pharyngeal irritation; the nutritional-deficiency picture here belongs to ascariasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ascaris lumbricoides
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-621A94B9409492
+## label
+Iron-deficiency anaemia is the hallmark of hookworm
+## canonical_key
+parasitology.ancylostoma.iron-deficiency-anaemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Iron-deficiency (microcytic hypochromic) anaemia is the classic feature of Ancylostoma duodenale (hookworm): the adult worms attach to small-intestinal mucosa and suck blood, and a heavy chronic burden causes continuous intestinal blood loss that depletes body iron stores, with severity correlating with worm load.
+## explicit_objective
+Associate iron-deficiency anaemia with the blood-sucking hookworm Ancylostoma duodenale.
+## pitfalls
+Cyclospora causes diarrhoea and Enterobius perianal itch (no blood loss); Strongyloides causes malabsorption anaemias, but chronic blood-sucking iron loss defines hookworm.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ancylostoma duodenale
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-5FE99BA373F17F
+## label
+Capillaria philippinensis is acquired by eating infected fish
+## canonical_key
+parasitology.capillaria-philippinensis.transmission-eating-infected-fish
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Capillaria philippinensis is transmitted by eating raw or improperly cooked infected freshwater fish that harbour the infective larvae; the larvae then develop in the human small intestine and, being larviparous, multiply by internal autoinfection to cause severe malabsorption and protein-losing enteropathy.
+## explicit_objective
+Identify eating infected freshwater fish as the route of Capillaria philippinensis infection.
+## pitfalls
+Not acquired by swallowing Cyclops (Diphyllobothrium/Dracunculus), eating pork (Taenia solium/Trichinella) or swallowing a flea (Hymenolepis); the source is undercooked freshwater fish.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Capillaria philippinensis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-26656E518A5766
+## label
+Larva currens is the migrating larva of Strongyloides
+## canonical_key
+parasitology.strongyloides.larva-currens
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+'Larva currens' (running larva) is the rapidly migrating cutaneous larval track of Strongyloides stercoralis: in external autoinfection, filariform larvae re-penetrate the perianal skin and race through it at up to several centimetres per hour, producing a fast-moving, itchy, urticarial serpiginous streak.
+## explicit_objective
+Recognise larva currens as the rapidly migrating cutaneous larva of Strongyloides.
+## pitfalls
+It moves far faster than the cutaneous larva migrans of animal hookworms; Ancylostoma gives a slow ground itch, not larva currens.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Strongyloides stercoralis
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1AAC26110CD919
+## label
+Filariform larva is the infective stage of hookworm
+## canonical_key
+parasitology.ancylostoma.infective-stage-filariform-larva
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The infective stage of Ancylostoma duodenale (hookworm) is the filariform (third-stage) larva: eggs hatch in warm moist soil into feeding rhabditiform larvae that moult twice into non-feeding filariform larvae, which penetrate intact skin (or, for A. duodenale, may be swallowed) to start a new infection.
+## explicit_objective
+Identify the filariform larva as the infective stage of Ancylostoma duodenale.
+## pitfalls
+The egg is the stool diagnostic stage and the rhabditiform larva a non-infective soil-feeding stage; only the filariform larva is infective to man.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Nematoda
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Nematoda > Ancylostoma duodenale
+## article_ids
+ART-INF-309-NEMATODA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Nematoda section, p.7-8, answer table p.13); no department book read this pass.
