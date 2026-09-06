@@ -983,3 +983,983 @@ Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The ey
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-27
+## title
+Scleritis is a classic manifestation of rheumatoid arthritis
+## question
+Scleritis may occur as an ocular manifestation of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Sarcoidosis
+## explanation_a
+Incorrect. Sarcoid classically causes granulomatous uveitis; scleritis is uncommon.
+## answer_b
+Behcet's syndrome
+## explanation_b
+Incorrect. Behcet causes uveitis and retinal vasculitis, not scleritis.
+## answer_c
+Marfan syndrome
+## explanation_c
+Incorrect. Marfan is a connective-tissue disorder with lens subluxation, not scleritis.
+## answer_d
+Rheumatoid arthritis
+## explanation_d
+Correct. Rheumatoid arthritis is the classic systemic cause of scleritis.
+## topic
+Ophthalmology
+## subtopic
+Scleritis
+## main_concept
+CON-MUL-C08EFFE1F11CA9
+## concept_ids
+CON-MUL-C08EFFE1F11CA9
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Moderate
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+3
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Associate scleritis with rheumatoid arthritis.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-28
+## title
+Chest X-ray is the key investigation for sarcoidosis
+## question
+The most important investigation for diagnosing sarcoidosis is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Urine analysis
+## explanation_a
+Incorrect. Urine analysis is not used to diagnose sarcoidosis.
+## answer_b
+X ray chest
+## explanation_b
+Correct. A chest X-ray showing bilateral hilar lymphadenopathy is the most important investigation.
+## answer_c
+X ray bone
+## explanation_c
+Incorrect. Bone X-ray is not the key investigation for sarcoidosis.
+## answer_d
+Tensilon test
+## explanation_d
+Incorrect. The Tensilon (edrophonium) test is for myasthenia gravis.
+## topic
+Ophthalmology
+## subtopic
+Sarcoidosis
+## main_concept
+CON-MUL-6140B3BF7BE261
+## concept_ids
+CON-MUL-6140B3BF7BE261
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Moderate
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+3
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Select chest X-ray as the most important investigation for sarcoidosis.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-29
+## title
+The avascular cornea is not a site of ocular metastasis
+## question
+Secondaries of the eye by cancer occur in the following structures EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Extraocular muscles
+## explanation_a
+Incorrect. Metastases can involve the extraocular muscles.
+## answer_b
+Choroid
+## explanation_b
+Incorrect. The vascular choroid is the commonest site of intraocular metastasis.
+## answer_c
+Cornea
+## explanation_c
+Correct. This is the exception: the avascular cornea is not a site of metastasis.
+## answer_d
+Optic nerve
+## explanation_d
+Incorrect. The optic nerve can be a site of metastatic spread.
+## topic
+Ophthalmology
+## subtopic
+Ocular metastasis
+## main_concept
+CON-MUL-CECF9B3A095A08
+## concept_ids
+CON-MUL-CECF9B3A095A08
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that ocular metastasis spares the avascular cornea.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-30
+## title
+Optic neuritis is not caused by systemic lymphoma
+## question
+Systemic lymphoma can cause all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Proptosis
+## explanation_a
+Incorrect. Orbital lymphoma causes proptosis.
+## answer_b
+Limitation of ocular motility
+## explanation_b
+Incorrect. Orbital infiltration limits ocular motility.
+## answer_c
+Chronic uveitis
+## explanation_c
+Incorrect. Intraocular lymphoma masquerades as chronic uveitis.
+## answer_d
+Optic neuritis
+## explanation_d
+Correct. This is the exception: lymphoma may infiltrate the optic nerve but does not cause inflammatory optic neuritis.
+## topic
+Ophthalmology
+## subtopic
+Systemic lymphoma
+## main_concept
+CON-MUL-EBC04EE545C480
+## concept_ids
+CON-MUL-EBC04EE545C480
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the ocular effects of systemic lymphoma and exclude optic neuritis.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-31
+## title
+Lacrimal gland enlargement is not a remote effect of cancer
+## question
+Remote effects of cancer on the eye include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Dysfunction of the pupil
+## explanation_a
+Incorrect. Paraneoplastic autonomic dysfunction can affect the pupil - a remote effect.
+## answer_b
+Retinal degeneration
+## explanation_b
+Incorrect. Cancer-associated retinopathy causes retinal degeneration - a remote effect.
+## answer_c
+Enlarged lacrimal glands
+## explanation_c
+Correct. This is the exception: lacrimal-gland enlargement is a direct infiltrative process, not a remote (paraneoplastic) effect.
+## answer_d
+Melanoma associated retinopathy
+## explanation_d
+Incorrect. Melanoma-associated retinopathy is a remote (paraneoplastic) effect.
+## topic
+Ophthalmology
+## subtopic
+Paraneoplastic ocular disease
+## main_concept
+CON-MUL-D390CE52CD4F88
+## concept_ids
+CON-MUL-D390CE52CD4F88
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Distinguish remote paraneoplastic ocular effects from direct infiltration.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-32
+## title
+Rubeosis iridis is not a primary radiation side effect
+## question
+Side effects of radiation of tumours near the eye include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Dry eye
+## explanation_a
+Incorrect. Radiation damages the lacrimal gland, causing dry eye.
+## answer_b
+Rubeosis irides
+## explanation_b
+Correct. This is the exception among the listed direct effects: rubeosis arises secondarily from radiation retinopathy rather than as a primary radiation effect.
+## answer_c
+Cataract
+## explanation_c
+Incorrect. Radiation cataract is well recognised.
+## answer_d
+Retinal vasculopathy
+## explanation_d
+Incorrect. Radiation retinopathy is a vasculopathy.
+## topic
+Ophthalmology
+## subtopic
+Radiation ocular toxicity
+## main_concept
+CON-MUL-D0DF1C814F9638
+## concept_ids
+CON-MUL-D0DF1C814F9638
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Moderate
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+3
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the direct ocular side effects of periocular radiation.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-33
+## title
+Secondary glaucoma is not a typical ocular manifestation of AIDS
+## question
+AIDS presents in the eye by all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Retinopathy in the form of multiple large cotton wool spots
+## explanation_a
+Incorrect. HIV retinopathy shows cotton-wool spots.
+## answer_b
+Kaposi sarcoma of the lid or conjunctiva
+## explanation_b
+Incorrect. Kaposi sarcoma affects the lid and conjunctiva in AIDS.
+## answer_c
+Secondary glaucoma
+## explanation_c
+Correct. This is the exception: secondary glaucoma is not a typical ocular presentation of AIDS.
+## answer_d
+Severe herpes zoster ophthalmicus
+## explanation_d
+Incorrect. Severe herpes zoster ophthalmicus occurs in immunocompromised AIDS patients.
+## topic
+Ophthalmology
+## subtopic
+AIDS and the eye
+## main_concept
+CON-MUL-CB2A871581DE7A
+## concept_ids
+CON-MUL-CB2A871581DE7A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the ocular manifestations of AIDS and exclude secondary glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-34
+## title
+Myasthenia gravis spares the pupil (no anisocoria)
+## question
+Myasthenia gravis manifestations include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Ptosis
+## explanation_a
+Incorrect. Fatigable ptosis is a classic manifestation.
+## answer_b
+Diplopia
+## explanation_b
+Incorrect. Variable diplopia is common in myasthenia gravis.
+## answer_c
+Anisocoria
+## explanation_c
+Correct. This is the exception: myasthenia gravis spares the pupil, so anisocoria is not a feature.
+## answer_d
+Ice Pack ptosis recovery
+## explanation_d
+Incorrect. Cooling improves the ptosis (a positive ice-pack test).
+## topic
+Ophthalmology
+## subtopic
+Myasthenia gravis
+## main_concept
+CON-MUL-62605655D7211B
+## concept_ids
+CON-MUL-62605655D7211B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that myasthenia gravis spares the pupil.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-35
+## title
+Tensilon test is the diagnostic test for myasthenia gravis
+## question
+The following is diagnostic of Myasthenia gravis:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Hot pack test
+## explanation_a
+Incorrect. Heat worsens myasthenic ptosis; it is not diagnostic.
+## answer_b
+Electroretinogram
+## explanation_b
+Incorrect. The electroretinogram assesses retinal function.
+## answer_c
+Edrophonium (Tensilon) test
+## explanation_c
+Correct. The edrophonium (Tensilon) test is diagnostic of myasthenia gravis.
+## answer_d
+Visual evoked potential
+## explanation_d
+Incorrect. The visual evoked potential assesses the optic pathway.
+## topic
+Ophthalmology
+## subtopic
+Myasthenia gravis
+## main_concept
+CON-MUL-C9496E85A577A7
+## concept_ids
+CON-MUL-C9496E85A577A7
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify the edrophonium (Tensilon) test as diagnostic of myasthenia gravis.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-36
+## title
+Progressive myopia is a low-risk state for CRAO
+## question
+The following patients have a low risk for developing central retinal artery occlusion (CRAO):
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+A female with rheumatic heart disease
+## explanation_a
+Incorrect. Cardiac emboli raise the risk of CRAO.
+## answer_b
+An old male with atherosclerosis
+## explanation_b
+Incorrect. Atherosclerotic emboli raise the risk of CRAO.
+## answer_c
+A patient with autoimmune systemic vasculitis
+## explanation_c
+Incorrect. Systemic vasculitis raises the risk of CRAO.
+## answer_d
+A patient with progressive myopia
+## explanation_d
+Correct. Progressive myopia carries a low risk of central retinal artery occlusion.
+## topic
+Ophthalmology
+## subtopic
+Central retinal artery occlusion
+## main_concept
+CON-MUL-CF4FD5458186C3
+## concept_ids
+CON-MUL-CF4FD5458186C3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Moderate
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+3
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify the embolic and vasculitic risk factors for CRAO and recognise myopia as low-risk.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
