@@ -92,3 +92,52 @@ Q101.d Q102.d Q103.c Q104.a Q105.a Q106.c Q107.d Q108.b
 Dedup note: shares the Histology/Anatomy/Physiology structure of the 2024 EOM already
 authored (106 items). Only stems testing an atomic claim NOT already covered are authored;
 near-duplicate stems are skipped and logged in the LEDGER.
+
+
+================================================================================
+207 END — triage keys (THIRD PAPER — 2026 EOM "198", all 108 MCQs)
+Source: 207 END/EOM/EOM - (END - 207) 198 (Solved).pdf (manifest sourceId
+src_4420b0c55e4310128225; sha256
+4420b0c55e431012822509198428fa8ebb5b27a88a9517bdc2c5dbf24b80d9bc; EOM, solved,
+13 pages, NO native text layer — scanned). Printed exam date 29/4/2026 (Module
+END 207, 108 MCQs, 54 marks). Different paper/sha from the 2024 EOM
+(2d00db5d...) and the 2023 EOM "195" (bb589c39...).
+
+Key marker = a light-BLUE highlight OVAL drawn around the correct option letter
+(a/b/c/d), legible only on render. OCR surfaced only ~10/108 circles (as "@") and
+mis-attributed at least one (Q25: OCR "@" landed on "9 week" but the blue oval is
+on a = 7th week) — so the OCR "@" is NOT reliable here. All 108 keys were read by
+eye from 150-dpi page renders (pagetext render pp.1-13). 0 double-marks, 0 unmarked.
+Section map: Q1-24 gross anatomy (pelvis/perineum/male+female genital), Q25-34
+embryology + pituitary/bladder anatomy, Q35-78 physiology, Q79-108 histology.
+
+Q1.d   Q2.a   Q3.a   Q4.d   Q5.a   Q6.b   Q7.a   Q8.d   Q9.d   Q10.c
+Q11.c  Q12.d  Q13.a  Q14.d  Q15.c  Q16.c  Q17.d  Q18.d  Q19.d  Q20.b
+Q21.a  Q22.c  Q23.b  Q24.c  Q25.a  Q26.d  Q27.b  Q28.a  Q29.a  Q30.a
+Q31.b  Q32.d  Q33.c  Q34.d  Q35.b  Q36.c  Q37.c  Q38.b  Q39.a  Q40.c
+Q41.c  Q42.d  Q43.b  Q44.a  Q45.b  Q46.d  Q47.b  Q48.d  Q49.b  Q50.d
+Q51.c  Q52.d  Q53.b  Q54.d  Q55.a  Q56.b  Q57.b  Q58.c  Q59.c  Q60.b
+Q61.a  Q62.d  Q63.b  Q64.b  Q65.a  Q66.d  Q67.c  Q68.d  Q69.c  Q70.c
+Q71.c  Q72.a  Q73.a  Q74.c  Q75.d  Q76.b  Q77.c  Q78.c  Q79.d  Q80.c
+Q81.a  Q82.b  Q83.c  Q84.d  Q85.d  Q86.d  Q87.d  Q88.d  Q89.d  Q90.b
+Q91.b  Q92.a  Q93.c  Q94.a  Q95.c  Q96.b  Q97.b  Q98.b  Q99.d  Q100.d
+Q101.a Q102.a Q103.c Q104.c Q105.a Q106.a Q107.a Q108.c
+
+DUPE-WATCH (THIRD EOM of this module): dedup vs ALL authored 207-END (2024 EOM 106
++ 2023 EOM 51 = 157), verified against the 157 corpus canonical keys. This paper is
+dupe-SATURATED — the large majority of stems test an atomic claim already authored.
+16 fresh single-best items authored (see LEDGER): Q16, Q25, Q35, Q41, Q47, Q48, Q51,
+Q57, Q59, Q66, Q69, Q76, Q91, Q95, Q107, Q108. Representative dupes skipped:
+Q17 uterus AVAF, Q20 uterine-artery-over-ureter, Q27 vesicourethral->upper prostatic
+urethra, Q28 urachal cyst, Q31 sphenoid sinus below pituitary, Q32 trigone mesodermal,
+Q36 hypophyseal-portal, Q40 GH metabolic, Q43 prolactin lactation, Q46 oxytocin,
+Q49 Graves, Q52/Q56 calcitriol intestinal Ca (calbindin-d), Q65 insulin muscle uptake,
+Q72 Sertoli BTB, Q73 spermatogenesis temp (32C), Q87 seminal-vesicle mucosa folded,
+Q88 secretory glycogen, Q90 vaginal lactic-acid pH, Q92 pinealocyte, Q94 endocervix
+mucous, Q97 pars-nervosa Herring, Q99 cytotrophoblast clear boundaries, Q101/Q103
+spongiocyte, Q102 resting mammary, Q105 prostatic-Ca peripheral zone, plus most
+Q1-24 pelvic-anatomy stems (overlap 2024 anatomy Q27-58) and most Q35-70 endocrine
+physiology (overlap 2024 physiology Q59-108). Q44 Sheehan's HELD (printed key a
+"accompanied by progeria" is medically wrong — bad item, not authored).
+After this fresh slice the EOM line for 207 END is EXHAUSTED (three EOMs mined);
+next 207 END cluster must be a NON-EOM source (department book / MCQ bank).
