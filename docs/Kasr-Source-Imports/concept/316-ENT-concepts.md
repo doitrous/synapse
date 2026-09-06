@@ -19068,3 +19068,1335 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.dysphagia.causes-not-gastric-peptic-ulcer", uppercased (same scheme as the Ear, Nose and Larynx sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT pharynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Pharynx-section stems/options and its printed answer-key grid (image, PDF p60; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+# Item
+## id
+CON-MUL-B51FFD8B6ECCF8
+## label
+Benign paroxysmal positional vertigo is caused by displaced otoconia in the posterior semicircular canal
+## canonical_key
+otolaryngology.benign-paroxysmal-positional-vertigo.otoconia-posterior-semicircular-canal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Benign paroxysmal positional vertigo results from calcium-carbonate crystals (otoconia) that dislodge from the utricle and settle in a semicircular canal — most often the posterior canal — where a change of head position drives brief attacks of positional vertigo with no hearing loss.
+## explicit_objective
+State that benign paroxysmal positional vertigo is caused by displacement of otoconia from the utricle into the posterior semicircular canal.
+## pitfalls
+The crystals lodge most often in the posterior, not the superior or lateral, semicircular canal; the saccule and cochlea are not the seat, and there is no hearing loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Benign paroxysmal positional vertigo
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Benign paroxysmal positional vertigo
+## article_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.benign-paroxysmal-positional-vertigo.otoconia-posterior-semicircular-canal", uppercased; collision-checked corpus-wide -- no collision, new concept; not present in the already-authored 281-item 316-ENT corpus (dedup grep confirmed the BPPV/posterior-canal fact was only a distractor, never keyed).
+resourceOccurrenceIds: Key recovered from the filled (selected) radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Ear section, Q7); standard ENT teaching corroborates the stem and options.
+
+---
+
+# Item
+## id
+CON-MUL-775C15034EBAC4
+## label
+A posterior tympanic membrane perforation impairs hearing more than an anterior one
+## canonical_key
+otolaryngology.tympanic-membrane-perforation.posterior-perforation-worse-hearing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A perforation in the posterior (postero-superior) part of the tympanic membrane causes greater hearing loss than an anterior one, because it lies over the round window and the ossicular chain and abolishes the normal sound-pressure difference (the round-window baffle) between the oval and round windows.
+## explicit_objective
+State that a posterior tympanic membrane perforation affects hearing more than an anterior perforation.
+## pitfalls
+Do not assume perforations of equal size cause equal loss; a posterior perforation is worse because it exposes the round window and relates to the ossicles, whereas an anterior or inferior perforation spares them.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tympanic membrane perforation
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Tympanic membrane perforation
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.tympanic-membrane-perforation.posterior-perforation-worse-hearing", uppercased; collision-checked corpus-wide -- no collision; not in the 281-item corpus (the postero-superior quadrant is discussed only for myringotomy site, never as a perforation/hearing key).
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Ear section, Q42); standard ENT teaching corroborates the options.
+
+---
+
+# Item
+## id
+CON-MUL-EF4892599A4391
+## label
+An asymptomatic deviated nasal septum needs no treatment
+## canonical_key
+otolaryngology.deviated-nasal-septum.asymptomatic-needs-no-treatment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A deviated nasal septum is treated only when it causes symptoms such as nasal obstruction; a non-symptomatic (asymptomatic) deviation is simply observed and needs neither septoplasty, submucous resection nor cauterisation.
+## explicit_objective
+State that an asymptomatic deviated nasal septum requires no treatment.
+## pitfalls
+Septoplasty and submucous resection are reserved for symptomatic deviation, and cauterisation treats septal bleeding, not the deviation itself — none is indicated when the septum is asymptomatic.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deviated nasal septum
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Deviated nasal septum
+## article_ids
+ART-ENT-316-NOSE-SEPTUM
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.deviated-nasal-septum.asymptomatic-needs-no-treatment", uppercased; collision-checked corpus-wide -- no collision; the corpus authors symptomatic-DNS management (septoplasty vs FESS, surgery not contraindicated) but not the asymptomatic-needs-nothing rule.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Nose section, Q16 — "none of the above").
+
+---
+
+# Item
+## id
+CON-MUL-E63A39148C1736
+## label
+Prolonged vasoconstrictor nasal drops cause rhinitis medicamentosa with enlarged turbinates
+## canonical_key
+otolaryngology.rhinitis-medicamentosa.vasoconstrictor-drops-enlarged-turbinates
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Prolonged use of topical vasoconstrictor (decongestant) nasal drops produces rebound congestion and hypertrophy of the nasal turbinates — rhinitis medicamentosa — so the drops eventually worsen the very obstruction they were meant to relieve.
+## explicit_objective
+State that prolonged vasoconstrictor nasal drops lead to rhinitis medicamentosa with enlarged nasal turbinates.
+## pitfalls
+The outcome is enlarged turbinates from rebound congestion, not allergic rhinitis, atrophic rhinitis or allergic nasal polyps.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Rhinitis medicamentosa
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Rhinitis medicamentosa
+## article_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.rhinitis-medicamentosa.vasoconstrictor-drops-enlarged-turbinates", uppercased; collision-checked corpus-wide -- no collision; "vasoconstrictor drops" appears in the corpus only as having no role in CSF rhinorrhoea, never for rhinitis medicamentosa.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Nose section, Q21).
+
+---
+
+# Item
+## id
+CON-MUL-4D9E38FFBC988D
+## label
+Sudden loss of smell (anosmia) is a characteristic feature of COVID-19
+## canonical_key
+otolaryngology.anosmia.sudden-loss-of-smell-covid-19
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A sudden, often isolated loss of smell (anosmia), frequently without nasal obstruction, is a characteristic early feature of COVID-19 infection and helps distinguish it from the gradual anosmia of chronic nasal disease.
+## explicit_objective
+Recognise sudden anosmia as a characteristic feature of COVID-19.
+## pitfalls
+Sudden isolated anosmia points to COVID-19; allergic rhinitis, rhinoscleroma and septal perforation do not typically present with an abrupt loss of smell.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Anosmia
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Anosmia
+## article_ids
+ART-ENT-316-NOSE-RHINITIS-POLYPS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.anosmia.sudden-loss-of-smell-covid-19", uppercased; collision-checked corpus-wide -- no collision; the corpus links anosmia only to atrophic rhinitis, never to COVID-19.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Nose section, Q22).
+
+---
+
+# Item
+## id
+CON-MUL-601880AD5F080D
+## label
+Intrathecal fluorescein localises the source of a CSF rhinorrhoea leak intra-operatively
+## canonical_key
+otolaryngology.csf-rhinorrhoea.intrathecal-fluorescein-localisation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The site of a CSF rhinorrhoea leak is identified intra-operatively by injecting fluorescein into the subarachnoid space (intrathecal fluorescein), which stains the leaking CSF green and pinpoints the skull-base defect for repair.
+## explicit_objective
+State that intrathecal fluorescein is used to localise the source of CSF rhinorrhoea during surgery.
+## pitfalls
+The dye must be given intrathecally, not intravenously or intranasally, to reach and stain the CSF; intrathecal metrizamide is a radiological contrast, not the intra-operative localising dye.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+CSF rhinorrhoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > CSF rhinorrhoea
+## article_ids
+ART-ENT-316-NOSE-CSF-RHINORRHOEA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.csf-rhinorrhoea.intrathecal-fluorescein-localisation", uppercased; collision-checked corpus-wide -- no collision; the corpus authors CSF confirmation (glucose/Fehling/beta-2 transferrin) but not intra-operative fluorescein localisation.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Nose section, Q32).
+
+---
+
+# Item
+## id
+CON-MUL-1D9A47F38AA3F2
+## label
+Laryngomalacia is best diagnosed by flexible (awake) laryngoscopy
+## canonical_key
+otolaryngology.laryngomalacia.diagnosis-flexible-laryngoscopy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laryngomalacia is diagnosed by flexible (awake) laryngoscopy, which shows the characteristic inward collapse of the omega-shaped epiglottis and supraglottic structures on inspiration in the awake, spontaneously breathing infant.
+## explicit_objective
+State that flexible awake laryngoscopy is the best method to diagnose laryngomalacia.
+## pitfalls
+Symptoms and signs alone are not diagnostic, a lateral airway X-ray is unhelpful, and direct laryngoscopy under general anaesthesia abolishes the dynamic supraglottic collapse that confirms the diagnosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngomalacia
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngomalacia
+## article_ids
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.laryngomalacia.diagnosis-flexible-laryngoscopy", uppercased; collision-checked corpus-wide -- no collision; the corpus authors laryngomalacia as self-limiting supraglottic softening but not its diagnosis by flexible laryngoscopy.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Larynx section, Q11).
+
+---
+
+# Item
+## id
+CON-MUL-DCF773780EF759
+## label
+Thyroglossal cyst is the commonest midline neck swelling in children
+## canonical_key
+otolaryngology.thyroglossal-cyst.commonest-midline-neck-swelling-in-children
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A thyroglossal cyst is the commonest midline neck swelling in children; it lies in the midline along the thyroglossal tract, moves up on swallowing and on protrusion of the tongue, and is a remnant of the descent of the thyroid gland.
+## explicit_objective
+State that a thyroglossal cyst is the commonest midline neck swelling in children.
+## pitfalls
+A dermoid cyst, thymic swelling and pre-laryngeal lymph node are far less common midline swellings; the thyroglossal cyst is distinguished by moving up on tongue protrusion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Neck masses
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Neck masses
+## article_ids
+ART-ENT-316-PHARYNX-NECK-MASS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.thyroglossal-cyst.commonest-midline-neck-swelling-in-children", uppercased; collision-checked corpus-wide -- no collision; the corpus neck-mass items cover metastatic/malignant cervical nodes, never the thyroglossal cyst.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Pharynx section, Q2/Q7).
+
+---
+
+# Item
+## id
+CON-MUL-540446D1AEFCC5
+## label
+Adenoid hypertrophy is routinely investigated by a plain lateral X-ray of the nasopharynx
+## canonical_key
+otolaryngology.adenoid-hypertrophy.investigation-lateral-nasopharyngeal-x-ray
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adenoid hypertrophy is assessed routinely by a plain lateral (soft-tissue) X-ray of the nasopharynx, which shows the adenoid pad and the narrowed post-nasal airway without the cost or radiation of CT or MRI.
+## explicit_objective
+State that a plain lateral nasopharyngeal X-ray is the routine investigation for adenoid hypertrophy.
+## pitfalls
+CT and MRI are not the routine test and contrast is not needed; a plain lateral soft-tissue film of the nasopharynx suffices.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Adenoids
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Adenoids
+## article_ids
+ART-ENT-316-PHARYNX-ADENOID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.adenoid-hypertrophy.investigation-lateral-nasopharyngeal-x-ray", uppercased; collision-checked corpus-wide -- no collision; the corpus authors adenoid clinical effects but not the plain-lateral-X-ray investigation.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Pharynx section, Q8).
+
+---
+
+# Item
+## id
+CON-MUL-E50390E4E1BCF9
+## label
+Group A beta-haemolytic Streptococcus is the commonest organism of acute tonsillitis
+## canonical_key
+otolaryngology.acute-tonsillitis.commonest-organism-group-a-beta-haemolytic-streptococcus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The commonest causative organism of acute bacterial tonsillitis is the Group A beta-haemolytic Streptococcus (Streptococcus pyogenes), the same organism responsible for the non-suppurative sequelae of rheumatic fever and acute glomerulonephritis.
+## explicit_objective
+State that Group A beta-haemolytic Streptococcus is the commonest organism causing acute tonsillitis.
+## pitfalls
+Proteus, Staphylococcus aureus and Bacteroides are not the usual cause; the same beta-haemolytic streptococcus underlies rheumatic fever and acute glomerulonephritis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsils
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsils
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.acute-tonsillitis.commonest-organism-group-a-beta-haemolytic-streptococcus", uppercased; collision-checked corpus-wide -- no collision; the corpus authors tonsillitis complications and tonsillectomy indications but not the causative organism.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Pharynx section, Q11).
+
+---
+
+# Item
+## id
+CON-MUL-7617EE18515CFA
+## label
+Infectious mononucleosis is caused by the Epstein-Barr virus
+## canonical_key
+otolaryngology.infectious-mononucleosis.caused-by-epstein-barr-virus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Infectious mononucleosis (glandular fever) is caused by the Epstein-Barr virus and presents with membranous tonsillitis, generalised lymphadenopathy and splenomegaly; it is confirmed by a positive Paul-Bunnell (heterophile antibody) test.
+## explicit_objective
+State that infectious mononucleosis is caused by the Epstein-Barr virus.
+## pitfalls
+It is not caused by herpes simplex, cytomegalovirus or influenza virus; its whitish tonsillar exudate is not a true membrane, unlike diphtheria.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tonsils
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Tonsils
+## article_ids
+ART-ENT-316-PHARYNX-TONSIL
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.infectious-mononucleosis.caused-by-epstein-barr-virus", uppercased; collision-checked corpus-wide -- no collision; infectious mononucleosis appears in the corpus only as a distractor (whitish exudate is not a true membrane), never keyed to EBV.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Pharynx section, Q18).
+
+---
+
+# Item
+## id
+CON-MUL-11FC6FBF84F901
+## label
+Airway obstruction is the most dangerous complication of Ludwig's angina
+## canonical_key
+otolaryngology.ludwigs-angina.most-dangerous-complication-airway-obstruction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The most dangerous complication of Ludwig's angina is airway obstruction: the brawny cellulitis of the submandibular space raises the floor of the mouth and pushes the tongue upward and backward, which can rapidly occlude the airway and demands early airway control.
+## explicit_objective
+State that airway obstruction is the most dangerous complication of Ludwig's angina.
+## pitfalls
+Airway compromise, not extension to the tongue, bleeding or loss of teeth, is the life-threatening complication; airway vigilance is central to management.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T03-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deep neck space infections
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Oral cavity and pharynx > Deep neck space infections
+## article_ids
+ART-ENT-316-PHARYNX-DEEP-NECK-SPACE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_ba6766e99714b935cdc1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted CON-MUL- + first 14 hex of SHA-256 of "otolaryngology.ludwigs-angina.most-dangerous-complication-airway-obstruction", uppercased; collision-checked corpus-wide -- no collision; the corpus authors the SITE of Ludwig's angina (submandibular space) but not its most-dangerous complication.
+resourceOccurrenceIds: Key recovered from the filled radio button on the misfiled ENT Google-Forms bank (src_ba6766e99714b935cdc1, Pharynx section, Q19).
