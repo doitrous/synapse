@@ -1867,3 +1867,983 @@ yes
 ## author_notes
 
 ---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-35
+## title
+Bilateral congenital glaucoma — treatment of choice
+## question
+A mother came complaining that her newly born baby had constant watering of both eyes. Both eyes looked big with bilateral large corneal diameter. The right cornea was cloudy while the left cornea was clear. There was bilateral deep anterior chamber and bluish sclera. Which statement is correct?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+The condition may result from maternal tract infection.
+## explanation_a
+Incorrect. This is primary congenital glaucoma (developmental angle anomaly), not a maternal-tract infection.
+## answer_b
+Treatment should be postponed till the child is 6 months of age.
+## explanation_b
+Incorrect. Treatment should be prompt, not postponed.
+## answer_c
+Treatment is essentially medical.
+## explanation_c
+Incorrect. Treatment is surgical, not medical.
+## answer_d
+Surgery is the treatment of choice for both eyes.
+## explanation_d
+Correct. Surgery (angle surgery) is the treatment of choice for both eyes in bilateral congenital glaucoma.
+## topic
+Ophthalmology
+## subtopic
+Congenital glaucoma
+## main_concept
+CON-MUL-0AFD8901536A4E
+## concept_ids
+CON-MUL-0AFD8901536A4E
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Choose surgery as the treatment of choice in bilateral congenital glaucoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-38
+## title
+Normal eye in first year of life — EXCEPT
+## question
+During the first year of life the following occurs in the normal eye EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Pigmentation of the iris.
+## explanation_a
+Incorrect (a genuine change). The iris pigments over the first year.
+## answer_b
+Rapid increase in axial length.
+## explanation_b
+Incorrect (a genuine change). The axial length increases rapidly in infancy.
+## answer_c
+Maturation of fovea is complete.
+## explanation_c
+Correct. Foveal maturation continues after birth and is not complete in the first year; it is the exception.
+## answer_d
+Cornea flattens.
+## explanation_d
+Incorrect (a genuine change). The cornea flattens during the first year.
+## topic
+Ophthalmology
+## subtopic
+Visual development
+## main_concept
+CON-MUL-715E4963EBAB08
+## concept_ids
+CON-MUL-715E4963EBAB08
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify incomplete foveal maturation as the exception in first-year eye changes.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-39
+## title
+Visual ability of a newborn
+## question
+A newborn baby can:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Perceive light.
+## explanation_a
+Correct. A newborn can perceive light; higher visual functions develop later.
+## answer_b
+Do coordinated eye movements.
+## explanation_b
+Incorrect. Coordinated eye movements develop over the following months.
+## answer_c
+Recognize colors.
+## explanation_c
+Incorrect. Colour recognition develops later in infancy.
+## answer_d
+Make an eye contact.
+## explanation_d
+Incorrect. Steady eye contact develops after the newborn period.
+## topic
+Ophthalmology
+## subtopic
+Visual development
+## main_concept
+CON-MUL-853DD9B6D72C7D
+## concept_ids
+CON-MUL-853DD9B6D72C7D
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that a newborn can perceive light.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-40
+## title
+Age range for preferential looking
+## question
+Preferential looking is used for assessing pediatric visual development:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Newborn to 6 months.
+## explanation_a
+Correct. Preferential looking assesses infant acuity from the newborn period to about six months.
+## answer_b
+6 months to 2 years.
+## explanation_b
+Incorrect. This is beyond the usual preferential-looking window.
+## answer_c
+2-4 years.
+## explanation_c
+Incorrect. Older children are tested with picture/optotype charts.
+## answer_d
+4-6 years.
+## explanation_d
+Incorrect. This age is tested with recognition acuity charts.
+## topic
+Ophthalmology
+## subtopic
+Visual development
+## main_concept
+CON-MUL-1AD430868CF7A9
+## concept_ids
+CON-MUL-1AD430868CF7A9
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify the newborn-to-6-month range for preferential looking.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-42
+## title
+Leukocoria can be due to
+## question
+Leukocoria can be due to:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Retinoblastoma.
+## explanation_a
+Correct. Retinoblastoma is a classic cause of leukocoria.
+## answer_b
+Optic nerve glioma.
+## explanation_b
+Incorrect. Optic nerve glioma causes proptosis and visual loss, not leukocoria.
+## answer_c
+Papilloedema.
+## explanation_c
+Incorrect. Papilloedema is a disc sign of raised intracranial pressure, not leukocoria.
+## answer_d
+Glaucoma.
+## explanation_d
+Incorrect. Glaucoma does not whiten the pupil.
+## topic
+Ophthalmology
+## subtopic
+Leukocoria
+## main_concept
+CON-MUL-F9745712CFC8F1
+## concept_ids
+CON-MUL-F9745712CFC8F1
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise retinoblastoma as a cause of leukocoria.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-43
+## title
+Causes of leukocoria — EXCEPT
+## question
+All the following are causes of leukocoria EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Endophthalmitis.
+## explanation_a
+Incorrect (a genuine cause). Endophthalmitis can give a white reflex.
+## answer_b
+Coat's disease.
+## explanation_b
+Incorrect (a genuine cause). Coat's disease with exudation causes leukocoria.
+## answer_c
+Congenital cataract.
+## explanation_c
+Incorrect (a genuine cause). A dense cataract causes leukocoria.
+## answer_d
+Buphthalmos.
+## explanation_d
+Correct. Buphthalmos (congenital glaucoma) does not whiten the pupil; it is the exception.
+## topic
+Ophthalmology
+## subtopic
+Leukocoria
+## main_concept
+CON-MUL-F9745712CFC8F1
+## concept_ids
+CON-MUL-F9745712CFC8F1
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude buphthalmos from the causes of leukocoria.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-44
+## title
+Presentations of retinoblastoma — EXCEPT
+## question
+Retinoblastoma can present by all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Squint.
+## explanation_a
+Incorrect (a genuine presentation). Squint is a common presenting sign.
+## answer_b
+Proptosis.
+## explanation_b
+Incorrect (a genuine presentation). Proptosis occurs with orbital extension.
+## answer_c
+Hazy cornea.
+## explanation_c
+Correct. A hazy cornea is not a retinoblastoma presentation; it is the exception.
+## answer_d
+Glaucoma.
+## explanation_d
+Incorrect (a genuine presentation). Secondary glaucoma can occur.
+## topic
+Ophthalmology
+## subtopic
+Retinoblastoma
+## main_concept
+CON-MUL-B7499C14512182
+## concept_ids
+CON-MUL-B7499C14512182
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude hazy cornea from retinoblastoma presentations.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-45
+## title
+Presentations of retinoblastoma — EXCEPT (2)
+## question
+Retinoblastoma can present by all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Masquerade syndrome.
+## explanation_a
+Incorrect (a genuine presentation). Retinoblastoma can masquerade as intraocular inflammation.
+## answer_b
+Squint.
+## explanation_b
+Incorrect (a genuine presentation). Squint is a common presenting sign.
+## answer_c
+Secondary glaucoma.
+## explanation_c
+Incorrect (a genuine presentation). Secondary glaucoma can occur.
+## answer_d
+Cataract.
+## explanation_d
+Correct. Cataract is not a presentation of retinoblastoma; it is the exception.
+## topic
+Ophthalmology
+## subtopic
+Retinoblastoma
+## main_concept
+CON-MUL-B7499C14512182
+## concept_ids
+CON-MUL-B7499C14512182
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude cataract from retinoblastoma presentations.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-46
+## title
+Risk factors for ROP — include
+## question
+Risk factors for retinopathy of prematurity (ROP) include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Down's syndrome.
+## explanation_a
+Incorrect. Down's syndrome is not a risk factor for ROP.
+## answer_b
+Low birth weight.
+## explanation_b
+Correct. Low birth weight is a major risk factor for ROP.
+## answer_c
+Ophthalmia neonatorum.
+## explanation_c
+Incorrect. Ophthalmia neonatorum is a neonatal conjunctivitis, unrelated to ROP.
+## answer_d
+Imperforate Hasner's valve.
+## explanation_d
+Incorrect. An imperforate Hasner's valve causes tear-duct obstruction, not ROP.
+## topic
+Ophthalmology
+## subtopic
+Retinopathy of prematurity
+## main_concept
+CON-MUL-9853B4C25E6DCE
+## concept_ids
+CON-MUL-9853B4C25E6DCE
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify low birth weight as a risk factor for ROP.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH10-47
+## title
+ROP — oxygen exposure
+## question
+ROP affects premature infants who have been exposed to:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+High oxygen concentration.
+## explanation_a
+Correct. High oxygen exposure drives the vaso-obliteration and later neovascularisation of ROP.
+## answer_b
+Low oxygen concentration.
+## explanation_b
+Incorrect. Low oxygen is not the culprit; high oxygen is.
+## answer_c
+High carbon dioxide concentration.
+## explanation_c
+Incorrect. Carbon dioxide levels are not the mechanism.
+## answer_d
+Low carbon dioxide concentration.
+## explanation_d
+Incorrect. Carbon dioxide levels are not the mechanism.
+## topic
+Ophthalmology
+## subtopic
+Retinopathy of prematurity
+## main_concept
+CON-MUL-B1CBEB8D67F28C
+## concept_ids
+CON-MUL-B1CBEB8D67F28C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Eye diseases in infancy and early childhood
+## question_only_for
+
+## library_ids
+ART-OPH-315-PAEDIATRIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Link ROP to high oxygen exposure.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.10 Eye diseases in infancy and early childhood (PDF p.142); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.7-8 Ch.10 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
