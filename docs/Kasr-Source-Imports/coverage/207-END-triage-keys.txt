@@ -168,3 +168,34 @@ Q17.d Q18.d Q19.c Q20.c Q21.b Q22.b Q23.a Q24.d Q25.b
 Section map: Q1-4 pituitary, Q5-9 thyroid, Q10-11 parathyroid, Q12-18 suprarenal,
 Q19-24 pancreas, Q25 thyroid fascia. 25/25 keys recovered, 0 held, 0 excluded.
 Dedup vs all authored 207-END (173) done at authoring time (see LEDGER).
+
+
+FIFTH SOURCE — Dr Galal reproductive/pelvis ANATOMY MCQ bank (NON-EOM, topic bank)
+==================================================================================
+Source: 207 END/Anatomy Other [2nd priority]/MCQs/207 Mcq Galal (repro).pdf
+(manifest sourceId src_3c7b49ee6f8407106c2a; sha256
+3c7b49ee6f8407106c2a478abeedeabd3194af6c8aad8cfb42f32bb8bc75dff1; examType null —
+a TOPIC bank, not an exam, so examSittingYear=null). Scanned (CamScanner), 8 pages,
+~47 four/five-option MCQs on reproductive/pelvic gross anatomy, organised into topic
+sections: (1) pelvic muscles/floor, (2) uterus & broad ligament, (3) internal iliac
+artery, (4) perineum, (5) breast, (6) genital development. NOT a dup sha of any mined
+207 END source. Already in the manifest — no new manifest row added.
+
+Key marker: a hand-drawn CIRCLE around the correct OPTION LETTER (a/b/c/d/e). Read from
+the OCR (each circled letter surfaces as a stray glyph such as @, (), ©, C), G)) and
+render-verified on pp.4 and 6 at 150 dpi — the circled letters matched the OCR reading
+exactly on both pages, 0 disagreements. 38/47 keys recovered with high confidence; the
+9 unread/ambiguous stems (Q2, Q3, Q6, Q11, Q13, Q15, Q26, Q38, Q43) are HELD pending a
+render (garbled OCR / cut option text). Every recovered key cross-checked against its
+stem for a clean single-best answer.
+
+Q1.a  Q4.d  Q5.c  Q7.c  Q8.c  Q9.d  Q10.b  Q12.a  Q14.b  Q16.d
+Q17.d Q18.a Q19.c Q20.c Q21.a Q22.d Q23.d  Q24.b  Q25.b  Q27.b
+Q28.c Q29.c Q30.b Q31.c Q32.c Q33.b Q34.b  Q35.c  Q36.c  Q37.a
+Q39.b Q40.c Q41.b Q42.a Q44.a Q45.b Q46.b  Q47.c
+(HELD/unread: Q2, Q3, Q6, Q11, Q13, Q15, Q26, Q38, Q43)
+
+Section map: Q1-6 pelvic muscles/floor, Q7-13 uterus/broad ligament, Q14-19 female
+pelvic viscera/lymph, Q20-23 internal iliac artery, Q24-35 perineum, Q36-41 breast,
+Q42-47 genital development. Dedup vs all authored 207-END (194) done at authoring time
+(the EOM anatomy tranches already covered much pelvis/perineum — see LEDGER).

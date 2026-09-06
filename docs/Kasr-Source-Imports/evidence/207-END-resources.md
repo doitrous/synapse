@@ -157,3 +157,41 @@ Kasr Al Ainy END 207 endocrine ANATOMY MCQ topic bank by Dr Medhat (NON-EOM; not
 true
 
 ---
+
+# Item
+## id
+src_3c7b49ee6f8407106c2a
+## title
+207 Mcq Galal (repro)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Anatomy Other [2nd priority]/MCQs/207 Mcq Galal (repro).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+8
+## sha256
+3c7b49ee6f8407106c2a478abeedeabd3194af6c8aad8cfb42f32bb8bc75dff1
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 reproductive/pelvic ANATOMY MCQ topic bank by Dr Galal (NON-EOM; not an exam, so examSittingYear is null). ~47 four/five-option single-best MCQs organised into topic sections (pelvic muscles/floor, uterus & broad ligament, internal iliac artery, perineum, breast, genital development). Scanned (CamScanner), 8 pages, no text layer (OCR-required). Correct answer is a hand-drawn CIRCLE around the correct option letter; convention render-verified on pp.4 and 6 against the OCR reading (exact match, 0 disagreements) -- see coverage/207-END-triage-keys.txt. Second non-EOM 207 END source. Low-to-moderate dedup vs the authored EOM pelvis/perineum anatomy tranches; only non-duplicate items are authored.
+## confidence
+0.9
+## is_assessment
+true
+
+---
