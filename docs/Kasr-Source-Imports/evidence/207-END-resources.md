@@ -80,3 +80,41 @@ Kasr Al Ainy END 207 End-of-Module examination 2023 (batch 195, solved, 108 MCQs
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_4420b0c55e4310128225
+## title
+EOM - (END - 207) 198 (Solved)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/EOM/EOM - (END - 207) 198 (Solved).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+13
+## sha256
+4420b0c55e431012822509198428fa8ebb5b27a88a9517bdc2c5dbf24b80d9bc
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 End-of-Module examination, printed exam date 29/4/2026 (batch code 198, solved, 108 MCQs, 13 pages, 54 marks). NO native text layer (scanned); OCR'd via pagetext.mjs. Correct answers read by eye from a light-BLUE highlight oval around the correct option letter on 150-dpi page renders (pp.1-13); the OCR "@" proxy proved unreliable (it mis-attributed Q25). 0 double-marks, 0 unmarked -- see coverage/207-END-triage-keys.txt. THIRD EOM of the module; dupe-saturated, 16 non-duplicate items authored this pass.
+## confidence
+0.9
+## is_assessment
+true

@@ -7,8 +7,9 @@
 | 2024-eom-physiology-tranche-3 (Q59-108, `EOM - END-207 2024 ANS.pdf`) | 49 | 1 | 0 | 0 | 108 |
 | **2024 EOM paper total** (`EOM - END-207 2024 ANS.pdf`) | **106** | **1** | **1** | **0** | **108** |
 | 2023-eom-mixed-slices-1+2+3 (`EOM - End of END - 207 2023 195 With Answers.pdf`) | 51 | 0 | 0 | 57 | 108 |
-| **207 END module authored (2 papers)** | **157** | **1** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 157 | 1 | 1 | untriaged | — |
+| 2026-eom-198-fresh-slice (`EOM - (END - 207) 198 (Solved).pdf`) | 16 | 1 | 0 | 91 | 108 |
+| **207 END module authored (3 papers)** | **173** | **2** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 173 | 2 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -271,3 +272,57 @@ unkeyed/unsolvable, the fallbacks are the 2023 EOM 195 *unsolved* twin (`EOM - E
 195.pdf`) or `EOM (END - 207) 198.pdf.pdf` only if a key can be recovered; the `{198}` EOY/Baqoon
 family is WRITTEN/essay (no MCQs — written lane). 3 department books and 6 banks also remain
 entirely untriaged.
+
+
+## Third paper — 2026 EOM "198" (dupe-saturated, FINAL EOM slice)
+
+Paper: `EOM - (END - 207) 198 (Solved).pdf` (manifest sourceId `src_4420b0c55e4310128225`,
+sha256 4420b0c55e431012822509198428fa8ebb5b27a88a9517bdc2c5dbf24b80d9bc; EOM, printed exam
+date **29/4/2026**, solved, 108 MCQs, 13 pages, **NO native text layer** — scanned). Registered
+in `evidence/207-END-resources.md`. NOT a dup-of-existing sha (differs from the 2024 EOM
+2d00db5d and the 2023 EOM "195" bb589c39).
+
+**Key marker: a light-BLUE highlight OVAL around the correct option letter**, legible only on
+render. OCR surfaced only ~10/108 circles as `@` and mis-attributed at least one (Q25: OCR `@`
+on "9 week" but the blue oval is on a = 7th week), so the OCR proxy is NOT reliable here; all 108
+keys were read by eye from 150-dpi page renders (pp.1-13). 0 double-marks, 0 unmarked. Section
+map differs from the earlier papers: Q1-24 gross anatomy (pelvis/perineum/genital), Q25-34
+embryology + pituitary/bladder anatomy, Q35-78 physiology, Q79-108 histology. All keys in
+`coverage/207-END-triage-keys.txt`.
+
+**16 authored** this pass (Q16, Q25, Q35, Q41, Q47, Q48, Q51, Q57, Q59, Q66, Q69, Q76, Q91, Q95,
+Q107, Q108) — every one a claim NOT already covered by the 2024 or 2023 tranches, verified against
+the 157-concept corpus canonical keys. 0 held-for-image; **1 held-bad-item (Q44 Sheehan's** —
+printed key a "accompanied by progeria" is medically wrong; not authored). **Dupe-SATURATED: this
+is the THIRD EOM of the module** — the large majority of stems duplicate authored 207-END claims.
+Representative dupes skipped: Q17 uterus AVAF, Q20 uterine-artery-over-ureter, Q27 vesicourethral
+-> upper prostatic urethra, Q28 urachal cyst, Q31 sphenoid sinus below pituitary, Q32 trigone
+mesodermal, Q36 hypophyseal portal, Q40 GH metabolic, Q43 prolactin lactation, Q46 oxytocin, Q49
+Graves, Q52/Q56 calcitriol calbindin intestinal Ca, Q65 insulin muscle uptake, Q72 Sertoli BTB,
+Q73 spermatogenesis temp (32C), Q87 seminal-vesicle mucosa, Q88 secretory glycogen, Q90 vaginal
+lactic-acid pH, Q92 pinealocyte, Q94 endocervix, Q97 pars-nervosa Herring, Q99 cytotrophoblast,
+Q101/Q103 spongiocyte, Q102 resting mammary, Q105 prostatic-Ca zone (plus most Q1-24 pelvic-anatomy
+and most Q35-70 endocrine-physiology stems). Fresh yield 16/108 (~15%); of the stems whose claim
+was checked closely, well over 60% duplicated authored concepts.
+
+16 new concepts minted university-blind (CON-`<SYS>`- + first 14 hex of SHA-256 of the canonical
+key, uppercased): 9 `CON-END-*`, 5 `CON-GYN-*`, 2 `CON-AND-*`, 1 `CON-REN-*` (collision-checked
+corpus-wide — 0 collisions, 0 in-batch duplicates; none of the 2024/2023 concepts reusable —
+distinct atomic claims). Filed under DIS-ANA-T05 / DIS-PHY-T06 / DIS-HIS-T03 with SYS-END/GYN/AND/REN
+cross-nav. Grouped into 3 new library articles (`ART-END-207END-198EOM-ENDOCRINE-PHYSIOLOGY`,
+`ART-GYN-207END-198EOM-REPRODUCTIVE-ANATOMY-EMBRYOLOGY`, `ART-GYN-207END-198EOM-GENITAL-SYSTEM-HISTOLOGY`).
+Subject tags endo/gyn/androl/renal.
+
+Authored in `question/207-END-198eom-mcq.md` (from seed `seed/207-END-198eom.json` — never hand-edit
+the emitted .md; fix the seed and re-emit), `concept/207-END-198eom-concepts.md`,
+`article/207-END-198eom-articles.md`. Gate-clean vs the module baseline (concept batch 16 items 0
+errors; article batch 3 items 0 errors; MCQ batch 16 = the shared not-yet-imported resource baseline,
+one `resource_ids` error/item; simulate created=35/updated=0/rejected=0/errors=0; audit NEUTRAL — 23
+blank-field / needs_evidence / not-yet-imported categories, an identical set to the 2023 baseline
+audit, 0 NEW-ONLY categories).
+
+**The 207 END EOM line is now EXHAUSTED — three EOMs mined (2024 EOM 106, 2023 EOM 51, 2026 EOM 16
+= 173 authored, 2 held, 1 excluded).** Next 207 END cluster MUST be a NON-EOM source: the tier-1
+department books (Anatomy / Histology / Physiology dept books) or the 6 MCQ banks in the manifest
+(e.g. `ANATOMY MCQ [RPR].pdf`, `Anatomy MCQ by Dr.Jalal[END].pdf`, `207 Dr Medhat mcq (endo).pdf`,
+`207 Mcq Galal (repro).pdf`) — all entirely untriaged. Do NOT mine any 207 END EOM paper further.
