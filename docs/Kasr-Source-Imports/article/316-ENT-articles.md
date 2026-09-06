@@ -261,8 +261,13 @@ CON-MUL-F0D20BD9CB34AB
 CON-MUL-E1BD904F7721F5
 CON-MUL-32A8489639AADC
 CON-MUL-A4A1B9F05965B0
+CON-MUL-92C1C7FBA0B8FE
+CON-MUL-032074A4E9DAE9
+CON-MUL-33997FF24FFF04
+CON-MUL-56E38A26FEDF5D
 ## related_articles
 ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+ART-ENT-316-EAR-FACIAL-NERVE
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
@@ -348,8 +353,12 @@ DIS-ENT-T01
 ## related_concepts
 CON-MUL-C8BCA22B2C63E6
 CON-MUL-073A1721D7EE22
+CON-MUL-5ED7874BB16AB7
+CON-MUL-260454833864E3
+CON-MUL-903CDF6CBF6923
 ## related_articles
 ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+ART-ENT-316-EAR-OTOSCLEROSIS
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
@@ -379,3 +388,182 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Ear-section middle-ear and inner-ear concepts (Q19-48) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-ENT-316-EAR-FACIAL-NERVE
+## title
+Otorhinolaryngology: the facial nerve and facial palsy
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the facial nerve facts tested in the Ear section of the bank (Q56-66). It covers the motor and secretomotor/taste supply of the facial nerve (stapedius, the muscles of facial expression, the posterior belly of digastric, and the chorda tympani and greater superficial petrosal branches) and what it does not supply (tensor tympani, which is trigeminal, and levator palpebrae superioris, which is oculomotor). It sets out Bell's palsy as the commonest cause of facial paralysis, an idiopathic lower motor neuron palsy that usually recovers, distinguishes the upper motor neuron pattern (upper face spared, no wasting) from the lower motor neuron pattern (whole side, wasting, lost eye closure), and states that facial palsy complicating acute otitis media is treated by urgent myringotomy and antibiotics.
+## sections
+### Definition
+The facial (seventh cranial) nerve carries motor fibres to the muscles of facial expression, stapedius and the posterior belly of digastric, plus secretomotor and taste fibres in the chorda tympani and greater superficial petrosal nerve. Each linked concept states one atomic fact about its anatomy or its palsies.
+### Mechanism
+Interruption of the nerve below the facial nucleus (a lower motor neuron lesion) paralyses the whole ipsilateral face with wasting and loss of eye closure, whereas a lesion above the nucleus (upper motor neuron) spares the bilaterally represented upper face. Bell's palsy is idiopathic lower motor neuron dysfunction, while pus under pressure in acute otitis media can irritate the nerve through a dehiscent facial canal.
+### Key determinants
+Discriminators tested here: the facial nerve supplies stapedius but not tensor tympani, and the greater auricular nerve is a cervical-plexus branch rather than a facial branch; a lower motor neuron palsy affects the whole side with wasting while an upper motor neuron palsy spares the forehead; Bell's palsy is the commonest cause of facial paralysis; and facial palsy from acute otitis media is drained by myringotomy, not treated with steroids.
+### Clinical significance
+Distinguishing upper from lower motor neuron palsy localises the lesion and separates a stroke from Bell's palsy, protecting the eye and guiding steroid use; recognising an infective cause in a discharging ear prompts urgent myringotomy rather than steroids.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (tensor tympani as facial, greater auricular as a facial branch, forehead sparing in a lower motor neuron lesion, steroids as first line in an infective facial palsy).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+## subtopic
+Facial nerve and facial palsy
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T01
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-57350B88356507
+CON-MUL-D8D07868E71A46
+CON-MUL-0C78090BE37612
+CON-MUL-F318577C23A72F
+CON-MUL-1658FA902D7FFC
+CON-MUL-714558FFD515D8
+CON-MUL-F164EE6B2079FB
+## related_articles
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Ear-section facial nerve concepts (Q56-66) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+5
+
+---
+
+# Item
+## id
+ART-ENT-316-EAR-OTOSCLEROSIS
+## title
+Otorhinolaryngology: otosclerosis
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the otosclerosis facts tested in the Ear section of the bank (Q67-72). It sets out otosclerosis as a hereditary disease, commoner in females and often progressing during pregnancy, in which fixation of the stapes footplate behind a normal-looking drum produces a bilateral conductive hearing loss (Rinne negative), with a shallow type As tympanogram and the possibility of an added sensorineural component from cochlear otosclerosis. It states that the treatment is stapedectomy with a synthetic piston prosthesis (or a hearing aid), and separates otosclerosis from Eustachian tube dysfunction and from the retracted congested drum of inflammatory middle-ear disease.
+## sections
+### Definition
+Otosclerosis is an abnormal bone remodelling of the otic capsule that fixes the stapes footplate in the oval window. Each linked concept states one atomic fact about its nature or its treatment.
+### Mechanism
+New spongy then sclerotic bone at the fissula ante fenestram progressively fixes the stapes, impairing sound transmission and producing a conductive hearing loss; when the focus reaches the cochlea it can add a sensorineural loss. Hormonal influence explains the female preponderance and progression in pregnancy.
+### Key determinants
+Discriminators tested here: the drum is normal (occasionally a pink Schwartze sign), not retracted or congested; the loss is conductive from stapes fixation, not from Eustachian tube dysfunction; sensorineural loss can occur; and the operation of choice is stapedectomy with a prosthesis, not tympanoplasty or a mastoid procedure.
+### Clinical significance
+Recognising a bilateral familial conductive loss behind a normal drum in a young adult points to otosclerosis and offers a good surgical result from stapedectomy, or a hearing aid as the alternative.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (a retracted congested drum, Eustachian tube dysfunction, sensorineural loss 'never' occurring, or tympanoplasty as the operation of choice).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+## subtopic
+Otosclerosis
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T01
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-577E51F1EA3591
+CON-MUL-CB96A6B4BF01FB
+## related_articles
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Ear-section otosclerosis concepts (Q67-72) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4

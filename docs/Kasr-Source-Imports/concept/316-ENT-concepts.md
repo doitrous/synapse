@@ -3569,3 +3569,1779 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; find-existing search returned no prior ENT record for this fact.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q19-48) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-92C1C7FBA0B8FE
+## label
+Gradenigo's triad of otorrhoea, diplopia and facial pain indicates petrositis
+## canonical_key
+otolaryngology.petrositis.gradenigo-triad-otorrhoea-diplopia-facial-pain
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Petrositis (suppuration of the petrous apex) produces Gradenigo's syndrome: the triad of ear discharge, diplopia from a sixth-nerve palsy, and deep facial or retro-orbital pain from trigeminal irritation.
+## explicit_objective
+Recognise Gradenigo's triad of otorrhoea, diplopia and facial pain as petrositis.
+## pitfalls
+The diplopia (VI) and facial pain (V) reflect the petrous apex's relation to those nerves; the triad is not acute mastoiditis or a cerebellar abscess.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Petrositis (Gradenigo's syndrome)
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Petrositis (Gradenigo's syndrome)
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-032074A4E9DAE9
+## label
+A swinging (picket-fence) fever in ear disease suggests lateral sinus thrombophlebitis
+## canonical_key
+otolaryngology.lateral-sinus-thrombophlebitis.intermittent-swinging-fever
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lateral (sigmoid) sinus thrombophlebitis complicating chronic ear disease causes a swinging, intermittent (picket-fence) fever with rigors, as septic emboli are released from the infected thrombus into the blood stream.
+## explicit_objective
+Associate a swinging (picket-fence) fever in ear disease with lateral sinus thrombophlebitis.
+## pitfalls
+Blood cultures are best taken at the fever peak; an otitic brain abscess or an extradural abscess does not give this hectic fever.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Lateral sinus thrombophlebitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Lateral sinus thrombophlebitis
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-33997FF24FFF04
+## label
+The infant Eustachian tube is short, wide and horizontal, predisposing to acute otitis media
+## canonical_key
+otolaryngology.eustachian-tube.infant-short-wide-horizontal-predisposes-otitis-media
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In infants the Eustachian tube is shorter, wider and more horizontal than in adults, so nasopharyngeal infection and refluxed milk reach the middle ear easily, predisposing to acute otitis media.
+## explicit_objective
+State that the infant Eustachian tube is short, wide and horizontal, predisposing to acute otitis media.
+## pitfalls
+A common exam trap describes the infant tube as long, narrow and vertical, which is the reverse of the truth.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Acute otitis media in infants
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Acute otitis media in infants
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-56E38A26FEDF5D
+## label
+Cholesteatoma is an infected keratin-containing sac, not a true neoplasm
+## canonical_key
+otolaryngology.cholesteatoma.keratin-containing-sac-not-true-neoplasm
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cholesteatoma is a sac of keratinising squamous epithelium (skin) trapped in the middle ear or attic and filled with keratin debris; despite the '-oma' name it is not a true tumour or a primary bony lesion.
+## explicit_objective
+Define cholesteatoma as an infected keratin-containing sac, not a true neoplasm.
+## pitfalls
+Its enzymes and expansile pressure erode bone, but the sac itself is misplaced skin, not neoplastic or bony in origin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Cholesteatoma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Cholesteatoma
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-57350B88356507
+## label
+Bell's palsy is an idiopathic lower motor neuron facial palsy that usually recovers spontaneously
+## canonical_key
+otolaryngology.bells-palsy.idiopathic-lower-motor-neuron-facial-palsy-usually-recovers
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bell's palsy is an idiopathic lower motor neuron paralysis of the facial nerve that affects the whole side of the face; most patients recover spontaneously, and early corticosteroids improve the chance of full recovery.
+## explicit_objective
+State that Bell's palsy is an idiopathic lower motor neuron facial palsy that usually recovers spontaneously.
+## pitfalls
+It is lower, not upper, motor neuron and is not accompanied by limb weakness; hemiplegia with facial weakness indicates a central (stroke) cause.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Bell's palsy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Bell's palsy
+## article_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-D8D07868E71A46
+## label
+Bell's palsy is the commonest cause of facial nerve paralysis
+## canonical_key
+otolaryngology.facial-nerve-paralysis.commonest-cause-bells-palsy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bell's palsy, the idiopathic lower motor neuron facial paralysis, is by far the commonest cause of facial nerve paralysis and is a diagnosis of exclusion.
+## explicit_objective
+Identify Bell's palsy as the commonest cause of facial nerve paralysis.
+## pitfalls
+Trauma, surgery, infection and tumour cause facial palsy too, but each is far less frequent than Bell's palsy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Facial nerve paralysis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Facial nerve paralysis
+## article_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0C78090BE37612
+## label
+The facial nerve supplies stapedius and the muscles of facial expression, not tensor tympani or levator palpebrae superioris
+## canonical_key
+otolaryngology.facial-nerve.motor-supply-stapedius-not-tensor-tympani-or-levator-palpebrae
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The facial nerve's motor fibres supply the muscles of facial expression, the stapedius and the posterior belly of digastric; the tensor tympani is supplied by the trigeminal nerve and the levator palpebrae superioris by the oculomotor nerve.
+## explicit_objective
+Recall that the facial nerve supplies stapedius but not tensor tympani or levator palpebrae superioris.
+## pitfalls
+A facial nerve lesion causes inability to close the eye (orbicularis oculi) but not ptosis, because levator palpebrae is oculomotor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Facial nerve anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Facial nerve anatomy
+## article_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F318577C23A72F
+## label
+Facial palsy complicating acute otitis media is treated by urgent myringotomy and antibiotics
+## canonical_key
+otolaryngology.facial-palsy-complicating-acute-otitis-media.treat-by-myringotomy-and-antibiotics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When facial palsy develops during acute otitis media, pus under pressure irritates the nerve through a dehiscent facial canal, so treatment is urgent myringotomy to drain the middle ear together with intravenous antibiotics.
+## explicit_objective
+State that facial palsy complicating acute otitis media is first treated by urgent myringotomy and antibiotics.
+## pitfalls
+Corticosteroids are for idiopathic Bell's palsy; nerve decompression or exploration is reserved for palsy that persists despite drainage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Facial palsy in acute otitis media
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Facial palsy in acute otitis media
+## article_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1658FA902D7FFC
+## label
+Lower motor neuron facial palsy affects the whole side of the face with muscle wasting
+## canonical_key
+otolaryngology.lower-motor-neuron-facial-palsy.whole-side-with-muscle-wasting
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A lower motor neuron facial palsy paralyses the entire half of the face on that side (forehead, eye closure and mouth), with muscle wasting and loss of eye closure over time.
+## explicit_objective
+Recognise that a lower motor neuron facial palsy affects the whole side of the face with muscle wasting.
+## pitfalls
+Forehead sparing and preserved emotional movement belong to the upper motor neuron pattern, not the lower.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Lower motor neuron facial palsy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Lower motor neuron facial palsy
+## article_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-714558FFD515D8
+## label
+The greater auricular nerve is not a branch of the facial nerve
+## canonical_key
+otolaryngology.facial-nerve.branches-gspn-nerve-to-stapedius-chorda-tympani-not-greater-auricular
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Branches of the facial nerve include the greater superficial petrosal nerve, the nerve to stapedius and the chorda tympani; the greater auricular nerve is a branch of the cervical plexus (C2, C3), not of the facial nerve.
+## explicit_objective
+Distinguish true facial nerve branches from the greater auricular nerve of the cervical plexus.
+## pitfalls
+The greater auricular nerve is harvested as a graft but supplies sensation over the parotid and lower ear, not facial movement.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Facial nerve anatomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Facial nerve anatomy
+## article_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F164EE6B2079FB
+## label
+An upper motor neuron facial palsy spares the upper face and shows no muscle wasting
+## canonical_key
+otolaryngology.upper-motor-neuron-facial-palsy.spares-upper-face-no-wasting
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In an upper motor neuron facial palsy the lesion is above the facial nucleus, so only the lower part of the opposite face is weak; the upper face is spared by its bilateral cortical supply, there is hypertonia with no muscle wasting, and emotional movements are often preserved.
+## explicit_objective
+Recognise that an upper motor neuron facial palsy spares the upper face and shows no wasting.
+## pitfalls
+Muscle wasting or loss of forehead movement indicates a lower motor neuron lesion, not an upper one.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Upper motor neuron facial palsy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Upper motor neuron facial palsy
+## article_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-577E51F1EA3591
+## label
+Otosclerosis is treated by stapedectomy with a prosthesis, or a hearing aid
+## canonical_key
+otolaryngology.otosclerosis.treated-by-stapedectomy-prosthesis-or-hearing-aid
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Because otosclerosis fixes the stapes footplate, its surgical treatment is stapedectomy (or stapedotomy) with a synthetic piston prosthesis to restore ossicular movement; a hearing aid is the alternative for those who decline surgery.
+## explicit_objective
+State that otosclerosis is treated by stapedectomy with a prosthesis, or a hearing aid.
+## pitfalls
+Tympanoplasty, myringoplasty and mastoidectomy treat suppurative disease or perforations, not a fixed stapes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Otosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Otosclerosis
+## article_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-CB96A6B4BF01FB
+## label
+Otosclerosis is a hereditary fixation of the stapes footplate causing conductive loss, commoner in females
+## canonical_key
+otolaryngology.otosclerosis.hereditary-stapes-fixation-conductive-loss-female-may-become-sensorineural
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Otosclerosis is a hereditary disease, commoner in females and often progressing in pregnancy, in which fixation of the stapes footplate behind a normal drum produces a bilateral conductive hearing loss; cochlear involvement may add a sensorineural component.
+## explicit_objective
+Describe otosclerosis as hereditary stapes fixation causing conductive loss, commoner in females, that may become sensorineural.
+## pitfalls
+The drum is normal (sometimes a pink Schwartze sign), not retracted or congested; sensorineural loss can occur and it is not caused by Eustachian tube dysfunction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Otosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Otosclerosis
+## article_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-5ED7874BB16AB7
+## label
+Endolymphatic hydrops is the pathology of Meniere's disease
+## canonical_key
+otolaryngology.menieres-disease.endolymphatic-hydrops-pathology
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Meniere's disease is caused by endolymphatic hydrops, a distension of the endolymphatic system of the membranous labyrinth; the raised endolymph pressure produces its episodic vertigo, fluctuating sensorineural hearing loss and tinnitus.
+## explicit_objective
+Associate endolymphatic hydrops with Meniere's disease.
+## pitfalls
+Otosclerosis, chronic suppurative otitis media and wax impaction have different mechanisms and do not involve hydrops.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Meniere's disease
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Meniere's disease
+## article_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-260454833864E3
+## label
+Meniere's disease is managed medically with diuretics and salt restriction
+## canonical_key
+otolaryngology.menieres-disease.medical-management-includes-diuretics
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The medical management of Meniere's disease includes diuretics together with salt restriction to reduce endolymph volume and the frequency of attacks, alongside vestibular sedatives for the acute vertigo.
+## explicit_objective
+State that diuretics and salt restriction are part of the medical management of Meniere's disease.
+## pitfalls
+The hearing loss is sensorineural with a normal (type A) tympanogram, and the disease can become bilateral, so it is not strictly unilateral.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Meniere's disease
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Meniere's disease
+## article_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-903CDF6CBF6923
+## label
+Vertigo without hearing loss points to vestibular neuritis
+## canonical_key
+otolaryngology.vestibular-neuritis.vertigo-without-hearing-loss
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vestibular neuritis inflames only the vestibular nerve, causing acute vertigo with preserved hearing; the absence of hearing loss distinguishes it from labyrinthitis and Meniere's disease, which involve the cochlea.
+## explicit_objective
+Attribute vertigo without hearing loss to vestibular neuritis.
+## pitfalls
+Vertigo accompanied by sensorineural hearing loss localises to the labyrinth (labyrinthitis or Meniere's), not to the vestibular nerve alone.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Vestibular neuritis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Vestibular neuritis
+## article_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.

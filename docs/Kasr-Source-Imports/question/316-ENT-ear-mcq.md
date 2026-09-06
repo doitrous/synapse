@@ -6283,3 +6283,4203 @@ Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.10
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-49
+
+## title
+Triad of otorrhoea, diplopia and facial pain
+
+## question
+Triad of ear discharge, diplopia and facial pain are symptoms of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Acute mastoiditis
+
+## explanation_a
+Incorrect. Acute mastoiditis gives post-auricular pain, swelling and a sagging meatal wall, not diplopia and facial pain.
+
+## answer_b
+Petrositis
+
+## explanation_b
+Correct. The triad of ear discharge, diplopia (from a sixth-nerve palsy) and deep facial or retro-orbital pain (from fifth-nerve irritation) is Gradenigo's syndrome, which follows suppuration of the petrous apex, that is petrositis. The abducent nerve and the trigeminal ganglion lie close to the petrous apex, so infection there paralyses lateral eye movement and irritates the trigeminal nerve. Recognising this triad in a discharging ear signals that infection has reached the petrous apex.
+
+## answer_c
+Cerebellar abscess
+
+## explanation_c
+Incorrect. A cerebellar abscess causes ataxia, nystagmus and signs of raised intracranial pressure, not this specific petrous-apex triad.
+
+## answer_d
+Bezold's abscess
+
+## explanation_d
+Incorrect. Bezold's abscess is pus tracking into the neck below the mastoid tip, presenting as a tender neck swelling rather than diplopia.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Petrositis (Gradenigo's syndrome)
+
+## main_concept
+CON-MUL-92C1C7FBA0B8FE
+
+## concept_ids
+CON-MUL-92C1C7FBA0B8FE
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise Gradenigo's triad of otorrhoea, diplopia and facial pain as petrositis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.11); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-50
+
+## title
+Intermittent (picket-fence) fever in ear disease
+
+## question
+Intermittent fever is seen in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Otic brain abscess
+
+## explanation_a
+Incorrect. An otitic brain abscess typically gives a low-grade or normal temperature with headache and focal signs, not a swinging fever.
+
+## answer_b
+Extradural abscess
+
+## explanation_b
+Incorrect. An extradural abscess is often silent or causes only a persistent headache and discharge, without the picket-fence fever.
+
+## answer_c
+Bezold's abscess
+
+## explanation_c
+Incorrect. Bezold's abscess presents as a tender neck swelling from pus tracking below the mastoid tip, not a characteristic intermittent fever.
+
+## answer_d
+Lateral sinus thrombophlebitis
+
+## explanation_d
+Correct. A swinging, intermittent (picket-fence) fever with rigors is characteristic of lateral (sigmoid) sinus thrombophlebitis complicating chronic ear disease, because septic emboli are showered into the blood stream from the infected thrombus. The temperature spikes as organisms are released, then falls, giving the hectic pattern. Blood cultures taken at the peak of the fever are often positive.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Lateral sinus thrombophlebitis
+
+## main_concept
+CON-MUL-032074A4E9DAE9
+
+## concept_ids
+CON-MUL-032074A4E9DAE9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Associate a swinging (picket-fence) fever in ear disease with lateral sinus thrombophlebitis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.11); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-51
+
+## title
+Predisposing factors of acute otitis media in infants (the exception)
+
+## question
+The predisposing factors of acute otitis media in infants include all the following EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Adenoiditis, tonsillitis and exanthemata are frequent in children
+
+## explanation_a
+Incorrect (this is a true factor). Frequent adenoiditis, tonsillitis and childhood exanthemata do predispose infants to acute otitis media.
+
+## answer_b
+During teething with its associated rhinitis, gastroenteritis and artificial feeding
+
+## explanation_b
+Incorrect (this is a true factor). Teething with its associated rhinitis and gastroenteritis, and artificial feeding, are recognised predisposing factors.
+
+## answer_c
+The longer, narrower and vertical Eustachian tube predisposes to infection
+
+## explanation_c
+Correct. This statement is the exception because it reverses the truth: the infant Eustachian tube is in fact shorter, wider and more horizontal than in the adult, and it is this arrangement, not a longer, narrower, vertical tube, that lets nasopharyngeal infection and refluxed milk reach the middle ear easily. The other options are genuine predisposing factors. So the false statement is the one describing a longer, narrower, vertical tube.
+
+## answer_d
+The contaminated milk may enter the Eustachian tube as a result of feeding in supine position
+
+## explanation_d
+Incorrect (this is a true factor). Feeding a baby supine can let contaminated milk reflux up the Eustachian tube into the middle ear.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Acute otitis media in infants
+
+## main_concept
+CON-MUL-33997FF24FFF04
+
+## concept_ids
+CON-MUL-33997FF24FFF04
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the infant Eustachian tube is short, wide and horizontal, predisposing to acute otitis media.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.11); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-53
+
+## title
+Cholesteatoma — the false statement
+
+## question
+Which statement about cholesteatoma is NOT true:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Often treated with mastoid surgery
+
+## explanation_a
+Incorrect (this is true). Cholesteatoma is often treated with mastoid surgery to remove the disease.
+
+## answer_b
+Can produce life threatening illness
+
+## explanation_b
+Incorrect (this is true). By eroding into the cranial cavity it can cause life-threatening complications such as meningitis or brain abscess.
+
+## answer_c
+It can be treated with ear tube placement
+
+## explanation_c
+Correct. This is the untrue statement: cholesteatoma is an expanding, bone-eroding keratin sac that must be removed surgically (usually by mastoidectomy), and it cannot be treated by inserting a ventilation (grommet) ear tube. Ear tubes are used for a sterile middle-ear effusion, not for eradicating cholesteatoma. Managing cholesteatoma with a tube would let it keep destroying bone and cause complications.
+
+## answer_d
+It can cause facial paralysis and hearing loss
+
+## explanation_d
+Incorrect (this is true). Erosion of the facial canal and the ossicles causes facial paralysis and hearing loss.
+
+## answer_e
+Causes marginal perforation
+
+## explanation_e
+Incorrect (this is true). Cholesteatoma characteristically produces a marginal (attic) perforation.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Cholesteatoma
+
+## main_concept
+CON-MUL-28DBB338DA4A74
+
+## concept_ids
+CON-MUL-28DBB338DA4A74
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that cholesteatoma requires surgical removal and cannot be treated with ventilation tubes.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.11); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-55
+
+## title
+What cholesteatoma is
+
+## question
+Cholesteatoma is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Tumor of the middle ear
+
+## explanation_a
+Incorrect. It is not a true tumour (neoplasm), even though its name misleadingly ends in '-oma'.
+
+## answer_b
+An infected keratin-containing sac of the middle ear
+
+## explanation_b
+Correct. Cholesteatoma is an infected sac of keratinising squamous epithelium (skin) trapped in the middle ear or attic and filled with desquamated keratin debris. Despite the name it is not a true neoplasm and not a primary bony lesion; it is a misplaced skin sac whose enzymes and expansile pressure erode surrounding bone. Calling it an infected keratin-containing sac captures both its epithelial nature and its tendency to suppurate.
+
+## answer_c
+A bony lesion that invaded the middle ear
+
+## explanation_c
+Incorrect. It is not itself a bony lesion; it is a soft keratin sac that secondarily erodes bone.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. Because A and C are wrong, 'all of the above' cannot be correct.
+
+## answer_e
+None of the above
+
+## explanation_e
+Incorrect. One option (an infected keratin-containing sac) is exactly correct, so 'none of the above' is wrong.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Cholesteatoma
+
+## main_concept
+CON-MUL-56E38A26FEDF5D
+
+## concept_ids
+CON-MUL-56E38A26FEDF5D
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Define cholesteatoma as an infected keratin-containing sac, not a true neoplasm.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.12); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-56
+
+## title
+Nature and prognosis of Bell's palsy
+
+## question
+Bell's palsy:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Is an upper motor neuron palsy
+
+## explanation_a
+Incorrect. Bell’s palsy is a lower, not upper, motor neuron palsy, so it involves the whole half of the face.
+
+## answer_b
+Is a very rare cause of facial paralysis
+
+## explanation_b
+Incorrect. It is in fact the commonest cause of facial paralysis, not a rare one.
+
+## answer_c
+Recovery is usual and spontaneous but may be incomplete
+
+## explanation_c
+Correct. Bell's palsy is an idiopathic lower motor neuron facial paralysis, and in most patients recovery is spontaneous and good, though a proportion are left with incomplete recovery or synkinesis. Because it is a lower motor neuron lesion it affects the whole side of the face and is not accompanied by limb weakness. A short early course of corticosteroids improves the chance of full recovery.
+
+## answer_d
+Is associated with hemiplegia
+
+## explanation_d
+Incorrect. It is an isolated facial nerve lesion; associated hemiplegia would indicate a central (stroke) cause instead.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Bell's palsy
+
+## main_concept
+CON-MUL-57350B88356507
+
+## concept_ids
+CON-MUL-57350B88356507
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that Bell's palsy is an idiopathic lower motor neuron facial palsy that usually recovers spontaneously.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.12); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-57
+
+## title
+Commonest cause of facial paralysis
+
+## question
+Commonest cause of facial paralysis is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Bell's palsy
+
+## explanation_a
+Correct. Bell's palsy, the idiopathic lower motor neuron facial paralysis, is by far the commonest cause of facial nerve paralysis. It is a diagnosis of exclusion made once other causes such as trauma, infection and tumour have been ruled out. Its high frequency is why any acute isolated facial palsy is regarded as Bell's until proven otherwise.
+
+## answer_b
+Mastoid surgery
+
+## explanation_b
+Incorrect. Iatrogenic injury during mastoid or parotid surgery causes facial palsy but is far less common than Bell's palsy.
+
+## answer_c
+Guillian Barre syndrome
+
+## explanation_c
+Incorrect. Guillain-Barré syndrome can cause bilateral facial weakness but is a rare cause overall.
+
+## answer_d
+Trauma to facial nerve
+
+## explanation_d
+Incorrect. Trauma to the facial nerve is an important but much less frequent cause than Bell's palsy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Facial nerve paralysis
+
+## main_concept
+CON-MUL-D8D07868E71A46
+
+## concept_ids
+CON-MUL-D8D07868E71A46
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify Bell’s palsy as the commonest cause of facial nerve paralysis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.12); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-58
+
+## title
+Which statement truly represents Bell's palsy
+
+## question
+Which one of the following statements truly represents Bell's palsy:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Hemiparesis and contralateral facial nerve paralysis
+
+## explanation_a
+Incorrect. Hemiparesis with contralateral facial weakness describes a central (upper motor neuron or stroke) lesion, not Bell’s palsy.
+
+## answer_b
+Combined paralysis of the facial, abducent and trigeminal nerves
+
+## explanation_b
+Incorrect. Combined facial, abducent and trigeminal palsy suggests a petrous apex or skull-base lesion, not Bell’s palsy.
+
+## answer_c
+Bilateral facial palsy due to congenital anomaly of the facial nerve
+
+## explanation_c
+Incorrect. Bell’s palsy is acquired and idiopathic, not a congenital bilateral anomaly.
+
+## answer_d
+Idiopathic paralysis of the facial nerve that recovers completely in most cases
+
+## explanation_d
+Correct. Bell's palsy is by definition an idiopathic (unknown-cause) lower motor neuron paralysis of the facial nerve, and in most patients it recovers completely. There is no limb weakness, no involvement of other cranial nerves and no preceding surgery, features that would each point to other diagnoses. This idiopathic, self-limiting nature is exactly what distinguishes Bell's palsy.
+
+## answer_e
+Facial nerve paralysis following ear surgery
+
+## explanation_e
+Incorrect. Palsy after ear surgery is iatrogenic trauma and by definition not idiopathic Bell’s palsy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Bell's palsy
+
+## main_concept
+CON-MUL-57350B88356507
+
+## concept_ids
+CON-MUL-57350B88356507
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Define Bell's palsy as an idiopathic facial nerve paralysis that recovers completely in most cases.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.12); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-59
+
+## title
+Fibres present in the facial nerve (the exception)
+
+## question
+The following fibers are present in the facial nerve EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Secretomotor fibers to the lacrimal gland through the GSPN
+
+## explanation_a
+Incorrect (this fibre is present). The facial nerve gives secretomotor fibres to the lacrimal gland through the greater superficial petrosal nerve.
+
+## answer_b
+Secretomotor fibers to the submandibular gland through the chorda tympani
+
+## explanation_b
+Incorrect (this fibre is present). Secretomotor fibres to the submandibular and sublingual glands run in the chorda tympani.
+
+## answer_c
+Taste sensation fibers to the anterior third of the tongue through the chorda tympani
+
+## explanation_c
+Incorrect (this fibre is present). Taste from the anterior two-thirds of the tongue travels in the chorda tympani.
+
+## answer_d
+Motor fibers to the stapedius muscle
+
+## explanation_d
+Incorrect (this fibre is present). The nerve to stapedius is a motor branch of the facial nerve.
+
+## answer_e
+Motor fibers to the tensor tympani muscle
+
+## explanation_e
+Correct. This is the exception: the tensor tympani is supplied by the mandibular division of the trigeminal nerve, not by the facial nerve. The facial nerve does carry the other listed fibres, namely secretomotor to the lacrimal gland via the greater superficial petrosal nerve, secretomotor and taste fibres via the chorda tympani, and motor fibres to the stapedius. So motor supply to the tensor tympani is the fibre not found in the facial nerve.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Facial nerve anatomy
+
+## main_concept
+CON-MUL-0C78090BE37612
+
+## concept_ids
+CON-MUL-0C78090BE37612
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recall that the facial nerve supplies stapedius but not tensor tympani, which is trigeminal.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.12); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-60
+
+## title
+First-line treatment of facial palsy complicating acute otitis media
+
+## question
+The first line of treatment in a child who develops lower motor neuron facial paralysis after acute otitis media is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Antibiotics and corticosteroids
+
+## explanation_a
+Incorrect. Corticosteroids are the treatment of idiopathic Bell’s palsy; when the cause is an infected middle ear the priority is to drain the pus, not to give steroids.
+
+## answer_b
+Decompression of facial nerve
+
+## explanation_b
+Incorrect. Formal facial nerve decompression is a later, second-line measure reserved for palsy that persists despite drainage.
+
+## answer_c
+Exploration of facial nerve
+
+## explanation_c
+Incorrect. Exploration of the nerve is not the first step; drainage of the infected middle ear is.
+
+## answer_d
+Myringotomy
+
+## explanation_d
+Correct. Facial palsy that develops during acute otitis media is caused by pus under pressure in the middle ear irritating the nerve through a dehiscent facial canal, so the first-line treatment is urgent myringotomy to drain the middle ear together with intravenous antibiotics. Relieving the pus usually leads to rapid recovery of the nerve. Surgical decompression or exploration is reserved for the rare case that fails to improve after drainage.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Facial palsy in acute otitis media
+
+## main_concept
+CON-MUL-F318577C23A72F
+
+## concept_ids
+CON-MUL-F318577C23A72F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that facial palsy complicating acute otitis media is first treated by urgent myringotomy and antibiotics.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.13); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-61
+
+## title
+Features of lower motor neuron facial paralysis
+
+## question
+Lower motor neuron facial paralysis is characterized by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hyper reflexia
+
+## explanation_a
+Incorrect. Hyper-reflexia is a feature of an upper motor neuron lesion, not a lower motor neuron one.
+
+## answer_b
+Preserved emotional movements
+
+## explanation_b
+Incorrect. Preserved emotional (mimetic) movement is seen in upper motor neuron lesions; in a lower motor neuron palsy all movement of that side is lost.
+
+## answer_c
+Muscle wasting
+
+## explanation_c
+Correct. A lower motor neuron facial palsy denervates the muscles of facial expression, so over time they show wasting and, on electrical testing, degeneration. Because the whole half of the face is paralysed, the patient also loses forehead wrinkling and cannot close the eye on that side. Muscle wasting and loss of eye closure are what mark a lower motor neuron lesion, in contrast to the upper motor neuron pattern.
+
+## answer_d
+Preserved eye closure
+
+## explanation_d
+Incorrect. Eye closure is lost, not preserved, because the orbicularis oculi is paralysed.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Lower motor neuron facial palsy
+
+## main_concept
+CON-MUL-1658FA902D7FFC
+
+## concept_ids
+CON-MUL-1658FA902D7FFC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise muscle wasting and loss of eye closure as features of lower motor neuron facial palsy.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.13); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-62
+
+## title
+Muscle not supplied by the facial nerve
+
+## question
+Not supplied by the facial nerve:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Stapedius muscle
+
+## explanation_a
+Incorrect. The stapedius is supplied by the nerve to stapedius, a branch of the facial nerve.
+
+## answer_b
+Buccinator muscle
+
+## explanation_b
+Incorrect. Buccinator is a muscle of facial expression supplied by the facial nerve.
+
+## answer_c
+Levator palpebrae superioris muscle
+
+## explanation_c
+Correct. The levator palpebrae superioris, which raises the upper eyelid, is supplied by the oculomotor nerve (with a sympathetic component), not by the facial nerve. The facial nerve supplies the muscles of facial expression including buccinator, the stapedius, and the posterior belly of digastric. This is why a facial nerve lesion causes inability to close the eye through orbicularis oculi but does not cause ptosis.
+
+## answer_d
+Posterior belly of the digastric muscle
+
+## explanation_d
+Incorrect. The posterior belly of the digastric is supplied by the facial nerve.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Facial nerve anatomy
+
+## main_concept
+CON-MUL-0C78090BE37612
+
+## concept_ids
+CON-MUL-0C78090BE37612
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recall that levator palpebrae superioris is supplied by the oculomotor, not the facial, nerve.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.13); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-63
+
+## title
+Features of upper motor neuron facial paralysis
+
+## question
+In upper motor neurone facial paralysis:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+All muscles of the face are affected
+
+## explanation_a
+Incorrect. The upper face is spared, so not all facial muscles are affected — only the lower face.
+
+## answer_b
+Hypertonia of the muscles is present
+
+## explanation_b
+Correct. In an upper motor neuron facial palsy the lesion is above the facial nucleus, so the muscles show the features of a pyramidal (spastic) lesion, including hypertonia, and there is no wasting. The upper part of the face, controlling forehead and eye closure, is spared because it has bilateral cortical representation, and emotional (mimetic) movements are often preserved. Only the lower part of the opposite face is weak.
+
+## answer_c
+Lost expressions
+
+## explanation_c
+Incorrect. Emotional facial expressions are typically preserved in an upper motor neuron lesion.
+
+## answer_d
+Muscles are wasted
+
+## explanation_d
+Incorrect. Muscle wasting is a lower motor neuron feature and does not occur in an upper motor neuron palsy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Upper motor neuron facial palsy
+
+## main_concept
+CON-MUL-F164EE6B2079FB
+
+## concept_ids
+CON-MUL-F164EE6B2079FB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that an upper motor neuron facial palsy spares the upper face and shows no wasting.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.13); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-64
+
+## title
+Branches of the facial nerve (the exception)
+
+## question
+All are branches of the facial nerve EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Chorda tympani
+
+## explanation_a
+Incorrect (this is a branch). The chorda tympani is a branch of the facial nerve carrying taste and secretomotor fibres.
+
+## answer_b
+Greater auricular nerve
+
+## explanation_b
+Correct. The greater auricular nerve is a branch of the cervical plexus (from C2 and C3), not of the facial nerve, so it is the exception. The chorda tympani, the nerve to stapedius and the greater superficial petrosal nerve are all genuine branches of the facial nerve. The greater auricular nerve supplies sensation over the parotid and lower ear, which is why it is harvested as a graft but is not part of the facial nerve.
+
+## answer_c
+Nerve to stapedius muscle
+
+## explanation_c
+Incorrect (this is a branch). The nerve to stapedius arises from the facial nerve in its vertical segment.
+
+## answer_d
+Greater superficial petrosal nerve
+
+## explanation_d
+Incorrect (this is a branch). The greater superficial petrosal nerve leaves the facial nerve at the geniculate ganglion.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Facial nerve anatomy
+
+## main_concept
+CON-MUL-714558FFD515D8
+
+## concept_ids
+CON-MUL-714558FFD515D8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Distinguish true facial nerve branches from the greater auricular nerve of the cervical plexus.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.13); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-65
+
+## title
+Distribution of lower motor neuron facial paralysis
+
+## question
+Lower motor neurone facial paralysis affects:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+The upper part of the face
+
+## explanation_a
+Incorrect. It is not limited to the upper face; the whole side is affected.
+
+## answer_b
+The lower part of the face
+
+## explanation_b
+Incorrect. Isolated lower-face weakness with forehead sparing is the upper motor neuron pattern, not the lower.
+
+## answer_c
+The whole side of the face
+
+## explanation_c
+Correct. A lower motor neuron facial palsy interrupts the final common pathway from the facial nucleus, so the entire half of the face on that side is paralysed, involving forehead, eye closure and mouth together. This contrasts with an upper motor neuron lesion, which spares the forehead because of its bilateral cortical supply. Involvement of the whole side, including inability to close the eye, is the hallmark of the lower motor neuron pattern.
+
+## answer_d
+Muscles of the tongue
+
+## explanation_d
+Incorrect. The tongue muscles are supplied by the hypoglossal nerve, not the facial nerve.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Lower motor neuron facial palsy
+
+## main_concept
+CON-MUL-1658FA902D7FFC
+
+## concept_ids
+CON-MUL-1658FA902D7FFC
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that a lower motor neuron facial palsy affects the whole side of the face.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.13); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-66
+
+## title
+Commonest cause of lower motor neuron facial paralysis
+
+## question
+The most common cause for LMN facial paralysis is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Parotid surgery
+
+## explanation_a
+Incorrect. Parotid surgery can injure the nerve but accounts for a small minority of cases.
+
+## answer_b
+Bell's palsy
+
+## explanation_b
+Correct. Bell's palsy, the idiopathic lower motor neuron facial paralysis, is the single commonest cause of lower motor neuron facial weakness. It is diagnosed once other identifiable causes have been excluded. Parotid or mastoid surgery, trauma and otitis media all cause lower motor neuron palsy but each is far less frequent than Bell's palsy.
+
+## answer_c
+Trauma
+
+## explanation_c
+Incorrect. Trauma is an important cause but much less common than Bell's palsy.
+
+## answer_d
+As a complication of otitis media
+
+## explanation_d
+Incorrect. Facial palsy complicating otitis media occurs but is uncommon compared with Bell's palsy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Facial nerve paralysis
+
+## main_concept
+CON-MUL-D8D07868E71A46
+
+## concept_ids
+CON-MUL-D8D07868E71A46
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-FACIAL-NERVE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify Bell's palsy as the commonest cause of lower motor neuron facial paralysis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.13); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-67
+
+## title
+Treatment of otosclerosis
+
+## question
+Treatment of otosclerosis is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Radical mastoidectomy
+
+## explanation_a
+Incorrect. Radical mastoidectomy is for cholesteatoma, not for a fixed stapes.
+
+## answer_b
+Myringoplasty
+
+## explanation_b
+Incorrect. Myringoplasty repairs a perforation, but the drum is intact in otosclerosis.
+
+## answer_c
+Myringotomy and ventilation tubes insertion
+
+## explanation_c
+Incorrect. Ventilation tubes treat middle-ear effusion, not stapes fixation.
+
+## answer_d
+Cortical mastoidectomy
+
+## explanation_d
+Incorrect. Cortical mastoidectomy is for acute mastoid infection, not otosclerosis.
+
+## answer_e
+Stapedectomy and synthetic piston insertion
+
+## explanation_e
+Correct. Otosclerosis fixes the stapes footplate in the oval window, producing a conductive deafness, so the surgical treatment is stapedectomy (or stapedotomy) with insertion of a synthetic piston prosthesis to restore ossicular movement. The alternative for those who decline surgery is a hearing aid. The mastoid and tympanic membrane operations listed are for suppurative disease or perforations, not for a fixed stapes.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Otosclerosis
+
+## main_concept
+CON-MUL-577E51F1EA3591
+
+## concept_ids
+CON-MUL-577E51F1EA3591
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that otosclerosis is treated by stapedectomy with a prosthesis, or a hearing aid.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.14); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-68
+
+## title
+True statements in otosclerosis (the exception)
+
+## question
+The following are true in otosclerosis except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The condition is hereditary and more common in females
+
+## explanation_a
+Incorrect (this is true). Otosclerosis is hereditary and more common in females.
+
+## answer_b
+Conductive deafness is due to fixation of stapes footplate
+
+## explanation_b
+Incorrect (this is true). The conductive deafness results from fixation of the stapes footplate.
+
+## answer_c
+The stapes is the only ossicle that is involved
+
+## explanation_c
+Incorrect (this is true). The stapes is characteristically the ossicle involved.
+
+## answer_d
+Sensorineural hearing loss never occur in this disease
+
+## explanation_d
+Correct. This is the false statement: sensorineural hearing loss can occur in otosclerosis when the otosclerotic focus involves the cochlea (cochlear otosclerosis), so it is wrong to say it never happens. The disease is indeed hereditary, commoner in females and typically causes a conductive deafness from stapes footplate fixation, which stapedectomy treats well. Saying sensorineural loss never occurs is therefore the exception.
+
+## answer_e
+Stapedectomy is a good treatment option
+
+## explanation_e
+Incorrect (this is true). Stapedectomy is a good treatment option.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Otosclerosis
+
+## main_concept
+CON-MUL-CB96A6B4BF01FB
+
+## concept_ids
+CON-MUL-CB96A6B4BF01FB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that otosclerosis may cause sensorineural loss (cochlear otosclerosis), not only conductive.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.14); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-69
+
+## title
+Bilateral conductive hearing loss with family history
+
+## question
+A 30-year-old female presented by bilateral gradual hearing loss, more in the right ear. Her older sister had the same problem. On examination, a healthy intact tympanic membrane was seen. Rinne test was negative on the right and positive on the left. Weber test was lateralized to the right. The most probable diagnosis is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Otosclerosis
+
+## explanation_a
+Correct. A young woman with bilateral, gradually progressive hearing loss, a positive family history and a normal intact drum, whose tuning-fork tests show a conductive loss (Rinne negative on the right with Weber lateralising to that worse ear), fits otosclerosis. Otosclerosis fixes the stapes to give a conductive loss behind a normal-looking drum and runs in families, commoner in women. The picture is classic for stapedial otosclerosis.
+
+## answer_b
+Ototoxicity
+
+## explanation_b
+Incorrect. Ototoxicity causes a sensorineural loss with a positive Rinne, not the conductive pattern seen here.
+
+## answer_c
+Presbyacusis
+
+## explanation_c
+Incorrect. Presbyacusis is age-related sensorineural loss and would not appear at 30 with this family history.
+
+## answer_d
+Early middle ear fusion
+
+## explanation_d
+Incorrect. There is no such recognised entity producing this classic conductive familial picture.
+
+## answer_e
+Glomus tympanicum
+
+## explanation_e
+Incorrect. A glomus tympanicum gives pulsatile tinnitus and a red retrotympanic mass, not a bilateral familial conductive loss.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Otosclerosis
+
+## main_concept
+CON-MUL-CB96A6B4BF01FB
+
+## concept_ids
+CON-MUL-CB96A6B4BF01FB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Diagnose otosclerosis from bilateral familial conductive loss with a normal drum.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.14); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-70
+
+## title
+Correct statements in otosclerosis (the exception)
+
+## question
+In otosclerosis, the following is correct except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Usually affects both ears
+
+## explanation_a
+Incorrect (this is true). Otosclerosis usually affects both ears.
+
+## answer_b
+Shows more progress during pregnancy
+
+## explanation_b
+Incorrect (this is true). It often progresses during pregnancy.
+
+## answer_c
+Shows type As curve on tympanometry
+
+## explanation_c
+Incorrect (this is true). Tympanometry shows a stiff, shallow type As curve.
+
+## answer_d
+Tympanoplasty in the operation of choice
+
+## explanation_d
+Correct. This is the false statement: the operation of choice in otosclerosis is stapedectomy with a prosthesis, not tympanoplasty. Tympanoplasty reconstructs the drum and ossicular chain in chronic ear disease and does not address a fixed stapes footplate. The other statements are true, as otosclerosis is usually bilateral, progresses during pregnancy, shows a shallow type As tympanogram and commonly has a positive family history.
+
+## answer_e
+Family history is commonly positive
+
+## explanation_e
+Incorrect (this is true). A positive family history is common.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Otosclerosis
+
+## main_concept
+CON-MUL-577E51F1EA3591
+
+## concept_ids
+CON-MUL-577E51F1EA3591
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that the operation of choice in otosclerosis is stapedectomy, not tympanoplasty.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.14); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-71
+
+## title
+True statements in otosclerosis (the exception on the drum)
+
+## question
+In Otosclerosis, the following is true except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Bilateral ear affection
+
+## explanation_a
+Incorrect (this is true). Otosclerosis usually affects both ears.
+
+## answer_b
+Fixation of stapes footplate
+
+## explanation_b
+Incorrect (this is true). It is due to fixation of the stapes footplate.
+
+## answer_c
+Commonly causes conductive hearing loss
+
+## explanation_c
+Incorrect (this is true). It commonly causes a conductive hearing loss.
+
+## answer_d
+Retracted congested ear drum
+
+## explanation_d
+Correct. This is the false statement: in otosclerosis the tympanic membrane is normal in appearance, occasionally showing a pink Schwartze sign over an active focus, not retracted and congested. The disease is bilateral, caused by fixation of the stapes footplate, commonly gives a conductive hearing loss and is commoner in females. A retracted congested drum belongs to middle-ear inflammatory disease, not otosclerosis.
+
+## answer_e
+More in females
+
+## explanation_e
+Incorrect (this is true). It is commoner in females.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Otosclerosis
+
+## main_concept
+CON-MUL-CB96A6B4BF01FB
+
+## concept_ids
+CON-MUL-CB96A6B4BF01FB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that the tympanic membrane is normal in otosclerosis, not retracted and congested.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.14); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-72
+
+## title
+Features of otosclerosis (the exception)
+
+## question
+Otosclerosis is characterized by the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Conductive Deafness
+
+## explanation_a
+Incorrect (this is a feature). Otosclerosis characteristically causes a conductive deafness.
+
+## answer_b
+Commonly occurs in adolescents
+
+## explanation_b
+Incorrect (this is a feature). It typically presents in young adults, including late adolescence.
+
+## answer_c
+Eustachian Tube dysfunction
+
+## explanation_c
+Correct. This is the exception: otosclerosis is caused by fixation of the stapes footplate, not by Eustachian tube dysfunction, and tube function is normal. It characteristically produces a conductive deafness, presents in young adults, and is treated by stapedectomy or a hearing aid. Eustachian tube dysfunction underlies middle-ear effusion, which is a different condition.
+
+## answer_d
+Treatment is by stapedectomy or hearing aid
+
+## explanation_d
+Incorrect (this is a feature). Treatment is by stapedectomy or a hearing aid.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Otosclerosis
+
+## main_concept
+CON-MUL-CB96A6B4BF01FB
+
+## concept_ids
+CON-MUL-CB96A6B4BF01FB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-OTOSCLEROSIS
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that otosclerosis is stapes fixation, not Eustachian tube dysfunction.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.15); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-73
+
+## title
+A clinical feature of Meniere's disease
+
+## question
+One of the clinical features of Meniere's disease is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Ear discharge
+
+## explanation_a
+Incorrect. Ear discharge indicates middle-ear or external-ear infection, not the sterile inner-ear hydrops of Meniere's.
+
+## answer_b
+Vertigo
+
+## explanation_b
+Correct. Vertigo is one of the cardinal features of Meniere's disease, which is the triad of episodic rotational vertigo, fluctuating sensorineural hearing loss and tinnitus caused by endolymphatic hydrops. The attacks of vertigo last minutes to hours and are often disabling. Ear discharge, facial paralysis and loss of consciousness are not features of Meniere's disease.
+
+## answer_c
+Facial paralysis
+
+## explanation_c
+Incorrect. Facial paralysis is not a feature of Meniere's disease.
+
+## answer_d
+Loss of consciousness
+
+## explanation_d
+Incorrect. Meniere's causes severe vertigo but not true loss of consciousness.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Meniere's disease
+
+## main_concept
+CON-MUL-C8BCA22B2C63E6
+
+## concept_ids
+CON-MUL-C8BCA22B2C63E6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify vertigo as a cardinal clinical feature of Meniere's disease.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.15); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-74
+
+## title
+Features of Meniere's disease (the exception)
+
+## question
+All of the following are characteristic clinical features of Meniere's disease EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Fluctuating deafness
+
+## explanation_a
+Incorrect (this is a feature). Fluctuating sensorineural deafness is characteristic of Meniere's disease.
+
+## answer_b
+Vertigo
+
+## explanation_b
+Incorrect (this is a feature). Episodic vertigo is a cardinal feature.
+
+## answer_c
+Tinnitus
+
+## explanation_c
+Incorrect (this is a feature). Tinnitus is part of the Meniere's triad.
+
+## answer_d
+Loss of consciousness
+
+## explanation_d
+Correct. Loss of consciousness is the exception: Meniere's disease never causes true loss of consciousness. Its characteristic features are episodic vertigo, fluctuating sensorineural deafness and tinnitus, and the severe vertigo is commonly accompanied by nausea and vomiting. Fainting or loss of consciousness points to a cardiovascular or neurological cause instead.
+
+## answer_e
+Vomiting
+
+## explanation_e
+Incorrect (this is a feature). Vomiting commonly accompanies the acute vertiginous attack.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Meniere's disease
+
+## main_concept
+CON-MUL-C8BCA22B2C63E6
+
+## concept_ids
+CON-MUL-C8BCA22B2C63E6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that loss of consciousness is not a feature of Meniere's disease.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.15); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-75
+
+## title
+Where endolymphatic hydrops is found
+
+## question
+Endolymphatic hydrops is found in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Otosclerosis
+
+## explanation_a
+Incorrect. Otosclerosis is fixation of the stapes footplate, not endolymphatic hydrops.
+
+## answer_b
+CSOM
+
+## explanation_b
+Incorrect. Chronic suppurative otitis media is a middle-ear infection, unrelated to hydrops.
+
+## answer_c
+Wax impaction
+
+## explanation_c
+Incorrect. Wax impaction is a simple external-canal obstruction, not an inner-ear disorder.
+
+## answer_d
+Ménière’s disease
+
+## explanation_d
+Correct. Endolymphatic hydrops, distension of the endolymphatic system of the membranous labyrinth, is the underlying pathology of Meniere's disease. The raised endolymph pressure is thought to produce the episodic vertigo, fluctuating sensorineural hearing loss and tinnitus. The other conditions listed have quite different mechanisms and do not involve hydrops.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Meniere's disease
+
+## main_concept
+CON-MUL-5ED7874BB16AB7
+
+## concept_ids
+CON-MUL-5ED7874BB16AB7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Associate endolymphatic hydrops with Meniere's disease.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.15); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-76
+
+## title
+Management feature of Meniere's disease
+
+## question
+Meniere's disease is characterized by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Attacks of vertigo, tinnitus and conductive hearing loss
+
+## explanation_a
+Incorrect. The hearing loss in Meniere's is sensorineural, not conductive.
+
+## answer_b
+Diuretics are part of the medications prescribed for its management
+
+## explanation_b
+Correct. Diuretics, together with salt restriction, are a standard part of the medical management of Meniere's disease, used to reduce endolymph volume and the frequency of attacks. The hearing loss of Meniere's is sensorineural, not conductive; the tympanogram is normal because the middle ear is healthy; and the disease can become bilateral, so it is not strictly unilateral. The only correct statement is that diuretics are used in its management.
+
+## answer_c
+Tympanogram shows type B curve
+
+## explanation_c
+Incorrect. The middle ear is normal, so the tympanogram is type A, not type B.
+
+## answer_d
+The condition is strictly unilateral
+
+## explanation_d
+Incorrect. Meniere's disease can become bilateral and is not strictly unilateral.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Meniere's disease
+
+## main_concept
+CON-MUL-260454833864E3
+
+## concept_ids
+CON-MUL-260454833864E3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that diuretics and salt restriction are part of the medical management of Meniere's disease.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.15); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-77
+
+## title
+Recurrent vertigo, sensorineural loss and tinnitus
+
+## question
+Recurrent attacks of vertigo, sensori-neural hearing loss and tinnitus is typically characteristic of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Vestibular neuronitis
+
+## explanation_a
+Incorrect. Vestibular neuronitis causes vertigo with normal hearing, without the hearing loss and tinnitus.
+
+## answer_b
+Acoustic neuroma
+
+## explanation_b
+Incorrect. Acoustic neuroma gives progressive unilateral hearing loss, not recurrent episodic attacks.
+
+## answer_c
+Meniere's disease
+
+## explanation_c
+Correct. Recurrent episodic attacks combining vertigo, fluctuating sensorineural hearing loss and tinnitus are the defining triad of Meniere's disease, caused by endolymphatic hydrops. The episodic, recurrent nature with all three symptoms together is what distinguishes it. Vestibular neuronitis lacks the hearing loss, and an acoustic neuroma gives steady progressive rather than episodic fluctuating symptoms.
+
+## answer_d
+Congenital cholesteatoma
+
+## explanation_d
+Incorrect. Congenital cholesteatoma is a middle-ear keratin sac, not a cause of this vestibular triad.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Meniere's disease
+
+## main_concept
+CON-MUL-C8BCA22B2C63E6
+
+## concept_ids
+CON-MUL-C8BCA22B2C63E6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise the recurrent triad of vertigo, sensorineural loss and tinnitus as Meniere's disease.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.15); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-78
+
+## title
+Vertigo without deafness
+
+## question
+Vertigo without deafness occurs in:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Labyrinthitis
+
+## explanation_a
+Incorrect. Labyrinthitis affects the whole labyrinth, so it causes vertigo with sensorineural hearing loss.
+
+## answer_b
+Vestibular neuritis
+
+## explanation_b
+Correct. Vestibular neuritis inflames only the vestibular nerve, producing acute vertigo while hearing is preserved, so vertigo without deafness points to it. Labyrinthitis and Meniere’s disease both involve the cochlea and therefore cause hearing loss with the vertigo. The presence or absence of hearing loss is the key discriminator, and normal hearing localises the problem to the vestibular nerve.
+
+## answer_c
+Otosclerosis
+
+## explanation_c
+Incorrect. Otosclerosis causes a conductive hearing loss, not isolated vertigo.
+
+## answer_d
+Meniere's disease
+
+## explanation_d
+Incorrect. Meniere's disease causes vertigo accompanied by fluctuating hearing loss and tinnitus.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Vestibular neuritis
+
+## main_concept
+CON-MUL-903CDF6CBF6923
+
+## concept_ids
+CON-MUL-903CDF6CBF6923
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Attribute vertigo without hearing loss to vestibular neuritis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-79
+
+## title
+The triad of Meniere's disease
+
+## question
+Meniere's disease is characterized by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Conductive deafness, otorrhea and vertigo
+
+## explanation_a
+Incorrect. The deafness is sensorineural, not conductive, and there is no otorrhoea.
+
+## answer_b
+Sensorineural deafness, pain in the ear and tinnitus
+
+## explanation_b
+Incorrect. Ear pain is not a feature of Meniere's disease.
+
+## answer_c
+Sensorineural deafness, tinnitus and vertigo
+
+## explanation_c
+Correct. Meniere's disease is the triad of sensorineural deafness, tinnitus and vertigo, arising from endolymphatic hydrops of the inner ear. The deafness is sensorineural rather than conductive and it fluctuates, and there is no ear discharge, ear pain or facial paralysis. Only the combination of sensorineural deafness, tinnitus and vertigo describes it correctly.
+
+## answer_d
+Conductive deafness, facial paralysis and vertigo
+
+## explanation_d
+Incorrect. The deafness is sensorineural and facial paralysis is not a feature.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Meniere's disease
+
+## main_concept
+CON-MUL-C8BCA22B2C63E6
+
+## concept_ids
+CON-MUL-C8BCA22B2C63E6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State the Meniere's triad of sensorineural deafness, tinnitus and vertigo.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-80
+
+## title
+Symptoms of Meniere's disease (the exception)
+
+## question
+The following are symptoms of Meniere’s disease except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Fainting attack
+
+## explanation_a
+Correct. A fainting attack (syncope) is the exception: Meniere's disease does not cause loss of consciousness or fainting. Its symptoms are acute recurrent attacks of vertigo, fluctuating sensorineural hearing loss and tinnitus. Fainting implies a cardiovascular or neurological cause and is not part of the Meniere's picture.
+
+## answer_b
+Acute recurrent attacks of vertigo
+
+## explanation_b
+Incorrect (this is a symptom). Acute recurrent attacks of vertigo are characteristic.
+
+## answer_c
+Sensorineural hearing loss
+
+## explanation_c
+Incorrect (this is a symptom). Fluctuating sensorineural hearing loss occurs.
+
+## answer_d
+Tinnitus
+
+## explanation_d
+Incorrect (this is a symptom). Tinnitus is part of the triad.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Meniere's disease
+
+## main_concept
+CON-MUL-C8BCA22B2C63E6
+
+## concept_ids
+CON-MUL-C8BCA22B2C63E6
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise that fainting is not a symptom of Meniere's disease.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
