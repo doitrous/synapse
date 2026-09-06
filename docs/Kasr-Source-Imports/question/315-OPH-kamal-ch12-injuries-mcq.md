@@ -2947,3 +2947,395 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-37
+## title
+Metallic IOFB after hammering — correct statement
+## question
+A 27-year-old patient came in emergency with pain, tearing and rapid diminution of vision immediately after hammering a metal object with a metal chisel. Examination showed a corneal wound with small iris incarceration and a lost anterior chamber; plain x-ray revealed a metallic IOFB. Which statement is correct?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+MRI should be done to localize the foreign body.
+## explanation_a
+Incorrect. MRI is contraindicated with a magnetic metallic foreign body.
+## answer_b
+Iron foreign body may result in chalcosis.
+## explanation_b
+Incorrect. Iron causes siderosis; chalcosis is caused by copper.
+## answer_c
+Retinal tears are sealed with cryotherapy or laser photocoagulation.
+## explanation_c
+Correct. Any associated retinal tear is sealed with cryotherapy or laser photocoagulation.
+## answer_d
+Removal of a small foreign body is not essential.
+## explanation_d
+Incorrect. A metallic intraocular foreign body must be removed.
+## topic
+Ophthalmology
+## subtopic
+Intraocular foreign body
+## main_concept
+CON-MUL-22A48BEDDF69A7
+## concept_ids
+CON-MUL-22A48BEDDF69A7
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify that traumatic retinal tears are sealed with cryotherapy or laser.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.171); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-39
+## title
+White peripheral retina with cherry-red fovea after blunt trauma
+## question
+A patient came complaining of defective vision following blunt trauma to one eye. Examination showed a normal anterior segment but the retina appeared opaque white in the periphery with a cherry-red fovea and normal blood vessels. Which statement is correct?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+This condition occurs due to perforating injury to the globe.
+## explanation_a
+Incorrect. This is commotio retinae from blunt, not perforating, injury.
+## answer_b
+This condition is complicated by vitreous hemorrhage.
+## explanation_b
+Incorrect. Commotio retinae is not typically complicated by vitreous haemorrhage.
+## answer_c
+Retina is white due to deposition of lipids in retinal ganglion cell layer.
+## explanation_c
+Incorrect. The whiteness is retinal oedema (cloudy swelling), not lipid deposition.
+## answer_d
+Differential diagnosis includes central retinal artery occlusion.
+## explanation_d
+Correct. A white retina with a cherry-red fovea has central retinal artery occlusion in its differential diagnosis.
+## topic
+Ophthalmology
+## subtopic
+Commotio retinae
+## main_concept
+CON-MUL-36ADB2DE5C7759
+## concept_ids
+CON-MUL-36ADB2DE5C7759
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that the differential of a traumatic cherry-red fovea includes central retinal artery occlusion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.171); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-41
+## title
+Acid battery-fluid burn — correct statement
+## question
+A 40-year-old patient presented with pain, tearing, photophobia and diminution of vision after exposure of the eye to acidic battery fluid. Examination revealed conjunctival and episcleral whitening with corneal ulceration. Which statement is correct?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+The best immediate treatment for this case is cold compresses.
+## explanation_a
+Incorrect. Immediate irrigation, not cold compresses, is the priority.
+## answer_b
+Irrigation with water is contraindicated.
+## explanation_b
+Incorrect. Irrigation with water is the essential first step, never contraindicated.
+## answer_c
+Acids are more dangerous than alkalis to the ocular surface.
+## explanation_c
+Incorrect. Alkalis penetrate more deeply and are more dangerous than acids.
+## answer_d
+Cycloplegics and steroids are usually advised.
+## explanation_d
+Correct. After irrigation, cycloplegics and topical steroids are usually advised.
+## topic
+Ophthalmology
+## subtopic
+Chemical eye injury
+## main_concept
+CON-MUL-CD62697353BE57
+## concept_ids
+CON-MUL-CD62697353BE57
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Select cycloplegics and steroids as appropriate treatment of an acid chemical burn.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.172); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-43
+## title
+Enophthalmos with up-gaze diplopia after a car accident
+## question
+A 23-year-old female came to the emergency department after a motor car accident complaining of enophthalmos of the left eye and diplopia; the diplopia increased on looking upwards. Which statement is correct?
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Orbital hemorrhage is highly suspected.
+## explanation_a
+Incorrect. Enophthalmos with up-gaze diplopia indicates a blow-out fracture, not orbital haemorrhage (which causes proptosis).
+## answer_b
+CT orbit is mandatory.
+## explanation_b
+Correct. CT of the orbit is mandatory to confirm and assess a blow-out fracture.
+## answer_c
+The case should be treated urgently.
+## explanation_c
+Incorrect. Blow-out fracture repair is usually planned over days, not treated as an emergency.
+## answer_d
+Diplopia may be due to entrapped inferior oblique.
+## explanation_d
+Incorrect. The entrapped muscle in an orbital floor fracture is the inferior rectus, not the inferior oblique.
+## topic
+Ophthalmology
+## subtopic
+Orbital fracture
+## main_concept
+CON-MUL-E8480257B59E2B
+## concept_ids
+CON-MUL-E8480257B59E2B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the blow-out fracture and that CT orbit is mandatory.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.172); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

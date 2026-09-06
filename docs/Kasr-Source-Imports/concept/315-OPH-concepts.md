@@ -38319,3 +38319,336 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-22A48BEDDF69A7
+## label
+Traumatic retinal tears are sealed with cryotherapy or laser photocoagulation
+## canonical_key
+ophthalmology.trauma.retinal-tear-cryo-laser
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Retinal tears found after ocular trauma are sealed prophylactically with cryotherapy or laser photocoagulation to create a chorioretinal adhesion and prevent retinal detachment.
+## explicit_objective
+State that traumatic retinal tears are sealed with cryotherapy or laser photocoagulation.
+## pitfalls
+Assuming a retinal tear needs no treatment, or that MRI localises an intraocular foreign body.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Intraocular foreign body
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Intraocular foreign body
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-CD62697353BE57
+## label
+Ocular chemical burns are treated with cycloplegics and topical steroids after irrigation
+## canonical_key
+ophthalmology.trauma.chemical-burn-cycloplegics-steroids
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+After immediate irrigation, an ocular chemical (acid or alkali) burn is treated with cycloplegics for comfort and to prevent synechiae and with topical steroids (early, to limit inflammation); cold compresses are not the treatment, irrigation is never contraindicated, and acids are less dangerous than alkalis.
+## explicit_objective
+State that cycloplegics and topical steroids are advised in the treatment of an ocular chemical burn.
+## pitfalls
+Withholding or contraindicating irrigation, or ranking acids as more dangerous than alkalis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Chemical eye injury
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Chemical eye injury
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-E8480257B59E2B
+## label
+An orbital blow-out fracture presents with enophthalmos and up-gaze diplopia and CT orbit is mandatory
+## canonical_key
+ophthalmology.trauma.blowout-fracture-ct-diagnosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An orbital floor blow-out fracture presents with enophthalmos and diplopia that worsens on up-gaze from entrapment of the inferior rectus; CT of the orbit is mandatory to confirm it. It is distinct from orbital haemorrhage (which causes proptosis), and the entrapped muscle is the inferior rectus, not the inferior oblique.
+## explicit_objective
+Recognise the blow-out fracture and that CT orbit is mandatory.
+## pitfalls
+Mistaking enophthalmos for orbital haemorrhage, or naming the inferior oblique as the entrapped muscle.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Orbital fracture
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Orbital fracture
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
