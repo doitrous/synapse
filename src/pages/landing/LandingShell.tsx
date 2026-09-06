@@ -36,18 +36,17 @@ import { ClosingCtaSection } from './sections/ClosingCtaSection'
  */
 function TargetArtwork({ className }: { className?: string }) {
   return (
-    <svg viewBox="0 0 640 640" fill="none" aria-hidden="true" className={className}>
-      <circle cx="320" cy="320" r="116" stroke="var(--color-grid-major)" strokeWidth="2" />
-      <circle cx="320" cy="320" r="174" stroke="var(--color-grid-major)" strokeWidth="2" strokeDasharray="3 9" strokeLinecap="round" />
-      <circle cx="320" cy="320" r="232" stroke="var(--color-grid-major)" strokeWidth="2" />
-      <circle cx="320" cy="320" r="290" stroke="var(--color-accent-line)" strokeWidth="6" opacity="0.9" />
-      <line x1="320" y1="6" x2="320" y2="34" stroke="var(--color-line-2)" strokeWidth="3" strokeLinecap="round" />
-      <line x1="320" y1="606" x2="320" y2="634" stroke="var(--color-line-2)" strokeWidth="3" strokeLinecap="round" />
-      <line x1="6" y1="320" x2="34" y2="320" stroke="var(--color-line-2)" strokeWidth="3" strokeLinecap="round" />
-      <line x1="606" y1="320" x2="634" y2="320" stroke="var(--color-line-2)" strokeWidth="3" strokeLinecap="round" />
-      <path className="landing-target-bowl" d="M186 252.5 A175 175 0 1 0 454 252.5" stroke="var(--brand-blue)" strokeLinecap="round" strokeWidth="90" />
-      <circle className="landing-target-pulse" cx="320" cy="320" r="60" stroke="var(--brand-rose)" strokeWidth="5" />
-      <circle className="landing-target-dot" cx="320" cy="320" r="60" fill="var(--brand-rose)" />
+    <svg viewBox="0 0 200 200" fill="none" aria-hidden="true" className={className}>
+      {/* The Nishany mark (nishany-mark.png): the two Noon arcs and the dot,
+          grouped so the whole aiming sight rotates as one when it locks on.
+          The arcs are 275° paths — the gap between their round caps is the
+          mouth of the ن where the dot rests. */}
+      <g className="hero-mark">
+        <path className="hero-arc hero-arc-outer" d="M147.6 100 A47.6 47.6 0 1 1 104.15 52.58" pathLength="1" />
+        <path className="hero-arc hero-arc-inner" d="M128 100 A28 28 0 1 1 102.44 72.11" pathLength="1" />
+        <circle className="hero-mark-pulse" cx="131.8" cy="69.2" r="7" />
+        <circle className="hero-mark-dot" cx="131.8" cy="69.2" r="7" />
+      </g>
     </svg>
   )
 }

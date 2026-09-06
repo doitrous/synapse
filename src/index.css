@@ -1033,36 +1033,66 @@
   .nishany-loader-ring, .nishany-loader-arc { animation: none; }
 }
 
-/* Landing hero: the Noon Dot drawn as an aiming target. One orchestrated
-   reveal on load — the bowl draws in, the dot settles, one pulse rings out.
-   The global prefers-reduced-motion rule collapses all three to their end
-   states, which is exactly the finished artwork. */
-.landing-target-bowl {
-  stroke-dasharray: 800;
-  stroke-dashoffset: 800;
-  animation: landing-bowl-draw 0.9s cubic-bezier(0.5, 0, 0.2, 1) 0.1s forwards;
+/* Landing hero: the Nishany mark (ن) of nishany-mark.png, drawn as an aim.
+   The two Noon arcs counter-spin in from opposite directions and settle into
+   an upright aiming sight (dot at twelve o'clock); the mark holds that aim a
+   beat, then rotates so the dot slides to the top-right — locking onto the
+   finished logo — and one ring pulses out to confirm. نيشاني means "my
+   target," so the logo assembles as an act of aiming. Colours are the brand
+   mark's own, with a readable pair for the dark grounds. The global
+   prefers-reduced-motion rule collapses every step to its end state, which is
+   exactly the finished mark. */
+:root {
+  --hero-arc-outer: #a81d40; /* outer crimson arc — nishany-mark.png */
+  --hero-arc-inner: #e0859b; /* inner rose arc */
+  --hero-dot: #1b2b55;       /* the Noon dot */
 }
-.landing-target-dot {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: landing-dot-settle 0.7s cubic-bezier(0.34, 1.45, 0.44, 1) 0.85s backwards;
+:root[data-theme='dark'],
+:root[data-theme='oled'] {
+  --hero-arc-outer: #ec6f8c; /* the same mark, lifted to read on a dark ground */
+  --hero-arc-inner: #f6b4c3;
+  --hero-dot: #aeb9e6;
 }
-.landing-target-pulse {
-  transform-box: fill-box;
-  transform-origin: center;
-  opacity: 0;
-  animation: landing-pulse-out 1.5s cubic-bezier(0.2, 0.6, 0.3, 1) 1.5s forwards;
+.hero-arc { fill: none; stroke-linecap: round; }
+.hero-arc-outer { stroke: var(--hero-arc-outer); stroke-width: 11.2; }
+.hero-arc-inner { stroke: var(--hero-arc-inner); stroke-width: 9.8; }
+.hero-mark-dot { fill: var(--hero-dot); }
+.hero-mark-pulse { fill: none; stroke: var(--hero-dot); stroke-width: 2.5; opacity: 0; }
+/* Rotations of the arcs and the whole mark pivot on the mark's centre;
+   the dot's spring and the pulse pivot on the dot. */
+.hero-mark,
+.hero-arc { transform-box: view-box; transform-origin: 100px 100px; }
+.hero-mark-dot,
+.hero-mark-pulse { transform-box: view-box; transform-origin: 131.8px 69.2px; }
+
+.hero-arc-outer { animation: hero-spin-cw 0.95s cubic-bezier(0.2, 1, 0.3, 1) 0.3s backwards; }
+.hero-arc-inner { animation: hero-spin-ccw 0.95s cubic-bezier(0.2, 1, 0.3, 1) 0.45s backwards; }
+.hero-mark-dot { animation: hero-dot-drop 0.7s cubic-bezier(0.34, 1.5, 0.5, 1) 1.35s backwards; }
+.hero-mark { animation: hero-lock 0.9s cubic-bezier(0.5, 0, 0.15, 1) 2.2s backwards; }
+.hero-mark-pulse { animation: hero-pulse-out 1.5s cubic-bezier(0.2, 0.6, 0.3, 1) 3.1s forwards; }
+
+@keyframes hero-spin-cw {
+  from { opacity: 0; transform: rotate(-250deg) scale(0.92); }
+  50% { opacity: 1; }
+  to { opacity: 1; transform: rotate(0) scale(1); }
 }
-@keyframes landing-bowl-draw {
-  to { stroke-dashoffset: 0; }
+@keyframes hero-spin-ccw {
+  from { opacity: 0; transform: rotate(250deg) scale(0.92); }
+  50% { opacity: 1; }
+  to { opacity: 1; transform: rotate(0) scale(1); }
 }
-@keyframes landing-dot-settle {
-  from { transform: scale(0); }
-  to { transform: scale(1); }
+@keyframes hero-dot-drop {
+  from { opacity: 0; transform: translate(16px, -16px) scale(0.5); }
+  55% { opacity: 1; }
+  to { opacity: 1; transform: translate(0, 0) scale(1); }
 }
-@keyframes landing-pulse-out {
-  from { transform: scale(1); opacity: 0.5; }
-  to { transform: scale(3); opacity: 0; }
+@keyframes hero-lock {
+  from { transform: rotate(-45deg); }
+  to { transform: rotate(0deg); }
+}
+@keyframes hero-pulse-out {
+  from { opacity: 0.55; transform: scale(1); }
+  to { opacity: 0; transform: scale(3.2); }
 }
 
 @media (prefers-reduced-motion: reduce) {

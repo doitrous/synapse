@@ -5,7 +5,7 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#f5f7fb" />
+    <meta name="theme-color" content="#f7f2ea" />
     <!-- Theme before first paint. Without this the page paints in the default
          palette and then corrects itself, which reads as a flash on every load.
          Kept in sync with THEME_STORAGE_KEY / THEME_COLOR in src/lib/useTheme.tsx. -->
@@ -14,12 +14,12 @@
         try {
           var t = localStorage.getItem('nishany-theme');
           if (t === null) { t = localStorage.getItem('synapse-theme'); if (t !== null) { try { localStorage.setItem('nishany-theme', t); localStorage.removeItem('synapse-theme'); } catch (e2) {} } }
-          if (t !== 'light' && t !== 'warm' && t !== 'dark') t = 'light';
+          if (t !== 'light' && t !== 'warm' && t !== 'dark' && t !== 'oled') t = 'warm';
           document.documentElement.dataset.theme = t;
           var m = document.querySelector('meta[name="theme-color"]');
-          if (m) m.setAttribute('content', { light: '#f5f7fb', warm: '#f7f2ea', dark: '#0d1117' }[t]);
+          if (m) m.setAttribute('content', { light: '#f5f7fb', warm: '#f7f2ea', dark: '#0d1117', oled: '#000000' }[t]);
         } catch (e) {
-          document.documentElement.dataset.theme = 'light';
+          document.documentElement.dataset.theme = 'warm';
         }
       })();
     </script>
