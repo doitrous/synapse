@@ -80,5 +80,17 @@ university-blind, collision-checked); 6 added to ART-NEU-205NEU-SPECIAL-SENSES-N
   green highlight p.15; authored into cluster 2024-eom-physiology-b. EOM 197 MCQ tail now closed.
 - **Q114-115 + Section B** — figure/table-dependent: Q114-115 and Section B (matching table) are
   figure/table-dependent → hold for image attachment (Q112-113 held above with their keys).
-- Untriaged 205 NEU papers: EOY 198 twin, EOY 205 بعد الشرح فاينال (74pp), Baqoon EOM 2021 pair,
-  EOM NEU 204 (2019); plus 3 image-only department books and 9 MCQ banks (needs_evidence).
+- Untriaged 205 NEU papers: EOY 198 twin, EOY 205 بعد الشرح فاينال (74pp), Baqoon EOM 2021 pair;
+  plus 3 image-only department books and 9 MCQ banks (needs_evidence).
+
+## EOM NEU 204 (2019) — TRIAGED & DROPPED (2026-09-06)
+src_36ef29dcd2d74416bbf2 (sha 36ef29dc…, distinct from mined 197/2024; already in manifest).
+10-page image-only PDF (student-solved copy). Key marker is NOT the module's green highlight but
+faint hand ticks/crosses — SPARSE (page 3 / Q20-29 almost entirely unmarked) and lost on a
+CUT-OFF right margin. Rendered exam pages 2-3 (Q9-Q29). Dupe rate vs the 193-stem corpus ~70-82%
+(Q17 & Q19 are exact existing stems; most others near-dupes). The handful of topically-new items
+(Q11 tentorium, Q16 corticobulbar, Q23 thalamus↔posterior IC, Q24 orbital surface, Q27
+gracile/cuneate tubercles, Q29 pons CNs) are all UNMARKED/key-clipped → no recoverable key.
+**0 MCQs authored** — dupe-saturated (>60%) AND new items unkeyed; per "never guess" nothing
+authored. RECOMMENDATION: drop this paper; its unique keyed content needs Omar sources.
+Keys reliably read (for the record): Q9.B, Q12.B, Q21.D. See 205-NEU-triage-keys.txt.

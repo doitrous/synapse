@@ -64,3 +64,43 @@ Q107 (organ of Corti) — GREEN highlight on option d "Border cells support the 
 # green keys read this pass: Q109.D  Q110.A  Q111.A — available for the next physiology pass.
 # Q112-113 reference the labelled "Figure (A)" (spinal-cord cross-section) → figure-dependent
 # hold. Q114-115 + Section B (matching table) also figure/table-dependent → hold.
+
+# ============================================================================
+# EOM NEU 204 (2019)  —  src_36ef29dcd2d74416bbf2
+#   sha256 36ef29dcd2d74416bbf2f4d8b69b7f521ab80dabdcb0984fb0c7952e87dbab02
+#   file  205 NEU/EOM/EOM - NEU 204 (2019) 231120 230158.pdf  (already in manifest)
+#   NOT a dup sha of the mined papers (197 = 321e029d…, 2024 = 1d0cd2a7…).
+#   10-page image-only PDF (no text layer; footer "Page N of 17" — pages 2-11 of the exam).
+# Triage 2026-09-06. Rendered exam pages 2-3 (Q9-Q29) at 200dpi.
+#
+# KEY MARKER: NOT a green highlight (unlike EOM 197/2023/2024). This is a STUDENT-SOLVED
+#   copy — hand tick/slash (✓) on the option the solver judged correct, hand X on wrong
+#   options. Two problems make it unreliable as a key source:
+#     (1) SPARSE: only some questions are marked; page 3 (Q20-Q29) is almost entirely
+#         UNMARKED — the solver did not answer that page, so those items have NO key.
+#     (2) CUT-OFF SCAN: the sheet is skewed and the right edge is clipped, so options that
+#         run to the right margin (and any tick placed there) are lost (e.g. Q9d, Q10c, Q11a).
+#
+# Keys reliably read (marked + legible): Q9.B (visual area in postcalcarine sulcus),
+#   Q12.B (subarachnoid space contains CSF), Q21.D (falx lies between medial surfaces —
+#   faint tick). Everything else on Q9-Q29 was either unmarked or its mark ran off the
+#   clipped right edge.
+#
+# DUPE-SATURATION vs the ~205 authored 205-NEU items (193 distinct stems): on the sampled
+#   Q9-Q29 window ~70-82% are direct or near-duplicate of already-authored stems, e.g.
+#   Q17 "The middle cerebral artery supplies one of the following parts" (EXACT existing stem),
+#   Q19 lateral↔3rd ventricle via foramen (EXACT existing concept), Q22 nerves in lateral
+#   wall of cavernous sinus, Q26 auditory radiation part of internal capsule (sister of the
+#   authored optic-radiation item), Q15 palatoglossus not hypoglossal, Q10/Q13 spinal-cord /
+#   3rd-ventricle true-statement twins. The existing corpus already covers this module's
+#   classic anatomy AND physiology comprehensively.
+#
+# The few TOPICALLY-NEW items (Q11 tentorium cerebelli, Q16 corticobulbar→genu, Q23 lateral
+#   thalamus↔posterior limb IC, Q24 orbital surface, Q27 gracile/cuneate tubercles, Q29 pons
+#   CN 5-8) are ALL unmarked or key-clipped → NO recoverable key. Per "never guess", none
+#   authored.
+#
+# VERDICT: DROP EOM NEU 204 (2019) from further mining — dupe-saturated (>60%) AND its new
+#   items are unkeyed (student did not mark them; needs Omar sources for a verified key).
+#   0 MCQs authored this pass.
+# ============================================================================
