@@ -3399,3 +3399,640 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-25
+## title
+Viral infection diagnosed by heterophil antibodies
+## question
+Which viral infection can be diagnosed by the presence of heterophil antibodies?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Cytomegalovirus
+## explanation_a
+Incorrect. CMV causes a mononucleosis-like syndrome but is heterophil-antibody negative.
+## answer_b
+Epstein Barr virus
+## explanation_b
+Correct. EBV infectious mononucleosis induces heterophil antibodies, detected by the Paul-Bunnell/Monospot test.
+## answer_c
+Human immunodeficiency virus
+## explanation_c
+Incorrect. HIV is diagnosed by antibody/antigen assays and confirmatory Western blot, not heterophil antibodies.
+## answer_d
+Parvovirus B19
+## explanation_d
+Incorrect. Parvovirus B19 (erythema infectiosum) is not diagnosed by heterophil antibodies.
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## main_concept
+CON-INF-C89DF8B8EFE9A3
+## concept_ids
+CON-INF-C89DF8B8EFE9A3
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify EBV as the infection diagnosed by heterophil antibodies.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q25 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-39
+## title
+Laboratory test for infectious mononucleosis
+## question
+Which laboratory test is helpful in the diagnosis of infectious mononucleosis?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Paul Bunnel test
+## explanation_a
+Correct. The Paul-Bunnell test detects the heterophil antibodies of EBV infectious mononucleosis and is the classic diagnostic test (the Monospot is its rapid slide form).
+## answer_b
+Standard tube agglutination test
+## explanation_b
+Incorrect. The standard tube agglutination test is used for brucellosis.
+## answer_c
+Western blot technique
+## explanation_c
+Incorrect. Western blot is a confirmatory test for HIV infection.
+## answer_d
+Widal test
+## explanation_d
+Incorrect. The Widal test is used for enteric (typhoid) fever.
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## main_concept
+CON-INF-D8121A1A4C4F80
+## concept_ids
+CON-INF-D8121A1A4C4F80
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+Identify the Paul-Bunnell test as the test for infectious mononucleosis.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q39 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-77
+## title
+Cells infected by human immunodeficiency virus
+## question
+Which cells can be infected by human immunodeficiency virus?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+T helper cells
+## explanation_a
+Correct. HIV enters cells bearing the CD4 receptor; the principal target is the CD4+ T helper lymphocyte, whose progressive loss produces AIDS.
+## answer_b
+T cytotoxic cells
+## explanation_b
+Incorrect. Cytotoxic (CD8) T cells do not carry the CD4 receptor and are not the target of HIV.
+## answer_c
+B lymphocytes
+## explanation_c
+Incorrect. B lymphocytes are the target of EBV (via CD21), not of HIV.
+## answer_d
+Mast cells
+## explanation_d
+Incorrect. Mast cells are not CD4-bearing HIV target cells.
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## main_concept
+CON-INF-3E778A6226801C
+## concept_ids
+CON-INF-3E778A6226801C
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that HIV infects CD4 T helper cells.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q77 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-78
+## title
+Laboratory test to monitor anti-retroviral therapy
+## question
+Monitoring of anti-retroviral therapy is done by which laboratory test?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Detection of serum antibodies by ELISA
+## explanation_a
+Incorrect. Antibody detection by ELISA is a screening/diagnostic test; antibody levels do not track the response to therapy.
+## answer_b
+Detection of specific antibodies by Western blot technique
+## explanation_b
+Incorrect. Western blot is a confirmatory diagnostic test, not a therapy-monitoring assay.
+## answer_c
+Determination of viral load by reverse transcriptase-PCR
+## explanation_c
+Correct. The response to antiretroviral therapy is monitored by the plasma viral load - HIV RNA quantified by reverse-transcriptase PCR; a falling viral load indicates effective suppression.
+## answer_d
+Determination of P24 antigen in patient's serum by ELISA
+## explanation_d
+Incorrect. p24 antigen is an early diagnostic marker, less suited than quantitative viral load for monitoring therapy.
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## main_concept
+CON-INF-BEC2FD17AC1248
+## concept_ids
+CON-INF-BEC2FD17AC1248
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-VIROLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that antiretroviral therapy is monitored by viral load (RT-PCR).
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q78 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-10
+## title
+True statement regarding fungi
+## question
+Which statement regarding fungi is TRUE?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+They are autotrophic.
+## explanation_a
+Incorrect. Fungi are heterotrophic - they absorb organic nutrients and cannot fix carbon like autotrophs.
+## answer_b
+They have chitin in the cell wall.
+## explanation_b
+Correct. The rigid fungal cell wall is composed largely of chitin (with glucans and mannans), a feature absent from human cells.
+## answer_c
+They have a prokaryotic nucleus.
+## explanation_c
+Incorrect. Fungi are eukaryotes with a true membrane-bound nucleus, not a prokaryotic one.
+## answer_d
+They lack mitochondria.
+## explanation_d
+Incorrect. Fungi are eukaryotes and possess mitochondria.
+## topic
+Microbiology
+## subtopic
+Mycology
+## main_concept
+CON-INF-A8A86B40B19C73
+## concept_ids
+CON-INF-A8A86B40B19C73
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.35
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Mycology > Fungal structure
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-MYCOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that fungi have chitin in their cell wall.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q10 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-EXTRAPY-62
+## title
+Fungi — the incorrect statement
+## question
+All of the following statements are correct about fungi EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Their cell walls are composed of chitin
+## explanation_a
+Incorrect (this statement is true). The fungal cell wall is composed of chitin.
+## answer_b
+They are heterotrophic
+## explanation_b
+Incorrect (this statement is true). Fungi are heterotrophic organisms.
+## answer_c
+Their cytoplasmic membrane contains cholesterol
+## explanation_c
+Correct. This is the EXCEPTION: the fungal cytoplasmic membrane contains ergosterol, not cholesterol; cholesterol is the sterol of human membranes.
+## answer_d
+They reproduce by means of spores
+## explanation_d
+Incorrect (this statement is true). Fungi reproduce by means of spores (sexual and asexual).
+## topic
+Microbiology
+## subtopic
+Mycology
+## main_concept
+CON-INF-E3157CEF4C0E1E
+## concept_ids
+CON-INF-E3157CEF4C0E1E
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Single best answer
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+48
+## exam_relevance
+5
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Mycology > Fungal structure
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-MYCOLOGY
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+
+## learning_objective
+State that the fungal membrane contains ergosterol, not cholesterol.
+
+## source_citation
+Kasr Al Ainy 309 INF - Extra 309 Questions PY, Microbiology MCQ Q62 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.

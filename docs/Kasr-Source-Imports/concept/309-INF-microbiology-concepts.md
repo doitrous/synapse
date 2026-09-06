@@ -3562,3 +3562,559 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+
+---
+
+# Item
+## id
+CON-INF-D8121A1A4C4F80
+## label
+Infectious mononucleosis is diagnosed by the Paul-Bunnell test
+## canonical_key
+virus.ebv.infectious-mononucleosis-diagnosed-by-paul-bunnell-test
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Paul-Bunnell test (and its rapid slide version, the Monospot) detects heterophil antibodies produced in EBV infectious mononucleosis; a positive result supports the diagnosis of glandular fever.
+## explicit_objective
+Identify the Paul-Bunnell test as the laboratory test for infectious mononucleosis.
+## pitfalls
+The standard tube agglutination test is for brucellosis, Western blot for HIV, and the Widal test for enteric fever; the heterophil-antibody Paul-Bunnell/Monospot test is specific to infectious mononucleosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Herpesviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Herpesviruses
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-3E778A6226801C
+## label
+HIV infects CD4-bearing T helper cells
+## canonical_key
+virus.hiv.infects-cd4-t-helper-cells
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+HIV enters cells that display the CD4 receptor; the principal target is the CD4+ T helper lymphocyte (also monocytes/macrophages and dendritic cells), and progressive loss of CD4 T helper cells produces the immunodeficiency of AIDS.
+## explicit_objective
+State that HIV infects CD4 T helper cells.
+## pitfalls
+Cytotoxic (CD8) T cells, B lymphocytes and mast cells lack the CD4 receptor and are not the primary target; HIV infects the CD4+ T helper cell.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-BEC2FD17AC1248
+## label
+Antiretroviral therapy is monitored by viral load (RT-PCR)
+## canonical_key
+virus.hiv.antiretroviral-therapy-monitored-by-viral-load-rt-pcr
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The response to antiretroviral therapy is monitored by measuring the plasma HIV viral load - the quantity of viral RNA determined by reverse-transcriptase PCR; a falling viral load indicates effective suppression of replication.
+## explicit_objective
+State that antiretroviral therapy is monitored by viral load determined by RT-PCR.
+## pitfalls
+Antibody detection by ELISA and confirmation by Western blot are diagnostic tests, and p24 antigen is an early marker; monitoring the response to therapy specifically uses the viral load by RT-PCR.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Retroviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Retroviruses (HIV)
+## article_ids
+ART-INF-309-MICRO-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-A8A86B40B19C73
+## label
+The fungal cell wall contains chitin
+## canonical_key
+fungi.cell-wall-contains-chitin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fungi are eukaryotic, heterotrophic organisms whose rigid cell wall is composed largely of chitin (and glucans/mannans); the presence of chitin, absent from human cells, is a target for antifungal action.
+## explicit_objective
+State that fungi have chitin in their cell wall.
+## pitfalls
+Fungi are heterotrophic (not autotrophic), have a true eukaryotic nucleus (not prokaryotic) and do possess mitochondria; their distinguishing wall component is chitin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T03
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Mycology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Mycology > Fungal structure
+## article_ids
+ART-INF-309-MICRO-MYCOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-E3157CEF4C0E1E
+## label
+The fungal cytoplasmic membrane contains ergosterol, not cholesterol
+## canonical_key
+fungi.cytoplasmic-membrane-contains-ergosterol-not-cholesterol
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The sterol of the fungal cytoplasmic membrane is ergosterol, not the cholesterol of human membranes; this difference is exploited by antifungals (azoles inhibit ergosterol synthesis, polyenes bind ergosterol).
+## explicit_objective
+State that the fungal membrane contains ergosterol (not cholesterol), the odd-one-out among fungal features.
+## pitfalls
+Fungi correctly have chitin walls, are heterotrophic and reproduce by spores; the FALSE statement is that their membrane contains cholesterol - it contains ergosterol.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T03
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Mycology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Mycology > Fungal structure
+## article_ids
+ART-INF-309-MICRO-MYCOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.

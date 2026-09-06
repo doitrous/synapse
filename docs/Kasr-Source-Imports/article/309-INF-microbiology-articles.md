@@ -336,6 +336,9 @@ CON-INF-417F2FF36A3457
 CON-INF-9F6AAC952851B5
 CON-INF-E26C627D68B937
 CON-INF-C89DF8B8EFE9A3
+CON-INF-D8121A1A4C4F80
+CON-INF-3E778A6226801C
+CON-INF-BEC2FD17AC1248
 ## related_articles
 
 ## resource_ids
@@ -363,3 +366,87 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
 ## reading_time
 6
+
+
+---
+
+# Item
+## id
+ART-INF-309-MICRO-MYCOLOGY
+## title
+Mycology: the fungal cell wall and membrane
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Microbiology
+## summary
+This article groups the mycology facts tested by the paper: fungi are eukaryotic heterotrophs whose cell wall contains chitin and whose cytoplasmic membrane contains ergosterol rather than the cholesterol of human membranes - the two structural features that both define fungi and provide antifungal drug targets.
+## sections
+### Definition
+The cluster covers the defining structural features of fungi examined in 309 INF: a chitin-containing cell wall and an ergosterol-containing cytoplasmic membrane, in a eukaryotic, heterotrophic, spore-forming organism.
+### Mechanism
+The rigid fungal wall is built from chitin and glucans, absent from human cells; the membrane sterol is ergosterol rather than cholesterol. These differences are the basis of selective antifungal therapy - azoles block ergosterol synthesis and polyenes bind ergosterol, while echinocandins target wall glucan synthesis.
+### Key determinants
+Discriminators tested here: fungi are heterotrophic (not autotrophic), eukaryotic (not prokaryotic) and possess mitochondria; the wall contains chitin; and the membrane sterol is ergosterol, so a statement that the membrane contains cholesterol is the odd-one-out.
+### Clinical significance
+These facts explain why antifungal drugs can be selectively toxic (targeting chitin/ergosterol absent from human cells) and underpin the pharmacology of azoles and polyenes.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (autotrophic vs heterotrophic; prokaryotic vs eukaryotic nucleus; cholesterol vs ergosterol membrane sterol).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Mycology
+## subtopic
+Mycology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-MIC-T03
+## secondary_node_ids
+DIS-MIC
+## related_concepts
+CON-INF-A8A86B40B19C73
+CON-INF-E3157CEF4C0E1E
+## related_articles
+
+## resource_ids
+src_b0bc0be85ab68a07e9b7
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+4
