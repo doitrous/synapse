@@ -264,7 +264,45 @@ extracted
 ## rights
 University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
 ## qualification
-Kasr Al Ainy END 207 department Pelvis-and-Perineum ANATOMY MCQ bank ([RPR] compiler tag; NON-EOM topic bank, so examSittingYear is null). Native text layer, 10 pages, 48 single-best MCQs on gross anatomy of the pelvis, perineum, perineal pouches, prostate, urethra, rectum and anal canal. SOLVED: a printed KEY ANSWERS table on p.10 gives all 48 keys (Q1-48; the row printed "1- b" at position 7 is a typo for 7-b, resolved by sequence). SEVENTH 207 END source and the FOURTH non-EOM bank; the pelvis/perineum domain heavily overlaps the authored 207-END corpus (EOM anatomy tranche + Dr Galal repro bank), so ~30 duplicate/near-duplicate stems were skipped, 2 held as bad items (Q34 rectal-ampulla key locates the ampulla in the wrong part; Q45 vas-deferens key b conflicts with the anatomically-true option c) and 15 non-duplicate items authored. The companion "Anatomy MCQ by Dr.Jalal[END].pdf" (src_2a6c0ccf47e9feb287a3) in the same folder is an UNSOLVED bank (colored stems, no answer marked on any of 35 pages) and yields no authorable keyed items.
+Kasr Al Ainy END 207 department Pelvis-and-Perineum ANATOMY MCQ bank ([RPR] compiler tag; NON-EOM topic bank, so examSittingYear is null). Native text layer, 10 pages, 48 single-best MCQs on gross anatomy of the pelvis, perineum, perineal pouches, prostate, urethra, rectum and anal canal. SOLVED: a printed KEY ANSWERS table on p.10 gives all 48 keys (Q1-48; the row printed "1- b" at position 7 is a typo for 7-b, resolved by sequence). SEVENTH 207 END source and the FOURTH non-EOM bank; the pelvis/perineum domain heavily overlaps the authored 207-END corpus (EOM anatomy tranche + Dr Galal repro bank), so ~30 duplicate/near-duplicate stems were skipped, 2 held as bad items (Q34 rectal-ampulla key locates the ampulla in the wrong part; Q45 vas-deferens key b conflicts with the anatomically-true option c) and 15 non-duplicate items authored.
+## confidence
+0.9
+## is_assessment
+true
+
+---
+
+# Item
+## id
+src_2a6c0ccf47e9feb287a3
+## title
+Anatomy MCQ by Dr Jalal [END]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Anatomy Dpt Anatomy [1st priority]/MCQs/Anatomy MCQ by Dr.Jalal[END].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+35
+## sha256
+2a6c0ccf47e9feb287a33b6f2360f7bea52cc5f45801864b753461b8ea3ef6d3
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 gross-anatomy MCQ topic bank by Dr Jalal (NON-EOM; not an exam, so examSittingYear is null). 35 pages, native text layer, organised into 7 topic sections (Pelvic muscles; Pelvic peritoneum, nerves & vessels; Ureter, urinary bladder & urethra; Male genital system; Female genital system organs, rectum & perineum; Development of urinary bladder, urethra, hindgut, ovary & genital tract; Pituitary gland). SOLVED (contrary to an earlier survey that called it unsolved): correct answers are PRINTED per-section ANSWER-KEY TABLES on pp.33-34 (one "n-letter" table per section), read directly from the native text -- the question pages carry no inline mark, the keys live at the back of the document. 0 double-marks except Male-genital-section Q13 (printed "b&c"), which is EXCLUDED. FOURTH-plus non-EOM bank of the module; the pelvis/perineum/genital sections overlap the exhausted Galal repro / Galal endo / Medhat / EOM anatomy tranches and the RPR bank, so most stems are skipped as duplicates and only non-duplicate items are authored -- see coverage/207-END-triage-keys.txt and coverage/207-END-LEDGER.md.
 ## confidence
 0.9
 ## is_assessment

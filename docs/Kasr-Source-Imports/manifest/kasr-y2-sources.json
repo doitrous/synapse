@@ -4958,7 +4958,7 @@
    "yearConflict": null,
    "examSittingYear": null,
    "examSittingYearSource": null,
-   "solvedStatus": "unsolved",
+   "solvedStatus": "solved",
    "oldSystemExcluded": false,
    "exclusionReason": null,
    "appliedNoteInstructions": [],
@@ -4966,7 +4966,7 @@
    "pageCount": 35,
    "textLayer": "native",
    "processingStatus": "extracted",
-   "extractionDisposition": "no_key_unsolved_bank"
+   "extractionDisposition": "keyed_printed_answer_tables"
   },
   {
    "sourceId": "src_ba88dd0b6e105afb419c",

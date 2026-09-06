@@ -11,9 +11,10 @@
 | medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 21 | 0 | 0 | 0 fresh + 4 dupe | 25 |
 | galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 27 | 0 | 0 | dupes skipped; bank exhausted | ~47 |
 | galal-endo (`207 mcq Dr Galal (endo).pdf`, NON-EOM bank, 27 keyed) | 17 | 1 | 0 | 9 dupes skipped; bank exhausted | 27 |
-| rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
-| **207 END module authored (3 EOM + 4 banks)** | **252** | **6** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 252 | 6 | 1 | untriaged | — |
+| rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) — concurrent lane | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
+| jalal S3 ureter/bladder/urethra (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 10 | 0 | 0 | S3 slice-A fresh set done; S1-2/S4-7 untriaged | ~207 |
+| **207 END module authored (3 EOM + 5 banks)** | **262** | **6** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 262 | 6 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -536,21 +537,17 @@ repro 27 + Galal endo 17), 3 held, 1 excluded. **Next 207 END cluster:** open
 register a manifest row only if the source isn't already listed, recover keys, dedup vs the ~238-item
 corpus, author push-per-slice. 3 department books also remain entirely untriaged.
 
-## Seventh source — department Pelvis-and-Perineum ANATOMY bank [RPR] (FOURTH non-EOM bank); and the Jalal bank is UNSOLVED
+## Seventh source — department Pelvis-and-Perineum ANATOMY bank [RPR] (concurrent lane)
 
-Two department banks in `207 END/Anatomy Dpt Anatomy [1st priority]/MCQs/` were triaged this pass.
-Both were newly registered in `manifest/kasr-y2-sources.json` (count 631->633); the [RPR] bank was
-also added to `evidence/207-END-resources.md`.
+Two department banks in `207 END/Anatomy Dpt Anatomy [1st priority]/MCQs/` were registered this pass in
+`manifest/kasr-y2-sources.json` (count 631->633) and `evidence/207-END-resources.md`: the [RPR] bank
+(authored below by the concurrent lane) and the Jalal bank (authored in the section after this one).
 
-**`Anatomy MCQ by Dr.Jalal[END].pdf` (src_2a6c0ccf47e9feb287a3, sha256 2a6c0ccf47e9feb287a3...) is
-UNSOLVED and yields NO authorable items.** Native text layer, 35 pages, ~202 pelvis/perineum/bladder/
-prostate anatomy MCQs organised by topic with year tags. The question stems are coloured (blue text,
-red year tags) but **not a single option is marked on any page** — render-verified on pp.1, 3 and 9
-(all four options plain black, no circle/bold/highlight). The `pagetext keys` extractor's 3 "hits"
-(p3Q10, p5Q6, p9Q36) are false positives from the red year-tags/footer. Per NEVER-GUESS an unkeyed
-bank is not authorable; it is recorded in the manifest as `solvedStatus: unsolved` /
-`extractionDisposition: no_key_unsolved_bank` so it is not re-triaged expecting keys. (If a keyed copy
-of this same doctor's bank ever surfaces, its stems are high-quality and worth authoring.)
+> NOTE (Jalal reconciliation): an earlier survey by this lane recorded `Anatomy MCQ by Dr.Jalal[END].pdf`
+> (src_2a6c0ccf47e9feb287a3) as UNSOLVED after finding no inline mark on the question pages. That was a
+> miss — the keys are PRINTED per-section answer-key tables at the BACK of the document (pp.33-34), read
+> directly from the native text. Jalal IS solved and is being authored (see the next section); its
+> manifest `solvedStatus`/`extractionDisposition` are corrected accordingly.
 
 **`ANATOMY MCQ [RPR].pdf` (src_ba88dd0b6e105afb419c) is SOLVED — 14 authored.** Native text layer, 10
 pages, 48 single-best MCQs on pelvis, perineum, perineal pouches, prostate, urethra, rectum and anal
@@ -596,10 +593,66 @@ Committed in two slices (A = 6 with 2 articles + both source registrations, B = 
 mid-lane failure loses nothing. Gate-clean vs the module baseline (concept batch 14 items 0 errors; article
 batch 4 items 0 errors; MCQ batch 14 items 0 errors with `--with` concept+article+resource siblings).
 
-**The 207 END module is now 252 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR
-14), 6 held, 1 excluded. **The 207 END ANATOMY MCQ banks are now EXHAUSTED:** all four non-EOM anatomy
-banks (Medhat, Galal repro, Galal endo, RPR) are fresh-exhausted, and the fifth (Jalal) is unsolved with
-no keys. **Next 207 END cluster MUST be a non-anatomy source:** the Histology and Physiology department
-books, or a Histology/Physiology MCQ bank if one exists in the manifest — the three department books
-remain entirely untriaged. Do NOT re-triage the Jalal bank for keys and do NOT mine any 207 END anatomy
-bank further.
+**With RPR done the module is 252 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR
+14), before the Jalal slice below. RPR is the fourth non-EOM anatomy bank and is fresh-exhausted; the Jalal
+bank (fifth) is SOLVED, not unsolved (see the next section), and still holds many fresh sections. The
+three department books remain entirely untriaged.
+
+## Eighth source — Anatomy MCQ by Dr Jalal [END] bank (FIFTH non-EOM source)
+
+Paper: `Anatomy MCQ by Dr.Jalal[END].pdf` (Anatomy Dpt Anatomy [1st priority]/MCQs; manifest sourceId
+`src_2a6c0ccf47e9feb287a3`, sha256
+2a6c0ccf47e9feb287a33b6f2360f7bea52cc5f45801864b753461b8ea3ef6d3; examType null — a TOPIC bank, so
+examSittingYear=null; already in kasr-y2-sources.json, no new manifest row). 35 pages, NATIVE text
+layer (read directly, no OCR/render). Gross anatomy of the pelvis, urinary tract and genital organs
+plus their development, in 7 topic sections (Pelvic muscles 8; Pelvic peritoneum/nerves/vessels 14;
+Ureter/urinary-bladder/urethra 38; Male genital 26; Female genital/rectum/perineum 86; Development
+30; Pituitary 5 — ~207 keyed items). Registered in `evidence/207-END-resources.md`.
+
+**Key marker: PRINTED per-section ANSWER-KEY TABLES on pp.33-34** (one small "n-letter" table per
+section), read directly from the native text; 0 double-marks except Male-genital Q13 (printed "b&c",
+EXCLUDED). Section 8 "Head and Neck" (p.35) is EMPTY in this file (placeholder), skipped. All keys and
+the full section map are in `coverage/207-END-triage-keys.txt`.
+
+**Slice A — 10 authored** from S3 (Ureter, urinary bladder & urethra): S3-1 prostatic utricle on the
+posterior wall / urethral crest, S3-4 bulbourethral (Cowper) duct opens into the spongy urethra, S3-5
+seminal colliculus = prostatic urethra, S3-11 median umbilical ligament (urachus remnant) joins bladder
+apex to umbilicus, S3-13 prostatic urethra widest & most dilatable, S3-14 internal urethral orifice at
+the inferior angle of the trigone, S3-15 internal urethral sphincter (smooth, bladder neck), S3-16 male
+urethra ~18-20 cm, S3-19 sphincter urethrae around the lower female urethra, S3-34 external urethral
+sphincter supplied by the pudendal nerve. 0 held, 0 excluded this slice.
+
+10 new concepts minted university-blind (CON-`<SYS>`- + first 14 hex of SHA-256 of the canonical key,
+uppercased): 5 `CON-AND-*` (male urethra & glands) + 5 `CON-REN-*` (bladder, urethral sphincters,
+female urethra) — collision-checked corpus-wide (0 collisions, 0 in-batch duplicates; none of the
+Galal/Medhat/EOM concepts reusable — distinct atomic claims). Filed under DIS-ANA-T05 with SYS-AND-T01 /
+SYS-REN-T01 cross-nav. Grouped into 2 new library articles
+(`ART-AND-207END-JALAL-MALE-URETHRA-GLANDS`, `ART-REN-207END-JALAL-BLADDER-URETHRA-CONTINENCE`).
+Subject tags androl/renal.
+
+**Dedup vs the 238-item corpus (S3 only):** of the 38 S3 stems, ~22 duplicate authored concepts and
+were skipped (uterine-artery->ureter; membranous-urethra traverses UG diaphragm; ejaculatory-ducts
+open beside utricle; trigone mesodermal origin; interureteric-ridge cystoscopy; pubovesical/
+puboprostatic bladder-neck-to-pubis; ureter crosses pelvic brim; bladder-base excludes posterior
+vaginal wall; bladder-neck behind lower symphysis; membranous-urethra narrowest/least distensible;
+seminal vesicle at bladder base). Effective S3 skip rate ~58%, just under the 60% stop threshold —
+the freshest S3 claims are now authored.
+
+Authored in `question/207-END-jalal-mcq.md` (from seed `seed/207-END-jalal.json` — never hand-edit the
+emitted .md; fix the seed and re-emit), `concept/207-END-jalal-concepts.md`,
+`article/207-END-jalal-articles.md`. Gate-clean vs the module baseline (concept batch 10 items 0 errors;
+article batch 2 items 0 errors; MCQ batch 10 items with concept+article siblings = the single
+not-yet-imported `resource_ids` category, one/item — the baseline every 207-END MCQ file carries).
+
+**Jalal was solved, not unsolved.** A concurrent lane surveyed the question pages, found no inline answer
+mark, and recorded Jalal as an UNSOLVED bank with no authorable keys. That was a miss: the keys are
+PRINTED per-section answer-key tables at the BACK of the document (pp.33-34), not on the question pages.
+This lane read them from the native text and authored from them; the evidence note and the manifest
+`solvedStatus`/`extractionDisposition` for src_2a6c0ccf47e9feb287a3 are corrected accordingly.
+
+The 207 END module is now **262 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 +
+RPR 14 + Jalal 10), 6 held, 1 excluded. The **RPR bank** (fresh-exhausted, 14/3, concurrent lane) is
+NOT re-authored by this lane. **Next Jalal slice:** mine S5 (Female genital/rectum/perineum, 86 Qs) and
+S6 (Development, 30 Qs) — the largest still-unmined sections (expect heavy overlap with the exhausted
+Galal repro bank and the RPR pelvis/perineum bank), then S1/S2/S4/S7. 3 department books also remain
+untriaged.

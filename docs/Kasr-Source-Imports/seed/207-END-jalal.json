@@ -1,0 +1,395 @@
+{
+  "lane": "KASR-207END",
+  "cluster": "jalal",
+  "header": "KASR-207END - Anatomy MCQ by Dr Jalal [END] bank - Kasr Al Ainy 207 END gross anatomy of the pelvis, urinary tract, genital organs and their development, NON-EOM instructor topic bank, sourceId src_2a6c0ccf47e9feb287a3 (sha256 2a6c0ccf47e9feb287a33b6f2360f7bea52cc5f45801864b753461b8ea3ef6d3). 35 pages, native text layer; correct answers are PRINTED per-section ANSWER-KEY TABLES on pp.33-34 (one table per topic section), read directly from the native text. SEVENTH 207 END source and the FOURTH non-EOM bank. Only items whose atomic claim is NOT already covered by the authored 207-END corpus (238) are authored here; this bank's pelvis/perineum/genital sections overlap the exhausted Galal repro + Galal endo + Medhat + EOM anatomy tranches, so most stems are skipped as duplicates -- logged in the LEDGER. Concepts minted university-blind (CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked corpus-wide - all new. Options faithful to the paper (minor spelling/spacing cleanup only); keys unchanged. Male-genital-section Q13 is a printed double-mark (b&c) and is EXCLUDED. Being a topic bank the manifest examSittingYear is null.\n\n  Import: Admin > Bulk import -> question.",
+  "defaults": {
+    "subject": "androl",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y2"
+    ],
+    "module": "207 END",
+    "exam_weight_by_year": {
+      "KAU_Y2": "moderate"
+    },
+    "question_only_for": "",
+    "resource_ids": [
+      "src_2a6c0ccf47e9feb287a3"
+    ],
+    "source_citation": "Kasr Al Ainy 207 END - Anatomy MCQ by Dr Jalal [END] bank, {page}",
+    "setting": "Academic",
+    "difficulty": "Moderate",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Anatomy"
+  },
+  "questions": [
+    {
+      "key": "q001",
+      "id": "QST-KASR207END-JALAL-001",
+      "page": "p.4",
+      "subject": "androl",
+      "title": "Opening of the prostatic utricle",
+      "question": "Regarding the prostatic urethra, all of the following statements are correct EXCEPT:",
+      "options": {
+        "A": "It continues directly into the membranous urethra.",
+        "B": "It is the widest part of the male urethra.",
+        "C": "Its anterior wall carries the opening of the prostatic utricle.",
+        "D": "Its posterior wall carries the urethral crest."
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. This is the FALSE statement, so it is the answer to the 'except' stem. The prostatic utricle and the ejaculatory ducts open on the POSTERIOR wall of the prostatic urethra, on the summit of the urethral crest (the colliculus seminalis / verumontanum), not on the anterior wall. The anterior wall is featureless.",
+        "A": "Incorrect (this statement is true). The prostatic urethra runs down through the prostate and continues directly into the membranous urethra as it pierces the perineal membrane.",
+        "B": "Incorrect (this statement is true). The prostatic urethra is the widest and most dilatable part of the male urethra.",
+        "D": "Incorrect (this statement is true). The urethral crest is a median ridge on the posterior wall of the prostatic urethra; the prostatic utricle and ejaculatory ducts open on it at the colliculus."
+      },
+      "main_concept": "CON-AND-0BC9910E4082A8",
+      "concept_ids": [
+        "CON-AND-0BC9910E4082A8"
+      ],
+      "subtopic": "Male urethra",
+      "library_ids": [
+        "ART-AND-207END-JALAL-MALE-URETHRA-GLANDS"
+      ],
+      "module_subject": "207 END > Anatomy > Male urethra",
+      "learning_objective": "The prostatic utricle and urethral crest lie on the posterior wall of the prostatic urethra.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 1=c)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q002",
+      "id": "QST-KASR207END-JALAL-002",
+      "page": "p.5",
+      "subject": "androl",
+      "title": "Where the bulbourethral (Cowper) gland duct opens",
+      "question": "The duct of the bulbourethral (Cowper's) gland opens into which part of the male urethra?",
+      "options": {
+        "A": "Prostatic urethra.",
+        "B": "Periprostatic urethra.",
+        "C": "Membranous urethra.",
+        "D": "Spongy (penile) urethra."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The bulbourethral glands lie in the deep perineal pouch, but their long ducts pierce the perineal membrane and open into the proximal part of the spongy (penile) urethra within the bulb of the penis. The gland is membranous in position but its duct opens into the spongy urethra.",
+        "A": "Incorrect. The prostatic urethra receives the prostatic ductules, the ejaculatory ducts and the prostatic utricle, not the bulbourethral duct.",
+        "B": "Incorrect. 'Periprostatic' is not a recognised named segment of the urethra.",
+        "C": "Incorrect. The gland sits in the deep perineal pouch beside the membranous urethra, but its duct runs past it to open more distally in the spongy urethra."
+      },
+      "main_concept": "CON-AND-D4345EDFD813A8",
+      "concept_ids": [
+        "CON-AND-D4345EDFD813A8"
+      ],
+      "subtopic": "Male urethra",
+      "library_ids": [
+        "ART-AND-207END-JALAL-MALE-URETHRA-GLANDS"
+      ],
+      "module_subject": "207 END > Anatomy > Male urethra",
+      "learning_objective": "The bulbourethral gland duct opens into the spongy (penile) urethra.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 4=d)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q003",
+      "id": "QST-KASR207END-JALAL-003",
+      "page": "p.5",
+      "subject": "androl",
+      "title": "Site of the seminal colliculus",
+      "question": "The seminal colliculus (verumontanum) is a characteristic feature of which part of the male urethra?",
+      "options": {
+        "A": "Periprostatic urethra.",
+        "B": "Membranous urethra.",
+        "C": "Prostatic urethra.",
+        "D": "Spongy urethra."
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The seminal colliculus (colliculus seminalis / verumontanum) is a rounded eminence on the middle of the urethral crest, on the posterior wall of the PROSTATIC urethra. The prostatic utricle opens on its summit and the two ejaculatory ducts open on either side of it.",
+        "A": "Incorrect. 'Periprostatic' is not a named urethral segment.",
+        "B": "Incorrect. The membranous urethra is short and passes through the deep perineal pouch; it has no colliculus.",
+        "D": "Incorrect. The spongy urethra shows the navicular fossa and the openings of the bulbourethral ducts, not the seminal colliculus."
+      },
+      "main_concept": "CON-AND-46313D76F62C70",
+      "concept_ids": [
+        "CON-AND-46313D76F62C70"
+      ],
+      "subtopic": "Male urethra",
+      "library_ids": [
+        "ART-AND-207END-JALAL-MALE-URETHRA-GLANDS"
+      ],
+      "module_subject": "207 END > Anatomy > Male urethra",
+      "learning_objective": "The seminal colliculus lies on the posterior wall of the prostatic urethra.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 5=c)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q004",
+      "id": "QST-KASR207END-JALAL-004",
+      "page": "p.6",
+      "subject": "androl",
+      "title": "Widest and most dilatable part of the male urethra",
+      "question": "Regarding the male urethra, which of the following statements is TRUE?",
+      "options": {
+        "A": "The prostatic urethra is the widest and most dilatable part.",
+        "B": "It is approximately 20 metres long.",
+        "C": "The external urethral sphincter surrounds the prostatic part.",
+        "D": "The membranous part lies in the superficial perineal pouch."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The prostatic urethra is about 3 cm long and is the widest and most dilatable part of the male urethra. The membranous urethra is the narrowest and least dilatable part. The external urethral orifice at the meatus is the narrowest fixed point of all.",
+        "B": "Incorrect. The whole male urethra is about 18-20 CENTIMETRES long, not 20 metres.",
+        "C": "Incorrect. The external urethral sphincter (sphincter urethrae) surrounds the MEMBRANOUS urethra in the deep perineal pouch, not the prostatic part.",
+        "D": "Incorrect. The membranous urethra lies in the DEEP perineal pouch, piercing the perineal membrane, not the superficial pouch."
+      },
+      "main_concept": "CON-AND-3CD9F7058B0DA0",
+      "concept_ids": [
+        "CON-AND-3CD9F7058B0DA0"
+      ],
+      "subtopic": "Male urethra",
+      "library_ids": [
+        "ART-AND-207END-JALAL-MALE-URETHRA-GLANDS"
+      ],
+      "module_subject": "207 END > Anatomy > Male urethra",
+      "learning_objective": "The prostatic urethra is the widest and most dilatable part of the male urethra.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 13=a)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q005",
+      "id": "QST-KASR207END-JALAL-005",
+      "page": "p.6",
+      "subject": "androl",
+      "title": "Length of the male urethra",
+      "question": "Regarding the male urethra, which of the following statements is TRUE?",
+      "options": {
+        "A": "It is about 20 cm long.",
+        "B": "Its narrowest point is at the prostatic part.",
+        "C": "Its narrowest point is at the navicular fossa.",
+        "D": "It runs within the corpus cavernosum."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The male urethra is about 18-20 cm long. It extends from the internal urethral orifice at the bladder neck to the external urethral orifice at the tip of the glans. It is divided along its course into prostatic, membranous and spongy (penile) parts.",
+        "B": "Incorrect. The prostatic part is the WIDEST, not the narrowest, part.",
+        "C": "Incorrect. The navicular fossa is a dilatation in the glans, not a narrow point; the narrowest fixed point is the external urethral orifice (meatus).",
+        "D": "Incorrect. The spongy urethra runs within the corpus SPONGIOSUM, not the corpus cavernosum."
+      },
+      "main_concept": "CON-AND-F51247D5DDEE5C",
+      "concept_ids": [
+        "CON-AND-F51247D5DDEE5C"
+      ],
+      "subtopic": "Male urethra",
+      "library_ids": [
+        "ART-AND-207END-JALAL-MALE-URETHRA-GLANDS"
+      ],
+      "module_subject": "207 END > Anatomy > Male urethra",
+      "learning_objective": "The male urethra is about 18-20 cm long.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 16=a)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q006",
+      "id": "QST-KASR207END-JALAL-006",
+      "page": "p.6",
+      "subject": "renal",
+      "title": "Median umbilical ligament connects the bladder apex to the umbilicus",
+      "question": "Regarding the urinary bladder, which of the following statements is TRUE?",
+      "options": {
+        "A": "Its epithelial lining is derived from ectoderm.",
+        "B": "Exstrophy of the bladder is due to persistence of the urachus.",
+        "C": "It has no peritoneal covering.",
+        "D": "Its apex is connected to the umbilicus by the median umbilical ligament."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The apex of the bladder is connected to the umbilicus by the median umbilical ligament. This ligament is the fibrous remnant of the urachus, the obliterated allantoic stalk. It lies in the midline and raises the median umbilical fold of peritoneum on the anterior abdominal wall.",
+        "A": "Incorrect. The bladder epithelium (transitional epithelium) is derived from ENDODERM of the urogenital sinus, not ectoderm.",
+        "B": "Incorrect. Exstrophy of the bladder results from failure of the infra-umbilical anterior abdominal wall (deficient cloacal membrane), whereas persistence of the urachus produces a urachal cyst or fistula.",
+        "C": "Incorrect. The superior surface of the bladder is covered by peritoneum."
+      },
+      "main_concept": "CON-REN-6B0D75378D1EF5",
+      "concept_ids": [
+        "CON-REN-6B0D75378D1EF5"
+      ],
+      "subtopic": "Urinary bladder",
+      "library_ids": [
+        "ART-REN-207END-JALAL-BLADDER-URETHRA-CONTINENCE"
+      ],
+      "module_subject": "207 END > Anatomy > Urinary bladder",
+      "learning_objective": "The median umbilical ligament (urachus remnant) joins the bladder apex to the umbilicus.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 11=d)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q007",
+      "id": "QST-KASR207END-JALAL-007",
+      "page": "p.6",
+      "subject": "renal",
+      "title": "Internal urethral orifice at the apex of the trigone",
+      "question": "Regarding the trigone of the urinary bladder, which of the following statements is correct?",
+      "options": {
+        "A": "It is a triangular area that appears pale in colour.",
+        "B": "It is endodermal in origin.",
+        "C": "The internal urethral orifice lies at its inferior angle (apex).",
+        "D": "It lies on the inner aspect of the superior surface of the bladder."
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The trigone is a smooth triangular area on the base (posteroinferior wall) of the bladder. Its two superolateral angles are the ureteric orifices and its inferior angle (apex), pointing downwards, is the internal urethral orifice.",
+        "A": "Incorrect. Unlike the rest of the bladder the trigone mucosa is smooth and firmly adherent, but it is reddish and richly innervated, not pale.",
+        "B": "Incorrect. The trigone is classically MESODERMAL in origin (absorbed mesonephric-duct ends), whereas the rest of the bladder is endodermal.",
+        "D": "Incorrect. The trigone lies on the BASE (posteroinferior wall), not the superior surface."
+      },
+      "main_concept": "CON-REN-3F65C06C14B055",
+      "concept_ids": [
+        "CON-REN-3F65C06C14B055"
+      ],
+      "subtopic": "Urinary bladder",
+      "library_ids": [
+        "ART-REN-207END-JALAL-BLADDER-URETHRA-CONTINENCE"
+      ],
+      "module_subject": "207 END > Anatomy > Urinary bladder",
+      "learning_objective": "The internal urethral orifice is the inferior angle of the trigone.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 14=c)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q008",
+      "id": "QST-KASR207END-JALAL-008",
+      "page": "p.6",
+      "subject": "renal",
+      "title": "Internal urethral sphincter at the bladder neck",
+      "question": "Which structure is located at the junction of the bladder with the urethra and is formed of smooth involuntary muscle?",
+      "options": {
+        "A": "Vas deferens.",
+        "B": "Internal urethral sphincter.",
+        "C": "Seminal vesicle.",
+        "D": "External urethral sphincter."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. At the bladder neck the detrusor smooth muscle is arranged as the internal urethral sphincter, an involuntary sphincter that surrounds the internal urethral orifice. In the male it also prevents retrograde ejaculation.",
+        "A": "Incorrect. The vas deferens conveys sperm from the epididymis and joins the seminal vesicle duct; it is not a sphincter.",
+        "C": "Incorrect. The seminal vesicle is a secretory gland behind the bladder base, not a sphincter.",
+        "D": "Incorrect. The external urethral sphincter (sphincter urethrae) is voluntary skeletal muscle around the membranous urethra, not at the bladder neck."
+      },
+      "main_concept": "CON-REN-3065B73967DC53",
+      "concept_ids": [
+        "CON-REN-3065B73967DC53"
+      ],
+      "subtopic": "Urinary bladder",
+      "library_ids": [
+        "ART-REN-207END-JALAL-BLADDER-URETHRA-CONTINENCE"
+      ],
+      "module_subject": "207 END > Anatomy > Urinary bladder",
+      "learning_objective": "The internal urethral sphincter is smooth involuntary muscle at the bladder neck.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 15=b)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q009",
+      "id": "QST-KASR207END-JALAL-009",
+      "page": "p.7",
+      "subject": "renal",
+      "title": "Sphincter urethrae and the female urethra",
+      "question": "Regarding the female urethra, which of the following statements is TRUE?",
+      "options": {
+        "A": "It is embedded in the posterior wall of the vagina.",
+        "B": "Its lower part is surrounded by the sphincter urethrae muscle.",
+        "C": "It is about 10 cm long.",
+        "D": "It is derived from the mesonephric duct."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. The female urethra is about 4 cm long and descends from the bladder neck embedded in the anterior wall of the vagina. As it passes through the deep perineal pouch its lower part is surrounded by the sphincter urethrae (external urethral sphincter). This voluntary sphincter provides the main mechanism of urinary continence in the female.",
+        "A": "Incorrect. It is related to and embedded in the ANTERIOR wall of the vagina, not the posterior wall.",
+        "C": "Incorrect. The female urethra is only about 4 cm long, which is why urinary tract infection is commoner in women.",
+        "D": "Incorrect. The urethra develops from the urogenital sinus, not the mesonephric duct."
+      },
+      "main_concept": "CON-REN-931BA6F79C4D14",
+      "concept_ids": [
+        "CON-REN-931BA6F79C4D14"
+      ],
+      "subtopic": "Female urethra",
+      "library_ids": [
+        "ART-REN-207END-JALAL-BLADDER-URETHRA-CONTINENCE"
+      ],
+      "module_subject": "207 END > Anatomy > Female urethra",
+      "learning_objective": "The sphincter urethrae surrounds the lower female urethra in the deep perineal pouch.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 19=b)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    },
+    {
+      "key": "q010",
+      "id": "QST-KASR207END-JALAL-010",
+      "page": "p.9",
+      "subject": "renal",
+      "title": "Nerve supplying the external urethral sphincter",
+      "question": "A 68-year-old man developed urinary incontinence after radical prostatectomy because of paralysis of the external urethral sphincter. Which nerve was injured during the operation?",
+      "options": {
+        "A": "Pelvic splanchnic nerve.",
+        "B": "Sacral splanchnic nerve.",
+        "C": "Pudendal nerve.",
+        "D": "Inferior gluteal nerve."
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The external urethral sphincter (sphincter urethrae) is voluntary skeletal muscle supplied by the pudendal nerve (S2-S4), largely through its perineal branch. Injury to it during radical prostatectomy causes stress urinary incontinence.",
+        "A": "Incorrect. The pelvic splanchnic nerves are parasympathetic to the detrusor and do not supply the voluntary external sphincter.",
+        "B": "Incorrect. The sacral splanchnic nerves are sympathetic and supply the internal (involuntary) sphincter, not the external sphincter.",
+        "D": "Incorrect. The inferior gluteal nerve supplies gluteus maximus and has no role in urethral sphincter control."
+      },
+      "main_concept": "CON-REN-ED7E7C42E89C04",
+      "concept_ids": [
+        "CON-REN-ED7E7C42E89C04"
+      ],
+      "subtopic": "Male urethra",
+      "library_ids": [
+        "ART-REN-207END-JALAL-BLADDER-URETHRA-CONTINENCE"
+      ],
+      "module_subject": "207 END > Anatomy > Urethral sphincters",
+      "learning_objective": "The pudendal nerve supplies the external urethral sphincter.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "printed answer-key table, native text pdf p.33 (Ureter/bladder/urethra section, 34=c)",
+        "kasr": "Anatomy MCQ by Dr Jalal [END] bank"
+      }
+    }
+  ]
+}
