@@ -78,3 +78,34 @@ Q11.D  Q12.B
 # Chapter-3 answer-key gaps (not authored this tranche, will HOLD/skip when reached): the key omits rows
 #  Q32, Q36, Q47, Q50, Q53 (and lists up to Q96 for a 91-MCQ chapter) — the missing rows are NOT in the Q1-12 slice.
 # REMAINING for next tranche: Chapter 3 Q13-91, then Chapters 4-15.
+
+# ===================================================================
+# TRANCHE 3 (2026-09-06): Chapter 3 remainder — Q13-40
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf),
+# each RE-VERIFIED against the bank's option text before authoring. 25 authored / 3 held / 0 excluded.
+
+# Chapter 3 — The protective system of the eye (Q13-40, bank printed p.9-12 = PDF p.11-14)
+Q13.B  Q14.D  Q15.B  Q16.C  Q17.B  Q18.D  Q19.D  Q20.—  Q21.D  Q22.A
+Q23.A  Q24.A  Q25.B  Q26.B  Q27.A  Q28.C  Q29.B  Q30.A  Q31.B  Q32.—
+Q33.D  Q34.D  Q35.C  Q36.—  Q37.A  Q38.D  Q39.A  Q40.A
+# HELD (authored around, not emitted):
+#  Q20 — bank printed only three options (a Corneal ulceration, b Diplopia, c Anisometropia);
+#        below the four-option MCQ floor the emitter enforces, so it cannot be a single-best-answer item.
+#  Q32 — answer-key table omits the Q32 row (skips Q31 -> Q33); no printed key to re-verify, held (never guess).
+#  Q36 — answer-key table omits the Q36 row (skips Q35 -> Q37); no printed key to re-verify, held (never guess).
+# Cross-check notes (key -> option chosen, verified vs stem):
+#  Q13 B uveitis (the EXCEPT — not a thyroid-eye sign); Q14 D dryness due to lid oedema (EXCEPT);
+#  Q15 B gland of Zeis (stye); Q16 C Muller's muscle (Horner ptosis); Q17 B scaly dandruff (squamous bleph.);
+#  Q18 D dystrophy of levator (congenital ptosis); Q19 D acute angle-closure glaucoma (EXCEPT, no proptosis);
+#  Q21 D orbicularis paralysis (EXCEPT — causes lagophthalmos not ptosis); Q22 A dry eye (Schirmer);
+#  Q23 A thyroid orbitopathy (commonest adult unilateral proptosis); Q24 A goblet cells (mucin layer);
+#  Q25 B inferior nasal meatus (reuses Ch1 concept; library adds ART-OPH-315-EYE-ANATOMY for coverage);
+#  Q26 B relation to lid margin (stye vs chalazion); Q27 A meibomian gland (chalazion);
+#  Q28 C frontalis sling (severe ptosis, no levator fn); Q29 B trigeminal palsy is the WRONG statement;
+#  Q30 A Hirschberg test (not a dry-eye test); Q31 B trichiasis (EXCEPT — not a drainage sequela);
+#  Q33 D all of the above (congenital ptosis features); Q34 D epilation of lash (EXCEPT — internal hordeolum);
+#  Q35 C ulcerative blepharitis (trichiasis cause); Q37 A punctal obstruction (EXCEPT — causes watering);
+#  Q38 D lacrimal sac (EXCEPT — drainage, not secretory); Q39 A reflex tear secretion (orbital lacrimal gland);
+#  Q40 A nasolacrimal duct obstruction (+ve regurge test).
+# REMAINING for next tranche: Chapter 3 Q41-91, then Chapters 4-15 (Ch.4 Normal/abnormal image capture, 91 MCQs).
