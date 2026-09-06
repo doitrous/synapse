@@ -9,6 +9,7 @@
 | kamal-ch5-motility | 46 | 17 | 0 | 63 |
 | kamal-ch6-glaucoma | 54 | 17 | 0 | 71 |
 | kamal-ch7-red-eye | 58 | 2 | 144 | 204 |
+| kamal-ch8-retina | 28 | 3 | 59 | 90 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -125,3 +126,39 @@
 - Ch.7 keys captured p.4-5: rows Q1-Q204 present EXCEPT Q59/Q63/Q72/Q76/Q84/Q172 (omitted -> HOLD, never guess);
   a T/F (29 cases) section follows, out of scope. Q9-204 remain for later tranches.
 - NEXT cluster: Ch.7 Q9-onward (many single-best; watch for multi-statement vignettes/T-F), then Ch.8-15.
+
+## Tranche 15 (2026-09-06): Chapter 8 The retina OPENED — Q1-31 — 28 MCQs (3 held)
+- Opened Ch.8 in new file question/315-OPH-kamal-ch8-retina-mcq.md on node DIS-OPH-T04 (Retina)
+  and new article ART-OPH-315-RETINA. Authored 28 clean single-best 4-/5-option MCQs
+  (Q1-11, Q13, Q15-28, Q30, Q31). Keys from answer-key p.5-6 Ch.8 table (88 answers),
+  each re-verified vs option text: Q1.D Q2.A Q3.B Q4.D Q5.A Q6.A Q7.A Q8.B Q9.A Q10.A Q11.B
+  Q13.B Q15.C Q16.A Q17.B Q18.A Q19.C Q20.D Q21.B Q22.B Q23.A Q24.D Q25.D Q26.D Q27.A Q28.B
+  Q30.B Q31.B.
+- Held 3: Q12 (multi-true — both "branch-artery field loss" (b) and "ocular emergency" (d)
+  defensibly true, not single-best; key Q12.D); Q29 (multi-true — retinitis pigmentosa both
+  "pigmentary degeneration" (a) and "secondary optic atrophy"/waxy disc pallor (c) defensibly
+  true; key Q29.A); Q14 (answer-key omits the Q14 row, no printed key; never-guess).
+- Concepts: 23 new on DIS-OPH-T04 (Marfan CON-MUL-68CD902A3AD25C Q1; diabetic macular edema
+  commonest vision loss CON-MUL-FC03374F08ABBA Q2/Q23; RP night blindness CON-MUL-B71FD59C678DF1
+  Q3; iris neovascularisation CON-MUL-2D5537A21D4226 Q4; retinoblastoma leukocoria
+  CON-MUL-EF216E10015862 Q5; rhegmatogenous RD tear/surgery CON-MUL-0D7E346D95DE34 Q6/Q13; DR risk
+  duration+control CON-MUL-89DBBAE1EBCF48 Q7; vitreous haemorrhage PPV CON-MUL-992B03BF5B2DA6 Q8;
+  CRVO risk factors CON-MUL-6C2A7B0839154C Q9; MS optic neuritis CON-MUL-8AE1B2B3F2F161 Q10;
+  diabetic maculopathy features CON-MUL-2B7C1BAB6A8A20 Q11/Q25; exudative RD causes
+  CON-MUL-634453721573C2 Q15/Q20; CRAO cherry-red spot CON-MUL-D6D8B1DAE97079 Q16/Q31; wet ARMD
+  anti-VEGF CON-MUL-BD64B884401EA7 Q17; RP flat ERG CON-MUL-86596B23FB38B9 Q18; CRVO anti-VEGF
+  CON-MUL-5A65937865AF60 Q19; anti-VEGF indications CON-MUL-C8FB8D08587942 Q21; RD plane
+  neurosensory/RPE CON-MUL-7CC8577EE7523B Q22; DR neovascularisation from ischaemia
+  CON-MUL-076044B0008F4F Q24; retinal blood supply CON-MUL-AE4472E9A11DBF Q26; rhegmatogenous RD
+  risk factors CON-MUL-0BCA326DF12B10 Q27; choroidal melanoma features CON-MUL-C72572221990A6 Q28;
+  CRVO painless features CON-MUL-C936EF1E19FD32 Q30). All 23 added to ART-OPH-315-RETINA
+  related_concepts. 0 reused from other chapters (Ch.8 is a fresh topic tree); 5 reused WITHIN
+  Ch.8 (Q13/Q20/Q23/Q25/Q31 reuse a sibling Ch.8 concept).
+- Gates: batch 28 items / 0 errors (with concept+article+resource siblings), run per micro-slice
+  (10/19/28 cumulative). Each slice committed and pushed to origin/main immediately.
+- Ch.8 now 28 authored + 3 held = 31; remaining 59 (Q32-Q90). Answer-key omits rows Q14 and Q39
+  (HOLD when reached, never guess). A T/F (13 cases) section follows the MCQs, out of scope.
+- Deferred-for-adjudication count: was ~46, +2 multi-true (Q12, Q29) = ~48.
+- NEXT cluster: Ch.8 Q32-Q90 (Q34 CRVO-on-OCP vignette, Q35 melanoma reuse, Q36 RD-plane reuse,
+  Q37/Q40 EXCEPT items are clean; Q39 no-key hold; watch Q42/Q43-class patient vignettes and the
+  T/F 13-case section for adjudication), then Ch.9 The eye and the brain (answer key p.6, 72 MCQs).

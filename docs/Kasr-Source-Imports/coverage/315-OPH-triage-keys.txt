@@ -372,3 +372,23 @@ Q61.C  Q62.D  Q63.D  Q64.D  Q65.D  Q66.B  Q67.B  Q68.D  Q69.C  Q70.B  Q71.A
 #  then Ch.7 The red eye (198-answer key p.4-5), Ch.8-15.
 # STILL DEFERRED for adjudication (carried forward): Ch.5 vignettes Q32/34/35/37-47/59; Ch.4 Q50-54 +
 #  Q55/57/58/59/61/62/64/65/66/67; Ch.3 vignettes Q59-76 + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49; Ch.6 Q26/Q31.
+
+# ===================================================================
+# TRANCHE 15 (2026-09-06): Chapter 8 The retina OPENED — Q1-31
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf,
+# p.5-6 "Chapter 8: The retina: function and diseases / MCQs (88 answers)"), each RE-VERIFIED
+# against the bank's option text before authoring. Node DIS-OPH-T04 (Retina), article ART-OPH-315-RETINA.
+#
+# Full Ch.8 MCQ key (Q1-Q90; answer-key OMITS rows Q14 and Q39 -> HOLD when reached, never guess):
+# Q1.D Q2.A Q3.B Q4.D Q5.A Q6.A Q7.A Q8.B Q9.A Q10.A Q11.B Q12.D Q13.B [Q14 no-key] Q15.C Q16.A
+# Q17.B Q18.A Q19.C Q20.D Q21.B Q22.B Q23.A Q24.D Q25.D Q26.D Q27.A Q28.B Q29.A Q30.B Q31.B Q32.B
+# Q33.D Q34.B Q35.C Q36.C Q37.D Q38.C [Q39 no-key] Q40.C Q41.D Q42.A Q43.A Q44.A Q45.D Q46.A Q47.B
+# Q48.C Q49.A Q50.A Q51.B Q52.B Q53.A Q54.B Q55.B Q56.A Q57.B Q58.C Q59.A Q60.C Q61.D Q62.A Q63.A
+# Q64.C Q65.B Q66.C Q67.A Q68.D Q69.C Q70.A Q71.C Q72.C Q73.C Q74.B Q75.D Q76.A Q77.D Q78.C Q79.C
+# Q80.C Q81.C Q82.D Q83.A Q84.C Q85.A Q86.D Q87.D Q88.D Q89.B Q90.B
+# A T/F (13 cases) section follows the MCQs (out of scope).
+#
+# THIS TRANCHE authored Q1-31 (28 clean single-best): Q1-11, Q13, Q15-28, Q30, Q31.
+# Held: Q12 (multi-true b+d, key D), Q29 (multi-true a+c, key A) -> multi-true adjudication;
+#       Q14 (no printed key) -> never-guess.
