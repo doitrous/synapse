@@ -285,3 +285,51 @@ Q61.C  Q62.D  Q63.A
 #  then Ch.6 Glaucoma (key p.3, 70 answers; table omits Q36/Q48/Q49), Ch.7 Red eye, Ch.8-15.
 # STILL DEFERRED for adjudication (do NOT author blind, unchanged this tranche): Ch.4 Q50-54; Ch.3 vignettes Q59-76 + Q89-91;
 #  Ch.3 sub-4-option Q20 (3-option), Q48 & Q49 (True/False).
+# ===================================================================
+# TRANCHE 9 (2026-09-06): Chapter 5 Q28-63 tail + Chapter 6 key table captured
+# ===================================================================
+# Keys from the companion PRINTED ANSWER KEY (Ophthalmology - Answer Key . Dr. Kamal.pdf), p.3
+# Chapter 5 table (63 answers, all rows present) + p.3-4 Chapter 6 table (70 answers).
+# Each authored key RE-VERIFIED against the bank option text (bank pp.47-53 = PDF p.47-53).
+# 21 authored / 17 held / 0 excluded in this slice. Chapter 5 is now fully triaged.
+
+# Chapter 5 - Ocular motility (Q28-63 tail; keys already tabled in Tranche 8)
+# AUTHORED (21) clean single-best: Q28.B Q29.D Q30.B Q31.B Q33.D Q36.B Q48.C Q49.D Q50.B
+#  Q51.D Q52.B Q53.B Q54.B Q55.D Q56.D Q57.D Q58.C Q60.D Q61.C Q62.D Q63.A
+# HELD below the four-option floor (2): Q26 (True/False, key B), Q27 (3-option, key A).
+# DEFERRED for multi-true adjudication (15, NOT authored) - patient-scenario vignettes whose
+#  lettered statements each have more than one defensibly true option (same class as Ch.3/Ch.4
+#  deferred vignettes): Q32.D Q34.A Q35.B Q37.B Q38.C Q39.C Q40.A Q41.D Q42.C Q43.D Q44.A Q45.D
+#  Q46.C Q47.A Q59.B. (Post-Q63 T/F Cases 1-6 are a separate multi-true section, out of scope.)
+# Cross-check notes (authored key -> option chosen, verified vs stem):
+#  Q28 B secondary angle > primary in paralytic squint; Q29 D trochlear supplies only superior oblique (5-opt);
+#  Q30 B exophoria = latent outward deviation (5-opt); Q31 B amblyopia can be caused by congenital cataract (5-opt);
+#  Q33 D pseudostrabismus (big IPD) - no movement on cover-uncover; Q36 B accommodative esotropia helped by glasses;
+#  Q48 C binocular conjugate movement = versions; Q49 D inferior oblique origin is orbital floor, not apex (EXCEPT);
+#  Q50 B apparent squint - eyes straight, central corneal reflex; Q51 D apparent squint from small/large IPD;
+#  Q52 B child esotropia needs fundoscopy + retinoscopy; Q53 B occlude the non-squinting eye (amblyopia Rx);
+#  Q54 B acquired concomitant squint may be refractive; Q55 D no diplopia in unilateral concomitant squint (EXCEPT, suppression);
+#  Q56 D concomitant squint has full ductions - not diagnosed by limited movement (EXCEPT);
+#  Q57 D paralytic squint diagnosed by limitation of movement; Q58 C abduction preserved in 3rd-nerve palsy (EXCEPT);
+#  Q60 D dilated pupil in 3rd-nerve palsy; Q61 C head trauma commonest cause of bilateral 4th-nerve palsy;
+#  Q62 D 4th-nerve palsy limits downward-and-inward movement; Q63 A acquired 6th-nerve palsy needs MRI.
+# Concepts: 4 new minted on DIS-OPH-T05 (versions/vergences CON-MUL-EE612F7A3025B7; childhood-esotropia
+#  workup CON-MUL-B1E4ED1B528512; concomitant strabismus CON-MUL-967654FE636B2E [Q54/55/56];
+#  trochlear nerve palsy CON-MUL-FF63FA938CE91B [Q61/62]); 11 reuse existing Ch.5 concepts.
+
+# Chapter 6 - The glaucomas (70 answers) - CAPTURED for keys only, NOT authored this tranche.
+# Answer-key table p.3-4: rows Q1-Q35 and Q37-Q71 present; Q36 is the ONLY omitted row (HOLD, never guess).
+# (Earlier note said Q48/Q49 also omitted - CORRECTED: Q48.C and Q49.B ARE present on answer-key p.4;
+#  verify their option text is 4/5-option single-best before authoring.)
+Q1.B   Q2.D   Q3.C   Q4.B   Q5.A   Q6.B   Q7.B   Q8.D   Q9.B   Q10.C
+Q11.B  Q12.A  Q13.D  Q14.C  Q15.C  Q16.D  Q17.A  Q18.D  Q19.C  Q20.A
+Q21.B  Q22.C  Q23.B  Q24.A  Q25.B  Q26.C  Q27.B  Q28.C  Q29.B  Q30.B
+Q31.A  Q32.B  Q33.A  Q34.D  Q35.D  Q36.—  Q37.D  Q38.A  Q39.B  Q40.A
+Q41.B  Q42.B  Q43.C  Q44.C  Q45.C  Q46.C  Q47.A  Q48.C  Q49.B  Q50.B
+Q51.C  Q52.D  Q53.A  Q54.D  Q55.B  Q56.D  Q57.A  Q58.B  Q59.A  Q60.D
+Q61.C  Q62.D  Q63.D  Q64.D  Q65.D  Q66.B  Q67.B  Q68.D  Q69.C  Q70.B  Q71.A
+# Node: DIS-OPH-T03 Glaucoma exists. New article ART-OPH-315-GLAUCOMA to be minted next tranche.
+# REMAINING: Chapter 6 authoring (new file question/315-OPH-kamal-ch6-glaucoma-mcq.md), then Ch.7 Red eye
+#  (198 answers, key p.4-5), Ch.8-15.
+# STILL DEFERRED for adjudication (do NOT author blind, carried forward): Ch.5 vignettes Q32/34/35/37-47/59;
+#  Ch.4 Q50-54 + Q55/57/58/59/61/62/64/65/66/67; Ch.3 vignettes Q59-76 + Q89-91; Ch.3 sub-4-option Q20/Q48/Q49.
