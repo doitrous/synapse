@@ -13,8 +13,9 @@
 | abolmagd-cvs Heart chapter tail (Q85-91, same paper) | 7 | 0 | 0 | 0 (→ Ischemic Heart Disease Q92+ p.18) | 7 |
 | abolmagd-cvs Ischemic Heart Disease (Q92-105, same paper) | 13 | 1 | 0 | 0 (→ Heart Diseases Q106+ p.20) | 14 |
 | abolmagd-cvs Heart Diseases (Q106-137, same paper) | 32 | 0 | 0 | 0 (→ 2008-2015 MCQ set Q138+ p.25) | 32 |
-| **abolmagd-cvs cluster total** | **132** | **1** | **3** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 132 | 1 | 3 | untriaged | — |
+| abolmagd-cvs 2008-2015 ADDITIONAL (Q138-144, same paper) | 2 | 0 | 5 | 0 (paper MCQs EXHAUSTED; Q145+ is non-MCQ Written) | 7 |
+| **abolmagd-cvs cluster total** | **134** | **1** | **8** | done (this paper) | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 134 | 1 | 8 | untriaged (other PAT papers; pharma corpus needs adjudication) | — |
 
 ## Module opened
 
@@ -276,7 +277,33 @@ offered). The [196] tags on Q133-137 are yellow batch highlights, not answers. F
 concept 95/0, article 7/0; simulate created=135/rejected=0/errors=0; audit neutral vs the 310-PAT
 baseline — the same 5 placeholder families, no new error category, count scales with item count).
 
-## Next cluster
+## Cluster — abolmagd-cvs-2008-2015 (Q138-144) — SATURATED, paper exhausted
+
+2/7 authored (Q138, Q140), **5 held as duplicates (Q139, Q141, Q142, Q143, Q144), 0 excluded** =
+**71% duplicate → SATURATED**. This is the paper's LAST MCQ section (`iii. ADDITIONAL`, the
+"2008 → 2015 CVS PATHOLOGY MCQ" divider, pp.25-26 / printed 24-25); after Q144 the paper is the
+non-MCQ `iV. WRITTEN` topics list (Q145+), so **this paper's MCQ content is now fully exhausted**.
+The 2008-2015 set is largely UNMARKED by the student (Q138/143/144 carry 0 red); red keys confirmed
+Q139.d, Q140.a, Q141.c, Q142.b; unmarked keys by medical adjudication of the single correct option.
+**Authored:** Q138 (true statement about rheumatic fever → complicated by subacute IE; reuses the
+subacute-IE-damaged-valves concept CON-CVS-8FC8A80785631B as main + RF concept CON-CVS-41547BEDC714F8
+contextual — 0 new concepts) and Q140 (focal embolic glomerulonephritis / flea-bitten kidney →
+subacute IE; **1 new concept minted** CON-CVS-B8D0A45E7D2DCB, university-blind, collision-checked, no
+collision, under ART-CVS-310PAT-ENDOCARDITIS). **Held dupes (dup target):** Q139 → QST-…-132
+(left-HF-causes-EXCEPT-emphysema); Q141 → QST-…-50 (cerebral aneurysm = congenital, verbatim);
+Q142 → QST-…-04/-05 (benign-HTN vascular change = hyalinosis); Q143 → QST-…-73 (subacute IE from
+embolic stigmata — Osler's nodes vs Roth spots, same concept CON-CVS-CAF69B8F78112F); Q144 → QST-…-71/-90
+(MacCallum's patch = rheumatic). Files: `question/310-PAT-abolmagd-cvs-2008-2015-mcq.md`, seed
+`coverage/seeds/310-PAT/abolmagd-cvs-2008-2015.json`. **Gate-clean** (question 2/0, concept 96/0;
+simulate created=106/rejected=0/errors=0; audit NEUTRAL vs the 310-PAT baseline — 0 new/dropped
+categories, delta = +8 blank-optional-field errors from the single new concept, questions add 0).
+**Next:** do NOT continue this exhausted paper. Pivot 310-PAT Pathology to another source
+(`Pathology MCQs Dr Elnemr 2025.pdf` or `EOY - PAT 310 2024.pdf`). The **Pharmacology** sub-corpus
+(`All 197 Qs answered by pharmaga.pdf` et al., subject `pharm`) is FLAGGED FOR ADJUDICATION — it may
+belong to a different module than 310 Pathology; Omar should rule on placement before any pharma
+items are authored under this Pathology module id.
+
+## Next cluster (superseded — paper now exhausted)
 
 **Remaining on this paper:** the **2008-2015 CVS PATHOLOGY MCQ set** (`iii. ADDITIONAL`) — **Q138+
 (p.25+ / printed 24+)**: rheumatic fever, heart-failure and endocarditis items, then Written topics

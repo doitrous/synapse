@@ -10558,3 +10558,114 @@ sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q132, p.24 / printed 23; detector red b 'emphysema' excluded); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-B8D0A45E7D2DCB
+## label
+Focal embolic glomerulonephritis (flea-bitten kidney) is the renal lesion of subacute infective endocarditis
+## canonical_key
+subacute-infective-endocarditis.focal-embolic-glomerulonephritis-flea-bitten-kidney
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+FOCAL EMBOLIC glomerulonephritis (Loehlein's focal embolic nephritis), which produces the petechial 'flea-bitten' kidney, is the characteristic renal lesion of SUBACUTE infective endocarditis. Small septic and immune-complex emboli from the friable valve vegetations (classically Streptococcus viridans on a previously damaged valve) lodge in glomerular capillaries and cause scattered FOCAL segmental necrosis and haemorrhage, giving the cortical surface its flea-bitten petechial appearance. This contrasts with the DIFFUSE glomerular involvement of generic immune-complex disease and of lupus nephritis, and with the larger septic infarcts/abscesses thrown by acute infective endocarditis.
+## explicit_objective
+Attribute focal embolic (flea-bitten) glomerulonephritis to subacute infective endocarditis, distinguishing it from diffuse immune-complex glomerulonephritis and lupus nephritis.
+## pitfalls
+Confusing the focal embolic 'flea-bitten' kidney of subacute endocarditis with the petechial 'flea-bitten' kidney of MALIGNANT hypertension, or assigning the focal embolic pattern to acute infective endocarditis, generic immune-complex disease, or SLE (which give diffuse, not focal embolic, glomerular lesions).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Endocarditis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Infective endocarditis
+## article_ids
+ART-CVS-310PAT-ENDOCARDITIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "subacute-infective-endocarditis.focal-embolic-glomerulonephritis-flea-bitten-kidney", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q140, p.25 / printed 24; detector red a 'subacute infective endocarditis'); no department book located/read this pass.
+
+---
