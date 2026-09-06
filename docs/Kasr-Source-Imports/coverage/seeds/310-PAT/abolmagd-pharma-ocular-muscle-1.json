@@ -1,0 +1,126 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-pharma-ocular-muscle",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · PHARMACOLOGY subject · Ocular Pharmacology (Q1-3) and Musculoskeletal (Q1,3), authored from the student 'Pharma MCQ by Abolmagd' compilation (p.10). Muscle Q2 (neostigmine reversal) duplicates ANS Q11/Q21 (excluded); Muscle Q4 (CCB) deferred to CVS & Renal. No printed answer key; answers expert-determined by medical reasoning, proven in per-option explanations. STATUS=Draft.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-PAT-310-PHARMACOLOGY-OCULAR"],
+    "resource_ids": ["src_88f58dc630a0ed14bb4e"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pharma MCQ by Abolmagd, Ocular & Musculoskeletal sections, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pharmacology",
+    "subtopic": "Ocular pharmacology",
+    "question_type": "Mechanism",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 10,
+    "field_notes": { "keySource": "expert-determined by medical reasoning; no source answer key printed in this bank; rationale in per-option explanations" }
+  },
+  "questions": [
+    {
+      "key": "oq1", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-OCU-01",
+      "title": "Glaucoma drug class that reduces aqueous production",
+      "question": "Regarding the treatment of glaucoma, which one of the following groups of drugs reduces aqueous humour production?",
+      "options": { "A": "Beta-blockers", "B": "Miotics", "C": "Prostaglandin analogues", "D": "Hyperosmotic agents" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Topical beta-blockers such as timolol block beta receptors on the ciliary epithelium, reducing the formation (production) of aqueous humour and thereby lowering intraocular pressure. Decreasing inflow, rather than increasing outflow, is their mechanism in glaucoma. This makes beta-blockers the aqueous-suppressing group here.",
+        "B": "Incorrect. Miotics (pilocarpine) lower pressure by INCREASING trabecular outflow through ciliary-muscle contraction, not by reducing production.",
+        "C": "Incorrect. Prostaglandin analogues (latanoprost) lower pressure by increasing UVEOSCLERAL outflow, again an outflow effect, not reduced production.",
+        "D": "Incorrect. Hyperosmotic agents (mannitol) draw fluid out of the eye osmotically for acute pressure reduction; they do not reduce aqueous production."
+      },
+      "main_concept": "CON-PHA-038602644963B9", "concept_ids": ["CON-PHA-038602644963B9"],
+      "subtopic": "Glaucoma",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify beta-blockers as the glaucoma drugs that reduce aqueous humour production.",
+      "module_subject": "310 PAT > Pharmacology > Ocular > Glaucoma"
+    },
+    {
+      "key": "oq2", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-OCU-02",
+      "title": "Mechanism of apraclonidine in glaucoma",
+      "question": "Apraclonidine is used for the treatment of glaucoma. Which of the following describes its mechanism of action?",
+      "options": { "A": "Selective stimulation of alpha-2 receptors", "B": "Non-selective block of beta receptors", "C": "Selective stimulation of muscarinic receptors", "D": "Agonistic action on prostaglandin receptors" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Apraclonidine is a selective alpha-2 adrenergic AGONIST. Stimulating alpha-2 receptors on the ciliary body reduces aqueous humour formation (and enhances outflow), lowering intraocular pressure. This alpha-2 agonism, shared with brimonidine, is its mechanism in glaucoma.",
+        "B": "Incorrect. Beta-blockade is the mechanism of timolol, not apraclonidine.",
+        "C": "Incorrect. Muscarinic stimulation is the action of miotics such as pilocarpine, not apraclonidine.",
+        "D": "Incorrect. Prostaglandin-receptor agonism describes latanoprost, a different class."
+      },
+      "main_concept": "CON-PHA-36A11E2FB45429", "concept_ids": ["CON-PHA-36A11E2FB45429"],
+      "subtopic": "Glaucoma",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "State that apraclonidine lowers intraocular pressure as a selective alpha-2 adrenergic agonist.",
+      "module_subject": "310 PAT > Pharmacology > Ocular > Glaucoma"
+    },
+    {
+      "key": "oq3", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-OCU-03",
+      "title": "Adrenaline prodrug used topically in glaucoma",
+      "question": "Which of the following is a prodrug of adrenaline used topically in glaucoma?",
+      "options": { "A": "Brimonidine", "B": "Dipivefrine", "C": "Phenylpropanolamine", "D": "Dorzolamide" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Brimonidine is a selective alpha-2 agonist, not a prodrug of adrenaline.",
+        "B": "Correct. Dipivefrine (dipivefrin) is the dipivalyl ester PRODRUG of adrenaline (epinephrine). Its lipophilic ester groups improve corneal penetration; once inside the eye, esterases hydrolyse it to active adrenaline, which lowers intraocular pressure. Being an inactive ester that is converted to adrenaline in situ is precisely what makes it a prodrug.",
+        "C": "Incorrect. Phenylpropanolamine is a systemic sympathomimetic decongestant, not an ocular adrenaline prodrug.",
+        "D": "Incorrect. Dorzolamide is a topical carbonic anhydrase inhibitor, not a prodrug of adrenaline."
+      },
+      "main_concept": "CON-PHA-692F8964C13C2C", "concept_ids": ["CON-PHA-692F8964C13C2C"],
+      "subtopic": "Glaucoma",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify dipivefrine as the lipophilic ester prodrug of adrenaline used topically in glaucoma.",
+      "module_subject": "310 PAT > Pharmacology > Ocular > Glaucoma"
+    },
+    {
+      "key": "mq1", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-MUS-01",
+      "title": "Mechanism of botulinum toxin at the neuromuscular junction",
+      "question": "Botulinum toxin blocks neuromuscular transmission by which of the following mechanisms?",
+      "options": { "A": "Interfering with the release of acetylcholine from vesicles at the synapse", "B": "Closure of Na+ channels at the postsynaptic membrane", "C": "Opening of K+ channels at the presynaptic membrane", "D": "Opening of Cl- channels at the postsynaptic membrane" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Botulinum toxin cleaves SNARE proteins (such as SNAP-25) that are required for synaptic-vesicle fusion, so it PREVENTS the release of acetylcholine from the presynaptic motor nerve terminal. Without acetylcholine release there is no end-plate depolarisation, producing flaccid paralysis. Blocking transmitter release is its defining mechanism.",
+        "B": "Incorrect. Botulinum toxin does not act on postsynaptic sodium channels; it works presynaptically on transmitter release.",
+        "C": "Incorrect. It does not open presynaptic potassium channels; it disables the vesicle-fusion machinery.",
+        "D": "Incorrect. Postsynaptic chloride-channel opening is not the mechanism; the block is presynaptic and cholinergic."
+      },
+      "main_concept": "CON-PHA-A363CBC93B9AE0", "concept_ids": ["CON-PHA-A363CBC93B9AE0"],
+      "subtopic": "Muscle relaxants",
+      "topic": "Pharmacology",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "library_ids": ["ART-PAT-310-PHARMACOLOGY-MUSCLE"],
+      "learning_objective": "State that botulinum toxin blocks transmission by preventing presynaptic acetylcholine release.",
+      "module_subject": "310 PAT > Pharmacology > Musculoskeletal > Muscle relaxants"
+    },
+    {
+      "key": "mq3", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-MUS-03",
+      "title": "Classification of baclofen",
+      "question": "Baclofen is:",
+      "options": { "A": "A centrally acting muscle relaxant", "B": "A directly acting muscle relaxant", "C": "A peripherally acting muscle relaxant", "D": "Both a centrally and a peripherally acting muscle relaxant" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Baclofen is a CENTRALLY acting muscle relaxant: it is a GABA-B receptor agonist that reduces excitatory transmission in the spinal cord, decreasing spasticity in conditions such as multiple sclerosis and spinal injury. Its action on central (spinal) reflexes, not on the muscle itself, defines it as centrally acting.",
+        "B": "Incorrect. A directly (peripherally) acting relaxant works on the muscle fibre itself, e.g. dantrolene, which blocks calcium release from the sarcoplasmic reticulum; baclofen does not.",
+        "C": "Incorrect. Peripherally acting relaxants act at the neuromuscular junction or muscle; baclofen acts centrally.",
+        "D": "Incorrect. Baclofen is purely central, not both central and peripheral."
+      },
+      "main_concept": "CON-PHA-B380A4C7743751", "concept_ids": ["CON-PHA-B380A4C7743751"],
+      "subtopic": "Muscle relaxants",
+      "topic": "Pharmacology",
+      "question_type": "Classification",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "library_ids": ["ART-PAT-310-PHARMACOLOGY-MUSCLE"],
+      "learning_objective": "Classify baclofen as a centrally acting (GABA-B agonist) muscle relaxant.",
+      "module_subject": "310 PAT > Pharmacology > Musculoskeletal > Muscle relaxants"
+    }
+  ]
+}

@@ -3169,3 +3169,408 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-038602644963B9
+## label
+Beta-blockers reduce aqueous production in glaucoma
+## canonical_key
+glaucoma.aqueous-production.beta-blockers
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Topical beta-blockers such as timolol act on beta receptors of the ciliary epithelium to REDUCE the formation of aqueous humour, lowering intraocular pressure by decreasing inflow. This contrasts with the outflow-enhancing groups: miotics (increase trabecular outflow), prostaglandin analogues (increase uveoscleral outflow) and hyperosmotic agents (osmotic dehydration of the eye).
+## explicit_objective
+Identify beta-blockers as the glaucoma drugs that reduce aqueous humour production.
+## pitfalls
+Confusing aqueous-suppressing beta-blockers with outflow-enhancing miotics and prostaglandin analogues.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Ocular > Glaucoma
+## article_ids
+ART-PAT-310-PHARMACOLOGY-OCULAR
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-36A11E2FB45429
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-36A11E2FB45429
+## label
+Apraclonidine is an alpha-2 agonist for glaucoma
+## canonical_key
+apraclonidine.alpha2-agonist.glaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Apraclonidine is a selective alpha-2 adrenergic agonist. Stimulating alpha-2 receptors on the ciliary body reduces aqueous humour formation (and improves outflow), lowering intraocular pressure. It shares this mechanism with brimonidine and differs from beta-blockers, miotics and prostaglandin analogues used in glaucoma.
+## explicit_objective
+State that apraclonidine lowers intraocular pressure as a selective alpha-2 adrenergic agonist.
+## pitfalls
+Assigning apraclonidine a beta-blocking or muscarinic mechanism; it is an alpha-2 agonist.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Ocular > Glaucoma
+## article_ids
+ART-PAT-310-PHARMACOLOGY-OCULAR
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F4085607789FEC
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-692F8964C13C2C
+## label
+Dipivefrine is a prodrug of adrenaline for glaucoma
+## canonical_key
+dipivefrine.adrenaline-prodrug.glaucoma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dipivefrine (dipivefrin) is the dipivalyl ester PRODRUG of adrenaline. Its lipophilic ester groups improve corneal penetration; ocular esterases then hydrolyse it to active adrenaline, which lowers intraocular pressure. Being an inactive ester converted to adrenaline within the eye is exactly what makes it a prodrug, distinguishing it from the alpha-2 agonist brimonidine and the carbonic anhydrase inhibitor dorzolamide.
+## explicit_objective
+Identify dipivefrine as the lipophilic ester prodrug of adrenaline used topically in glaucoma.
+## pitfalls
+Confusing dipivefrine with brimonidine (alpha-2 agonist) or dorzolamide (carbonic anhydrase inhibitor).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Glaucoma
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Ocular > Glaucoma
+## article_ids
+ART-PAT-310-PHARMACOLOGY-OCULAR
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-038602644963B9
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-A363CBC93B9AE0
+## label
+Botulinum toxin blocks acetylcholine release
+## canonical_key
+botulinum-toxin.acetylcholine-release-block
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Botulinum toxin cleaves SNARE proteins (such as SNAP-25) required for synaptic-vesicle fusion, so it PREVENTS release of acetylcholine from the presynaptic motor nerve terminal. Without acetylcholine release there is no end-plate depolarisation, producing flaccid paralysis. This presynaptic block of transmitter release is exploited therapeutically in dystonias, spasticity and cosmetically.
+## explicit_objective
+State that botulinum toxin blocks transmission by preventing presynaptic acetylcholine release.
+## pitfalls
+Ascribing the effect to a postsynaptic channel block; the toxin acts presynaptically on vesicle fusion.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Muscle relaxants
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Musculoskeletal > Muscle relaxants
+## article_ids
+ART-PAT-310-PHARMACOLOGY-MUSCLE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-B380A4C7743751
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-B380A4C7743751
+## label
+Baclofen is a centrally acting muscle relaxant
+## canonical_key
+baclofen.central-muscle-relaxant
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Baclofen is a centrally acting skeletal-muscle relaxant and a GABA-B receptor agonist. By enhancing GABA-B inhibition it reduces excitatory transmission in the spinal cord, decreasing spasticity in multiple sclerosis and spinal cord injury. Acting on central (spinal) reflexes rather than on the muscle fibre distinguishes it from directly acting agents such as dantrolene.
+## explicit_objective
+Classify baclofen as a centrally acting (GABA-B agonist) muscle relaxant.
+## pitfalls
+Calling baclofen a directly or peripherally acting relaxant; it acts centrally at spinal GABA-B receptors.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Muscle relaxants
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Musculoskeletal > Muscle relaxants
+## article_ids
+ART-PAT-310-PHARMACOLOGY-MUSCLE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-A363CBC93B9AE0
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

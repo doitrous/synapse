@@ -301,3 +301,179 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 7
+
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-OCULAR
+## title
+Ocular pharmacology: drugs for glaucoma
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Glaucoma is treated by lowering intraocular pressure through two routes: reducing aqueous humour production or increasing its outflow. Aqueous production is reduced by beta-blockers (timolol), alpha-2 agonists (apraclonidine, brimonidine) and carbonic anhydrase inhibitors (dorzolamide); outflow is increased by miotics (pilocarpine, trabecular) and prostaglandin analogues (latanoprost, uveoscleral). Dipivefrine is a lipophilic ester prodrug of adrenaline that penetrates the cornea and is converted to active drug in the eye.
+## sections
+### Definition
+This article groups the ocular concepts tested by Q1-3 of the bank: the classes of glaucoma drugs and their mechanisms.
+### Mechanism
+Beta-blockers and alpha-2 agonists suppress ciliary aqueous formation; miotics and prostaglandin analogues enhance outflow; dipivefrine is a prodrug bioactivated to adrenaline by ocular esterases.
+### Key determinants
+Discriminators tested here: beta-blockers reduce PRODUCTION (miotics/prostaglandins increase OUTFLOW); apraclonidine = alpha-2 agonist; dipivefrine = adrenaline prodrug.
+### Clinical significance
+Choosing the right class matters in chronic open-angle glaucoma and in acute pressure emergencies, and explains the systemic side effects of topical agents.
+### Common misconceptions
+The frequent trap is confusing production-reducing with outflow-increasing classes; each linked concept's pitfalls field states the exact distinction.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Ocular
+## subtopic
+Glaucoma
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-038602644963B9
+CON-PHA-36A11E2FB45429
+CON-PHA-692F8964C13C2C
+## related_articles
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+5
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-MUSCLE
+## title
+Skeletal muscle relaxants: central, direct and neuromuscular agents
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Skeletal-muscle relaxants act at three levels. Centrally acting agents such as baclofen (a GABA-B agonist) reduce spinal excitatory transmission to relieve spasticity. Neuromuscular-junction agents include non-depolarising blockers (reversed by neostigmine or encapsulated by sugammadex) and botulinum toxin, which prevents presynaptic acetylcholine release by cleaving SNARE proteins. Directly acting agents such as dantrolene act on the muscle fibre itself by blocking sarcoplasmic calcium release.
+## sections
+### Definition
+This article groups the musculoskeletal concepts tested by Q1 and Q3 of the section: botulinum toxin's mechanism and the classification of baclofen.
+### Mechanism
+Baclofen enhances spinal GABA-B inhibition (central); botulinum toxin blocks acetylcholine release presynaptically; directly acting relaxants act on excitation-contraction coupling.
+### Key determinants
+Discriminators tested here: botulinum toxin = block of presynaptic acetylcholine RELEASE (not a postsynaptic channel); baclofen = CENTRALLY acting (GABA-B), not direct or peripheral.
+### Clinical significance
+These agents treat spasticity, dystonia and provide surgical relaxation, and their level of action determines their side effects and reversal.
+### Common misconceptions
+The frequent trap is placing botulinum's action postsynaptically or classing baclofen as directly acting; each linked concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Musculoskeletal
+## subtopic
+Muscle relaxants
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-A363CBC93B9AE0
+CON-PHA-B380A4C7743751
+## related_articles
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+5

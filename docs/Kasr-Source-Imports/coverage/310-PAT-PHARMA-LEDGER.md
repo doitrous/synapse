@@ -14,7 +14,8 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · ANS autonomic (Q21,26,27,30,31,32,34,35, pp.6-8) | 8 | 0 | 4 | 0 (Q22-25 deferred to CVS/Renal) | 12 |
 | Abolmagd Pharma · ANS tail (Q37-39 + Q43-45 PK, pp.8-9) | 6 | 0 | 3 | 0 (Q46 deferred to Autacoids) | 9 |
 | Abolmagd Pharma · Autacoids (Q1-7, p.11-12; incl. deferred ANS diphenhydramine) | 7 | 0 | 0 | 0 | 7 |
-| **Pharmacology subject total** | **41** | **0** | **7** | Q22-25→CVS/Renal, then Ocular/Muscle, CVS & Renal, Blood | — |
+| Abolmagd Pharma · Ocular Q1-3 + Muscle Q1,3 (p.10) | 5 | 0 | 1 | 0 (Muscle Q4 CCB→CVS) | 6 |
+| **Pharmacology subject total** | **46** | **0** | **8** | Q22-25 + Muscle-Q4 → CVS/Renal, then CVS & Renal, Blood | — |
 
 ## Subject opened
 
