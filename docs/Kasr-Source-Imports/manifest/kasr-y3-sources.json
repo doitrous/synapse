@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 5,
+ "count": 6,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -241,6 +241,54 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "Native text layer for stems+options (no OCR). Correct answers come from the section-end ANSWER KEY grids, which are page images (no text layer): the Ear grid (p20) was rendered once and read visually, then each key cross-checked against the printed option text before authoring. First authored tranche: Ear section Q1-18 (17 authored, Q17 held: its printed key is 'e' but the stem prints only options a-d, a key/stem conflict held per the never-guess rule). See coverage/316-ENT-triage-keys.txt."
+  },
+  {
+   "sourceId": "src_d21e884926be1b92ec4a",
+   "sha256": "d21e884926be1b92ec4a9e7d154d0b4535a1fde9737c17450b97d6a2851b8195",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/327 MPE Ethics/MPE Ethics/Questions & MCQs/MPE 327 PY Answered.pdf",
+   "corpusRelativePath": "327 MPE Ethics/MPE Ethics/Questions & MCQs/MPE 327 PY Answered.pdf",
+   "fileName": "MPE 327 PY Answered.pdf",
+   "fileNameWithoutInstructions": "MPE 327 PY Answered.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "327 MPE",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Medical Professionalism",
+    "Medical Ethics",
+    "Medical responsibility"
+   ],
+   "rawModuleShorthand": "327 MPE Ethics",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Instructor material",
+   "instructor": "Al-Jame' Al-Mo'een study series (student compilation)",
+   "crossModulePractical": false,
+   "subject": "Medical Ethics",
+   "folderSubject": "MPE Ethics",
+   "subjectSource": "folder",
+   "departmentAuthored": false,
+   "tierEvidence": "Student-compilation 'previous years, answered' MCQ+True/False bank branded 'MPE 327 PY Answered' from the 'سلسلة الجامع المعين' (Al-Jame' Al-Mo'een) study series; a study-series compilation, not department-authored. Marked as answered (correct option highlighted).",
+   "examType": "bank",
+   "examPaperEvidence": "Cover: 'MPE 327 PY Answered' / 'Classified Questions from previous years exams', 'سلسلة الجامع المعين'. Red section headers each split into '1) MCQs' and '2) T/F Sentences': 1) Egyptian medical syndicate (EMS) p3, 2) Medical errors p3, 3) Malpractice & medical responsibility p9, plus further MCQ sections at p20/p25/p29/p35/p44/p45. Questions numbered continuously across sections (Q1-...), 4 options each for MCQs; True/False items interleaved. Per-question bracket tags ([196 1st], [194 1st], [193 2nd], [192 2nd], [Dep Revision]).",
+   "bookKind": "question_bank",
+   "sourceTier": 3,
+   "folderPriorityLabel": null,
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Compiled previous-years ('PY') bank, not a single dated sitting; no calendar year printed. Per-question bracket tags ([196 1st]/[194 1st]/[193 2nd]/[192 2nd]/[Dep Revision]) are batch/sitting hints only, and the question import schema has no examSittingYear field, so examSittingYear left null (not guessed).",
+   "solvedStatus": "solved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 54,
+   "textLayer": "native",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Native text layer for stems+options (no OCR). Correct answer = the option printed with a YELLOW HIGHLIGHT FILL; machine-detectable directly from the PDF graphics layer via scripts/content/pagetext.mjs keys, render-confirmed on p3 (force-rendered once at 170 dpi: the yellow fill lands on exactly the detected option; 9 keyed / 0 ambiguous across pp.3-4). Render is otherwise guarded off (native text layer, 'not garbled'). Each authored key cross-checked against the printed option text. First authored tranche: EMS Q1 + Medical errors unique MCQs (Q4,5,6,7,8,9,12,18,20,21,23,24,25,26,27) = 16 authored; 7 held (Q10/Q11/Q13/Q16/Q17/Q19 in-section duplicates, Q15 two-correct-answer stem), True/False items excluded. See coverage/327-MPE-triage-keys.txt."
   }
  ]
 }

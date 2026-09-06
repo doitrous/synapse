@@ -1,0 +1,89 @@
+327 MPE Ethics — triage keys (Year 3, Medical Professionalism & Ethics / medico-legal) — MODULE OPENED 2026-09-06
+Source (stems+options): 327 MPE Ethics/MPE Ethics/Questions & MCQs/MPE 327 PY Answered.pdf
+  (manifest sourceId src_d21e884926be1b92ec4a, kasr-y3-sources.json;
+   sha256 d21e884926be1b92ec4a9e7d154d0b4535a1fde9737c17450b97d6a2851b8195;
+   student-compilation "PY Answered" previous-years bank ("سلسلة الجامع المعين" study series);
+   native text layer; 54 pages; sections declared by red section headers with
+   "1) MCQs" / "2) T/F Sentences" subheaders — EMS p3, Medical errors p3, Malpractice &
+   medical responsibility p9, further MCQ sections at p20/p25/p29/p35/p44/p45).
+Key source: the correct option is printed with a YELLOW HIGHLIGHT FILL (an "Answered" PY bank).
+  Machine-detectable directly from the PDF graphics layer via scripts/content/pagetext.mjs keys
+  (no OCR); render is guarded off (native text layer, "not garbled"), so p3 was force-rendered ONCE
+  at 170 dpi and read visually to CONFIRM the marker: the yellow fill lands on exactly the option
+  the detector reports (Q1 a) The Penal Code; Q4 a) Pre-analytical errors; T/F Q2/Q3 b) False).
+  9 keyed / 0 ambiguous across the render-checked pages. Every authored key below is also
+  cross-checked against the printed option text of its stem.
+
+Sitting year: none printed at source level. Compiled previous-years ("PY") bank, not a single dated
+  sitting, so manifest examSittingYear = null (not guessed). Per-question bracket tags ([196 1st],
+  [194 1st], [193 2nd], [192 2nd], [Dep Revision]) are batch/sitting hints only; the question import
+  schema has no examSittingYear field, so they are recorded as source hints, not applied.
+Module: 327 MPE (Medical Professionalism & Ethics), Year 3; disk tree files it under y3/327 MPE Ethics.
+  Taxonomy: a real discipline hub DIS-PEC "Professionalism, Ethics & Communication" exists with topic
+  nodes T01 Consent and capacity, T02 Confidentiality, T03 Shared decision-making, T04 Team
+  communication, T05 Professional conduct, T06 Patient safety, T07 Cultural and language competence
+  (each with S01 Core principles / S02 Applied / clinical correlations / S03 Practical and assessment).
+  Ethics/professionalism has NO body-system code in docs/medical-library-program/systems (valid codes:
+  AND CVS DER DEV END FND GIT GYN HEM IMM INF MSK MUL NEU OBS POP PSY REN RES), so — exactly like Y3
+  ENT (316) and ophthalmology (315) — concepts are minted CON-MUL- and ## subject = mul, but filed on
+  the real DIS-PEC-* discipline nodes. Medical-error / patient-safety facts -> DIS-PEC-T06 (Patient
+  safety); the EMS general-law fact -> DIS-PEC-T05 (Professional conduct).
+
+Method: native text for stems+options; keys from the yellow-highlight fill, each cross-checked against
+  option text. Missing/ambiguous/conflicting keys -> HOLD/EXCLUDE, never guess.
+
+THIS TRANCHE authors 16 MCQs: EMS section MCQ (Q1) + Medical errors section unique MCQs
+  (Q4,5,6,7,8,9,12,18,20,21,23,24,25,26,27). 4-option single-best only; True/False items are filtered
+  out (not authored). In-section exact duplicates and one two-correct-answer item are held.
+
+# Section 1 "Egyptian medical syndicate (EMS)" (p3) — MCQ
+Q1.A   (a) The Penal Code — the only GENERAL law listed; Law 415/1954 is a special law)
+
+# Section 1 EMS — T/F (EXCLUDED, not authored)
+Q2.B (False)   Q3.B (False)
+
+# Section 2 "Medical errors" (pp.3-8) — MCQ keys (yellow-highlight, cross-checked vs option text)
+Q4.A   (Most lab errors are due to -> Pre-analytical errors)
+Q5.D   (outdated technique, patient died on table -> Surgical error)
+Q6.C   (prescribing without checking allergy -> Medication error)
+Q7.D   (error of omission -> Unlabeled samples)
+Q8.B   (Not an error of Commission -> Delay in diagnosis of a disease)
+Q9.C   (error of commission -> Leaving a towel in the abdomen)
+Q10.D  (DUP of Q7, same stem+options, same key D — HELD)
+Q11.A  (DUP of Q4, same stem+options, same key A — HELD)
+Q12.A  (Medication orders should not -> Contain abbreviations or decimals)
+Q13.D  (DUP of Q5, same stem+options, same key D — HELD)
+Q15.B  (pre-analytical lab error example -> Wrong sample collected) — HELD (see below)
+Q16.A  (DUP of Q4, same stem+options, same key A — HELD)
+Q17.A  (DUP of Q12, same stem+options, same key A — HELD)
+Q18.C  (error of omission occurs as a result of -> Delay in performing an indicated appendectomy)
+Q19.(unmarked) (DUP of Q5, no yellow fill detected — HELD)
+Q20.D  (metric system in weight expression avoids -> Medication errors)
+Q21.A  (vagal stimulation during induction of anesthesia -> Tracheal intubations)
+Q23.B  (prolonged operation may cause death due to -> Surgical shock)
+Q24.A  (causes of death under anesthesia EXCEPT -> Sympathetic shock due to light anesthesia)
+Q25.D  (obstruction of air passages under anesthesia -> Any of the above)
+Q26.A  (death during dental surgery EXCEPT -> Surgical shock)
+Q27.D  (under light anesthesia vagal stimulation -> Any of the above)
+# NB: source numbering skips Q14 and Q22 (absent from the paper).
+
+# Section 2 Medical errors — T/F (EXCLUDED, not authored)
+Q28.A (True)  Q29.A (True)  Q30.A (True)  Q31.B (False)  Q32.A (True)  Q33.B (False)
+Q34.B (False) Q35.A (True)  Q36.A (True)  Q37.B (False)
+
+# HELD in this tranche (documented, not authored)
+Q10 — exact in-section duplicate of Q7 ("error of omission", options overdose/wrong dose/towel/unlabeled samples, key D). Held so the same item is not authored twice.
+Q11 — exact in-section duplicate of Q4 ("Most lab errors are due to", key A). Held.
+Q13 — exact in-section duplicate of Q5 ("surgeon used old techniques ... died on table", key D). Held.
+Q16 — exact in-section duplicate of Q4 (key A). Held.
+Q17 — exact in-section duplicate of Q12 ("Medication orders should not", key A). Held.
+Q19 — in-section duplicate of Q5 (same stem); additionally no yellow fill was detected on it. Held.
+Q15 — two-correct-answer stem: "one of the following is an example of pre-analytical laboratory errors"
+  with options a) equipment malfunction b) wrong sample collected c) samples mixed up d) incorrect data
+  entry. The printed key is B (wrong sample collected), but option C (samples mixed up) is ALSO a
+  pre-analytical error, so an honest single-best distractor explanation for C cannot be written. Held per
+  the never-guess / never-mislead rule (key itself is unambiguous; the stem is flawed).
+
+# Next tranche (remaining, keys captured / to capture)
+Section 3 "Malpractice & medical responsibility" (p9): first MCQ Q38.D captured; Q39+ not yet keyed.
+Further MCQ sections at p20/p25/p29/p35/p44/p45 not yet triaged.
