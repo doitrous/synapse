@@ -3781,3 +3781,1263 @@ yes
 ## author_notes
 keySource: printed answer table p.19 (Q51=c)
 kasr: 2023 EOM 195, p.9
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-059
+
+## title
+Correct statement about intercellular communication
+
+## question
+Regarding intercellular communication, which of the following is correct?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Neurotransmitters are secreted by endocrine glands.
+
+## explanation_a
+Incorrect. Neurotransmitters are released by neurons at synapses, not secreted by endocrine glands.
+
+## answer_b
+Neuroendocrine hormones are released by ductless glands into synaptic junctions.
+
+## explanation_b
+Incorrect. Neuroendocrine hormones are released by neurons into the blood, not into synaptic junctions.
+
+## answer_c
+Paracrines are secreted into the extracellular fluid and act on distant organs.
+
+## explanation_c
+Incorrect. Paracrines act on neighbouring cells in the immediate vicinity; action on distant organs is the endocrine mode.
+
+## answer_d
+Cytokines can function as autocrines, paracrines or endocrine hormones.
+
+## explanation_d
+Correct. Cytokines are signalling peptides that are not restricted to one mode of action: the same cytokine can act back on the cell that secreted it (autocrine), on neighbouring cells (paracrine), or travel in the blood to act on distant targets (endocrine). This versatility distinguishes them from classic neurotransmitters and lets them coordinate immune and endocrine responses. Their mode of action depends on context rather than on a fixed gland-to-target route.
+
+## topic
+Physiology
+
+## subtopic
+Intercellular communication
+
+## main_concept
+CON-END-99EA20E41E2888
+
+## concept_ids
+CON-END-99EA20E41E2888
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Intercellular communication
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-ENDOCRINE-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that cytokines can act as autocrine, paracrine or endocrine signals.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q59
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q59=d)
+kasr: 2023 EOM 195, p.10
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-066
+
+## title
+Long-loop negative feedback control of growth hormone
+
+## question
+Which of the following describes the long-loop negative feedback control of growth hormone?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Growth hormone inhibits GHRH.
+
+## explanation_a
+Incorrect. Growth hormone acting back on GHRH is a short-loop feedback, not the long loop that involves IGF-1.
+
+## answer_b
+GHRH inhibits itself.
+
+## explanation_b
+Incorrect. GHRH inhibiting its own secretion is an ultrashort-loop, not the long loop.
+
+## answer_c
+IGF-1 stimulates the hypothalamus to secrete GHRH that stimulates GH secretion.
+
+## explanation_c
+Incorrect. IGF-1 inhibits rather than stimulates GH output, and stimulating GHRH would raise GH, which is not negative feedback.
+
+## answer_d
+IGF-1 stimulates the hypothalamus to secrete GHIH (somatostatin) that inhibits GH secretion.
+
+## explanation_d
+Correct. In the long-loop feedback, growth hormone acts on the liver to release insulin-like growth factor-1 (IGF-1, somatomedin C), and rising IGF-1 feeds back on the hypothalamus to stimulate growth-hormone-inhibiting hormone (GHIH, somatostatin), which suppresses further GH release from the anterior pituitary. IGF-1 also directly inhibits the somatotrophs. This closes the loop that keeps GH and IGF-1 within limits.
+
+## topic
+Physiology
+
+## subtopic
+Growth hormone
+
+## main_concept
+CON-END-010DCFFB00B50C
+
+## concept_ids
+CON-END-010DCFFB00B50C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Growth hormone
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Describe IGF-1-driven long-loop feedback that raises somatostatin to inhibit GH.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q66
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q66=d)
+kasr: 2023 EOM 195, p.12
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-072
+
+## title
+Order of steps in thyroid hormone synthesis
+
+## question
+Which of the following is the normal sequence of steps in the thyroid gland that forms thyroid hormones?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+First coupling of tyrosines, then oxidation of iodide, then iodination.
+
+## explanation_a
+Incorrect. Coupling is the last step, not the first; oxidation and iodination precede it.
+
+## answer_b
+First endocytosis of thyroglobulin, then coupling, then the iodide pump.
+
+## explanation_b
+Incorrect. Endocytosis of thyroglobulin is part of hormone release, not the first synthetic step, and the iodide pump comes first.
+
+## answer_c
+First the iodide pump, then oxidation and iodination, then coupling of iodotyrosines.
+
+## explanation_c
+Correct. Thyroid hormone synthesis proceeds in order: first the basal iodide (Na/I symporter) pump traps iodide from the blood into the follicular cell; then thyroid peroxidase oxidises the iodide and uses it to iodinate tyrosine residues on thyroglobulin (organification) forming MIT and DIT; finally these iodotyrosines are coupled to form T3 and T4 within the thyroglobulin. Endocytosis and proteolytic release of T3 and T4 occur later on demand.
+
+## answer_d
+First release of T3 and T4, then coupling, then oxidation of iodide.
+
+## explanation_d
+Incorrect. Release of T3 and T4 is the final secretory event, not the first step.
+
+## topic
+Physiology
+
+## subtopic
+Thyroid hormone synthesis
+
+## main_concept
+CON-END-FD2E65F2476FC0
+
+## concept_ids
+CON-END-FD2E65F2476FC0
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Thyroid hormones
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Order thyroid hormone synthesis: iodide trapping, oxidation/iodination, then coupling.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q72
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q72=c)
+kasr: 2023 EOM 195, p.13
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-076
+
+## title
+Feature of thyroid hormone deficiency
+
+## question
+Which of the following is correct regarding thyroid hormone deficiency?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+It produces a mentally and sexually normal cretin child.
+
+## explanation_a
+Incorrect. Untreated congenital hypothyroidism (cretinism) causes marked mental and growth retardation, not a normal child.
+
+## answer_b
+It produces an increased metabolic rate.
+
+## explanation_b
+Incorrect. Thyroid deficiency lowers, not raises, the basal metabolic rate.
+
+## answer_c
+It is accompanied by decreased body weight.
+
+## explanation_c
+Incorrect. Hypothyroid patients tend to gain weight because of the reduced metabolic rate, not lose it.
+
+## answer_d
+It produces coarse skin with non-pitting oedema.
+
+## explanation_d
+Correct. Hypothyroidism in the adult (myxoedema) causes accumulation of hydrophilic glycosaminoglycans in the dermis and other tissues, drawing in water and producing a characteristic coarse, dry skin with a non-pitting (mucinous) oedema of the face and hands. The low metabolic rate also causes weight gain, cold intolerance and mental slowing. In infancy untreated deficiency causes cretinism with mental and growth retardation.
+
+## topic
+Physiology
+
+## subtopic
+Hypothyroidism
+
+## main_concept
+CON-END-EC05DB53C7E3CB
+
+## concept_ids
+CON-END-EC05DB53C7E3CB
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Thyroid hormones
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Recognise coarse skin with non-pitting (myxoedematous) oedema as a sign of hypothyroidism.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q76
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q76=d)
+kasr: 2023 EOM 195, p.13
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-079
+
+## title
+Calcium distribution in the body
+
+## question
+Which of the following is correct regarding calcium distribution in the body?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The labile readily exchangeable pool represents 99% of total body calcium.
+
+## explanation_a
+Incorrect. The 99% figure refers to the stable calcium of bone, not the small labile exchangeable pool.
+
+## answer_b
+The stable pool in mature bone represents 1% of total body calcium.
+
+## explanation_b
+Incorrect. The mature stable bone pool holds the great majority (about 99%) of body calcium, not 1%.
+
+## answer_c
+The large stable bone pool is readily exchangeable with plasma calcium.
+
+## explanation_c
+Incorrect. The large mineralised bone pool is stable and only slowly exchangeable; only a small surface pool exchanges readily with plasma.
+
+## answer_d
+Plasma calcium is about 10 mg/dl and exists in both diffusible and non-diffusible forms.
+
+## explanation_d
+Correct. Total plasma calcium is normally about 10 mg/dl and circulates in two broad forms: a diffusible fraction (ionised free calcium plus calcium complexed to small anions), which is filterable and physiologically active, and a non-diffusible fraction bound to plasma proteins, mainly albumin. Only the ionised portion is biologically active and hormonally regulated. About 99% of body calcium is stored in bone, most of it in a stable, non-readily-exchangeable pool.
+
+## topic
+Physiology
+
+## subtopic
+Calcium distribution
+
+## main_concept
+CON-END-FC31B16AC7B58B
+
+## concept_ids
+CON-END-FC31B16AC7B58B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Calcium metabolism
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that plasma calcium (~10 mg/dl) exists in diffusible and protein-bound non-diffusible forms.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q79
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q79=d)
+kasr: 2023 EOM 195, p.14
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-082
+
+## title
+Effect of physiological parathyroid hormone
+
+## question
+Physiological levels of parathyroid hormone induce:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Hypocalcaemia.
+
+## explanation_a
+Incorrect. PTH raises, not lowers, plasma calcium, so it causes hypercalcaemia rather than hypocalcaemia.
+
+## answer_b
+Hypophosphaturia.
+
+## explanation_b
+Incorrect. PTH increases urinary phosphate (phosphaturia); it does not cause hypophosphaturia.
+
+## answer_c
+Hypophosphataemia.
+
+## explanation_c
+Correct. Parathyroid hormone lowers plasma phosphate by inhibiting phosphate reabsorption in the proximal renal tubule, producing phosphaturia and hence hypophosphataemia. At the same time it raises plasma calcium through bone resorption, distal renal calcium reabsorption and vitamin-D-mediated intestinal absorption. The net picture of PTH action is a high plasma calcium with a low plasma phosphate.
+
+## answer_d
+Hypercalciuria.
+
+## explanation_d
+Incorrect. Physiological PTH enhances distal tubular calcium reabsorption and therefore tends to reduce urinary calcium, opposite to hypercalciuria.
+
+## topic
+Physiology
+
+## subtopic
+Parathyroid hormone
+
+## main_concept
+CON-END-6D7E45E4C0B3F4
+
+## concept_ids
+CON-END-6D7E45E4C0B3F4
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Calcium metabolism
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that PTH is phosphaturic and produces hypophosphataemia while raising plasma calcium.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q82
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q82=c)
+kasr: 2023 EOM 195, p.14
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-090
+
+## title
+Effect of cortisol on metabolism
+
+## question
+What is an effect of cortisol on metabolism?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Gluconeogenesis.
+
+## explanation_a
+Correct. Cortisol is a glucocorticoid whose central metabolic action is to raise blood glucose by stimulating hepatic gluconeogenesis, supplying substrate by mobilising amino acids from muscle protein breakdown and fatty acids from adipose tissue. It also reduces peripheral glucose uptake, reinforcing its hyperglycaemic, catabolic profile. This is why chronic excess produces steroid-induced diabetes and muscle wasting.
+
+## answer_b
+Lipogenesis.
+
+## explanation_b
+Incorrect. Cortisol favours lipolysis and fat redistribution rather than net lipogenesis.
+
+## answer_c
+Protein anabolism in muscle.
+
+## explanation_c
+Incorrect. Cortisol is catabolic in muscle, promoting protein breakdown, not anabolism.
+
+## answer_d
+Glycolysis.
+
+## explanation_d
+Incorrect. Cortisol raises blood glucose and opposes glucose utilisation; it does not primarily drive glycolysis.
+
+## topic
+Physiology
+
+## subtopic
+Cortisol
+
+## main_concept
+CON-END-8EA454BDF7AA21
+
+## concept_ids
+CON-END-8EA454BDF7AA21
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Adrenal cortex
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that cortisol raises blood glucose by stimulating hepatic gluconeogenesis.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q90
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q90=a)
+kasr: 2023 EOM 195, p.16
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-094
+
+## title
+Tissue where insulin is required for glucose entry
+
+## question
+Insulin is essential for glucose entry into which of the following?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Skeletal muscle.
+
+## explanation_a
+Correct. Skeletal muscle and adipose tissue take up glucose mainly through the insulin-responsive GLUT4 transporter, so insulin is required to translocate GLUT4 to the membrane and allow glucose entry. This is why insulin deficiency chiefly impairs muscle and fat glucose uptake. Resting muscle is therefore an insulin-dependent tissue.
+
+## answer_b
+Cortical neurons.
+
+## explanation_b
+Incorrect. Neurons take up glucose through insulin-independent GLUT3 and GLUT1, so brain glucose entry does not require insulin.
+
+## answer_c
+Renal tubular cells.
+
+## explanation_c
+Incorrect. Renal tubular cells absorb glucose by sodium-glucose cotransport and GLUT2, independent of insulin.
+
+## answer_d
+Beta cells of the pancreas.
+
+## explanation_d
+Incorrect. Pancreatic beta cells sense glucose through insulin-independent GLUT2/GLUT1 uptake, not by an insulin-dependent route.
+
+## topic
+Physiology
+
+## subtopic
+Insulin
+
+## main_concept
+CON-END-55C8C372EC55F7
+
+## concept_ids
+CON-END-55C8C372EC55F7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic hormones
+
+## question_only_for
+
+## library_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+Identify skeletal muscle as an insulin-dependent (GLUT4) tissue for glucose uptake.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q94
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q94=a)
+kasr: 2023 EOM 195, p.16
+
+---
+
+# Item
+
+## id
+QST-KASR207END-2023EOM-099
+
+## title
+Correct statement about spermatogenesis
+
+## question
+Which of the following is correct regarding spermatogenesis?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Inhibin stimulates FSH secretion.
+
+## explanation_a
+Incorrect. Inhibin from Sertoli cells inhibits, rather than stimulates, FSH secretion by negative feedback.
+
+## answer_b
+Spermatogenesis needs an optimum testicular temperature of about 32 C.
+
+## explanation_b
+Correct. Normal spermatogenesis requires a testicular temperature a few degrees below core body temperature, about 32-35 C, which the scrotum, the pampiniform-plexus counter-current heat exchange, and the cremaster and dartos muscles maintain. Raising the temperature, as in cryptorchidism or fever, arrests the heat-sensitive germ cells and impairs fertility. This temperature dependence is the basis of scrotal cooling of the testes.
+
+## answer_c
+Exposure to strong irradiation stimulates the seminiferous tubules.
+
+## explanation_c
+Incorrect. Ionising radiation damages the rapidly dividing spermatogenic cells; it does not stimulate the seminiferous tubules.
+
+## answer_d
+Androgens are not essential for spermatogenesis.
+
+## explanation_d
+Incorrect. High intratesticular testosterone (androgen) is essential for spermatogenesis to proceed.
+
+## topic
+Physiology
+
+## subtopic
+Spermatogenesis
+
+## main_concept
+CON-AND-FFE17DA920BB2B
+
+## concept_ids
+CON-AND-FFE17DA920BB2B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Spermatogenesis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+
+## resource_ids
+src_bb589c39762100585461
+
+## learning_objective
+State that spermatogenesis requires a sub-core testicular temperature of about 32 C.
+
+## source_citation
+Kasr Al Ainy 207 END End-of-Module 2023 (solved), Q99
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer table p.19 (Q99=b)
+kasr: 2023 EOM 195, p.17

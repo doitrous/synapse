@@ -531,3 +531,181 @@ university_notes: No department book PDF was located/read this pass -- written f
 ## reading_time
 6
 
+
+---
+
+# Item
+## id
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+## title
+Pituitary and thyroid physiology: growth hormone and thyroid hormones
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+This article groups the anterior-pituitary and thyroid physiology items tested by the 2023 EOM paper. Growth hormone is restrained by an IGF-1-driven long-loop feedback that raises hypothalamic somatostatin. Thyroid hormones are built in a fixed order (iodide trapping, oxidation and iodination, then coupling), and their deficiency in the adult produces myxoedema with coarse skin and non-pitting oedema.
+## sections
+### Definition
+A grouping of the growth-hormone and thyroid-hormone physiology items; each linked concept carries one atomic claim.
+### Mechanism
+IGF-1 released by the liver under GH feeds back on the hypothalamus to raise GHIH (somatostatin) and inhibit GH. Thyroid follicular cells trap iodide, oxidise and organify it onto thyroglobulin tyrosines, then couple iodotyrosines to T3 and T4. Deficiency of thyroid hormone lowers metabolic rate and deposits glycosaminoglycans, producing myxoedema.
+### Key determinants
+Discriminators tested here: IGF-1 long-loop feedback raises somatostatin to inhibit GH; thyroid synthesis runs iodide-pump then oxidation/iodination then coupling; and hypothyroidism gives coarse skin with non-pitting oedema.
+### Clinical significance
+These principles underlie the diagnosis of GH excess and deficiency, the pharmacology of antithyroid drugs that block peroxidase, and the recognition of myxoedema and cretinism.
+### Common misconceptions
+See each concept's pitfalls; distractors confuse the GH feedback loops, place coupling first in thyroid synthesis, or expect weight loss in hypothyroidism.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Pituitary and thyroid
+## subtopic
+Growth hormone and thyroid hormones
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## related_concepts
+CON-END-010DCFFB00B50C
+CON-END-FD2E65F2476FC0
+CON-END-EC05DB53C7E3CB
+## related_articles
+
+## resource_ids
+src_bb589c39762100585461
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stems and options (2023 EOM 195, native text; printed answer table p.19).
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+## title
+Calcium, adrenal and pancreatic physiology
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+This article groups the calcium-homeostasis, adrenal and pancreatic physiology items tested by the 2023 EOM paper. Plasma calcium (~10 mg/dl) circulates in diffusible and protein-bound forms, and parathyroid hormone is phosphaturic, giving hypophosphataemia while raising calcium. Cortisol raises blood glucose through hepatic gluconeogenesis, and skeletal muscle depends on insulin (GLUT4) for glucose uptake.
+## sections
+### Definition
+A grouping of the calcium-distribution, parathyroid, cortisol and insulin items; each linked concept carries one atomic claim.
+### Mechanism
+Plasma calcium exists as ionised/complexed (diffusible) and protein-bound (non-diffusible) fractions. PTH inhibits proximal-tubular phosphate reabsorption (phosphaturia, hypophosphataemia) while raising calcium. Cortisol drives hepatic gluconeogenesis from mobilised amino acids and fatty acids, and insulin translocates GLUT4 to let glucose enter muscle and fat.
+### Key determinants
+Discriminators tested here: plasma calcium has diffusible and non-diffusible forms at ~10 mg/dl; PTH causes hypophosphataemia; cortisol drives gluconeogenesis; and muscle glucose uptake is insulin-dependent.
+### Clinical significance
+These principles underlie the interpretation of corrected calcium and phosphate in parathyroid disease, steroid-induced hyperglycaemia and muscle wasting, and the insulin dependence that defines diabetic hyperglycaemia in muscle and fat.
+### Common misconceptions
+See each concept's pitfalls; distractors call the bone pool readily exchangeable, expect hypophosphaturia with PTH, or label neurons and renal cells insulin-dependent.
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Calcium, adrenal and pancreas
+## subtopic
+Calcium, cortisol and insulin
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## related_concepts
+CON-END-FC31B16AC7B58B
+CON-END-6D7E45E4C0B3F4
+CON-END-8EA454BDF7AA21
+CON-END-55C8C372EC55F7
+## related_articles
+
+## resource_ids
+src_bb589c39762100585461
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stems and options (2023 EOM 195, native text; printed answer table p.19).
+## reading_time
+6
+

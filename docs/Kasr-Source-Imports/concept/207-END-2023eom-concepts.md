@@ -3027,3 +3027,1012 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
 
+
+---
+
+# Item
+## id
+CON-END-99EA20E41E2888
+## label
+Cytokines can act as autocrine, paracrine or endocrine signals
+## canonical_key
+cell-communication.cytokines.autocrine-paracrine-endocrine
+## aliases
+Cytokine signalling modes
+Autocrine-paracrine-endocrine cytokines
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cell-to-cell chemical communication is classified by how far the messenger travels: autocrine (on the secreting cell), paracrine (on neighbouring cells), and endocrine (via the blood to distant targets). Cytokines are signalling peptides not restricted to one mode: the same cytokine can act as an autocrine, a paracrine or, entering the blood, an endocrine signal. This versatility distinguishes them from classic neurotransmitters and lets them coordinate immune and endocrine responses.
+## explicit_objective
+State that cytokines can act as autocrine, paracrine or endocrine signals.
+## pitfalls
+Assuming paracrines act on distant organs, or that cytokines have a single fixed mode of action.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Intercellular communication
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Intercellular communication
+## article_ids
+ART-END-207END-2023EOM-ENDOCRINE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-010DCFFB00B50C
+## label
+IGF-1 drives long-loop feedback by raising somatostatin to inhibit GH
+## canonical_key
+growth-hormone.long-loop-feedback.igf1-stimulates-ghih
+## aliases
+Somatomedin C feedback
+GH long-loop negative feedback
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Growth hormone acts on the liver to release insulin-like growth factor-1 (IGF-1, somatomedin C). In the long-loop negative feedback, rising IGF-1 feeds back on the hypothalamus to stimulate growth-hormone-inhibiting hormone (GHIH, somatostatin), which suppresses further GH release from the anterior pituitary; IGF-1 also directly inhibits the somatotrophs. This differs from the short loop (GH acting on the hypothalamus) and the ultrashort loop (GHRH inhibiting its own release).
+## explicit_objective
+Describe IGF-1-driven long-loop feedback that raises somatostatin to inhibit GH.
+## pitfalls
+Confusing the long loop with the GH short loop or the GHRH ultrashort loop, or reversing IGF-1's inhibitory action.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Growth hormone
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Growth hormone
+## article_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-FD2E65F2476FC0
+## label
+Thyroid synthesis order: iodide trapping, oxidation/iodination, then coupling
+## canonical_key
+thyroid-hormone-synthesis.step-order.iodide-pump-oxidation-coupling
+## aliases
+Thyroid hormonogenesis steps
+Organification and coupling order
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroid hormone synthesis proceeds in order: first the basal iodide (Na/I symporter) pump traps iodide into the follicular cell; then thyroid peroxidase oxidises iodide and iodinates tyrosine residues on thyroglobulin (organification), forming MIT and DIT; finally the iodotyrosines are coupled to form T3 and T4 within thyroglobulin. Endocytosis of thyroglobulin and proteolytic release of T3 and T4 occur later on demand.
+## explicit_objective
+Order thyroid hormone synthesis: iodide trapping, oxidation/iodination, then coupling.
+## pitfalls
+Placing coupling first, or confusing hormone release (endocytosis) with the early synthetic steps.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone synthesis
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormones
+## article_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-EC05DB53C7E3CB
+## label
+Hypothyroidism causes coarse skin with non-pitting (myxoedematous) oedema
+## canonical_key
+hypothyroidism.features.myxedema-non-pitting-oedema
+## aliases
+Myxoedema
+Adult hypothyroidism features
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In adult hypothyroidism (myxoedema), hydrophilic glycosaminoglycans accumulate in the dermis and other tissues, drawing in water and producing a characteristic coarse, dry skin with a non-pitting (mucinous) oedema of the face and hands. The low metabolic rate also causes weight gain, cold intolerance and mental slowing. Untreated congenital deficiency causes cretinism with mental and growth retardation.
+## explicit_objective
+Recognise coarse skin with non-pitting (myxoedematous) oedema as a sign of hypothyroidism.
+## pitfalls
+Expecting weight loss or a raised metabolic rate, or believing the cretin child is mentally normal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Hypothyroidism
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormones
+## article_ids
+ART-END-207END-2023EOM-PITUITARY-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-FC31B16AC7B58B
+## label
+Plasma calcium is ~10 mg/dl in diffusible and non-diffusible forms
+## canonical_key
+calcium-distribution.plasma-forms.diffusible-nondiffusible-10mgdl
+## aliases
+Plasma calcium fractions
+Ionised and protein-bound calcium
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Total plasma calcium is normally about 10 mg/dl and circulates in two broad forms: a diffusible fraction (ionised free calcium plus calcium complexed to small anions), which is filterable and physiologically active, and a non-diffusible fraction bound to plasma proteins, mainly albumin. Only the ionised portion is biologically active and hormonally regulated. About 99% of total body calcium is stored in bone, most of it in a stable, non-readily-exchangeable pool.
+## explicit_objective
+State that plasma calcium (~10 mg/dl) exists in diffusible and protein-bound non-diffusible forms.
+## pitfalls
+Assigning the 99% figure to the labile pool, or calling the large bone pool readily exchangeable.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium distribution
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium metabolism
+## article_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-6D7E45E4C0B3F4
+## label
+Parathyroid hormone is phosphaturic and causes hypophosphataemia
+## canonical_key
+parathyroid-hormone.phosphate-effect.hypophosphatemia
+## aliases
+PTH phosphaturia
+PTH effect on phosphate
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Parathyroid hormone lowers plasma phosphate by inhibiting phosphate reabsorption in the proximal renal tubule, producing phosphaturia and hence hypophosphataemia. At the same time it raises plasma calcium through bone resorption, enhanced distal renal calcium reabsorption and vitamin-D-mediated intestinal absorption. The net picture of PTH action is a high plasma calcium with a low plasma phosphate.
+## explicit_objective
+State that PTH is phosphaturic and produces hypophosphataemia while raising plasma calcium.
+## pitfalls
+Expecting hypocalcaemia or hypophosphaturia, or forgetting that physiological PTH lowers urinary calcium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Parathyroid hormone
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium metabolism
+## article_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-8EA454BDF7AA21
+## label
+Cortisol raises blood glucose by stimulating hepatic gluconeogenesis
+## canonical_key
+cortisol.metabolic-effect.gluconeogenesis
+## aliases
+Glucocorticoid gluconeogenesis
+Cortisol and blood glucose
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cortisol is a glucocorticoid whose central metabolic action is to raise blood glucose by stimulating hepatic gluconeogenesis, supplying substrate by mobilising amino acids from muscle protein breakdown and fatty acids from adipose tissue. It also reduces peripheral glucose uptake, reinforcing its hyperglycaemic, catabolic profile. This is why chronic excess produces steroid-induced diabetes and muscle wasting.
+## explicit_objective
+State that cortisol raises blood glucose by stimulating hepatic gluconeogenesis.
+## pitfalls
+Attributing lipogenesis, muscle protein anabolism or glycolysis to cortisol.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Cortisol
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-END-55C8C372EC55F7
+## label
+Skeletal muscle is an insulin-dependent (GLUT4) tissue for glucose uptake
+## canonical_key
+insulin.glucose-uptake.muscle-dependence
+## aliases
+GLUT4 insulin-dependent uptake
+Insulin-dependent glucose entry
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Skeletal muscle and adipose tissue take up glucose mainly through the insulin-responsive GLUT4 transporter, so insulin is required to translocate GLUT4 to the membrane and permit glucose entry. Neurons (GLUT3/GLUT1), renal tubular cells (sodium-glucose cotransport and GLUT2) and pancreatic beta cells (GLUT2/GLUT1) take up glucose independently of insulin. This is why insulin deficiency chiefly impairs muscle and fat glucose uptake.
+## explicit_objective
+Identify skeletal muscle as an insulin-dependent (GLUT4) tissue for glucose uptake.
+## pitfalls
+Calling neurons, renal tubular cells or beta cells insulin-dependent for glucose entry.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Insulin
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic hormones
+## article_ids
+ART-END-207END-2023EOM-CALCIUM-ADRENAL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-AND-FFE17DA920BB2B
+## label
+Spermatogenesis requires a sub-core testicular temperature of about 32 C
+## canonical_key
+spermatogenesis.optimum-temperature.32-celsius
+## aliases
+Testicular temperature and fertility
+Scrotal cooling of the testes
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Normal spermatogenesis requires a testicular temperature a few degrees below core body temperature, about 32-35 C, which the scrotum, the pampiniform-plexus counter-current heat exchange, and the cremaster and dartos muscles maintain. Raising the temperature, as in cryptorchidism or fever, arrests the heat-sensitive germ cells and impairs fertility. High intratesticular testosterone is also essential, and inhibin from Sertoli cells inhibits FSH by negative feedback.
+## explicit_objective
+State that spermatogenesis requires a sub-core testicular temperature of about 32 C.
+## pitfalls
+Believing inhibin stimulates FSH, that irradiation stimulates the tubules, or that androgens are dispensable.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Spermatogenesis
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Spermatogenesis
+## article_ids
+ART-AND-207END-2023EOM-MALE-REPRODUCTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_bb589c39762100585461
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the live/import-ready/Kasr concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/reproductive teaching (Junqueira / Snell / Guyton & Hall / Ganong level) corroborated by this exam paper's own keyed stem and options (2023 EOM 195, printed answer table p.19); no department book located/read this pass.
+
