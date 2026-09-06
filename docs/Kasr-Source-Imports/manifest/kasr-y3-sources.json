@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 8,
+ "count": 9,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -383,6 +383,53 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "Native text layer (no OCR). This bank prints NO answer key — no colour/highlight/table marks the correct option. Per Omar's 2026-09-07 answer policy, correct answers are EXPERT-DETERMINED by medical reasoning and proven in each authored item's per-option explanations (keySource recorded as such; STATUS=Draft for human review); genuinely ambiguous items are HELD. Authored into the 310-PAT Pharmacology subject (concepts CON-PHA-*, articles ART-PAT-310-PHARMACOLOGY-*, questions 310-PAT-pharma-*-mcq.md). See coverage/310-PAT-PHARMA-LEDGER.md."
+  },
+  {
+   "sourceId": "src_b0bc0be85ab68a07e9b7",
+   "sha256": "b0bc0be85ab68a07e9b7243beb2fab42e130de1f48c890f471e72fad31e270ed",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/309 INF/Microbiology/Questions & MCQs/Extra 309 Questions PY.pdf",
+   "corpusRelativePath": "309 INF/Microbiology/Questions & MCQs/Extra 309 Questions PY.pdf",
+   "fileName": "Extra 309 Questions PY.pdf",
+   "fileNameWithoutInstructions": "Extra 309 Questions PY.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "309 INF",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Microbiology",
+    "Immunology"
+   ],
+   "rawModuleShorthand": "309 INF",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Instructor material",
+   "instructor": "Al-Jame' Al-Mo'een study series (student compilation)",
+   "crossModulePractical": false,
+   "subject": "Microbiology",
+   "folderSubject": "Microbiology",
+   "subjectSource": "content",
+   "departmentAuthored": false,
+   "tierEvidence": "Previous-years ('PY') MICROBIOLOGY MCQ compilation from the Al-Jame' Al-Mo'een study series; a study-series compilation of past-exam questions, not department-authored. The complement to the department PARASITOLOGY bank (src_10f1a669aa2eeedf3cd9) already mined for this module: this file covers the MICROBIOLOGY + IMMUNITY half of 309 INF that the parasitology bank does not.",
+   "examType": "bank",
+   "examPaperEvidence": "Cover: 'Extra 309 Questions PY', Al-Jame' Al-Mo'een study series. Section A) Written (essay/enumerate/define - non-MCQ). Section B) MCQ = 4-option single-best, Q1-78, with a chapter index (1 General microbiology; 2 Systemic bacteriology; 3 Systemic virology, mycology & applied microbiology; 4 Immunity). Section C) Matching (scenario->organism, scenario->toxin). Per-question bracket tags mark past sittings ([195 old 2nd], [194 2nd/1st/EOM], [192 2nd/1st/EOM]).",
+   "bookKind": "question_bank",
+   "sourceTier": 3,
+   "folderPriorityLabel": null,
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Compiled previous-years ('PY') bank, not a single dated sitting; no calendar year printed. Per-question bracket tags ([195 old 2nd]/[194 1st,2nd,EOM]/[192 1st,2nd,EOM]) are batch/sitting hints only, so examSittingYear left null (not guessed).",
+   "solvedStatus": "unsolved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 21,
+   "textLayer": "native",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Native text layer (no OCR). Clean 4-option single-best MCQ (section B, Q1-78). NO printed answer key anywhere in the file: per the module answer policy (Omar 2026-09-07) correct answers are EXPERT-DETERMINED by established microbiology/immunology and justified per-option (fieldNotes.keySource = expert-determined by reasoning; no reliable source key). Section A (Written) and section C (Matching) are not authored (non 4-option single-best). Concepts filed on the microbiology nodes DIS-MIC-T01 (bacteriology), DIS-MIC-T02 (virology), DIS-MIC-T03 (mycology) and the immunology nodes DIS-IMU / DIS-IMU-T03/T04/T05. See coverage/309-INF-LEDGER.md."
   }
  ]
 }

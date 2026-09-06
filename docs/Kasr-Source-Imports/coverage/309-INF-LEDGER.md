@@ -377,3 +377,27 @@ in `src_10f1a669aa2eeedf3cd9`. A follow-up lane must identify a solved (keyed) M
 UNSOLVED / written / image-only), log it as **needs Omar sources**. The remaining Parasitology items in this bank (Cross
 Matching pp.24-28 key p.29; Clinical Cases pp.30-33) are matching/case formats, not standard MCQ, and are out of scope for
 the MCQ pipeline.
+
+---
+
+## MICROBIOLOGY MCQ opened (2026-09-07) — `Extra 309 Questions PY.pdf`
+
+The Microbiology+Immunity half of 309 INF is now being authored from a NEW source:
+`Extra 309 Questions PY.pdf` (Al-Jame' Al-Mo'een study series, manifest `src_b0bc0be85ab68a07e9b7`, sha256
+`b0bc0be85ab68a07e9b7243b…`, 21 pp, native text). Section B) MCQ = clean 4-option single-best Q1-78 with a
+chapter index (1 General microbiology, 2 Systemic bacteriology, 3 Systemic virology/mycology & applied,
+4 Immunity). **NO printed answer key** anywhere in the file: per Omar's 2026-09-07 policy, correct answers are
+**expert-determined by microbiological/immunological reasoning** and justified per-option (`keySource` =
+expert-determined; no reliable source key). Section A (Written) and section C (Matching) are NOT authored
+(non 4-option single-best). Concepts on micro nodes DIS-MIC-T01/T02/T03 and immunology DIS-IMU/T03/T04/T05.
+Files: `question/309-INF-microbiology-mcq.md`, `concept/309-INF-microbiology-concepts.md`,
+`article/309-INF-microbiology-articles.md`, `evidence/309-INF-microbiology-resources.md`.
+
+| slice | source Qs | node/article | authored | held | gate |
+|---|---|---|---|---:|---:|
+| S1 General microbiology | Q6,7,8,49,50,51,60 | DIS-MIC-T01 · ART-INF-309-MICRO-GENERAL | 7 | 0 | items=7 errors=0 |
+
+Held/excluded (running, this bank): within-bank exact/reciprocal duplicates to be held as later slices reach them
+(Q24=Q2, Q26=Q3, Q35=Q1, Q37/Q66 reciprocal of Q2, Q41=Q23, Q42=Q2, Q43=Q25, Q44=Q3, Q45=Q27, Q70=Q40),
+Q28 (ambiguous — best monitor "viral load" not offered), and section C Matching Q1-6 (not 4-option single-best).
+Dedupe vs the existing 309-INF corpus = 100% fresh (that corpus is parasitology only; no micro overlap).
