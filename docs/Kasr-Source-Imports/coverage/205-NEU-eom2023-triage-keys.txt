@@ -63,4 +63,24 @@ Q61.B Q62.B Q63.C Q64.A Q65.D Q66.A Q67.B Q68.C Q69.B
 #   Q65 (receptor potential = non-specific Na+ channel opening) == existing "The receptor potential:" (2024eom-q60, same concept probe).
 #   Q69 (sensation carried by dorsal column -> stereognosis) == 2024eom-q70 "A lesion of the dorsal column pathway is most likely to affect: Fine touch" (same dorsal-column discriminative-touch fact).
 #
-# NOT YET TRIAGED: Q70-115 (pages 9-14, image-only) and Section B (extended cross-match, held for image attachment).
+# ============================================================================
+# THIRD PASS (2026-09-06) — SLICE 2: Q70-87 (pages 9-10) rendered at 200dpi,
+# margin letters read by eye and cross-checked against standard neurophysiology.
+# Keys read this slice (Q70-87):
+Q70.D Q71.B Q72.C Q73.A Q74.B Q75.A Q76.B Q77.A Q78.B
+Q79.A Q80.A Q81.B Q82.A Q83.B Q84.B Q85.B Q86.A Q87.D
+#
+# AUTHORED this slice (11 genuinely-new items, seed eom2023-head-and-neck-anatomy-p4.json
+# -> batch 205-NEU-2023eom-head-neck-p4-mcq.md):
+#   Q71, Q72, Q73, Q74, Q76, Q78, Q79, Q81, Q82, Q84, Q85
+#
+# SKIPPED as near-duplicates of already-authored 205 NEU stems:
+#   Q70 (raphe magnus axons secrete serotonin) == existing "neurons that release serotonin ... supraspinal analgesia system" (raphe magnus, same fact).
+#   Q75 (nuclear-bag central area innervated by Ia) == EXACT existing stem "The central receptor area of nuclear-bag fibers is innervated by:".
+#   Q77 (receptor for stretch reflex = muscle spindle) == covered by existing "suddenly stretched -> Ia from muscle spindles" stem (spindle = stretch receptor).
+#   Q80 (tendon jerk evoked by sudden stretch) == existing dynamic-stretch (sudden stretch -> Ia) stem; phasic-stretch fact already covered.
+#   Q83 (pyramidal-tract lesion features except involuntary movements) == 2024eom-q85 "Upper motor neuron lesion is manifested by" (same UMN-signs concept).
+#   Q86 (crista: depolarization when stereocilia bend toward kinocilium) == EXACT existing "hair cells of the crista ampullaris" stereocilia-kinocilium fact.
+#   Q87 (frontal-lobe speech-centre stroke -> Broca) == existing Broca stems ("inability to talk", "poorly articulated slow effortful speech"); also key ambiguous (margin d vs classic expressive-aphasia b).
+#
+# NOT YET TRIAGED: Q88-115 (pages 11-14, image-only) and Section B (extended cross-match, held for image attachment).

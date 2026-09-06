@@ -4,7 +4,7 @@
 | 2024-eom-head-and-neck-anatomy | 26 | 2 | 0 | 28 |
 | 2024-eom-physiology | 23 | 0 | 0 | 23 |
 | 2024-eom-physiology-b | 34 | 4 | 0 | 38 |
-| 2023-eom-head-and-neck-anatomy | 56 | 0 | 46 | 102 |
+| 2023-eom-head-and-neck-anatomy | 67 | 0 | 28 | 95 |
 
 `2023-eom-head-and-neck-anatomy` is the EOM (2023 sitting) paper src_1d0cd2a7afeb66dcfd85
 (printed 30/11/2023). First pass: Q1-24 read (pages 1-3), 20 genuinely-new items authored,
@@ -30,6 +30,16 @@ potential, Q69 dorsal-column modality). 12 new physiology concepts minted (CON-N
 university-blind sha256/NEU, collision-checked via mint-concept-id.mjs against live+pending IDs and
 the module concept file), added to article ART-NEU-205NEU-CNS-PHYSIOLOGY coverage. `total` drops to
 115 - 13 dupes = 102; authored 44 -> 56; `remaining` = Q70-115 (pages 9-14, image-only) + Section B.
+
+Third pass SLICE 2 (2026-09-06): Q70-87 read (pages 9-10). 11 genuinely-new items authored
+(Q71,72,73,74,76,78,79,81,82,84,85) into seed eom2023-head-and-neck-anatomy-p4.json -> batch
+205-NEU-2023eom-head-neck-p4-mcq.md; 7 skipped as near-duplicates (Q70 raphe-magnus serotonin,
+Q75 nuclear-bag Ia [exact stem], Q77 stretch-reflex receptor, Q80 tendon-jerk sudden stretch,
+Q83 pyramidal/UMN lesion signs, Q86 crista stereocilia-kinocilium [exact], Q87 Broca stroke). 11
+new physiology concepts minted (unsalted university-blind, collision-checked), 8 added to
+ART-NEU-205NEU-CNS-PHYSIOLOGY and 3 (motor control / vestibular) to ART-NEU-205NEU-CNS-PHYSIOLOGY-B
+coverage. `total` = 115 - 20 dupes = 95; authored 56 -> 67; `remaining` = Q88-115 (pages 11-14,
+image-only) + Section B (held for image attachment).
 
 ## Held
 - 2024eom-q20 — Printed options are Lingual/Hypoglossal/Internal laryngeal/Glossopharyngeal for the nerve related to the superior thyroid artery; the source's own hand annotation crosses out the green-highlighted "Internal laryngeal" and corrects it in the margin to "External laryngeal" — the anatomically correct nerve (external laryngeal nerve is closely related to the superior thyroid artery, not internal laryngeal) — but "External laryngeal" is not one of the four printed options. No printed option is source-supported as correct after the correction; held per the book-is-the-source rule rather than authored against a key the source's own correction contradicts.

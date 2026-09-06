@@ -19035,3 +19035,1213 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), pages 7-8 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail), de-duplicated against the ~161 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-ED0A9272D7AFE9
+## label
+Primary hyperalgesia is increased pain sensitivity at the injured area, caused by inflammatory mediators sensitising nociceptors
+## canonical_key
+hyperalgesia.primary.inflammatory-mediator-sensitization
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hyperalgesia is an exaggerated pain response. PRIMARY hyperalgesia occurs within the injured/flare area itself and is due to peripheral sensitisation of nociceptors by locally released inflammatory mediators (bradykinin, prostaglandins, histamine, K+, H+, substance P). Sensitisation LOWERS the pain threshold and INCREASES pain sensibility, so normally painful stimuli hurt more. SECONDARY hyperalgesia, by contrast, spreads to the surrounding healthy skin and reflects central sensitisation in the spinal cord.
+## explicit_objective
+Define primary hyperalgesia as lowered threshold/increased sensibility in the injured area caused by inflammatory-mediator sensitisation of nociceptors.
+## pitfalls
+Confusing primary hyperalgesia (in the injured area, peripheral mediator sensitisation) with secondary hyperalgesia (surrounding healthy skin, central sensitisation); and assuming the pain threshold rises (it falls).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Pain physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Pain > Hyperalgesia
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"In primary hyperalgesia: a- It occurs in healthy area surrounding the flare b- It is due to release of inflammatory mediators c- Pain threshold is increased d- There is decreased pain sensibility" ANSWER: b (205 NEU EOM 2023, Q71)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 9 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-0997C6FD13B74F
+## label
+A thalamic lesion causes contralateral hemisensory loss, sensory hemi-ataxia and thalamic pain, but not a jacket (dissociated) sensory loss
+## canonical_key
+thalamicsyndrome.features.contralateral-hemisensory-loss-and-thalamic-pain
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The thalamus is the great sensory relay, so a thalamic lesion produces CONTRALATERAL loss of all sensory modalities over the opposite half of the body (hemisensory loss), a sensory hemi-ataxia (from loss of proprioception), and, characteristically, thalamic (central) pain — a spontaneous, disagreeable pain in the anaesthetic side. A 'jacket' (cape-like, suspended) DISSOCIATED loss of pain and temperature with preserved touch is instead the hallmark of a central cord lesion such as SYRINGOMYELIA, not a thalamic lesion.
+## explicit_objective
+List the features of a thalamic lesion and recognise that a jacket dissociated pain/temperature loss is not one of them.
+## pitfalls
+Attributing a jacket/cape dissociated pain-and-temperature loss to a thalamic lesion; that pattern is syringomyelia (central cord).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Sensory pathways and lesions
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Sensory System > Thalamic Syndrome
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Thalamic lesion shows all of the following Except: a- Contralateral hemi-sensory loss b- Hemi-ataxia c- Jacket sensory loss of pain and temperature d- thalamic pain" ANSWER: c (205 NEU EOM 2023, Q72)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 9 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-F76FDD8B868921
+## label
+A tendon jerk is lost when the reflex arc is interrupted (afferent, efferent or spinal centre), but not by loss of supraspinal facilitatory centres
+## canonical_key
+tendonjerk.areflexia.reflex-arc-interruption
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The tendon (deep) reflex depends on an intact monosynaptic arc: spindle afferent, spinal-cord synapse/centre, and the efferent motor neuron to the muscle. Interrupting ANY part of this arc — afferent neuron, efferent neuron, or the spinal reflex centre — abolishes the jerk (areflexia), as in lower-motor-neuron and dorsal-root lesions. Loss of supraspinal FACILITATORY (upper motor neuron) centres does the opposite: it removes descending inhibition/facilitation balance and typically produces EXAGGERATED reflexes (hyperreflexia), not absence. So a lesion of supraspinal facilitatory centres is not a cause of an absent tendon jerk.
+## explicit_objective
+Attribute loss of a tendon jerk to interruption of the reflex arc, and recognise that supraspinal facilitatory-centre lesions cause hyperreflexia, not areflexia.
+## pitfalls
+Thinking a supraspinal (UMN) lesion abolishes the tendon jerk; UMN lesions exaggerate it, whereas arc interruption (afferent/efferent/centre) abolishes it.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Spinal reflexes
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Reflexes > Tendon Reflex
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Absence of a tendon jerk could result from any of the following conditions, Except: a- lesions of some supraspinal facilitatory centers b- lesions of the efferent neurons c- lesions of the afferent neurons d- lesions of the spinal nerve centers" ANSWER: a (205 NEU EOM 2023, Q73)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 9 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-D362671716BE0A
+## label
+Higher motor commands originate in the cerebral cortex, basal ganglia and cerebellum; the thalamus is a relay, not an originator
+## canonical_key
+motorcontrol.higher-commands.thalamus-is-relay-not-originator
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Voluntary/higher motor commands are generated by the motor cerebral cortex and shaped by the motor loops of the basal ganglia (including the caudate nucleus) and the cerebellum. The THALAMUS serves as the relay station that passes basal-ganglia and cerebellar output back to the cortex; it does not itself originate higher motor commands. So of a list of cortex, basal ganglia (caudate), cerebellum and thalamus, the thalamus is the exception as a command originator.
+## explicit_objective
+Identify the cortex, basal ganglia and cerebellum as sources of higher motor commands and the thalamus as a relay.
+## pitfalls
+Listing the thalamus as a source of higher motor commands; it relays basal-ganglia/cerebellar output to cortex rather than originating commands.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Motor control
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Motor System > Higher Motor Control
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Higher motor commands originate in all the following centers, Except: a- cerebral cortex b- thalamus c- caudate nucleus d- cerebellum" ANSWER: b (205 NEU EOM 2023, Q74)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 9 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-DEBAEA0548035A
+## label
+Central endings of muscle-spindle afferents synapse with alpha-motor neurons, local interneurons and ascending sensory neurons, but not gamma-motor neurons
+## canonical_key
+musclespindle.afferent-central-connections.excludes-gamma-motor-neurons
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Ia afferents from muscle spindles enter the cord and make excitatory connections with the alpha-motor neurons of the SAME muscle (the monosynaptic stretch reflex), with local interneurons (e.g. Ia inhibitory interneurons for reciprocal inhibition), and with second-order neurons of ascending sensory pathways (conscious/unconscious proprioception). They do NOT synapse on the gamma-motor neurons of the muscle: gamma-motor neurons are driven by DESCENDING supraspinal commands (alpha-gamma coactivation), not by the spindle afferent itself. So the gamma-motor neuron is the exception among the spindle afferent's central targets.
+## explicit_objective
+List the central targets of spindle Ia afferents and recognise that gamma-motor neurons are not among them.
+## pitfalls
+Assuming the spindle afferent drives the gamma-motor neuron; gamma-motor neurons receive descending commands, not spindle afferent input.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Muscle spindle
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Muscle Spindle > Central Connections
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The central ends of afferents from muscle spindles synapse with all the following types of neurons, Except: a- alpha-motor neurons of the same muscle b- gamma-motor neurons of the same muscle c- local interneurons d- 2nd order neurons of ascending sensory pathways" ANSWER: b (205 NEU EOM 2023, Q76)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 9 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-6DED4E03DEC5BC
+## label
+Skeletal muscle tone is a tonic (static) stretch reflex maintained by sustained stretch of the muscle
+## canonical_key
+muscletone.mechanism.tonic-static-stretch-reflex
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Skeletal muscle tone is the continuous, low-level partial contraction of resting muscle. It is produced by a TONIC (static) stretch reflex: the sustained stretch of the muscle keeps muscle-spindle afferents firing, which maintains a background of alpha-motor-neuron activity. Tone is therefore a sustained-stretch, not a dynamic/phasic, reflex; it is reduced (not increased) at complete rest and is INCREASED, not decreased, during standing upright to support posture against gravity.
+## explicit_objective
+Explain muscle tone as a tonic (static) stretch reflex driven by sustained spindle stretch.
+## pitfalls
+Calling muscle tone a dynamic stretch reflex, or thinking it increases at rest and decreases on standing; tone is a sustained-stretch reflex, raised for antigravity posture.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Muscle spindle
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Muscle Spindle > Muscle Tone
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Skeletal muscle tone is: a- a dynamic stretch reflex b- due to sustained stretch of the muscle c- increased during rest d- decreased during standing upright" ANSWER: b (205 NEU EOM 2023, Q78)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 9 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-DD84BD0FC8FC2B
+## label
+Muscle-spindle discharge rises with gamma-motor drive and with stretch, but falls when alpha-motor discharge shortens (unloads) the muscle
+## canonical_key
+musclespindle.discharge.alpha-motor-unloading-exception
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Muscle-spindle afferent discharge increases whenever the central (sensory) region of the intrafusal fibres is stretched: by increased GAMMA-motor-neuron discharge (which contracts the intrafusal poles and stretches the middle), by stretch of the intrafusal fibres, and by stretch of the whole (extrafusal) muscle. It DECREASES when ALPHA-motor-neuron discharge contracts and shortens the extrafusal muscle, because this slackens the spindle — the spindle is 'unloaded'. So increased alpha-motor discharge is the exception that reduces, not increases, spindle firing.
+## explicit_objective
+Identify factors that raise spindle discharge and recognise that alpha-motor contraction unloads (reduces) it.
+## pitfalls
+Thinking alpha-motor discharge increases spindle firing; alpha contraction shortens the extrafusal muscle and unloads the spindle, reducing its discharge.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Muscle spindle
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Muscle Spindle > Spindle Discharge
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Discharge from muscle spindles could be increased by all the following, Except: a- increased alpha-motor neuron discharge b- increased gamma-motor neuron discharge c- stretch of the intrafusal muscle fibers d- stretch of the extrafusal muscle fibers" ANSWER: a (205 NEU EOM 2023, Q79)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 10 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-699143A58931B9
+## label
+Gamma-motor neurons potentiate alpha-motor-neuron action during voluntary movement by keeping the spindle sensitive (alpha-gamma coactivation)
+## canonical_key
+gammamotorneuron.function.alpha-gamma-coactivation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+During a voluntary movement the alpha- and gamma-motor neurons are activated together (alpha-gamma coactivation). As the alpha-motor neurons shorten the extrafusal muscle, the gamma-motor neurons simultaneously contract the intrafusal poles, keeping the spindle taut and sensitive so it continues to signal length. This spindle feedback reinforces and POTENTIATES the action of the alpha-motor neurons, smoothing and supporting the movement. Thus the role of gamma-motor neurons in voluntary movement is to potentiate alpha-motor-neuron action, not to inhibit movement or the spindle.
+## explicit_objective
+State that gamma-motor neurons support voluntary movement by alpha-gamma coactivation, potentiating alpha-motor-neuron action.
+## pitfalls
+Thinking gamma-motor neurons inhibit voluntary movement or the spindle; through coactivation they keep the spindle sensitive and reinforce alpha-motor action.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Muscle spindle
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Muscle Spindle > Gamma Motor Function
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The role of gamma motor neurons in control of voluntary movements is: a- inhibition of the voluntary movement b- potentiation of action of alpha motor neurons c- inhibition of stretch of muscle spindle d- reflex relaxation of extrafusal muscle fibers" ANSWER: b (205 NEU EOM 2023, Q81)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 10 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-3E900C9D0FA57A
+## label
+The inverse stretch reflex is a disynaptic reflex acting through an inhibitory interneuron, with the Golgi tendon organ (group Ib) as receptor
+## canonical_key
+inversestretchreflex.properties.disynaptic-ib-golgi-tendon-organ
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The inverse stretch reflex (autogenic inhibition) protects the muscle from excessive tension. Its receptor is the GOLGI TENDON ORGAN, in series with the muscle fibres, whose GROUP Ib afferents are excited by rising tension. Centrally the Ib afferent acts through an inhibitory INTERNEURON onto the muscle's own alpha-motor neurons, so it is a DISYNAPTIC (polysynaptic) reflex — NOT monosynaptic. Its monosynaptic counterpart, the ordinary stretch reflex, uses the muscle spindle (Ia) and excites the muscle. So 'is monosynaptic' is the false statement about the inverse stretch reflex.
+## explicit_objective
+State that the inverse stretch reflex is disynaptic via an inhibitory interneuron, mediated by Golgi tendon organs and group Ib fibres.
+## pitfalls
+Calling the inverse stretch reflex monosynaptic; the monosynaptic reflex is the spindle (Ia) stretch reflex, whereas autogenic inhibition is disynaptic.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Spinal reflexes
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Reflexes > Inverse Stretch Reflex
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"All of the following are correct as regards inverse stretch reflex Except: a- Is monosynaptic reflex b- Acts through inhibitory interneuron c- Its receptor is Golgi tendon organ d- Involves group Ib fibers" ANSWER: a (205 NEU EOM 2023, Q82)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 10 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-EACC6E0C993FD4
+## label
+The semicircular canals discharge asymmetrically during angular acceleration (start, change, end of rotation) but not at constant speed of rotation
+## canonical_key
+semicircularcanal.response.angular-acceleration-not-constant-velocity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The semicircular canals (SCCs) detect ANGULAR ACCELERATION. When rotation starts, changes speed, or stops, the endolymph lags or overshoots and deflects the cupula, producing an asymmetrical bilateral discharge from the two ears' canals. At CONSTANT speed of rotation the endolymph moves with the canal, the cupula returns to its resting position, and the discharge becomes symmetrical again (no net signal). So asymmetrical bilateral SCC discharge occurs in every phase EXCEPT constant-speed rotation.
+## explicit_objective
+State that the semicircular canals signal angular acceleration and are silent (symmetrical) at constant angular velocity.
+## pitfalls
+Thinking the SCCs keep signalling during constant-speed rotation; the cupula returns to rest and discharge is symmetrical once speed is constant.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vestibular physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Semicircular Canals
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Asymmetrical bilateral discharge from the SCCs occurs in all of the following Except: a- during changing of speed of rotation b- during constant speed of rotation c- at the end of rotation d- at the start of rotation" ANSWER: b (205 NEU EOM 2023, Q84)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 10 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-47452F5A59C5B5
+## label
+The caloric test stimulates and checks one semicircular canal in one ear at a time
+## canonical_key
+calorictest.principle.one-canal-one-ear
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The caloric test assesses vestibular function by irrigating the external auditory canal with warm or cold water, setting up a convection current in the endolymph of the nearby lateral (horizontal) semicircular canal. Because each ear is irrigated separately, the test evaluates ONE semicircular canal in ONE ear at a time, allowing the two labyrinths to be compared. It does not simultaneously stimulate all canals or both ears; that selectivity is what makes it a useful clinical localiser.
+## explicit_objective
+State that the caloric test checks one semicircular canal in one ear at a time.
+## pitfalls
+Assuming the caloric test stimulates all canals or both ears at once; it isolates one (lateral) canal in one ear per irrigation.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+Vestibular physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Special Senses > Caloric Test
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_1d0cd2a7afeb66dcfd85
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which of the following is correct as regards the caloric method of stimulation of SCCs? a- Checks in two SCCs in two ears b- Checks one SCC in one ear c- Stimulates all canals in one ear d- Stimulates all canals in two ears" ANSWER: b (205 NEU EOM 2023, Q85)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department books for 205 NEU (Physiology CNS 158pp, Physiology general 108pp) are image-only with no text layer and were not OCR'd this pass; evidence must be attached from a readable department-book render before publication. Content reflects standard neurophysiology consistent with the render-verified exam-paper key.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 10 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 physiology tail, slice 2), de-duplicated against the ~173 already-authored 205 NEU stems before authoring.
