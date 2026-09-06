@@ -1468,3 +1468,651 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-816389ACA89EB7
+## label
+Sugammadex reverses blockade by encapsulation
+## canonical_key
+sugammadex.reversal.encapsulation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sugammadex is a modified gamma-cyclodextrin that directly ENCAPSULATES steroidal non-depolarising neuromuscular blockers (rocuronium, vecuronium) in a tight 1:1 complex. The complex diffuses away from the neuromuscular junction into the plasma and is excreted unchanged in the urine, rapidly reversing the block without inhibiting acetylcholinesterase. This mechanism differs from anticholinesterase reversal (neostigmine, edrophonium), which works by raising junctional acetylcholine.
+## explicit_objective
+Identify sugammadex as reversing steroidal non-depolarising blockade by direct encapsulation and renal excretion.
+## pitfalls
+Grouping sugammadex with the anticholinesterases; it does not raise acetylcholine but binds and removes the blocker.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Neuromuscular blockers
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Neuromuscular blockers
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-BB51A08D4E47CD
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F4085607789FEC
+## label
+Presynaptic alpha-2 adrenoceptors inhibit noradrenaline release
+## canonical_key
+adrenoceptor.alpha2.presynaptic-autoinhibition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Presynaptic alpha-2 adrenoceptors mediate NEGATIVE feedback on the sympathetic nerve terminal, so their stimulation DECREASES noradrenaline release. This autoinhibition is exploited by alpha-2 agonists such as clonidine to lower central sympathetic outflow. It contrasts with muscarinic M2 (slows heart), alpha-1 (vasoconstriction, raises blood pressure) and beta-2 (bronchodilatation) responses.
+## explicit_objective
+State that presynaptic alpha-2 adrenoceptors decrease noradrenaline release (autoinhibition).
+## pitfalls
+Assuming alpha-2 stimulation increases noradrenaline release; it reduces it through presynaptic negative feedback.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Adrenergic receptors
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Adrenergic receptors
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-5D0B2956E3CC88
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-3A48FAC257E6B3
+## label
+Parathion is an organophosphate insecticide, not a therapy
+## canonical_key
+organophosphate.parathion.insecticide-not-therapy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Parathion is an organophosphate INSECTICIDE and an irreversible cholinesterase inhibitor, i.e. a CAUSE of anticholinesterase poisoning, not a treatment for it. Organophosphate poisoning is treated with atropine and the oxime pralidoxime. Genuine parasympathomimetic therapeutic pairings include physostigmine (glaucoma), neostigmine (postoperative urinary retention) and edrophonium (diagnosis of myasthenia gravis).
+## explicit_objective
+Recognise parathion as an organophosphate insecticide (a poison), not a treatment for organophosphate poisoning.
+## pitfalls
+Reading parathion as a therapy; it is the toxic agent that causes the very poisoning it is falsely paired with.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticholinesterases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Anticholinesterases
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-876AA36322FF29
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-529EF65F83F0D7
+## label
+Neostigmine's direct nicotinic action favours it in myasthenia
+## canonical_key
+neostigmine.direct-nicotinic-action.myasthenia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Besides inhibiting acetylcholinesterase, neostigmine has an ADDITIONAL direct agonist action on nicotinic receptors at the skeletal-muscle end-plate, directly augmenting neuromuscular transmission where it is needed in myasthenia gravis. This dual mechanism gives it an advantage over physostigmine, which lacks the direct end-plate action and, being lipid-soluble, also penetrates the CNS unnecessarily for a peripheral disease.
+## explicit_objective
+Explain that neostigmine's additional direct nicotinic action at the muscle end-plate favours it in myasthenia gravis.
+## pitfalls
+Attributing the preference to oral absorption, duration or CNS penetration rather than the direct nicotinic end-plate action.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticholinesterases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Anticholinesterases
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-A48D08B756F52C
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-A10C59E7D0E128
+## label
+Benztropine: central antimuscarinic for Parkinsonism
+## canonical_key
+antimuscarinic.parkinsonism.benztropine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Benztropine is a centrally acting antimuscarinic that reduces the relative cholinergic overactivity in the basal ganglia produced by dopamine deficiency, so it relieves tremor and rigidity in Parkinsonism, particularly drug-induced parkinsonism. It contrasts with pirenzepine (M1-selective, for gastric acid), hyoscine (motion sickness) and homatropine (topical ocular cycloplegic).
+## explicit_objective
+Identify benztropine as the centrally acting antimuscarinic used in Parkinsonism.
+## pitfalls
+Choosing an antimuscarinic used for gut, eye or motion sickness instead of the centrally acting benztropine.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antimuscarinics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Antimuscarinics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-FCC1FFFC037F61
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-D430AEFDFC4453
+## label
+Management of acute organophosphate poisoning
+## canonical_key
+organophosphate.acute-management
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute organophosphate poisoning is managed with atropine (to block muscarinic effects), the oxime pralidoxime (to reactivate cholinesterase), diazepam (for seizures/agitation) and decontamination such as gastric lavage, plus airway and ventilatory support. A direct cholinergic agonist like methacholine is NOT part of treatment; giving it would add to the acetylcholine excess and worsen the cholinergic crisis.
+## explicit_objective
+List the components of organophosphate poisoning management and recognise that a cholinergic agonist is not among them.
+## pitfalls
+Including a cholinomimetic (methacholine) in the regimen; it aggravates rather than treats the crisis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticholinesterases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Anticholinesterases
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-876AA36322FF29
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.8
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-546B54F304B772
+## label
+Endpoints of adequate atropinisation
+## canonical_key
+atropine.atropinization-endpoints
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In organophosphate poisoning, atropine is titrated to endpoints that show the muscarinic excess has been reversed: drying of secretions (dry axillae), mydriasis, an adequate heart rate and an adequate systolic blood pressure (for example >80 mmHg). A persisting bradycardia below 60/min indicates UNDER-treatment, not a therapeutic goal, so it is not an endpoint of atropinisation.
+## explicit_objective
+Recognise the endpoints of adequate atropinisation and that persisting bradycardia is a sign of under-treatment.
+## pitfalls
+Treating bradycardia as a goal of atropinisation; the aim is to reverse it, alongside drying secretions and restoring blood pressure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antimuscarinics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Antimuscarinics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-B0AAE42C7C985B
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-8224C191083704
+## label
+Pharmacological effects of atropine
+## canonical_key
+atropine.pharmacological-effects
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atropine is a competitive muscarinic antagonist, so its effects are antimuscarinic: reduced gastric and other exocrine secretions, mydriasis and cycloplegia, tachycardia from blocking vagal M2 tone, and bronchoDILATION with reduced airway secretions. It does NOT cause bronchoconstriction; the airway effect is dilation. These effects underlie both its uses and its contraindications.
+## explicit_objective
+List atropine's antimuscarinic effects and exclude bronchoconstriction.
+## pitfalls
+Ascribing bronchoconstriction or bradycardia to atropine; it dilates airways and raises heart rate.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antimuscarinics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Antimuscarinics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-FCC1FFFC037F61
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

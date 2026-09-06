@@ -10,8 +10,9 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | cluster (bank, section) | authored | held | excluded | remaining | total |
 |---|---:|---:|---:|---:|---:|
 | Abolmagd Pharma · ANS (Q1-10, `Pharma MCQ by Abolmagd.pdf` pp.3-6) | 10 | 0 | 0 | 0 | 10 |
-| Abolmagd Pharma · ANS (Q11-20, same paper pp.6-8) | 10 | 0 | 0 | 0 (→ ANS Q21-46 pp.6-9 next) | 10 |
-| **Pharmacology subject total** | **20** | **0** | **0** | ANS Q21-46, then Ocular/Muscle/Autacoids/CVS-Renal/Blood | — |
+| Abolmagd Pharma · ANS (Q11-20, same paper pp.6-8) | 10 | 0 | 0 | 0 | 10 |
+| Abolmagd Pharma · ANS autonomic (Q21,26,27,30,31,32,34,35, pp.6-8) | 8 | 0 | 4 | 0 (Q22-25 deferred to CVS/Renal) | 12 |
+| **Pharmacology subject total** | **28** | **0** | **4** | ANS Q37-46, Q22-25→CVS/Renal, then Ocular/Muscle/Autacoids/CVS-Renal/Blood | — |
 
 ## Subject opened
 
@@ -47,9 +48,24 @@ sialagogue), CON-PHA-876AA36322FF29 (pralidoxime reactivation), CON-PHA-FCC1FFFC
 CON-PHA-6AD22F19596BA7 (hyoscine CNS depressant), CON-PHA-AE3618871E840B (rivastigmine in
 Alzheimer's). Total concepts so far: 18.
 
+## Concepts minted (slice 3, ANS autonomic Q21-35)
+
+8 minted, 0 reused: CON-PHA-816389ACA89EB7 (sugammadex encapsulation),
+CON-PHA-F4085607789FEC (alpha-2 presynaptic autoinhibition),
+CON-PHA-3A48FAC257E6B3 (parathion is a poison, not therapy),
+CON-PHA-529EF65F83F0D7 (neostigmine direct nicotinic action),
+CON-PHA-A10C59E7D0E128 (benztropine in Parkinsonism),
+CON-PHA-D430AEFDFC4453 (organophosphate management),
+CON-PHA-546B54F304B772 (atropinisation endpoints),
+CON-PHA-8224C191083704 (atropine effects). Total concepts so far: 26.
+
 ## Held / excluded
 
-None in slices 1-2.
+None held in slices 1-3. Excluded as duplicate facts (dedupe): Q28 (pilocarpine sialagogue
+= Q13), Q29 (neostigmine for ileus = cholinergic-uses fact from Q3), Q33 (pralidoxime
+reactivation = Q14), Q36 (hyoscine CNS depressant = Q17). Deferred (not lost): Q22 (CCB
+adverse effects), Q23 (furosemide), Q24 (thiazides), Q25 (diuretics) — these belong to the
+CVS & Renal cluster (DIS-PHA-T04) and will be authored there for coherent grouping.
 
 ## Next
 
