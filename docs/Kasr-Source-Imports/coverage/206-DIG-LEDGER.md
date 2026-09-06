@@ -286,6 +286,37 @@ vs the 206-DIG baseline -- 23 placeholder category families, 0 new/semantic cate
 Dupe rate for this source was LOW as expected for a fresh non-EOM bank (the authored 20 came
 from the ~34 non-duplicate keyed items of exam A + exam B; the bulk of pp.13-54 is un-OCR'd).
 206-DIG authored total now: 120 (2025 EOM) + 64 (2021 EOM) + 20 (anatomy bank) = 204 MCQs.
-**Next 206-DIG source:** continue this same anatomy bank (OCR pp.13-54 for more past exams),
-then the unsolved GIT/physio/histo dept banks (need a key-recovery pass) -- see
-`coverage/KAU-Y2-priority-sources.md`.
+
+anatbank-tranche-2 (pp.13-24 OCR'd this pass; 18 authored): OCR'd pp.13-24, which hold two
+further past papers -- exam C (pp.13-18, Q19-57) and exam D "Anatomy EXAM 2020" (pp.19-24,
+Q1-20). Keys recovered off the pen circle and appended to
+`coverage/206-DIG-anatomybank-triage-keys.txt`. 18/18 authored (14 exam C: Q20,21,23,24,26,30,
+32,42,46,48,51,54,55,57; 4 exam D: Q4,8,15,19), 0 held-but-planned. Systems covered:
+posterior abdominal wall vessels (aorta lumbar branches, inferior phrenic artery, testicular
+vein drainage), posterior abdominal wall nerves (genitofemoral on psoas), peritoneum (lesser
+sac borders), caecum/appendix, anterolateral wall (external oblique origin), liver (porta
+hepatis), duodenum (3rd-part posterior relations), kidney (left-kidney/pancreas relation,
+developmental blood supply), urinary bladder (internal urethral sphincter), male genital &
+gonad development (testicular descent timing, testis coverings/tunica albuginea, vas-seminal
+vesicle relation, congenital hydrocele), anal canal (anal valves/pectinate line). ~7 held
+(OCR-truncated stems / ambiguous or two-marked circles: exam C Q19,34,35,38,40,41,43,50,53;
+exam D Q5,9,18) and ~19 skipped as near-duplicates of already-authored 206-DIG content
+(inguinal canal x2, SMA/IMA branches x2, left gastric/coeliac, glomeruli-metanephros,
+ejaculatory ducts, internal spermatic fascia, seminal-vesicle-stores-sperm, ureter relations
+x3, ureteric-bud, caecum-taenia, epiploic foramen, ligament of Treitz, bladder-mucosa origin,
+etc.). Dupe rate this pass ~40% of keyed items (NOT >60%, so the source is not yet exhausted).
+18 new concepts minted university-blind via `mint-concept-id.mjs` conventions (all `CON-GIT-*`,
+SHA-256 first-14-hex, collision-checked -- no collisions), filed under DIS-ANA-T05 with
+SYS-GIT-T01-S01, grouped into a second article (`ART-GIT-206DIG-ANATBANK-GROSS-2`); 0 concept
+reuse this pass (all 18 topics are distinct from tranche-1's 20). Authored in
+`question/206-DIG-anatomybank-mcq-tranche2.md`, concepts appended to
+`concept/206-DIG-anatomybank-concepts.md`, article appended to
+`article/206-DIG-anatomybank-articles.md`. Gate-clean (batch 0 errors on all three; simulate
+created=57/rejected=0/errors=0; audit neutral vs the 206-DIG baseline -- placeholder families
+only [missing-optional-field / blank-without-reason / unknown-resource], 0 new/semantic
+categories).
+
+206-DIG authored total now: 120 (2025 EOM) + 64 (2021 EOM) + 38 (anatomy bank: 20+18) = 222 MCQs.
+**Next 206-DIG source:** continue this SAME anatomy bank -- OCR the still-untouched pp.25-54
+(more past exams; the bank is NOT yet exhausted at ~40% dupe), then the unsolved GIT/physio/
+histo dept banks (need a key-recovery pass) -- see `coverage/KAU-Y2-priority-sources.md`.

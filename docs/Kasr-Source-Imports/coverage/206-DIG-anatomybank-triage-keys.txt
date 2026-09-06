@@ -66,3 +66,52 @@ q56=a   # testis supplied by testicular artery arising from abdominal aorta     
 b08=d   # IVC: the hepatic veins are tributaries (true-statement)                      >> AUTHOR (p11 Q8)
 b17=d   # lower half of anal canal INCORRECT: "sacrum/sacral plexus lie anterior to it" >> AUTHOR (p12 Q17)
 # (pp.13-54 not OCR'd this pass — 20 items already exceed the slice; remainder = next author)
+
+# === tranche 2 OCR pass (pp.13-24) — exam C (pp.13-18, Q19-57) + exam D "Anatomy EXAM 2020" (pp.19-24, Q1+) ===
+# --- exam C (pp.13-18) ---
+c19=?   # psoas major true = inserts to lesser trochanter (no visible circle)              H (no circle)
+c20=a   # abdominal aorta: has four (pairs of) lumbar branches                             >> AUTHOR
+c21=c   # caecum NOT true: covered anteriorly only by peritoneum                           >> AUTHOR
+c23=d   # inferior phrenic arteries arise from the aorta                                    >> AUTHOR
+c24=a   # lesser sac NOT correct: right border formed by lienorenal+gastrosplenic (=left)  >> AUTHOR
+c25=b   # not a branch of SMA = left colic artery                                          D (SMA/IMA) skip
+c26=d   # appendix incorrect: always lies behind the ileum                                 >> AUTHOR
+c27=c   # left gonadal vein does not drain directly into IVC                               D (dup of c42) skip
+c28=c   # left gastric artery arises from celiac trunk                                     D (authored) skip
+c29=b   # anterior wall inguinal canal = external oblique aponeurosis                      D (authored) skip
+c30=a   # external oblique origin: external surfaces of 5th-12th ribs                       >> AUTHOR
+c31=d   # epiploic foramen anterior border contains CBD (=free edge lesser omentum)        merge w/ d14 -> AUTHOR
+c32=c   # bladder-neck smooth involuntary muscle = internal urethral sphincter              >> AUTHOR
+c33=b   # ureter TRUE: crossed anteriorly by gonadal vessels                               D (ureter) skip
+c34=a?  # right kidney posterior relation INCORRECT = inferior phrenic artery (marker "§")  H (ambiguous)
+c36=c   # seminal vesicle FALSE: stores spermatozoa                                        D (authored q45) skip
+c37=a   # ejaculatory ducts open into prostatic urethra                                    D (authored q34) skip
+c42=c   # testicular veins: right->IVC, left->left renal vein                               >> AUTHOR
+c44=b   # bladder mucosa derived from endoderm and mesoderm                                D (bladder dev) skip
+c45=d   # prostatic urethra INCORRECT: utricle opens on anterior wall (=posterior)         D-ish skip
+c46=c   # testis descends into scrotum during the 9th month                                 >> AUTHOR
+c47=b   # glomeruli from metanephric blastema                                              D (authored q39) skip
+c48=c   # left kidney anterior bare area (uncovered by peritoneum) relates to pancreas      >> AUTHOR
+c49=a   # internal spermatic fascia from fascia transversalis                              D (authored q47) skip
+c50=b/c # epididymis INCORRECT (two options circled)                                        H (ambiguous)
+c51=c   # coverings of testis EXCEPT tunica albuginea                                        >> AUTHOR
+c52=d   # ureter INCORRECT: lies 2cm lateral to lumbar transverse processes                D (ureter) skip
+c54=c   # vas deferens INCORRECT: lies lateral to seminal vesicles (=medial)                >> AUTHOR
+c55=c   # kidney development INCORRECT: same renal artery supplies it in all stages          >> AUTHOR
+c56=b   # ureter derived from ureteric bud                                                 D (authored 2021 q42) skip
+c57=d   # gonad dev INCORRECT: congenital hydrocele = congenital absence of testis           >> AUTHOR
+# --- exam D "Anatomy EXAM 2020" (pp.19-24) ---
+d01=a   # deep inguinal ring lies in fascia transversalis                                  D (authored) skip
+d03=d   # IMA supplies left 1/3 transverse colon                                           D (SMA/IMA) skip
+d04=a   # porta hepatis transmits all EXCEPT hepatic veins                                  >> AUTHOR
+d06=d   # taenia coli converge on base of appendix                                         D (appendix c26) skip
+d07=b   # lesser sac boundary EXCEPT left triangular ligament of liver                      D (lesser sac c24) skip
+d08=c   # nerve on anterior surface of psoas major = genitofemoral                          >> AUTHOR
+d11=b   # gastric supply EXCEPT: left gastric vein drains into splenic vein (=portal)       D (stomach) skip
+d12=a   # caecum: has no taenia coli (false)                                               D (caecum c21) skip
+d14=a   # epiploic foramen anterior border = free border of lesser omentum                  >> AUTHOR (merges c31)
+d15=d   # anal valves at the level of the pectinate line                                    >> AUTHOR
+d17=a   # ligament of Treitz = duodenojejunal junction                                     D (authored q26) skip
+d19=d   # SMA origin NOT a posterior relation of 3rd part of duodenum                        >> AUTHOR
+d20=b   # stomach bed EXCEPT gall bladder                                                   borderline skip
+# (pp.25-54 NOT OCR'd this pass — 18 authored from pp.13-24; remainder = next author)

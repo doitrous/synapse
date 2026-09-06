@@ -2052,3 +2052,1856 @@ Admin team
 ## review_due
 
 ---
+
+# Item
+## id
+CON-GIT-CD9A3B4E9A2607
+## label
+The abdominal aorta gives four pairs of lumbar arteries and ends at L4
+## canonical_key
+aorta.abdominal.four-pairs-lumbar-branches
+## aliases
+abdominal aorta branches
+lumbar arteries
+aortic bifurcation L4
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The abdominal aorta gives four pairs of parietal lumbar arteries from its posterolateral wall, supplying the posterior abdominal wall and vertebral structures, and ends at the lower border of the fourth lumbar vertebra by dividing into the two common iliac arteries. Its first branches are the paired inferior phrenic and the unpaired coeliac trunk; it gives only one direct (middle) suprarenal artery to each adrenal gland.
+## explicit_objective
+State that the abdominal aorta gives four pairs of lumbar arteries and ends at L4.
+## pitfalls
+Confusing the subcostal (thoracic aortic) artery for a branch of the abdominal aorta, or placing its bifurcation at L5/S1 rather than L4.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Abdominal aorta
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Posterior abdominal wall vessels
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-3940E50090DACD
+## label
+The caecum has no mesentery but is covered by peritoneum on all its surfaces
+## canonical_key
+caecum.peritoneal-covering.all-surfaces-not-anterior-only
+## aliases
+caecum peritoneum
+caecum no mesentery
+caecum mobility
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The caecum, the first part of the large intestine in the right iliac fossa, has no mesentery of its own yet is normally invested with peritoneum on all its surfaces, which makes it mobile. It is therefore not a truly retroperitoneal organ; only the ascending colon above it has a bare posterior surface bound to the abdominal wall.
+## explicit_objective
+State that the caecum, though without a mesentery, is covered by peritoneum on all surfaces.
+## pitfalls
+Assuming that having no mesentery means the caecum is covered by peritoneum anteriorly only, i.e. treating it as retroperitoneal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Caecum
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Caecum and appendix
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-600BD3B342DB13
+## label
+The inferior phrenic arteries arise from the abdominal aorta
+## canonical_key
+artery.inferior-phrenic.origin-abdominal-aorta
+## aliases
+inferior phrenic artery origin
+diaphragm arterial supply
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The paired inferior phrenic arteries are usually the first and highest branches of the abdominal aorta, arising just below the aortic hiatus. They supply the under-surface of the diaphragm and give the superior suprarenal arteries to the adrenal glands. One may occasionally arise from the coeliac trunk as a variant.
+## explicit_objective
+Identify the abdominal aorta as the origin of the inferior phrenic arteries.
+## pitfalls
+Attributing the inferior phrenic arteries to the coeliac trunk (a variant) or to the gastric/oesophageal arteries.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Posterior abdominal wall vessels
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Posterior abdominal wall vessels
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-5ED98AB74E1984
+## label
+The gastrosplenic and lienorenal ligaments form the left border of the lesser sac
+## canonical_key
+lessersac.left-border.gastrosplenic-lienorenal-ligaments
+## aliases
+omental bursa borders
+lesser sac left border
+splenic ligaments
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The left border of the lesser sac (omental bursa) is formed by the gastrosplenic ligament in front and the lienorenal (splenorenal) ligament behind, with the spleen between them. Its right border is open at the epiploic foramen, where the sac communicates with the greater sac. The stomach and lesser omentum form its anterior wall; the pancreas, left kidney and suprarenal gland lie in its posterior wall.
+## explicit_objective
+Attribute the gastrosplenic and lienorenal ligaments to the left border of the lesser sac.
+## pitfalls
+Reversing the borders and calling the splenic ligaments the RIGHT border, which is actually the open epiploic foramen.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Lesser sac
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Peritoneum and peritoneal sacs
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-385D5F219B3B82
+## label
+The vermiform appendix has a variable position, most commonly retrocaecal
+## canonical_key
+appendix.position.variable-commonly-retrocaecal
+## aliases
+appendix positions
+retrocaecal appendix
+appendicular base taenia
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The base of the appendix is fixed where the three taenia coli converge on the posteromedial wall of the caecum, but the free tip lies in a variable position: most often retrocaecal, and otherwise pelvic, subcaecal, pre-ileal or post-ileal. This variability accounts for the differing clinical presentations of appendicitis.
+## explicit_objective
+Recognise that the appendix has a variable position, commonly retrocaecal.
+## pitfalls
+Stating that the appendix always lies in one fixed position (e.g. behind the ileum) rather than being variable.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Appendix
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Caecum and appendix
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-A1D4111D998263
+## label
+The external oblique arises from the outer surfaces of the lower eight ribs
+## canonical_key
+muscle.external-oblique.origin-lower-eight-ribs
+## aliases
+external oblique origin
+abdominal wall muscles
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The external oblique muscle arises by fleshy digitations from the outer surfaces of the lower eight ribs (5th to 12th), interdigitating with serratus anterior and latissimus dorsi. Its fibres pass downwards and forwards to the linea alba, pubic crest and tubercle and the anterior half of the iliac crest, its lower free border forming the inguinal ligament.
+## explicit_objective
+State that the external oblique arises from the outer surfaces of the lower eight ribs.
+## pitfalls
+Confusing its rib origin with the thoracolumbar-fascia/iliac-crest origin of internal oblique, or with the costal insertions of rectus abdominis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Anterolateral abdominal wall
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Anterolateral abdominal wall
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-DE1C2AF22E1C5C
+## label
+The internal urethral sphincter is smooth involuntary muscle at the bladder neck
+## canonical_key
+sphincter.internal-urethral.smooth-muscle-bladder-neck
+## aliases
+internal urethral sphincter
+bladder neck sphincter
+retrograde ejaculation prevention
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The internal urethral sphincter is a ring of smooth (involuntary) muscle around the internal urethral orifice at the neck of the bladder, supplied by sympathetic fibres. In the male it contracts during ejaculation to prevent retrograde flow of semen into the bladder. The voluntary external urethral sphincter is skeletal muscle surrounding the membranous urethra below it.
+## explicit_objective
+Identify the internal urethral sphincter as the smooth-muscle sphincter of the bladder neck.
+## pitfalls
+Confusing it with the voluntary (skeletal) external urethral sphincter of the membranous urethra.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Urinary bladder
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Urinary bladder
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-96793773A3BF64
+## label
+The right testicular vein drains into the IVC and the left into the left renal vein
+## canonical_key
+vein.testicular.right-ivc-left-renal-drainage
+## aliases
+testicular vein drainage
+gonadal vein
+left varicocele
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The right testicular vein opens obliquely into the inferior vena cava, whereas the left testicular vein ascends to enter the left renal vein at a right angle. The longer, right-angled left drainage, together with compression of the left renal vein between the aorta and superior mesenteric artery, explains why a varicocele is far commoner on the left.
+## explicit_objective
+State that the right testicular vein drains into the IVC and the left into the left renal vein.
+## pitfalls
+Assuming both testicular veins drain into the IVC, or that the right drains into the right renal vein.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Gonadal veins
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Posterior abdominal wall vessels
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-BB10FA30106F04
+## label
+The testis normally reaches the scrotum by the ninth intra-uterine month
+## canonical_key
+testis.descent.reaches-scrotum-ninth-month
+## aliases
+testis descent timing
+ninth month descent
+scrotal descent
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The testis reaches the deep inguinal ring by about the seventh intra-uterine month, traverses the inguinal canal during the eighth, and normally arrives in the scrotum by the ninth month, around the time of birth. Failure to complete this descent by term is cryptorchidism.
+## explicit_objective
+State that the testis normally reaches the scrotum by the ninth intra-uterine month.
+## pitfalls
+Placing full scrotal descent too early (sixth to eighth month) when the testis is still at the ring or in the canal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Testicular descent
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Male genital system
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-81A8750713B737
+## label
+The pancreas is related to a bare area on the anterior surface of the left kidney
+## canonical_key
+kidney.left.anterior-bare-area-related-to-pancreas
+## aliases
+left kidney anterior relations
+pancreas kidney relation
+renal hilum order
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The body and tail of the pancreas cross the middle of the anterior surface of the left kidney in an area not covered by peritoneum, lying directly against it. The left kidney's other anterior relations are the suprarenal gland, spleen, stomach, splenic vessels, splenic flexure of the colon and jejunal coils. At the hilum the structures run vein, artery, pelvis from front to back, and the right kidney is slightly lower than the left.
+## explicit_objective
+Relate the pancreas to the bare anterior area of the left kidney and order the hilar structures.
+## pitfalls
+Thinking the right kidney is higher than the left, or that the renal artery is anterior to the vein at the hilum.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Kidney relations
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Kidney
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-12F4949F23F264
+## label
+The ascending kidney is supplied by successive transient arteries, not one aortic artery throughout
+## canonical_key
+kidney.development.blood-supply-changes-during-ascent
+## aliases
+kidney ascent blood supply
+accessory renal artery
+metanephros ascent
+## arabic_label
+
+## arabic_aliases
+
+## definition
+As the metanephros ascends from the pelvis to the lumbar region it is supplied in turn by a succession of transient arteries arising from progressively higher levels of the aorta and iliac vessels; the lower ones normally degenerate and the definitive renal artery is a late one. Persistence of a lower vessel produces an accessory (polar) renal artery. During ascent the kidney also rotates about 90 degrees so its ventrally facing hilum comes to face medially.
+## explicit_objective
+Explain that the ascending kidney is supplied by successive transient arteries, not one aortic artery throughout.
+## pitfalls
+Believing a single aortic renal artery supplies the kidney at every developmental stage, ignoring the transient vessels and accessory-artery origin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Kidney development
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Urinary system development
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-30744C28C102F7
+## label
+A congenital hydrocele is fluid in a patent processus vaginalis, not absence of the testis
+## canonical_key
+hydrocele.congenital.patent-processus-vaginalis-not-absent-testis
+## aliases
+congenital hydrocele
+patent processus vaginalis
+processus vaginalis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A congenital hydrocele is a collection of peritoneal fluid within a persistently patent processus vaginalis that still communicates with the peritoneal cavity. It is unrelated to absence of the testis; congenital absence of the testis (anorchia) is a separate, rare anomaly. The processus vaginalis normally obliterates after testicular descent, leaving only the tunica vaginalis around the testis.
+## explicit_objective
+Define a congenital hydrocele as fluid in a patent processus vaginalis, not absence of the testis.
+## pitfalls
+Equating a congenital hydrocele with absence of the testis instead of a patent processus vaginalis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Gonad development
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Male genital system
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-9322842B1AD0B0
+## label
+The tunica albuginea is the intrinsic testicular capsule, not a descent-acquired covering
+## canonical_key
+testis.coverings.tunica-albuginea-is-capsule-not-covering
+## aliases
+testis coverings
+tunica albuginea
+spermatic cord coverings
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The coverings the testis and cord acquire during descent through the abdominal wall are, from deep to superficial, the internal spermatic fascia (fascia transversalis), the cremasteric fascia (internal oblique), the external spermatic fascia (external oblique aponeurosis) and the scrotal skin and dartos. The tunica albuginea is the tough intrinsic fibrous capsule of the testis itself and is not one of these acquired coverings.
+## explicit_objective
+Distinguish the tunica albuginea (intrinsic capsule) from the descent-acquired coverings of the testis.
+## pitfalls
+Listing the tunica albuginea among the abdominal-wall-derived coverings of the testis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Testis and scrotal coverings
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Male genital system
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-4DE8152E9F4CEF
+## label
+The ampulla of the vas deferens lies medial to the seminal vesicle on the bladder base
+## canonical_key
+ductusdeferens.ampulla.medial-to-seminal-vesicle
+## aliases
+vas deferens ampulla
+seminal vesicle relation
+ejaculatory duct formation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On the posterior surface (base) of the bladder the terminal dilated ampulla of the vas deferens lies medial to the seminal vesicle on the same side. The duct of the seminal vesicle then joins the ampulla to form the ejaculatory duct. In the cord the vas is palpable, and at the deep inguinal ring it hooks around the lateral side of the inferior epigastric artery.
+## explicit_objective
+State that the ampulla of the vas lies medial to the seminal vesicle on the bladder base.
+## pitfalls
+Reversing the relation and placing the vas/ampulla lateral to the seminal vesicle.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Male genital ducts
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Male genital system
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-8626BD53F6FB5E
+## label
+The porta hepatis transmits the portal triad but not the hepatic veins
+## canonical_key
+portahepatis.contents.excludes-hepatic-veins
+## aliases
+porta hepatis contents
+portal triad
+hepatic veins IVC
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The porta hepatis, a transverse fissure on the visceral surface of the liver, transmits the portal vein, the hepatic artery, the right and left hepatic ducts, and accompanying nerves and lymphatics (the portal triad). The hepatic veins do not pass through it; they emerge from the posterior bare area of the liver and drain directly into the inferior vena cava.
+## explicit_objective
+List the portal-triad contents of the porta hepatis and exclude the hepatic veins.
+## pitfalls
+Including the hepatic veins among porta hepatis contents instead of routing them straight to the IVC.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Liver and porta hepatis
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Liver and biliary system
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-E185FBE32383E4
+## label
+The genitofemoral nerve descends on the anterior surface of psoas major
+## canonical_key
+nerve.genitofemoral.anterior-surface-psoas-major
+## aliases
+genitofemoral nerve
+psoas major nerves
+lumbar plexus branches
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The genitofemoral nerve (L1, L2) pierces the substance of psoas major and emerges on its anterior surface, down which it descends before dividing into genital and femoral branches. This anterior position distinguishes it from the other lumbar plexus branches, which appear at the lateral border (femoral, lateral cutaneous of thigh, ilioinguinal, iliohypogastric) or the medial border (obturator).
+## explicit_objective
+Identify the genitofemoral nerve on the anterior surface of psoas major.
+## pitfalls
+Confusing it with the femoral or lateral cutaneous nerve of the thigh, which emerge at the lateral border of psoas.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Posterior abdominal wall nerves
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Posterior abdominal wall nerves
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-7EF6A67CAAB82D
+## label
+The anal valves lie at the pectinate line, the watershed of the anal canal
+## canonical_key
+analcanal.anal-valves.pectinate-line
+## aliases
+anal valves
+pectinate line
+dentate line watershed
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The lower ends of the anal columns are joined by small crescentic mucosal folds, the anal valves, and the line linking them is the pectinate (dentate) line. This line is the embryological and functional watershed of the anal canal: above it the mucosa is endodermal with visceral innervation and portal venous drainage, below it ectodermal with somatic innervation and systemic drainage.
+## explicit_objective
+Locate the anal valves at the pectinate line, the embryological watershed of the anal canal.
+## pitfalls
+Placing the anal valves at the anorectal junction, anal margin, or white line of Hilton rather than the pectinate line.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Anal canal
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Rectum and anal canal
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
+# Item
+## id
+CON-GIT-080E798BCC8C56
+## label
+The superior mesenteric vessels are an anterior, not posterior, relation of the third part of the duodenum
+## canonical_key
+duodenum.third-part.posterior-relations-exclude-sma-origin
+## aliases
+third part duodenum relations
+superior mesenteric artery syndrome
+duodenal posterior relations
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The third (horizontal) part of the duodenum is crossed anteriorly by the superior mesenteric vessels in the root of the mesentery, so the SMA can compress it against the aorta (superior mesenteric artery syndrome). Its true posterior relations are the abdominal aorta, the inferior vena cava, the right psoas major and the right ureter.
+## explicit_objective
+Distinguish the anterior (SMA) from the posterior relations of the third part of the duodenum.
+## pitfalls
+Listing the superior mesenteric artery among the posterior relations when it crosses the duodenum anteriorly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gi
+## primary_node_id
+DIS-ANA-T05
+## secondary_node_ids
+SYS-GIT-T01-S01
+## topic
+Anatomy
+## subtopic
+Duodenum
+## microtopic
+
+## nanotopic
+
+## modules
+206 DIG
+## module_subject
+206 DIG > Anatomy > Duodenum and pancreas
+## article_ids
+ART-GIT-206DIG-ANATBANK-GROSS-2
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_e2f2f2fc0a951d31ff71
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+---
+
