@@ -2877,3 +2877,993 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The e
 ## randomise_answers
 yes
 ## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-46
+## title
+Neuro-ophthalmic examination includes visual acuity
+## question
+Examination for diseases of brain with eye involvement include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Visual acuity.
+## explanation_a
+Correct. Visual acuity tests the function of the visual pathway and is a core neuro-ophthalmic examination.
+## answer_b
+Intraocular pressure measurement.
+## explanation_b
+Incorrect. Intraocular pressure assesses glaucoma, not the visual pathway.
+## answer_c
+Refraction using retinoscopy.
+## explanation_c
+Incorrect. Retinoscopy measures refractive error, not neuro-ophthalmic function.
+## answer_d
+Gonioscopy.
+## explanation_d
+Incorrect. Gonioscopy assesses the drainage angle, not brain-related eye disease.
+## topic
+Ophthalmology
+## subtopic
+Neuro-ophthalmic assessment
+## main_concept
+CON-MUL-8DC4628F5D33EE
+## concept_ids
+CON-MUL-8DC4628F5D33EE
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+44
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify visual acuity as a relevant examination in brain disease with eye involvement.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-47
+## title
+Inferior quadrantanopia from a parietal lobe lesion
+## question
+Inferior quadrantanopia occurs in the lesion of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Temporal lobe.
+## explanation_a
+Incorrect. A temporal-lobe (Meyer’s loop) lesion gives a superior quadrantanopia.
+## answer_b
+Frontal lobe.
+## explanation_b
+Incorrect. The frontal lobe does not carry the visual radiation for a quadrantanopia.
+## answer_c
+Occipital lobe.
+## explanation_c
+Incorrect. An occipital lesion typically gives a homonymous hemianopia (often macular-sparing).
+## answer_d
+Parietal lobe.
+## explanation_d
+Correct. The parietal (superior) optic radiation carries inferior-field fibres, so a parietal lesion gives an inferior quadrantanopia.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Localise a homonymous inferior quadrantanopia to a parietal-lobe lesion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-48
+## title
+Superior quadrantanopia from a temporal lobe lesion
+## question
+Superior quadrantanopia occurs in the lesion of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Temporal lobe.
+## explanation_a
+Correct. The temporal-lobe loop (Meyer’s loop) carries superior-field fibres, so a temporal lesion gives a superior quadrantanopia ("pie in the sky").
+## answer_b
+Frontal lobe.
+## explanation_b
+Incorrect. The frontal lobe does not carry these fibres.
+## answer_c
+Occipital lobe.
+## explanation_c
+Incorrect. An occipital lesion gives a hemianopia, not an isolated superior quadrantanopia.
+## answer_d
+Parietal lobe.
+## explanation_d
+Incorrect. A parietal lesion gives an inferior quadrantanopia.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Localise a homonymous superior quadrantanopia to a temporal-lobe lesion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-49
+## title
+Bitemporal hemianopia from a chiasmal lesion
+## question
+Bitemporal hemianopia occurs in lesion of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Occipital lobe.
+## explanation_a
+Incorrect. An occipital lesion gives a homonymous hemianopia.
+## answer_b
+Optic tract.
+## explanation_b
+Incorrect. An optic-tract lesion gives a contralateral homonymous hemianopia.
+## answer_c
+Optic chiasma.
+## explanation_c
+Correct. A chiasmal lesion compresses the crossing nasal fibres and gives a bitemporal hemianopia.
+## answer_d
+Optic nerve.
+## explanation_d
+Incorrect. An optic-nerve lesion gives a monocular defect.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.2
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+46
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Localise a bitemporal hemianopia to the optic chiasm.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-50
+## title
+Bitemporal hemianopia associated with pituitary adenoma
+## question
+Bitemporal hemianopia is typically associated with:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Pituitary adenoma.
+## explanation_a
+Correct. A pituitary adenoma compresses the optic chiasm from below, giving a bitemporal hemianopia.
+## answer_b
+Optic neuritis.
+## explanation_b
+Incorrect. Optic neuritis gives a monocular central scotoma, not a bitemporal defect.
+## answer_c
+Occipital lobe tumors.
+## explanation_c
+Incorrect. An occipital tumour gives a homonymous hemianopia.
+## answer_d
+Parietal lobe tumors.
+## explanation_d
+Incorrect. A parietal tumour gives an inferior quadrantanopia.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Associate a bitemporal hemianopia with a pituitary adenoma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-51
+## title
+Contralateral homonymous hemianopia from an optic tract lesion
+## question
+Contralateral homonymous hemianopia occurs in lesion of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Optic nerve.
+## explanation_a
+Incorrect. An optic-nerve lesion gives a monocular defect.
+## answer_b
+Optic chiasma.
+## explanation_b
+Incorrect. A chiasmal lesion gives a bitemporal hemianopia.
+## answer_c
+Pretectal nucleus.
+## explanation_c
+Incorrect. The pretectal nucleus serves the light reflex, not the visual field.
+## answer_d
+Optic tract.
+## explanation_d
+Correct. An optic-tract lesion gives a contralateral homonymous hemianopia.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Localise a contralateral homonymous hemianopia to an optic tract lesion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-52
+## title
+Macular-sparing homonymous hemianopia from an occipital lesion
+## question
+Contralateral homonymous hemianopia with macular sparing occurs in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Pituitary adenoma.
+## explanation_a
+Incorrect. A pituitary adenoma gives a bitemporal hemianopia.
+## answer_b
+Optic neuritis.
+## explanation_b
+Incorrect. Optic neuritis gives a monocular central scotoma.
+## answer_c
+Occipital lobe lesions.
+## explanation_c
+Correct. Occipital-lobe lesions give a contralateral homonymous hemianopia with macular sparing (the macular cortex has a dual blood supply).
+## answer_d
+Parietal lobe lesions.
+## explanation_d
+Incorrect. A parietal lesion gives an inferior quadrantanopia, not a macular-sparing hemianopia.
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## main_concept
+CON-MUL-C5E0F4125E8139
+## concept_ids
+CON-MUL-C5E0F4125E8139
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Attribute a macular-sparing homonymous hemianopia to an occipital-lobe lesion.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-53
+## title
+Papilledema feature: dilated tortuous retinal vessels
+## question
+In papilledema:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Early loss of vision.
+## explanation_a
+Incorrect. Vision is preserved early in papilledema.
+## answer_b
+Primary optic atrophy.
+## explanation_b
+Incorrect. Untreated papilledema leads to secondary, not primary, optic atrophy.
+## answer_c
+Tubular visual field.
+## explanation_c
+Incorrect. A tubular field is a feature of retinitis pigmentosa or advanced glaucoma.
+## answer_d
+Dilated tortuous retinal vessels.
+## explanation_d
+Correct. Venous congestion gives dilated, tortuous retinal veins in papilledema.
+## topic
+Ophthalmology
+## subtopic
+Optic disc
+## main_concept
+CON-MUL-0D89C958F3BA46
+## concept_ids
+CON-MUL-0D89C958F3BA46
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise dilated tortuous retinal vessels as a sign of papilledema.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-54
+## title
+Papilledema feature: engorged retinal veins
+## question
+In papilledema:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+The patient never complains of headache.
+## explanation_a
+Incorrect. Headache from raised intracranial pressure is common.
+## answer_b
+The vision is affected early.
+## explanation_b
+Incorrect. Central vision is preserved early.
+## answer_c
+The pupil early shows relative afferent pupillary defect.
+## explanation_c
+Incorrect. Papilledema is symmetric, so there is no early relative afferent pupillary defect.
+## answer_d
+The retinal veins are engorged.
+## explanation_d
+Correct. Venous engorgement is a characteristic fundus sign of papilledema.
+## topic
+Ophthalmology
+## subtopic
+Optic disc
+## main_concept
+CON-MUL-0D89C958F3BA46
+## concept_ids
+CON-MUL-0D89C958F3BA46
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise engorged retinal veins as a sign of papilledema and that vision/pupils are preserved early.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.135); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-55
+## title
+Pseudotumour cerebri: weight loss and carbonic anhydrase inhibitors
+## question
+In pseudotumour cerebri (benign increase intracranial tension):
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Typically affects obese old men above 70 years.
+## explanation_a
+Incorrect. It typically affects young obese women, not old men.
+## answer_b
+The optic nerve head is normal.
+## explanation_b
+Incorrect. There is bilateral papilledema, so the disc is swollen.
+## answer_c
+Sudden painless loss of vision.
+## explanation_c
+Incorrect. Vision is threatened gradually, with transient obscurations, not sudden painless loss.
+## answer_d
+Treatment by weight loss and carbonic anhydrase inhibitors.
+## explanation_d
+Correct. Management is weight loss and carbonic anhydrase inhibitors (acetazolamide), with surgery for failing vision.
+## topic
+Ophthalmology
+## subtopic
+Raised intracranial pressure
+## main_concept
+CON-MUL-307858B16A6605
+## concept_ids
+CON-MUL-307858B16A6605
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+56
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise weight loss and carbonic anhydrase inhibitors as the treatment of pseudotumour cerebri.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.136); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

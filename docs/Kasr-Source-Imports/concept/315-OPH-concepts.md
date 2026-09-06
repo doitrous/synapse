@@ -31993,3 +31993,225 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q21-29) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8DC4628F5D33EE
+## label
+Bedside eye examination in neuro-ophthalmic disease
+## canonical_key
+ophthalmology.neuro-ophthalmology.clinical-examination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Assessing the eye in brain disease relies on tests of the visual pathway and its function: visual acuity, pupillary reactions, colour vision, visual fields and fundus examination of the optic disc. Anterior-segment tests such as intraocular pressure measurement, retinoscopic refraction and gonioscopy are not part of the neuro-ophthalmic work-up.
+## explicit_objective
+Identify visual acuity (and pupil/field/fundus testing) as the relevant examinations in neuro-ophthalmic disease.
+## pitfalls
+Choosing intraocular pressure, refraction or gonioscopy; these assess the anterior segment/glaucoma, not the visual pathway.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Neuro-ophthalmic assessment
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Neuro-ophthalmic assessment
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q46-55) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-307858B16A6605
+## label
+Idiopathic intracranial hypertension (pseudotumour cerebri)
+## canonical_key
+ophthalmology.idiopathic-intracranial-hypertension.pseudotumour-cerebri
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Idiopathic intracranial hypertension (pseudotumour cerebri) is raised intracranial pressure without a mass lesion, typically in a young obese woman (often on drugs such as the contraceptive pill or tetracyclines). It causes headache, transient visual obscurations and bilateral papilledema, and is treated by weight loss and carbonic anhydrase inhibitors (acetazolamide), with optic nerve sheath fenestration or shunting for failing vision.
+## explicit_objective
+Recognise pseudotumour cerebri in a young obese woman and its treatment by weight loss and carbonic anhydrase inhibitors.
+## pitfalls
+Describing it as a disease of obese old men, with a normal disc, or sudden painless visual loss; it affects young obese women, causes papilledema, and threatens vision gradually.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Raised intracranial pressure
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Raised intracranial pressure
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q46-55) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
