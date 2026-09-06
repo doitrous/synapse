@@ -2232,3 +2232,1113 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 15618 existing IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard forensic-medicine teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.3-4); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-7E2C75A178C63C
+## label
+Opioid toxidrome: coma, respiratory depression and miosis
+## canonical_key
+toxicology.opioid-toxidrome.coma-respiratory-depression-miosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The classic opioid toxidrome is the triad of depressed consciousness (coma), severe respiratory depression and pinpoint (miotic) pupils, produced by central mu-opioid receptor agonism. It points to an opioid such as fentanyl and is reversed by naloxone.
+## explicit_objective
+Recognise the opioid toxidrome (coma, respiratory depression, miosis) and its reversal with naloxone.
+## pitfalls
+Confusing it with the sympathomimetic or anticholinergic toxidromes, which cause mydriasis and agitation rather than miosis and respiratory depression.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Opioids
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Toxidromes
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-413CC92E898035
+## label
+Activated charcoal adsorbs barbiturates but not alcohols or metals
+## canonical_key
+toxicology.activated-charcoal.effective-for-barbiturates
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Activated charcoal binds many organic drugs onto its porous surface and effectively reduces gastrointestinal absorption of barbiturates. Small water-soluble alcohols and heavy metals (including lead) are poorly adsorbed and are not indications for charcoal.
+## explicit_objective
+State which ingestions activated charcoal does and does not adsorb.
+## pitfalls
+Giving activated charcoal for alcohol or heavy-metal poisoning, where it is ineffective.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Gastrointestinal decontamination
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Decontamination
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2EB26CCAFE0986
+## label
+Tinnitus is not an indication for haemodialysis in salicylate poisoning
+## canonical_key
+toxicology.salicylate-poisoning.tinnitus-not-hemodialysis-indication
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Indications for haemodialysis in salicylate poisoning are severe acidosis, renal failure, a very high blood level, pulmonary or cerebral oedema and altered mental status. Tinnitus is an early minor feature of salicylism and is not, by itself, an indication for dialysis.
+## explicit_objective
+List the haemodialysis indications in salicylate poisoning and distinguish them from minor salicylism.
+## pitfalls
+Treating tinnitus as a severity marker; it reflects mild toxicity, not a dialysis threshold.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Salicylates
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Salicylates
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4BB13031C3596A
+## label
+Phenothiazines are radiopaque on abdominal X-ray
+## canonical_key
+toxicology.radiopaque-substances.phenothiazines-radiopaque-on-abdominal-xray
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Phenothiazines are among the radiopaque ingestions visible on a plain abdominal radiograph. They appear in the commonly taught CHIPES group of radiopaque poisons (chloral hydrate/calcium, heavy metals, iron, phenothiazines, enteric-coated/sustained-release tablets).
+## explicit_objective
+Recall the radiopaque poisons detectable on a plain abdominal film, including phenothiazines.
+## pitfalls
+Assuming most tablets are radiopaque; only a limited group (including phenothiazines) is reliably visible.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Radiopaque toxins
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Investigations
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F8717AF84F2813
+## label
+Methanol is effectively removed by haemodialysis
+## canonical_key
+toxicology.hemodialysis.effective-for-methanol
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Haemodialysis efficiently removes toxins that are small, water-soluble, minimally protein-bound and have a low volume of distribution. Methanol meets all of these criteria and dialysis also clears its toxic formic-acid metabolite, unlike tissue-bound drugs such as digitalis or verapamil.
+## explicit_objective
+Predict the dialysability of a toxin from its size, protein binding and volume of distribution.
+## pitfalls
+Attempting dialysis for large-volume, tissue-bound drugs (digoxin, tricyclics) where it is ineffective.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Enhanced elimination
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Enhanced elimination
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-F0040259370FCC
+## label
+Paracetamol overdose causes hepatotoxicity
+## canonical_key
+toxicology.paracetamol.causes-hepatotoxicity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In overdose paracetamol is converted to the reactive metabolite NAPQI, which depletes hepatic glutathione and causes centrilobular hepatocellular necrosis. N-acetylcysteine treats it by replenishing glutathione stores.
+## explicit_objective
+Explain the mechanism of paracetamol hepatotoxicity and the rationale for N-acetylcysteine.
+## pitfalls
+Expecting early hepatic signs; transaminases typically rise only after a latent period of 24-72 hours.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Organ toxicity
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Organ toxicity
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-31A70F141D3FF5
+## label
+Benzodiazepines (diazepam) do not cause metabolic acidosis
+## canonical_key
+toxicology.metabolic-acidosis-poisons.diazepam-not-associated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A high-anion-gap metabolic acidosis in poisoning is produced by the MUDPILES toxins, including methanol, iron and salicylate. Benzodiazepines such as diazepam cause CNS depression without generating fixed acid, so they are not associated with metabolic acidosis.
+## explicit_objective
+Separate anion-gap-acidosis toxins from CNS depressants that do not acidify the blood.
+## pitfalls
+Assuming any sedative overdose causes acidosis; benzodiazepines do not.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Acid-base disturbances
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Acid-base disturbances
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-00E952020FF872
+## label
+Phenol poisoning does not cause hypocalcaemia
+## canonical_key
+toxicology.phenol-poisoning.effects-exclude-hypocalcemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Phenol (carbolic acid) causes local corrosion, myocardial depression, methaemoglobinaemia, haemolysis and renal damage (acute glomerulonephritis with dark urine). Hypocalcaemia is not a phenol effect; it is characteristic of hydrofluoric acid or oxalate/ethylene-glycol poisoning, where fluoride or oxalate binds calcium.
+## explicit_objective
+Recall the systemic effects of phenol and the different toxins that cause hypocalcaemia.
+## pitfalls
+Attributing hypocalcaemia to phenol; it belongs to fluoride/oxalate toxicity.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Corrosives
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Corrosives
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1281268FB43B07
+## label
+Chemical neutralisation of corrosives is contraindicated
+## canonical_key
+toxicology.corrosive-first-aid.weak-acid-not-used-to-neutralise-alkali
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Neutralising a swallowed alkali with a weak acid is contraindicated because the acid-base reaction is strongly exothermic. The liberated heat adds a thermal burn to the chemical injury and worsens corrosive tissue damage, so dilution and supportive care are used instead of neutralisation.
+## explicit_objective
+Explain why chemical neutralisation is avoided in corrosive ingestion.
+## pitfalls
+Attempting to neutralise a corrosive; the exothermic reaction increases injury.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Corrosives
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Corrosives
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-99AFCAE2BB5EB6
+## label
+Organophosphate-induced delayed neuropathy causes distal limb paralysis
+## canonical_key
+toxicology.organophosphate-delayed-neuropathy.distal-limb-muscle-paralysis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organophosphate-induced delayed neuropathy (OPIDN) is a distal sensorimotor polyneuropathy appearing 1-3 weeks after exposure, causing weakness and paralysis of the distal limb muscles (foot- and wrist-drop). It follows inhibition and ageing of neuropathy target esterase, distinct from the acute cholinergic and intermediate syndromes.
+## explicit_objective
+Describe OPIDN and distinguish it from the acute cholinergic and intermediate organophosphate syndromes.
+## pitfalls
+Confusing it with the intermediate syndrome, which causes proximal, neck-flexor and respiratory weakness within days.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## topic
+Clinical Toxicology
+## subtopic
+Organophosphates
+## microtopic
+
+## nanotopic
+
+## modules
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology > Organophosphates
+## article_ids
+ART-FMT-317-TOXICOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against 9167 existing IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard clinical-toxicology teaching corroborated by this paper's own yellow-highlight-keyed stem/options (render-verified pp.6-7); no department book read this pass.

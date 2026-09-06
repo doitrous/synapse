@@ -1,0 +1,251 @@
+{
+  "lane": "KASR-317FMT",
+  "cluster": "abolmagd-r2-toxicology",
+  "header": "Kasr Al Ainy 317 FMT (Year 3) · Clinical Toxicology MCQ (Q79-96) from the student 'Forensic & Toxo Round 2 (197) [SOLVED]' compilation by Abolmagd. Answer key = the option carrying a YELLOW HIGHLIGHT FILL; render-verified pp.6-7 at 165 dpi, all single-highlight, 0 excluded. Q91 absent from the paper (numbering jumps 90->92); Q97-100 are a drug/antidote matching table, not MCQ, excluded.",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "317 FMT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-FMT-317-TOXICOLOGY"],
+    "resource_ids": ["src_2ef422afa7aa0aac43dc"],
+    "source_citation": "Kasr Al Ainy 317 FMT — Forensic & Toxo Round 2 (197) [SOLVED], Clinical Toxicology MCQ, p.{page}",
+    "setting": "Clinical",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Clinical Toxicology",
+    "subtopic": "Clinical Toxicology",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "exam_relevance": 5,
+    "field_notes": { "keySource": "yellow-highlighted option; render-verified pp.6-7 at 165 dpi (pagetext.mjs keys + eye)" }
+  },
+  "questions": [
+    {
+      "key": "q79", "id": "QST-KASR317FMT-ABOLMAGD-R2-79", "page": 6,
+      "main_concept": "CON-MUL-7E2C75A178C63C", "concept_ids": ["CON-MUL-7E2C75A178C63C"],
+      "title": "Toxidrome of coma, respiratory depression and miosis",
+      "question": "A triad of coma, severe respiratory depression and miosis is common with:",
+      "subtopic": "Opioids",
+      "module_subject": "317 FMT > Clinical Toxicology > Toxidromes",
+      "learning_objective": "Recognise the classic opioid toxidrome of coma, respiratory depression and pinpoint pupils.",
+      "options": {
+        "A": "Fentanyl",
+        "B": "Theophylline",
+        "C": "Tricyclic antidepressants",
+        "D": "Verapamil"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The triad of depressed consciousness, severe respiratory depression and pinpoint (miotic) pupils is the classic OPIOID toxidrome, and fentanyl is a potent synthetic opioid. Opioids act on central mu receptors to depress the brainstem respiratory centre and the level of consciousness while stimulating the Edinger-Westphal nucleus to constrict the pupils. This distinctive triad, reversible with naloxone, is the reason it points to an opioid rather than any other class.",
+        "B": "Incorrect. Theophylline is a CNS and cardiac stimulant; overdose causes agitation, seizures, tachyarrhythmia and vomiting, not coma with miosis and respiratory depression.",
+        "C": "Incorrect. Tricyclic antidepressants produce an anticholinergic picture with mydriasis (dilated pupils), seizures and a wide-QRS tachyarrhythmia, the opposite pupillary sign to this triad.",
+        "D": "Incorrect. Verapamil is a calcium-channel blocker; overdose causes bradycardia and hypotension, not the opioid triad of miosis and respiratory depression."
+      }
+    },
+    {
+      "key": "q80", "id": "QST-KASR317FMT-ABOLMAGD-R2-80", "page": 6,
+      "main_concept": "CON-MUL-413CC92E898035", "concept_ids": ["CON-MUL-413CC92E898035"],
+      "title": "Activated charcoal is effective in barbiturate poisoning",
+      "question": "Activated charcoal is used in:",
+      "subtopic": "Gastrointestinal decontamination",
+      "module_subject": "317 FMT > Clinical Toxicology > Decontamination",
+      "learning_objective": "Identify that activated charcoal adsorbs organic drugs such as barbiturates but not alcohols or heavy metals.",
+      "options": {
+        "A": "Alcohol poisoning",
+        "B": "Barbiturate poisoning",
+        "C": "Heavy metal poisoning",
+        "D": "Lead poisoning"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Small, highly water-soluble alcohols (methanol, ethanol, ethylene glycol) are poorly adsorbed by activated charcoal, so charcoal is not used for alcohol poisoning.",
+        "B": "Correct. Activated charcoal adsorbs many organic drugs onto its large porous surface, and barbiturates are well adsorbed, so it reduces their gastrointestinal absorption. It is most useful given early after ingestion of a charcoal-binding drug such as a barbiturate. This is why barbiturate poisoning is the listed indication, whereas alcohols and metals are not adsorbed.",
+        "C": "Incorrect. Heavy metals are poorly bound by activated charcoal; they require specific chelating agents rather than charcoal.",
+        "D": "Incorrect. Lead is a heavy metal and is not effectively adsorbed by charcoal; it is managed with chelation, not activated charcoal."
+      }
+    },
+    {
+      "key": "q81", "id": "QST-KASR317FMT-ABOLMAGD-R2-81", "page": 6,
+      "main_concept": "CON-MUL-2EB26CCAFE0986", "concept_ids": ["CON-MUL-2EB26CCAFE0986"],
+      "title": "Tinnitus is not an indication for haemodialysis in salicylate poisoning",
+      "question": "Which of the following clinical manifestation of salicylate poisoning is not indication of hemodialysis?",
+      "subtopic": "Salicylates",
+      "module_subject": "317 FMT > Clinical Toxicology > Salicylates",
+      "learning_objective": "Distinguish the severity features that indicate haemodialysis in salicylate poisoning from minor early salicylism.",
+      "options": {
+        "A": "Acidosis",
+        "B": "Renal failure",
+        "C": "Tinnitus",
+        "D": "Toxic blood level"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Severe or refractory metabolic acidosis is a recognised indication for haemodialysis in salicylate poisoning because it reflects serious systemic toxicity.",
+        "B": "Incorrect. Renal failure impairs salicylate excretion and is an accepted indication for haemodialysis.",
+        "C": "Correct. Tinnitus is an early, minor feature of mild salicylism reflecting an ototoxic effect, and it resolves as levels fall; it does not by itself signify the life-threatening toxicity that warrants dialysis. The indications for haemodialysis are severe acidosis, renal failure, a very high blood level, pulmonary or cerebral oedema and altered mental status. Because tinnitus is not in that severity group, it is the one that is NOT an indication.",
+        "D": "Incorrect. A very high (toxic) blood salicylate level is a standard indication for haemodialysis to enhance elimination."
+      }
+    },
+    {
+      "key": "q82", "id": "QST-KASR317FMT-ABOLMAGD-R2-82", "page": 6,
+      "main_concept": "CON-MUL-4BB13031C3596A", "concept_ids": ["CON-MUL-4BB13031C3596A"],
+      "title": "Phenothiazines are radiopaque on abdominal X-ray",
+      "question": "Which of the following shows radiopacities on X-ray abdomen?",
+      "subtopic": "Radiopaque toxins",
+      "module_subject": "317 FMT > Clinical Toxicology > Investigations",
+      "learning_objective": "List drugs that are radiopaque on a plain abdominal radiograph, including phenothiazines.",
+      "options": {
+        "A": "Atropine",
+        "B": "Amitriptyline",
+        "C": "Amphetamine",
+        "D": "Phenothiazines"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Atropine is not radiopaque and would not be seen on a plain abdominal film.",
+        "B": "Incorrect. Amitriptyline (a tricyclic) is not reliably radiopaque on abdominal radiography.",
+        "C": "Incorrect. Amphetamine is not radiopaque and is not detected on a plain film.",
+        "D": "Correct. Phenothiazines are among the classically radiopaque ingestions and can be seen on a plain abdominal radiograph. They appear in the commonly taught CHIPES group of radiopaque poisons (Chloral hydrate/Calcium, Heavy metals, Iron, Phenothiazines, Enteric-coated/Sustained-release tablets). This radiodensity is why phenothiazines, and not the other listed drugs, show radiopacities."
+      }
+    },
+    {
+      "key": "q83", "id": "QST-KASR317FMT-ABOLMAGD-R2-83", "page": 6,
+      "main_concept": "CON-MUL-F8717AF84F2813", "concept_ids": ["CON-MUL-F8717AF84F2813"],
+      "title": "Haemodialysis is most effective for methanol",
+      "question": "Hemodialysis would have the greatest effect on reducing blood levels of which of the following?",
+      "subtopic": "Enhanced elimination",
+      "module_subject": "317 FMT > Clinical Toxicology > Enhanced elimination",
+      "learning_objective": "Predict which toxins are effectively removed by haemodialysis from their molecular size, volume of distribution and protein binding.",
+      "options": {
+        "A": "Digitalis",
+        "B": "Methadone",
+        "C": "Methanol",
+        "D": "Verapamil"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Digitalis has a very large volume of distribution and is extensively tissue-bound, so little is in the blood to remove; haemodialysis is ineffective.",
+        "B": "Incorrect. Methadone is highly protein-bound with a large volume of distribution, making it a poor candidate for haemodialysis.",
+        "C": "Correct. Haemodialysis removes toxins that are small, water-soluble, minimally protein-bound and have a low volume of distribution, and methanol fits all of these. Because most of the methanol stays in the blood and readily crosses the dialyser membrane, dialysis clears it efficiently (and also removes its toxic formic-acid metabolite). This is why methanol, not the large-volume or tissue-bound drugs, is best cleared by dialysis.",
+        "D": "Incorrect. Verapamil is highly protein-bound with a large volume of distribution, so haemodialysis does not effectively reduce its blood level."
+      }
+    },
+    {
+      "key": "q84", "id": "QST-KASR317FMT-ABOLMAGD-R2-84", "page": 6,
+      "main_concept": "CON-MUL-F0040259370FCC", "concept_ids": ["CON-MUL-F0040259370FCC"],
+      "title": "Correct drug-toxicity pairing: paracetamol and hepatotoxicity",
+      "question": "Which of the following is a CORRECT pairing of drug and toxic action?",
+      "subtopic": "Organ toxicity",
+      "module_subject": "317 FMT > Clinical Toxicology > Organ toxicity",
+      "learning_objective": "Match a drug to its characteristic target-organ toxicity, recognising paracetamol as hepatotoxic.",
+      "options": {
+        "A": "Amphetamine / Autotoxicity",
+        "B": "Digitalis / Nephrotoxicity",
+        "C": "Iron / Pulmonary toxicity",
+        "D": "Paracetamol / Hepatotoxicity"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Amphetamine is a sympathomimetic causing agitation, hyperthermia and cardiovascular effects; \"autotoxicity\" is not its recognised toxic action.",
+        "B": "Incorrect. Digitalis is cardiotoxic (arrhythmias and conduction block), not primarily nephrotoxic.",
+        "C": "Incorrect. Iron toxicity targets the gastrointestinal tract, liver and metabolism (metabolic acidosis, shock), not the lungs.",
+        "D": "Correct. In overdose paracetamol is converted to the reactive metabolite NAPQI, which depletes hepatic glutathione and produces centrilobular hepatocellular necrosis, so paracetamol is correctly paired with hepatotoxicity. This is the basis for N-acetylcysteine treatment, which replenishes glutathione. The other pairings misattribute the target organ, making this the only correct match."
+      }
+    },
+    {
+      "key": "q85", "id": "QST-KASR317FMT-ABOLMAGD-R2-85", "page": 6,
+      "main_concept": "CON-MUL-31A70F141D3FF5", "concept_ids": ["CON-MUL-31A70F141D3FF5"],
+      "title": "Diazepam is not associated with metabolic acidosis",
+      "question": "Which of the following acute toxicities is NOT associated with metabolic acidosis?",
+      "subtopic": "Acid-base disturbances",
+      "module_subject": "317 FMT > Clinical Toxicology > Acid-base disturbances",
+      "learning_objective": "Separate toxins that cause a high-anion-gap metabolic acidosis from those, such as benzodiazepines, that do not.",
+      "options": {
+        "A": "Diazepam",
+        "B": "Iron",
+        "C": "Methanol",
+        "D": "Salicylate"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Diazepam is a benzodiazepine whose overdose causes CNS depression, drowsiness and, rarely, respiratory depression, but it does not generate fixed acid, so it is NOT associated with metabolic acidosis. The classic acid-producing poisons are captured in the MUDPILES group (including methanol, iron, salicylate). Because diazepam produces no anion-gap acidosis, it is the exception here.",
+        "B": "Incorrect. Iron toxicity causes a high-anion-gap (lactic) metabolic acidosis from mitochondrial injury and shock.",
+        "C": "Incorrect. Methanol is metabolised to formic acid, producing a severe high-anion-gap metabolic acidosis.",
+        "D": "Incorrect. Salicylate poisoning causes a high-anion-gap metabolic acidosis (typically mixed with a respiratory alkalosis)."
+      }
+    },
+    {
+      "key": "q86", "id": "QST-KASR317FMT-ABOLMAGD-R2-86", "page": 6,
+      "main_concept": "CON-MUL-00E952020FF872", "concept_ids": ["CON-MUL-00E952020FF872"],
+      "title": "Phenol effects exclude hypocalcaemia",
+      "question": "Phenol has all the following effects, EXCEPT:",
+      "subtopic": "Corrosives",
+      "module_subject": "317 FMT > Clinical Toxicology > Corrosives",
+      "learning_objective": "Recall the systemic effects of phenol (carbolic acid) and recognise that hypocalcaemia is not among them.",
+      "options": {
+        "A": "Myocardial depression",
+        "B": "Methemoglobin production",
+        "C": "Hypocalcemia",
+        "D": "Acute glomerulonephritis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (it IS an effect). Phenol depresses the myocardium and can cause hypotension and arrhythmia, so it is a genuine phenol effect.",
+        "B": "Incorrect (it IS an effect). Phenol and its metabolites can oxidise haemoglobin and produce methaemoglobinaemia.",
+        "C": "Correct (the EXCEPTION). Hypocalcaemia is characteristic of hydrofluoric acid or oxalate/ethylene-glycol poisoning, where fluoride or oxalate binds calcium; phenol (carbolic acid) does not chelate calcium, so hypocalcaemia is NOT one of its effects. Phenol instead causes local corrosion, myocardial depression, methaemoglobinaemia, haemolysis and renal damage. Because hypocalcaemia belongs to a different toxin, it is the exception.",
+        "D": "Incorrect (it IS an effect). Phenol is nephrotoxic and can cause acute glomerulonephritis and renal failure, along with the characteristic dark (smoky) urine."
+      }
+    },
+    {
+      "key": "q87", "id": "QST-KASR317FMT-ABOLMAGD-R2-87", "page": 6,
+      "main_concept": "CON-MUL-1281268FB43B07", "concept_ids": ["CON-MUL-1281268FB43B07"],
+      "title": "Weak acids worsen alkaline corrosive injury",
+      "question": "Weak acids cannot be used with alkaline corrosives because they may:",
+      "subtopic": "Corrosives",
+      "module_subject": "317 FMT > Clinical Toxicology > Corrosives",
+      "learning_objective": "Explain why chemical neutralisation is contraindicated in corrosive ingestion.",
+      "options": {
+        "A": "Produce more corrosive action",
+        "B": "Produce CO2 gas",
+        "C": "Induce acidosis",
+        "D": "Induce vomiting"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Neutralising a swallowed alkali with an acid is contraindicated because the acid-base reaction is strongly exothermic; the heat liberated adds a thermal burn to the existing chemical injury, producing MORE corrosive tissue damage. For this reason chemical neutralisation is never attempted and dilution or supportive care is used instead. This worsening of injury is why weak acids cannot be given with alkaline corrosives.",
+        "B": "Incorrect. Gas (CO2) liberation is a concern specific to neutralising with carbonates/bicarbonate, not the principal reason weak acids are avoided with alkalis.",
+        "C": "Incorrect. A small oral weak acid does not induce systemic acidosis; the danger is local heat and corrosion, not an acid-base derangement.",
+        "D": "Incorrect. Vomiting is undesirable with corrosives (re-exposing the oesophagus) but is not the reason acids are withheld; the reason is the exothermic, injury-worsening reaction."
+      }
+    },
+    {
+      "key": "q88", "id": "QST-KASR317FMT-ABOLMAGD-R2-88", "page": 6,
+      "main_concept": "CON-MUL-99AFCAE2BB5EB6", "concept_ids": ["CON-MUL-99AFCAE2BB5EB6"],
+      "title": "Organophosphate delayed neuropathy causes distal limb paralysis",
+      "question": "Delayed peripheral neuropathy in organophosphorus poisoning is characterized by:",
+      "subtopic": "Organophosphates",
+      "module_subject": "317 FMT > Clinical Toxicology > Organophosphates",
+      "learning_objective": "Describe organophosphate-induced delayed neuropathy and distinguish it from the acute and intermediate syndromes.",
+      "options": {
+        "A": "Develops within 3 days",
+        "B": "Causes paralysis of distal limb muscles",
+        "C": "Causes paralysis of neck flexor muscles",
+        "D": "All of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Organophosphate-induced delayed neuropathy appears 1-3 WEEKS after exposure, not within 3 days; an onset within 3 days would describe the acute cholinergic or intermediate phase.",
+        "B": "Correct. Organophosphate-induced delayed neuropathy (OPIDN) is a distal, length-dependent sensorimotor polyneuropathy that develops one to three weeks after exposure and produces weakness and paralysis of the DISTAL limb muscles, often with foot- and wrist-drop. It results from inhibition and ageing of neuropathy target esterase rather than acetylcholinesterase. Distal limb involvement is therefore its defining feature.",
+        "C": "Incorrect. Paralysis of neck flexor, proximal limb and respiratory muscles a few days after poisoning describes the intermediate syndrome, not the delayed distal neuropathy.",
+        "D": "Incorrect. Because the early-onset and neck-flexor descriptions belong to other syndromes, \"all of the above\" cannot be correct."
+      }
+    }
+  ]
+}

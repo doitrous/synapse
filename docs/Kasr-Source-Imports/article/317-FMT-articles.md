@@ -196,3 +196,99 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was located/read this pass -- written from standard forensic-medicine teaching corroborated by this exam paper's own yellow-highlight-keyed stems and options (render-verified pp.3-4).
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-FMT-317-TOXICOLOGY
+## title
+Clinical toxicology: toxidromes, decontamination and organ toxicity
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Clinical Toxicology
+## summary
+This article groups the clinical-toxicology facts tested by the paper (Q79-96). It covers toxidromes (the opioid triad of coma, respiratory depression and miosis), decontamination and enhanced elimination (activated charcoal adsorbing barbiturates but not alcohols or metals; haemodialysis clearing small water-soluble methanol; multiple-dose charcoal in digitalis because of its enterohepatic circulation), investigation clues (phenothiazines radiopaque on abdominal X-ray), acid-base and severity assessment (aspirin causing an initial respiratory alkalosis then a metabolic acidosis; diazepam not causing acidosis; tinnitus not an indication for dialysis in salicylate poisoning), organ and mechanism-specific toxicity (paracetamol/NAPQI hepatotoxicity; phenol effects excluding hypocalcaemia; corrosive neutralisation being exothermic and harmful; organophosphate delayed distal neuropathy; digoxin toxicity causing hyperkalaemia not hypokalaemia; digitalis inhibiting Na+/K+-ATPase; cyanide inactivating cytochrome oxidase; kerosene targeting the lungs and CNS; neurotoxic cobra envenomation with minimal local damage).
+## sections
+### Definition
+This article groups the clinical-toxicology concepts tested by the paper; each linked concept carries one atomic toxicology fact and this overview ties them into the themes of toxidromes, decontamination and enhanced elimination, acid-base disturbance, and mechanism- and organ-specific toxicity.
+### Mechanism
+The facts follow from core toxicology mechanisms: receptor and enzyme targets (opioid mu receptors, digitalis on Na+/K+-ATPase, cyanide on cytochrome oxidase), metabolic activation (paracetamol to NAPQI, methanol to formic acid), physicochemical properties governing removal (charcoal adsorption, dialysability from low volume of distribution and protein binding, enterohepatic recirculation) and tissue responses (exothermic corrosive neutralisation, distal axonal degeneration in organophosphate delayed neuropathy).
+### Key determinants
+Discriminators tested here: the opioid triad is coma + respiratory depression + miosis; charcoal binds barbiturates, not alcohols or metals; methanol is dialysable while tissue-bound drugs are not; phenothiazines are radiopaque; aspirin's INITIAL derangement is respiratory alkalosis; diazepam does not cause acidosis; tinnitus is not a dialysis indication; paracetamol is hepatotoxic; phenol does not cause hypocalcaemia; neutralising corrosives is harmful; organophosphate delayed neuropathy is distal; acute digoxin toxicity causes hyperkalaemia; digitalis inhibits Na+/K+-ATPase; cyanide inactivates cytochrome oxidase; kerosene targets lungs and CNS; cobra venom is neurotoxic with minimal local damage.
+### Clinical significance
+These facts underlie the bedside recognition of poisoning by toxidrome, the choice of decontamination and enhanced-elimination methods, the interpretation of acid-base and imaging findings, and the specific antidotes and monitoring (naloxone, N-acetylcysteine, digoxin-specific Fab, atropine/oximes) that follow from each mechanism.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (miosis versus mydriasis, charcoal used for alcohols/metals, tinnitus as a dialysis trigger, phenol causing hypocalcaemia, neutralising corrosives, hypokalaemia in acute digoxin toxicity, and confusing the delayed and intermediate organophosphate syndromes).
+## universities
+kau
+## years
+KAU_Y3
+## module
+317 FMT
+## module_subject
+317 FMT > Clinical Toxicology
+## subtopic
+Clinical Toxicology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 clinical toxicology
+## high_yield
+Core
+## primary_node_id
+DIS-FOR-T05
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-7E2C75A178C63C
+CON-MUL-413CC92E898035
+CON-MUL-2EB26CCAFE0986
+CON-MUL-4BB13031C3596A
+CON-MUL-F8717AF84F2813
+CON-MUL-F0040259370FCC
+CON-MUL-31A70F141D3FF5
+CON-MUL-00E952020FF872
+CON-MUL-1281268FB43B07
+CON-MUL-99AFCAE2BB5EB6
+## related_articles
+ART-FMT-317-FORENSIC-INJURY
+ART-FMT-317-FORENSIC-LAWID
+## resource_ids
+src_2ef422afa7aa0aac43dc
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard clinical-toxicology teaching corroborated by this exam paper's own yellow-highlight-keyed stems and options (render-verified pp.6-7).
+## reading_time
+8
