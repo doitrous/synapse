@@ -14,6 +14,9 @@
 | kamal-ch10-childhood | 41 | 19 | 0 | 60 |
 | kamal-ch12-injuries | 60 | 21 | 0 | 81 |
 | kamal-ch11-systemic | 24 | 19 | 0 | 43 |
+| kamal-ch13-medications | 42 | 1 | 0 | 43 |
+| kamal-ch14-lasers | 23 | 0 | 0 | 23 |
+| kamal-ch15-related | 4 | 0 | 0 | 4 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -358,3 +361,33 @@
 - Ch.11 (The eye in systemic diseases) remains SKIPPED per lane brief.
 - NEXT cluster: Ch.13 Medications and the eye (answer key p.9, 43 answers, all rows present), then Ch.14 Lasers
   (23 answers) and Ch.15 Some related topics (4 answers). New files per chapter; verify closest EXISTING node per topic.
+
+## Tranche 21 (2026-09-07): Chapters 13, 14 & 15 authored — Kamal bank Ch.1-15 COMPLETE — 69 MCQs (1 held)
+- Ch.13 Medications and the eye: authored 42 clean single-best (Q1-41, Q43) into new
+  question/315-OPH-kamal-ch13-medications-mcq.md (node DIS-OPH-T02, new ART-OPH-315-MEDICATIONS), in 9 pushed
+  micro-slices (5c8edaee 036f4b05 ca73738e e9f7437e + Q21-25/Q26-30 385848f7/6f316f31, c216748b c7af456a 730217a4).
+  Keys from answer-key p.9 Ch.13 table (43 answers), each re-verified vs option text.
+  HELD 1: Q42 (drug-induced optic neuropathy EXCEPT) — printed key marks Sildenafil (c), but Sildenafil is
+  classically associated with NAION while Topiramate's ocular effect is acute angle-closure (not optic neuropathy);
+  two defensible exceptions, not single-best as keyed — held per never-guess. Key Q42.D-per-fact / C-per-printed-key.
+  Concepts: 34 NEW minted on DIS-OPH-T02/T03/T04/T05 (canonical keys ophthalmology.pharmacology.<fact>) +
+  atropine-contraindicated-in-angle-closure CON-MUL-3744AE9A61B4D5 REUSED from Ch.12 (Q23). Within-chapter reuse:
+  beta-blocker-asthma (Q2/Q31), chloroquine-retinopathy (Q3/Q7), topical-fluorescein-uses (Q4/Q10/Q12),
+  atropine-duration (Q9/Q22), topical-anaesthetic-uses (Q13/Q14), topical-steroid-side-effects (Q25/Q27).
+- Ch.14 Lasers in ophthalmology: authored all 23 clean single-best (Q1-23) into new
+  question/315-OPH-kamal-ch14-lasers-mcq.md (node DIS-OPH-T02, new ART-OPH-315-LASERS), 5 pushed micro-slices
+  (4a99a219 05f92f3f b4545c08 0d244c83 323132aa). 0 held. Keys from answer-key p.9 Ch.14 table (23 answers).
+  Concepts: 15 NEW on DIS-OPH-T01/T02/T03/T04 (ophthalmology.lasers.<fact>). Reuse within chapter:
+  YAG-capsulotomy-after-cataract (Q4/Q5/Q6/Q22), nd-yag-photodisruption (Q3/Q17), argon-photocoagulation (Q8/Q19),
+  excimer-lasik-photoablation (Q9/Q20/Q21), laser-physical-properties (Q10/Q11). A Written prompt precedes the MCQs (out of scope).
+- Ch.15 Some related topics: authored all 4 clean single-best (Q1-4) into new
+  question/315-OPH-kamal-ch15-related-mcq.md (node DIS-OPH-T02, new ART-OPH-315-RELATED), 1 pushed slice (4c0fa181).
+  0 held. Keys from answer-key p.9 Ch.15 table (4 answers). Concepts: 4 NEW on DIS-OPH-T02/T04/T05
+  (ophthalmology.clinical.<fact>). A T/F (2 cases) section follows (out of scope).
+- All 53 new concept IDs collision-checked corpus-wide one at a time (filename-only grep) — no collision.
+  All new + the reused Ch.12 concept added to their article related_concepts. Resource sibling
+  evidence/315-OPH-resources.md unchanged (single record src_c30b94e296cd15ba86c2).
+- Gates: every micro-slice gate.mjs batch errors=0 with concept+article+resource siblings; each slice committed and
+  pushed to origin/main immediately (SHAs above; rebased on concurrent main pushes).
+- KAMAL BANK NOW COMPLETE (Ch.1-15). Ch.11 systemic remains authored (24, prior tranche). Held-for-adjudication
+  vignette/T-F/no-key items across the bank are unchanged by this tranche except the +1 Ch.13 Q42 above.
