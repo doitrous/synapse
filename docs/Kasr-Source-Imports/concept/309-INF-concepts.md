@@ -11466,3 +11466,2915 @@ authored_needs_independent_evidence
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4ACF2CB52629DB
+## label
+Romana sign (unilateral periorbital oedema) marks acute Chagas' disease
+## canonical_key
+parasitology.trypanosoma-cruzi.romana-sign-chagas
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Romana sign is unilateral, painless periorbital (bipalpebral) oedema with conjunctivitis that develops when the reduviid (triatomine) bug inoculates Trypanosoma cruzi at the conjunctiva, marking the portal of entry in acute American trypanosomiasis. It is distinct from the trypanosomal chancre of African sleeping sickness. Its presence is a hallmark of acute Chagas' disease.
+## explicit_objective
+Identify Romana sign as characteristic of acute Chagas' disease.
+## pitfalls
+Romana sign is Chagas' (T. cruzi entry at the eye), not the tsetse chancre of African sleeping sickness.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma cruzi (Chagas)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-37A61CE292F66D
+## label
+Chiclero ulcer (Leishmania mexicana) affects the ear
+## canonical_key
+parasitology.leishmania-mexicana.chiclero-ulcer-ear
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chiclero ulcer is the cutaneous leishmaniasis caused by Leishmania mexicana in Central American forest gum-harvesters (chicleros), and it characteristically involves the pinna of the ear, the exposed site the sandfly bites. The chronic lesion may erode the ear cartilage. Ear involvement therefore points to L. mexicana chiclero ulcer.
+## explicit_objective
+State that chiclero ulcer (L. mexicana) characteristically affects the ear.
+## pitfalls
+Ear = chiclero ulcer (L. mexicana); face = L. tropica; lower limbs = L. major.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Leishmania mexicana
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B66C261E1470B8
+## label
+Toxoplasma is transmitted by blood transfusion through tachyzoites
+## canonical_key
+parasitology.toxoplasma.blood-transfusion-tachyzoites
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tachyzoites are the rapidly multiplying invasive stage of Toxoplasma gondii that circulates in blood and body fluids during acute infection, so transfused blood, transplanted organs and the transplacental route can all transmit the parasite through tachyzoites. Freshly shed cat oocysts are unsporulated and non-infective, the enteroepithelial cycle occurs only in the cat, and oocysts are not found in human stool. Blood-borne transmission of Toxoplasma is therefore mediated by the tachyzoite.
+## explicit_objective
+State that toxoplasmosis can be transmitted by blood transfusion via tachyzoites.
+## pitfalls
+Blood/organ transmission of Toxoplasma is by tachyzoites; oocysts are shed only by cats and are non-infective until sporulated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Toxoplasma gondii
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-00643DF79E20C7
+## label
+Kala-azar causes pancytopenia through hypersplenism and marrow infiltration
+## canonical_key
+parasitology.kala-azar.pancytopenia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Visceral leishmaniasis (kala-azar) produces pancytopenia because massive splenomegaly with hypersplenism plus heavy bone-marrow parasitism by Leishmania donovani amastigotes suppress and sequester all three blood cell lines. The result is combined anaemia, leucopenia and thrombocytopenia. Pancytopenia is therefore a defining haematological feature of kala-azar.
+## explicit_objective
+Attribute the pancytopenia of kala-azar to hypersplenism and marrow infiltration.
+## pitfalls
+Tri-lineage pancytopenia points to kala-azar; malaria gives haemolytic anaemia, not pancytopenia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Visceral leishmaniasis (kala-azar)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-8ADEA0BE4A1383
+## label
+African trypanosomes are found in blood, lymph and CSF, not stool
+## canonical_key
+parasitology.trypanosoma-brucei.not-recovered-from-stool
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+African trypanosomes (Trypanosoma brucei gambiense and rhodesiense) circulate as blood-and-tissue-fluid parasites, recovered from blood, lymph node aspirate and, after CNS invasion, cerebrospinal fluid. They do not inhabit the intestine and are never found in stool. Stool examination therefore has no role in diagnosing sleeping sickness.
+## explicit_objective
+State that stool is not a specimen for recovering African trypanosomes.
+## pitfalls
+Diagnose sleeping sickness from blood/lymph/CSF, never stool.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma brucei
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-667A52144D34E2
+## label
+Animal inoculation is not used to diagnose human malaria
+## canonical_key
+parasitology.malaria.animal-inoculation-not-used
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Human malaria is diagnosed by stained blood films and antigen or PCR testing because no practical laboratory animal supports the human Plasmodium species, so animal inoculation has no diagnostic role. By contrast, laboratory rodents are inoculated to amplify Toxoplasma, African trypanosomes and Babesia. Animal inoculation is therefore the method not used for malaria.
+## explicit_objective
+State that animal inoculation is not used for diagnosing malaria.
+## pitfalls
+Animal inoculation aids Toxoplasma/trypanosome/Babesia diagnosis, not malaria (blood film instead).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Malaria diagnosis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-D827780ED5A33C
+## label
+Montenegro (leishmanin) test is negative in active kala-azar
+## canonical_key
+parasitology.kala-azar.montenegro-negative-active
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Montenegro (leishmanin) skin test measures cell-mediated immunity and is negative during active visceral leishmaniasis because kala-azar suppresses cellular immunity; it becomes positive only after cure. It therefore cannot diagnose active disease, unlike the cutaneous leishmaniases where it is positive. A negative Montenegro test in the active phase is characteristic of kala-azar.
+## explicit_objective
+State that the Montenegro test is negative in active visceral leishmaniasis.
+## pitfalls
+Montenegro test is negative in active kala-azar (positive only after cure); it is not a diagnostic test for active disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Visceral leishmaniasis (kala-azar)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B759E8852C2BA6
+## label
+Amoebic liver abscess aspirate contains only Entamoeba histolytica trophozoites
+## canonical_key
+parasitology.entamoeba-histolytica.liver-abscess-trophozoites
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Only the invasive trophozoite of Entamoeba histolytica penetrates tissue, so aspirate from an amoebic liver abscess contains motile trophozoites, classically at the advancing abscess margin, and never cysts. Encystation occurs solely in the intestinal lumen, so cysts are absent from tissue. The liver-abscess aspirate therefore shows trophozoites alone.
+## explicit_objective
+State that only trophozoites (not cysts) are found in an amoebic liver abscess.
+## pitfalls
+Tissue amoebiasis = trophozoites only; cysts form only in the gut lumen.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba histolytica
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-8766DA7F54B8AA
+## label
+Diffuse cutaneous leishmaniasis (Old World) is caused by L. aethiopica
+## canonical_key
+parasitology.leishmania-aethiopica.diffuse-cutaneous-leishmaniasis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diffuse cutaneous leishmaniasis is a rare anergic form in which a defective cell-mediated immune response lets non-ulcerating amastigote-rich nodules spread widely across the skin, and in the Old World it is caused by Leishmania aethiopica. The leishmanin (Montenegro) test is negative because of the anergy. Diffuse cutaneous leishmaniasis therefore points to L. aethiopica.
+## explicit_objective
+State that Old World diffuse cutaneous leishmaniasis is caused by L. aethiopica.
+## pitfalls
+Diffuse (anergic) cutaneous leishmaniasis = L. aethiopica, not the localised sores of L. tropica/L. major.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Leishmania aethiopica
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-9A8E338172ADC7
+## label
+Sandfly transmits leishmaniasis, including visceral kala-azar
+## canonical_key
+parasitology.leishmania.sandfly-vector
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+All Leishmania species, including the Leishmania donovani that causes visceral leishmaniasis (kala-azar), are transmitted by the bite of female phlebotomine sandflies (Phlebotomus in the Old World, Lutzomyia in the New World). Promastigotes develop within the sandfly, which acts as the invertebrate host. The sandfly is therefore the vector of visceral leishmaniasis, in contrast to the tsetse fly of sleeping sickness and the tick of babesiosis.
+## explicit_objective
+Identify the sandfly (Phlebotomus/Lutzomyia) as the vector of leishmaniasis.
+## pitfalls
+Sandfly = leishmaniasis; tsetse = sleeping sickness; tick = babesiosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Leishmania (sandfly vector)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-05A74178E4A837
+## label
+Uta is an Andean cutaneous leishmaniasis of the L. braziliensis complex
+## canonical_key
+parasitology.leishmania-braziliensis.uta
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Uta is a localised oriental-sore-like cutaneous leishmaniasis of the Peruvian Andean highlands caused by Leishmania peruviana, a member of the New World Leishmania braziliensis (Viannia) complex. Unlike classic L. braziliensis espundia it usually stays cutaneous. Among the leishmaniae offered, uta belongs to the L. braziliensis group.
+## explicit_objective
+State that Andean uta is caused by a member of the L. braziliensis complex.
+## pitfalls
+Uta (Andean cutaneous) = L. peruviana of the L. braziliensis complex, not the Old World L. tropica/major.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Leishmania braziliensis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-09E63314B7EEBD
+## label
+Balantidium coli has a kidney-shaped macronucleus and a small micronucleus
+## canonical_key
+parasitology.balantidium-coli.macronucleus-micronucleus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Balantidium coli, the only ciliate that parasitises man, possesses two nuclei of different shape: a large kidney-shaped macronucleus governing metabolism and a small round micronucleus governing reproduction. This is a defining ciliate feature that distinguishes it from Giardia, whose two nuclei are identical. Two differently shaped nuclei therefore identify Balantidium coli.
+## explicit_objective
+State that Balantidium coli has a kidney-shaped macronucleus and a small micronucleus.
+## pitfalls
+Two differently shaped nuclei = Balantidium coli; Giardia's two nuclei are identical.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Balantidium coli
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-FC9B4B7BB214B0
+## label
+Kala-azar causes progressive weight loss and emaciation
+## canonical_key
+parasitology.kala-azar.weight-loss-emaciation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Visceral leishmaniasis (kala-azar) is a chronic systemic infection with prolonged fever, massive splenomegaly and progressive wasting, so untreated patients become severely emaciated and cachectic. Weight loss and emaciation are among its classic constitutional features, alongside pancytopenia and hyperglobulinaemia. Marked wasting therefore points to kala-azar rather than the milder intestinal helminthiases.
+## explicit_objective
+Recognise weight loss and emaciation as features of visceral leishmaniasis.
+## pitfalls
+Progressive emaciation with fever and splenomegaly = kala-azar, not the localised intestinal worms.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Visceral leishmaniasis (kala-azar)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-50630C8DC468C4
+## label
+Leishmania major cutaneous lesions typically affect the lower limbs
+## canonical_key
+parasitology.leishmania-major.affects-lower-limbs
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Leishmania major causes rural, zoonotic, wet-type cutaneous leishmaniasis, and because the sandfly bites exposed skin the moist rapidly ulcerating sores typically appear on the lower limbs and other exposed extremities. This contrasts with facial L. tropica sores and ear chiclero ulcers of L. mexicana. Lower-limb lesions therefore point to L. major.
+## explicit_objective
+State that L. major typically affects the lower limbs.
+## pitfalls
+Lower limbs = L. major (rural wet type); face = L. tropica; ear = L. mexicana.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Leishmania major
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-1C062FC39BB3F6
+## label
+Hymenolepis nana is a luminal cestode and does not evade immunity intracellularly
+## canonical_key
+parasitology.hymenolepis-nana.not-intracellular
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hymenolepis nana is an intestinal cestode whose cysticercoid and adult stages develop in the villous mucosa and gut lumen, not inside host cells, so it cannot use an intracellular location as an immune-evasion strategy. Intracellular residence is instead the evasion mechanism of protozoa such as Toxoplasma, Plasmodium and Trypanosoma cruzi. Hymenolepis nana therefore stands apart as the non-intracellular organism.
+## explicit_objective
+State that Hymenolepis nana does not use an intracellular location for immune evasion.
+## pitfalls
+Intracellular evasion is a protozoan trait (Toxoplasma/Plasmodium/T. cruzi); the cestode H. nana is luminal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T02
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Hymenolepis nana
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: This is a Hymenolepis nana (cestode) fact used as the non-intracellular contrast in a protozoology-section item; filed on DIS-PAR-T02 (Helminthology) with the other H. nana concepts, and linked to ART-INF-309-PROTOZOA because it is tested there.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-5669515887D2EF
+## label
+Bone marrow aspirate is the specimen of choice for Leishmania donovani
+## canonical_key
+parasitology.leishmania-donovani.bone-marrow-specimen-of-choice
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Leishmania donovani is a visceral parasite that concentrates in the reticuloendothelial organs, so bone marrow aspirate is the routine specimen of choice for demonstrating amastigotes inside macrophages, being high-yield and much safer than splenic puncture. Skin biopsy suits cutaneous disease, not visceral. Bone marrow aspirate is therefore the preferred diagnostic specimen for kala-azar.
+## explicit_objective
+State that bone marrow aspirate is the specimen of choice for L. donovani.
+## pitfalls
+Visceral leishmaniasis: bone marrow aspirate (safe, high-yield); skin biopsy is for cutaneous disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Leishmania donovani
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-72C9467391A317
+## label
+The trypanosomal chancre is a relatively painless tsetse-bite nodule
+## canonical_key
+parasitology.trypanosoma.chancre-relatively-painless
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The trypanosomal chancre is a firm, indurated, relatively painless inflammatory nodule that forms at the tsetse-fly (Glossina) bite site in African trypanosomiasis, produced by local parasite multiplication before dissemination. It is more often seen in non-immune visitors than in the indigenous population and heals over two to three weeks, usually leaving a scar. It is distinct from the triatomine-transmitted Romana sign of Chagas' disease.
+## explicit_objective
+State that the trypanosomal chancre is a relatively painless tsetse-bite nodule.
+## pitfalls
+African trypanosomal chancre = tsetse bite, relatively painless, commoner in visitors; triatomine bug is Chagas.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma (chancre)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-70E630AB079AD7
+## label
+Immunocompromised Chagas' disease reactivates as meningoencephalitis
+## canonical_key
+parasitology.trypanosoma-cruzi.immunocompromised-meningoencephalitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In immunosuppressed patients (HIV/AIDS or transplant recipients) chronic Trypanosoma cruzi infection can reactivate, and the hallmark of reactivation is a severe necrotising meningoencephalitis, often with brain mass lesions, together with acute myocarditis. This central nervous system disease distinguishes reactivated Chagas' from the indolent chronic form. Meningoencephalitis is therefore the expected manifestation in the immunocompromised.
+## explicit_objective
+State that Chagas' disease reactivates as meningoencephalitis in the immunocompromised.
+## pitfalls
+Immunocompromised Chagas' reactivation = meningoencephalitis (and myocarditis), not diarrhoea or malabsorption.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Trypanosoma cruzi (Chagas)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-13D58A689C8BBC
+## label
+Naegleria fowleri is an amoeboflagellate with amoeboid and flagellate forms
+## canonical_key
+parasitology.naegleria-fowleri.amoeboflagellate-forms
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Naegleria fowleri is an amoeboflagellate whose usual amoeboid trophozoite can transform, in distilled or fresh water, into a transient pear-shaped biflagellate swimming form, in addition to a resistant cyst. This ability to switch between amoeboid and flagellate stages distinguishes it from Acanthamoeba, which has no flagellate form. Amoeboid plus flagellate forms therefore identify Naegleria fowleri.
+## explicit_objective
+State that Naegleria fowleri has both amoeboid and transient flagellate forms.
+## pitfalls
+Naegleria = amoeboflagellate (transient flagellate form); Acanthamoeba has no flagellate stage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Naegleria fowleri
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-C5C9B789253D64
+## label
+Septicaemic (algid) malaria disseminates to cause multi-organ failure
+## canonical_key
+parasitology.malaria.septicemic-multiorgan-dissemination
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Septicaemic (algid) malaria is severe Plasmodium falciparum disease in which heavy parasitaemia and widespread sequestration disseminate the effects of infection to many organs simultaneously, producing circulatory collapse and multi-organ failure. It reflects cytoadherence-driven sequestration, unlike the immune-complex nephropathy of P. malariae or the purely cerebral form. Multi-organ dissemination therefore characterises septicaemic malaria.
+## explicit_objective
+State that septicaemic malaria involves multi-organ dissemination and failure.
+## pitfalls
+Septicaemic/algid malaria = multi-organ dissemination (falciparum, cytoadherence); cerebral = coma; nephrotic = immune complexes (P. malariae).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Plasmodium (septicaemic malaria)
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-F38173749CBB1A
+## label
+Blackwater fever is caused by massive haemolysis, not IV fluid over-infusion
+## canonical_key
+parasitology.blackwater-fever.not-iv-fluid-overload
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Blackwater fever is a complication of severe Plasmodium falciparum malaria in non-immune adults caused by sudden massive intravascular haemolysis, often quinine-related and immune-mediated, producing haemoglobinuria (black urine) and acute renal failure. It is not caused by over-infusion of intravenous fluids. The haemolysis, driven by antibody haemolysins against red-cell antigen, underlies both the dark urine and the frequently fatal renal failure.
+## explicit_objective
+State that blackwater fever is due to intravascular haemolysis, not IV fluid over-infusion.
+## pitfalls
+Blackwater fever = massive intravascular haemolysis with haemoglobinuria and renal failure, not fluid overload.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Blackwater fever
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-3EA5D214D1936C
+## label
+Man is intermediate host only in malaria and toxoplasmosis
+## canonical_key
+parasitology.general.man-intermediate-host-malaria-toxoplasmosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The definitive host harbours the parasite's sexual cycle, so in malaria (sexual cycle in the female Anopheles mosquito) and toxoplasmosis (sexual enteroepithelial cycle in the cat) man carries only asexual stages and is therefore the intermediate host only. In both, the sexual stages are completed in the insect or cat, never in man. Malaria and toxoplasmosis is therefore the pairing in which man is intermediate host only.
+## explicit_objective
+State that man is intermediate host only in malaria and toxoplasmosis.
+## pitfalls
+Man is intermediate host only where the sexual cycle is elsewhere: malaria (mosquito) and toxoplasmosis (cat).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > General parasitology
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: General host-parasite principle filed on DIS-PAR (general parasitology), sibling to the protozoa node DIS-PAR-T01; linked to ART-INF-309-PROTOZOA as it is tested in the Protozoology section.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-32728A692FEE48
+## label
+Entamoeba coli (eight-nucleate cyst) is a commensal requiring no treatment
+## canonical_key
+parasitology.entamoeba-coli.eight-nucleate-cyst-no-treatment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A rounded mature cyst with eight nuclei is the cyst of Entamoeba coli, a non-pathogenic commensal of the large bowel, so its presence indicates only faecal-oral exposure and requires no treatment. The eight-nucleate cyst distinguishes harmless E. coli from the four-nucleate cyst of the pathogen Entamoeba histolytica. Finding it therefore calls for no antiparasitic therapy.
+## explicit_objective
+State that the eight-nucleate cyst of Entamoeba coli is commensal and needs no treatment.
+## pitfalls
+Eight-nucleate cyst = commensal E. coli (no treatment); four-nucleate cyst = pathogenic E. histolytica.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Entamoeba coli
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4AD8B3C5E7CB53
+## label
+Cryptosporidium intestinal biopsy shows meronts and gamonts
+## canonical_key
+parasitology.cryptosporidium.biopsy-meronts-gamonts
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cryptosporidium parvum completes its entire life cycle in one host at the brush border of enterocytes, in an intracellular but extracytoplasmic vacuole, so intestinal biopsy shows the endogenous developmental stages, the asexual meronts (schizonts) and sexual gamonts, along the epithelial surface. Oocysts are the transmission form shed in stool and demonstrated by staining, not the biopsy appearance. Meronts and gamonts therefore characterise the cryptosporidiosis biopsy.
+## explicit_objective
+State that intestinal biopsy in cryptosporidiosis shows meronts and gamonts.
+## pitfalls
+Biopsy in cryptosporidiosis = endogenous meronts/gamonts at the brush border; oocysts are the stool stage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Cryptosporidium parvum
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-02B27F795D2980
+## label
+Cyclosporiasis is dominated by anorexia and profound fatigue
+## canonical_key
+parasitology.cyclospora.anorexia-fatigue
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cyclospora cayetanensis causes a prolonged, relapsing, non-bloody watery diarrhoea accompanied by strikingly prominent and consistent anorexia and profound fatigue, which are hallmark constitutional complaints often lasting weeks. This fatigue-and-anorexia picture, rather than dysentery or cachexia, characterises the illness. Anorexia and fatigue are therefore the most prominent and consistent symptoms of cyclosporiasis.
+## explicit_objective
+State that anorexia and fatigue are the prominent, consistent symptoms of cyclosporiasis.
+## pitfalls
+Cyclosporiasis = prolonged watery diarrhoea with marked anorexia and fatigue; it is non-bloody (no dysentery).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Cyclospora cayetanensis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-D173708D21BF02
+## label
+Blastocystis hominis is linked to irritable bowel syndrome
+## canonical_key
+parasitology.blastocystis-hominis.irritable-bowel-syndrome
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Blastocystis hominis is a common intestinal protozoan frequently recovered from patients with irritable bowel syndrome and associated with its abdominal pain, bloating and altered bowel habit. The link between Blastocystis carriage and the functional bowel syndrome is well recognised, though its pathogenicity remains debated. Blastocystis hominis is therefore the organism connected to irritable bowel syndrome.
+## explicit_objective
+State that Blastocystis hominis is associated with irritable bowel syndrome.
+## pitfalls
+IBS-associated protozoan = Blastocystis hominis, not Trichuris or Strongyloides.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T01
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Protozoology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Protozoology > Blastocystis hominis
+## article_ids
+ART-INF-309-PROTOZOA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+nodeChoice: Protozoology concepts filed on DIS-PAR-T01 (the protozoa node under DIS-PAR; DIS-PAR-T02 is Helminthology, T03 Arthropods), matching the ASU-LOCO parasitology precedent that files protozoan flagellates under DIS-PAR-T01.
+resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.14-20, answer table p.21); no department book read this pass.

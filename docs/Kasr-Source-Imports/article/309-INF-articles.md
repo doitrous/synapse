@@ -438,7 +438,7 @@ Claude
 ## topic
 Parasitology
 ## summary
-This article groups the protozoal facts tested by the Protozoology section of the paper (Q1-16 authored so far, of a 84-question section). It covers general protozoan biology (conjugation as the exchange of nuclear material between two protozoa), the malaria parasites (haemolytic anaemia as the mechanism of malarial anaemia, Plasmodium falciparum as the cause of severe multiorgan-failure malaria, the fine red-cell pigment of P. vivax, the immune-complex nephrotic syndrome of quartan P. malariae, and the absence of relapse when malaria is transmitted transplacentally rather than by mosquito-inoculated sporozoites that form liver hypnozoites), Babesia (the confirmatory Maltese-cross tetrad), the trypanosomes (very high IgM from antigenic variation in Trypanosoma brucei), the leishmaniae (nasal-cartilage-destroying mucocutaneous disease of L. braziliensis), Trichomonas vaginalis (its lack of a cyst stage and its culture as trophozoites on modified Diamond medium), and the free-living amoebae (Naegleria fowleri acquired by swimming in warm fresh water, and Acanthamoeba as a soil/water free-living protozoan that needs no human host and whose keratitis may progress to endophthalmitis). Each linked concept carries one atomic fact about a protozoan's structure, life cycle, diagnosis, pathology or clinical association.
+This article groups the protozoal facts tested by the Protozoology section of the paper (Q1-46 authored so far, of an 84-question section; it now also covers the trypanosomes and Chagas' disease, the cutaneous and visceral leishmaniases, the free-living and intestinal amoebae, the coccidia Cryptosporidium and Cyclospora, Balantidium, Blastocystis and the general host-parasite principles tested in the section). It covers general protozoan biology (conjugation as the exchange of nuclear material between two protozoa), the malaria parasites (haemolytic anaemia as the mechanism of malarial anaemia, Plasmodium falciparum as the cause of severe multiorgan-failure malaria, the fine red-cell pigment of P. vivax, the immune-complex nephrotic syndrome of quartan P. malariae, and the absence of relapse when malaria is transmitted transplacentally rather than by mosquito-inoculated sporozoites that form liver hypnozoites), Babesia (the confirmatory Maltese-cross tetrad), the trypanosomes (very high IgM from antigenic variation in Trypanosoma brucei), the leishmaniae (nasal-cartilage-destroying mucocutaneous disease of L. braziliensis), Trichomonas vaginalis (its lack of a cyst stage and its culture as trophozoites on modified Diamond medium), and the free-living amoebae (Naegleria fowleri acquired by swimming in warm fresh water, and Acanthamoeba as a soil/water free-living protozoan that needs no human host and whose keratitis may progress to endophthalmitis). Each linked concept carries one atomic fact about a protozoan's structure, life cycle, diagnosis, pathology or clinical association.
 ## sections
 ### Definition
 This article groups the protozoal concepts tested by the paper; each linked concept carries one atomic fact about a protozoan's structure, mode of reproduction, transmission, diagnosis, pathology or clinical association.
@@ -490,6 +490,32 @@ CON-INF-12F2FEE259064F
 CON-INF-8D563ECF48B5F4
 CON-INF-B2CBB9DE65157B
 CON-INF-15FBC6A13F2C6B
+CON-INF-4ACF2CB52629DB
+CON-INF-37A61CE292F66D
+CON-INF-B66C261E1470B8
+CON-INF-00643DF79E20C7
+CON-INF-8ADEA0BE4A1383
+CON-INF-667A52144D34E2
+CON-INF-D827780ED5A33C
+CON-INF-B759E8852C2BA6
+CON-INF-8766DA7F54B8AA
+CON-INF-9A8E338172ADC7
+CON-INF-05A74178E4A837
+CON-INF-09E63314B7EEBD
+CON-INF-FC9B4B7BB214B0
+CON-INF-50630C8DC468C4
+CON-INF-1C062FC39BB3F6
+CON-INF-5669515887D2EF
+CON-INF-72C9467391A317
+CON-INF-70E630AB079AD7
+CON-INF-13D58A689C8BBC
+CON-INF-C5C9B789253D64
+CON-INF-F38173749CBB1A
+CON-INF-3EA5D214D1936C
+CON-INF-32728A692FEE48
+CON-INF-4AD8B3C5E7CB53
+CON-INF-02B27F795D2980
+CON-INF-D173708D21BF02
 ## related_articles
 ART-INF-309-PARA-GENERAL
 ## resource_ids
