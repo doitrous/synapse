@@ -1460,3 +1460,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-16
+## title
+Cycloplegic drugs include
+## question
+Cycloplegic drugs include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Atropine sulphate.
+## explanation_a
+Correct. Atropine sulphate paralyses accommodation and is a cycloplegic.
+## answer_b
+Phenylephrine chloride.
+## explanation_b
+Incorrect. Phenylephrine is a pure mydriatic with no cycloplegia.
+## answer_c
+Pilocarpine.
+## explanation_c
+Incorrect. Pilocarpine is a miotic.
+## answer_d
+Timolol.
+## explanation_d
+Incorrect. Timolol is a beta-blocker with no cycloplegic action.
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## main_concept
+CON-MUL-8A2BBC9E60B676
+## concept_ids
+CON-MUL-8A2BBC9E60B676
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify atropine sulphate as a cycloplegic drug.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-17
+## title
+Side effects of atropine eye drops
+## question
+Side effects of atropine sulphate eye drops include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Acute hypertension.
+## explanation_a
+Incorrect. Atropine does not cause acute systemic hypertension.
+## answer_b
+Defective near vision.
+## explanation_b
+Correct. By paralysing accommodation, atropine causes defective near vision.
+## answer_c
+Defective far vision.
+## explanation_c
+Incorrect. Distance vision is little affected.
+## answer_d
+Loss of corneal sensation.
+## explanation_d
+Incorrect. Corneal sensation is not lost with atropine.
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## main_concept
+CON-MUL-679CD592D17D72
+## concept_ids
+CON-MUL-679CD592D17D72
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise defective near vision as a side effect of atropine.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-18
+## title
+Use of topical decongestants
+## question
+Topical decongestants are used in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Dry eye.
+## explanation_a
+Incorrect. Dry eye is treated with lubricants, not decongestants.
+## answer_b
+Irritation by dust or smoke.
+## explanation_b
+Correct. Decongestants relieve the redness of minor irritation from dust or smoke.
+## answer_c
+Treatment of viral conjunctivitis.
+## explanation_c
+Incorrect. Viral conjunctivitis is not treated with decongestants.
+## answer_d
+Phlectenular keratoconjunctivitis.
+## explanation_d
+Incorrect. Phlyctenular disease needs steroids, not decongestants.
+## topic
+Ophthalmology
+## subtopic
+Topical decongestants
+## main_concept
+CON-MUL-DF892FD8B39962
+## concept_ids
+CON-MUL-DF892FD8B39962
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify minor dust/smoke irritation as the indication for topical decongestants.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-19
+## title
+Uses of lubricating eye drops — EXCEPT
+## question
+Lubricating eye drops are used for treatment of all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Dry eye.
+## explanation_a
+Incorrect (a genuine use). Lubricants are the mainstay of dry-eye therapy.
+## answer_b
+Chemical burns.
+## explanation_b
+Incorrect (a genuine use). Lubricants protect the surface after chemical burns.
+## answer_c
+Subconjunctival haemorrhage.
+## explanation_c
+Correct. A subconjunctival haemorrhage resolves spontaneously and needs no lubricant; it is the exception.
+## answer_d
+Thyroid eye disease.
+## explanation_d
+Incorrect (a genuine use). Lubricants relieve the exposure of thyroid eye disease.
+## topic
+Ophthalmology
+## subtopic
+Lubricants
+## main_concept
+CON-MUL-4601701E1F9DE8
+## concept_ids
+CON-MUL-4601701E1F9DE8
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude subconjunctival haemorrhage from the uses of lubricants.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-20
+## title
+Use of topical antibiotic eye drops
+## question
+Topical antibiotic eye drops are used for:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Bacterial keratitis.
+## explanation_a
+Correct. Topical antibiotics treat bacterial keratitis.
+## answer_b
+Ocular irritation.
+## explanation_b
+Incorrect. Simple irritation does not need antibiotics.
+## answer_c
+Viral conjunctivitis.
+## explanation_c
+Incorrect. Viral conjunctivitis is self-limiting; antibiotics do not treat viruses.
+## answer_d
+Dry eye.
+## explanation_d
+Incorrect. Dry eye is treated with lubricants.
+## topic
+Ophthalmology
+## subtopic
+Topical antibiotics
+## main_concept
+CON-MUL-FB2910D0AF1592
+## concept_ids
+CON-MUL-FB2910D0AF1592
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify bacterial keratitis as an indication for topical antibiotics.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
