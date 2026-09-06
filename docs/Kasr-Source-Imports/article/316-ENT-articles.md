@@ -2356,7 +2356,7 @@ DIS-ENT-T03
 ## related_concepts
 CON-MUL-149E5631AA46E6
 ## related_articles
-
+ART-ENT-316-PHARYNX-OESOPHAGUS
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
