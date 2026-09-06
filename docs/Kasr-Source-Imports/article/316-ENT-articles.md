@@ -265,9 +265,13 @@ CON-MUL-92C1C7FBA0B8FE
 CON-MUL-032074A4E9DAE9
 CON-MUL-33997FF24FFF04
 CON-MUL-56E38A26FEDF5D
+CON-MUL-C9C01C21355ECD
+CON-MUL-58CE09ADB9F969
+CON-MUL-1E26566499DCFD
 ## related_articles
 ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
 ART-ENT-316-EAR-FACIAL-NERVE
+ART-ENT-316-EAR-ASSESSMENT
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
@@ -565,5 +569,99 @@ Admin team
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 groupingNote: Groups the Ear-section otosclerosis concepts (Q67-72) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+# Item
+## id
+ART-ENT-316-EAR-ASSESSMENT
+## title
+Otorhinolaryngology: hearing assessment, tuning-fork tests and ear syringing
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the office assessment and hearing-test facts tested by the later part of the bank's Ear section (Q81-97). It covers ear syringing (indicated for wax and inorganic foreign bodies, contraindicated for a vegetable foreign body, and able to perforate the tympanic membrane), the interpretation of the Rinne and Weber tuning-fork tests in conductive and sensorineural hearing loss, the classification of hearing loss into conductive (external and middle ear) and sensorineural (cochlea and nerve) causes, impacted wax as the commonest cause of adult conductive loss, referred otalgia from the temporomandibular joint, and deaf-mutism as a consequence of severe early sensorineural deafness.
+## sections
+### Definition
+Hearing assessment at the bedside relies on tuning-fork tests (Rinne and Weber) that separate conductive from sensorineural loss, on classifying the cause by the part of the ear at fault, and on simple office procedures such as ear syringing. Each linked concept states one atomic fact; this overview ties them into a single approach to the deaf or discharging ear.
+### Mechanism
+A conductive loss blocks sound reaching a normal cochlea, so bone conduction beats air conduction (negative Rinne) and the Weber tone is heard in the diseased ear; a sensorineural loss weakens the cochlea or nerve, so air conduction still beats bone (positive Rinne) and the Weber tone shifts to the better ear. Ear syringing floats out wax and inorganic debris but swells a vegetable foreign body and can rupture the drum if forced.
+### Key determinants
+Discriminators tested here: a negative Rinne with Weber to the same ear is conductive; a positive Rinne with Weber to the opposite ear is sensorineural; conductive causes are external- and middle-ear lesions (wax, otitis media, otosclerosis, perforation) while sensorineural causes are inner-ear or nerve lesions (labyrinthitis, mumps, meningitis, acoustic trauma, ototoxicity); wax is the commonest adult conductive cause; a normal ear with pain points to referred otalgia (temporomandibular joint); and only severe early sensorineural deafness, not secretory otitis media, causes deaf-mutism.
+### Clinical significance
+These facts drive everyday decisions: the tuning-fork pattern tells the clinician whether to look in the middle ear or the cochlea, correct syringing avoids a perforated drum, recognising referred otalgia prevents a fruitless ear work-up, and recognising the causes of deaf-mutism underlines early detection of childhood sensorineural loss.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (Weber lateralising towards a conductive loss but away from a sensorineural one, a vegetable foreign body being syringed, and secretory otitis media being counted as a sensorineural or deaf-mutism cause).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+## subtopic
+Hearing assessment and ear syringing
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T01
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-3C6373B3EEF7DB
+CON-MUL-34139B6B548491
+CON-MUL-C53B20631E90C3
+CON-MUL-BA76C73952B54D
+CON-MUL-684AB10A869655
+CON-MUL-8721DB9BC0D0EA
+CON-MUL-9126FD82B52030
+CON-MUL-98481879AE1BF5
+## related_articles
+ART-ENT-316-EAR-TRAUMA-CLINICAL
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Ear-section assessment/hearing-test concepts (Q81-97) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 4

@@ -1,5 +1,5 @@
 <!--
-  Kasr Al Ainy 316 ENT (Year 3) · Ear section, MCQ Q1-48, from the department ENT MCQ Question Bank (module opener for Year 3 316 ENT). Stems+options native text (no OCR); correct answers from the section-end PRINTED ANSWER KEY grid (image, PDF p20), each key cross-checked against the option text. Q1-18: 17 authored / 1 held (Q17). Q19-48: 28 authored / 2 held (Q22 garbled duplicate of Q20; Q30 exact duplicate of Q27). Total 45 authored / 3 held / 0 excluded.
+  Kasr Al Ainy 316 ENT (Year 3) · Ear section, MCQ Q1-102 (complete), from the department ENT MCQ Question Bank (module opener for Year 3 316 ENT). Stems+options native text (no OCR); correct answers from the section-end PRINTED ANSWER KEY grid (image, PDF p20), each key cross-checked against the option text. Ear section total: 95 authored / 7 held / 0 excluded. Held: Q17 (key 'e' with no option e), Q22 (garbled duplicate of Q20), Q30 (duplicate of Q27), Q52 (key contradicts stem), Q54 (duplicate of Q49), Q85 (two defensible exceptions - AOM and caloric test), Q88 (negative Rinne non-unique across otosclerosis, CSOM and wax).
 
   Import: Admin › Bulk import → question.
 -->
@@ -10469,6 +10469,2772 @@ Recognise that fainting is not a symptom of Meniere's disease.
 
 ## source_citation
 Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-81
+
+## title
+Complication of ear syringing
+
+## question
+One of the complications of ear wash is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Meningitis
+
+## explanation_a
+Incorrect. Meningitis is a complication of suppurative ear disease, not of syringing a wax-filled canal.
+
+## answer_b
+Bezold abscess
+
+## explanation_b
+Incorrect. A Bezold abscess is a complication of acute mastoiditis, not of ear washing.
+
+## answer_c
+Ear drum perforation
+
+## explanation_c
+Correct. Forceful ear syringing can rupture the tympanic membrane, causing sudden pain and deafness. A ruptured drum is the classic complication of ear wash. It is avoided by using warm water at low pressure and never syringing a suspected perforation.
+
+## answer_d
+Otosclerosis
+
+## explanation_d
+Incorrect. Otosclerosis is a hereditary fixation of the stapes, unrelated to ear syringing.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Ear syringing
+
+## main_concept
+CON-MUL-34139B6B548491
+
+## concept_ids
+CON-MUL-34139B6B548491
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise tympanic membrane perforation as a complication of ear syringing.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-82
+
+## title
+Indication for ear syringing
+
+## question
+Indications of ear wash include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Wax in the ear
+
+## explanation_a
+Correct. Impacted wax is the main indication for ear syringing. Warm water floats the softened wax out of the canal. A glomus tumour, a traumatic perforation and a vegetable foreign body are not indications.
+
+## answer_b
+Glomus jugulare tumour
+
+## explanation_b
+Incorrect. A glomus jugulare tumour is a vascular middle-ear tumour and is not approached by ear washing.
+
+## answer_c
+Traumatic ear drum perforation
+
+## explanation_c
+Incorrect. A tympanic membrane perforation is a contraindication, because syringing drives water into the middle ear.
+
+## answer_d
+Vegetable foreign body in the ear canal
+
+## explanation_d
+Incorrect. A vegetable (organic) foreign body swells with water and becomes more impacted, so it must not be syringed.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Ear syringing
+
+## main_concept
+CON-MUL-3C6373B3EEF7DB
+
+## concept_ids
+CON-MUL-3C6373B3EEF7DB
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State impacted wax as a main indication for ear syringing.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-83
+
+## title
+Sudden symptoms after ear syringing
+
+## question
+After an ear wash was done for a 33-year-old male patient, he suffered sudden severe pain, deafness and felt water in his throat. He might have:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Otomycosis
+
+## explanation_a
+Incorrect. Otomycosis causes itching and canal debris, not sudden pain with water reaching the throat.
+
+## answer_b
+Acute otitis externa
+
+## explanation_b
+Incorrect. Acute otitis externa causes pain and tenderness but does not let syringed water pass to the throat.
+
+## answer_c
+Ear drum perforation
+
+## explanation_c
+Correct. Sudden severe pain and deafness with water felt in the throat mean the syringing has perforated the drum. The water has passed through the perforation and Eustachian tube to the nasopharynx. This is the classic presentation of a syringing-induced tympanic membrane perforation.
+
+## answer_d
+Glomus jugulare tumour
+
+## explanation_d
+Incorrect. A glomus jugulare tumour presents with pulsatile tinnitus and a conductive loss, not acute pain after syringing.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Ear syringing
+
+## main_concept
+CON-MUL-34139B6B548491
+
+## concept_ids
+CON-MUL-34139B6B548491
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Attribute sudden pain, deafness and water in the throat after syringing to a tympanic membrane perforation.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-84
+
+## title
+Ear syringing indications (the exception)
+
+## question
+Indications for ear wash include all of the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Ear wax
+
+## explanation_a
+Incorrect (this is an indication). Wax is the classic indication for ear syringing.
+
+## answer_b
+Non-impacted foreign body
+
+## explanation_b
+Incorrect (this is an indication). A small non-impacted inorganic foreign body can be floated out by syringing.
+
+## answer_c
+Vegetable foreign body
+
+## explanation_c
+Correct. A vegetable (organic) foreign body is the exception. It absorbs water and swells, becoming more impacted. For this reason an organic foreign body must not be syringed but removed with instruments.
+
+## answer_d
+Fungal mass
+
+## explanation_d
+Incorrect (this is an indication). A fungal mass can be washed out as part of aural toilet.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Ear syringing
+
+## main_concept
+CON-MUL-3C6373B3EEF7DB
+
+## concept_ids
+CON-MUL-3C6373B3EEF7DB
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify a vegetable foreign body as the contraindication among indications for ear syringing.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.16); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-86
+
+## title
+Weber test in left middle-ear effusion
+
+## question
+In a left middle ear effusion, the Weber test will be:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Centralised
+
+## explanation_a
+Incorrect. The Weber test is centralised only when hearing is symmetrical; a unilateral effusion makes it lateralise.
+
+## answer_b
+Lateralised to the right
+
+## explanation_b
+Incorrect. It would lateralise to the right only if the right ear had the conductive loss or the left had a sensorineural loss.
+
+## answer_c
+Lateralised to the left
+
+## explanation_c
+Correct. A middle-ear effusion is a conductive hearing loss. In a conductive loss the Weber test lateralises to the diseased ear, which here is the left. It lateralises this way because the affected ear is less distracted by ambient air-conducted sound.
+
+## answer_d
+Reduced positive
+
+## explanation_d
+Incorrect. "Reduced positive" describes a Rinne response, not a Weber result.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tuning-fork tests
+
+## main_concept
+CON-MUL-C53B20631E90C3
+
+## concept_ids
+CON-MUL-C53B20631E90C3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that in a unilateral conductive loss the Weber test lateralises to the affected ear.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.17); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-87
+
+## title
+Rinne test in secretory otitis media
+
+## question
+In secretory otitis media the Rinne test is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Positive
+
+## explanation_a
+Incorrect. A positive Rinne (air better than bone) occurs in normal hearing or sensorineural loss, not in the conductive loss of secretory otitis media.
+
+## answer_b
+Negative
+
+## explanation_b
+Correct. Secretory otitis media is a conductive hearing loss. The Rinne test is therefore negative, with bone conduction better than air conduction in the affected ear. A negative Rinne is the hallmark of a conductive loss.
+
+## answer_c
+Centralised
+
+## explanation_c
+Incorrect. "Centralised" describes the Weber, not the Rinne, test.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. The Rinne test gives a definite negative result here.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tuning-fork tests
+
+## main_concept
+CON-MUL-C53B20631E90C3
+
+## concept_ids
+CON-MUL-C53B20631E90C3
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State that secretory otitis media gives a negative Rinne test.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.17); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-89
+
+## title
+Cause of watery ear discharge
+
+## question
+Watery ear discharge may be due to:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Otomycosis
+
+## explanation_a
+Incorrect. Otomycosis produces damp fungal debris, not a clear watery discharge.
+
+## answer_b
+Bullous myringitis
+
+## explanation_b
+Incorrect. Bullous myringitis causes painful blood-filled blebs on the drum, not watery otorrhoea.
+
+## answer_c
+Acute otitis media
+
+## explanation_c
+Incorrect. Acute otitis media gives a mucopurulent discharge once the drum ruptures, not clear watery fluid.
+
+## answer_d
+Cerebrospinal otorrhoea
+
+## explanation_d
+Correct. A clear watery ear discharge, especially one that increases on straining, is cerebrospinal fluid otorrhoea. It results from a breach of the dura and temporal bone. Recognising it matters because it carries a risk of meningitis.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Ear discharge
+
+## main_concept
+CON-MUL-9B942FCC2E14B7
+
+## concept_ids
+CON-MUL-9B942FCC2E14B7
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-TRAUMA-CLINICAL
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify cerebrospinal fluid otorrhoea as a cause of clear watery ear discharge.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.17); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-90
+
+## title
+Conductive loss is not a feature of (the exception)
+
+## question
+Conductive hearing loss is not a feature of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Chronic suppurative otitis media
+
+## explanation_a
+Incorrect. Chronic suppurative otitis media damages the drum and ossicles, giving a conductive loss.
+
+## answer_b
+Adhesive otitis media
+
+## explanation_b
+Incorrect. Adhesive otitis media fixes the ossicular chain, giving a conductive loss.
+
+## answer_c
+Serous labyrinthitis
+
+## explanation_c
+Correct. Serous labyrinthitis is an inner-ear disorder. It causes a sensorineural loss with vertigo, not a conductive loss. It is therefore the condition in which conductive loss is not a feature.
+
+## answer_d
+Traumatic perforation of the ear drum
+
+## explanation_d
+Incorrect. A traumatic drum perforation interrupts sound conduction, giving a conductive loss.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hearing loss classification
+
+## main_concept
+CON-MUL-684AB10A869655
+
+## concept_ids
+CON-MUL-684AB10A869655
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise labyrinthitis as causing sensorineural, not conductive, hearing loss.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.17); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-91
+
+## title
+Cause of referred otalgia
+
+## question
+Referred otalgia occurs in cases of:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Traumatic perforation of the tympanic membrane
+
+## explanation_a
+Incorrect. A traumatic perforation causes local (primary) ear pain, not referred pain.
+
+## answer_b
+Temporomandibular joint arthritis
+
+## explanation_b
+Correct. The temporomandibular joint shares sensory innervation with the ear. Its arthritis therefore causes referred otalgia, with a normal ear examination. Referred otalgia should be suspected whenever ear pain occurs with a normal-looking ear.
+
+## answer_c
+Myringitis
+
+## explanation_c
+Incorrect. Myringitis is inflammation of the drum itself and causes local otalgia.
+
+## answer_d
+Secretory otitis media
+
+## explanation_d
+Incorrect. Secretory otitis media causes hearing loss and at most local aural fullness, not referred pain.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Referred otalgia
+
+## main_concept
+CON-MUL-9126FD82B52030
+
+## concept_ids
+CON-MUL-9126FD82B52030
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify temporomandibular joint arthritis as a cause of referred otalgia.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.17); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-92
+
+## title
+Commonest cause of conductive loss in adults
+
+## question
+The commonest cause of conductive hearing loss in adults is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Otosclerosis
+
+## explanation_a
+Incorrect. Otosclerosis is the commonest cause of progressive conductive loss with an intact drum, but it is less common overall than wax.
+
+## answer_b
+Wax accumulation
+
+## explanation_b
+Correct. Impacted wax is the commonest cause of conductive hearing loss in adults. It is readily reversed simply by removing the wax. Otosclerosis is common too but is less frequent overall than wax.
+
+## answer_c
+Acute otitis media
+
+## explanation_c
+Incorrect. Acute otitis media is commoner in children and is an acute, not the usual adult, cause of conductive loss.
+
+## answer_d
+Traumatic drum perforation
+
+## explanation_d
+Incorrect. A traumatic drum perforation is an occasional, not the commonest, cause.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Conductive hearing loss
+
+## main_concept
+CON-MUL-98481879AE1BF5
+
+## concept_ids
+CON-MUL-98481879AE1BF5
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State impacted wax as the commonest cause of adult conductive hearing loss.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.18); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-93
+
+## title
+Unilateral sensorineural loss causes (the exception)
+
+## question
+Unilateral sensorineural hearing loss can be caused by all of the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+E
+
+## answer_a
+Mumps
+
+## explanation_a
+Incorrect. Mumps is a classic cause of unilateral sensorineural hearing loss.
+
+## answer_b
+Meningitis
+
+## explanation_b
+Incorrect. Meningitis damages the cochlea and causes sensorineural loss.
+
+## answer_c
+Labyrinthitis
+
+## explanation_c
+Incorrect. Labyrinthitis is an inner-ear disorder causing sensorineural loss.
+
+## answer_d
+Aminoglycoside ototoxicity
+
+## explanation_d
+Incorrect. Aminoglycosides are ototoxic and damage the cochlea, causing sensorineural loss.
+
+## answer_e
+Secretory otitis media
+
+## explanation_e
+Correct. Secretory otitis media is a middle-ear effusion that causes a conductive loss. It is therefore the exception among these sensorineural causes. The other four all injure the cochlea or auditory nerve.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hearing loss classification
+
+## main_concept
+CON-MUL-684AB10A869655
+
+## concept_ids
+CON-MUL-684AB10A869655
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Distinguish conductive secretory otitis media from causes of sensorineural hearing loss.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.18); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-94
+
+## title
+Causes of deaf-mutism (the exception)
+
+## question
+Causes of deaf-mutism may be due to all of the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Mumps
+
+## explanation_a
+Incorrect. Mumps can cause severe sensorineural deafness leading to deaf-mutism.
+
+## answer_b
+Meningitis
+
+## explanation_b
+Incorrect. Meningitis is an important cause of profound childhood sensorineural deafness and deaf-mutism.
+
+## answer_c
+Secretory otitis media
+
+## explanation_c
+Correct. Secretory otitis media causes only a mild reversible conductive loss. It is the exception and does not cause deaf-mutism. Deaf-mutism requires a severe early sensorineural deafness.
+
+## answer_d
+Ototoxicity
+
+## explanation_d
+Incorrect. Ototoxic drugs cause profound sensorineural deafness that can lead to deaf-mutism.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Deaf-mutism
+
+## main_concept
+CON-MUL-8721DB9BC0D0EA
+
+## concept_ids
+CON-MUL-8721DB9BC0D0EA
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Exclude secretory otitis media as a cause of deaf-mutism.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.18); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-95
+
+## title
+Tuning-fork interpretation: positive Rinne, Weber to the left
+
+## question
+An adult male has a bilateral positive Rinne test and the Weber test lateralised to the left side. He has:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Right sensorineural hearing loss
+
+## explanation_a
+Correct. A positive Rinne in both ears excludes a conductive loss. The Weber lateralising to the left therefore indicates a sensorineural loss of the opposite, right, ear. In sensorineural loss the Weber shifts towards the better-hearing ear.
+
+## answer_b
+Right conductive hearing loss
+
+## explanation_b
+Incorrect. A right conductive loss would give a negative Rinne on the right and a Weber lateralised to the right.
+
+## answer_c
+Left sensorineural hearing loss
+
+## explanation_c
+Incorrect. A left sensorineural loss would make the Weber lateralise to the better (right) ear, not the left.
+
+## answer_d
+Left conductive hearing loss
+
+## explanation_d
+Incorrect. A left conductive loss would give a negative Rinne on the left, but the Rinne is positive bilaterally.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Tuning-fork tests
+
+## main_concept
+CON-MUL-BA76C73952B54D
+
+## concept_ids
+CON-MUL-BA76C73952B54D
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Application
+
+## cognitive_effort
+Moderate
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Interpret a bilaterally positive Rinne with Weber to one side as a contralateral sensorineural loss.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.18); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-96
+
+## title
+Causes of conductive loss (the exception)
+
+## question
+The following are causes of conductive hearing loss except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Otosclerosis
+
+## explanation_a
+Incorrect. Otosclerosis fixes the stapes and causes a conductive loss.
+
+## answer_b
+Acoustic trauma
+
+## explanation_b
+Correct. Acoustic (noise) trauma damages the cochlear hair cells. It causes a sensorineural loss and so is the exception here. The other three options all impair middle-ear sound conduction.
+
+## answer_c
+Otitis media
+
+## explanation_c
+Incorrect. Otitis media impairs middle-ear sound transmission, causing a conductive loss.
+
+## answer_d
+Myringitis
+
+## explanation_d
+Incorrect. Myringitis inflames the drum and causes a conductive loss.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hearing loss classification
+
+## main_concept
+CON-MUL-684AB10A869655
+
+## concept_ids
+CON-MUL-684AB10A869655
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise acoustic trauma as a sensorineural, not conductive, cause of hearing loss.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.18); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-97
+
+## title
+Conductive loss causes (the exception)
+
+## question
+Conductive hearing loss may be due to all of the following except:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Mumps
+
+## explanation_a
+Correct. Mumps damages the cochlea and causes a sensorineural loss. It is therefore the exception among these conductive causes. Otosclerosis, otitic barotrauma and meatal atresia all give a conductive loss.
+
+## answer_b
+Otosclerosis
+
+## explanation_b
+Incorrect. Otosclerosis fixes the stapes footplate and causes a conductive loss.
+
+## answer_c
+Otitic barotrauma
+
+## explanation_c
+Incorrect. Otitic barotrauma causes middle-ear effusion or haemorrhage, giving a conductive loss.
+
+## answer_d
+Meatal atresia
+
+## explanation_d
+Incorrect. Meatal atresia blocks sound reaching the drum and causes a conductive loss.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Hearing loss classification
+
+## main_concept
+CON-MUL-684AB10A869655
+
+## concept_ids
+CON-MUL-684AB10A869655
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-ASSESSMENT
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Identify mumps as a sensorineural cause among conductive causes of hearing loss.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.18); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-98
+
+## title
+Myringoplasty definition
+
+## question
+Myringoplasty means repair of the:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+External ear
+
+## explanation_a
+Incorrect. Repair of the external ear (pinna) is auriculoplasty, not myringoplasty.
+
+## answer_b
+Inner ear
+
+## explanation_b
+Incorrect. The inner ear is not repaired by myringoplasty.
+
+## answer_c
+Eustachian tube
+
+## explanation_c
+Incorrect. The Eustachian tube is not the target of myringoplasty.
+
+## answer_d
+Tympanic membrane
+
+## explanation_d
+Correct. Myringoplasty is the surgical repair of the tympanic membrane. A graft is used to close a perforation, without any work on the ossicles. Adding ossicular reconstruction would make it a tympanoplasty.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Myringoplasty
+
+## main_concept
+CON-MUL-1E26566499DCFD
+
+## concept_ids
+CON-MUL-1E26566499DCFD
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Define myringoplasty as repair of the tympanic membrane.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.19); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-99
+
+## title
+Indication for myringotomy
+
+## question
+An indication of myringotomy is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Sensorineural hearing loss
+
+## explanation_a
+Incorrect. A sensorineural loss is not treated by incising the drum.
+
+## answer_b
+Large central perforation
+
+## explanation_b
+Incorrect. A large central perforation already has an opening; it needs repair (myringoplasty), not myringotomy.
+
+## answer_c
+Secretory otitis media
+
+## explanation_c
+Correct. Secretory otitis media that fails medical treatment is drained by myringotomy. A ventilation tube is often inserted at the same time. Draining the effusion restores hearing and ventilates the middle ear.
+
+## answer_d
+Otosclerosis
+
+## explanation_d
+Incorrect. Otosclerosis is treated by stapedectomy or a hearing aid, not myringotomy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Myringotomy
+
+## main_concept
+CON-MUL-C9C01C21355ECD
+
+## concept_ids
+CON-MUL-C9C01C21355ECD
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State secretory otitis media as an indication for myringotomy.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.19); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-100
+
+## title
+Myringotomy — the incorrect statement
+
+## question
+Which of the following statements is wrong concerning the myringotomy operation:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is indicated in acute suppurative otitis media with a bulging drum
+
+## explanation_a
+Incorrect (this statement is true). Myringotomy relieves an acute suppurative otitis media with a bulging drum.
+
+## answer_b
+It is indicated in secretory otitis media after failure of medical treatment
+
+## explanation_b
+Incorrect (this statement is true). It is indicated in secretory otitis media that has failed medical treatment.
+
+## answer_c
+It is better done in the postero-superior quadrant of the tympanic membrane
+
+## explanation_c
+Correct (this statement is wrong). Myringotomy is better done in the antero-inferior quadrant. The postero-superior quadrant is avoided because it overlies the ossicles and round window. Incising there risks ossicular and inner-ear injury.
+
+## answer_d
+Residual perforation of the tympanic membrane is one of its complications
+
+## explanation_d
+Incorrect (this statement is true). A residual perforation is a recognised complication of myringotomy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Myringotomy
+
+## main_concept
+CON-MUL-C9C01C21355ECD
+
+## concept_ids
+CON-MUL-C9C01C21355ECD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Recognise the antero-inferior, not postero-superior, quadrant as the correct site for myringotomy.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.19); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-101
+
+## title
+Definition of radical mastoidectomy
+
+## question
+By the radical mastoidectomy operation we mean:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Removal of the mastoid air cells and all middle ear contents except the stapes
+
+## explanation_a
+Correct. Radical mastoidectomy removes the mastoid air cells and all middle-ear contents except the stapes. It exteriorises the cavity into a single space, with no attempt to preserve hearing. Preserving tympanic and ossicular remnants instead would make it the modified radical operation.
+
+## answer_b
+Removal of the diseased mastoid air cells only
+
+## explanation_b
+Incorrect. Removing only the diseased air cells describes a cortical (simple) mastoidectomy.
+
+## answer_c
+Removal of the mastoid air cells and all middle ear contents with preservation of healthy remnants of the tympanic membrane and ossicles
+
+## explanation_c
+Incorrect. Preserving healthy remnants of the tympanic membrane and ossicles describes the modified radical (Bondy) operation, not the radical one.
+
+## answer_d
+None of the above
+
+## explanation_d
+Incorrect. Option A correctly defines radical mastoidectomy.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Radical mastoidectomy
+
+## main_concept
+CON-MUL-58CE09ADB9F969
+
+## concept_ids
+CON-MUL-58CE09ADB9F969
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+Define radical mastoidectomy and distinguish it from cortical and modified radical operations.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.19); key from the section-end printed answer-key grid (p20)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR316ENT-EAR-102
+
+## title
+Treatment of acute mastoiditis
+
+## question
+Acute mastoiditis is treated by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Radical mastoidectomy
+
+## explanation_a
+Incorrect. Radical mastoidectomy is for cholesteatoma (unsafe chronic otitis media), not acute mastoiditis.
+
+## answer_b
+Cortical mastoidectomy
+
+## explanation_b
+Correct. Acute mastoiditis, a coalescent mastoid abscess, is drained by cortical (simple) mastoidectomy. This removes the infected air cells while preserving the middle-ear structures. The radical operation is reserved for cholesteatoma, not for acute mastoiditis.
+
+## answer_c
+Tympanoplasty
+
+## explanation_c
+Incorrect. Tympanoplasty reconstructs the drum and ossicles in chronic disease; it does not treat acute mastoiditis.
+
+## answer_d
+Stapedectomy
+
+## explanation_d
+Incorrect. Stapedectomy is the operation for otosclerosis.
+
+## topic
+Otorhinolaryngology
+
+## subtopic
+Acute mastoiditis
+
+## main_concept
+CON-MUL-32A8489639AADC
+
+## concept_ids
+CON-MUL-32A8489639AADC
+
+## contextual_concept_ids
+
+## difficulty
+Easy
+
+## question_type
+Recall
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=moderate
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+316 ENT
+
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+
+## question_only_for
+
+## library_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+
+## learning_objective
+State cortical mastoidectomy as the treatment of acute mastoiditis.
+
+## source_citation
+Kasr Al Ainy 316 ENT — department ENT MCQ Question Bank, Ear section (PDF p.19); key from the section-end printed answer-key grid (p20)
 
 ## attached_image
 

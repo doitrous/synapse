@@ -5345,3 +5345,1224 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; searched existing 316-ENT concepts and found no prior record for this fact.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q49-80) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3C6373B3EEF7DB
+## label
+Ear syringing is indicated for wax and inorganic foreign bodies but contraindicated for a vegetable foreign body
+## canonical_key
+otolaryngology.ear-syringing.indications-wax-and-inorganic-foreign-body-not-vegetable
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ear syringing (ear wash) is indicated to remove impacted wax and small inorganic foreign bodies from the external auditory canal. It is contraindicated for a vegetable (organic) foreign body, which absorbs water and swells to become more impacted, and for a suspected or actual tympanic membrane perforation or acute otitis media.
+## explicit_objective
+List wax as a main indication for ear syringing and a vegetable foreign body as a contraindication.
+## pitfalls
+A vegetable foreign body swells when wetted and must not be syringed; syringing an infected or perforated ear drives water into the middle ear.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Ear syringing
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Ear syringing
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-34139B6B548491
+## label
+Ear syringing can perforate the tympanic membrane
+## canonical_key
+otolaryngology.ear-syringing.complication-tympanic-membrane-perforation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Forceful ear syringing can rupture the tympanic membrane. The patient develops sudden severe pain and deafness, and water may be felt reaching the throat as it passes through the perforation and Eustachian tube to the nasopharynx.
+## explicit_objective
+Recognise tympanic membrane perforation as a complication of ear syringing.
+## pitfalls
+Sudden pain, deafness and water reaching the throat after syringing indicate a perforation, not otomycosis, acute otitis externa or a glomus tumour.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Ear syringing
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Ear syringing
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C53B20631E90C3
+## label
+In conductive hearing loss the Weber test lateralises to the diseased ear and the Rinne test is negative
+## canonical_key
+otolaryngology.tuning-fork-tests.conductive-loss-weber-to-diseased-ear-rinne-negative
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a conductive hearing loss, such as a middle-ear effusion, the Rinne test is negative (bone conduction better than air conduction) in the affected ear and the Weber test lateralises to the diseased ear.
+## explicit_objective
+State that a conductive loss gives a negative Rinne and a Weber that lateralises to the affected ear.
+## pitfalls
+Weber lateralising to a diseased ear means a conductive loss on that side, not a sensorineural loss on the other; a negative Rinne is conductive, never normal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tuning-fork tests
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Tuning-fork tests
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-BA76C73952B54D
+## label
+In sensorineural hearing loss the Weber test lateralises to the better ear with a positive Rinne
+## canonical_key
+otolaryngology.tuning-fork-tests.sensorineural-loss-weber-to-better-ear-rinne-positive
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In a sensorineural hearing loss the Rinne test stays positive (air conduction better than bone conduction) in both ears and the Weber test lateralises to the better-hearing ear; so a bilaterally positive Rinne with the Weber lateralised to the left indicates a right sensorineural loss.
+## explicit_objective
+Interpret a positive Rinne with the Weber lateralised to the better ear as a sensorineural loss of the opposite ear.
+## pitfalls
+With the Rinne positive in both ears the lesion cannot be conductive; the Weber lateralises away from a sensorineural loss, towards the better ear.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tuning-fork tests
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Tuning-fork tests
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-684AB10A869655
+## label
+Conductive hearing loss comes from external or middle-ear lesions, sensorineural loss from inner-ear or nerve causes
+## canonical_key
+otolaryngology.hearing-loss.conductive-vs-sensorineural-classification
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Conductive hearing loss arises from lesions of the external or middle ear (wax, otitis media, otosclerosis, tympanic perforation, adhesive otitis media). Sensorineural hearing loss arises from the cochlea or auditory nerve (labyrinthitis, mumps, meningitis, acoustic or noise trauma, ototoxic drugs, acoustic neuroma). Secretory otitis media causes a conductive, not a sensorineural, loss.
+## explicit_objective
+Classify common ear conditions as causing conductive or sensorineural hearing loss.
+## pitfalls
+Labyrinthitis, acoustic trauma and mumps cause sensorineural loss, not conductive; secretory otitis media is conductive, so it is not a cause of sensorineural loss or deaf-mutism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Hearing loss classification
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Hearing loss classification
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8721DB9BC0D0EA
+## label
+Deaf-mutism follows severe early-onset sensorineural deafness, not a reversible conductive loss
+## canonical_key
+otolaryngology.deaf-mutism.severe-early-onset-sensorineural-deafness
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Deaf-mutism results from severe sensorineural deafness present at birth or acquired before speech develops, from congenital causes, meningitis, mumps or ototoxic drugs. A mild reversible conductive loss such as secretory otitis media does not cause it.
+## explicit_objective
+Identify severe early sensorineural deafness as the cause of deaf-mutism and exclude secretory otitis media.
+## pitfalls
+Secretory otitis media gives a mild reversible conductive loss and does not cause deaf-mutism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Deaf-mutism
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Deaf-mutism
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C9C01C21355ECD
+## label
+Myringotomy is indicated for acute otitis media with a bulging drum and for resistant secretory otitis media, and is made in the antero-inferior quadrant
+## canonical_key
+otolaryngology.myringotomy.indications-antero-inferior-quadrant-and-complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Myringotomy is an incision of the tympanic membrane. It is indicated in acute suppurative otitis media with a bulging drum and in secretory otitis media that has failed medical treatment. The incision is made in the antero-inferior quadrant to avoid the ossicles and round window; residual perforation is a recognised complication.
+## explicit_objective
+State the indications and correct site of myringotomy and recognise residual perforation as a complication.
+## pitfalls
+Myringotomy is done in the antero-inferior, not the postero-superior, quadrant; the postero-superior quadrant risks the ossicular chain and round window.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Myringotomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Myringotomy
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-58CE09ADB9F969
+## label
+Radical mastoidectomy removes the mastoid air cells and all middle-ear contents except the stapes
+## canonical_key
+otolaryngology.radical-mastoidectomy.definition-remove-all-middle-ear-except-stapes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Radical mastoidectomy exenterates the mastoid air cells and removes all middle-ear contents except the stapes, exteriorising the middle ear and mastoid into a single cavity with no attempt to preserve hearing. The modified radical (Bondy) operation instead preserves healthy remnants of the tympanic membrane and ossicles.
+## explicit_objective
+Define radical mastoidectomy and distinguish it from the modified radical operation.
+## pitfalls
+Preserving tympanic membrane and ossicular remnants describes the modified radical operation; removing only the diseased cells is a cortical mastoidectomy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Radical mastoidectomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Radical mastoidectomy
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9126FD82B52030
+## label
+Referred otalgia arises from disorders sharing the ear's sensory nerves, such as temporomandibular joint arthritis
+## canonical_key
+otolaryngology.referred-otalgia.causes-temporomandibular-joint-and-shared-nerves
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Referred otalgia is ear pain from a lesion outside the ear that shares the ear's sensory innervation (trigeminal, glossopharyngeal, vagus and upper cervical nerves), most commonly temporomandibular joint arthritis, dental disease and throat lesions. The ear examination is normal.
+## explicit_objective
+Recognise temporomandibular joint arthritis as a cause of referred otalgia with a normal ear.
+## pitfalls
+Traumatic perforation, myringitis and secretory otitis media cause primary local otalgia, not referred pain.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Referred otalgia
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Referred otalgia
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-98481879AE1BF5
+## label
+Impacted wax is the commonest cause of conductive hearing loss in adults
+## canonical_key
+otolaryngology.conductive-hearing-loss.commonest-cause-impacted-wax
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Impacted cerumen (wax) is the commonest cause of conductive hearing loss in adults and is readily reversible by removing the wax. Otosclerosis is a common cause of progressive conductive loss with an intact drum but is less common than wax.
+## explicit_objective
+State impacted wax as the commonest cause of adult conductive hearing loss.
+## pitfalls
+Otosclerosis is the commonest cause of progressive conductive loss with an intact drum, but overall wax impaction is commoner.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Conductive hearing loss
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Conductive hearing loss
+## article_ids
+ART-ENT-316-EAR-ASSESSMENT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1E26566499DCFD
+## label
+Myringoplasty is surgical repair of the tympanic membrane
+## canonical_key
+otolaryngology.myringoplasty.repair-of-tympanic-membrane
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Myringoplasty is the surgical repair (grafting) of a perforation of the tympanic membrane without work on the ossicles; when ossicular reconstruction is added the procedure becomes a tympanoplasty.
+## explicit_objective
+Define myringoplasty as repair of the tympanic membrane.
+## pitfalls
+Myringoplasty repairs the tympanic membrane, not the external ear, inner ear or Eustachian tube.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T01-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Myringoplasty
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing > Myringoplasty
+## article_ids
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
