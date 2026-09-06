@@ -4857,3 +4857,795 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The e
 ## randomise_answers
 yes
 ## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-66
+## title
+Mydriasis can occur in oculomotor nerve palsy
+## question
+Mydriasis can occur in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Acute iridocyclitis.
+## explanation_a
+Incorrect. Iridocyclitis causes miosis.
+## answer_b
+Horner's syndrome.
+## explanation_b
+Incorrect. Horner's syndrome causes miosis.
+## answer_c
+Pontine hemorrhage.
+## explanation_c
+Incorrect. A pontine haemorrhage causes miosis.
+## answer_d
+Oculomotor nerve palsy.
+## explanation_d
+Correct. A third nerve palsy paralyses the sphincter and dilates the pupil (mydriasis).
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-2AB4DFDE5D7E9D
+## concept_ids
+CON-MUL-2AB4DFDE5D7E9D
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+46
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify an oculomotor nerve palsy as a cause of mydriasis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.137); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-67
+## title
+Physiological miosis EXCEPT excitement
+## question
+Physiological miosis can occur in all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Excitement.
+## explanation_a
+Correct. Excitement activates the sympathetic system and dilates the pupil (mydriasis); it does not cause miosis, so it is the exception.
+## answer_b
+Light reflex.
+## explanation_b
+Incorrect. The light reflex constricts the pupil.
+## answer_c
+Near reflex.
+## explanation_c
+Incorrect. The near reflex constricts the pupil.
+## answer_d
+Senility.
+## explanation_d
+Incorrect. Senile miosis is a physiological small pupil of old age.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-79A95C3D32D326
+## concept_ids
+CON-MUL-79A95C3D32D326
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise excitement (sympathetic mydriasis) as the exception among causes of physiological miosis.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.137); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-68
+## title
+The light reflex centre is in the midbrain
+## question
+The center for the light reflex is in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Pons.
+## explanation_a
+Incorrect. The light-reflex centre is in the midbrain, not the pons.
+## answer_b
+Midbrain.
+## explanation_b
+Correct. The pupillary light reflex centre (pretectal/Edinger-Westphal) is in the midbrain.
+## answer_c
+Occipital lobe.
+## explanation_c
+Incorrect. The occipital lobe is the visual cortex, not the reflex centre.
+## answer_d
+Frontal lobe.
+## explanation_d
+Incorrect. The frontal lobe is not the light-reflex centre.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-417ABD2B4A9949
+## concept_ids
+CON-MUL-417ABD2B4A9949
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+44
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that the pupillary light reflex centre is in the midbrain.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.137); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-69
+## title
+The near reflex centre is in the midbrain
+## question
+The center for the near reflex is in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Pons.
+## explanation_a
+Incorrect. The near-reflex centre is in the midbrain, not the pons.
+## answer_b
+Midbrain.
+## explanation_b
+Correct. The near reflex (accommodation-convergence-miosis) is integrated in the midbrain.
+## answer_c
+Occipital lobe.
+## explanation_c
+Incorrect. The occipital cortex initiates the reflex but is not the integrating centre asked for here.
+## answer_d
+Frontal lobe.
+## explanation_d
+Incorrect. The frontal lobe is not the near-reflex centre.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-417ABD2B4A9949
+## concept_ids
+CON-MUL-417ABD2B4A9949
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+46
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that the near reflex centre is in the midbrain.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.138); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-70
+## title
+The blind eye pupil shows a relative afferent pupillary defect
+## question
+The blind eye pupil:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+The pupil reacts to direct reflex.
+## explanation_a
+Incorrect. A blind eye from optic-nerve disease has no direct reaction.
+## answer_b
+The pupil reacts to consensual reflex.
+## explanation_b
+Incorrect only as the best answer — the pupil still reacts consensually (efferent intact), but the defining sign asked for is the afferent defect.
+## answer_c
+The pupil is dilated.
+## explanation_c
+Incorrect. The pupil is not necessarily dilated at rest.
+## answer_d
+There is relative afferent pupillary defect.
+## explanation_d
+Correct. A blind eye from optic-nerve disease shows a relative afferent pupillary defect (an amaurotic pupil).
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-A4B40EB11DBC84
+## concept_ids
+CON-MUL-A4B40EB11DBC84
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+52
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise a relative afferent pupillary defect in a blind eye with optic-nerve disease.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.138); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-71
+## title
+Marcus-Gunn pupil dilates when exposed to light
+## question
+Marcus-Gunn pupil:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+The pupil constricts when exposed to light.
+## explanation_a
+Incorrect. On swinging the light to the affected eye, it paradoxically dilates.
+## answer_b
+The pupil dilates when exposed to light.
+## explanation_b
+Correct. A Marcus-Gunn pupil (relative afferent pupillary defect) dilates when the light is swung onto it.
+## answer_c
+There is abnormal consensual light reflex.
+## explanation_c
+Incorrect. The consensual (efferent) pathway is intact; the defect is afferent.
+## answer_d
+The pupil is constricted.
+## explanation_d
+Incorrect. The pupil is not constricted at rest.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-A4B40EB11DBC84
+## concept_ids
+CON-MUL-A4B40EB11DBC84
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+54
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise the paradoxical dilatation of a Marcus-Gunn (relative afferent) pupil on the swinging-flashlight test.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.138); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-72
+## title
+Horner's syndrome is a lesion of the sympathetic supply
+## question
+Horner's syndrome is due to a lesion:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Sympathetic supply of the eye.
+## explanation_a
+Correct. Horner's syndrome is due to interruption of the ocular sympathetic supply.
+## answer_b
+Parasympathetic supply of the eye.
+## explanation_b
+Incorrect. A parasympathetic lesion dilates the pupil (third nerve), not Horner's.
+## answer_c
+Edinger Westphal nucleus.
+## explanation_c
+Incorrect. The Edinger-Westphal nucleus is parasympathetic.
+## answer_d
+Lateral geniculate body.
+## explanation_d
+Incorrect. The lateral geniculate body is part of the visual, not the sympathetic, pathway.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-DDAE5BF64386BD
+## concept_ids
+CON-MUL-DDAE5BF64386BD
+## contextual_concept_ids
+
+## difficulty
+Easy
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+46
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Attribute Horner's syndrome to a lesion of the ocular sympathetic supply.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.138); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH9-73
+## title
+Horner's syndrome features EXCEPT exophthalmos
+## question
+All the following occur in Horner's syndrome EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Ptosis.
+## explanation_a
+Incorrect (a genuine feature). A partial ptosis occurs.
+## answer_b
+Miosis.
+## explanation_b
+Incorrect (a genuine feature). Miosis occurs.
+## answer_c
+Anhydrosis.
+## explanation_c
+Incorrect (a genuine feature). Ipsilateral facial anhidrosis occurs.
+## answer_d
+Exophthalmos.
+## explanation_d
+Correct. Horner's syndrome causes apparent ENophthalmos, not exophthalmos; this is the exception.
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## main_concept
+CON-MUL-DDAE5BF64386BD
+## concept_ids
+CON-MUL-DDAE5BF64386BD
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## question_only_for
+
+## library_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise that Horner's syndrome causes enophthalmos, not exophthalmos.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.9 The eye and the brain (PDF p.138); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.6-7 Ch.9 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
