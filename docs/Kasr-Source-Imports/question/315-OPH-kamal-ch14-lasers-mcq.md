@@ -975,3 +975,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-11
+## title
+Characteristics of laser
+## question
+Laser is characterized by:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Being collimated.
+## explanation_a
+Correct. Laser light is collimated (parallel).
+## answer_b
+Containing all wavelengths.
+## explanation_b
+Incorrect. Laser is monochromatic, not all wavelengths.
+## answer_c
+Being typically convergent.
+## explanation_c
+Incorrect. Laser is collimated, not convergent.
+## answer_d
+Being temporally incoherent.
+## explanation_d
+Incorrect. Laser is temporally coherent, not incoherent.
+## topic
+Ophthalmology
+## subtopic
+Laser physics
+## main_concept
+CON-MUL-1830D30B9DADD4
+## concept_ids
+CON-MUL-1830D30B9DADD4
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify collimation as a characteristic of laser light.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-12
+## title
+Solid laser
+## question
+Solid laser includes:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Carbon dioxide laser.
+## explanation_a
+Incorrect. The CO2 laser is a gas laser.
+## answer_b
+Ruby laser.
+## explanation_b
+Correct. The ruby laser is a solid-state laser.
+## answer_c
+Argon laser.
+## explanation_c
+Incorrect. The argon laser is a gas laser.
+## answer_d
+Diode laser.
+## explanation_d
+Incorrect. The diode laser is a semiconductor laser.
+## topic
+Ophthalmology
+## subtopic
+Laser types
+## main_concept
+CON-MUL-20AD2B92ECCC11
+## concept_ids
+CON-MUL-20AD2B92ECCC11
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Classify the ruby laser as a solid-state laser.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-13
+## title
+Nature of the excimer laser
+## question
+Excimer laser is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Krypton laser.
+## explanation_a
+Incorrect. The excimer is not a krypton laser.
+## answer_b
+Argon/Fluoride laser.
+## explanation_b
+Correct. The excimer laser is an argon-fluoride laser.
+## answer_c
+Diode laser.
+## explanation_c
+Incorrect. The diode laser is a separate semiconductor laser.
+## answer_d
+YAG laser.
+## explanation_d
+Incorrect. The YAG laser is a different solid-state laser.
+## topic
+Ophthalmology
+## subtopic
+Laser types
+## main_concept
+CON-MUL-10A3CD3CCFD3AC
+## concept_ids
+CON-MUL-10A3CD3CCFD3AC
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify the excimer laser as an argon-fluoride laser.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-14
+## title
+Nature of the diode laser
+## question
+Diode laser is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Solid-state laser.
+## explanation_a
+Incorrect. The diode laser is not solid-state.
+## answer_b
+Gas laser.
+## explanation_b
+Incorrect. The diode laser is not a gas laser.
+## answer_c
+Dye laser.
+## explanation_c
+Incorrect. The diode laser is not a dye laser.
+## answer_d
+Semiconductor laser.
+## explanation_d
+Correct. The diode laser is a semiconductor laser.
+## topic
+Ophthalmology
+## subtopic
+Laser types
+## main_concept
+CON-MUL-0D1C524C4D5E21
+## concept_ids
+CON-MUL-0D1C524C4D5E21
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Classify the diode laser as a semiconductor laser.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.190); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH14-15
+## title
+Photovaporisation
+## question
+Photovaporisation is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Photochemical laser.
+## explanation_a
+Incorrect. Photovaporisation is thermal, not photochemical.
+## answer_b
+Ionising laser.
+## explanation_b
+Incorrect. Ionisation describes photodisruption.
+## answer_c
+Thermal laser.
+## explanation_c
+Correct. Photovaporisation is a thermal laser effect.
+## answer_d
+Cryo laser.
+## explanation_d
+Incorrect. Cryo is a cold, not laser, modality.
+## topic
+Ophthalmology
+## subtopic
+Laser-tissue interaction
+## main_concept
+CON-MUL-AC4162891061EF
+## concept_ids
+CON-MUL-AC4162891061EF
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Lasers in ophthalmology
+## question_only_for
+
+## library_ids
+ART-OPH-315-LASERS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Classify photovaporisation as a thermal laser effect.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.14 Lasers in ophthalmology (PDF p.191); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.14 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
