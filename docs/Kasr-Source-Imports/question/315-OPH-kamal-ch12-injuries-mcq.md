@@ -3339,3 +3339,493 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-53
+## title
+Delayed red eye after injury with a leaf
+## question
+A male complained of pain, photophobia and redness of his eye. He gave a history of injury of the eye with a leaf 15 days ago. Probable diagnosis is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Anterior uveitis.
+## explanation_a
+Incorrect. Anterior uveitis is not the classic sequel of a vegetable-matter corneal injury.
+## answer_b
+Conjunctivitis.
+## explanation_b
+Incorrect. Conjunctivitis does not cause this delayed painful photophobic picture.
+## answer_c
+Fungal corneal ulcer.
+## explanation_c
+Correct. Injury with vegetable matter (a leaf) with a delayed indolent course is typical of a fungal corneal ulcer.
+## answer_d
+Corneal laceration.
+## explanation_d
+Incorrect. A corneal laceration presents acutely, not 15 days later with this picture.
+## topic
+Ophthalmology
+## subtopic
+Corneal ulcer
+## main_concept
+CON-MUL-1ED9C5AE54012E
+## concept_ids
+CON-MUL-1ED9C5AE54012E
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Diagnose a fungal corneal ulcer after vegetable-matter (leaf) trauma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.175); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-54
+## title
+Iridodialysis — definition
+## question
+In iridodialysis:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Separation of the iris root from ciliary body.
+## explanation_a
+Correct. Iridodialysis is a separation of the iris root from the ciliary body.
+## answer_b
+Patient complains of binocular diplopia.
+## explanation_b
+Incorrect. It causes uniocular, not binocular, diplopia.
+## answer_c
+Pupil is round and regular.
+## explanation_c
+Incorrect. The pupil becomes D-shaped and irregular.
+## answer_d
+Always associated with retinal dialysis.
+## explanation_d
+Incorrect. It is not always associated with retinal dialysis.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-C74CB9E533E3AB
+## concept_ids
+CON-MUL-C74CB9E533E3AB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Define iridodialysis as separation of the iris root from the ciliary body.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.175); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-55
+## title
+Tennis ball injury with normal red reflex
+## question
+A patient who received a tennis ball hit came complaining of rapid drop of vision in the left eye. Examination showed normal anterior segment, normal red reflex, and vision in the left eye was hand movement. Possible diagnosis is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Commotio retinae.
+## explanation_a
+Correct. Marked vision loss with a normal red reflex and normal anterior segment after blunt trauma is commotio retinae.
+## answer_b
+Traumatic cataract.
+## explanation_b
+Incorrect. A traumatic cataract would disturb the red reflex.
+## answer_c
+Vitreous hemorrhage.
+## explanation_c
+Incorrect. Vitreous haemorrhage would obscure the red reflex.
+## answer_d
+Subconjunctival hemorrhage.
+## explanation_d
+Incorrect. Subconjunctival haemorrhage does not drop vision to hand movements.
+## topic
+Ophthalmology
+## subtopic
+Commotio retinae
+## main_concept
+CON-MUL-36ADB2DE5C7759
+## concept_ids
+CON-MUL-36ADB2DE5C7759
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Diagnose commotio retinae from reduced vision with a normal red reflex after blunt trauma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.175); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-56
+## title
+Management of an acidic chemical injury
+## question
+In acidic chemical injury to the eye:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Wash and irrigation immediately.
+## explanation_a
+Correct. Immediate washing and copious irrigation is the first step in any chemical injury.
+## answer_b
+Use an alkaline antidote.
+## explanation_b
+Incorrect. Neutralising an acid with an alkali is dangerous; plain water is used.
+## answer_c
+Topical antibiotics are of no value.
+## explanation_c
+Incorrect. Topical antibiotics have a role in preventing secondary infection.
+## answer_d
+Never use cycloplegics or topical steroid.
+## explanation_d
+Incorrect. Cycloplegics and topical steroids are used after irrigation.
+## topic
+Ophthalmology
+## subtopic
+Chemical eye injury
+## main_concept
+CON-MUL-4693A9F2D11E81
+## concept_ids
+CON-MUL-4693A9F2D11E81
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Choose immediate wash and irrigation in an acidic chemical injury.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.175); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-57
+## title
+Imaging a suspected IOFB — EXCEPT
+## question
+Investigations done in a case of suspected intraocular foreign body include all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Plain X-ray.
+## explanation_a
+Incorrect (a used investigation). Plain X-ray can show a radio-opaque foreign body.
+## answer_b
+Ocular ultrasound.
+## explanation_b
+Incorrect (a used investigation). Ocular ultrasound helps localise it.
+## answer_c
+Ocular and orbital MRI.
+## explanation_c
+Correct. MRI is avoided with a magnetic foreign body; it is the exception.
+## answer_d
+Ocular and orbital CT.
+## explanation_d
+Incorrect (a used investigation). CT is the preferred localising study.
+## topic
+Ophthalmology
+## subtopic
+Intraocular foreign body
+## main_concept
+CON-MUL-1AA8409A9F7E79
+## concept_ids
+CON-MUL-1AA8409A9F7E79
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude MRI from the imaging of a suspected metallic intraocular foreign body.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.175); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
