@@ -30661,3 +30661,558 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank's stem/options (Ch.8 The retina Q73-90) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-2AB4DFDE5D7E9D
+## label
+Causes of mydriasis (a large pupil)
+## canonical_key
+ophthalmology.pupil.causes-of-mydriasis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mydriasis (a dilated pupil) results from either sphincter paralysis or dilator overaction: a third (oculomotor) nerve palsy, an acute angle-closure attack (a fixed mid-dilated pupil), blunt ocular trauma (traumatic mydriasis), and sympathetic/adrenergic drive. In contrast, a pontine haemorrhage and iritis cause miosis (a small pupil), and the near reflex constricts the pupil.
+## explicit_objective
+List the causes of mydriasis and separate them from the causes of miosis (pontine haemorrhage, iritis, near reflex).
+## pitfalls
+Attributing mydriasis to a pontine haemorrhage or iritis; both cause miosis, not mydriasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Pupil
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q1-10) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-A4B40EB11DBC84
+## label
+A relative afferent pupillary defect indicates unilateral or asymmetric optic nerve disease
+## canonical_key
+ophthalmology.pupil.relative-afferent-pupillary-defect-unilateral-optic-nerve-disease
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A relative afferent pupillary defect (RAPD, detected by the swinging-flashlight test) reflects unilateral or asymmetric damage to the anterior visual pathway — optic neuritis (as in multiple sclerosis), ischaemic optic neuropathy, or other unilateral optic-nerve disease. It is an afferent sign, so it does not occur with an efferent (oculomotor) lesion, with symmetric bilateral disease, or with media/refractive problems.
+## explicit_objective
+Recognise a RAPD as the sign of unilateral/asymmetric optic-nerve disease and exclude efferent and symmetric causes.
+## pitfalls
+Expecting a RAPD from an oculomotor (efferent) lesion, symmetric bilateral optic disease, iridocyclitis, open-angle glaucoma or thyroid eye disease; a RAPD needs asymmetric afferent (optic nerve) damage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Pupil
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Pupil
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q1-10) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-0D89C958F3BA46
+## label
+Papilledema indicates raised intracranial pressure
+## canonical_key
+ophthalmology.papilloedema.raised-intracranial-pressure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Papilledema is passive (non-inflammatory) swelling of the optic disc caused by raised intracranial pressure; it is typically bilateral and can be caused by a brain tumour or other space-occupying lesion. An accompanying abducens (sixth nerve) palsy is a false localising sign. Central vision is preserved early, and untreated it can progress to secondary optic atrophy.
+## explicit_objective
+State that papilledema signifies raised intracranial pressure and recognise its features (bilateral, brain-tumour cause, early preserved vision).
+## pitfalls
+Reading papilledema as high intraocular pressure, low intracranial pressure or an inflammatory disc oedema, or expecting early profound visual loss; it is passive disc oedema from raised intracranial pressure.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic disc
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic disc
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q1-10) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C5E0F4125E8139
+## label
+Visual field defects localise the lesion along the visual pathway
+## canonical_key
+ophthalmology.visual-pathway.field-defects-localise-lesion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pattern of a visual field defect localises the lesion along the visual pathway: a bitemporal hemianopia points to the optic chiasm (classically a pituitary tumour), a homonymous hemianopia to the contralateral optic tract or radiation, and a parietal-lobe lesion to a contralateral homonymous inferior quadrantanopia (a temporal-lobe lesion gives a superior quadrantanopia). A prechiasmal (optic nerve) lesion gives a monocular defect.
+## explicit_objective
+Map a visual field defect to its site in the visual pathway (bitemporal = chiasm; homonymous = retrochiasmal).
+## pitfalls
+Placing a bitemporal hemianopia at the occipital cortex, optic tract or optic nerve; a bitemporal defect localises to the optic chiasm.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Visual pathway
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Visual pathway
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q1-10) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-8944E2669837DC
+## label
+Consecutive optic atrophy follows primary retinal disease
+## canonical_key
+ophthalmology.optic-atrophy.consecutive-from-retinal-disease
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Optic atrophy is classified by its cause. Consecutive optic atrophy follows primary retinal disease (for example retinitis pigmentosa or a central retinal artery occlusion), where photoreceptor/ganglion-cell loss leads on to atrophy of the nerve. This differs from primary optic atrophy (a direct optic-nerve insult), secondary optic atrophy (following papilledema or papillitis), and glaucomatous atrophy (cupping).
+## explicit_objective
+Recognise consecutive optic atrophy as atrophy secondary to primary retinal disease such as retinitis pigmentosa.
+## pitfalls
+Calling the optic atrophy of papilledema, multiple sclerosis or glaucoma "consecutive"; consecutive optic atrophy follows retinal disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Optic atrophy
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain > Optic atrophy
+## article_ids
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard neuro-ophthalmology teaching corroborated by this bank's stem/options (Ch.9 The eye and the brain Q1-10) and its printed answer key (key cross-checked against option text); no department book page image read this pass.

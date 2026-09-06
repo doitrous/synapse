@@ -934,3 +934,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Opens Chapter 8 (The retina: function and diseases) on the verified node DIS-OPH-T04 (Retina). Chapter 8 has 88 keyed MCQs (answer key p.5-6; answer key omits rows Q14 and Q39 - hold when reached, never guess). Q1-10 authored the opening slice (10 clean single-best items); ten new retina concepts added. Q11-90 remain for later tranches (several are patient-scenario vignettes and a T/F 13-case section for adjudication).
 ## reading_time
 4
+
+
+---
+
+# Item
+## id
+ART-OPH-315-NEURO-OPHTHALMOLOGY
+## title
+Ophthalmology: the eye and the brain (pupil, optic nerve, papilledema and the visual pathway)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article opens Chapter 9 of the question bank (The eye and the brain) and groups the neuro-ophthalmology facts tested by the opening MCQ slice (Q1-10). It covers the pupil (causes of mydriasis versus miosis), the relative afferent pupillary defect as a sign of unilateral optic-nerve disease, papilledema as a sign of raised intracranial pressure, the localising value of visual field defects (bitemporal hemianopia from a chiasmal lesion), ischaemic optic neuropathy, optic neuritis as a presentation of multiple sclerosis, and the classification of optic atrophy (consecutive optic atrophy following retinal disease).
+## sections
+### Definition
+The eye and the brain are linked by the pupillary pathways, the optic nerve and the visual pathway; Chapter 9 tests how their disorders are recognised and localised. This article gathers the opening Chapter-9 concepts, each stating one atomic neuro-ophthalmology fact.
+### Mechanism
+Pupil size reflects the balance of parasympathetic (sphincter) and sympathetic (dilator) tone, so a third-nerve palsy or angle-closure dilates the pupil while a pontine haemorrhage or iritis constricts it. A relative afferent pupillary defect appears when one optic nerve conducts light less well than the other. Raised intracranial pressure is transmitted along the optic nerve sheath to swell the disc (papilledema). Lesions at successive points of the visual pathway produce characteristic field defects — a bitemporal hemianopia at the chiasm, homonymous defects behind it. Optic atrophy is the common end point, classified by whether the insult was to the nerve directly (primary), to a swollen disc (secondary), to the retina (consecutive), or from glaucoma.
+### Key determinants
+Discriminators tested here: mydriasis (third-nerve palsy, angle-closure, trauma) versus miosis (pontine haemorrhage, iritis, near reflex); a relative afferent pupillary defect requires unilateral/asymmetric optic-nerve disease (optic neuritis, ischaemic optic neuropathy) and does not follow an efferent or symmetric lesion; papilledema means raised intracranial pressure (bilateral, brain-tumour cause, early preserved vision) rather than raised intraocular pressure; a bitemporal hemianopia localises to the optic chiasm; ischaemic optic neuropathy is characterised by a relative afferent pupillary defect; and consecutive optic atrophy follows primary retinal disease such as retinitis pigmentosa.
+### Clinical significance
+These facts underpin the bedside recognition and referral of sight- and life-threatening neuro-ophthalmic disease: reading papilledema as a sign of raised intracranial pressure needing urgent imaging, detecting a relative afferent pupillary defect as evidence of optic-nerve disease, and localising a chiasmal compression from a bitemporal field defect (for example a pituitary tumour).
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (mydriasis attributed to a pontine haemorrhage, a relative afferent pupillary defect expected from an oculomotor lesion, papilledema read as high intraocular pressure, and a bitemporal hemianopia mislocalised to the occipital cortex).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye and the brain
+## subtopic
+The eye and the brain
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T05
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-2AB4DFDE5D7E9D
+CON-MUL-A4B40EB11DBC84
+CON-MUL-0D89C958F3BA46
+CON-MUL-C5E0F4125E8139
+CON-MUL-8944E2669837DC
+CON-MUL-8AE1B2B3F2F161
+## related_articles
+ART-OPH-315-RETINA
+ART-OPH-315-OCULAR-MOTILITY
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 9 (The eye and the brain) on the verified node DIS-OPH-T05 (Neuro-ophthalmology, shared with Chapter 5 ocular motility). Chapter 9 has 72 keyed MCQs (answer key p.6-7; the key omits row Q45 - hold when reached, never guess). Q1-10 authored the opening slice (10 clean single-best items); five new neuro-ophthalmology concepts added plus the optic-neuritis concept reused. Q11-73 remain for later tranches (a T/F 10-case section follows, out of scope).
+## reading_time
+4
