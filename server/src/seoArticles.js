@@ -1,8 +1,28 @@
-import { marked } from 'marked'
+import { Marked } from 'marked'
 
 export const SUPPORTED = ['en', 'ar']
 const str = (v) => typeof v === 'string' && v.trim().length > 0
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
+
+// Only http(s), root-relative, and in-page anchors may reach an href/src —
+// this is checked at the renderer level (below) so CommonMark's angle-bracket
+// link/image destinations ([x](<javascript:...>)) can't bypass a source regex.
+const SAFE_TARGET = /^(https?:\/\/|\/|#)/i
+const bodyMarked = new Marked({
+  renderer: {
+    link({ href, title, tokens }) {
+      const text = this.parser.parseInline(tokens)
+      const target = String(href ?? '').trim()
+      if (!SAFE_TARGET.test(target)) return text
+      return `<a href="${target}"${title ? ` title="${esc(title)}"` : ''}>${text}</a>`
+    },
+    image({ href, title, text }) {
+      const target = String(href ?? '').trim()
+      if (!SAFE_TARGET.test(target)) return ''
+      return `<img src="${target}" alt="${text}"${title ? ` title="${esc(title)}"` : ''}>`
+    },
+  },
+})
 
 export function validatePayload(body) {
   if (!body || !Number.isInteger(body.externalId)) return { error: 'invalid externalId' }
@@ -17,12 +37,8 @@ export function validatePayload(body) {
 }
 
 const stripRawHtml = (md) => md.replace(/<\s*\/?\s*(script|iframe|object|embed|style)[^>]*>/gi, '').replace(/\son\w+\s*=\s*("[^"]*"|'[^']*'|\S+)/gi, '')
-  // Markdown link/image targets ([text](url) / ![alt](url)) that resolve to a
-  // script-running scheme once marked renders them into an href/src — swap the
-  // target for a harmless in-page anchor instead of dropping the whole markup.
-  .replace(/(!?\[[^\]]*\]\()\s*(?:javascript|data|vbscript):[^)]*(\))/gi, '$1#$2')
 export function renderBody(md) {
-  const html = marked.parse(stripRawHtml(md.replace(/^# .*\n?/m, '')), { async: false })
+  const html = bodyMarked.parse(stripRawHtml(md.replace(/^# .*\n?/m, '')), { async: false })
   return html.replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" rel="noopener" target="_blank"')
 }
 export function intro(md) {

@@ -23,8 +23,23 @@ test('renderBody neutralises javascript:/data:/vbscript: markdown link and image
   assert.equal(/javascript:/i.test(html), false)
   assert.equal(/data:/i.test(html), false)
   assert.equal(/vbscript:/i.test(html), false)
-  assert.ok(html.includes('href="#"'))
-  assert.ok(html.includes('src="#"'))
+  assert.ok(html.includes('here'))
+  assert.equal(html.includes('<img'), false)
+})
+test('renderBody neutralises the same schemes via CommonMark angle-bracket destinations', () => {
+  const md = '[x](<javascript:alert(1)>) [y](<vbscript:msgbox(1)>) ![p](<data:text/html,evil>)'
+  const html = renderBody(md)
+  assert.equal(/javascript:/i.test(html), false)
+  assert.equal(/data:/i.test(html), false)
+  assert.equal(/vbscript:/i.test(html), false)
+  assert.equal(html.includes('<img'), false)
+  assert.ok(html.includes('x'))
+  assert.ok(html.includes('y'))
+})
+test('renderBody still renders safe http(s) and root-relative link targets', () => {
+  const html = renderBody('[ext](https://example.com/x) and [rel](/blog/en/x)')
+  assert.match(html, /<a href="https:\/\/example\.com\/x"/)
+  assert.match(html, /<a href="\/blog\/en\/x">/)
 })
 test('toRows keeps en/ar, skips de', () => {
   const { skipped, rows } = toRows(payload)

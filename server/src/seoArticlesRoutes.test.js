@@ -69,6 +69,9 @@ test('POST /api/articles commits every row when nothing conflicts', async (t) =>
   process.env.SEO_HUB_SECRET = 'test-secret'
   const { conn, getCommitted } = fakeSeoArticlesDb([])
   t.mock.method(pool, 'getConnection', async () => conn)
+  const commit = t.mock.method(conn, 'commit')
+  const rollback = t.mock.method(conn, 'rollback')
+  const release = t.mock.method(conn, 'release')
 
   const res = fakeRes()
   let nextError
@@ -83,6 +86,9 @@ test('POST /api/articles commits every row when nothing conflicts', async (t) =>
   assert.equal(nextError, undefined)
   assert.equal(res.body.results.length, 2)
   assert.equal(getCommitted().length, 2)
+  assert.equal(commit.mock.callCount(), 1, 'commit is called exactly once on the happy path')
+  assert.equal(rollback.mock.callCount(), 0, 'rollback is never called on the happy path')
+  assert.equal(release.mock.callCount(), 1, 'the connection is released exactly once')
 })
 
 test('a later row violating the (lang, slug) unique key rolls back the whole batch — no row for the new external_id', async (t) => {
@@ -90,6 +96,9 @@ test('a later row violating the (lang, slug) unique key rolls back the whole bat
   // A different job already owns ar/anatomy-study-plan.
   const { conn, getCommitted } = fakeSeoArticlesDb([{ id: 1, external_id: 1, lang: 'ar', slug: 'anatomy-study-plan' }])
   t.mock.method(pool, 'getConnection', async () => conn)
+  const commit = t.mock.method(conn, 'commit')
+  const rollback = t.mock.method(conn, 'rollback')
+  const release = t.mock.method(conn, 'release')
 
   const res = fakeRes()
   let nextError
@@ -105,4 +114,7 @@ test('a later row violating the (lang, slug) unique key rolls back the whole bat
   assert.equal(res.body, undefined, 'no success response was ever sent')
   assert.equal(getCommitted().some((r) => r.external_id === 9), false, 'no row for the new external_id was left behind')
   assert.deepEqual(getCommitted(), [{ id: 1, external_id: 1, lang: 'ar', slug: 'anatomy-study-plan' }], 'the pre-existing row is untouched and nothing else was committed')
+  assert.equal(commit.mock.callCount(), 0, 'commit is never called on the failing batch')
+  assert.equal(rollback.mock.callCount(), 1, 'rollback is called exactly once on the failing batch')
+  assert.equal(release.mock.callCount(), 1, 'the connection is released exactly once on the failing batch')
 })
