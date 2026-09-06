@@ -1967,3 +1967,493 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-21
+## title
+Definition of iridodialysis
+## question
+Iridodialysis:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Separation of the iris root from ciliary body.
+## explanation_a
+Correct. Iridodialysis is a separation of the iris root from the ciliary body.
+## answer_b
+Patient complains from binocular diplopia.
+## explanation_b
+Incorrect. It causes uniocular (monocular), not binocular, diplopia.
+## answer_c
+Pupil is round and regular.
+## explanation_c
+Incorrect. The pupil is D-shaped and irregular, not round.
+## answer_d
+Always associated with retinal dialysis.
+## explanation_d
+Incorrect. It is not always associated with retinal dialysis.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-C74CB9E533E3AB
+## concept_ids
+CON-MUL-C74CB9E533E3AB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Define iridodialysis as separation of the iris root from the ciliary body.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.168); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-22
+## title
+Causes of uniocular diplopia — EXCEPT
+## question
+Uniocular diplopia can be caused by any of the following causes except:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Iridodialysis.
+## explanation_a
+Incorrect (a genuine cause). Iridodialysis gives a second aperture and monocular diplopia.
+## answer_b
+Corneal opacity.
+## explanation_b
+Incorrect (a genuine cause). A corneal opacity splits the image within one eye.
+## answer_c
+Late onset exotropia.
+## explanation_c
+Correct. A manifest exotropia causes binocular diplopia that vanishes on covering one eye; it is the exception.
+## answer_d
+Subluxated lens.
+## explanation_d
+Incorrect (a genuine cause). A subluxated lens produces a double image in one eye.
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## main_concept
+CON-MUL-9D2E19CEA1B585
+## concept_ids
+CON-MUL-9D2E19CEA1B585
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude late-onset exotropia (a cause of binocular diplopia) from monocular diplopia.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.168); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-23
+## title
+Tennis ball injury with normal red reflex
+## question
+Patient received a tennis ball hit to his eye which used to have 6/6 vision. External eye examination showed no abnormalities, vision is H.M. and red reflex is normal. Possible diagnosis is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Commotio retinae.
+## explanation_a
+Correct. Marked vision loss with a normal red reflex and no external sign after blunt trauma is commotio retinae.
+## answer_b
+Traumatic cataract.
+## explanation_b
+Incorrect. A traumatic cataract would disturb the red reflex.
+## answer_c
+Vitreous hemorrhage.
+## explanation_c
+Incorrect. Vitreous haemorrhage would obscure the red reflex.
+## answer_d
+Subconjunctival Haemorrhage.
+## explanation_d
+Incorrect. Subconjunctival haemorrhage does not reduce vision to hand movements.
+## topic
+Ophthalmology
+## subtopic
+Commotio retinae
+## main_concept
+CON-MUL-36ADB2DE5C7759
+## concept_ids
+CON-MUL-36ADB2DE5C7759
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Diagnose commotio retinae from reduced vision with a normal red reflex after blunt trauma.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.168); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-24
+## title
+Definition of hyphema
+## question
+Hyphema is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Blood in the vitreous cavity.
+## explanation_a
+Incorrect. Blood in the vitreous cavity is vitreous haemorrhage.
+## answer_b
+Pus in the anterior chamber.
+## explanation_b
+Incorrect. Pus in the anterior chamber is hypopyon.
+## answer_c
+Blood in the anterior chamber.
+## explanation_c
+Correct. Hyphema is blood in the anterior chamber.
+## answer_d
+Lens dislocation.
+## explanation_d
+Incorrect. Lens dislocation is a separate traumatic entity.
+## topic
+Ophthalmology
+## subtopic
+Traumatic hyphema
+## main_concept
+CON-MUL-841AC86C100DA3
+## concept_ids
+CON-MUL-841AC86C100DA3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Define hyphema as blood in the anterior chamber.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.168); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-25
+## title
+Site of traumatic scleral rupture
+## question
+Sclera rupture is usually up and nasal due to:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Trauma usually comes from up and nasal.
+## explanation_a
+Incorrect. The rupture site does not depend on the direction of the blow.
+## answer_b
+Eye ball is pushed against the trochlea.
+## explanation_b
+Correct. The globe is driven superonasally against the trochlea, where the thin sclera ruptures.
+## answer_c
+This is the strongest part of the sclera.
+## explanation_c
+Incorrect. This is a relatively weak, not strong, part of the sclera.
+## answer_d
+Superior rectus is attached at this site.
+## explanation_d
+Incorrect. The superior rectus insertion is not the reason for the superonasal rupture.
+## topic
+Ophthalmology
+## subtopic
+Penetrating ocular trauma
+## main_concept
+CON-MUL-1BC8F359AA854C
+## concept_ids
+CON-MUL-1BC8F359AA854C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Explain why scleral rupture is usually superonasal.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.168); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

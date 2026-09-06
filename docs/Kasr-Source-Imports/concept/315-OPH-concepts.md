@@ -37542,3 +37542,558 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-C74CB9E533E3AB
+## label
+Iridodialysis is a separation of the iris root from the ciliary body causing monocular diplopia and a D-shaped pupil
+## canonical_key
+ophthalmology.trauma.iridodialysis-definition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Iridodialysis is a traumatic separation of the iris root from the ciliary body; it produces a D-shaped pupil and a second pupillary aperture that causes uniocular (monocular) diplopia, and it is not associated with retinal dialysis.
+## explicit_objective
+Define iridodialysis as separation of the iris root from the ciliary body.
+## pitfalls
+Expecting a round regular pupil, binocular diplopia, or an obligatory retinal dialysis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Blunt ocular trauma
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-9D2E19CEA1B585
+## label
+Monocular diplopia is caused by ocular media problems such as iridodialysis, corneal opacity and subluxated lens, not by a squint
+## canonical_key
+ophthalmology.trauma.monocular-diplopia-causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Uniocular (monocular) diplopia arises from a split image within one eye and is caused by iridodialysis, corneal opacity or irregularity, and a subluxated lens; a manifest squint such as late-onset exotropia causes binocular diplopia that disappears on covering one eye.
+## explicit_objective
+State that monocular diplopia is caused by ocular media problems, not by a squint.
+## pitfalls
+Attributing monocular diplopia to a squint (which gives binocular diplopia).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Blunt ocular trauma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Blunt ocular trauma
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-36ADB2DE5C7759
+## label
+Commotio retinae presents after blunt trauma with reduced vision but a normal red reflex and no external abnormality
+## canonical_key
+ophthalmology.trauma.commotio-retinae-normal-red-reflex
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Commotio retinae (Berlin's oedema) follows blunt trauma and causes marked reduction of vision with a normal red reflex and no external abnormality, from transient retinal opacification; traumatic cataract and vitreous haemorrhage would disturb the red reflex and subconjunctival haemorrhage does not drop vision.
+## explicit_objective
+Recognise commotio retinae from reduced vision with a normal red reflex after blunt trauma.
+## pitfalls
+Choosing cataract or vitreous haemorrhage despite a preserved red reflex.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T04
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Commotio retinae
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Commotio retinae
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-841AC86C100DA3
+## label
+Hyphema is blood in the anterior chamber
+## canonical_key
+ophthalmology.trauma.hyphema-definition-blood-anterior-chamber
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hyphema is the presence of blood in the anterior chamber; it is distinct from hypopyon (pus in the anterior chamber), vitreous haemorrhage (blood in the vitreous cavity) and lens dislocation.
+## explicit_objective
+Define hyphema as blood in the anterior chamber.
+## pitfalls
+Confusing hyphema with hypopyon or with vitreous haemorrhage.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Traumatic hyphema
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Traumatic hyphema
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-1BC8F359AA854C
+## label
+Traumatic scleral rupture is usually superonasal where the globe is driven against the trochlea
+## canonical_key
+ophthalmology.trauma.scleral-rupture-superonasal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+After blunt trauma the sclera usually ruptures in the superonasal quadrant, where the globe is pushed against the trochlea and the sclera is thin behind the muscle insertions; it is not because the trauma comes from that direction or because the site is strongest.
+## explicit_objective
+State that scleral rupture is usually superonasal because the globe is driven against the trochlea.
+## pitfalls
+Assuming the rupture is at the strongest part or follows the direction of impact.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## topic
+Ophthalmology
+## subtopic
+Penetrating ocular trauma
+## microtopic
+
+## nanotopic
+
+## modules
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries > Penetrating ocular trauma
+## article_ids
+ART-OPH-315-INJURIES
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard ophthalmology teaching corroborated by this bank stem/options (Ch.12 Ocular and orbital injuries) and its printed answer key (key cross-checked against option text); no department book page image read this pass.
