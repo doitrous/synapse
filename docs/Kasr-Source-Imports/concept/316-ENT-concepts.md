@@ -6566,3 +6566,1002 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as Q1-80); collision-checked against the corpus concept IDs and this batch -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Ear-section stems/options (Q81-102) and its printed answer-key grid (key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-DE7439CF2C8234
+## label
+Little's area on the anteroinferior nasal septum is the Kiesselbach anastomosis of four arteries
+## canonical_key
+otolaryngology.littles-area.arterial-anastomosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Little's (Kiesselbach's) area is a small region on the anteroinferior nasal septum where the anterior ethmoidal, sphenopalatine, greater palatine and superior labial arteries anastomose; it is the commonest site of anterior epistaxis. The posterior ethmoidal artery does not contribute.
+## explicit_objective
+Name the site of Little's area and the four arteries that form the Kiesselbach anastomosis.
+## pitfalls
+The posterior ethmoidal artery supplies the posterosuperior nasal cavity and is not part of Little's area; there is no "nasolabial" or "pharyngeal" artery contributing to the plexus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Little's area and nasal blood supply
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Little's area and nasal blood supply
+## article_ids
+ART-ENT-316-NOSE-VASCULAR-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.littles-area.arterial-anastomosis", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4B435E3D46EBE3
+## label
+The anterior ethmoidal artery arises from the ophthalmic branch of the internal carotid artery
+## canonical_key
+otolaryngology.anterior-ethmoidal-artery.origin-internal-carotid
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The anterior ethmoidal artery is a branch of the ophthalmic artery, which arises from the internal carotid artery; it supplies the anterosuperior nasal septum and lateral wall. The sphenopalatine and greater palatine arteries, by contrast, come from the external carotid via the maxillary artery.
+## explicit_objective
+State that the anterior ethmoidal artery comes from the internal carotid (ophthalmic) system.
+## pitfalls
+It is easy to assume all nasal arteries come from the external carotid; the ethmoidal arteries are the internal-carotid exception, which matters when controlling ethmoidal epistaxis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Little's area and nasal blood supply
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Little's area and nasal blood supply
+## article_ids
+ART-ENT-316-NOSE-VASCULAR-ANATOMY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.anterior-ethmoidal-artery.origin-internal-carotid", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4B38D1B113707F
+## label
+A nasal vestibule furuncle can spread to the cavernous sinus and must not be squeezed
+## canonical_key
+otolaryngology.nasal-vestibule-furuncle.cavernous-sinus-spread
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The nose and nasal vestibule lie in the "dangerous area of the face", drained by valveless facial and angular veins that communicate with the ophthalmic veins and the cavernous sinus. Infection from a furuncle can therefore ascend to cause cavernous sinus thrombosis, so the furuncle must never be squeezed.
+## explicit_objective
+Explain why a nasal vestibule furuncle is dangerous and why it must not be squeezed.
+## pitfalls
+The feared route is venous spread to the cavernous sinus, not to the ethmoid, sphenoid, lateral or sagittal sinuses; squeezing the furuncle promotes this spread.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Nasal vestibule furuncle and the dangerous area of the face
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Nasal vestibule furuncle and the dangerous area of the face
+## article_ids
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.nasal-vestibule-furuncle.cavernous-sinus-spread", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-02DD747F5808F8
+## label
+Bilateral choanal atresia is a neonatal airway emergency first managed by an oral airway
+## canonical_key
+otolaryngology.bilateral-choanal-atresia.neonatal-oral-airway
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Because neonates are obligate nasal breathers, bilateral choanal atresia presents at birth as an airway emergency with cyclical cyanosis relieved by crying. The immediate first step is to establish an oral airway (an oral airway or McGovern nipple); definitive surgical repair follows once the airway is secured.
+## explicit_objective
+State the first (airway) management of bilateral choanal atresia in a neonate.
+## pitfalls
+Definitive repairs (transnasal endoscopic or transpalatal) are not the first step; the airway must be secured first because the newborn cannot breathe through the blocked nose.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Choanal atresia
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Choanal atresia
+## article_ids
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.bilateral-choanal-atresia.neonatal-oral-airway", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-693906C8052A80
+## label
+A nasal bone fracture is reduced early: immediately or within a week if no oedema, after swelling subsides if oedema
+## canonical_key
+otolaryngology.nasal-bone-fracture.reduction-timing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A displaced nasal fracture seen early with no oedema can be reduced immediately, and in any case within about a week; when oedema masks the deformity, reduction is delayed roughly a week until the swelling subsides. Reduction must be completed before about two to three weeks, after which the bones unite and simple reduction is impossible.
+## explicit_objective
+State the timing of nasal fracture reduction with and without oedema.
+## pitfalls
+Waiting three weeks or more allows the bones to set, so reduction is then impossible; a displaced fracture should never simply be left, as a permanent deformity results.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Nasal bone fracture
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Nasal bone fracture
+## article_ids
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.nasal-bone-fracture.reduction-timing", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-360E95A211E1EC
+## label
+Unilateral offensive (blood-tinged) nasal discharge in a child is a nasal foreign body until proven otherwise
+## canonical_key
+otolaryngology.nasal-foreign-body.unilateral-offensive-discharge-child
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A young child with a unilateral, offensive, purulent (often blood-tinged) nasal discharge that does not respond to antibiotics or anti-allergic treatment has a retained nasal foreign body until proven otherwise. The object maintains a foul, sometimes blood-stained, unilateral discharge, and examination with removal is required.
+## explicit_objective
+Recognise unilateral offensive nasal discharge in a child as a nasal foreign body.
+## pitfalls
+CSF rhinorrhoea (clear, watery) and allergic rhinitis (bilateral, watery) do not fit; failure of antibiotics/anti-allergics points to a foreign body rather than infection or allergy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Nasal foreign body
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Nasal foreign body
+## article_ids
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.nasal-foreign-body.unilateral-offensive-discharge-child", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-4527EBEAF22FE1
+## label
+CSF rhinorrhoea is clear glucose-containing salty watery discharge worse on leaning forward; the nose must not be packed
+## canonical_key
+otolaryngology.csf-rhinorrhoea.features-and-no-packing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+CSF rhinorrhoea is a clear watery nasal discharge, usually unilateral, that increases on leaning or bending forward; the fluid contains glucose and has a salty taste. The nose must not be packed, because packing risks forcing organisms up the leak and causing meningitis; management is bed rest, head elevation, avoidance of straining and antibiotic cover, with later repair.
+## explicit_objective
+State the clinical features of CSF rhinorrhoea and that the nose must not be packed.
+## pitfalls
+Packing the nose is wrong and dangerous; the glucose content and salty taste distinguish CSF from ordinary nasal mucus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+CSF rhinorrhoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > CSF rhinorrhoea
+## article_ids
+ART-ENT-316-NOSE-CSF-RHINORRHOEA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.csf-rhinorrhoea.features-and-no-packing", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-058B5910022998
+## label
+CT cisternography with intrathecal metrizamide localises the leak in CSF rhinorrhoea; vasoconstrictor drops have no role
+## canonical_key
+otolaryngology.csf-rhinorrhoea.ct-cisternography-localises-leak
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The key investigation in CSF rhinorrhoea is to localise the dural/bony defect so it can be repaired; CT cisternography with intrathecal contrast (metrizamide) shows the site of the leak, complemented by high-resolution CT and MRI. Biochemical confirmation (glucose, beta-2 transferrin) and antibiotic cover are part of management, whereas nasal vasoconstrictor (decongestant) drops have no role.
+## explicit_objective
+Identify CT cisternography as the key localising investigation in CSF rhinorrhoea.
+## pitfalls
+Angiography, plain sinus X-ray and ultrasonography do not localise a skull-base CSF leak; vasoconstrictor drops are not part of management.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+CSF rhinorrhoea
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > CSF rhinorrhoea
+## article_ids
+ART-ENT-316-NOSE-CSF-RHINORRHOEA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.csf-rhinorrhoea.ct-cisternography-localises-leak", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-3846487DB6D940
+## label
+An oroantral fistula follows upper molar extraction and causes offensive nasal discharge with food/fluid regurgitation
+## canonical_key
+otolaryngology.oroantral-fistula.dental-extraction-cause
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The roots of the upper molars are closely related to the floor of the maxillary sinus, so their extraction can open an oroantral communication (fistula). It presents with an offensive nasal discharge and regurgitation of food and fluid into the nose on the affected side, characteristically after a molar extraction.
+## explicit_objective
+Recognise post-extraction offensive nasal discharge with food regurgitation as an oroantral fistula.
+## pitfalls
+The temporal link to an upper molar/premolar extraction distinguishes it from malignant tumour, inverted papilloma or fungal sinusitis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T02-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Oroantral fistula
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses > Oroantral fistula
+## article_ids
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.oroantral-fistula.dental-extraction-cause", uppercased (same scheme as the Ear section); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT nose concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Nose-section stems/options (Q1-18) and its printed answer-key grid (image, PDF p35; key cross-checked against option text); no department book page image read this pass.

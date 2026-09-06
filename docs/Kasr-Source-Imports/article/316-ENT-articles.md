@@ -665,3 +665,270 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Ear-section assessment/hearing-test concepts (Q81-97) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 4
+
+---
+
+# Item
+## id
+ART-ENT-316-NOSE-VASCULAR-ANATOMY
+## title
+Otorhinolaryngology: nasal blood supply and Little's area
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the nasal vascular-anatomy facts tested by the opening of the bank's Nose section (Q1, Q2, Q4, Q6, Q7). It covers Little's (Kiesselbach's) area on the anteroinferior nasal septum as the anastomosis of the anterior ethmoidal, sphenopalatine, greater palatine and superior labial arteries, the fact that the posterior ethmoidal artery does not contribute, and the origin of the anterior ethmoidal artery from the ophthalmic branch of the internal carotid artery.
+## sections
+### Definition
+The nasal blood supply comes from both the internal carotid (via the ophthalmic and its ethmoidal branches) and the external carotid (via the maxillary artery's sphenopalatine and greater palatine branches, and the facial artery's superior labial branch). Little's area is the anteroinferior septal region where four of these vessels anastomose.
+### Mechanism
+At Little's area the anterior ethmoidal, sphenopalatine, greater palatine and superior labial arteries meet in a superficial submucosal plexus (the Kiesselbach plexus). Its exposed anterior position makes it prone to bleeding from trauma, nose-picking or drying, so it is the commonest site of anterior epistaxis.
+### Key determinants
+The four contributors are the anterior ethmoidal, sphenopalatine, greater palatine and superior labial arteries; the posterior ethmoidal artery (posterosuperior supply) and the ascending pharyngeal artery (nasopharynx) do not take part. The anterior and posterior ethmoidal arteries are the internal-carotid (ophthalmic) contributions, unlike the external-carotid sphenopalatine and palatine vessels.
+### Clinical significance
+Knowing that Little's area is the usual bleeding point guides first-aid pinching and cautery of anterior epistaxis, while the internal-carotid origin of the ethmoidal arteries explains why high septal bleeding may need ethmoidal artery ligation near the orbit rather than sphenopalatine control.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (posterior versus anterior ethmoidal contribution, a non-existent "nasolabial" artery, and the internal- versus external-carotid origin of the ethmoidal vessels).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Nasal vascular anatomy and Little's area
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-DE7439CF2C8234
+CON-MUL-4B435E3D46EBE3
+## related_articles
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+ART-ENT-316-NOSE-CSF-RHINORRHOEA
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q1, Q2, Q4, Q6, Q7) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+# Item
+## id
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+## title
+Otorhinolaryngology: nasal trauma, infection and obstructive discharge
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the nasal trauma, infection and discharge facts tested by the Nose section (Q3, Q5, Q8, Q9, Q10, Q13, Q14, Q15, Q16, Q17). It covers the dangerous-area furuncle of the nasal vestibule that can spread to the cavernous sinus, bilateral choanal atresia as a neonatal airway emergency managed first with an oral airway, the timing of nasal bone fracture reduction, unilateral offensive (blood-tinged) nasal discharge in a child as a foreign body, and the oroantral fistula that follows upper molar extraction.
+## sections
+### Definition
+This group covers acquired nasal problems presenting with trauma, infection or a unilateral discharge: the vestibular furuncle, choanal atresia, nasal fracture, nasal foreign body and oroantral fistula. Each linked concept states one atomic clinical fact tied together here.
+### Mechanism
+The nasal vestibule drains through valveless facial and ophthalmic veins to the cavernous sinus, so a squeezed furuncle can seed a cavernous sinus thrombosis. Neonates are obligate nasal breathers, so bilateral choanal atresia obstructs the only airway; a nasal fracture displaces mobile nasal bones that unite within weeks; a retained foreign body ulcerates the mucosa to give a foul, blood-tinged unilateral discharge; and an upper-molar root breaching the antral floor opens an oroantral communication.
+### Key determinants
+Timing and laterality are the discriminators: an oedema-free fracture is reduced immediately or within a week (and before it sets at two to three weeks), while an oedematous one waits about a week; a neonatal airway is secured first before choanal repair; and a unilateral offensive discharge in a child means a foreign body, whereas post-extraction nasal regurgitation of food means an oroantral fistula.
+### Clinical significance
+These rules change management: never squeeze a nasal furuncle, secure the airway before repairing bilateral choanal atresia, reduce nasal fractures within the narrow window, examine and remove a suspected foreign body rather than prescribe repeated antibiotics, and recognise an oroantral fistula from its dental history.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (cavernous versus other sinuses, definitive repair versus first airway step, reduction at three weeks when the bones have already set, and infection/allergy versus a retained foreign body).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+Nasal trauma, infection and obstructive nasal discharge
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-4B38D1B113707F
+CON-MUL-02DD747F5808F8
+CON-MUL-693906C8052A80
+CON-MUL-360E95A211E1EC
+CON-MUL-3846487DB6D940
+## related_articles
+ART-ENT-316-NOSE-VASCULAR-ANATOMY
+ART-ENT-316-NOSE-CSF-RHINORRHOEA
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q3, Q5, Q8, Q9, Q10, Q13, Q14, Q15, Q16, Q17) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
+
+---
+
+# Item
+## id
+ART-ENT-316-NOSE-CSF-RHINORRHOEA
+## title
+Otorhinolaryngology: CSF rhinorrhoea
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the CSF rhinorrhoea facts tested by the Nose section (Q11, Q12, Q18). It covers the clinical features of CSF rhinorrhoea (clear glucose-containing salty watery discharge that increases on leaning forward and must not be treated by nasal packing) and its investigation (CT cisternography with intrathecal metrizamide to localise the leak, with biochemistry and antibiotic cover but no role for vasoconstrictor drops).
+## sections
+### Definition
+CSF rhinorrhoea is leakage of cerebrospinal fluid through a dural and bony defect in the skull base into the nose, presenting as a clear watery nasal discharge, usually unilateral.
+### Mechanism
+A defect at the skull base (traumatic, surgical or spontaneous) lets CSF escape into the nasal cavity; the flow increases when intracranial pressure rises, as on leaning or bending forward. The fluid carries glucose and tastes salty, and the open communication is a route for ascending meningitis.
+### Key determinants
+Confirmation is biochemical (glucose, and specifically beta-2 transferrin); localisation is by CT cisternography with intrathecal contrast, complemented by high-resolution CT and MRI. The nose must not be packed, and vasoconstrictor drops have no role; antibiotic cover and conservative measures (bed rest, head elevation, avoiding straining) are used pending repair.
+### Clinical significance
+Correctly identifying CSF rhinorrhoea prevents the dangerous error of nasal packing, prompts localisation before surgical repair, and reduces the risk of meningitis while the leak persists.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (packing the nose as "initial treatment", and angiography/plain X-ray/ultrasound or vasoconstrictor drops in place of CT cisternography).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Nose and sinuses
+## subtopic
+CSF rhinorrhoea
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-4527EBEAF22FE1
+CON-MUL-058B5910022998
+## related_articles
+ART-ENT-316-NOSE-VASCULAR-ANATOMY
+ART-ENT-316-NOSE-TRAUMA-INFECTION
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Nose-section concepts (Q11, Q12, Q18) on the real discipline node DIS-ENT-T02 (Nose and sinuses). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+4
