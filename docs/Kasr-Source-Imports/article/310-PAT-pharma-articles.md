@@ -669,3 +669,98 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 8
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## title
+Antihypertensive drugs: RAAS inhibitors, vasodilators and special situations
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Antihypertensive therapy targets cardiac output and peripheral resistance across several drug classes. ACE inhibitors lower angiotensin II and aldosterone; fosinopril is uniquely biliary-excreted (safe in renal impairment), while the class is fetotoxic (fetal renal failure, oligohydramnios) and contraindicated in bilateral renal artery stenosis. Direct vasodilators differ by vascular bed: hydralazine is arteriolar (afterload) and causes a lupus-like syndrome and reflex tachycardia needing a beta blocker; sodium nitroprusside is a balanced arteriovenous dilator for emergencies whose prolonged infusion causes cyanide-mediated metabolic acidosis; minoxidil and diazoxide are arteriolar (hypertrichosis; hyperglycaemia). Clonidine, a central alpha-2 agonist, causes rebound hypertension if stopped abruptly. In pregnancy, methyldopa is the drug of choice with labetalol for toxaemia.
+## sections
+### Definition
+This article groups the antihypertensive concepts tested by the CVS & Renal hypertension section (Q28-41 selected).
+### Mechanism
+ACE inhibitors block conversion of angiotensin I to II, reducing vasoconstriction and aldosterone; direct vasodilators relax arteriolar and/or venous smooth muscle; clonidine reduces central sympathetic outflow.
+### Key determinants
+Discriminators tested here: clonidine = rebound hypertension on withdrawal; methyldopa/labetalol = pregnancy and toxaemia; hydralazine = arteriolar dilator with lupus-like syndrome and reflex tachycardia (beta-blocker added); sodium nitroprusside = balanced dilator with cyanide/metabolic-acidosis toxicity; fosinopril = biliary excretion in renal impairment; ACE-inhibitor fetopathy and bilateral renal artery stenosis contraindication.
+### Clinical significance
+These agents underpin chronic hypertension management, hypertensive emergencies and hypertension in pregnancy, and explain the major contraindications (ACEi in pregnancy and bilateral renal artery stenosis) and drug-specific toxicities.
+### Common misconceptions
+Frequent traps: giving an ACE inhibitor or ARB in pregnancy, using a diuretic for toxaemia, forgetting that nitroprusside dilates veins as well as arterioles, and stopping clonidine abruptly; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-ACFD7BF60A7FE9
+CON-PHA-7A4867BE99B366
+CON-PHA-908C1E16DFBD62
+CON-PHA-105226A2A3C70A
+CON-PHA-9D5DC49534C209
+CON-PHA-CBA775EDE910F2
+CON-PHA-905E5854FFB09C
+CON-PHA-8F4A4558FEB028
+CON-PHA-462D99FCF94F09
+CON-PHA-01EDCE9D746586
+## related_articles
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+8

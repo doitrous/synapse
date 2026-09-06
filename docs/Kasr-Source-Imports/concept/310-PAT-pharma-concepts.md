@@ -5194,3 +5194,813 @@ KAU_Y3=high
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-ACFD7BF60A7FE9
+## label
+Clonidine causes rebound hypertension on abrupt withdrawal
+## canonical_key
+clonidine.abrupt-withdrawal.rebound-hypertension
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clonidine is a centrally acting alpha-2 adrenergic agonist that reduces sympathetic outflow from the vasomotor centre. Chronic use down-regulates this suppression, so sudden discontinuation causes an unopposed surge of catecholamine release with rebound hypertension, tachycardia, sweating and agitation. The drug must therefore be tapered, and rebound is treated by restarting clonidine or giving an alpha-blocker (phentolamine) with a beta-blocker.
+## explicit_objective
+Identify clonidine as the antihypertensive whose abrupt withdrawal causes rebound hypertension.
+## pitfalls
+Do not add a non-selective beta-blocker alone during clonidine rebound; unopposed alpha stimulation can worsen the pressure surge.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-7A4867BE99B366
+## label
+Labetalol for hypertension in pre-eclampsia/toxaemia
+## canonical_key
+labetalol.pre-eclampsia.hypertensive-emergency
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Labetalol is a combined alpha-1 and non-selective beta blocker used as a first-line drug for hypertension in pre-eclampsia (toxaemia of pregnancy), including intravenously for severe/emergency elevation. It lowers blood pressure without reducing uteroplacental perfusion and has an established fetal safety record. ACE inhibitors and ARBs are contraindicated in pregnancy and diuretics are avoided because intravascular volume is already reduced.
+## explicit_objective
+Select labetalol as a drug of choice for hypertension in toxaemia of pregnancy.
+## pitfalls
+Frusemide is wrong here: diuresis further depletes the already contracted plasma volume of pre-eclampsia and can compromise placental perfusion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-908C1E16DFBD62
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.4
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-908C1E16DFBD62
+## label
+Methyldopa is the antihypertensive of choice in pregnancy
+## canonical_key
+methyldopa.pregnancy.antihypertensive-doc
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Alpha-methyldopa is a central alpha-2 agonist (acting through its metabolite alpha-methyl-noradrenaline) that lowers sympathetic outflow. It is the classic antihypertensive of choice in pregnancy because of its long record of fetal safety and preserved uteroplacental blood flow; labetalol and nifedipine are accepted alternatives. ACE inhibitors, ARBs and (generally) diuretics are avoided in pregnancy.
+## explicit_objective
+Identify methyldopa as the antihypertensive of choice in pregnancy.
+## pitfalls
+Methyldopa can cause a positive Coombs test and, rarely, haemolytic anaemia or hepatotoxicity; this does not remove it as first choice in pregnancy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-7A4867BE99B366
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-105226A2A3C70A
+## label
+Hydralazine causes a drug-induced lupus-like syndrome
+## canonical_key
+hydralazine.arteriolar-vasodilator.lupus-like-syndrome
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hydralazine is a direct arteriolar vasodilator that reduces afterload. Its distinctive adverse effect is a dose-related, reversible drug-induced systemic lupus erythematosus-like syndrome (arthralgia, myalgia, rash, fever, positive antinuclear antibodies), most common in slow acetylators. Reflex tachycardia and salt/water retention are its other characteristic effects, which is why it is combined with a beta blocker and a diuretic.
+## explicit_objective
+Identify hydralazine as the arteriolar vasodilator that produces a drug-induced lupus-like syndrome.
+## pitfalls
+The lupus-like syndrome is dose- and acetylator-dependent and usually reverses on stopping the drug; it is not true idiopathic SLE.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-8F4A4558FEB028
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-9D5DC49534C209
+## label
+Sodium nitroprusside is a balanced arteriovenous vasodilator
+## canonical_key
+sodium-nitroprusside.mixed-balanced-vasodilator
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sodium nitroprusside releases nitric oxide spontaneously and acts equally on resistance (arteriolar) and capacitance (venous) vessels, making it a powerful MIXED, BALANCED vasodilator that reduces both afterload and preload. Given by titratable IV infusion, it has a rapid onset and very short duration, so it is reserved for hypertensive emergencies and acute afterload reduction.
+## explicit_objective
+Identify sodium nitroprusside as the balanced arteriovenous vasodilator.
+## pitfalls
+Prolonged or high-rate infusion accumulates cyanide/thiocyanate causing metabolic acidosis; nitroprusside is not a pure arteriolar dilator like hydralazine or minoxidil.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-462D99FCF94F09
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-CBA775EDE910F2
+## label
+Fosinopril is excreted in bile and safe in renal impairment
+## canonical_key
+fosinopril.biliary-excretion.renal-impairment
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Most ACE inhibitors are cleared by the kidney and accumulate in renal impairment. Fosinopril is the exception: it undergoes substantial hepatic/BILIARY excretion, and biliary clearance increases to compensate as renal function declines. Consequently it needs little or no dose adjustment in renal impairment, making it a preferred ACE inhibitor when renal clearance is reduced.
+## explicit_objective
+Identify fosinopril as the ACE inhibitor with biliary excretion needing no dose adjustment in renal impairment.
+## pitfalls
+This is a fosinopril-specific property; lisinopril, enalapril and captopril are renally cleared and do require dose reduction in renal impairment.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-905E5854FFB09C
+## label
+ACE inhibitors are fetotoxic (fetal renal failure, oligohydramnios)
+## canonical_key
+acei.pregnancy.fetal-renal-toxicity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fetal angiotensin II maintains renal development and perfusion. ACE inhibitors (and ARBs) cross the placenta and block it, so second- and third-trimester exposure causes fetal renal hypoperfusion and failure, reduced fetal urine output and OLIGOHYDRAMNIOS, along with skull ossification defects and growth restriction. ACE inhibitors are therefore contraindicated in pregnancy.
+## explicit_objective
+Recognise ACE-inhibitor fetopathy (fetal renal failure and oligohydramnios) and that ACEi are contraindicated in pregnancy.
+## pitfalls
+Methyldopa, labetalol, nifedipine and hydralazine are the pregnancy-safe choices; the fetal effect is a class effect shared by ARBs.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-908C1E16DFBD62
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-8F4A4558FEB028
+## label
+Beta blocker added to hydralazine to blunt reflex tachycardia
+## canonical_key
+hydralazine.beta-blocker-combination.reflex-tachycardia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hydralazine's arteriolar vasodilatation lowers blood pressure and triggers baroreceptor-mediated reflex sympathetic activation, causing tachycardia and increased contractility that raise myocardial oxygen demand and limit efficacy. A beta blocker is co-prescribed to block this reflex, controlling heart rate and improving tolerability; a diuretic is added to counter the accompanying salt and water retention (the classic triple combination).
+## explicit_objective
+Explain that a beta blocker is combined with hydralazine to blunt its reflex tachycardia.
+## pitfalls
+The beta blocker addresses reflex tachycardia, not the lupus-like syndrome (acetylator/dose related) or fluid retention (needs a diuretic).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-105226A2A3C70A
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-462D99FCF94F09
+## label
+Sodium nitroprusside cyanide toxicity causes metabolic acidosis
+## canonical_key
+sodium-nitroprusside.toxicity.cyanide-metabolic-acidosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each nitroprusside molecule releases nitric oxide and cyanide ions. With prolonged, high-rate infusion or hepatic/renal impairment, cyanide overwhelms rhodanese-mediated conversion to thiocyanate, inhibits mitochondrial cytochrome oxidase and produces lactic (metabolic) ACIDOSIS with arrhythmia, altered mental status and tachyphylaxis. Management is to stop the drug and give cyanide antidotes (sodium thiosulphate, hydroxocobalamin).
+## explicit_objective
+Attribute metabolic acidosis and arrhythmia after prolonged nitroprusside infusion to cyanide toxicity.
+## pitfalls
+Thiocyanate accumulation (a separate, slower toxicity) causes neuropsychiatric signs and hypothyroidism, chiefly in renal impairment; do not confuse it with acute cyanide acidosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-9D5DC49534C209
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-01EDCE9D746586
+## label
+Bilateral renal artery stenosis contraindicates ACE inhibitors
+## canonical_key
+acei.contraindication.bilateral-renal-artery-stenosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In bilateral renal artery stenosis, glomerular filtration is preserved by angiotensin-II-mediated constriction of the efferent arteriole. ACE inhibitors (and ARBs) remove this efferent tone, so glomerular filtration pressure and GFR fall abruptly, precipitating acute kidney injury. Bilateral renal artery stenosis (or stenosis in a single functioning kidney) is therefore a classic contraindication to ACE inhibitors.
+## explicit_objective
+Explain why bilateral renal artery stenosis is a contraindication to ACE inhibitors.
+## pitfalls
+Unilateral stenosis with a healthy contralateral kidney is usually tolerated; the danger is bilateral disease or a single functioning kidney.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-905E5854FFB09C
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

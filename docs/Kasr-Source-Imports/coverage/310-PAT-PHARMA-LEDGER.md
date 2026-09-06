@@ -17,7 +17,8 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · Ocular Q1-3 + Muscle Q1,3 (p.10) | 5 | 0 | 1 | 0 (Muscle Q4 CCB→CVS) | 6 |
 | Abolmagd Pharma · CVS & Renal Diuretics Q1-8 + ANS Q24-25 (pp.6,12-13) | 10 | 0 | 2 | 0 | 12 |
 | Abolmagd Pharma · CVS Ischaemia/antianginal Q13-25 (pp.14-15) | 10 | 0 | 4 | 0 | 14 |
-| **Pharmacology subject total** | **66** | **0** | **14** | CVS Hypertension Q28-38+ (p.16+), Heart Failure (p.20), Dysrhythmia (p.22), Blood (p.28); GI & Resp banks | — |
+| Abolmagd Pharma · CVS Hypertension Q28-41 sel. (pp.15-17) | 10 | 0 | 0 | Q32,43,46,50,51,53,54 (slice 2) | 10 |
+| **Pharmacology subject total** | **76** | **0** | **14** | CVS Hypertension slice 2 (Q32-54), Heart Failure (p.20), Dysrhythmia (p.22), Blood (p.28); GI & Resp banks | — |
 
 ## Subject opened
 
@@ -90,6 +91,26 @@ CON-PHA-7A1B72A8535242 (antimuscarinic organ-selective uses), CON-PHA-9BDFC46858
 (edrophonium/Tensilon), CON-PHA-A668F2983A9C7E (Vd calc, T01), CON-PHA-B5BE952D5FCFC4
 (infusion rate calc, T01), CON-PHA-7903DD2E958352 (steady state = 4-5 half-lives, T01).
 Total concepts so far: 32.
+
+## Concepts minted (slice 5, CVS Hypertension Q28-41)
+
+10 minted, 0 reused, all on DIS-PHA-T04, article ART-PAT-310-PHARMACOLOGY-HYPERTENSION:
+CON-PHA-ACFD7BF60A7FE9 (clonidine rebound HTN), CON-PHA-7A4867BE99B366 (labetalol in
+toxaemia), CON-PHA-908C1E16DFBD62 (methyldopa DOC pregnancy), CON-PHA-105226A2A3C70A
+(hydralazine lupus-like syndrome), CON-PHA-9D5DC49534C209 (nitroprusside balanced dilator),
+CON-PHA-CBA775EDE910F2 (fosinopril biliary excretion), CON-PHA-905E5854FFB09C (ACEi
+fetopathy), CON-PHA-8F4A4558FEB028 (β-blocker blunts hydralazine reflex tachy),
+CON-PHA-462D99FCF94F09 (nitroprusside cyanide/metabolic acidosis), CON-PHA-01EDCE9D746586
+(bilateral RAS contraindicates ACEi). Total concepts so far: 42.
+
+Hypertension dedupe: Q42 (clonidine rebound = Q28), Q34/Q44 (fosinopril renal = Q33), Q48/Q57
+(methyldopa pregnancy = Q40), Q49 (SNP mixed dilator = Q31), Q58 (hydralazine lupus = Q30),
+Q52 (amiodarone antiarrhythmic ~ Q47 dysrhythmia) all excluded as duplicate facts. Deferred to
+Heart Failure cluster: Q38/Q39/Q55/Q67 (β-blocker & ACEi in HFrEF); Q45/Q56/Q63/Q65 (neprilysin/
+sacubitril); Q59-64/Q66 (digoxin, inotropes). Deferred to Dysrhythmia: Q47 (amiodarone). Slice-2
+Hypertension (queued): Q32 (DHP reflex tachy — reuse CON-PHA-67B120723BD96A/8123D3DB466182),
+Q43 (nitrate+PDE5i CI), Q46 (ACEi ↓aldosterone), Q50 (β-blocker CI asthma), Q51 (β-blocker ↓CO),
+Q53 (diazoxide hyperglycaemia), Q54 (ARB spares cough).
 
 ## Next
 
