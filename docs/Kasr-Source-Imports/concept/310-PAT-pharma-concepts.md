@@ -3574,3 +3574,813 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-6704128965CAA1
+## label
+Thiazides act in the distal convoluted tubule
+## canonical_key
+thiazide.site.distal-convoluted-tubule
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thiazide diuretics act in the early distal convoluted tubule, where they inhibit the luminal Na+/Cl- cotransporter (NCC), reducing sodium and chloride reabsorption and causing diuresis. This distal location distinguishes them from carbonic anhydrase inhibitors (proximal tubule), loop diuretics (thick ascending limb) and potassium-sparing agents (collecting duct), and explains their enhancement of calcium reabsorption.
+## explicit_objective
+State that thiazides act in the distal convoluted tubule on the Na/Cl cotransporter.
+## pitfalls
+Placing thiazide action in the loop or proximal tubule; it is the distal convoluted tubule.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-4B3E7DA2B374C0
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F32C95EDCCB4F3
+## label
+Mannitol (osmotic diuretic) reduces cerebral oedema
+## canonical_key
+mannitol.osmotic.cerebral-edema
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Mannitol is an osmotic diuretic that is freely filtered but not reabsorbed. It raises plasma osmolality and draws water out of the brain across the intact blood-brain barrier, rapidly reducing cerebral oedema and intracranial pressure, and it also increases urine flow. This osmotic dehydration of tissue is why it is chosen for raised intracranial pressure rather than a loop or potassium-sparing diuretic.
+## explicit_objective
+Identify mannitol as the osmotic diuretic used to reduce cerebral oedema and intracranial pressure.
+## pitfalls
+Choosing a loop or potassium-sparing diuretic; only an osmotic agent dehydrates the brain effectively.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-4B3E7DA2B374C0
+## label
+Thiazides reduce urinary calcium (calcium-stone prevention)
+## canonical_key
+thiazide.hypocalciuria.calcium-stones
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thiazides enhance calcium reabsorption in the distal convoluted tubule, so they REDUCE urinary calcium (hypocalciuria). This is exploited to lower the risk of recurrent calcium-containing renal stones in idiopathic hypercalciuria. It is the opposite of loop diuretics, which increase calcium excretion and are used to treat hypercalcaemia.
+## explicit_objective
+State that thiazides reduce urinary calcium and are used to prevent calcium stones.
+## pitfalls
+Confusing thiazides (calcium-retaining) with loop diuretics (calcium-wasting).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-445505069201C5
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-58E2FAC808E7AF
+## label
+Thiazides cause hyperuricaemia
+## canonical_key
+thiazide.adverse.hyperuricemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thiazides reduce renal urate excretion (they compete for the organic-acid secretory pathway and volume contraction enhances proximal urate reabsorption), so they raise serum urate and can cause HYPERURICAEMIA and precipitate gout. This is one of their metabolic adverse effects, along with hypokalaemia, hyperglycaemia and hypercalcaemia. Ototoxic deafness, by contrast, is a loop-diuretic effect.
+## explicit_objective
+Identify hyperuricaemia as a metabolic side effect of thiazide diuretics.
+## pitfalls
+Attributing deafness to thiazides; ototoxicity is a loop-diuretic effect, whereas thiazides cause hyperuricaemia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-6704128965CAA1
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F0402C3F841D2B
+## label
+Triamterene is potassium-sparing independent of aldosterone
+## canonical_key
+triamterene.aldosterone-independent.potassium-sparing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Triamterene (like amiloride) blocks the epithelial sodium channel (ENaC) in the collecting duct DIRECTLY, so its potassium-sparing, sodium-losing action does NOT require aldosterone. Spironolactone, by contrast, works only by antagonising the mineralocorticoid receptor and so depends on aldosterone being present; spironolactone (not triamterene) also has anti-androgenic effects.
+## explicit_objective
+Contrast triamterene's aldosterone-independent ENaC block with spironolactone's aldosterone-receptor antagonism.
+## pitfalls
+Ascribing anti-androgenic effects to triamterene or thinking its action needs aldosterone; both belong to spironolactone.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-AA6854BB5D96D2
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-0AA1BFC92BBF38
+## label
+Low-dose dopamine increases renal blood flow
+## canonical_key
+dopamine.low-dose.renal-vasodilation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+At low infusion rates (about 2-3 micrograms/kg/min) dopamine preferentially stimulates dopamine D1 receptors in the renal and splanchnic vasculature, causing vasodilation and INCREASING renal blood flow. At higher doses beta-1 (increased cardiac output) and then alpha-1 (vasoconstriction, raised blood pressure) effects predominate, so the action is dose-dependent and receptor-specific.
+## explicit_objective
+State that low-dose dopamine stimulates renal D1 receptors to increase renal blood flow.
+## pitfalls
+Applying dopamine's pressor (alpha-1) or cardiac (beta-1) high-dose effects to the low renal-dose infusion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Renal haemodynamics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Renal haemodynamics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-445505069201C5
+## label
+Furosemide (loop diuretic) causes hypokalaemia
+## canonical_key
+furosemide.loop.hypokalemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Furosemide blocks the Na-K-2Cl cotransporter in the thick ascending limb, delivering more sodium to the distal nephron and driving increased potassium and hydrogen secretion, so it characteristically causes HYPOKALAEMIA and a metabolic alkalosis. It also increases calcium and magnesium excretion (hypocalcaemia, hypomagnesaemia) and can be ototoxic, and it has no antidiuretic effect.
+## explicit_objective
+State that furosemide causes hypokalaemia and increased calcium/magnesium excretion.
+## pitfalls
+Expecting hypercalcaemia or an antidiuretic effect; furosemide wastes calcium and is a potent diuretic causing potassium loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-4B3E7DA2B374C0
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-AA6854BB5D96D2
+## label
+Spironolactone is an aldosterone-receptor antagonist
+## canonical_key
+spironolactone.aldosterone-antagonist
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Spironolactone is a competitive antagonist at the mineralocorticoid (aldosterone) receptor in the collecting duct, reducing sodium reabsorption and potassium secretion (potassium-sparing). This receptor antagonism underlies its use in primary hyperaldosteronism, heart failure, resistant hypertension and oedema, and its anti-androgenic side effects (gynaecomastia). Amiloride and triamterene are potassium-sparing but act by direct ENaC block, not aldosterone antagonism.
+## explicit_objective
+Identify spironolactone as the mineralocorticoid (aldosterone) receptor antagonist.
+## pitfalls
+Calling amiloride or triamterene aldosterone antagonists; they block ENaC directly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F0402C3F841D2B
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.5
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-37527F773A8238
+## label
+Thiazide-digitalis interaction via hypokalaemia
+## canonical_key
+thiazide.digitalis-interaction.hypokalemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thiazides cause hypokalaemia, and low serum potassium markedly potentiates the cardiac toxicity of digitalis (digoxin), predisposing to arrhythmias. Thiazides must therefore be used cautiously with digitalis, monitoring and replacing potassium. This interaction, not a proximal site of action or a uricosuric effect, is the clinically important true statement about thiazides.
+## explicit_objective
+Explain that thiazide-induced hypokalaemia potentiates digitalis toxicity, requiring caution when combined.
+## pitfalls
+Overlooking the hypokalaemia-driven potentiation of digoxin toxicity when a thiazide is added.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-58E2FAC808E7AF
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-FAEE2AB1FBDE6D
+## label
+Carbonic anhydrase inhibitors decrease bicarbonate reabsorption
+## canonical_key
+carbonic-anhydrase-inhibitor.decreases-bicarbonate-reabsorption
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carbonic anhydrase inhibitors (acetazolamide) act in the proximal tubule to block carbonic anhydrase, DECREASING reabsorption of bicarbonate so that more sodium bicarbonate is excreted, producing an alkaline diuresis and a metabolic acidosis. The claim that they INCREASE bicarbonate reabsorption is therefore false. Other true diuretic facts include metolazone's efficacy in renal impairment and spironolactone's value in hyperaldosteronism.
+## explicit_objective
+State that carbonic anhydrase inhibition decreases proximal bicarbonate reabsorption, increasing NaHCO3 excretion.
+## pitfalls
+Reversing the direction of the effect; carbonic anhydrase inhibition increases, not decreases, bicarbonate excretion.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Diuretics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-6704128965CAA1
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

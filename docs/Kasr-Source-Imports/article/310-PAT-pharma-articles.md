@@ -477,3 +477,99 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 5
+
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## title
+Diuretics: sites of action, electrolyte effects and clinical uses
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Diuretics are classified by nephron site. Carbonic anhydrase inhibitors act proximally and increase bicarbonate excretion; osmotic mannitol dehydrates tissues and lowers intracranial pressure; loop diuretics (furosemide) block the Na-K-2Cl cotransporter in the thick ascending limb, wasting potassium, calcium and magnesium and causing ototoxicity; thiazides act in the distal convoluted tubule, retaining calcium (useful for calcium stones) but causing hypokalaemia, hyperuricaemia and hyperglycaemia; potassium-sparing agents act in the collecting duct, either as aldosterone-receptor antagonists (spironolactone) or by direct ENaC block (amiloride, triamterene). Thiazide-induced hypokalaemia potentiates digitalis toxicity, and low-dose dopamine raises renal blood flow via D1 receptors.
+## sections
+### Definition
+This article groups the diuretic and renal-haemodynamic concepts tested by the CVS & Renal diuretics section (Q1-8) and two diuretic items printed in the ANS section.
+### Mechanism
+Each class targets a specific transporter at a specific nephron segment; the electrolyte and acid-base consequences follow from that site.
+### Key determinants
+Discriminators tested here: thiazide = distal convoluted tubule, retains calcium, causes hyperuricaemia; loop = thick ascending limb, wastes calcium, hypokalaemia; mannitol = osmotic, cerebral oedema; triamterene = aldosterone-independent ENaC block; spironolactone = aldosterone antagonist; carbonic anhydrase inhibition decreases bicarbonate reabsorption; low-dose dopamine raises renal blood flow.
+### Clinical significance
+Diuretic choice underlies management of oedema, hypertension, heart failure, hypercalciuria and raised intracranial pressure, and their electrolyte effects (and the digitalis interaction) drive monitoring.
+### Common misconceptions
+Frequent traps: swapping loop and thiazide calcium handling, reversing the carbonic anhydrase effect on bicarbonate, and calling ENaC blockers aldosterone antagonists; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Diuretics
+## subtopic
+Diuretics
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-6704128965CAA1
+CON-PHA-F32C95EDCCB4F3
+CON-PHA-4B3E7DA2B374C0
+CON-PHA-58E2FAC808E7AF
+CON-PHA-F0402C3F841D2B
+CON-PHA-0AA1BFC92BBF38
+CON-PHA-445505069201C5
+CON-PHA-AA6854BB5D96D2
+CON-PHA-37527F773A8238
+CON-PHA-FAEE2AB1FBDE6D
+## related_articles
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+8

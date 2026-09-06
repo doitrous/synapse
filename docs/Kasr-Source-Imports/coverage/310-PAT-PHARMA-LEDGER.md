@@ -15,7 +15,8 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · ANS tail (Q37-39 + Q43-45 PK, pp.8-9) | 6 | 0 | 3 | 0 (Q46 deferred to Autacoids) | 9 |
 | Abolmagd Pharma · Autacoids (Q1-7, p.11-12; incl. deferred ANS diphenhydramine) | 7 | 0 | 0 | 0 | 7 |
 | Abolmagd Pharma · Ocular Q1-3 + Muscle Q1,3 (p.10) | 5 | 0 | 1 | 0 (Muscle Q4 CCB→CVS) | 6 |
-| **Pharmacology subject total** | **46** | **0** | **8** | Q22-25 + Muscle-Q4 → CVS/Renal, then CVS & Renal, Blood | — |
+| Abolmagd Pharma · CVS & Renal Diuretics Q1-8 + ANS Q24-25 (pp.6,12-13) | 10 | 0 | 2 | 0 | 12 |
+| **Pharmacology subject total** | **56** | **0** | **10** | CVS Q22/Muscle-Q4 (CCB), then Ischemia/HTN/HF/Dysrhythmia (pp.12-27), Blood (p.28); GI & Resp banks | — |
 
 ## Subject opened
 
@@ -71,7 +72,10 @@ Q8), Q41 (oximes effective early = Q14 pralidoxime), Q42 (bethanechol in asthma 
 cholinergic contraindication from Q3). Deferred (not lost): Q22-25 (CCB/furosemide/
 thiazides/diuretics) → CVS & Renal cluster (DIS-PHA-T04); Q46 (diphenhydramine sedation) →
 Autacoids cluster. ANS section (Q1-46) now fully triaged: 34 authored, 7 excluded (dupes),
-5 deferred.
+5 deferred. Deferred items now placed: Q24/Q25 authored in the Diuretics slice; Q23
+(furosemide) excluded there as a duplicate of Diuretics Q7; Q22 (CCB) + Muscle Q4 (CCB)
+remain queued for a CVS antihypertensives slice. Diuretics section: Q9 excluded (duplicate
+aldosterone-antagonist item = Q8).
 
 ## Slice-4 concepts (ANS tail)
 
