@@ -1153,3 +1153,94 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Opens Chapter 10 (Eye diseases in infancy and early childhood) and groups its paediatric-ophthalmology concepts. DIS-OPH has no dedicated paediatric node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) - the plurality of the chapter's facts are anterior-segment/adnexal (nasolacrimal duct, congenital cataract, ophthalmia neonatorum) - while each concept carries its own most-specific node: congenital glaucoma/buphthalmos on DIS-OPH-T03, retinoblastoma/leukocoria/retinopathy-of-prematurity/Coat's on DIS-OPH-T04, visual development/preferential-looking on DIS-OPH-T01, and amblyopia on DIS-OPH-T05. Chapter 10 has 57 keyed MCQs (answer key p.7-8; the key omits rows Q18/Q41/Q52 - hold, never guess). This tranche authored 41 clean single-best MCQs (Q1-16, Q19-21, Q35, Q38-40, Q42-51, Q53-60) and held 19: Q17 (two-option, sub-four-option floor), Q18/Q41/Q52 (no printed key), and the patient-scenario statement-set vignettes Q22-34/Q36/Q37 (more than one defensibly true option, held for multi-true adjudication). 26 new concepts minted plus congenital-glaucoma-surgical and retinoblastoma-leukocoria reused. The post-Q60 T/F (11 cases) section is out of scope.
 ## reading_time
 5
+
+---
+
+# Item
+## id
+ART-OPH-315-INJURIES
+## title
+Ophthalmology: ocular and orbital injuries (traumatic hyphema, chemical burns, blunt and penetrating trauma, intraocular foreign body, orbital fractures)
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Ophthalmology
+## summary
+This article opens Chapter 12 of the question bank (Ocular and orbital injuries) and groups the trauma facts tested by its MCQs. It covers traumatic hyphema and its secondary glaucoma, chemical (acid and alkali) burns and their first-aid irrigation, blunt ocular trauma (lens subluxation, iris and angle damage, blow-out orbital fracture, traumatic cataract), penetrating trauma and open-globe management, intraocular foreign bodies (siderosis, chalcosis, endophthalmitis), and radiation/ultraviolet injury (photophthalmia).
+## sections
+### Definition
+Ocular and orbital injuries are the mechanical, chemical and radiation insults to the eye and its bony socket; Chapter 12 tests their recognition, first aid and definitive management. This article gathers the chapter concepts, each stating one atomic trauma fact.
+### Mechanism
+Blunt trauma transmits force through the incompressible globe, rupturing zonules (lens subluxation), tearing the iris (traumatic mydriasis, iridodialysis), bleeding into the anterior chamber (hyphema with secondary glaucoma) and fracturing the weak orbital floor or medial wall (blow-out). Sharp objects perforate the coats of the eye, admitting infection and intraocular foreign bodies. Chemicals, especially alkalis, penetrate and liquefy tissue, so immediate dilution by irrigation limits the burn.
+### Key determinants
+Discriminators tested here: the priority in hyphema is controlling intraocular pressure; the first aid in any chemical burn is immediate copious irrigation with water before anything else; an open globe is shielded (not pressed on) and repaired surgically under systemic antibiotic cover; a metallic intraocular foreign body threatens the eye through endophthalmitis and metallosis (siderosis/chalcosis) and contraindicates MRI; and a rosette-shaped cataract signals blunt traumatic injury to the lens.
+### Clinical significance
+These facts underpin the emergency handling of the injured eye: irrigating a chemical burn on the spot, recognising and lowering the pressure of a traumatic hyphema, shielding rather than manipulating an open globe, imaging a suspected foreign body without MRI, and referring an orbital blow-out fracture appropriately.
+### Common misconceptions
+See each concept pitfalls field for the exact reversal each distractor exploits (patching or referring a chemical burn before irrigating, pressing on an open globe for ultrasound, or attributing squint and ptosis to an intraocular foreign body).
+## universities
+kau
+## years
+KAU_Y3
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## subtopic
+Ocular and orbital injuries
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 ophthalmology
+## high_yield
+Core
+## primary_node_id
+DIS-OPH-T02
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-7B436498C5F21A
+CON-MUL-4693A9F2D11E81
+CON-MUL-84B29F48094313
+CON-MUL-C3BCDA5E0F39C3
+CON-MUL-A0DBF0FD611BC2
+## related_articles
+ART-OPH-315-RED-EYE
+ART-OPH-315-GLAUCOMA
+## resource_ids
+src_c30b94e296cd15ba86c2
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ophthalmology source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Opens Chapter 12 (Ocular and orbital injuries) and groups its trauma concepts. DIS-OPH has no dedicated trauma node, so the article is filed under the closest verified node DIS-OPH-T02 (Anterior segment) - the plurality of the chapter facts are anterior-segment (hyphema, chemical burns, corneal laceration, intraocular foreign body, traumatic cataract) - while each concept carries its own most-specific node (retinal trauma on DIS-OPH-T04, neuro/orbital on DIS-OPH-T02 catch-all). Chapter 12 has 80 keyed MCQs (answer key p.8-9; the key omits row Q74 - hold, never guess). A T/F (14 cases) section follows the MCQs, out of scope.
+## reading_time
+5
