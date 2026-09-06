@@ -1945,3 +1945,488 @@ yes
 ## author_notes
 
 ---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-21
+## title
+Consequence of inappropriate antibiotic drops
+## question
+Inappropriate use of antibiotics eye drops leads to:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Dry eye.
+## explanation_a
+Incorrect. Misuse does not typically cause dry eye.
+## answer_b
+Development of antibiotic resistant organisms.
+## explanation_b
+Correct. Inappropriate antibiotic use selects for antibiotic-resistant organisms.
+## answer_c
+Protozoal keratitis.
+## explanation_c
+Incorrect. Protozoal keratitis relates to contact-lens hygiene, not antibiotic misuse.
+## answer_d
+Episcleritis.
+## explanation_d
+Incorrect. Episcleritis is an inflammatory condition, not a result of antibiotic misuse.
+## topic
+Ophthalmology
+## subtopic
+Topical antibiotics
+## main_concept
+CON-MUL-152B9742D1209A
+## concept_ids
+CON-MUL-152B9742D1209A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+State that antibiotic-drop misuse breeds resistant organisms.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-22
+## title
+Why atropine is not used for fundus dilation
+## question
+Atropine is not used to dilate the pupil for fundus examination because:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Hypersensitivity.
+## explanation_a
+Incorrect. Hypersensitivity is not the reason atropine is avoided for routine dilation.
+## answer_b
+Its effect extends for up to two weeks.
+## explanation_b
+Correct. Atropine's prolonged action (up to two weeks) makes it unsuitable for routine fundus dilation; a short-acting mydriatic is used.
+## answer_c
+Causes dry eye.
+## explanation_c
+Incorrect. Dry eye is not the reason.
+## answer_d
+Causes red eye.
+## explanation_d
+Incorrect. A red eye is not why atropine is avoided here.
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## main_concept
+CON-MUL-8C898B7DA6A2AB
+## concept_ids
+CON-MUL-8C898B7DA6A2AB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Explain that atropine is avoided for fundus dilation because its effect lasts up to two weeks.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.185); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-23
+## title
+Contraindication to topical atropine
+## question
+Topical atropine sulphate is contraindicated in:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Retinoscopy in children.
+## explanation_a
+Incorrect. Atropine is used for cycloplegic retinoscopy in children.
+## answer_b
+Iridocyclitis.
+## explanation_b
+Incorrect. Atropine is indicated in iridocyclitis to rest the pupil and prevent synechiae.
+## answer_c
+Corneal ulcer.
+## explanation_c
+Incorrect. A cycloplegic is used in corneal ulcer for comfort.
+## answer_d
+Primary angle closure glaucoma.
+## explanation_d
+Correct. Atropine dilates the pupil and can precipitate an attack in primary angle-closure glaucoma, so it is contraindicated.
+## topic
+Ophthalmology
+## subtopic
+Cycloplegics and mydriatics
+## main_concept
+CON-MUL-3744AE9A61B4D5
+## concept_ids
+CON-MUL-3744AE9A61B4D5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify primary angle-closure glaucoma as the contraindication to topical atropine.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-24
+## title
+Topical antiviral agents include
+## question
+Topical antiviral agents include:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Brolene.
+## explanation_a
+Incorrect. Brolene is an anti-amoebic agent.
+## answer_b
+Vidarabine.
+## explanation_b
+Correct. Vidarabine is a topical antiviral agent.
+## answer_c
+Natamycin.
+## explanation_c
+Incorrect. Natamycin is an antifungal.
+## answer_d
+Disodium cromoglycate.
+## explanation_d
+Incorrect. Disodium cromoglycate is a mast-cell stabiliser.
+## topic
+Ophthalmology
+## subtopic
+Antiviral drugs
+## main_concept
+CON-MUL-572417044270E4
+## concept_ids
+CON-MUL-572417044270E4
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify vidarabine as a topical antiviral agent.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+## id
+QST-KASR315OPH-KAMAL-CH13-25
+## title
+Topical corticosteroid side effects — EXCEPT
+## question
+Topical corticosteroid eye drops have the following side effects EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Complicated cataract.
+## explanation_a
+Incorrect (a genuine side effect). Steroids cause a complicated cataract.
+## answer_b
+Secondary closed angle glaucoma.
+## explanation_b
+Correct. The steroid-induced glaucoma is an OPEN-angle (steroid-response) glaucoma, not a closed-angle one; it is the exception.
+## answer_c
+Activation of viral infection.
+## explanation_c
+Incorrect (a genuine side effect). Steroids activate viral infection.
+## answer_d
+Activation of fungal infection.
+## explanation_d
+Incorrect (a genuine side effect). Steroids activate fungal infection.
+## topic
+Ophthalmology
+## subtopic
+Topical corticosteroids
+## main_concept
+CON-MUL-4FDFDC644EA43A
+## concept_ids
+CON-MUL-4FDFDC644EA43A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Medications and the eye
+## question_only_for
+
+## library_ids
+ART-OPH-315-MEDICATIONS
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Exclude secondary closed-angle glaucoma from the side effects of topical steroids.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.13 Medications and the eye (PDF p.186); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.9 Ch.13 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
