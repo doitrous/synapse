@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 6,
+ "count": 7,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -289,6 +289,54 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "Native text layer for stems+options (no OCR). Correct answer = the option printed with a YELLOW HIGHLIGHT FILL; machine-detectable directly from the PDF graphics layer via scripts/content/pagetext.mjs keys, render-confirmed on p3 (force-rendered once at 170 dpi: the yellow fill lands on exactly the detected option; 9 keyed / 0 ambiguous across pp.3-4). Render is otherwise guarded off (native text layer, 'not garbled'). Each authored key cross-checked against the printed option text. First authored tranche: EMS Q1 + Medical errors unique MCQs (Q4,5,6,7,8,9,12,18,20,21,23,24,25,26,27) = 16 authored; 7 held (Q10/Q11/Q13/Q16/Q17/Q19 in-section duplicates, Q15 two-correct-answer stem), True/False items excluded. See coverage/327-MPE-triage-keys.txt."
+  },
+  {
+   "sourceId": "src_ba6766e99714b935cdc1",
+   "sha256": "ba6766e99714b935cdc1df370087cdbd292ce81197f354b2ac1bee6c994afa31",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/310 PAT/Pharmacology/Questions & MCQs/All 197 Qs answered by pharmaga.pdf",
+   "corpusRelativePath": "310 PAT/Pharmacology/Questions & MCQs/All 197 Qs answered by pharmaga.pdf",
+   "fileName": "All 197 Qs answered by pharmaga.pdf",
+   "fileNameWithoutInstructions": "All 197 Qs answered by pharmaga.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "316 ENT",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Otorhinolaryngology",
+    "ENT",
+    "Otology"
+   ],
+   "rawModuleShorthand": "316 ENT",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Student material",
+   "instructor": null,
+   "crossModulePractical": false,
+   "subject": "Otorhinolaryngology",
+   "folderSubject": "Pharmacology",
+   "subjectSource": "content",
+   "departmentAuthored": false,
+   "tierEvidence": "MISFILED SOURCE: the file lives in the y3/310 PAT/Pharmacology folder and its name says '197 Qs answered by pharmaga', but the CONTENT is ENT/otology (CSOM, cholesteatoma, mastoidectomy, ossicular chain, etc.), not pharmacology. Relocated to the 316 ENT lane by content. Format is a Google-Forms answered-quiz export: each question is a SCANNED screenshot of a Forms page, the correct option marked by the FILLED (selected) radio button. 17 pages, image-only (no text layer); rendered at ~220 dpi to read stems, options and the filled radio.",
+   "examType": "quiz",
+   "examPaperEvidence": "Google Forms 'answered quiz' screenshots; filename claims 197 questions. No printed exam calendar year. Correct answer per item = the selected (filled) radio button on the screenshot.",
+   "bookKind": "question_bank",
+   "sourceTier": 3,
+   "folderPriorityLabel": null,
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Student Google-Forms quiz export, no dated exam sitting printed; examSittingYear left null (not guessed).",
+   "solvedStatus": "solved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 17,
+   "textLayer": "none",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Scanned Google-Forms screenshots (no text layer); rendered at ~220 dpi and read visually. Correct answer per item = the FILLED (selected) radio button on the Forms screenshot, never-guess held if no radio is clearly filled. Second keyed ENT source for 316 ENT (after the department bank src_33e91d37f173f0ca3fba); heavy overlap expected with the already-authored 281-item ENT corpus, so authored the FRESH remainder only, dedup against question/316-ENT-*. See coverage/316-ENT-LEDGER.md."
   }
  ]
 }
