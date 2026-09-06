@@ -1,0 +1,213 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-cvs-aneurysms-veins",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · Cardiovascular pathology — ANEURYSMS & VEINS section (Q48-57), continuing the Blood Vessels chapter of the student 'Pathology MCQ by Abolmagd [SOLVED]' compilation. Answer key = the option rendered in RED text; render-verified pp.11-13 (printed 10-12) at 170 dpi — every key a single red-text option. Detector unreliable on these pages (over-flagged Q48/Q52/Q54/Q57 as multiple); render is authoritative. Q48 continues the vasculitis (PAN) topic; Q49+ are aneurysms/veins.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-CVS-310PAT-ANEURYSMS-VEINS"],
+    "resource_ids": ["src_a2b36e9ed9778bfa7efd"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pathology MCQ by Abolmagd [SOLVED], Aneurysms & Veins section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Aneurysms",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 10,
+    "field_notes": { "keySource": "red-text option; render-verified pp.11-13 (printed 10-12) at 170 dpi — detector unreliable on these pages, eye-adjudicated" }
+  },
+  "questions": [
+    {
+      "key": "q48", "id": "QST-KASR310PAT-ABOLMAGD-48",
+      "title": "Vessels commonly involved by polyarteritis nodosa",
+      "question": "Polyarteritis nodosa (PAN) commonly involves:",
+      "options": { "A": "Large arteries", "B": "Small and medium-sized arteries", "C": "Arterioles", "D": "Venules" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Polyarteritis nodosa spares the large elastic arteries such as the aorta; large-vessel involvement points instead to a large-vessel arteritis (e.g. Takayasu or giant cell arteritis).",
+        "B": "Correct. Polyarteritis nodosa is a necrotising vasculitis that characteristically involves the SMALL and MEDIUM-SIZED muscular arteries. The segmental transmural inflammation of these muscular arteries weakens the wall and produces the nodular microaneurysms that give the disease its name. It does not primarily affect large elastic arteries, arterioles or venules, which separates it from large-vessel arteritides and from small-vessel (microscopic) vasculitides.",
+        "C": "Incorrect. Arteriolar involvement is the province of small-vessel vasculitides such as microscopic polyangiitis or hypersensitivity vasculitis, not classic polyarteritis nodosa.",
+        "D": "Incorrect. Venules are affected by small-vessel leukocytoclastic (hypersensitivity) vasculitis, not by polyarteritis nodosa, which targets muscular arteries."
+      },
+      "main_concept": "CON-CVS-F94CBD7A0552A9", "concept_ids": ["CON-CVS-F94CBD7A0552A9"],
+      "contextual_concept_ids": ["CON-CVS-8DE1BE845765C7"],
+      "library_ids": ["ART-CVS-310PAT-BLOOD-VESSELS"],
+      "subtopic": "Vasculitis",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that polyarteritis nodosa characteristically involves small and medium-sized muscular arteries.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Polyarteritis nodosa"
+    },
+    {
+      "key": "q49", "id": "QST-KASR310PAT-ABOLMAGD-49",
+      "title": "Main cause of dissecting aortic aneurysm",
+      "question": "The main cause of dissecting aortic aneurysm (acute aortic dissection) is:",
+      "options": { "A": "Syphilitic aortitis", "B": "Hypertension", "C": "Bilharzial infection", "D": "Polyarteritis nodosa" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Syphilitic aortitis weakens the ascending aorta and causes a saccular TRUE aneurysm, not the medial cleavage of a dissection.",
+        "B": "Correct. HYPERTENSION is the main cause of dissecting aortic aneurysm (aortic dissection): it is present in the great majority of patients and drives the medial injury that lets blood tear into and split the aortic media. The other substrate is medial degeneration (cystic medial necrosis), as in Marfan syndrome. Sustained high wall stress on a weakened media is what initiates and propagates the intimal tear and false lumen.",
+        "C": "Incorrect. Bilharzial (schistosomal) infection causes urinary and hepatic disease, not aortic dissection.",
+        "D": "Incorrect. Polyarteritis nodosa is a medium-vessel necrotising vasculitis producing microaneurysms, not aortic medial dissection."
+      },
+      "main_concept": "CON-CVS-075752C3FCCF5C", "concept_ids": ["CON-CVS-075752C3FCCF5C"],
+      "subtopic": "Aneurysms",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify hypertension as the main cause of dissecting aortic aneurysm.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Aortic dissection"
+    },
+    {
+      "key": "q50", "id": "QST-KASR310PAT-ABOLMAGD-50",
+      "title": "Common aetiology of cerebral aneurysm",
+      "question": "Common etiology of cerebral aneurysm is:",
+      "options": { "A": "Bilharzial", "B": "Syphilitic", "C": "Congenital", "D": "Dissecting" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Bilharziasis does not cause cerebral aneurysms.",
+        "B": "Incorrect. Syphilitic (luetic) aneurysms affect the ascending aorta, not the cerebral vessels.",
+        "C": "Correct. The common cerebral aneurysm is the CONGENITAL berry (saccular) aneurysm, arising from a developmental defect in the tunica media at the branch points of the circle of Willis. Although the sac enlarges over years under haemodynamic stress, the underlying cause is this congenital medial weakness, so the usual cerebral aneurysm is classed as congenital. This is why they cluster at arterial bifurcations of the circle of Willis and can rupture into the subarachnoid space.",
+        "D": "Incorrect. Dissecting aneurysms are a feature of the aorta (from hypertension/medial degeneration), not the typical cerebral aneurysm."
+      },
+      "main_concept": "CON-CVS-D28BA0F01F4ECC", "concept_ids": ["CON-CVS-D28BA0F01F4ECC"],
+      "subtopic": "Aneurysms",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that the common cerebral (berry) aneurysm is congenital in origin.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Cerebral (berry) aneurysm"
+    },
+    {
+      "key": "q51", "id": "QST-KASR310PAT-ABOLMAGD-51",
+      "title": "Cause of death in acute tearing chest pain radiating to back",
+      "question": "A 55 year old female hypertensive complains of severe chest pain of sudden onset radiating to back between scapula, deteriorating rapidly and dies. What is the most probable cause of death?",
+      "options": { "A": "Aortic aneurysm pressure on backbone", "B": "Aortic dissecting aneurysm", "C": "Primary cardiomyopathy", "D": "Acute endocarditis" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Pressure erosion of the vertebrae by a chronic aneurysm is a slow, chronic process; it does not produce sudden tearing chest pain and rapid death.",
+        "B": "Correct. Sudden severe chest pain radiating to the back between the scapulae in a HYPERTENSIVE patient, with rapid deterioration and death, is the classic presentation of an AORTIC DISSECTING ANEURYSM (aortic dissection). Hypertension drives a tear in the aortic media; the propagating false lumen can rupture into the pericardium (tamponade) or mediastinum, causing rapid death. The tearing, interscapular, back-radiating pain in a hypertensive patient is the hallmark that points to dissection rather than the other options.",
+        "C": "Incorrect. Primary cardiomyopathy causes chronic heart failure or arrhythmic death, not sudden tearing interscapular pain.",
+        "D": "Incorrect. Acute endocarditis presents with fever, murmur and embolic phenomena, not sudden tearing back pain from a hypertensive aorta."
+      },
+      "main_concept": "CON-CVS-075752C3FCCF5C", "concept_ids": ["CON-CVS-075752C3FCCF5C"],
+      "subtopic": "Aneurysms",
+      "question_type": "Clinical case", "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Recognise the clinical presentation of aortic dissection (sudden tearing interscapular pain in a hypertensive) as the cause of sudden death.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Aortic dissection"
+    },
+    {
+      "key": "q52", "id": "QST-KASR310PAT-ABOLMAGD-52",
+      "title": "Commonest type of aneurysm (per source)",
+      "question": "The commonest type of aneurysm is:",
+      "options": { "A": "Congenital", "B": "Syphilitic", "C": "Atheromatous", "D": "Dissecting" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct (per this source). The source keys CONGENITAL aneurysm — chiefly the cerebral berry (saccular) aneurysm — as the commonest type, above syphilitic, atheromatous and dissecting types. Congenital berry aneurysms are indeed very frequent, arising at medial defects around the circle of Willis. Note that modern general-pathology teaching often names the atheromatous (abdominal aortic) aneurysm as the commonest TRUE aneurysm; the answer depends on whether cerebral berry aneurysms are counted, which is why this item is authored to the printed key with that caveat.",
+        "B": "Incorrect. Syphilitic aneurysms of the ascending aorta are now uncommon.",
+        "C": "Incorrect (per this source). The atheromatous (atherosclerotic) aneurysm is the commonest TRUE aneurysm in much modern teaching, but this source keys congenital as the commonest type overall.",
+        "D": "Incorrect. Dissecting aneurysm is far less common than congenital or atheromatous types."
+      },
+      "main_concept": "CON-CVS-5F8F3216F7EC70", "concept_ids": ["CON-CVS-5F8F3216F7EC70"],
+      "subtopic": "Aneurysms",
+      "author_notes": "Source keys A (congenital). Modern general pathology usually names the atherosclerotic/abdominal aortic aneurysm as the commonest TRUE aneurysm; the discrepancy depends on whether cerebral berry aneurysms are counted. Authored to the printed key with the caveat in the explanation and concept uncertainty.",
+      "learning_objective": "Recognise the printed key that congenital (berry) aneurysm is the commonest type, while noting the modern view that atherosclerotic aneurysm is the commonest true aneurysm.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Aneurysm types"
+    },
+    {
+      "key": "q53", "id": "QST-KASR310PAT-ABOLMAGD-53",
+      "title": "Berry aneurysm classification",
+      "question": "Berry aneurysm is a type of:",
+      "options": { "A": "Atherosclerotic aneurysm", "B": "Congenital aneurysm", "C": "Hypertensive aneurysm", "D": "Traumatic aneurysm" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Atherosclerosis may enlarge a pre-existing berry aneurysm but is not its type; the primary lesion is a congenital medial defect.",
+        "B": "Correct. A berry (saccular) aneurysm is a CONGENITAL aneurysm: it develops at a congenital defect in the tunica media at the bifurcations of the circle of Willis. The thin-walled sac balloons out at the branch point and is the commonest cause of spontaneous subarachnoid haemorrhage when it ruptures. Its congenital medial defect distinguishes it from atherosclerotic, hypertensive or traumatic aneurysms.",
+        "C": "Incorrect. Hypertension (Charcot-Bouchard microaneurysms) affects small penetrating brain vessels, not the berry aneurysm type.",
+        "D": "Incorrect. A traumatic aneurysm follows vessel-wall injury, not the congenital medial defect of a berry aneurysm."
+      },
+      "main_concept": "CON-CVS-D28BA0F01F4ECC", "concept_ids": ["CON-CVS-D28BA0F01F4ECC"],
+      "subtopic": "Aneurysms",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Classify the berry aneurysm as a congenital aneurysm.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Cerebral (berry) aneurysm"
+    },
+    {
+      "key": "q54", "id": "QST-KASR310PAT-ABOLMAGD-54",
+      "title": "Not a true aneurysm (pulsating haematoma)",
+      "question": "The followings are true aneurysms except:",
+      "options": { "A": "Pulsating hematoma", "B": "Mycotic aneurysm", "C": "Syphilitic aneurysm", "D": "Dissecting aneurysm" },
+      "correct": "A",
+      "page": 11,
+      "explanations": {
+        "A": "Correct. This is the exception: a PULSATING HAEMATOMA is a FALSE aneurysm (pseudoaneurysm), not a true aneurysm. In a false aneurysm the wall is breached and the escaping blood is contained only by adventitia or perivascular tissue, with a pulsatile communication to the lumen. A true aneurysm, by contrast, is bounded by an attenuated but intact vessel wall, so a pulsating haematoma does not belong with the true aneurysms.",
+        "B": "Incorrect (this IS a true aneurysm). A mycotic aneurysm is a true aneurysm in which the intact but infected wall is weakened and dilates.",
+        "C": "Incorrect (this IS a true aneurysm). A syphilitic aneurysm of the ascending aorta is a true aneurysm bounded by the (damaged) wall.",
+        "D": "Incorrect (this IS classed with the aneurysms here). A dissecting aneurysm has blood within the layers of an intact wall, so it is grouped with the true aneurysms against the false pulsating haematoma."
+      },
+      "main_concept": "CON-CVS-B7494730FF72D1", "concept_ids": ["CON-CVS-B7494730FF72D1"],
+      "subtopic": "Aneurysms",
+      "learning_objective": "Distinguish a true aneurysm (intact wall) from a false aneurysm/pulsating haematoma.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Aneurysm classification"
+    },
+    {
+      "key": "q55", "id": "QST-KASR310PAT-ABOLMAGD-55",
+      "title": "Complications of abdominal aortic aneurysm",
+      "question": "Complications of abdominal aortic aneurysm include:",
+      "options": { "A": "Erosion of vertebra", "B": "Renal ischemia", "C": "Atheroembolism", "D": "All of the above" },
+      "correct": "D",
+      "page": 11,
+      "explanations": {
+        "A": "Incorrect as the single answer. Erosion of the vertebral bodies by chronic pulsatile pressure IS a complication, but it is not the only one.",
+        "B": "Incorrect as the single answer. Renal ischaemia (from involvement of the renal artery ostia by the aneurysm or its mural thrombus) IS a complication, but not the only one.",
+        "C": "Incorrect as the single answer. Atheroembolism (showers of atheromatous/thrombotic debris to the legs and viscera) IS a complication, but not the only one.",
+        "D": "Correct. ALL of the above occur: an abdominal aortic aneurysm can erode adjacent vertebrae by chronic pulsatile pressure, cause renal ischaemia when the renal artery ostia are compromised, and shower atheroembolic debris distally, in addition to its most feared complication of rupture with fatal retroperitoneal haemorrhage. Because each listed change is a recognised complication, 'all of the above' is correct."
+      },
+      "main_concept": "CON-CVS-097B5CE4C46C38", "concept_ids": ["CON-CVS-097B5CE4C46C38"],
+      "subtopic": "Aneurysms",
+      "learning_objective": "List erosion of vertebrae, renal ischaemia and atheroembolism among the complications of an abdominal aortic aneurysm.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Abdominal aortic aneurysm"
+    },
+    {
+      "key": "q56", "id": "QST-KASR310PAT-ABOLMAGD-56",
+      "title": "Cause of aneurysm — exception (deep vein thrombosis)",
+      "question": "Causes of vascular aneurysm include all except:",
+      "options": { "A": "Atherosclerosis", "B": "Deep vein thrombosis", "C": "Marfan's syndrome", "D": "Syphilis" },
+      "correct": "B",
+      "page": 11,
+      "explanations": {
+        "A": "Incorrect (this IS a cause). Atherosclerosis is the commonest cause of aneurysm, weakening the media of the abdominal aorta.",
+        "B": "Correct. DEEP VEIN THROMBOSIS is the exception: it is a venous thrombotic disease and does NOT cause an arterial aneurysm. Aneurysms arise from weakening of the ARTERIAL wall, whereas deep vein thrombosis is clot formation within a deep vein and has no role in dilating an artery. Grouping a venous thrombosis with arterial-wall–weakening causes is the error tested here.",
+        "C": "Incorrect (this IS a cause). Marfan's syndrome causes cystic medial degeneration, predisposing to aortic aneurysm and dissection.",
+        "D": "Incorrect (this IS a cause). Syphilis (tertiary aortitis) weakens the ascending aortic wall, causing a true aneurysm."
+      },
+      "main_concept": "CON-CVS-21E02BFAD3868C", "concept_ids": ["CON-CVS-21E02BFAD3868C"],
+      "subtopic": "Aneurysms",
+      "learning_objective": "Identify atherosclerosis, Marfan syndrome and syphilis as causes of aneurysm and exclude deep vein thrombosis.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Aneurysm causes"
+    },
+    {
+      "key": "q57", "id": "QST-KASR310PAT-ABOLMAGD-57",
+      "title": "Complication of aneurysm — exception (angiosarcoma)",
+      "question": "All the following are the complications of aneurysm except:",
+      "options": { "A": "Rupture and fatal haemorrhage", "B": "Thromboembolism", "C": "Angiosarcoma transformation", "D": "Compression" },
+      "correct": "C",
+      "page": 11,
+      "explanations": {
+        "A": "Incorrect (this IS a complication). Rupture with fatal haemorrhage is the major, most feared complication of an aneurysm.",
+        "B": "Incorrect (this IS a complication). Mural thrombus forming in the sac can embolise distally (thromboembolism).",
+        "C": "Correct. ANGIOSARCOMA TRANSFORMATION is the exception: an aneurysm is a dilatation of a weakened vessel wall, NOT a neoplastic process, so it does not undergo malignant (angiosarcoma) transformation. Its complications are mechanical and thrombotic — rupture, mural thrombosis with thromboembolism, and pressure/compression on surrounding structures. Attaching a sarcomatous transformation to a wall dilatation is the conceptual error tested here.",
+        "D": "Incorrect (this IS a complication). An aneurysm can compress or erode adjacent structures (vertebrae, nerves, ureter)."
+      },
+      "main_concept": "CON-CVS-B291A270C10C2D", "concept_ids": ["CON-CVS-B291A270C10C2D"],
+      "subtopic": "Aneurysms",
+      "learning_objective": "List rupture, thromboembolism and compression as complications of aneurysm and exclude angiosarcoma transformation.",
+      "module_subject": "310 PAT > Pathology > Blood vessels > Aneurysm complications"
+    }
+  ]
+}

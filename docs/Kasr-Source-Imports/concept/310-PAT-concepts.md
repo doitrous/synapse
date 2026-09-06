@@ -4009,3 +4009,1335 @@ sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.9-10/printed 8-9); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-F94CBD7A0552A9
+## label
+Polyarteritis nodosa affects small and medium-sized arteries
+## canonical_key
+polyarteritis-nodosa.vessels-affected
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Polyarteritis nodosa is a necrotising vasculitis that characteristically involves SMALL and MEDIUM-SIZED muscular arteries. It spares large elastic arteries (aorta), arterioles, capillaries and venules, which distinguishes it from small-vessel (microscopic) vasculitides and from large-vessel arteritides. The segmental transmural inflammation of these muscular arteries produces the nodular microaneurysms that give the disease its name.
+## explicit_objective
+State that polyarteritis nodosa characteristically affects small and medium-sized muscular arteries, not large arteries, arterioles or venules.
+## pitfalls
+Confusing PAN (medium/small muscular arteries) with microscopic polyangiitis or hypersensitivity vasculitis, which affect arterioles, capillaries and venules.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Vasculitis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Polyarteritis nodosa
+## article_ids
+ART-CVS-310PAT-BLOOD-VESSELS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "polyarteritis-nodosa.vessels-affected", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-075752C3FCCF5C
+## label
+Hypertension is the main cause of dissecting aortic aneurysm
+## canonical_key
+aneurysm.dissecting.etiology
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Aortic dissection (dissecting aortic aneurysm) is a longitudinal tear that lets blood cleave the media of the aortic wall. Its principal predisposing cause is HYPERTENSION, which is present in the great majority of cases and drives the medial injury (with medial degeneration/cystic medial necrosis and connective-tissue disease such as Marfan syndrome as the other substrate). Syphilitic aortitis and polyarteritis nodosa are not the main causes.
+## explicit_objective
+Identify hypertension as the main cause of dissecting aortic aneurysm (aortic dissection).
+## pitfalls
+Attributing dissection to syphilis; syphilitic aortitis causes a saccular ascending-aorta true aneurysm, not the medial dissection of hypertension.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Aortic dissection
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.dissecting.etiology", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-D28BA0F01F4ECC
+## label
+Cerebral (berry) aneurysm is congenital in origin
+## canonical_key
+aneurysm.berry.congenital-etiology
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The common cerebral aneurysm is the BERRY (saccular) aneurysm, which arises at a congenital defect in the tunica media at the branch points of the circle of Willis. Although the sac enlarges over years under haemodynamic stress, the underlying aetiology is the congenital medial weakness, so the source classes the usual cerebral aneurysm as congenital rather than atherosclerotic, syphilitic or dissecting.
+## explicit_objective
+State that the common cerebral (berry) aneurysm arises from a congenital medial defect at the circle of Willis.
+## pitfalls
+Calling a berry aneurysm atherosclerotic; atherosclerosis contributes to enlargement but the primary defect is congenital medial weakness.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Cerebral (berry) aneurysm
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.berry.congenital-etiology", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-5F8F3216F7EC70
+## label
+Commonest type of aneurysm (congenital, per this source)
+## canonical_key
+aneurysm.commonest-type
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+This source lists CONGENITAL (berry) aneurysm as the commonest type of aneurysm, over syphilitic, atheromatous and dissecting types. Modern general pathology instead usually names the ATHEROSCLEROTIC (atheromatous) aneurysm — chiefly the abdominal aortic aneurysm — as the commonest true aneurysm overall; the discrepancy reflects whether congenital berry aneurysms of the cerebral circulation are counted. The item is authored to the printed key while flagging this teaching difference.
+## explicit_objective
+Recognise the printed key that congenital (berry) aneurysm is the commonest type, while noting that atherosclerotic aneurysm is the commonest true aneurysm in modern teaching.
+## pitfalls
+Treating 'commonest aneurysm' as unambiguous; the answer depends on whether cerebral berry aneurysms are counted (congenital) or only aortic/true aneurysms (atherosclerotic).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Aneurysm types
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+Source keys congenital as the commonest type of aneurysm; standard general-pathology teaching names the atherosclerotic (abdominal aortic) aneurysm as the commonest true aneurysm. Authored to the printed key with the discrepancy flagged; resolve against the department book before publication.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.commonest-type", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-B7494730FF72D1
+## label
+True versus false (pulsating haematoma) aneurysm
+## canonical_key
+aneurysm.true-versus-false
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A TRUE aneurysm is a dilatation bounded by an attenuated but intact arterial wall (all layers), as in atherosclerotic, syphilitic and dissecting aneurysms. A FALSE aneurysm (pseudoaneurysm), by contrast, is a PULSATING HAEMATOMA: a breach in the wall lets blood collect outside it, contained only by adventitia or perivascular tissue, with a pulsatile connection to the lumen. A pulsating haematoma is therefore a false, not a true, aneurysm.
+## explicit_objective
+Distinguish a true aneurysm (intact wall) from a false aneurysm/pseudoaneurysm (a pulsating haematoma contained by surrounding tissue).
+## pitfalls
+Classing a pulsating haematoma as a true aneurysm; it is a false aneurysm because the blood lies outside a breached wall.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Aneurysm classification
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.true-versus-false", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-097B5CE4C46C38
+## label
+Complications of abdominal aortic aneurysm
+## canonical_key
+aneurysm.abdominal-aortic.complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+An abdominal aortic aneurysm can be complicated by EROSION of adjacent vertebral bodies (from chronic pulsatile pressure), RENAL ISCHAEMIA (when the aneurysm or its mural thrombus involves or compromises the renal artery ostia), and ATHEROEMBOLISM (showers of atheromatous/thrombotic debris from the aneurysm sac to the lower limbs and viscera). Rupture with fatal retroperitoneal haemorrhage is the most feared complication. All the listed changes can therefore occur together.
+## explicit_objective
+List erosion of vertebrae, renal ischaemia and atheroembolism among the complications of an abdominal aortic aneurysm.
+## pitfalls
+Assuming rupture is the only complication; pressure erosion, branch-vessel ischaemia and atheroembolism are also recognised.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Abdominal aortic aneurysm
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.abdominal-aortic.complications", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-21E02BFAD3868C
+## label
+Causes of vascular aneurysm
+## canonical_key
+aneurysm.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The causes of an arterial aneurysm are conditions that weaken the arterial wall: ATHEROSCLEROSIS (the commonest, weakening the media of the abdominal aorta), connective-tissue/medial defects such as MARFAN syndrome (cystic medial degeneration), infection such as SYPHILIS (tertiary aortitis) and other infective (mycotic) or congenital causes. Deep vein thrombosis is a venous thrombotic disease and is NOT a cause of arterial aneurysm.
+## explicit_objective
+Identify atherosclerosis, Marfan syndrome and syphilis as causes of aneurysm and exclude deep vein thrombosis.
+## pitfalls
+Listing deep vein thrombosis as an aneurysm cause; it is a venous thrombosis, unrelated to arterial wall weakening.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Aneurysm causes
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.causes", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-B291A270C10C2D
+## label
+Complications of aneurysm
+## canonical_key
+aneurysm.complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The complications of an aneurysm are RUPTURE with fatal haemorrhage (the major risk), MURAL THROMBOSIS within the sac with THROMBOEMBOLISM to distal vessels, and PRESSURE/COMPRESSION on surrounding structures (e.g. vertebral erosion, nerve or ureteric compression). Malignant (angiosarcoma) transformation is NOT a complication of an aneurysm. Together rupture, mural thrombus/embolism and pressure are the recognised complications.
+## explicit_objective
+List rupture, mural thrombosis/thromboembolism and pressure on surrounding structures as complications of an aneurysm, and exclude angiosarcoma transformation.
+## pitfalls
+Including angiosarcoma transformation as an aneurysm complication; an aneurysm is a wall dilatation, not a neoplastic process.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Aneurysm complications
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.complications", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-5F62ED84521083
+## label
+Commonest site of aortic aneurysm is infrarenal
+## canonical_key
+aneurysm.aorta.commonest-site-infrarenal
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The commonest site of an atherosclerotic aortic aneurysm is the ABDOMINAL AORTA BELOW (distal to) the renal arteries and above the aortic bifurcation — the infrarenal segment. This region is most heavily affected by atherosclerosis and lacks vasa vasorum in the media, making the wall most vulnerable to aneurysmal dilatation. It is therefore not the ascending aorta or the segment proximal to the renal arteries.
+## explicit_objective
+State that the commonest site of an aortic (atherosclerotic) aneurysm is the abdominal aorta distal to the renal arteries (infrarenal).
+## pitfalls
+Placing the commonest aortic aneurysm in the ascending or suprarenal aorta; the atherosclerotic aneurysm is characteristically infrarenal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Abdominal aortic aneurysm
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.aorta.commonest-site-infrarenal", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-43209C35DA0F47
+## label
+Features of cerebral berry aneurysm
+## canonical_key
+aneurysm.berry.features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cerebral berry (saccular) aneurysms are commoner in WOMEN, cluster at the branch points of the CIRCLE OF WILLIS, and are the commonest cause of spontaneous (non-traumatic) SUBARACHNOID HAEMORRHAGE. Their association with inherited disease is with AUTOSOMAL DOMINANT polycystic kidney disease, so the statement that they are inherited as an autosomal RECESSIVE disease is false.
+## explicit_objective
+List the features of berry aneurysms (female predominance, circle of Willis, cause of subarachnoid haemorrhage) and recognise their link is with autosomal dominant, not recessive, polycystic kidney disease.
+## pitfalls
+Stating berry aneurysms are autosomal recessive; the recognised heritable association is autosomal dominant polycystic kidney disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Aneurysms
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Cerebral (berry) aneurysm
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "aneurysm.berry.features", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-60E3BE6E63F1E1
+## label
+Nature and risk factors of varicose veins
+## canonical_key
+varicose-veins.nature-and-risk-factors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Varicose veins are abnormally dilated, tortuous veins produced by prolonged, increased INTRALUMINAL VENOUS PRESSURE with valvular incompetence. Obesity, pregnancy, prolonged standing and age are risk factors, and oesophageal varices are the analogous dilatation complicating portal hypertension. Because the pressure is venous and low, varicose veins do NOT cause pressure atrophy of surrounding structures (a feature of pulsatile arterial aneurysms).
+## explicit_objective
+Describe varicose veins as dilated veins from raised intraluminal venous pressure with obesity as a risk factor, and recognise that they do not cause pressure atrophy of surrounding structures.
+## pitfalls
+Attributing pressure atrophy of surrounding structures to varicose veins; that is a feature of pulsatile arterial aneurysms, not low-pressure varices.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Veins
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Varicose veins
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "varicose-veins.nature-and-risk-factors", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-019C029B5BCE11
+## label
+Most important complication of varicose veins is haemorrhage
+## canonical_key
+varicose-veins.most-important-complication-hemorrhage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The complications of varicose veins include stasis oedema, thrombophlebitis, chronic non-healing (venous) ulcers, trophic skin changes and HAEMORRHAGE from a ruptured superficial varix. This source rates HAEMORRHAGE as the most important complication because a thin-walled surface varix can rupture and bleed profusely. Oedema, aneurysm and trophic skin changes are lesser or non-applicable answers.
+## explicit_objective
+Identify haemorrhage as the most important complication of varicose veins per this source.
+## pitfalls
+Choosing 'aneurysm' as a varicose complication; aneurysm is an arterial lesion, not a complication of veins.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Veins
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels > Varicose veins
+## article_ids
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+'Most important complication of varicose veins' is emphasis-dependent; some sources rank chronic venous ulceration highest. Authored to the printed key (haemorrhage).
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "varicose-veins.most-important-complication-hemorrhage", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.11-13 / printed 10-12); no department book located/read this pass.
+
+---

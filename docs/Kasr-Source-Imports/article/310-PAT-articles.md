@@ -266,8 +266,10 @@ CON-CVS-9CF2A14EB414DC
 CON-CVS-7BD75BA0B13D94
 CON-CVS-90BE947F33FD19
 CON-CVS-B8AEE0A4917D45
+CON-CVS-F94CBD7A0552A9
 ## related_articles
 ART-CVS-310PAT-ATHEROSCLEROSIS
+ART-CVS-310PAT-ANEURYSMS-VEINS
 ## resource_ids
 src_a2b36e9ed9778bfa7efd
 ## nanotopic
@@ -295,6 +297,102 @@ Admin team
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
 university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (render-verified pp.9-10 / printed 8-9).
+## reading_time
+7
+
+---
+
+# Item
+## id
+ART-CVS-310PAT-ANEURYSMS-VEINS
+## title
+Aneurysms and veins: types, causes, complications and varicose veins
+## subject
+cvs
+## status
+Draft
+## owner
+Claude
+## topic
+Pathology
+## summary
+This article groups the aneurysm and vein concepts tested by Q49-65 of the paper. Aneurysms are wall dilatations classed as true (intact but attenuated wall — atherosclerotic, syphilitic, dissecting) or false (a pulsating haematoma outside a breached wall). Their causes are conditions that weaken the arterial wall — atherosclerosis (commonest), Marfan (medial degeneration), syphilis and congenital defects — not deep vein thrombosis. The abdominal aorta distal to the renal arteries is the commonest site of an atherosclerotic aneurysm; dissecting aortic aneurysm is caused chiefly by hypertension; the cerebral berry aneurysm is congenital, clusters at the circle of Willis, is commoner in women, links to autosomal dominant polycystic kidney disease and is the commonest cause of spontaneous subarachnoid haemorrhage. Aneurysm complications are rupture, mural thrombosis with thromboembolism, and pressure/erosion (including abdominal aortic aneurysm eroding vertebrae, renal ischaemia and atheroembolism); angiosarcoma transformation is not one. Varicose veins are dilated veins from raised intraluminal venous pressure (obesity a risk factor) whose most important complication per this source is haemorrhage, and which do not cause pressure atrophy.
+## sections
+### Definition
+Aneurysm = a localised abnormal dilatation of a vessel wall (true if all layers intact, false/pseudoaneurysm if a pulsating haematoma is contained by surrounding tissue). Varicose veins = abnormally dilated tortuous veins from sustained raised intraluminal venous pressure with valvular incompetence.
+### Mechanism
+Wall weakening (atherosclerotic medial loss, cystic medial degeneration in Marfan, syphilitic aortitis, congenital medial defect at the circle of Willis) predisposes to dilatation or dissection; hypertension drives aortic dissection. Raised venous pressure with incompetent valves produces varices.
+### Key determinants
+Discriminators tested: true vs false (pulsating haematoma) aneurysm; atherosclerosis/Marfan/syphilis as causes but not deep vein thrombosis; infrarenal abdominal aorta as commonest aortic aneurysm site; hypertension as the cause of dissection; berry aneurysm as congenital, circle-of-Willis, female-predominant, autosomal-dominant-linked and the commonest cause of subarachnoid haemorrhage; rupture, mural thrombus/embolism and pressure as complications but not angiosarcoma; haemorrhage as the most important varicose-vein complication.
+### Clinical significance
+These facts underlie the recognition of a ruptured or eroding abdominal aortic aneurysm, the sudden tearing chest pain of aortic dissection in a hypertensive patient, spontaneous subarachnoid haemorrhage from a ruptured berry aneurysm, and the management of complicated varicose veins.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversals the distractors exploit (pulsating haematoma as a true aneurysm, deep vein thrombosis as an aneurysm cause, berry aneurysm as autosomal recessive, pressure atrophy from varicose veins).
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pathology > Blood vessels
+## subtopic
+Aneurysms and veins
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 systemic pathology
+## high_yield
+Core
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## related_concepts
+CON-CVS-075752C3FCCF5C
+CON-CVS-D28BA0F01F4ECC
+CON-CVS-5F8F3216F7EC70
+CON-CVS-B7494730FF72D1
+CON-CVS-097B5CE4C46C38
+CON-CVS-21E02BFAD3868C
+CON-CVS-B291A270C10C2D
+CON-CVS-5F62ED84521083
+CON-CVS-43209C35DA0F47
+CON-CVS-60E3BE6E63F1E1
+CON-CVS-019C029B5BCE11
+## related_articles
+ART-CVS-310PAT-BLOOD-VESSELS
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (render-verified pp.11-13 / printed 10-12).
 ## reading_time
 7
 
