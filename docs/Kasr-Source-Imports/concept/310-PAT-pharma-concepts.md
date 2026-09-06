@@ -820,3 +820,651 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-BB51A08D4E47CD
+## label
+Neostigmine reverses non-depolarising neuromuscular blockade
+## canonical_key
+neostigmine.reversal.neuromuscular-blockers
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Competitive (non-depolarising) neuromuscular blockers antagonise acetylcholine at the nicotinic end-plate. Neostigmine inhibits acetylcholinesterase, raising acetylcholine at the neuromuscular junction so that it out-competes the blocker and restores transmission; this anticholinesterase action is the basis of pharmacological reversal after surgery. An antimuscarinic (atropine or glycopyrrolate) is given with it to cover the muscarinic effects.
+## explicit_objective
+Explain that neostigmine reverses non-depolarising blockade by inhibiting acetylcholinesterase and raising junctional acetylcholine.
+## pitfalls
+Attributing reversal to CNS penetration or to an antimuscarinic action; the mechanism is peripheral anticholinesterase activity.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticholinesterases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Anticholinesterases
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-84B680E9E0C825
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-5D0B2956E3CC88
+## label
+M2 muscarinic receptors are Gi-coupled and lower cAMP
+## canonical_key
+muscarinic-m2.gi.decreases-camp
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Autonomic receptors differ in their signalling. M2 muscarinic receptors couple to the inhibitory Gi protein, which inhibits adenylyl cyclase and so DECREASES intracellular cAMP (and opens potassium channels), underlying vagal slowing of the heart. By contrast beta2 receptors (Gs) raise cAMP, alpha1 receptors (Gq) act through IP3/DAG and calcium, and neuronal nicotinic (Nn) receptors are ligand-gated ion channels.
+## explicit_objective
+Identify M2 muscarinic receptors as Gi-coupled receptors that decrease intracellular cAMP.
+## pitfalls
+Confusing the Gs (beta2, raises cAMP) and Gq (alpha1) pathways with the Gi-coupled M2 receptor that lowers cAMP.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T02
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Receptor signalling
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Pharmacodynamics > Receptor signalling
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-26C5AE690F42DE
+## label
+Pilocarpine as a sialagogue for dry mouth
+## canonical_key
+pilocarpine.sialagogue.xerostomia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pilocarpine is a direct muscarinic agonist that stimulates exocrine glands, so it is used as a sialagogue to relieve xerostomia (dry mouth), for example after head-and-neck irradiation or in Sjogren syndrome. In the eye it lowers intraocular pressure by causing miosis (not mydriasis), and it is not used for hair growth or Parkinsonism.
+## explicit_objective
+Recognise pilocarpine's use as a sialagogue for dry mouth and that it is a miotic, not a mydriatic.
+## pitfalls
+Calling pilocarpine a mydriatic; it constricts the pupil (miosis) while relieving dry mouth by glandular stimulation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Cholinergic agonists
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Cholinergic agonists
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-AC8CF65C557F1E
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-876AA36322FF29
+## label
+Pralidoxime reactivates cholinesterase in organophosphate poisoning
+## canonical_key
+pralidoxime.cholinesterase-reactivation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organophosphates phosphorylate and inactivate acetylcholinesterase. Pralidoxime is an oxime that binds the phosphorylated enzyme and removes the phosphate group, REACTIVATING cholinesterase provided it is given before irreversible 'ageing' of the enzyme. This restores acetylcholine breakdown and relieves particularly the nicotinic (skeletal-muscle) features that atropine cannot reverse, which is why it must be given early.
+## explicit_objective
+State that pralidoxime treats organophosphate poisoning by reactivating cholinesterase before ageing.
+## pitfalls
+Assigning pralidoxime a sedative, antimuscarinic or anticonvulsant role, or giving it late after enzyme ageing has occurred.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticholinesterases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Anticholinesterases
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-026FE3FD6BFBCD
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-FCC1FFFC037F61
+## label
+Contraindications of atropine: glaucoma and prostatic obstruction
+## canonical_key
+atropine.contraindications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atropine is contraindicated where its antimuscarinic effects are hazardous. In (angle-closure) glaucoma, ciliary relaxation and pupillary dilatation crowd the drainage angle and raise intraocular pressure dangerously. In benign prostatic hypertrophy, relaxation of the detrusor and reduced voiding can precipitate acute urinary retention. By contrast, symptomatic bradycardia/heart block and organophosphate poisoning are indications, not contraindications.
+## explicit_objective
+Identify glaucoma and prostatic outflow obstruction as contraindications to atropine.
+## pitfalls
+Mistaking atropine's indications (bradycardia, organophosphate poisoning) for contraindications, or forgetting the retention risk in prostatic hypertrophy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antimuscarinics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Antimuscarinics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-4A2BDCC19FE49B
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-4A2BDCC19FE49B
+## label
+Antimuscarinic eye drops cause mydriasis and cycloplegia
+## canonical_key
+antimuscarinic.eye.cycloplegia-mydriasis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Antimuscarinic (parasympathetic-depressant) eye drops block the sphincter pupillae and the ciliary muscle, producing mydriasis (pupil dilatation) and cycloplegia (paralysis of accommodation, so the lens cannot focus for near vision). They therefore cause loss of accommodation and tend to RAISE intraocular pressure, and are used for refraction and fundus examination.
+## explicit_objective
+State that antimuscarinic eye drops cause cycloplegia (loss of accommodation) and mydriasis.
+## pitfalls
+Expecting miosis or a fall in intraocular pressure; antimuscarinics dilate the pupil and can raise pressure.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antimuscarinics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Antimuscarinics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-6AD22F19596BA7
+## label
+Hyoscine is centrally depressant, unlike atropine
+## canonical_key
+hyoscine.cns-depressant.vs-atropine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hyoscine (scopolamine) penetrates the CNS well and at therapeutic doses causes sedation, drowsiness and amnesia, a central DEPRESSANT effect, which is why it is used as a sedative antiemetic and premedicant. Atropine, by contrast, tends to be centrally stimulant and is more likely to cause tachycardia and, at toxic doses, excitation and convulsions.
+## explicit_objective
+Contrast hyoscine's central depressant effect with atropine's central stimulation.
+## pitfalls
+Assuming both drugs behave identically centrally; hyoscine sedates whereas atropine stimulates.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antimuscarinics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Antimuscarinics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-7B8856FA405C00
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-AE3618871E840B
+## label
+Rivastigmine: central anticholinesterase for Alzheimer's disease
+## canonical_key
+anticholinesterase.alzheimers.rivastigmine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rivastigmine is a centrally acting acetylcholinesterase (and butyrylcholinesterase) inhibitor that raises acetylcholine in the brain and is licensed for Alzheimer's disease, alongside donepezil and galantamine. Its CNS penetration distinguishes it from the peripherally acting anticholinesterases: pyridostigmine (myasthenia gravis) and echothiophate (topical glaucoma), while tropicamide is an antimuscarinic mydriatic, not an anticholinesterase.
+## explicit_objective
+Identify rivastigmine as a centrally acting anticholinesterase used in Alzheimer's disease.
+## pitfalls
+Choosing a peripheral anticholinesterase (pyridostigmine, echothiophate) or an antimuscarinic (tropicamide) for dementia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T03
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticholinesterases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autonomic > Anticholinesterases
+## article_ids
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-A48D08B756F52C
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

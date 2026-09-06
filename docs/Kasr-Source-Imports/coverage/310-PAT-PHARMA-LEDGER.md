@@ -9,8 +9,9 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 
 | cluster (bank, section) | authored | held | excluded | remaining | total |
 |---|---:|---:|---:|---:|---:|
-| Abolmagd Pharma · ANS (Q1-10, `Pharma MCQ by Abolmagd.pdf` pp.3-6) | 10 | 0 | 0 | 0 (→ ANS Q11-46 pp.6-9 next) | 10 |
-| **Pharmacology subject total** | **10** | **0** | **0** | ANS Q11-46, then Ocular/Muscle/Autacoids/CVS-Renal/Blood | — |
+| Abolmagd Pharma · ANS (Q1-10, `Pharma MCQ by Abolmagd.pdf` pp.3-6) | 10 | 0 | 0 | 0 | 10 |
+| Abolmagd Pharma · ANS (Q11-20, same paper pp.6-8) | 10 | 0 | 0 | 0 (→ ANS Q21-46 pp.6-9 next) | 10 |
+| **Pharmacology subject total** | **20** | **0** | **0** | ANS Q21-46, then Ocular/Muscle/Autacoids/CVS-Renal/Blood | — |
 
 ## Subject opened
 
@@ -35,9 +36,20 @@ answer key — answers expert-determined per the 2026-09-07 policy, STATUS=Draft
 Articles: ART-PAT-310-PHARMACOLOGY-PHARMACOKINETICS (T01),
 ART-PAT-310-PHARMACOLOGY-CHOLINERGIC (T03).
 
+## Concepts minted (slice 2, ANS Q11-20)
+
+8 minted, 2 reused. Reused: CON-PHA-FCC1FFFC037F61 (atropine contraindications — Q15 and
+Q19), CON-PHA-B0AAE42C7C985B (atropine in OP poisoning — reused for Q20). Minted:
+CON-PHA-BB51A08D4E47CD (neostigmine reverses NM blockade), CON-PHA-5D0B2956E3CC88 (M2 = Gi,
+lowers cAMP — DIS-PHA-T02 Pharmacodynamics), CON-PHA-26C5AE690F42DE (pilocarpine
+sialagogue), CON-PHA-876AA36322FF29 (pralidoxime reactivation), CON-PHA-FCC1FFFC037F61
+(atropine contraindications), CON-PHA-4A2BDCC19FE49B (antimuscarinic cycloplegia/mydriasis),
+CON-PHA-6AD22F19596BA7 (hyoscine CNS depressant), CON-PHA-AE3618871E840B (rivastigmine in
+Alzheimer's). Total concepts so far: 18.
+
 ## Held / excluded
 
-None in slice 1.
+None in slices 1-2.
 
 ## Next
 
