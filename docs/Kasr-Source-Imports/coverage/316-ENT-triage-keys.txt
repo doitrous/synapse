@@ -51,3 +51,23 @@ Cross-check notes (key -> the option it selects, verified against the stem):
   Q15 D itching (main symptom of otomycosis);
   Q16 E A & C (control of diabetes + antibiotics in large doses; not radiotherapy);
   Q18 D otomycosis (EXCEPT — bacterial OE causes furunculosis/diffuse/malignant OE; otomycosis is fungal).
+
+
+# Ear section (Q19-102) — keys from the p20 answer-key grid (rendered once at 220 dpi and read visually).
+#   Q1-18 above were transcribed by the module opener; Q19-102 added here so the full Ear grid is captured
+#   in text and the grid need not be re-rendered again. THIS tranche authored Q19-48 (see below); Q49-102 remain.
+Q19.B  Q20.C  Q21.A  Q22.C  Q23.B  Q24.D  Q25.C  Q26.D  Q27.E  Q28.D  Q29.A  Q30.E
+Q31.A  Q32.A  Q33.D  Q34.D  Q35.C  Q36.B  Q37.B  Q38.C  Q39.C  Q40.C  Q41.C  Q42.B
+Q43.B  Q44.B  Q45.B  Q46.B  Q47.A  Q48.B  Q49.B  Q50.D  Q51.C  Q52.B  Q53.C  Q54.B
+Q55.B  Q56.C  Q57.A  Q58.D  Q59.E  Q60.D  Q61.C  Q62.C  Q63.B  Q64.B  Q65.C  Q66.B
+Q67.E  Q68.D  Q69.A  Q70.D  Q71.D  Q72.C  Q73.B  Q74.D  Q75.D  Q76.B  Q77.C  Q78.B
+Q79.C  Q80.A  Q81.C  Q82.A  Q83.C  Q84.C  Q85.A  Q86.C  Q87.B  Q88.A  Q89.D  Q90.C
+Q91.B  Q92.B  Q93.E  Q94.C  Q95.A  Q96.B  Q97.A  Q98.D  Q99.C  Q100.C  Q101.A  Q102.B
+
+# HELD in the Q19-48 tranche (documented, not authored):
+Q22 — near-identical to Q20 (same four options, same printed key C); the differentiating first word "Tachyspanic"
+  is a garbled scan and, if read as "atticoantral", key C (a safe-type feature) contradicts the stem. In-source
+  duplicate / conflicting reading — held.
+Q30 — exact in-source duplicate of Q27 ("Cholesteatoma is characterized by", identical five options, same key E) — held.
+
+# Q19-48 tranche: 28 authored (Q19-21,23-29,31-48), 2 held (Q22, Q30). Remaining Ear: Q49-102 (keys above).

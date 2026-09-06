@@ -191,3 +191,191 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Ear-section external-canal infection concepts (Q9-18) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 5
+
+---
+
+# Item
+## id
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## title
+Otorhinolaryngology: middle-ear inflammatory disease and its complications
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the middle-ear inflammatory disease tested by the Ear section of the bank (Q19-48). It covers secretory otitis media / otitis media with effusion (glue ear — the commonest cause of childhood conductive deafness, predisposed to by adenoids, treated medically then by adenoidectomy and ventilation tubes), acute otitis media and its management, acute mastoiditis and mastoid abscess, the safe tubotympanic and unsafe atticoantral (cholesteatoma) types of chronic suppurative otitis media, cholesteatoma features and its surgical eradication by radical mastoidectomy, the Eustachian-tube route of infection, and the classification of otitis-media complications into intratemporal and intracranial groups, including the signs of raised intracranial tension.
+## sections
+### Definition
+The middle-ear cleft (tympanic cavity, mastoid air cells and Eustachian tube) is the seat of the suppurative and secretory otitides grouped here. Each linked concept states one atomic clinical fact; this overview ties them into acute and chronic middle-ear disease and its complications.
+### Mechanism
+Infection ascends the Eustachian tube from the nasopharynx; a sterile effusion behind an intact drum is secretory otitis media, an acute pyogenic infection is acute otitis media, and unresolved disease becomes chronic suppurative otitis media of the safe (central-perforation) tubotympanic type or the unsafe (marginal-perforation, bone-eroding) atticoantral type with cholesteatoma. Spread of infection produces intratemporal complications (mastoiditis, petrositis, labyrinthitis, facial palsy) or intracranial complications (extradural/subdural abscess, meningitis, brain abscess, sinus thrombosis).
+### Key determinants
+Discriminators tested here: glue ear has an intact retracted drum with a flat tympanogram and is the commonest childhood hearing loss; safe CSOM has a central perforation with profuse odourless discharge and leads to progressive hearing loss, while unsafe cholesteatoma has a marginal perforation with scanty foul discharge and threatens intracranial complications; acute mastoiditis shows a sagging posterosuperior meatal wall; and a parapharyngeal abscess is not an otitis complication.
+### Clinical significance
+These facts direct treatment: glue ear is watched then ventilated, acute otitis media is treated medically without routine imaging, a mastoid abscess needs cortical mastoidectomy, cholesteatoma needs radical mastoidectomy to make the ear safe, and pain or the signs of raised intracranial tension in a chronically discharging ear warn of a complication.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (central versus marginal perforation, safe versus unsafe CSOM, intratemporal versus intracranial complication, meningism versus raised intracranial pressure).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+## subtopic
+Middle-ear disease and complications of otitis media
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T01
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-79EA7E77757958
+CON-MUL-5AE082431808EE
+CON-MUL-7DB5AB80F8503C
+CON-MUL-BE4AD68ABB7429
+CON-MUL-EDE636BD833853
+CON-MUL-B38CEAAE5F4AF5
+CON-MUL-41DA6F2ED005B7
+CON-MUL-F657B804DFB2CE
+CON-MUL-ABCC2E49878945
+CON-MUL-28DBB338DA4A74
+CON-MUL-5B33E6460EDEFB
+CON-MUL-758A07D18780D3
+CON-MUL-F0D20BD9CB34AB
+CON-MUL-E1BD904F7721F5
+CON-MUL-32A8489639AADC
+CON-MUL-A4A1B9F05965B0
+## related_articles
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Ear-section middle-ear and inner-ear concepts (Q19-48) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-ENT-316-EAR-INNER-EAR-VESTIBULAR
+## title
+Otorhinolaryngology: inner-ear and balance disorders
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the inner-ear and balance disorders tested in the Ear section of the bank (Q41 and Q47). It covers Meniere’s disease (the triad of episodic vertigo, fluctuating sensorineural hearing loss and tinnitus from endolymphatic hydrops) and labyrinthitis (vertigo combined with sensorineural hearing loss, localising the lesion to the labyrinth), and distinguishes both from purely vestibular disorders that spare hearing.
+## sections
+### Definition
+The membranous labyrinth houses both the cochlea (hearing) and the vestibular apparatus (balance), so inner-ear disease characteristically combines hearing and balance symptoms. Each linked concept states one atomic clinical fact tying vertigo to the presence or absence of hearing loss.
+### Mechanism
+Endolymphatic hydrops distends the labyrinth in Meniere’s disease, producing recurrent episodic vertigo with fluctuating cochlear symptoms; inflammation of the whole labyrinth (labyrinthitis) affects both its vestibular and cochlear parts at once, giving vertigo with sensorineural hearing loss.
+### Key determinants
+The discriminator is whether hearing is involved: vertigo with sensorineural hearing loss localises to the labyrinth (labyrinthitis, or episodically in Meniere’s disease), whereas vertigo with normal hearing points to vestibular neuritis, and brief positional vertigo without hearing loss points to benign paroxysmal positional vertigo.
+### Clinical significance
+Recognising the hearing component separates a labyrinthine cause that needs audiometric follow-up and, in Meniere’s disease, specific medical management, from a self-limiting vestibular neuritis.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (episodic Meniere versus steady acoustic neuroma; labyrinthitis versus vestibular neuritis versus BPPV).
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Ear and hearing
+## subtopic
+Inner ear and balance
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T01
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-C8BCA22B2C63E6
+CON-MUL-073A1721D7EE22
+## related_articles
+ART-ENT-316-EAR-MIDDLE-EAR-DISEASE
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Ear-section middle-ear and inner-ear concepts (Q19-48) on the real discipline node DIS-ENT-T01 (Ear and hearing). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6
