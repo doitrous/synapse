@@ -1,0 +1,215 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-pharma-cvs-renal",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · PHARMACOLOGY subject · CVS & Renal — Ischaemia / antianginal drugs (Q13-25 selected), authored from the student 'Pharma MCQ by Abolmagd' compilation (pp.14-15). Nicorandil item Q24, verapamil item Q23 and Q21/Q26/Q27 duplicate or are deferred; the queued ANS Q22 (CCB adverse effect) is covered by this slice's DHP-CCB concept and excluded. No printed answer key; answers expert-determined by medical reasoning, proven in per-option explanations. STATUS=Draft.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "high" },
+    "question_only_for": "",
+    "library_ids": ["ART-PAT-310-PHARMACOLOGY-ISCHEMIA"],
+    "resource_ids": ["src_88f58dc630a0ed14bb4e"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pharma MCQ by Abolmagd, CVS & Renal (Ischaemia), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pharmacology",
+    "subtopic": "Antianginal drugs",
+    "question_type": "Mechanism",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 14,
+    "field_notes": { "keySource": "expert-determined by medical reasoning; no source answer key printed in this bank; rationale in per-option explanations" }
+  },
+  "questions": [
+    {
+      "key": "iq13", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-13",
+      "title": "Drug that is a potassium channel opener and nitric oxide donor",
+      "question": "Select the drug that is a potassium channel opener as well as a nitric oxide donor:",
+      "options": { "A": "Diazoxide", "B": "Sodium nitroprusside", "C": "Hydralazine", "D": "Nicorandil" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Diazoxide opens ATP-sensitive potassium channels but is not a nitric oxide donor; it is used as a vasodilator and to raise blood glucose.",
+        "B": "Incorrect. Sodium nitroprusside is a nitric oxide donor but not a potassium channel opener.",
+        "C": "Incorrect. Hydralazine is a direct arteriolar vasodilator and neither a potassium channel opener nor an NO donor.",
+        "D": "Correct. Nicorandil has a DUAL mechanism: it opens ATP-sensitive potassium channels (hyperpolarising and relaxing arterial smooth muscle, reducing afterload) AND donates nitric oxide (raising cGMP to dilate veins, reducing preload). This combination of potassium-channel opening and NO donation is unique to nicorandil among the options."
+      },
+      "main_concept": "CON-PHA-80F787D162169E", "concept_ids": ["CON-PHA-80F787D162169E"],
+      "subtopic": "Antianginal drugs",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify nicorandil as the antianginal that both opens potassium channels and donates nitric oxide.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    },
+    {
+      "key": "iq14", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-14",
+      "title": "Side effect to warn about with sublingual nitroglycerine",
+      "question": "A 65-year-old man is started on sublingual nitroglycerine for exertional angina. He must be warned of which of the following side effects?",
+      "options": { "A": "Erectile dysfunction", "B": "Headache", "C": "Hypertension", "D": "Bradycardia" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Nitrates do not cause erectile dysfunction; indeed they are dangerously contraindicated WITH PDE5 inhibitors used for it.",
+        "B": "Correct. By dilating cerebral and meningeal vessels, nitroglycerine commonly causes a throbbing HEADACHE, especially early in treatment; patients must be warned of this expected effect so they continue therapy. Flushing and postural dizziness from vasodilation are related warnings.",
+        "C": "Incorrect. Nitrates lower blood pressure (they can cause hypotension), not hypertension.",
+        "D": "Incorrect. Nitrate-induced hypotension usually triggers a reflex TACHYCARDIA, not bradycardia."
+      },
+      "main_concept": "CON-PHA-1A592CA0D1A6C6", "concept_ids": ["CON-PHA-1A592CA0D1A6C6"],
+      "subtopic": "Antianginal drugs",
+      "question_type": "Clinical case",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1, "setting": "Clinical",
+      "learning_objective": "Identify headache as the common vasodilatory side effect of nitroglycerine.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    },
+    {
+      "key": "iq15", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-15",
+      "title": "Antianginal for prophylaxis of variant angina that lowers heart rate",
+      "question": "Which of the following is an antianginal drug that consistently decreases the heart rate and is used in the prophylaxis of vasospastic (variant) angina?",
+      "options": { "A": "Isosorbide dinitrate", "B": "Nitroglycerin", "C": "Verapamil", "D": "Propranolol" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Isosorbide dinitrate is a nitrate that reduces preload; it does not consistently lower heart rate (reflex tachycardia is common).",
+        "B": "Incorrect. Nitroglycerin likewise tends to cause reflex tachycardia, not a consistent fall in heart rate.",
+        "C": "Correct. Verapamil is a non-dihydropyridine calcium channel blocker that slows the sinoatrial and atrioventricular nodes, consistently REDUCING heart rate, and it relieves coronary spasm, making it useful for prophylaxis of vasospastic (variant/Prinzmetal) angina. Its combination of rate control and coronary vasodilation fits the description exactly.",
+        "D": "Incorrect. Propranolol lowers heart rate but is CONTRAINDICATED in vasospastic angina, where unopposed alpha tone can worsen coronary spasm."
+      },
+      "main_concept": "CON-PHA-2CF6A3B72DA66F", "concept_ids": ["CON-PHA-2CF6A3B72DA66F"],
+      "subtopic": "Antianginal drugs",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify verapamil as the rate-lowering antianginal used in vasospastic angina, unlike contraindicated propranolol.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    },
+    {
+      "key": "iq16", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-16",
+      "title": "Adverse effect of nifedipine",
+      "question": "Which of the following is an adverse effect of nifedipine?",
+      "options": { "A": "Bronchospasm", "B": "Bradycardia", "C": "Ankle oedema", "D": "Peripheral neuropathy" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Bronchospasm is an effect of non-selective beta-blockers, not of dihydropyridine calcium channel blockers.",
+        "B": "Incorrect. Nifedipine, a dihydropyridine, tends to cause reflex TACHYCARDIA; bradycardia is a feature of verapamil/diltiazem.",
+        "C": "Correct. Dihydropyridine calcium channel blockers such as nifedipine are potent arteriolar vasodilators, and the resulting increase in capillary hydrostatic pressure causes dose-dependent ANKLE (peripheral) OEDEMA. Headache and flushing from the same vasodilation are companion effects. Ankle oedema is therefore the characteristic adverse effect here.",
+        "D": "Incorrect. Peripheral neuropathy is not a recognised adverse effect of nifedipine."
+      },
+      "main_concept": "CON-PHA-8123D3DB466182", "concept_ids": ["CON-PHA-8123D3DB466182"],
+      "subtopic": "Calcium channel blockers",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify ankle oedema (and headache/flushing) as vasodilatory adverse effects of dihydropyridine calcium channel blockers.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Calcium channel blockers"
+    },
+    {
+      "key": "iq17", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-17",
+      "title": "Combination reducing both preload and afterload",
+      "question": "Which of the following combinations of drugs reduces both preload and afterload?",
+      "options": { "A": "Nitroglycerin and isosorbide dinitrate", "B": "Hydralazine and isosorbide dinitrate", "C": "Amlodipine and minoxidil", "D": "Hydralazine and diazoxide" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Both nitroglycerin and isosorbide dinitrate are nitrates acting mainly on VEINS, so this pair reduces preload but not much afterload.",
+        "B": "Correct. Isosorbide dinitrate is a venodilator that lowers PRELOAD, while hydralazine is an arteriolar dilator that lowers AFTERLOAD; combined they reduce both, which is the basis of the hydralazine-nitrate regimen used in heart failure. Pairing a venodilator with an arteriolar dilator is exactly how both loading conditions are reduced.",
+        "C": "Incorrect. Amlodipine and minoxidil are both predominantly ARTERIOLAR dilators, reducing afterload without a matched preload effect.",
+        "D": "Incorrect. Hydralazine and diazoxide are both arteriolar dilators, again targeting afterload rather than both."
+      },
+      "main_concept": "CON-PHA-2D1668A64FBE6F", "concept_ids": ["CON-PHA-2D1668A64FBE6F"],
+      "subtopic": "Vasodilators",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Explain that a venodilator (nitrate) plus an arteriolar dilator (hydralazine) reduces both preload and afterload.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Vasodilators"
+    },
+    {
+      "key": "iq18", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-18",
+      "title": "Benefit of beta-blockers in angina",
+      "question": "Which of the following is a benefit of beta-blockers in the treatment of angina?",
+      "options": { "A": "Coronary vasodilatation", "B": "Decreased cardiac work", "C": "Decreased incidence of atherosclerosis", "D": "Inhibition of platelet aggregation" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Beta-blockers do not dilate coronaries; if anything, unopposed alpha tone can promote coronary constriction.",
+        "B": "Correct. Beta-blockers reduce heart rate, contractility and blood pressure, which lowers myocardial oxygen DEMAND (decreased cardiac work) and prolongs diastolic coronary perfusion. Reducing the demand side of the supply-demand balance is how they relieve and prevent exertional angina. This is their principal antianginal benefit.",
+        "C": "Incorrect. Beta-blockers do not reduce the incidence of atherosclerosis.",
+        "D": "Incorrect. Antiplatelet action is provided by aspirin, not by beta-blockers."
+      },
+      "main_concept": "CON-PHA-EC01BAA3FC6DE6", "concept_ids": ["CON-PHA-EC01BAA3FC6DE6"],
+      "subtopic": "Antianginal drugs",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "State that beta-blockers relieve angina by decreasing myocardial oxygen demand (cardiac work).",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    },
+    {
+      "key": "iq19", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-19",
+      "title": "Why propranolol is contraindicated in vasospastic angina",
+      "question": "Propranolol is contraindicated in vasospastic angina because it may precipitate:",
+      "options": { "A": "Coronary atherosclerosis", "B": "Coronary vasoconstriction", "C": "Hypertension", "D": "Salt and water retention" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Beta-blockade does not cause atherosclerosis, which develops over years from other risk factors.",
+        "B": "Correct. Blocking beta-2 mediated coronary vasodilation leaves alpha-1 mediated vasoconstriction UNOPPOSED, so a non-selective beta-blocker such as propranolol can worsen coronary spasm in vasospastic (variant) angina. Precipitating coronary VASOCONSTRICTION is exactly why it is contraindicated in this condition; a calcium channel blocker is used instead.",
+        "C": "Incorrect. Beta-blockers lower blood pressure; they do not precipitate hypertension in this setting.",
+        "D": "Incorrect. Salt and water retention is not the mechanism of harm in vasospastic angina."
+      },
+      "main_concept": "CON-PHA-1D32B241886698", "concept_ids": ["CON-PHA-1D32B241886698"],
+      "subtopic": "Antianginal drugs",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Explain that non-selective beta-blockade leaves coronary vasoconstriction unopposed, contraindicating propranolol in vasospastic angina.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    },
+    {
+      "key": "iq20", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-20",
+      "title": "Mechanism of tolerance to organic nitrates",
+      "question": "Which of the following is the most likely mechanism of tolerance to the anti-anginal effects of organic nitrates?",
+      "options": { "A": "Activation of enzymes responsible for nitrate metabolism", "B": "Compensatory increase in intracellular calcium with prolonged use", "C": "Depletion of endogenous sulfhydryl (SH) groups required for nitrate activation", "D": "Internalisation of the receptors responsible for nitrate action" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Enzyme induction of nitrate metabolism is not the accepted mechanism of nitrate tolerance.",
+        "B": "Incorrect. A rise in intracellular calcium is not the classical explanation for nitrate tolerance.",
+        "C": "Correct. Organic nitrates must be bioactivated by tissue sulfhydryl (SH) groups to release nitric oxide. Continuous exposure DEPLETES these sulfhydryl donors, so less NO is generated and the vasodilator effect wanes, producing tolerance. This is why a daily nitrate-free interval is used to restore responsiveness.",
+        "D": "Incorrect. Nitrates do not act on a classical membrane receptor that could internalise; they are bioactivated intracellularly."
+      },
+      "main_concept": "CON-PHA-3582A253FAB81F", "concept_ids": ["CON-PHA-3582A253FAB81F"],
+      "subtopic": "Antianginal drugs",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 15,
+      "learning_objective": "State that nitrate tolerance results from depletion of sulfhydryl groups needed to activate nitrates.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    },
+    {
+      "key": "iq22", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-22",
+      "title": "Application of the low oral bioavailability of nitrates",
+      "question": "Organic nitrates have an oral bioavailability of around 10%. Which of the following is most likely to be an application of this property?",
+      "options": { "A": "Combining nitrates with beta-blockers is a favourable combination", "B": "Nitrates are given by IV infusion, not IV bolus, in myocardial infarction", "C": "Nitrates are given sublingually during acute attacks of angina", "D": "Slow-release preparations of nitrates are available" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The nitrate/beta-blocker combination is favourable, but that reflects complementary haemodynamics, not the low oral bioavailability.",
+        "B": "Incorrect. The infusion-versus-bolus choice relates to titratability and short half-life, not to first-pass bioavailability.",
+        "C": "Correct. Organic nitrates undergo extensive hepatic first-pass metabolism, giving only about 10% oral bioavailability. Giving them SUBLINGUALLY bypasses the liver, so the drug reaches the circulation rapidly and reliably to abort an acute angina attack. Exploiting a route that avoids first-pass loss is the direct application of this property.",
+        "D": "Incorrect. Slow-release formulations address short duration of action, not the first-pass bioavailability problem."
+      },
+      "main_concept": "CON-PHA-59768AC53C3060", "concept_ids": ["CON-PHA-59768AC53C3060"],
+      "subtopic": "Antianginal drugs",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 15,
+      "learning_objective": "Explain that extensive first-pass metabolism (low oral bioavailability) is why nitrates are given sublingually for acute attacks.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    },
+    {
+      "key": "iq25", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-ISC-25",
+      "title": "Main beneficial antianginal effect of nitrates",
+      "question": "Which of the following is considered the main beneficial effect of nitrates as an antianginal drug?",
+      "options": { "A": "Venodilatation and reduction of preload", "B": "Bradycardia and reduced cardiac conductivity", "C": "Vasodilatation mainly of the coronary arteries", "D": "Inhibition of myocardial contractility" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. At therapeutic doses nitrates act predominantly on VEINS, causing venodilatation that pools blood peripherally and reduces venous return and PRELOAD. Lower preload reduces ventricular wall tension and myocardial oxygen demand, which is the main way nitrates relieve angina. Coronary dilation contributes but the dominant benefit is preload reduction.",
+        "B": "Incorrect. Nitrates do not slow the heart or reduce conduction; that describes beta-blockers or verapamil.",
+        "C": "Incorrect. Although nitrates can dilate coronaries, their principal antianginal action in typical angina is preload reduction, not direct coronary dilation.",
+        "D": "Incorrect. Nitrates do not directly depress myocardial contractility."
+      },
+      "main_concept": "CON-PHA-F93AF32A1CF100", "concept_ids": ["CON-PHA-F93AF32A1CF100"],
+      "subtopic": "Antianginal drugs",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 15,
+      "learning_objective": "State that the main antianginal benefit of nitrates is venodilatation with reduction of preload.",
+      "module_subject": "310 PAT > Pharmacology > CVS & Renal > Antianginal drugs"
+    }
+  ]
+}

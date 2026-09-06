@@ -16,7 +16,8 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · Autacoids (Q1-7, p.11-12; incl. deferred ANS diphenhydramine) | 7 | 0 | 0 | 0 | 7 |
 | Abolmagd Pharma · Ocular Q1-3 + Muscle Q1,3 (p.10) | 5 | 0 | 1 | 0 (Muscle Q4 CCB→CVS) | 6 |
 | Abolmagd Pharma · CVS & Renal Diuretics Q1-8 + ANS Q24-25 (pp.6,12-13) | 10 | 0 | 2 | 0 | 12 |
-| **Pharmacology subject total** | **56** | **0** | **10** | CVS Q22/Muscle-Q4 (CCB), then Ischemia/HTN/HF/Dysrhythmia (pp.12-27), Blood (p.28); GI & Resp banks | — |
+| Abolmagd Pharma · CVS Ischaemia/antianginal Q13-25 (pp.14-15) | 10 | 0 | 4 | 0 | 14 |
+| **Pharmacology subject total** | **66** | **0** | **14** | CVS Hypertension Q28-38+ (p.16+), Heart Failure (p.20), Dysrhythmia (p.22), Blood (p.28); GI & Resp banks | — |
 
 ## Subject opened
 
@@ -75,7 +76,12 @@ Autacoids cluster. ANS section (Q1-46) now fully triaged: 34 authored, 7 exclude
 5 deferred. Deferred items now placed: Q24/Q25 authored in the Diuretics slice; Q23
 (furosemide) excluded there as a duplicate of Diuretics Q7; Q22 (CCB) + Muscle Q4 (CCB)
 remain queued for a CVS antihypertensives slice. Diuretics section: Q9 excluded (duplicate
-aldosterone-antagonist item = Q8).
+aldosterone-antagonist item = Q8). Ischaemia slice excludes: Q21 (nitrate signalling
+sequence — deferred, authorable later), Q23 (verapamil rate = Ischaemia Q15 fact), Q24
+(nicorandil NO = Ischaemia Q13 fact), Q26/Q27 (antianginal statement/combination — deferred).
+The queued ANS Q22 (CCB adverse effect = headache) is now covered by the DHP-CCB concept
+CON-PHA-8123D3DB466182 and is EXCLUDED as a duplicate fact; Muscle Q4 (DHP vs non-DHP for
+hypertension) stays queued for the Hypertension slice.
 
 ## Slice-4 concepts (ANS tail)
 

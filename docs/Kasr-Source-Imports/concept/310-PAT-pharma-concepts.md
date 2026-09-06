@@ -4384,3 +4384,813 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-80F787D162169E
+## label
+Nicorandil: potassium channel opener and NO donor
+## canonical_key
+nicorandil.potassium-opener.no-donor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nicorandil has a dual antianginal mechanism: it opens ATP-sensitive potassium channels (hyperpolarising arterial smooth muscle and reducing afterload) and donates nitric oxide (raising cGMP to dilate veins and reduce preload). This combination distinguishes it from pure NO donors (nitroprusside), pure potassium openers (diazoxide) and direct arteriolar dilators (hydralazine).
+## explicit_objective
+Identify nicorandil as the antianginal that both opens potassium channels and donates nitric oxide.
+## pitfalls
+Confusing nicorandil with a single-mechanism vasodilator; its dual K-channel and NO action is the point.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F93AF32A1CF100
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-1A592CA0D1A6C6
+## label
+Nitroglycerine commonly causes headache
+## canonical_key
+nitroglycerin.adverse.headache
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+By dilating cerebral and meningeal vessels, nitroglycerine and other nitrates commonly cause a throbbing headache, especially early in treatment, along with flushing and postural dizziness from vasodilation and reflex tachycardia. Patients should be warned of the expected headache so they continue therapy. Nitrates lower, not raise, blood pressure.
+## explicit_objective
+Identify headache as the common vasodilatory side effect of nitroglycerine.
+## pitfalls
+Expecting bradycardia or hypertension; nitrates cause hypotension with reflex tachycardia and headache.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F93AF32A1CF100
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-2CF6A3B72DA66F
+## label
+Verapamil for vasospastic angina with heart-rate reduction
+## canonical_key
+verapamil.variant-angina.heart-rate
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Verapamil is a non-dihydropyridine calcium channel blocker that slows the sinoatrial and atrioventricular nodes, consistently reducing heart rate, and it relieves coronary spasm. This makes it useful for prophylaxis of vasospastic (variant/Prinzmetal) angina, where beta-blockers such as propranolol are contraindicated because unopposed alpha tone can worsen spasm.
+## explicit_objective
+Identify verapamil as the rate-lowering antianginal used in vasospastic angina.
+## pitfalls
+Choosing a nitrate (reflex tachycardia) or propranolol (contraindicated) for vasospastic angina.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-1D32B241886698
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-8123D3DB466182
+## label
+Dihydropyridine CCBs cause ankle oedema and flushing
+## canonical_key
+dihydropyridine-ccb.adverse.ankle-edema-flushing
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dihydropyridine calcium channel blockers such as nifedipine and amlodipine are potent arteriolar vasodilators; the rise in capillary hydrostatic pressure causes dose-dependent ankle (peripheral) oedema, and the vasodilation also produces headache, flushing and reflex tachycardia. They do not cause bradycardia (a verapamil/diltiazem effect) or bronchospasm.
+## explicit_objective
+Identify ankle oedema, headache and flushing as vasodilatory adverse effects of dihydropyridine calcium channel blockers.
+## pitfalls
+Expecting bradycardia from a dihydropyridine; only non-dihydropyridines (verapamil/diltiazem) slow the heart.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Calcium channel blockers
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Calcium channel blockers
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-2CF6A3B72DA66F
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-2D1668A64FBE6F
+## label
+Reducing both preload and afterload: nitrate plus hydralazine
+## canonical_key
+antianginal.preload-afterload.hydralazine-nitrate
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Preload is reduced by venodilators (nitrates such as isosorbide dinitrate) and afterload by arteriolar dilators (hydralazine). Combining an arteriolar dilator with a venodilator therefore reduces BOTH loading conditions, which is the basis of the hydralazine-plus-nitrate regimen in heart failure. Pairs of drugs that dilate only arterioles (amlodipine + minoxidil; hydralazine + diazoxide) reduce afterload alone.
+## explicit_objective
+Explain that a venodilator (nitrate) plus an arteriolar dilator (hydralazine) reduces both preload and afterload.
+## pitfalls
+Pairing two arteriolar (or two venous) dilators and expecting balanced preload and afterload reduction.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Vasodilators
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Vasodilators
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F93AF32A1CF100
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-EC01BAA3FC6DE6
+## label
+Beta-blockers relieve angina by reducing cardiac work
+## canonical_key
+beta-blocker.angina.decreased-cardiac-work
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Beta-blockers reduce heart rate, contractility and blood pressure, lowering myocardial oxygen DEMAND (cardiac work) and prolonging diastolic coronary perfusion. Reducing the demand side of the oxygen supply-demand balance is how they relieve and prevent exertional angina. They do not dilate coronaries, reduce atherosclerosis or inhibit platelets.
+## explicit_objective
+State that beta-blockers relieve angina by decreasing myocardial oxygen demand (cardiac work).
+## pitfalls
+Ascribing coronary vasodilation or antiplatelet action to beta-blockers; their benefit is reduced demand.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-1D32B241886698
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-1D32B241886698
+## label
+Propranolol is contraindicated in vasospastic angina
+## canonical_key
+propranolol.vasospastic-angina.contraindicated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In vasospastic (variant) angina, blocking beta-2 mediated coronary vasodilation leaves alpha-1 mediated vasoconstriction unopposed, so a non-selective beta-blocker such as propranolol can worsen coronary spasm and precipitate coronary vasoconstriction. It is therefore contraindicated in vasospastic angina, where a calcium channel blocker is used instead.
+## explicit_objective
+Explain that non-selective beta-blockade leaves coronary vasoconstriction unopposed, contraindicating propranolol in vasospastic angina.
+## pitfalls
+Using a non-selective beta-blocker in vasospastic angina; unopposed alpha tone worsens spasm.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-2CF6A3B72DA66F
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-3582A253FAB81F
+## label
+Nitrate tolerance from sulfhydryl depletion
+## canonical_key
+organic-nitrate.tolerance.sulfhydryl-depletion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organic nitrates must be bioactivated by tissue sulfhydryl (SH) groups to release nitric oxide. Continuous exposure DEPLETES these sulfhydryl donors, so less nitric oxide is generated and the vasodilator effect wanes, producing tolerance. A daily nitrate-free interval restores responsiveness by allowing sulfhydryl groups to regenerate.
+## explicit_objective
+State that nitrate tolerance results from depletion of sulfhydryl groups needed to activate nitrates.
+## pitfalls
+Attributing nitrate tolerance to receptor internalisation or enzyme induction rather than sulfhydryl depletion.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F93AF32A1CF100
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-59768AC53C3060
+## label
+Nitrates given sublingually to bypass first-pass metabolism
+## canonical_key
+organic-nitrate.low-oral-bioavailability.sublingual
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organic nitrates undergo extensive hepatic first-pass metabolism, giving only about 10% oral bioavailability. Giving them SUBLINGUALLY bypasses the portal circulation and liver, so the drug reaches the systemic circulation rapidly and reliably to abort an acute angina attack. This is a direct application of avoiding first-pass loss; slow-release forms instead address short duration of action.
+## explicit_objective
+Explain that extensive first-pass metabolism is why nitrates are given sublingually for acute attacks.
+## pitfalls
+Linking low oral bioavailability to formulation duration rather than to the sublingual route that avoids first-pass loss.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-A668F2983A9C7E
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F93AF32A1CF100
+## label
+Main antianginal effect of nitrates is preload reduction
+## canonical_key
+organic-nitrate.mechanism.venodilation-preload
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+At therapeutic doses nitrates act predominantly on veins, causing venodilatation that pools blood peripherally and reduces venous return and PRELOAD. Lower preload reduces ventricular wall tension and myocardial oxygen demand, which is the main way nitrates relieve angina; coronary dilation contributes but is not the dominant effect. Nitrates release nitric oxide, which raises cGMP and dephosphorylates myosin light chains to relax smooth muscle.
+## explicit_objective
+State that the main antianginal benefit of nitrates is venodilatation with reduction of preload.
+## pitfalls
+Believing nitrates work mainly by direct coronary dilation or by slowing the heart; the dominant effect is preload reduction.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-3582A253FAB81F
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

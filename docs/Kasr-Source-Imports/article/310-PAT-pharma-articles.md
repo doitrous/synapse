@@ -573,3 +573,99 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 8
+
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## title
+Antianginal drugs: nitrates, beta-blockers and calcium channel blockers
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Angina is treated by improving the myocardial oxygen supply-demand balance. Nitrates release nitric oxide to venodilate, reducing preload (their main benefit) and causing headache and reflex tachycardia; tolerance follows sulfhydryl depletion, and extensive first-pass metabolism dictates the sublingual route for acute attacks. Beta-blockers reduce heart rate, contractility and cardiac work but are contraindicated in vasospastic angina, where unopposed alpha tone worsens spasm. Calcium channel blockers relieve coronary spasm: verapamil also slows the heart (useful in variant angina), while dihydropyridines (nifedipine) cause ankle oedema, flushing and reflex tachycardia. Combining a venodilator with an arteriolar dilator reduces both preload and afterload; nicorandil uniquely opens potassium channels and donates nitric oxide.
+## sections
+### Definition
+This article groups the antianginal concepts tested by the CVS & Renal ischaemia section (Q13-25).
+### Mechanism
+Nitrates release NO (raising cGMP) to venodilate; beta-blockers cut oxygen demand; calcium channel blockers dilate coronaries and (non-dihydropyridines) slow the heart.
+### Key determinants
+Discriminators tested here: nitrate main effect = preload reduction; nitrate tolerance = sulfhydryl depletion; sublingual route for first-pass avoidance; beta-blocker benefit = reduced cardiac work; propranolol contraindicated in vasospasm; verapamil for variant angina; dihydropyridine adverse effect = ankle oedema; nicorandil = K-opener + NO donor; hydralazine+nitrate reduce both loads.
+### Clinical significance
+These agents underpin stable, variant and unstable angina management and explain key contraindications (beta-blockers in vasospasm) and adverse effects.
+### Common misconceptions
+Frequent traps: thinking nitrates work by coronary dilation, using a non-selective beta-blocker in vasospasm, and expecting bradycardia from a dihydropyridine; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## subtopic
+Antianginal drugs
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-80F787D162169E
+CON-PHA-1A592CA0D1A6C6
+CON-PHA-2CF6A3B72DA66F
+CON-PHA-8123D3DB466182
+CON-PHA-2D1668A64FBE6F
+CON-PHA-EC01BAA3FC6DE6
+CON-PHA-1D32B241886698
+CON-PHA-3582A253FAB81F
+CON-PHA-59768AC53C3060
+CON-PHA-F93AF32A1CF100
+## related_articles
+ART-PAT-310-PHARMACOLOGY-DIURETICS
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+8
