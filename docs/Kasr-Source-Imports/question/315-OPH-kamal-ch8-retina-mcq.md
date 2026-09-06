@@ -2625,3 +2625,1245 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The r
 yes
 
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-22
+
+## title
+Plane of fluid accumulation in retinal detachment
+
+## question
+In retinal detachment, fluid accumulates between:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Outer plexiform layer and inner nuclear layer.
+
+## explanation_a
+Incorrect. The detachment plane is at the retina-RPE interface, not within the inner retinal layers.
+
+## answer_b
+Neurosensory retina and the layer of retinal pigment epithelium.
+
+## explanation_b
+Correct. A retinal detachment separates the neurosensory retina from the underlying retinal pigment epithelium, and subretinal fluid collects in this space.
+
+## answer_c
+Nerve fiber layer and rest of retina.
+
+## explanation_c
+Incorrect. Separation does not occur between the nerve fibre layer and the rest of the retina.
+
+## answer_d
+Retinal pigment epithelium and inner nuclear layer.
+
+## explanation_d
+Incorrect. The plane is between the neurosensory retina and the RPE, not between the RPE and the inner nuclear layer.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-7CC8577EE7523B
+
+## concept_ids
+CON-MUL-7CC8577EE7523B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify the retina-RPE interface as the plane of retinal detachment.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.113); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-23
+
+## title
+Commonest lesion impairing vision in diabetic retinopathy
+
+## question
+The commonest lesion which hinders vision in diabetic retinopathy is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Macular oedema.
+
+## explanation_a
+Correct. Diabetic macular oedema is the commonest cause of visual impairment in diabetic retinopathy.
+
+## answer_b
+Microaneurysms.
+
+## explanation_b
+Incorrect. Microaneurysms are an early sign but do not themselves impair vision.
+
+## answer_c
+Retinal hemorrhage.
+
+## explanation_c
+Incorrect. Scattered retinal haemorrhages impair vision only if they involve the macula.
+
+## answer_d
+Tractional retinal detachment.
+
+## explanation_d
+Incorrect. Tractional detachment is a serious but less common cause of visual loss than macular oedema.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-FC03374F08ABBA
+
+## concept_ids
+CON-MUL-FC03374F08ABBA
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Identify macular oedema as the commonest cause of visual loss in diabetic retinopathy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.113); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-24
+
+## title
+Pathology driving new vessel formation in diabetic retinopathy
+
+## question
+In diabetic retinopathy the new vessel formation is due to the following pathology:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Retinal hemorrhage.
+
+## explanation_a
+Incorrect. Retinal haemorrhage is a consequence of vascular damage, not the driver of new vessels.
+
+## answer_b
+Vitreous hemorrhage.
+
+## explanation_b
+Incorrect. Vitreous haemorrhage is a complication of established new vessels, not their cause.
+
+## answer_c
+Retinal oedema.
+
+## explanation_c
+Incorrect. Retinal oedema does not itself stimulate neovascularization.
+
+## answer_d
+Retinal ischemia.
+
+## explanation_d
+Correct. Retinal ischaemia (capillary closure and hypoxia) releases VEGF, which drives new vessel formation in proliferative diabetic retinopathy.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-076044B0008F4F
+
+## concept_ids
+CON-MUL-076044B0008F4F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Attribute diabetic neovascularization to retinal ischaemia.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.113); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-25
+
+## title
+Pathognomonic sign of proliferative diabetic retinopathy
+
+## question
+The pathognomonic clinical sign of proliferative diabetic retinopathy is:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Micro aneurysms.
+
+## explanation_a
+Incorrect. Microaneurysms are an early background feature, not specific to proliferative disease.
+
+## answer_b
+Hard exudates.
+
+## explanation_b
+Incorrect. Hard exudates occur in maculopathy and background retinopathy.
+
+## answer_c
+Vitreous hemorrhages.
+
+## explanation_c
+Incorrect. Vitreous haemorrhage is a complication of new vessels, not the defining sign itself.
+
+## answer_d
+Neovascularization of retina.
+
+## explanation_d
+Correct. Retinal neovascularization is the pathognomonic (defining) sign of PROLIFERATIVE diabetic retinopathy.
+
+## topic
+Ophthalmology
+
+## subtopic
+Diabetic retinopathy
+
+## main_concept
+CON-MUL-2B7C1BAB6A8A20
+
+## concept_ids
+CON-MUL-2B7C1BAB6A8A20
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise retinal neovascularization as the pathognomonic sign of proliferative diabetic retinopathy.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.114); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-26
+
+## title
+False statement about the blood supply of the retina
+
+## question
+The following is false concerning the blood supply of the retina:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The central retinal artery supplies the inner layers of the retina.
+
+## explanation_a
+Incorrect (a true statement). The central retinal artery supplies the inner retinal layers.
+
+## answer_b
+The central retinal artery is an end artery.
+
+## explanation_b
+Incorrect (a true statement). The central retinal artery is an end artery.
+
+## answer_c
+The outer layers are supplied by the ciliary circulation.
+
+## explanation_c
+Incorrect (a true statement). The outer retinal layers are supplied by the choroidal (ciliary) circulation.
+
+## answer_d
+The cilioretinal artery communicates the central retinal artery with the ciliary circulation.
+
+## explanation_d
+Correct. This is the false statement: the central retinal artery is an end artery with no anastomosis; a cilioretinal artery arises from the ciliary circulation and supplies part of the retina, but it does not communicate the central retinal artery with the ciliary circulation.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vascular disease
+
+## main_concept
+CON-MUL-AE4472E9A11DBF
+
+## concept_ids
+CON-MUL-AE4472E9A11DBF
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that the central retinal artery is an end artery with no anastomosis to the ciliary circulation.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.114); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-27
+
+## title
+Not a risk factor for rhegmatogenous retinal detachment
+
+## question
+The following are risk factors for the development of rhegmatogenous retinal detachment, EXCEPT:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Gender.
+
+## explanation_a
+Correct. This is the exception: gender is not a recognised risk factor for rhegmatogenous retinal detachment.
+
+## answer_b
+High myopia.
+
+## explanation_b
+Incorrect (a true risk factor). High myopia predisposes to retinal breaks and detachment.
+
+## answer_c
+Blunt trauma.
+
+## explanation_c
+Incorrect (a true risk factor). Blunt trauma can cause a retinal tear and detachment.
+
+## answer_d
+Cataract extraction.
+
+## explanation_d
+Incorrect (a true risk factor). Cataract extraction (aphakia/pseudophakia) increases the risk of retinal detachment.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal detachment
+
+## main_concept
+CON-MUL-0BCA326DF12B10
+
+## concept_ids
+CON-MUL-0BCA326DF12B10
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that gender is not a risk factor for rhegmatogenous retinal detachment.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.114); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-28
+
+## title
+Characteristics of choroidal malignant melanoma
+
+## question
+Malignant melanoma of the choroid is characterized by:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Producing rhegmatogenous retinal detachment.
+
+## explanation_a
+Incorrect. Choroidal melanoma produces an exudative (solid) detachment, not a rhegmatogenous one.
+
+## answer_b
+May produce secondary glaucoma.
+
+## explanation_b
+Correct. A choroidal melanoma may produce secondary glaucoma (and an exudative detachment), and appears mushroom-shaped on ultrasonography.
+
+## answer_c
+Shows calcification on plain X-ray.
+
+## explanation_c
+Incorrect. Calcification on X-ray is characteristic of retinoblastoma, not choroidal melanoma.
+
+## answer_d
+Occurring in infants with family history of similar conditions.
+
+## explanation_d
+Incorrect. Occurrence in infants with a family history describes retinoblastoma; choroidal melanoma is a tumour of adults.
+
+## topic
+Ophthalmology
+
+## subtopic
+Intraocular tumours
+
+## main_concept
+CON-MUL-C72572221990A6
+
+## concept_ids
+CON-MUL-C72572221990A6
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that choroidal melanoma may cause secondary glaucoma and distinguish it from retinoblastoma.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.114); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-30
+
+## title
+Manifestation not seen in central retinal vein thrombosis
+
+## question
+Central retinal vein thrombosis manifestations do NOT include:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Retinal veins are tortuous and dilated.
+
+## explanation_a
+Incorrect (a true feature). Tortuous, dilated retinal veins are characteristic of CRVO.
+
+## answer_b
+Aching pain and headache.
+
+## explanation_b
+Correct. This is the exception: central retinal vein occlusion is painless — aching pain and headache are not features.
+
+## answer_c
+Superficial hemorrhage all over the fundus.
+
+## explanation_c
+Incorrect (a true feature). Superficial (flame) haemorrhages scattered over the fundus are characteristic.
+
+## answer_d
+Impairment of vision.
+
+## explanation_d
+Incorrect (a true feature). CRVO causes painless impairment of vision.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal vein occlusion
+
+## main_concept
+CON-MUL-C936EF1E19FD32
+
+## concept_ids
+CON-MUL-C936EF1E19FD32
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Recognise that central retinal vein occlusion is painless.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.114); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH8-31
+
+## title
+Condition associated with a cherry-red spot
+
+## question
+A cherry-red spot can be found in the following condition:
+
+## subject
+mul
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Retinitis pigmentosa.
+
+## explanation_a
+Incorrect. Retinitis pigmentosa shows bone-spicule pigmentation and a waxy disc, not a cherry-red spot.
+
+## answer_b
+Central retinal artery occlusion.
+
+## explanation_b
+Correct. Central retinal artery occlusion produces a pale oedematous retina with a cherry-red spot at the fovea.
+
+## answer_c
+Central chorioretinitis.
+
+## explanation_c
+Incorrect. Central chorioretinitis produces an inflammatory focus, not a cherry-red spot.
+
+## answer_d
+Penetrating eye injury.
+
+## explanation_d
+Incorrect. A penetrating eye injury does not characteristically cause a cherry-red spot.
+
+## topic
+Ophthalmology
+
+## subtopic
+Retinal artery occlusion
+
+## main_concept
+CON-MUL-D6D8B1DAE97079
+
+## concept_ids
+CON-MUL-D6D8B1DAE97079
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.2
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y3=high
+
+## years
+KAU_Y3
+
+## universities
+kau
+
+## module
+315 OPH
+
+## module_subject
+315 OPH > Ophthalmology > The retina
+
+## question_only_for
+
+## library_ids
+ART-OPH-315-RETINA
+
+## resource_ids
+src_c30b94e296cd15ba86c2
+
+## learning_objective
+Associate the cherry-red spot with central retinal artery occlusion.
+
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.8 The retina (PDF p.114); key from companion printed answer key
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
