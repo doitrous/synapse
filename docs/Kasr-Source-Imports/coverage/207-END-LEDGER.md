@@ -10,8 +10,9 @@
 | 2026-eom-198-fresh-slice (`EOM - (END - 207) 198 (Solved).pdf`) | 16 | 1 | 0 | 91 | 108 |
 | medhat-endo-anatomy (Q1-25, `207 Dr Medhat mcq (endo).pdf`, NON-EOM bank) | 21 | 0 | 0 | 0 fresh + 4 dupe | 25 |
 | galal-repro (`207 Mcq Galal (repro).pdf`, NON-EOM bank, ~47 Qs) | 27 | 0 | 0 | dupes skipped; bank exhausted | ~47 |
-| **207 END module authored (3 EOM + 2 banks)** | **221** | **2** | **1** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 221 | 2 | 1 | untriaged | — |
+| galal-endo (`207 mcq Dr Galal (endo).pdf`, NON-EOM bank, 27 keyed) | 17 | 1 | 0 | 9 dupes skipped; bank exhausted | 27 |
+| **207 END module authored (3 EOM + 3 banks)** | **238** | **3** | **1** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 238 | 3 | 1 | untriaged | — |
 
 ## Module opened
 
@@ -471,3 +472,65 @@ fresh keyed stems EXHAUSTED. Gate-clean each slice: concept 22/0->27/0, article 
 **Next 207 END cluster:** open `207 mcq Dr Galal (endo).pdf` (next non-EOM bank in priority order;
 register a manifest row only if not already listed), recover keys (same circle-around-letter
 marker), dedup vs the 221-item corpus, author push-per-slice.
+
+## Sixth source — Dr Galal endocrine-gland ANATOMY MCQ bank (THIRD non-EOM source): EXHAUSTED
+
+Paper: `207 mcq Dr Galal (endo).pdf` (Anatomy Other [2nd priority]/MCQs; manifest sourceId
+`src_d553e1179fb89eb56d5a`, sha256
+d553e1179fb89eb56d5a9b66f19586e0278057b6583dfa1b33315eed30473b5a; examType null — a TOPIC bank,
+so examSittingYear=null; already in kasr-y2-sources.json, no new manifest row). Scanned
+(CamScanner), 7 pages, no text layer (OCR'd). Gross anatomy + development of the endocrine glands
+(thyroid, parathyroid, pituitary, suprarenal, pancreas); p.1 is a topic legend (1..32) and the
+blue left-margin numbers on the question pages are those topic references, NOT answer marks. NOT
+a dup sha of any mined 207 END source. Registered in `evidence/207-END-resources.md`.
+
+**Key marker: TWO conventions in one bank, both render-verified at 220 dpi (pp.2-6):** typed items
+(pdf pp.2-4) carry a hand-drawn CIRCLE around the correct option letter; handwritten items (pdf
+pp.5-6) carry a SOLID/filled blob on the correct option (all options are drawn with circled-letter
+bullets, so the filled one is the key). **27 keyed stems recovered, 1 HELD** — box67 ("Regarding
+the suprarenal glands, one of the following is not correct") is annotated **"all are correct"** with
+no option circled, so it has no valid single-best key and is held (never authored without a real
+key). All keys and the section map are in `coverage/207-END-triage-keys.txt`.
+
+**17 authored** (2 pushed slices; slice A = 9, slice B = 8) — every one a claim NOT already in the
+authored 207-END corpus (221), verified against the corpus canonical keys. 0 held-for-image, 0
+excluded. Sections: 7 thyroid (three-paired-veins, moves-with-swallowing, RLN hoarseness,
+development from floor of pharynx, midline-tracheostomy inferior-thyroid-veins, thyroglossal cyst,
+inferior-thyroid-artery ligation away from gland), 7 pancreas (SMV anterior to uncinate, splenic
+artery vs vein on the upper border, uncinate SMA supply, annular pancreas → 2nd duodenum, head
+anterior to transverse colon, main-duct formation, lymph excludes inferior-mesenteric nodes), 2
+suprarenal (left gland reaches renal hilum, cortex zonation superficial→deep), 1 pituitary
+(posterior lobe supplied by inferior hypophyseal artery). Subject tag `endo` throughout.
+
+**Dedup vs the Dr Medhat endocrine-anatomy bank + the corpus:** 9 keyed stems skipped, 8 as hard
+duplicates of authored concepts (box6 right-suprarenal-vein→IVC, box81 tail-in-lienorenal, box16
+tail-only-intraperitoneal, box23 pancreatic-head-cancer→jaundice, box24 left-suprarenal-vein→left-
+renal, box13 CBD+duct→ampulla-of-Vater, suprarenal-"1-" left-gland-in-stomach-bed, parathyroid-
+"except" hyper/hypoparathyroid physiology) and 1 as low-value/generic (box30 "retroperitoneal").
+Dedup/skip rate 9/26 keyed ≈ 35%, well under the 60% stop threshold.
+
+17 new concepts minted university-blind (CON-END- + first 14 hex of SHA-256 of the canonical key,
+uppercased): all 17 `CON-END-*` — collision-checked corpus-wide (0 collisions, 0 in-batch
+duplicates; none of the Medhat/EOM concepts reusable — distinct atomic claims). Filed under
+DIS-ANA-T06 (head/neck: thyroid/pituitary) or DIS-ANA-T05 (abdomen: suprarenal/pancreas) with
+SYS-END-T03 cross-nav. Grouped into 4 new library articles
+(`ART-END-207END-GALALENDO-THYROID-ANATOMY`, `ART-END-207END-GALALENDO-PANCREAS-ANATOMY`,
+`ART-END-207END-GALALENDO-SUPRARENAL-ANATOMY`, `ART-END-207END-GALALENDO-PITUITARY-ANATOMY`).
+Written from standard regional-anatomy/embryology teaching (Snell / Last's / Moore / Langman level)
+corroborated by this bank's own keyed stems/options (render-verified pp.2-6); no department book
+read this pass.
+
+Authored in `question/207-END-galal-endo-mcq.md` (from seed `seed/207-END-galal-endo.json` — never
+hand-edit the emitted .md; fix the seed and re-emit), `concept/207-END-galal-endo-concepts.md`,
+`article/207-END-galal-endo-articles.md`. Committed in two slices (A = Q1-9 with all
+concepts/articles/resource, B = Q10-17) so a mid-lane failure loses nothing. Gate-clean vs the
+module baseline (concept batch 17 items 0 errors; article batch 4 items 0 errors; MCQ batch 9→17
+items = the shared not-yet-imported `resource_ids` category, one/item — the single category every
+207-END MCQ file carries).
+
+**The Dr Galal endocrine-anatomy bank is now EXHAUSTED for fresh keyed stems (17 authored / 1 held /
+9 skipped of 27 keyed).** The 207 END module is now **238 authored** (3 EOM 173 + Medhat 21 + Galal
+repro 27 + Galal endo 17), 3 held, 1 excluded. **Next 207 END cluster:** open
+`Anatomy MCQ by Dr.Jalal[END].pdf` (next non-EOM bank in priority order), then `ANATOMY MCQ [RPR].pdf`;
+register a manifest row only if the source isn't already listed, recover keys, dedup vs the ~238-item
+corpus, author push-per-slice. 3 department books also remain entirely untriaged.

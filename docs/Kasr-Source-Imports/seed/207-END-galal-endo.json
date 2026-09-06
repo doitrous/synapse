@@ -354,6 +354,294 @@
         "keySource": "circled option letter, render-verified pdf p.3 (box9-head=b)",
         "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
       }
+    },
+    {
+      "key": "q010",
+      "id": "QST-KASR207END-GALALENDO-010",
+      "page": "p.3",
+      "subject": "endo",
+      "title": "Venous bleeding during emergency tracheostomy",
+      "question": "During an emergency tracheostomy through a midline incision below the isthmus, profuse dark venous bleeding suddenly occurred. Which vessel was most likely injured?",
+      "options": {
+        "A": "Superior thyroid vein.",
+        "B": "Middle thyroid vein.",
+        "C": "Inferior thyroid vein.",
+        "D": "External jugular vein."
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. Below the isthmus, in the midline in front of the trachea, lie the inferior thyroid veins (often a plexus, with an occasional thyroidea ima vein) descending to the left brachiocephalic vein. A low midline tracheostomy incision passes over these veins, producing dark venous bleeding. They are the vessels classically cut in this approach.",
+        "A": "Incorrect. The superior thyroid vein accompanies the superior thyroid artery at the upper pole, away from a low midline incision.",
+        "B": "Incorrect. The middle thyroid vein runs laterally from the lobe to the internal jugular vein, not in the infra-isthmic midline.",
+        "D": "Incorrect. The external jugular vein lies superficially over the sternocleidomastoid, lateral to a midline tracheostomy incision."
+      },
+      "main_concept": "CON-END-34B8F5CC5294C7",
+      "concept_ids": [
+        "CON-END-34B8F5CC5294C7"
+      ],
+      "subtopic": "Thyroid gland",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-THYROID-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Thyroid gland",
+      "learning_objective": "Venous bleeding during emergency tracheostomy.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option letter, render-verified pdf p.4 (box15=c)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
+    },
+    {
+      "key": "q011",
+      "id": "QST-KASR207END-GALALENDO-011",
+      "page": "p.3",
+      "subject": "endo",
+      "title": "Midline neck cyst that moves on tongue protrusion",
+      "question": "A 7-year-old presented with a mobile mass in the anterior midline of the neck that elevated on protrusion of the tongue. This cyst most likely developed from which embryonic structure?",
+      "options": {
+        "A": "First pharyngeal cleft.",
+        "B": "First pharyngeal pouch.",
+        "C": "Second pharyngeal cleft.",
+        "D": "Thyroglossal duct."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. A thyroglossal cyst arises from a persistent remnant of the thyroglossal duct, the tract along which the thyroid descended from the foramen cecum of the tongue. Because the tract stays attached to the hyoid and tongue base, the cyst rises when the tongue is protruded — the diagnostic sign. Its midline position and this movement identify it as a thyroglossal duct remnant.",
+        "A": "Incorrect. The first pharyngeal cleft forms the external acoustic meatus; its remnants present near the ear.",
+        "B": "Incorrect. The first pharyngeal pouch forms the tubotympanic recess (middle ear and auditory tube), not a midline neck cyst.",
+        "C": "Incorrect. Second-cleft remnants form lateral (branchial) cysts along the sternocleidomastoid and do not move with tongue protrusion."
+      },
+      "main_concept": "CON-END-0B2629D4E79D50",
+      "concept_ids": [
+        "CON-END-0B2629D4E79D50"
+      ],
+      "subtopic": "Thyroid gland",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-THYROID-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Thyroid gland",
+      "learning_objective": "Midline neck cyst that moves on tongue protrusion.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option letter, render-verified pdf p.4 (box30-cyst=d)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
+    },
+    {
+      "key": "q012",
+      "id": "QST-KASR207END-GALALENDO-012",
+      "page": "p.3",
+      "subject": "endo",
+      "title": "Formation of the main pancreatic duct",
+      "question": "The main pancreatic duct (of Wirsung) is formed of:",
+      "options": {
+        "A": "The dorsal pancreatic duct only.",
+        "B": "The ventral pancreatic duct only.",
+        "C": "The whole dorsal pancreatic duct and the whole ventral pancreatic duct.",
+        "D": "The distal part of the dorsal pancreatic duct and the duct of the ventral pancreas."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The main pancreatic duct forms by fusion of the entire duct of the ventral bud with the distal part of the dorsal bud duct. The proximal part of the dorsal duct persists as the accessory duct of Santorini. This mixed origin is why the main duct opens with the bile duct at the major papilla while the accessory duct opens at the minor papilla.",
+        "A": "Incorrect. The dorsal duct contributes only its distal part; its proximal part becomes the accessory duct, so \"dorsal only\" is wrong.",
+        "B": "Incorrect. The ventral duct alone drains only the ventral derivatives; the main duct also incorporates the distal dorsal duct.",
+        "C": "Incorrect. Only the distal, not the whole, dorsal duct joins the ventral duct; the proximal dorsal duct becomes the accessory duct of Santorini."
+      },
+      "main_concept": "CON-END-4203D6324C5BFD",
+      "concept_ids": [
+        "CON-END-4203D6324C5BFD"
+      ],
+      "subtopic": "Pancreas",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-PANCREAS-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Pancreas",
+      "learning_objective": "Formation of the main pancreatic duct.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option letter, render-verified pdf p.4 (box9-duct=d)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
+    },
+    {
+      "key": "q013",
+      "id": "QST-KASR207END-GALALENDO-013",
+      "page": "p.4",
+      "subject": "endo",
+      "title": "Lymphatic drainage of the pancreas",
+      "question": "Regarding the pancreas, which one of the following statements is NOT correct?",
+      "options": {
+        "A": "Its lymph vessels drain into both the superior and inferior mesenteric nodes.",
+        "B": "The inferior vena cava lies behind the head of the pancreas.",
+        "C": "The tail lies within the lienorenal ligament.",
+        "D": "The beginning of the portal vein lies deep to the neck."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. This is the incorrect statement and therefore the answer. Pancreatic lymph drains to the pancreaticosplenic, coeliac and superior mesenteric (and hepatic/pyloric) nodes; it does not drain to the inferior mesenteric nodes, which serve the hindgut. Claiming drainage into the inferior mesenteric nodes is therefore wrong.",
+        "B": "Incorrect. This statement is true: the inferior vena cava is a posterior relation of the head of the pancreas.",
+        "C": "Incorrect. This statement is true: the tail is intraperitoneal within the lienorenal ligament with the splenic vessels.",
+        "D": "Incorrect. This statement is true: the neck lies in front of the beginning of the portal vein, formed behind it by the splenic and superior mesenteric veins."
+      },
+      "main_concept": "CON-END-B45B301C6023DE",
+      "concept_ids": [
+        "CON-END-B45B301C6023DE"
+      ],
+      "subtopic": "Pancreas",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-PANCREAS-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Pancreas",
+      "learning_objective": "Lymphatic drainage of the pancreas.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option letter, render-verified pdf p.5 (box64=a, the false statement)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
+    },
+    {
+      "key": "q014",
+      "id": "QST-KASR207END-GALALENDO-014",
+      "page": "p.4",
+      "subject": "endo",
+      "title": "Medial extent of the left suprarenal gland",
+      "question": "Regarding the suprarenal glands, which of the following statements is correct?",
+      "options": {
+        "A": "The left gland is drained into the I.V.C.",
+        "B": "The left gland is related anteriorly to the head of the pancreas.",
+        "C": "Each gland receives four suprarenal arteries.",
+        "D": "The left gland reaches the hilum of the kidney."
+      },
+      "correct": "D",
+      "explanations": {
+        "D": "Correct. The left suprarenal gland is semilunar and larger than the right, extending down the medial border of the left kidney to reach the region of the renal hilum. Its lower pole is closely related to the hilar vessels. The left gland reaching the hilum of the kidney is therefore the correct statement.",
+        "A": "Incorrect. The left suprarenal vein drains into the left renal vein, not directly into the IVC; it is the right suprarenal vein that opens into the IVC.",
+        "B": "Incorrect. The left gland is related anteriorly to the body/tail of the pancreas and the stomach bed, not to the head of the pancreas.",
+        "C": "Incorrect. Each suprarenal gland receives three arteries — superior (inferior phrenic), middle (aorta) and inferior (renal artery) — not four."
+      },
+      "main_concept": "CON-END-DDFCEA019F017A",
+      "concept_ids": [
+        "CON-END-DDFCEA019F017A"
+      ],
+      "subtopic": "Suprarenal gland",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-SUPRARENAL-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Suprarenal gland",
+      "learning_objective": "Medial extent of the left suprarenal gland.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "circled option letter, render-verified pdf p.5 (suprarenal \"2-\" =d)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
+    },
+    {
+      "key": "q015",
+      "id": "QST-KASR207END-GALALENDO-015",
+      "page": "p.4",
+      "subject": "endo",
+      "title": "Blood supply of the posterior lobe of the pituitary",
+      "question": "Regarding the pituitary gland, choose the correct answer:",
+      "options": {
+        "A": "It consists of a small anterior lobe and a large posterior lobe.",
+        "B": "It is related posteriorly to the medulla oblongata.",
+        "C": "The posterior lobe is supplied by the inferior hypophyseal artery inside the cavernous sinus.",
+        "D": "A pituitary tumour causes binasal hemianopia due to pressure on the optic chiasma."
+      },
+      "correct": "C",
+      "explanations": {
+        "C": "Correct. The inferior hypophyseal artery, a branch of the internal carotid artery within the cavernous sinus, supplies the posterior lobe (neurohypophysis) directly. The anterior lobe instead receives blood indirectly through the hypothalamo-hypophyseal portal system from the superior hypophyseal arteries. So the posterior lobe has a direct arterial supply from the inferior hypophyseal artery.",
+        "A": "Incorrect. The anterior lobe (adenohypophysis) is the larger part and the posterior lobe the smaller; the sizes are reversed here.",
+        "B": "Incorrect. The gland lies in the hypophyseal fossa related posteriorly to the dorsum sellae, not to the medulla oblongata.",
+        "D": "Incorrect. Chiasmatic compression by a pituitary tumour classically causes a bitemporal, not binasal, hemianopia by compressing the crossing nasal retinal fibres."
+      },
+      "main_concept": "CON-END-DE2F6D45048927",
+      "concept_ids": [
+        "CON-END-DE2F6D45048927"
+      ],
+      "subtopic": "Pituitary gland",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-PITUITARY-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Pituitary gland",
+      "learning_objective": "Blood supply of the posterior lobe of the pituitary.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "solid/filled blob on option letter, render-verified pdf p.5 (pituitary handwritten=c)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
+    },
+    {
+      "key": "q016",
+      "id": "QST-KASR207END-GALALENDO-016",
+      "page": "p.5",
+      "subject": "endo",
+      "title": "Zonation of the suprarenal cortex",
+      "question": "Regarding the suprarenal glands, choose the correct answer:",
+      "options": {
+        "A": "The cortex is divided into three zones — zona glomerulosa, zona fasciculata and zona reticularis, from superficial to deep.",
+        "B": "The suprarenal cortex is ectodermal in origin.",
+        "C": "The suprarenal medulla is mesodermal in origin.",
+        "D": "The hilum of the left suprarenal gland is directed upwards."
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The suprarenal cortex has three concentric zones from the capsule inward: zona glomerulosa (mineralocorticoids), zona fasciculata (glucocorticoids) and zona reticularis (androgens), i.e. superficial to deep. This is the correct description of cortical zonation. The medulla lies deep to the reticularis.",
+        "B": "Incorrect. The cortex is mesodermal in origin, from coelomic mesothelium, not ectodermal.",
+        "C": "Incorrect. The medulla is ectodermal, derived from neural-crest chromaffin cells, not mesodermal.",
+        "D": "Incorrect. The hilum of the left suprarenal gland is directed downward and medially toward the renal vessels, not upward."
+      },
+      "main_concept": "CON-END-39427079269717",
+      "concept_ids": [
+        "CON-END-39427079269717"
+      ],
+      "subtopic": "Suprarenal gland",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-SUPRARENAL-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Suprarenal gland",
+      "learning_objective": "Zonation of the suprarenal cortex.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "solid/filled blob on option letter, render-verified pdf p.6 (suprarenal cortex handwritten=a)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
+    },
+    {
+      "key": "q017",
+      "id": "QST-KASR207END-GALALENDO-017",
+      "page": "p.5",
+      "subject": "endo",
+      "title": "Ligation of the inferior thyroid artery in thyroidectomy",
+      "question": "Regarding the thyroid gland, which one of the following statements is INCORRECT?",
+      "options": {
+        "A": "The posterior surface of the thyroid lobe is related to the medial part of the carotid sheath.",
+        "B": "Ligation of the inferior thyroid artery should be as near as possible to the gland.",
+        "C": "The inferior thyroid artery is a branch of the thyrocervical trunk of the first part of the subclavian artery.",
+        "D": "The inferior thyroid vein drains into the brachiocephalic vein."
+      },
+      "correct": "B",
+      "explanations": {
+        "B": "Correct. This is the incorrect statement and therefore the answer. The inferior thyroid artery should be ligated well away from the gland, in continuity and laterally, because near the gland it is intimately related to the recurrent laryngeal nerve and would endanger it; the superior thyroid artery, by contrast, is ligated close to the gland to spare the external laryngeal nerve. Ligating the inferior thyroid artery near the gland is therefore wrong.",
+        "A": "Incorrect. This statement is true: the posteromedial aspect of the lobe is related to the carotid sheath and its contents.",
+        "C": "Incorrect. This statement is true: the inferior thyroid artery arises from the thyrocervical trunk, a branch of the first part of the subclavian artery.",
+        "D": "Incorrect. This statement is true: the inferior thyroid veins drain into the brachiocephalic (innominate) veins."
+      },
+      "main_concept": "CON-END-6C9EF12EFCF7FD",
+      "concept_ids": [
+        "CON-END-6C9EF12EFCF7FD"
+      ],
+      "subtopic": "Thyroid gland",
+      "library_ids": [
+        "ART-END-207END-GALALENDO-THYROID-ANATOMY"
+      ],
+      "module_subject": "207 END > Anatomy > Thyroid gland",
+      "learning_objective": "Ligation of the inferior thyroid artery in thyroidectomy.",
+      "topic": "Anatomy",
+      "field_notes": {
+        "keySource": "solid/filled blob on option letter, render-verified pdf p.6 (thyroid handwritten=b, the false statement)",
+        "kasr": "Dr Galal endo (endocrine gland anatomy) bank"
+      }
     }
   ]
 }

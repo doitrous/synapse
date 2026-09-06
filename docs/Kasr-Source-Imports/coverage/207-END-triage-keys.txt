@@ -230,3 +230,66 @@ SKIPPED as duplicates of the authored 207-END corpus (concept already exists):
               Q1, Q4, Q9, Q10, Q23, Q31, Q32, Q47).
 Galal repro bank now 27 authored / 0 held / dupes skipped; bank EXHAUSTED for fresh keyed
 stems. Dedup rate this pass ~40% (12 authored of ~20 unauthored keyed candidates).
+
+
+SIXTH SOURCE — Dr Galal endocrine-gland ANATOMY MCQ bank (NON-EOM, topic bank)
+==============================================================================
+Source: 207 END/Anatomy Other [2nd priority]/MCQs/207 mcq Dr Galal (endo).pdf
+(manifest sourceId src_d553e1179fb89eb56d5a; sha256
+d553e1179fb89eb56d5a9b66f19586e0278057b6583dfa1b33315eed30473b5a; examType null —
+a TOPIC bank, examSittingYear=null). Scanned (CamScanner), 7 pages, no text layer
+(OCR'd). Gross anatomy + development of the endocrine glands (thyroid, parathyroid,
+pituitary, suprarenal, pancreas). p.1 is a topic legend (1..32); the blue left-margin
+numbers on the question pages are those topic references, NOT answer marks. Already in
+the manifest — no new manifest row added.
+
+Key marker: TWO conventions in one bank, both render-verified at 220 dpi on pp.2-6:
+  - typed items (pdf pp.2-4): a hand-drawn CIRCLE around the correct option letter.
+  - handwritten items (pdf pp.5-6): a SOLID/filled blob on the correct option (every
+    option is drawn with a circled-letter bullet, so the filled one is the key).
+27 keyed stems recovered; 1 stem HELD (no valid single-best key, see below). The boxed
+numbers on the paper are the original source question numbers and collide across pages,
+so items are indexed here by pdf-page position (box number in parentheses).
+
+Recovered keys (by pdf page):
+  p2: (77) thyroid three-paired-veins = d ; (78) thyroid moves-with-swallowing = b ;
+      (79) partial-thyroidectomy hoarseness = d ; (6) suprarenal right-drains-IVC = a [DUP] ;
+      (10) SMV anterior to uncinate = b ; (30) suprarenal retroperitoneal = a [skip, low-value].
+  p3: (45) pancreas NOT-correct splenic-vein-upper-border = c ; (67) suprarenal NOT-correct =
+      HELD ("all are correct" written by annotator, no option circled -> no single-best key) ;
+      (81) pancreas NOT-feature tail-in-gastrosplenic = b [DUP, tail=lienorenal exists] ;
+      (10) uncinate arterial supply = c ; (20) annular pancreas obstruction = c ;
+      (18) thyroid development floor-of-pharynx = c ; (9) pancreatic head anterior colon = b.
+  p4: (15) midline tracheostomy dark-venous-bleed = c ; (16) only-mobile-intraperitoneal =
+      d [DUP, tail-only-intraperitoneal exists] ; (23) head-cancer obstructive-jaundice =
+      a [DUP, head-cancer-jaundice exists] ; (24) left-suprarenal-vein spread = c [DUP,
+      left-vein->left-renal exists] ; (30) thyroglossal cyst tongue-protrusion = d ;
+      (9) main-pancreatic-duct formation = d ; (13) CBD+duct join ampulla = a [DUP,
+      ampulla termination exists].
+  p5: (64) pancreas NOT-correct lymph-to-inf-mesenteric = a ; (suprarenal "1-") left-in-
+      stomach-bed = b [DUP, left anterior-relation pancreas+stomach exists] ; (suprarenal
+      "2-") left-reaches-renal-hilum = d ; (pituitary handwritten) posterior-lobe inferior-
+      hypophyseal-artery = c.
+  p6: (parathyroid handwritten "all true except") hyperparathyroidism-convulsion = d [DUP,
+      hyper/hypoparathyroid physiology already authored] ; (suprarenal handwritten) cortex-
+      3-zones-superficial-to-deep = a ; (thyroid handwritten "one is incorrect") inferior-
+      thyroid-artery-tied-near-gland = b.
+
+— Authoring pass 2026-09-07 (17 fresh MCQs authored across 2 pushed slices) —
+Slice A (9): thyroid three-veins, thyroid swallowing, RLN hoarseness, SMV-uncinate,
+  splenic-artery-upper-border, uncinate SMA supply, annular-pancreas 2nd-duodenum,
+  thyroid-dev floor-of-pharynx, pancreatic-head transverse-colon.
+Slice B (8): tracheostomy inferior-thyroid-veins, thyroglossal-cyst, main-duct formation,
+  pancreas lymph (excl inf-mesenteric), left-suprarenal renal-hilum, posterior-pituitary
+  inferior-hypophyseal-artery, adrenal-cortex zonation, inferior-thyroid-artery ligation.
+17 concepts minted university-blind (all CON-END-*), collision-checked corpus-wide (0
+collisions, 0 in-batch dupes), grouped into 4 new library articles (thyroid, pancreas,
+suprarenal, pituitary). Subject tag endo throughout.
+SKIPPED (9): dupes of authored concepts — box6 (right-drain-IVC), box81 (tail-lienorenal),
+  box16 (tail-only-intraperitoneal), box23 (head-cancer-jaundice), box24 (left-vein->renal),
+  box13 (ampulla), suprarenal-"1-" (left-in-stomach-bed), parathyroid-except (hyper/hypo
+  physiology) — plus box30 (retroperitoneal, low-value/generic).
+HELD (1): box67 suprarenal "which is not correct" — annotator wrote "all are correct" and
+  circled nothing, so there is no valid single-best key. Do NOT author without a real key.
+Dedup/skip rate this pass 9/26 keyed ~= 35%, under the 60% stop threshold. Bank EXHAUSTED
+for fresh keyed stems (17 authored / 1 held / 9 skipped of 27 keyed).
