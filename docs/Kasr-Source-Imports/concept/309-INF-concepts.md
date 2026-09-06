@@ -17375,3 +17375,1446 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard parasitology teaching corroborated by this question bank's own printed-answer-key stem/options (Protozoology section, p.18-21, answer table p.21); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-CBAE0849B267EA
+## label
+Cyclopropagative transmission: the pathogen multiplies and develops in the vector
+## canonical_key
+entomology.transmission.cyclopropagative-anopheles-malaria
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In cyclopropagative transmission the pathogen both multiplies in number and undergoes a developmental (cyclical) change inside the arthropod before it can be transmitted, the classic example being the malaria parasite in the Anopheles mosquito (and in mosquitoes generally). This contrasts with purely propagative transmission (multiplication only, e.g. plague in fleas, arboviruses) and cyclodevelopmental transmission (development without multiplication, e.g. filaria in mosquitoes). Malaria in Anopheles is therefore the type example of cyclopropagative transmission.
+## explicit_objective
+Define cyclopropagative transmission (multiplication plus development in the vector) with malaria in Anopheles as the example.
+## pitfalls
+Cyclopropagative = multiply + develop (malaria/mosquito); propagative = multiply only (plague/flea); cyclodevelopmental = develop only (filaria).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Modes of transmission
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-29F4C387575042
+## label
+Gastric myiasis is caused by larvae of Eristalis
+## canonical_key
+entomology.myiasis.gastric-eristalis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Gastric (accidental intestinal) myiasis follows swallowing food or water contaminated with the rat-tailed maggot of Eristalis, whose larvae survive in the gut and cause gastrointestinal symptoms. Eristalis is the fly responsible for this accidental gastric myiasis, unlike Dermatobia and Wohlfahrtia (furuncular/wound myiasis) or Calliphora (wound myiasis). Gastric myiasis therefore points to Eristalis larvae.
+## explicit_objective
+Attribute gastric (accidental) myiasis to the larvae of Eristalis (rat-tailed maggot).
+## pitfalls
+Gastric myiasis = Eristalis (rat-tailed maggot); Dermatobia/Wohlfahrtia/Calliphora cause skin/wound myiasis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Myiasis
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-9FB61A128BD2A6
+## label
+Ticks cause an ascending paralysis through a salivary neurotoxin
+## canonical_key
+entomology.ticks.tick-paralysis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Certain female ticks secrete a neurotoxin in their saliva during prolonged attachment that blocks neuromuscular transmission and produces an acute ascending flaccid paralysis, which resolves rapidly once the tick is removed. Paralysis among the listed causes is therefore produced by ticks, not by lice, leishmaniasis or trichinosis. Tick paralysis is the answer.
+## explicit_objective
+State that ticks cause an ascending paralysis via a salivary neurotoxin.
+## pitfalls
+Ascending paralysis from an arthropod = tick (salivary neurotoxin); removing the tick reverses it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Ticks
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-2A956B711B9707
+## label
+Perennial rhinitis is caused by powerful house dust mite allergens
+## canonical_key
+entomology.mites.house-dust-mite-allergen-rhinitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Perennial allergic rhinitis linked to the house dust mite is caused by the powerful allergens the mite contains and sheds (chiefly in its faecal particles and body), which are inhaled and provoke an IgE-mediated response all year round; the mite does not bite or sting. The disease mechanism is therefore allergen exposure, not envenomation or airway infestation. Powerful mite allergens are the cause of the perennial rhinitis.
+## explicit_objective
+State that house dust mite perennial rhinitis is due to powerful mite allergens (not biting, stinging or infestation).
+## pitfalls
+House dust mite disease = allergen (IgE) exposure; the mite does not bite, sting, or infest the airway.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > House dust mites
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-10511C0CDA3126
+## label
+The pubic louse causes blepharitis of the eyelashes
+## canonical_key
+entomology.lice.pubic-louse-blepharitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Infestation of the eyelashes by the pubic louse (Phthirus pubis), phthiriasis palpebrarum, produces a chronic blepharitis with itching and crusting at the lid margins; the lice and nits are seen clinging to the lashes. Among the options blepharitis is therefore caused by the pubic louse, not the body or head louse or harvest mites. The pubic louse is the answer.
+## explicit_objective
+Associate blepharitis (phthiriasis palpebrarum) with the pubic louse (Phthirus pubis).
+## pitfalls
+Eyelash blepharitis = pubic louse (Phthirus pubis), not body/head louse or harvest mite.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Lice
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-281857DA05F3DE
+## label
+Tunga penetrans causes tungiasis (jigger/chigger disease)
+## canonical_key
+entomology.fleas.tunga-penetrans-tungiasis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The burrowing sand flea Tunga penetrans, whose gravid female embeds in the skin of the feet, causes tungiasis, also called jigger or chigger disease, an inflammatory papulonodular lesion. Among the options this is the disease produced by Tunga penetrans, distinct from murine typhus (rat-flea-borne), tick paralysis and harara (sandfly allergy). Tungiasis (chigger disease) is therefore the answer.
+## explicit_objective
+Attribute tungiasis (jigger/chigger disease) to the sand flea Tunga penetrans.
+## pitfalls
+Tunga penetrans -> tungiasis (jigger/chigger disease); murine typhus is rat-flea-borne, harara is a sandfly allergy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Fleas
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-55842F9065E77D
+## label
+Hard ticks transmit Babesia
+## canonical_key
+entomology.ticks.hard-ticks-transmit-babesia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hard (ixodid) ticks are the biological vector of Babesia, which they acquire and inoculate during blood feeding; among the listed diseases only babesiosis is tick-borne. Plague is flea-borne, malaria is mosquito-borne and sleeping sickness is tsetse-borne. Hard ticks therefore transmit Babesia.
+## explicit_objective
+State that hard (ixodid) ticks transmit Babesia.
+## pitfalls
+Hard-tick disease = Babesia; plague=flea, malaria=mosquito, sleeping sickness=tsetse fly.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Ticks
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4A26EAC54CA36B
+## label
+Glossina morsitans occurs in Eastern tropical Africa
+## canonical_key
+entomology.glossina.morsitans-eastern-tropical-africa
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glossina morsitans is the savanna (game/woodland) tsetse fly of Eastern (and Southern) tropical Africa, where it transmits Trypanosoma brucei rhodesiense; the riverine Glossina palpalis group predominates in West Africa. G. morsitans is therefore present in Eastern tropical Africa, not confined to West Africa, the Nile Valley or all of sub-Saharan Africa. Eastern tropical Africa is the answer.
+## explicit_objective
+State that Glossina morsitans occurs in Eastern tropical Africa (savanna tsetse of East Africa).
+## pitfalls
+G. morsitans = East African savanna tsetse (rhodesiense); G. palpalis group = West African riverine tsetse (gambiense).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Tsetse fly (Glossina)
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-D330C169B0C966
+## label
+Urogenital myiasis is caused by larvae of Fannia
+## canonical_key
+entomology.myiasis.urogenital-fannia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Urogenital myiasis follows deposition of eggs of the latrine fly Fannia around the genitalia, whose larvae then invade the urinary/genital tract; Fannia is the classic cause of urogenital (and accidental intestinal) myiasis. It is therefore the answer rather than Musca or Sarcophaga larvae, and Anopheles (a mosquito) has no larval myiasis stage. Fannia larva is the cause of urogenital myiasis.
+## explicit_objective
+Attribute urogenital myiasis to the larvae of Fannia (latrine fly).
+## pitfalls
+Urogenital myiasis = Fannia larva; Anopheles is a mosquito with no myiasis larva.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Myiasis
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-5956F18671FA30
+## label
+Cyclodevelopmental transmission: the pathogen develops without multiplying
+## canonical_key
+entomology.transmission.cyclodevelopmental-mosquito-filaria
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In cyclodevelopmental transmission the pathogen changes developmentally in the arthropod but does NOT multiply in number, the classic example being filarial larvae developing from the first- to the infective third-stage in the mosquito. This differs from cyclopropagative transmission (malaria in mosquitoes, which both develops and multiplies) and propagative transmission (Babesia in ticks; Leishmania in sandflies). Filaria in mosquitoes is therefore the example of cyclodevelopmental transmission.
+## explicit_objective
+Define cyclodevelopmental transmission (development without multiplication) with filaria in mosquitoes as the example.
+## pitfalls
+Cyclodevelopmental = develop only (filaria/mosquito); cyclopropagative = develop + multiply (malaria); Babesia-tick / Leishmania-sandfly are propagative.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Modes of transmission
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-4723986182F990
+## label
+Perennial house dust mite asthma is prevented by allergen (acaricide) avoidance
+## canonical_key
+entomology.mites.house-dust-mite-asthma-allergen-avoidance
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a child has year-round asthma driven by the house dust mite, the way to prevent recurrent attacks is to reduce exposure to the mite allergen, for example with acaricidal/allergen-reducing measures (such as D'allergen) applied to bedding and the home environment, rather than by treating the asthma symptomatically alone. Removing the causative allergen source is the preventive step. Allergen (acaricide) avoidance therefore prevents mite-driven perennial asthma.
+## explicit_objective
+State that perennial house dust mite asthma is prevented by mite-allergen (acaricide) avoidance measures.
+## pitfalls
+Prevent mite-driven perennial asthma by killing/avoiding the mite allergen (D'allergen), not by sanitary faecal disposal or washing vegetables (those target faecal-oral parasites).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > House dust mites
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-B67802A8AB8AEF
+## label
+House dust mite infestation is reduced by optimizing (lowering) home humidity
+## canonical_key
+entomology.mites.house-dust-mite-humidity-control
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+House dust mites depend on high ambient humidity to absorb water and survive, so reducing indoor humidity is a recognised way to control house dust mite populations in the home. Optimizing (lowering) humidity therefore helps most with house dust mite infestation. This humidity dependence is characteristic of the house dust mite.
+## explicit_objective
+State that optimizing (lowering) home humidity helps control house dust mite infestation.
+## pitfalls
+Humidity control targets the humidity-dependent house dust mite.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > House dust mites
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.
+
+---
+
+# Item
+## id
+CON-INF-3AE582B20F261A
+## label
+The larva is the disease-causing stage of chigger (trombiculid) mites
+## canonical_key
+entomology.mites.chigger-larva-disease-stage
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In trombiculid (chigger/harvest) mites only the six-legged larva is parasitic: it attaches to the skin to feed, causing intense trombiculid dermatitis and, in Asia, transmitting scrub typhus, whereas the nymph and adult are free-living predators of the soil. The disease-causing stage is therefore the larva, not the egg, nymph or adult. The chigger larva is the answer.
+## explicit_objective
+State that the parasitic, disease-causing stage of chigger (trombiculid) mites is the larva.
+## pitfalls
+Chigger mite disease stage = the larva; nymphs and adults are free-living.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## topic
+Parasitology
+## subtopic
+Entomology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology > Mites
+## article_ids
+ART-INF-309-ENTOMOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked corpus-wide (docs/*-Source-Imports + import-ready) -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stem/options (Entomology section, p.22-23, answer table p.23); no department book read this pass.

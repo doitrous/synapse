@@ -64,6 +64,7 @@ CON-INF-E33402CF625073
 ART-INF-309-PARA-TREMATODA
 ART-INF-309-CESTODA
 ART-INF-309-NEMATODA
+ART-INF-309-ENTOMOLOGY
 ## resource_ids
 src_10f1a669aa2eeedf3cd9
 ## nanotopic
@@ -571,3 +572,100 @@ nodeChoice: Filed on DIS-PAR-T01 (protozoa) -- the protozoology node under DIS-P
 university_notes: No department book PDF was read this pass -- written from standard parasitology teaching corroborated by this question bank's own printed-answer-key stems and options (Protozoology section, answer table p.21).
 ## reading_time
 8
+
+---
+
+# Item
+## id
+ART-INF-309-ENTOMOLOGY
+## title
+Medical entomology: arthropod vectors, myiasis, mites and the modes of vector transmission
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Parasitology
+## summary
+This article groups the medical-entomology facts tested by the Entomology section of the paper (Q1-17). It covers the modes by which arthropods transmit disease (cyclopropagative transmission, in which the pathogen both multiplies and undergoes a developmental change, as for malaria in Anopheles and in the mosquito generally; and cyclodevelopmental transmission, in which the pathogen develops without multiplying, as for filaria in mosquitoes), the biological vectors and the diseases they carry (hard ticks and Babesia, the sandfly and visceral leishmaniasis, and the geography of Glossina morsitans in Eastern tropical Africa), tick paralysis, the fleas (Tunga penetrans/tungiasis), the myiasis-producing flies (Eristalis causing gastric myiasis and Fannia causing urogenital myiasis), the lice (pubic louse blepharitis) and the medically important mites (house dust mite allergens as the cause of perennial rhinitis and asthma, the role of humidity control and allergen avoidance, and the parasitic larval stage of chigger/trombiculid mites). Each linked concept carries one atomic fact about an arthropod's medical importance, life-cycle stage or mode of transmission.
+## sections
+### Definition
+This article groups the medical-entomology concepts tested by the paper; each linked concept carries one atomic fact about an arthropod's medical importance, life-cycle stage or mode of transmission.
+### Mechanism
+The facts follow how arthropods cause and transmit disease: pathogens are carried mechanically (housefly, Stomoxys) or biologically, and biological transmission is propagative (multiplication only), cyclodevelopmental (development without multiplication, filaria in mosquitoes) or cyclopropagative (both, malaria in mosquitoes); other arthropods harm man directly through larval invasion of tissue (myiasis), a salivary neurotoxin (tick paralysis), infestation (lice, Tunga) or inhaled allergens (house dust mites).
+### Key determinants
+Discriminators tested here: cyclopropagative = develop + multiply (malaria/mosquito) versus cyclodevelopmental = develop only (filaria/mosquito) versus propagative (Babesia-tick, Leishmania-sandfly); hard ticks carry Babesia and can cause paralysis; the sandfly carries visceral leishmaniasis and Glossina morsitans is the East-African savanna tsetse; Eristalis causes gastric and Fannia urogenital myiasis; the pubic louse causes blepharitis; Tunga penetrans causes tungiasis; and house dust mite allergens (humidity-dependent) drive perennial rhinitis and asthma while the trombiculid larva is the parasitic chigger stage.
+### Clinical significance
+These facts underlie vector control and the diagnosis of arthropod-related disease: interrupting the biological vector (mosquito, tick, sandfly, tsetse) for the diseases it transmits, recognising and removing the cause in tick paralysis, tungiasis, pediculosis and myiasis, and controlling house dust mite allergy through humidity reduction and allergen avoidance rather than antibiotics.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits (cyclopropagative vs cyclodevelopmental vs propagative transmission; mechanical Stomoxys/housefly vs biological vectors; gastric Eristalis vs urogenital Fannia myiasis; humidity-dependent house dust mite vs storage/domestic mites).
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Parasitology > Entomology
+## subtopic
+Entomology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 parasitology
+## high_yield
+Core
+## primary_node_id
+DIS-PAR-T03
+## secondary_node_ids
+
+## related_concepts
+
+CON-INF-CBAE0849B267EA
+CON-INF-29F4C387575042
+CON-INF-9FB61A128BD2A6
+CON-INF-2A956B711B9707
+CON-INF-10511C0CDA3126
+CON-INF-281857DA05F3DE
+CON-INF-C91BDF64022D8A
+CON-INF-9A8E338172ADC7
+CON-INF-4A26EAC54CA36B
+CON-INF-D330C169B0C966
+CON-INF-5956F18671FA30
+CON-INF-4723986182F990
+CON-INF-B67802A8AB8AEF
+CON-INF-3AE582B20F261A
+## related_articles
+ART-INF-309-PARA-GENERAL
+## resource_ids
+src_10f1a669aa2eeedf3cd9
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+nodeChoice: Filed on DIS-PAR-T03 (Arthropods) -- the arthropod/entomology node under DIS-PAR, sibling to DIS-PAR-T01 (Protozoology) and DIS-PAR-T02 (Helminthology); matches the module's use of DIS-PAR-T03 for the pentastome Linguatula and the MUST lane's arthropod concepts.
+university_notes: No department book PDF was read this pass -- written from standard medical-entomology teaching corroborated by this question bank's own printed-answer-key stems and options (Entomology section, answer table p.23).
+## reading_time
+6

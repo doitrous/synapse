@@ -1,0 +1,441 @@
+{
+  "lane": "KASR-309INF",
+  "cluster": "bank-entomology",
+  "header": "Kasr Al Ainy 309 INF (Year 3, Infectious Diseases: Microbiology & Parasitology) · Parasitology MCQ — Entomology section (Q1-17) of the department/faculty question bank '8_Bank_of_Questions,_MCQs,_Cases_&_Formative_assesment_+_Collection.pdf' [SOLVED, printed answer table p.23 'Answers of Entomology']. Stems p.22-23, keys read from the printed answer table p.23 (native text; no OCR). 15 authored / 2 held (E9 Stomoxys key = 'accidental myiasis' contradicts its true medical importance = mechanical transmission; E12 'domestic mites' has more than one true statement so the single key is non-discriminating). New article ART-INF-309-ENTOMOLOGY; arthropod concepts filed on DIS-PAR-T03 (Arthropods; sibling to T01 protozoa / T02 helminths). E7 reuses the Babesia-tick concept minted for Protozoology Q47; E8 reuses the existing sandfly/visceral-leishmaniasis concept CON-INF-9A8E338172ADC7 (Protozoology Q27); E16 reuses the cyclopropagative-transmission concept minted for E1.",
+  "defaults": {
+    "subject": "inf",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": [
+      "kau"
+    ],
+    "years": [
+      "KAU_Y3"
+    ],
+    "module": "309 INF",
+    "exam_weight_by_year": {
+      "KAU_Y3": "moderate"
+    },
+    "question_only_for": "",
+    "library_ids": [
+      "ART-INF-309-ENTOMOLOGY"
+    ],
+    "resource_ids": [
+      "src_10f1a669aa2eeedf3cd9"
+    ],
+    "source_citation": "Kasr Al Ainy 309 INF — Parasitology Bank of Questions [SOLVED], MCQs of Entomology, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Parasitology",
+    "subtopic": "Entomology",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "module_subject": "309 INF > Parasitology > Entomology",
+    "field_notes": {
+      "keySource": "printed answer table 'Answers of Entomology' p.23 (native text; text layer authoritative, no OCR)"
+    }
+  },
+  "questions": [
+    {
+      "key": "e01",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-1",
+      "page": 22,
+      "title": "Cyclopropagative transmission = Anopheles and malaria",
+      "question": "Cyclopropagative transmission in arthropods is seen in:",
+      "options": {
+        "A": "Fleas & plague",
+        "B": "Anopheles & malaria",
+        "C": "Mosquitoes & filaria",
+        "D": "Aedes aegypti & yellow fever"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Plague in the flea is propagative (the bacillus multiplies but does not undergo a developmental cycle).",
+        "B": "Correct. In cyclopropagative transmission the pathogen both multiplies and undergoes a developmental change in the vector, exactly as the malaria parasite does in the Anopheles mosquito (sporogony). Anopheles and malaria are the classic example. This pairing is therefore cyclopropagative.",
+        "C": "Incorrect. Filaria in mosquitoes is cyclodevelopmental: the larva develops but does not multiply.",
+        "D": "Incorrect. Yellow fever virus in Aedes is propagative (multiplication without a developmental cycle)."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Modes of transmission",
+      "learning_objective": "Identify malaria in Anopheles as cyclopropagative transmission.",
+      "main_concept": "CON-INF-CBAE0849B267EA",
+      "concept_ids": [
+        "CON-INF-CBAE0849B267EA"
+      ]
+    },
+    {
+      "key": "e02",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-2",
+      "page": 22,
+      "title": "Gastric myiasis is due to Eristalis larvae",
+      "question": "Gastric myiasis occurs due to invasion of human tissues by larvae of:",
+      "options": {
+        "A": "Dermatobia",
+        "B": "Wohlfahrtia",
+        "C": "Calliphora",
+        "D": "Eristalis"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Dermatobia hominis causes furuncular (boil-like) cutaneous myiasis, not gastric myiasis.",
+        "B": "Incorrect. Wohlfahrtia causes wound/traumatic myiasis of the skin.",
+        "C": "Incorrect. Calliphora is a blow-fly causing wound myiasis, not gastric myiasis.",
+        "D": "Correct. Gastric (accidental intestinal) myiasis follows swallowing food or water contaminated with the rat-tailed maggot of Eristalis, which survives in the gut. Eristalis is the fly responsible for gastric myiasis. Its larvae are therefore the answer."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Myiasis",
+      "learning_objective": "Attribute gastric myiasis to Eristalis larvae.",
+      "main_concept": "CON-INF-29F4C387575042",
+      "concept_ids": [
+        "CON-INF-29F4C387575042"
+      ]
+    },
+    {
+      "key": "e03",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-3",
+      "page": 22,
+      "title": "Paralysis is caused by ticks",
+      "question": "Paralysis is caused by:",
+      "options": {
+        "A": "Ticks",
+        "B": "Lice",
+        "C": "Leishmaniasis",
+        "D": "Trichinosis"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Some female ticks secrete a neurotoxin in their saliva during prolonged attachment, producing an acute ascending flaccid paralysis that resolves once the tick is removed. Tick paralysis is the recognised arthropod-induced paralysis. Ticks are therefore the answer.",
+        "B": "Incorrect. Lice cause pediculosis and transmit typhus/relapsing fever, not paralysis.",
+        "C": "Incorrect. Leishmaniasis causes cutaneous or visceral disease, not paralysis.",
+        "D": "Incorrect. Trichinosis causes myositis and periorbital oedema, not a tick-type ascending paralysis."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Ticks",
+      "learning_objective": "Identify the tick as the cause of an ascending paralysis.",
+      "main_concept": "CON-INF-9FB61A128BD2A6",
+      "concept_ids": [
+        "CON-INF-9FB61A128BD2A6"
+      ]
+    },
+    {
+      "key": "e04",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-4",
+      "page": 22,
+      "title": "Perennial rhinitis is caused by house dust mite allergens",
+      "question": "Mechanism of pathogenesis in perennial rhinitis is:",
+      "options": {
+        "A": "House dust mite biting",
+        "B": "House dust mite stinging",
+        "C": "Powerful allergens contained in the mites",
+        "D": "Presence of mite in the respiratory system"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. House dust mites do not bite.",
+        "B": "Incorrect. House dust mites do not sting.",
+        "C": "Correct. Perennial allergic rhinitis linked to the house dust mite is caused by the powerful allergens the mite contains and sheds (mainly in faecal particles), which are inhaled and drive an IgE-mediated reaction all year round. Allergen exposure, not envenomation or airway infestation, is the mechanism. Powerful mite allergens are therefore the cause.",
+        "D": "Incorrect. The mite does not infest or live in the respiratory tract; it is the inhaled allergen that causes disease."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > House dust mites",
+      "learning_objective": "Attribute perennial rhinitis to house dust mite allergens.",
+      "main_concept": "CON-INF-2A956B711B9707",
+      "concept_ids": [
+        "CON-INF-2A956B711B9707"
+      ]
+    },
+    {
+      "key": "e05",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-5",
+      "page": 22,
+      "title": "Blepharitis is caused by the pubic louse",
+      "question": "Blepharitis may be caused by:",
+      "options": {
+        "A": "Body louse",
+        "B": "Head louse",
+        "C": "Pubic louse",
+        "D": "Harvest mites"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The body louse lives on clothing and transmits typhus and relapsing fever; it does not infest the eyelashes.",
+        "B": "Incorrect. The head louse infests the scalp hair, not the eyelashes.",
+        "C": "Correct. Infestation of the eyelashes by the pubic louse (Phthirus pubis), phthiriasis palpebrarum, causes a chronic blepharitis with itching and crusting, and the lice and nits are seen on the lashes. The pubic louse is therefore the cause of blepharitis. It is the answer.",
+        "D": "Incorrect. Harvest mites (chiggers) cause a skin dermatitis, not eyelash blepharitis."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Lice",
+      "learning_objective": "Associate eyelash blepharitis with the pubic louse.",
+      "main_concept": "CON-INF-10511C0CDA3126",
+      "concept_ids": [
+        "CON-INF-10511C0CDA3126"
+      ]
+    },
+    {
+      "key": "e06",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-6",
+      "page": 22,
+      "title": "Tunga penetrans causes chigger (jigger) disease",
+      "question": "Tunga penetrans causes:",
+      "options": {
+        "A": "Murine typhus",
+        "B": "Chigger's disease",
+        "C": "Rapid ascending paralysis",
+        "D": "Harara"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Murine (endemic) typhus is transmitted by the rat flea Xenopsylla, not by Tunga.",
+        "B": "Correct. The burrowing sand flea Tunga penetrans embeds in the skin of the feet and causes tungiasis, also known as jigger or chigger disease, an inflammatory papulonodular lesion. Among the options this is the disease produced by Tunga penetrans. Chigger's (jigger) disease is therefore the answer.",
+        "C": "Incorrect. Rapid ascending paralysis is caused by ticks, not by Tunga.",
+        "D": "Incorrect. Harara is a hypersensitivity reaction to sandfly bites, not a Tunga disease."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Fleas",
+      "learning_objective": "Attribute tungiasis (jigger/chigger disease) to Tunga penetrans.",
+      "main_concept": "CON-INF-281857DA05F3DE",
+      "concept_ids": [
+        "CON-INF-281857DA05F3DE"
+      ]
+    },
+    {
+      "key": "e07",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-7",
+      "page": 22,
+      "title": "Hard ticks transmit Babesia",
+      "question": "Hard ticks transmit:",
+      "options": {
+        "A": "Plague",
+        "B": "Malaria",
+        "C": "Sleeping sickness",
+        "D": "Babesia"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Plague is transmitted by the rat flea, not by ticks.",
+        "B": "Incorrect. Malaria is transmitted by the Anopheles mosquito.",
+        "C": "Incorrect. Sleeping sickness is transmitted by the tsetse fly (Glossina).",
+        "D": "Correct. Hard (ixodid) ticks are the biological vector of Babesia, which they acquire and inoculate during blood feeding. Of the listed diseases only babesiosis is tick-borne. Hard ticks therefore transmit Babesia."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Ticks",
+      "learning_objective": "State that hard ticks transmit Babesia.",
+      "main_concept": "CON-INF-C91BDF64022D8A",
+      "concept_ids": [
+        "CON-INF-C91BDF64022D8A"
+      ]
+    },
+    {
+      "key": "e08",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-8",
+      "page": 22,
+      "title": "Sandfly transmits visceral leishmaniasis",
+      "question": "Sandfly is involved in transmission of:",
+      "options": {
+        "A": "Sleeping sickness",
+        "B": "Visceral leishmaniasis",
+        "C": "Babesiosis",
+        "D": "Toxoplasmosis"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Sleeping sickness is transmitted by the tsetse fly (Glossina), not the sandfly.",
+        "B": "Correct. Leishmania species, including the L. donovani that causes visceral leishmaniasis (kala-azar), are transmitted by the bite of phlebotomine sandflies, in which the promastigote develops. The sandfly is the vector of visceral leishmaniasis. It is therefore the answer.",
+        "C": "Incorrect. Babesiosis is transmitted by hard ticks, not the sandfly.",
+        "D": "Incorrect. Toxoplasmosis is acquired by ingesting oocysts or tissue cysts, not by an insect vector."
+      },
+      "main_concept": "CON-INF-9A8E338172ADC7",
+      "concept_ids": [
+        "CON-INF-9A8E338172ADC7"
+      ],
+      "module_subject": "309 INF > Parasitology > Entomology > Sandfly (Phlebotomus)",
+      "learning_objective": "Identify the sandfly as the vector of visceral leishmaniasis."
+    },
+    {
+      "key": "e09",
+      "hold": "printed key contradicts the biology — the answer table gives E9 = B ('Causing accidental myiasis'), but Stomoxys (the stable fly) is a blood-sucking biting fly whose medical importance is the indirect MECHANICAL transmission of micro-organisms (option a); it is not a myiasis-producing fly. Held for human adjudication rather than authored to a key that conflicts with the stem."
+    },
+    {
+      "key": "e10",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-10",
+      "page": 22,
+      "title": "Glossina morsitans is in Eastern tropical Africa",
+      "question": "Glossina morsitans is:",
+      "options": {
+        "A": "Prevalent in west Africa",
+        "B": "Found in all areas of sub-Saharan Africa",
+        "C": "Present in the Nile Valley",
+        "D": "Present in Eastern tropical Africa"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. West Africa is the domain of the riverine Glossina palpalis group (which carries gambiense), not G. morsitans.",
+        "B": "Incorrect. G. morsitans is a savanna species, not found uniformly across all sub-Saharan Africa.",
+        "C": "Incorrect. Glossina is not established in the Nile Valley.",
+        "D": "Correct. Glossina morsitans is the savanna (woodland/game) tsetse fly of Eastern (and Southern) tropical Africa, where it transmits Trypanosoma brucei rhodesiense. Its distribution is Eastern tropical Africa. That is therefore the answer."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Tsetse fly (Glossina)",
+      "learning_objective": "Locate Glossina morsitans in Eastern tropical Africa.",
+      "main_concept": "CON-INF-4A26EAC54CA36B",
+      "concept_ids": [
+        "CON-INF-4A26EAC54CA36B"
+      ]
+    },
+    {
+      "key": "e11",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-11",
+      "page": 22,
+      "title": "Urogenital myiasis is caused by Fannia larva",
+      "question": "Urogenital myiasis is caused by:",
+      "options": {
+        "A": "Musca larva",
+        "B": "Fannia larva",
+        "C": "Sarcophaga larva",
+        "D": "Anopheles larva"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Musca (housefly) larvae cause accidental intestinal myiasis, not classically urogenital myiasis.",
+        "B": "Correct. The latrine fly Fannia lays eggs around the genitalia and its larvae invade the urinary/genital tract, making it the classic cause of urogenital myiasis. Fannia larva is therefore the answer, unlike Musca or Sarcophaga.",
+        "C": "Incorrect. Sarcophaga (flesh fly) larvae cause wound and intestinal myiasis, not the urogenital form.",
+        "D": "Incorrect. Anopheles is a mosquito whose aquatic larva causes no myiasis."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Myiasis",
+      "learning_objective": "Attribute urogenital myiasis to Fannia larva.",
+      "main_concept": "CON-INF-D330C169B0C966",
+      "concept_ids": [
+        "CON-INF-D330C169B0C966"
+      ]
+    },
+    {
+      "key": "e12",
+      "hold": "non-discriminating key — for 'Domestic mites' more than one option is true: the printed key C ('inhabit air-conditioning ducts') is defensible, but option a ('are involved in bronchial asthma') and option b ('do not feed on blood', true of dust mites) are also correct statements, so the single key does not uniquely discriminate. Held for human adjudication."
+    },
+    {
+      "key": "e13",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-13",
+      "page": 23,
+      "title": "Cyclodevelopmental transmission = mosquitoes and filaria",
+      "question": "Cyclodevelopmental transmission in arthropods is seen with:",
+      "options": {
+        "A": "Ticks & babesiosis",
+        "B": "Anopheles & malaria",
+        "C": "Mosquitoes & filaria",
+        "D": "Phlebotomus & leishmaniasis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Babesia in ticks is propagative (multiplication), not cyclodevelopmental.",
+        "B": "Incorrect. Malaria in Anopheles is cyclopropagative (development plus multiplication).",
+        "C": "Correct. In cyclodevelopmental transmission the pathogen develops in the vector but does not multiply, exactly as filarial larvae develop to the infective third stage in the mosquito without increasing in number. Mosquitoes and filaria are the classic example. This pairing is therefore cyclodevelopmental.",
+        "D": "Incorrect. Leishmania in the sandfly is propagative (multiplication of promastigotes)."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Modes of transmission",
+      "learning_objective": "Identify filaria in mosquitoes as cyclodevelopmental transmission.",
+      "main_concept": "CON-INF-5956F18671FA30",
+      "concept_ids": [
+        "CON-INF-5956F18671FA30"
+      ]
+    },
+    {
+      "key": "e14",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-14",
+      "page": 23,
+      "title": "Prevent house dust mite asthma with allergen avoidance",
+      "question": "A young boy has a runny nose and cough and was prescribed several antibiotics with no response; his mother noticed his asthmatic attacks recur all year round. How can we prevent repetition of this asthma?",
+      "options": {
+        "A": "The use of D'allergen",
+        "B": "Treatment of asthma",
+        "C": "Sanitary disposal of human faeces",
+        "D": "Proper washing of raw vegetables and fruits before eating"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Year-round asthma unresponsive to antibiotics in a child points to house dust mite allergy, and recurrence is prevented by reducing exposure to the mite allergen with acaricidal/allergen-reducing measures such as D'allergen applied to bedding and the home. Removing the causative allergen source is the preventive step. D'allergen is therefore the answer.",
+        "B": "Incorrect. Symptomatic treatment of the asthma relieves attacks but does not prevent their recurrence, which requires removing the mite allergen.",
+        "C": "Incorrect. Sanitary disposal of faeces controls faecal-oral parasites, not house dust mite asthma.",
+        "D": "Incorrect. Washing vegetables prevents food-borne parasites, not mite-driven asthma."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > House dust mites",
+      "learning_objective": "Prevent perennial house dust mite asthma by mite-allergen avoidance.",
+      "main_concept": "CON-INF-4723986182F990",
+      "concept_ids": [
+        "CON-INF-4723986182F990"
+      ]
+    },
+    {
+      "key": "e15",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-15",
+      "page": 23,
+      "title": "Humidity control helps with house dust mites",
+      "question": "Optimizing humidity at home may help with infestations of:",
+      "options": {
+        "A": "House dust mites",
+        "B": "Domestic mites",
+        "C": "Storage mites",
+        "D": "Bedbug"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. House dust mites depend on high ambient humidity to absorb water and survive, so reducing indoor humidity is a recognised way to control them. Optimizing humidity therefore helps most with house dust mite infestation. House dust mites are the answer.",
+        "B": "Incorrect. \"Domestic mites\" is a broad category and not the specific humidity-dependent target of this control measure.",
+        "C": "Incorrect. Storage mites are associated with stored food; the classic humidity-controlled domestic pest is the house dust mite.",
+        "D": "Incorrect. The bedbug is a blood-sucking insect controlled by insecticides and physical measures, not by humidity optimization."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > House dust mites",
+      "learning_objective": "State that optimizing humidity helps control house dust mite infestation.",
+      "main_concept": "CON-INF-B67802A8AB8AEF",
+      "concept_ids": [
+        "CON-INF-B67802A8AB8AEF"
+      ]
+    },
+    {
+      "key": "e16",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-16",
+      "page": 23,
+      "title": "Mosquito shows cyclopropagative transmission",
+      "question": "The following arthropod shows cyclopropagative transmission of diseases:",
+      "options": {
+        "A": "Housefly",
+        "B": "Sand flea",
+        "C": "Bedbug",
+        "D": "Mosquito"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The housefly is only a mechanical carrier of pathogens; it supports no cyclopropagative cycle.",
+        "B": "Incorrect. The sand flea (Tunga) causes tungiasis and is not a cyclopropagative vector.",
+        "C": "Incorrect. The bedbug is not an established cyclopropagative vector of disease.",
+        "D": "Correct. Cyclopropagative transmission requires the pathogen to both develop and multiply in the vector, as the malaria parasite does in the mosquito (Anopheles). The mosquito is therefore the arthropod that shows cyclopropagative transmission. It is the answer."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Modes of transmission",
+      "learning_objective": "Identify the mosquito as an arthropod with cyclopropagative transmission.",
+      "main_concept": "CON-INF-CBAE0849B267EA",
+      "concept_ids": [
+        "CON-INF-CBAE0849B267EA"
+      ]
+    },
+    {
+      "key": "e17",
+      "id": "QST-KASR309INF-BANK-ENTOMOLOGY-17",
+      "page": 23,
+      "title": "The larva is the disease stage of chigger mites",
+      "question": "The stage of chigger mites that is responsible for causing disease:",
+      "options": {
+        "A": "Adult",
+        "B": "Egg",
+        "C": "Nymph",
+        "D": "Larva"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The adult trombiculid mite is a free-living soil predator, not parasitic.",
+        "B": "Incorrect. The egg is a non-parasitic environmental stage.",
+        "C": "Incorrect. The nymph is free-living, like the adult.",
+        "D": "Correct. In trombiculid (chigger/harvest) mites only the six-legged larva is parasitic: it attaches to feed on skin, causing trombiculid dermatitis and, in Asia, transmitting scrub typhus, while nymphs and adults are free-living. The larva is therefore the disease-causing stage. It is the answer."
+      },
+      "module_subject": "309 INF > Parasitology > Entomology > Mites",
+      "learning_objective": "State that the larva is the parasitic, disease-causing stage of chigger mites.",
+      "main_concept": "CON-INF-3AE582B20F261A",
+      "concept_ids": [
+        "CON-INF-3AE582B20F261A"
+      ]
+    }
+  ]
+}
