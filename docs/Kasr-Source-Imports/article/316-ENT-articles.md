@@ -1530,9 +1530,11 @@ CON-MUL-0E33FAFA00F10A
 CON-MUL-807A936645C92F
 CON-MUL-24F1D7601AE7C0
 CON-MUL-19190AA99852DD
+CON-MUL-C5FA23EF56FF5C
 ## related_articles
 ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
 ART-ENT-316-LARYNX-CARCINOMA
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
@@ -1618,9 +1620,11 @@ DIS-ENT-T04
 CON-MUL-A85924041B2640
 CON-MUL-D8F3344BC4A6D8
 CON-MUL-5B5A3290DD0FFA
+CON-MUL-0F09216F724A74
 ## related_articles
 ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
 ART-ENT-316-LARYNX-CARCINOMA
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
@@ -1708,9 +1712,11 @@ CON-MUL-05DC95DD12C391
 CON-MUL-AC617D3F5B4B03
 CON-MUL-C5FFD0CF7617C2
 CON-MUL-C0DDAC344BAB19
+CON-MUL-715704BBB32B2D
 ## related_articles
 ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
 ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
 ## resource_ids
 src_33e91d37f173f0ca3fba
 ## nanotopic
@@ -1740,3 +1746,101 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the Larynx-section concepts (Q11, Q12, Q13, Q15, Q17, Q18) on the real discipline node DIS-ENT-T04 (Larynx and voice). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
 ## reading_time
 4
+
+---
+
+## id
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## title
+Otorhinolaryngology: acquired laryngeal airway problems — inflammation, stenosis, stridor and tracheostomy
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Otorhinolaryngology
+## summary
+This article groups the acquired laryngeal airway, inflammatory and airway-management facts tested by the Larynx section (Q35-Q54): croup as the commonest cause of febrile stridor in a child, why acute laryngitis is dangerous in children, laryngoscleroma (subglottic), perichondritis and subglottic stenosis, the vocal cord paralyses (bilateral abductor palsy is life threatening), the hot potato voice, the causes and inflammatory causes of stridor, and tracheostomy (its indications, the dangers of a high tracheostomy, pneumothorax as a complication, and the CO2 laser of microlaryngosurgery).
+## sections
+### Definition
+This group covers the acquired and inflammatory conditions of the larynx that threaten the airway, and the airway-management measures (tracheostomy and laser) used to treat them.
+### Mechanism
+A young child's narrow subglottis obstructs easily when inflamed (croup, acute laryngitis); chronic granulomatous scleroma and scarring (intubation, cricoid injury) narrow the subglottis; bilateral abductor cord paralysis holds the cords near the midline; and a supraglottic or oropharyngeal mass muffles the voice while a subglottic tumour obstructs before it hoarsens.
+### Key determinants
+Febrile stridor with retractions in a child is croup; laryngoscleroma and subglottic stenosis are subglottic; laryngomalacia is a congenital (not inflammatory) cause of stridor and adenoids cause nasal obstruction not stridor; bilateral abductor paralysis is the life-threatening cord palsy; a high tracheostomy injures the cricoid and causes subglottic stenosis; tracheostomy is indicated for airway obstruction, prolonged intubation or major head-and-neck surgery (not for cord leukoplakia); post-tracheostomy distress with a patent tube suggests pneumothorax; and the CO2 laser is used for microlaryngeal surgery.
+### Clinical significance
+Recognising which laryngeal problem is threatening the airway — and choosing the right response (steroids and adrenaline for croup, a correctly sited tracheostomy, emergency airway control for bilateral abductor palsy) — is what keeps these patients safe.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice
+## subtopic
+Acquired laryngeal airway problems, inflammation and airway management
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 otorhinolaryngology
+## high_yield
+Core
+## primary_node_id
+DIS-ENT-T04
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-F750330E3CE7C2
+CON-MUL-BA7B96F17158BB
+CON-MUL-5FBBB933C7F7E4
+CON-MUL-18DA6D3469682D
+CON-MUL-23E8FF122BCFC3
+CON-MUL-BF25114B9F9B67
+CON-MUL-7431EFAB5FE57B
+CON-MUL-8940AA9ED8956B
+CON-MUL-CECB867B66C3D3
+CON-MUL-A2B92F0FF1A0E2
+CON-MUL-B38498374B4BA3
+CON-MUL-7A9BB3070B69A7
+## related_articles
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+ART-ENT-316-LARYNX-CARCINOMA
+## resource_ids
+src_33e91d37f173f0ca3fba
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a department ENT source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the Larynx-section acquired-airway/inflammation/airway-management concepts (Q35, Q36, Q37, Q38, Q39, Q40, Q41, Q43, Q44, Q45, Q46, Q48, Q50, Q51, Q52, Q53, Q54) on the real discipline node DIS-ENT-T04 (Larynx and voice). ENT has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true ENT node.
+## reading_time
+6

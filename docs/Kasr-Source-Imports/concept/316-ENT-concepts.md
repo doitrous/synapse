@@ -11645,3 +11645,1653 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngeal-squamous-cell-carcinoma.features-and-spread", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
 resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-715704BBB32B2D
+## label
+In subglottic carcinoma stridor appears early and hoarseness late
+## canonical_key
+otolaryngology.subglottic-carcinoma.early-stridor-before-hoarseness
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Subglottic carcinoma arises below the vocal cords in the narrowest part of the larynx, so it obstructs the airway and causes stridor EARLY, while the vocal cords are spared until late and hoarseness appears only later. This is the reverse of glottic carcinoma, where hoarseness is the early warning sign. Because hoarseness comes late, subglottic tumours are often diagnosed at an advanced stage.
+## explicit_objective
+State that subglottic carcinoma causes early stridor with hoarseness appearing late.
+## pitfalls
+Early stridor with late hoarseness is subglottic, not glottic; glottic carcinoma gives early hoarseness.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Subglottic carcinoma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal carcinoma > Subglottic carcinoma
+## article_ids
+ART-ENT-316-LARYNX-CARCINOMA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.subglottic-carcinoma.early-stridor-before-hoarseness", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-0F09216F724A74
+## label
+Vocal cord nodules are voice-abuse lesions at the anterior-third junction causing hoarseness
+## canonical_key
+otolaryngology.vocal-cord-nodule.voice-abuse-anterior-third-junction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vocal (singer's) nodules are benign, usually bilateral mucosal swellings caused by voice abuse, forming at the junction of the anterior one-third and posterior two-thirds of the membranous vocal cord — the point of maximum vibratory impact. They present with persistent hoarseness and are treated conservatively with voice therapy and voice rest. Being small mucosal lesions, they do not obstruct the airway or cause respiratory distress.
+## explicit_objective
+Describe vocal cord nodules as voice-abuse lesions at the anterior-third junction that cause hoarseness and are treated by voice therapy.
+## pitfalls
+Nodules cause hoarseness, not airway obstruction; they sit at the anterior 1/3–posterior 2/3 junction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Vocal cord nodule
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Benign laryngeal lesions > Vocal cord nodule
+## article_ids
+ART-ENT-316-LARYNX-BENIGN-PREMALIGNANT
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.vocal-cord-nodule.voice-abuse-anterior-third-junction", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-F750330E3CE7C2
+## label
+Acute laryngotracheobronchitis (croup) is the commonest cause of febrile stridor in a young child
+## canonical_key
+otolaryngology.acute-laryngotracheobronchitis.febrile-stridor-child
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute laryngo-tracheo-bronchitis (viral croup) is the commonest infective cause of stridor in young children. Inflammatory oedema of the narrow subglottis obstructs airflow, producing fever, a barking cough, stridor and respiratory distress with intercostal and suprasternal retraction. It is managed with humidified oxygen, corticosteroids and nebulised adrenaline, and is distinguished from the sudden afebrile choking of an inhaled foreign body and from the rarer membranous diphtheria.
+## explicit_objective
+Recognise acute laryngotracheobronchitis (croup) as the commonest cause of febrile stridor in a young child.
+## pitfalls
+Febrile stridor with retractions in a child is croup; an inhaled foreign body is sudden and afebrile.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Acute laryngotracheobronchitis (croup)
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Paediatric airway > Croup
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.acute-laryngotracheobronchitis.febrile-stridor-child", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-BA7B96F17158BB
+## label
+Laryngoscleroma affects the subglottis and presents with stridor and hoarseness
+## canonical_key
+otolaryngology.laryngoscleroma.subglottic-involvement-stridor-hoarseness
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laryngoscleroma is the laryngeal extension of rhinoscleroma, a chronic granulomatous infection. It most commonly involves the subglottis (below the vocal cords), where granulomatous infiltration and later fibrosis cause subglottic stenosis. Its commonest presentation is therefore progressive stridor together with hoarseness of voice.
+## explicit_objective
+State that laryngoscleroma most commonly involves the subglottis and presents with stridor and hoarseness.
+## pitfalls
+The laryngeal site of scleroma is the subglottis (below the cords), not the glottis or epiglottis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngoscleroma
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal granuloma > Laryngoscleroma
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngoscleroma.subglottic-involvement-stridor-hoarseness", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-5FBBB933C7F7E4
+## label
+Acute laryngitis is dangerous in children because the narrow airway obstructs and causes stridor
+## canonical_key
+otolaryngology.pediatric-acute-laryngitis.stridor-from-narrow-subglottis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Acute non-specific laryngitis is more dangerous in young children than in adults because the child's laryngeal lumen, especially the subglottis, is very narrow with loose submucosa. The mucosal swelling of laryngitis therefore quickly narrows the airway and causes stridor and obstruction, whereas the same degree of oedema is trivial in a wide adult airway. This is why laryngeal inflammation in children can be life-threatening.
+## explicit_objective
+Explain that acute laryngitis is dangerous in children because the narrow airway obstructs and causes stridor.
+## pitfalls
+The danger in a child is airway narrowing with stridor, not hoarseness or lower-respiratory disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Paediatric acute laryngitis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Paediatric airway > Acute laryngitis
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.pediatric-acute-laryngitis.stridor-from-narrow-subglottis", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-18DA6D3469682D
+## label
+Laryngeal perichondritis follows trauma, high tracheostomy, radiotherapy or cancer
+## canonical_key
+otolaryngology.laryngeal-perichondritis.causes-trauma-tracheostomy-radiotherapy-cancer
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Laryngeal perichondritis is infection and inflammation of the perichondrium and laryngeal cartilage. It follows anything that exposes or devitalises the cartilage: external trauma such as a cut-throat wound, surgical injury such as a high tracheostomy damaging the cricoid, radiotherapy to the larynx, and invasive laryngeal cancer. It is not caused by congenital laryngomalacia, which involves neither infection nor cartilage injury.
+## explicit_objective
+List trauma, high tracheostomy, radiotherapy and cancer as causes of laryngeal perichondritis.
+## pitfalls
+Laryngomalacia (congenital cartilage softening) does not cause perichondritis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Laryngeal perichondritis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal inflammation > Perichondritis
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.laryngeal-perichondritis.causes-trauma-tracheostomy-radiotherapy-cancer", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-23E8FF122BCFC3
+## label
+Subglottic stenosis follows congenital narrowing, scleroma, prolonged intubation or cricoid injury
+## canonical_key
+otolaryngology.subglottic-stenosis.causes-congenital-scleroma-intubation-cricoid-injury
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Subglottic stenosis is narrowing of the airway at the subglottis. Causes include a congenital narrow cricoid, chronic granulomatous disease (rhinolaryngoscleroma), prolonged endotracheal intubation with mucosal pressure necrosis and scarring, and a high tracheostomy that injures the cricoid cartilage. A surface mucosal lesion such as leukoplakia does not cause it.
+## explicit_objective
+List the causes of subglottic stenosis.
+## pitfalls
+Leukoplakia is a mucosal patch and does not cause subglottic stenosis; scarring and cricoid injury do.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Subglottic stenosis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Airway stenosis > Subglottic stenosis
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.subglottic-stenosis.causes-congenital-scleroma-intubation-cricoid-injury", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-BF25114B9F9B67
+## label
+Bilateral abductor vocal cord paralysis obstructs the airway and is the life-threatening cord palsy
+## canonical_key
+otolaryngology.bilateral-abductor-vocal-cord-paralysis.airway-obstruction-life-threatening
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In bilateral abductor vocal cord paralysis both cords cannot move apart and lie near the midline (paramedian), so the glottic airway is critically narrowed and the patient develops stridor and possible fatal airway obstruction, even though the voice may be surprisingly good. It is the life-threatening cord palsy and may require emergency tracheostomy; it is classically seen after total thyroidectomy. By contrast, unilateral palsies and bilateral ADDUCTOR palsy leave the airway patent.
+## explicit_objective
+State that bilateral abductor vocal cord paralysis obstructs the airway and is the life-threatening cord palsy.
+## pitfalls
+Bilateral abductor palsy obstructs the airway (dangerous); adductor palsy leaves it open with a breathy voice.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Vocal cord paralysis
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Vocal cord paralysis > Abductor palsy
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.bilateral-abductor-vocal-cord-paralysis.airway-obstruction-life-threatening", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-7431EFAB5FE57B
+## label
+A hot potato voice comes from supraglottic or oropharyngeal lesions, not glottic lesions
+## canonical_key
+otolaryngology.hot-potato-voice.supraglottic-oropharyngeal-lesions-not-glottic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A hot potato (muffled, plummy) voice is produced by a mass or swelling ABOVE the vocal cords, in the supraglottis or oropharynx, that impedes resonance while the cords still vibrate. Causes include supraglottic carcinoma, acute epiglottitis and marked tonsillar or oropharyngeal enlargement. A glottic (cord) lesion instead makes the voice hoarse, not muffled.
+## explicit_objective
+State that a hot potato voice arises from supraglottic or oropharyngeal lesions, not from glottic carcinoma.
+## pitfalls
+Glottic carcinoma causes hoarseness, not a hot potato voice; the muffled voice is supraglottic/oropharyngeal.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Hot potato voice
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal symptoms > Hot potato voice
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.hot-potato-voice.supraglottic-oropharyngeal-lesions-not-glottic", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-8940AA9ED8956B
+## label
+Stridor is a laryngotracheal airway noise; adenoid hypertrophy causes nasal obstruction, not stridor
+## canonical_key
+otolaryngology.stridor.definition-and-causes-laryngeal-airway-not-adenoid
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Stridor is a noise produced by turbulent airflow through a narrowed larynx or trachea, so it is a sign of laryngotracheal (not nasal) airway obstruction. Its causes are laryngeal and tracheal: infective/inflammatory ones (acute epiglottitis, laryngeal diphtheria, scleroma, laryngeal tuberculosis), angioedema, bilateral abductor cord paralysis and congenital laryngomalacia. Nasopharyngeal obstruction such as adenoid hypertrophy causes nasal obstruction and snoring, not stridor.
+## explicit_objective
+Recognise stridor as a laryngotracheal sign and distinguish its inflammatory from congenital causes.
+## pitfalls
+Adenoid hypertrophy causes nasal obstruction, not stridor; laryngomalacia is a congenital (not inflammatory) cause.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Stridor
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Airway signs > Stridor
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.stridor.definition-and-causes-laryngeal-airway-not-adenoid", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-CECB867B66C3D3
+## label
+Pneumothorax causes post-tracheostomy distress despite a patent tube, especially in children
+## canonical_key
+otolaryngology.tracheostomy.pneumothorax-complication-pleural-dome-child
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pneumothorax is a complication of tracheostomy, especially in children, because the pleural (lung) dome rises high into the root of the neck and can be injured during the procedure. It should be suspected when the patient has respiratory distress with chest retractions despite adequate airflow through a correctly placed, patent tracheostomy tube, which points to a chest rather than a tube problem. A tube that is displaced or blocked instead reduces airflow through the tube.
+## explicit_objective
+Recognise pneumothorax when post-tracheostomy distress occurs despite adequate tube airflow.
+## pitfalls
+Distress with good tube airflow means a chest cause (pneumothorax); poor tube airflow means a blocked or displaced tube.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tracheostomy complications
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Tracheostomy > Complications
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.tracheostomy.pneumothorax-complication-pleural-dome-child", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-A2B92F0FF1A0E2
+## label
+Tracheostomy is indicated for airway obstruction, prolonged intubation or major head and neck surgery
+## canonical_key
+otolaryngology.tracheostomy.indications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tracheostomy is indicated for upper-airway obstruction (for example advanced obstructing laryngeal cancer or bilateral vocal cord paralysis after total thyroidectomy), for anticipated prolonged intubation or ventilation, and to secure the airway before major head-and-neck surgery such as resection of a large oro-mandibular cancer. It is not indicated for a non-obstructing surface mucosal lesion such as cord leukoplakia. The common thread is actual or expected airway compromise or the need for prolonged airway control.
+## explicit_objective
+List the indications for tracheostomy.
+## pitfalls
+Extensive cord leukoplakia is a mucosal lesion, not airway obstruction, so it is not an indication for tracheostomy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Tracheostomy indications
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Tracheostomy > Indications
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.tracheostomy.indications", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-B38498374B4BA3
+## label
+A high tracheostomy injures the cricoid cartilage and causes subglottic stenosis
+## canonical_key
+otolaryngology.high-tracheostomy.cricoid-injury-subglottic-stenosis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A high tracheostomy is one placed too close to or through the first tracheal ring and cricoid cartilage. It is condemned because it injures the cricoid — the only complete cartilage ring of the airway — and healing there causes subglottic stenosis. A safe tracheostomy is placed lower, through the second and third tracheal rings.
+## explicit_objective
+State that a high tracheostomy injures the cricoid cartilage and causes subglottic stenosis.
+## pitfalls
+The fault of a high tracheostomy is cricoid injury and subglottic stenosis, not injury to the great vessels.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+High tracheostomy
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Tracheostomy > High tracheostomy
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.high-tracheostomy.cricoid-injury-subglottic-stenosis", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-7A9BB3070B69A7
+## label
+The CO2 laser is the laser commonly used in microlaryngosurgery
+## canonical_key
+otolaryngology.co2-laser.microlaryngosurgery
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The carbon dioxide (CO2) laser is the laser commonly used in microlaryngeal surgery. Its beam is strongly absorbed by tissue water, giving precise, shallow cutting with minimal thermal spread to the surrounding cords, which suits delicate work such as excising papillomas or small cord lesions. It is coupled to the operating microscope for microlaryngoscopy.
+## explicit_objective
+State that the CO2 laser is the laser commonly used in microlaryngosurgery.
+## pitfalls
+The CO2 laser (not Nd:YAG, argon or KTP) is the standard microlaryngeal-surgery laser.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S02
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Microlaryngosurgery laser
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Laryngeal surgery > Laser
+## article_ids
+ART-ENT-316-LARYNX-ACQUIRED-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.co2-laser.microlaryngosurgery", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
+
+---
+
+## id
+CON-MUL-C5FA23EF56FF5C
+## label
+Laryngeal disease refers otalgia to the ear through the vagus nerve (Arnold's nerve)
+## canonical_key
+otolaryngology.referred-otalgia-larynx.vagus-arnolds-nerve
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The larynx is innervated by the vagus nerve through its superior and recurrent laryngeal branches, and the vagus also gives the auricular branch (Arnold's nerve) to the external ear. Because both travel in the vagal sensory pathway, laryngeal disease such as laryngitis or laryngeal cancer refers pain to the ear through the vagus. Persistent otalgia with a normal ear examination should therefore prompt examination of the larynx.
+## explicit_objective
+State that laryngeal disease refers otalgia to the ear through the vagus nerve (Arnold's nerve).
+## pitfalls
+Laryngeal referred otalgia travels via the vagus (Arnold's nerve), not the glossopharyngeal or trigeminal nerve.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-ENT-T04-S01
+## secondary_node_ids
+
+## topic
+Otorhinolaryngology
+## subtopic
+Referred otalgia from the larynx
+## microtopic
+
+## nanotopic
+
+## modules
+316 ENT
+## module_subject
+316 ENT > Otorhinolaryngology > Larynx and voice > Larynx and voice > Referred otalgia
+## article_ids
+ART-ENT-316-LARYNX-CONGENITAL-AIRWAY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_33e91d37f173f0ca3fba
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key "otolaryngology.referred-otalgia-larynx.vagus-arnolds-nerve", uppercased (same scheme as the Ear and Nose sections); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; no prior ENT larynx concept found to reuse across universities.
+resourceOccurrenceIds: Fact grounded in standard ENT teaching corroborated by this bank's Larynx-section stems/options and its printed answer-key grid (image, PDF p46; key cross-checked against option text); stems are native text (no page image read this pass).
