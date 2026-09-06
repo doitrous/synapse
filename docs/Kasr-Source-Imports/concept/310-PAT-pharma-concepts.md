@@ -2602,3 +2602,570 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-8F4D06912D5A90
+## label
+Glucocorticoids inhibit synthesis of all eicosanoids
+## canonical_key
+eicosanoid.synthesis.glucocorticoids-inhibit-all
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glucocorticoids induce lipocortin (annexin-1), which inhibits phospholipase A2, the enzyme that releases arachidonic acid from membrane phospholipids. Because arachidonic acid is the common precursor of all eicosanoids, this upstream block stops synthesis of prostaglandins, thromboxanes AND leukotrienes together. NSAIDs, by contrast, inhibit only cyclo-oxygenase and so spare the leukotriene pathway.
+## explicit_objective
+Explain that glucocorticoids block all eicosanoids by inhibiting phospholipase A2, unlike NSAIDs.
+## pitfalls
+Choosing NSAIDs; they block only the COX (prostaglandin/thromboxane) arm, not leukotrienes.
+## concept_type
+mechanism
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Eicosanoids
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids > Eicosanoids
+## article_ids
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-BB99BCD1886337
+## label
+First-generation H1 antihistamines cause sedation
+## canonical_key
+h1-antihistamine.first-generation.sedation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+First-generation H1 antihistamines such as diphenhydramine are lipophilic and cross the blood-brain barrier, blocking central H1 receptors to produce marked sedation and drowsiness (hence their use as over-the-counter sleep aids). They also have antimuscarinic effects (dry mouth, blurred vision, urinary retention). Second-generation agents (cetirizine, loratadine) penetrate the CNS poorly and are non-sedating.
+## explicit_objective
+Identify sedation as the characteristic adverse effect of first-generation H1 antihistamines.
+## pitfalls
+Expecting increased secretions or salivation; the antimuscarinic action dries secretions, and central H1 block sedates.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Histamine and antihistamines
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids > Histamine and antihistamines
+## article_ids
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-4C9B3C0EBAE733
+## label
+Epoprostenol (prostacyclin) for pulmonary hypertension
+## canonical_key
+epoprostenol.pgi2.pulmonary-hypertension
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Epoprostenol is a synthetic prostacyclin (PGI2) analogue, a potent vasodilator and inhibitor of platelet aggregation. Given by continuous intravenous infusion it lowers pulmonary vascular resistance, so its main use is the treatment of pulmonary arterial hypertension. Its very short half-life is why it must be given as a continuous infusion.
+## explicit_objective
+Identify epoprostenol (prostacyclin analogue) as a treatment for pulmonary arterial hypertension.
+## pitfalls
+Confusing a vasodilator prostacyclin with vasoconstrictor migraine drugs or with topical glaucoma prostaglandins.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Eicosanoids
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids > Eicosanoids
+## article_ids
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-068201831B7A2E
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-068201831B7A2E
+## label
+Alprostadil (PGE1) maintains ductus arteriosus patency
+## canonical_key
+alprostadil.pge1.maintain-ductus-arteriosus
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Alprostadil is prostaglandin E1. In duct-dependent congenital heart disease it is infused to keep the ductus arteriosus OPEN, preserving pulmonary or systemic blood flow until surgical repair or palliation. This ductus-maintaining action is the basis of its pre-operative use in affected neonates, contrasting with indometacin/NSAIDs, which are used to CLOSE a patent ductus.
+## explicit_objective
+State that alprostadil (PGE1) maintains ductus arteriosus patency in duct-dependent neonatal heart disease.
+## pitfalls
+Confusing the duct-opening prostaglandin (alprostadil) with the duct-closing NSAID (indometacin).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Eicosanoids
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids > Eicosanoids
+## article_ids
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-4C9B3C0EBAE733
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-E71D49039215F8
+## label
+Bromocriptine suppresses prolactin and lactation
+## canonical_key
+bromocriptine.dopamine-agonist.lactation-suppression
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bromocriptine is a semisynthetic ergot derivative and dopamine (D2) receptor agonist. By stimulating pituitary dopamine receptors it suppresses prolactin secretion, so it is used to suppress lactation and to treat hyperprolactinaemia (and, at higher doses, Parkinsonism). This dopaminergic prolactin-lowering action distinguishes it from ergotamine (migraine) and ergometrine (uterotonic).
+## explicit_objective
+Identify bromocriptine as the dopamine-agonist ergot derivative that suppresses lactation.
+## pitfalls
+Confusing bromocriptine with the uterotonic ergometrine or the vasoconstrictor ergotamine.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Serotonin and ergot
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids > Serotonin and ergot
+## article_ids
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-42B72D7CD75903
+## label
+Itopride as a gastrointestinal prokinetic
+## canonical_key
+itopride.prokinetic.gerd
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Itopride enhances gastrointestinal motility by blocking dopamine D2 receptors and inhibiting acetylcholinesterase, which raises acetylcholine in the gut wall. It is used as a prokinetic for functional dyspepsia and gastro-oesophageal reflux, where speeding gastric emptying relieves symptoms. It is not a specific antiemetic for chemotherapy nor a treatment for carcinoid or migraine.
+## explicit_objective
+Identify the prokinetic use of itopride in gastro-oesophageal reflux and functional dyspepsia.
+## pitfalls
+The source labels itopride a serotonin agonist; it is a D2 antagonist plus anticholinesterase, but the prokinetic/GERD indication is correct regardless.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Serotonin and prokinetics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids > Serotonin and prokinetics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-1128C266B19114
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.6
+## weight_confidence
+0.5
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-1128C266B19114
+## label
+Ondansetron (5-HT3 antagonist) for chemotherapy vomiting
+## canonical_key
+ondansetron.5ht3-antagonist.chemotherapy-antiemetic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ondansetron is a 5-HT3 (serotonin) receptor antagonist. Chemotherapy triggers serotonin release from gut enterochromaffin cells, stimulating 5-HT3 receptors on vagal afferents and the chemoreceptor trigger zone; blocking these receptors makes ondansetron highly effective against severe chemotherapy-induced and postoperative nausea and vomiting. Antihistamines and H2 blockers do not control this emesis.
+## explicit_objective
+Identify ondansetron (5-HT3 antagonist) as the antiemetic for chemotherapy-induced vomiting.
+## pitfalls
+Choosing an antihistamine (cetirizine) or H2 blocker (cimetidine); these do not control chemotherapy emesis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Serotonin and antiemetics
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids > Serotonin and antiemetics
+## article_ids
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

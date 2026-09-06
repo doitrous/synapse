@@ -1,0 +1,168 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-pharma-autacoids",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · PHARMACOLOGY subject · Autacoids section (Q1-7), authored from the student 'Pharma MCQ by Abolmagd' compilation (pp.11-12). Includes the diphenhydramine item deferred here from the ANS section. No printed answer key; answers expert-determined by medical reasoning, proven in per-option explanations. STATUS=Draft.",
+  "defaults": {
+    "subject": "pharm",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-PAT-310-PHARMACOLOGY-AUTACOIDS"],
+    "resource_ids": ["src_88f58dc630a0ed14bb4e"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pharma MCQ by Abolmagd, Autacoids section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pharmacology",
+    "subtopic": "Autacoids",
+    "question_type": "Mechanism",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 11,
+    "field_notes": { "keySource": "expert-determined by medical reasoning; no source answer key printed in this bank; rationale in per-option explanations" }
+  },
+  "questions": [
+    {
+      "key": "q1", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-AUTA-01",
+      "title": "Drug that inhibits synthesis of all eicosanoids",
+      "question": "Which of the following would inhibit the synthesis of all the members of the eicosanoid family?",
+      "options": { "A": "Dazoxiben", "B": "Glucocorticoids", "C": "Montelukast", "D": "Non-steroidal anti-inflammatory drugs" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Dazoxiben inhibits thromboxane synthase only, blocking thromboxane production but not the other eicosanoids.",
+        "B": "Correct. Glucocorticoids induce lipocortin (annexin-1), which inhibits phospholipase A2, the enzyme that liberates arachidonic acid from membrane phospholipids. Because arachidonic acid is the common precursor of ALL eicosanoids, blocking its release stops synthesis of prostaglandins, thromboxanes AND leukotrienes together. This upstream action is why glucocorticoids suppress the entire family.",
+        "C": "Incorrect. Montelukast is a leukotriene-receptor antagonist; it blocks a receptor, not eicosanoid synthesis, and only the leukotriene arm.",
+        "D": "Incorrect. NSAIDs inhibit cyclo-oxygenase, so they block prostaglandins and thromboxanes but leave the lipoxygenase (leukotriene) pathway intact — not all eicosanoids."
+      },
+      "main_concept": "CON-PHA-8F4D06912D5A90", "concept_ids": ["CON-PHA-8F4D06912D5A90"],
+      "subtopic": "Eicosanoids",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Explain that glucocorticoids block all eicosanoids by inhibiting phospholipase A2 upstream, unlike NSAIDs.",
+      "module_subject": "310 PAT > Pharmacology > Autacoids > Eicosanoids"
+    },
+    {
+      "key": "q2", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-AUTA-02",
+      "title": "Most likely adverse effect of diphenhydramine",
+      "question": "A 20-year-old woman is taking diphenhydramine for severe hay fever. Which of the following adverse effects is she most likely to report?",
+      "options": { "A": "Muscarinic increase in bladder tone", "B": "Nausea", "C": "Nervousness and anxiety", "D": "Sedation" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Diphenhydramine has ANTImuscarinic effects, so it tends to reduce bladder tone (risking retention), not increase it.",
+        "B": "Incorrect. It is used to relieve nausea in some settings; nausea is not its typical adverse effect.",
+        "C": "Incorrect. First-generation antihistamines cause CNS depression, not nervousness or anxiety.",
+        "D": "Correct. Diphenhydramine is a first-generation H1 antihistamine that readily crosses the blood-brain barrier and blocks central H1 receptors, producing marked SEDATION and drowsiness. This is its most common adverse effect and the reason such agents are also used as over-the-counter sleep aids. Its antimuscarinic actions add dry mouth and blurred vision."
+      },
+      "main_concept": "CON-PHA-BB99BCD1886337", "concept_ids": ["CON-PHA-BB99BCD1886337"],
+      "subtopic": "Histamine and antihistamines",
+      "question_type": "Clinical case",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Identify sedation as the characteristic adverse effect of first-generation H1 antihistamines.",
+      "module_subject": "310 PAT > Pharmacology > Autacoids > Histamine and antihistamines"
+    },
+    {
+      "key": "q3", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-AUTA-03",
+      "title": "Main use of epoprostenol (PGI2 analogue)",
+      "question": "Epoprostenol, an analogue of PGI2, is sometimes used by intravenous infusion. Which of the following is the main use for this drug?",
+      "options": { "A": "Treatment of postpartum haemorrhage", "B": "Treatment of open-angle glaucoma", "C": "Treatment of pulmonary hypertension", "D": "Treatment of acute migraine headache" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Postpartum haemorrhage is treated with uterotonics such as oxytocin, ergometrine or the prostaglandin analogue misoprostol/carboprost, not with the vasodilator epoprostenol.",
+        "B": "Incorrect. Glaucoma prostaglandin therapy uses topical PGF2-alpha analogues (latanoprost), not intravenous epoprostenol.",
+        "C": "Correct. Epoprostenol is a synthetic prostacyclin (PGI2) analogue and a potent vasodilator and inhibitor of platelet aggregation. Given by continuous intravenous infusion it lowers pulmonary vascular resistance, so its main use is treatment of pulmonary arterial hypertension. Its very short half-life is why it must be infused continuously.",
+        "D": "Incorrect. Acute migraine is treated with triptans or ergot alkaloids (vasoconstrictors), the opposite pharmacology to a vasodilator prostacyclin."
+      },
+      "main_concept": "CON-PHA-4C9B3C0EBAE733", "concept_ids": ["CON-PHA-4C9B3C0EBAE733"],
+      "subtopic": "Eicosanoids",
+      "question_type": "Treatment",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 11,
+      "learning_objective": "Identify epoprostenol (prostacyclin analogue) as a treatment for pulmonary arterial hypertension.",
+      "module_subject": "310 PAT > Pharmacology > Autacoids > Eicosanoids"
+    },
+    {
+      "key": "q4", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-AUTA-04",
+      "title": "Prostaglandin given before neonatal cardiac surgery",
+      "question": "A newborn infant is being prepared for surgical repair of congenital heart disease. Which of the following agents might be administered pre-operatively?",
+      "options": { "A": "Alprostadil", "B": "Ergotamine", "C": "Misoprostol", "D": "Zafirlukast" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Alprostadil is prostaglandin E1. In duct-dependent congenital heart lesions it is infused to keep the ductus arteriosus OPEN, maintaining pulmonary or systemic blood flow until corrective or palliative surgery can be performed. This ductus-maintaining action is exactly why it is given pre-operatively in the neonate.",
+        "B": "Incorrect. Ergotamine is a vasoconstrictor used for migraine; it has no role in maintaining ductal patency and would be harmful.",
+        "C": "Incorrect. Misoprostol is a PGE1 analogue used for gastric protection and obstetric indications; it is not used to keep the neonatal duct open.",
+        "D": "Incorrect. Zafirlukast is a leukotriene-receptor antagonist for asthma, unrelated to ductal patency."
+      },
+      "main_concept": "CON-PHA-068201831B7A2E", "concept_ids": ["CON-PHA-068201831B7A2E"],
+      "subtopic": "Eicosanoids",
+      "question_type": "Clinical case",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2, "setting": "Clinical",
+      "learning_objective": "State that alprostadil (PGE1) maintains ductus arteriosus patency in duct-dependent neonatal heart disease.",
+      "module_subject": "310 PAT > Pharmacology > Autacoids > Eicosanoids"
+    },
+    {
+      "key": "q5", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-AUTA-05",
+      "title": "Ergot derivative used to suppress lactation",
+      "question": "Which of the following is an ergot derivative used in the suppression of lactation?",
+      "options": { "A": "Bromocriptine", "B": "Ergotamine", "C": "Ergometrine", "D": "Ketanserin" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Bromocriptine is a semisynthetic ergot derivative and a dopamine (D2) receptor agonist. By stimulating pituitary dopamine receptors it suppresses prolactin secretion, so it is used to suppress lactation and to treat hyperprolactinaemia. This dopaminergic, prolactin-lowering action is what makes it the correct choice.",
+        "B": "Incorrect. Ergotamine is an ergot alkaloid used for migraine (vasoconstriction), not for lactation suppression.",
+        "C": "Incorrect. Ergometrine is a uterotonic used to control postpartum haemorrhage, not to suppress lactation.",
+        "D": "Incorrect. Ketanserin is a 5-HT2 antagonist and is not an ergot derivative used for lactation."
+      },
+      "main_concept": "CON-PHA-E71D49039215F8", "concept_ids": ["CON-PHA-E71D49039215F8"],
+      "subtopic": "Serotonin and ergot",
+      "question_type": "Treatment",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 11,
+      "learning_objective": "Identify bromocriptine as the dopamine-agonist ergot derivative that suppresses lactation.",
+      "module_subject": "310 PAT > Pharmacology > Autacoids > Serotonin and ergot"
+    },
+    {
+      "key": "q6", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-AUTA-06",
+      "title": "Most likely indication for itopride",
+      "question": "Itopride is used as a prokinetic agent. Which of the following is its most likely indication?",
+      "options": { "A": "As a prokinetic for the treatment of gastro-oesophageal reflux", "B": "Symptomatic treatment of carcinoid syndrome", "C": "Prophylaxis of migraine", "D": "Treatment of chemotherapy-induced nausea and vomiting" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Itopride enhances gastrointestinal motility (it blocks dopamine D2 receptors and inhibits acetylcholinesterase, raising acetylcholine in the gut wall), so it is used as a PROKINETIC for functional dyspepsia and gastro-oesophageal reflux, where it speeds gastric emptying. Promoting forward motility is the basis of this indication.",
+        "B": "Incorrect. Carcinoid syndrome is treated with somatostatin analogues and serotonin antagonists, not a prokinetic.",
+        "C": "Incorrect. Migraine prophylaxis uses agents such as propranolol, topiramate or amitriptyline, not itopride.",
+        "D": "Incorrect. Chemotherapy-induced vomiting is controlled by 5-HT3 antagonists (ondansetron); itopride is a motility agent, not a specific antiemetic for this setting."
+      },
+      "main_concept": "CON-PHA-42B72D7CD75903", "concept_ids": ["CON-PHA-42B72D7CD75903"],
+      "subtopic": "Serotonin and prokinetics",
+      "question_type": "Treatment",
+      "difficulty": "Moderate", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "page": 11,
+      "author_notes": "Source stem labels itopride a 'serotonin receptor agonist'; itopride is more precisely a D2 antagonist plus acetylcholinesterase inhibitor. The tested indication (prokinetic for GERD/dyspepsia) is unambiguous and defensible regardless of the label, so keyed A with the mechanism stated accurately in the explanation.",
+      "learning_objective": "Identify the prokinetic use of itopride in gastro-oesophageal reflux and functional dyspepsia.",
+      "module_subject": "310 PAT > Pharmacology > Autacoids > Serotonin and prokinetics"
+    },
+    {
+      "key": "q7", "id": "QST-KASR310PAT-PHARMA-ABOLMAGD-AUTA-07",
+      "title": "Antiemetic for chemotherapy-induced vomiting",
+      "question": "A 40-year-old patient is about to undergo cancer chemotherapy with a combination that produces severe nausea and vomiting. The antiemetic drug most likely to be included in her regimen is:",
+      "options": { "A": "Bromocriptine", "B": "Cetirizine", "C": "Cimetidine", "D": "Ondansetron" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Bromocriptine is a dopamine agonist and itself causes nausea; it is not an antiemetic.",
+        "B": "Incorrect. Cetirizine is a second-generation H1 antihistamine for allergy, not effective for chemotherapy-induced vomiting.",
+        "C": "Incorrect. Cimetidine is an H2 antagonist that reduces gastric acid; it does not control chemotherapy emesis.",
+        "D": "Correct. Ondansetron is a 5-HT3 (serotonin) receptor antagonist. Chemotherapy triggers serotonin release from gut enterochromaffin cells, which stimulates 5-HT3 receptors on vagal afferents and the chemoreceptor trigger zone; blocking these receptors makes ondansetron highly effective for severe chemotherapy-induced nausea and vomiting. That mechanism is why it is the antiemetic of choice here."
+      },
+      "main_concept": "CON-PHA-1128C266B19114", "concept_ids": ["CON-PHA-1128C266B19114"],
+      "subtopic": "Serotonin and antiemetics",
+      "question_type": "Treatment",
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1, "setting": "Clinical",
+      "page": 12,
+      "learning_objective": "Identify ondansetron (5-HT3 antagonist) as the antiemetic for chemotherapy-induced vomiting.",
+      "module_subject": "310 PAT > Pharmacology > Autacoids > Serotonin and antiemetics"
+    }
+  ]
+}

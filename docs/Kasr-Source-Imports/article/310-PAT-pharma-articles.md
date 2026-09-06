@@ -208,3 +208,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 8
+
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-AUTACOIDS
+## title
+Autacoids: eicosanoids, histamine, serotonin and ergot drugs
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Autacoids are locally acting mediators and the drugs that modify them. Glucocorticoids block all eicosanoids by inhibiting phospholipase A2, whereas NSAIDs block only the cyclo-oxygenase arm. Prostaglandin drugs have distinct roles: epoprostenol (prostacyclin) lowers pulmonary vascular resistance in pulmonary hypertension, and alprostadil (PGE1) keeps the neonatal ductus arteriosus open. First-generation H1 antihistamines (diphenhydramine) sedate and have antimuscarinic effects. Serotonin and ergot pharmacology supplies bromocriptine (dopamine agonist, suppresses prolactin/lactation), prokinetics such as itopride for reflux, and the 5-HT3 antagonist ondansetron for chemotherapy-induced vomiting.
+## sections
+### Definition
+This article groups the autacoid concepts tested by Q1-7 of the bank: eicosanoid synthesis and prostaglandin drugs, histamine/antihistamines, and serotonin/ergot agents.
+### Mechanism
+Arachidonic acid is the common eicosanoid precursor; glucocorticoids act upstream at phospholipase A2, NSAIDs at cyclo-oxygenase. Prostacyclin and PGE1 are vasodilators with tissue-specific uses. First-generation antihistamines cross the blood-brain barrier (sedation). Dopamine agonism lowers prolactin; 5-HT3 blockade controls emesis.
+### Key determinants
+Discriminators tested here: glucocorticoids (not NSAIDs) block ALL eicosanoids; epoprostenol = pulmonary hypertension; alprostadil = keep ductus open; diphenhydramine = sedation; bromocriptine = suppress lactation; itopride = prokinetic for reflux; ondansetron = chemotherapy antiemetic.
+### Clinical significance
+These agents span anti-inflammatory therapy, neonatal cardiology, allergy, endocrinology and oncology supportive care, making autacoid pharmacology broadly high-yield.
+### Common misconceptions
+The frequent traps are equating NSAIDs with glucocorticoids for eicosanoid blockade and confusing the duct-opening PGE1 with the duct-closing NSAID; each linked concept's pitfalls field names the exact error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Autacoids
+## subtopic
+Autacoids
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-8F4D06912D5A90
+CON-PHA-BB99BCD1886337
+CON-PHA-4C9B3C0EBAE733
+CON-PHA-068201831B7A2E
+CON-PHA-E71D49039215F8
+CON-PHA-42B72D7CD75903
+CON-PHA-1128C266B19114
+## related_articles
+ART-PAT-310-PHARMACOLOGY-CHOLINERGIC
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+7
