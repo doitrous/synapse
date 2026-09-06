@@ -4613,3 +4613,493 @@ Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocul
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-67
+## title
+Examination in open eye injury
+## question
+Examination of a patient with open eye injury includes the following:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Eversion of eyelids.
+## explanation_a
+Incorrect. Eversion of the lids presses on the globe and is avoided.
+## answer_b
+Palpation of the orbital margin for fracture.
+## explanation_b
+Correct. Gentle palpation of the orbital margin for a fracture is safe and appropriate.
+## answer_c
+Pupillary dilation.
+## explanation_c
+Incorrect. Pupillary dilation is avoided in an open globe.
+## answer_d
+Fundus examination.
+## explanation_d
+Incorrect. A manipulative fundus examination is avoided until the globe is repaired.
+## topic
+Ophthalmology
+## subtopic
+Open globe injury
+## main_concept
+CON-MUL-E81BE96EF09F95
+## concept_ids
+CON-MUL-E81BE96EF09F95
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify orbital-margin palpation as appropriate in open-globe examination.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.177); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-68
+## title
+CT and MRI for diagnosis of
+## question
+Ocular and orbital CT and MRI are done for diagnosis of:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Intraocular foreign body.
+## explanation_a
+Incorrect. MRI is contraindicated for a metallic intraocular foreign body.
+## answer_b
+Intra orbital foreign body.
+## explanation_b
+Correct. Both CT and MRI are used for an intra-orbital foreign body, including radiolucent material such as wood.
+## answer_c
+Vitreous haemorrhage.
+## explanation_c
+Incorrect. Vitreous haemorrhage is assessed by ultrasound.
+## answer_d
+Orbital fracture.
+## explanation_d
+Incorrect. An orbital fracture is imaged by CT, not MRI.
+## topic
+Ophthalmology
+## subtopic
+Intraocular foreign body
+## main_concept
+CON-MUL-0DF229F8008232
+## concept_ids
+CON-MUL-0DF229F8008232
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Classification
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Identify the intra-orbital foreign body as the indication for both CT and MRI.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.177); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-69
+## title
+Immediate care of an open eye injury
+## question
+Immediate care of an open eye injury includes the following:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Patching of the eye.
+## explanation_a
+Incorrect. A pad presses on the globe; a rigid shield is used instead.
+## answer_b
+Antibiotic eye drops.
+## explanation_b
+Incorrect. Drops require manipulation; systemic antibiotics are preferred until repair.
+## answer_c
+Eye shield.
+## explanation_c
+Correct. A protective eye shield (not a pad) is applied as immediate care of an open globe.
+## answer_d
+Fundus examination.
+## explanation_d
+Incorrect. Fundus examination is deferred until after surgical repair.
+## topic
+Ophthalmology
+## subtopic
+Penetrating ocular trauma
+## main_concept
+CON-MUL-A0DBF0FD611BC2
+## concept_ids
+CON-MUL-A0DBF0FD611BC2
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Select an eye shield as the immediate care of an open eye injury.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.177); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-70
+## title
+Traumatic hyphema — true statement
+## question
+In traumatic hyphema:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Drug of choice is cycloplegics.
+## explanation_a
+Incorrect. Controlling the intraocular pressure, not cycloplegia, is the priority.
+## answer_b
+IOP is usually low.
+## explanation_b
+Incorrect. The intraocular pressure is usually raised, not low.
+## answer_c
+Blood staining of the cornea may occur.
+## explanation_c
+Correct. Corneal blood staining may complicate a persistent hyphema.
+## answer_d
+Treatment is always medical, and surgery is never indicated.
+## explanation_d
+Incorrect. Surgical evacuation may be needed for uncontrolled pressure or staining.
+## topic
+Ophthalmology
+## subtopic
+Traumatic hyphema
+## main_concept
+CON-MUL-B6807E5FEF1FAB
+## concept_ids
+CON-MUL-B6807E5FEF1FAB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise corneal blood staining as a feature of traumatic hyphema.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.177); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH12-71
+## title
+Best immediate treatment of a chemical splash
+## question
+The best immediate treatment for a chemical splash to the eye is:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Neutralization of the chemical with suitable buffer.
+## explanation_a
+Incorrect. Chemical neutralisation is unnecessary and can be harmful.
+## answer_b
+Cold compresses.
+## explanation_b
+Incorrect. Cold compresses do not remove the chemical.
+## answer_c
+Ocular lubricants.
+## explanation_c
+Incorrect. Lubricants do not remove the chemical.
+## answer_d
+Copious irrigation with water.
+## explanation_d
+Correct. Immediate copious irrigation with water is the best first treatment of a chemical splash.
+## topic
+Ophthalmology
+## subtopic
+Chemical eye injury
+## main_concept
+CON-MUL-4693A9F2D11E81
+## concept_ids
+CON-MUL-4693A9F2D11E81
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > Ocular and orbital injuries
+## question_only_for
+
+## library_ids
+ART-OPH-315-INJURIES
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Choose copious irrigation with water as the best immediate treatment of a chemical splash.
+## source_citation
+Kasr Al Ainy 315 OPH — Dr. Ahmed Kamal Ophthalmology question bank, Ch.12 Ocular and orbital injuries (PDF p.177); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8-9 Ch.12 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
