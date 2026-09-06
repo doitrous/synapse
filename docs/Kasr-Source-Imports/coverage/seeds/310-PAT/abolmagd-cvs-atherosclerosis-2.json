@@ -1,0 +1,130 @@
+{
+  "lane": "KASR-310PAT",
+  "cluster": "abolmagd-cvs-atherosclerosis-2",
+  "header": "Kasr Al Ainy 310 PAT (Year 3) · Cardiovascular pathology — Atherosclerosis continued (Q25-30), authored from the student 'Pathology MCQ by Abolmagd [SOLVED]' compilation. Answer key = the option rendered in RED text; render-verified p.7 (printed 6) at 170 dpi — all single red-text, 0 excluded. Detector over-flagged Q26 (B,D) and Q28 (C,D) and missed Q25/27/29/30 entirely; render is authoritative and every key resolves to a single red option.",
+  "defaults": {
+    "subject": "cvs",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "310 PAT",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-CVS-310PAT-ATHEROSCLEROSIS"],
+    "resource_ids": ["src_a2b36e9ed9778bfa7efd"],
+    "source_citation": "Kasr Al Ainy 310 PAT — Pathology MCQ by Abolmagd [SOLVED], Atherosclerosis section, p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Pathology",
+    "subtopic": "Atherosclerosis",
+    "question_type": "Classification",
+    "difficulty": "Moderate",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "page": 6,
+    "field_notes": { "keySource": "red-text option; render-verified p.7 (printed 6) at 170 dpi — detector unreliable on this page, eye-adjudicated" }
+  },
+  "questions": [
+    {
+      "key": "q25", "id": "QST-KASR310PAT-ABOLMAGD-25",
+      "title": "Not a major atherosclerosis risk factor (elevated HDL)",
+      "question": "All of the followings are considered as major risk factors in atherosclerosis except:",
+      "options": { "A": "Cigarette smoking", "B": "Elevated high density lipoprotein \"HDL\"", "C": "Diabetes mellitus", "D": "Hypertension" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this IS a major risk factor). Cigarette smoking is a major modifiable risk factor for atherosclerosis, promoting endothelial injury and accelerating atherogenesis.",
+        "B": "Correct. An ELEVATED level of HDL (‘good’ cholesterol) is PROTECTIVE against atherosclerosis, not a risk factor — HDL performs reverse cholesterol transport, carrying cholesterol from vessel walls back to the liver for excretion. It is a LOW HDL that raises risk; a high HDL lowers it. Listing high HDL among the major risk factors reverses its true protective role, which is exactly the trap this question sets. The genuine major risk factors are hypertension, diabetes mellitus, smoking and hyperlipidaemia (high LDL).",
+        "C": "Incorrect (this IS a major risk factor). Diabetes mellitus is a major risk factor, roughly doubling atherosclerotic risk through dyslipidaemia and endothelial damage.",
+        "D": "Incorrect (this IS a major risk factor). Hypertension is a major modifiable risk factor, injuring endothelium and accelerating plaque formation."
+      },
+      "main_concept": "CON-CVS-CF70B9BE45F65A", "concept_ids": ["CON-CVS-CF70B9BE45F65A"],
+      "contextual_concept_ids": ["CON-CVS-CDF186931EF8A8"],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "List the major risk factors of atherosclerosis (smoking, diabetes, hypertension, high LDL) and recognise a high HDL as protective, not a risk factor.",
+      "module_subject": "310 PAT > Pathology > Atherosclerosis > Risk factors"
+    },
+    {
+      "key": "q26", "id": "QST-KASR310PAT-ABOLMAGD-26",
+      "title": "False characterisation of atherosclerosis (arteries and veins)",
+      "question": "Atherosclerosis is characterized by all except:",
+      "options": { "A": "A very common disease", "B": "Affects arteries and veins", "C": "Hypertension is a major risk factor", "D": "Lipid accumulated in the vessel wall" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect (this IS true of atherosclerosis). Atherosclerosis is a very common disease and the leading cause of morbidity and mortality worldwide through ischaemic heart disease and stroke.",
+        "B": "Correct. This statement is FALSE, so it is the exception: atherosclerosis affects ARTERIES only — the intima of large elastic arteries (aorta, carotid, iliac) and medium muscular arteries (coronary, popliteal) — not veins. Veins undergo other changes (phlebosclerosis, varicosity) but do not form atheromatous plaques, and the myocardium is injured only indirectly through coronary narrowing. Calling atherosclerosis a disease of arteries AND veins misstates its target vessel, which is the point being tested.",
+        "C": "Incorrect (this IS true of atherosclerosis). Hypertension is one of the major modifiable risk factors for atherosclerosis.",
+        "D": "Incorrect (this IS true of atherosclerosis). Accumulation of lipid (cholesterol) in the arterial intima is the defining event of the atheromatous plaque."
+      },
+      "main_concept": "CON-CVS-E597F1E578C158", "concept_ids": ["CON-CVS-E597F1E578C158"],
+      "difficulty": "Easy", "cognitive_effort": "Low", "reasoning_level": 1,
+      "learning_objective": "Recognise that atherosclerosis is a common arterial (not venous) disease driven by intimal lipid accumulation, with hypertension a major risk factor.",
+      "module_subject": "310 PAT > Pathology > Atherosclerosis > Definition"
+    },
+    {
+      "key": "q27", "id": "QST-KASR310PAT-ABOLMAGD-27",
+      "title": "Not true for atherosclerosis (fibrinoid necrosis of media)",
+      "question": "Which of the following is not true for atherosclerosis:",
+      "options": { "A": "Common in the aorta", "B": "Complicated by thrombosis", "C": "Predispose to aneurysm", "D": "Fibrinoid necrosis of media" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect (this IS true). Atherosclerosis is common in the aorta (especially the abdominal aorta), one of its classic target vessels along with the coronary and cerebral arteries.",
+        "B": "Incorrect (this IS true). Thrombosis over a ruptured or ulcerated plaque is a major complication of atherosclerosis, causing acute arterial occlusion (e.g. myocardial infarction).",
+        "C": "Incorrect (this IS true). Atherosclerosis weakens the arterial wall (media) beneath a plaque and predisposes to aneurysm formation, classically the abdominal aortic aneurysm.",
+        "D": "Correct. This statement is FALSE, so it is the exception: FIBRINOID NECROSIS of the media (wall) is the lesion of MALIGNANT HYPERTENSION and of necrotising vasculitides, not of atherosclerosis. Atherosclerosis is an intimal plaque disease — lipid deposition, fibrous cap, calcification, ulceration, thrombosis and aneurysmal weakening — and does not produce fibrinoid necrosis of the media. Confusing the arteriolar fibrinoid necrosis of malignant hypertension with an atherosclerotic feature is exactly the error tested here."
+      },
+      "main_concept": "CON-CVS-0DBEB0ED79AA4D", "concept_ids": ["CON-CVS-0DBEB0ED79AA4D"],
+      "learning_objective": "List the true features/complications of atherosclerosis (aortic predilection, thrombosis, aneurysm) and recognise fibrinoid necrosis of the media as a malignant-hypertension lesion, not atherosclerotic.",
+      "module_subject": "310 PAT > Pathology > Atherosclerosis > Features and complications"
+    },
+    {
+      "key": "q28", "id": "QST-KASR310PAT-ABOLMAGD-28",
+      "title": "Does not predispose to atherosclerosis (rheumatic heart disease)",
+      "question": "The following doesn't predispose to atherosclerosis:",
+      "options": { "A": "Hypertension", "B": "DM", "C": "Rheumatic heart disease", "D": "High fat diet" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this DOES predispose). Hypertension is a major modifiable risk factor for atherosclerosis, injuring endothelium and accelerating plaque formation.",
+        "B": "Incorrect (this DOES predispose). Diabetes mellitus is a major risk factor, accelerating atherosclerosis through dyslipidaemia and endothelial damage.",
+        "C": "Correct. RHEUMATIC HEART DISEASE does not predispose to atherosclerosis: it is a post-streptococcal immune-mediated valvular disease (chronic valve scarring, classically mitral stenosis), an entirely different process from the lipid-driven intimal plaque disease of atherosclerosis. The recognised atherosclerosis risk factors are hypertension, diabetes, smoking, hyperlipidaemia and a high-fat diet — a valvular inflammatory disease is not among them, which is why it is the exception.",
+        "D": "Incorrect (this DOES predispose). A high-fat diet raises LDL cholesterol and promotes intimal lipid deposition, predisposing to atherosclerosis."
+      },
+      "main_concept": "CON-CVS-CF70B9BE45F65A", "concept_ids": ["CON-CVS-CF70B9BE45F65A"],
+      "learning_objective": "Distinguish the atherosclerosis risk factors (hypertension, diabetes, high-fat diet) from rheumatic heart disease, which does not predispose to atherosclerosis.",
+      "module_subject": "310 PAT > Pathology > Atherosclerosis > Risk factors"
+    },
+    {
+      "key": "q29", "id": "QST-KASR310PAT-ABOLMAGD-29",
+      "title": "Not a pathological feature of atherosclerosis (hyaline thickening)",
+      "question": "Pathological features of atherosclerosis include all except:",
+      "options": { "A": "Fatty streaks", "B": "Atheromatous plaques", "C": "Hyaline thickening of arterial wall", "D": "Thrombus formation" },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect (this IS a feature). Fatty streaks — intimal collections of lipid-laden macrophages (foam cells) — are the earliest lesion of atherosclerosis.",
+        "B": "Incorrect (this IS a feature). The atheromatous (fibrofatty) plaque, a raised intimal lesion with a lipid core and fibrous cap, is the characteristic established lesion of atherosclerosis.",
+        "C": "Correct. HYALINE THICKENING of the arterial wall (hyaline arteriolosclerosis) is the small-vessel lesion of BENIGN HYPERTENSION and of diabetes, not a feature of atherosclerosis. The pathological features of atherosclerosis are fatty streaks, atheromatous plaques and their complications (ulceration, calcification, thrombosis, haemorrhage into the plaque, aneurysm). Homogeneous hyaline thickening of arteriolar walls belongs to a different (hypertensive) process, which is the discrimination this question requires.",
+        "D": "Incorrect (this IS a feature). Thrombus formation over a complicated (ulcerated/ruptured) plaque is a classic feature and complication of atherosclerosis."
+      },
+      "main_concept": "CON-CVS-E4D32045684F43", "concept_ids": ["CON-CVS-E4D32045684F43"],
+      "learning_objective": "List the pathological features of atherosclerosis (fatty streaks, atheromatous plaques, thrombus) and recognise hyaline arteriolar thickening as a hypertensive/diabetic lesion, not atherosclerotic.",
+      "module_subject": "310 PAT > Pathology > Atherosclerosis > Morphology"
+    },
+    {
+      "key": "q30", "id": "QST-KASR310PAT-ABOLMAGD-30",
+      "title": "Cause of intimal thickening in atherosclerosis (all of the above)",
+      "question": "Intimal thickening in atherosclerosis is due to:",
+      "options": { "A": "Accumulation of lipids", "B": "Smooth muscle proliferation", "C": "Fibrous tissue formation", "D": "All of the above" },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the single answer. Accumulation of lipid (extracellular cholesterol and intracellular foam cells) does contribute to intimal thickening, but it is not the only mechanism, so this alone is incomplete.",
+        "B": "Incorrect as the single answer. Migration and proliferation of smooth muscle cells from the media into the intima is a key contributor, but it is not the only one.",
+        "C": "Incorrect as the single answer. Fibrous tissue (collagen and matrix) laid down by the smooth muscle cells forms the fibrous cap and adds to the thickening, but it is not the only mechanism.",
+        "D": "Correct. The intimal thickening of the atheromatous plaque results from ALL of these together: accumulation of lipid, proliferation of smooth muscle cells (which migrate from the media), and their production of fibrous tissue (collagen/extracellular matrix). This is the essence of the response-to-injury sequence — endothelial injury, lipid entry, smooth-muscle migration/proliferation and matrix synthesis build the fibrofatty plaque. Because each listed component genuinely contributes, ‘all of the above’ is the correct answer."
+      },
+      "main_concept": "CON-CVS-3F8BC81C0F9611", "concept_ids": ["CON-CVS-3F8BC81C0F9611"],
+      "learning_objective": "State that intimal thickening in atherosclerosis is due to lipid accumulation, smooth muscle proliferation and fibrous tissue formation together.",
+      "module_subject": "310 PAT > Pathology > Atherosclerosis > Plaque composition"
+    }
+  ]
+}

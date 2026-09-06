@@ -2233,3 +2233,336 @@ sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified pp.3-6); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-0DBEB0ED79AA4D
+## label
+Features and complications of atherosclerosis
+## canonical_key
+atherosclerosis.features-and-complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atherosclerosis is an intimal plaque disease that is common in the aorta and the coronary and cerebral arteries. Its complications include thrombosis over an ulcerated or ruptured plaque, calcification, plaque haemorrhage, embolism, and weakening of the underlying media that predisposes to aneurysm. It does not produce fibrinoid necrosis of the media, which is a lesion of malignant hypertension and necrotising vasculitis.
+## explicit_objective
+List the target vessels and complications of atherosclerosis (aortic predilection, thrombosis, aneurysm) and exclude fibrinoid necrosis of the media.
+## pitfalls
+Attributing fibrinoid necrosis of the media to atherosclerosis: that lesion belongs to malignant hypertension, not the intimal plaque disease of atherosclerosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Features and complications
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.7/printed 6); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-E4D32045684F43
+## label
+Pathological features of atherosclerosis
+## canonical_key
+atherosclerosis.pathological-features
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pathological features of atherosclerosis are the fatty streak (intimal foam-cell collection, the earliest lesion), the atheromatous (fibrofatty) plaque with a lipid core and fibrous cap, and complicated-plaque changes such as ulceration, calcification, haemorrhage and overlying thrombus formation. Hyaline thickening of the arterial wall (hyaline arteriolosclerosis) is a lesion of benign hypertension and diabetes, not a feature of atherosclerosis.
+## explicit_objective
+List the pathological features of atherosclerosis (fatty streaks, atheromatous plaques, thrombus) and exclude hyaline arteriolar thickening.
+## pitfalls
+Counting hyaline thickening of the arterial wall as atherosclerotic: it is the hypertensive/diabetic small-vessel lesion, not a feature of atherosclerosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Morphology
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.7/printed 6); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-3F8BC81C0F9611
+## label
+Intimal thickening in atherosclerosis is due to lipid, smooth muscle and fibrous tissue
+## canonical_key
+atherosclerosis.intimal-thickening-composition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The intimal thickening of the atheromatous plaque results from three processes together: accumulation of lipid (extracellular cholesterol and intracellular foam cells), proliferation of smooth muscle cells that migrate from the media into the intima, and the fibrous tissue (collagen and extracellular matrix) those cells produce to form the fibrous cap. This is the core of the response-to-injury sequence that builds the fibrofatty plaque.
+## explicit_objective
+State that intimal thickening in atherosclerosis is due to lipid accumulation, smooth muscle proliferation and fibrous tissue formation together.
+## pitfalls
+Picking a single mechanism: intimal thickening needs lipid accumulation, smooth muscle proliferation and fibrous tissue formation together, not any one alone.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Atherosclerosis
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Atherosclerosis > Plaque composition
+## article_ids
+ART-CVS-310PAT-ATHEROSCLEROSIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (render-verified p.7/printed 6); no department book located/read this pass.
+
+---

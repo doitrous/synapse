@@ -3,9 +3,10 @@
 | cluster | authored | held | excluded | remaining | total |
 |---|---:|---:|---:|---:|---:|
 | abolmagd-cvs Hypertension (Q1-18, `Pathology MCQ by Abolmagd [SOLVED].pdf`) | 18 | 0 | 0 | 0 | 18 |
-| abolmagd-cvs Atherosclerosis (Q19-24, same paper) | 6 | 0 | 0 | 6 (Q25-30) | 12 |
-| **abolmagd-cvs cluster total** | **24** | **0** | **0** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 24 | 0 | 0 | untriaged | — |
+| abolmagd-cvs Atherosclerosis (Q19-24, same paper) | 6 | 0 | 0 | 0 | 6 |
+| abolmagd-cvs Atherosclerosis-2 (Q25-30, same paper) | 6 | 0 | 0 | 0 (→ Blood Vessels p.8) | 6 |
+| **abolmagd-cvs cluster total** | **30** | **0** | **0** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 30 | 0 | 0 | untriaged | — |
 
 ## Module opened
 
@@ -65,10 +66,27 @@ article 2/0 errors; simulate created=47/rejected=0/errors=0; audit neutral vs th
 baseline — same categories, no new error category, and fewer total blanks because the articles
 populate related_articles).
 
+## Cluster — abolmagd-cvs-atherosclerosis-2 (Q25-30)
+
+6/6 authored (Q25-30, p.7 / printed 6), **0 excluded, 0 held**. Render-adjudicated p.7 at 170 dpi:
+the automated detector over-flagged Q26 (B,D) and Q28 (C,D) and missed Q25/27/29/30 entirely, but
+every key resolves to a SINGLE red-text option on the render — Q25.b, Q26.b, Q27.d, Q28.c, Q29.c,
+Q30.d — all medically sound. 3 concepts reused (CON-CVS-CF70B9BE45F65A major-risk-factors on Q25+Q28;
+CON-CVS-CDF186931EF8A8 HDL-good contextual on Q25; CON-CVS-E597F1E578C158 affects-arteries on Q26)
+and **3 new minted** (CON-CVS-0DBEB0ED79AA4D features-and-complications/Q27, CON-CVS-E4D32045684F43
+pathological-features/Q29, CON-CVS-3F8BC81C0F9611 intimal-thickening-composition/Q30), each
+university-blind (first 14 hex of SHA-256 of the canonical key), collision-checked — no collisions,
+no in-batch duplicates. All added to `ART-CVS-310PAT-ATHEROSCLEROSIS`. Note: Q25 (HDL not a risk
+factor) is a near-restatement of Q19; both are distinct printed items in the source bank, so Q25 is
+authored as its own MCQ reusing the risk-factor concepts (same pattern as Q19/Q24 in the first cluster).
+Files: `question/310-PAT-abolmagd-atherosclerosis-2-mcq.md`, seed
+`coverage/seeds/310-PAT/abolmagd-cvs-atherosclerosis-2.json`. **Gate-clean** (question 6/0, concept
+23/0, article 2/0; simulate created=32/rejected=0/errors=0; audit neutral vs the 310-PAT baseline —
+same placeholder categories only, no new error category).
+
 ## Next cluster
 
-**Remaining on this paper:** Q25-30 Atherosclerosis (p.7) — Q26 and Q28 are detector-ambiguous
-(negative stems), so **render-adjudicate p.7 before authoring**. Then Blood Vessels (p.8+),
+**Remaining on this paper:** Blood Vessels (p.8+),
 Endocarditis (p.13+), Ischemia (p.17+), Heart Diseases (p.19+), the 2008-2015 MCQ set (p.24+), and
 Written topics (p.26+, non-MCQ). **Untriaged in 310 PAT:** the rest of the Pathology sub-corpus
 (`Pathology MCQs Dr Elnemr 2025.pdf`, `EOY - PAT 310 2024.pdf`, department "Other Useful" and Dr
