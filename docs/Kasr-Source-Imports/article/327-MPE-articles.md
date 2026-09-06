@@ -394,3 +394,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 groupingNote: Groups the professional-misconduct concepts (impairment, self-advertising, disrespect, erasure grounds, appeal route, disciplinary sequence, misconduct examples) plus the harassment-as-assault and outdated-technique-as-malpractice discriminators on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication), Professional-conduct node DIS-PEC-T05. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node. Reuses CON-MUL-C88F76100B04D9 (outdated-technique harm) from the malpractice tranche.
 ## reading_time
 6
+
+---
+
+# Item
+## id
+ART-MPE-327-DEFENSIVE-MEDICINE
+## title
+Defensive medicine: positive and negative forms
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## topic
+Medical Professionalism & Ethics
+## summary
+This article groups the facts tested by the Defensive medicine MCQs of the bank. It defines defensive medicine as practice aimed at protecting the physician from liability rather than serving the patient, and separates its two forms: positive (assurance) defensive medicine is overutilisation of healthcare services (extra non-indicated tests, referrals, procedures or admissions — e.g. referring every headache to a neurologist, an MRI for a simple strain), while negative (passive) defensive medicine is avoidance of high-risk patients or procedures (avoiding difficult cases, refusing critically ill patients). It records the motive of the negative form (to avoid complications and their liability), the main cause of the spread of defensive medicine (physicians being easily sued over presumed errors), and its chief consequence (compromising the doctor–patient relationship). It also anchors a linked medico-legal fact: valid informed consent that discloses a high operative risk protects the physician if the patient dies from that recognised, consented risk.
+## sections
+### Definition
+Defensive medicine is clinical practice motivated by the physician's wish to reduce malpractice liability rather than by the patient's needs. It takes two forms: positive (assurance) defensive medicine — overutilisation, doing extra non-indicated tests, referrals, procedures or admissions — and negative (avoidance/passive) defensive medicine — avoiding high-risk patients and procedures.
+### Mechanism
+The practice is driven by the fear of litigation: because physicians are easily sued over presumed errors, they either do more to be seen to have covered every base, or avoid the risky cases altogether. In both forms the aim is to secure the physician, and the motive of the negative form specifically is to avoid complications and the liability that follows them.
+### Key determinants
+Positive examples: referring every headache to a neurologist, an MRI for a simple ligament strain, unnecessary ECGs, non-indicated caesareans, prolonged stays. Negative examples: avoiding difficult or complicated cases, refusing to treat critically ill patients. A related medico-legal fact anchors the section: valid informed consent that discloses a high procedural risk protects the physician if that risk materialises, because a death from a recognised, consented risk without negligence is not actionable.
+### Clinical significance
+Defensive medicine compromises the doctor–patient relationship, wastes resources, and can expose patients to unnecessary risk, all while its aim is the doctor's legal protection. Reducing the litigation pressure that drives it is the way to curb it; sound consent and honest, patient-centred practice are the antidotes.
+### Common misconceptions
+See each linked concept's pitfalls field for the exact reversal each distractor exploits (positive vs negative forms confused, 'positive' read as a good attitude or proper utilisation, the aim mistaken for patient/resource benefit, or consent to a disclosed risk read as guilt or grounds for compensation).
+## universities
+kau
+## years
+KAU_Y3
+## module
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## subtopic
+Defensive medicine and its forms
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 medical professionalism & ethics
+## high_yield
+Core
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## related_concepts
+CON-MUL-666942F9626FC7
+CON-MUL-FF0BB5D7456206
+CON-MUL-838E8472CC2F28
+CON-MUL-26D4FDCF1B5FA0
+CON-MUL-00390837D02116
+CON-MUL-727DBD415E305D
+CON-MUL-52E5AC8F1A4194
+## related_articles
+ART-MPE-327-MALPRACTICE
+ART-MPE-327-PROFESSIONAL-MISCONDUCT
+## resource_ids
+src_d21e884926be1b92ec4a
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Module-wide placeholder: a 327 MPE source page must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+groupingNote: Groups the defensive-medicine concepts (aim, positive/negative forms and their examples, motive, cause, consequence) plus the linked informed-consent-protection fact on the real discipline hub DIS-PEC (Professionalism, Ethics & Communication), Professional-conduct node DIS-PEC-T05. Ethics has no body-system code, so concepts carry subject mul / CON-MUL-, but the taxonomy placement is the true DIS-PEC node.
+## reading_time
+6

@@ -1,11 +1,18 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
+| defensive-medicine | 10 | 6 | 0 | 16 |
 | ems | 1 | 0 | 0 | 1 |
 | malpractice | 19 | 13 | 0 | 32 |
 | medical-errors | 15 | 7 | 0 | 22 |
 | professional-misconduct | 9 | 6 | 0 | 15 |
 
 ## Held
+- defensive-medicine-q117 — exact in-section duplicate of Q115 (example of positive defensive medicine = referring every headache to a neurologist; key B, render-confirmed p26) — authored once as Q115
+- defensive-medicine-q120 — exact in-section duplicate of Q112 (aim of defensive medicine = secure the physician; key B) — authored once as Q112
+- defensive-medicine-q121 — reordered in-section duplicate of Q119 (negative defensive medicine practised to avoid complications; key C here = Avoid complications) — authored once as Q119
+- defensive-medicine-q122 — exact in-section duplicate of Q118 (positive defensive medicine means overutilization of healthcare services; key B) — authored once as Q118
+- defensive-medicine-q125 — exact in-section duplicate of Q113 (sequel of defensive medicine = compromising the doctor/patient relation; key A) — authored once as Q113
+- defensive-medicine-q125b — reordered in-section duplicate of Q119b/Q119.5 (informed consent to high operative risk protects the physician; key B here = physician is protected) — authored once as Q119b
 - malpractice-q46 — exact in-section duplicate of Q40 (lack of reasonable skills or knowledge = incompetence; key B) — authored once as Q40
 - malpractice-q47 — exact in-section duplicate of Q40 (lack of reasonable skills or knowledge = incompetence; key B) — authored once as Q40
 - malpractice-q49 — exact in-section duplicate of Q44 (fails to use expected skill and injures patient -> sued for malpractice; key C, render-confirmed) — authored once as Q44

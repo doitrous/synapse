@@ -4238,3 +4238,780 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior professionalism/ethics record for this fact.
 resourceOccurrenceIds: Fact grounded in standard patient-safety / medico-legal teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text); no source page image read this pass.
+
+---
+
+# Item
+## id
+CON-MUL-666942F9626FC7
+## label
+The aim of defensive medicine is to protect the physician
+## canonical_key
+defensive-medicine.aim.protect-the-physician
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Defensive medicine is the ordering of tests, procedures or referrals, or the avoidance of high-risk patients, done mainly to reduce the physician's risk of malpractice liability rather than to benefit the patient. Its aim is to secure the physician against being sued.
+## explicit_objective
+State that defensive medicine is practised to protect the physician from litigation.
+## pitfalls
+It does not secure the patient, resources or society; it commonly wastes resources and can harm the patient, and its motive is the doctor's own legal protection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Aim of defensive medicine
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## article_ids
+ART-MPE-327-DEFENSIVE-MEDICINE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-FF0BB5D7456206
+## label
+Defensive medicine compromises the doctor–patient relationship
+## canonical_key
+defensive-medicine.consequence.compromises-doctor-patient-relationship
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A major consequence of defensive medicine is that it compromises the doctor–patient relationship: decisions are driven by the doctor's fear of litigation rather than the patient's best interest, which erodes trust and replaces patient-centred care with unnecessary tests, referrals or avoidance.
+## explicit_objective
+Recognise damage to the doctor–patient relationship as a consequence of defensive medicine.
+## pitfalls
+Defensive medicine does not improve patient safety or physician creativity, and it is not characterised by false-negative results; its recognised harm is to trust and to resource use.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Consequences of defensive medicine
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## article_ids
+ART-MPE-327-DEFENSIVE-MEDICINE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-838E8472CC2F28
+## label
+Negative (passive) defensive medicine is avoidance of high-risk cases
+## canonical_key
+defensive-medicine.negative-passive.avoidance-of-high-risk-cases
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Negative (passive) defensive medicine is the avoidance form: the physician reduces liability by staying away from high-risk patients or procedures — for example avoiding difficult or complicated cases, or refusing to treat critically ill patients. It protects the doctor by not taking on risk rather than by doing extra.
+## explicit_objective
+Identify avoidance of high-risk patients or procedures as negative (passive) defensive medicine.
+## pitfalls
+Do not confuse it with the positive form: over-testing, over-referral, unnecessary operations and prolonged stays are overutilisation (positive defensive medicine), not avoidance.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Passive (negative) defensive medicine
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## article_ids
+ART-MPE-327-DEFENSIVE-MEDICINE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-26D4FDCF1B5FA0
+## label
+Positive (assurance) defensive medicine is overutilisation of healthcare services
+## canonical_key
+defensive-medicine.positive-assurance.overutilization-of-services
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Positive (assurance) defensive medicine means overutilisation of healthcare services — ordering extra, non-indicated tests, procedures, referrals or admissions beyond what the patient needs, to reduce perceived liability. Examples include referring every headache to a neurologist and requesting an MRI for a simple ligament strain.
+## explicit_objective
+Define positive (assurance) defensive medicine as overutilisation and recognise its examples.
+## pitfalls
+'Positive' means doing more, not a positive attitude or proper utilisation; avoidance behaviour is the negative form, not this one.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Positive (assurance) defensive medicine
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## article_ids
+ART-MPE-327-DEFENSIVE-MEDICINE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-00390837D02116
+## label
+Physicians practise negative defensive medicine to avoid complications
+## canonical_key
+defensive-medicine.negative.motive-avoid-complications
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Physicians practise negative (avoidance) defensive medicine in order to avoid complications, and the liability that can follow them, by steering clear of high-risk patients and procedures. The motive is to keep away from situations that might go wrong and lead to a suit.
+## explicit_objective
+State that avoiding complications and the ensuing liability is the motive for negative defensive medicine.
+## pitfalls
+The motive is the physician's protection, not decreasing costs, saving resources or protecting the patient — defensive medicine generally raises costs.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Motive for negative defensive medicine
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## article_ids
+ART-MPE-327-DEFENSIVE-MEDICINE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-727DBD415E305D
+## label
+Valid informed consent to a disclosed high risk protects the physician
+## canonical_key
+medical-responsibility.consent.informed-consent-of-risk-protects-physician
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When a physician takes proper informed consent and discloses the high risk of a procedure to the patient and relatives, a death or bad outcome from that recognised, consented risk is not actionable: valid informed consent is a legal defence because the patient accepted the known risk, and without a breach of duty a suit cannot succeed.
+## explicit_objective
+Recognise valid informed consent to a disclosed risk as a defence that protects the physician if that risk materialises.
+## pitfalls
+Consent protects only when the outcome is a disclosed, recognised risk and there is no negligence; it is not a punishable offence, not automatic guilt, and does not entitle the relatives to compensation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Informed consent as legal protection
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## article_ids
+ART-MPE-327-DEFENSIVE-MEDICINE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.
+
+---
+
+# Item
+## id
+CON-MUL-52E5AC8F1A4194
+## label
+Defensive medicine spreads mainly because physicians are easily sued
+## canonical_key
+defensive-medicine.cause.physicians-easily-sued-for-presumed-errors
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The main cause of the spread of defensive medicine is that physicians are easily sued over presumed errors, so they practise defensively — over-testing or avoiding risk — to protect themselves from litigation. The fear and frequency of malpractice claims is the driver.
+## explicit_objective
+Identify the ease of litigation over presumed errors as the main cause of defensive medicine.
+## pitfalls
+It is not caused by inadequate self-confidence, lack of specialised knowledge, or low resources; well-trained doctors also practise defensively because of legal risk.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+mul
+## primary_node_id
+DIS-PEC-T05
+## secondary_node_ids
+
+## topic
+Medical Professionalism & Ethics
+## subtopic
+Causes of defensive medicine
+## microtopic
+
+## nanotopic
+
+## modules
+327 MPE
+## module_subject
+327 MPE > Medical Professionalism & Ethics > Defensive medicine
+## article_ids
+ART-MPE-327-DEFENSIVE-MEDICINE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_d21e884926be1b92ec4a
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university- and module-blind as CON-MUL- + first 14 hex of SHA-256 of the canonical key, uppercased (same scheme as 316 ENT / 315 OPH); collision-checked against the corpus concept IDs and this batch -- no collision, new concept; a docs/*/concept grep returned no prior defensive-medicine concept to reuse.
+resourceOccurrenceIds: Fact grounded in standard medico-legal / professionalism teaching corroborated by this bank's stems/options and its printed (yellow-highlighted) answer key (key cross-checked against option text; p26 render-confirmed); no source page image published this pass.

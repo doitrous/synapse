@@ -1,0 +1,312 @@
+{
+  "lane": "KASR327MPE",
+  "cluster": "defensive-medicine",
+  "header": "Kasr Al Ainy 327 MPE Ethics (Year 3) · Defensive medicine section MCQs (Q112-Q125) from the MPE 327 PY Answered previous-years question bank (student compilation, native text). Correct answers from the yellow-highlight fill on the correct option (pagetext keys), each cross-checked against the printed option text; p26 was render-confirmed at 150 dpi because the detector merged the Q119/Q119.5 and Q125/Q125.5 stems — the render shows Q116=d, Q117=b, Q118=b, Q119=a (avoid complications) and Q119.5=c (physician is protected). This seed authors the 10 UNIQUE MCQs (Q112,113,114,115,116,118,119,119b,123,124); 6 in-section exact/reordered duplicates are held (Q117,120,121,122,125,125b) and the True/False sentence (Q126) excluded. Ethics has no body-system code, so concepts are CON-MUL- / subject mul, filed on the real DIS-PEC discipline hub at DIS-PEC-T05 (Professional conduct).",
+  "defaults": {
+    "subject": "mul",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y3"],
+    "module": "327 MPE",
+    "module_subject": "327 MPE > Medical Professionalism & Ethics > Defensive medicine",
+    "exam_weight_by_year": { "KAU_Y3": "moderate" },
+    "topic": "Medical Professionalism & Ethics",
+    "question_only_for": "",
+    "library_ids": ["ART-MPE-327-DEFENSIVE-MEDICINE"],
+    "resource_ids": ["src_d21e884926be1b92ec4a"],
+    "source_citation": "Kasr Al Ainy 327 MPE — MPE 327 PY Answered previous-years question bank, Defensive medicine section (PDF p.{page}); key from the yellow-highlight fill on the correct option",
+    "setting": "Academic",
+    "exam_relevance": 5,
+    "estimated_seconds": 60,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "defensive-medicine-q112",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q112",
+      "page": 25,
+      "title": "The aim of defensive medicine",
+      "question": "The aim of defensive medicine is to secure the:",
+      "options": { "A": "Patient", "B": "Physician", "C": "Resources", "D": "Society" },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Defensive medicine is driven by the physician's wish to avoid litigation rather than the patient's interest; it often adds unnecessary tests or denies care, which does not serve the patient.",
+        "B": "Correct. The aim of defensive medicine is to secure the physician: it is the practice of ordering tests, procedures or referrals, or avoiding high-risk patients, mainly to reduce the risk of malpractice liability rather than to benefit the patient. The driving motive is the doctor's legal self-protection. It is a response to the fear of being sued.",
+        "C": "Incorrect. Defensive medicine typically wastes rather than secures resources, because it drives overutilisation of investigations and services.",
+        "D": "Incorrect. Society bears the added cost and harm of defensive medicine; the practice is aimed at shielding the individual physician, not benefiting society."
+      },
+      "main_concept": "CON-MUL-666942F9626FC7",
+      "concept_ids": ["CON-MUL-666942F9626FC7"],
+      "subtopic": "Aim of defensive medicine",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that defensive medicine aims to protect the physician from liability.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[196 1st]", "sourceDuplicates": "Q120 repeats this item (held)" }
+    },
+    {
+      "key": "defensive-medicine-q113",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q113",
+      "page": 25,
+      "title": "Consequence of practising defensive medicine",
+      "question": "The sequel of practising defensive medicine is:",
+      "options": {
+        "A": "Compromising the doctor/patient relation",
+        "B": "False negative results",
+        "C": "Focusing on patient safety",
+        "D": "Increasing physician's creativity"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. A major consequence of defensive medicine is that it compromises the doctor–patient relationship: care is driven by the doctor's fear of litigation rather than the patient's best interest, which erodes trust. Unnecessary tests, referrals or avoidance of the patient replace open, patient-centred decisions. The therapeutic alliance suffers as a result.",
+        "B": "Incorrect. Ordering more tests does not characteristically produce false-negative results; the recognised harm is to trust and to resource use, not a specific test-error pattern.",
+        "C": "Incorrect. Defensive medicine is motivated by the physician's legal safety, not the patient's; it is not a genuine patient-safety strategy.",
+        "D": "Incorrect. Defensive practice is risk-averse and formulaic, the opposite of clinical creativity."
+      },
+      "main_concept": "CON-MUL-FF0BB5D7456206",
+      "concept_ids": ["CON-MUL-FF0BB5D7456206"],
+      "subtopic": "Consequences of defensive medicine",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Recognise that defensive medicine compromises the doctor–patient relationship.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[196 1st]", "sourceDuplicates": "Q125 repeats this item (held)" }
+    },
+    {
+      "key": "defensive-medicine-q114",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q114",
+      "page": 25,
+      "title": "Example of passive (negative) defensive medicine",
+      "question": "One of the following acts is an example of practising passive defensive medicine:",
+      "options": {
+        "A": "Avoiding being involved in difficult or complicated cases.",
+        "B": "Performing appendicectomy for anyone with vague right lower abdominal pain",
+        "C": "Referring every patient with headache to a neurologist",
+        "D": "Requesting extra unnecessary investigation"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Avoiding difficult or complicated cases is an example of negative (passive) defensive medicine, in which the physician reduces liability by staying away from high-risk patients or procedures. Passive defensive medicine is defined by avoidance behaviour. The doctor protects himself by not taking on risk rather than by doing extra.",
+        "B": "Incorrect. Performing an unnecessary operation is over-treatment — positive (assurance) defensive medicine — not avoidance.",
+        "C": "Incorrect. Over-referral is a positive (assurance) defensive behaviour: doing more rather than avoiding.",
+        "D": "Incorrect. Ordering extra unnecessary tests is positive defensive medicine (overutilisation), not the avoidance that defines the passive form."
+      },
+      "main_concept": "CON-MUL-838E8472CC2F28",
+      "concept_ids": ["CON-MUL-838E8472CC2F28"],
+      "subtopic": "Passive (negative) defensive medicine",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify avoidance of high-risk cases as passive (negative) defensive medicine.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[195 1st]" }
+    },
+    {
+      "key": "defensive-medicine-q115",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q115",
+      "page": 25,
+      "title": "Example of positive (assurance) defensive medicine",
+      "question": "Example for practising positive defensive medicine includes:",
+      "options": {
+        "A": "Avoiding being involved in difficult or complicated cases.",
+        "B": "Referring every patient with headache to a neurologist.",
+        "C": "Refraining the prescription of risky medical treatments which might be of benefit to the patient.",
+        "D": "Refusing the treatment of critically ill patients."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Avoidance is negative (passive) defensive medicine, not the positive (assurance) form the question asks for.",
+        "B": "Correct. Referring every headache to a neurologist is positive (assurance) defensive medicine: the physician orders extra, non-indicated referrals or tests to guard against liability. Positive defensive medicine is defined by doing more than the patient needs. Over-referral is a classic example.",
+        "C": "Incorrect. Withholding a beneficial but risky treatment is avoidance — negative defensive medicine — not the positive form.",
+        "D": "Incorrect. Refusing care is avoidance behaviour (negative defensive medicine), not overutilisation."
+      },
+      "main_concept": "CON-MUL-26D4FDCF1B5FA0",
+      "concept_ids": ["CON-MUL-26D4FDCF1B5FA0"],
+      "subtopic": "Positive (assurance) defensive medicine",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Identify over-referral/over-testing as positive (assurance) defensive medicine.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[194 1st]", "sourceDuplicates": "Q117 repeats this item (held)" }
+    },
+    {
+      "key": "defensive-medicine-q116",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q116",
+      "page": 26,
+      "title": "Passive defensive medicine among distractors of over-treatment",
+      "question": "Example for practising passive defensive medicine includes:",
+      "options": {
+        "A": "Unnecessary ECG for every chest pain complaint",
+        "B": "Performing non-indicated cesarean section",
+        "C": "Prolonged hospital stay",
+        "D": "Refusing the treatment of critically ill patients"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. An unnecessary ECG is overutilisation — positive (assurance) defensive medicine — not avoidance.",
+        "B": "Incorrect. A non-indicated operation is over-treatment (positive defensive medicine), not the passive avoidance the question asks for.",
+        "C": "Incorrect. Keeping a patient in longer than needed is overutilisation of services — positive defensive medicine.",
+        "D": "Correct. Refusing to treat critically ill (high-risk) patients is negative (passive) defensive medicine: the doctor avoids liability by declining risky cases. Passive defensive medicine is defined by such avoidance. It protects the physician by staying away from risk rather than by doing extra."
+      },
+      "main_concept": "CON-MUL-838E8472CC2F28",
+      "concept_ids": ["CON-MUL-838E8472CC2F28"],
+      "subtopic": "Passive (negative) defensive medicine",
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Distinguish avoidance (passive) from over-treatment (positive) defensive medicine.",
+      "field_notes": { "keySource": "yellow-highlight fill (render-confirmed p26)", "batchTag": "[193 2nd]" }
+    },
+    {
+      "key": "defensive-medicine-q118",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q118",
+      "page": 26,
+      "title": "Definition of positive defensive medicine",
+      "question": "Positive defensive medicine means:",
+      "options": {
+        "A": "Avoidance of potential risky situations",
+        "B": "Overutilization of healthcare services",
+        "C": "Positive attitude towards the patient",
+        "D": "Proper utilization of healthcare services"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Avoidance defines the negative (passive) form of defensive medicine, not the positive form.",
+        "B": "Correct. Positive (assurance) defensive medicine means overutilisation of healthcare services — ordering extra tests, procedures, referrals or admissions beyond what the patient needs in order to reduce perceived liability. It is the 'doing more' form of defensive practice. This overuse wastes resources and can expose patients to unnecessary risk.",
+        "C": "Incorrect. The word 'positive' here denotes doing more (assurance), not a positive attitude; the practice is motivated by legal fear.",
+        "D": "Incorrect. Positive defensive medicine is over-, not proper, utilisation; proper utilisation would not be defensive."
+      },
+      "main_concept": "CON-MUL-26D4FDCF1B5FA0",
+      "concept_ids": ["CON-MUL-26D4FDCF1B5FA0"],
+      "subtopic": "Positive (assurance) defensive medicine",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Define positive defensive medicine as overutilisation of healthcare services.",
+      "field_notes": { "keySource": "yellow-highlight fill (render-confirmed p26)", "batchTag": "[192 2nd]", "sourceDuplicates": "Q122 repeats this item (held)" }
+    },
+    {
+      "key": "defensive-medicine-q119",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q119",
+      "page": 26,
+      "title": "Motive for negative defensive medicine",
+      "question": "Physicians practise negative defensive medicine in order to:",
+      "options": { "A": "Avoid complications", "B": "Decrease costs", "C": "Protect patient", "D": "Save resources" },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Physicians practise negative (avoidance) defensive medicine in order to avoid complications — and the liability that can follow them — by steering clear of high-risk patients and procedures. The motive is to keep away from situations that might go wrong and lead to a suit. It is risk-avoidance for the doctor's protection.",
+        "B": "Incorrect. Defensive medicine is not aimed at reducing costs; overall it raises them, and negative defensive medicine is about avoiding risk, not saving money.",
+        "C": "Incorrect. The practice protects the physician from liability, not the patient; care is shaped by legal fear rather than patient benefit.",
+        "D": "Incorrect. Saving resources is not the aim; defensive medicine is driven by fear of complications and litigation, not resource stewardship."
+      },
+      "main_concept": "CON-MUL-00390837D02116",
+      "concept_ids": ["CON-MUL-00390837D02116"],
+      "subtopic": "Motive for negative defensive medicine",
+      "difficulty": "Moderate",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that physicians practise negative defensive medicine to avoid complications and liability.",
+      "field_notes": { "keySource": "yellow-highlight fill (render-confirmed p26)", "batchTag": "[192 1st]", "sourceDuplicates": "Q121 repeats this item with reordered options (held)" }
+    },
+    {
+      "key": "defensive-medicine-q119b",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q119B",
+      "page": 26,
+      "title": "Informed consent to high operative risk protects the physician",
+      "question": "A cardiac patient presented to the hospital for open heart surgery. The physician took informed consent from the patient and informed him and his relatives about the high risk of the surgery. After 2 days the patient died and his relatives sued the physician. Regarding this suit, what do you think?",
+      "options": {
+        "A": "The medical syndicate council would punish the doctor with just “Alarm”.",
+        "B": "The physician is guilty.",
+        "C": "The physician is protected.",
+        "D": "The relatives will be compensated."
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. There is no wrongdoing to punish: proper informed consent about the high operative risk means the physician committed no breach, so no disciplinary sanction applies.",
+        "B": "Incorrect. Guilt requires a fault (negligence or incompetence); here the doctor obtained valid informed consent disclosing the high risk, and the death followed a recognised, consented risk rather than a breach.",
+        "C": "Correct. The physician is protected: by taking proper informed consent and disclosing the high risk of the surgery to the patient and relatives, he fulfilled his legal duty of disclosure, so a death from a recognised, consented risk is not actionable. Valid informed consent is a defence because the patient accepted the known risk. Without a breach of duty, the suit cannot succeed.",
+        "D": "Incorrect. Compensation requires proven fault causing harm; a consented, disclosed operative risk that materialises is not negligence, so no compensation is due."
+      },
+      "main_concept": "CON-MUL-727DBD415E305D",
+      "concept_ids": ["CON-MUL-727DBD415E305D"],
+      "subtopic": "Informed consent as legal protection",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise that valid informed consent to a disclosed high risk protects the physician from a suit if that risk materialises.",
+      "field_notes": { "keySource": "yellow-highlight fill (render-confirmed p26, Q119.5)", "batchTag": "[192 1st]", "sourceNumbering": "printed as Q119.5 (unnumbered half-item)", "sourceDuplicates": "Q125.5 repeats this item with reordered options (held)" }
+    },
+    {
+      "key": "defensive-medicine-q123",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q123",
+      "page": 27,
+      "title": "Which action is positive defensive medicine",
+      "question": "One of the following doctor's actions is a positive defensive medicine:",
+      "options": {
+        "A": "Antibiotic following open surgery",
+        "B": "MRI in simple ligament strain.",
+        "C": "Cesarean section on demand",
+        "D": "CT scan following head trauma"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Prophylactic antibiotics after open surgery are an indicated, standard measure, not unnecessary defensive over-testing.",
+        "B": "Correct. Ordering an MRI for a simple ligament strain is positive (assurance) defensive medicine: an unnecessary, non-indicated investigation done to guard against liability rather than for clinical need. A simple strain is a clinical diagnosis that does not require MRI. The extra imaging is the overutilisation typical of positive defensive practice.",
+        "C": "Incorrect. Caesarean section on demand reflects a patient request rather than the physician's own defensive over-investigation; the item's clearest example of unnecessary testing is the MRI for a simple strain.",
+        "D": "Incorrect. A CT after head trauma is frequently indicated by validated rules, so it is appropriate care, not unnecessary defensive imaging."
+      },
+      "main_concept": "CON-MUL-26D4FDCF1B5FA0",
+      "concept_ids": ["CON-MUL-26D4FDCF1B5FA0"],
+      "subtopic": "Positive (assurance) defensive medicine",
+      "difficulty": "Moderate",
+      "question_type": "Application",
+      "cognitive_effort": "Moderate",
+      "reasoning_level": 2,
+      "learning_objective": "Recognise a non-indicated investigation (MRI for a simple strain) as positive defensive medicine.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    {
+      "key": "defensive-medicine-q124",
+      "id": "QST-KASR327MPE-DEFENSIVE-MEDICINE-Q124",
+      "page": 27,
+      "title": "Main cause of the spread of defensive medicine",
+      "question": "The main cause of the spread of defensive medicine is that the physicians are:",
+      "options": {
+        "A": "Easily sued due to presumed errors",
+        "B": "Having inadequate self confidence",
+        "C": "Having lack specialized knowledge",
+        "D": "Working with low healthcare resources"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. The main driver of the spread of defensive medicine is that physicians are easily sued over presumed errors, so they practise defensively to protect themselves from litigation. The fear and frequency of malpractice claims push doctors toward over-testing or avoidance. Reducing that litigation pressure is the way to curb defensive medicine.",
+        "B": "Incorrect. Defensive medicine stems from litigation fear, not from a personal lack of confidence.",
+        "C": "Incorrect. It is not caused by insufficient knowledge; well-trained doctors also practise defensively because of legal risk.",
+        "D": "Incorrect. Defensive medicine typically increases resource use; scarce resources are not its cause."
+      },
+      "main_concept": "CON-MUL-52E5AC8F1A4194",
+      "concept_ids": ["CON-MUL-52E5AC8F1A4194"],
+      "subtopic": "Causes of defensive medicine",
+      "difficulty": "Easy",
+      "question_type": "Recall",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that ease of litigation over presumed errors is the main cause of defensive medicine.",
+      "field_notes": { "keySource": "yellow-highlight fill", "batchTag": "[Dep Revision]" }
+    },
+    { "key": "defensive-medicine-q117", "hold": "exact in-section duplicate of Q115 (example of positive defensive medicine = referring every headache to a neurologist; key B, render-confirmed p26) — authored once as Q115" },
+    { "key": "defensive-medicine-q120", "hold": "exact in-section duplicate of Q112 (aim of defensive medicine = secure the physician; key B) — authored once as Q112" },
+    { "key": "defensive-medicine-q121", "hold": "reordered in-section duplicate of Q119 (negative defensive medicine practised to avoid complications; key C here = Avoid complications) — authored once as Q119" },
+    { "key": "defensive-medicine-q122", "hold": "exact in-section duplicate of Q118 (positive defensive medicine means overutilization of healthcare services; key B) — authored once as Q118" },
+    { "key": "defensive-medicine-q125", "hold": "exact in-section duplicate of Q113 (sequel of defensive medicine = compromising the doctor/patient relation; key A) — authored once as Q113" },
+    { "key": "defensive-medicine-q125b", "hold": "reordered in-section duplicate of Q119b/Q119.5 (informed consent to high operative risk protects the physician; key B here = physician is protected) — authored once as Q119b" }
+  ]
+}
