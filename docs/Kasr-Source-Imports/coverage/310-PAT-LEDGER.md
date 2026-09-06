@@ -12,8 +12,9 @@
 | abolmagd-cvs Heart chapter cont. (Q73-84, same paper) | 12 | 0 | 0 | 0 | 12 |
 | abolmagd-cvs Heart chapter tail (Q85-91, same paper) | 7 | 0 | 0 | 0 (→ Ischemic Heart Disease Q92+ p.18) | 7 |
 | abolmagd-cvs Ischemic Heart Disease (Q92-105, same paper) | 13 | 1 | 0 | 0 (→ Heart Diseases Q106+ p.20) | 14 |
-| **abolmagd-cvs cluster total** | **100** | **1** | **3** | untriaged | — |
-| 310 PAT module (Pathology + Pharmacology sub-corpora) | 100 | 1 | 3 | untriaged | — |
+| abolmagd-cvs Heart Diseases (Q106-137, same paper) | 32 | 0 | 0 | 0 (→ 2008-2015 MCQ set Q138+ p.25) | 32 |
+| **abolmagd-cvs cluster total** | **132** | **1** | **3** | untriaged | — |
+| 310 PAT module (Pathology + Pharmacology sub-corpora) | 132 | 1 | 3 | untriaged | — |
 
 ## Module opened
 
@@ -239,9 +240,51 @@ simulate created=95/rejected=0/errors=0; audit neutral vs the 310-PAT baseline �
 concepts sit only under the pre-existing placeholder families, no new error category, count scales with
 item count).
 
+## Cluster — abolmagd-cvs-heart-diseases (Q106-137)
+
+32/32 authored (Q106-137, pp.20-25 / printed 19-24), **0 held, 0 excluded**. Completes the
+paper's **HEART DISEASES** section: congenital heart disease (Q106-113), valvular disease incl.
+mitral stenosis and carcinoid (Q114-119, Q136), cardiomyopathy (Q120-122, Q137), pericarditis
+(Q123-126) and heart-failure syndromes (Q127-135). Page 20 (Q106-109) render-verified at 150 dpi
+— Q106.b (Fallot single red; detector's 'multiple' was spurious), Q107.a, Q108.d, Q109.c — and the
+remaining keys taken from the single medically-correct option of each standard-pathology stem with
+detector reds cross-checked: Q110.b, Q111.b, Q112.a, Q113.b, Q114.d, Q115.c, Q116.c, Q117.d, Q118.b,
+Q119.c, Q120.a, Q121.a, Q122.d, Q123.d, Q124.d, Q125.d, Q126.b, Q127.a, Q128.d, Q129.a, Q130.a,
+Q131.c, Q132.b, Q133.d, Q134.b, Q135.a, Q136.c, Q137.a. **20 new concepts minted** (congenital
+right-to-left-shunt, VSD characteristics, tetralogy components, commonest-VSD, commonest-cyanotic-
+Fallot, ASD features, mitral-stenosis complications, carcinoid cardiac lesions, left-sided-valve
+failure, mitral-stenosis rheumatic cause, commonest-dilated CM, idiopathic-CM types, dilated-CM
+morphology, constrictive-pericarditis tuberculous, pericarditis causes, rheumatic-pericarditis
+fibrinous, PND left-HF, right-HF causes, left-HF pulmonary congestion, left-HF causes), university-
+blind (CON-CVS- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked
+against the corpus — **0 collisions**. **2 concepts reused from the IHD cluster**: the anterior-wall
+MI-site concept CON-CVS-7108F99A7A3DC7 (Q133) and the MI-morphology time-course concept
+CON-CVS-31C8E69B95931E (Q134). In-batch reuse: tetralogy components (Q108/Q112/Q113), mitral-stenosis
+complications (Q114/Q117/Q119/Q136), VSD characteristics (Q107/Q135), commonest-dilated CM
+(Q120/Q137), constrictive pericarditis (Q123/Q124), PND (Q127/Q130), right-HF causes (Q128/Q129).
+Grouped into a **new library article `ART-CVS-310PAT-HEART-DISEASES`** cross-linked to the IHD and
+endocarditis articles. **Exam-key notes** (adjudicated to the single printed red key, flagged in
+`author_notes`/concept `uncertainty`): Q113 (except = aortic stenosis; the tetralogy has PULMONARY
+stenosis, and 'commonest cyanotic' is true so cannot be the exception); Q115 (pulmonary stenosis
+keyed; tricuspid incompetence is an equally valid right-sided carcinoid lesion); Q116 (congestive
+keyed; left-sided failure defensible as the initial event); Q122 (all-chambers-dilated keyed; mural
+thrombi a genuine secondary feature); Q129 (aortic stenosis keyed as the non-cause of right-HF; MI
+can cause right-HF); Q130 (PND keyed; the precise term for sleeping upright is orthopnoea, not
+offered). The [196] tags on Q133-137 are yellow batch highlights, not answers. Files:
+`question/310-PAT-abolmagd-heart-diseases-mcq.md`, seed
+`coverage/seeds/310-PAT/abolmagd-cvs-heart-diseases.json`. **Gate-clean** (batch question 32/0,
+concept 95/0, article 7/0; simulate created=135/rejected=0/errors=0; audit neutral vs the 310-PAT
+baseline — the same 5 placeholder families, no new error category, count scales with item count).
+
 ## Next cluster
 
-**Remaining on this paper:** the **HEART DISEASES** section — **Q106-132+ (p.20+ / printed 19+)**:
+**Remaining on this paper:** the **2008-2015 CVS PATHOLOGY MCQ set** (`iii. ADDITIONAL`) — **Q138+
+(p.25+ / printed 24+)**: rheumatic fever, heart-failure and endocarditis items, then Written topics
+(p.26+, non-MCQ). Q93 (morphology of MI) stays **HELD**. The HEART DISEASES section is now complete
+(the older section boundary estimate of Q132 was extended to Q137, the last item before the
+`2008 -> 2015 CVS PATHOLOGY MCQ` divider). Historical section-boundary note (superseded):
+
+**Old estimate:** the **HEART DISEASES** section — **Q106-132+ (p.20+ / printed 19+)**:
 congenital heart disease (VSD, ASD, Fallot's tetralogy, transposition — Q106-113), valvular disease
 (mitral stenosis and its complications, carcinoid — Q114-119), cardiomyopathy (Q120-122), pericarditis
 (Q123-126) and heart-failure syndromes (left/right, PND — Q127-132+). Detector reds already read on

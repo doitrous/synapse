@@ -9448,3 +9448,1113 @@ sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-25
 resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q118, p.22 / printed 21; detector single red option b); no department book located/read this pass.
 
 ---
+
+# Item
+## id
+CON-CVS-0688F978CD4173
+## label
+Dilated (congestive) cardiomyopathy is the commonest type
+## canonical_key
+cardiomyopathy.commonest-dilated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+DILATED (congestive) cardiomyopathy is the COMMONEST type of cardiomyopathy. It dilates all four chambers with poor systolic contraction and is often idiopathic or secondary to viral myocarditis, alcohol or the peripartum state. It far outnumbers the hypertrophic and restrictive forms; 'dilated' and 'congestive' are synonyms for the same entity.
+## explicit_objective
+State that dilated (congestive) cardiomyopathy is the commonest type of cardiomyopathy.
+## pitfalls
+Naming hypertrophic or restrictive cardiomyopathy as the commonest type, or treating 'dilated' and 'congestive' as different entities.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-D3EC8D8B466FDB
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "cardiomyopathy.commonest-dilated", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stems/options (Q120 red a 'congestive', Q137 red a 'dilated'; pp.22 & 25 / printed 21 & 24); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-0B5C9AC21865EF
+## label
+The idiopathic cardiomyopathies are dilated, hypertrophic and restrictive
+## canonical_key
+cardiomyopathy.idiopathic-types
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The IDIOPATHIC (primary) cardiomyopathies are the DILATED (congestive), HYPERTROPHIC and RESTRICTIVE types. TOXIC cardiomyopathy has a known cause (alcohol, doxorubicin, catecholamines) and is therefore a SECONDARY cardiomyopathy, not an idiopathic one. The distinction is between disease of unknown cause (primary) and myocardial injury from an identified agent (secondary).
+## explicit_objective
+List the three idiopathic cardiomyopathies and separate them from secondary (toxic) cardiomyopathy.
+## pitfalls
+Counting toxic cardiomyopathy among the idiopathic types.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-0688F978CD4173
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "cardiomyopathy.idiopathic-types", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q121, p.22 / printed 21; detector red a, the secondary 'toxic' type excluded); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-D3EC8D8B466FDB
+## label
+Congestive cardiomyopathy dilates all four chambers
+## canonical_key
+dilated-cardiomyopathy.morphology
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In CONGESTIVE (dilated) cardiomyopathy ALL FOUR CHAMBERS are DILATED, with thin or normal-thickness walls and poor systolic function. Mural thrombi may form in the dilated, poorly contracting chambers, but the defining morphological feature is global chamber dilatation. Shrunken chambers or prominent endocardial thickening belong to other cardiomyopathies (restrictive disease or fibroelastosis).
+## explicit_objective
+Describe the morphology of congestive (dilated) cardiomyopathy as dilatation of all four chambers.
+## pitfalls
+Describing the chambers as shrunken or the endocardium as thickened; those are not features of the dilated form.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-0688F978CD4173
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "dilated-cardiomyopathy.morphology", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q122, p.22 / printed 21; detector red d 'all chambers dilated'); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-C7A0D72E9F0686
+## label
+Constrictive pericarditis usually follows tuberculous pericarditis
+## canonical_key
+constrictive-pericarditis.commonest-cause-tuberculous
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+CONSTRICTIVE pericarditis usually follows TUBERCULOUS pericarditis: chronic tuberculous inflammation heals by dense fibrosis and calcification that encases the heart and restricts diastolic filling. Tuberculosis is the classic antecedent, especially in endemic regions such as Egypt. Viral pericarditis, uraemia and myocardial infarction only rarely lead to constriction.
+## explicit_objective
+State that constrictive pericarditis usually follows/ is due to tuberculous pericarditis.
+## pitfalls
+Attributing constrictive pericarditis to viral, uraemic or post-infarction pericarditis as the usual cause.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-580C71B3F62513
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "constrictive-pericarditis.commonest-cause-tuberculous", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stems/options (Q123 red d, Q124 tuberculosis; p.23 / printed 22); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-580C71B3F62513
+## label
+Causes of pericarditis: rheumatic fever, uraemia and myocardial infarction
+## canonical_key
+pericarditis.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pericarditis has many causes, including RHEUMATIC FEVER, URAEMIA and MYOCARDIAL INFARCTION (all recognised on this paper). Rheumatic and post-infarction (Dressler) pericarditis are immune/inflammatory, whereas uraemic pericarditis is metabolic. Because each of these is a genuine cause, an 'all of the above' option is correct when they are listed together.
+## explicit_objective
+List rheumatic fever, uraemia and myocardial infarction as causes of pericarditis.
+## pitfalls
+Selecting only one listed cause when several genuine causes are offered together.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-2D64A94C672568
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "pericarditis.causes", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q125, p.23 / printed 22; detector red d 'all of the above'); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-2D64A94C672568
+## label
+Rheumatic pericarditis is fibrinous (serofibrinous)
+## canonical_key
+rheumatic-pericarditis.fibrinous
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pericarditis of rheumatic fever is FIBRINOUS (serofibrinous), giving the classic 'bread-and-butter' appearance as fibrin-coated visceral and parietal pericardial layers rub over each other. It is not catarrhal, membranous or suppurative. This serofibrinous exudate is the typical rheumatic pericardial reaction.
+## explicit_objective
+Identify rheumatic pericarditis as fibrinous (serofibrinous) inflammation.
+## pitfalls
+Labelling rheumatic pericarditis as catarrhal, membranous or suppurative.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-580C71B3F62513
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "rheumatic-pericarditis.fibrinous", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q126, p.23 / printed 22; detector flagged multiple, single medically-correct type is fibrinous, option b); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-57BAAD2445CE5F
+## label
+Paroxysmal nocturnal dyspnoea is a feature of left-sided heart failure
+## canonical_key
+paroxysmal-nocturnal-dyspnea.left-heart-failure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+PAROXYSMAL NOCTURNAL DYSPNOEA (and the related orthopnoea of needing to sleep upright) is a feature of LEFT-sided heart failure. Recumbency increases venous return and pulmonary congestion, so the patient wakes acutely breathless and must sit up for relief. It reflects pulmonary venous congestion behind the failing left ventricle, not right-sided or valvular right-heart disease.
+## explicit_objective
+Relate paroxysmal nocturnal dyspnoea and orthopnoea to left-sided heart failure.
+## pitfalls
+Attributing paroxysmal nocturnal dyspnoea to right-sided failure, pulmonary hypertension or pulmonary valve stenosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-1F0A42B332A092
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+Q130 asks for the term for needing to sleep upright; the precise term is ORTHOPNOEA, which the paper does not offer, so the keyed option is paroxysmal nocturnal dyspnoea (the closest offered left-heart-failure term). Both belong to left-sided failure.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "paroxysmal-nocturnal-dyspnea.left-heart-failure", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stems/options (Q127 red a, Q130 red a; pp.23-24 / printed 22-23); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-ED07AF2A57E4D9
+## label
+Causes of right-sided heart failure (aortic stenosis excluded)
+## canonical_key
+right-sided-heart-failure.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Right-sided heart failure is caused by COR PULMONALE, LEFT-sided heart failure (the commonest cause, via pulmonary back-pressure) and PULMONARY STENOSIS, which load the right ventricle. Myocardial infarction can also precipitate it. AORTIC STENOSIS is a LEFT-sided lesion causing left-sided failure and is therefore NOT a cause of primary right-sided failure.
+## explicit_objective
+List the causes of right-sided heart failure and exclude aortic stenosis (a left-sided lesion).
+## pitfalls
+Listing aortic stenosis as a cause of right-sided failure; it is a left-sided lesion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-720A3EAE305220
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+Q129 lists myocardial infarction among the options; a right ventricular or large infarct can cause right-sided failure, so the single non-cause is aortic stenosis (a left-sided lesion), which is the keyed answer.
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "right-sided-heart-failure.causes", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stems/options (Q128 red d 'all of the above', Q129 red a 'aortic stenosis' excluded; p.23 / printed 22); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-1F0A42B332A092
+## label
+Left-sided heart failure: orthopnoea and frothy blood-stained sputum
+## canonical_key
+left-sided-heart-failure.pulmonary-congestion
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+LEFT-sided heart failure produces pulmonary congestion and oedema: the failing left ventricle raises pulmonary venous pressure, forcing fluid and red cells into the alveoli, giving orthopnoea (sleeping upright) and FROTHY, BLOOD-STAINED SPUTUM. These are pulmonary signs, distinct from the systemic congestion (oedema, hepatomegaly) of right-sided failure. The clinical picture points to left ventricular failure with pulmonary oedema.
+## explicit_objective
+Recognise orthopnoea with frothy blood-stained sputum as left-sided heart failure with pulmonary oedema.
+## pitfalls
+Attributing frothy blood-stained sputum to right-sided failure, tricuspid incompetence or right ventricular hypertrophy.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-57BAAD2445CE5F
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "left-sided-heart-failure.pulmonary-congestion", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q131 vignette, red c 'left-sided heart failure'; p.24 / printed 23); no department book located/read this pass.
+
+---
+
+# Item
+## id
+CON-CVS-720A3EAE305220
+## label
+Causes of left-sided heart failure (emphysema excluded)
+## canonical_key
+left-sided-heart-failure.causes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+LEFT-sided heart failure is caused by lesions that overload the left ventricle: systemic HYPERTENSION (pressure overload), CORONARY (ischaemic) disease and MITRAL INCOMPETENCE (volume overload). EMPHYSEMA is NOT a cause: it raises pulmonary vascular resistance and loads the RIGHT ventricle (cor pulmonale), causing right-sided failure. The discriminator is whether the lesion burdens the left heart or the right.
+## explicit_objective
+List the causes of left-sided heart failure and exclude emphysema (a right-sided/cor pulmonale cause).
+## pitfalls
+Listing emphysema as a cause of left-sided failure; it causes cor pulmonale (right-sided failure).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+cvs
+## primary_node_id
+DIS-PAT-T07
+## secondary_node_ids
+SYS-CVS-T07
+## topic
+Pathology
+## subtopic
+Heart diseases
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pathology > Heart > Heart diseases
+## article_ids
+ART-CVS-310PAT-HEART-DISEASES
+## related_article_ids
+
+## related_concept_ids
+CON-CVS-ED07AF2A57E4D9
+## resource_ids
+src_a2b36e9ed9778bfa7efd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-CVS- + first 14 hex of SHA-256 of the canonical key "left-sided-heart-failure.causes", uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard pathology teaching (Robbins/department-level) corroborated by this paper's own red-text-keyed stem/options (Q132, p.24 / printed 23; detector red b 'emphysema' excluded); no department book located/read this pass.
+
+---

@@ -647,6 +647,18 @@ CON-CVS-B216F97FD14933
 CON-CVS-4FB52DB05DB5E8
 CON-CVS-78DF6012896EF1
 CON-CVS-A359468216357C
+CON-CVS-0688F978CD4173
+CON-CVS-0B5C9AC21865EF
+CON-CVS-D3EC8D8B466FDB
+CON-CVS-C7A0D72E9F0686
+CON-CVS-580C71B3F62513
+CON-CVS-2D64A94C672568
+CON-CVS-57BAAD2445CE5F
+CON-CVS-ED07AF2A57E4D9
+CON-CVS-1F0A42B332A092
+CON-CVS-720A3EAE305220
+CON-CVS-7108F99A7A3DC7
+CON-CVS-31C8E69B95931E
 ## related_articles
 ART-CVS-310PAT-ISCHEMIC-HEART-DISEASE
 ART-CVS-310PAT-ENDOCARDITIS
@@ -676,7 +688,7 @@ Admin team
 
 ## field_notes
 arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
-university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (pp.20-25 / printed 19-24; Q106-109 render-verified at 150 dpi). related_concepts is authored incrementally per slice; the cardiomyopathy, pericarditis, heart-failure and reused MI concepts (Q120-137) are added with the second slice.
+university_notes: No department book PDF was located/read this pass -- written from standard pathology teaching (Robbins/department-level) corroborated by this exam paper's own red-text-keyed stems and options (pp.20-25 / printed 19-24; Q106-109 render-verified at 150 dpi). related_concepts covers the full Heart Diseases section Q106-137: 20 new CON-CVS concepts plus the two reused IHD concepts (anterior-wall MI site, MI morphology time-course) for Q133/Q134.
 ## reading_time
 9
 
