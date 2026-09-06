@@ -317,7 +317,9 @@ Q61.C  Q62.D  Q63.A
 #  workup CON-MUL-B1E4ED1B528512; concomitant strabismus CON-MUL-967654FE636B2E [Q54/55/56];
 #  trochlear nerve palsy CON-MUL-FF63FA938CE91B [Q61/62]); 11 reuse existing Ch.5 concepts.
 
-# Chapter 6 - The glaucomas (70 answers) - CAPTURED for keys only, NOT authored this tranche.
+# Chapter 6 - The glaucomas (70 answers). Q1-8 AUTHORED this tranche (opening slice, all clean
+#  single-best: Q1.B Q2.D Q3.C Q4.B Q5.A Q6.B Q7.B Q8.D; 8 new concepts on DIS-OPH-T03 + new
+#  ART-OPH-315-GLAUCOMA). Q9-71 remain. Full key table (captured for the remainder):
 # Answer-key table p.3-4: rows Q1-Q35 and Q37-Q71 present; Q36 is the ONLY omitted row (HOLD, never guess).
 # (Earlier note said Q48/Q49 also omitted - CORRECTED: Q48.C and Q49.B ARE present on answer-key p.4;
 #  verify their option text is 4/5-option single-best before authoring.)
