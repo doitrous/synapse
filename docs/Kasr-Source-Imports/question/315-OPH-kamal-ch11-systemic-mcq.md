@@ -1963,3 +1963,395 @@ Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The ey
 ## randomise_answers
 yes
 ## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-38
+## title
+Pregnancy may change the refractive error
+## question
+During pregnancy:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+There is rise of the intraocular pressure
+## explanation_a
+Incorrect. Intraocular pressure falls during pregnancy.
+## answer_b
+There is increased corneal sensitivity
+## explanation_b
+Incorrect. Corneal sensitivity decreases during pregnancy.
+## answer_c
+There may be changes in the refractive error
+## explanation_c
+Correct. Transient refractive changes occur in pregnancy.
+## answer_d
+Gestational diabetes can increase the risk of diabetic retinopathy
+## explanation_d
+Incorrect. Gestational diabetes is of short duration and does not typically cause diabetic retinopathy.
+## topic
+Ophthalmology
+## subtopic
+Ocular effects of pregnancy
+## main_concept
+CON-MUL-CCC62D929CB2D5
+## concept_ids
+CON-MUL-CCC62D929CB2D5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Recognise transient refractive-error change as an ocular effect of pregnancy.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-40
+## title
+Lisch nodules are not a feature of Marfan syndrome
+## question
+Marfan syndrome is characterized by all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Aortic dilatation
+## explanation_a
+Incorrect. Aortic root dilatation is a feature of Marfan syndrome.
+## answer_b
+Subluxated lens
+## explanation_b
+Incorrect. Superotemporal lens subluxation is classic in Marfan syndrome.
+## answer_c
+Lisch nodules
+## explanation_c
+Correct. This is the exception: Lisch nodules belong to neurofibromatosis, not Marfan syndrome.
+## answer_d
+Retinal detachment
+## explanation_d
+Incorrect. Marfan syndrome predisposes to retinal detachment.
+## topic
+Ophthalmology
+## subtopic
+Marfan syndrome
+## main_concept
+CON-MUL-68CD902A3AD25C
+## concept_ids
+CON-MUL-68CD902A3AD25C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+Distinguish the systemic and ocular features of Marfan syndrome from Lisch nodules of neurofibromatosis.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-41
+## title
+Behcet syndrome does not cause lens subluxation
+## question
+Subluxated lens is found in all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Marfan syndrome
+## explanation_a
+Incorrect. Marfan causes superotemporal lens subluxation.
+## answer_b
+Homocystinuria
+## explanation_b
+Incorrect. Homocystinuria causes inferonasal lens subluxation.
+## answer_c
+Trauma
+## explanation_c
+Incorrect. Trauma can subluxate the lens.
+## answer_d
+Behcet's syndrome
+## explanation_d
+Correct. This is the exception: Behcet is not a cause of ectopia lentis.
+## topic
+Ophthalmology
+## subtopic
+Ectopia lentis
+## main_concept
+CON-MUL-CF3B8F48A3F344
+## concept_ids
+CON-MUL-CF3B8F48A3F344
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.3
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+50
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the causes of a subluxated lens and exclude Behcet syndrome.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes
+
+---
+
+# Item
+
+## id
+QST-KASR315OPH-KAMAL-CH11-43
+## title
+CRAO does not cause retinal neovascularisation
+## question
+Retinal neovascularization is present in all the following EXCEPT:
+## subject
+mul
+## status
+Draft
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Central retinal vein occlusion
+## explanation_a
+Incorrect. Ischaemic central retinal vein occlusion causes neovascularisation.
+## answer_b
+Central retinal artery occlusion
+## explanation_b
+Correct. This is the exception: central retinal artery occlusion does not typically cause retinal neovascularisation.
+## answer_c
+Diabetic retinopathy
+## explanation_c
+Incorrect. Proliferative diabetic retinopathy is neovascular.
+## answer_d
+Retinopathy of prematurity
+## explanation_d
+Incorrect. Retinopathy of prematurity is a neovascular retinopathy.
+## topic
+Ophthalmology
+## subtopic
+Retinal neovascularisation
+## main_concept
+CON-MUL-FEB55D720E8CD8
+## concept_ids
+CON-MUL-FEB55D720E8CD8
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Application
+## cognitive_effort
+Moderate
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+3
+## inferred_difficulty
+55
+## exam_relevance
+5
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=high
+## years
+KAU_Y3
+## universities
+kau
+## module
+315 OPH
+## module_subject
+315 OPH > Ophthalmology > The eye in systemic diseases
+## question_only_for
+
+## library_ids
+ART-OPH-315-SYSTEMIC
+## resource_ids
+src_c30b94e296cd15ba86c2
+## learning_objective
+List the ischaemic causes of retinal neovascularisation and exclude CRAO.
+## source_citation
+Kasr Al Ainy 315 OPH - Dr. Ahmed Kamal Ophthalmology question bank, Ch.11 The eye in systemic diseases (PDF p.155-160); key from companion printed answer key (Ophthalmology - Answer Key . Dr. Kamal.pdf, p.8 Ch.11 table)
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+## randomise_answers
+yes
+## author_notes

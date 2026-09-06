@@ -12,6 +12,7 @@
 | kamal-ch8-retina | 73 | 17 | 0 | 90 |
 | kamal-ch9-eye-brain | 57 | 16 | 0 | 73 |
 | kamal-ch10-childhood | 41 | 19 | 0 | 60 |
+| kamal-ch11-systemic | 24 | 19 | 0 | 43 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -304,3 +305,18 @@
   HOLD when reached; a T/F 2-case section follows). New file question/315-OPH-kamal-ch11-systemic-mcq.md; verify the
   closest node per topic (most systemic-disease ocular manifestations are retinal/anterior — reuse existing nodes,
   do NOT invent) and create/extend the appropriate article. Then Ch.12 Ocular and orbital injuries (80 answers), Ch.13-15.
+
+## Ch.11 The eye in systemic diseases (DONE)
+- CLOSED Ch.11 in new file question/315-OPH-kamal-ch11-systemic-mcq.md. Bank MCQs run Q1-Q44 (Q5 absent from both bank and
+  printed key). Answer key p.8 = 40 keyed answers; key OMITS Q5/Q39/Q42, and the bank's Q44 has no key row.
+- Authored 24 clean single-best MCQs: Q1-4, Q6, Q22-36, Q38, Q40, Q41, Q43. Each gate.mjs batch errors=0 with
+  concept+article+resource(evidence/315-OPH-resources.md) siblings, in three pushed slices (Q1-6/Q22-26; Q27-36; Q38/40/41/43).
+- Held 19: multi-true patient-scenario vignettes Q7-21 and Q37 (four independent true/false statements, >1 defensibly true
+  option — held for adjudication, never guess); Q39/Q42/Q44 (no printed key row); (Q5 absent, not counted in the 43).
+- Concepts: 22 new minted (canonical keys ophthalmology.<disease>.<fact>, CON-MUL- + 14-hex SHA-256, collision-checked
+  corpus-wide, no collision) + Marfan CON-MUL-68CD902A3AD25C reused from Ch.8; Q6 and Q35 share one MG-edrophonium concept.
+  Article ART-OPH-315-SYSTEMIC (primary node DIS-OPH-T02; secondaries T04/T05) groups all 23 concepts.
+- Nodes reused, none invented: DIS-OPH-T02 (Anterior segment catch-all), T04 (Retina), T05 (Neuro-ophthalmology).
+- Ch.11 fully triaged: 24 authored + 19 held = 43; remaining 0. The post-Q44 T/F (2 cases) section is out of scope.
+- NEXT cluster: Ch.12 Ocular and orbital injuries (answer key p.9, 80 answers) — already IN PROGRESS on origin/main by a
+  parallel lane (file question/315-OPH-kamal-ch12-injuries-mcq.md). Coordinate before touching Ch.12.
