@@ -1,8 +1,11 @@
 | cluster | authored | held | remaining | total |
 |---|---:|---:|---:|---:|
 | ear | 95 | 7 | 0 | 102 |
+| nose | 18 | 0 | 62 | 80 |
 
 Ear section COMPLETE (Q1-102): 95 authored / 7 held / 0 excluded. Keys captured in 316-ENT-triage-keys.txt (p20 grid), each cross-checked against option text.
+
+Nose section OPEN (Q1-80): 18 authored / 0 held / 62 remaining. All 80 keys captured in 316-ENT-triage-keys.txt (p35 grid, rendered once at 220 dpi and read visually). First tranche Q1-18 authored (stems PDF p21-24), each key cross-checked against option text; none held (every one had a unique key-consistent answer). Remaining Q19-80 (keys already captured).
 
 ## Held
 - ear-q17 — The p20 answer-key grid prints the key as 'e', but the Q17 stem prints only options a-d (no option e). Key/stem conflict with no printed option to select; held per the never-guess rule.
@@ -18,3 +21,6 @@ The earlier cross-check worried the printed key described a MODIFIED radical mas
 
 ## Section progress (Ear Q1-102) — COMPLETE
 Q1-102 fully triaged and authored. 95 authored (Q1-16, 18-21, 23-29, 31-51, 53, 55-84, 86-87, 89-102), 7 held (Q17, 22, 30, 52, 54, 85, 88), 0 excluded. Next Ear tranche: none — section done. Next 316-ENT cluster is the Nose section (bank pp.21-35): stems native text starting p21; its answer-key grid is a page IMAGE at PDF p35 and needs ONE render, so the next Nose lane is a render lane.
+
+## Section progress (Nose Q1-80) — OPEN
+Grid rendered once (PDF p35, 220 dpi) and all 80 keys captured in 316-ENT-triage-keys.txt. Tranche Q1-18 authored (18 authored, 0 held, 0 excluded): Q1-2,6,7 Little's area / Kiesselbach anastomosis; Q4 anterior ethmoidal artery origin (ICA); Q3,5 nasal-vestibule furuncle → cavernous sinus; Q8 bilateral choanal atresia (oral airway first); Q9,14,15 nasal-fracture reduction timing; Q10,16,17 unilateral offensive discharge in a child = foreign body; Q11,12 CSF rhinorrhoea investigation; Q13 oroantral fistula; Q18 CSF rhinorrhoea features / no packing. 9 CON-MUL concepts minted (DIS-ENT-T02 Nose and sinuses; core on -S01, clinical on -S02), 3 articles (NOSE-VASCULAR-ANATOMY, NOSE-TRAUMA-INFECTION, NOSE-CSF-RHINORRHOEA). Gates: batch 18/0 errors, simulate 0 rejected/0 errors, audit NEUTRAL (no Nose-only error category vs the Ear baseline). Next Nose tranche: Q19-80 (stems PDF p24-34; keys already captured). After Nose: Larynx (stems p36-45, key grid image p46 — a render lane) then Pharynx (stems p47-59, key grid image p60 — a render lane).
