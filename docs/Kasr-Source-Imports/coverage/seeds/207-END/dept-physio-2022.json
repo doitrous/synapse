@@ -1,0 +1,97 @@
+{
+  "lane": "KASR-207END",
+  "cluster": "deptphys22",
+  "header": "Kasr Al Ainy 207 END - department Physiology MCQ bank (Merged_PHYSIO 2022), the [1st priority] Physiology-department merged bank for the endocrine and reproductive systems (sourceId src_911bf1abeda4ac70932f, sha256 911bf1abeda4ac70932f08e3566d74cccab62a71d2314c28fc13a8fa7c56d8b5, 36 pages). No native text layer (scanned) - read via pagetext.mjs ocr at default settings; each authored stem/options render-verified against the source image. UNKEYED bank: no printed answer markers, highlights or circles anywhere (page 1 render-confirmed clean). Per the answer policy, answers are determined by medical reasoning with per-option proof and keyed only where a single best answer is defensible. The intro-signalling and pituitary front matter is heavily saturated against the authored 207-END physiology corpus, so only the fresh mechanistic remainder is authored. This slice: GnRH IP3-Ca2+ signalling (Q14), GH intrinsic lactogenic activity (Q33), ADH plasma transport on neurophysin II (Q50). Being a department bank the manifest examSittingYear is 2022 (calendar label); question examSittingYear is null.",
+  "defaults": {
+    "subject": "endo",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "207 END",
+    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-END-207END-DEPTPHYS22-SIGNAL-TRANSPORT"],
+    "resource_ids": ["src_911bf1abeda4ac70932f"],
+    "source_citation": "Kasr Al Ainy 207 END department Physiology MCQ bank (Merged_PHYSIO 2022), p.{page}",
+    "setting": "Academic",
+    "estimated_seconds": 60,
+    "randomise_answers": true,
+    "topic": "Physiology",
+    "source": "past-paper"
+  },
+  "questions": [
+    {
+      "key": "deptphys22-q14", "page": 2, "id": "QST-KASR207END-DEPTPHYS22-Q14",
+      "title": "Hormone acting by the IP3-Ca2+ mechanism",
+      "question": "Which of the following hormones acts by the IP3-Ca2+ mechanism?",
+      "options": {
+        "A": "Cholecalciferol",
+        "B": "Progesterone",
+        "C": "Insulin",
+        "D": "Gonadotropin-releasing hormone (GnRH)"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Cholecalciferol (vitamin D) is lipophilic and acts through an intracellular nuclear receptor (the vitamin D receptor) to regulate gene transcription, not through IP3-calcium at the membrane.",
+        "B": "Incorrect. Progesterone is a steroid; it crosses the membrane and binds an intracellular nuclear receptor that regulates transcription, so it uses no membrane second messenger.",
+        "C": "Incorrect. Insulin binds a receptor tyrosine kinase that autophosphorylates and recruits IRS proteins; its signalling is through the tyrosine-kinase cascade, not IP3-calcium.",
+        "D": "Correct. GnRH is a hydrophilic decapeptide that binds a Gq-coupled receptor on the pituitary gonadotroph. Gq activates phospholipase C, which splits PIP2 into inositol trisphosphate (IP3) and diacylglycerol; IP3 releases calcium from intracellular stores and DAG activates protein kinase C, together driving LH and FSH release. This IP3-calcium pathway is the defining second-messenger mechanism of GnRH and separates it from the nuclear-receptor steroids and the tyrosine-kinase insulin among the options."
+      },
+      "main_concept": "CON-END-EB89585208F983", "concept_ids": ["CON-END-EB89585208F983"], "contextual_concept_ids": [],
+      "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Identify GnRH as a hormone signalling through the Gq / phospholipase C / IP3-calcium pathway rather than cyclic AMP, a nuclear receptor or a tyrosine kinase.",
+      "module_subject": "207 END > Physiology > Hormone signal transduction",
+      "subtopic": "Hormone signal transduction",
+      "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.2" }
+    },
+    {
+      "key": "deptphys22-q33", "page": 5, "id": "QST-KASR207END-DEPTPHYS22-Q33",
+      "title": "Hormone with intrinsic lactogenic activity",
+      "question": "Which of the following hormones has intrinsic lactogenic activity?",
+      "options": {
+        "A": "Thyroid-stimulating hormone (TSH)",
+        "B": "Melanocyte-stimulating hormone (MSH)",
+        "C": "Growth hormone (GH)",
+        "D": "Dopamine"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. TSH stimulates the thyroid follicular cells to make thyroid hormone; it has no action on the breast and no lactogenic activity.",
+        "B": "Incorrect. MSH acts on melanocytes to promote pigmentation; it is not lactogenic.",
+        "C": "Correct. Growth hormone belongs to one structurally homologous family with prolactin and human placental lactogen, so it can bind the prolactin receptor and possesses intrinsic lactogenic activity in addition to its somatotropic effects. This family homology is why marked growth-hormone excess can be associated with galactorrhoea even without a rise in prolactin, and it is what makes GH the lactogenic hormone among these options.",
+        "D": "Incorrect. Dopamine is the tonic hypothalamic inhibitor of prolactin release, the opposite of a lactogenic agent."
+      },
+      "main_concept": "CON-END-A707E662F5EC8D", "concept_ids": ["CON-END-A707E662F5EC8D"], "contextual_concept_ids": [],
+      "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Recognise growth hormone as the anterior-pituitary hormone with intrinsic lactogenic activity, reflecting its structural homology with prolactin.",
+      "module_subject": "207 END > Physiology > Anterior pituitary",
+      "subtopic": "Anterior pituitary",
+      "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.5" }
+    },
+    {
+      "key": "deptphys22-q50", "page": 7, "id": "QST-KASR207END-DEPTPHYS22-Q50",
+      "title": "Plasma carrier of ADH",
+      "question": "ADH circulates in plasma primarily:",
+      "options": {
+        "A": "Bound to neurophysin I",
+        "B": "Bound to neurophysin II",
+        "C": "Bound to plasma albumin",
+        "D": "Not bound to plasma proteins"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Neurophysin I is the carrier peptide paired with oxytocin, not with ADH.",
+        "B": "Correct. Antidiuretic hormone (vasopressin) is synthesised in hypothalamic magnocellular neurons as part of a larger precursor that also yields its specific carrier peptide, neurophysin II. The hormone is transported down the hypothalamo-hypophyseal tract, stored in the posterior pituitary and released bound to neurophysin II, which is its principal association in the circulation. The specific ADH-neurophysin II pairing (versus oxytocin-neurophysin I) is the point tested here.",
+        "C": "Incorrect. Plasma albumin and specific globulins carry lipophilic steroid and thyroid hormones; ADH is associated with its own peptide carrier, neurophysin II.",
+        "D": "Incorrect. ADH is not simply free in plasma; it is released and associated with neurophysin II derived from its common precursor."
+      },
+      "main_concept": "CON-END-36019EAEAF1832", "concept_ids": ["CON-END-36019EAEAF1832"], "contextual_concept_ids": [],
+      "difficulty": "Moderate", "question_type": "Recall", "cognitive_effort": "Medium", "reasoning_level": 1,
+      "learning_objective": "State that ADH (vasopressin) is carried on neurophysin II, derived from its own precursor, in contrast to oxytocin on neurophysin I.",
+      "module_subject": "207 END > Physiology > Posterior pituitary",
+      "subtopic": "Posterior pituitary",
+      "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.7" }
+    }
+  ]
+}

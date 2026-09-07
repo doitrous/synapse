@@ -385,3 +385,41 @@ Kasr Al Ainy END 207 Dr Shebl PHYSIOLOGY MCQ bank (endocrine + reproductive syst
 true
 
 ---
+
+# Item
+## id
+src_911bf1abeda4ac70932f
+## title
+Merged_PHYSIO MCQ.2022
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Physiology Dpt Physiology [1st priority]/MCQs/Merged_PHYSIO MCQ.2022.pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+36
+## sha256
+911bf1abeda4ac70932f08e3566d74cccab62a71d2314c28fc13a8fa7c56d8b5
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 department Physiology MCQ bank (Merged_PHYSIO 2022), the [1st priority] Physiology-department merged question bank for the endocrine and reproductive systems. Filed under "Physiology Dpt Physiology [1st priority]"; the "2022" is a calendar label on the file (manifest examSittingYear=2022). No native text layer (scanned) — read via `node scripts/content/pagetext.mjs ocr` at default settings, and each authored stem/options render-verified against the source image. UNKEYED bank: no printed answer markers, highlights or circles anywhere (page 1 render-confirmed clean). Per the answer policy, answers are determined by medical reasoning with per-option explanations and keyed only where a single best answer is defensible; ambiguous or multi-true items are held. The bank spans the whole module (intro signalling, hypothalamo-pituitary, thyroid, calcium, adrenal, pancreas, reproductive). This resource opens the department-Physiology frontier of the module; the intro-signalling and pituitary front matter is heavily saturated against the authored 207-END physiology corpus, so only the fresh mechanistic remainder is authored. First slice: GnRH IP3-Ca2+ signalling (Q14), GH intrinsic lactogenic activity (Q33), ADH plasma transport on neurophysin II (Q50). Remaining chapters triaged for later slices.
+## confidence
+0.9
+## is_assessment
+true
+
+---
