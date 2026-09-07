@@ -462,4 +462,16 @@ the GIP concept cross-links the existing CON-GIT-646EF2853FF707), 1 library arti
 `question/206-DIG-physio-effat-mcq-tranche1.md`, `concept/206-DIG-physio-effat-tranche1-concepts.md`,
 `article/206-DIG-physio-effat-articles.md`, seed `seed/206-DIG-physio-effat-tranche1.json`.
 
-206-DIG authored total now: 277 + 3 (physio Effat t1) = **280 MCQs**.
+physio-effat-tranche-2 (bank Q4,Q7,Q8,Q9,Q14,Q19,Q20,Q21): 8 authored — incretin effect
+(oral vs IV glucose), cephalic-phase vagal control, cholera-toxin secretory mechanism (Q8 cAMP
+and Q9 chloride channel share one concept), somatostatin as the paracrine brake on gastric acid,
+gastric mucosal barrier / H+ back-leak, receptive relaxation mediated by nitric oxide (REUSES the
+existing CON-GIT-EC968806463820), and gastrin's trophic effect on the mucosa. 6 new `CON-GIT-*`
+concepts (incretin cross-links CON-GIT-71487BE84D9403; somatostatin cross-links the gastrin-feedback
+CON-GIT-1AB47117E5DE74), collision-checked — no collisions. Gate-clean (batch 0 errors; the reused
+receptive-relaxation concept required passing `concept/206-DIG-physiology-tranche3-concepts.md` to
+the gate). Authored in `question/206-DIG-physio-effat-mcq-tranche2.md`,
+`concept/206-DIG-physio-effat-tranche2-concepts.md`, seed `seed/206-DIG-physio-effat-tranche2.json`.
+Still held from this bank: matrix/grid statement-set items Q5,Q6,Q10,Q11,Q12,Q13,Q15,Q16,Q17,Q18,Q22.
+
+206-DIG authored total now: 277 + 3 (physio Effat t1) + 8 (physio Effat t2) = **288 MCQs**.
