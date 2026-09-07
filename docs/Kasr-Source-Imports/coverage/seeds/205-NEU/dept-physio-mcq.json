@@ -86,36 +86,132 @@
       "id": "QST-KASR205NEU-PHYSIOMCQ-2"
     },
     {
-      "key": "physiomcq-q22",
+      "key": "physiomcq-q21",
       "page": 9,
-      "title": "Mechanism of tetanus toxin",
-      "question": "Tetanus toxin leads to:",
+      "title": "Strychnine does not depress synaptic transmission",
+      "question": "Synaptic depression may result from all of the following EXCEPT:",
       "options": {
-        "A": "Flaccid paralysis due to inhibition of acetylcholine release at the neuromuscular junction",
-        "B": "Convulsions due to competitive inhibition with excitatory transmitters",
-        "C": "Spastic paralysis due to inhibition of acetylcholine release",
-        "D": "Spastic paralysis due to inhibition of inhibitory (GABA/glycine) transmitter release"
+        "A": "Botulinum toxin",
+        "B": "Hypoxia",
+        "C": "Acidosis",
+        "D": "Strychnine"
       },
       "correct": "D",
       "explanations": {
-        "A": "Incorrect. Inhibition of acetylcholine release at the neuromuscular junction, causing FLACCID paralysis, is the action of BOTULINUM toxin — the opposite toxin to tetanus.",
-        "B": "Incorrect. Tetanus toxin does not act by competing with excitatory transmitters; it blocks the release of INHIBITORY transmitters, and the resulting picture is sustained muscle spasm rather than a simple competitive block.",
-        "C": "Incorrect. Tetanus does cause spastic paralysis, but not by inhibiting acetylcholine release; acetylcholine transmission at the motor end-plate is preserved (indeed unopposed).",
-        "D": "Correct. Tetanospasmin is taken up by motor terminals, transported retrogradely to the spinal cord, and blocks the release of the inhibitory transmitters glycine (and GABA) from Renshaw cells and other inhibitory interneurons. Losing this inhibition leaves the alpha motor neurons unopposed, producing continuous muscle contraction — spastic paralysis with the characteristic lockjaw (trismus) and opisthotonus. This disinhibition mechanism is exactly the mirror image of botulinum toxin, which blocks excitatory acetylcholine release to cause flaccid paralysis."
+        "A": "Incorrect. Botulinum toxin blocks the release of acetylcholine at the neuromuscular junction, depressing transmission and causing flaccid paralysis — so it does depress the synapse.",
+        "B": "Incorrect. Synaptic transmission is highly energy-dependent, so hypoxia depresses it (transmitter synthesis and release fail without adequate oxygen).",
+        "C": "Incorrect. Acidosis depresses neuronal excitability and synaptic transmission (whereas alkalosis increases excitability), so it too is a cause of synaptic depression.",
+        "D": "Correct. Strychnine does NOT depress synaptic transmission — it is a competitive antagonist at the inhibitory GLYCINE receptor. By removing postsynaptic glycine-mediated inhibition (especially the Renshaw-cell recurrent inhibition of spinal motor neurons), it produces DISINHIBITION with heightened excitability and convulsions, the opposite of depression. It is the exception in a list of synaptic depressants."
       },
-      "main_concept": "CON-NEU-C7DC31D3890D21",
-      "concept_ids": ["CON-NEU-C7DC31D3890D21"],
+      "main_concept": "CON-NEU-D00C5CF32479B3",
+      "concept_ids": ["CON-NEU-D00C5CF32479B3"],
       "contextual_concept_ids": [],
       "difficulty": "Moderate",
       "question_type": "Single best answer",
       "cognitive_effort": "Medium",
       "reasoning_level": 2,
-      "learning_objective": "State that tetanus toxin causes spastic paralysis by blocking release of inhibitory transmitters (glycine/GABA) from spinal inhibitory interneurons, contrasting it with botulinum toxin (flaccid paralysis, blocks acetylcholine release).",
+      "learning_objective": "Recognise strychnine as a glycine-receptor antagonist that causes excitation/convulsions by disinhibition, so it does not depress synaptic transmission (unlike botulinum toxin, hypoxia and acidosis).",
       "media_recommendations": "",
       "module_subject": "205 NEU > Physiology > Central Nervous System > Synaptic Transmission",
       "subtopic": "CNS physiology",
-      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, src_3606e4bda698bbc556c3, NEU-205 Q22); answer by medical reasoning, defended per-option, p.9" },
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, src_3606e4bda698bbc556c3, NEU-205 Q21); answer by medical reasoning, defended per-option, p.9" },
       "id": "QST-KASR205NEU-PHYSIOMCQ-3"
+    },
+    {
+      "key": "physiomcq-q30",
+      "page": 11,
+      "title": "Properties of the Renshaw cell",
+      "question": "Regarding the Renshaw cell:",
+      "options": {
+        "A": "It is activated by glycine",
+        "B": "It shows the phenomenon of negative feedback inhibition",
+        "C": "It is present in the dorsal horn of the spinal cord",
+        "D": "It is an excitatory neuron"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The Renshaw cell is activated by ACETYLCHOLINE released from recurrent collaterals of the alpha motor neuron; glycine is the transmitter it RELEASES onto the motor neuron, not the one that activates it.",
+        "B": "Correct. The Renshaw cell mediates recurrent (feedback) inhibition: an alpha motor neuron sends a collateral back onto the Renshaw cell, which then inhibits that same (and neighbouring) motor neurons. Because the motor neuron thus limits its own firing, this is a classic negative-feedback loop that stabilises and smooths motor output.",
+        "C": "Incorrect. Renshaw cells lie in the VENTRAL (anterior) horn of the spinal cord, alongside the motor neurons they regulate — not in the dorsal horn (which handles sensory input).",
+        "D": "Incorrect. The Renshaw cell is an INHIBITORY interneuron; it releases glycine (an inhibitory transmitter), so it is not excitatory."
+      },
+      "main_concept": "CON-NEU-305211B088286B",
+      "concept_ids": ["CON-NEU-305211B088286B"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Single best answer",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Describe the Renshaw cell as a ventral-horn inhibitory interneuron, activated by acetylcholine from motor-neuron collaterals and releasing glycine, that mediates recurrent (negative-feedback) inhibition of motor neurons.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Physiology > Central Nervous System > Spinal Reflexes",
+      "subtopic": "CNS physiology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, src_3606e4bda698bbc556c3, NEU-205 Q30); answer by medical reasoning, defended per-option, p.11" },
+      "id": "QST-KASR205NEU-PHYSIOMCQ-4"
+    },
+    {
+      "key": "physiomcq-q64",
+      "page": 17,
+      "title": "Where visceral (referred) pain is felt",
+      "question": "Visceral pain is usually felt:",
+      "options": {
+        "A": "Deeply in the diseased viscus itself",
+        "B": "In deep tissues close to the diseased viscus",
+        "C": "In the skin area that just overlies the diseased viscus",
+        "D": "In the skin area that shares the same dorsal root (dermatome) as the diseased viscus"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Visceral pain is characteristically poorly localised and is usually NOT felt accurately in the viscus itself; the viscera have few nociceptors and sparse localisation cues.",
+        "B": "Incorrect. It is not felt simply in the deep tissues adjacent to the organ; the referral follows a segmental (dermatomal) rule rather than mere proximity.",
+        "C": "Incorrect. Referred pain is not felt in the skin directly overlying the organ but in the dermatome sharing the organ's spinal segment — which may be some distance from the viscus (e.g. cardiac pain to the left arm).",
+        "D": "Correct. Visceral pain is typically REFERRED: the visceral afferents enter the cord at a given segment and converge with somatic afferents from the dermatome supplied by the same dorsal root, so the brain projects the pain to that body-surface dermatome. This convergence-projection rule is why diaphragmatic irritation refers to the shoulder (C3-5) and cardiac ischaemia to the left chest and arm (T1-4) — the skin of the same dorsal-root segment, not the skin overlying the organ."
+      },
+      "main_concept": "CON-NEU-20EA52980EA587",
+      "concept_ids": ["CON-NEU-20EA52980EA587"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Single best answer",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that visceral pain is referred to the skin dermatome sharing the same dorsal root as the viscus (convergence-projection), not to the skin overlying the organ.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Physiology > Central Nervous System > Pain",
+      "subtopic": "CNS physiology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, src_3606e4bda698bbc556c3, NEU-205 Q64); answer by medical reasoning, defended per-option, p.17" },
+      "id": "QST-KASR205NEU-PHYSIOMCQ-5"
+    },
+    {
+      "key": "physiomcq-q66",
+      "page": 17,
+      "title": "Pain-sensitive intracranial structures",
+      "question": "Intracranial headache could result from injurious stimuli on all the following EXCEPT:",
+      "options": {
+        "A": "The dura lining the brain",
+        "B": "The brain tissue itself",
+        "C": "The wall of the large intracranial veins (venous sinuses)",
+        "D": "The middle meningeal artery"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The dura mater (especially at the base of the skull) is pain-sensitive; traction or inflammation of the dura is a genuine source of intracranial headache.",
+        "B": "Correct. The brain PARENCHYMA itself is insensitive to pain — it contains no nociceptors, which is why brain tissue can be cut or stimulated in awake neurosurgery without pain. Intracranial headache instead arises from the pain-sensitive structures around the brain (dura, large venous sinuses and their tributary veins, the dural/meningeal arteries and the large arteries at the base, and certain cranial nerves). Therefore the brain tissue is the exception.",
+        "C": "Incorrect. The large intracranial (dural venous) sinuses and the big veins draining into them are pain-sensitive; traction on them causes headache.",
+        "D": "Incorrect. The middle meningeal artery and the other dural/basal arteries are pain-sensitive; their dilatation or irritation produces headache."
+      },
+      "main_concept": "CON-NEU-BEA8988CC623BE",
+      "concept_ids": ["CON-NEU-BEA8988CC623BE"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Single best answer",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the brain parenchyma is insensitive to pain and that intracranial headache arises from pain-sensitive structures (dura, large venous sinuses/veins, meningeal and basal arteries).",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Physiology > Central Nervous System > Pain",
+      "subtopic": "CNS physiology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, src_3606e4bda698bbc556c3, NEU-205 Q66); answer by medical reasoning, defended per-option, p.17" },
+      "id": "QST-KASR205NEU-PHYSIOMCQ-6"
     }
   ]
 }

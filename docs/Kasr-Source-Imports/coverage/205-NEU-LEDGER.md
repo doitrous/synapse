@@ -122,18 +122,30 @@ questions), so nothing to harvest there. The real priority-1 physiology MCQ sour
 folder's "Physiology MCQ 2nd Year.pdf" = Physiology Department "MCQs & SAQs (Formative Assessment,
 Second Year, 2022-2023)" covering NEU-205/DIG-206/END-207 (manifest src_3606e4bda698bbc556c3; image-
 only, rendered+OCR 300dpi; UNKEYED). NEU-205 section MCQs begin p.6. Read pages 6-11 (Q1-30,
-synaptic-transmission + neuronal-pools run). Slice 1: 3 genuinely-new items authored (Q5 transmitter
-excit/inhib set by postsynaptic receptor; Q10 transmission terminated by enzymatic degradation, with
-reuptake=presynaptic trap; Q22 tetanus toxin = spastic paralysis by blocking inhibitory-transmitter
-release vs botulinum flaccid) into seed dept-physio-mcq.json -> batch 205-NEU-dept-physio-mcq.md,
-all added to ART-NEU-205NEU-CNS-PHYSIOLOGY coverage. Skipped as dupes of the existing synaptic
-corpus: Q2/Q3/Q9 presynaptic-vs-postsynaptic inhibition, Q4 Ca2+-triggered release, Q6/Q11 v-SNARE
-docking, Q7 EPSP, Q8 grand PSP summation. 3 new concepts minted. CONCEPT-ID SCHEME FLAG: minted BARE/
-unsalted (sha256 of bare dotted key, no "kau:205 NEU:" prefix) per the task's explicit university-
-blind CONCEPT-ID RULE + Omar's documented ruling — this DIVERGES from the module's existing salted
-IDs (histology bank + all prior 205 NEU concepts used kau:205 NEU:key). Flagged for chief-of-staff to
-reconcile; dedupe is by meaning so no duplicate questions result. Gate slice 1: items=3 errors=0.
-Authored total 205 NEU: ~212 -> +3. Remaining in this bank: Q1,Q12-30+ (habituation/sensitization/
-Renshaw/divergence/motor/senses) not yet authored; HELD Q20 (transmission stimulated by:
-hypercalcemia vs alkalosis both defensible). NEXT slice: continue physio bank Q12-30, then Anatomy
-Dr. Jalal "Neuro mcq jalal new.pdf".
+synaptic-transmission, neuronal-pools, sensory-receptor and pain runs). BATCH 205-NEU-dept-physio-mcq.md
+now holds 6 MCQs (slices 1-2), all added to ART-NEU-205NEU-CNS-PHYSIOLOGY; 6 new concepts minted.
+Slice 1: Q5 (transmitter excit/inhib action set by postsynaptic receptor), Q10 (transmission terminated
+by enzymatic degradation; reuptake=presynaptic trap). Slice 2: Q21 (strychnine = glycine antagonist ->
+convulsions, so NOT a synaptic depressant), Q30 (Renshaw cell = ventral-horn inhibitory interneuron,
+recurrent negative-feedback inhibition, ACh-activated/glycine-releasing), Q64 (visceral/referred pain
+felt in skin of SAME dorsal-root dermatome, not the overlying skin), Q66 (brain parenchyma is pain-
+INSENSITIVE; intracranial headache from dura/large veins/meningeal arteries).
+CORRECTION: slice 1 originally also authored Q22 (tetanus toxin -> spastic paralysis) but on wider
+meaning-dedup it proved a SEMANTIC + question DUPLICATE of the existing concept
+"tetanustoxin.mechanism.blocks-glycine-gaba-spastic-paralysis" (from EOM2023 Q60) -> removed (concept
+record, article link, seed question). ROOT-CAUSE LESSON: the ID collision-check is filename-only on the
+BARE-key hash, but the existing corpus is SALTED (kau:205 NEU:key), so an ID-only check CANNOT catch a
+semantic dupe existing under the salted scheme -- dedup MUST be by meaning (grep the topic). Applying that
+caught Q14 ionotropic, Q27 sensitization, Q52 pain-mediators, Q46 two-point as dupes too.
+Skipped as dupes: Q2/Q3/Q9 pre-vs-post-synaptic inhibition, Q4 Ca2+ release, Q6/Q11 v-SNARE docking,
+Q7/Q12/Q13 EPSP, Q8 grand PSP, Q14 ionotropic (existing), Q27 sensitization (existing 18505), Q35/37/38/41
+receptor potential, Q40 labelled-line localisation, Q42/43/49/51 spinothalamic/dorsal-column, Q52 pain
+mediators (existing 8162), Q55 analgesia system, Q57 nociceptors. HELD: Q20 (transmission stimulated by:
+hypercalcemia vs alkalosis, both defensible).
+CONCEPT-ID SCHEME FLAG (standing): all 6 concepts minted BARE/unsalted per the task's explicit
+university-blind CONCEPT-ID RULE + Omar's documented ruling -- DIVERGES from the module's existing salted
+IDs (histology bank + all prior 205 NEU concepts used kau:205 NEU:key). Flagged for chief-of-staff.
+Gate slices 1+2: items=3 then items=6, errors=0. Authored total 205 NEU: ~212 -> +6. This bank is
+heavily dupe-saturated (>80% on the synaptic/sensory/pain sections already mined from EOM2023).
+NEXT: skim remaining physio pages (motor/cerebellum/basal-ganglia/sleep/vision/hearing, pp.19-end) for
+fresh remainder, then Anatomy Dr. Jalal "Neuro mcq jalal new.pdf" (2nd priority).

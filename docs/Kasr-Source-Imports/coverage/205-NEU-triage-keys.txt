@@ -136,22 +136,31 @@ Q107 (organ of Corti) — GREEN highlight on option d "Border cells support the 
 #   NOTE: the folder's named "Department Book - Physio Neuroscience [CNS].pdf" (src_e384746b77bbfab81cd1)
 #   is a PROSE TEXTBOOK (194pp, chapters, no MCQs) — not a question source.
 #
-# NEU-205 Synaptic-transmission run (pp.6-11, Q1-30). Expert-determined keys for the authored items:
-#   Q5.A (excit/inhib action set by postsynaptic receptor)  Q10.D (termination = enzymatic degradation;
-#   reuptake is presynaptic, trap option c)  Q22.D (tetanus toxin = spastic paralysis, blocks inhibitory
-#   glycine/GABA release; cf botulinum = flaccid, blocks ACh).
-# SKIPPED as dupes of existing synaptic corpus: Q2/Q3/Q9 (pre- vs post-synaptic inhibition),
-#   Q4 (Ca2+-triggered release), Q6/Q11 (v-SNARE docking — existing EOM2023 Q53 concept), Q7 (EPSP
-#   local depolarization), Q8 (grand PSP summation).
-# HELD: Q20 "synaptic transmission is stimulated by" — options hypercalcemia / alkalosis / acidosis /
-#   botulism. Both hypercalcaemia (raises transmitter release) AND alkalosis (raises neuronal
-#   excitability, Guyton) are defensibly correct; acidosis + botulism are depressants/blockers. Two
-#   defensible keys -> HELD (not authored against a contestable single answer).
-# NOT YET AUTHORED (fresh, next slices): Q1 (fiber types CNS<->PNS), Q12-19, Q21 (synaptic depression
-#   EXCEPT strychnine), Q23/25/26 (habituation), Q24 (post-tetanic potentiation — likely dupe),
-#   Q27 (sensitization), Q28 (divergence), Q29 (excitation field), Q30 (Renshaw cell), and the
-#   sensory/pain/special-senses/motor runs beyond p.11.
-# CONCEPT-ID SCHEME FLAG: this bank's concepts minted BARE/unsalted (sha256 of bare dotted key, NEU
-#   prefix, first 14 hex) per the task's explicit university-blind CONCEPT-ID RULE + Omar's documented
-#   ruling; DIVERGES from the module's existing salted "kau:205 NEU:key" IDs. Flagged for CoS.
+# NEU-205 pp.6-18 (Q1-72, synaptic / neuronal-pool / sensory-receptor / pain runs). Expert-determined
+#   keys for the AUTHORED items (6 MCQs, slices 1-2):
+#   Q5.A  (excit/inhib action set by postsynaptic receptor)
+#   Q10.D (termination = enzymatic degradation; reuptake is presynaptic, trap option c)
+#   Q21.D (strychnine is the EXCEPT — glycine-receptor antagonist -> convulsions, not a depressant)
+#   Q30.B (Renshaw cell = recurrent negative-feedback inhibition; ventral horn; ACh-activated, releases
+#          glycine; inhibitory)
+#   Q64.D (visceral pain referred to skin of SAME dorsal-root dermatome, not overlying skin)
+#   Q66.B (brain tissue is the EXCEPT — brain parenchyma is pain-insensitive; pain-sensitive intracranial
+#          structures = dura, big veins/sinuses, meningeal arteries)
+# REMOVED as DUPLICATE after authoring: Q22.D (tetanus toxin -> spastic paralysis) — semantic + question
+#   dup of existing concept "tetanustoxin.mechanism.blocks-glycine-gaba-spastic-paralysis" (EOM2023 Q60);
+#   dropped from batch/concept/article. LESSON: bare-key ID collision-check cannot catch dupes that exist
+#   under the corpus's salted scheme -> dedup by MEANING (grep topic), not by ID hash.
+# SKIPPED as dupes of existing corpus: Q2/Q3/Q9 (pre- vs post-synaptic inhibition), Q4 (Ca2+ release),
+#   Q6/Q11 (v-SNARE docking, existing EOM2023 Q53), Q7/Q12/Q13 (EPSP), Q8 (grand PSP), Q14 (ionotropic
+#   receptors, existing concept), Q27 (sensitization, existing 18505), Q35/37/38/41 (receptor potential),
+#   Q40 (labelled-line localisation), Q42/43/49/51 (spinothalamic/dorsal-column), Q52 (pain mediators,
+#   existing 8162), Q55 (analgesia system), Q57 (nociceptors), Q46 (two-point/receptive-field, near 7942).
+# HELD: Q20 "synaptic transmission is stimulated by" — hypercalcaemia (raises transmitter release) AND
+#   alkalosis (raises neuronal excitability, Guyton) both defensibly correct; acidosis + botulism are
+#   depressants/blockers. Two defensible keys -> HELD.
+# NOT YET TRIAGED: pp.19-end (motor/cerebellum/basal-ganglia/sleep/vision/hearing/smell/taste runs) — skim
+#   for fresh remainder next; bank is >80% dupe-saturated on the sections read so far.
+# CONCEPT-ID SCHEME FLAG: this bank's concepts minted BARE/unsalted (sha256 of bare dotted key, NEU prefix,
+#   first 14 hex) per the task's explicit university-blind CONCEPT-ID RULE + Omar's documented ruling;
+#   DIVERGES from the module's existing salted "kau:205 NEU:key" IDs. Flagged for CoS.
 # ============================================================================

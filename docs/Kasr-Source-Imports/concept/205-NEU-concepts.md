@@ -23990,11 +23990,11 @@ keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & 
 
 # Item
 ## id
-CON-NEU-C7DC31D3890D21
+CON-NEU-D00C5CF32479B3
 ## label
-Tetanus toxin causes spastic paralysis by blocking release of inhibitory transmitters
+Strychnine is a glycine-receptor antagonist that causes convulsions, not synaptic depression
 ## canonical_key
-synapse.tetanus-toxin.blocks-inhibitory-transmitter-release-spastic-paralysis
+synapse.strychnine.glycine-antagonist-causes-excitation-not-depression
 ## aliases
 
 ## arabic_label
@@ -24002,11 +24002,11 @@ synapse.tetanus-toxin.blocks-inhibitory-transmitter-release-spastic-paralysis
 ## arabic_aliases
 
 ## definition
-Tetanospasmin (tetanus toxin) is taken up by motor nerve terminals, transported retrogradely to the spinal cord, and blocks the release of the inhibitory transmitters glycine (and GABA) from Renshaw cells and other inhibitory interneurons. Loss of this inhibition leaves alpha motor neurons unopposed, producing continuous muscle contraction — spastic paralysis with the characteristic lockjaw (trismus) and opisthotonus. This disinhibition mechanism is the mirror image of botulinum toxin, which blocks release of excitatory acetylcholine at the neuromuscular junction to cause flaccid paralysis.
+Strychnine does not depress synaptic transmission; it is a competitive antagonist at the inhibitory glycine receptor. By blocking postsynaptic glycine-mediated inhibition — notably the Renshaw-cell recurrent inhibition of spinal motor neurons — it removes inhibition (disinhibition), heightening excitability and producing convulsions (and, in poisoning, exaggerated reflexes and opisthotonus). This is the opposite of true synaptic depressants such as botulinum toxin (blocks acetylcholine release), hypoxia (transmission is energy-dependent) and acidosis (depresses excitability, whereas alkalosis raises it).
 ## explicit_objective
-State that tetanus toxin causes spastic paralysis by blocking release of inhibitory transmitters (glycine/GABA) from spinal inhibitory interneurons, contrasting it with botulinum toxin (flaccid paralysis).
+Recognise strychnine as a glycine-receptor antagonist that causes excitation/convulsions by disinhibition, so it does not depress synaptic transmission.
 ## pitfalls
-Confusing tetanus (spastic; blocks inhibitory transmitter release) with botulinum (flaccid; blocks acetylcholine release); saying tetanus inhibits acetylcholine release.
+Grouping strychnine with synaptic depressants; forgetting that strychnine blocks (rather than mimics) glycine, and that its effect is disinhibition/convulsions.
 ## concept_type
 definition
 ## status
@@ -24048,13 +24048,13 @@ src_3606e4bda698bbc556c3
 ## universities
 kau
 ## blueprint_weight
-0.35
+0.3
 ## exam_weight_by_year
-KAU_Y2=0.35
+KAU_Y2=0.3
 ## clinical_relevance
-0.6
+0.4
 ## academic_relevance
-0.7
+0.75
 ## weight_confidence
 0.6
 ## confidence
@@ -24066,7 +24066,7 @@ KAU_Y2=0.35
 ## source_candidate_ids
 
 ## original_wording
-"Tetanus toxin leads to: a- spastic paralysis due to inhibition of acetyl choline release b- convulsions due to competitive inhibition with inhibitory transmitters c- flaccid paralysis due to inhibition of GABA release d- spastic paralysis due to inhibition of GABA release" ANSWER: d (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q22; unkeyed bank, answer expert-determined by medical reasoning)
+"Synaptic depression may result from all of the following EXCEPT: a. botulin. b. hypoxia c. acidosis. d. strychnine." ANSWER: d (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q21; unkeyed bank, answer expert-determined by medical reasoning)
 ## merge_ids
 
 ## rejected_merge_candidate_ids
@@ -24076,7 +24076,7 @@ KAU_Y2=0.35
 ## uncertainty
 
 ## evidence_gaps
-Department physiology MCQ book is unkeyed; the correct option was determined by standard neurophysiology/microbiology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
+Department physiology MCQ book is unkeyed; the correct option was determined by standard neuropharmacology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
 ## owner
 Claude
 ## reviewer
@@ -24094,4 +24094,334 @@ authored_needs_independent_evidence
 ## exclusion_reason
 
 ## field_notes
-keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q22, p.9); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE (sha256 of the bare key, NEU prefix, first 14 hex) -- DIVERGES from the module's existing salted precedent; flagged. Collision-checked filename-only -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
+keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q21, p.9); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE; DIVERGES from the module's existing salted precedent; flagged. Collision-checked filename-only -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-305211B088286B
+## label
+The Renshaw cell mediates recurrent (negative-feedback) inhibition of spinal motor neurons
+## canonical_key
+spinalcord.renshaw-cell.recurrent-negative-feedback-inhibition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Renshaw cell is an inhibitory interneuron in the ventral (anterior) horn of the spinal cord. It is activated by acetylcholine released from recurrent collaterals of an alpha motor neuron's axon, and in turn releases the inhibitory transmitter glycine back onto that same (and neighbouring) motor neurons. This recurrent (feedback) inhibition is a classic negative-feedback loop that limits and smooths motor-neuron firing. It is activated by acetylcholine (not glycine), lies in the ventral horn (not the dorsal horn), and is inhibitory (not excitatory).
+## explicit_objective
+Describe the Renshaw cell as a ventral-horn inhibitory interneuron, activated by acetylcholine from motor-neuron collaterals and releasing glycine, that mediates recurrent (negative-feedback) inhibition.
+## pitfalls
+Saying the Renshaw cell is activated by glycine (it releases glycine, is activated by ACh); placing it in the dorsal horn; calling it excitatory.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+CNS physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Central Nervous System > Spinal Reflexes
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3606e4bda698bbc556c3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Renshaw cell: a- is activated by glycine. b- shows the phenomenon of negative feedback inhibition. c- is present in dorsal horn of the spinal cord. d- are excitatory neurons." ANSWER: b (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q30; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department physiology MCQ book is unkeyed; the correct option was determined by standard neurophysiology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q30, p.11); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE; DIVERGES from the module's existing salted precedent; flagged. Collision-checked filename-only -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-20EA52980EA587
+## label
+Visceral pain is referred to the skin dermatome of the same dorsal root as the viscus
+## canonical_key
+pain.referred.felt-in-skin-of-same-dorsal-root-dermatome
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Visceral pain is characteristically poorly localised and is typically REFERRED to the body surface. Visceral afferents enter the spinal cord at a particular segment and converge with somatic afferents from the dermatome supplied by the same dorsal root; because the brain is more used to somatic input, it projects the pain to that body-surface dermatome (convergence-projection). The pain is therefore felt in the skin of the same dorsal-root segment as the diseased organ — not in the skin merely overlying it — which is why diaphragmatic irritation refers to the shoulder tip (C3-5) and cardiac ischaemia to the left chest and arm (T1-4).
+## explicit_objective
+State that visceral pain is referred to the skin dermatome sharing the same dorsal root as the viscus (convergence-projection), not to the skin overlying the organ.
+## pitfalls
+Thinking referred pain is felt in the skin directly overlying the organ, or in the viscus itself; forgetting the segmental (dermatomal) basis of referral.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+CNS physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Central Nervous System > Pain
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3606e4bda698bbc556c3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.6
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Visceral pain is usually felt: a- deeply in the diseased viscera b- in deep tissues close to the diseased viscera c- in skin areas that just overlie the diseased viscera d- in skin areas which has the same dorsal root as the diseased viscera" ANSWER: d (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q64; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department physiology MCQ book is unkeyed; the correct option was determined by standard neurophysiology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q64, p.17); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE; DIVERGES from the module's existing salted precedent; flagged. Collision-checked filename-only -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-BEA8988CC623BE
+## label
+The brain parenchyma is insensitive to pain; intracranial headache arises from dura, veins and arteries
+## canonical_key
+headache.intracranial.pain-sensitive-structures-not-brain-parenchyma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The brain parenchyma itself contains no nociceptors and is insensitive to pain (it can be cut or stimulated in awake craniotomy without pain). Intracranial headache instead arises from the pain-sensitive structures in and around the cranium: the dura mater (especially at the base), the large dural venous sinuses and their tributary veins, the dural/meningeal arteries (e.g. the middle meningeal artery) and the large arteries at the base of the brain, plus parts of certain cranial nerves. Traction, distension, inflammation or dilatation of these structures produces headache, whereas stimulation of the brain substance does not.
+## explicit_objective
+State that the brain parenchyma is insensitive to pain and that intracranial headache arises from pain-sensitive structures (dura, large venous sinuses/veins, meningeal and basal arteries).
+## pitfalls
+Believing the brain tissue itself is a source of headache pain; forgetting that the dura, large veins/sinuses and meningeal arteries are the pain-sensitive intracranial structures.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+CNS physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Central Nervous System > Pain
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3606e4bda698bbc556c3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.6
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Intracranial headache could result from injurious stimuli on EXCEPT: a- the dura lining the brain b- the brain tissue c- wall of the big intracranial veins d- middle meningeal artery" ANSWER: b (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q66; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department physiology MCQ book is unkeyed; the correct option was determined by standard neurophysiology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q66, p.17); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE; DIVERGES from the module's existing salted precedent; flagged. Collision-checked filename-only -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
