@@ -452,3 +452,49 @@ Held/excluded (running, this bank): within-bank exact/reciprocal duplicates to b
 (Q24=Q2, Q26=Q3, Q35=Q1, Q37/Q66 reciprocal of Q2, Q41=Q23, Q42=Q2, Q43=Q25, Q44=Q3, Q45=Q27, Q70=Q40),
 Q28 (ambiguous — best monitor "viral load" not offered), and section C Matching Q1-6 (not 4-option single-best).
 Dedupe vs the existing 309-INF corpus = 100% fresh (that corpus is parasitology only; no micro overlap).
+
+## MICROBIOLOGY MCQ — `Micro MCQ [GIT].pdf` (2026-09-07) — EXHAUSTED
+
+Second microbiology source mined: `Micro MCQ [GIT].pdf` (manifest `src_7d53d3a8f09b4d542ae1`, sha256
+`7d53d3a8...`, 23 pp, **scanned image-only — recovered by OCR** `pagetext ocr` psm 6). The bank is
+numbered Q1-39 (4-to-5-option single-best MCQs). The final page carries a hand-written answer table that
+is OCR-**garbled and undecodable**, so there is NO reliable printed key — every answer is
+**expert-determined by microbiological reasoning** (Omar 2026-09-07) and justified per-option
+(`keySource` = expert-determined by reasoning; no reliable source key). No source mark was overridden
+(none was legible). Committed as one gate-clean batch (89146fd4).
+
+**33 authored / 6 held / 0 excluded.** Fields: `question/309-INF-microbiology-mcq.md`
+(ids `QST-KASR309INF-MICROGIT-<Q>`, +33 → file now 71 items). Topics: systemic bacteriology (food
+poisoning Q1,2,3,38; enteric Gram-negatives Q4,5,6,37; vibrios Q7,9,10; Campylobacter/Helicobacter
+Q12,14,15,16; anaerobes Q17,18,19,21; Leptospira Q20; Coxiella Q23; normal flora Q35,36; milk-borne Q39),
+systemic virology (hepatitis Q24,25,26,27,28; gastroenteritis viruses Q31,33; yellow-fever vaccine Q30)
+and mycology (Candida Q34).
+
+**Concepts: 33 minted, 0 reused** (each a distinct atomic fact; corpus-wide + `docs/import-ready`
+collision-checked on both the 14-hex ID and the canonical key — no collisions). 24 bacteriology on
+**DIS-MIC-T01**, 8 virology on **DIS-MIC-T02**, 1 mycology on **DIS-MIC-T03**. Two new articles created —
+`ART-INF-309-MICRO-GI-BACTERIA` (24 concepts) and `ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY` (8) — and
+Candida added to the existing `ART-INF-309-MICRO-MYCOLOGY`. Resource record + y3 manifest row registered
+(count 10→11). All records `publication_status=needs_evidence` / `status=Draft`.
+
+**6 HELD** (never authored to a wrong or ill-formed fact): **Q8** (Cholera toxin — ambiguous: both
+"is an enterotoxin" and "secreted by lysogenic strains only" are defensibly true, since cholera toxin is
+CTXφ-phage-encoded); **Q11** (stem's clinical vignette is missing from the scan — cannot verify the
+organism); **Q13, Q29, Q32** (True-or-False / multi-true statements — outside the single-best contract);
+**Q22** (Coxiella transmission — the main human route is inhalation of aerosols, which is not among the
+offered options, leaving milk-ingestion vs tick-bite ambiguous). **Dedupe = 100% fresh** vs the prior
+66-item Extra-PY set and the 188 parasitology items — 0 overlap (grep-checked all 33 canonical keys and
+IDs against the whole corpus).
+
+Gates (`.gates/`): **batch** question items=71 errors=0; concept items=70 errors=0; article items=7
+errors=0 (each with `--with` siblings). simulate/audit skipped (slow, optional). Q12 stem was made
+self-contained (names Campylobacter jejuni) since the source's "this organism" referred to Q11's missing
+vignette; the isolation fact (42C/microaerophilic/Skirrow) is unambiguous.
+
+### Next cluster
+
+`Micro MCQ [GIT].pdf` is EXHAUSTED (33/39 authored; the 6 held are genuinely out-of-contract, not skipped
+for dedupe). Remaining 309-INF microbiology work: **`Micro MCQ by Dr.Hesham [GIT].pdf`**
+(`src_9674f8d0915e919d4c44`, 5 MB — the third named bank; ignore its student self-marks and re-reason),
+deduped against the now-99-item micro+immunity set (38 Extra-PY micro + 28 Extra-PY immunity + 33 this
+bank); then the Extra-PY section C Matching items if a future pass converts them to single-best.
