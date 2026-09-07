@@ -1,10 +1,13 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { ArrowRight, Globe, Menu, X } from 'lucide-react'
+import { ArrowRight, ChevronDown, Coffee, Globe, LightbulbOff, Menu, Moon, Sun, X, type LucideIcon } from 'lucide-react'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Icon } from '@/components/ui/Icon'
 import { ThemeSwitch } from '@/components/shell/ThemeSwitch'
+import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
+import { useTheme, type Theme } from '@/lib/useTheme'
 import { useLocalPreference } from '@/lib/useLocalPreference'
+import { cn } from '@/lib/cn'
 import { pricingFor } from './pricingContent'
 import { nishanyCopy } from './nishanyContent'
 import type { LandingContent } from './content'
@@ -30,6 +33,78 @@ import type { LandingContent } from './content'
  * the person who opened it would see different pages — and split what search
  * engines index. So this is a strip, dismissible, remembered per device.
  */
+const THEME_GLYPH: Record<Theme, LucideIcon> = { light: Sun, warm: Coffee, dark: Moon, oled: LightbulbOff }
+
+/**
+ * Appearance and language as ONE compact menu, not controls strung across the
+ * bar: a single button showing the current theme, opening a popover that holds
+ * the full ThemeSwitch and a two-way language switch in the same panel. Keeps
+ * the bar uncluttered while every theme and both languages stay one click away.
+ */
+function PreferencesMenu({
+  lang, homeHref, otherHref, appearanceLabel, languageLabel,
+}: {
+  lang: 'ar' | 'en'
+  homeHref: string
+  otherHref: string
+  appearanceLabel: string
+  languageLabel: string
+}) {
+  const { theme } = useTheme()
+  const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
+  const languages: ['ar' | 'en', string][] = [['en', 'English'], ['ar', 'العربية']]
+  return (
+    <>
+      <button
+        ref={setAnchor}
+        type="button"
+        onClick={() => setOpen((value) => !value)}
+        aria-haspopup="dialog"
+        aria-expanded={open}
+        aria-label={`${appearanceLabel} · ${languageLabel}`}
+        className="inline-flex h-9 items-center gap-1.5 rounded-lg border border-line bg-surface-2 px-2 text-ink-3 transition-colors hover:bg-inset hover:text-ink lg:h-8"
+      >
+        <Icon icon={THEME_GLYPH[theme]} size={16} />
+        <span className="h-3.5 w-px bg-line-2" aria-hidden />
+        <Icon icon={Globe} size={15} />
+        <Icon icon={ChevronDown} size={12} className={cn('-ms-0.5 transition-transform', open && 'rotate-180')} />
+      </button>
+      {open && (
+        <Popover anchor={anchor} onClose={close} placement="bottom-end" label={`${appearanceLabel} · ${languageLabel}`} className="w-56 p-3">
+          <div className="space-y-3">
+            <div>
+              <p className="mb-1.5 px-0.5 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{appearanceLabel}</p>
+              <ThemeSwitch className="flex w-full" />
+            </div>
+            <div>
+              <p className="mb-1.5 px-0.5 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{languageLabel}</p>
+              <div className="grid grid-cols-2 gap-1">
+                {languages.map(([code, name]) => {
+                  const active = lang === code
+                  return (
+                    <Link
+                      key={code}
+                      to={active ? homeHref : otherHref}
+                      lang={code}
+                      onClick={close}
+                      className={cn(
+                        'flex min-h-9 items-center justify-center rounded-md border text-[13px] font-semibold transition-colors',
+                        active ? 'border-primary-line bg-primary-tint text-primary-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset hover:text-ink',
+                      )}
+                    >
+                      {name}
+                    </Link>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
+        </Popover>
+      )}
+    </>
+  )
+}
+
 function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: string }) {
   const [dismissed, setDismissed] = useLocalPreference('nishany.landing.langOffer.dismissed', false)
   const [prefersOther, setPrefersOther] = useState(false)
@@ -96,6 +171,17 @@ export function MarketingShell({
   const [menuOpen, setMenuOpen] = useState(false)
   const anchor = (id: string) => `${toHome}#${id}`
 
+  // The floating bar condenses once the page leaves the very top. A plain
+  // passive scroll listener toggling one boolean — no smooth-scroll hijack, so
+  // wheel and trackpad speed are never throttled.
+  const [scrolled, setScrolled] = useState(false)
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 6)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
   useEffect(() => {
     const el = document.documentElement
     el.dir = c.dir
@@ -110,72 +196,93 @@ export function MarketingShell({
     <div className="min-h-dvh overflow-x-clip" dir={c.dir} lang={c.lang}>
       <OtherLanguageOffer c={c} otherHref={toOtherAtPlace} />
 
-      <header className="sticky top-0 z-30 border-b border-line bg-paper">
-        <div className="mx-auto flex min-h-[68px] max-w-[1160px] items-center justify-between gap-3 px-5 sm:px-8">
-          <Link to={toHome} aria-label="Nishany home" className="shrink-0">
-            <span className="hidden sm:inline-flex"><Wordmark textSize={18} /></span>
-            <span className="inline-flex sm:hidden"><Wordmark collapsed /></span>
-          </Link>
+      {/* Floating capsule bar. A paper scrim fills the gap above it so content
+          scrolling underneath never peeks through; the capsule itself rides on
+          the page and tightens as you scroll. */}
+      <header className="sticky top-0 z-30">
+        <div
+          className="px-3 pb-3 pt-3 sm:px-5 sm:pt-4"
+          style={{ background: 'linear-gradient(to bottom, var(--color-paper) 55%, transparent)' }}
+        >
+          <div
+            className={cn(
+              'relative mx-auto max-w-[1180px] overflow-hidden rounded-[20px] border transition-[background-color,border-color,box-shadow] duration-300 ease-out',
+              scrolled || menuOpen ? 'border-line bg-surface shadow-pop' : 'border-transparent bg-transparent shadow-none',
+            )}
+          >
+            <div className="flex min-h-[62px] items-center justify-between gap-3 px-3.5 sm:px-4">
+              <Link to={toHome} aria-label="Nishany home" className="shrink-0">
+                <span className="hidden sm:inline-flex"><Wordmark textSize={18} /></span>
+                <span className="inline-flex sm:hidden"><Wordmark collapsed /></span>
+              </Link>
 
-          <nav aria-label={c.lang === 'ar' ? 'التنقل الرئيسي' : 'Primary navigation'} className="hidden items-center gap-5 lg:flex">
-            <Link to={anchor('why-nishany')} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.why}</Link>
-            <Link to={pricing.path} className="text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">{pricing.navLabel}</Link>
-          </nav>
+              <nav aria-label={c.lang === 'ar' ? 'التنقل الرئيسي' : 'Primary navigation'} className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-8 lg:flex">
+                <Link to={anchor('why-nishany')} className="text-[13px] font-medium text-ink-2 transition-colors hover:text-ink">{m.nav.why}</Link>
+                <Link to={pricing.path} className="text-[13px] font-medium text-ink-2 transition-colors hover:text-ink">{pricing.navLabel}</Link>
+              </nav>
 
-          <div className="hidden items-center gap-3 lg:flex">
-            <ThemeSwitch />
-            <Link
-              to={toOtherAtPlace}
-              lang={c.lang === 'ar' ? 'en' : 'ar'}
-              className="inline-flex min-h-10 items-center gap-1.5 text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink"
-            >
-              <Icon icon={Globe} size={15} />
-              {c.otherLabel}
-            </Link>
-            <Link to="/login" className="inline-flex min-h-10 items-center text-[12.5px] font-medium text-ink-2 transition-colors hover:text-ink">
-              {c.signIn}
-            </Link>
-            <Link
-              to="/signup?plan=maristana&period=term"
-              className="inline-flex min-h-10 items-center gap-1.5 rounded-lg bg-primary px-3.5 text-[12.5px] font-semibold text-on-primary shadow-action transition-colors hover:bg-primary-hover"
-            >
-              {m.nav.start}
-              <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" />
-            </Link>
-          </div>
+              <div className="hidden items-center gap-4 lg:flex">
+                {/* appearance + language, in one quiet menu */}
+                <PreferencesMenu
+                  lang={c.lang}
+                  homeHref={toHome}
+                  otherHref={toOtherAtPlace}
+                  appearanceLabel={c.lang === 'ar' ? 'المظهر' : 'Appearance'}
+                  languageLabel={c.lang === 'ar' ? 'اللغة' : 'Language'}
+                />
+                {/* auth actions, set clearly apart — Sign in as its own button beside the CTA */}
+                <div className="flex items-center gap-2">
+                  <Link to="/login" className="inline-flex min-h-10 items-center rounded-xl border border-line-2 bg-surface px-4 text-[13px] font-semibold text-ink shadow-control transition-colors hover:bg-inset">{c.signIn}</Link>
+                  <Link
+                    to="/signup?plan=maristana&period=term"
+                    className="inline-flex min-h-10 items-center gap-1.5 rounded-xl bg-primary px-4 text-[13px] font-semibold text-on-primary shadow-action transition-colors hover:bg-primary-hover"
+                  >
+                    {m.nav.start}
+                    <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" />
+                  </Link>
+                </div>
+              </div>
 
-          <div className="flex items-center gap-2 lg:hidden">
-            <ThemeSwitch />
-            <button
-              type="button"
-              aria-expanded={menuOpen}
-              aria-controls="marketing-mobile-menu"
-              aria-label={menuOpen ? m.nav.close : m.nav.menu}
-              onClick={() => setMenuOpen((value) => !value)}
-              className="grid size-11 shrink-0 place-items-center rounded-lg border border-line bg-surface text-ink-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
-            >
-              <Icon icon={menuOpen ? X : Menu} size={19} />
-            </button>
+              <div className="flex items-center gap-2 lg:hidden">
+                <PreferencesMenu
+                  lang={c.lang}
+                  homeHref={toHome}
+                  otherHref={toOtherAtPlace}
+                  appearanceLabel={c.lang === 'ar' ? 'المظهر' : 'Appearance'}
+                  languageLabel={c.lang === 'ar' ? 'اللغة' : 'Language'}
+                />
+                <button
+                  type="button"
+                  aria-expanded={menuOpen}
+                  aria-controls="marketing-mobile-menu"
+                  aria-label={menuOpen ? m.nav.close : m.nav.menu}
+                  onClick={() => setMenuOpen((value) => !value)}
+                  className="grid size-11 shrink-0 place-items-center rounded-lg border border-line bg-surface text-ink-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                >
+                  <Icon icon={menuOpen ? X : Menu} size={19} />
+                </button>
+              </div>
+            </div>
+
+            {menuOpen && (
+              <div id="marketing-mobile-menu" className="border-t border-line px-3.5 py-4 sm:px-4 lg:hidden">
+                <nav aria-label={c.lang === 'ar' ? 'قائمة الهاتف' : 'Mobile navigation'} className="grid gap-1">
+                  {[
+                    [anchor('why-nishany'), m.nav.why],
+                    [pricing.path, pricing.navLabel],
+                  ].map(([href, label]) => (
+                    <Link key={href} to={href} onClick={() => setMenuOpen(false)} className="flex min-h-11 items-center border-b border-line text-[13px] font-semibold text-ink-2 last:border-b-0">{label}</Link>
+                  ))}
+                  <div className="mt-3 grid grid-cols-2 gap-2">
+                    <Link to={toOtherAtPlace} onClick={() => setMenuOpen(false)} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-line-2 bg-surface text-[12.5px] font-semibold text-ink"><Icon icon={Globe} size={15} />{c.otherLabel}</Link>
+                    <Link to="/login" onClick={() => setMenuOpen(false)} className="inline-flex min-h-11 items-center justify-center rounded-lg border border-line-2 bg-surface text-[12.5px] font-semibold text-ink">{c.signIn}</Link>
+                  </div>
+                  <Link to="/signup?plan=maristana&period=term" onClick={() => setMenuOpen(false)} className="mt-2 inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-primary px-4 text-[13px] font-semibold text-on-primary shadow-action">{m.nav.start}<Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" /></Link>
+                </nav>
+              </div>
+            )}
           </div>
         </div>
-
-        {menuOpen && (
-          <div id="marketing-mobile-menu" className="border-t border-line bg-paper px-5 py-4 sm:px-8 lg:hidden">
-            <nav aria-label={c.lang === 'ar' ? 'قائمة الهاتف' : 'Mobile navigation'} className="mx-auto grid max-w-[1160px] gap-1">
-              {[
-                [anchor('why-nishany'), m.nav.why],
-                [pricing.path, pricing.navLabel],
-              ].map(([href, label]) => (
-                <Link key={href} to={href} onClick={() => setMenuOpen(false)} className="flex min-h-11 items-center border-b border-line text-[13px] font-semibold text-ink-2 last:border-b-0">{label}</Link>
-              ))}
-              <div className="mt-3 grid grid-cols-2 gap-2">
-                <Link to={toOtherAtPlace} onClick={() => setMenuOpen(false)} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-line-2 bg-surface text-[12.5px] font-semibold text-ink"><Icon icon={Globe} size={15} />{c.otherLabel}</Link>
-                <Link to="/login" onClick={() => setMenuOpen(false)} className="inline-flex min-h-11 items-center justify-center rounded-lg border border-line-2 bg-surface text-[12.5px] font-semibold text-ink">{c.signIn}</Link>
-              </div>
-              <Link to="/signup?plan=maristana&period=term" onClick={() => setMenuOpen(false)} className="mt-2 inline-flex min-h-11 items-center justify-center gap-2 rounded-lg bg-primary px-4 text-[13px] font-semibold text-on-primary shadow-action">{m.nav.start}<Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" /></Link>
-            </nav>
-          </div>
-        )}
       </header>
 
       <main className="mx-auto max-w-[1160px] px-5 sm:px-8">{children}</main>

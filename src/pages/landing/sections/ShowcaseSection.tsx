@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { useLayoutEffect, useRef, useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import {
   AlarmClock, ArrowLeft, ArrowRight, BatteryFull, BookOpen, CalendarDays, CalendarRange,
@@ -21,11 +21,37 @@ import { TRIAL_PATH, useRevealOnScroll } from './shared'
 
 /* ------------------------------------------------------------------ device frames */
 
+/**
+ * A screen whose content is authored at a fixed design size (dw × dh) and then
+ * scaled to whatever width the frame actually gets, so the laptop dashboard
+ * shows in full at every width instead of clipping on a narrow phone. Uses a
+ * measured transform (ResizeObserver) rather than container-query units, which
+ * the iOS 15.4 Safari floor does not support.
+ */
+function ScaledScreen({ dw, dh, className, children }: { dw: number; dh: number; className?: string; children: ReactNode }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const [scale, setScale] = useState(0)
+  useLayoutEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const update = () => setScale(el.clientWidth / dw)
+    update()
+    const ro = new ResizeObserver(update)
+    ro.observe(el)
+    return () => ro.disconnect()
+  }, [dw])
+  return (
+    <div ref={ref} className={cn('overflow-hidden', className)} style={{ aspectRatio: `${dw} / ${dh}` }}>
+      <div style={{ width: dw, height: dh, transform: `scale(${scale})`, transformOrigin: 'top left' }}>{children}</div>
+    </div>
+  )
+}
+
 function LaptopFrame({ children, className }: { children: ReactNode; className?: string }) {
   return (
     <div className={cn('w-full max-w-[560px]', className)}>
       <div className="rounded-t-[14px] border-[7px] border-b-0 border-[#2b2f38] bg-[#2b2f38] shadow-pop">
-        <div className="aspect-[16/10] overflow-hidden rounded-[5px] bg-paper">{children}</div>
+        <ScaledScreen dw={600} dh={375} className="rounded-[5px] bg-paper">{children}</ScaledScreen>
       </div>
       {/* base / hinge */}
       <div className="relative mx-auto h-[10px] w-[112%] -translate-x-[5.35%] rounded-b-[10px] bg-[#2b2f38]">
@@ -112,6 +138,9 @@ function RingStackMini() {
 
 /* ------------------------------------------------------------------ 1 · dashboard (laptop) */
 
+// A plausible answers-per-day pattern for the study-rhythm heatmap (0–5 = scale steps).
+const HEAT = [0, 1, 2, 0, 3, 1, 4, 2, 5, 3, 1, 0, 2, 4, 3, 5, 2, 1, 3, 0, 4, 2, 3, 1, 5, 4, 2, 0, 1, 3, 2, 4, 5, 1, 0, 3, 2, 5, 4, 1, 2, 0, 3, 4, 2, 1, 5, 3, 0, 2, 4, 3, 1, 5, 2, 0, 3, 4, 1, 2]
+
 const NAV_GROUPS: { label?: string; items: [LucideIcon, string][] }[] = [
   { items: [[LayoutDashboard, 'Dashboard']] },
   { label: 'Study', items: [[CalendarRange, 'Plan'], [BookOpen, 'Learn']] },
@@ -194,6 +223,19 @@ function DashboardScreen() {
                 <span className="text-[6.5px] text-ink-3">{detail}</span>
                 <span className="w-6 text-right font-mono text-[8.5px] font-semibold text-ink tnum">{pct}</span>
               </div>
+            ))}
+          </div>
+        </div>
+
+        {/* study rhythm heatmap */}
+        <div className="rounded-xl border border-line bg-surface p-2.5 shadow-panel">
+          <div className="flex items-center justify-between">
+            <p className="text-[8.5px] font-bold text-ink">Study rhythm</p>
+            <span className="rounded-full border border-primary-line bg-primary-tint px-1.5 py-[1px] text-[7px] font-semibold text-primary-strong">312 answered · 12-day streak</span>
+          </div>
+          <div className="mt-1.5 grid grid-flow-col grid-rows-7 gap-[2px]" aria-hidden>
+            {Array.from({ length: 17 * 7 }).map((_, i) => (
+              <span key={i} className="size-[5px] rounded-[1px]" style={{ background: `var(--color-scale-${HEAT[i % HEAT.length]})` }} />
             ))}
           </div>
         </div>
