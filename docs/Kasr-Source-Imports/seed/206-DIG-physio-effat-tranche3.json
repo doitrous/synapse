@@ -1,0 +1,101 @@
+{
+  "lane": "KASR-206DIG",
+  "cluster": "physio-effat-t3",
+  "header": "KASR-206DIG · Physiology department MCQ bank 'Physio Extra MCQ by Dr Effat' tranche 3 (bank Q23,Q24,Q25 — 3 authored, completing the prose single-best items of the keyed first block) — native-text, KEYED (answers from the bank's Answers section). sourceId src_7b173a573b072b0b0702. Vagal control of primary (not secondary) oesophageal peristalsis, PPI as the only agent that virtually eliminates gastric-phase acid (REUSES CON-GIT-088D522398579E), and Helicobacter pylori as the agent that both damages the mucosal barrier and stimulates acid. 2 new gi concepts under DIS-PHY-T05, collision-checked. This closes the prose single-best items of the first block; the matrix/grid statement-set items (Q5,Q6,Q10-Q13,Q15-Q18,Q22) remain held.",
+  "defaults": {
+    "subject": "gi",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "206 DIG",
+    "module_subject": "206 DIG > Physiology",
+    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-GIT-206DIG-PHYSIO-EFFAT"],
+    "resource_ids": ["src_7b173a573b072b0b0702"],
+    "source_citation": "Kasr Al Ainy 206 DIG Physiology Dpt MCQ bank (Physio Extra MCQ by Dr Effat), {page}",
+    "setting": "Academic",
+    "topic": "Physiology",
+    "difficulty": "Moderate",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q23", "id": "QST-KASR206DIG-PHYSIOEFFAT-23", "page": "Q23",
+      "title": "Function lost when all vagal output to the gut is eliminated",
+      "question": "A stroke completely eliminates all vagal output to the gastrointestinal tract. Which function is most likely to be totally eliminated?",
+      "options": {
+        "A": "Gastrin release",
+        "B": "Pancreatic bicarbonate secretion",
+        "C": "Primary oesophageal peristalsis",
+        "D": "Secondary oesophageal peristalsis"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Gastrin release can still be driven by luminal peptides acting directly on antral G cells and by local reflexes, so it is not totally eliminated.",
+        "B": "Incorrect. Pancreatic bicarbonate secretion is driven largely by secretin released in response to duodenal acid, a hormonal pathway independent of the vagus.",
+        "C": "Correct. The vagus directly innervates the striated muscle of the pharynx and upper oesophagus and coordinates swallowing and primary oesophageal peristalsis. Losing all vagal output abolishes this centrally programmed primary peristalsis. It is therefore the function most completely eliminated.",
+        "D": "Incorrect. Secondary oesophageal peristalsis is a local stretch reflex triggered by a retained bolus and can occur through the enteric nervous system without vagal input, so it persists."
+      },
+      "field_notes": { "keySource": "source answer key (Dr Effat bank Answers section) with rationale" },
+      "main_concept": "CON-GIT-2F42F38D1CE58F",
+      "concept_ids": ["CON-GIT-2F42F38D1CE58F"],
+      "module_subject": "206 DIG > Physiology > GI motility",
+      "subtopic": "Oesophageal peristalsis",
+      "learning_objective": "State that the vagus coordinates primary oesophageal peristalsis, whereas secondary peristalsis is a local reflex that survives vagotomy."
+    },
+    {
+      "key": "q24", "id": "QST-KASR206DIG-PHYSIOEFFAT-24", "page": "Q24",
+      "title": "Agent that virtually eliminates gastric-phase acid secretion",
+      "question": "The gastric phase accounts for about 60 percent of the acid response to a meal. Which substance can virtually eliminate acid secretion during the gastric phase?",
+      "options": {
+        "A": "Antigastrin antibodies",
+        "B": "Atropine",
+        "C": "Histamine H2 blocker",
+        "D": "Proton pump inhibitor"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Blocking gastrin removes only one stimulatory pathway; histamine- and acetylcholine-driven acid secretion continues.",
+        "B": "Incorrect. Atropine blocks the muscarinic (vagal) pathway but not the histamine and gastrin pathways, so acid secretion is reduced, not eliminated.",
+        "C": "Incorrect. An H2 blocker removes the histamine pathway but leaves acetylcholine- and gastrin-driven secretion, so acid output is only lowered.",
+        "D": "Correct. A proton pump inhibitor blocks the parietal-cell H+/K+ ATPase, the final common step of acid secretion. Because every stimulatory pathway ultimately works through this pump, inhibiting it can virtually eliminate acid secretion. The other agents block only one upstream pathway each and cannot abolish secretion."
+      },
+      "field_notes": { "keySource": "source answer key (Dr Effat bank Answers section) with rationale" },
+      "main_concept": "CON-GIT-088D522398579E",
+      "concept_ids": ["CON-GIT-088D522398579E"],
+      "module_subject": "206 DIG > Physiology > Gastric secretion",
+      "subtopic": "Proton pump inhibitors",
+      "learning_objective": "Explain that a proton pump inhibitor blocks the final common H+/K+ ATPase step, so it can virtually eliminate gastric acid secretion where single-pathway blockers cannot."
+    },
+    {
+      "key": "q25", "id": "QST-KASR206DIG-PHYSIOEFFAT-25", "page": "Q25",
+      "title": "Agent that both damages the mucosal barrier and stimulates acid",
+      "question": "Which substance can both damage the gastric mucosal barrier and stimulate gastric acid secretion?",
+      "options": {
+        "A": "Bile salts",
+        "B": "Epidermal growth factor",
+        "C": "Gastrin",
+        "D": "Helicobacter pylori"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Bile salts do damage the mucosal barrier, but they have no clinically significant effect to stimulate gastric acid secretion.",
+        "B": "Incorrect. Epidermal growth factor strengthens and repairs the mucosal barrier rather than damaging it.",
+        "C": "Incorrect. Gastrin stimulates acid secretion, but it strengthens (through its trophic effect) rather than damages the mucosal barrier.",
+        "D": "Correct. Helicobacter pylori produces urease, generating ammonia that is converted to ammonium in the acid environment and damages the surface epithelial cells and the mucosal barrier. It also increases gastric acid secretion, probably by increasing parietal-cell mass. It is therefore the single agent that both damages the barrier and stimulates acid."
+      },
+      "field_notes": { "keySource": "source answer key (Dr Effat bank Answers section) with rationale" },
+      "main_concept": "CON-GIT-9F6FFFE753ED44",
+      "concept_ids": ["CON-GIT-9F6FFFE753ED44"],
+      "module_subject": "206 DIG > Physiology > Gastric secretion",
+      "subtopic": "Helicobacter pylori",
+      "learning_objective": "State that Helicobacter pylori both damages the gastric mucosal barrier (via ammonia) and increases acid secretion."
+    }
+  ]
+}

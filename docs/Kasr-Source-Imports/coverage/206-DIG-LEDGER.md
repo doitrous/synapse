@@ -474,4 +474,17 @@ the gate). Authored in `question/206-DIG-physio-effat-mcq-tranche2.md`,
 `concept/206-DIG-physio-effat-tranche2-concepts.md`, seed `seed/206-DIG-physio-effat-tranche2.json`.
 Still held from this bank: matrix/grid statement-set items Q5,Q6,Q10,Q11,Q12,Q13,Q15,Q16,Q17,Q18,Q22.
 
-206-DIG authored total now: 277 + 3 (physio Effat t1) + 8 (physio Effat t2) = **288 MCQs**.
+physio-effat-tranche-3 (bank Q23,Q24,Q25): 3 authored — vagal control of primary (not secondary)
+oesophageal peristalsis, PPI as the only agent that virtually eliminates gastric-phase acid
+(REUSES the existing PPI concept CON-GIT-088D522398579E), and Helicobacter pylori as the agent
+that both damages the mucosal barrier and stimulates acid. 2 new `CON-GIT-*` concepts
+(collision-checked). Gate-clean (batch 0 errors, with the tranche-3 physiology concept file
+passed for the reused PPI concept). This closes the prose 4-option single-best items of the bank's
+keyed first block: **14 authored** (Q1-Q4, Q7-Q9, Q14, Q19-Q21, Q23-Q25). **11 held** as
+multi-column matrix/grid statement-set items (Q5, Q6, Q10, Q11, Q12, Q13, Q15, Q16, Q17, Q18, Q22):
+each has a single keyed row but its options are tuples of Yes/No/Stimulate/Inhibit across 3-6
+columns, which do not render as clean single-best options. NOT YET AUTHORED: the bank's second
+block from page 8 onward (Pretest-style GI vignettes) — it overlaps the separate Pretest bank
+(src_20cdf9a81be58d2176a1) and should be authored against whichever of the two banks is taken next.
+
+206-DIG authored total now: 277 + 3 (physio Effat t1) + 8 (physio Effat t2) + 3 (physio Effat t3) = **291 MCQs**.
