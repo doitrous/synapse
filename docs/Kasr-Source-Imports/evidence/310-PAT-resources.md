@@ -72,3 +72,37 @@ extracted
 University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
 ## qualification
 Kasr Al Ainy Year 3, module 310 PAT — PHARMACOLOGY subject. Student-authored topic-ordered pharmacology MCQ compilation by Abolmagd (34 pages; index sections: ANS p.2, Ocular Pharma p.9, Muscle p.9, Autacoids p.10, CVS & Renal — Diuretics/Ischemia/Hypertension/Heart Failure/Cardiac Dysrhythmia pp.11-27, Blood p.28). Native text layer (no OCR needed). This bank prints NO answer key; correct answers are expert-determined by medical reasoning and proven in each item's per-option explanations (STATUS=Draft for human review). Authored into 310-PAT as a distinct Pharmacology subject per the module ruling (Omar 2026-09-06).
+
+---
+
+# Item
+## id
+src_904f7485383ef51439fd
+## title
+Pharma GIT MCQ by Abolmagd
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y3
+## source_relative_path
+310 PAT/Pharmacology/Questions & MCQs/PHARMA GITTTTTTT.pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+13
+## sha256
+904f7485383ef51439fd8ccb2b663f7f84fc07a79b115868baae5d29c9b994ba
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy Year 3, module 310 PAT — PHARMACOLOGY subject. Student-authored gastrointestinal pharmacology MCQ compilation by Abolmagd ("previous years", 13 pages; index: Peptic Ulcer Disease p.2, Antiemetics p.6, Purgatives p.10, Ulcerative Colitis p.11). Native text layer with ligature artefacts (OCR-style). This bank prints NO answer key; correct answers are expert-determined by pharmacological reasoning and proven in each item's per-option explanations (STATUS=Draft for human review). Authored into 310-PAT as part of the distinct Pharmacology subject (Omar 2026-09-06).

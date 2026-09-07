@@ -23,7 +23,8 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · CVS Dysrhythmia + mechanisms Q47,69,70,75,76,94,100,102 (pp.21-27) | 8 | 0 | 5 | 0 | 13 |
 | Abolmagd Pharma · Blood — anticoagulant/antiplatelet/fibrinolytic Q8-23 (pp.29-33) | 8 | 1 | 2 | 0 | 11 |
 | Abolmagd Pharma · Blood — antihyperlipidemic Q6,7,15-18,25,26 (pp.30-33) | 8 | 0 | 6 | Lipoprotein physiology Q28-31 (biochem, deferred) | 14 |
-| **Pharmacology subject total** | **117** | **1** | **40** | GI bank (`PHARMA GITTTTTTT.pdf`, ~62 Q); Resp bank (`Pharma RSPPPPP.pdf`, ~39 Q) | — |
+| Abolmagd GIT · Peptic ulcer Q1,3,4,5,7,9,13,14,15,16 (pp.3-4) | 10 | 0 | 7 | Antacids/PPI depth Q17,22,23,31,32 (slice 2) | 17 |
+| **Pharmacology subject total** | **127** | **1** | **47** | GIT peptic-ulcer slice 2 + Antiemetics (Q24-49), Purgatives (Q51-57), Antidiarrhoeals, IBD/variceal (Q38,58,59); then Resp bank | — |
 
 ## Subject opened
 
@@ -183,12 +184,35 @@ Q25) excluded; **Q19 HELD** (two false options — abciximab GP-Ib/IIIa AND dipy
 multi-false, un-keyable). Lipoprotein-physiology Q28-31 deferred (biochemistry, not pharmacology).
 The Abolmagd bank is now essentially exhausted for distinct pharmacology facts.
 
+## GI bank opened + registered (slice 11, Peptic ulcer Q1-16)
+
+Registered a new resource row for the GI bank: `src_904f7485383ef51439fd`
+(sha 904f7485383ef51439fd8ccb2b663f7f84fc07a79b115868baae5d29c9b994ba, 13 pp, "Pharma GIT MCQ
+by Abolmagd") in `evidence/310-PAT-resources.md` — folds in at question-gate time exactly like the
+Abolmagd Pharma source. NOTE: like every Kasr src here, it is NOT in `corpus-source-index.json`
+(that stricter primary-resource gate fails for the existing working sources too); if the live app
+needs it in that index, a registry pass by an authorised session/Omar is required — I am barred
+from running registry. 10 peptic-ulcer concepts minted, 0 reused, all DIS-PHA-T04, new article
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER: CON-PHA-B35B33E4494040 (omeprazole irreversible PPI),
+CON-PHA-C40A9934E32CB5 (carbenoxolone HTN/hypoK), CON-PHA-48CA32F51F59DA (misoprostol PGE1
+NSAID prophylaxis), CON-PHA-4EB67A250328D5 (gentamicin NOT for H. pylori), CON-PHA-89851DFB25FB95
+(triple therapy PPI+amox+clarithro), CON-PHA-05824583213559 (colloidal bismuth bactericidal),
+CON-PHA-1B59CBDB6888FF (aluminium antacid constipation/hypophosphataemia), CON-PHA-F90E6CC72CB893
+(PPI ↓B12), CON-PHA-C7F8EBBF755906 (omeprazole-clopidogrel CYP2C19), CON-PHA-743F4B4E65299A
+(magnesium antacid diarrhoea). Total concepts so far: 93. GI dedupe: Q2/Q10 (omeprazole = Q1),
+Q11 (carbenoxolone = Q3), Q12/Q29/Q40 (misoprostol = Q4), Q30 (aluminium = Q13) excluded as
+duplicate facts. Slice-2 GIT peptic-ulcer queued: Q17 (lansoprazole PPI), Q22 (H2/PPI similarity),
+Q23 (P-CABs vs PPI), Q31/Q32 (mechanism-match & cimetidine CYP inducer vs omeprazole inhibitor).
+
 ## Next
 
-Open the GI bank (`PHARMA GITTTTTTT.pdf`, ~62 Qs) — antiemetics, antacids/PPIs/H2 blockers,
-prokinetics, laxatives, antidiarrhoeals, IBD/H. pylori drugs; likely new nodes stay on DIS-PHA-T04
-with new articles. Then the Respiratory bank (`Pharma RSPPPPP.pdf`, ~39 Qs) — bronchodilators,
-inhaled steroids, antitussives/mucolytics. Dedupe across banks and against all 83 CON-PHA concepts.
+Continue the GI bank: peptic-ulcer slice 2 (Q17,22,23,31,32), then Antiemetics (Q20,24-28,33,
+35,36,37 — 5-HT3/D2/NK1/H1/motion-sickness; heavy repeats Q41-49), Prokinetics (Q34), Purgatives
+(Q18,51-54,56,57), Antidiarrhoeals (Q45,50,55,61), IBD/anti-integrin (Q38,58), variceal/portal
+(Q19,59), amoebic (Q60), anorexigenics (Q62). New articles per topic on DIS-PHA-T04. Then the
+Respiratory bank (`Pharma RSPPPPP.pdf`, sha 2d4e51ad4b4fa7f19ccc..., ~39 Qs) — register
+`src_2d4e51ad4b4fa7f19ccc` the same way, then bronchodilators / inhaled steroids / antitussives.
+Dedupe across banks and against all 93 CON-PHA concepts.
 
 ## (historical) ANS-section next note
 

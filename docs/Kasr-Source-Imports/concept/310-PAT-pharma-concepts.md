@@ -9325,3 +9325,813 @@ KAU_Y3=low
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-B35B33E4494040
+## label
+Omeprazole irreversibly inhibits the gastric H+/K+ ATPase (PPI)
+## canonical_key
+omeprazole.ppi.irreversible-hk-atpase
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Omeprazole is a proton-pump inhibitor. It is a prodrug that accumulates in the acidic secretory canaliculus of the parietal cell, is activated there, and binds the gastric H+/K+ ATPase (proton pump) covalently and IRREVERSIBLY, blocking the final common step of both basal and stimulated acid secretion. Because the block is irreversible, effect duration outlasts the plasma half-life and recovery needs new pump synthesis.
+## explicit_objective
+Identify omeprazole as the PPI that irreversibly inhibits the gastric H+/K+ ATPase.
+## pitfalls
+Ranitidine (H2 blocker) and pirenzepine (M1 blocker) act elsewhere; omeprazole's block is irreversible and acid-activated.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-C40A9934E32CB5
+## label
+Carbenoxolone causes hypertension and hypokalaemia
+## canonical_key
+carbenoxolone.adverse.hypertension-hypokalemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Carbenoxolone is a mucosal protective (glycyrrhetinic acid derivative) that enhances mucus secretion. It has MINERALOCORTICOID-LIKE activity (it inhibits 11-beta-hydroxysteroid dehydrogenase, allowing cortisol to act on renal mineralocorticoid receptors), causing sodium and water retention with potassium loss. The result is HYPERTENSION, oedema and HYPOKALAEMIA, which limits its use.
+## explicit_objective
+Attribute hypertension and hypokalaemia (mineralocorticoid-like effect) to carbenoxolone.
+## pitfalls
+This aldosterone-like effect is specific to carbenoxolone among the mucosal protectives; sucralfate and bismuth act locally without it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-48CA32F51F59DA
+## label
+Misoprostol is a PGE1 analogue for NSAID-induced ulcer prophylaxis
+## canonical_key
+misoprostol.pge1-analogue.nsaid-ulcer-prophylaxis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Misoprostol is a synthetic prostaglandin E1 (PGE1) analogue. NSAIDs cause ulcers by inhibiting protective mucosal prostaglandins; misoprostol replaces them, stimulating mucus and bicarbonate secretion and reducing acid, so it prevents NSAID-induced peptic ulcers. It causes diarrhoea and, importantly, uterine contraction — so it is an abortifacient and contraindicated in pregnancy.
+## explicit_objective
+Identify misoprostol as the PGE1 analogue for NSAID-induced ulcer prophylaxis and note its abortifacient effect.
+## pitfalls
+Misoprostol is contraindicated in pregnancy (causes abortion); it is not an analgesic, antiplatelet or antispasmodic.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-4EB67A250328D5
+## label
+Gentamicin is not used for H. pylori eradication
+## canonical_key
+h-pylori.eradication.antimicrobials-not-gentamicin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Helicobacter pylori eradication uses combinations of amoxicillin, clarithromycin and metronidazole (with tetracycline/bismuth in quadruple therapy), given with a proton-pump inhibitor. Aminoglycosides such as GENTAMICIN are not used: they are not orally absorbed, need oxygen-dependent uptake and are poorly active in acidic gastric mucus against H. pylori.
+## explicit_objective
+Recognise that gentamicin is not part of H. pylori eradication, unlike amoxicillin, clarithromycin and metronidazole.
+## pitfalls
+Aminoglycosides are the exception here; the standard agents are amoxicillin, clarithromycin and metronidazole.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-89851DFB25FB95
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-89851DFB25FB95
+## label
+H. pylori triple therapy: PPI + amoxicillin + clarithromycin
+## canonical_key
+h-pylori.triple-therapy.ppi-amoxicillin-clarithromycin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Standard first-line H. pylori eradication is triple therapy for 10-14 days: a proton-pump inhibitor (e.g. omeprazole) plus TWO antibiotics — amoxicillin and clarithromycin. The PPI suppresses acid (improving antibiotic stability and mucosal healing) while the antibiotics kill the organism. In penicillin allergy, metronidazole replaces amoxicillin; bismuth-based quadruple therapy (adding tetracycline and bismuth) is used for resistance.
+## explicit_objective
+State the standard H. pylori triple therapy: a PPI plus amoxicillin and clarithromycin.
+## pitfalls
+Tetracycline belongs to bismuth quadruple therapy; cephalosporins are not used. The PPI is an essential part of the regimen.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-4EB67A250328D5
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-05824583213559
+## label
+Colloidal bismuth is bactericidal against H. pylori
+## canonical_key
+colloidal-bismuth.bactericidal.h-pylori
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Colloidal bismuth (bismuth subcitrate/subsalicylate) coats the ulcer base and, in addition, is directly BACTERICIDAL against Helicobacter pylori — disrupting its cell wall and inhibiting its enzymes and adhesion — so it is included in bismuth-based quadruple eradication regimens. It can cause black stools and a black tongue and, rarely with prolonged use, neurotoxicity.
+## explicit_objective
+Identify colloidal bismuth as the mucosal protective with bactericidal activity against H. pylori.
+## pitfalls
+Sucralfate and carbenoxolone protect mucosa but are not bactericidal; bismuth's anti-H. pylori action is the distinguishing feature.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-89851DFB25FB95
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-1B59CBDB6888FF
+## label
+Aluminium hydroxide antacid causes constipation and hypophosphataemia
+## canonical_key
+aluminium-hydroxide.antacid.constipation-hypophosphatemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Aluminium hydroxide is a non-absorbable antacid. It slows gastrointestinal motility, causing CONSTIPATION, and binds dietary phosphate in the gut to form insoluble aluminium phosphate, causing HYPOPHOSPHATAEMIA (an effect used therapeutically as a phosphate binder in renal failure). Magnesium and aluminium antacids are often combined to balance their opposite bowel effects.
+## explicit_objective
+Attribute constipation and hypophosphataemia to aluminium hydroxide antacid.
+## pitfalls
+Magnesium antacids cause diarrhoea (opposite bowel effect); calcium can cause constipation but not phosphate binding/hypophosphataemia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-743F4B4E65299A
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F90E6CC72CB893
+## label
+Long-term PPIs reduce vitamin B12 absorption
+## canonical_key
+ppi.adverse.decreased-b12-absorption
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Gastric acid is needed to release vitamin B12 from dietary protein before it can bind intrinsic factor and be absorbed. By profoundly and durably suppressing acid, long-term proton-pump inhibitors reduce B12 (and also non-haem iron, calcium and magnesium) absorption. Other PPI concerns include enteric infections, hypomagnesaemia and rebound acid hypersecretion on withdrawal.
+## explicit_objective
+Explain that long-term PPI use reduces vitamin B12 (and other acid-dependent nutrient) absorption.
+## pitfalls
+The classic listed effect is reduced B12 absorption; PPIs typically cause diarrhoea rather than constipation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-B35B33E4494040
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-C7F8EBBF755906
+## label
+Omeprazole reduces clopidogrel activation via CYP2C19 inhibition
+## canonical_key
+omeprazole.clopidogrel-interaction.cyp2c19
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clopidogrel is a prodrug activated by hepatic CYP2C19 to its active antiplatelet metabolite. Omeprazole (and esomeprazole) inhibits CYP2C19, reducing clopidogrel activation and potentially blunting its antiplatelet effect. When a PPI is needed with clopidogrel, an agent with little CYP2C19 inhibition (pantoprazole or rabeprazole) is preferred; H2 blockers such as famotidine also avoid the interaction.
+## explicit_objective
+Explain the omeprazole-clopidogrel interaction via CYP2C19 inhibition reducing clopidogrel activation.
+## pitfalls
+Rabeprazole and pantoprazole interact least; famotidine (H2 blocker) does not affect CYP2C19.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_concept_ids
+CON-PHA-B35B33E4494040
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-743F4B4E65299A
+## label
+Magnesium antacids cause diarrhoea
+## canonical_key
+magnesium-antacid.adverse.diarrhea
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Magnesium-containing antacids (magnesium hydroxide, trisilicate) are poorly absorbed; the retained magnesium acts osmotically in the gut, drawing in water and causing DIARRHOEA. This is the opposite of the constipation caused by aluminium and calcium antacids, which is why magnesium and aluminium antacids are frequently combined to balance bowel effects. In renal impairment, magnesium can accumulate.
+## explicit_objective
+Recognise that magnesium antacids cause diarrhoea (opposite of aluminium/calcium constipation).
+## pitfalls
+A common trap pairs magnesium with constipation; magnesium causes diarrhoea. Aluminium/calcium cause constipation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-1B59CBDB6888FF
+## resource_ids
+src_904f7485383ef51439fd
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

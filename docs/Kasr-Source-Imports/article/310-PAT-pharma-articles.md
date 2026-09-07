@@ -1145,3 +1145,98 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 8
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-PEPTICULCER
+## title
+Peptic ulcer drugs: PPIs, H2 blockers, antacids, mucosal protectives and H. pylori therapy
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Peptic ulcer therapy reduces acid, protects mucosa and eradicates Helicobacter pylori. Proton-pump inhibitors (omeprazole) irreversibly inhibit the gastric H+/K+ ATPase, the most effective antisecretory agents; long-term use lowers vitamin B12, and omeprazole inhibits CYP2C19, blunting clopidogrel. H2 blockers reversibly antagonise H2 receptors. Antacids differ by cation: aluminium causes constipation and hypophosphataemia, magnesium causes diarrhoea, sodium bicarbonate causes alkalosis and calcium causes milk-alkali syndrome. Mucosal protectives include misoprostol (a PGE1 analogue for NSAID-ulcer prophylaxis, abortifacient), sucralfate, carbenoxolone (mineralocorticoid-like — hypertension and hypokalaemia) and colloidal bismuth (bactericidal against H. pylori). H. pylori eradication uses a PPI with amoxicillin and clarithromycin (triple therapy).
+## sections
+### Definition
+This article groups the peptic-ulcer concepts tested by the GIT peptic-ulcer section (Q1,3,4,5,7,9,13,14,15,16 selected).
+### Mechanism
+PPIs irreversibly block the proton pump; H2 blockers antagonise histamine H2 receptors; antacids neutralise acid; mucosal protectives coat or stimulate mucosal defence; eradication combines acid suppression with antibiotics.
+### Key determinants
+Discriminators tested here: omeprazole = irreversible PPI (B12 loss, clopidogrel interaction); carbenoxolone = hypertension/hypokalaemia; misoprostol = PGE1 for NSAID prophylaxis; colloidal bismuth = anti-H. pylori; aluminium antacid = constipation/hypophosphataemia vs magnesium diarrhoea; triple therapy = PPI + amoxicillin + clarithromycin (not gentamicin).
+### Clinical significance
+These drugs treat peptic ulcer and GORD, prevent NSAID ulcers, and eradicate H. pylori, and their adverse effects and drug interactions (PPI-clopidogrel) guide safe prescribing.
+### Common misconceptions
+Frequent traps: pairing magnesium antacids with constipation, using gentamicin for H. pylori, and forgetting misoprostol's abortifacient risk and the PPI-clopidogrel interaction; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > GIT > Peptic ulcer drugs
+## subtopic
+Peptic ulcer drugs
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-B35B33E4494040
+CON-PHA-C40A9934E32CB5
+CON-PHA-48CA32F51F59DA
+CON-PHA-4EB67A250328D5
+CON-PHA-89851DFB25FB95
+CON-PHA-05824583213559
+CON-PHA-1B59CBDB6888FF
+CON-PHA-F90E6CC72CB893
+CON-PHA-C7F8EBBF755906
+CON-PHA-743F4B4E65299A
+## related_articles
+
+## resource_ids
+src_904f7485383ef51439fd
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The GIT source bank (Pharma GIT MCQ by Abolmagd) prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+8
