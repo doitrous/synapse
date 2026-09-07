@@ -17,8 +17,9 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · Ocular Q1-3 + Muscle Q1,3 (p.10) | 5 | 0 | 1 | 0 (Muscle Q4 CCB→CVS) | 6 |
 | Abolmagd Pharma · CVS & Renal Diuretics Q1-8 + ANS Q24-25 (pp.6,12-13) | 10 | 0 | 2 | 0 | 12 |
 | Abolmagd Pharma · CVS Ischaemia/antianginal Q13-25 (pp.14-15) | 10 | 0 | 4 | 0 | 14 |
-| Abolmagd Pharma · CVS Hypertension Q28-41 sel. (pp.15-17) | 10 | 0 | 0 | Q32,43,46,50,51,53,54 (slice 2) | 10 |
-| **Pharmacology subject total** | **76** | **0** | **14** | CVS Hypertension slice 2 (Q32-54), Heart Failure (p.20), Dysrhythmia (p.22), Blood (p.28); GI & Resp banks | — |
+| Abolmagd Pharma · CVS Hypertension Q28-41 sel. (pp.15-17) | 10 | 0 | 0 | 0 | 10 |
+| Abolmagd Pharma · CVS Hypertension Q32,43,46,50,51,53,54 (pp.15-19) | 7 | 0 | 7 | 0 | 14 |
+| **Pharmacology subject total** | **83** | **0** | **21** | Heart Failure (Q38,39,55,59-67, p.20-23), Dysrhythmia (p.22+), Blood (p.28); GI & Resp banks | — |
 
 ## Subject opened
 
@@ -111,6 +112,19 @@ sacubitril); Q59-64/Q66 (digoxin, inotropes). Deferred to Dysrhythmia: Q47 (amio
 Hypertension (queued): Q32 (DHP reflex tachy — reuse CON-PHA-67B120723BD96A/8123D3DB466182),
 Q43 (nitrate+PDE5i CI), Q46 (ACEi ↓aldosterone), Q50 (β-blocker CI asthma), Q51 (β-blocker ↓CO),
 Q53 (diazoxide hyperglycaemia), Q54 (ARB spares cough).
+
+## Concepts minted (slice 6, CVS Hypertension slice 2 Q32-54)
+
+7 minted, 0 reused, all DIS-PHA-T04, article HYPERTENSION: CON-PHA-67B120723BD96A (DHP reflex
+tachycardia), CON-PHA-790B3A0071A05F (nitrate+PDE5i contraindication), CON-PHA-1EE0275F39EBD8
+(ACEi ↓aldosterone mechanism), CON-PHA-10DB3B9A7A959B (non-selective β-blocker CI in asthma),
+CON-PHA-696705A20692BF (β-blocker ↓cardiac output), CON-PHA-D1DF520B79881F (diazoxide
+hyperglycaemia), CON-PHA-21AB2D0DC3E866 (ARB spares cough). Total concepts so far: 49.
+Excluded this slice (dupe facts already authored or trivial re-statements): Q45/Q56/Q63/Q65
+(sacubitril/neprilysin — deferred to Heart Failure, authored once there), Q47 (amiodarone —
+deferred to Dysrhythmia), Q48/Q52/Q57 (methyldopa/amiodarone re-statements). Hypertension section
+Q28-58 now fully triaged: 17 authored, 10 excluded/deferred within-section, HF/dysrhythmia items
+routed onward.
 
 ## Next
 

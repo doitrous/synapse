@@ -6004,3 +6004,570 @@ KAU_Y3=high
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-67B120723BD96A
+## label
+Dihydropyridine CCBs cause reflex tachycardia
+## canonical_key
+dihydropyridine-ccb.adverse.reflex-tachycardia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dihydropyridine calcium channel blockers (nifedipine, amlodipine) are potent arteriolar vasodilators with little direct cardiac depressant effect. The fall in blood pressure triggers a baroreceptor-mediated increase in sympathetic tone, producing REFLEX TACHYCARDIA and palpitations, most marked with short-acting nifedipine. This contrasts with non-dihydropyridines (verapamil, diltiazem), which slow the heart.
+## explicit_objective
+Identify reflex tachycardia as a characteristic adverse effect of dihydropyridine calcium channel blockers.
+## pitfalls
+Do not expect bradycardia from a dihydropyridine; rate slowing is a feature of verapamil and diltiazem, not nifedipine.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-8123D3DB466182
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-790B3A0071A05F
+## label
+Nitrates are contraindicated with PDE5 inhibitors
+## canonical_key
+organic-nitrate.contraindication.pde5-inhibitor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Organic nitrates donate nitric oxide, which raises smooth-muscle cGMP to cause vasodilation. Phosphodiesterase-5 inhibitors (sildenafil, tadalafil, vardenafil) block cGMP breakdown. Used together they cause additive, sustained cGMP elevation and profound, potentially fatal hypotension. Concurrent PDE5-inhibitor use is therefore an absolute contraindication to nitrates (and vice versa), with a washout interval required before switching.
+## explicit_objective
+Recognise concurrent PDE5-inhibitor use as the contraindication to nitrates because of severe hypotension.
+## pitfalls
+The danger is the drug interaction, not the anginal subtype; nitrates themselves are used in variant angina, heart failure and acute MI.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-1EE0275F39EBD8
+## label
+ACE inhibitors lower blood pressure by decreasing aldosterone
+## canonical_key
+acei.mechanism.decreased-aldosterone
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+ACE inhibitors block conversion of angiotensin I to angiotensin II. The resulting fall in angiotensin II reduces direct arteriolar vasoconstriction and, importantly, reduces adrenal aldosterone secretion. Less aldosterone means less renal sodium and water retention, lowering blood volume and blood pressure. Decreased aldosterone (and reduced angiotensin II vasoconstriction, plus bradykinin-mediated vasodilation) are the antihypertensive mechanisms.
+## explicit_objective
+State that decreasing aldosterone secretion is one antihypertensive mechanism of ACE inhibitors and distinguish it from AT1 blockade.
+## pitfalls
+Blocking angiotensin II type 1 receptors is the ARB mechanism, not the ACE-inhibitor mechanism, which acts upstream by reducing angiotensin II formation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-21AB2D0DC3E866
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-10DB3B9A7A959B
+## label
+Non-selective beta blockers are contraindicated in bronchial asthma
+## canonical_key
+nonselective-beta-blocker.contraindication.bronchial-asthma
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bronchial smooth muscle relaxes through beta-2 adrenergic receptors. Non-selective beta blockers (propranolol, nadolol, timolol) block beta-2 as well as beta-1, removing sympathetic bronchodilation and precipitating bronchospasm. In asthmatics this can trigger a severe or fatal attack, so non-selective beta blockers are contraindicated; a cardioselective (beta-1) agent is used with caution when a beta blocker is unavoidable.
+## explicit_objective
+Recognise bronchial asthma as the contraindication to non-selective beta blockers because of beta-2-mediated bronchospasm.
+## pitfalls
+Cardioselectivity is relative and lost at higher doses; even beta-1-selective agents are used cautiously in significant airway disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-696705A20692BF
+## label
+Beta blockers lower blood pressure by reducing cardiac output
+## canonical_key
+beta-blocker.hypertension.decreased-cardiac-output
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In hypertension, beta blockers act mainly by beta-1 blockade of the heart: reduced heart rate and contractility lower CARDIAC OUTPUT and therefore blood pressure. They also reduce renin release from juxtaglomerular cells (lowering angiotensin II and aldosterone) and reduce central sympathetic outflow, but the principal haemodynamic mechanism is decreased cardiac output.
+## explicit_objective
+State that beta blockers lower blood pressure chiefly by reducing cardiac output (with reduced renin release as a secondary mechanism).
+## pitfalls
+Beta blockers DECREASE, not increase, renin release; they do not act by peripheral vasodilatation or imidazoline-receptor stimulation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-D1DF520B79881F
+## label
+Diazoxide causes hyperglycaemia
+## canonical_key
+diazoxide.adverse.hyperglycemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Diazoxide is an arteriolar vasodilator that opens ATP-sensitive potassium channels. In pancreatic beta cells this hyperpolarisation inhibits insulin secretion, so diazoxide raises blood glucose (HYPERglycaemia) — an effect exploited therapeutically to treat hypoglycaemia from insulinoma. It also causes salt and water retention. Its adverse-effect profile is therefore hyperglycaemia, the opposite of hypoglycaemia.
+## explicit_objective
+State that diazoxide causes hyperglycaemia (via inhibition of insulin release), not hypoglycaemia.
+## pitfalls
+A common trap pairs diazoxide with hypoglycaemia; the direction is reversed — diazoxide raises glucose and is used to treat hypoglycaemia.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-21AB2D0DC3E866
+## label
+ARBs spare the ACE-inhibitor cough (no bradykinin rise)
+## canonical_key
+arb.spares-cough.no-bradykinin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The dry cough of ACE inhibitors is caused by accumulation of bradykinin (and substance P), which ACE normally degrades. Angiotensin receptor blockers act downstream at the AT1 receptor and do not affect bradykinin metabolism, so they do NOT typically cause cough. ARBs otherwise share the RAAS-blocking benefits of ACE inhibitors: post-MI remodeling protection, heart-failure progression control and renoprotection in hypertensive diabetics.
+## explicit_objective
+Explain that ARBs spare the ACE-inhibitor cough because they do not raise bradykinin, while other RAAS-blocking benefits are shared.
+## pitfalls
+Cough (and angio-oedema risk) is the key point of difference; do not assume ARBs share the bradykinin-mediated effects of ACE inhibitors.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-1EE0275F39EBD8
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
