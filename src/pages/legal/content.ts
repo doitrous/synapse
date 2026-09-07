@@ -254,17 +254,15 @@ const PRIVACY: LegalPageContent = {
   title: 'Privacy Policy',
   documentTitle: 'Privacy Policy · Nishany',
   description: 'What Nishany collects about you, why, who can see it, how long it is kept, and how to get a copy or ask for deletion.',
-  updated: UPDATED,
+  updated: '7 September 2026',
   intro:
     'Nishany holds two things about you: who you are, and what you have studied. This page says what each of those is, why we need it, who else can see it, and what you can ask us to do with it.',
   sections: [
     {
       id: 'controller',
       heading: 'Who is responsible for your data',
-      needsReview: true,
       paragraphs: [
-        '[COMPANY LEGAL NAME], at [REGISTERED ADDRESS], decides how the data described here is used. Data protection questions go to ' + SUPPORT_ADDRESS + '.',
-        'The legal entity, its address and any registration with a data protection authority still have to be confirmed.',
+        'Connect International Academy, at 11 Ahmed Elsawy Street, off Makram Ebeid Street, Nasr City, Cairo, Egypt, decides how the data described here is used and is its controller. Data protection questions go to ' + SUPPORT_ADDRESS + '.',
       ],
     },
     {
@@ -272,6 +270,7 @@ const PRIVACY: LegalPageContent = {
       heading: 'What we collect',
       paragraphs: [
         'Account identity. Your phone number, email address and password are held by Supabase Auth, the sign-in service Nishany uses; the password is stored as a hash and is never visible to us. Alongside that we keep your full name, your field of study, your university, your academic year, an optional profile picture, and whether your account is verified.',
+        'Sign-in with Google or Facebook. If you choose to sign in with Google, Google shares a limited set of your Google account information with us — your name, email address and profile picture — which we use only to create and sign you in to your Nishany account. We ask Google for nothing else: no Gmail, Drive, contacts or calendar access. Signing in with Facebook works the same way. You can instead sign up with a phone number, email and password and use neither.',
         'Learning records. Everything you do in the study surfaces is stored against your verified account id: question attempts and their outcomes, timing, review scheduling, notes, whiteboards, highlights, bookmarks, plans, tasks and uploaded files.',
         'Devices and reminders. Your account is bound to the device you registered on, and we keep that device’s brand, manufacturer and operating-system version for that purpose; these are deleted when you move your account to a new device. If you turn on reminders we also store a push token for the device so a notification can reach it, which is removed when you turn reminders off.',
         'Technical records. Ordinary server logs — request times, IP address, browser and device type — kept for security and for finding faults.',
@@ -297,10 +296,9 @@ const PRIVACY: LegalPageContent = {
     {
       id: 'who-sees',
       heading: 'Who can see it',
-      needsReview: true,
       paragraphs: [
         'By default, only you and the small number of Nishany staff who need access to support and operate the service.',
-        'The Question of the Day leaderboard is not anonymous. Other students in your university and year see your username and your profile icon on it, next to your position, your streak and how many of the daily questions you have answered correctly. There is no setting that takes you off that board today; whether one is added, and whether the board should show a name at all, is [LEADERBOARD OPT-OUT TO CONFIRM].',
+        'The Question of the Day leaderboard is not anonymous. Other students in your university and year see your username and your profile icon on it, next to your position, your streak and how many of the daily questions you have answered correctly. There is no setting that removes you from that board.',
         'Being findable by other students is separate, and it is opt-in: "Let classmates find me" on the Account page is off unless you turn it on, and it is what puts you in the directory of classmates in your university and year. A study room shows what you bring into it, to the people in it.',
         'Scholarship and payment status are private, and never appear in rankings, profiles or study rooms.',
         'We disclose data outside the service only where the law requires it, or to the providers listed below who process it on our behalf.',
@@ -309,20 +307,33 @@ const PRIVACY: LegalPageContent = {
     {
       id: 'processors',
       heading: 'Services we rely on',
-      needsReview: true,
       paragraphs: [
-        'Supabase provides authentication and the database. [HOSTING PROVIDER] hosts the application. [PAYMENT PROCESSOR] handles payments. [EMAIL PROVIDER] delivers transactional email.',
-        'Each of these only processes data in order to provide its part of the service. The named providers, their locations and the agreements with them still need confirming for publication.',
+        'Supabase provides authentication and the database. Hetzner hosts the application. Resend delivers transactional email. Payments are handled by our payment provider, which receives only what it needs to take the payment. When you sign in with Google or Facebook, that provider authenticates you and returns your name, email address and profile picture as described above.',
+        'Each of these only processes data in order to provide its part of the service. None of them receives the account information from your Google or Facebook sign-in except Supabase, which stores it as part of your account.',
+      ],
+    },
+    {
+      id: 'google-user-data',
+      heading: 'Google user data and Limited Use',
+      paragraphs: [
+        'When you sign in with Google, the only Google user data Nishany accesses is your basic profile — your name, email address and profile picture — through Google’s standard sign-in scopes (openid, email and profile). We use it solely to create your account, sign you in, and show your name and picture back to you in the app. We store it as part of your account with Supabase, we do not sell it or share it with anyone else, and we never use it for advertising, to build advertising profiles, or to train generalised artificial-intelligence or machine-learning models.',
+        'Nishany’s use and transfer of information received from Google APIs adheres to the Google API Services User Data Policy, including the Limited Use requirements. To have this Google account information deleted, delete your Nishany account as described below, or write to ' + SUPPORT_ADDRESS + '.',
+      ],
+    },
+    {
+      id: 'security',
+      heading: 'How we protect your data',
+      paragraphs: [
+        'Traffic between your device and Nishany is encrypted in transit with HTTPS/TLS, and data at rest is held in Supabase’s managed, access-controlled database. Your password is never stored in readable form — Supabase Auth keeps only a salted hash of it. Access to production systems is limited to the staff who need it to operate and support the service.',
       ],
     },
     {
       id: 'retention',
       heading: 'How long we keep it',
-      needsReview: true,
       paragraphs: [
         'While your account is open we keep your learning records, because they are what the service is for — removing your attempt history would erase your progress and your review schedule.',
-        'After an account is closed, personal data is deleted within [RETENTION PERIOD — ACCOUNT CLOSURE]. Server logs are kept for [RETENTION PERIOD — LOGS]. Payment and invoice records are kept for [RETENTION PERIOD — FINANCIAL RECORDS] because accounting law requires it.',
-        'Aggregated statistics that can no longer identify you — how a question performs across a cohort — are kept indefinitely. The retention periods above have not been set yet.',
+        'After you close your account, your personal data — including the name, email address and profile picture from Google or Facebook sign-in — is deleted within 30 days. Server logs are kept only briefly for security and troubleshooting and then deleted. Payment and invoice records are kept for as long as Egyptian accounting and tax law requires.',
+        'Aggregated statistics that can no longer identify you — how a question performs across a cohort — are kept indefinitely.',
       ],
     },
     {
@@ -346,19 +357,17 @@ const PRIVACY: LegalPageContent = {
     {
       id: 'children',
       heading: 'Children',
-      needsReview: true,
       paragraphs: [
-        'Nishany is built for university medical students and is not intended for children. The minimum age for an account is [MINIMUM AGE] — a figure that depends on the governing law and is not set yet, and which no check at signup enforces today.',
+        'Nishany is built for university medical students and is not intended for children. The minimum age for an account is 18.',
         'If you believe a child has an account, write to ' + SUPPORT_ADDRESS + ' and we will remove it.',
       ],
     },
     {
       id: 'transfers',
       heading: 'Where your data is stored',
-      needsReview: true,
       paragraphs: [
-        'Data is stored in [DATA REGION], and may be processed by the providers above in other countries where they operate.',
-        'The storage region and the safeguards that apply to any transfer out of it have not been confirmed.',
+        'Nishany serves students in Egypt. The infrastructure that runs it is operated by the providers named above: the application is hosted by Hetzner and the database by Supabase, which store and process your data on servers in the European Union. Google and Facebook process sign-in data on their own global infrastructure.',
+        'Where data is transferred outside your country, it stays protected by this policy and by the agreements we hold with each provider.',
       ],
     },
     {
