@@ -94,7 +94,7 @@ async function supabaseIdentity(token) {
     rank: rank(role),
     // Editors and super admins are never scoped; only a reviewer's writes are
     // confined, and a reviewer with nothing assigned holds nothing.
-    contentScope: rank(role) >= 2 ? null : readContentScope(access.content_scope),
+    contentScope: role === 'reviewer' ? readContentScope(access.content_scope) : null,
     aal: payload.aal === 'aal2' ? 'aal2' : 'aal1',
     // Kept for students and reviewers who asked for a second factor
     // voluntarily. Admin and above are held to aal2 regardless — see
@@ -320,6 +320,18 @@ export async function apiAuthGate(req, res, next) {
   const auth = req.header('authorization') || ''
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : ''
 
+  const continueAs = (identity, via) => {
+    req.identity = identity
+    req.authVia = via
+    // Validators are intentionally not students with one extra screen. This
+    // server-side allowlist prevents a typed API URL from opening the catalogue,
+    // social features, user-state documents or any admin surface.
+    if (identity.role === 'mcq_validator') {
+      if (!validatorApiPathAllowed(req.path)) return res.status(403).json({ error: 'mcq validators may access assigned validation work only' })
+    }
+    return next()
+  }
+
   /**
    * Reading one shared document is answerable either way.
    *
@@ -354,9 +366,7 @@ export async function apiAuthGate(req, res, next) {
     try {
       const identity = await supabaseIdentity(token)
       if (identity) {
-        req.identity = identity
-        req.authVia = 'bearer'
-        return next()
+        return continueAs(identity, 'bearer')
       }
     } catch {
       // Do not disclose signature or account-state details.
@@ -383,13 +393,18 @@ export async function apiAuthGate(req, res, next) {
     }
     const identity = await sessionIdentity(req, res)
     if (identity) {
-      req.identity = identity
-      req.authVia = 'cookie'
-      return next()
+      return continueAs(identity, 'cookie')
     }
   }
 
   return res.status(401).json({ error: 'unauthorized' })
+}
+
+/** The entire authenticated API surface available to the non-editorial role. */
+export function validatorApiPathAllowed(path) {
+  return path === '/api/me'
+    || path === '/api/auth/logout'
+    || path.startsWith('/api/mcq-validator/')
 }
 
 /**

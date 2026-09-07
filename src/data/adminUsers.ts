@@ -11,7 +11,7 @@
 
 export type AccessStatus = 'active' | 'suspended'
 /** Mirrors `STORED_ROLES` plus the super admin the server derives from an email. */
-export type UserRole = 'student' | 'reviewer' | 'admin' | 'editor' | 'super_admin'
+export type UserRole = 'student' | 'mcq_validator' | 'reviewer' | 'admin' | 'editor' | 'super_admin'
 export type EntitlementState = 'none' | 'trialing' | 'active' | 'expired' | 'cancelled'
 
 export interface AdminUserIdentity {

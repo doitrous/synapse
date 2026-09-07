@@ -28,10 +28,11 @@ import { useNoIndex } from '@/lib/pageMeta'
  * Editors, admins and super admins keep student-app access, because previewing
  * what a student sees is part of their work.
  */
-export function RequireAuth({ console: needsConsole, tab, student, children }: {
+export function RequireAuth({ console: needsConsole, tab, student, validator, children }: {
   console?: boolean
   tab?: string
   student?: boolean
+  validator?: boolean
   children: ReactElement
 }) {
   const identity = useIdentity()
@@ -101,10 +102,15 @@ export function RequireAuth({ console: needsConsole, tab, student, children }: {
   // of it is simply not theirs. `/admin` sends them to a page that is.
   if (tab && !identity.tabs.includes(tab)) return <Navigate to="/admin" replace />
 
+  if (validator && identity.role !== 'mcq_validator') {
+    return <Navigate to={hasConsoleAccess(identity.role ?? '') ? '/admin' : '/app'} replace />
+  }
+
   // The student application is closed to reviewers. `/admin` re-resolves through
   // AdminHome to the first surface they hold, i.e. Media Requests — but only if
   // they hold one. A reviewer with no tabs would be pushed to a console that has
   // nothing for them and pushed straight back here, forever.
+  if (student && identity.role === 'mcq_validator') return <Navigate to="/validator" replace />
   if (student && identity.role === 'reviewer' && identity.tabs.length > 0) return <Navigate to="/admin" replace />
 
   // A social sign-up never saw the phone form password sign-up collects

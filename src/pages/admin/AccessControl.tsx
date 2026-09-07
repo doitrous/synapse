@@ -119,6 +119,8 @@ export function AccessControl() {
                     <Td key={role}>
                       {view.superAdminOnly ? (
                         <span className="text-[11.5px] text-ink-3">super admin only</span>
+                      ) : view.adminOnly && role === 'reviewer' ? (
+                        <span className="text-[11.5px] text-ink-3">administrators only</span>
                       ) : (
                         <input
                           type="checkbox"

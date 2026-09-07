@@ -13,14 +13,15 @@
 
 export const ROLE_RANK = {
   student: 0,
+  mcq_validator: 0,
   reviewer: 1,
   admin: 1,
   editor: 2,
   super_admin: 3,
 }
 
-/** The four values `user_access.role` accepts. Ordered by rank, then by name. */
-export const STORED_ROLES = ['student', 'reviewer', 'admin', 'editor']
+/** The five values `user_access.role` accepts. Ordered by rank, then by name. */
+export const STORED_ROLES = ['student', 'mcq_validator', 'reviewer', 'admin', 'editor']
 
 /** Every role that may open the admin console at all. */
 export const CONSOLE_ROLES = ['reviewer', 'admin', 'editor', 'super_admin']

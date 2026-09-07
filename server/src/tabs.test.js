@@ -49,12 +49,14 @@ test('a reviewer holds exactly Media Requests and Content Reports', () => {
 
 test('a student holds nothing', () => {
   assert.deepEqual(tabsForRole('student', null), [])
+  assert.deepEqual(tabsForRole('mcq_validator', null), [])
   assert.deepEqual(tabsForRole('nonsense', null), [])
 })
 
 test('a stored configuration replaces a role default, and junk in it is ignored', () => {
   assert.deepEqual(tabsForRole('reviewer', { reviewer: ['questions', 'nope'] }), ['questions'])
   assert.deepEqual(tabsForRole('reviewer', { reviewer: [] }), [])
+  assert.deepEqual(tabsForRole('reviewer', { reviewer: ['validation'] }), [])
   // A super-admin-only tab cannot be handed out by configuration.
   assert.deepEqual(tabsForRole('editor', { editor: ['settings', 'questions'] }), ['questions'])
   // A role the document does not mention keeps its default.

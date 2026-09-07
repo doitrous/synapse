@@ -18,6 +18,8 @@ export const ROLE_TABS_STATE_KEY = 'nishany-role-tabs-v1'
 
 export const ADMIN_TABS = [
   { id: 'dashboard', to: '/admin', group: 'Overview', stateKeys: [], apiPrefixes: ['/api/admin/platform'] },
+  { id: 'validation', to: '/admin/validation', group: 'Overview', adminOnly: true,
+    stateKeys: [], apiPrefixes: ['/api/admin/mcq-validation'] },
 
   { id: 'taxonomy', to: '/admin/taxonomy', group: 'Content',
     stateKeys: ['nishany-taxonomy-tree-v4', 'nishany-medical-library-taxonomy-v1'], apiPrefixes: [] },
@@ -112,7 +114,7 @@ const SUPER_ADMIN_ONLY = new Set(ADMIN_TABS.filter((tab) => tab.superAdminOnly).
 export const DEFAULT_ROLE_TABS = {
   editor: TAB_IDS.filter((id) => !SUPER_ADMIN_ONLY.has(id)),
   admin: [
-    'dashboard', 'reports', 'email', 'mailbox', 'notifications',
+    'dashboard', 'validation', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
     // The public documents. Not content authoring — an admin who runs billing
     // and support is the person who is told the company's registered name and
@@ -145,7 +147,10 @@ export function tabsForRole(role, storedConfig) {
   if (rank(role) < 1) return []
   const stored = storedConfig && typeof storedConfig === 'object' ? storedConfig[role] : null
   const wanted = new Set(Array.isArray(stored) ? stored : DEFAULT_ROLE_TABS[role] ?? [])
-  return TAB_IDS.filter((id) => wanted.has(id) && !SUPER_ADMIN_ONLY.has(id))
+  return TAB_IDS.filter((id) => {
+    const tab = ADMIN_TABS.find((entry) => entry.id === id)
+    return wanted.has(id) && !SUPER_ADMIN_ONLY.has(id) && !(tab?.adminOnly && role === 'reviewer')
+  })
 }
 
 /** Which tabs may write this document. Empty means none — super admin only. */

@@ -107,7 +107,7 @@ export async function resolveMediaSource(reference: string): Promise<{ url: stri
   // the /api route nor carries the Supabase bearer token, so fetch it like any
   // other authenticated file and render a short-lived local URL.
   if (!isStoredMediaReference(reference)) {
-    if (API_MODE && /^\/media\/[^/?#]+$/.test(reference)) {
+    if (API_MODE && /^(?:\/media|\/mcq-validator\/media)\/[^/?#]+$/.test(reference)) {
       const blob = await apiFetchBlob(reference)
       return { url: URL.createObjectURL(blob), revoke: true }
     }

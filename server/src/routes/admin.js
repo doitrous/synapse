@@ -224,7 +224,7 @@ export function registerAdminRoutes(app) {
       role: req.body?.role, reason, actorId: req.identity.id, actorRole: req.identity.role,
     })
     const REFUSALS = {
-      invalid_role: [400, 'role must be student, reviewer, admin or editor'],
+      invalid_role: [400, 'role must be student, mcq_validator, reviewer, admin or editor'],
       forbidden: [403, 'that change is above your level'],
       no_identity: [409, 'this person has never signed in, so there is no role to change'],
       suspended: [409, 'reactivate this account before changing its role'],

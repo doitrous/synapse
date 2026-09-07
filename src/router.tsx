@@ -215,6 +215,8 @@ const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportP
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
 const GlossarySetup = lazyNamed(() => import('@/pages/admin/GlossarySetup'), 'GlossarySetup')
 const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportPage'), 'GlossaryImportPage')
+const ValidationAnalytics = lazyNamed(() => import('@/pages/admin/ValidationAnalytics'), 'ValidationAnalytics')
+const ValidatorWorkspace = lazyNamed(() => import('@/pages/validator/ValidatorWorkspace'), 'ValidatorWorkspace')
 
 const studentPages: Record<string, Preloadable> = {
   library: Library,
@@ -317,12 +319,13 @@ const adminBuilt: Record<string, ReactElement> = {
   audit: render(AuditSecurity),
   access: render(AccessControl),
   assistant: render(AssistantSetup),
+  validation: render(ValidationAnalytics, {}, 'stats'),
 }
 
 // Keep mounted routes and preloadable student pages in one registry so a new
 // page cannot be linked in navigation while silently falling through to 404.
 const studentPaths = Object.keys(studentPages)
-const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'escalations', 'reports', 'tutorial', 'legal', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
+const adminPaths = ['validation', 'academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'escalations', 'reports', 'tutorial', 'legal', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 /**
  * Routes that were renamed, kept alive as redirects.
@@ -444,6 +447,7 @@ const adminApp = {
 function RootGate() {
   const identity = useIdentity()
   if (identity.status === 'loading') return <RouteLoading />
+  if (identity.status === 'authenticated' && identity.role === 'mcq_validator') return <Navigate to="/validator" replace />
   if (identity.status === 'authenticated') return <Navigate to="/app" replace />
   return render(Landing)
 }
@@ -478,6 +482,9 @@ export const router = createBrowserRouter([
   { path: '/login', element: render(Login) },
   { path: '/signup', element: adminHost ? toStudentSite : render(Signup) },
   { path: '/logout', element: render(Logout) },
+  { path: '/validator', element: adminHost
+    ? toStudentSite
+    : <RequireAuth validator>{render(ValidatorWorkspace, {}, 'stats')}</RequireAuth> },
   // Followed from an inbox, signed out, on either host — never behind auth.
   { path: '/unsubscribe', element: render(Unsubscribe) },
   // A note or a board somebody shared. Deliberately outside `/app`: whoever

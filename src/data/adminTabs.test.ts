@@ -25,6 +25,7 @@ test('the client registry is the server registry, tab for tab', () => {
     assert.equal(view.to, tab.to, `${view.id} route`)
     assert.equal(view.group, tab.group, `${view.id} group`)
     assert.equal(Boolean(view.superAdminOnly), Boolean(tab.superAdminOnly), `${view.id} governance`)
+    assert.equal(Boolean(view.adminOnly), Boolean(tab.adminOnly), `${view.id} administrator-only`)
     assert.deepEqual(view.stateKeys, tab.stateKeys, `${view.id} state keys`)
     assert.deepEqual(view.apiPrefixes, tab.apiPrefixes, `${view.id} api prefixes`)
   }
@@ -32,7 +33,7 @@ test('the client registry is the server registry, tab for tab', () => {
 
 test('the client and the server hand every role the same tabs', () => {
   const configs = [null, {}, { reviewer: ['questions'] }, { editor: ['settings', 'questions'] }, { admin: [] }]
-  for (const role of ['student', 'reviewer', 'admin', 'editor', 'super_admin']) {
+  for (const role of ['student', 'mcq_validator', 'reviewer', 'admin', 'editor', 'super_admin']) {
     for (const config of configs) {
       assert.deepEqual(tabsForRole(role, config), server.tabsForRole(role, config), `${role} with ${JSON.stringify(config)}`)
     }
@@ -44,6 +45,7 @@ test('a role renders exactly the tabs it holds, in registry order', () => {
   const reviewer = tabViewsFor('reviewer', null).map((view) => view.id)
   assert.deepEqual(reviewer, ['media', 'reports'])
   assert.deepEqual(tabViewsFor('student', null), [])
+  assert.deepEqual(tabViewsFor('mcq_validator', null), [])
   assert.equal(tabViewsFor('super_admin', null).length, TAB_IDS.length)
 })
 

@@ -72,7 +72,7 @@ export async function migrate() {
 
   const conn = await pool.getConnection()
   try {
-    // The console grew from two roles to four. The lookup is on the column type
+    // The console grew from two roles to five. The lookup is on the column type
     // rather than a marker, so a database restored from a dump that already has
     // the wider enum boots without repeating the ALTER, and one that does not
     // gets it. It never narrows, so an existing row keeps its value.
@@ -80,10 +80,10 @@ export async function migrate() {
       `SELECT COLUMN_TYPE AS type FROM information_schema.columns
         WHERE table_schema = DATABASE() AND table_name = 'user_access' AND column_name = 'role'`,
     )
-    if (roleColumn.length && !roleColumn[0].type.includes("'editor'")) {
+    if (roleColumn.length && !roleColumn[0].type.includes("'mcq_validator'")) {
       await conn.query(
         `ALTER TABLE user_access MODIFY COLUMN role
-           ENUM('student','reviewer','admin','editor') NOT NULL DEFAULT 'student'`,
+           ENUM('student','mcq_validator','reviewer','admin','editor') NOT NULL DEFAULT 'student'`,
       )
     }
 

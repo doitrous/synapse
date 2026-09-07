@@ -679,14 +679,17 @@ export async function setRole(studentId, { role, reason, actorId, actorRole }) {
     // signed in owns no row, so the net stays.
     if (rank(targetRole) >= 1 && rank(role) < 1) {
       const [[{ consoles }]] = await conn.query(
-        "SELECT COUNT(*) AS consoles FROM user_access WHERE role <> 'student' AND status = 'active'",
+        "SELECT COUNT(*) AS consoles FROM user_access WHERE role IN ('reviewer','admin','editor') AND status = 'active'",
       )
       if (consoles <= 1) { await conn.rollback(); return { error: 'last_console' } }
     }
 
     await conn.query(
-      'UPDATE user_access SET role = ?, promoted_by = ?, promoted_at = NOW() WHERE user_id = ?',
-      [role, actorId, userId],
+      `UPDATE user_access
+          SET role = ?, content_scope = IF(? = 'reviewer', content_scope, NULL),
+              promoted_by = ?, promoted_at = NOW()
+        WHERE user_id = ?`,
+      [role, role, actorId, userId],
     )
     await conn.query(
       'INSERT INTO role_promotion_audit (user_id, previous_role, next_role, promoted_by, reason) VALUES (?, ?, ?, ?, ?)',

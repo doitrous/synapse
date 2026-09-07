@@ -86,7 +86,7 @@ export interface Identity {
   userId: string | null
   email: string | null
   role: EffectiveRole | null
-  /** 0 student, 1 reviewer/admin, 2 editor, 3 super admin. */
+  /** 0 student/MCQ validator, 1 reviewer/admin, 2 editor, 3 super admin. */
   rank: number
   /** The admin tabs this account holds, resolved by the server. */
   tabs: string[]

@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import { MFA_ENFORCED_ROLES, ROLE_LABEL, ROLE_RANK, STORED_ROLES, assignableRoles, canSetRole, mfaEnforced, rank } from './adminRoles.ts'
 import * as server from '../../server/src/roles.js'
 
-const ROLES = ['student', 'reviewer', 'admin', 'editor', 'super_admin']
+const ROLES = ['student', 'mcq_validator', 'reviewer', 'admin', 'editor', 'super_admin']
 
 test('the client agrees with the server about rank', () => {
   assert.deepEqual(ROLE_RANK, server.ROLE_RANK)

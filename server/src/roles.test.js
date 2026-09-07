@@ -15,6 +15,7 @@ test('an allowlisted email is a super admin whatever the row says', () => {
 
 test('everyone else is whatever their row says, and an unknown role is a student', () => {
   assert.equal(effectiveRole('someone@example.com', 'editor', ALLOW), 'editor')
+  assert.equal(effectiveRole('validator@example.com', 'mcq_validator', ALLOW), 'mcq_validator')
   assert.equal(effectiveRole('someone@example.com', 'nonsense', ALLOW), 'student')
   assert.equal(effectiveRole(null, 'admin', ALLOW), 'admin')
 })
@@ -33,6 +34,7 @@ test('reviewer and admin are peers, and neither can touch the other', () => {
 })
 
 test('an editor may promote and demote below itself', () => {
+  assert.equal(canSetRole('editor', 'student', 'mcq_validator'), true)
   assert.equal(canSetRole('editor', 'student', 'reviewer'), true)
   assert.equal(canSetRole('editor', 'student', 'admin'), true)
   assert.equal(canSetRole('editor', 'reviewer', 'admin'), true)
@@ -60,7 +62,7 @@ test('role management starts at editor, so a peer role has none of it', () => {
 })
 
 test('a super admin may set any stored role on anyone below', () => {
-  for (const target of ['student', 'reviewer', 'admin', 'editor']) {
+  for (const target of ['student', 'mcq_validator', 'reviewer', 'admin', 'editor']) {
     for (const next of STORED_ROLES) {
       assert.equal(canSetRole('super_admin', target, next), true, `${target} → ${next}`)
     }
@@ -74,7 +76,7 @@ test('super admin is not a stored role, so it can never be assigned or removed',
 })
 
 test('the roles offered are exactly the roles that would be accepted', () => {
-  const roles = ['student', 'reviewer', 'admin', 'editor', 'super_admin']
+  const roles = ['student', 'mcq_validator', 'reviewer', 'admin', 'editor', 'super_admin']
   for (const actor of roles) {
     for (const target of roles) {
       for (const next of STORED_ROLES) {
@@ -89,7 +91,7 @@ test('the roles offered are exactly the roles that would be accepted', () => {
 })
 
 test('an actor is offered nothing for somebody they do not outrank', () => {
-  assert.deepEqual(assignableRoles('editor', 'student'), ['student', 'reviewer', 'admin'])
+  assert.deepEqual(assignableRoles('editor', 'student'), ['student', 'mcq_validator', 'reviewer', 'admin'])
   assert.deepEqual(assignableRoles('editor', 'editor'), [])
   assert.deepEqual(assignableRoles('admin', 'reviewer'), [])
   assert.deepEqual(assignableRoles('reviewer', 'student'), [])
@@ -100,6 +102,7 @@ test('an actor is offered nothing for somebody they do not outrank', () => {
 test('console access starts at reviewer', () => {
   assert.deepEqual(CONSOLE_ROLES, ['reviewer', 'admin', 'editor', 'super_admin'])
   assert.equal(hasConsoleAccess('student'), false)
+  assert.equal(hasConsoleAccess('mcq_validator'), false)
   assert.equal(hasConsoleAccess('reviewer'), true)
   assert.equal(hasConsoleAccess('super_admin'), true)
 })

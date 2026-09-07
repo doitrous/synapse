@@ -39,6 +39,7 @@ import { API_MODE, apiGet, apiPost } from '@/lib/api'
 /** What the person confirming a role change is actually deciding. */
 const ROLE_CONSEQUENCE: Record<StoredRole, string> = {
   student: 'They lose the admin console entirely and keep only the student app. The last account with console access cannot be demoted.',
+  mcq_validator: 'They see only MCQ batches assigned to them and can submit answers and curriculum feedback. They receive no editing or admin access.',
   reviewer: 'A reviewer works on medical content — library, questions, practicals, concepts and media — and only within the modules and years you assign them below. They see nothing else.',
   admin: 'An admin runs operations: accounts, students, payments, vouchers, email and support. They cannot author or edit medical content.',
   editor: 'An editor holds every console tab except Settings, Audit and Access Control, and can promote or demote anyone below them. They are not confined to any module or year.',

@@ -13,7 +13,7 @@ import {
   Gauge, Network, Languages, GraduationCap, Scale, Library, FileQuestion, Compass,
   Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, MonitorPlay, FileText, Mail, Inbox, BellRing,
   Layers, PenLine, Microscope, Siren,
-  UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound,
+  UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound, ClipboardCheck,
 } from 'lucide-react'
 import { rank } from './adminRoles.ts'
 
@@ -31,11 +31,15 @@ export interface AdminTabView {
   stateKeys: string[]
   apiPrefixes: string[]
   superAdminOnly?: boolean
+  /** Cross-university personal data: admin/editor/super admin, never reviewer. */
+  adminOnly?: boolean
   end?: boolean
 }
 
 export const ADMIN_TAB_VIEWS: AdminTabView[] = [
   { id: 'dashboard', label: 'Control Dashboard', to: '/admin', icon: Gauge, group: 'Overview', end: true, stateKeys: [], apiPrefixes: ['/api/admin/platform'] },
+  { id: 'validation', label: 'MCQ Validation', to: '/admin/validation', icon: ClipboardCheck, group: 'Overview', adminOnly: true,
+    stateKeys: [], apiPrefixes: ['/api/admin/mcq-validation'] },
 
   { id: 'taxonomy', label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network, group: 'Content',
     stateKeys: ['nishany-taxonomy-tree-v4', 'nishany-medical-library-taxonomy-v1'], apiPrefixes: [] },
@@ -112,7 +116,7 @@ const SUPER_ADMIN_ONLY = new Set(ADMIN_TAB_VIEWS.filter((view) => view.superAdmi
 export const DEFAULT_ROLE_TABS: Record<string, string[]> = {
   editor: TAB_IDS.filter((id) => !SUPER_ADMIN_ONLY.has(id)),
   admin: [
-    'dashboard', 'reports', 'email', 'mailbox', 'notifications',
+    'dashboard', 'validation', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
     // The public documents. Not content authoring — an admin who runs billing
     // and support is the person who is told the company's registered name and
@@ -132,7 +136,10 @@ export function tabsForRole(role: string, storedConfig: unknown): string[] {
   const config = storedConfig && typeof storedConfig === 'object' ? storedConfig as Record<string, unknown> : null
   const stored = config?.[role]
   const wanted = new Set(Array.isArray(stored) ? stored as string[] : DEFAULT_ROLE_TABS[role] ?? [])
-  return TAB_IDS.filter((id) => wanted.has(id) && !SUPER_ADMIN_ONLY.has(id))
+  return TAB_IDS.filter((id) => {
+    const view = VIEW_BY_ID.get(id)
+    return wanted.has(id) && !SUPER_ADMIN_ONLY.has(id) && !(view?.adminOnly && role === 'reviewer')
+  })
 }
 
 const VIEW_BY_ID = new Map(ADMIN_TAB_VIEWS.map((view) => [view.id, view]))

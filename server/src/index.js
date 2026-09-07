@@ -53,6 +53,7 @@ import { registerMailRoutes, registerUnsubscribeRoutes } from './routes/mail.js'
 import { registerAdminRoutes, registerStudentRoutes } from './routes/admin.js'
 import { createDataSnapshot, registerBackupWriteRoutes, registerLibraryRoutes } from './routes/library.js'
 import { registerMediaRoutes } from './routes/media.js'
+import { registerMcqValidationRoutes } from './routes/mcqValidation.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
@@ -116,6 +117,9 @@ const LARGE_JSON_BODY = express.json({ limit: '64mb' })
 for (const path of ['/api/state/:key', '/api/user-state/:key', '/api/admin/academic/preview', '/api/admin/academic/publish']) {
   app.use(path, LARGE_JSON_BODY)
 }
+// Validator evidence is a base64-encoded file with a 5 MB decoded ceiling.
+// Base64 adds roughly one third, so 8 MB leaves room for the metadata envelope.
+app.use('/api/mcq-validator/sources', express.json({ limit: '8mb' }))
 // Everything else defaults to a small body. `apiAuthGate` above never reads
 // `req.body` (headers and path/method only), so parsing after it is safe and
 // means an unauthenticated caller can't run a 1 MB parse before being refused.
@@ -161,6 +165,7 @@ registerStateDocumentRoutes(app)
  */
 registerContentRoutes(app)
 registerContentReportRoutes(app)
+registerMcqValidationRoutes(app)
 registerUserStateRoutes(app)
 registerUnsubscribeRoutes(app)
 registerAdminRoutes(app)
