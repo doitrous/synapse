@@ -76,3 +76,74 @@ src_911bf1abeda4ac70932f
 
 ## language
 en
+
+
+---
+
+# Item
+## id
+ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID
+## title
+Thyroid and sex-steroid physiology: goitre, epiphyseal closure and tubal cilia
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+Three discriminating physiology facts from the department bank's thyroid and reproductive sections. Iodine deficiency lowers thyroid hormone output, which removes negative feedback and raises TSH; the sustained TSH drive hypertrophies the follicular cells and enlarges the gland into an endemic goitre, so a failing iodine-deficient thyroid grows rather than shrinks. Estrogen, including the estrogen aromatised from testosterone in males, is the hormone that fuses the epiphyseal plates: castration before puberty delays closure and gives tall eunuchoid stature, while an early estrogen surge in precocious puberty closes the plates prematurely and shortens the adult. In the adult female, a high estrogen level increases the activity of the fallopian-tube cilia and tubal smooth muscle to help transport the ovum, in contrast to the secretory and quiescent changes that progesterone produces.
+## sections
+### Definition
+This article groups three facts: iodine-deficiency goitre driven by compensatory TSH, estrogen as the driver of epiphyseal-plate closure, and estrogen stimulation of fallopian-tube ciliary motility.
+### Mechanism
+Low iodine lowers T3/T4, feedback is released, TSH rises and hypertrophies the gland (goitre). Androgen is aromatised to estrogen in the growth plate; when the estrogen threshold for closure is reached the plates fuse, so estrogen deficiency prolongs growth and estrogen excess shortens it. Estrogen acts on the ciliated cells and smooth muscle of the fallopian tube to increase ciliary beating and tubal activity toward the uterus.
+### Key determinants
+Discriminators tested here: the direction of thyroid size change in iodine deficiency (enlargement, not shrinkage); the hormone responsible for epiphyseal closure (estrogen, not testosterone alone); and the estrogen-versus-progesterone split of fallopian-tube ciliary stimulation (estrogen) versus secretory/quiescent changes (progesterone).
+### Clinical significance
+These points underlie endemic-goitre prophylaxis with iodised salt, the tall eunuchoid stature of pre-pubertal hypogonadism and the short adult stature of untreated precocious puberty, and the role of estrogen in tubal ovum transport relevant to fertility.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors here are built from those reversals (a shrinking iodine-deficient thyroid, testosterone as the sole closure hormone, and progesterone as the tubal-cilia stimulant).
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Thyroid and sex-steroid physiology
+## subtopic
+Thyroid and sex-steroid physiology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+SYS-GYN-T01
+## related_concepts
+CON-END-A863B1FFD19A65
+CON-END-A3C419518B2145
+CON-GYN-A69286A772E141
+## related_articles
+
+## resource_ids
+src_911bf1abeda4ac70932f
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en

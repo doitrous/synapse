@@ -314,3 +314,305 @@ Medical team, Admin team
 ## final_publisher
 Admin team
 ## last_reviewed
+
+
+---
+
+# Item
+## id
+CON-END-A863B1FFD19A65
+## label
+Iodine deficiency enlarges the thyroid gland (goitre) through sustained TSH drive
+## canonical_key
+thyroid.iodine-deficiency.goiter-enlargement
+## aliases
+Endemic goitre is thyroid enlargement caused by dietary iodine deficiency
+Low thyroid hormone from iodine lack raises TSH, which hypertrophies the gland
+## arabic_label
+
+## arabic_aliases
+
+## definition
+When dietary iodine is deficient the thyroid cannot make enough thyroid hormone, so plasma T4 and T3 fall. The reduced negative feedback lets the anterior pituitary secrete more TSH, and this chronic TSH stimulation causes hypertrophy and hyperplasia of the follicular cells, enlarging the gland as an endemic goitre. The thyroid therefore increases, not decreases, in size when iodine is lacking; goitre with a high TSH and low or low-normal thyroid hormone is the expected picture.
+## explicit_objective
+State that iodine deficiency enlarges the thyroid (goitre) because low thyroid hormone raises TSH, which drives follicular hypertrophy and hyperplasia.
+## pitfalls
+Assuming a failing thyroid shrinks: iodine deficiency lowers hormone output but the compensatory TSH rise enlarges the gland into a goitre.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid gland
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid gland
+## article_ids
+ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_911bf1abeda4ac70932f
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+---
+
+# Item
+## id
+CON-END-A3C419518B2145
+## label
+Estrogen is the principal driver of epiphyseal plate closure
+## canonical_key
+estrogen.epiphyseal-plate.closure-fusion
+## aliases
+Aromatisation of androgens to estrogen closes the growth plates in both sexes
+Castration before puberty delays epiphyseal fusion and gives tall eunuchoid stature
+Precocious puberty causes short adult stature by early epiphyseal closure
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Estrogen, including the estrogen aromatised from testosterone in males, is the hormone that ultimately fuses the epiphyseal growth plates and stops linear growth. If a boy is castrated before puberty, less androgen is available for aromatisation, so estradiol in the growth plate takes longer to reach the threshold for closure; the plates stay open longer and the person grows abnormally tall (eunuchoid proportions). Conversely, an early estrogen surge in precocious puberty closes the epiphyses prematurely, producing a tall child but a short adult. This explains why estrogen deficiency delays, and estrogen excess accelerates, epiphyseal closure.
+## explicit_objective
+Identify estrogen as the hormone that closes the epiphyseal plates, so its deficiency delays closure (tall stature) and its early excess causes premature closure (short adult stature).
+## pitfalls
+Crediting only testosterone for growth-plate closure: closure is actually driven by estrogen (aromatised from androgen), which is why estrogen deficiency prolongs growth and precocious estrogen shortens it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Sex hormones and growth
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Sex hormones and growth
+## article_ids
+ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_911bf1abeda4ac70932f
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+---
+
+# Item
+## id
+CON-GYN-A69286A772E141
+## label
+Estrogen increases fallopian-tube ciliary activity and motility
+## canonical_key
+estrogen.fallopian-tube.ciliary-motility
+## aliases
+High estrogen speeds the beating of oviduct cilia to help ovum transport
+Estrogen stimulates fallopian tube cilia and smooth-muscle activity
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A high concentration of estrogen in the adult female stimulates the ciliated cells lining the fallopian tube, increasing the number and activity of the cilia and their coordinated beating toward the uterus, and it also raises tubal smooth-muscle activity. This estrogen-driven ciliary and muscular activity helps sweep the ovum along the tube after ovulation. In contrast, the secretory endometrial changes, reduced uterine excitability and marked breast-acinar growth listed as distractors are actions of progesterone, not the estrogen effect on tubal cilia.
+## explicit_objective
+Attribute the increase in fallopian-tube ciliary motility to estrogen, distinguishing it from the progesterone-dependent secretory and quiescent changes.
+## pitfalls
+Assigning tubal ciliary stimulation to progesterone: it is estrogen that increases fallopian-tube ciliary activity, while progesterone favours secretion and uterine quiescence.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Ovarian hormones
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Ovarian hormones
+## article_ids
+ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_911bf1abeda4ac70932f
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed

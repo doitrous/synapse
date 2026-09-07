@@ -92,6 +92,106 @@
       "module_subject": "207 END > Physiology > Posterior pituitary",
       "subtopic": "Posterior pituitary",
       "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.7" }
+    },
+    {
+      "key": "deptphys22-q63", "page": 9, "id": "QST-KASR207END-DEPTPHYS22-Q63",
+      "title": "Thyroid gland size in iodine deficiency",
+      "question": "All of the following about the thyroid gland is true, EXCEPT:",
+      "options": {
+        "A": "Takes up iodide against its electrochemical gradient",
+        "B": "Decreases in size when dietary iodine is deficient",
+        "C": "Contains enzymes that oxidise iodide to iodine",
+        "D": "Contains enzymes that iodinate tyrosine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Correct statement (so not the exception). The sodium-iodide symporter concentrates iodide into the follicular cell against its electrochemical gradient by coupling it to the inward sodium gradient (secondary active transport).",
+        "B": "Correct answer (this is the false statement). When dietary iodine is deficient, thyroid hormone output falls, so negative feedback is released and TSH rises. The sustained TSH drive hypertrophies and hyperplases the follicular cells, so the gland ENLARGES into an endemic goitre rather than decreasing in size.",
+        "C": "Correct statement (so not the exception). Thyroid peroxidase oxidises trapped iodide to a reactive iodine species before organification.",
+        "D": "Correct statement (so not the exception). Thyroid peroxidase iodinates tyrosyl residues of thyroglobulin (organification) to form MIT and DIT."
+      },
+      "main_concept": "CON-END-A863B1FFD19A65", "concept_ids": ["CON-END-A863B1FFD19A65"], "contextual_concept_ids": [],
+      "library_ids": ["ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID"],
+      "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Recognise that iodine deficiency enlarges the thyroid (goitre) via compensatory TSH, so 'decreases in size' is the false statement.",
+      "module_subject": "207 END > Physiology > Thyroid gland",
+      "subtopic": "Thyroid gland",
+      "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.9" }
+    },
+    {
+      "key": "deptphys22-m212-q27", "page": 29, "id": "QST-KASR207END-DEPTPHYS22-M212Q27",
+      "title": "Why pre-pubertal castration causes tall stature",
+      "question": "Men castrated before puberty grow taller than normal because:",
+      "options": {
+        "A": "Release of growth hormone is increased",
+        "B": "Of androgen resistance",
+        "C": "Estradiol in the epiphyseal growth plate takes longer to reach its closure threshold",
+        "D": "Of insensitivity to IGF-1"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Castration does not raise growth-hormone secretion; the extra height comes from prolonged growth-plate activity, not from more GH.",
+        "B": "Incorrect. These men are not androgen-resistant; they simply have little androgen to aromatise, so the defect is in estrogen production, not androgen receptor function.",
+        "C": "Correct. Epiphyseal-plate closure is ultimately driven by estrogen, most of which in males comes from aromatisation of testicular androgen. After pre-pubertal castration there is little androgen to aromatise, so estradiol in the growth plate takes much longer to reach the level that fuses the plates. The epiphyses stay open longer and the long bones keep growing, producing the tall eunuchoid stature.",
+        "D": "Incorrect. Sensitivity to IGF-1 is preserved; the mechanism is delayed estrogen-driven epiphyseal closure, not altered IGF-1 signalling."
+      },
+      "main_concept": "CON-END-A3C419518B2145", "concept_ids": ["CON-END-A3C419518B2145"], "contextual_concept_ids": [],
+      "library_ids": ["ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID"],
+      "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Explain pre-pubertal-castration tall stature as delayed estrogen-driven epiphyseal closure.",
+      "module_subject": "207 END > Physiology > Sex hormones and growth",
+      "subtopic": "Sex hormones and growth",
+      "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.29" }
+    },
+    {
+      "key": "deptphys22-m212-q28", "page": 29, "id": "QST-KASR207END-DEPTPHYS22-M212Q28",
+      "title": "Why sexual precocity causes short adult stature",
+      "question": "Patients with sexual precocity are apt to be short as adults because of:",
+      "options": {
+        "A": "Increased levels of androgens",
+        "B": "The estrogen surge during precocious puberty",
+        "C": "Deficiency of androgen receptors",
+        "D": "Increased levels of thyroxine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Although androgens rise, it is their aromatisation to estrogen, and the estrogen action on the growth plate, that closes the epiphyses; naming androgens alone misses the operative hormone.",
+        "B": "Correct. In precocious puberty the early rise in estrogen (aromatised from the prematurely secreted sex steroids) closes the epiphyseal plates ahead of schedule. Growth is initially fast, giving a tall child, but the premature epiphyseal fusion stops linear growth early, so the final adult height is short. This is the mirror image of the delayed closure seen after pre-pubertal castration.",
+        "C": "Incorrect. Androgen receptors are not deficient; the short stature results from premature estrogen-driven epiphyseal closure, not receptor loss.",
+        "D": "Incorrect. Thyroxine is not the cause; the early epiphyseal fusion is due to the premature estrogen surge."
+      },
+      "main_concept": "CON-END-A3C419518B2145", "concept_ids": ["CON-END-A3C419518B2145"], "contextual_concept_ids": [],
+      "library_ids": ["ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID"],
+      "difficulty": "Moderate", "question_type": "Reasoning", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Explain precocious-puberty short stature as premature estrogen-driven epiphyseal closure.",
+      "module_subject": "207 END > Physiology > Sex hormones and growth",
+      "subtopic": "Sex hormones and growth",
+      "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.29" }
+    },
+    {
+      "key": "deptphys22-m210-q29", "page": 29, "id": "QST-KASR207END-DEPTPHYS22-M210Q29",
+      "title": "Effect of high estrogen on the fallopian tube",
+      "question": "A high concentration of estrogen in the adult female causes:",
+      "options": {
+        "A": "Secretory changes to appear in the endometrial glands",
+        "B": "Increased motility of the cilia of the fallopian tube",
+        "C": "Decreased excitability of uterine muscle",
+        "D": "Marked growth of the acini of the breast prior to lactation"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Secretory transformation of the endometrial glands is a progesterone action of the luteal phase, not an estrogen effect.",
+        "B": "Correct. A high estrogen level stimulates the ciliated cells of the fallopian tube, increasing the number and coordinated beating of the cilia toward the uterus, and it raises tubal smooth-muscle activity. This estrogen-driven ciliary and muscular activity helps sweep the ovum along the tube after ovulation.",
+        "C": "Incorrect. Reduced uterine excitability (myometrial quiescence) is a progesterone effect; estrogen tends to increase, not decrease, uterine excitability.",
+        "D": "Incorrect. Marked growth of the breast acini before lactation is driven by progesterone (with prolactin), whereas estrogen mainly develops the ductal system."
+      },
+      "main_concept": "CON-GYN-A69286A772E141", "concept_ids": ["CON-GYN-A69286A772E141"], "contextual_concept_ids": [],
+      "library_ids": ["ART-END-207END-DEPTPHYS22-THYROID-SEXSTEROID"],
+      "difficulty": "Moderate", "question_type": "Classification", "cognitive_effort": "Medium", "reasoning_level": 2,
+      "learning_objective": "Attribute increased fallopian-tube ciliary motility to estrogen, distinguishing it from progesterone-dependent secretory and quiescent changes.",
+      "module_subject": "207 END > Physiology > Ovarian hormones",
+      "subtopic": "Ovarian hormones",
+      "field_notes": { "keySource": "unkeyed bank; answer by reasoning, render-verified stem p.29" }
     }
   ]
 }
