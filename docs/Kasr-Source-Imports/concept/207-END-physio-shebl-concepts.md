@@ -1580,3 +1580,899 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q5 = b).
+
+---
+
+# Item
+## id
+CON-END-084FBC4B99D6C7
+## label
+PTH stimulates renal 1-alpha-hydroxylase to activate vitamin D
+## canonical_key
+parathyroid-hormone.renal-action.activates-1-alpha-hydroxylase-vitamin-d
+## aliases
+PTH increases calcitriol by inducing renal 1-alpha-hydroxylase
+Parathyroid hormone drives the final activation of vitamin D
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Parathyroid hormone acts directly on the renal proximal tubule to stimulate 1-alpha-hydroxylase, the enzyme that converts 25-hydroxyvitamin D to the active 1,25-dihydroxyvitamin D (calcitriol). The rise in calcitriol then increases intestinal calcium absorption, so PTH raises intestinal calcium indirectly through vitamin D rather than by acting on the gut itself. This renal activation of vitamin D is one of the three arms of PTH's calcium-raising action, alongside bone resorption and distal-tubule calcium reabsorption.
+## explicit_objective
+State that PTH stimulates renal 1-alpha-hydroxylase, activating vitamin D to raise calcium.
+## pitfalls
+Thinking PTH acts directly on the intestine; its intestinal effect is indirect, through calcitriol produced by PTH-stimulated 1-alpha-hydroxylase.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q1 = b, Q27 = d).
+
+---
+
+# Item
+## id
+CON-END-142B28D7611EFC
+## label
+Calcitonin lowers plasma calcium chiefly by inhibiting osteoclasts
+## canonical_key
+calcitonin.action.inhibits-osteoclasts-lowers-calcium
+## aliases
+Calcitonin opposes PTH and reduces bone resorption
+C-cell calcitonin lowers ionized calcium
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Calcitonin is secreted by the parafollicular C cells of the thyroid when plasma calcium rises, and it lowers plasma ionized calcium mainly by inhibiting osteoclastic bone resorption. It also increases urinary calcium excretion. Its actions therefore oppose those of parathyroid hormone, although in adult humans its overall role in day-to-day calcium homeostasis is minor compared with PTH and vitamin D.
+## explicit_objective
+State that calcitonin lowers plasma calcium chiefly by inhibiting osteoclasts.
+## pitfalls
+Confusing calcitonin with calcitriol or PTH; calcitonin lowers calcium, whereas PTH and calcitriol raise it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q13 = b, Q15 = b, Q20 = d, Q24 = b).
+
+---
+
+# Item
+## id
+CON-END-EC715609020066
+## label
+PTH stimulates osteoclasts indirectly through osteoblast RANKL
+## canonical_key
+parathyroid-hormone.bone-action.osteoblast-rankl-stimulates-osteoclasts
+## aliases
+Osteoclasts lack PTH receptors; PTH acts via osteoblasts
+PTH drives bone resorption through the RANKL-RANK system
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Osteoclasts do not carry PTH receptors, so parathyroid hormone acts on receptors of osteoblasts and stromal cells, which respond by expressing RANKL. RANKL binds RANK on osteoclast precursors to promote their differentiation and bone-resorbing activity, releasing calcium and phosphate into the plasma. Thus PTH's resorptive effect on bone is exerted indirectly, through the osteoblast-osteoclast RANKL pathway.
+## explicit_objective
+Explain that PTH acts on osteoblast receptors (RANKL) to stimulate osteoclastic resorption.
+## pitfalls
+Assuming PTH binds osteoclasts directly; osteoclasts lack PTH receptors and are recruited via osteoblast RANKL.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q19 = b).
+
+---
+
+# Item
+## id
+CON-END-33602598E3AE52
+## label
+PTH increases distal-tubule calcium reabsorption while causing proximal phosphaturia
+## canonical_key
+parathyroid-hormone.renal-action.distal-tubule-calcium-reabsorption
+## aliases
+PTH conserves calcium in the distal nephron
+Parathyroid hormone reduces urinary calcium loss
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Parathyroid hormone acts on the distal convoluted tubule to increase active reabsorption of calcium, reducing urinary calcium loss and helping to raise plasma calcium. At the same time it inhibits phosphate reabsorption in the proximal tubule, producing phosphaturia and lowering plasma phosphate. This renal handling complements PTH's actions on bone resorption and on vitamin D activation.
+## explicit_objective
+State that PTH increases distal-tubule calcium reabsorption while causing proximal phosphaturia.
+## pitfalls
+Assuming PTH raises calcium only through bone; it also conserves renal calcium in the distal tubule, and it lowers phosphate rather than raising it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q18 = b).
+
+---
+
+# Item
+## id
+CON-END-A902400E215CCD
+## label
+The PTH receptor is a cell-membrane G-protein-coupled receptor
+## canonical_key
+parathyroid-hormone.receptor.membrane-gpcr-cyclic-amp
+## aliases
+PTH acts on a surface GPCR raising cyclic AMP
+Parathyroid hormone uses a membrane receptor, not a nuclear one
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Parathyroid hormone is a water-soluble peptide that cannot cross the plasma membrane, so it binds a G-protein-coupled receptor on the surface of its target cells. Receptor activation raises intracellular cyclic AMP (and IP3/calcium), the second messengers that mediate PTH's actions on bone and kidney. This contrasts with the intracellular nuclear receptors used by lipophilic steroid and thyroid hormones.
+## explicit_objective
+Identify the PTH receptor as a membrane G-protein-coupled receptor acting via cyclic AMP.
+## pitfalls
+Assuming a peptide hormone can use a nuclear or cytoplasmic receptor; PTH acts only through a surface membrane receptor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q26 = b).
+
+---
+
+# Item
+## id
+CON-END-613C0CBC2F4B0B
+## label
+The first-line plasma-calcium buffer is exchange with the labile bone calcium pool
+## canonical_key
+plasma-calcium-buffering.first-line.labile-bone-pool-exchange
+## aliases
+Rapid calcium buffering uses exchangeable bone calcium
+The fastest calcium defence is physicochemical, not hormonal
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The most rapid defence against a change in plasma calcium is the hormone-independent physicochemical exchange between plasma and a readily exchangeable ('labile') pool of calcium on bone surfaces and in other tissues. This buffering acts within minutes, before parathyroid hormone and vitamin D responses develop. The hormonal systems then provide slower but sustained correction of the plasma calcium.
+## explicit_objective
+Identify rapid exchange with the labile bone calcium pool as the first-line plasma-calcium buffer.
+## pitfalls
+Naming PTH secretion as the immediate buffer; the fastest response is the physicochemical bone-plasma calcium exchange, with hormones acting later.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q25 = a).
+
+---
+
+# Item
+## id
+CON-END-3D9C5B5EC115E0
+## label
+Vitamin D3 is synthesised in the skin from 7-dehydrocholesterol under UV light
+## canonical_key
+vitamin-d.cutaneous-synthesis.7-dehydrocholesterol-uv
+## aliases
+Sunlight converts 7-dehydrocholesterol to cholecalciferol in skin
+Vitamin D is not solely a dietary vitamin
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vitamin D is not only obtained from the diet; it is also synthesised in the body. Ultraviolet light acting on the skin converts 7-dehydrocholesterol to cholecalciferol (vitamin D3). This is then 25-hydroxylated in the liver and 1-alpha-hydroxylated in the kidney to the active hormone 1,25-dihydroxyvitamin D, so the skin step is the origin of endogenously produced vitamin D.
+## explicit_objective
+State that vitamin D3 is synthesised in the skin from 7-dehydrocholesterol under UV light.
+## pitfalls
+Believing vitamin D can come only from the diet; cutaneous UV synthesis from 7-dehydrocholesterol is a major source.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Vitamin D
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Vitamin D
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q17 = d).
+
+---
+
+# Item
+## id
+CON-END-F6E929F09E8F71
+## label
+Low ionized calcium with high PTH indicates secondary hyperparathyroidism of vitamin D deficiency
+## canonical_key
+secondary-hyperparathyroidism.cause.vitamin-d-deficiency-low-calcium
+## aliases
+Vitamin D deficiency drives a compensatory rise in PTH
+Low calcium with high PTH is secondary hyperparathyroidism
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vitamin D deficiency reduces intestinal calcium absorption and lowers plasma ionized calcium. The hypocalcaemia drives a compensatory (secondary) increase in parathyroid hormone secretion, so the biochemical picture is a low ionized calcium together with a high PTH. This contrasts with primary hyperparathyroidism (high PTH with high calcium) and with hypoparathyroidism (low PTH with low calcium).
+## explicit_objective
+Recognise low ionized calcium with high PTH as secondary hyperparathyroidism of vitamin D deficiency.
+## pitfalls
+Reading any high PTH as primary hyperparathyroidism; when calcium is low the high PTH is a secondary, compensatory response.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Calcium regulation
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## article_ids
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q9 = c).

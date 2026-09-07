@@ -540,3 +540,26 @@ Dedup rate Ch.3 ~ moderate; 8 clean fresh synthesis/transport/metabolism/mechani
 a later slice: Q22/Q27 (Graves exophthalmos = extraocular-muscle autoantibodies) and Q20 (iodine deficiency ->
 high TSH / endemic goitre) — both fresh but deferred to keep this slice at 8. NEXT: Ch.4 Calcium regulation
 (p.19-23).
+
+Ch.4 Calcium regulation (30 Qs) recovered keys:
+Q1.b  Q2.b  Q3.a  Q4.d  Q5.a  Q6.d  Q7.c  Q8.d  Q9.c  Q10.d  Q11.d  Q12.e  Q13.b  Q14.b  Q15.b
+Q16.d Q17.d Q18.b Q19.b Q20.d Q21.a Q22.a Q23.c Q24.b Q25.a Q26.b Q27.d Q28.d Q29.a Q30.b
+
+— Authoring pass 2026-09-07, SLICE 3 (8 fresh MCQs, Ch.4 Calcium regulation) —
+Authored: Q1 (PTH stimulates renal 1-alpha-hydroxylase -> activates vitamin D; Q27 corroborates), Q13
+(calcitonin lowers Ca by inhibiting osteoclasts; Q15/Q20/Q24 corroborate), Q19 (PTH acts on osteoblast
+RANKL to drive osteoclasts), Q18 (PTH stimulates distal-tubule Ca reabsorption + proximal phosphaturia),
+Q26 (PTH receptor = membrane GPCR), Q25 (first-line buffer = labile bone Ca pool exchange), Q17 (vitamin D
+synthesised in skin from 7-dehydrocholesterol — EXCEPT stem), Q9 (low Ca + high PTH = secondary
+hyperparathyroidism of vit D deficiency). 8 concepts minted university-blind (all CON-END-*), collision-
+checked corpus-wide (0 collisions, 0 in-batch dupes), grouped into 1 new article
+(ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY). Subject tag endo. All 8 keys read from the printed answer line.
+SKIPPED as dupes of the authored 207-END physiology corpus: Q3/Q4/Q6/Q14/Q16 (PTH released by low ionized Ca
+= parathyroid-hormone.secretion-regulation.plasma-calcium), Q5 (active vit D = 1,25-DHCC = vitamin-d.active-
+form), Q23 (PTH raises Ca by intestinal absorption = calcitriol.intestinal-calcium-absorption, 2023 Q81
+dup), Q29 (hyperpara lowers phosphate = parathyroid-hormone.phosphate-effect.hypophosphatemia), Q30 (hypopara
+2ndary to thyroidectomy = hypoparathyroidism.post-thyroidectomy), Q2/Q21/Q22 (hypocalcaemic tetany =
+hypoparathyroidism.post-thyroidectomy.hypocalcemic-tetany; latent-tetany range low-yield), Q7/Q28 (PTH bone
+resorption/fastest via bone = folded into osteoblast-RANKL + labile-pool concepts). Held for a later slice:
+Q11/Q12 (hyperphosphataemia stimulates PTH). Dedup rate Ch.4 ~ moderate; the PTH-mechanism / calcitonin /
+vitamin-D-synthesis seam was fresh despite a saturated PTH-basics corpus. NEXT: Ch.5 Adrenal cortex (p.24-28).

@@ -401,6 +401,222 @@
    "learning_objective": "State that thyroid hormone is stored in follicular colloid bound within thyroglobulin.",
    "field_notes": { "keySource": "printed answer key (Q5 = b)", "kasr": "Dr Shebl physiology bank, Ch.3 Thyroid p.12" },
    "library_ids": ["ART-END-207END-SHEBL-THYROID-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q01",
+   "id": "QST-KASR207END-PHYSHEBL-015",
+   "page": "Ch.4 Calcium p.19 (Q1; Q27 corroborates)",
+   "title": "PTH stimulates renal 1-alpha-hydroxylase to activate vitamin D",
+   "question": "Which of the following is a direct effect of parathyroid hormone (PTH)?",
+   "options": {
+    "A": "Increased osteoclast activity",
+    "B": "Increased 1-hydroxylase activity",
+    "C": "Increased intestinal synthesis of calcium-binding protein",
+    "D": "Increased renal tubular phosphate reabsorption"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. PTH does raise osteoclastic resorption, but indirectly through osteoblast RANKL; osteoclasts lack PTH receptors, so this is not a direct PTH effect.",
+    "B": "Correct. PTH acts directly on the renal proximal tubule to stimulate 1-alpha-hydroxylase, the enzyme that converts 25-hydroxyvitamin D to active 1,25-dihydroxyvitamin D (calcitriol). The resulting calcitriol then raises intestinal calcium absorption. Thus PTH's intestinal effect is indirect, mediated by activation of vitamin D.",
+    "C": "Incorrect. Intestinal calcium-binding protein (calbindin) is induced by calcitriol, not directly by PTH.",
+    "D": "Incorrect. PTH inhibits proximal tubular phosphate reabsorption (causing phosphaturia); it does not increase it."
+   },
+   "main_concept": "CON-END-084FBC4B99D6C7",
+   "concept_ids": ["CON-END-084FBC4B99D6C7"],
+   "subtopic": "Calcium regulation",
+   "module_subject": "207 END > Physiology > Calcium regulation",
+   "learning_objective": "State that PTH stimulates renal 1-alpha-hydroxylase, activating vitamin D to raise calcium.",
+   "field_notes": { "keySource": "printed answer key (Q1 = b; Q27 = d 'final activation of vitamin D' corroborates)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.19 and p.23" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q13",
+   "id": "QST-KASR207END-PHYSHEBL-016",
+   "page": "Ch.4 Calcium p.21 (Q13; Q15/Q20/Q24 corroborate)",
+   "title": "Calcitonin lowers plasma calcium by inhibiting osteoclasts",
+   "question": "Which of the following hormones lowers the plasma level of ionized calcium?",
+   "options": {
+    "A": "Calcineurin",
+    "B": "Calcitonin",
+    "C": "Parathyroid hormone",
+    "D": "PTH-related peptide"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Calcineurin is an intracellular phosphatase in signal transduction, not a calcium-regulating hormone.",
+    "B": "Correct. Calcitonin, secreted by thyroid parafollicular C cells when plasma calcium rises, lowers ionized calcium mainly by inhibiting osteoclastic bone resorption. It also increases urinary calcium excretion. Its actions therefore oppose those of PTH.",
+    "C": "Incorrect. Parathyroid hormone raises, rather than lowers, plasma calcium.",
+    "D": "Incorrect. PTH-related peptide mimics PTH and raises calcium, as in humoral hypercalcaemia of malignancy."
+   },
+   "main_concept": "CON-END-142B28D7611EFC",
+   "concept_ids": ["CON-END-142B28D7611EFC"],
+   "subtopic": "Calcium regulation",
+   "module_subject": "207 END > Physiology > Calcium regulation",
+   "learning_objective": "State that calcitonin lowers plasma calcium chiefly by inhibiting osteoclasts.",
+   "field_notes": { "keySource": "printed answer key (Q13 = b; Q15 = b, Q20 = d, Q24 = b corroborate)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.21-22" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q19",
+   "id": "QST-KASR207END-PHYSHEBL-017",
+   "page": "Ch.4 Calcium p.21 (Q19)",
+   "title": "PTH acts on osteoblast receptors to drive osteoclasts (RANKL)",
+   "question": "Parathyroid hormone:",
+   "options": {
+    "A": "Increases intestinal absorption of Ca2+ independent of 1,25(OH)2 D3",
+    "B": "Binds osteoblastic receptors to stimulate osteoclast activity",
+    "C": "Secretion is increased by a rise in plasma Ca2+ concentration",
+    "D": "Decreases the production of 1,25(OH)2 D3"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. PTH increases intestinal calcium absorption indirectly through 1,25(OH)2 D3, not independently of it.",
+    "B": "Correct. Osteoclasts have no PTH receptors; PTH binds receptors on osteoblasts and stromal cells, which then express RANKL. RANKL engages RANK on osteoclast precursors to drive their maturation and bone resorption, releasing calcium. So PTH stimulates osteoclasts only indirectly, via osteoblasts.",
+    "C": "Incorrect. PTH secretion is stimulated by a fall, not a rise, in plasma ionized calcium.",
+    "D": "Incorrect. PTH increases the production of 1,25(OH)2 D3 by stimulating renal 1-alpha-hydroxylase."
+   },
+   "main_concept": "CON-END-EC715609020066",
+   "concept_ids": ["CON-END-EC715609020066"],
+   "subtopic": "Calcium regulation",
+   "module_subject": "207 END > Physiology > Calcium regulation",
+   "learning_objective": "Explain that PTH acts on osteoblast receptors (RANKL) to stimulate osteoclastic resorption.",
+   "field_notes": { "keySource": "printed answer key (Q19 = b)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.21-22" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q18",
+   "id": "QST-KASR207END-PHYSHEBL-018",
+   "page": "Ch.4 Calcium p.21 (Q18)",
+   "title": "PTH stimulates distal-tubule calcium reabsorption",
+   "question": "Which of the following results from the action of parathyroid hormone on the renal tubule?",
+   "options": {
+    "A": "Inhibition of 1-alpha-hydroxylase",
+    "B": "Stimulation of Ca2+ reabsorption in the distal tubule",
+    "C": "Stimulation of phosphate reabsorption in the proximal tubule",
+    "D": "Interaction with receptors on the luminal membrane of proximal tubular cells"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. PTH stimulates, rather than inhibits, renal 1-alpha-hydroxylase.",
+    "B": "Correct. PTH acts on the distal convoluted tubule to increase active calcium reabsorption, reducing urinary calcium loss and helping to raise plasma calcium. This renal action complements its effects on bone and on vitamin D. At the same time PTH inhibits proximal phosphate reabsorption, producing phosphaturia.",
+    "C": "Incorrect. PTH inhibits proximal phosphate reabsorption (phosphaturia); it does not stimulate it.",
+    "D": "Incorrect. PTH binds receptors on the basolateral (peritubular) membrane, not the luminal membrane, of tubular cells."
+   },
+   "main_concept": "CON-END-33602598E3AE52",
+   "concept_ids": ["CON-END-33602598E3AE52"],
+   "subtopic": "Calcium regulation",
+   "module_subject": "207 END > Physiology > Calcium regulation",
+   "learning_objective": "State that PTH increases distal-tubule calcium reabsorption while causing proximal phosphaturia.",
+   "field_notes": { "keySource": "printed answer key (Q18 = b)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.21" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q26",
+   "id": "QST-KASR207END-PHYSHEBL-019",
+   "page": "Ch.4 Calcium p.23 (Q26)",
+   "title": "The PTH receptor is a cell-membrane (GPCR) receptor",
+   "question": "The receptor for parathyroid hormone is:",
+   "options": {
+    "A": "Cytoplasmic",
+    "B": "Membrane receptor",
+    "C": "Nuclear",
+    "D": "Non-specific"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Cytoplasmic receptors serve lipophilic hormones; PTH is a peptide and cannot cross the membrane to reach one.",
+    "B": "Correct. PTH is a peptide hormone that binds a G-protein-coupled receptor on the target-cell membrane. Receptor activation raises intracellular cyclic AMP (and IP3/calcium), which mediates PTH's renal and bone actions. Being water-soluble, PTH cannot enter the cell to reach an intracellular receptor.",
+    "C": "Incorrect. Nuclear receptors bind lipophilic hormones such as steroids and thyroid hormone, not peptide PTH.",
+    "D": "Incorrect. The PTH receptor is a specific membrane GPCR, not a non-specific binding site."
+   },
+   "main_concept": "CON-END-A902400E215CCD",
+   "concept_ids": ["CON-END-A902400E215CCD"],
+   "subtopic": "Calcium regulation",
+   "module_subject": "207 END > Physiology > Calcium regulation",
+   "learning_objective": "Identify the PTH receptor as a membrane G-protein-coupled receptor acting via cyclic AMP.",
+   "field_notes": { "keySource": "printed answer key (Q26 = b)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.23" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q25",
+   "id": "QST-KASR207END-PHYSHEBL-020",
+   "page": "Ch.4 Calcium p.22 (Q25)",
+   "title": "The first-line calcium buffer is exchange with the labile bone pool",
+   "question": "The first line of defence to buffer rapid changes of plasma calcium is:",
+   "options": {
+    "A": "Rapid shift of calcium from the labile calcium pool to or from plasma",
+    "B": "Secretion of parathyroid hormone",
+    "C": "Activation of vitamin D3",
+    "D": "Inhibition of calcitonin hormone"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The fastest buffer of plasma calcium is the hormone-independent physicochemical exchange between plasma and a readily exchangeable ('labile') pool of calcium in bone and other tissues. This exchange acts within minutes, before hormonal responses can develop. PTH and vitamin D then provide slower, sustained correction.",
+    "B": "Incorrect. PTH secretion is a hormonal response that takes longer than the immediate physicochemical exchange.",
+    "C": "Incorrect. Activation of vitamin D and its intestinal effect develop over hours to days, not immediately.",
+    "D": "Incorrect. A change in calcitonin is a minor and slower influence, not the first-line rapid buffer."
+   },
+   "main_concept": "CON-END-613C0CBC2F4B0B",
+   "concept_ids": ["CON-END-613C0CBC2F4B0B"],
+   "subtopic": "Calcium regulation",
+   "module_subject": "207 END > Physiology > Calcium regulation",
+   "learning_objective": "Identify rapid exchange with the labile bone calcium pool as the first-line plasma-calcium buffer.",
+   "field_notes": { "keySource": "printed answer key (Q25 = a)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.22" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q17",
+   "id": "QST-KASR207END-PHYSHEBL-021",
+   "page": "Ch.4 Calcium p.21 (Q17)",
+   "title": "Vitamin D is synthesised in the skin from 7-dehydrocholesterol",
+   "question": "All the following about vitamin D are correct, EXCEPT:",
+   "options": {
+    "A": "Deficiency may result in hyperparathyroidism",
+    "B": "It is essential for normal calcification of bone in childhood",
+    "C": "It requires hepatic modification for activation",
+    "D": "It cannot be synthesized in the body"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect (a true statement). Vitamin D deficiency lowers calcium and drives a secondary rise in PTH, so this statement is correct and is not the exception.",
+    "B": "Incorrect (a true statement). Vitamin D is required for normal bone mineralisation, and its deficiency causes rickets in children, so this is correct.",
+    "C": "Incorrect (a true statement). Vitamin D is 25-hydroxylated in the liver (then 1-alpha-hydroxylated in the kidney), so hepatic modification is genuinely required.",
+    "D": "Correct (the false statement, hence the exception). Vitamin D can be made in the body: ultraviolet light converts 7-dehydrocholesterol in the skin to cholecalciferol (vitamin D3). The claim that it cannot be synthesised is therefore wrong."
+   },
+   "main_concept": "CON-END-3D9C5B5EC115E0",
+   "concept_ids": ["CON-END-3D9C5B5EC115E0"],
+   "subtopic": "Vitamin D",
+   "module_subject": "207 END > Physiology > Vitamin D",
+   "learning_objective": "State that vitamin D3 is synthesised in the skin from 7-dehydrocholesterol under UV light.",
+   "field_notes": { "keySource": "printed answer key (Q17 = d)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.21" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c4q09",
+   "id": "QST-KASR207END-PHYSHEBL-022",
+   "page": "Ch.4 Calcium p.20 (Q9)",
+   "title": "Low calcium with high PTH indicates vitamin D deficiency",
+   "question": "A decrease in plasma ionized calcium together with an increase in PTH is most likely found in a patient with:",
+   "options": {
+    "A": "Hypoparathyroidism",
+    "B": "Primary hyperparathyroidism",
+    "C": "Vitamin D deficiency",
+    "D": "Vitamin D excess"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. In hypoparathyroidism PTH is low, not raised, so it cannot explain a high PTH.",
+    "B": "Incorrect. Primary hyperparathyroidism raises PTH, but the plasma calcium is high, not low.",
+    "C": "Correct. Vitamin D deficiency reduces intestinal calcium absorption and lowers plasma ionized calcium. The low calcium then drives a compensatory (secondary) rise in PTH. The combination of low ionized calcium with high PTH is therefore typical of vitamin D deficiency.",
+    "D": "Incorrect. Vitamin D excess raises calcium absorption and plasma calcium, which suppresses PTH."
+   },
+   "main_concept": "CON-END-F6E929F09E8F71",
+   "concept_ids": ["CON-END-F6E929F09E8F71"],
+   "subtopic": "Calcium regulation",
+   "module_subject": "207 END > Physiology > Calcium regulation",
+   "learning_objective": "Recognise low ionized calcium with high PTH as secondary hyperparathyroidism of vitamin D deficiency.",
+   "field_notes": { "keySource": "printed answer key (Q9 = c)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.20" },
+   "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
   }
  ]
 }

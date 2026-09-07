@@ -277,3 +277,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.3 Thyroid).
 ## reading_time
 7
+
+---
+
+# Item
+## id
+ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY
+## title
+Calcium regulation: PTH, vitamin D and calcitonin
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+Plasma calcium is defended on three timescales. The fastest, hormone-independent buffer is exchange with a labile pool of bone calcium, acting within minutes. Parathyroid hormone, a peptide acting through a membrane G-protein-coupled receptor, then raises calcium by three routes: it stimulates osteoclastic resorption indirectly through osteoblast RANKL, it increases distal-tubule calcium reabsorption (while causing proximal phosphaturia), and it stimulates renal 1-alpha-hydroxylase to activate vitamin D. Active vitamin D (calcitriol), made from cutaneous 7-dehydrocholesterol after hepatic and renal hydroxylation, raises intestinal calcium absorption. Calcitonin from thyroid C cells opposes PTH, lowering calcium mainly by inhibiting osteoclasts. Low ionized calcium with a high PTH indicates secondary hyperparathyroidism, typically from vitamin D deficiency.
+## sections
+### Definition
+This article groups the calcium-regulation facts tested by the Dr Shebl set: the labile-pool first-line buffer, the membrane PTH receptor, PTH's osteoblast-RANKL bone action, its distal-tubule calcium reabsorption, its activation of renal 1-alpha-hydroxylase, cutaneous vitamin D synthesis, calcitonin's osteoclast inhibition, and secondary hyperparathyroidism of vitamin D deficiency.
+### Mechanism
+PTH binds a surface GPCR that raises cyclic AMP; through osteoblast RANKL it recruits osteoclasts, in the distal tubule it conserves calcium, and in the proximal tubule it induces 1-alpha-hydroxylase and phosphaturia. Calcitriol arising from this and from cutaneous synthesis raises gut calcium absorption, while calcitonin inhibits osteoclasts to lower calcium.
+### Key determinants
+Discriminators tested here: physicochemical bone-plasma buffering (fastest) versus hormonal correction; the indirect osteoblast route of PTH; distal calcium reabsorption with proximal phosphaturia; renal activation of vitamin D; cutaneous vitamin D synthesis; and the low-calcium/high-PTH pattern of secondary hyperparathyroidism.
+### Clinical significance
+These points underlie the biochemical distinction of primary from secondary hyperparathyroidism, the hypocalcaemic tetany of hypoparathyroidism, the rickets/osteomalacia of vitamin D deficiency, and the rationale for vitamin D and calcium in bone disease.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors here are built from those reversals (PTH acting directly on osteoclasts or intestine, PTH using a nuclear receptor, vitamin D being purely dietary, or reading every high PTH as primary disease).
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Calcium regulation
+## subtopic
+Calcium regulation
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## related_concepts
+CON-END-084FBC4B99D6C7
+CON-END-142B28D7611EFC
+CON-END-EC715609020066
+CON-END-33602598E3AE52
+CON-END-A902400E215CCD
+CON-END-613C0CBC2F4B0B
+CON-END-3D9C5B5EC115E0
+CON-END-F6E929F09E8F71
+## related_articles
+
+## resource_ids
+src_8363527119860a6d39ed
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.4 Calcium regulation).
+## reading_time
+7
