@@ -2824,8 +2824,8 @@
    "fileType": "pdf",
    "pageCount": 5,
    "textLayer": "none",
-   "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "processingStatus": "extracted",
+   "extractionDisposition": "authored 17 MCQs (Q1-25 slice) — biochem-bank1 tranches 1-3; Q26-30 fatty-liver/detox held/dupe"
   },
   {
    "sourceId": "src_73b6280e7cfd2b7f110c",

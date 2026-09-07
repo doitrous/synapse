@@ -390,3 +390,41 @@ semantic categories).
 **THE ANATOMY MCQ BANK IS NOW FULLY TRIAGED (pp.1-54, p54 blank).** Next 206-DIG source = the
 unsolved GIT/physiology/histology department banks in `coverage/KAU-Y2-priority-sources.md` (need
 a fresh key-recovery/OCR pass; no more circle-keyed material remains in this anatomy bank).
+
+## Biochemistry department bank — `Bio MCQ [GIT].pdf` (first NON-anatomy department bank)
+
+First non-anatomy 206-DIG bank authored (sourceId `src_a5284e5337d583b3ff25`, tier 5,
+Biochemistry Dpt / MCQs folder). Native-text (OCR-clean via `pagetext show`), 30 single-best
+items, **UNKEYED** (0 marked answers on every page, confirmed by `pagetext keys`) — answers
+**expert-determined** by biochemical reasoning per the 2026-09-07 Omar ruling, with per-option
+rationale in each item's `explanations` and `field_notes.keySource` = "expert-determined, no
+source key; rationale in explanations". STATUS=Draft.
+
+biochem-bank1-tranche-1 (Q1,Q2,Q5): 3 authored — carbohydrate transport (SGLT1, GLUT5, muscle
+GLUT4), 3 new `CON-GIT-*` concepts under DIS-BIO-T03 (Carbohydrate metabolism) + SYS-GIT-T01,
+1 article `ART-GIT-206DIG-BIOCHEM-CARB-ABSORPTION`. Held: Q3 (2 defensible glucose transporters
+in small intestine), Q4 (multi-true: lactase and beta-galactosidase statements both correct).
+biochem-bank1-tranche-2 (Q6-Q15): 8 authored — carbohydrate (GLUT4, dietary pentose, cellulose
+fibre, salivary amylase; DIS-BIO-T03) and lipid digestion (chylomicron transport, TAG synthesis,
+bile-salt emulsification, micelle orientation; DIS-BIO-T04), 8 new concepts, 1 article
+`ART-GIT-206DIG-BIOCHEM-DIGESTION-BASICS`. Held Q10 (renal-threshold stem ambiguous); skipped
+Q14 (steatorrhoea — dupe of tranche-6 lipid-malabsorption concept), Q16 (internal dupe of Q13).
+biochem-bank1-tranche-3 (Q17-Q25): 6 authored — lipoprotein lipase, pancreatic lipase (DIS-BIO-T04),
+L-amino-acid absorption, glutathione synthesis (DIS-BIO-T05), phase I / phase II detoxification
+(DIS-BIO-T07), 6 new concepts, 1 article `ART-GIT-206DIG-BIOCHEM-LIPASE-PROTEIN-DETOX`. Held
+Q26 (all four options can cause fatty liver — ambiguous), Q27 (which vitamin deficiency spares
+fatty liver — controversial), Q28 (betaine and choline both methyl donors — ambiguous), Q29
+(niacin-megadose fatty-liver mechanism — niche/uncertain). Skipped as dupes of the tranche-6
+liver-biochemistry cluster: Q23 (lipotropic/fatty liver), Q30 (VLDL export capacity).
+
+Bank total: **17 authored** (Q1-25 slice), 6 held, 4 skipped-dupe; Q26-30 fatty-liver/detox
+tail is dupe-saturated vs the already-authored tranche-6 liver biochemistry, so the bank is
+effectively complete. All 17 minted concepts collision-checked (15618 IDs, no collisions);
+concept files use the `---` record separator (parseMarkdown splits on `---`, NOT `# Item` —
+a missing separator silently drops all but the last item). Gate-clean per slice (batch 0 errors
+×3); combined simulate 10 files created=40/rejected=0/errors=0.
+
+206-DIG authored total now: 260 + 17 (biochemistry bank) = **277 MCQs**. Next 206-DIG source =
+remaining Biochemistry Dpt banks (`Bio [McQs] last exams [GIT].pdf`, `Bio EXAMS DIG.pdf`,
+`BIO MCQ by Dr.Hanan [GIT].pdf`), then Physiology Dpt `Physio MCQ [GIT]` banks, then Histology
+Dpt `histo MCQ_DIG-206.pdf` — see `coverage/KAU-Y2-priority-sources.md`.
