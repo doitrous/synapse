@@ -1,0 +1,185 @@
+{
+ "lane": "KASR-207END",
+ "cluster": "zahra-male-histology-b",
+ "header": "KASR-207END - Dr Ahmed Zahra HISTOLOGY MCQ bank, MALE reproductive section (pp.12-19), slice B. Same source src_1b57cb8c6e1e06c67ec5; keys from the printed p.19 Dr Zahra answer table, cross-checked against each stem for a clean single-best answer. Concepts already minted+collision-checked in 207-END-zahra-male-histology-concepts.md (CON-AND-, university-blind). Doctor topic bank -> examSittingYear null.\n\n  Import: Admin > Bulk import -> question.",
+ "defaults": {
+  "subject": "androl",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": ["kau"],
+  "years": ["KAU_Y2"],
+  "module": "207 END",
+  "exam_weight_by_year": { "KAU_Y2": "moderate" },
+  "question_only_for": "",
+  "resource_ids": ["src_1b57cb8c6e1e06c67ec5"],
+  "source_citation": "Kasr Al Ainy 207 END - Dr Zahra histology MCQ bank (Male section), {page}",
+  "setting": "Academic",
+  "difficulty": "Moderate",
+  "question_type": "Single best answer",
+  "cognitive_effort": "Medium",
+  "reasoning_level": 2,
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Histology",
+  "library_ids": ["ART-AND-207END-ZAHRA-TESTIS-HISTOLOGY"]
+ },
+ "questions": [
+  {
+   "key": "zq33",
+   "id": "QST-KASR207END-ZAHRAMALE-009",
+   "page": "Male p.14 (Dr Zahra Q33)",
+   "title": "Contents of the sperm head",
+   "question": "The head of a mature spermatozoon contains:",
+   "options": {
+    "A": "A flattened dense nucleus capped with an acrosomal cap",
+    "B": "The axonemal complex",
+    "C": "A pair of centrioles",
+    "D": "Mitochondria"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The head of a mature spermatozoon consists of a flattened, highly condensed haploid nucleus capped anteriorly by the acrosome (acrosomal cap), a Golgi-derived sac of hydrolytic enzymes. The condensed chromatin gives the head its dense, flattened profile, and the acrosome covers about the anterior two-thirds of the nucleus. The head therefore carries the genetic material and the enzymes for fertilisation.",
+    "B": "Incorrect. The axonemal complex is the microtubular core of the flagellum (tail), not a component of the head.",
+    "C": "Incorrect. The centrioles lie in the neck (connecting piece) between the head and the tail, not within the head.",
+    "D": "Incorrect. Mitochondria form the sheath of the middle piece of the tail; they are not part of the head."
+   },
+   "main_concept": "CON-AND-4C3E6284897243",
+   "concept_ids": ["CON-AND-4C3E6284897243"],
+   "subtopic": "Spermatozoon structure",
+   "module_subject": "207 END > Histology > Spermatozoon structure",
+   "learning_objective": "Describe the sperm head as a condensed nucleus capped by the acrosome.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q33 = A)", "kasr": "Dr Zahra histology bank, Male section p.14" }
+  },
+  {
+   "key": "zq34",
+   "id": "QST-KASR207END-ZAHRAMALE-010",
+   "page": "Male p.14 (Dr Zahra Q34)",
+   "title": "Fate of residual bodies",
+   "question": "Residual bodies formed during spermiogenesis are phagocytosed by:",
+   "options": {
+    "A": "The interstitial (Leydig) cells",
+    "B": "The Sertoli cells",
+    "C": "The primary spermatocytes",
+    "D": "The spermatids"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Interstitial (Leydig) cells lie outside the seminiferous tubule and secrete testosterone; they do not phagocytose residual bodies.",
+    "B": "Correct. As the spermatid matures, its excess cytoplasm is pinched off as residual bodies, which are phagocytosed and digested by the surrounding Sertoli cells. This is one of the supportive/phagocytic roles of the Sertoli cell within the seminiferous epithelium. The recycled material contributes to the Sertoli cell's metabolic support of spermatogenesis.",
+    "C": "Incorrect. Primary spermatocytes are dividing germ cells, not phagocytes.",
+    "D": "Incorrect. Spermatids are the cells shedding the residual bodies, not the cells that remove them."
+   },
+   "main_concept": "CON-AND-9EB8B7531CD373",
+   "concept_ids": ["CON-AND-9EB8B7531CD373"],
+   "subtopic": "Spermiogenesis",
+   "module_subject": "207 END > Histology > Spermiogenesis",
+   "learning_objective": "State that Sertoli cells phagocytose the residual bodies of spermiogenesis.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q34 = B)", "kasr": "Dr Zahra histology bank, Male section p.14" }
+  },
+  {
+   "key": "zq36",
+   "id": "QST-KASR207END-ZAHRAMALE-011",
+   "page": "Male p.14 (Dr Zahra Q36)",
+   "title": "Duration of spermatogenesis in man",
+   "question": "The duration of spermatogenesis in man is about:",
+   "options": {
+    "A": "16 days",
+    "B": "74 days",
+    "C": "46 days",
+    "D": "36 hours"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Sixteen days is far too short for the complete human spermatogenic process.",
+    "B": "Correct. Spermatogenesis in man, from a type-A spermatogonium to a released spermatozoon, takes approximately 74 days (about two and a half months), with further maturation in the epididymis afterwards. This long, fixed duration explains why a change in testicular conditions is reflected in the ejaculate only after several weeks.",
+    "C": "Incorrect. Forty-six days underestimates the human spermatogenic cycle, which is close to 74 days.",
+    "D": "Incorrect. Thirty-six hours is the order of a single cell cycle, not the whole spermatogenic process."
+   },
+   "main_concept": "CON-AND-4E1021DF918656",
+   "concept_ids": ["CON-AND-4E1021DF918656"],
+   "subtopic": "Spermatogenesis",
+   "module_subject": "207 END > Histology > Spermatogenesis",
+   "learning_objective": "State that spermatogenesis in man lasts about 74 days.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q36 = B); Department Q6 = b corroborates", "kasr": "Dr Zahra histology bank, Male section p.14" }
+  },
+  {
+   "key": "zq43",
+   "id": "QST-KASR207END-ZAHRAMALE-012",
+   "page": "Male p.14 (Dr Zahra Q43)",
+   "title": "Largest spermatogenic cell",
+   "question": "The largest spermatogenic cell in the seminiferous tubule is the:",
+   "options": {
+    "A": "Spermatid",
+    "B": "Secondary spermatocyte",
+    "C": "Primary spermatocyte",
+    "D": "Type B spermatogonium"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The spermatid is a small, later cell that undergoes metamorphosis into a spermatozoon; it is not the largest.",
+    "B": "Incorrect. Secondary spermatocytes are smaller, short-lived cells that quickly complete the second meiotic division and are rarely seen in sections.",
+    "C": "Correct. Primary spermatocytes are the largest cells of the spermatogenic series. They arise from type-B spermatogonia and are diploid (2n) but hold 4N DNA, because they spend a long prophase of the first meiotic division after replicating their DNA, which makes them large and conspicuous in testicular sections.",
+    "D": "Incorrect. Type-B spermatogonia are smaller basal cells that give rise to the primary spermatocytes; they are not the largest."
+   },
+   "main_concept": "CON-AND-3D9E195F5C7996",
+   "concept_ids": ["CON-AND-3D9E195F5C7996"],
+   "subtopic": "Spermatogenesis",
+   "module_subject": "207 END > Histology > Spermatogenesis",
+   "learning_objective": "Identify the primary spermatocyte as the largest spermatogenic cell.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q43 = C); Male Q39 = B (primary spermatocytes diploid) corroborates", "kasr": "Dr Zahra histology bank, Male section p.14" }
+  },
+  {
+   "key": "zq42",
+   "id": "QST-KASR207END-ZAHRAMALE-013",
+   "page": "Male p.14 (Dr Zahra Q42)",
+   "title": "Erectile tissue of the corpora cavernosa",
+   "question": "The erectile tissue of the corpora cavernosa is formed of:",
+   "options": {
+    "A": "Mucous-secreting glands",
+    "B": "Vascular (venous) spaces",
+    "C": "Smooth muscle fibres only",
+    "D": "Elastic connective tissue only"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Erectile tissue contains no mucous glands; it is a vascular sponge.",
+    "B": "Correct. The erectile tissue of the corpora cavernosa is a sponge-like network of endothelium-lined vascular (venous) spaces. These spaces are separated by trabeculae of smooth muscle together with collagen, reticular and elastic fibres, and during erection the helicine arteries fill them with blood while venous drainage is compressed. It is the blood-filled venous spaces, not glands or a single tissue type, that define the erectile tissue.",
+    "C": "Incorrect. Smooth muscle is present in the trabeculae but does not by itself constitute the erectile tissue, which is defined by its venous spaces.",
+    "D": "Incorrect. Elastic connective tissue is only one component of the trabeculae, not the whole erectile tissue."
+   },
+   "main_concept": "CON-AND-6CBD61A5B9F671",
+   "concept_ids": ["CON-AND-6CBD61A5B9F671"],
+   "subtopic": "Penis",
+   "module_subject": "207 END > Histology > Penis",
+   "library_ids": ["ART-AND-207END-ZAHRA-MALE-DUCTS-GLANDS-HISTOLOGY"],
+   "learning_objective": "Describe corpora cavernosa erectile tissue as venous spaces separated by fibromuscular trabeculae.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q42 = B); Department Q30 = d (trabeculae of smooth muscle, collagen and elastic fibres) corroborates", "kasr": "Dr Zahra histology bank, Male section p.14" }
+  },
+  {
+   "key": "zq37",
+   "id": "QST-KASR207END-ZAHRAMALE-014",
+   "page": "Male p.14 (Dr Zahra Q37)",
+   "title": "Site of Reinke crystals",
+   "question": "Crystals of Reinke are seen in:",
+   "options": {
+    "A": "Sertoli cells",
+    "B": "The head of a spermatozoon",
+    "C": "Human Leydig cells",
+    "D": "Type B spermatogonia"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Sertoli cells are the tall supporting cells of the seminiferous epithelium; they do not contain Reinke crystals.",
+    "B": "Incorrect. The sperm head contains condensed nucleus and acrosome, not Reinke crystalloids.",
+    "C": "Correct. Crystals of Reinke are rod-shaped, membrane-free protein crystalloids found in the cytoplasm of adult human interstitial (Leydig) cells, alongside lipid droplets and lipofuscin pigment. They are characteristic of human Leydig cells and help identify them and their tumours. They are not found in Sertoli cells or germ cells.",
+    "D": "Incorrect. Type-B spermatogonia are basal germ cells and do not contain Reinke crystals."
+   },
+   "main_concept": "CON-AND-47F5B9F593F3AB",
+   "concept_ids": ["CON-AND-47F5B9F593F3AB"],
+   "subtopic": "Testis",
+   "module_subject": "207 END > Histology > Testis",
+   "learning_objective": "Recognise Reinke crystals as an inclusion of human Leydig cells.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q37 = C)", "kasr": "Dr Zahra histology bank, Male section p.14" }
+  }
+ ]
+}

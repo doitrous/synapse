@@ -1021,7 +1021,7 @@ authored_needs_independent_evidence
 
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-AND- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
-resourceOccurrenceIds: Fact grounded in standard histology teaching (Junqueira / di Fiore level) corroborated by the Zahra bank's own keyed stem/options (printed p.19 Department answer table; Male Department Q5 = a, "middle piece has mitochondrial sheath").
+resourceOccurrenceIds: Fact grounded in standard histology teaching (Junqueira / di Fiore level). Concept authored for the graph but NO MCQ was written from it: the bank's only middle-piece stem (Dr Zahra Male Q31, printed key c "supporting fibers") is a flawed EXCEPT item, because the outer dense fibres ARE supporting fibres present in the middle piece; Q31 is HELD per answer policy rather than propagated. The concept states the correct, defensible middle-piece structure.
 
 ---
 
