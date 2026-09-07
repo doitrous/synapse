@@ -8029,3 +8029,1299 @@ KAU_Y3=moderate
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-5D93B14B85363E
+## label
+Argatroban for anticoagulation in heparin-induced thrombocytopenia
+## canonical_key
+argatroban.direct-thrombin-inhibitor.hit
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Heparin-induced thrombocytopenia (HIT) is an immune, prothrombotic reaction that requires stopping all heparins and starting a non-heparin anticoagulant. Argatroban is a parenteral DIRECT THROMBIN INHIBITOR that does not cross-react with HIT antibodies, providing immediate anticoagulation; it is hepatically cleared (useful in renal impairment). Bivalirudin and lepirudin are alternatives.
+## explicit_objective
+Select a parenteral direct thrombin inhibitor (argatroban) for anticoagulation in HIT.
+## pitfalls
+Do not give any heparin (including LMWH) in HIT; oral agents (rivaroxaban, dabigatran) are not the acute parenteral choice.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticoagulant drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Anticoagulant drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-FF7AE1F7A1D733
+## label
+Alteplase is a fibrin-specific plasminogen activator
+## canonical_key
+alteplase.fibrin-specific.plasminogen-activator
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Alteplase (recombinant tissue plasminogen activator, tPA) preferentially activates plasminogen already bound to fibrin within a thrombus, making it relatively FIBRIN-SPECIFIC and localising lysis to the clot. Reteplase and tenecteplase share this property. Streptokinase and urokinase are non-selective, causing a systemic lytic state. Antifibrinolytics (aminocaproic/tranexamic acid) do the opposite — they inhibit fibrinolysis.
+## explicit_objective
+Identify alteplase (tPA) as a fibrin-specific plasminogen activator, contrasting with non-selective streptokinase.
+## pitfalls
+Aminocaproic and tranexamic acid are antifibrinolytics, not activators; streptokinase is not fibrin-specific.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Fibrinolytic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Fibrinolytic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-3EE31AECE6C7F1
+## label
+Ticagrelor reversibly inhibits the P2Y12 receptor
+## canonical_key
+ticagrelor.reversible-p2y12-inhibitor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Platelet ADP acts on the P2Y12 receptor to amplify aggregation. Ticagrelor binds P2Y12 REVERSIBLY (at a site distinct from ADP), so it does not require metabolic activation and has a faster onset and offset than the irreversible thienopyridines clopidogrel and prasugrel. Cangrelor is the reversible intravenous agent. Tirofiban/eptifibatide act on glycoprotein IIb/IIIa, a different target.
+## explicit_objective
+Identify ticagrelor as the reversible P2Y12 inhibitor and distinguish it from irreversible thienopyridines.
+## pitfalls
+Clopidogrel and prasugrel are irreversible prodrugs; tirofiban blocks GP IIb/IIIa, not P2Y12.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antiplatelet drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antiplatelet drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F2E6F27DA49D72
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-E7435673FA0A3C
+## label
+Rivaroxaban is an oral direct factor Xa inhibitor
+## canonical_key
+rivaroxaban.oral-factor-xa-inhibitor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rivaroxaban is a direct, orally active factor Xa inhibitor (a "-xaban") that binds the active site of factor Xa, reducing thrombin generation. Along with apixaban and edoxaban it is a direct oral anticoagulant (DOAC). Dabigatran is an oral direct thrombin (IIa) inhibitor; fondaparinux and enoxaparin inhibit Xa but are given parenterally. Andexanet alfa reverses factor Xa inhibitor bleeding.
+## explicit_objective
+Identify rivaroxaban as an oral direct factor Xa inhibitor, distinguishing it from dabigatran and parenteral agents.
+## pitfalls
+Dabigatran targets thrombin, not Xa; fondaparinux/enoxaparin are parenteral, not oral.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticoagulant drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Anticoagulant drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-5D93B14B85363E
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F2E6F27DA49D72
+## label
+Dipyridamole is an antiplatelet (PDE inhibitor), not a lipid drug
+## canonical_key
+dipyridamole.antiplatelet.pde-inhibitor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dipyridamole is an ANTIPLATELET drug: it inhibits platelet phosphodiesterase (raising cAMP) and blocks cellular adenosine uptake (raising extracellular adenosine), both of which reduce platelet activation; it is also a coronary vasodilator. It is used (often with aspirin) to prevent thromboembolism/stroke. It has no lipid-lowering action, so it does not belong with the antihyperlipidemics.
+## explicit_objective
+Recognise dipyridamole as an antiplatelet PDE inhibitor, not an antihyperlipidemic.
+## pitfalls
+Its coronary vasodilation can cause coronary steal; it is not a statin, fibrate or resin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antiplatelet drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antiplatelet drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-3EE31AECE6C7F1
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-D8994E4364DDC9
+## label
+Deferasirox is an oral iron chelator
+## canonical_key
+deferasirox.oral-iron-chelator
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Deferasirox is an orally active iron chelator used for chronic iron overload (e.g. transfusion-dependent thalassaemia and haemochromatosis where phlebotomy is unsuitable). Its oral route is the key advantage over parenteral desferrioxamine; deferiprone is another oral chelator. Iron dextran, by contrast, is a parenteral iron replacement, not a chelator.
+## explicit_objective
+Identify deferasirox as an oral iron chelator, distinct from parenteral desferrioxamine.
+## pitfalls
+Desferrioxamine is effective but must be given parenterally; iron dextran replaces iron rather than chelating it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Haematinics and chelators
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Haematinics and chelators
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-309692F9345A72
+## label
+Warfarin is teratogenic and contraindicated in pregnancy
+## canonical_key
+warfarin.contraindication.pregnancy-teratogen
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Warfarin crosses the placenta and is teratogenic: first-trimester exposure causes fetal warfarin syndrome (nasal hypoplasia, stippled epiphyses) and later exposure causes CNS defects and fetal haemorrhage. It is therefore contraindicated in pregnancy, and heparin or LMWH — which do not cross the placenta — are used instead. Andexanet alfa reverses Xa-inhibitor bleeding; aminocaproic acid treats fibrinolytic overdose; lepirudin is used in HIT.
+## explicit_objective
+Recognise that warfarin is teratogenic and contraindicated in pregnancy, with heparin used instead.
+## pitfalls
+Heparin/LMWH are the pregnancy-safe anticoagulants because they do not cross the placenta; warfarin does.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticoagulant drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Anticoagulant drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-DB84A9F69D4E02
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-DB84A9F69D4E02
+## label
+Anticoagulant antidotes: protamine for heparin, vitamin K for warfarin
+## canonical_key
+anticoagulant.antidotes.heparin-protamine-warfarin-vitamin-k
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Heparin has a rapid onset and short duration and is reversed by PROTAMINE SULFATE. Warfarin has a delayed onset (existing clotting factors must decay) and is reversed by VITAMIN K, with fresh frozen plasma or prothrombin complex concentrate for urgent bleeding. Because of warfarin's delayed effect, anticoagulation is begun with heparin and warfarin overlapped until the INR is therapeutic.
+## explicit_objective
+Distinguish anticoagulant antidotes: protamine reverses heparin, vitamin K reverses warfarin.
+## pitfalls
+Do not pair warfarin with protamine — protamine reverses heparin only; warfarin's antidote is vitamin K.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Anticoagulant drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Anticoagulant drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-309692F9345A72
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.5
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-13DE326A634F66
+## label
+Ezetimibe blocks intestinal cholesterol absorption
+## canonical_key
+ezetimibe.blocks-intestinal-cholesterol-absorption
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ezetimibe inhibits the NPC1L1 sterol transporter in the intestinal brush border, selectively blocking absorption of dietary and biliary cholesterol. This lowers cholesterol delivery to the liver and complements a statin (which reduces synthesis), giving additive LDL lowering. It is well tolerated and often added when a statin alone is insufficient.
+## explicit_objective
+Identify ezetimibe as the drug that blocks intestinal cholesterol absorption via NPC1L1.
+## pitfalls
+Ezetimibe blocks absorption, not synthesis (statins) or bile-acid reabsorption (resins).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-C9E0EE315EA370
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-C9E0EE315EA370
+## label
+Statins inhibit HMG-CoA reductase
+## canonical_key
+statin.mechanism.hmg-coa-reductase-inhibition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Statins competitively inhibit HMG-CoA reductase, the rate-limiting enzyme of hepatic cholesterol synthesis. Falling intracellular cholesterol upregulates hepatic LDL receptors, increasing clearance of LDL from plasma and lowering LDL cholesterol. They also have pleiotropic (anti-inflammatory, plaque-stabilising) effects. Their main adverse effects are myopathy and raised transaminases; they are contraindicated in pregnancy.
+## explicit_objective
+State that statins act by competitive inhibition of HMG-CoA reductase with compensatory LDL-receptor upregulation.
+## pitfalls
+Statins inhibit synthesis (not absorption, bile-acid binding, or PPAR-alpha); the LDL-lowering depends on LDL-receptor upregulation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-FE07E45D3B570A
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-94D226BCAF99B5
+## label
+Fibrates predispose to cholesterol gallstones
+## canonical_key
+fibrate.adverse.cholesterol-gallstones
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fibrates (gemfibrozil, fenofibrate) increase biliary cholesterol secretion and raise the cholesterol saturation of bile, promoting formation of cholesterol GALLSTONES. This lithogenic effect is a recognised adverse effect of the class, alongside myopathy (especially combined with statins) and transaminase elevation.
+## explicit_objective
+Attribute cholesterol gallstones to fibrate therapy through increased biliary cholesterol saturation.
+## pitfalls
+Statins and ezetimibe do not cause gallstones; the lithogenic effect is specific to fibrates.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-1B0791ACBCEA6A
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-B9730F9F23FB69
+## label
+Statin plus fibrate increases the risk of myopathy
+## canonical_key
+statin-fibrate.interaction.myopathy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Both statins and fibrates can cause muscle toxicity, and combining them markedly increases the risk of MYOPATHY and rhabdomyolysis. The risk is greatest with gemfibrozil, which inhibits statin glucuronidation and raises statin plasma levels; fenofibrate is preferred if a fibrate must be added to a statin. Muscle symptoms and creatine kinase should be monitored.
+## explicit_objective
+Recognise myopathy/rhabdomyolysis as the key risk of combining statins with fibrates.
+## pitfalls
+Gemfibrozil is the worst offender (pharmacokinetic interaction); fenofibrate is the safer fibrate to combine with a statin.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-C9E0EE315EA370
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.8
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-1B0791ACBCEA6A
+## label
+Fibrates are PPAR-alpha agonists that activate lipoprotein lipase
+## canonical_key
+fibrate.mechanism.ppar-alpha-activates-lpl
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fibrates (gemfibrozil, fenofibrate) are agonists of the nuclear receptor PPAR-alpha. This upregulates and ACTIVATES lipoprotein lipase and reduces apoC-III, enhancing clearance of triglyceride-rich lipoproteins and modestly raising HDL. They are therefore mainly triglyceride-lowering drugs. Adverse effects include gallstones and, with statins, myopathy.
+## explicit_objective
+State that fibrates activate (not inhibit) lipoprotein lipase via PPAR-alpha agonism, lowering triglycerides.
+## pitfalls
+A common trap says fibrates inhibit lipoprotein lipase; they activate it — that is how they clear triglycerides.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-94D226BCAF99B5
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-69BBFDC439FE40
+## label
+Statins are initiated early after acute coronary syndromes (pleiotropic)
+## canonical_key
+statin.initiate-after-acs.pleiotropic
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+High-intensity statin therapy should be started EARLY after an acute coronary syndrome, where it reduces recurrent events and mortality, partly through pleiotropic effects (improved endothelial function, anti-inflammatory action, plaque stabilisation) beyond LDL lowering. Statins also increase LDL clearance by upregulating hepatic LDL receptors. Advising against starting a statin after ACS is incorrect.
+## explicit_objective
+State that statins are initiated early after ACS and have pleiotropic, plaque-stabilising effects.
+## pitfalls
+Do not withhold statins after ACS; early initiation is guideline-recommended and benefit is not limited to LDL lowering.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-C9E0EE315EA370
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-FE07E45D3B570A
+## label
+Statins are contraindicated in pregnancy
+## canonical_key
+statin.contraindication.pregnancy-teratogen
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cholesterol and its downstream products (steroids, cell membranes) are essential for fetal development, so inhibiting cholesterol synthesis with a statin risks fetal harm. Statins are therefore contraindicated in pregnancy and are stopped before conception or as soon as pregnancy is recognised; bile-acid sequestrants (not systemically absorbed) are the preferred lipid agents if treatment is needed.
+## explicit_objective
+Recognise that statins are contraindicated in pregnancy.
+## pitfalls
+Bile-acid sequestrants are acceptable in pregnancy because they are not absorbed; statins and (by convention) other systemic lipid drugs are avoided.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-C9E0EE315EA370
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-50A5592544522D
+## label
+Cholesterol is a precursor of bile acids, steroids and vitamin D (not thyroid hormone)
+## canonical_key
+cholesterol.precursor.not-thyroid-hormone
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cholesterol is the biosynthetic precursor of bile acids, steroid hormones (adrenal and gonadal) and vitamin D3 (from 7-dehydrocholesterol in skin). It is NOT a precursor of thyroid hormones, which are synthesised from the amino acid tyrosine and iodine. This distinction explains why cholesterol-lowering does not affect thyroid hormone production.
+## explicit_objective
+Recall that cholesterol gives rise to bile acids, steroids and vitamin D but not thyroid hormones.
+## pitfalls
+Thyroid hormone comes from tyrosine + iodine, not cholesterol; the other three pathways do use cholesterol.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.2
+## exam_weight_by_year
+KAU_Y3=low
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

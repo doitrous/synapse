@@ -959,3 +959,189 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 7
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## title
+Haemostasis drugs: anticoagulants, antiplatelets, fibrinolytics and chelators
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Drugs acting on haemostasis fall into anticoagulants, antiplatelets, fibrinolytics and their antidotes. Anticoagulants include parenteral heparin (rapid, reversed by protamine), oral warfarin (delayed onset, reversed by vitamin K, teratogenic so avoided in pregnancy), and the direct oral anticoagulants — rivaroxaban (oral factor Xa inhibitor) and dabigatran (oral thrombin inhibitor); in heparin-induced thrombocytopenia a parenteral direct thrombin inhibitor such as argatroban is used. Antiplatelets include aspirin (COX inhibitor), P2Y12 inhibitors (clopidogrel/prasugrel irreversible, ticagrelor reversible), GP IIb/IIIa antagonists and dipyridamole (a PDE inhibitor). Fibrinolytics such as alteplase are fibrin-specific plasminogen activators, opposed by antifibrinolytics; deferasirox is an oral iron chelator for chronic iron overload.
+## sections
+### Definition
+This article groups the haemostasis concepts tested by the Blood section (Q8-23 selected).
+### Mechanism
+Anticoagulants inhibit clotting factors (thrombin or factor Xa) or their synthesis; antiplatelets block platelet activation pathways (COX, P2Y12, GP IIb/IIIa, PDE); fibrinolytics activate plasminogen to dissolve fibrin.
+### Key determinants
+Discriminators tested here: argatroban (parenteral DTI) for HIT; rivaroxaban = oral factor Xa inhibitor; ticagrelor = reversible P2Y12; alteplase = fibrin-specific fibrinolytic; warfarin teratogenic; protamine reverses heparin and vitamin K reverses warfarin; deferasirox = oral iron chelator; dipyridamole = antiplatelet (not a lipid drug).
+### Clinical significance
+These agents underpin prevention and treatment of venous and arterial thromboembolism, acute coronary syndromes and stroke, and the management of anticoagulant bleeding and iron overload.
+### Common misconceptions
+Frequent traps: giving warfarin in pregnancy, pairing warfarin with protamine, using an oral agent for acute HIT, and classing dipyridamole as a lipid drug; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Anticoagulant drugs
+## subtopic
+Anticoagulant drugs
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-5D93B14B85363E
+CON-PHA-FF7AE1F7A1D733
+CON-PHA-3EE31AECE6C7F1
+CON-PHA-E7435673FA0A3C
+CON-PHA-F2E6F27DA49D72
+CON-PHA-D8994E4364DDC9
+CON-PHA-309692F9345A72
+CON-PHA-DB84A9F69D4E02
+## related_articles
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+8
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-HYPOLIPIDEMICS
+## title
+Antihyperlipidemic drugs: statins, fibrates, ezetimibe and resins
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Lipid-lowering drugs are grouped by mechanism. Statins competitively inhibit HMG-CoA reductase, upregulating hepatic LDL receptors to clear LDL, with pleiotropic plaque-stabilising effects; they are started early after acute coronary syndromes, cause myopathy and are contraindicated in pregnancy. Ezetimibe blocks intestinal cholesterol absorption via NPC1L1, and bile-acid sequestrants (cholestyramine) prevent bile-acid reabsorption. Fibrates are PPAR-alpha agonists that activate lipoprotein lipase to lower triglycerides, but predispose to cholesterol gallstones and, combined with statins, to myopathy. Cholesterol itself is the precursor of bile acids, steroids and vitamin D, but not of thyroid hormones.
+## sections
+### Definition
+This article groups the antihyperlipidemic concepts tested by the Blood section (Q6,7,15-18,25,26 selected).
+### Mechanism
+Statins inhibit cholesterol synthesis; ezetimibe blocks absorption; resins sequester bile acids; fibrates activate lipoprotein lipase via PPAR-alpha to clear triglycerides.
+### Key determinants
+Discriminators tested here: ezetimibe = absorption blocker; statin = HMG-CoA reductase inhibitor, early after ACS, teratogenic; fibrate = PPAR-alpha/LPL activator causing gallstones; statin+fibrate = myopathy; cholesterol is not a thyroid-hormone precursor.
+### Clinical significance
+These agents reduce cardiovascular risk by lowering LDL and triglycerides, and their adverse effects (myopathy, gallstones) and the statin-fibrate interaction guide safe prescribing.
+### Common misconceptions
+Frequent traps: saying fibrates inhibit lipoprotein lipase (they activate it), withholding statins after ACS, and thinking cholesterol is a thyroid-hormone precursor; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > Blood > Antihyperlipidemic drugs
+## subtopic
+Antihyperlipidemic drugs
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-13DE326A634F66
+CON-PHA-C9E0EE315EA370
+CON-PHA-94D226BCAF99B5
+CON-PHA-B9730F9F23FB69
+CON-PHA-1B0791ACBCEA6A
+CON-PHA-69BBFDC439FE40
+CON-PHA-FE07E45D3B570A
+CON-PHA-50A5592544522D
+## related_articles
+ART-PAT-310-PHARMACOLOGY-HEMOSTASIS
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+8

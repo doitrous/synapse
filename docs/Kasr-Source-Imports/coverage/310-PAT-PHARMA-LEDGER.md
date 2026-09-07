@@ -21,7 +21,9 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · CVS Hypertension Q32,43,46,50,51,53,54 (pp.15-19) | 7 | 0 | 7 | 0 | 14 |
 | Abolmagd Pharma · CVS Heart Failure Q38,39,55,59-65 (pp.18-22) | 10 | 0 | 6 | 0 | 16 |
 | Abolmagd Pharma · CVS Dysrhythmia + mechanisms Q47,69,70,75,76,94,100,102 (pp.21-27) | 8 | 0 | 5 | 0 | 13 |
-| **Pharmacology subject total** | **101** | **0** | **32** | Blood/anticoagulants section (locate on later pp.); GI bank (`PHARMA GITTTTTTT.pdf`); Resp bank (`Pharma RSPPPPP.pdf`) | — |
+| Abolmagd Pharma · Blood — anticoagulant/antiplatelet/fibrinolytic Q8-23 (pp.29-33) | 8 | 1 | 2 | 0 | 11 |
+| Abolmagd Pharma · Blood — antihyperlipidemic Q6,7,15-18,25,26 (pp.30-33) | 8 | 0 | 6 | Lipoprotein physiology Q28-31 (biochem, deferred) | 14 |
+| **Pharmacology subject total** | **117** | **1** | **40** | GI bank (`PHARMA GITTTTTTT.pdf`, ~62 Q); Resp bank (`Pharma RSPPPPP.pdf`, ~39 Q) | — |
 
 ## Subject opened
 
@@ -162,12 +164,31 @@ now essentially exhausted for distinct facts. NOTE Q78-113 are adrenergic/ANS re
 duplicate the authored ANS cluster (Q1-46) — skip. Remaining Abolmagd content = the Blood section
 (if it carries distinct anticoagulant/antiplatelet items beyond the index label).
 
+## Concepts minted (slices 9-10, Blood — haemostasis + hypolipidemics Q6-26)
+
+16 minted, 0 reused, all DIS-PHA-T04, two new articles. HEMOSTASIS (8):
+CON-PHA-5D93B14B85363E (argatroban HIT), CON-PHA-FF7AE1F7A1D733 (alteplase fibrin-specific),
+CON-PHA-3EE31AECE6C7F1 (ticagrelor reversible P2Y12), CON-PHA-E7435673FA0A3C (rivaroxaban oral
+Xa), CON-PHA-F2E6F27DA49D72 (dipyridamole antiplatelet), CON-PHA-D8994E4364DDC9 (deferasirox oral
+chelator), CON-PHA-309692F9345A72 (warfarin teratogen), CON-PHA-DB84A9F69D4E02 (antidotes
+protamine/vit K). HYPOLIPIDEMICS (8): CON-PHA-13DE326A634F66 (ezetimibe absorption),
+CON-PHA-C9E0EE315EA370 (statin HMG-CoA), CON-PHA-94D226BCAF99B5 (fibrate gallstones),
+CON-PHA-B9730F9F23FB69 (statin+fibrate myopathy), CON-PHA-1B0791ACBCEA6A (fibrate PPARα/LPL),
+CON-PHA-69BBFDC439FE40 (statin after ACS/pleiotropic), CON-PHA-FE07E45D3B570A (statin pregnancy
+CI), CON-PHA-50A5592544522D (cholesterol precursor not thyroid). Total concepts so far: 83.
+Blood dedupe/hold: Q1 (digoxin hypercalcemia = HF slice), Q2/Q4/Q5 (ACEi/loop/spironolactone =
+diuretics cluster), Q12 (amiodarone = dysrhythmia slice), Q14 (spironolactone hyperK = aldosterone
+concept), Q20 (fibrin-selective = Q9), Q24 (fenofibrate gallstones = Q7), Q27 (statin mechanism =
+Q25) excluded; **Q19 HELD** (two false options — abciximab GP-Ib/IIIa AND dipyridamole ADP —
+multi-false, un-keyable). Lipoprotein-physiology Q28-31 deferred (biochemistry, not pharmacology).
+The Abolmagd bank is now essentially exhausted for distinct pharmacology facts.
+
 ## Next
 
-Locate and open the Abolmagd Blood section for distinct anticoagulant/antiplatelet items; if none
-beyond ANS re-statements, move to the GI bank (`PHARMA GITTTTTTT.pdf`, ~62 Qs), then the
-Respiratory bank (`Pharma RSPPPPP.pdf`, ~39 Qs). Dedupe across banks and against all CON-PHA
-concepts.
+Open the GI bank (`PHARMA GITTTTTTT.pdf`, ~62 Qs) — antiemetics, antacids/PPIs/H2 blockers,
+prokinetics, laxatives, antidiarrhoeals, IBD/H. pylori drugs; likely new nodes stay on DIS-PHA-T04
+with new articles. Then the Respiratory bank (`Pharma RSPPPPP.pdf`, ~39 Qs) — bronchodilators,
+inhaled steroids, antitussives/mucolytics. Dedupe across banks and against all 83 CON-PHA concepts.
 
 ## (historical) ANS-section next note
 
