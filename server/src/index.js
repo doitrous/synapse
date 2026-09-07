@@ -257,6 +257,16 @@ app.use((err, req, res, next) => {
 
 const port = Number(process.env.PORT) || 8080
 migrate()
+  .catch((error) => {
+    // A forward migration can fail for reasons that do not make the already
+    // applied schema unusable (for example a DDL permission or compatibility
+    // problem). Taking the whole site down in that case turns one unavailable
+    // feature into a restart loop for every user. Keep serving the last known
+    // schema and leave a precise error for the deployment operator to fix.
+    const detail = error?.sqlMessage || error?.message || String(error)
+    const code = error?.code ? ` (${error.code})` : ''
+    console.error(`Database migration failed${code}; starting with the previously applied schema:`, detail)
+  })
   .then(async () => {
     const httpServer = app.listen(port, () => {
       console.log(`Nishany on :${port}`)
@@ -312,4 +322,4 @@ migrate()
       })()
     }, 60_000).unref()
   })
-  .catch((e) => { console.error('startup failed (DB unreachable?):', e.message); process.exit(1) })
+  .catch((e) => { console.error('startup failed:', e.message); process.exit(1) })
