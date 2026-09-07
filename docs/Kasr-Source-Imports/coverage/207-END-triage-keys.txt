@@ -453,8 +453,61 @@ AUTHORED (14, Endocrine section, 2 pushed slices) — fresh vs the corpus:
   Slice A (3921c436): Dr Zahra Q2, Q3, Q4, Q10, Q20, Q45 + Department Q10 (pituitary cell biology).
   Slice B (40b3e8be): Dr Zahra Q17, Q19, Q26, Q28, Q30 + Department Q21, Q31 (thyroid/parathyroid,
     adrenal, pineal).
-UNMINED on this bank: the rest of the Department-69 stream, the un-authored Dr Zahra items, and the
-entire Male (p.19 keys) and Female (p.29 keys) sections — a large fresh reproductive-histology seam.
+UNMINED (Endocrine): the rest of the Department-69 stream and the un-authored Dr Zahra items.
+
+MALE section (pp.12-19) — Dr Zahra stream keys (p.19 top table, Q1-44):
+Q1.B  Q2.C  Q3.D  Q4.C  Q5.D  Q6.C  Q7.C  Q8.D  Q9.C  Q10.B Q11.D Q12.A Q13.B Q14.C Q15.D
+Q16.C Q17.B Q18.C Q19.D Q20.B Q21.D Q22.A Q23.A Q24.D Q25.B Q26.C Q27.C Q28.D Q29.B Q30.B
+Q31.C Q32.E Q33.A Q34.B Q35.C Q36.B Q37.C Q38.D Q39.B Q40.D Q41.C Q42.B Q43.C Q44.D
+MALE section — Department stream keys (p.19 bottom table, Q1-37):
+Q1.a  Q2.c  Q3.c  Q4.b  Q5.a  Q6.b  Q7.b  Q8.d  Q9.a  Q10.c Q11.a Q12.a Q13.c Q14.c Q15.d
+Q16.b Q17.b Q18.d Q19.b Q20.b Q21.c Q22.c Q23.b Q24.b Q25.b Q26.c Q27.b Q28.c Q29.c Q30.d
+Q31.c Q32.c Q33.b Q34.d Q35.c Q36.c Q37.d
+(NB the "END OF MODULES 197/196/195" sub-blocks on pp.17-19 restart numbering and are NOT cleanly
+keyed by these two tables — leave them untriaged.)
+
+— Authoring pass 2026-09-07, MALE (14 fresh histology MCQs, 2 pushed slices) —
+Slice A (60292914, 8): Q1 myoid-cells-in-testis, Q9 acrosome-from-Golgi, Q11 spermiogenesis-definition,
+  Q12 spermatogonia-basal-compartment, Q25 prostate-compound-tubuloalveolar, Q3 epididymis-stereocilia,
+  Q5 prostatic-corpora-amylacea, Q22 male-duct-pathway (seminiferous->tubuli recti->rete->efferent->epididymis).
+Slice B (70d8d204, 6): Q33 sperm-head, Q34 residual-bodies->Sertoli, Q36 spermatogenesis-~74-days,
+  Q43 primary-spermatocyte-largest, Q42 corpus-cavernosum-venous-spaces, Q37 Reinke-crystals-Leydig.
+HELD (1, bad item, NOT authored): Dr Zahra Male Q31 (middle piece "all EXCEPT", printed key c "supporting
+  fibers") — the outer dense fibres ARE supporting fibres present in the middle piece, so the keyed exception is
+  wrong; the middle-piece concept (CON-AND-B0A626779F05FF) was authored for the graph but no MCQ written from it.
+SKIPPED as dupes of the authored 207-END corpus: Leydig SER/steroidogenesis (Q4/Q14/Q20/Q44), Sertoli inhibin/ABP/
+  BTB (Q16/Q40/Q41 + Dept), blood-testis barrier, spermatogenesis temperature/cryptorchidism, sperm maturation in
+  epididymis (Q8 Dept Q19), vas 3-layer wall (Q18), ejaculatory-duct formation, Cowper->penile urethra (Q29),
+  seminal-vesicle folded mucosa (Q26), BPH transitional zone / prostatic-carcinoma peripheral zone (Q33/Q35/Q20),
+  stereocilia-disappear-in-vas. 15 concepts (14 quizzed + 1 orphan), 2 articles (testis; male ducts/glands).
+
+FEMALE section (pp.20-29) — Dr Zahra stream keys (p.29 top table, Q1-53):
+Q1.D  Q2.A  Q3.B  Q4.D  Q5.A  Q6.D  Q7.C  Q8.C  Q9.D  Q10.B Q11.B Q12.D Q13.C Q14.A Q15.B
+Q16.C Q17.B Q18.B Q19.C Q20.A Q21.B Q22.A Q23.D Q24.B Q25.C Q26.A Q27.A Q28.C Q29.D Q30.A
+Q31.D Q32.D Q33.A Q34.B Q35.B Q36.C Q37.D Q38.D Q39.A Q40.D Q41.C Q42.D Q43.C Q44.D Q45.B
+Q46.A Q47.E Q48.C Q49.C Q50.B Q51.B Q52.D Q53.A
+FEMALE section — Department stream keys (p.29 bottom table, Q1-41; entries 42-44 map to the module-tagged
+sub-blocks and are left untriaged):
+Q1.b  Q2.d  Q3.d  Q4.a  Q5.c  Q6.c  Q7.d  Q8.b  Q9.d  Q10.c Q11.c Q12.a Q13.d Q14.b Q15.b
+Q16.d Q17.d Q18.a Q19.c Q20.d Q21.a Q22.d Q23.d Q24.c Q25.a Q26.b Q27.b Q28.d Q29.b Q30.b
+Q31.c Q32.c Q33.d Q34.c Q35.b Q36.b Q37.b Q38.b Q39.d Q40.d Q41.b
+
+— Authoring pass 2026-09-07, FEMALE (10 fresh histology MCQs, 2 pushed slices) —
+Slice A (0c8ba9d3, 5): Q4 zona-pellucida-composition, Dept Q3 primordial-vs-primary-follicular-cells, Q17
+  antrum-defines-secondary-follicle, Q19 zona-pellucida-separates-oocyte-from-cumulus, Q11 corpus-albicans-from-CL.
+Slice B (f88a2adb, 5): Dept Q9 corona-oocyte-gap-junction, Q8 oogenesis-meiosis-timing (I before ovulation / II
+  after fertilisation), Q22 oviduct-ciliated+peg-epithelium, Q31 endometrial-spiral-vs-straight-arteries, Q36
+  glandless-vascular-vagina.
+SKIPPED as dupes of the authored 207-END corpus: menstrual-cycle phases (proliferative/secretory), ovulation day 14 /
+  LH surge, corpus-luteum granulosa-lutein progesterone/inhibin, liquor-folliculi-by-granulosa, theca-interna
+  androstenedione + granulosa aromatase two-cell, ovary hilar-cell Reinke (Dept Q24), syncytio/cytotrophoblast
+  (Q42/Dept Q24-25/27), mammary compound-tubuloalveolar + resting/lactating alveoli, endocervix mucous glands (Q46),
+  vaginal lactic-acid pH (Q38), endometrium basal-zone reserve, PCOS arrested follicles. 10 concepts, 2 articles
+  (ovary/follicle; female tract). Subject tags androl (male) / gyn (female) throughout; DIS-HIS-T03 primary node.
+
+Other histology PDFs in the folder: SCANNED, no text layer (Kandeel [Female]/[Male], Female 2022/2023,
+Dalia [END], and the 36 MB department book `mcq histo (207).department .pdf`) — untriaged for keys; each
+needs an OCR+render pass to find a hand-mark or printed key.
 
 Other histology PDFs in the folder: SCANNED, no text layer (Kandeel [Female]/[Male], Female 2022/2023,
 Dalia [END], and the 36 MB department book `mcq histo (207).department .pdf`) — untriaged for keys; each

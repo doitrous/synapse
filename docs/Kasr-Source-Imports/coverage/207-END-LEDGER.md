@@ -13,7 +13,7 @@
 | galal-endo (`207 mcq Dr Galal (endo).pdf`, NON-EOM bank, 27 keyed) | 17 | 1 | 0 | 9 dupes skipped; bank exhausted | 27 |
 | rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) — concurrent lane | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
 | jalal S3+S4+S6 urinary/urethra + male genital + development (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 28 | 0 | 1 | S3+S4+S6 fresh sets done; S1-2/S5/S7 untriaged | ~207 |
-| zahra-histology-endocrine (`Histo MCQ by Dr.Zahra [END].pdf`, NON-EOM Histology-dept-folder doctor bank, SOLVED) — HISTOLOGY frontier opened | 14 | 0 | 0 | Endocrine section (pituitary/thyroid/parathyroid/adrenal/pineal) 2 slices; Male/Female sections + Endocrine Department-69 stream untriaged | ~250 |
+| zahra-histology (`Histo MCQ by Dr.Zahra [END].pdf`, NON-EOM Histology-dept-folder doctor bank, SOLVED) — Endocrine + Male + Female sections | 38 | 1 | 0 | Endocrine 14 (p.11 keys), Male 14 (p.19 keys, 2 slices), Female 10 (p.29 keys, 2 slices); Male Q31 held (bad middle-piece EXCEPT). Endocrine/Male/Female Department-stream remainders + module-tagged sub-blocks (197/196/195) still untriaged | ~250 |
 | **207 END module authored (3 EOM + 7 banks)** | **294** | **6** | **2** | — | — |
 | 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 294 | 6 | 2 | untriaged | — |
 
@@ -879,6 +879,40 @@ now authored across Ch.2-8 in 6 slices (46 fresh MCQs, 46 concepts, 8 articles);
 already-authored GPCR/hormone-receptor/cell-communication concepts and was skipped.** A handful of fresh-but-
 lower-yield reproductive stems remain deferred (relaxin, estradiol potency, normal sperm count, placental-estrogen
 oxytocin), plus the held Graves-exophthalmos, iodine-deficiency, hyperphosphataemia-PTH, secondary-
-hyperaldosteronism, somatostatin-gastrin and Q26-pregnancy-estrogen items. **Next 207 END cluster:** the Zahra
-Male/Female histology sections, or another physiology bank (Maher / Merged PHYSIO 2022/2023) after a key-render
-pass; dedup vs the physiology corpus, push-per-slice.
+hyperaldosteronism, somatostatin-gastrin and Q26-pregnancy-estrogen items.
+
+## Authoring pass 2026-09-07 — Zahra Male + Female reproductive histology (24 fresh MCQs, 4 pushed slices)
+
+Continued the Dr Zahra histology bank (`src_1b57cb8c6e1e06c67ec5`) into the **Male** (pp.12-19, keys p.19) and
+**Female** (pp.20-29, keys p.29) reproductive sections. Both answer pages carry a **DR ZAHRA** stream table and a
+**DEPARTMENT** stream table, each keying its own numbered stream (do NOT align the two). Authored only fresh
+histology-structure claims; physiology (Leydig/Sertoli function, spermatogenesis temperature, menstrual-cycle
+phases, corpus-luteum progesterone, granulosa aromatase, syncytio/cytotrophoblast, mammary classification) and
+gross-anatomy (vas 3-layer wall, ejaculatory-duct formation, BPH/carcinoma zones, endocervix mucous glands,
+vaginal lactic-acid pH) were deduped out against the ~340 corpus.
+
+- **Male slice A** (8, `zahra-male-histology-a`, pushed 60292914): myoid cells, acrosome-from-Golgi, spermiogenesis
+  definition, spermatogonia basal compartment, prostate compound-tubulo-alveolar, epididymis stereocilia, prostatic
+  corpora amylacea, male duct pathway (seminiferous->tubuli recti->rete->efferent->epididymis).
+- **Male slice B** (6, `zahra-male-histology-b`, pushed 70d8d204): sperm head (nucleus+acrosome), residual bodies
+  phagocytosed by Sertoli, spermatogenesis ~74 days, primary spermatocyte largest, corpus cavernosum venous spaces,
+  Reinke crystals in Leydig cells. **1 HELD:** Dr Zahra Male Q31 (middle-piece "EXCEPT supporting fibers", printed
+  key c) is a bad item -- outer dense fibres ARE supporting fibres present in the middle piece; the middle-piece
+  concept CON-AND-B0A626779F05FF was authored for the graph but no MCQ written from it.
+- **Female slice A** (5, `zahra-female-histology-a`, pushed 0c8ba9d3): zona pellucida composition, primordial-vs-
+  primary follicular cells, antrum defines secondary follicle, zona pellucida separates oocyte from cumulus,
+  corpus albicans from corpus luteum.
+- **Female slice B** (5, `zahra-female-histology-b`, pushed f88a2adb): corona-oocyte gap junction, oogenesis meiosis
+  timing (I before ovulation / II after fertilisation), oviduct ciliated+peg epithelium, endometrial spiral-vs-
+  straight arteries, glandless vascular vagina.
+
+Concepts minted university-blind, collision-checked corpus-wide (0 collisions, 0 in-batch dupes): **15 CON-AND-**
+(male, 14 quizzed + 1 orphan middle-piece) + **10 CON-GYN-** (female) = 25, on DIS-HIS-T03 (organ histology) with
+SYS-AND-T01 / SYS-GYN-T01 cross-nav. Grouped into **4 new library articles** (testis, male ducts/glands, ovary/
+follicle, female tract). Every key read from the printed p.19/p.29 tables and cross-checked against its stem.
+Dedup rate high on the saturated repro corpus (function/anatomy dupes skipped). Gate: batch errors=0 on all 4 slices.
+
+**207 END module now ~= 364 authored** (340 prior + 24), 9 held, 2 excluded. **Next 207 END cluster:** the remaining
+Zahra Department-stream + module-tagged (197/196/195) sub-blocks (need the stream-mapping care noted above), OR a new
+physiology bank -- `MCQ ENDO (Dr. Maher)` / `Merged_PHYSIO 2022/2023` -- after a key-render pass; dedup vs the
+corpus, push-per-slice.
