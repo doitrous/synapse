@@ -423,3 +423,41 @@ Kasr Al Ainy END 207 department Physiology MCQ bank (Merged_PHYSIO 2022), the [1
 true
 
 ---
+
+# Item
+## id
+src_3823ae2689790cc49841
+## title
+Histo MCQ by Dr.Kandeel [Male]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Histology Dpt Histology [1st priority]/MCQs/Histo MCQ by Dr.Kandeel [Male].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+13
+## sha256
+3823ae2689790cc49841c8b453e66554f09bc80f1b794f47ae74d85d9934b4da
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 Dr Kandeel MALE genital HISTOLOGY MCQ bank. A doctor's bank filed under the Histology Dpt [1st priority] folder (filename names Kandeel), so examSittingYear is null. Scanned, no native text layer -- read via `node scripts/content/pagetext.mjs ocr` at default settings, and the answer key render-verified. The document holds two sets: a first "MALE.QUESTIONS" set of ~79 single-best items (pp.2-6) that is SOLVED by a PRINTED ANSWER-KEY TABLE on p.7 (Q1-79, read at 300 dpi; gaps in numbering carry "--"), and a second "Male Genital System" set (pp.8-12) with matching tables (pp.11-12) and no visible key. The p.7 key was spot-verified against the stems (Q1=C testis coverings exclude tunica propria, Q4=B seminiferous tubule excludes Leydig, Q7=C type-B->primary spermatocyte, Q11=D ABP from Sertoli, Q18=C blood-testis barrier between Sertoli -- all correct). This bank continues the histology frontier opened by the Zahra bank; only fresh single-best structure claims not in the ~364-item 207-END corpus are authored (testis coverings, seminiferous-tubule cell content, spermatogonial lineage, meiosis products, Leydig/Sertoli cytology and secretions, spermiogenesis phases, duct/gland/urethra epithelia). Dupes of the Zahra male bank (myoid cells, epididymis stereocilia, duct pathway, prostate tubulo-alveolar, corpora amylacea, sperm head, residual bodies, Reinke crystals) and the blood-testis-barrier concept (already in physiology-concepts) are skipped. Bad/ambiguous items held: Q40 capacitation keyed to epididymis (capacitation is a female-tract event) and Q54 (key/stem mismatch).
+## confidence
+0.9
+## is_assessment
+true
+
+---
