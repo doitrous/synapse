@@ -116,3 +116,39 @@ Kasr Al Ainy 206 DIG Anatomy department 'previous exams' solved MCQ bank (tier 5
 true
 
 ---
+
+# Item
+## id
+src_a5284e5337d583b3ff25
+## title
+Bio MCQ [GIT]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+206 DIG/Biochemistry Dpt Biochemistry [1st priority]/MCQs/Bio MCQ [GIT].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+5
+## sha256
+a5284e5337d583b3ff255b0b10be6787f0fa22fbb73f8775972487168cbf6c3f
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy 206 DIG Biochemistry department MCQ bank (tier 5, NON-EOM), 20 single-best-answer items across 5 pages covering carbohydrate digestion/absorption and lipid digestion/absorption. Native text layer present (OCR-clean via scripts/content/pagetext.mjs show). The bank is UNKEYED (0 marked answers across all pages, confirmed by pagetext keys): correct answers are expert-determined by biochemical reasoning, with per-option rationale in each question item's explanations. Selected as the first non-anatomy 206-DIG bank (Biochemistry department, 1st priority folder).
+## confidence
+0.85
+## is_assessment
+true

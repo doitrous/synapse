@@ -1,0 +1,105 @@
+{
+  "lane": "KASR-206DIG",
+  "cluster": "biochem-bank1",
+  "header": "KASR-206DIG · Biochemistry department MCQ bank 'Bio MCQ [GIT]' tranche 1 (Q1-Q5 slice, 3 authored, Q3/Q4 held) — Kasr Al Ainy 206 DIG Biochemistry Dpt question bank, native-text (OCR-clean), UNKEYED. Answers expert-determined by biochemical reasoning; per-option rationale in explanations. sourceId src_a5284e5337d583b3ff25. Carbohydrate digestion/absorption section: intestinal/renal glucose transport (SGLT1), fructose absorption (GLUT5), insulin-dependent muscle glucose uptake (GLUT4). 3 new fnd (Foundations) concepts minted university-blind under DIS-BIO-T03 (Carbohydrate metabolism) with SYS-GIT-T01 cross-nav. Q3 held (2 defensible glucose transporters in small intestine — SGLT1 and GLUT2); Q4 held (multi-true: lactase and beta-galactosidase statements both correct).",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "206 DIG",
+    "module_subject": "206 DIG > Biochemistry",
+    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-GIT-206DIG-BIOCHEM-CARB-ABSORPTION"],
+    "resource_ids": ["src_a5284e5337d583b3ff25"],
+    "source_citation": "Kasr Al Ainy 206 DIG Biochemistry Dpt MCQ bank (Bio MCQ [GIT]), {page}",
+    "setting": "Academic",
+    "topic": "Biochemistry",
+    "difficulty": "Easy",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q1", "id": "QST-KASR206DIG-BIOCHEMBANK1-1", "page": "Q1",
+      "title": "Feature that is NOT true of SGLT1",
+      "question": "All the following about SGLT1 are correct EXCEPT:",
+      "question_type": "Negative-stem single best answer",
+      "options": {
+        "A": "It is present in muscle and adipose tissue",
+        "B": "It is insulin independent",
+        "C": "It causes active uptake of glucose against its concentration gradient",
+        "D": "It transports sodium down its concentration gradient"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. SGLT1 is the sodium-glucose cotransporter of the apical membrane of enterocytes (small intestine) and the renal proximal tubule; it is NOT expressed in muscle or adipose tissue, where glucose entry is instead by the facilitative GLUT4 transporter. This statement is therefore the exception.",
+        "B": "Incorrect as the answer. SGLT1 is genuinely insulin independent: intestinal and renal glucose uptake by SGLT1 does not require insulin, unlike GLUT4-mediated uptake in muscle and fat.",
+        "C": "Incorrect as the answer. SGLT1 does move glucose against its concentration gradient. This is secondary active transport: it couples uphill glucose entry to the downhill movement of sodium.",
+        "D": "Incorrect as the answer. SGLT1 co-transports sodium down its electrochemical gradient (maintained by the basolateral Na+/K+-ATPase), and this favourable sodium gradient supplies the energy that drives glucose uptake."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-2DD5354E7071AF",
+      "concept_ids": ["CON-GIT-2DD5354E7071AF"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion and absorption",
+      "subtopic": "Glucose transport",
+      "learning_objective": "Recognise that SGLT1 is the insulin-independent, secondary-active sodium-glucose cotransporter of intestine and kidney, absent from muscle and fat.",
+      "clinical_relevance": 0.4
+    },
+    {
+      "key": "q2", "id": "QST-KASR206DIG-BIOCHEMBANK1-2", "page": "Q2",
+      "title": "Transporter that absorbs fructose",
+      "question": "Fructose is absorbed in the small intestine through:",
+      "options": {
+        "A": "SGLT1",
+        "B": "GLUT3",
+        "C": "GLUT5",
+        "D": "GLUT4"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. SGLT1 is the sodium-dependent cotransporter for glucose and galactose, not fructose.",
+        "B": "Incorrect. GLUT3 is a high-affinity glucose transporter of neurons and other cells; it does not mediate intestinal fructose absorption.",
+        "C": "Correct. Fructose is taken up across the apical enterocyte membrane by GLUT5, a facilitative transporter with high specificity for fructose. Uptake is sodium-independent and follows the concentration gradient (facilitated diffusion); fructose then leaves the enterocyte basolaterally via GLUT2.",
+        "D": "Incorrect. GLUT4 is the insulin-responsive glucose transporter of muscle and adipose tissue, not an intestinal fructose transporter."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-EE98FED5AED1BA",
+      "concept_ids": ["CON-GIT-EE98FED5AED1BA"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion and absorption",
+      "subtopic": "Monosaccharide absorption",
+      "learning_objective": "State that dietary fructose is absorbed by the facilitative transporter GLUT5.",
+      "clinical_relevance": 0.3
+    },
+    {
+      "key": "q5", "id": "QST-KASR206DIG-BIOCHEMBANK1-5", "page": "Q5",
+      "title": "Nature of glucose uptake by muscle",
+      "question": "Uptake of glucose by muscles:",
+      "options": {
+        "A": "Occurs by an active transport mechanism",
+        "B": "Is energy dependent",
+        "C": "Is linked to sodium uptake",
+        "D": "Is enhanced by insulin"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Glucose enters muscle by facilitated diffusion through GLUT4, moving down its concentration gradient; it is not active transport.",
+        "B": "Incorrect. Because it is facilitated diffusion, the transport itself consumes no ATP and is not energy dependent.",
+        "C": "Incorrect. Sodium-coupled glucose uptake (via SGLT1) occurs in the intestine and kidney, not in skeletal muscle.",
+        "D": "Correct. Insulin enhances glucose uptake by muscle: it triggers translocation of GLUT4 transporters from intracellular vesicles to the plasma membrane, increasing the number of transporters and hence the rate of facilitated glucose entry. This insulin-dependent GLUT4 recruitment is the defining feature of glucose uptake in muscle and adipose tissue."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-40FAC96E9D1BD3",
+      "concept_ids": ["CON-GIT-40FAC96E9D1BD3"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion and absorption",
+      "subtopic": "Insulin and glucose transport",
+      "learning_objective": "Explain that muscle glucose uptake is insulin-enhanced facilitated diffusion via GLUT4 recruitment.",
+      "clinical_relevance": 0.5
+    }
+  ]
+}
