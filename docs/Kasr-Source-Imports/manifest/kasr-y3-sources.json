@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 10,
+ "count": 11,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -476,6 +476,52 @@
    "textLayer": "native",
    "processingStatus": "extracted",
    "extractionDisposition": "Native text layer (no OCR). Clean 4-option single-best MCQ (section B, Q1-78). NO printed answer key anywhere in the file: per the module answer policy (Omar 2026-09-07) correct answers are EXPERT-DETERMINED by established microbiology/immunology and justified per-option (fieldNotes.keySource = expert-determined by reasoning; no reliable source key). Section A (Written) and section C (Matching) are not authored (non 4-option single-best). Concepts filed on the microbiology nodes DIS-MIC-T01 (bacteriology), DIS-MIC-T02 (virology), DIS-MIC-T03 (mycology) and the immunology nodes DIS-IMU / DIS-IMU-T03/T04/T05. See coverage/309-INF-LEDGER.md."
+  },
+  {
+   "sourceId": "src_7d53d3a8f09b4d542ae1",
+   "sha256": "7d53d3a8f09b4d542ae1ddcf8bf7c82eb6e2dc64b9ffc92d7acabdf1435dd3e3",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/309 INF/Microbiology/Questions & MCQs/Micro MCQ [GIT].pdf",
+   "corpusRelativePath": "309 INF/Microbiology/Questions & MCQs/Micro MCQ [GIT].pdf",
+   "fileName": "Micro MCQ [GIT].pdf",
+   "fileNameWithoutInstructions": "Micro MCQ.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "309 INF",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Microbiology"
+   ],
+   "rawModuleShorthand": "309 INF",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Instructor material",
+   "instructor": "Unknown (scanned MCQ compilation)",
+   "crossModulePractical": false,
+   "subject": "Microbiology",
+   "folderSubject": "Microbiology",
+   "subjectSource": "content",
+   "departmentAuthored": false,
+   "tierEvidence": "Scanned (image-only) MICROBIOLOGY MCQ bank recovered by OCR; a compiled question bank, not department-authored. Complements the parasitology bank (src_10f1a669aa2eeedf3cd9) and the Extra 309 Questions PY compilation (src_b0bc0be85ab68a07e9b7) already mined for this module: this file adds systemic bacteriology, virology and mycology facts not covered by those sources.",
+   "examType": "bank",
+   "examPaperEvidence": "Scanned MCQ bank ('Micro MCQ [GIT]'), 23 pages, image-only. 4-to-5-option single-best MCQs on systemic bacteriology, virology and mycology. Final page is a hand-written answer table that is OCR-garbled and undecodable (no reliable key).",
+   "bookKind": "question_bank",
+   "sourceTier": 3,
+   "folderPriorityLabel": "GIT",
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Undated scanned MCQ bank; no calendar year or sitting printed; examSittingYear left null.",
+   "solvedStatus": "unsolved",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 23,
+   "textLayer": "image",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Image-only (scanned); recovered by OCR (pagetext ocr, psm 6). 4-to-5-option single-best MCQ. NO reliable printed answer key: the final-page answer table is OCR-garbled/undecodable, so per the module answer policy (Omar 2026-09-07) correct answers are EXPERT-DETERMINED by established microbiology and justified per-option (fieldNotes.keySource = expert-determined by reasoning; no reliable source key). True-or-False and multi-true items HELD (out of single-best contract). 33 authored / 6 held. Concepts on DIS-MIC-T01 (bacteriology), DIS-MIC-T02 (virology), DIS-MIC-T03 (mycology). See coverage/309-INF-LEDGER.md."
   }
  ]
 }

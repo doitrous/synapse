@@ -4036,3 +4036,3642 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Answer justified per-option against standard teaching.
+
+---
+
+<!--
+  Kasr Al Ainy 309 INF (Year 3) MICROBIOLOGY MCQ - Micro MCQ [GIT] bank (scanned, OCR; 23 pp).
+  Source src_7d53d3a8f09b4d542ae1 (sha256 7d53d3a8...). NO reliable printed answer key (garbled key page): correct answers
+  are EXPERT-DETERMINED by microbiological reasoning (Omar 2026-09-07) and justified per-option.
+  33 authored / 6 held (Q8 ambiguous, Q11 missing vignette, Q13/Q29/Q32 True-or-False, Q22 ambiguous).
+  Concepts on DIS-MIC-T01/T02/T03; articles ART-INF-309-MICRO-GI-BACTERIA, ...-HEPATITIS-GI-VIROLOGY,
+  ...-MYCOLOGY. STATUS Draft (human review). Import: Admin > Bulk import > question.
+-->
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-1
+## title
+Staphylococcal food poisoning — the incorrect statement
+## question
+All the following statements about Staphylococcus aureus food poisoning are true EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+It is caused by enterotoxins.
+## explanation_a
+Incorrect. Staphylococcal food poisoning is genuinely caused by heat-stable enterotoxins (A-E), so this statement is true.
+## answer_b
+The source of contamination is usually a carrier.
+## explanation_b
+Incorrect. The usual source is a human nasal or skin carrier who contaminates the food during preparation, so this statement is true.
+## answer_c
+The incubation period is 24-36 hours.
+## explanation_c
+Correct. This is the false statement: staphylococcal food poisoning has a SHORT incubation period of about 1-6 hours because the preformed toxin is already in the food, not 24-36 hours.
+## answer_d
+The food contains preformed toxin.
+## explanation_d
+Incorrect. The toxin is preformed in the food before ingestion, which is why symptoms appear rapidly; this statement is true.
+## answer_e
+The responsible toxin acts as a superantigen.
+## explanation_e
+Incorrect. Staphylococcal enterotoxins act as superantigens, so this statement is true.
+## topic
+Microbiology
+## subtopic
+Food poisoning
+## main_concept
+CON-INF-A136226BB01F5B
+## concept_ids
+CON-INF-A136226BB01F5B
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Staphylococcal food poisoning
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that staphylococcal food poisoning has a short (1-6 hour) incubation period because it is caused by a preformed enterotoxin.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q1 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-2
+## title
+Emetic Bacillus cereus food poisoning — the incorrect statement
+## question
+The emetic form of Bacillus cereus food poisoning is characterized by all the following EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+It resembles Staphylococcus aureus food poisoning.
+## explanation_a
+Incorrect. The emetic syndrome mimics staphylococcal food poisoning (short onset, vomiting), so this statement is true.
+## answer_b
+It has a short incubation period.
+## explanation_b
+Incorrect. The emetic form has a short incubation period of 1-5 hours, so this statement is true.
+## answer_c
+The incriminated food is usually fried rice.
+## explanation_c
+Incorrect. Reheated fried rice is the classic vehicle because spores survive boiling and germinate on standing, so this statement is true.
+## answer_d
+It is due to a heat-labile enterotoxin.
+## explanation_d
+Correct. This is the false statement: the emetic toxin (cereulide) is HEAT-STABLE, not heat-labile; the heat-labile enterotoxin is the one responsible for the diarrhoeal form.
+## answer_e
+It is manifested by vomiting and abdominal cramps.
+## explanation_e
+Incorrect. The emetic form presents with vomiting and abdominal cramps, so this statement is true.
+## topic
+Microbiology
+## subtopic
+Food poisoning
+## main_concept
+CON-INF-388F546BF1F915
+## concept_ids
+CON-INF-388F546BF1F915
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Bacillus cereus food poisoning
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Distinguish the heat-stable emetic toxin (cereulide) of Bacillus cereus from the heat-labile enterotoxin of its diarrhoeal form.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q2 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-3
+## title
+Cause of Clostridium difficile overgrowth colitis
+## question
+A patient presents with severe colitis associated with overgrowth of Clostridium difficile in the bowel. The most likely cause of this condition is:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Botulinum food poisoning
+## explanation_a
+Incorrect. Botulism is a neuroparalytic intoxication, not a cause of colonic C. difficile overgrowth.
+## answer_b
+A stomach ulcer
+## explanation_b
+Incorrect. A gastric ulcer does not disturb the colonic flora that normally suppresses C. difficile.
+## answer_c
+A compromised immune system
+## explanation_c
+Incorrect. While severe immunosuppression can predispose, the specific trigger for C. difficile overgrowth is loss of competing flora, not immune status per se.
+## answer_d
+Antibiotic therapy
+## explanation_d
+Correct. Broad-spectrum antibiotics suppress the normal colonic flora, allowing C. difficile to overgrow and release toxins A and B, causing antibiotic-associated (pseudomembranous) colitis.
+## answer_e
+Mechanical blockage of the large intestine
+## explanation_e
+Incorrect. Mechanical obstruction causes obstructive symptoms, not toxin-mediated pseudomembranous colitis.
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## main_concept
+CON-INF-5705E802DE6A1C
+## concept_ids
+CON-INF-5705E802DE6A1C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Clostridium difficile colitis
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Identify antibiotic therapy as the principal trigger of Clostridium difficile pseudomembranous colitis.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q3 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-4
+## title
+Escherichia coli pathotype producing Shiga-like toxin
+## question
+The Escherichia coli that produces Shiga-like (verocytotoxin) toxin is:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Enterotoxigenic E. coli
+## explanation_a
+Incorrect. Enterotoxigenic E. coli produces heat-labile and heat-stable enterotoxins (traveller's diarrhoea), not Shiga-like toxin.
+## answer_b
+Enterohaemorrhagic E. coli
+## explanation_b
+Correct. Enterohaemorrhagic E. coli (e.g. O157:H7) produces Shiga-like toxin (verocytotoxin), causing haemorrhagic colitis and haemolytic-uraemic syndrome.
+## answer_c
+Enteroinvasive E. coli
+## explanation_c
+Incorrect. Enteroinvasive E. coli invades colonic mucosa in a Shigella-like manner but does not characteristically produce Shiga-like toxin.
+## answer_d
+Enteroaggregative E. coli
+## explanation_d
+Incorrect. Enteroaggregative E. coli produces enteroaggregative heat-stable toxin and causes persistent diarrhoea, not Shiga-like toxin.
+## answer_e
+Enteropathogenic E. coli
+## explanation_e
+Incorrect. Enteropathogenic E. coli causes attaching-and-effacing lesions in infants without Shiga-like toxin production.
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## main_concept
+CON-INF-FC156A6FF4DFE5
+## concept_ids
+CON-INF-FC156A6FF4DFE5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Escherichia coli pathotypes
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Match Shiga-like toxin production to the enterohaemorrhagic E. coli pathotype.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q4 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-5
+## title
+Salmonella species — the incorrect statement
+## question
+The following statements describing Salmonella species are all correct EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+They are Gram-negative bacilli.
+## explanation_a
+Incorrect. Salmonellae are Gram-negative bacilli of the Enterobacteriaceae, so this statement is true.
+## answer_b
+They grow as pink colonies on MacConkey and DCA media.
+## explanation_b
+Correct. This is the false statement: Salmonella is a NON-lactose fermenter, so it forms pale/colourless (not pink) colonies on MacConkey and DCA; pink colonies indicate lactose fermenters.
+## answer_c
+They are urease-negative.
+## explanation_c
+Incorrect. Salmonella is urease-negative, which helps distinguish it from urease-positive organisms, so this statement is true.
+## answer_d
+They cause food poisoning.
+## explanation_d
+Incorrect. Non-typhoidal salmonellae cause food poisoning (gastroenteritis), so this statement is true.
+## answer_e
+They cause enteric fever.
+## explanation_e
+Incorrect. Salmonella Typhi and Paratyphi cause enteric fever, so this statement is true.
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## main_concept
+CON-INF-A7734CAAD9DC1A
+## concept_ids
+CON-INF-A7734CAAD9DC1A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Salmonella laboratory diagnosis
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that Salmonella, as a non-lactose fermenter, produces pale colonies on MacConkey/DCA.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q5 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-6
+## title
+Shigella dysenteriae — the incorrect statement
+## question
+Regarding Shigella dysenteriae, all the following statements are correct EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+It is a member of Enterobacteriaceae.
+## explanation_a
+Incorrect. Shigella belongs to the Enterobacteriaceae, so this statement is true.
+## answer_b
+It produces a toxin that may result in renal failure.
+## explanation_b
+Incorrect. Shigella dysenteriae type 1 produces Shiga toxin, which can cause haemolytic-uraemic syndrome and renal failure, so this statement is true.
+## answer_c
+It grows on MacConkey's medium as colourless colonies.
+## explanation_c
+Incorrect. As a non-lactose fermenter, Shigella forms colourless colonies on MacConkey, so this statement is true.
+## answer_d
+Serological identification depends on O and H antigens.
+## explanation_d
+Correct. This is the false statement: Shigella is NON-motile and therefore has no flagellar (H) antigen; it is serotyped by its O (somatic) antigen only.
+## answer_e
+It causes bloody diarrhoea.
+## explanation_e
+Incorrect. Shigella causes bacillary dysentery with bloody, mucoid diarrhoea, so this statement is true.
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## main_concept
+CON-INF-A82557DC65F12C
+## concept_ids
+CON-INF-A82557DC65F12C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Shigella
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that Shigella, being non-motile, is serotyped by O antigen only (no H antigen).
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q6 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-7
+## title
+Yellow colonies of Vibrio cholerae on TCBS agar
+## question
+The yellow colonies of Vibrio cholerae on TCBS agar are due to:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Endopigment production
+## explanation_a
+Incorrect. The yellow colour is not a bacterial pigment.
+## answer_b
+Exopigment production
+## explanation_b
+Incorrect. V. cholerae does not produce a diffusible yellow exopigment on TCBS.
+## answer_c
+Sucrose fermentation
+## explanation_c
+Correct. TCBS agar contains sucrose and a pH indicator; V. cholerae ferments sucrose, lowering the pH and turning the colonies and surrounding medium yellow.
+## answer_d
+Lactose fermentation
+## explanation_d
+Incorrect. TCBS contains sucrose, not lactose, as the fermentable sugar.
+## answer_e
+Nitrate reduction
+## explanation_e
+Incorrect. Nitrate reduction does not produce the yellow colour on TCBS.
+## topic
+Microbiology
+## subtopic
+Vibrios
+## main_concept
+CON-INF-D1DD2261B3929A
+## concept_ids
+CON-INF-D1DD2261B3929A
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vibrio cholerae laboratory diagnosis
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Explain that Vibrio cholerae forms yellow TCBS colonies because it ferments the sucrose in the medium.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q7 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-9
+## title
+Cause of diarrhoea after eating raw shellfish
+## question
+An individual experiences diarrhoea after eating raw shellfish. What is the most probable cause?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Campylobacter jejuni
+## explanation_a
+Incorrect. Campylobacter jejuni is chiefly acquired from poultry and unpasteurized milk, not raw shellfish.
+## answer_b
+Salmonella Choleraesuis
+## explanation_b
+Incorrect. Salmonella Choleraesuis causes septicaemia and is not the classic shellfish-associated agent.
+## answer_c
+Shigella dysenteriae
+## explanation_c
+Incorrect. Shigella spreads by the faecal-oral route between people, not typically via raw shellfish.
+## answer_d
+Vibrio parahaemolyticus
+## explanation_d
+Correct. Vibrio parahaemolyticus is a halophilic marine vibrio and the classic cause of gastroenteritis after eating raw or undercooked shellfish/seafood.
+## answer_e
+Yersinia enterocolitica
+## explanation_e
+Incorrect. Yersinia enterocolitica is usually acquired from pork and dairy, not raw shellfish.
+## topic
+Microbiology
+## subtopic
+Vibrios
+## main_concept
+CON-INF-E63A2D5F8ED395
+## concept_ids
+CON-INF-E63A2D5F8ED395
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vibrio parahaemolyticus
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Associate raw-shellfish gastroenteritis with Vibrio parahaemolyticus.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q9 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-10
+## title
+Distinguishing Vibrio cholerae from Aeromonas hydrophila
+## question
+Vibrio cholerae can be distinguished from Aeromonas hydrophila by:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+Gram stain
+## explanation_a
+Incorrect. Both are Gram-negative bacilli, so Gram stain does not separate them.
+## answer_b
+Motility
+## explanation_b
+Incorrect. Both organisms are motile, so motility does not distinguish them.
+## answer_c
+Natural habitat
+## explanation_c
+Incorrect. Both inhabit aquatic environments, so natural habitat is not discriminating.
+## answer_d
+Oxidase test
+## explanation_d
+Incorrect. Both are oxidase-positive, so the oxidase test does not differentiate them.
+## answer_e
+String test
+## explanation_e
+Correct. The string test (bile-salt/deoxycholate) is positive for Vibrio cholerae and negative for Aeromonas hydrophila, so it distinguishes the two oxidase-positive aquatic bacilli.
+## topic
+Microbiology
+## subtopic
+Vibrios
+## main_concept
+CON-INF-19669BF7854E46
+## concept_ids
+CON-INF-19669BF7854E46
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vibrio identification
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Use the string test to differentiate Vibrio cholerae (positive) from Aeromonas hydrophila (negative).
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q10 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-12
+## title
+Laboratory conditions to isolate Campylobacter jejuni
+## question
+The special laboratory conditions required to isolate Campylobacter jejuni from a faecal specimen are:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+37°C, aerobic, on TCBS agar plates
+## explanation_a
+Incorrect. TCBS is a Vibrio medium and Campylobacter is not aerobic; these conditions do not isolate it.
+## answer_b
+42°C, microaerophilic, on Skirrow's medium
+## explanation_b
+Correct. Campylobacter jejuni is thermophilic and microaerophilic; it is isolated at 42°C under a microaerophilic atmosphere on the selective Skirrow's medium.
+## answer_c
+37°C, microaerophilic, on MacConkey's medium
+## explanation_c
+Incorrect. MacConkey and 37°C are not the selective thermophilic conditions Campylobacter needs.
+## answer_d
+37°C, anaerobic, on blood agar plates
+## explanation_d
+Incorrect. Campylobacter is microaerophilic, not a strict anaerobe, and requires 42°C on selective medium.
+## answer_e
+42°C, aerobic, on Skirrow's medium
+## explanation_e
+Incorrect. Campylobacter is microaerophilic, not aerobic, even though the 42°C and Skirrow's medium are correct.
+## topic
+Microbiology
+## subtopic
+Campylobacter
+## main_concept
+CON-INF-616C00E692D7F4
+## concept_ids
+CON-INF-616C00E692D7F4
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Campylobacter isolation
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that Campylobacter jejuni is isolated at 42°C, microaerophilically, on Skirrow's medium.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q12 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-14
+## title
+Helicobacter versus Campylobacter — the point of difference
+## question
+Helicobacters are similar to campylobacters in all the following EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+They are curved Gram-negative bacilli.
+## explanation_a
+Incorrect. Both Helicobacter and Campylobacter are curved Gram-negative bacilli, so this is a shared feature.
+## answer_b
+They are microaerophilic.
+## explanation_b
+Incorrect. Both are microaerophilic, so this is a shared feature.
+## answer_c
+They can grow at 42°C.
+## explanation_c
+Correct. This is the point of difference: Campylobacter jejuni is thermophilic and grows at 42°C, whereas Helicobacter pylori grows at 37°C and NOT at 42°C.
+## answer_d
+They are oxidase-positive.
+## explanation_d
+Incorrect. Both organisms are oxidase-positive, so this is a shared feature.
+## answer_e
+They are able to grow on Skirrow's medium.
+## explanation_e
+Incorrect. Both can be recovered on Skirrow's-type selective media, so this is a shared feature.
+## topic
+Microbiology
+## subtopic
+Helicobacter
+## main_concept
+CON-INF-52F037BB1CD28F
+## concept_ids
+CON-INF-52F037BB1CD28F
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Helicobacter versus Campylobacter
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that, unlike Campylobacter, Helicobacter pylori does not grow at 42°C.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q14 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-15
+## title
+Urease-positive curved bacteria from a gastric biopsy
+## question
+A patient with a peptic ulcer had a gastric biopsy cultured at 37°C, which grew urease-positive curved bacteria. The most likely causative agent is:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+Campylobacter jejuni
+## explanation_a
+Incorrect. Campylobacter jejuni is urease-negative and causes enteritis, not gastric ulcer.
+## answer_b
+Vibrio parahaemolyticus
+## explanation_b
+Incorrect. Vibrio parahaemolyticus is a marine vibrio causing gastroenteritis, not a gastric urease-positive organism.
+## answer_c
+Haemophilus influenzae
+## explanation_c
+Incorrect. Haemophilus influenzae is a respiratory coccobacillus, not a curved gastric organism.
+## answer_d
+Shigella dysenteriae
+## explanation_d
+Incorrect. Shigella is a non-motile enteric bacillus, not a urease-positive gastric organism.
+## answer_e
+Helicobacter pylori
+## explanation_e
+Correct. Helicobacter pylori is a urease-positive curved Gram-negative bacillus that colonizes gastric mucosa and causes peptic ulcer disease.
+## topic
+Microbiology
+## subtopic
+Helicobacter
+## main_concept
+CON-INF-7FE9693D855FFF
+## concept_ids
+CON-INF-7FE9693D855FFF
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Helicobacter pylori diagnosis
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Identify a urease-positive curved bacterium from a gastric biopsy as Helicobacter pylori.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q15 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-16
+## title
+Helicobacter pylori factor most central to gastric colonization
+## question
+A patient has a gastric ulcer caused by Helicobacter pylori. Which characteristic plays the most central role in the organism's ability to colonize the stomach?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Oxidase production
+## explanation_a
+Incorrect. Oxidase production is a metabolic trait but does not neutralize gastric acid.
+## answer_b
+Urease production
+## explanation_b
+Correct. Urease hydrolyses urea to ammonia, neutralizing gastric acid around the organism and allowing it to survive and colonize the acidic stomach.
+## answer_c
+Microaerophilic lifestyle
+## explanation_c
+Incorrect. A microaerophilic lifestyle suits the mucus layer but is not what overcomes gastric acidity.
+## answer_d
+O antigens
+## explanation_d
+Incorrect. O antigens are structural and not the key acid-defence mechanism.
+## answer_e
+Motility
+## explanation_e
+Incorrect. Motility helps the organism reach the mucus but is secondary to acid neutralization by urease.
+## topic
+Microbiology
+## subtopic
+Helicobacter
+## main_concept
+CON-INF-327C9186902F93
+## concept_ids
+CON-INF-327C9186902F93
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Helicobacter pylori virulence
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Explain that urease is the key virulence factor allowing H. pylori to survive gastric acid and colonize the stomach.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q16 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-17
+## title
+How Bacteroides fragilis peritonitis is acquired
+## question
+Peritonitis caused by Bacteroides fragilis is acquired:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Faeco-orally
+## explanation_a
+Incorrect. B. fragilis peritonitis does not arise by faecal-oral ingestion.
+## answer_b
+By ingestion of contaminated food
+## explanation_b
+Incorrect. It is not a food-borne infection.
+## answer_c
+As a complication of food poisoning
+## explanation_c
+Incorrect. It is not a sequel to food poisoning.
+## answer_d
+As an endogenous infection
+## explanation_d
+Correct. B. fragilis is a normal colonic commensal; peritonitis is an endogenous infection that follows spillage of bowel contents (e.g. perforation or surgery) into the peritoneum.
+## answer_e
+By a puncture wound
+## explanation_e
+Incorrect. Puncture wounds are the route for organisms such as Clostridium tetani, not for endogenous B. fragilis peritonitis.
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## main_concept
+CON-INF-957B8A635FABAB
+## concept_ids
+CON-INF-957B8A635FABAB
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Bacteroides fragilis
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recognise Bacteroides fragilis peritonitis as an endogenous infection from the patient's own gut flora.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q17 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-18
+## title
+Correct statement about Bacteroides fragilis
+## question
+Which of the following is correct about Bacteroides fragilis?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+It is the most likely organism to cause gastroenteritis following antibiotic treatment.
+## explanation_a
+Incorrect. Antibiotic-associated colitis is caused by Clostridioides difficile, not B. fragilis.
+## answer_b
+It is sensitive to penicillin.
+## explanation_b
+Incorrect. B. fragilis produces beta-lactamase and is typically resistant to penicillin.
+## answer_c
+It is the predominant organism in the human gastrointestinal tract.
+## explanation_c
+Correct. B. fragilis group anaerobes are the predominant (most numerous) organisms of the human colon, outnumbering coliforms.
+## answer_d
+It may cause flaccid paralysis leading to respiratory arrest.
+## explanation_d
+Incorrect. Flaccid paralysis is caused by Clostridium botulinum toxin, not B. fragilis.
+## answer_e
+It is the most common organism causing urinary tract infection.
+## explanation_e
+Incorrect. The commonest cause of urinary tract infection is Escherichia coli.
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## main_concept
+CON-INF-5E58B23B24DEEA
+## concept_ids
+CON-INF-5E58B23B24DEEA
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Bacteroides fragilis
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that Bacteroides fragilis is the predominant organism of the human gastrointestinal tract.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q18 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-19
+## title
+Disease to which Fusobacterium contributes
+## question
+Fusobacterium contributes to the pathogenesis of:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Acne vulgaris
+## explanation_a
+Incorrect. Acne vulgaris is associated with Cutibacterium (Propionibacterium) acnes.
+## answer_b
+Necrotizing fasciitis
+## explanation_b
+Incorrect. Necrotizing fasciitis is classically caused by group A streptococci and mixed flora, not principally Fusobacterium.
+## answer_c
+Bacterial vaginosis
+## explanation_c
+Incorrect. Bacterial vaginosis is associated with Gardnerella vaginalis and anaerobes such as Mobiluncus.
+## answer_d
+Vincent's angina
+## explanation_d
+Correct. Fusobacterium (fusiform bacilli) acts synergistically with oral spirochaetes to cause Vincent's angina (acute ulcerative gingivostomatitis/pharyngitis).
+## answer_e
+Honeymoon cystitis
+## explanation_e
+Incorrect. Honeymoon cystitis is usually caused by Escherichia coli.
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## main_concept
+CON-INF-A5397917411613
+## concept_ids
+CON-INF-A5397917411613
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Fusobacterium
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Associate Fusobacterium, with oral spirochaetes, in the pathogenesis of Vincent's angina.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q19 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-20
+## title
+Cause of Weil's disease (infectious jaundice)
+## question
+Weil's disease (infectious jaundice) is caused by:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Rickettsia typhi
+## explanation_a
+Incorrect. Rickettsia typhi causes endemic (murine) typhus, not Weil's disease.
+## answer_b
+Borrelia recurrentis
+## explanation_b
+Incorrect. Borrelia recurrentis causes louse-borne relapsing fever.
+## answer_c
+Coxiella burnetii
+## explanation_c
+Incorrect. Coxiella burnetii causes Q fever.
+## answer_d
+Leptospira interrogans
+## explanation_d
+Correct. Weil's disease is severe leptospirosis with jaundice and renal failure, caused by pathogenic Leptospira interrogans, typically acquired through water contaminated with rodent urine.
+## answer_e
+Borrelia burgdorferi
+## explanation_e
+Incorrect. Borrelia burgdorferi causes Lyme disease.
+## topic
+Microbiology
+## subtopic
+Spirochaetes
+## main_concept
+CON-INF-577D12D908417E
+## concept_ids
+CON-INF-577D12D908417E
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Leptospira
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Attribute Weil's disease (infectious jaundice) to Leptospira interrogans.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q20 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-21
+## title
+Vincent's angina — the incorrect statement
+## question
+Regarding Vincent's angina, all the following statements are correct EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+It is an infection of the pharynx.
+## explanation_a
+Incorrect. Vincent's angina affects the gingiva and pharynx, so this statement is true.
+## answer_b
+It is caused by oral spirochaetes and fusiform bacilli.
+## explanation_b
+Incorrect. It results from synergy of oral spirochaetes (Borrelia vincentii) and fusiform bacilli, so this statement is true.
+## answer_c
+It is characterized by the formation of a pseudomembrane.
+## explanation_c
+Incorrect. A greyish pseudomembrane/ulceration forms over the affected tissue, so this statement is true.
+## answer_d
+It may occur following viral infections, e.g. herpes simplex.
+## explanation_d
+Incorrect. It can follow debilitating or viral infections such as herpes simplex, so this statement is true.
+## answer_e
+The causative organisms cannot be stained by Gram stain.
+## explanation_e
+Correct. This is the false statement: the fusiform bacilli and spirochaetes ARE demonstrable on a Gram-stained smear of the lesion, which is the routine diagnostic method.
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## main_concept
+CON-INF-3282A531B50E06
+## concept_ids
+CON-INF-3282A531B50E06
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vincent's angina
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that Vincent's angina is diagnosed by Gram-stained smear showing fusiform bacilli and spirochaetes.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q21 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-23
+## title
+Correct statement about Coxiella burnetii
+## question
+Which of the following is correct about Coxiella burnetii?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+It is a type of extracellular bacterium.
+## explanation_a
+Incorrect. Coxiella burnetii is an obligate intracellular bacterium, not extracellular.
+## answer_b
+It has no reservoir other than humans.
+## explanation_b
+Incorrect. Its main reservoir is animals (cattle, sheep, goats), not humans.
+## answer_c
+It causes a clinical condition called Q fever.
+## explanation_c
+Correct. Coxiella burnetii is the cause of Q fever, which can present as an atypical pneumonia, hepatitis or chronic endocarditis.
+## answer_d
+It causes pneumonia only.
+## explanation_d
+Incorrect. Q fever is not limited to pneumonia; it also causes hepatitis and endocarditis.
+## answer_e
+It is easily stained by Gram stain.
+## explanation_e
+Incorrect. Coxiella stains poorly with Gram stain and is demonstrated with special stains such as Gimenez.
+## topic
+Microbiology
+## subtopic
+Rickettsiae and Coxiella
+## main_concept
+CON-INF-7C1B46D2DD8C34
+## concept_ids
+CON-INF-7C1B46D2DD8C34
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Coxiella burnetii
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Identify Coxiella burnetii as the cause of Q fever.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q23 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-35
+## title
+Normal flora — the incorrect statement
+## question
+Regarding members of the normal flora, all the following statements are true EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Transient colonization can be promptly re-established when disturbed.
+## explanation_a
+Correct. This is the false statement: it is the RESIDENT (permanent) flora, not the transient flora, that is promptly re-established after disturbance; transient organisms are only temporary colonizers.
+## answer_b
+They may cause infection if they change their normal habitat.
+## explanation_b
+Incorrect. Commensals may cause opportunistic infection when displaced to an abnormal site (e.g. gut flora entering the peritoneum), so this statement is true.
+## answer_c
+Through 'bacterial interference' they prevent colonization by pathogens.
+## explanation_c
+Incorrect. Bacterial interference by the normal flora suppresses colonization by pathogens, so this statement is true.
+## answer_d
+They may produce disease by a superinfection mechanism.
+## explanation_d
+Incorrect. Superinfection can follow when antibiotics suppress the flora and resistant organisms overgrow, so this statement is true.
+## answer_e
+They synthesize vitamin K in the intestine.
+## explanation_e
+Incorrect. Intestinal flora synthesize vitamin K and some B vitamins, so this statement is true.
+## topic
+Microbiology
+## subtopic
+Normal flora
+## main_concept
+CON-INF-AB4CD4E46BE6E3
+## concept_ids
+CON-INF-AB4CD4E46BE6E3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > General microbiology > Normal flora
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that it is the resident (not transient) normal flora that re-establishes promptly after disturbance.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q35 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-36
+## title
+Normal flora by body site — the mismatched pair
+## question
+Regarding the important members of the normal flora at different body sites, which of the following pairs is MIS-matched?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+Skin - Staphylococcus epidermidis
+## explanation_a
+Incorrect. Staphylococcus epidermidis is a dominant skin commensal, so this pair is correctly matched.
+## answer_b
+Nose - Staphylococcus aureus
+## explanation_b
+Incorrect. Staphylococcus aureus is carried in the anterior nares, so this pair is correctly matched.
+## answer_c
+Throat - Viridans streptococci
+## explanation_c
+Incorrect. Viridans streptococci dominate the oropharyngeal flora, so this pair is correctly matched.
+## answer_d
+Colon - Bacteroides
+## explanation_d
+Incorrect. Bacteroides is the predominant colonic anaerobe, so this pair is correctly matched.
+## answer_e
+Vagina - Escherichia coli
+## explanation_e
+Correct. This is the mismatched pair: the predominant normal flora of the adult vagina is Lactobacillus (Doderlein's bacillus), which maintains an acidic pH, not Escherichia coli.
+## topic
+Microbiology
+## subtopic
+Normal flora
+## main_concept
+CON-INF-89FEFF31BDEDAD
+## concept_ids
+CON-INF-89FEFF31BDEDAD
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > General microbiology > Normal flora
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that the dominant vaginal commensal is Lactobacillus, not Escherichia coli.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q36 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-37
+## title
+Recognized causes of diarrhoea — the exception
+## question
+Each of the following agents is a recognized cause of diarrhoea EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+Clostridium perfringens
+## explanation_a
+Incorrect. Clostridium perfringens type A causes food-poisoning diarrhoea, so it is a recognized cause.
+## answer_b
+Enterococcus faecalis
+## explanation_b
+Correct. This is the exception: Enterococcus faecalis is a cause of urinary tract infection, endocarditis and wound infection, but is not a recognized cause of diarrhoea.
+## answer_c
+Shigella dysenteriae
+## explanation_c
+Incorrect. Shigella dysenteriae causes bacillary dysentery, so it is a recognized cause.
+## answer_d
+Vibrio cholerae
+## explanation_d
+Incorrect. Vibrio cholerae causes profuse watery diarrhoea, so it is a recognized cause.
+## answer_e
+Campylobacter jejuni
+## explanation_e
+Incorrect. Campylobacter jejuni is a leading cause of bacterial enteritis, so it is a recognized cause.
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## main_concept
+CON-INF-9AA1BE00053C86
+## concept_ids
+CON-INF-9AA1BE00053C86
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Causes of diarrhoea
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recognise that Enterococcus faecalis is not a recognized cause of diarrhoea.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q37 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-38
+## title
+Causes of food poisoning — the exception
+## question
+Food poisoning is caused by all the following EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Clostridium botulinum
+## explanation_a
+Incorrect. Clostridium botulinum causes botulism, a form of food-borne intoxication, so it is a cause of food poisoning.
+## answer_b
+Clostridium perfringens
+## explanation_b
+Incorrect. Clostridium perfringens is a recognized cause of food-poisoning diarrhoea.
+## answer_c
+Bacillus cereus
+## explanation_c
+Incorrect. Bacillus cereus causes emetic and diarrhoeal food poisoning.
+## answer_d
+Salmonella Typhi
+## explanation_d
+Correct. This is the exception: Salmonella Typhi causes enteric (typhoid) FEVER, a systemic infection, whereas food poisoning (gastroenteritis) is caused by non-typhoidal salmonellae.
+## answer_e
+Staphylococcus aureus
+## explanation_e
+Incorrect. Staphylococcus aureus enterotoxin is a classic cause of food poisoning.
+## topic
+Microbiology
+## subtopic
+Food poisoning
+## main_concept
+CON-INF-C0F03199D67365
+## concept_ids
+CON-INF-C0F03199D67365
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Causes of food poisoning
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Distinguish Salmonella Typhi (enteric fever) from the agents of food poisoning.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q38 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-39
+## title
+Pathogens excreted in milk — the exception
+## question
+Pathogens excreted in milk from diseased animals include all the following EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Mycobacterium bovis
+## explanation_a
+Incorrect. Mycobacterium bovis is excreted in the milk of infected cattle (bovine tuberculosis), so it belongs in the list.
+## answer_b
+Brucella abortus
+## explanation_b
+Incorrect. Brucella abortus is shed in cow's milk, so it belongs in the list.
+## answer_c
+Brucella melitensis
+## explanation_c
+Incorrect. Brucella melitensis is shed in goat and sheep milk, so it belongs in the list.
+## answer_d
+Vibrio cholerae
+## explanation_d
+Correct. This is the exception: Vibrio cholerae is a human pathogen spread by faecally contaminated water and food, not excreted in animal milk.
+## answer_e
+Coxiella burnetii
+## explanation_e
+Incorrect. Coxiella burnetii is shed in the milk of infected animals and can be milk-borne, so it belongs in the list.
+## topic
+Microbiology
+## subtopic
+Zoonoses
+## main_concept
+CON-INF-853BD83D9909D5
+## concept_ids
+CON-INF-853BD83D9909D5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Milk-borne pathogens
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recognise that Vibrio cholerae is not a milk-borne animal pathogen, unlike Brucella, M. bovis and Coxiella.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q39 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-24
+## title
+Correct statement regarding hepatitis A infection
+## question
+Regarding hepatitis A viral infection, which statement is correct?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+It can be prevented by an inactivated vaccine.
+## explanation_a
+Correct. A formalin-inactivated hepatitis A vaccine is available and effectively prevents infection.
+## answer_b
+Liver enzymes are usually decreased.
+## explanation_b
+Incorrect. Liver transaminases are elevated, not decreased, in acute hepatitis A.
+## answer_c
+Diagnosis is routinely done by isolating the virus in cell culture.
+## explanation_c
+Incorrect. Diagnosis is serological (anti-HAV IgM); the virus is not routinely isolated in cell culture.
+## answer_d
+It usually causes a chronic hepatitis ending in cirrhosis.
+## explanation_d
+Incorrect. Hepatitis A is a self-limited acute infection and does not become chronic or cause cirrhosis.
+## answer_e
+It is commonly acquired through contact with blood from an infected person.
+## explanation_e
+Incorrect. Hepatitis A is transmitted by the faecal-oral route, not by blood.
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## main_concept
+CON-INF-8335D615F41349
+## concept_ids
+CON-INF-8335D615F41349
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis A virus
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that hepatitis A is prevented by an inactivated vaccine and is a self-limited faecal-oral infection.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q24 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-25
+## title
+Faeco-oral hepatitis with high mortality in pregnancy
+## question
+The hepatitis virus that is acquired faeco-orally and causes a high mortality rate in pregnant women is:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+Hepatitis A virus
+## explanation_a
+Incorrect. Hepatitis A is faecal-oral but does not carry the characteristic high mortality in pregnancy.
+## answer_b
+Hepatitis B virus
+## explanation_b
+Incorrect. Hepatitis B is blood-borne, not faecal-oral.
+## answer_c
+Hepatitis C virus
+## explanation_c
+Incorrect. Hepatitis C is blood-borne, not faecal-oral.
+## answer_d
+Hepatitis D virus
+## explanation_d
+Incorrect. Hepatitis D is blood-borne and requires co-infection with hepatitis B.
+## answer_e
+Hepatitis E virus
+## explanation_e
+Correct. Hepatitis E is transmitted faecal-orally (contaminated water) and is notorious for a high mortality rate (up to ~20%) in pregnant women, especially in the third trimester.
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## main_concept
+CON-INF-771D92B7087132
+## concept_ids
+CON-INF-771D92B7087132
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis E virus
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Identify hepatitis E as the faecal-oral hepatitis with high mortality in pregnancy.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q25 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-26
+## title
+Hepatitis B marker most closely associated with infectivity
+## question
+The marker most closely associated with hepatitis B virus infectivity is:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+B
+## answer_a
+HBsAg
+## explanation_a
+Incorrect. HBsAg indicates current infection (acute or chronic) but not the degree of infectivity.
+## answer_b
+HBeAg
+## explanation_b
+Correct. HBeAg reflects active viral replication and correlates with high circulating virus, so it is the marker of high infectivity.
+## answer_c
+Anti-HBs
+## explanation_c
+Incorrect. Anti-HBs is a protective antibody indicating immunity/recovery, not infectivity.
+## answer_d
+Anti-HBe
+## explanation_d
+Incorrect. Anti-HBe indicates seroconversion to lower replication and reduced infectivity.
+## answer_e
+Anti-HBc
+## explanation_e
+Incorrect. Anti-HBc reflects exposure but not the level of infectivity.
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## main_concept
+CON-INF-DD08E2A83C9AE3
+## concept_ids
+CON-INF-DD08E2A83C9AE3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis B serology
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that HBeAg is the hepatitis B marker most closely associated with infectivity.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q26 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-27
+## title
+Interpreting a hepatitis B serological profile
+## question
+A patient tested positive for HBsAg, negative for anti-HBs, positive for anti-HBc IgG and negative for anti-HBc IgM. The diagnosis is most probably:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+Acute HBV infection
+## explanation_a
+Incorrect. Acute infection would show anti-HBc IgM, which is negative here.
+## answer_b
+Immune state following vaccination
+## explanation_b
+Incorrect. Vaccine immunity gives isolated anti-HBs positivity with negative HBsAg and anti-HBc.
+## answer_c
+Immune state following natural infection
+## explanation_c
+Incorrect. Immunity after natural infection shows anti-HBs and anti-HBc positive with HBsAg negative.
+## answer_d
+Window phase
+## explanation_d
+Incorrect. The window phase has HBsAg negative with anti-HBc IgM positive.
+## answer_e
+Chronic HBV infection
+## explanation_e
+Correct. Persistent HBsAg with anti-HBc IgG (not IgM) and absent anti-HBs indicates chronic hepatitis B infection.
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## main_concept
+CON-INF-E033B29DA1C5B3
+## concept_ids
+CON-INF-E033B29DA1C5B3
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis B serology
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Interpret a HBsAg-positive, anti-HBc IgG-positive, anti-HBs-negative profile as chronic hepatitis B.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q27 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-28
+## title
+Hepatitis C virus — the incorrect statement
+## question
+All the following statements about hepatitis C virus are correct EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+HCV-infected patients are predisposed to hepatocellular carcinoma.
+## explanation_a
+Incorrect. Chronic HCV predisposes to cirrhosis and hepatocellular carcinoma, so this statement is true.
+## answer_b
+HCV is an important cause of post-transfusion hepatitis.
+## explanation_b
+Incorrect. HCV is a major cause of post-transfusion (parenterally transmitted) hepatitis, so this statement is true.
+## answer_c
+An inactivated vaccine prevents the disease in exposed individuals.
+## explanation_c
+Correct. This is the false statement: there is NO hepatitis C vaccine, largely because of the virus's high genomic variability.
+## answer_d
+Diagnosis is made by detecting anti-HCV antibodies by ELISA.
+## explanation_d
+Incorrect. Anti-HCV antibody detection by ELISA is the standard screening test, so this statement is true.
+## answer_e
+Alpha interferon plus ribavirin have been used in treatment.
+## explanation_e
+Incorrect. Interferon-alpha with ribavirin was a standard therapy (now largely replaced by direct-acting antivirals), so this statement is true.
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## main_concept
+CON-INF-98303F66CC0825
+## concept_ids
+CON-INF-98303F66CC0825
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis C virus
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that no vaccine exists for hepatitis C virus.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q28 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-30
+## title
+Nature of the yellow fever vaccine
+## question
+The nature of the yellow fever vaccine is:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+D
+## answer_a
+Recombinant
+## explanation_a
+Incorrect. The yellow fever vaccine is not a recombinant subunit vaccine.
+## answer_b
+Heat-inactivated
+## explanation_b
+Incorrect. It is not a heat-inactivated preparation.
+## answer_c
+Formalin-inactivated
+## explanation_c
+Incorrect. It is not a formalin-inactivated vaccine.
+## answer_d
+Living attenuated
+## explanation_d
+Correct. The yellow fever vaccine is a live attenuated vaccine (the 17D strain) that produces long-lasting immunity after a single dose.
+## answer_e
+Plasma-derived
+## explanation_e
+Incorrect. It is not plasma-derived (unlike the original plasma-derived hepatitis B vaccine).
+## topic
+Microbiology
+## subtopic
+Arboviruses
+## main_concept
+CON-INF-576A90E8AB62C2
+## concept_ids
+CON-INF-576A90E8AB62C2
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Yellow fever vaccine
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that the yellow fever vaccine is a live attenuated (17D) vaccine.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q30 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-31
+## title
+Most common cause of infantile gastroenteritis
+## question
+Which of the following is the most common cause of infantile gastroenteritis?
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+A
+## answer_a
+Rotavirus
+## explanation_a
+Correct. Rotavirus is the leading cause of severe dehydrating gastroenteritis in infants and young children worldwide.
+## answer_b
+Adenovirus
+## explanation_b
+Incorrect. Enteric adenoviruses (types 40/41) cause some infantile diarrhoea but are less common than rotavirus.
+## answer_c
+Norwalk virus
+## explanation_c
+Incorrect. Norwalk (norovirus) mainly causes outbreaks of gastroenteritis in older children and adults.
+## answer_d
+Poliovirus
+## explanation_d
+Incorrect. Poliovirus causes poliomyelitis, not gastroenteritis.
+## answer_e
+Hepatitis A virus
+## explanation_e
+Incorrect. Hepatitis A virus causes hepatitis, not gastroenteritis.
+## topic
+Microbiology
+## subtopic
+Gastroenteritis viruses
+## main_concept
+CON-INF-0A82741F67CBFF
+## concept_ids
+CON-INF-0A82741F67CBFF
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Rotavirus
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Identify rotavirus as the commonest cause of infantile gastroenteritis.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q31 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-33
+## title
+Norovirus — the incorrect statement
+## question
+Regarding norovirus, all the following statements are true EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+It is a non-enveloped virus.
+## explanation_a
+Incorrect. Norovirus is a non-enveloped calicivirus, so this statement is true.
+## answer_b
+It has a single-stranded RNA genome.
+## explanation_b
+Incorrect. Norovirus has a single-stranded RNA genome, so this statement is true.
+## answer_c
+It is the most important cause of infantile gastroenteritis.
+## explanation_c
+Correct. This is the false statement: the most important cause of INFANTILE gastroenteritis is rotavirus; norovirus is the leading cause of gastroenteritis outbreaks in older children and adults.
+## answer_d
+It is highly infective.
+## explanation_d
+Incorrect. Norovirus has a very low infective dose and is highly contagious, so this statement is true.
+## answer_e
+No specific vaccine is available.
+## explanation_e
+Incorrect. No specific licensed norovirus vaccine is available, so this statement is true.
+## topic
+Microbiology
+## subtopic
+Gastroenteritis viruses
+## main_concept
+CON-INF-AF5962AD3C1F69
+## concept_ids
+CON-INF-AF5962AD3C1F69
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Norovirus
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that norovirus, not rotavirus, predominates in outbreaks but is not the main cause of infantile gastroenteritis.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q33 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-MICROGIT-34
+## title
+Candida albicans — the incorrect statement
+## question
+All the following are correct about Candida albicans EXCEPT:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+E
+## answer_a
+It causes oral thrush.
+## explanation_a
+Incorrect. Candida albicans is the classic cause of oral thrush, so this statement is true.
+## answer_b
+It is a yeast fungus that replicates by budding.
+## explanation_b
+Incorrect. It is a yeast that reproduces by budding, so this statement is true.
+## answer_c
+It produces a germ tube in serum at 37°C after 2 hours.
+## explanation_c
+Incorrect. The germ-tube test is positive in serum at 37°C within about 2 hours, so this statement is true.
+## answer_d
+It produces chlamydospores on corn meal agar.
+## explanation_d
+Incorrect. It forms terminal chlamydospores on corn meal (Dalmau) agar, so this statement is true.
+## answer_e
+It produces true septate hyphae at 22°C.
+## explanation_e
+Correct. This is the false statement: at 22°C Candida albicans forms PSEUDOhyphae (and yeast cells), not true septate hyphae; true hyphae/germ tubes form in serum at 37°C.
+## topic
+Microbiology
+## subtopic
+Medical mycology
+## main_concept
+CON-INF-0C7201B5695066
+## concept_ids
+CON-INF-0C7201B5695066
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Negative
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Mycology > Candida albicans
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-MYCOLOGY
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+
+## learning_objective
+Recall that Candida albicans forms pseudohyphae, not true septate hyphae, at 22°C.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ [GIT], Microbiology MCQ Q34 (answer expert-determined; no printed key)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.

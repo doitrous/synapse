@@ -42,3 +42,37 @@ extracted
 University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to the option text and stems reproduced in the question items themselves.
 ## qualification
 Kasr Al Ainy Year 3, module 309 INF (Infectious Diseases: Microbiology & Parasitology). MICROBIOLOGY previous-years MCQ compilation from the سلسلة الجامع المعين (Al-Jame' Al-Mo'een) study series, 21 pages, native text layer (no OCR needed). Section A) Written (essay/enumerate/define — not authored, non-MCQ). Section B) MCQ = clean 4-option single-best, Q1-78, with a chapter index (1 General microbiology; 2 Systemic bacteriology; 3 Systemic virology, mycology & applied microbiology; 4 Immunity). Section C) Matching (scenario→organism / toxin lists) — excluded, not 4-option single-best. Per-question bracket tags mark past sittings ([195 old 2nd], [194 2nd/1st/EOM], [192 2nd/1st/EOM]). NO printed answer key anywhere in the file: correct answers are EXPERT-DETERMINED by established microbiology/immunology and justified per-option (keySource = expert-determined by reasoning; no reliable source key). Sitting year: none printed — a compiled previous-years bank, not a single dated sitting; examSittingYear left null.
+
+---
+
+# Item
+## id
+src_7d53d3a8f09b4d542ae1
+## title
+309 INF Microbiology — Micro MCQ [GIT] (scanned MCQ bank)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y3
+## source_relative_path
+309 INF/Microbiology/Questions & MCQs/Micro MCQ [GIT].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+23
+## sha256
+7d53d3a8f09b4d542ae1ddcf8bf7c82eb6e2dc64b9ffc92d7acabdf1435dd3e3
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to the option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy Year 3, module 309 INF (Infectious Diseases: Microbiology & Parasitology). MICROBIOLOGY MCQ bank ('Micro MCQ [GIT]'), 23 pages, scanned image-only (recovered by OCR). Questions are 4-to-5-option single-best MCQs on systemic bacteriology (food poisoning, enteric Gram-negatives, vibrios, Campylobacter/Helicobacter, anaerobes, spirochaetes, Coxiella, normal flora), systemic virology (hepatitis viruses, gastroenteritis viruses, yellow fever vaccine) and mycology (Candida). The final page carries a hand-written answer table that is OCR-garbled and undecodable, so there is NO reliable printed answer key: correct answers are EXPERT-DETERMINED by established microbiology and justified per-option (keySource = expert-determined by reasoning; no reliable source key). Several items are True-or-False or multi-true statements and were HELD as out of the single-best contract. Sitting year: none printed; examSittingYear left null.

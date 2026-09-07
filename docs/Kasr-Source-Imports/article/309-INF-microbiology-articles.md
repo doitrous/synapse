@@ -423,6 +423,7 @@ DIS-MIC
 ## related_concepts
 CON-INF-A8A86B40B19C73
 CON-INF-E3157CEF4C0E1E
+CON-INF-0C7201B5695066
 ## related_articles
 
 ## resource_ids
@@ -450,3 +451,198 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology/immunology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
 ## reading_time
 4
+
+---
+
+# Item
+## id
+ART-INF-309-MICRO-GI-BACTERIA
+## title
+Enteric, zoonotic and anaerobic bacteria, and the normal flora
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Microbiology
+## summary
+This article groups the systemic and applied bacteriology tested by the Micro MCQ [GIT] bank: bacterial food poisoning (staphylococcal short-incubation intoxication, Bacillus cereus emetic cereulide, Clostridium difficile antibiotic-associated colitis and the food-poisoning agent list), the enteric Gram-negative bacilli (enterohaemorrhagic E. coli Shiga-like toxin, Salmonella and Shigella laboratory features, Salmonella Typhi enteric fever) and vibrios (Vibrio cholerae TCBS sucrose fermentation and string test, Vibrio parahaemolyticus shellfish gastroenteritis), the microaerophilic curved bacilli Campylobacter and Helicobacter, the anaerobes Bacteroides fragilis and Fusobacterium, the spirochaete Leptospira (Weil's disease) and Vincent's angina, the zoonosis Coxiella burnetii (Q fever) and milk-borne pathogens, and the composition and roles of the normal flora.
+## sections
+### Definition
+The cluster covers the medically important bacteria of gastrointestinal and zoonotic infection examined in 309 INF: toxin-mediated food poisoning, the enteric Gram-negative bacilli and vibrios, microaerophilic Campylobacter/Helicobacter, colonic and oral anaerobes, Leptospira, Coxiella, and the normal flora that both protects the host and can cause opportunistic disease.
+### Mechanism
+Toxin-mediated food poisoning acts through preformed or in-vivo toxins with characteristic incubation times (short for staphylococcal and emetic Bacillus cereus intoxication; antibiotic-driven overgrowth for Clostridium difficile). Enteric Gram-negative bacilli are separated by lactose fermentation (pale Salmonella/Shigella colonies), motility (non-motile Shigella has no H antigen) and toxin (Shiga-like toxin marks enterohaemorrhagic E. coli). Vibrios are identified on TCBS by sucrose fermentation and by the string test; Campylobacter and Helicobacter are microaerophilic curved bacilli distinguished by thermophilic growth and urease. Bacteroides fragilis and Fusobacterium are endogenous anaerobes; Leptospira and Coxiella are zoonoses; and the resident normal flora provides colonization resistance and vitamin synthesis.
+### Key determinants
+Discriminators tested here: incubation time and toxin heat-stability in food poisoning; lactose fermentation, motility and toxin type among the Enterobacteriaceae; sucrose fermentation and the string test for vibrios; 42C thermophilic growth (Campylobacter) versus 37C growth and urease (Helicobacter); endogenous route and colonic predominance of Bacteroides fragilis; Fusobacterium/spirochaete synergy in Vincent's angina (seen on Gram smear); Leptospira as the cause of Weil's disease; Coxiella as the cause of Q fever; the milk-borne zoonoses; and resident-versus-transient normal flora with the Lactobacillus-dominated vaginal flora.
+### Clinical significance
+These facts underpin the diagnosis, prevention and empirical management of gastrointestinal and zoonotic infection: recognising toxin-mediated versus infective food poisoning, selecting and reading the correct selective media, distinguishing the microaerophilic gastric and enteric curved bacilli, anticipating endogenous anaerobic sepsis after bowel breach, and appreciating why the normal flora both protects the host and, when displaced or suppressed, causes opportunistic disease.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology
+## subtopic
+Systemic bacteriology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+DIS-MIC
+## related_concepts
+CON-INF-A136226BB01F5B
+CON-INF-388F546BF1F915
+CON-INF-5705E802DE6A1C
+CON-INF-FC156A6FF4DFE5
+CON-INF-A7734CAAD9DC1A
+CON-INF-A82557DC65F12C
+CON-INF-D1DD2261B3929A
+CON-INF-E63A2D5F8ED395
+CON-INF-19669BF7854E46
+CON-INF-616C00E692D7F4
+CON-INF-52F037BB1CD28F
+CON-INF-7FE9693D855FFF
+CON-INF-327C9186902F93
+CON-INF-957B8A635FABAB
+CON-INF-5E58B23B24DEEA
+CON-INF-A5397917411613
+CON-INF-577D12D908417E
+CON-INF-3282A531B50E06
+CON-INF-7C1B46D2DD8C34
+CON-INF-AB4CD4E46BE6E3
+CON-INF-89FEFF31BDEDAD
+CON-INF-9AA1BE00053C86
+CON-INF-C0F03199D67365
+CON-INF-853BD83D9909D5
+## related_articles
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+7
+
+
+---
+
+# Item
+## id
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## title
+Hepatitis viruses, gastroenteritis viruses and the yellow fever vaccine
+## subject
+inf
+## status
+Draft
+## owner
+Claude
+## topic
+Microbiology
+## summary
+This article groups the systemic virology tested by the Micro MCQ [GIT] bank: the hepatitis viruses (hepatitis A prevented by an inactivated vaccine; hepatitis E faeco-oral with high mortality in pregnancy; the hepatitis B markers of infectivity and the serological pattern of chronic infection; the absence of a hepatitis C vaccine), the gastroenteritis viruses (rotavirus as the commonest cause of infantile gastroenteritis and norovirus as a non-enveloped ssRNA cause of outbreaks) and the nature of the yellow fever vaccine (live attenuated 17D).
+## sections
+### Definition
+The cluster covers the medically important viruses of hepatitis and gastroenteritis examined in 309 INF, together with the yellow fever vaccine: their routes of transmission, diagnostic markers, prevention and the clinical hallmarks that separate them.
+### Mechanism
+The hepatitis viruses differ by route (faeco-oral A and E versus blood-borne B, C and D), chronicity (self-limited A and E; chronic B and C) and serology (HBeAg marks infectivity; persistent HBsAg with anti-HBc IgG marks chronic B). Hepatitis A is preventable by an inactivated vaccine, hepatitis E endangers pregnant women, and no hepatitis C vaccine exists because of genomic variability. The gastroenteritis viruses are distinguished by age and setting (rotavirus in infants; norovirus in outbreaks), genome and envelope. The yellow fever vaccine is a live attenuated 17D preparation.
+### Key determinants
+Discriminators tested here: faeco-oral versus blood-borne hepatitis; the pregnancy risk of hepatitis E; HBeAg as the infectivity marker; the chronic hepatitis B serological pattern; the absence of a hepatitis C vaccine; rotavirus versus norovirus by age/setting and genome; and the live attenuated nature of the yellow fever vaccine.
+### Clinical significance
+These facts guide the diagnosis and prevention of viral hepatitis and gastroenteritis: interpreting hepatitis B serology, counselling pregnant women about hepatitis E, choosing the correct vaccine, and recognising the age-specific viral causes of diarrhoea.
+### Common misconceptions
+See each concept's pitfalls field for the exact reversal each distractor exploits.
+## universities
+kau
+## years
+KAU_Y3
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology
+## subtopic
+Systemic virology
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 microbiology
+## high_yield
+Core
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+DIS-MIC
+## related_concepts
+CON-INF-8335D615F41349
+CON-INF-771D92B7087132
+CON-INF-DD08E2A83C9AE3
+CON-INF-E033B29DA1C5B3
+CON-INF-98303F66CC0825
+CON-INF-576A90E8AB62C2
+CON-INF-0A82741F67CBFF
+CON-INF-AF5962AD3C1F69
+## related_articles
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## nanotopic
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key. Written from standard medical microbiology teaching corroborated by this question bank's own stems and options; no department book PDF read this pass.
+## reading_time
+7

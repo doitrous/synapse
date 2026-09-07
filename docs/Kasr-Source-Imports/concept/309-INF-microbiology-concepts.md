@@ -4118,3 +4118,3676 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Extra 309 Questions PY bank prints no answer key). Fact grounded in standard medical microbiology/immunology teaching corroborated by this bank's own stem and options.
+
+---
+
+<!--
+  Kasr Al Ainy 309 INF (Year 3) - MICROBIOLOGY concepts, Micro MCQ [GIT] bank. Source src_7d53d3a8f09b4d542ae1
+  (no reliable printed answer key; answers expert-determined by microbiological reasoning per Omar
+  2026-09-07). Each concept minted university-blind: CON-INF- + first 14 hex of SHA-256(canonical_key),
+  uppercased; collision-checked against the corpus - no collisions. Bacteriology on DIS-MIC-T01
+  (article ART-INF-309-MICRO-GI-BACTERIA), virology on DIS-MIC-T02
+  (ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY), mycology on DIS-MIC-T03 (ART-INF-309-MICRO-MYCOLOGY).
+  publication_status=needs_evidence / status Draft. Import: Admin > Bulk import > concept.
+-->
+
+# Item
+## id
+CON-INF-A136226BB01F5B
+## label
+Staphylococcal food poisoning has a short (1-6 h) incubation period
+## canonical_key
+bacteria.staph-aureus.food-poisoning-short-incubation-period
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Staphylococcal food poisoning is an intoxication caused by ingesting preformed heat-stable enterotoxin; because no bacterial multiplication in the gut is needed, the incubation period is short (about 1-6 hours).
+## explicit_objective
+Recall that staphylococcal food poisoning has a short (1-6 hour) incubation period because it is caused by a preformed enterotoxin.
+## pitfalls
+Confusing the short toxin-mediated onset (1-6 h) with the longer incubation of infective food poisoning such as Salmonella (12-48 h).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Food poisoning
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Staphylococcal food poisoning
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-388F546BF1F915
+## label
+Bacillus cereus emetic toxin (cereulide) is heat-stable
+## canonical_key
+bacteria.bacillus-cereus.emetic-toxin-heat-stable
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The emetic form of Bacillus cereus food poisoning is caused by cereulide, a heat-stable, preformed toxin (typically in reheated rice) that produces a short-incubation illness with vomiting.
+## explicit_objective
+Distinguish the heat-stable emetic toxin (cereulide) of Bacillus cereus from the heat-labile enterotoxin of its diarrhoeal form.
+## pitfalls
+Assigning the heat-labile enterotoxin (diarrhoeal form) to the emetic syndrome.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Food poisoning
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Bacillus cereus food poisoning
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-5705E802DE6A1C
+## label
+Antibiotic therapy triggers Clostridium difficile pseudomembranous colitis
+## canonical_key
+bacteria.clostridium-difficile.antibiotic-associated-pseudomembranous-colitis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Clostridioides difficile colitis follows antibiotic-induced suppression of the normal colonic flora, which permits C. difficile to overgrow and elaborate toxins A and B, producing pseudomembranous colitis.
+## explicit_objective
+Identify antibiotic therapy as the principal trigger of Clostridium difficile pseudomembranous colitis.
+## pitfalls
+Attributing the colitis to immune status or obstruction rather than to antibiotic disruption of the protective flora.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Clostridium difficile colitis
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-FC156A6FF4DFE5
+## label
+Enterohaemorrhagic E. coli produces Shiga-like toxin
+## canonical_key
+bacteria.ecoli.ehec-produces-shiga-like-toxin
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Enterohaemorrhagic E. coli (notably O157:H7) produces Shiga-like toxin (verocytotoxin), which causes haemorrhagic colitis and can progress to haemolytic-uraemic syndrome.
+## explicit_objective
+Match Shiga-like toxin production to the enterohaemorrhagic E. coli pathotype.
+## pitfalls
+Confusing the toxin profiles of the E. coli diarrhoeagenic pathotypes.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Escherichia coli pathotypes
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-A7734CAAD9DC1A
+## label
+Salmonella is a non-lactose fermenter (pale colonies on MacConkey)
+## canonical_key
+bacteria.salmonella.non-lactose-fermenter-pale-colonies-macconkey
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Salmonellae are urease-negative Gram-negative enteric bacilli that do not ferment lactose, so they form pale/colourless colonies on MacConkey and DCA media.
+## explicit_objective
+Recall that Salmonella, as a non-lactose fermenter, produces pale colonies on MacConkey/DCA.
+## pitfalls
+Assuming enteric bacilli give pink colonies; pink indicates lactose fermentation, which Salmonella lacks.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Salmonella laboratory diagnosis
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-A82557DC65F12C
+## label
+Shigella is non-motile and serotyped by O antigen only
+## canonical_key
+bacteria.shigella.non-motile-typed-by-o-antigen-only
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Shigella is a non-motile, non-lactose-fermenting enteric bacillus; lacking flagella, it possesses no H antigen and is serotyped by its O (somatic) antigen alone.
+## explicit_objective
+Recall that Shigella, being non-motile, is serotyped by O antigen only (no H antigen).
+## pitfalls
+Assigning an H (flagellar) antigen to a non-motile organism.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Shigella
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-D1DD2261B3929A
+## label
+Vibrio cholerae ferments sucrose, forming yellow colonies on TCBS
+## canonical_key
+bacteria.vibrio-cholerae.tcbs-yellow-sucrose-fermentation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+On thiosulfate-citrate-bile salts-sucrose (TCBS) agar, Vibrio cholerae ferments sucrose, acidifies the medium and forms yellow colonies; non-sucrose fermenters (e.g. V. parahaemolyticus) remain green.
+## explicit_objective
+Explain that Vibrio cholerae forms yellow TCBS colonies because it ferments the sucrose in the medium.
+## pitfalls
+Attributing the yellow colour to pigment rather than to sucrose fermentation and acid production.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Vibrios
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vibrio cholerae laboratory diagnosis
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-E63A2D5F8ED395
+## label
+Vibrio parahaemolyticus causes gastroenteritis after eating raw shellfish
+## canonical_key
+bacteria.vibrio-parahaemolyticus.seafood-shellfish-gastroenteritis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vibrio parahaemolyticus is a halophilic marine vibrio that causes acute gastroenteritis following ingestion of raw or undercooked shellfish and other seafood.
+## explicit_objective
+Associate raw-shellfish gastroenteritis with Vibrio parahaemolyticus.
+## pitfalls
+Defaulting to Salmonella/Shigella for any diarrhoea instead of the seafood-specific halophilic vibrio.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Vibrios
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vibrio parahaemolyticus
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-19669BF7854E46
+## label
+The string test differentiates Vibrio cholerae from Aeromonas hydrophila
+## canonical_key
+bacteria.vibrio-cholerae.string-test-differentiates-from-aeromonas
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The string test, in which sodium deoxycholate lyses the cells to produce a mucoid 'string', is positive for Vibrio cholerae and negative for Aeromonas hydrophila, differentiating these otherwise similar oxidase-positive aquatic Gram-negative bacilli.
+## explicit_objective
+Use the string test to differentiate Vibrio cholerae (positive) from Aeromonas hydrophila (negative).
+## pitfalls
+Trying to separate them by oxidase or motility, which are shared by both.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Vibrios
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vibrio identification
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-616C00E692D7F4
+## label
+Campylobacter jejuni is isolated at 42C, microaerophilically, on Skirrow's medium
+## canonical_key
+bacteria.campylobacter-jejuni.isolation-42c-microaerophilic-skirrow
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Campylobacter jejuni is a thermophilic, microaerophilic organism isolated from faeces at 42°C in a microaerophilic atmosphere on the selective Skirrow's medium.
+## explicit_objective
+Recall that Campylobacter jejuni is isolated at 42°C, microaerophilically, on Skirrow's medium.
+## pitfalls
+Forgetting the microaerophilic requirement or the elevated (42°C) incubation temperature.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Campylobacter
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Campylobacter isolation
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-52F037BB1CD28F
+## label
+Helicobacter pylori, unlike Campylobacter, does not grow at 42C
+## canonical_key
+bacteria.helicobacter-pylori.does-not-grow-at-42c-unlike-campylobacter
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Helicobacter pylori resembles Campylobacter (curved, microaerophilic, oxidase-positive Gram-negative bacilli) but, unlike thermophilic Campylobacter, does not grow at 42°C, growing optimally at 37°C.
+## explicit_objective
+Recall that, unlike Campylobacter, Helicobacter pylori does not grow at 42°C.
+## pitfalls
+Assuming Helicobacter shares the thermophilic 42°C growth of Campylobacter.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Helicobacter
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Helicobacter versus Campylobacter
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-7FE9693D855FFF
+## label
+Helicobacter pylori is a urease-positive curved bacillus from gastric biopsy
+## canonical_key
+bacteria.helicobacter-pylori.urease-positive-curved-bacilli-gastric-biopsy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Helicobacter pylori is a strongly urease-positive, curved Gram-negative bacillus recovered from gastric biopsies of patients with peptic ulcer disease.
+## explicit_objective
+Identify a urease-positive curved bacterium from a gastric biopsy as Helicobacter pylori.
+## pitfalls
+Confusing gastric H. pylori with the urease-negative enteritis agent Campylobacter jejuni.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Helicobacter
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Helicobacter pylori diagnosis
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-327C9186902F93
+## label
+Urease enables Helicobacter pylori to colonize the acidic stomach
+## canonical_key
+bacteria.helicobacter-pylori.urease-enables-gastric-colonization
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Helicobacter pylori urease converts urea to ammonia and carbon dioxide, buffering the acidic gastric microenvironment and enabling the organism to colonize the stomach.
+## explicit_objective
+Explain that urease is the key virulence factor allowing H. pylori to survive gastric acid and colonize the stomach.
+## pitfalls
+Selecting motility as the primary colonization factor over acid-neutralizing urease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Helicobacter
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Helicobacter pylori virulence
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-957B8A635FABAB
+## label
+Bacteroides fragilis peritonitis is an endogenous infection
+## canonical_key
+bacteria.bacteroides-fragilis.peritonitis-endogenous-infection
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bacteroides fragilis is a predominant colonic commensal; the peritonitis it causes is an endogenous infection resulting from breach of the bowel wall that spills gut flora into the peritoneal cavity.
+## explicit_objective
+Recognise Bacteroides fragilis peritonitis as an endogenous infection from the patient's own gut flora.
+## pitfalls
+Treating an endogenous commensal infection as though it were externally acquired.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Bacteroides fragilis
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-5E58B23B24DEEA
+## label
+Bacteroides fragilis is the predominant organism of the human colon
+## canonical_key
+bacteria.bacteroides-fragilis.predominant-colonic-anaerobe
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bacteroides fragilis group organisms are the predominant anaerobes of the human colon, greatly outnumbering the facultative coliforms.
+## explicit_objective
+Recall that Bacteroides fragilis is the predominant organism of the human gastrointestinal tract.
+## pitfalls
+Confusing B. fragilis with C. difficile (antibiotic colitis) or C. botulinum (paralysis).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Bacteroides fragilis
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-A5397917411613
+## label
+Fusobacterium contributes to Vincent's angina
+## canonical_key
+bacteria.fusobacterium.vincent-angina-pathogenesis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Fusobacterium (fusiform anaerobic bacilli) acts synergistically with oral spirochaetes (Borrelia vincentii) to produce Vincent's angina, an acute ulcerative gingivostomatitis and pharyngitis.
+## explicit_objective
+Associate Fusobacterium, with oral spirochaetes, in the pathogenesis of Vincent's angina.
+## pitfalls
+Assigning Fusobacterium to unrelated syndromes such as acne or bacterial vaginosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Fusobacterium
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-577D12D908417E
+## label
+Leptospira interrogans causes Weil's disease (infectious jaundice)
+## canonical_key
+bacteria.leptospira-interrogans.causes-weil-disease
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Weil's disease is the severe icteric form of leptospirosis, caused by Leptospira interrogans and characterized by jaundice, renal impairment and haemorrhage, usually acquired via rodent-urine-contaminated water.
+## explicit_objective
+Attribute Weil's disease (infectious jaundice) to Leptospira interrogans.
+## pitfalls
+Confusing the spirochaetal causes of relapsing fever (Borrelia) and Lyme disease with leptospirosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Spirochaetes
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Leptospira
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-3282A531B50E06
+## label
+Vincent's angina is diagnosed by Gram-stained smear of fusiform bacilli and spirochaetes
+## canonical_key
+bacteria.vincent-angina.fusiform-bacilli-spirochaetes-seen-on-gram-smear
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Vincent's angina is diagnosed by demonstrating the causative fusiform bacilli and spirochaetes on a Gram-stained smear of the ulcerated lesion; the organisms are readily visible microscopically.
+## explicit_objective
+Recall that Vincent's angina is diagnosed by Gram-stained smear showing fusiform bacilli and spirochaetes.
+## pitfalls
+Believing the causative organisms cannot be seen on Gram stain, when smear microscopy is the standard diagnosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Anaerobic infections
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Vincent's angina
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-7C1B46D2DD8C34
+## label
+Coxiella burnetii causes Q fever
+## canonical_key
+bacteria.coxiella-burnetii.causes-q-fever
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Coxiella burnetii is an obligate intracellular bacterium, with an animal reservoir, that causes Q fever (atypical pneumonia, hepatitis or endocarditis); it stains poorly by Gram stain.
+## explicit_objective
+Identify Coxiella burnetii as the cause of Q fever.
+## pitfalls
+Describing Coxiella as an easily Gram-stained extracellular organism with a human-only reservoir.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Rickettsiae and Coxiella
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Coxiella burnetii
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-AB4CD4E46BE6E3
+## label
+Resident (not transient) normal flora re-establishes after disturbance
+## canonical_key
+bacteria.normal-flora.resident-flora-reestablished-after-disturbance
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The resident (permanent) normal flora, not the transient flora, is the fraction that is promptly re-established after disturbance; the flora also provides colonization resistance, vitamin synthesis and can cause opportunistic or superinfection.
+## explicit_objective
+Recall that it is the resident (not transient) normal flora that re-establishes promptly after disturbance.
+## pitfalls
+Attributing prompt re-establishment to transient rather than resident flora.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Normal flora
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > General microbiology > Normal flora
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-89FEFF31BDEDAD
+## label
+The predominant vaginal flora is Lactobacillus, not Escherichia coli
+## canonical_key
+bacteria.normal-flora.vaginal-flora-is-lactobacillus-not-ecoli
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The predominant normal flora of the healthy adult vagina is Lactobacillus (Doderlein's bacillus), which ferments glycogen to lactic acid and maintains a protective acidic pH; Escherichia coli is a colonic, not vaginal, commensal.
+## explicit_objective
+Recall that the dominant vaginal commensal is Lactobacillus, not Escherichia coli.
+## pitfalls
+Mismatching vaginal flora as E. coli rather than acid-producing lactobacilli.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Normal flora
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > General microbiology > Normal flora
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-9AA1BE00053C86
+## label
+Enterococcus faecalis is not a recognized cause of diarrhoea
+## canonical_key
+bacteria.enterococcus-faecalis.not-a-cause-of-diarrhoea
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Enterococcus faecalis characteristically causes urinary tract infection, endocarditis and wound/biliary sepsis; it is not a recognized enteric pathogen causing diarrhoea, unlike Shigella, Vibrio, Campylobacter and C. perfringens.
+## explicit_objective
+Recognise that Enterococcus faecalis is not a recognized cause of diarrhoea.
+## pitfalls
+Assuming any gut commensal that causes disease must cause diarrhoea.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Enteric Gram-negative bacilli
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Causes of diarrhoea
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-C0F03199D67365
+## label
+Salmonella Typhi causes enteric fever, not food poisoning
+## canonical_key
+bacteria.salmonella-typhi.causes-enteric-fever-not-food-poisoning
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Salmonella Typhi causes enteric (typhoid) fever, a systemic bacteraemic illness, and is distinct from the non-typhoidal salmonellae and toxin-producing organisms that cause food poisoning (gastroenteritis).
+## explicit_objective
+Distinguish Salmonella Typhi (enteric fever) from the agents of food poisoning.
+## pitfalls
+Grouping typhoidal Salmonella with food-poisoning agents rather than with systemic enteric fever.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Food poisoning
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Causes of food poisoning
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-853BD83D9909D5
+## label
+Vibrio cholerae is not excreted in animal milk
+## canonical_key
+bacteria.vibrio-cholerae.not-excreted-in-milk
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Milk from diseased animals can transmit Mycobacterium bovis, Brucella abortus and melitensis, and Coxiella burnetii; Vibrio cholerae is a water-borne human pathogen and is not excreted in animal milk.
+## explicit_objective
+Recognise that Vibrio cholerae is not a milk-borne animal pathogen, unlike Brucella, M. bovis and Coxiella.
+## pitfalls
+Assuming any enteric pathogen can be milk-borne; cholera spreads through water, not milk.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Zoonoses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Milk-borne pathogens
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-8335D615F41349
+## label
+Hepatitis A is prevented by an inactivated vaccine
+## canonical_key
+virus.hepatitis-a.prevented-by-inactivated-vaccine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hepatitis A is a self-limited, faecal-orally transmitted acute hepatitis diagnosed serologically (anti-HAV IgM) and preventable by a formalin-inactivated vaccine.
+## explicit_objective
+Recall that hepatitis A is prevented by an inactivated vaccine and is a self-limited faecal-oral infection.
+## pitfalls
+Confusing hepatitis A (acute, faecal-oral, inactivated vaccine) with blood-borne chronic hepatitis B/C.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis A virus
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-771D92B7087132
+## label
+Hepatitis E causes high mortality in pregnancy and is faeco-orally transmitted
+## canonical_key
+virus.hepatitis-e.faeco-oral-high-mortality-pregnancy
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Hepatitis E is an enterically (faecal-oral) transmitted hepatitis, usually self-limited, but associated with a markedly increased mortality in pregnant women, particularly in the third trimester.
+## explicit_objective
+Identify hepatitis E as the faecal-oral hepatitis with high mortality in pregnancy.
+## pitfalls
+Confusing the two faecal-oral hepatitides; hepatitis E, not A, endangers pregnant women.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis E virus
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-DD08E2A83C9AE3
+## label
+HBeAg is the hepatitis B marker of high infectivity
+## canonical_key
+virus.hepatitis-b.hbeag-marker-of-infectivity
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+HBeAg is a secreted marker of active hepatitis B virus replication; its presence signifies high viral load and correspondingly high infectivity.
+## explicit_objective
+Recall that HBeAg is the hepatitis B marker most closely associated with infectivity.
+## pitfalls
+Equating HBsAg positivity with high infectivity, when HBeAg indicates active replication.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis B serology
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-E033B29DA1C5B3
+## label
+Persistent HBsAg with anti-HBc IgG indicates chronic hepatitis B
+## canonical_key
+virus.hepatitis-b.chronic-infection-serology-hbsag-anti-hbc-igg
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+A hepatitis B profile of persistent HBsAg with anti-HBc IgG, absent anti-HBc IgM and absent anti-HBs indicates chronic HBV infection rather than acute infection, recovery or vaccine immunity.
+## explicit_objective
+Interpret a HBsAg-positive, anti-HBc IgG-positive, anti-HBs-negative profile as chronic hepatitis B.
+## pitfalls
+Missing that anti-HBc IgG (not IgM) with persistent HBsAg denotes chronicity, not acute infection.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis B serology
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-98303F66CC0825
+## label
+There is no hepatitis C vaccine
+## canonical_key
+virus.hepatitis-c.no-vaccine-available
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+There is no available hepatitis C vaccine, owing to the virus's marked genomic variability; HCV is a blood-borne cause of chronic hepatitis, cirrhosis and hepatocellular carcinoma diagnosed by anti-HCV ELISA.
+## explicit_objective
+Recall that no vaccine exists for hepatitis C virus.
+## pitfalls
+Assuming an inactivated vaccine exists for HCV as it does for HAV and HBV.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Hepatitis viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Hepatitis C virus
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-576A90E8AB62C2
+## label
+The yellow fever vaccine is live attenuated (17D)
+## canonical_key
+virus.yellow-fever.live-attenuated-17d-vaccine
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The yellow fever vaccine is a live attenuated vaccine derived from the 17D strain, giving durable immunity after a single dose.
+## explicit_objective
+Recall that the yellow fever vaccine is a live attenuated (17D) vaccine.
+## pitfalls
+Classifying the live attenuated 17D vaccine as an inactivated or recombinant preparation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Arboviruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Yellow fever vaccine
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-0A82741F67CBFF
+## label
+Rotavirus is the commonest cause of infantile gastroenteritis
+## canonical_key
+virus.rotavirus.most-common-cause-infantile-gastroenteritis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Rotavirus, a double-stranded RNA reovirus, is the most common cause of severe dehydrating gastroenteritis in infants and young children.
+## explicit_objective
+Identify rotavirus as the commonest cause of infantile gastroenteritis.
+## pitfalls
+Confusing rotavirus (infants) with norovirus, which predominates in adult/outbreak gastroenteritis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Gastroenteritis viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Rotavirus
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-AF5962AD3C1F69
+## label
+Norovirus is a non-enveloped ssRNA cause of gastroenteritis outbreaks
+## canonical_key
+virus.norovirus.non-enveloped-ssrna-outbreak-gastroenteritis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Norovirus is a highly infectious, non-enveloped, single-stranded RNA calicivirus that is the leading cause of gastroenteritis OUTBREAKS in older children and adults; infantile gastroenteritis is chiefly caused by rotavirus.
+## explicit_objective
+Recall that norovirus, not rotavirus, predominates in outbreaks but is not the main cause of infantile gastroenteritis.
+## pitfalls
+Assigning the infantile-gastroenteritis role of rotavirus to norovirus.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T02
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Gastroenteritis viruses
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic virology > Norovirus
+## article_ids
+ART-INF-309-MICRO-HEPATITIS-GI-VIROLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-0C7201B5695066
+## label
+Candida albicans forms pseudohyphae, not true septate hyphae, at 22C
+## canonical_key
+fungi.candida-albicans.pseudohyphae-not-true-septate-hyphae
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Candida albicans is a budding yeast that forms germ tubes in serum at 37°C and chlamydospores on corn meal agar, but produces pseudohyphae (not true septate hyphae) at 22°C.
+## explicit_objective
+Recall that Candida albicans forms pseudohyphae, not true septate hyphae, at 22°C.
+## pitfalls
+Describing Candida's 22°C growth as true septate hyphae rather than pseudohyphae.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T03
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Medical mycology
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Mycology > Candida albicans
+## article_ids
+ART-INF-309-MICRO-MYCOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_7d53d3a8f09b4d542ae1
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
