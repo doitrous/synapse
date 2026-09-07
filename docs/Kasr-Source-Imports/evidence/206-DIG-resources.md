@@ -152,3 +152,41 @@ Kasr Al Ainy 206 DIG Biochemistry department MCQ bank (tier 5, NON-EOM), 20 sing
 0.85
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_7b173a573b072b0b0702
+## title
+Physio Extra MCQ by Dr Effat [GIT]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+206 DIG/Physiology Dpt Physiology [1st priority]/MCQs/Physio Extra MCQ by Dr.Effat [GIT] .pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+15
+## sha256
+7b173a573b072b0b070239be25138b9115ac46dbb9aa7679ba43bc7d7feeed57
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy 206 DIG Physiology department MCQ bank (tier 5, NON-EOM), GI physiology, 15 pages. Native text layer present (OCR-clean via scripts/content/pagetext.mjs show). The bank is KEYED: it carries an Answers section with per-question rationale, and authored answers are taken from that source key. A first block of 25 items (GI reflexes, motility, secretion, absorption and gut hormones) mixes prose 4-option single-best questions with multi-column matrix/grid statement-set items; the grids are held and the prose single-best items are authored. A second block from page 8 onward overlaps the Pretest GI physiology bank. Selected as the first native-text Physiology 206-DIG department bank (the three 'Physio MCQ [GIT]' banks are image-only and await an OCR pass).
+## confidence
+0.9
+## is_assessment
+true

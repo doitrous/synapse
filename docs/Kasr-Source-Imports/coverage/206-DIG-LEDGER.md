@@ -428,3 +428,38 @@ a missing separator silently drops all but the last item). Gate-clean per slice 
 remaining Biochemistry Dpt banks (`Bio [McQs] last exams [GIT].pdf`, `Bio EXAMS DIG.pdf`,
 `BIO MCQ by Dr.Hanan [GIT].pdf`), then Physiology Dpt `Physio MCQ [GIT]` banks, then Histology
 Dpt `histo MCQ_DIG-206.pdf` — see `coverage/KAU-Y2-priority-sources.md`.
+
+## Remaining Biochemistry Dpt banks — dupe-saturated, SKIPPED
+
+Read this pass and skipped as dupe-saturated re-treads of the already-authored biochem-bank1
+(`Bio MCQ [GIT]`, src_a5284e5337d583b3ff25) + tranche-6 liver biochemistry corpus:
+`Bio [McQs] last exams [GIT].pdf` (src_73b6280e7cfd2b7f110c, 8 items = fatty liver / lipid
+transport / phase I-II detox — 7 of 8 map to existing concepts, 1 ambiguous) and
+`Bio EXAMS DIG.pdf` (src_be64445f622bc872c473, 27 items — a near-exact superset of biochem-bank1:
+lactase, pepsinogen, lipotropic, xenobiotics, cellulose, chylomicrons, steatorrhoea, fatty liver,
+phase I/II, pancreatic lipase, dietary pentose, GLUT2, L-amino acids, B3/fatty liver, vitamin
+deficiency, VLDL, bile salts, methyl donor). `BIO MCQ by Dr.Hanan [GIT].pdf` is image-only (no
+text layer, needs an OCR pass). The three department `Physio MCQ [GIT]` banks (2023 / main /
+revision) are likewise image-only. Next fresh native-text bank taken instead: Physiology Dpt
+`Physio Extra MCQ by Dr Effat [GIT]`.
+
+## Physiology department bank — `Physio Extra MCQ by Dr Effat [GIT]` (first NON-anatomy physiology dept bank)
+
+First native-text Physiology department 206-DIG bank (sourceId src_7b173a573b072b0b0702, tier 5,
+Physiology Dpt / MCQs folder, 15 pages, GI physiology). Native-text and **KEYED** — the bank
+carries an Answers section with per-question rationale, so authored answers are taken from the
+source key (`field_notes.keySource` = "source answer key (Dr Effat bank Answers section) with
+rationale"), STATUS=Draft. First block of 25 items mixes prose 4-option single-best questions
+(authored) with multi-column matrix/grid statement-set items (Q5,Q6,Q10-Q13,Q15-Q18,Q22 — held
+as statement-sets); a second block from page 8 overlaps the Pretest GI bank.
+
+physio-effat-tranche-1 (bank Q1-Q3): 3 authored — duodenocolic (gastrocolic) reflex and the
+post-prandial urge to defecate (DIS-PHY-T05, GI motility), terminal-ileum vitamin B12 absorption
+(GI absorption), and GIP as the GI hormone released by all three macronutrients (GI hormones).
+3 new `CON-GIT-*` concepts minted university-blind (SHA-256, collision-checked — no collisions;
+the GIP concept cross-links the existing CON-GIT-646EF2853FF707), 1 library article
+`ART-GIT-206DIG-PHYSIO-EFFAT`. Gate-clean (batch 0 errors). Authored in
+`question/206-DIG-physio-effat-mcq-tranche1.md`, `concept/206-DIG-physio-effat-tranche1-concepts.md`,
+`article/206-DIG-physio-effat-articles.md`, seed `seed/206-DIG-physio-effat-tranche1.json`.
+
+206-DIG authored total now: 277 + 3 (physio Effat t1) = **280 MCQs**.

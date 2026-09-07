@@ -4179,8 +4179,8 @@
    "fileType": "pdf",
    "pageCount": 15,
    "textLayer": "native",
-   "processingStatus": "pending",
-   "extractionDisposition": null,
+   "processingStatus": "extracted",
+   "extractionDisposition": "authoring — physio-effat tranche 1 (bank Q1-Q3, 3 MCQs): duodenocolic reflex, terminal-ileum B12, GIP. Grid/matrix items held; page-8+ block overlaps Pretest bank.",
    "duplicateOf": [
     "_Catalog/Exact Duplicates/206 DIG/Physiology Dpt Physiology [1st priority]/MCQs/Physio Extra MCQ by Dr.Effat [GIT]  (2).pdf"
    ]

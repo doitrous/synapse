@@ -1,0 +1,101 @@
+{
+  "lane": "KASR-206DIG",
+  "cluster": "physio-effat-t1",
+  "header": "KASR-206DIG · Physiology department MCQ bank 'Physio Extra MCQ by Dr Effat' tranche 1 (bank Q1-Q3, 3 authored) — Kasr Al Ainy 206 DIG Physiology Dpt bank, native-text, KEYED (the bank carries an Answers section with rationale; answers taken from that source key). sourceId src_7b173a573b072b0b0702. GI motility reflex (duodenocolic), terminal-ileum vitamin B12 absorption, and the GI hormone released by all three macronutrients (GIP/GLIP). 3 new gi concepts minted university-blind under DIS-PHY-T05 with SYS-GIT-T01-S02 cross-nav. Matrix/grid multi-column items (bank Q5,Q6,Q10-Q13,Q15-Q18,Q22) are held as statement-set questions; prose 4-option single-best items are authored.",
+  "defaults": {
+    "subject": "gi",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "206 DIG",
+    "module_subject": "206 DIG > Physiology",
+    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-GIT-206DIG-PHYSIO-EFFAT"],
+    "resource_ids": ["src_7b173a573b072b0b0702"],
+    "source_citation": "Kasr Al Ainy 206 DIG Physiology Dpt MCQ bank (Physio Extra MCQ by Dr Effat), {page}",
+    "setting": "Academic",
+    "topic": "Physiology",
+    "difficulty": "Moderate",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q1", "id": "QST-KASR206DIG-PHYSIOEFFAT-1", "page": "Q1",
+      "title": "Reflex causing the urge to defecate on duodenal distension",
+      "question": "About thirty minutes after a mixed meal a man feels the urge to defecate. Which reflex produces this urge when the duodenum is distended?",
+      "options": {
+        "A": "Duodenocolic reflex",
+        "B": "Enterogastric reflex",
+        "C": "Intestino-intestinal reflex",
+        "D": "Rectosphincteric reflex"
+      },
+      "correct": "A",
+      "explanations": {
+        "A": "Correct. Distension of the duodenum (and stomach) after a meal triggers the duodenocolic (and gastrocolic) reflex. This reflex drives mass movements in the descending and sigmoid colon. The result is the familiar post-prandial urge to defecate.",
+        "B": "Incorrect. The enterogastric reflex runs in the opposite direction: signals from the duodenum slow gastric emptying and reduce gastric motility and secretion; it does not cause the urge to defecate.",
+        "C": "Incorrect. The intestino-intestinal reflex causes reflex relaxation (inhibition) of the rest of the bowel when one segment is over-distended or injured; it is protective, not a defecation trigger.",
+        "D": "Incorrect. The rectosphincteric (defecation) reflex is initiated by distension of the rectum, not the duodenum, and mediates internal-anal-sphincter relaxation at the final step of defecation."
+      },
+      "field_notes": { "keySource": "source answer key (Dr Effat bank Answers section) with rationale" },
+      "main_concept": "CON-GIT-A8144604EB8CA2",
+      "concept_ids": ["CON-GIT-A8144604EB8CA2"],
+      "module_subject": "206 DIG > Physiology > GI motility",
+      "subtopic": "Gastrointestinal reflexes",
+      "learning_objective": "Identify the duodenocolic (gastrocolic) reflex as the cause of the post-prandial urge to defecate."
+    },
+    {
+      "key": "q2", "id": "QST-KASR206DIG-PHYSIOEFFAT-2", "page": "Q2",
+      "title": "Deficiency after resection of the ileum",
+      "question": "The entire ileum and part of the jejunum are resected after an accident. Which deficiency is this man most likely to develop?",
+      "options": {
+        "A": "Atrophic gastritis",
+        "B": "Constipation",
+        "C": "Gastro-oesophageal reflux disease",
+        "D": "Vitamin B12 deficiency"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Atrophic gastritis is an autoimmune or Helicobacter-related disease of the gastric mucosa; it is not caused by resecting small intestine.",
+        "B": "Incorrect. Loss of ileum shortens the absorptive surface and, with bile-salt malabsorption, tends to cause diarrhoea, not constipation.",
+        "C": "Incorrect. Reflux disease reflects an incompetent lower oesophageal sphincter; it is unrelated to ileal resection.",
+        "D": "Correct. Vitamin B12 (cyanocobalamin) is absorbed almost exclusively in the terminal ileum, bound to intrinsic factor from gastric parietal cells. Removing the ileum abolishes this site, so B12 deficiency (and, with time, megaloblastic anaemia) is the expected result."
+      },
+      "field_notes": { "keySource": "source answer key (Dr Effat bank Answers section) with rationale" },
+      "main_concept": "CON-GIT-2C9513DBEB4208",
+      "concept_ids": ["CON-GIT-2C9513DBEB4208"],
+      "module_subject": "206 DIG > Physiology > GI absorption",
+      "subtopic": "Vitamin B12 absorption",
+      "learning_objective": "State that vitamin B12 is absorbed in the terminal ileum bound to intrinsic factor, so ileal resection causes B12 deficiency."
+    },
+    {
+      "key": "q3", "id": "QST-KASR206DIG-PHYSIOEFFAT-3", "page": "Q3",
+      "title": "GI hormone released by all three macronutrients",
+      "question": "The presence of fat, carbohydrate, or protein in the duodenum stimulates the release of which hormone from the duodenal mucosa?",
+      "options": {
+        "A": "Cholecystokinin (CCK)",
+        "B": "Glucose-dependent insulinotropic peptide (GIP)",
+        "C": "Gastrin",
+        "D": "Motilin"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. CCK is released from duodenal I cells by the products of fat and protein digestion, but carbohydrate does not stimulate its release, so it is not released by all three foodstuffs.",
+        "B": "Correct. Glucose-dependent insulinotropic peptide (GIP, also called gastric inhibitory peptide) is released from duodenal K cells by all three major foodstuffs — fat, carbohydrate and protein. This makes it the incretin that couples essentially any meal to insulin release. CCK, gastrin and motilin each respond to only some nutrients, so GIP is the single hormone released by all three.",
+        "C": "Incorrect. Gastrin is released from antral G cells mainly by protein (peptides and amino acids); fat and carbohydrate do not stimulate it.",
+        "D": "Incorrect. Motilin is released mainly between meals to drive the migrating motor complex; fat has only a minor effect and protein and carbohydrate do not release it."
+      },
+      "field_notes": { "keySource": "source answer key (Dr Effat bank Answers section) with rationale" },
+      "main_concept": "CON-GIT-71487BE84D9403",
+      "concept_ids": ["CON-GIT-71487BE84D9403"],
+      "module_subject": "206 DIG > Physiology > GI hormones",
+      "subtopic": "Incretins and GI hormones",
+      "learning_objective": "Recall that GIP is the gastrointestinal hormone released by all three macronutrients (fat, carbohydrate and protein)."
+    }
+  ]
+}
