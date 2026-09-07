@@ -1,0 +1,242 @@
+{
+ "lane": "KASR-207END",
+ "cluster": "zahra-male-histology-a",
+ "header": "KASR-207END - Dr Ahmed Zahra HISTOLOGY MCQ bank, MALE reproductive section (pp.12-19), slice A. NON-department doctor's bank filed under the Histology Dpt [1st priority] folder, sourceId src_1b57cb8c6e1e06c67ec5 (sha256 1b57cb8c6e1e06c67ec52a4fdb05c73090700ba8375b630f68761a7bf24b6986). Native text; printed answer tables on p.19 give a 'DR ZAHRA' key set (Q1-44) and a 'DEPARTMENT' key set (Q1-37), each keying its own numbered stream. Only histology-structure claims NOT already in the authored 207-END corpus (~340) are authored; function facts (Leydig steroidogenesis, Sertoli inhibin/BTB, spermatogenesis temperature, sperm maturation in epididymis) and gross-anatomy facts (vas 3-layer wall, ejaculatory-duct formation, Cowper->penile urethra, BPH/carcinoma zones, seminal-vesicle folded mucosa) are deduped out. Keys read from the printed p.19 Dr Zahra table and cross-checked against each stem for a clean single-best answer. Concepts minted university-blind (CON-AND- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked corpus-wide - all new. Options faithful to the paper (minor OCR spelling cleanup only). Doctor topic bank -> examSittingYear null.\n\n  Import: Admin > Bulk import -> question.",
+ "defaults": {
+  "subject": "androl",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": ["kau"],
+  "years": ["KAU_Y2"],
+  "module": "207 END",
+  "exam_weight_by_year": { "KAU_Y2": "moderate" },
+  "question_only_for": "",
+  "resource_ids": ["src_1b57cb8c6e1e06c67ec5"],
+  "source_citation": "Kasr Al Ainy 207 END - Dr Zahra histology MCQ bank (Male section), {page}",
+  "setting": "Academic",
+  "difficulty": "Moderate",
+  "question_type": "Single best answer",
+  "cognitive_effort": "Medium",
+  "reasoning_level": 2,
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Histology",
+  "library_ids": ["ART-AND-207END-ZAHRA-TESTIS-HISTOLOGY"]
+ },
+ "questions": [
+  {
+   "key": "zq01",
+   "id": "QST-KASR207END-ZAHRAMALE-001",
+   "page": "Male p.12 (Dr Zahra Q1)",
+   "title": "Location of myoid cells",
+   "question": "Concerning myoid cells, which one of the following is correct?",
+   "options": {
+    "A": "They are seen in the prostate",
+    "B": "They are seen in the testis",
+    "C": "They control blood flow in the corpora cavernosa",
+    "D": "They control the movement of sperm in the epididymis"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Myoid cells are not a feature of the prostatic stroma; the prostate has fibromuscular stroma of ordinary smooth muscle, not the peritubular myoid layer.",
+    "B": "Correct. Myoid (peritubular) cells are flattened, contractile smooth-muscle-like cells that form the peritubular tissue surrounding each seminiferous tubule of the testis. Their rhythmic contraction helps move non-motile spermatozoa and testicular fluid along the tubule toward the rete testis, and they contribute to the wall in which the blood-testis barrier sits.",
+    "C": "Incorrect. Blood flow in the corpora cavernosa is controlled by the smooth muscle of the helicine arteries and trabeculae, not by testicular myoid cells.",
+    "D": "Incorrect. Movement of sperm along the epididymis is produced by the smooth muscle of the epididymal wall; myoid cells act around the seminiferous tubule, not in the epididymis."
+   },
+   "main_concept": "CON-AND-7D35AFE0EE0EA3",
+   "concept_ids": ["CON-AND-7D35AFE0EE0EA3"],
+   "subtopic": "Testis",
+   "module_subject": "207 END > Histology > Testis",
+   "learning_objective": "Identify peritubular myoid cells as contractile cells around the seminiferous tubule of the testis.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q1 = B)", "kasr": "Dr Zahra histology bank, Male section p.12" }
+  },
+  {
+   "key": "zq09",
+   "id": "QST-KASR207END-ZAHRAMALE-002",
+   "page": "Male p.12 (Dr Zahra Q9)",
+   "title": "Origin of the acrosomal vesicle",
+   "question": "The acrosomal vesicle is derived from:",
+   "options": {
+    "A": "The rough endoplasmic reticulum",
+    "B": "The smooth endoplasmic reticulum",
+    "C": "The Golgi complex",
+    "D": "The nucleus"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The rough endoplasmic reticulum synthesises the hydrolytic enzymes, but the membrane-bound acrosomal vesicle itself is assembled downstream in the Golgi.",
+    "B": "Incorrect. The smooth endoplasmic reticulum is not the source of the acrosomal vesicle.",
+    "C": "Correct. During the Golgi phase of spermiogenesis, pro-acrosomal granules produced by the Golgi complex coalesce into a single membrane-bound acrosomal vesicle that caps the anterior pole of the spermatid nucleus. The mature acrosome is therefore a modified lysosome-like Golgi derivative containing hydrolytic enzymes (hyaluronidase, acrosin) used in fertilisation.",
+    "D": "Incorrect. The nucleus condenses and elongates during spermiogenesis but does not give rise to the acrosome."
+   },
+   "main_concept": "CON-AND-3A8E1ECFC36FB5",
+   "concept_ids": ["CON-AND-3A8E1ECFC36FB5"],
+   "subtopic": "Spermiogenesis",
+   "module_subject": "207 END > Histology > Spermiogenesis",
+   "learning_objective": "State that the acrosome is formed from the Golgi complex during spermiogenesis.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q9 = C)", "kasr": "Dr Zahra histology bank, Male section p.12" }
+  },
+  {
+   "key": "zq11",
+   "id": "QST-KASR207END-ZAHRAMALE-003",
+   "page": "Male p.12 (Dr Zahra Q11)",
+   "title": "Definition of spermiogenesis",
+   "question": "Spermiogenesis is the process by which:",
+   "options": {
+    "A": "Spermatogonia differentiate into spermatids",
+    "B": "Spermatozoa begin to function",
+    "C": "Germ cells migrate to the primitive male gonads",
+    "D": "Spermatids differentiate into spermatozoa"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The transformation of spermatogonia through spermatocytes to spermatids is spermatogenesis (spermatocytogenesis and meiosis), not spermiogenesis.",
+    "B": "Incorrect. Functional activation and fertilising capacity are acquired later during epididymal maturation and capacitation, not during spermiogenesis.",
+    "C": "Incorrect. Migration of primordial germ cells to the genital ridge is an embryonic event, unrelated to spermiogenesis.",
+    "D": "Correct. Spermiogenesis is the final, non-dividing phase of sperm formation in which the round haploid spermatid undergoes metamorphosis into a mature spermatozoon. It comprises acrosome formation, nuclear condensation and elongation, development of the flagellum, assembly of the mitochondrial sheath and shedding of the residual cytoplasm. No further cell division occurs, which separates it from the earlier spermatogenic divisions."
+   },
+   "main_concept": "CON-AND-3334E0BBC1E566",
+   "concept_ids": ["CON-AND-3334E0BBC1E566"],
+   "subtopic": "Spermiogenesis",
+   "module_subject": "207 END > Histology > Spermiogenesis",
+   "learning_objective": "Define spermiogenesis as the metamorphosis of spermatids into spermatozoa.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q11 = D)", "kasr": "Dr Zahra histology bank, Male section p.12" }
+  },
+  {
+   "key": "zq12",
+   "id": "QST-KASR207END-ZAHRAMALE-004",
+   "page": "Male p.12 (Dr Zahra Q12)",
+   "title": "Features of spermatogonia",
+   "question": "Spermatogonia are characterised by the following EXCEPT:",
+   "options": {
+    "A": "Found close to the lumen of the seminiferous tubule",
+    "B": "Diploid cells",
+    "C": "Present in both adult and fetal males",
+    "D": "Susceptible to damage by body temperature"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Spermatogonia are the stem cells of the germinal epithelium and lie in the basal compartment against the basal lamina, not near the lumen. As their progeny mature into spermatocytes and spermatids they move progressively toward the lumen, so a luminal location is the false statement and the required exception.",
+    "B": "Incorrect. Spermatogonia are diploid (2n) cells, so this is a true feature.",
+    "C": "Incorrect. Spermatogonia are present in the fetal testis and persist as the self-renewing stem-cell pool in the adult, so this is true.",
+    "D": "Incorrect. The germ cells, including spermatogonia, are temperature-sensitive, which is why the testis is kept below core temperature in the scrotum; this is a true feature."
+   },
+   "main_concept": "CON-AND-85D6EDB85098D2",
+   "concept_ids": ["CON-AND-85D6EDB85098D2"],
+   "subtopic": "Spermatogenesis",
+   "module_subject": "207 END > Histology > Spermatogenesis",
+   "learning_objective": "State that spermatogonia occupy the basal compartment, not the lumen, of the seminiferous tubule.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q12 = A); Dr Zahra Q26 (basal compartment houses spermatogonia = C) corroborates", "kasr": "Dr Zahra histology bank, Male section p.12" }
+  },
+  {
+   "key": "zq25",
+   "id": "QST-KASR207END-ZAHRAMALE-005",
+   "page": "Male p.13 (Dr Zahra Q25)",
+   "title": "Gland type of the prostate",
+   "question": "The prostate is:",
+   "options": {
+    "A": "A compound tubular gland",
+    "B": "A compound tubulo-alveolar gland",
+    "C": "A compound alveolar gland",
+    "D": "A branched alveolar gland"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. A purely tubular pattern does not describe the prostate; its secretory units are saccular alveoli on branching ducts.",
+    "B": "Correct. The prostate is a compound tubulo-alveolar gland: 30-50 branched tubulo-alveolar glands embedded in a fibromuscular stroma, arranged in mucosal, submucosal and main (peripheral) groups, and draining by ducts into the prostatic urethra. Their lumina often contain corpora amylacea.",
+    "C": "Incorrect. The prostate is not a simple alveolar gland; its ducts branch and its units are tubulo-alveolar rather than purely alveolar.",
+    "D": "Incorrect. 'Branched alveolar' describes glands such as the sebaceous gland, not the compound tubulo-alveolar prostate."
+   },
+   "main_concept": "CON-AND-013F4ADD404C5C",
+   "concept_ids": ["CON-AND-013F4ADD404C5C"],
+   "subtopic": "Prostate",
+   "module_subject": "207 END > Histology > Prostate",
+   "library_ids": ["ART-AND-207END-ZAHRA-MALE-DUCTS-GLANDS-HISTOLOGY"],
+   "learning_objective": "Classify the prostate as a compound tubulo-alveolar gland.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q25 = B); Department Q27 (prostate = compound tubuloalveolar = b) corroborates", "kasr": "Dr Zahra histology bank, Male section p.13" }
+  },
+  {
+   "key": "zq03",
+   "id": "QST-KASR207END-ZAHRAMALE-006",
+   "page": "Male p.12 (Dr Zahra Q3)",
+   "title": "Site of stereocilia in the male tract",
+   "question": "Stereocilia occur in which of the following?",
+   "options": {
+    "A": "Seminiferous tubules",
+    "B": "Straight tubules (tubuli recti)",
+    "C": "Seminal vesicles",
+    "D": "Epididymis",
+    "E": "Rete testis"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The seminiferous tubule is lined by the stratified germinal (spermatogenic) epithelium with Sertoli cells; it has no stereocilia.",
+    "B": "Incorrect. The straight tubules are lined by a simple epithelium of Sertoli-like cells, without stereocilia.",
+    "C": "Incorrect. The seminal vesicle has a folded pseudostratified/columnar secretory mucosa, not stereocilia.",
+    "D": "Correct. The epididymis is lined by a tall pseudostratified columnar epithelium whose principal cells bear long, branching, non-motile microvilli called stereocilia. These greatly increase the surface area for the absorption of testicular fluid and the addition of maturation factors as sperm pass through, so stereocilia are a hallmark of the epididymal duct.",
+    "E": "Incorrect. The rete testis is lined by a simple cuboidal epithelium with single short apical microvilli, not stereocilia."
+   },
+   "main_concept": "CON-AND-C2096311CB5397",
+   "concept_ids": ["CON-AND-C2096311CB5397"],
+   "subtopic": "Epididymis",
+   "module_subject": "207 END > Histology > Epididymis",
+   "library_ids": ["ART-AND-207END-ZAHRA-MALE-DUCTS-GLANDS-HISTOLOGY"],
+   "learning_objective": "Recognise stereocilia as a feature of the pseudostratified columnar epithelium of the epididymis.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q3 = D); Department Q22 (stereocilia found in epididymis = c) corroborates", "kasr": "Dr Zahra histology bank, Male section p.12" }
+  },
+  {
+   "key": "zq05",
+   "id": "QST-KASR207END-ZAHRAMALE-007",
+   "page": "Male p.12 (Dr Zahra Q5)",
+   "title": "Site of corpora amylacea",
+   "question": "Corpora amylacea are found in which of the following glands?",
+   "options": {
+    "A": "Seminiferous tubules",
+    "B": "Seminal gland (seminal vesicle)",
+    "C": "Cowper's gland",
+    "D": "Prostate gland"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The seminiferous tubules are the site of spermatogenesis and do not contain corpora amylacea.",
+    "B": "Incorrect. The seminal vesicle secretes fructose-rich fluid but is not the site of corpora amylacea.",
+    "C": "Incorrect. The bulbourethral (Cowper's) gland secretes clear mucoid fluid and does not typically contain corpora amylacea.",
+    "D": "Correct. Corpora amylacea are rounded, lamellated glycoprotein concretions found in the alveoli of the prostate. They increase in number and may calcify with age and are a characteristic histological marker of the prostatic gland."
+   },
+   "main_concept": "CON-AND-D60DDFF363E62B",
+   "concept_ids": ["CON-AND-D60DDFF363E62B"],
+   "subtopic": "Prostate",
+   "module_subject": "207 END > Histology > Prostate",
+   "library_ids": ["ART-AND-207END-ZAHRA-MALE-DUCTS-GLANDS-HISTOLOGY"],
+   "learning_objective": "Identify corpora amylacea as lamellated concretions in the prostatic alveoli.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q5 = D); Dr Zahra Q30 (corpora amylacea in the prostate = B) corroborates", "kasr": "Dr Zahra histology bank, Male section p.12/14" }
+  },
+  {
+   "key": "zq22",
+   "id": "QST-KASR207END-ZAHRAMALE-008",
+   "page": "Male p.13 (Dr Zahra Q22)",
+   "title": "Order of the male genital duct system",
+   "question": "Sperm pass through the male genital ducts in which of the following orders?",
+   "options": {
+    "A": "Tubuli recti - rete testis - efferent ductules - epididymis",
+    "B": "Tubuli recti - efferent ductules - rete testis - epididymis",
+    "C": "Rete testis - tubuli recti - efferent ductules - epididymis",
+    "D": "Rete testis - efferent ductules - tubuli recti - epididymis"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. After leaving the convoluted seminiferous tubules, sperm enter the straight tubules (tubuli recti), which open into the rete testis in the mediastinum; from the rete testis 10-20 efferent ductules (ductuli efferentes) carry sperm out of the testis into the head of the epididymis. The sequence is therefore seminiferous tubule -> tubuli recti -> rete testis -> efferent ductules -> epididymis.",
+    "B": "Incorrect. The efferent ductules follow the rete testis, not precede it; this order is reversed.",
+    "C": "Incorrect. The tubuli recti drain into the rete testis, so the rete testis cannot come first.",
+    "D": "Incorrect. This scrambles the sequence; the tubuli recti are the first intratesticular duct, not the last."
+   },
+   "main_concept": "CON-AND-8F433B0F1DB845",
+   "concept_ids": ["CON-AND-8F433B0F1DB845"],
+   "subtopic": "Genital duct system",
+   "module_subject": "207 END > Histology > Genital duct system",
+   "library_ids": ["ART-AND-207END-ZAHRA-MALE-DUCTS-GLANDS-HISTOLOGY"],
+   "learning_objective": "Order the male genital duct pathway from seminiferous tubule to epididymis.",
+   "field_notes": { "keySource": "printed p.19 Dr Zahra answer table (Male Q22 = A); Dr Zahra Q6 (seminiferous tubule empties into tubuli recti = C) corroborates the first step", "kasr": "Dr Zahra histology bank, Male section p.13" }
+  }
+ ]
+}
