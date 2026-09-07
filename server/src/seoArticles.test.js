@@ -154,3 +154,53 @@ test('esc(slug) escapes " and < everywhere the slug reaches href/loc output', ()
     assert.ok(output.includes(esc(dangerousSlug)))
   }
 })
+
+const parityArticle = {
+  ...article,
+  og: { title: 'Anatomy study plan', description: 'A week-by-week plan for anatomy.' },
+  references: [
+    { title: 'Gray anatomy chapter 3', url: 'https://who.int/anatomy', publisher: 'WHO', date: '2025-04-01' },
+    { title: 'Spaced repetition evidence', url: 'https://nice.org.uk/spacing' },
+  ],
+}
+
+test('toRows maps references and og, defaulting og to the meta fields', () => {
+  const v = validatePayload({ ...payload, articles: [parityArticle, { ...article, lang: 'ar', title: 'خطة' }] })
+  assert.ok(v.payload)
+  const { rows } = toRows(v.payload)
+  assert.deepEqual(rows[0].references_json, [
+    { title: 'Gray anatomy chapter 3', url: 'https://who.int/anatomy', publisher: 'WHO', date: '2025-04-01' },
+    { title: 'Spaced repetition evidence', url: 'https://nice.org.uk/spacing', publisher: null, date: null },
+  ])
+  assert.equal(rows[0].og_title, 'Anatomy study plan')
+  assert.equal(rows[0].og_description, 'A week-by-week plan for anatomy.')
+  assert.deepEqual(rows[1].references_json, [])
+  assert.equal(rows[1].og_title, null)
+})
+
+test('validatePayload rejects a non-https or untitled reference and a non-object og', () => {
+  const withRefs = (references) => validatePayload({ ...payload, articles: [{ ...article, references }] })
+  assert.deepEqual(withRefs([{ title: 'x', url: 'http://who.int' }]), { error: 'invalid articles[0].references' })
+  assert.deepEqual(withRefs([{ title: '  ', url: 'https://who.int' }]), { error: 'invalid articles[0].references' })
+  assert.deepEqual(withRefs('https://who.int'), { error: 'invalid articles[0].references' })
+  assert.deepEqual(validatePayload({ ...payload, articles: [{ ...article, og: 'title' }] }), { error: 'invalid articles[0].og' })
+  assert.ok(withRefs([{ title: 'ok', url: 'https://who.int' }]).payload)
+})
+
+test('articlePage renders a references list after the faq and escapes it', () => {
+  const row = { lang: 'en', slug: 'anatomy-study-plan', title: 'Study plan', meta_title: 'Study plan', meta_description: 'md', body_html: '<p>x</p>', faq: [{ q: 'Q?', a: 'A.' }], schema_jsonld: [], image_url: null, published_at: '2026-09-01', og_title: 'OG title', og_description: 'OG description', references_json: [{ title: 'Gray <anatomy>', url: 'https://who.int/anatomy', publisher: 'W"HO', date: '2025-04-01' }] }
+  const html = articlePage(row, [{ lang: 'en', slug: 'anatomy-study-plan' }], 'https://nishany.com')
+  assert.ok(html.indexOf('References') > html.indexOf('Frequently asked questions'))
+  assert.ok(html.includes('<a href="https://who.int/anatomy" rel="nofollow noopener" target="_blank">Gray &lt;anatomy&gt;</a>'))
+  assert.ok(html.includes('W&quot;HO'))
+  assert.ok(html.includes('<meta property="og:title" content="OG title">'))
+  assert.ok(html.includes('<meta property="og:description" content="OG description">'))
+})
+
+test('articlePage falls back to the title and meta description when og is absent', () => {
+  const row = { lang: 'en', slug: 's', title: 'Study plan', meta_title: 'Study plan', meta_description: 'md', body_html: '', faq: [], schema_jsonld: [], image_url: null, published_at: '2026-09-01', og_title: null, og_description: null, references_json: [] }
+  const html = articlePage(row, [{ lang: 'en', slug: 's' }], 'https://nishany.com')
+  assert.ok(html.includes('<meta property="og:title" content="Study plan">'))
+  assert.ok(html.includes('<meta property="og:description" content="md">'))
+  assert.equal(html.includes('References'), false)
+})

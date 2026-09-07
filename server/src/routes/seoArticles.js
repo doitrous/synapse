@@ -15,7 +15,7 @@ function authorized(req) {
   const secretBuf = Buffer.from(secret)
   return givenBuf.length === secretBuf.length && timingSafeEqual(givenBuf, secretBuf)
 }
-const parseRow = (r) => ({ ...r, faq: typeof r.faq === 'string' ? JSON.parse(r.faq) : r.faq ?? [], schema_jsonld: typeof r.schema_jsonld === 'string' ? JSON.parse(r.schema_jsonld) : r.schema_jsonld ?? [] })
+const parseRow = (r) => ({ ...r, faq: typeof r.faq === 'string' ? JSON.parse(r.faq) : r.faq ?? [], schema_jsonld: typeof r.schema_jsonld === 'string' ? JSON.parse(r.schema_jsonld) : r.schema_jsonld ?? [], references_json: typeof r.references_json === 'string' ? JSON.parse(r.references_json) : r.references_json ?? [] })
 
 export function registerSeoArticleRoutes(app) {
   app.post('/api/articles', async (req, res, next) => {
@@ -41,13 +41,13 @@ export function registerSeoArticleRoutes(app) {
           if (existing) {
             id = existing.id
             await conn.query(
-              `UPDATE seo_articles SET slug=?, title=?, meta_title=?, meta_description=?, body_md=?, body_html=?, faq=?, schema_jsonld=?, image_url=?, image_alt=?, author_name=?, author_credentials=? WHERE id=?`,
-              [r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials, id])
+              `UPDATE seo_articles SET slug=?, title=?, meta_title=?, meta_description=?, body_md=?, body_html=?, faq=?, schema_jsonld=?, image_url=?, image_alt=?, author_name=?, author_credentials=?, references_json=?, og_title=?, og_description=? WHERE id=?`,
+              [r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials, JSON.stringify(r.references_json), r.og_title, r.og_description, id])
           } else {
             const [insertResult] = await conn.query(
-              `INSERT INTO seo_articles (external_id, lang, slug, title, meta_title, meta_description, body_md, body_html, faq, schema_jsonld, image_url, image_alt, author_name, author_credentials)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
-              [r.external_id, r.lang, r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials])
+              `INSERT INTO seo_articles (external_id, lang, slug, title, meta_title, meta_description, body_md, body_html, faq, schema_jsonld, image_url, image_alt, author_name, author_credentials, references_json, og_title, og_description)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+              [r.external_id, r.lang, r.slug, r.title, r.meta_title, r.meta_description, r.body_md, r.body_html, JSON.stringify(r.faq), JSON.stringify(r.schema_jsonld), r.image_url, r.image_alt, r.author_name, r.author_credentials, JSON.stringify(r.references_json), r.og_title, r.og_description])
             id = insertResult.insertId
           }
           results.push({ lang: r.lang, remoteId: String(id), remoteUrl: `${PUBLIC_ORIGIN}/blog/${r.lang}/${r.slug}` })

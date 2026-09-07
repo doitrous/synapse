@@ -58,7 +58,7 @@ function fakeSeoArticlesDb(initialRows) {
         if (rows().some((r) => r.external_id === external_id && r.lang === lang)) throw dupEntry('seo_articles_external_lang')
         if (rows().some((r) => r.lang === lang && r.slug === slug)) throw dupEntry('seo_articles_lang_slug')
         const id = rows().reduce((max, r) => Math.max(max, r.id), 0) + 1
-        rows().push({ id, external_id, lang, slug })
+        rows().push({ id, external_id, lang, slug, references_json: params[14], og_title: params[15], og_description: params[16] })
         return [{ insertId: id }]
       }
       if (/^\s*UPDATE seo_articles SET/.test(sql)) {
@@ -145,6 +145,29 @@ test('updating an existing (external_id, lang) row changes only that row, by id,
   assert.equal(res.body.results[0].remoteId, '1')
   assert.deepEqual(getCommitted(), [{ id: 1, external_id: 9, lang: 'en', slug: 'new-slug' }])
   assert.equal(commit.mock.callCount(), 1)
+})
+
+test('POST /api/articles persists references_json and the og columns', async (t) => {
+  process.env.SEO_HUB_SECRET = 'test-secret'
+  const { conn, getCommitted } = fakeSeoArticlesDb([])
+  t.mock.method(pool, 'getConnection', async () => conn)
+
+  const res = fakeRes()
+  let nextError
+  await registeredHandlers()['POST /api/articles'](authedReq({
+    externalId: 9,
+    articles: [{
+      lang: 'en', title: 'T', slug: 'anatomy-study-plan', bodyMd: '# T\n\nBody.',
+      og: { title: 'OG title', description: 'OG description' },
+      references: [{ title: 'Gray anatomy', url: 'https://who.int/anatomy', publisher: 'WHO' }],
+    }],
+  }), res, (e) => { nextError = e })
+
+  assert.equal(nextError, undefined)
+  const stored = getCommitted()[0]
+  assert.equal(stored.og_title, 'OG title')
+  assert.equal(stored.og_description, 'OG description')
+  assert.deepEqual(JSON.parse(stored.references_json), [{ title: 'Gray anatomy', url: 'https://who.int/anatomy', publisher: 'WHO', date: null }])
 })
 
 test('GET /blog redirects to /blog/en', () => {
