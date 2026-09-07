@@ -14,8 +14,9 @@
 | rpr-dept-pelvis-perineum (`ANATOMY MCQ [RPR].pdf`, NON-EOM dept bank, 48 keyed) — concurrent lane | 14 | 3 | 0 | ~31 dupes skipped; bank fresh-exhausted | 48 |
 | jalal S3+S4+S6 urinary/urethra + male genital + development (`Anatomy MCQ by Dr.Jalal[END].pdf`, NON-EOM bank, ~207 keyed) | 28 | 0 | 1 | S3+S4+S6 fresh sets done; S1-2/S5/S7 untriaged | ~207 |
 | zahra-histology (`Histo MCQ by Dr.Zahra [END].pdf`, NON-EOM Histology-dept-folder doctor bank, SOLVED) — Endocrine + Male + Female sections | 38 | 1 | 0 | Endocrine 14 (p.11 keys), Male 14 (p.19 keys, 2 slices), Female 10 (p.29 keys, 2 slices); Male Q31 held (bad middle-piece EXCEPT). Endocrine/Male/Female Department-stream remainders + module-tagged sub-blocks (197/196/195) still untriaged | ~250 |
-| **207 END module authored (3 EOM + 7 banks)** | **294** | **6** | **2** | — | — |
-| 207 END module (10 tier 1-3 papers + 3 dept books + 6 banks, `coverage/KAU-Y2-priority-sources.md`) | 294 | 6 | 2 | untriaged | — |
+| dept-physio-2022 (`Merged_PHYSIO MCQ.2022.pdf`, [1st priority] Physiology-dept merged bank, UNKEYED, 36pp, sourceId `src_911bf1abeda4ac70932f`) | 7 | 0 | 0 | ~95% dupe vs mature physio corpus; endocrine span Q1-127 exhausted for fresh (only goitre); repro span partly harvested; female Q37+/pregnancy/labour + Maher banks untriaged | ~250 |
+| **207 END module authored (3 EOM + 8 banks)** | **301** | **6** | **2** | — | — |
+| 207 END module (10 tier 1-3 papers + 3 dept books + 7 banks, `coverage/KAU-Y2-priority-sources.md`) | 301 | 6 | 2 | untriaged | — |
 
 ## Module opened
 

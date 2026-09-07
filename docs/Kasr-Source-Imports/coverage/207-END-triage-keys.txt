@@ -695,3 +695,21 @@ Dedup Ch.7/8 ~ high (repro corpus saturated by EOM + 2023 + Zahra histology + Ga
 fresh mechanistic/functional items harvested. **Dr Shebl physiology bank now 46 authored across 6 slices
 (Ch.2-8); Ch.1 intro overlaps authored GPCR/receptor concepts (skipped).** NEXT 207 END cluster: the Zahra
 Male/Female histology sections, or a new physiology bank (Maher, Merged PHYSIO 2022/2023) after a key-render pass.
+
+
+— dept-physio-2022 (Merged_PHYSIO MCQ.2022.pdf, src_911bf1abeda4ac70932f, 36pp, [1st priority] Physiology-dept merged bank) —
+NO native text layer (scanned) — OCR via pagetext.mjs (default psm=6); page 1 render-confirmed CLEAN (no
+highlights/circles/marks). UNKEYED bank: a printed "KEY ANSWERS - ENDOCRINE" table exists on p.25 but the
+endocrine span (Q1-127) is ~97% dupe vs the mature 207-END physiology corpus (shebl Ch.1-8 + physiology +
+2023eom + 198eom + medhat), so those items were not authored and the table was not parsed. Structure:
+endocrine Q1-127 (pp.1-25, MODULE 207), then reproductive restarts numbering under MODULE 212 (male) /
+MODULE 210 (female) from p.26. Answers determined by MEDICAL REASONING with per-option proof (Omar policy:
+"you solve them yourself"); every authored stem/options render-verified against the source image.
+Authored (7, all reasoned, all fresh after hard dedupe): Q14 GnRH IP3-Ca2+/Gq (d); Q33 GH intrinsic lactogenic
+activity (c); Q50 ADH plasma carrier = neurophysin II (b); Q63 iodine deficiency ENLARGES thyroid/goitre via
+TSH [EXCEPT stem] (b); M212-Q27 pre-pubertal castration → tall (delayed estrogen epiphyseal closure) (c);
+M212-Q28 precocity → short adult (premature estrogen closure) (b, shares 1 concept w/ Q27); M210-Q29 estrogen
+increases fallopian-tube ciliary motility (b). Dedupe ~95%: thyroid/calcium/PTH/vitD/adrenal/pancreas +
+most repro basics already in corpus. Held 0. NEXT: female repro Q37+ (LH surge/pregnancy/labour) + male
+Q8-26 remainder likely dupe-saturated; then Merged_PHYSIO 2023 (near-identical merged bank, expect ~duplicate)
+and the Maher endo/male/female banks. Physiology is effectively exhausted for fresh mechanistic content.
