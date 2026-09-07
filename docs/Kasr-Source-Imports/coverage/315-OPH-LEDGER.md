@@ -17,6 +17,7 @@
 | kamal-ch13-medications | 42 | 1 | 0 | 43 |
 | kamal-ch14-lasers | 23 | 0 | 0 | 23 |
 | kamal-ch15-related | 4 | 0 | 0 | 4 |
+| quiz (2nd source, image-capture) | 1 | 0 | 0 | 6 |
 
 ## Held
 - q47 — Answer-key table omits the Q47 row (it skips from Q46 to Q48); no printed key to re-verify against, held per the never-guess rule.
@@ -391,3 +392,32 @@
   pushed to origin/main immediately (SHAs above; rebased on concurrent main pushes).
 - KAMAL BANK NOW COMPLETE (Ch.1-15). Ch.11 systemic remains authored (24, prior tranche). Held-for-adjudication
   vignette/T-F/no-key items across the bank are unchanged by this tranche except the +1 Ch.13 Q42 above.
+
+## Tranche 22 (2026-09-07): SECOND source "Ophthalmology Quiz With-answers.pdf" triaged — 1 fresh MCQ (5 dupes) — quiz fully harvested
+- Registered the module's SECOND source: src_33ca84fd931d4c92795c (sha256 33ca84fd9...c58006c, 22 pp),
+  a short revision QUIZ from the same 315 Ophthalmology Questions & MCQs folder. Manifest row added to
+  manifest/kasr-y3-sources.json (count 9 -> 10); resource record added to evidence/315-OPH-resources.md.
+- KEY MARKER = BOLD: the correct option is rendered bold. Only p2 ("Quiz 1 (image capture)") has a native
+  text layer with 4-option single-best MCQs (Q1-6; pagetext keys Q1.C Q2.B Q3.B Q4.D Q5.B Q6.D). Every
+  other page is a photographed slide with NO text layer — 6-statement "Put true or false" clinical case
+  slides (out of scope, T/F statement sets) + section-title pages (p1 Protective System/Image Capture;
+  p3 Ocular Motility & Squint; p10 Glaucoma; p17 Red eye). Whole quiz (22 pp) read/triaged.
+- Single-best dedupe vs the Kamal corpus (5 of 6 are dupes):
+  * Q1 chalazion = meibomian granuloma -> dup ch3-remainder ("A chalazion is a chronic inflammatory granuloma of the:").
+  * Q2 proptosis except Horner's -> dup ch3-q41-91 ("Proptosis may be present in the following conditions EXCEPT" = Horner's).
+  * Q3 band keratopathy = calcium salt -> dup ch4 ("Band shaped keratopathy is commonly caused by deposition of:").
+  * Q4 "all true in myopia except" -> recombines core myopia optics (long axial length / concave lens / focus in front of retina) all authored in ch4.
+  * Q5 commonest cause of cataract = age-related -> dup ch4 ("The commonest cause of cataract is:").
+- AUTHORED 1 fresh MCQ into question/315-OPH-quiz-mcq.md:
+  * Q6 "Horner's syndrome is characterized by:" -> D All of the above (miosis + anhidrosis + ptosis triad).
+    No dedicated existing stem tested the triad directly. REUSED existing concept CON-MUL-DDAE5BF64386BD
+    (Horner's syndrome, node DIS-OPH-T05) and article ART-OPH-315-NEURO-OPHTHALMOLOGY (0 concepts minted).
+    randomise_answers=no (option D is "All of the above"). resource_ids = src_33ca84fd931d4c92795c.
+- Gate: gate.mjs batch (question --with concept 315-OPH-concepts.md --with article 315-OPH-articles.md
+  --with resource evidence/315-OPH-resources.md) items=1 errors=0. Committed + pushed to origin/main (d6b2239b).
+- Dedupe rate: 5/6 single-best MCQs (~83%) duplicate the Kamal corpus; all remaining quiz content is T/F
+  case slides (out of scope). Quiz is FULLY HARVESTED.
+- 315-OPH now has NO more known keyed single-best sources: both the Dr. Ahmed Kamal department bank and
+  this revision quiz are fully triaged. Remaining un-authored 315-OPH content is the deferred-for-adjudication
+  multi-true/T-F/no-key holds across the Kamal bank (unchanged this tranche) and this quiz's out-of-scope
+  T/F case slides.
