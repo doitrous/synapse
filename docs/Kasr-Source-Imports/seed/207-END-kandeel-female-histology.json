@@ -1,0 +1,454 @@
+{
+ "lane": "KASR-207END",
+ "cluster": "kandeel-female-histology",
+ "header": "KASR-207END - Dr Kandeel FEMALE genital HISTOLOGY MCQ bank (pp.2-6/8-12, printed answer key p.7). NON-department doctor's bank filed under the Histology Dpt [1st priority] folder, sourceId src_90142feb7bb7c3c1e43d (sha256 90142feb7bb7c3c1e43d627af1bac9c103b6f55a9349807f11d627342a1c4186). Scanned, no text layer (OCR'd at default settings); SOLVED by a printed answer-key table on p.7 (Q1-109, read at 300 dpi and spot-verified against the stems). The female-reproductive-histology corpus is heavily saturated (Zahra female + EOM + Galal + Shebl), so DEDUPED HARD: zona pellucida composition/separation, corona radiata, antrum defines secondary follicle, primordial-before-puberty, oviduct ciliated+peg epithelium, corpus albicans from CL, glandless vagina, vaginal lactic-acid pH, endocervix mucous glands, spiral-vs-straight endometrial arteries, ovulation timing, progesterone secretory endometrium, resting-mammary adipose and the physiology stems (oxytocin/relaxin/menstrual timing) are all skipped. Only fresh histology-structure claims are authored (mammary secretion detail, placental-barrier layers, decidua regions, theca-interna ultrastructure, ovarian germinal epithelium, corpus-luteum location, secretory-endometrium glands, syncytiotrophoblast lipid, vaginal epithelium type). Keys read from the printed p.7 table and cross-checked against each stem for a clean single-best answer. Concepts minted university-blind (CON-GYN- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked corpus-wide - all new. Doctor topic bank -> examSittingYear null.\n\n  Import: Admin > Bulk import -> question.",
+ "defaults": {
+  "subject": "gyn",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": ["kau"],
+  "years": ["KAU_Y2"],
+  "module": "207 END",
+  "exam_weight_by_year": { "KAU_Y2": "moderate" },
+  "question_only_for": "",
+  "resource_ids": ["src_90142feb7bb7c3c1e43d"],
+  "source_citation": "Kasr Al Ainy 207 END - Dr Kandeel female histology MCQ bank, {page}",
+  "setting": "Academic",
+  "difficulty": "Moderate",
+  "question_type": "Single best answer",
+  "cognitive_effort": "Medium",
+  "reasoning_level": 2,
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Histology",
+  "library_ids": ["ART-GYN-207END-KANDEEL-OVARY-UTERUS-HISTOLOGY"]
+ },
+ "questions": [
+  {
+   "key": "kf47",
+   "id": "QST-KASR207END-KANDEELFEM-001",
+   "page": "Female p.4 (Kandeel Q47)",
+   "title": "Mode of milk secretion",
+   "question": "The mode of secretion of milk from the cells of the mammary gland is:",
+   "options": {
+    "A": "Merocrine",
+    "B": "Partly merocrine and partly apocrine",
+    "C": "Apocrine",
+    "D": "Holocrine"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Merocrine (exocytosis) accounts for the protein fraction of milk only, so \"merocrine\" alone is incomplete.",
+    "B": "Correct. Milk is secreted by two modes at once. The protein component (casein, lactalbumin) leaves the alveolar cell by MEROCRINE exocytosis, whereas the fat (lipid droplets) is released by the APOCRINE mode, pinching off with a thin envelope of apical cytoplasm and membrane. So the lactating mammary gland uses a combined merocrine-plus-apocrine secretion.",
+    "C": "Incorrect. Apocrine covers only the lipid fraction; the proteins are released by merocrine exocytosis, so apocrine alone is incomplete.",
+    "D": "Incorrect. Holocrine secretion (whole-cell disintegration, as in sebaceous glands) does not occur in the mammary gland."
+   },
+   "main_concept": "CON-GYN-2486E175D5F205",
+   "concept_ids": ["CON-GYN-2486E175D5F205"],
+   "subtopic": "Mammary gland",
+   "module_subject": "207 END > Histology > Mammary gland",
+   "library_ids": ["ART-GYN-207END-KANDEEL-MAMMARY-HISTOLOGY"],
+   "learning_objective": "State that the mammary gland secretes milk by a combined merocrine (protein) and apocrine (fat) mode.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q47 = B)", "kasr": "Dr Kandeel female histology bank, p.4" }
+  },
+  {
+   "key": "kf50",
+   "id": "QST-KASR207END-KANDEELFEM-002",
+   "page": "Female p.4 (Kandeel Q50)",
+   "title": "Immunoglobulin of mammary secretion",
+   "question": "Which type of immunoglobulin is present in the mammary secretion?",
+   "options": {
+    "A": "IgM",
+    "B": "IgA",
+    "C": "IgG",
+    "D": "IgD"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. IgM is not the immunoglobulin transferred into milk in significant amount.",
+    "B": "Correct. The dominant immunoglobulin of colostrum and milk is secretory IgA. Plasma cells in the connective tissue between the alveoli produce dimeric IgA, which the alveolar cells take up and secrete into the milk with a secretory component. This passive immunity protects the newborn's gut.",
+    "C": "Incorrect. Some IgG crosses the placenta before birth, but the immunoglobulin characteristic of the mammary secretion is IgA.",
+    "D": "Incorrect. IgD has no role in the mammary secretion."
+   },
+   "main_concept": "CON-GYN-68FDA21CE89530",
+   "concept_ids": ["CON-GYN-68FDA21CE89530"],
+   "subtopic": "Mammary gland",
+   "module_subject": "207 END > Histology > Mammary gland",
+   "library_ids": ["ART-GYN-207END-KANDEEL-MAMMARY-HISTOLOGY"],
+   "learning_objective": "Identify secretory IgA as the immunoglobulin of the mammary secretion.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q50 = B)", "kasr": "Dr Kandeel female histology bank, p.4" }
+  },
+  {
+   "key": "kf51",
+   "id": "QST-KASR207END-KANDEELFEM-003",
+   "page": "Female p.4 (Kandeel Q51)",
+   "title": "Source of the mammary immunoglobulin",
+   "question": "The immunoglobulin in the mammary secretion is secreted by:",
+   "options": {
+    "A": "Mammary alveolar cells",
+    "B": "Plasma cells in the tissue between the alveoli",
+    "C": "Myoepithelial cells",
+    "D": "Intralobular duct cells"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The alveolar cells transport and release the IgA into the milk (adding the secretory component), but they do not synthesise the antibody itself.",
+    "B": "Correct. The IgA of milk is synthesised by PLASMA CELLS lying in the loose connective tissue between the alveoli. Their dimeric IgA is then taken up at the base of the alveolar cell, coupled to a secretory component and released into the lumen, so the ultimate source of the antibody is the interstitial plasma cell.",
+    "C": "Incorrect. Myoepithelial cells are contractile cells that eject milk; they do not make immunoglobulin.",
+    "D": "Incorrect. Duct cells convey milk and do not synthesise the immunoglobulin."
+   },
+   "main_concept": "CON-GYN-B7206A5A699FAA",
+   "concept_ids": ["CON-GYN-B7206A5A699FAA"],
+   "subtopic": "Mammary gland",
+   "module_subject": "207 END > Histology > Mammary gland",
+   "library_ids": ["ART-GYN-207END-KANDEEL-MAMMARY-HISTOLOGY"],
+   "learning_objective": "State that the IgA of milk is made by plasma cells in the interalveolar connective tissue.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q51 = B)", "kasr": "Dr Kandeel female histology bank, p.4" }
+  },
+  {
+   "key": "kf54",
+   "id": "QST-KASR207END-KANDEELFEM-004",
+   "page": "Female p.4 (Kandeel Q54)",
+   "title": "Duct draining a mammary lobe",
+   "question": "Each lobe in the mammary gland is drained by a duct called:",
+   "options": {
+    "A": "Interlobular duct",
+    "B": "Duct of Montgomery",
+    "C": "Interlobar duct",
+    "D": "Lactiferous duct"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. Interlobular ducts run between the lobules within a lobe; they are not the duct of a whole lobe.",
+    "B": "Incorrect. The glands (and tubercles) of Montgomery are sebaceous glands of the areola, not the drainage duct of a mammary lobe.",
+    "C": "Incorrect. \"Interlobar duct\" is not the standard name for the main duct of a lobe.",
+    "D": "Correct. The mammary gland has 15-20 lobes, and each lobe is drained by a single LACTIFEROUS DUCT that opens on the nipple. Near the nipple each lactiferous duct widens into a lactiferous sinus that stores milk between feeds."
+   },
+   "main_concept": "CON-GYN-D04D9A7C5E42D5",
+   "concept_ids": ["CON-GYN-D04D9A7C5E42D5"],
+   "subtopic": "Mammary gland",
+   "module_subject": "207 END > Histology > Mammary gland",
+   "library_ids": ["ART-GYN-207END-KANDEEL-MAMMARY-HISTOLOGY"],
+   "learning_objective": "State that each mammary lobe is drained by a lactiferous duct opening on the nipple.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q54 = D)", "kasr": "Dr Kandeel female histology bank, p.4" }
+  },
+  {
+   "key": "kf06",
+   "id": "QST-KASR207END-KANDEELFEM-005",
+   "page": "Female p.2 (Kandeel Q6)",
+   "title": "Layers of the placental barrier",
+   "question": "The placental barrier is formed of all the following EXCEPT:",
+   "options": {
+    "A": "Fenestrated endothelium of the fetal blood vessels",
+    "B": "Basement membrane of the endothelium",
+    "C": "Syncytiotrophoblast",
+    "D": "Fetal connective tissue"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The endothelium of the fetal villous capillary is a CONTINUOUS (non-fenestrated) endothelium, not a fenestrated one, so \"fenestrated endothelium\" is the false statement and the required exception. The layers of the placental barrier are the syncytiotrophoblast (and, early on, the cytotrophoblast), the trophoblastic basal lamina, the villous connective tissue, and the fetal capillary endothelium with its basement membrane.",
+    "B": "Incorrect. The basement membrane of the fetal capillary endothelium is a genuine layer of the barrier.",
+    "C": "Incorrect. The syncytiotrophoblast is the outermost, essential layer of the placental barrier.",
+    "D": "Incorrect. The fetal (villous) connective tissue is a true intervening layer of the barrier."
+   },
+   "main_concept": "CON-GYN-07C3B412B89A0B",
+   "concept_ids": ["CON-GYN-07C3B412B89A0B"],
+   "subtopic": "Placenta",
+   "module_subject": "207 END > Histology > Placenta",
+   "library_ids": ["ART-GYN-207END-KANDEEL-PLACENTA-DECIDUA-HISTOLOGY"],
+   "learning_objective": "List the layers of the placental barrier and recognise that the fetal capillary endothelium is continuous, not fenestrated.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q6 = A)", "kasr": "Dr Kandeel female histology bank, p.2" }
+  },
+  {
+   "key": "kf92",
+   "id": "QST-KASR207END-KANDEELFEM-006",
+   "page": "Female p.6 (Kandeel Q92)",
+   "title": "The placental barrier in late pregnancy",
+   "question": "In the late months of pregnancy, all the following are components of the placental barrier EXCEPT:",
+   "options": {
+    "A": "The endothelium of the fetal capillary",
+    "B": "The basal lamina of the trophoblast",
+    "C": "The cytotrophoblast",
+    "D": "The syncytiotrophoblast"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The fetal capillary endothelium remains a layer of the barrier throughout pregnancy.",
+    "B": "Incorrect. The trophoblastic basal lamina persists as a barrier layer in late pregnancy.",
+    "C": "Correct. As pregnancy advances the cytotrophoblast (Langhans layer) becomes discontinuous and largely disappears, so by the late months it is no longer a component of the thinned placental barrier. The remaining layers are the syncytiotrophoblast, its basal lamina, thin villous connective tissue and the fetal capillary endothelium, which shortens the diffusion distance and increases exchange near term.",
+    "D": "Incorrect. The syncytiotrophoblast is retained as the outer layer of the barrier at all stages."
+   },
+   "main_concept": "CON-GYN-45473BBFBF6655",
+   "concept_ids": ["CON-GYN-45473BBFBF6655"],
+   "subtopic": "Placenta",
+   "module_subject": "207 END > Histology > Placenta",
+   "library_ids": ["ART-GYN-207END-KANDEEL-PLACENTA-DECIDUA-HISTOLOGY"],
+   "learning_objective": "State that the cytotrophoblast is lost from the placental barrier in late pregnancy.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q92 = C)", "kasr": "Dr Kandeel female histology bank, p.6" }
+  },
+  {
+   "key": "kf83",
+   "id": "QST-KASR207END-KANDEELFEM-007",
+   "page": "Female p.5 (Kandeel Q83)",
+   "title": "Maternal part of the placenta",
+   "question": "The maternal part of the placenta is the:",
+   "options": {
+    "A": "Decidua parietalis",
+    "B": "Chorion",
+    "C": "Decidua capsularis",
+    "D": "Decidua basalis"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The decidua parietalis lines the rest of the uterine cavity away from the implantation site and does not form the placenta.",
+    "B": "Incorrect. The chorion (chorion frondosum) is the FETAL part of the placenta, not the maternal part.",
+    "C": "Incorrect. The decidua capsularis covers the conceptus toward the uterine lumen and does not form the placenta.",
+    "D": "Correct. The maternal part of the placenta is the decidua basalis — the endometrium underlying the implantation site, into which the chorionic villi are anchored and where the intervillous space forms. The fetal part is the chorion frondosum, and the two interlock to form the definitive placenta."
+   },
+   "main_concept": "CON-GYN-5F36589AE2B702",
+   "concept_ids": ["CON-GYN-5F36589AE2B702"],
+   "subtopic": "Placenta",
+   "module_subject": "207 END > Histology > Placenta",
+   "library_ids": ["ART-GYN-207END-KANDEEL-PLACENTA-DECIDUA-HISTOLOGY"],
+   "learning_objective": "Identify the decidua basalis as the maternal part of the placenta.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q83 = D)", "kasr": "Dr Kandeel female histology bank, p.5" }
+  },
+  {
+   "key": "kf91",
+   "id": "QST-KASR207END-KANDEELFEM-008",
+   "page": "Female p.6 (Kandeel Q91)",
+   "title": "Fetal part of the placenta",
+   "question": "The fetal part of the placenta is called:",
+   "options": {
+    "A": "Fibrinoid coat",
+    "B": "Cooper's ligament",
+    "C": "Chorion",
+    "D": "Decidua capsularis"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The fibrinoid (Nitabuch/Rohr) material is a deposit at the maternal-fetal junction, not the fetal part of the placenta.",
+    "B": "Incorrect. Cooper's ligaments are suspensory ligaments of the breast, unrelated to the placenta.",
+    "C": "Correct. The fetal part of the placenta is the chorion — specifically the chorion frondosum, the villous chorion whose branching chorionic villi project into the intervillous space. It interlocks with the maternal decidua basalis to form the definitive placenta.",
+    "D": "Incorrect. The decidua capsularis is maternal endometrium covering the conceptus, not the fetal part of the placenta."
+   },
+   "main_concept": "CON-GYN-EE6AD4FEAEA458",
+   "concept_ids": ["CON-GYN-EE6AD4FEAEA458"],
+   "subtopic": "Placenta",
+   "module_subject": "207 END > Histology > Placenta",
+   "library_ids": ["ART-GYN-207END-KANDEEL-PLACENTA-DECIDUA-HISTOLOGY"],
+   "learning_objective": "Identify the chorion (frondosum) as the fetal part of the placenta.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q91 = C)", "kasr": "Dr Kandeel female histology bank, p.6" }
+  },
+  {
+   "key": "kf57",
+   "id": "QST-KASR207END-KANDEELFEM-009",
+   "page": "Female p.4 (Kandeel Q57)",
+   "title": "Regions of the decidua",
+   "question": "All the following are regions of the decidua EXCEPT:",
+   "options": {
+    "A": "Decidua parietalis",
+    "B": "Decidua basalis",
+    "C": "Decidua vaginalis",
+    "D": "Decidua capsularis"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The decidua parietalis is the part lining the rest of the uterine cavity, a genuine region of the decidua.",
+    "B": "Incorrect. The decidua basalis lies deep to the implantation site and forms the maternal placenta, a true region.",
+    "C": "Correct. The pregnant endometrium (decidua) is divided into three regions — basalis (under the conceptus), capsularis (over the conceptus toward the lumen) and parietalis (lining the rest of the cavity). There is no \"decidua vaginalis\"; the decidua is a uterine, not a vaginal, structure, so this is the required exception.",
+    "D": "Incorrect. The decidua capsularis is the thin part covering the conceptus toward the uterine lumen, a true region of the decidua."
+   },
+   "main_concept": "CON-GYN-0D8E4E9EB57343",
+   "concept_ids": ["CON-GYN-0D8E4E9EB57343"],
+   "subtopic": "Placenta",
+   "module_subject": "207 END > Histology > Placenta",
+   "library_ids": ["ART-GYN-207END-KANDEEL-PLACENTA-DECIDUA-HISTOLOGY"],
+   "learning_objective": "Name the three regions of the decidua (basalis, capsularis, parietalis) and exclude a \"decidua vaginalis\".",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q57 = C)", "kasr": "Dr Kandeel female histology bank, p.4" }
+  },
+  {
+   "key": "kf19",
+   "id": "QST-KASR207END-KANDEELFEM-010",
+   "page": "Female p.3 (Kandeel Q19)",
+   "title": "Features of syncytiotrophoblast",
+   "question": "Syncytiotrophoblasts are characterised by all the following EXCEPT:",
+   "options": {
+    "A": "Devoid of lipid droplets",
+    "B": "Secrete hCG",
+    "C": "Non-mitotic cells",
+    "D": "Have microvilli"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The syncytiotrophoblast is an active steroid- and peptide-secreting layer. Because it synthesises progesterone and oestrogens from cholesterol, it is RICH in lipid droplets and smooth endoplasmic reticulum, not devoid of them. So \"devoid of lipid droplets\" is the false statement and the required exception.",
+    "B": "Incorrect. The syncytiotrophoblast secretes human chorionic gonadotropin (as well as human placental lactogen, progesterone and oestrogens), so this is true.",
+    "C": "Incorrect. The syncytiotrophoblast is a non-mitotic syncytium; it grows only by fusion of underlying cytotrophoblast cells, so \"non-mitotic\" is a true feature.",
+    "D": "Incorrect. Its apical surface bears abundant microvilli (a brush border) facing the maternal blood, increasing the exchange surface, so this is true."
+   },
+   "main_concept": "CON-GYN-A6FDFF6D737780",
+   "concept_ids": ["CON-GYN-A6FDFF6D737780"],
+   "subtopic": "Placenta",
+   "module_subject": "207 END > Histology > Placenta",
+   "library_ids": ["ART-GYN-207END-KANDEEL-PLACENTA-DECIDUA-HISTOLOGY"],
+   "learning_objective": "State that the syncytiotrophoblast is a non-mitotic, microvillous, hormone-secreting layer rich in lipid droplets.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q19 = A)", "kasr": "Dr Kandeel female histology bank, p.3" }
+  },
+  {
+   "key": "kf15",
+   "id": "QST-KASR207END-KANDEELFEM-011",
+   "page": "Female p.2 (Kandeel Q15)",
+   "title": "Ultrastructure of the theca interna",
+   "question": "The differentiated theca-interna cells have the ultrastructural characteristics of:",
+   "options": {
+    "A": "Ion-transporting cells",
+    "B": "Steroid-secreting cells",
+    "C": "Protein-secreting cells",
+    "D": "Mucous-secreting cells"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Ion-transporting cells have basal membrane infoldings with mitochondria; that is not the theca-interna pattern.",
+    "B": "Correct. The differentiated theca-interna cells acquire the ultrastructure of STEROID-SECRETING cells — abundant smooth endoplasmic reticulum, mitochondria with tubular cristae and lipid droplets. Under LH they convert cholesterol to androgens, which the neighbouring granulosa cells aromatise to oestrogen (the two-cell mechanism).",
+    "C": "Incorrect. Protein-secreting cells are dominated by rough ER and basophilia, which is not the theca-interna phenotype.",
+    "D": "Incorrect. Mucous-secreting cells contain apical mucin granules, unlike the steroid-type theca interna."
+   },
+   "main_concept": "CON-GYN-31CD52C33EE0E3",
+   "concept_ids": ["CON-GYN-31CD52C33EE0E3"],
+   "subtopic": "Ovary",
+   "module_subject": "207 END > Histology > Ovary",
+   "learning_objective": "Recognise the theca-interna cell as a steroid-secreting cell (smooth ER, tubular-cristae mitochondria, lipid).",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q15 = B)", "kasr": "Dr Kandeel female histology bank, p.2" }
+  },
+  {
+   "key": "kf23",
+   "id": "QST-KASR207END-KANDEELFEM-012",
+   "page": "Female p.3 (Kandeel Q23)",
+   "title": "The germinal epithelium of the ovary",
+   "question": "The germinal epithelium of the ovary is:",
+   "options": {
+    "A": "Stratified columnar epithelium",
+    "B": "Pseudostratified columnar epithelium",
+    "C": "Simple cuboidal epithelium",
+    "D": "Transitional epithelium"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The surface of the ovary is a single layer, not a stratified columnar epithelium.",
+    "B": "Incorrect. It is not pseudostratified columnar; the ovarian surface cells form one simple layer.",
+    "C": "Correct. The free surface of the ovary is covered by a simple cuboidal (sometimes low columnar) epithelium — the so-called germinal epithelium, continuous with the peritoneal mesothelium. The name is a historical misnomer: it does NOT give rise to the germ cells; it merely covers the tunica albuginea of the ovary.",
+    "D": "Incorrect. Transitional epithelium lines the urinary tract, not the ovarian surface."
+   },
+   "main_concept": "CON-GYN-07BBF47E961322",
+   "concept_ids": ["CON-GYN-07BBF47E961322"],
+   "subtopic": "Ovary",
+   "module_subject": "207 END > Histology > Ovary",
+   "learning_objective": "State that the ovarian germinal epithelium is a simple cuboidal surface epithelium (a misnomer).",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q23 = C)", "kasr": "Dr Kandeel female histology bank, p.3" }
+  },
+  {
+   "key": "kf14",
+   "id": "QST-KASR207END-KANDEELFEM-013",
+   "page": "Female p.2 (Kandeel Q14)",
+   "title": "Location of the corpus luteum",
+   "question": "The corpus luteum is characterised by all the following EXCEPT:",
+   "options": {
+    "A": "Secretes oestrogen and progesterone",
+    "B": "Present in the medulla of the ovary",
+    "C": "Temporary endocrine gland",
+    "D": "Does not contain an oocyte"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The corpus luteum secretes both progesterone (granulosa lutein cells) and oestrogen (theca lutein cells), so this is true.",
+    "B": "Correct. The corpus luteum forms from the ruptured follicle in the ovarian CORTEX, where all the follicles and their derivatives lie; the medulla holds only vessels, nerves and loose connective tissue. So \"present in the medulla\" is false and is the required exception.",
+    "C": "Incorrect. The corpus luteum is a temporary endocrine gland that regresses (to a corpus albicans) if pregnancy does not occur, so this is true.",
+    "D": "Incorrect. After ovulation the oocyte has been shed, so the corpus luteum contains no oocyte — a true feature."
+   },
+   "main_concept": "CON-GYN-7172E44FC7161A",
+   "concept_ids": ["CON-GYN-7172E44FC7161A"],
+   "subtopic": "Ovary",
+   "module_subject": "207 END > Histology > Ovary",
+   "learning_objective": "State that the corpus luteum (like the follicles) lies in the ovarian cortex, not the medulla.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q14 = B); Q61 (medulla lacks follicles) corroborates", "kasr": "Dr Kandeel female histology bank, p.2" }
+  },
+  {
+   "key": "kf68",
+   "id": "QST-KASR207END-KANDEELFEM-014",
+   "page": "Female p.5 (Kandeel Q68)",
+   "title": "What leaves the ovary at ovulation",
+   "question": "All the following leave the ovary after ovulation EXCEPT:",
+   "options": {
+    "A": "Corona radiata",
+    "B": "Theca interna cells",
+    "C": "Cumulus oophorus",
+    "D": "Secondary oocyte"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The corona radiata — the innermost granulosa cells clinging to the zona pellucida — is shed with the oocyte at ovulation.",
+    "B": "Correct. At ovulation the secondary oocyte is extruded together with its zona pellucida, corona radiata and surrounding cumulus cells. The THECA INTERNA stays behind in the ovarian wall, where (with the granulosa) it luteinises to form the corpus luteum. So the theca interna is the structure that does NOT leave the ovary and is the required exception.",
+    "C": "Incorrect. The cumulus oophorus cells that detach with the oocyte are carried out at ovulation.",
+    "D": "Incorrect. The secondary oocyte is the cell that is released at ovulation."
+   },
+   "main_concept": "CON-GYN-6446C30F096529",
+   "concept_ids": ["CON-GYN-6446C30F096529"],
+   "subtopic": "Ovary",
+   "module_subject": "207 END > Histology > Ovary",
+   "learning_objective": "State that the oocyte, corona radiata and cumulus are extruded at ovulation while the theca interna is retained (to form the corpus luteum).",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q68 = B); Q104 (theca interna not swept into the tube) corroborates", "kasr": "Dr Kandeel female histology bank, p.5" }
+  },
+  {
+   "key": "kf16",
+   "id": "QST-KASR207END-KANDEELFEM-015",
+   "page": "Female p.3 (Kandeel Q16)",
+   "title": "Glands of the secretory endometrium",
+   "question": "All the following are true for the endometrium in the secretory phase EXCEPT:",
+   "options": {
+    "A": "Its glands are straight tubules",
+    "B": "It reaches its maximum thickness",
+    "C": "Mitosis is rare in its cells",
+    "D": "Its cells accumulate glycogen"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. In the secretory (luteal) phase under progesterone the endometrial glands become long, tortuous and sacculated (a corkscrew/saw-tooth outline), NOT straight tubules. Straight, simple tubular glands belong to the early proliferative phase, so \"straight tubules\" is the false statement and the required exception.",
+    "B": "Incorrect. The endometrium reaches its maximum thickness in the secretory phase, so this is true.",
+    "C": "Incorrect. Progesterone suppresses proliferation, so mitoses are rare in the secretory phase — a true feature.",
+    "D": "Incorrect. Secretory-phase gland cells accumulate glycogen (basal then luminal secretion), which is true."
+   },
+   "main_concept": "CON-GYN-055D3C10CC60AF",
+   "concept_ids": ["CON-GYN-055D3C10CC60AF"],
+   "subtopic": "Uterus",
+   "module_subject": "207 END > Histology > Uterus",
+   "learning_objective": "State that secretory-phase endometrial glands are coiled and sacculated, not straight tubules.",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q16 = A)", "kasr": "Dr Kandeel female histology bank, p.3" }
+  },
+  {
+   "key": "kf107",
+   "id": "QST-KASR207END-KANDEELFEM-016",
+   "page": "Female p.6 (Kandeel Q107)",
+   "title": "Epithelium of the vagina",
+   "question": "All the following are true about the vagina EXCEPT:",
+   "options": {
+    "A": "Its epithelium is transitional",
+    "B": "It has no serous glands",
+    "C": "It is vascular",
+    "D": "It has no mucous glands"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The vagina is lined by a thick, stratified squamous NON-keratinised epithelium rich in glycogen, not by transitional epithelium (which lines the urinary tract). So \"its epithelium is transitional\" is false and is the required exception.",
+    "B": "Incorrect. The vagina has no serous glands of its own; this is a true feature.",
+    "C": "Incorrect. The vaginal wall (lamina propria) is highly vascular, which is true and contributes to its lubricating transudate.",
+    "D": "Incorrect. The vagina is glandless — it has no mucous glands and is lubricated by cervical mucus and vascular transudate, so this is true."
+   },
+   "main_concept": "CON-GYN-AC1ACAAD7C9E31",
+   "concept_ids": ["CON-GYN-AC1ACAAD7C9E31"],
+   "subtopic": "Vagina",
+   "module_subject": "207 END > Histology > Vagina",
+   "learning_objective": "State that the vagina is lined by stratified squamous non-keratinised epithelium (not transitional).",
+   "field_notes": { "keySource": "printed p.7 Dr Kandeel answer table (Q107 = A)", "kasr": "Dr Kandeel female histology bank, p.6" }
+  }
+ ]
+}

@@ -461,3 +461,41 @@ Kasr Al Ainy END 207 Dr Kandeel MALE genital HISTOLOGY MCQ bank. A doctor's bank
 true
 
 ---
+
+# Item
+## id
+src_90142feb7bb7c3c1e43d
+## title
+Histo MCQ by Dr.Kandeel [Female]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Histology Dpt Histology [1st priority]/MCQs/Histo MCQ by Dr.Kandeel [Female].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+13
+## sha256
+90142feb7bb7c3c1e43d627af1bac9c103b6f55a9349807f11d627342a1c4186
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 Dr Kandeel FEMALE genital HISTOLOGY MCQ bank. A doctor's bank filed under the Histology Dpt [1st priority] folder (filename names Kandeel), so examSittingYear is null. Scanned, no native text layer -- read via `node scripts/content/pagetext.mjs ocr` at default settings; SOLVED by a PRINTED ANSWER-KEY TABLE on p.7 (Q1-109, read at 300 dpi; gaps in numbering carry "--"), spot-verified against the stems (e.g. Q6=A placental barrier has a continuous not fenestrated fetal endothelium, Q50=B milk immunoglobulin IgA, Q83=D maternal placenta = decidua basalis, Q107=A vaginal epithelium stratified squamous not transitional -- all correct). The female-reproductive histology corpus is heavily saturated (Zahra female + EOM + Galal + Shebl), so only fresh single-best histology-structure claims are authored (mammary secretion detail, placental-barrier layers, decidua regions, theca-interna ultrastructure, ovarian germinal epithelium, corpus-luteum location, secretory-endometrium glands, syncytiotrophoblast lipid, vaginal epithelium). Dupes skipped: zona-pellucida composition/separation, corona radiata, antrum defines secondary follicle, primordial-before-puberty, oviduct peg cells, corpus albicans, glandless/lactic-acid vagina, endocervix glands, spiral-vs-straight arteries, and the physiology stems (oxytocin/relaxin/menstrual timing).
+## confidence
+0.9
+## is_assessment
+true
+
+---
