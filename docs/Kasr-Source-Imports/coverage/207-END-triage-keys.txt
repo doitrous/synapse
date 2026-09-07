@@ -512,3 +512,31 @@ Q27 (oxytocin facilitates ejaculation = oxytocin.action.vas-deferens-contraction
 dwarfism normal mentality — the contrast lives in growth-hormone.short-stature.cretinism-is-thyroid-not-gh).
 Dedup rate Ch.2 ~ high (pituitary was already saturated by the EOM/2023 physiology tranches); 6 clean fresh
 mechanistic items harvested. NEXT: Ch.3 Thyroid (p.12-18) — expected higher fresh yield.
+
+Ch.3 Thyroid (41 Qs) recovered keys:
+Q1.d  Q2.d  Q3.b  Q4.a  Q5.b  Q6.f  Q7.c  Q8.b  Q9.c  Q10.a  Q11.b  Q12.a  Q13.c  Q14.d
+Q15.c Q16.b Q17.d Q18.d Q19.d Q20.b Q21.d Q22.d Q23.b Q24.a Q25.c Q26.d Q27.c Q28.b Q29.c
+Q30.d Q31.b Q32.b Q33.a Q34.c Q35.c Q36.c Q37.a Q38.b Q39.d Q40.c Q41.c
+
+— Authoring pass 2026-09-07, SLICE 2 (8 fresh MCQs, Ch.3 Thyroid) —
+Authored: Q11 (iodide trapping = secondary active transport / NIS), Q12 (peripheral T4->T3 by type 1
+deiodinase D1), Q13 (T4 carried mainly on thyroxine-binding globulin), Q14 (only free/unbound thyroxine is
+active), Q15 (thyroid hormone binds nuclear receptor -> gene transcription; Q28 corroborates), Q18
+(thionamides/PTU block thyroid peroxidase organification+coupling), Q8 (thyroid secretes predominantly T4;
+Q10 corroborates), Q5 (hormone stored in colloid as thyroglobulin). 8 concepts minted university-blind (all
+CON-END-*), collision-checked corpus-wide (0 collisions, 0 in-batch dupes), grouped into 1 new article
+(ART-END-207END-SHEBL-THYROID-PHYSIOLOGY). Subject tag endo. All 8 keys read from the printed answer line.
+SKIPPED as dupes of the authored 207-END physiology corpus: Q7/Q31 (T3 liberated by proteinase = thyroid-
+follicular-cell.lysosomes.thyroglobulin-hydrolysis), Q9 (TSH inhibited by T3/T4 = general feedback), Q19/Q21
+(Graves/thyroidectomy raise TSH = graves + primary-hypothyroidism concepts), Q22/Q27 (exophthalmos autoAb —
+held for a later slice), Q23/Q26 (myxedema non-pitting oedema = hypothyroidism.features.myxedema), Q24/Q34/
+Q37/Q40 (hyperthyroidism weight-loss/tachycardia/insomnia = hyperthyroidism.manifestations), Q25/Q36/Q41
+(cretinism mental retardation = growth-hormone.short-stature.cretinism-is-thyroid-not-gh), Q30 (T3 more active
+than T4 = thyroid-hormone.t3-greater-activity), Q32 (TSH does NOT convert T4->T3 = tsh.functions.not-
+peripheral-conversion), Q33 (calcitonin from thyroid = parafollicular-c-cell), Q16/Q35/Q38 (thyroid calorigenic
+/ lipolytic / CNS-development = existing metabolic + cretinism concepts), Q1/Q2/Q3/Q4/Q6/Q17/Q29 (basic TSH
+actions / iodine-deficiency goitre / T4 storage-in-cell / hypothyroid sleepiness — near-dups or low-yield).
+Dedup rate Ch.3 ~ moderate; 8 clean fresh synthesis/transport/metabolism/mechanism items harvested. Held for
+a later slice: Q22/Q27 (Graves exophthalmos = extraocular-muscle autoantibodies) and Q20 (iodine deficiency ->
+high TSH / endemic goitre) — both fresh but deferred to keep this slice at 8. NEXT: Ch.4 Calcium regulation
+(p.19-23).

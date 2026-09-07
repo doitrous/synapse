@@ -184,3 +184,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.2 Pituitary).
 ## reading_time
 5
+
+---
+
+# Item
+## id
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## title
+Thyroid hormone physiology: synthesis, transport, metabolism and action
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+Thyroid hormone synthesis begins with iodide trapping: the sodium-iodide symporter concentrates iodide by secondary active transport, and thyroid peroxidase then oxidises it, iodinates thyroglobulin tyrosyls and couples MIT and DIT into T3 and T4. The iodinated hormone is stored extracellularly on thyroglobulin in colloid, a several-week reserve unique among endocrine glands. The gland secretes predominantly thyroxine (T4), which circulates about 70% bound to thyroxine-binding globulin; only the small free fraction is active. In peripheral tissues type 1 deiodinase converts most T4 to the more potent T3, and thyroid hormone acts genomically by binding nuclear receptors on thyroid-response elements to change gene transcription. Thionamide drugs such as propylthiouracil inhibit thyroid peroxidase and so block hormone synthesis.
+## sections
+### Definition
+This article groups the thyroid physiology facts tested by the Dr Shebl set: iodide trapping as secondary active transport, colloid/thyroglobulin storage, peroxidase-dependent synthesis and its thionamide block, predominant T4 secretion, TBG transport, the active free fraction, peripheral D1 conversion, and the nuclear-receptor mechanism.
+### Mechanism
+The sodium-iodide symporter uses the Na-K ATPase sodium gradient to trap iodide; peroxidase organifies and couples it on thyroglobulin, which is stored in colloid. Hormone is released by endocytosis and lysosomal proteolysis. Secreted T4 travels on TBG, and the free fraction enters cells where D1 makes T3, which binds nuclear receptors to alter transcription.
+### Key determinants
+Discriminators tested here: secondary (not primary) active transport of iodide; storage on thyroglobulin (not as free hormone); peroxidase as the thionamide target; T4 predominance in secretion versus T3 potency; TBG as the main carrier; the free fraction as the active one; D1 as the main peripheral converter; and the nuclear (not membrane) receptor mechanism.
+### Clinical significance
+These points underlie antithyroid-drug therapy (thionamides blocking peroxidase), the interpretation of free versus total T4 when binding proteins change, the effect of iodine deficiency on the gland, and why T4 with a long half-life is used for replacement while T3 status depends on peripheral deiodination.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors here are built from those reversals (iodide as primary active transport, storage as free thyroxine, membrane-receptor action, or equating T3 potency with abundance of secretion).
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Thyroid gland
+## subtopic
+Thyroid gland
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## related_concepts
+CON-END-D8BE769825D7F2
+CON-END-7B6032866EA4F5
+CON-END-64D1CFDC33434A
+CON-END-ED1829EB39EEB1
+CON-END-355D98FAAD9D12
+CON-END-1C3AEDA688EE51
+CON-END-64B4B1B2F0D189
+CON-END-5E83A745D2C453
+## related_articles
+
+## resource_ids
+src_8363527119860a6d39ed
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.3 Thyroid).
+## reading_time
+7

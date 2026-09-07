@@ -684,3 +684,899 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.2 Q28 = b, Q26 = d "cervical dilation").
+
+---
+
+# Item
+## id
+CON-END-D8BE769825D7F2
+## label
+Thyroid iodide trapping is secondary active transport by the sodium-iodide symporter
+## canonical_key
+thyroid.iodide-trapping.secondary-active-transport
+## aliases
+The NIS concentrates iodide using the sodium gradient
+Iodide is pumped into thyroid cells against its gradient by a sodium symporter
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Iodide is taken up into the thyroid follicular cell across the basolateral membrane by the sodium-iodide symporter (NIS). NIS carries iodide against its electrochemical gradient by coupling it to the inward movement of sodium down the gradient maintained by the Na-K ATPase, so it is a form of secondary active transport. This iodide-trapping step concentrates iodide many-fold within the gland and is stimulated by TSH.
+## explicit_objective
+Classify thyroid iodide trapping by the sodium-iodide symporter as secondary active transport.
+## pitfalls
+Calling the iodide pump primary active transport; the carrier does not hydrolyse ATP itself but uses the sodium gradient set up by the Na-K ATPase.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone synthesis
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone synthesis
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q11 = b).
+
+---
+
+# Item
+## id
+CON-END-7B6032866EA4F5
+## label
+Most circulating T3 is made from T4 by type 1 deiodinase in peripheral tissues
+## canonical_key
+thyroid-hormone.peripheral-conversion.type-1-deiodinase-t4-to-t3
+## aliases
+Liver D1 deiodinase converts T4 to active T3
+T4 is a prohormone deiodinated to T3 peripherally
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The thyroid secretes mostly thyroxine (T4), and most of the more active triiodothyronine (T3) is generated peripherally by outer-ring (5'-) deiodination of T4. In liver and kidney this is done chiefly by type 1 deiodinase (D1), which supplies the bulk of plasma T3. Type 2 deiodinase (D2) makes T3 for local intracellular use in brain, pituitary and brown fat, while type 3 deiodinase (D3) inactivates T4 and T3 to reverse T3; there is no type 4 deiodinase.
+## explicit_objective
+Identify type 1 deiodinase as the enzyme generating most circulating T3 from peripheral T4.
+## pitfalls
+Assuming the thyroid secretes T3 directly in bulk; most active T3 is produced outside the gland by D1-mediated deiodination of T4.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone metabolism
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone metabolism
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q12 = a).
+
+---
+
+# Item
+## id
+CON-END-64D1CFDC33434A
+## label
+Most circulating thyroxine is carried on thyroxine-binding globulin
+## canonical_key
+thyroxine.plasma-transport.thyroxine-binding-globulin
+## aliases
+TBG is the main plasma carrier of T4
+About 70% of circulating T4 is bound to thyroxine-binding globulin
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroxine circulates almost entirely bound to plasma proteins, and the highest-affinity carrier is thyroxine-binding globulin (TBG), which transports roughly 70% of circulating T4. Transthyretin (prealbumin) and albumin carry smaller fractions. This large bound pool buffers the free-hormone level, while only the tiny unbound fraction is immediately available to tissues.
+## explicit_objective
+State that thyroxine-binding globulin carries the largest fraction of circulating T4.
+## pitfalls
+Confusing plasma transport with synthesis; TBG is not involved in hormone synthesis but is the main circulating carrier.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone transport
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone transport
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q13 = c).
+
+---
+
+# Item
+## id
+CON-END-ED1829EB39EEB1
+## label
+Only the free (unbound) fraction of thyroxine is physiologically active
+## canonical_key
+thyroid-hormone.free-fraction.unbound-is-active
+## aliases
+Free T4 is the active fraction; bound hormone is a reservoir
+Protein-bound thyroxine is biologically inert
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Although most thyroxine circulates bound to carrier proteins, only the small unbound (free) fraction can cross cell membranes and reach the nuclear receptor, so the free hormone is the biologically active form. Protein-bound hormone acts as an inert reservoir until it dissociates. This free-hormone principle explains why measurement of free T4 rather than total T4 reflects true thyroid status when binding-protein levels vary.
+## explicit_objective
+Explain that only the free (unbound) fraction of thyroxine is physiologically active.
+## pitfalls
+Treating total (mostly bound) thyroxine as the active hormone; only the free fraction acts, so changes in binding proteins alter total but not free levels.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone transport
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone transport
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q14 = d).
+
+---
+
+# Item
+## id
+CON-END-355D98FAAD9D12
+## label
+Thyroid hormone binds nuclear receptors to alter gene transcription
+## canonical_key
+thyroid-hormone.mechanism.nuclear-receptor-gene-transcription
+## aliases
+Thyroid hormone acts genomically through nuclear receptors
+T3 changes transcription via thyroid-response elements
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thyroid hormone is lipophilic, so it enters target cells and binds nuclear thyroid-hormone receptors positioned on thyroid-response elements of DNA. The hormone-receptor complex regulates gene transcription, changing the synthesis of enzymes and structural proteins (for example Na-K ATPase and metabolic enzymes). This genomic mechanism accounts for the slow onset and prolonged action of thyroid hormone, and contrasts with membrane-receptor / second-messenger peptide hormones.
+## explicit_objective
+Describe the nuclear-receptor genomic mechanism of thyroid hormone action.
+## pitfalls
+Assuming thyroid hormone uses a membrane receptor and second messenger; its main action is nuclear and genomic.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone mechanism
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone mechanism
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q15 = c, Q28 = b).
+
+---
+
+# Item
+## id
+CON-END-1C3AEDA688EE51
+## label
+Thionamides block thyroid peroxidase, stopping iodination and coupling
+## canonical_key
+thyroid-peroxidase.inhibition.thiocarbamides-propylthiouracil
+## aliases
+Propylthiouracil and carbimazole inhibit thyroid peroxidase
+Antithyroid thionamides block organification and MIT-DIT coupling
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Thiocarbamide (thionamide) drugs such as propylthiouracil and carbimazole inhibit thyroid peroxidase, the enzyme that oxidises iodide, iodinates the tyrosyl residues of thyroglobulin (organification) and couples monoiodotyrosine and diiodotyrosine into T3 and T4. By blocking peroxidase these drugs stop the synthesis of new thyroid hormone, which is why they are used to treat hyperthyroidism. Propylthiouracil additionally inhibits peripheral deiodination of T4 to T3.
+## explicit_objective
+Identify thionamides as thyroid-peroxidase inhibitors that block iodination and coupling.
+## pitfalls
+Confusing the substrate iodine with the inhibitor; a high iodide load transiently blocks organification (Wolff-Chaikoff), but the drugs that block coupling are the thionamides.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone synthesis
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone synthesis
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology / pharmacology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q18 = d).
+
+---
+
+# Item
+## id
+CON-END-64B4B1B2F0D189
+## label
+The thyroid gland secretes predominantly thyroxine (T4)
+## canonical_key
+thyroid-secretion.predominant-product.thyroxine-t4
+## aliases
+Most hormone leaving the thyroid is T4
+T4 is the main secretory product of the thyroid
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Of the hormone actually secreted by the thyroid, the great majority is thyroxine (T4), with only a small amount of triiodothyronine (T3). T4 then acts as a circulating prohormone that is deiodinated to the more active T3 in peripheral tissues. This is why T4 is the predominant thyroid hormone found in plasma, even though T3 is biologically more potent.
+## explicit_objective
+State that thyroxine (T4) is the predominant hormone secreted by the thyroid gland.
+## pitfalls
+Equating potency with abundance; T3 is more active but T4 is secreted in far greater amount.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone secretion
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone secretion
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q8 = b, Q10 = a).
+
+---
+
+# Item
+## id
+CON-END-5E83A745D2C453
+## label
+Thyroid hormone is stored extracellularly in colloid bound within thyroglobulin
+## canonical_key
+thyroid.iodine-storage-form.thyroglobulin-colloid
+## aliases
+Thyroid hormone is stored in follicular colloid as thyroglobulin
+Iodinated tyrosines are stored on thyroglobulin
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Iodinated tyrosyl residues and the coupled T3 and T4 are stored as part of the large glycoprotein thyroglobulin within the colloid of the thyroid follicle. This lets the thyroid hold several weeks' supply of hormone extracellularly, a feature unique among endocrine glands. Hormone is released when follicular cells endocytose colloid and lysosomal proteases split T3 and T4 from thyroglobulin.
+## explicit_objective
+State that thyroid hormone is stored in follicular colloid bound within thyroglobulin.
+## pitfalls
+Thinking hormone is stored as free thyroxine; it is stored on thyroglobulin in colloid and released only after proteolysis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Thyroid hormone synthesis
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Thyroid hormone synthesis
+## article_ids
+ART-END-207END-SHEBL-THYROID-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.3 Q5 = b).

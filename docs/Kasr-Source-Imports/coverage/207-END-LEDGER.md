@@ -797,8 +797,23 @@ emitted .md; fix the seed and re-emit), `concept/207-END-physio-shebl-concepts.m
 errors; article batch 2 items 0 errors; MCQ batch 6 items 0 errors with `--with` concept+article+resource
 siblings).
 
-**The 207 END module is now 300 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
-+ Jalal 28 + Zahra histology 14 + Shebl physiology 6), 6 held, 2 excluded. **Next 207 END cluster:**
-continue the Dr Shebl bank at **Ch.3 Thyroid (p.12-18)** — expected higher fresh yield than the saturated
-pituitary chapter — then Ch.4 Calcium, Ch.5 Adrenal, Ch.6 Pancreas, Ch.7/8 reproduction; dedup each vs the
-physiology corpus, push-per-slice.
+**Slice 2 — 8 authored** (Ch.3 Thyroid): Q11 (iodide trapping = secondary active transport / sodium-iodide
+symporter), Q12 (peripheral T4->T3 by type 1 deiodinase D1), Q13 (T4 carried mainly on thyroxine-binding
+globulin), Q14 (only free/unbound thyroxine is active), Q15 (thyroid hormone nuclear-receptor genomic action),
+Q18 (thionamides/PTU inhibit thyroid peroxidase, blocking organification + coupling), Q8 (thyroid secretes
+predominantly T4), Q5 (hormone stored in colloid as thyroglobulin). 0 held, 0 excluded. **All 8 keyed from
+the printed answer line** (0 expert-determined). 8 concepts minted university-blind (all `CON-END-*`:
+D8BE769825D7F2, 7B6032866EA4F5, 64D1CFDC33434A, ED1829EB39EEB1, 355D98FAAD9D12, 1C3AEDA688EE51, 64B4B1B2F0D189,
+5E83A745D2C453) — collision-checked corpus-wide, 0 collisions, 0 in-batch duplicates. Grouped into 1 new
+article (`ART-END-207END-SHEBL-THYROID-PHYSIOLOGY`). Subject tag `endo`. Dedup Ch.3 ~ moderate: ~24 stems
+duplicate authored concepts (T3-by-proteinase, TSH feedback, Graves/thyroidectomy TSH, myxedema, hyperthyroid
+manifestations, cretinism, T3>T4 activity, TSH-not-convert-T4, calcitonin source, calorigenic/CNS effects);
+2 fresh items (Q22/Q27 Graves exophthalmos autoantibodies, Q20 iodine-deficiency high TSH) held to keep the
+slice at 8. Gate-clean (concept 14 items 0 errors; article 3 items 0 errors; MCQ 14 items 0 errors with
+`--with` concept+article+resource siblings). Seed re-emitted (never hand-edit the emitted .md).
+
+**The 207 END module is now 308 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
++ Jalal 28 + Zahra histology 14 + Shebl physiology 14), 6 held, 2 excluded. **Next 207 END cluster:** continue
+the Dr Shebl bank at **Ch.4 Calcium regulation (p.19-23)**, then Ch.5 Adrenal, Ch.6 Pancreas, Ch.7/8
+reproduction (plus the held Graves-exophthalmos + iodine-deficiency thyroid items); dedup each vs the physiology
+corpus, push-per-slice.
