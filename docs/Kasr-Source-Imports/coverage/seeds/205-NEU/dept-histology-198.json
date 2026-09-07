@@ -308,6 +308,102 @@
       "subtopic": "Nervous tissue histology",
       "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198, CNS section); answer by medical reasoning, defended per-option, p.8" },
       "id": "QST-KASR205NEU-HISTO198-9"
+    },
+    {
+      "key": "histo198-cns-q31",
+      "page": 10,
+      "title": "Histological composition of the pia mater",
+      "question": "The pia mater is formed of:",
+      "options": {
+        "A": "Simple squamous epithelium",
+        "B": "Simple columnar epithelium",
+        "C": "Simple columnar ciliated epithelium",
+        "D": "Modified (flattened) fibroblasts"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. The meninges are not true epithelia; the pia is not a simple squamous epithelium (that lining belongs to serous cavities and vessels).",
+        "B": "Incorrect. The pia is not a simple columnar epithelium; columnar epithelia line surfaces such as the gut, not the meninges.",
+        "C": "Incorrect. Ciliated simple columnar epithelium lines the respiratory tract and (as ependyma) the ventricles/central canal, not the pia mater.",
+        "D": "Correct. The pia mater, like the other leptomeninges, is a delicate connective-tissue membrane composed of flattened, modified fibroblasts (leptomeningeal/meningothelial cells) together with fine collagen and elastic fibres and the pial vessels — it is mesenchymal in origin, not an epithelium. This is why the pia is classified histologically as modified fibroblasts rather than any surface epithelium, and it closely invests the brain and spinal-cord surface, dipping into the sulci."
+      },
+      "main_concept": "CON-NEU-39DB236BDDA740",
+      "concept_ids": ["CON-NEU-39DB236BDDA740"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that the pia mater is composed of modified (flattened) fibroblasts, a connective-tissue membrane rather than an epithelium.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Meninges > Pia Mater",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198, CNS section); answer by medical reasoning, defended per-option, p.10" },
+      "id": "QST-KASR205NEU-HISTO198-10"
+    },
+    {
+      "key": "histo198-cns-q32",
+      "page": 10,
+      "title": "Target of cerebellar climbing fibres",
+      "question": "One of the following is true about a climbing fibre of the cerebellum:",
+      "options": {
+        "A": "It arises from the pontine nuclei",
+        "B": "It synapses with granule cells",
+        "C": "It synapses with Purkinje cells",
+        "D": "It carries inhibitory signals"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Climbing fibres arise from the inferior olivary nucleus of the medulla; it is the MOSSY fibres that arise from the pontine nuclei (and spinal cord/vestibular nuclei).",
+        "B": "Incorrect. Synapsing with granule cells (in the glomeruli of the granular layer) is the property of MOSSY fibres, not climbing fibres.",
+        "C": "Correct. Each climbing fibre arises from the contralateral inferior olivary nucleus and ascends to wind around ('climb') the dendritic tree of a single Purkinje cell, forming a powerful one-to-one excitatory synapse — a single climbing-fibre volley evokes a complex spike in that Purkinje cell. This direct climbing-fibre-to-Purkinje-cell relationship is the defining feature that distinguishes climbing fibres from mossy fibres (which act on Purkinje cells only indirectly, via granule-cell parallel fibres).",
+        "D": "Incorrect. Climbing fibres are EXCITATORY (glutamatergic); the inhibitory influence on Purkinje cells comes from cortical interneurons (basket, stellate) and the Purkinje cells themselves are the inhibitory output of the cortex."
+      },
+      "main_concept": "CON-NEU-C64093A58D9566",
+      "concept_ids": ["CON-NEU-C64093A58D9566"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "State that cerebellar climbing fibres (from the inferior olive) form a direct excitatory synapse on Purkinje cells, distinguishing them from granule-cell-targeting mossy fibres.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Cerebellar Cortex > Afferent Fibres",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198, CNS section); answer by medical reasoning, defended per-option, p.10" },
+      "id": "QST-KASR205NEU-HISTO198-11"
+    },
+    {
+      "key": "histo198-cns-q23",
+      "page": 10,
+      "title": "First-order neuron for facial proprioception",
+      "question": "The first-order neuron in the proprioception pathway from the face and head is located in the:",
+      "options": {
+        "A": "Trigeminal (semilunar) ganglion",
+        "B": "Dorsal root ganglion",
+        "C": "Spinal nucleus of the trigeminal nerve",
+        "D": "Mesencephalic nucleus of the trigeminal nerve"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Most trigeminal primary sensory neurons (for touch, pain and temperature of the face) lie in the trigeminal ganglion, but the primary neurons for PROPRIOCEPTION are the exception — their cell bodies are not in the ganglion.",
+        "B": "Incorrect. The dorsal root ganglia hold first-order sensory neurons for the body/limbs, not for the face and head.",
+        "C": "Incorrect. The spinal nucleus of the trigeminal nerve is a SECOND-order (relay) nucleus for pain and temperature from the face, not the site of the first-order proprioceptive neuron.",
+        "D": "Correct. The mesencephalic nucleus of the trigeminal nerve is unique in the entire nervous system: it contains the cell bodies of the FIRST-order (primary) sensory neurons for proprioception from the muscles of mastication and other facial/head structures — the only primary sensory neurons whose cell bodies lie within the CNS rather than in a peripheral ganglion. This exceptional intra-CNS location of a primary proprioceptive neuron is exactly what the question tests."
+      },
+      "main_concept": "CON-NEU-5B9B7B5449716C",
+      "concept_ids": ["CON-NEU-5B9B7B5449716C"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Identify the mesencephalic nucleus of the trigeminal nerve as the site of the first-order proprioceptive neuron for the face (a unique intra-CNS primary sensory neuron).",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Central Nervous System > Trigeminal Sensory Neurons",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198, CNS section); answer by medical reasoning, defended per-option, p.10" },
+      "id": "QST-KASR205NEU-HISTO198-12"
     }
   ]
 }

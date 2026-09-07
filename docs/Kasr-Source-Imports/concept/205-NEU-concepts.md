@@ -23435,3 +23435,333 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, CNS section Q4, p.8); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-39DB236BDDA740
+## label
+The pia mater is composed of modified (flattened) fibroblasts, not epithelium
+## canonical_key
+piamater.histology.modified-fibroblasts
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The pia mater, like the other leptomeninges, is a delicate connective-tissue membrane composed of flattened, modified fibroblasts (leptomeningeal/meningothelial cells) together with fine collagen and elastic fibres and the pial blood vessels. It is mesenchymal in origin, not a true epithelium, which is why it is classified histologically as modified fibroblasts rather than any surface (squamous/columnar/ciliated) epithelium. It closely invests the surface of the brain and spinal cord, dipping into the sulci.
+## explicit_objective
+State that the pia mater is composed of modified (flattened) fibroblasts -- a connective-tissue membrane rather than an epithelium.
+## pitfalls
+Mislabelling the meninges as epithelia; the pia (and arachnoid) are modified-fibroblast connective-tissue membranes, not squamous or columnar epithelium.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Meninges > Pia Mater
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.2
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Pia matter is formed of: a. Simple squamous epithelium. b. simple columnar epithelium. c. Simple columnar ciliated epithelium. d. modified fibroblasts." ANSWER: d (205 NEU Histology Department MCQ book, batch 198, CNS section Q31; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, CNS section Q31, p.10); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept (existing pia-mater concepts are anatomy: follows-sulci and spinal-cord adherence, not the modified-fibroblast histology). De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-C64093A58D9566
+## label
+Cerebellar climbing fibres form a direct excitatory synapse on Purkinje cells
+## canonical_key
+climbingfibre.target.purkinje-cell
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Each climbing fibre arises from the contralateral inferior olivary nucleus and ascends to wind around ("climb") the dendritic tree of a single Purkinje cell, forming a powerful one-to-one excitatory (glutamatergic) synapse -- a single climbing-fibre volley evokes a complex spike in that Purkinje cell. This distinguishes climbing fibres from mossy fibres, which arise from the pontine nuclei, spinal cord and vestibular nuclei and excite Purkinje cells only indirectly, through granule-cell parallel fibres. The inhibitory influence on Purkinje cells comes instead from cortical interneurons (basket and stellate cells).
+## explicit_objective
+State that cerebellar climbing fibres (from the inferior olive) form a direct excitatory synapse on Purkinje cells, distinguishing them from granule-cell-targeting mossy fibres.
+## pitfalls
+Confusing climbing with mossy fibres -- mossy fibres arise from pontine nuclei and synapse on granule cells; only climbing fibres synapse directly on Purkinje dendrites, and both cerebellar afferents are excitatory (not inhibitory).
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Cerebellar Cortex > Afferent Fibres
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.25
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following is true about climbing fibre: a. Arises from pontine nuclei. b. Synapses with granular cells. c. Synapses with Purkinje cell. d. Carries inhibitory signals." ANSWER: c (205 NEU Histology Department MCQ book, batch 198, CNS section Q32; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology/neuroanatomy reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, CNS section Q32, p.10); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept (existing Purkinje concept covers pyriform morphology, not the climbing-fibre target). De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-5B9B7B5449716C
+## label
+The mesencephalic nucleus of CN V holds the first-order neuron for facial proprioception
+## canonical_key
+mesencephalicnucleus.function.face-proprioception-first-order-neuron
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The mesencephalic nucleus of the trigeminal nerve is unique in the nervous system: it contains the cell bodies of the FIRST-order (primary) sensory neurons for proprioception from the muscles of mastication and other facial/head structures -- the only primary sensory neurons whose cell bodies lie within the CNS rather than in a peripheral ganglion. This contrasts with the trigeminal (semilunar) ganglion (first-order neurons for facial touch/pain/temperature), the dorsal root ganglia (body proprioception/sensation), and the spinal nucleus of CN V (a second-order relay for facial pain and temperature).
+## explicit_objective
+Identify the mesencephalic nucleus of the trigeminal nerve as the site of the first-order proprioceptive neuron for the face -- a unique intra-CNS primary sensory neuron.
+## pitfalls
+Placing the facial proprioceptive first-order neuron in the trigeminal ganglion; it is exceptional in lying in the mesencephalic nucleus (within the CNS), not a peripheral ganglion.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Central Nervous System > Trigeminal Sensory Neurons
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.3
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.82
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"First order neuron in proprioception pathway from face & head is in: a. Trigeminal ganglion. b. Dorsal root ganglion. c. Spinal N. of trigeminal n. d. Mesencephalic N. of trigeminal n." ANSWER: d (205 NEU Histology Department MCQ book, batch 198, CNS section Q23; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard neuroanatomy reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, CNS section Q23, p.10); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems before authoring.

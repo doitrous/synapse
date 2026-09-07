@@ -94,3 +94,23 @@ gracile/cuneate tubercles, Q29 pons CNs) are all UNMARKED/key-clipped → no rec
 **0 MCQs authored** — dupe-saturated (>60%) AND new items unkeyed; per "never guess" nothing
 authored. RECOMMENDATION: drop this paper; its unique keyed content needs Omar sources.
 Keys reliably read (for the record): Q9.B, Q12.B, Q21.D. See 205-NEU-triage-keys.txt.
+
+Dept-book pass (2026-09-07) — FIRST UNKEYED DEPARTMENT BANK: Histology Department MCQ book,
+"Multiple Choice Questions in Histology & Cell Biology, Second Year" (batch 198,
+src_19813a4e42780d6c6cd0), Nervous Tissue + CNS histology sections. Native-text (OCR-cached),
+single-best 4-option, UNKEYED — answers expert-determined by medical reasoning and defended
+per-option (Omar 2026-09-07 "you solve them yourself"). 12 genuinely-new histology MCQs authored
+into seed dept-histology-198.json -> batch 205-NEU-dept-histology-198-mcq.md across 3 pushed slices
+(Nissl composition, bipolar-neuron location, unencapsulated free nerve endings, oligodendrocyte CNS
+myelin, white-matter colour, ependymal CSF movement, Krause connective-tissue receptor, CNS soft
+consistency, central-canal ependyma, pia-mater modified fibroblasts, climbing-fibre→Purkinje,
+mesencephalic first-order facial proprioception). 12 new concepts minted (CON-NEU-, unsalted
+university-blind sha256 kau:205 NEU:key, collision-checked filename-only), all added to
+ART-NEU-205NEU-SPECIAL-SENSES-NERVE-HISTOLOGY coverage. Heavy dedupe against the ~200-item corpus:
+skipped BBB/astrocyte-end-feet, microglia morphology, Wallerian degeneration, peripheral-nerve
+sheaths, unmyelinated Schwann/Remak, arachnoid-barrier-cell-layer (all exact/near existing concepts),
+plus all figure-label matching tables (image-dependent, out of scope). HELD: CNS-section Q28
+(blood-CSF barrier) — option a "arachnoid border cells" is a defensible alternative to option b
+"choroid-plexus/ependymal tight junctions", so not keyed against a contestable answer. Gate per
+slice: items=3/9/12 errors=0. Authored total 205 NEU: ~200 -> +12. NEXT dept bank: Physiology Dept
+"Department Book - Physio Neuroscience [CNS]" (2nd source of priority-2), then Anatomy Dr. Jalal.

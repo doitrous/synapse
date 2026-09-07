@@ -104,3 +104,23 @@ Q107 (organ of Corti) — GREEN highlight on option d "Border cells support the 
 #   items are unkeyed (student did not mark them; needs Omar sources for a verified key).
 #   0 MCQs authored this pass.
 # ============================================================================
+#
+# ============================================================================
+# HISTOLOGY DEPARTMENT MCQ BOOK (batch 198, src_19813a4e42780d6c6cd0) — UNKEYED
+# Native-text (OCR-cached) single-best 4-option bank. NO printed answer key on the book;
+# a garbled OCR answer-grid on the section-end pages is NOT reliably readable, so answers
+# were EXPERT-DETERMINED by medical reasoning and defended per-option (Omar 2026-09-07).
+# Nervous Tissue section (pp.3-5) + CNS section (pp.8-14). 12 MCQs authored (batch 198 exam Q#):
+# NT: Q1.B(Nissl=rER+ribosomes) Q11.A(bipolar=vestibular/cochlear ganglia) Q18.D(unencap=free endings)
+#     Q13.C(CNS myelin=oligodendrocyte) Q19.D(white=myelinated axons) Q27.B(CSF move=ependymal)
+#     Q28.D(CT receptor=Krause end bulb)
+# CNS: Q1.C(soft=no connective tissue) Q4.C(central canal=ciliated simple cuboidal ependyma)
+#      Q31.D(pia=modified fibroblasts) Q32.C(climbing fibre→Purkinje) Q23.D(1st-order face proprio=
+#      mesencephalic N of CN V)
+# HELD: CNS Q28 (blood-CSF barrier) — option a "arachnoid border cells" is a defensible rival to
+#      option b "tight junctions between (choroid-plexus/ependymal) cells"; not keyed (contestable).
+# SKIPPED as dupes of existing concepts: NT Q26(BBB=astrocytes), CNS Q22/Q29(BBB endothelium),
+#      NT/CNS Wallerian/degeneration, peripheral-nerve sheaths, unmyelinated Schwann, microglia
+#      morphology, CNS Q30(arachnoid border cells — existing "arachnoid barrier cell layer" concept);
+#      all figure-label MATCHING tables (image-dependent) out of scope.
+# ============================================================================
