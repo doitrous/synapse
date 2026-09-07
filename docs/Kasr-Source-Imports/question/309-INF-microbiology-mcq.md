@@ -7675,3 +7675,219 @@ yes
 
 ## author_notes
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no reliable answer key). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-HESHAM-1
+## title
+Basis of the classification of streptococci
+## question
+The classification of streptococci depends on:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+CO2 requirements
+## explanation_a
+Incorrect. Some bacteria are grouped by their CO2 (capnophilic) requirement, but this is not the basis on which streptococci are classified.
+## answer_b
+Biochemical activity
+## explanation_b
+Incorrect. Biochemical (physiological) reactions help identify streptococcal species, especially within the viridans group, but they are not the primary basis of classification.
+## answer_c
+Haemolytic activity
+## explanation_c
+Correct. Streptococci are primarily classified by their haemolytic activity on blood agar - beta (complete/clear), alpha (partial/green) and gamma (no) haemolysis - which underpins their laboratory grouping.
+## answer_d
+Toxin production
+## explanation_d
+Incorrect. Toxin production (e.g. the erythrogenic toxin of Streptococcus pyogenes) is a virulence feature, not the basis of streptococcal classification.
+## topic
+Microbiology
+## subtopic
+Gram-positive cocci
+## main_concept
+CON-INF-EA09046AEFCDB5
+## concept_ids
+CON-INF-EA09046AEFCDB5
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Recall
+## cognitive_effort
+Low
+## cognitive_effort_score
+0.4
+## setting
+Academic
+## reasoning_level
+1
+## inferred_difficulty
+40
+## exam_relevance
+5
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Streptococci
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## resource_ids
+src_9674f8d0915e919d4c44
+
+## learning_objective
+Recall that streptococci are classified primarily by their haemolytic activity on blood agar.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ by Dr.Hesham [GIT], Microbiology MCQ p1 Q1 (answer expert-determined; student self-marks ignored)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Hesham bank's student self-marks are unreliable and were ignored). Answer justified per-option against standard teaching.
+
+---
+
+# Item
+
+## id
+QST-KASR309INF-HESHAM-2
+## title
+Bloody enteritis after poultry - the causative organism
+## question
+A 17-year-old man developed severe abdominal cramps three days after a grilled-chicken dinner; his stools were bloody with pus cells, and culture grew Gram-negative, oxidase-positive, curved rods. The most probable causative organism is:
+## subject
+inf
+## status
+Draft
+## source
+past-paper
+## owner
+Claude
+## vignette
+
+## correct_answer
+C
+## answer_a
+Vibrio cholerae
+## explanation_a
+Incorrect. Vibrio cholerae causes profuse watery (rice-water) diarrhoea without blood or pus cells.
+## answer_b
+Salmonella Typhimurium
+## explanation_b
+Incorrect. Salmonella Typhimurium causes food-poisoning gastroenteritis but is a straight Gram-negative bacillus, not an oxidase-positive curved rod.
+## answer_c
+Campylobacter jejuni
+## explanation_c
+Correct. Campylobacter jejuni, acquired from poultry, causes an inflammatory bloody diarrhoea after a 2-5 day incubation and is a Gram-negative, oxidase-positive, curved (comma/S-shaped) rod - matching the vignette.
+## answer_d
+Shigella flexneri
+## explanation_d
+Incorrect. Shigella flexneri causes bloody dysentery but is a non-motile, straight, oxidase-negative bacillus.
+## answer_e
+Helicobacter pylori
+## explanation_e
+Incorrect. Helicobacter pylori colonizes the gastric mucosa (peptic ulcer disease) and does not cause acute bloody enteritis.
+## topic
+Microbiology
+## subtopic
+Campylobacter
+## main_concept
+CON-INF-5B32A6424CD32C
+## concept_ids
+CON-INF-5B32A6424CD32C
+## contextual_concept_ids
+
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## cognitive_effort
+Medium
+## cognitive_effort_score
+0.5
+## setting
+Academic
+## reasoning_level
+2
+## inferred_difficulty
+45
+## exam_relevance
+5
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## exam_weight_by_year
+KAU_Y3=moderate
+## years
+KAU_Y3
+## universities
+kau
+## module
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Campylobacter enteritis
+## question_only_for
+
+## library_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## resource_ids
+src_9674f8d0915e919d4c44
+
+## learning_objective
+Recognise poultry-associated bloody enteritis with Gram-negative oxidase-positive curved rods as Campylobacter jejuni infection.
+
+## source_citation
+Kasr Al Ainy 309 INF - Micro MCQ by Dr.Hesham [GIT], Microbiology MCQ p5 Q1 (answer expert-determined; student self-marks ignored)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Hesham bank's student self-marks are unreliable and were ignored). Answer justified per-option against standard teaching.

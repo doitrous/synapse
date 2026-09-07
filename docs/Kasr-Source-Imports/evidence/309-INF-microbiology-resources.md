@@ -76,3 +76,37 @@ extracted
 University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to the option text and stems reproduced in the question items themselves.
 ## qualification
 Kasr Al Ainy Year 3, module 309 INF (Infectious Diseases: Microbiology & Parasitology). MICROBIOLOGY MCQ bank ('Micro MCQ [GIT]'), 23 pages, scanned image-only (recovered by OCR). Questions are 4-to-5-option single-best MCQs on systemic bacteriology (food poisoning, enteric Gram-negatives, vibrios, Campylobacter/Helicobacter, anaerobes, spirochaetes, Coxiella, normal flora), systemic virology (hepatitis viruses, gastroenteritis viruses, yellow fever vaccine) and mycology (Candida). The final page carries a hand-written answer table that is OCR-garbled and undecodable, so there is NO reliable printed answer key: correct answers are EXPERT-DETERMINED by established microbiology and justified per-option (keySource = expert-determined by reasoning; no reliable source key). Several items are True-or-False or multi-true statements and were HELD as out of the single-best contract. Sitting year: none printed; examSittingYear left null.
+
+---
+
+# Item
+## id
+src_9674f8d0915e919d4c44
+## title
+309 INF Microbiology — Micro MCQ by Dr.Hesham [GIT] (scanned MCQ bank)
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y3
+## source_relative_path
+309 INF/Microbiology/Questions & MCQs/Micro MCQ by Dr.Hesham [GIT].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+11
+## sha256
+9674f8d0915e919d4c44ec3b10b371ba98dbdb6b01117e4e68ebd9951b68f7c7
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to the option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy Year 3, module 309 INF. Scanned (image-only, OCR-recovered) 'Test Yourself' MCQ bank attributed to Dr Hesham, 11 pages, on systemic bacteriology and virology. It is almost entirely the SAME question series as Micro MCQ [GIT] (src_7d53d3a8f09b4d542ae1): all but two of its well-formed single-best items are exact duplicates of items already authored from that bank or from Extra 309 Questions PY, and it also carries the same True-or-False / multi-true items (held). Its answer marks are UNRELIABLE student self-marks (hand-drawn ticks/crosses) and were IGNORED per the module answer policy; the two fresh items authored from it are EXPERT-DETERMINED and justified per-option (keySource = expert-determined by reasoning; no reliable source key). Only 2 non-duplicate single-best items were authored: streptococcal classification (p1 Q1) and a complete Campylobacter-enteritis vignette (p5 Q1, whose stem was the vignette missing from the [GIT] bank). Sitting year: none printed; examSittingYear left null.

@@ -6,7 +6,7 @@
  "corpusRoot": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3",
  "note": "Year 3 source manifest — OPENED 2026-09-06 with the first triaged/keyed 310 PAT paper. Not a full corpus inventory yet: rows are added as papers are triaged. Sitting-year rule for Y3 (k=3): EOY/Baqoon = batch + 1826 + 3; a printed calendar year always wins (see manifest/README-y2.md). NOTE ON MODULE CODE: the chosen paper's cover prints the pathology module code as [210] (the Year-2 code in the y2 manifest) even though the owner filed it under y3/310 PAT; module placement here follows the owner's disk tree (Year 3, 310 PAT), with the [210] cover marking recorded in solvedStatus/examPaperEvidence for a human to adjudicate if the 210->310 renumbering reading is wrong.",
  "moduleSubjectDeclarations": [],
- "count": 11,
+ "count": 12,
  "sources": [
   {
    "sourceId": "src_a2b36e9ed9778bfa7efd",
@@ -522,6 +522,52 @@
    "textLayer": "image",
    "processingStatus": "extracted",
    "extractionDisposition": "Image-only (scanned); recovered by OCR (pagetext ocr, psm 6). 4-to-5-option single-best MCQ. NO reliable printed answer key: the final-page answer table is OCR-garbled/undecodable, so per the module answer policy (Omar 2026-09-07) correct answers are EXPERT-DETERMINED by established microbiology and justified per-option (fieldNotes.keySource = expert-determined by reasoning; no reliable source key). True-or-False and multi-true items HELD (out of single-best contract). 33 authored / 6 held. Concepts on DIS-MIC-T01 (bacteriology), DIS-MIC-T02 (virology), DIS-MIC-T03 (mycology). See coverage/309-INF-LEDGER.md."
+  },
+  {
+   "sourceId": "src_9674f8d0915e919d4c44",
+   "sha256": "9674f8d0915e919d4c44ec3b10b371ba98dbdb6b01117e4e68ebd9951b68f7c7",
+   "absolutePath": "/Users/doitrous/Desktop/Universities/Kasr Alainy/y3/309 INF/Microbiology/Questions & MCQs/Micro MCQ by Dr.Hesham [GIT].pdf",
+   "corpusRelativePath": "309 INF/Microbiology/Questions & MCQs/Micro MCQ by Dr.Hesham [GIT].pdf",
+   "fileName": "Micro MCQ by Dr.Hesham [GIT].pdf",
+   "fileNameWithoutInstructions": "Micro MCQ by Dr.Hesham.pdf",
+   "universityId": "kau",
+   "yearId": "KAU_Y3",
+   "moduleId": "309 INF",
+   "secondaryModule": null,
+   "moduleHints": [
+    "Microbiology"
+   ],
+   "rawModuleShorthand": "309 INF",
+   "moduleSubjectPath": null,
+   "sourceCategory": "Instructor material",
+   "instructor": "Hesham",
+   "crossModulePractical": false,
+   "subject": "Microbiology",
+   "folderSubject": "Microbiology",
+   "subjectSource": "content",
+   "departmentAuthored": false,
+   "tierEvidence": "Scanned (image-only) 'Test Yourself' MICROBIOLOGY MCQ bank attributed to Dr Hesham, recovered by OCR. Almost entirely the SAME question series as Micro MCQ [GIT] (src_7d53d3a8f09b4d542ae1); mined only for the two non-duplicate single-best items it adds.",
+   "examType": "bank",
+   "examPaperEvidence": "Scanned 'Test Yourself' MCQ bank ('Micro MCQ by Dr.Hesham [GIT]'), 11 pages, image-only. Systemic bacteriology and virology MCQs (4-to-5-option single-best) plus True-or-False items. Answer marks are hand-drawn student self-marks (ticks/crosses), unreliable and ignored.",
+   "bookKind": "question_bank",
+   "sourceTier": 3,
+   "folderPriorityLabel": "GIT",
+   "examSitting": null,
+   "rawYearCode": null,
+   "batchImpliesCalendarYear": null,
+   "calendarYearLabel": null,
+   "yearConflict": null,
+   "examSittingYear": null,
+   "examSittingYearSource": "Undated scanned 'Test Yourself' MCQ bank; no calendar year or sitting printed; examSittingYear left null.",
+   "solvedStatus": "unreliable-key",
+   "oldSystemExcluded": false,
+   "exclusionReason": null,
+   "appliedNoteInstructions": [],
+   "fileType": "pdf",
+   "pageCount": 11,
+   "textLayer": "image",
+   "processingStatus": "extracted",
+   "extractionDisposition": "Image-only (scanned); recovered by OCR (pagetext ocr, psm 6). ~95% duplicate of Micro MCQ [GIT] (src_7d53d3a8f09b4d542ae1) and Extra 309 Questions PY (src_b0bc0be85ab68a07e9b7). Hand-drawn student self-marks are UNRELIABLE and were IGNORED (module answer policy, Omar 2026-09-07); the 2 fresh items authored are EXPERT-DETERMINED and justified per-option (fieldNotes.keySource = expert-determined by reasoning; no reliable source key). 2 authored (streptococcal classification p1 Q1; Campylobacter-enteritis vignette p5 Q1), remainder duplicate or True-or-False (held). See coverage/309-INF-LEDGER.md."
   }
  ]
 }

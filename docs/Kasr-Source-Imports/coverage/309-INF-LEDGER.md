@@ -491,10 +491,33 @@ errors=0 (each with `--with` siblings). simulate/audit skipped (slow, optional).
 self-contained (names Campylobacter jejuni) since the source's "this organism" referred to Q11's missing
 vignette; the isolation fact (42C/microaerophilic/Skirrow) is unambiguous.
 
+## MICROBIOLOGY MCQ — `Micro MCQ by Dr.Hesham [GIT].pdf` (2026-09-07) — EXHAUSTED (dupe-saturated)
+
+Third microbiology source opened: `Micro MCQ by Dr.Hesham [GIT].pdf` (manifest `src_9674f8d0915e919d4c44`,
+sha256 `9674f8d0...`, 11 pp, scanned image-only, OCR-recovered). It is a 'Test Yourself' bank that is
+**~95% the same question series** as `Micro MCQ [GIT]` and Extra 309 Questions PY — nearly every well-formed
+item is an exact duplicate of one already authored (B. cereus emetic, Shiga-toxin E. coli, Shigella EXCEPT,
+TCBS yellow, raw-shellfish, Campylobacter isolation, Helicobacter set, B. fragilis set, Fusobacterium,
+Coxiella, hepatitis A/E/B/C markers, infantile gastroenteritis, Norovirus), and it carries the same
+True-or-False items (Campylobacter T/F, rotavirus T/F) and the ambiguous Cholera-toxin and Coxiella-
+transmission items — all already authored or held. Its answer marks are **unreliable hand-drawn student
+self-marks and were ignored** (module answer policy); no source mark overridden (none reliable).
+
+**2 authored / rest duplicate-or-held.** The only two non-duplicate, well-formed single-best items:
+(1) **streptococcal classification** (p1 Q1 → haemolytic activity; `CON-INF-EA09046AEFCDB5`,
+`QST-KASR309INF-HESHAM-1`, added to `ART-INF-309-MICRO-BACTERIOLOGY`, DIS-MIC-T01); and
+(2) a **complete Campylobacter-enteritis vignette** (p5 Q1: grilled-chicken → bloody enteritis, Gram-negative
+oxidase-positive curved rods → Campylobacter jejuni; `CON-INF-5B32A6424CD32C`, `QST-KASR309INF-HESHAM-2`,
+added to `ART-INF-309-MICRO-GI-BACTERIA`, DIS-MIC-T01) — this vignette is the stem that was missing from the
+[GIT] bank's held Q11, now authored from the complete Hesham copy. Both concepts fresh (0 collisions), both
+`status=Draft` / `needs_evidence`. Resource record + y3 manifest row registered (count 11→12).
+
+Gates (`.gates/`): **batch** question items=73 errors=0; concept items=72 errors=0; article items=7 errors=0.
+
 ### Next cluster
 
-`Micro MCQ [GIT].pdf` is EXHAUSTED (33/39 authored; the 6 held are genuinely out-of-contract, not skipped
-for dedupe). Remaining 309-INF microbiology work: **`Micro MCQ by Dr.Hesham [GIT].pdf`**
-(`src_9674f8d0915e919d4c44`, 5 MB — the third named bank; ignore its student self-marks and re-reason),
-deduped against the now-99-item micro+immunity set (38 Extra-PY micro + 28 Extra-PY immunity + 33 this
-bank); then the Extra-PY section C Matching items if a future pass converts them to single-best.
+Both scanned micro banks are now EXHAUSTED. Micro+immunity authored total for 309 INF = **101** (38 Extra-PY
+micro + 28 Extra-PY immunity + 33 Micro MCQ [GIT] + 2 Hesham). Remaining 309-INF microbiology work needs a
+DIFFERENT source: the Extra-PY **section C Matching** items (scenario→organism / scenario→toxin) if a future
+pass converts them to single-best, or a fresh keyed micro/immunology paper. No further yield from the two
+`[GIT]` scanned banks.

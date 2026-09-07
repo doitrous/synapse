@@ -7791,3 +7791,225 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
 keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Micro MCQ [GIT] bank prints no answer key). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-EA09046AEFCDB5
+## label
+Streptococci are classified by their haemolytic activity on blood agar
+## canonical_key
+bacteria.streptococci.classification-by-haemolysis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Streptococci are classified primarily by their haemolytic activity on blood agar into beta-haemolytic (complete/clear), alpha-haemolytic (partial/green) and gamma (non-haemolytic) groups; this haemolysis pattern underlies their laboratory grouping.
+## explicit_objective
+Recall that streptococci are classified primarily by their haemolytic activity on blood agar.
+## pitfalls
+Choosing toxin production or biochemical reactions instead of haemolysis as the basis of streptococcal classification.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Gram-positive cocci
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Streptococci
+## article_ids
+ART-INF-309-MICRO-BACTERIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9674f8d0915e919d4c44
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Hesham bank's student self-marks are unreliable and were ignored). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
+
+---
+
+# Item
+## id
+CON-INF-5B32A6424CD32C
+## label
+Campylobacter jejuni causes poultry-associated bloody enteritis (Gram-negative oxidase-positive curved rods)
+## canonical_key
+bacteria.campylobacter-jejuni.enteritis-presentation-poultry-bloody-oxidase-positive-curved-rods
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Campylobacter jejuni is a poultry-associated cause of acute inflammatory (bloody, pus-cell-containing) enteritis after a 2-5 day incubation; it is a Gram-negative, oxidase-positive, curved (comma/S-shaped) rod.
+## explicit_objective
+Recognise poultry-associated bloody enteritis with Gram-negative oxidase-positive curved rods as Campylobacter jejuni infection.
+## pitfalls
+Confusing Campylobacter enteritis with the watery diarrhoea of Vibrio or the straight oxidase-negative bacilli Shigella/Salmonella.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+inf
+## primary_node_id
+DIS-MIC-T01
+## secondary_node_ids
+
+## topic
+Microbiology
+## subtopic
+Campylobacter
+## microtopic
+
+## nanotopic
+
+## modules
+309 INF
+## module_subject
+309 INF > Microbiology > Systemic bacteriology > Campylobacter enteritis
+## article_ids
+ART-INF-309-MICRO-GI-BACTERIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_9674f8d0915e919d4c44
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-INF- + first 14 hex of SHA-256 of the canonical key, uppercased; collision-checked against the corpus concept IDs -- no collision, new concept.
+keySource: expert-determined by microbiological/immunological reasoning; no reliable source key (the Hesham bank's student self-marks are unreliable and were ignored). Fact grounded in standard medical microbiology teaching corroborated by this bank's own stem and options.
