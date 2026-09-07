@@ -228,3 +228,41 @@ Kasr Al Ainy 206 DIG Physiology department MCQ bank (tier 5, NON-EOM): the McGra
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_6971b8ed34aad73da1e9
+## title
+Guyton mcq [GIT]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+206 DIG/Physiology Dpt Physiology [1st priority]/MCQs/Guyton mcq [GIT].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+19
+## sha256
+6971b8ed34aad73da1e9a537d5b4e1d98989a7d970e22a121fe60a77d7b52687
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy 206 DIG Physiology department MCQ bank (tier 5, NON-EOM): the Guyton & Hall Physiology Review (Unit XII, Gastrointestinal Physiology) question set, 19 pages. Native text layer present (OCR-clean via scripts/content/pagetext.mjs show). The bank is KEYED: a Questions section is followed by an ANSWERS section (from page 11) giving the correct letter and a full per-item rationale with textbook page citations; authored answers are taken from that source key. Many items are figure-dependent (manometry traces, villus diagrams) or multi-column matrix/grid statement-sets, which are held; the prose single-best items with self-contained stems are authored, deduped against the Effat and PreTest GI banks and the wider 206-DIG corpus.
+## confidence
+0.9
+## is_assessment
+true
