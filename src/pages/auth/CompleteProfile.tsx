@@ -24,33 +24,17 @@ function safeNext(value: string | null): string {
 }
 
 /**
- * The screen a social sign-up never got.
+ * The fallback that catches a social account still missing its details.
  *
- * Password sign-up collects phone and nationality on the form itself
- * (Signup.tsx). Google and Facebook OAuth hand `signInWithOAuth` a name and an
- * email and nothing else, so those two `students` columns come back null and
- * nothing ever asked again — RequireAuth sends a student here once that gap
- * is the only thing left.
- *
- * University, year, plan and username are deliberately not repeated here:
- * they are the onboarding overlay's job (AppShell → StudentOnboarding), which
- * already runs for a social sign-up exactly as it does for a password one.
- * RequireAuth waits for that overlay to close (`!audienceUnknown`) before
- * ever sending someone here, so by the time this page renders that part of
- * the account is already settled — asking again would be a second, competing
- * enrolment screen. Name is not repeated either: onboarding already carried
- * the OAuth name across on its first save, and `saveOwnEnrolment` treats a
- * name as fixed the moment it stops looking like a placeholder, so an
- * editable field here would silently do nothing for the accounts that reach
- * this screen.
- *
- * The provider's own profile photo used to be offered here as a preview. The
- * browser read it out of the Supabase session (`user_metadata.avatar_url`);
- * there is no session in this page any more and `/api/me` does not project
- * provider metadata, so the offer is gone and uploading a photo — or keeping
- * the glyph — is what is left. Nothing is ever imported silently either way:
- * the same "nothing is assumed on the student's behalf" stance the rest of
- * this screen takes.
+ * New Google/Facebook sign-ups now collect these inside onboarding, prefilled,
+ * right after login (StudentOnboarding's "Your details" step). This screen is
+ * where an account that already has a university and year but no phone lands —
+ * a returning social account, or one that finished onboarding before that step
+ * existed. It offers the same prefilled experience: the provider's name
+ * (editable) and email (fixed), their photo pre-selected, and the phone the
+ * account still owes. Those provider fields ride on a fresh `/api/me`
+ * (`metadataName` / `avatarUrl`); an hour later they are null and the student
+ * simply fills the phone.
  */
 export function CompleteProfile() {
   const identity = useIdentity()
@@ -59,15 +43,28 @@ export function CompleteProfile() {
   const [params] = useSearchParams()
   const next = safeNext(params.get('next'))
 
+  const [name, setName] = useState('')
+  const namePrefilled = useRef(false)
   const [phone, setPhone] = useState('')
   const [nationality, setNationality] = useState(identity.profile.nationality ?? '')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
 
-  const [photoChoice, setPhotoChoice] = useState<'upload' | 'skip'>('skip')
+  // null = not chosen yet, so a provider photo arriving just after mount still
+  // becomes the default; an explicit click pins the choice.
+  const [photoChoice, setPhotoChoice] = useState<'provider' | 'upload' | 'none' | null>(null)
+  const effectivePhoto = photoChoice ?? (identity.avatarUrl ? 'provider' : 'none')
   const [customFile, setCustomFile] = useState<File | null>(null)
   const [customPreview, setCustomPreview] = useState<string | null>(null)
   const fileInputRef = useRef<HTMLInputElement>(null)
+
+  // The provider's name lands with a fresh /api/me, sometimes a beat after
+  // mount; seed the editable field once, then leave it to the student.
+  useEffect(() => {
+    if (namePrefilled.current) return
+    const provided = identity.metadataName?.trim()
+    if (provided) { setName(provided); namePrefilled.current = true }
+  }, [identity.metadataName])
 
   // A fresh object URL per chosen file, revoked on the next choice or on
   // unmount — building it inline in JSX would mint (and leak) a new one on
@@ -89,6 +86,9 @@ export function CompleteProfile() {
   // fill in.
   if (identity.profileComplete) return <Navigate to={next} replace />
 
+  const photoPill = (active: boolean) =>
+    `inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${active ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`
+
   async function submit(event: React.FormEvent) {
     event.preventDefault()
     setError('')
@@ -99,6 +99,7 @@ export function CompleteProfile() {
       const { phoneConflict } = await identity.saveEnrolment({
         universityId: identity.audience.universityId,
         year: identity.audience.year,
+        name: name.trim() || identity.metadataName?.trim() || undefined,
         phone: cleanPhone,
         nationality: nationality.trim(),
       })
@@ -111,7 +112,8 @@ export function CompleteProfile() {
       // to save (a slow connection, a provider CDN hiccup) is not worth
       // blocking the whole sign-up over. The Account page can always try again.
       try {
-        if (photoChoice === 'upload' && customFile) await avatar.upload(customFile)
+        if (effectivePhoto === 'upload' && customFile) await avatar.upload(customFile)
+        else if (effectivePhoto === 'provider' && identity.avatarUrl) await avatar.importFromUrl(identity.avatarUrl)
       } catch { /* see above */ }
       navigate(next, { replace: true })
     } catch {
@@ -131,7 +133,7 @@ export function CompleteProfile() {
       <form className="mx-auto max-w-md space-y-5" onSubmit={submit}>
         <div>
           <h2 className="text-[24px] text-ink">Complete your profile</h2>
-          <p className="mt-1.5 text-[13px] text-ink-2">Signed in as {identity.displayName} · {identity.email}.</p>
+          <p className="mt-1.5 text-[13px] text-ink-2">Your details from Google or Facebook, prefilled — add a phone number to finish.</p>
         </div>
         {error && (
           <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger">
@@ -141,19 +143,26 @@ export function CompleteProfile() {
         )}
 
         <div className="flex items-center gap-3.5 rounded-xl border border-line bg-surface-2/50 p-3.5">
-          {photoChoice === 'upload' && customPreview
+          {effectivePhoto === 'upload' && customPreview
             ? <img src={customPreview} alt="" className="size-12 shrink-0 rounded-full border border-primary-line object-cover" />
-            : <Avatar name={identity.displayName} size="lg" />}
+            : effectivePhoto === 'provider' && identity.avatarUrl
+              ? <img src={identity.avatarUrl} alt="" referrerPolicy="no-referrer" className="size-12 shrink-0 rounded-full border border-primary-line object-cover" />
+              : <Avatar name={identity.displayName} size="lg" />}
           <div className="min-w-0 flex-1">
             <p className="text-[13px] font-medium text-ink">Profile photo</p>
             <p className="mt-0.5 text-[11.5px] text-ink-3">
-              Upload a photo, or keep the default.
+              {identity.avatarUrl ? 'Your Google or Facebook photo, another you upload, or the default.' : 'Upload a photo, or keep the default.'}
             </p>
             <div className="mt-2 flex flex-wrap gap-1.5">
-              <button type="button" onClick={() => fileInputRef.current?.click()} className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${photoChoice === 'upload' ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`}>
+              {identity.avatarUrl && (
+                <button type="button" onClick={() => { setPhotoChoice('provider'); setCustomFile(null) }} className={photoPill(effectivePhoto === 'provider')}>
+                  Use my photo
+                </button>
+              )}
+              <button type="button" onClick={() => fileInputRef.current?.click()} className={photoPill(effectivePhoto === 'upload')}>
                 <Icon icon={Upload} size={12} />Upload a photo
               </button>
-              <button type="button" onClick={() => { setPhotoChoice('skip'); setCustomFile(null) }} className={`rounded-full border px-2.5 py-1 text-[11.5px] font-medium ${photoChoice === 'skip' ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset'}`}>
+              <button type="button" onClick={() => { setPhotoChoice('none'); setCustomFile(null) }} className={photoPill(effectivePhoto === 'none')}>
                 No photo
               </button>
             </div>
@@ -169,6 +178,15 @@ export function CompleteProfile() {
             />
             {avatar.error && <p role="alert" className="mt-1.5 text-[11.5px] text-danger">{avatar.error}</p>}
           </div>
+        </div>
+
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label="Name" htmlFor="complete-profile-name" hint="From your Google or Facebook account — edit if it is not quite right.">
+            <TextInput id="complete-profile-name" name="name" autoComplete="name" value={name} onChange={(event) => setName(event.target.value)} placeholder="Your full name" />
+          </Field>
+          <Field label="Email" htmlFor="complete-profile-email" hint="The account you signed in with">
+            <TextInput id="complete-profile-email" name="email" type="email" value={identity.email ?? ''} readOnly aria-readonly="true" className="bg-surface-2 text-ink-2" />
+          </Field>
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2">
