@@ -19,8 +19,9 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · CVS Ischaemia/antianginal Q13-25 (pp.14-15) | 10 | 0 | 4 | 0 | 14 |
 | Abolmagd Pharma · CVS Hypertension Q28-41 sel. (pp.15-17) | 10 | 0 | 0 | 0 | 10 |
 | Abolmagd Pharma · CVS Hypertension Q32,43,46,50,51,53,54 (pp.15-19) | 7 | 0 | 7 | 0 | 14 |
-| Abolmagd Pharma · CVS Heart Failure Q38,39,55,59-65 (pp.18-22) | 10 | 0 | 6 | Q75/95 amrinone, Q94/99 ivabradine (dysrhythmia slice) | 16 |
-| **Pharmacology subject total** | **93** | **0** | **27** | Dysrhythmia proper (Q47,72,73,76,77,94,99,100,102 + amrinone/ivabradine, p.22-27), Blood (anticoagulants, later pp.); GI & Resp banks | — |
+| Abolmagd Pharma · CVS Heart Failure Q38,39,55,59-65 (pp.18-22) | 10 | 0 | 6 | 0 | 16 |
+| Abolmagd Pharma · CVS Dysrhythmia + mechanisms Q47,69,70,75,76,94,100,102 (pp.21-27) | 8 | 0 | 5 | 0 | 13 |
+| **Pharmacology subject total** | **101** | **0** | **32** | Blood/anticoagulants section (locate on later pp.); GI bank (`PHARMA GITTTTTTT.pdf`); Resp bank (`Pharma RSPPPPP.pdf`) | — |
 
 ## Subject opened
 
@@ -145,7 +146,32 @@ slice: Q75/Q95 (amrinone = PDE III inhibitor), Q94/Q99 (ivabradine If current), 
 sympathomimetic/adrenergic ANS items (Q78-113) that duplicate the already-authored ANS cluster;
 the true anticoagulant 'Blood' section is on later pages — locate before authoring.
 
+## Concepts minted (slice 8, CVS Dysrhythmia + mechanisms Q47-102)
+
+8 minted, 0 reused. New article ART-PAT-310-PHARMACOLOGY-DYSRHYTHMIA holds the 4 antiarrhythmic
+concepts; the other 4 cross-link to existing articles: CON-PHA-AEA3F6990FEF25 (amiodarone SVT+VT,
+DYSRHYTHMIA), CON-PHA-E9FDDC850673A4 (lidocaine IB, DYSRHYTHMIA), CON-PHA-999A37B82BF4FB
+(amiodarone thyroid, DYSRHYTHMIA), CON-PHA-45C19B41214FEA (Vaughan-Williams verapamil=IV,
+DYSRHYTHMIA), CON-PHA-8204FF41C67CA0 (ivabradine If current → HEARTFAILURE), CON-PHA-25CC1EA5E62BF2
+(amrinone PDE III → HEARTFAILURE), CON-PHA-CA2C3DE9D91A33 (minoxidil K-channel opener →
+HYPERTENSION), CON-PHA-441AC470D66407 (ranolazine late-Na → ISCHEMIA). Total concepts so far: 67.
+Dysrhythmia dedupe: Q77 (amiodarone = Q47), Q99 (ivabradine = Q94), Q95 (amrinone PDE = Q75),
+Q71 (propranolol variant angina = ISC Q19), Q72/Q73 (digoxin vagal/rate statements = covered by
+CON-PHA-7859CD213FE664) excluded as duplicate facts. Abolmagd CVS & Renal (Diuretics→Dysrhythmia)
+now essentially exhausted for distinct facts. NOTE Q78-113 are adrenergic/ANS re-statements that
+duplicate the authored ANS cluster (Q1-46) — skip. Remaining Abolmagd content = the Blood section
+(if it carries distinct anticoagulant/antiplatelet items beyond the index label).
+
 ## Next
+
+Locate and open the Abolmagd Blood section for distinct anticoagulant/antiplatelet items; if none
+beyond ANS re-statements, move to the GI bank (`PHARMA GITTTTTTT.pdf`, ~62 Qs), then the
+Respiratory bank (`Pharma RSPPPPP.pdf`, ~39 Qs). Dedupe across banks and against all CON-PHA
+concepts.
+
+## (historical) ANS-section next note
+
+Abolmagd Pharma ANS Q11-46 (pp.6-9):
 
 Abolmagd Pharma ANS Q11-46 (pp.6-9): anticholinesterase/antimuscarinic depth, adrenergic
 blockers, plus a few interleaved CVS/renal and pharmacokinetics-calculation items (Q22-25,

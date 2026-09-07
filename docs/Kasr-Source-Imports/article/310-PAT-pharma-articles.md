@@ -638,6 +638,7 @@ CON-PHA-1D32B241886698
 CON-PHA-3582A253FAB81F
 CON-PHA-59768AC53C3060
 CON-PHA-F93AF32A1CF100
+CON-PHA-441AC470D66407
 ## related_articles
 ART-PAT-310-PHARMACOLOGY-DIURETICS
 ## resource_ids
@@ -740,6 +741,7 @@ CON-PHA-10DB3B9A7A959B
 CON-PHA-696705A20692BF
 CON-PHA-D1DF520B79881F
 CON-PHA-21AB2D0DC3E866
+CON-PHA-CA2C3DE9D91A33
 ## related_articles
 ART-PAT-310-PHARMACOLOGY-ISCHEMIA
 ## resource_ids
@@ -835,6 +837,8 @@ CON-PHA-7819437391EC39
 CON-PHA-DE3D9169E2B391
 CON-PHA-F4C0F3D503CFFC
 CON-PHA-EA3618DBD69D38
+CON-PHA-8204FF41C67CA0
+CON-PHA-25CC1EA5E62BF2
 ## related_articles
 ART-PAT-310-PHARMACOLOGY-HYPERTENSION
 ## resource_ids
@@ -866,3 +870,92 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 8
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-DYSRHYTHMIA
+## title
+Antiarrhythmic drugs: Vaughan-Williams classes, lidocaine and amiodarone
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Antiarrhythmics are grouped by the Vaughan-Williams system: Class I sodium-channel blockers (IA quinidine, IB lidocaine, IC flecainide), Class II beta blockers, Class III potassium-channel blockers (amiodarone, sotalol), and Class IV calcium channel blockers (verapamil, diltiazem) — so verapamil is Class IV, not Class II. Lidocaine (Class IB) is ventricular-selective and does not cause heart block. Amiodarone is a broad-spectrum (mainly Class III) agent effective in refractory supraventricular and ventricular arrhythmias, but its iodine content causes thyroid dysfunction (and other multi-organ toxicity); dronedarone is the iodine-free analogue.
+## sections
+### Definition
+This article groups the cardiac-dysrhythmia concepts tested by the CVS & Renal dysrhythmia section (Q47,76,100,102 selected).
+### Mechanism
+Class I blocks sodium channels, Class II blocks beta receptors, Class III blocks potassium channels (prolonging repolarisation), Class IV blocks calcium channels; amiodarone spans multiple classes.
+### Key determinants
+Discriminators tested here: amiodarone = broad-spectrum SVT + VT and thyroid toxicity; lidocaine = ventricular-only, no heart block; verapamil = Class IV (not Class II).
+### Clinical significance
+These agents underpin acute and chronic arrhythmia management and explain drug selection (ventricular vs supraventricular) and monitoring (amiodarone organ toxicity).
+### Common misconceptions
+Frequent traps: classing verapamil as Class II, using lidocaine for supraventricular arrhythmias, and forgetting amiodarone's iodine-related thyroid effects; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antiarrhythmic drugs
+## subtopic
+Antiarrhythmic drugs
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-AEA3F6990FEF25
+CON-PHA-E9FDDC850673A4
+CON-PHA-999A37B82BF4FB
+CON-PHA-45C19B41214FEA
+## related_articles
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+7

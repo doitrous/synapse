@@ -7381,3 +7381,651 @@ KAU_Y3=high
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-AEA3F6990FEF25
+## label
+Amiodarone treats refractory supraventricular and ventricular arrhythmias
+## canonical_key
+amiodarone.broad-spectrum.refractory-svt-vt
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Amiodarone is a broad-spectrum antiarrhythmic, classed mainly as Class III (potassium-channel block prolonging repolarisation) but also blocking sodium and calcium channels and beta receptors. This multichannel action makes it effective against both supraventricular and ventricular arrhythmias, including severe and refractory cases. Its broad efficacy is offset by pulmonary, hepatic, thyroid, corneal and skin toxicity on long-term use.
+## explicit_objective
+Identify amiodarone as the broad-spectrum antiarrhythmic for refractory supraventricular and ventricular arrhythmias.
+## pitfalls
+Lidocaine covers ventricular arrhythmias only; amiodarone's advantage is its supraventricular AND ventricular efficacy, at the cost of multi-organ toxicity.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antiarrhythmic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antiarrhythmic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DYSRHYTHMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-999A37B82BF4FB
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-E9FDDC850673A4
+## label
+Lidocaine (Class IB) treats ventricular arrhythmia without heart block
+## canonical_key
+lidocaine.class-ib.ventricular-arrhythmia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Lidocaine is a Class IB antiarrhythmic that blocks sodium channels preferentially in depolarised, ischaemic ventricular tissue and shortens the action potential. It has minimal effect on normal atrial tissue and the AV node, so it suppresses ventricular arrhythmias (especially post-MI/ischaemic) WITHOUT depressing conduction or causing heart block. It is given intravenously because of extensive first-pass metabolism; toxicity is neurological.
+## explicit_objective
+Identify lidocaine as the ventricular-selective (Class IB) antiarrhythmic that does not cause heart block.
+## pitfalls
+Lidocaine is ineffective for supraventricular arrhythmias; beta blockers (Class II) slow AV conduction and can cause block, unlike lidocaine.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antiarrhythmic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antiarrhythmic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DYSRHYTHMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-45C19B41214FEA
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-8204FF41C67CA0
+## label
+Ivabradine inhibits the If (funny) current in the SA node
+## canonical_key
+ivabradine.funny-current-inhibitor.sa-node
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ivabradine selectively blocks the funny (If) pacemaker current in the sinoatrial node, slowing diastolic depolarisation and lowering heart rate. It is a PURE bradycardic agent: it does not affect contractility, blood pressure, or conduction outside the SA node. It is used for rate reduction in chronic stable angina and HFrEF with a high resting heart rate. Its typical side effect is transient luminous phosphenes.
+## explicit_objective
+Identify ivabradine as a selective If-current inhibitor in the SA node that lowers heart rate without affecting contractility.
+## pitfalls
+Ivabradine has no inotropic effect and does not cause tachycardia; it acts only at the SA node, not on all cardiac properties.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-25CC1EA5E62BF2
+## label
+Amrinone/milrinone inhibit phosphodiesterase III (inodilators)
+## canonical_key
+amrinone.pde3-inhibitor.inodilator
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Amrinone (inamrinone) and milrinone inhibit phosphodiesterase III, preventing breakdown of cAMP. Raised cAMP increases intracellular calcium in cardiac muscle (positive inotropy) and relaxes vascular smooth muscle (vasodilation), so they are "inodilators" used for short-term support in acute decompensated heart failure. Amrinone can cause thrombocytopenia; the enzyme inhibited is PDE III, not PDE IV.
+## explicit_objective
+State that amrinone/milrinone act by inhibiting phosphodiesterase III (raising cAMP) as inodilators.
+## pitfalls
+The target is PDE III, not PDE IV; the drugs raise cAMP (they do not decrease it) and raise, not lower, intracellular calcium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-9B91473AC69333
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-999A37B82BF4FB
+## label
+Amiodarone causes thyroid dysfunction
+## canonical_key
+amiodarone.adverse.thyroid-dysfunction
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Amiodarone is an iodine-rich molecule structurally similar to thyroxine. It interferes with thyroid hormone synthesis and peripheral T4-to-T3 deconversion and delivers a large iodine load, so it can cause either hypothyroidism or (iodine-induced) hyperthyroidism. Thyroid function must be checked before and during therapy. Dronedarone was designed without the iodine moiety to avoid this toxicity.
+## explicit_objective
+Attribute iodine-related thyroid dysfunction (hypo- or hyperthyroidism) to amiodarone.
+## pitfalls
+Both directions occur (hypo- and hyperthyroidism); dronedarone is the iodine-free analogue that spares the thyroid.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antiarrhythmic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antiarrhythmic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DYSRHYTHMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-AEA3F6990FEF25
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-45C19B41214FEA
+## label
+Vaughan-Williams classification: verapamil is Class IV
+## canonical_key
+antiarrhythmic.vaughan-williams.verapamil-class-iv
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The Vaughan-Williams system classes antiarrhythmics by dominant action: Class I sodium-channel blockers (IA quinidine, IB lidocaine, IC flecainide), Class II beta blockers, Class III potassium-channel blockers (amiodarone, sotalol), and Class IV calcium channel blockers (verapamil, diltiazem). Verapamil is therefore CLASS IV, not Class II — a common trap because both slow the heart.
+## explicit_objective
+Apply the Vaughan-Williams classification and place verapamil in Class IV.
+## pitfalls
+Verapamil is Class IV (calcium channel blocker), not Class II (beta blockers); both slow AV conduction but by different mechanisms.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antiarrhythmic drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antiarrhythmic drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-DYSRHYTHMIA
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-E9FDDC850673A4
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-CA2C3DE9D91A33
+## label
+Minoxidil dilates arterioles by opening potassium channels
+## canonical_key
+minoxidil.mechanism.potassium-channel-opener
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Minoxidil (through its active sulphate metabolite) opens ATP-sensitive potassium channels in arteriolar smooth muscle. Potassium efflux hyperpolarises the membrane, closing voltage-gated calcium channels and relaxing the arteriole, producing potent afterload reduction. Because the vasodilation is arteriolar only, it provokes reflex tachycardia and salt/water retention (given with a beta blocker and diuretic); hypertrichosis is a characteristic effect exploited for hair loss.
+## explicit_objective
+Identify potassium-channel opening as the vasodilator mechanism of minoxidil.
+## pitfalls
+Minoxidil is not a calcium channel blocker, NO donor or alpha blocker; it is a potassium channel opener with reflex tachycardia and hypertrichosis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antihypertensive drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antihypertensive drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-441AC470D66407
+## label
+Ranolazine inhibits the late sodium current
+## canonical_key
+ranolazine.mechanism.late-sodium-current-inhibition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ranolazine is an antianginal that inhibits the late (persistent) inward sodium current in ischaemic myocardium. Reducing sodium entry lessens sodium-driven calcium overload via the Na+/Ca2+ exchanger, lowering diastolic wall tension and myocardial oxygen demand. It relieves angina without significantly changing heart rate or blood pressure, so it is useful when rate/pressure-lowering agents are limited.
+## explicit_objective
+Identify late-sodium-current inhibition as the mechanism of the antianginal ranolazine.
+## pitfalls
+Ranolazine is not a nitrate, calcium channel blocker or metabolic (glucose) modulator; its target is the late sodium current.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Antianginal drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Antianginal drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-ISCHEMIA
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
