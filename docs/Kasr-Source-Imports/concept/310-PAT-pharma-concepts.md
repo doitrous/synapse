@@ -6571,3 +6571,813 @@ KAU_Y3=high
 ## source_candidate_ids
 
 ## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-674A4CAC55E050
+## label
+ACE inhibitors raise cardiac output in heart failure via afterload reduction
+## canonical_key
+acei.heart-failure.increases-cardiac-output-afterload
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In heart failure, ACE inhibitors reduce angiotensin II, dilating arterioles and veins. Lower afterload lets the failing ventricle eject more effectively, so cardiac output rises WITHOUT any direct inotropic effect; preload also falls, relieving congestion. This distinguishes ACE inhibitors from inotropes (digoxin, dobutamine) that raise output by increasing contractility.
+## explicit_objective
+Explain that ACE inhibitors raise cardiac output in heart failure by afterload reduction, not inotropy.
+## pitfalls
+Do not classify ACE inhibitors as inotropes; their output benefit is haemodynamic (unloading), not contractile.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-F4C0F3D503CFFC
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.5
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-B7C9A930BC0ECC
+## label
+Digoxin inotropy via Na+/K+ ATPase inhibition
+## canonical_key
+digoxin.mechanism.na-k-atpase-inhibition
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Digoxin inhibits the sarcolemmal Na+/K+ ATPase, raising intracellular sodium. This reduces the drive of the Na+/Ca2+ exchanger, so intracellular calcium rises and is stored in the sarcoplasmic reticulum, increasing calcium available to the contractile apparatus. The result is greater myocardial contractility (positive inotropy). Digoxin also enhances vagal tone, slowing AV conduction.
+## explicit_objective
+State that digoxin's positive inotropy results from Na+/K+ ATPase inhibition raising intracellular calcium.
+## pitfalls
+Digoxin does not act via cAMP, mitochondrial calcium or adrenergic blockade; the target is the sarcolemmal Na+/K+ ATPase.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-7859CD213FE664
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-08412962567208
+## label
+Hypokalaemia potentiates digoxin toxicity
+## canonical_key
+digoxin.toxicity.hypokalemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Potassium and digoxin compete for binding to the Na+/K+ ATPase. In hypokalaemia there is less potassium to compete, so more digoxin binds the pump and its inhibitory (and toxic) effect is amplified, precipitating arrhythmias. Hypokalaemia is commonly caused by loop and thiazide diuretics co-prescribed in heart failure, so potassium must be monitored and corrected. Hypomagnesaemia acts similarly.
+## explicit_objective
+Explain that hypokalaemia potentiates digoxin toxicity by reducing potassium competition at the Na+/K+ ATPase.
+## pitfalls
+Potassium-depleting diuretics increase risk; potassium-sparing agents (spironolactone) reduce it. Do not confuse with hypocalcaemia, which lowers toxicity.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-7DACED5B459A0C
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-7DACED5B459A0C
+## label
+Hypercalcaemia potentiates digoxin toxicity
+## canonical_key
+digoxin.toxicity.hypercalcemia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Digoxin acts by increasing intracellular calcium. A raised extracellular calcium (hypercalcaemia) adds to calcium loading of the myocyte, augmenting digoxin's effect and lowering the threshold for calcium-overload arrhythmias. Hypercalcaemia is therefore a recognised potentiator of digitalis toxicity, alongside hypokalaemia and hypomagnesaemia; hypocalcaemia conversely reduces toxicity.
+## explicit_objective
+Identify hypercalcaemia as a potentiator of digitalis toxicity through added intracellular calcium loading.
+## pitfalls
+Direction matters: it is HIGH calcium that increases toxicity; hypocalcaemia decreases it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-08412962567208
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-7859CD213FE664
+## label
+Digoxin controls atrial fibrillation by slowing AV conduction
+## canonical_key
+digoxin.atrial-fibrillation.av-conduction-block
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In atrial fibrillation, digoxin increases vagal tone at the atrioventricular node, slowing AV conduction and prolonging its refractory period. Fewer atrial impulses reach the ventricles, so the ventricular rate falls (rate control). Digoxin does not restore sinus rhythm; its value in AF is ventricular rate control, especially in heart failure where its inotropy is also useful.
+## explicit_objective
+Explain that digoxin controls the ventricular rate in atrial fibrillation by slowing AV nodal conduction.
+## pitfalls
+Digoxin is rate control, not rhythm control; it does not convert AF to sinus rhythm.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-B7C9A930BC0ECC
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-9B91473AC69333
+## label
+Levosimendan is a calcium sensitiser acting on troponin C
+## canonical_key
+levosimendan.calcium-sensitizer.troponin-c
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Levosimendan increases myocardial contractility by binding troponin C in a calcium-dependent manner, sensitising the contractile filaments to existing intracellular calcium without raising calcium concentration (so it is less arrhythmogenic and does not increase oxygen demand as much as classic inotropes). It also opens ATP-sensitive potassium channels causing vasodilation, making it an "inodilator" used in acute decompensated heart failure.
+## explicit_objective
+Identify levosimendan as the troponin-C calcium sensitiser (inodilator).
+## pitfalls
+Contrast with amrinone/milrinone (PDE III inhibitors) and beta agonists; levosimendan sensitises to calcium rather than raising it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-7819437391EC39
+## label
+Sacubitril is a neprilysin inhibitor used in HFrEF
+## canonical_key
+sacubitril.neprilysin-inhibitor.heart-failure
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sacubitril (via its active metabolite) inhibits neprilysin, the enzyme that degrades natriuretic peptides. Higher natriuretic peptides promote natriuresis, vasodilation and reduced sympathetic tone. It is combined with the ARB valsartan as sacubitril/valsartan (an ARNI), which improves survival in heart failure with reduced ejection fraction (HFrEF).
+## explicit_objective
+Identify sacubitril as the neprilysin inhibitor used (with valsartan) in HFrEF.
+## pitfalls
+Sacubitril is always combined with an ARB (valsartan), not given alone; it is not an inotrope or PDE inhibitor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-DE3D9169E2B391
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-DE3D9169E2B391
+## label
+Neprilysin inhibition raises angiotensin II (ARNI needs an ARB)
+## canonical_key
+sacubitril.raises-angiotensin-ii.arni-valsartan
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Neprilysin degrades several vasoactive peptides including natriuretic peptides AND angiotensin II. Inhibiting it with sacubitril therefore also raises angiotensin II levels. To prevent this angiotensin II from counteracting the benefit (and to block the AT1 receptor), sacubitril is combined with the ARB valsartan. The natriuretic peptides raised by the drug lower blood pressure, blood volume and sympathetic tone.
+## explicit_objective
+Explain that neprilysin inhibition also raises angiotensin II, so sacubitril is combined with an ARB.
+## pitfalls
+Because angiotensin II rises, sacubitril cannot be used alone; it is never combined with an ACE inhibitor (angio-oedema risk).
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-7819437391EC39
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y3=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-F4C0F3D503CFFC
+## label
+ACE inhibitors reduce angiotensin II and aldosterone in HFrEF
+## canonical_key
+acei.heart-failure.reduces-angiotensin-aldosterone
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+In heart failure with reduced ejection fraction, ACE inhibitors block conversion of angiotensin I to II, lowering both angiotensin II and downstream aldosterone. This reduces vasoconstriction, sodium and water retention, and adverse cardiac remodeling, improving symptoms and survival. Benefit applies across all stages, including asymptomatic left ventricular dysfunction, and preload and afterload fall while cardiac output rises.
+## explicit_objective
+State that ACE inhibitors reduce angiotensin II and aldosterone across all stages of HFrEF.
+## pitfalls
+Not all haemodynamic variables fall — cardiac output rises; and benefit is not limited to symptomatic or early disease.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+CON-PHA-674A4CAC55E050
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.9
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+---
+
+# Item
+## id
+CON-PHA-EA3618DBD69D38
+## label
+Beta blockers reduce mortality from sympathetic cardiotoxicity in heart failure
+## canonical_key
+beta-blocker.heart-failure.mortality-benefit
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Chronic heart failure activates the sympathetic nervous system, and sustained catecholamine exposure is cardiotoxic (adverse remodeling, arrhythmia, myocyte apoptosis). Evidence-based beta blockers — bisoprolol, carvedilol and metoprolol succinate — block this overactivation and reduce mortality in HFrEF. They are started at a low dose and up-titrated slowly with heart-rate monitoring, not begun during acute decompensation.
+## explicit_objective
+Identify evidence-based beta blockers as protecting the failing heart from sympathetic cardiotoxicity and reducing mortality.
+## pitfalls
+Only bisoprolol, carvedilol and metoprolol succinate have proven mortality benefit; introduce slowly and avoid in acute decompensation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+pharm
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## topic
+Pharmacology
+## subtopic
+Heart failure drugs
+## microtopic
+
+## nanotopic
+
+## modules
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## article_ids
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+3
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y3=high
+## clinical_relevance
+0.7
+## academic_relevance
+0.6
+## weight_confidence
+0.6
+## confidence
+0.95
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording

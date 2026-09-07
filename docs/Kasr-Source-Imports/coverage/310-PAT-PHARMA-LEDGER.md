@@ -19,7 +19,8 @@ per-option explanations; ambiguous / multi-true / True-False / sub-4-option item
 | Abolmagd Pharma · CVS Ischaemia/antianginal Q13-25 (pp.14-15) | 10 | 0 | 4 | 0 | 14 |
 | Abolmagd Pharma · CVS Hypertension Q28-41 sel. (pp.15-17) | 10 | 0 | 0 | 0 | 10 |
 | Abolmagd Pharma · CVS Hypertension Q32,43,46,50,51,53,54 (pp.15-19) | 7 | 0 | 7 | 0 | 14 |
-| **Pharmacology subject total** | **83** | **0** | **21** | Heart Failure (Q38,39,55,59-67, p.20-23), Dysrhythmia (p.22+), Blood (p.28); GI & Resp banks | — |
+| Abolmagd Pharma · CVS Heart Failure Q38,39,55,59-65 (pp.18-22) | 10 | 0 | 6 | Q75/95 amrinone, Q94/99 ivabradine (dysrhythmia slice) | 16 |
+| **Pharmacology subject total** | **93** | **0** | **27** | Dysrhythmia proper (Q47,72,73,76,77,94,99,100,102 + amrinone/ivabradine, p.22-27), Blood (anticoagulants, later pp.); GI & Resp banks | — |
 
 ## Subject opened
 
@@ -125,6 +126,24 @@ Excluded this slice (dupe facts already authored or trivial re-statements): Q45/
 deferred to Dysrhythmia), Q48/Q52/Q57 (methyldopa/amiodarone re-statements). Hypertension section
 Q28-58 now fully triaged: 17 authored, 10 excluded/deferred within-section, HF/dysrhythmia items
 routed onward.
+
+## Concepts minted (slice 7, CVS Heart Failure Q38-65)
+
+10 minted, 0 reused, all DIS-PHA-T04, new article ART-PAT-310-PHARMACOLOGY-HEARTFAILURE:
+CON-PHA-674A4CAC55E050 (ACEi ↑CO afterload, non-inotropic), CON-PHA-B7C9A930BC0ECC (digoxin
+Na/K-ATPase inotropy), CON-PHA-08412962567208 (hypokalaemia ↑digoxin tox),
+CON-PHA-7DACED5B459A0C (hypercalcaemia ↑digoxin tox), CON-PHA-7859CD213FE664 (digoxin AV
+block in AF), CON-PHA-9B91473AC69333 (levosimendan calcium sensitiser),
+CON-PHA-7819437391EC39 (sacubitril neprilysin inhibitor), CON-PHA-DE3D9169E2B391 (neprilysin
+inhibition raises Ang II → ARNI+valsartan), CON-PHA-F4C0F3D503CFFC (ACEi ↓Ang II & aldosterone
+HFrEF), CON-PHA-EA3618DBD69D38 (β-blocker mortality benefit). Total concepts so far: 59.
+HF dedupe: Q45/Q56 (sacubitril = Q63), Q66 (AV conduction = Q62), Q74 (digoxin tox = folded
+into hypokalaemia/hypercalcaemia concepts) excluded as duplicate facts. Deferred to Dysrhythmia
+slice: Q75/Q95 (amrinone = PDE III inhibitor), Q94/Q99 (ivabradine If current), Q47/Q77
+(amiodarone refractory SVT/VT), Q100 (amiodarone thyroid), Q102 (antiarrhythmic classes), Q72/73
+(cardiac glycoside statements). Note: the printed 'Blood' index label (p.28) actually still holds
+sympathomimetic/adrenergic ANS items (Q78-113) that duplicate the already-authored ANS cluster;
+the true anticoagulant 'Blood' section is on later pages — locate before authoring.
 
 ## Next
 

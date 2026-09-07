@@ -771,3 +771,98 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
 ## reading_time
 8
+
+---
+
+# Item
+## id
+ART-PAT-310-PHARMACOLOGY-HEARTFAILURE
+## title
+Heart failure drugs: ACE inhibitors, beta blockers, ARNIs, digoxin and inotropes
+## subject
+pharm
+## status
+Draft
+## owner
+Claude
+## topic
+Pharmacology
+## summary
+Modern heart-failure therapy combines neurohormonal blockade with, when needed, inotropic support. ACE inhibitors lower angiotensin II and aldosterone, reduce preload and afterload and raise cardiac output without inotropy; evidence-based beta blockers (bisoprolol, carvedilol, metoprolol succinate) block cardiotoxic sympathetic overactivation and cut mortality, titrated slowly. Sacubitril inhibits neprilysin to raise natriuretic peptides but also raises angiotensin II, so it is combined with valsartan as an ARNI. Digoxin gives positive inotropy by inhibiting the Na+/K+ ATPase (raising intracellular calcium) and controls the rate in atrial fibrillation by slowing AV conduction; its toxicity is potentiated by hypokalaemia and hypercalcaemia. Newer inotropes include the calcium sensitiser levosimendan and the PDE III inhibitors amrinone/milrinone.
+## sections
+### Definition
+This article groups the heart-failure concepts tested by the CVS & Renal heart-failure section (Q38,39,55,59-65 selected).
+### Mechanism
+ACE inhibitors and ARNIs modulate the renin-angiotensin and natriuretic-peptide systems; beta blockers oppose sympathetic overactivity; digoxin inhibits the Na+/K+ ATPase; calcium sensitisers and PDE III inhibitors augment contractility.
+### Key determinants
+Discriminators tested here: ACE inhibitor = output up via afterload reduction (non-inotropic) and angiotensin/aldosterone down; beta blocker = mortality benefit from blocking sympathetic cardiotoxicity; sacubitril = neprilysin inhibitor that raises angiotensin II (needs valsartan); digoxin = Na+/K+ ATPase inotropy and AV-nodal rate control, toxicity worsened by hypokalaemia/hypercalcaemia; levosimendan = troponin-C calcium sensitiser.
+### Clinical significance
+These agents define guideline HFrEF therapy (ACE inhibitor/ARNI + beta blocker + aldosterone antagonist) and the role of digoxin and inotropes, and explain the electrolyte monitoring needed with digoxin.
+### Common misconceptions
+Frequent traps: calling ACE inhibitors inotropes, expecting digoxin to restore sinus rhythm in AF, thinking hyperkalaemia (rather than hypokalaemia) worsens digoxin toxicity, and forgetting that neprilysin inhibition raises angiotensin II; each concept's pitfalls field names the error.
+## universities
+kau
+## years
+KAU_Y3
+## module
+310 PAT
+## module_subject
+310 PAT > Pharmacology > CVS & Renal > Heart failure drugs
+## subtopic
+Heart failure drugs
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 3 pharmacology
+## high_yield
+Core
+## primary_node_id
+DIS-PHA-T04
+## secondary_node_ids
+
+## related_concepts
+CON-PHA-674A4CAC55E050
+CON-PHA-B7C9A930BC0ECC
+CON-PHA-08412962567208
+CON-PHA-7DACED5B459A0C
+CON-PHA-7859CD213FE664
+CON-PHA-9B91473AC69333
+CON-PHA-7819437391EC39
+CON-PHA-DE3D9169E2B391
+CON-PHA-F4C0F3D503CFFC
+CON-PHA-EA3618DBD69D38
+## related_articles
+ART-PAT-310-PHARMACOLOGY-HYPERTENSION
+## resource_ids
+src_88f58dc630a0ed14bb4e
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department book PDF was read this pass; written from standard pharmacology teaching (Katzung/department-level). The source bank prints no answer key, so answers are expert-determined and proven in each linked question's per-option explanations.
+## reading_time
+8
