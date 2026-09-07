@@ -1,6 +1,10 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
-import { AlarmClock, ArrowRight, BatteryFull, Check, DoorOpen, Mic, Volume2, Wifi } from 'lucide-react'
+import {
+  AlarmClock, ArrowLeft, ArrowRight, BatteryFull, BookOpen, CalendarDays, CalendarRange,
+  Check, Copy, FileQuestion, Gamepad2, Hash, Layers, LayoutDashboard, Mic, Radar,
+  Target, Users, Volume2, Wifi, X, type LucideIcon,
+} from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { TRIAL_PATH, useRevealOnScroll } from './shared'
@@ -10,8 +14,9 @@ import { TRIAL_PATH, useRevealOnScroll } from './shared'
  * three devices a student actually uses. The screens are faithful, hand-built
  * mockups of the current product (the "today's target" dashboard, the bank-first
  * question runner, and a study room), drawn with the same design tokens as the
- * app so they read as the real UI. Laptop = dashboard, iPad = question bank,
- * phone = study rooms. A single CTA closes the section.
+ * app so they read as the real UI. Laptop = the dashboard (sidebar, "today's
+ * target" hero, progress rings), iPad = a study room, phone = the question
+ * runner. A single CTA closes the section.
  */
 
 /* ------------------------------------------------------------------ device frames */
@@ -72,187 +77,219 @@ function BrandDot() {
   )
 }
 
-const HEAT = [1, 0, 2, 3, 1, 4, 5, 2, 0, 3, 4, 2, 5, 1, 3, 0, 2, 4, 1, 3, 5, 2, 4, 0, 3, 1, 2, 5, 4, 3, 1, 0, 2, 4, 5, 3, 2, 1, 4, 0, 3, 5, 2, 1, 4, 3, 0, 2, 5, 3, 1, 4, 2, 0]
+/** One sidebar nav row — active row carries the app's crimson `nav-selected` look. */
+function NavRow({ icon, label, active }: { icon: LucideIcon; label: string; active?: boolean }) {
+  return (
+    <div className={cn('flex items-center gap-1.5 rounded px-1.5 py-[3px] text-[7.5px] font-medium', active ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')}>
+      <Icon icon={icon} size={10} className={active ? 'text-primary' : 'text-ink-3'} />
+      <span className="truncate">{label}</span>
+    </div>
+  )
+}
+
+/** The dashboard's concentric progress rings (bank / practical / essay). */
+function RingStackMini() {
+  const rings: [number, string, number][] = [
+    [62, 'var(--color-accent)', 0.62],
+    [47, 'var(--color-accent-soft)', 0.45],
+    [32, 'var(--color-primary)', 0.30],
+  ]
+  return (
+    <svg viewBox="0 0 148 148" className="size-[62px] shrink-0" fill="none" aria-hidden="true" style={{ transform: 'rotate(-90deg)' }}>
+      <circle cx="74" cy="74" r="20" stroke="var(--color-grid-major)" strokeWidth="1" />
+      {rings.map(([r, c, pct]) => {
+        const circ = 2 * Math.PI * r
+        return (
+          <g key={r}>
+            <circle cx="74" cy="74" r={r} stroke="var(--color-inset)" strokeWidth="9" />
+            <circle cx="74" cy="74" r={r} stroke={c} strokeWidth="9" strokeLinecap="round" strokeDasharray={circ} strokeDashoffset={circ * (1 - pct)} />
+          </g>
+        )
+      })}
+    </svg>
+  )
+}
 
 /* ------------------------------------------------------------------ 1 · dashboard (laptop) */
 
+const NAV_GROUPS: { label?: string; items: [LucideIcon, string][] }[] = [
+  { items: [[LayoutDashboard, 'Dashboard']] },
+  { label: 'Study', items: [[CalendarRange, 'Plan'], [BookOpen, 'Learn']] },
+  { label: 'Test yourself', items: [[Target, 'Practice'], [Radar, 'Adaptive Study'], [Layers, 'Revise']] },
+  { label: 'Together', items: [[Gamepad2, 'Minigames'], [Users, 'Study Rooms']] },
+]
+
 function DashboardScreen() {
   return (
-    <div dir="ltr" className="grid h-full grid-rows-[auto_1fr] text-start">
-      {/* top bar */}
-      <div className="flex items-center justify-between border-b border-line bg-surface px-3 py-2">
-        <div className="flex items-center gap-1.5"><BrandDot /><span className="font-brand text-[11px] font-bold text-ink">nishany</span></div>
-        <div className="flex items-center gap-2">
-          <span className="hidden text-[8.5px] font-medium text-ink-3 sm:inline">Today</span>
-          <span className="hidden text-[8.5px] font-medium text-ink-3 sm:inline">Question Bank</span>
-          <span className="hidden text-[8.5px] font-medium text-ink-3 sm:inline">Library</span>
-          <span className="size-5 rounded-full bg-primary-tint ring-1 ring-primary-line" />
+    <div dir="ltr" className="flex h-full bg-paper text-start">
+      {/* sidebar — the real student nav */}
+      <aside className="flex w-[104px] shrink-0 flex-col border-e border-line bg-surface">
+        <div className="flex h-7 shrink-0 items-center gap-1 border-b border-line px-2"><BrandDot /><span className="font-brand text-[9px] font-bold text-ink">nishany</span></div>
+        <div className="min-h-0 flex-1 space-y-[2px] overflow-hidden px-1.5 py-1.5">
+          {NAV_GROUPS.map((group, gi) => (
+            <div key={group.label ?? gi} className={cn(gi > 0 && 'pt-0.5')}>
+              {group.label && <p className="px-1.5 pb-[1px] pt-0.5 text-[6px] font-bold uppercase tracking-[0.08em] text-ink-3">{group.label}</p>}
+              {group.items.map(([icon, label]) => <NavRow key={label} icon={icon} label={label} active={label === 'Dashboard'} />)}
+            </div>
+          ))}
         </div>
-      </div>
+        <div className="flex shrink-0 items-center gap-1.5 border-t border-line px-2 py-1.5">
+          <span className="grid size-5 shrink-0 place-items-center rounded-full bg-primary-tint text-[7px] font-bold text-primary-strong">O</span>
+          <div className="min-w-0"><p className="truncate text-[7.5px] font-medium text-ink">Omar Elbasat</p><p className="truncate text-[6.5px] text-ink-3">KAU · Year 3</p></div>
+        </div>
+      </aside>
 
-      <div className="min-h-0 space-y-2 overflow-hidden bg-paper p-3">
-        {/* greeting */}
-        <div>
-          <p className="font-serif text-[15px] font-semibold leading-none text-ink">Good morning, Omar</p>
-          <p className="mt-1 text-[8px] text-ink-3">Tuesday, 12 May · Year 3</p>
+      {/* main dashboard column */}
+      <div className="min-w-0 flex-1 space-y-2 overflow-hidden p-2.5">
+        {/* today's target — greeting + facts */}
+        <div className="flex items-center justify-between gap-2 rounded-xl border border-line bg-surface px-2.5 py-2 shadow-pop">
+          <div className="min-w-0">
+            <p className="font-serif text-[13px] font-semibold leading-none text-ink">Good morning, Omar</p>
+            <p className="mt-1 flex items-center gap-1 text-[7px] text-ink-3"><Icon icon={CalendarDays} size={7} />Wednesday, 7 May · Year 3</p>
+          </div>
+          <div className="flex shrink-0 items-stretch">
+            <div className="border-e border-line px-2.5 text-center">
+              <p className="font-mono text-[13px] font-semibold leading-none text-primary-strong tnum">12<span className="text-[7px] font-medium text-ink-3"> days</span></p>
+              <p className="mt-1 text-[6.5px] text-ink-3">Streak</p>
+            </div>
+            <div className="px-2.5 text-center">
+              <p className="font-mono text-[13px] font-semibold leading-none text-warning tnum">3</p>
+              <p className="mt-1 text-[6.5px] text-ink-3">Reviews due</p>
+            </div>
+          </div>
         </div>
 
-        {/* exam countdown hero */}
-        <div className="flex items-center gap-3 rounded-lg border border-line bg-surface p-2.5 shadow-panel">
-          <div className="flex flex-col items-center">
-            <div className="flex items-end gap-[2px]" aria-hidden>
-              {Array.from({ length: 16 }).map((_, i) => (
-                <span key={i} className={cn('w-[2px] rounded-full', i < 11 ? 'bg-primary' : 'bg-inset', i % 5 === 0 ? 'h-4' : 'h-2.5')} />
+        {/* the hero: exam countdown + next step */}
+        <div className="flex items-center gap-3 rounded-2xl border border-line bg-surface p-2.5 shadow-pop">
+          <div className="flex shrink-0 flex-col items-center gap-1">
+            <div className="flex items-end gap-[1.5px]" aria-hidden>
+              {Array.from({ length: 20 }).map((_, i) => (
+                <span key={i} className={cn('w-[1.5px] rounded-full', i < 13 ? 'bg-primary' : 'bg-inset', i % 5 === 0 ? 'h-3.5' : 'h-2.5')} />
               ))}
             </div>
-            <p className="mt-1 font-mono text-[20px] font-bold leading-none text-ink tnum">18</p>
-            <p className="text-[7px] text-ink-3">days left</p>
+            <p className="font-mono text-[24px] font-bold leading-none tracking-tight text-ink tnum">18</p>
+            <p className="text-[6.5px] font-medium text-ink-3">days left</p>
           </div>
           <div className="min-w-0 flex-1">
-            <span className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint px-1.5 py-[2px] text-[7.5px] font-semibold text-primary-strong"><Icon icon={AlarmClock} size={8} />Your next step</span>
-            <p className="mt-1 font-serif text-[12px] font-semibold text-ink">Question block</p>
-            <p className="text-[8px] text-ink-3">Cardiovascular paper · 40 questions · 50 min</p>
-            <span className="mt-1.5 inline-flex items-center gap-1 rounded-md bg-primary px-2 py-1 text-[8px] font-semibold text-on-primary shadow-action">Start now<Icon icon={ArrowRight} size={8} /></span>
+            <div className="flex items-center gap-1">
+              <span className="inline-flex items-center gap-1 rounded-full border border-primary-line bg-primary-tint px-1.5 py-[1.5px] text-[7px] font-semibold text-primary-strong"><Icon icon={AlarmClock} size={8} />Your next step</span>
+              <span className="rounded-full border border-primary-line bg-primary-tint px-1.5 py-[1px] text-[6.5px] font-semibold text-primary-strong">Final</span>
+            </div>
+            <p className="mt-1 font-serif text-[13px] font-semibold leading-tight text-ink">Question block</p>
+            <p className="text-[7.5px] text-ink-3">Cardiovascular paper</p>
+            <p className="mt-0.5 font-mono text-[7.5px] text-ink-3 tnum">40 questions · 50 min</p>
+            <p className="mt-1 text-[7px] leading-snug text-ink-3">Today, weighted the way this paper is marked.</p>
+            <span className="mt-1.5 inline-flex items-center gap-1 rounded-lg bg-primary px-2 py-1 text-[8px] font-semibold text-on-primary shadow-action"><Icon icon={FileQuestion} size={8} />Start now</span>
           </div>
         </div>
 
-        {/* ring stack + rhythm */}
-        <div className="grid grid-cols-[auto_1fr] gap-2">
-          <div className="flex items-center gap-2 rounded-lg border border-line bg-surface p-2 shadow-panel">
-            <svg viewBox="0 0 74 74" className="size-[52px]" fill="none" aria-hidden="true">
-              <circle cx="37" cy="37" r="30" stroke="var(--color-inset)" strokeWidth="5" />
-              <circle cx="37" cy="37" r="30" stroke="var(--color-accent)" strokeWidth="5" strokeLinecap="round" strokeDasharray="188.5" strokeDashoffset="71" transform="rotate(-90 37 37)" />
-              <circle cx="37" cy="37" r="21" stroke="var(--color-inset)" strokeWidth="5" />
-              <circle cx="37" cy="37" r="21" stroke="var(--color-accent-soft)" strokeWidth="5" strokeLinecap="round" strokeDasharray="131.9" strokeDashoffset="72.5" transform="rotate(-90 37 37)" />
-              <circle cx="37" cy="37" r="12" stroke="var(--color-inset)" strokeWidth="5" />
-              <circle cx="37" cy="37" r="12" stroke="var(--color-primary)" strokeWidth="5" strokeLinecap="round" strokeDasharray="75.4" strokeDashoffset="52.8" transform="rotate(-90 37 37)" />
-            </svg>
-            <div className="space-y-[3px]">
-              {[['Question bank', '62%', 'var(--color-accent)'], ['Practical', '45%', 'var(--color-accent-soft)'], ['Essay', '30%', 'var(--color-primary)']].map(([label, pct, c]) => (
-                <div key={label} className="flex items-center gap-1.5">
-                  <span className="size-1.5 rounded-full" style={{ background: c }} />
-                  <span className="text-[8px] font-medium text-ink">{label}</span>
-                  <span className="font-mono text-[8px] font-semibold text-ink-2 tnum">{pct}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="rounded-lg border border-line bg-surface p-2 shadow-panel">
-            <div className="flex items-center justify-between">
-              <p className="text-[8.5px] font-bold text-ink">Study rhythm</p>
-              <span className="rounded-full border border-primary-line bg-primary-tint px-1.5 py-[1px] text-[7px] font-semibold text-primary-strong">312 answered</span>
-            </div>
-            <div className="mt-1.5 grid grid-flow-col grid-rows-6 gap-[2px]" aria-hidden>
-              {HEAT.slice(0, 54).map((v, i) => (
-                <span key={i} className="size-[5px] rounded-[1px]" style={{ background: `var(--color-scale-${v})` }} />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-/* ------------------------------------------------------------------ 2 · question bank (tablet) */
-
-function QuestionScreen() {
-  const options = [
-    ['A', 'Thiazide diuretic', false, false],
-    ['B', 'Loop diuretic', true, false],
-    ['C', 'ACE inhibitor', false, true],
-    ['D', 'Beta-blocker', false, false],
-  ] as const
-  return (
-    <div dir="ltr" className="grid h-full grid-rows-[auto_1fr] text-start">
-      <div className="flex items-center justify-between border-b border-line bg-surface px-3 py-2">
-        <div className="flex items-center gap-1.5"><BrandDot /><span className="text-[9px] font-bold text-ink">Question Bank</span></div>
-        <span className="inline-flex items-center gap-1 rounded-lg border border-line bg-surface px-1.5 py-1 font-mono text-[9px] font-semibold text-ink shadow-panel tnum">12:04</span>
-      </div>
-
-      <div className="min-h-0 overflow-hidden bg-paper p-3">
-        <div className="h-[3px] w-full overflow-hidden rounded-full bg-inset"><div className="h-full w-[45%] rounded-full bg-primary" /></div>
-        <div className="mt-2.5 rounded-lg border border-line bg-surface p-2.5 shadow-panel">
-          <div className="flex items-center justify-between">
-            <span className="flex items-center gap-1 text-[8px] font-bold text-ink"><span className="size-1.5 rounded-full bg-accent" />Cardiology <span className="font-normal text-ink-3">· Heart failure</span></span>
-            <span className="rounded-full border border-danger/25 bg-danger-tint px-1.5 py-[1px] text-[7px] font-bold text-danger">Hard</span>
-          </div>
-          <p className="mt-2 text-[9px] font-semibold leading-snug text-ink">A 64-year-old with HFrEF has worsening ankle oedema. Which drug best relieves his congestion?</p>
-          <div className="mt-2 space-y-1.5">
-            {options.map(([letter, label, correct, chosenWrong]) => (
-              <div key={letter} className={cn('flex items-center gap-2 rounded-md border p-1.5', correct ? 'border-success bg-success-tint' : chosenWrong ? 'border-danger bg-danger-tint' : 'border-line bg-surface opacity-80')}>
-                <span className={cn('grid size-4 shrink-0 place-items-center rounded-full border font-mono text-[7.5px] font-bold', correct ? 'border-success bg-success text-white' : chosenWrong ? 'border-danger bg-danger text-white' : 'border-line text-ink-2')}>
-                  {correct ? <Icon icon={Check} size={8} /> : letter}
-                </span>
-                <span className={cn('text-[8.5px]', correct ? 'font-semibold text-ink' : 'text-ink-2')}>{label}</span>
+        {/* progress ring stack */}
+        <div className="flex items-center gap-3 rounded-xl border border-line bg-surface p-2.5 shadow-panel">
+          <RingStackMini />
+          <div className="min-w-0 flex-1">
+            {([['Question bank', '62%', 'var(--color-accent)', '864 / 1,400 questions'], ['Practical', '45%', 'var(--color-accent-soft)', '18 / 40 items'], ['Essay', '30%', 'var(--color-primary)', '6 / 20 marked']] as const).map(([label, pct, c, detail]) => (
+              <div key={label} className="flex items-baseline gap-2 border-b border-line py-1 first:pt-0 last:border-b-0 last:pb-0">
+                <span className="relative top-[1px] size-1.5 shrink-0 rounded-full" style={{ background: c }} />
+                <span className="min-w-0 flex-1 truncate text-[8.5px] font-medium text-ink">{label}</span>
+                <span className="text-[6.5px] text-ink-3">{detail}</span>
+                <span className="w-6 text-right font-mono text-[8.5px] font-semibold text-ink tnum">{pct}</span>
               </div>
             ))}
           </div>
-          <div className="mt-2 rounded-md border border-success/20 bg-success-tint/50 p-1.5">
-            <p className="text-[7px] leading-relaxed text-ink-2"><span className="font-semibold text-success">Correct — loop diuretic.</span> It gives the greatest, fastest reduction in preload for symptomatic congestion.</p>
-          </div>
-        </div>
-        <div className="mt-2 flex items-center justify-between">
-          <span className="text-[8px] font-semibold text-ink-3">Previous</span>
-          <span className="inline-flex items-center gap-1 rounded-md bg-primary px-2.5 py-1 text-[8.5px] font-semibold text-on-primary shadow-action">Next<Icon icon={ArrowRight} size={9} /></span>
         </div>
       </div>
     </div>
   )
 }
 
-/* ------------------------------------------------------------------ 3 · study rooms (phone) */
+/* ------------------------------------------------------------------ 2 · question bank (phone) */
+
+function QuestionScreen() {
+  const options = [
+    ['A', 'Thiazide diuretic', 'neutral'],
+    ['B', 'Loop diuretic', 'correct'],
+    ['C', 'ACE inhibitor', 'wrong'],
+    ['D', 'Beta-blocker', 'neutral'],
+  ] as const
+  return (
+    <div dir="ltr" className="flex h-full flex-col bg-paper text-start">
+      <div className="flex items-center justify-between border-b border-line bg-surface px-3 py-1.5">
+        <div className="flex items-center gap-1"><BrandDot /><span className="text-[9px] font-bold text-ink">Question Bank</span></div>
+        <span className="inline-flex items-center gap-1 rounded-lg border border-line bg-surface px-1.5 py-1 font-mono text-[8.5px] font-semibold text-ink shadow-panel tnum"><span className="size-1.5 rounded-full bg-primary" />12:04</span>
+      </div>
+      <div className="h-[3px] w-full bg-inset"><div className="h-full w-[45%] bg-primary" /></div>
+      <div className="min-h-0 flex-1 overflow-hidden p-2.5">
+        {/* meta row */}
+        <div className="flex items-center gap-1">
+          <span className="size-1.5 rounded-full bg-accent" />
+          <span className="text-[8.5px] font-bold text-ink">Cardiology</span>
+          <span className="text-[8px] text-ink-3">· Heart failure</span>
+          <span className="ms-auto rounded-full border border-danger/25 bg-danger-tint px-1.5 py-[1px] text-[7px] font-bold text-danger">Hard</span>
+        </div>
+        <p className="mt-2 text-[9px] font-semibold leading-snug text-ink">A 64-year-old man with HFrEF has worsening ankle oedema. Which single drug best relieves his congestion?</p>
+        <div className="mt-2.5 space-y-1.5">
+          {options.map(([letter, label, state]) => (
+            <div key={letter} className={cn('flex items-center gap-2 rounded-lg border p-1.5', state === 'correct' ? 'border-success bg-success-tint' : state === 'wrong' ? 'border-danger bg-danger-tint' : 'border-line bg-surface')}>
+              <span className={cn('grid size-4 shrink-0 place-items-center rounded-full border font-mono text-[7px] font-bold', state === 'correct' ? 'border-success bg-success text-on-success' : state === 'wrong' ? 'border-danger bg-danger text-on-danger' : 'border-line-2 text-ink-2')}>
+                {state === 'correct' ? <Icon icon={Check} size={8} strokeWidth={2.6} /> : state === 'wrong' ? <Icon icon={X} size={8} strokeWidth={2.6} /> : letter}
+              </span>
+              <span className={cn('text-[8.5px] text-ink', state !== 'neutral' && 'font-medium')}>{label}</span>
+            </div>
+          ))}
+        </div>
+        <div className="mt-2.5 flex items-center justify-between border-t border-line pt-2">
+          <span className="text-[8px] font-semibold text-ink-3">Previous</span>
+          <span className="inline-flex items-center gap-1 rounded-lg bg-primary px-2.5 py-1 text-[8.5px] font-semibold text-on-primary shadow-action">Next<Icon icon={ArrowRight} size={9} /></span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/* ------------------------------------------------------------------ 3 · study rooms (tablet) */
+
+const SEATS: ({ i: string; self?: boolean; speaking?: boolean } | null)[] = [
+  { i: 'MH' }, { i: 'OA', speaking: true }, { i: 'You', self: true }, { i: 'SK' },
+  { i: 'RA' }, { i: 'LM', speaking: true }, { i: 'TN' }, { i: 'YB' },
+  { i: 'FZ' }, { i: 'DS' }, { i: 'KP' }, { i: 'JW' },
+  null, null, null, null, null, null, null, null,
+]
 
 function RoomsScreen() {
-  // 4 columns × 5 rows of desks; a couple speaking, one is "you".
-  const speaking = new Set([2, 9])
-  const you = 6
-  const filled = 12
   return (
-    <div dir="ltr" className="grid h-full grid-rows-[auto_1fr] text-start">
-      <div className="flex items-center justify-between border-b border-line bg-surface px-3 py-2">
-        <span className="font-serif text-[11px] font-semibold text-ink">Study Rooms</span>
-        <span className="rounded-lg border border-line bg-surface-2 px-1.5 py-1 font-mono text-[8px] font-semibold tracking-[0.14em] text-ink">KTP0R2</span>
+    <div dir="ltr" className="flex h-full flex-col bg-paper text-start">
+      {/* room top bar */}
+      <div className="flex items-center justify-between border-b border-line bg-surface px-2.5 py-2">
+        <span className="flex items-center gap-1 text-[8px] font-medium text-ink-3"><Icon icon={ArrowLeft} size={9} />Study Rooms</span>
+        <div className="flex items-center gap-1.5">
+          <span className="rounded-lg border border-line bg-surface-2 px-1.5 py-1 font-mono text-[8px] font-semibold tracking-[0.16em] text-ink">KTP0R2</span>
+          <span className="inline-flex items-center gap-1 rounded-md border border-line-2 bg-surface px-1.5 py-1 text-[7.5px] font-semibold text-ink shadow-control"><Icon icon={Copy} size={8} />Copy</span>
+        </div>
       </div>
-      <div className="min-h-0 overflow-hidden bg-paper p-2.5">
+      <div className="min-h-0 flex-1 overflow-hidden p-2.5">
         <div className="flex items-center justify-between">
-          <p className="text-[9px] font-semibold text-ink">Cardiology evening sprint</p>
-          <span className="flex items-center gap-1 text-[7.5px] font-medium text-accent-strong"><Icon icon={Volume2} size={9} />2 speaking</span>
+          <span className="flex items-center gap-1 font-serif text-[11px] font-semibold text-ink"><Icon icon={Hash} size={10} className="text-ink-3" />Cardiology evening sprint</span>
+          <span className="font-mono text-[7.5px] text-ink-3 tnum">12 / 20 seated</span>
         </div>
-        <div className="mt-1 flex items-center justify-between text-[7.5px] text-ink-3">
-          <span>Occupancy</span><span className="font-mono text-ink-2 tnum">{filled} / 20</span>
-        </div>
-        <div className="mt-1 h-[3px] w-full overflow-hidden rounded-full bg-inset"><div className="h-full rounded-full bg-primary" style={{ width: `${(filled / 20) * 100}%` }} /></div>
 
-        {/* the mist floor */}
-        <div className="mt-2 rounded-xl border border-mist-line bg-mist p-2">
-          <div className="grid grid-cols-4 gap-1.5">
-            {Array.from({ length: 20 }).map((_, i) => {
-              const seated = i < filled
-              const isYou = i === you
-              const isSpeaking = speaking.has(i)
-              return (
-                <div
-                  key={i}
-                  className={cn(
-                    'flex aspect-square items-center justify-center rounded-md border text-[6px] font-semibold',
-                    !seated && 'border-dashed border-mist-line/70 bg-transparent text-transparent',
-                    seated && isYou && 'border-primary-line bg-surface text-primary-strong',
-                    seated && !isYou && 'border-mist-line bg-surface text-ink-3',
-                    isSpeaking && 'ring-2 ring-accent/40',
-                  )}
-                >
-                  {seated && (isYou ? 'You' : <Icon icon={isSpeaking ? Volume2 : Mic} size={7} className={isSpeaking ? 'text-accent-strong' : 'text-ink-3'} />)}
-                </div>
-              )
-            })}
+        {/* the mist floor — desks with name plates */}
+        <div className="mt-2 rounded-2xl border border-mist-line bg-mist p-2.5">
+          <div className="grid grid-cols-4 gap-x-2 gap-y-2.5">
+            {SEATS.map((seat, i) => (
+              <div key={i} className="flex flex-col items-center gap-0.5">
+                <span className={cn('h-2.5 w-full rounded-t-[3px] border-x border-t', seat ? 'border-mist-line bg-surface' : 'border-dashed border-mist-line/60', seat?.speaking && 'ring-2 ring-accent/40')} />
+                {seat ? (
+                  <span className={cn('max-w-full truncate rounded-md border px-1 py-[0.5px] text-[6.5px] font-medium leading-tight', seat.self ? 'border-primary-line bg-surface text-primary-strong' : 'border-mist-line bg-surface text-ink')}>{seat.i}</span>
+                ) : <span className="h-[9px]" />}
+              </div>
+            ))}
           </div>
         </div>
 
-        <div className="mt-2 flex items-center gap-1.5">
-          <span className="inline-flex flex-1 items-center justify-center gap-1 rounded-md bg-primary px-2 py-1.5 text-[8px] font-semibold text-on-primary shadow-action"><Icon icon={DoorOpen} size={9} />Enter</span>
-          <span className="inline-flex items-center justify-center rounded-md border border-line-2 bg-surface px-2 py-1.5 text-[8px] font-semibold text-ink shadow-control"><Icon icon={Mic} size={9} /></span>
+        {/* controls */}
+        <div className="mt-2.5 flex items-center justify-between rounded-xl border border-line bg-surface px-2.5 py-2 shadow-panel">
+          <span className="flex items-center gap-1 text-[7.5px] font-medium text-accent-strong"><Icon icon={Volume2} size={9} />2 speaking now</span>
+          <span className="inline-flex items-center gap-1 rounded-md bg-primary px-2 py-1 text-[8px] font-semibold text-on-primary shadow-action"><Icon icon={Mic} size={8} />Mute</span>
         </div>
       </div>
     </div>
