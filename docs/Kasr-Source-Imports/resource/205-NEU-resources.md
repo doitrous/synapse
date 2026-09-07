@@ -215,3 +215,57 @@ KAU_Y2
 
 ## description
 Native-text (OCR-cached) departmental MCQ book, single-best-answer 4-option format (fileName "CNS histo MCQ 198.pdf", manifest sourceId src_19813a4e42780d6c6cd0, sha256 19813a4e42780d6c6cd0e4fe0ab6190ccb1662446f3cfeac9581b59bc2f252bc, corpusRelativePath "205 NEU/Histology Dpt Histology [1st priority]/MCQs/CNS histo MCQ 198.pdf"). The bank is UNKEYED — it prints no answer key — so correct options were determined by medical reasoning and defended in the per-option explanations of each authored MCQ (expert-determined, no source key), not read off a marking. Pages 1-15 carry a usable text layer (verified via pagetext.mjs status/show); the Nervous Tissue MCQs run pages 3-15. Items were de-duplicated against the ~200 already-authored 205 NEU stems (EOM/EOY exam clusters), so questions duplicating the EOY 198 histology concepts (neuroglia BBB, microglia morphology, Wallerian degeneration, peripheral-nerve sheaths, unmyelinated Schwann/Remak) are skipped and only genuinely-new nervous-tissue histology authored. First department-book (unkeyed) bank opened for 205 NEU.
+
+---
+
+# Item
+
+## id
+src_3606e4bda698bbc556c3
+
+## title
+Kasr Al Ainy Physiology Department MCQs & SAQs (Formative Assessment, Second Year, 2022-2023) — NEU-205 section
+
+## subject
+neuro
+
+## type
+Question bank
+
+## source
+Physiology Department, Faculty of Medicine, Cairo University
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+## topics
+Synaptic transmission
+Neuronal pools and reflexes
+Sensory receptors and pathways
+Pain and its control
+Special senses (vision, hearing, smell, taste)
+Motor system, cerebellum and basal ganglia
+Arousal and sleep
+
+## chapter
+Module NEU-205 section (Sensory, Motor and Special senses) of the departmental "Physiology MCQs & SAQs (Formative Assessment) for Second Year", which also covers Modules DIG-206 and END-207; NEU-205 single-best-answer MCQs begin on page 6
+
+## module_ids
+205 NEU
+
+## module_subject
+205 NEU > Physiology > Central Nervous System
+
+## universities
+kau
+
+## years
+KAU_Y2
+
+## description
+Departmental MCQ & SAQ formative-assessment book (fileName "Physiology MCQ 2nd Year.pdf", manifest sourceId src_3606e4bda698bbc556c3, sha256 3606e4bda698bbc556c379e885b2c117bcd5d88ce58528c66e060b88077c0e03, corpusRelativePath "205 NEU/Physiology Dpt Physiology [1st priority]/MCQs/Physiology MCQ 2nd Year.pdf"). Single-best-answer 4-option format; the NEU-205 section runs from page 6. The bank is UNKEYED — it prints no answer key — so correct options were determined by medical reasoning and defended in the per-option explanations of each authored MCQ (expert-determined, no source key). The PDF is image-only (no text layer); pages were rendered and OCR'd at 300dpi via pagetext.mjs and read for the stems. Items were de-duplicated against the ~212 already-authored 205 NEU stems (EOM/EOY exam + histology dept clusters); the heavily-covered synaptic-transmission stems (presynaptic vs postsynaptic inhibition, EPSP/IPSP, Ca2+-triggered release, post-tetanic potentiation, SNARE docking, occlusion/facilitation) were skipped and only genuinely-new physiology authored. NOTE: the same folder's "Department Book - Physio Neuroscience [CNS].pdf" (src_e384746b77bbfab81cd1) is a prose textbook, not an MCQ bank; this file is the real priority-1 physiology question source.

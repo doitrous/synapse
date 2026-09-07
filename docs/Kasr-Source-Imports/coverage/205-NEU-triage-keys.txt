@@ -124,3 +124,34 @@ Q107 (organ of Corti) — GREEN highlight on option d "Border cells support the 
 #      morphology, CNS Q30(arachnoid border cells — existing "arachnoid barrier cell layer" concept);
 #      all figure-label MATCHING tables (image-dependent) out of scope.
 # ============================================================================
+#
+# ============================================================================
+# PHYSIOLOGY DEPARTMENT MCQ & SAQ BOOK (Formative Assessment 2022-2023) — UNKEYED
+#   fileName "Physiology MCQ 2nd Year.pdf", manifest src_3606e4bda698bbc556c3,
+#   sha256 3606e4bda698bbc556c379e885b2c117bcd5d88ce58528c66e060b88077c0e03,
+#   corpusRelativePath "205 NEU/Physiology Dpt Physiology [1st priority]/MCQs/Physiology MCQ 2nd Year.pdf".
+#   Image-only PDF, rendered+OCR at 300dpi. Covers NEU-205 / DIG-206 / END-207; NEU-205 MCQs begin p.6.
+#   NO printed answer key — answers EXPERT-DETERMINED by medical reasoning, defended per-option
+#   (Omar 2026-09-07 "you solve them yourself").
+#   NOTE: the folder's named "Department Book - Physio Neuroscience [CNS].pdf" (src_e384746b77bbfab81cd1)
+#   is a PROSE TEXTBOOK (194pp, chapters, no MCQs) — not a question source.
+#
+# NEU-205 Synaptic-transmission run (pp.6-11, Q1-30). Expert-determined keys for the authored items:
+#   Q5.A (excit/inhib action set by postsynaptic receptor)  Q10.D (termination = enzymatic degradation;
+#   reuptake is presynaptic, trap option c)  Q22.D (tetanus toxin = spastic paralysis, blocks inhibitory
+#   glycine/GABA release; cf botulinum = flaccid, blocks ACh).
+# SKIPPED as dupes of existing synaptic corpus: Q2/Q3/Q9 (pre- vs post-synaptic inhibition),
+#   Q4 (Ca2+-triggered release), Q6/Q11 (v-SNARE docking — existing EOM2023 Q53 concept), Q7 (EPSP
+#   local depolarization), Q8 (grand PSP summation).
+# HELD: Q20 "synaptic transmission is stimulated by" — options hypercalcemia / alkalosis / acidosis /
+#   botulism. Both hypercalcaemia (raises transmitter release) AND alkalosis (raises neuronal
+#   excitability, Guyton) are defensibly correct; acidosis + botulism are depressants/blockers. Two
+#   defensible keys -> HELD (not authored against a contestable single answer).
+# NOT YET AUTHORED (fresh, next slices): Q1 (fiber types CNS<->PNS), Q12-19, Q21 (synaptic depression
+#   EXCEPT strychnine), Q23/25/26 (habituation), Q24 (post-tetanic potentiation — likely dupe),
+#   Q27 (sensitization), Q28 (divergence), Q29 (excitation field), Q30 (Renshaw cell), and the
+#   sensory/pain/special-senses/motor runs beyond p.11.
+# CONCEPT-ID SCHEME FLAG: this bank's concepts minted BARE/unsalted (sha256 of bare dotted key, NEU
+#   prefix, first 14 hex) per the task's explicit university-blind CONCEPT-ID RULE + Omar's documented
+#   ruling; DIVERGES from the module's existing salted "kau:205 NEU:key" IDs. Flagged for CoS.
+# ============================================================================

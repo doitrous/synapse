@@ -114,3 +114,26 @@ plus all figure-label matching tables (image-dependent, out of scope). HELD: CNS
 "choroid-plexus/ependymal tight junctions", so not keyed against a contestable answer. Gate per
 slice: items=3/9/12 errors=0. Authored total 205 NEU: ~200 -> +12. NEXT dept bank: Physiology Dept
 "Department Book - Physio Neuroscience [CNS]" (2nd source of priority-2), then Anatomy Dr. Jalal.
+
+Physiology dept-book pass (2026-09-07) — SECOND UNKEYED DEPARTMENT BANK, SLICE 1:
+IMPORTANT source correction — the folder's named "Department Book - Physio Neuroscience [CNS].pdf"
+(src_e384746b77bbfab81cd1) is a 194-page PROSE TEXTBOOK, not an MCQ bank (contents = chapters, no
+questions), so nothing to harvest there. The real priority-1 physiology MCQ source is the same
+folder's "Physiology MCQ 2nd Year.pdf" = Physiology Department "MCQs & SAQs (Formative Assessment,
+Second Year, 2022-2023)" covering NEU-205/DIG-206/END-207 (manifest src_3606e4bda698bbc556c3; image-
+only, rendered+OCR 300dpi; UNKEYED). NEU-205 section MCQs begin p.6. Read pages 6-11 (Q1-30,
+synaptic-transmission + neuronal-pools run). Slice 1: 3 genuinely-new items authored (Q5 transmitter
+excit/inhib set by postsynaptic receptor; Q10 transmission terminated by enzymatic degradation, with
+reuptake=presynaptic trap; Q22 tetanus toxin = spastic paralysis by blocking inhibitory-transmitter
+release vs botulinum flaccid) into seed dept-physio-mcq.json -> batch 205-NEU-dept-physio-mcq.md,
+all added to ART-NEU-205NEU-CNS-PHYSIOLOGY coverage. Skipped as dupes of the existing synaptic
+corpus: Q2/Q3/Q9 presynaptic-vs-postsynaptic inhibition, Q4 Ca2+-triggered release, Q6/Q11 v-SNARE
+docking, Q7 EPSP, Q8 grand PSP summation. 3 new concepts minted. CONCEPT-ID SCHEME FLAG: minted BARE/
+unsalted (sha256 of bare dotted key, no "kau:205 NEU:" prefix) per the task's explicit university-
+blind CONCEPT-ID RULE + Omar's documented ruling — this DIVERGES from the module's existing salted
+IDs (histology bank + all prior 205 NEU concepts used kau:205 NEU:key). Flagged for chief-of-staff to
+reconcile; dedupe is by meaning so no duplicate questions result. Gate slice 1: items=3 errors=0.
+Authored total 205 NEU: ~212 -> +3. Remaining in this bank: Q1,Q12-30+ (habituation/sensitization/
+Renshaw/divergence/motor/senses) not yet authored; HELD Q20 (transmission stimulated by:
+hypercalcemia vs alkalosis both defensible). NEXT slice: continue physio bank Q12-30, then Anatomy
+Dr. Jalal "Neuro mcq jalal new.pdf".

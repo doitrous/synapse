@@ -23765,3 +23765,333 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, CNS section Q23, p.10); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E29EAE549D856F
+## label
+A neurotransmitter's excitatory or inhibitory action is set by its postsynaptic receptor
+## canonical_key
+synapse.neurotransmitter-action.determined-by-postsynaptic-receptor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Whether a neurotransmitter excites or inhibits the postsynaptic cell is determined not by the transmitter molecule itself but by the receptor (and the ion channel it gates) on the postsynaptic membrane. The same transmitter can do either job depending on the receptor engaged: acetylcholine excites at nicotinic receptors of skeletal muscle yet slows the heart through muscarinic (M2) receptors. A receptor that opens Na+ (or Ca2+) channels generates an excitatory postsynaptic potential (EPSP); one that opens Cl-/K+ channels generates an inhibitory postsynaptic potential (IPSP). Neither the transmitter's molecular composition, the vesicle shape, nor the cleft width decides the sign of the response.
+## explicit_objective
+State that whether a neurotransmitter is excitatory or inhibitory is determined by its postsynaptic receptor (and the channel it gates), not by the transmitter molecule itself.
+## pitfalls
+Thinking the transmitter molecule alone fixes an excitatory versus inhibitory outcome; forgetting that one transmitter (e.g. acetylcholine) can excite at one receptor and inhibit at another.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+CNS physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Central Nervous System > Synaptic Transmission
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3606e4bda698bbc556c3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The excitatory or inhibitory action of a neurotransmitter is determined by which of the following? a- function of its postsynaptic receptor b- molecular composition c- shape of the synaptic vesicle in which it is contained d- distance between the pre- and post-synaptic membranes" ANSWER: a (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q5; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department physiology MCQ book is unkeyed; the correct option was determined by standard neurophysiology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q5, p.6); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE (sha256 of the bare key, NEU prefix, first 14 hex) -- this DIVERGES from the module's existing salted "kau:205 NEU:key" precedent; flagged for chief-of-staff. Collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-D705173C008156
+## label
+Synaptic transmission is terminated by enzymatic degradation, reuptake and diffusion
+## canonical_key
+synapse.transmission-termination.enzymatic-degradation-and-reuptake
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+After a transmitter is released, its action in the cleft is ended by three routes: enzymatic degradation, reuptake into the presynaptic terminal and neighbouring glia by membrane transporters, and simple diffusion out of the cleft. The classic enzymatic example is acetylcholinesterase, which hydrolyses acetylcholine in the synaptic cleft; monoamine oxidase and catechol-O-methyltransferase play the analogous role for monoamines. Rapid removal restores the synapse for the next signal and prevents continuous receptor activation. Reuptake is performed by the presynaptic terminal (not the postsynaptic neuron); a rise in presynaptic Ca2+ triggers release rather than terminating it.
+## explicit_objective
+Identify enzymatic degradation (e.g. acetylcholinesterase), reuptake and diffusion as the mechanisms terminating synaptic transmission, and recognise that reuptake is presynaptic.
+## pitfalls
+Attributing termination to a rise in presynaptic Ca2+ (that triggers release); stating that reuptake is carried out by the postsynaptic neuron rather than the presynaptic terminal/glia.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+CNS physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Central Nervous System > Synaptic Transmission
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3606e4bda698bbc556c3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.3
+## academic_relevance
+0.75
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Synaptic transmission is terminated by which of the following? a- block of postsynaptic receptors b- elevation of Ca++ in presynaptic knobs c- reuptake of neurotransmitters by postsynaptic neurons d- degradation of neurotransmitters by specific enzymes" ANSWER: d (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q10; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department physiology MCQ book is unkeyed; the correct option was determined by standard neurophysiology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q10, p.7); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE (sha256 of the bare key, NEU prefix, first 14 hex) -- DIVERGES from the module's existing salted precedent; flagged. Collision-checked filename-only -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-C7DC31D3890D21
+## label
+Tetanus toxin causes spastic paralysis by blocking release of inhibitory transmitters
+## canonical_key
+synapse.tetanus-toxin.blocks-inhibitory-transmitter-release-spastic-paralysis
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Tetanospasmin (tetanus toxin) is taken up by motor nerve terminals, transported retrogradely to the spinal cord, and blocks the release of the inhibitory transmitters glycine (and GABA) from Renshaw cells and other inhibitory interneurons. Loss of this inhibition leaves alpha motor neurons unopposed, producing continuous muscle contraction — spastic paralysis with the characteristic lockjaw (trismus) and opisthotonus. This disinhibition mechanism is the mirror image of botulinum toxin, which blocks release of excitatory acetylcholine at the neuromuscular junction to cause flaccid paralysis.
+## explicit_objective
+State that tetanus toxin causes spastic paralysis by blocking release of inhibitory transmitters (glycine/GABA) from spinal inhibitory interneurons, contrasting it with botulinum toxin (flaccid paralysis).
+## pitfalls
+Confusing tetanus (spastic; blocks inhibitory transmitter release) with botulinum (flaccid; blocks acetylcholine release); saying tetanus inhibits acetylcholine release.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Physiology
+## subtopic
+CNS physiology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Physiology > Central Nervous System > Synaptic Transmission
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_3606e4bda698bbc556c3
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.6
+## academic_relevance
+0.7
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Tetanus toxin leads to: a- spastic paralysis due to inhibition of acetyl choline release b- convulsions due to competitive inhibition with inhibitory transmitters c- flaccid paralysis due to inhibition of GABA release d- spastic paralysis due to inhibition of GABA release" ANSWER: d (205 NEU Physiology Department MCQ & SAQ book, Formative Assessment 2022-2023, NEU-205 Q22; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department physiology MCQ book is unkeyed; the correct option was determined by standard neurophysiology/microbiology reasoning and defended per-option rather than read off a printed key. A readable department-book render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Physiology Department MCQ & SAQ book (src_3606e4bda698bbc556c3, NEU-205 section Q22, p.9); image-only PDF rendered+OCR at 300dpi, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed BARE/unsalted per the task's university-blind CONCEPT-ID RULE (sha256 of the bare key, NEU prefix, first 14 hex) -- DIVERGES from the module's existing salted precedent; flagged. Collision-checked filename-only -- no hit; new concept. De-duplicated against the ~212 already-authored 205 NEU stems before authoring.
