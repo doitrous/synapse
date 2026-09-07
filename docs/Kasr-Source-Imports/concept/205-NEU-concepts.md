@@ -22775,3 +22775,663 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q18, p.4); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems (EOM/EOY clusters) before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-E916F2769420CF
+## label
+Oligodendrocytes form the myelin sheath of CNS axons
+## canonical_key
+oligodendrocyte.function.cns-myelin-formation
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Oligodendrocytes are the myelinating neuroglia of the central nervous system. A single oligodendrocyte extends several processes, each wrapping one internode of myelin around a different CNS axon -- unlike a Schwann cell, which myelinates only one internode of a single peripheral axon. This one-cell-to-many-axons arrangement is a defining CNS feature, and oligodendrocyte loss underlies central demyelinating disease (e.g. multiple sclerosis). Ependymal cells (ventricular lining) and astrocytes (support, blood-brain barrier) do not form myelin.
+## explicit_objective
+State that oligodendrocytes form CNS myelin (one cell myelinating several axons), distinguishing them from peripheral Schwann cells and from non-myelinating astrocytes and ependymal cells.
+## pitfalls
+Attributing CNS myelin to Schwann cells (they myelinate the PNS) or to astrocytes; forgetting that one oligodendrocyte myelinates several axons whereas one Schwann cell serves a single internode of one axon.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Neuroglia
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=0.4
+## clinical_relevance
+0.4
+## academic_relevance
+0.85
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Cell type forms the myelin sheath around myelinated axons in CNS: a. Ependymal cell. b. Schwann cell. c. Oligodendrocyte. d. Astrocyte." ANSWER: c (205 NEU Histology Department MCQ book, batch 198, Nervous Tissue Q13; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q13, p.4); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept (existing file mentions interfascicular-oligodendrocyte location only, not the core CNS-myelin-formation fact). De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-F9C2D0B2301679
+## label
+White matter appears white because of its abundant myelinated axons
+## canonical_key
+whitematter.colour.myelinated-axons
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+White matter owes its pale, glistening appearance to its dense population of myelinated axons: the lipid-rich myelin sheaths scatter light and give the tissue its white colour. Grey matter, by contrast, is dominated by neuronal cell bodies, dendrites and unmyelinated processes and so looks grey. The colour difference is the gross correlate of the histological distinction between myelinated fibre tracts (white matter) and cell-body-rich cortex/nuclei (grey matter). The CNS contains essentially no collagen internally, so connective tissue does not contribute to the colour.
+## explicit_objective
+Explain that white matter appears white because of its abundant lipid-rich myelinated axons, distinguishing it from cell-body-rich grey matter.
+## pitfalls
+Attributing white-matter colour to connective tissue (the CNS has almost none internally) or to absence of glia/vessels; white matter is in fact rich in glia and vessels -- it is the myelin that whitens it.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Grey and White Matter
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"White matter appears white because of the: a. Absence of blood vessels. b. Presence of many collagen fibers. c. Absence of glial cells. d. Presence of many myelinated axons." ANSWER: d (205 NEU Histology Department MCQ book, batch 198, Nervous Tissue Q19; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q19, p.4); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-DD018ACA1ECC33
+## label
+Ependymal cells help move cerebrospinal fluid with their cilia
+## canonical_key
+ependymalcell.function.csf-movement-cilia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ependymal cells form the ciliated simple epithelium (cuboidal to low columnar) lining the ventricles, cerebral aqueduct and central canal. The coordinated beating of their apical cilia helps propel and circulate the cerebrospinal fluid through the ventricular system. Their position at the CSF-tissue interface and their motile cilia are what suit them to moving CSF, distinguishing them from microglia (phagocytic), astrocytes (support/blood-brain barrier) and oligodendrocytes (myelin).
+## explicit_objective
+Identify ependymal cells (the ciliated ventricular/central-canal lining) as the neuroglia that help move cerebrospinal fluid.
+## pitfalls
+Confusing the ependyma's CSF-propelling role with the choroid plexus's CSF-producing role; or assigning CSF movement to astrocytes/microglia, which are not ciliated.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Neuroglia
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.82
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Which type of neuroglia is responsible for movement of CSF? a. Microglia. b. Ependymal cell. c. Astrocyte. d. Oligodendrocyte." ANSWER: b (205 NEU Histology Department MCQ book, batch 198, Nervous Tissue Q27; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q27, p.5); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-22BA440FD0F207
+## label
+Krause's end bulb is a connective-tissue (encapsulated) sensory receptor
+## canonical_key
+krauseendbulb.classification.connective-tissue-receptor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sensory receptors are grouped by location into epithelial, connective-tissue and special-sense receptors. The connective-tissue receptors are the encapsulated endings lying in the dermis/connective tissue -- Meissner's and Pacinian corpuscles, Ruffini endings, Krause end bulbs and the Golgi tendon organ. Krause's end bulb, an encapsulated coiled ending in the connective tissue of dermis and mucous membranes, is therefore a connective-tissue receptor, distinct from epithelial receptors (free nerve endings, Merkel discs, peritrichial endings), the muscular muscle spindle, and special-sense receptors such as the organ of Corti.
+## explicit_objective
+Classify Krause's end bulb as an encapsulated connective-tissue receptor, distinguishing it from epithelial, muscular and special-sense receptors.
+## pitfalls
+Grouping the muscle spindle (a muscular receptor) or peritrichial endings (epithelial) among connective-tissue receptors; forgetting that connective-tissue receptors are the encapsulated dermal endings.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Sensory Nerve Endings
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.2
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.75
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following is a connective tissue receptor: a. Peritrichial nerve ending. b. Muscle spindle. c. Organ of Corti. d. Krause's end bulb." ANSWER: d (205 NEU Histology Department MCQ book, batch 198, Nervous Tissue Q28; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q28, p.5); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept (existing "krause" mentions are in receptor-listing pitfalls, not this location-classification fact). De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-BAC7823DA4E71D
+## label
+The CNS is soft in consistency because its substance lacks connective tissue
+## canonical_key
+cns.consistency.soft-lacks-connective-tissue
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The substance of the central nervous system contains essentially no connective tissue internally -- collagenous/fibrous stroma is confined to the meninges and the perivascular spaces. Mechanical support instead comes from the neuroglial framework (astrocytes and other glia). Because it lacks the tough fibrous connective-tissue stroma that firms up most organs, the CNS is soft and gel-like in consistency. This absence of internal connective tissue is a defining histological feature of nervous tissue, and it also means CNS colour and structure are shaped by neurons, glia and myelin rather than by collagen.
+## explicit_objective
+Explain that the CNS is soft because its substance lacks connective tissue, being supported instead by neuroglia.
+## pitfalls
+Believing neurons are held together by connective tissue (glia provide support instead), or that vascularity or fat cells account for the soft consistency.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Central Nervous System > General Organisation
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.2
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.78
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The central nervous system is soft because: a. It consists of neurons joined by connective tissue. b. It is rich in blood vessels. c. It does not contain C.T. d. It contains fat cells." ANSWER: c (205 NEU Histology Department MCQ book, batch 198, CNS section Q1; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, CNS section Q1, p.8); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-BF4CB32FE5371D
+## label
+The central canal is lined by ciliated simple cuboidal (ependymal) epithelium
+## canonical_key
+centralcanal.lining.ependymal-cuboidal-ciliated
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The central canal of the spinal cord, like the ventricular system, is lined by ependyma -- a simple cuboidal to low-columnar epithelium whose cells bear apical cilia (and microvilli). The cilia help move cerebrospinal fluid. This single-layered, ciliated ependymal lining distinguishes the central canal from surfaces lined by simple squamous (serous cavities/vessels) or stratified squamous (protective surfaces) epithelium, and its ciliation excludes a 'non-ciliated columnar' description.
+## explicit_objective
+State that the central canal is lined by ciliated simple cuboidal (ependymal) epithelium.
+## pitfalls
+Describing the ependymal lining as non-ciliated or stratified; the central canal lining is a single ciliated cuboidal/columnar layer.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Central Nervous System > Ependyma
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.3
+## exam_weight_by_year
+KAU_Y2=0.3
+## clinical_relevance
+0.2
+## academic_relevance
+0.75
+## weight_confidence
+0.55
+## confidence
+0.78
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"The central canal is lined by ... epithelium: a. Simple squamous. b. Stratified squamous. c. Simple cuboidal partially ciliated. d. Simple columnar non ciliated." ANSWER: c (205 NEU Histology Department MCQ book, batch 198, CNS section Q4; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, CNS section Q4, p.8); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems before authoring.

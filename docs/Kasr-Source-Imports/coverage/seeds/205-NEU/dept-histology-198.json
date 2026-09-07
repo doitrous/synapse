@@ -116,6 +116,198 @@
       "subtopic": "Nervous tissue histology",
       "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198); answer by medical reasoning, defended per-option, p.4" },
       "id": "QST-KASR205NEU-HISTO198-3"
+    },
+    {
+      "key": "histo198-q13",
+      "page": 4,
+      "title": "Cell forming CNS myelin",
+      "question": "Cell type that forms the myelin sheath around myelinated axons in the CNS:",
+      "options": {
+        "A": "Ependymal cell",
+        "B": "Schwann cell",
+        "C": "Oligodendrocyte",
+        "D": "Astrocyte"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Ependymal cells line the ventricles and central canal; they do not form myelin.",
+        "B": "Incorrect. Schwann cells myelinate axons in the PERIPHERAL nervous system, each internode formed by one Schwann cell; they are not the myelinating cell of the CNS.",
+        "C": "Correct. Oligodendrocytes are the myelinating neuroglia of the central nervous system: a single oligodendrocyte extends several processes, each wrapping an internode of myelin around a different CNS axon (unlike a Schwann cell, which myelinates only one internode of one peripheral axon). This one-cell-to-many-axons arrangement is a defining CNS feature, and oligodendrocyte loss underlies central demyelinating disease.",
+        "D": "Incorrect. Astrocytes provide structural and metabolic support and contribute to the blood-brain barrier; they do not form myelin."
+      },
+      "main_concept": "CON-NEU-E916F2769420CF",
+      "concept_ids": ["CON-NEU-E916F2769420CF"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that oligodendrocytes form CNS myelin (one cell myelinating several axons), distinguishing them from peripheral Schwann cells.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Nervous Tissue > Neuroglia",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198); answer by medical reasoning, defended per-option, p.4" },
+      "id": "QST-KASR205NEU-HISTO198-4"
+    },
+    {
+      "key": "histo198-q19",
+      "page": 4,
+      "title": "Why white matter appears white",
+      "question": "White matter appears white because of the:",
+      "options": {
+        "A": "Absence of blood vessels",
+        "B": "Presence of many collagen fibres",
+        "C": "Absence of glial cells",
+        "D": "Presence of many myelinated axons"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. White matter is well vascularised; blood vessels do not account for its colour, and their presence would if anything add colour rather than whiteness.",
+        "B": "Incorrect. The central nervous system contains essentially no collagen/connective tissue within its substance; there are no abundant collagen fibres to colour white matter.",
+        "C": "Incorrect. White matter is rich in glial cells (oligodendrocytes and astrocytes); their presence, not absence, is normal there.",
+        "D": "Correct. White matter owes its pale, glistening appearance to its dense population of MYELINATED axons: the lipid-rich myelin sheaths scatter light and give the tissue its white colour, which is why fibre tracts look white while neuron-cell-body-rich grey matter looks grey. This colour difference is the gross correlate of the histological distinction between myelinated tracts and cell-body-dense cortex/nuclei."
+      },
+      "main_concept": "CON-NEU-F9C2D0B2301679",
+      "concept_ids": ["CON-NEU-F9C2D0B2301679"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Explain that white matter appears white because of its abundant myelinated axons (lipid-rich myelin), distinguishing it from grey matter.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Nervous Tissue > Grey and White Matter",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198); answer by medical reasoning, defended per-option, p.4" },
+      "id": "QST-KASR205NEU-HISTO198-5"
+    },
+    {
+      "key": "histo198-q27",
+      "page": 5,
+      "title": "Neuroglia responsible for CSF movement",
+      "question": "Which type of neuroglia is responsible for movement of cerebrospinal fluid?",
+      "options": {
+        "A": "Microglia",
+        "B": "Ependymal cell",
+        "C": "Astrocyte",
+        "D": "Oligodendrocyte"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Microglia are the small phagocytic (immune) cells of the CNS; they have no role in propelling cerebrospinal fluid.",
+        "B": "Correct. Ependymal cells form the ciliated simple epithelium lining the ventricles, cerebral aqueduct and central canal; the coordinated beating of their apical cilia helps propel and circulate the cerebrospinal fluid through the ventricular system. Their location at the CSF-tissue interface and their motile cilia are exactly what suit them to moving CSF, distinguishing them from the other neuroglia.",
+        "C": "Incorrect. Astrocytes provide structural/metabolic support and contribute to the blood-brain barrier; they are not ciliated and do not move CSF.",
+        "D": "Incorrect. Oligodendrocytes form CNS myelin; they play no part in CSF circulation."
+      },
+      "main_concept": "CON-NEU-DD018ACA1ECC33",
+      "concept_ids": ["CON-NEU-DD018ACA1ECC33"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "Identify ependymal cells (ciliated ventricular lining) as the neuroglia that help move cerebrospinal fluid.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Nervous Tissue > Neuroglia",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198); answer by medical reasoning, defended per-option, p.5" },
+      "id": "QST-KASR205NEU-HISTO198-6"
+    },
+    {
+      "key": "histo198-q28",
+      "page": 5,
+      "title": "Connective-tissue sensory receptor",
+      "question": "One of the following is a connective tissue receptor:",
+      "options": {
+        "A": "Peritrichial nerve ending",
+        "B": "Muscle spindle",
+        "C": "Organ of Corti",
+        "D": "Krause's end bulb"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Peritrichial (hair-follicle) endings wrap around hair follicles and are classified as epithelial (unencapsulated) receptors, not connective-tissue receptors.",
+        "B": "Incorrect. The muscle spindle is a receptor located within skeletal muscle (a proprioceptor among the intrafusal muscle fibres), classified as a muscular receptor rather than a connective-tissue receptor.",
+        "C": "Incorrect. The organ of Corti is the specialised receptor of hearing in the cochlea, a special-sense receptor, not a general connective-tissue receptor.",
+        "D": "Correct. Sensory receptors are grouped by their location into epithelial, connective-tissue and special-sense receptors; the connective-tissue receptors are the encapsulated endings lying in dermis/connective tissue — Meissner's and Pacinian corpuscles, Ruffini endings, Krause end bulbs and the Golgi tendon organ. Krause's end bulb, an encapsulated ending in the connective tissue of the dermis and mucous membranes, is therefore the connective-tissue receptor among the options."
+      },
+      "main_concept": "CON-NEU-22BA440FD0F207",
+      "concept_ids": ["CON-NEU-22BA440FD0F207"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Classify Krause's end bulb as an encapsulated connective-tissue receptor, distinguishing it from epithelial (peritrichial), muscular (muscle spindle) and special-sense (organ of Corti) receptors.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Nervous Tissue > Sensory Nerve Endings",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198); answer by medical reasoning, defended per-option, p.5" },
+      "id": "QST-KASR205NEU-HISTO198-7"
+    },
+    {
+      "key": "histo198-cns-q1",
+      "page": 8,
+      "title": "Why the CNS is soft in consistency",
+      "question": "The central nervous system is soft because:",
+      "options": {
+        "A": "It consists of neurons joined by connective tissue",
+        "B": "It is rich in blood vessels",
+        "C": "It does not contain connective tissue",
+        "D": "It contains fat cells"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Neurons in the CNS are not held together by connective tissue; support is provided by neuroglia, so this description is wrong.",
+        "B": "Incorrect. Although the CNS is vascular, its blood supply is not what determines its soft consistency.",
+        "C": "Correct. The substance of the central nervous system contains essentially no connective tissue internally (collagen/fibrous stroma is confined to the meninges and the perivascular spaces); mechanical support instead comes from the neuroglial framework. Because it lacks the tough fibrous connective-tissue stroma that firms up most organs, the CNS is soft and gel-like in consistency. This absence of internal connective tissue is a defining histological feature of nervous tissue.",
+        "D": "Incorrect. The CNS does not contain fat (adipose) cells in its substance; myelin lipid is intracellular in glial membranes, not stored in fat cells."
+      },
+      "main_concept": "CON-NEU-BAC7823DA4E71D",
+      "concept_ids": ["CON-NEU-BAC7823DA4E71D"],
+      "contextual_concept_ids": [],
+      "difficulty": "Moderate",
+      "question_type": "Classification",
+      "cognitive_effort": "Medium",
+      "reasoning_level": 2,
+      "learning_objective": "Explain that the CNS is soft because its substance lacks connective tissue, being supported instead by neuroglia.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Central Nervous System > General Organisation",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198, CNS section); answer by medical reasoning, defended per-option, p.8" },
+      "id": "QST-KASR205NEU-HISTO198-8"
+    },
+    {
+      "key": "histo198-cns-q4",
+      "page": 8,
+      "title": "Epithelium lining the central canal",
+      "question": "The central canal of the spinal cord is lined by which epithelium?",
+      "options": {
+        "A": "Simple squamous",
+        "B": "Stratified squamous",
+        "C": "Simple cuboidal, partially ciliated",
+        "D": "Simple columnar, non-ciliated"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. The central canal is not lined by simple squamous epithelium; that lining (mesothelium/endothelium) belongs to serous cavities and vessels.",
+        "B": "Incorrect. Stratified squamous epithelium is a protective surface epithelium (e.g. epidermis, oesophagus), not the lining of the central canal.",
+        "C": "Correct. The central canal, like the ventricular system, is lined by ependyma — a simple cuboidal to low-columnar epithelium whose cells bear apical cilia (and microvilli). The cilia help move cerebrospinal fluid, and this ciliated simple cuboidal/columnar ependymal lining is the correct description among the options. Its single layer at the CSF interface is what makes it simple (not stratified) and ciliated.",
+        "D": "Incorrect. The ependyma is ciliated, so a 'non-ciliated' columnar description is wrong; the presence of cilia is a defining feature of the central-canal lining."
+      },
+      "main_concept": "CON-NEU-BF4CB32FE5371D",
+      "concept_ids": ["CON-NEU-BF4CB32FE5371D"],
+      "contextual_concept_ids": [],
+      "difficulty": "Easy",
+      "question_type": "Classification",
+      "cognitive_effort": "Low",
+      "reasoning_level": 1,
+      "learning_objective": "State that the central canal is lined by ciliated simple cuboidal (ependymal) epithelium.",
+      "media_recommendations": "",
+      "module_subject": "205 NEU > Histology > Central Nervous System > Ependyma",
+      "subtopic": "Nervous tissue histology",
+      "field_notes": { "keySource": "expert-determined (unkeyed department MCQ book, batch 198, CNS section); answer by medical reasoning, defended per-option, p.8" },
+      "id": "QST-KASR205NEU-HISTO198-9"
     }
   ]
 }
