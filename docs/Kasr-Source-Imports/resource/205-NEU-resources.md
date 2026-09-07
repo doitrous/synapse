@@ -160,3 +160,58 @@ KAU_Y2
 
 ## description
 Scanned/solved EOM exam paper (fileName "EOM - NEU-205 2024 Answered.pdf", manifest sourceId src_1d0cd2a7afeb66dcfd85, sha256 1d0cd2a7afeb66dcfd854153d41c4152d6b7571bfd42d1b90b1a0a1df1050498, corpusRelativePath "205 NEU/EOM/EOM - NEU-205 2024 Answered.pdf"). The printed exam date on page 1 is 30/11/2023, so the sitting year is recorded as 2023 (the "2024" in the filename is an uploader label, overridden by the printed date per manifest/README-y2). A DIFFERENT sitting from this module's EOM 197 paper (printed 28/11/2024); both are 115-MCQ End-Module papers and overlap heavily in topic, so items were de-duplicated against the ~117 already-authored 205 NEU stems and only genuinely-new questions authored. Page 1-2 carry a partial text layer; pages 3-14 are image-only and were rendered at 170dpi and read by eye. The correct option is a hand-written letter in the LEFT MARGIN beside each question number, with a pencil arrow to the chosen option; keys were recovered by reading that margin letter (confirmed against standard anatomy, not inferred from OCR). First triage pass over this paper: Q1-24 read (pages 1-3); this batch authors the first 20 genuinely-new items and skips the near-duplicates (see triage-keys). Section B (cross-match) and later pages are not yet triaged.
+
+---
+
+# Item
+
+## id
+src_19813a4e42780d6c6cd0
+
+## title
+Kasr Al Ainy 205 NEU Histology Department MCQ book (Second Year), Nervous Tissue section
+
+## subject
+neuro
+
+## type
+Question bank
+
+## source
+Histology Department, Faculty of Medicine, Cairo University
+
+## status
+Draft
+
+## owner
+Claude
+
+## url
+
+## topics
+Neuron cell body and Nissl substance
+Neuron morphological types
+Myelin and glial cells
+Neuroglia
+Sensory nerve endings and receptors
+Ganglia
+Peripheral nerve sheaths
+Nerve degeneration and regeneration
+
+## chapter
+Nervous Tissue section (Multiple Choice Questions), the opening chapter of the departmental "Multiple Choice Questions in Histology & Cell Biology for Second Year Medical Students" (batch code 198)
+
+## module_ids
+205 NEU
+
+## module_subject
+205 NEU > Histology > Nervous Tissue
+
+## universities
+kau
+
+## years
+KAU_Y2
+
+## description
+Native-text (OCR-cached) departmental MCQ book, single-best-answer 4-option format (fileName "CNS histo MCQ 198.pdf", manifest sourceId src_19813a4e42780d6c6cd0, sha256 19813a4e42780d6c6cd0e4fe0ab6190ccb1662446f3cfeac9581b59bc2f252bc, corpusRelativePath "205 NEU/Histology Dpt Histology [1st priority]/MCQs/CNS histo MCQ 198.pdf"). The bank is UNKEYED — it prints no answer key — so correct options were determined by medical reasoning and defended in the per-option explanations of each authored MCQ (expert-determined, no source key), not read off a marking. Pages 1-15 carry a usable text layer (verified via pagetext.mjs status/show); the Nervous Tissue MCQs run pages 3-15. Items were de-duplicated against the ~200 already-authored 205 NEU stems (EOM/EOY exam clusters), so questions duplicating the EOY 198 histology concepts (neuroglia BBB, microglia morphology, Wallerian degeneration, peripheral-nerve sheaths, unmyelinated Schwann/Remak) are skipped and only genuinely-new nervous-tissue histology authored. First department-book (unkeyed) bank opened for 205 NEU.

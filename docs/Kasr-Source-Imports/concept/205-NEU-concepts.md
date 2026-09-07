@@ -22445,3 +22445,333 @@ authored_needs_independent_evidence
 
 ## field_notes
 keySource: render-confirmed left-margin answer letter on 205 NEU EOM (2023 sitting) exam paper (src_1d0cd2a7afeb66dcfd85), page 14 rendered at 200dpi and read by eye (margin letter + pencil arrow to the chosen option). sourceCandidateIds: dotted canonical key hashed university-blind (sha256, NEU prefix), collision-checked against live+pending IDs and the module concept file; new concept. Third triage pass over the EOM 2023 paper (cluster 2023-eom-head-and-neck-anatomy, Q52-115 tail, slice 4 completes Section A), de-duplicated against the ~196 already-authored 205 NEU stems before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-F47CE56A9EEBDC
+## label
+Nissl bodies are composed of rough endoplasmic reticulum and ribosomes
+## canonical_key
+nisslbody.composition.rer-and-ribosomes
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Nissl bodies (Nissl substance) are the basophilic granular masses of the neuronal cell body and dendrites, composed of rough endoplasmic reticulum studded with ribosomes together with free polyribosomes. Their abundant ribosomal RNA accounts for their strong basophilia and reflects the neuron's high rate of protein synthesis. They extend into the dendrites but are absent from the axon hillock and axon, and disperse (chromatolysis) after axonal injury -- distinct from synaptic vesicles (neurotransmitter sacs at the axon terminal), the Golgi apparatus (argyrophilic packaging organelle), and lipofuscin (age-related residual-body pigment).
+## explicit_objective
+State that Nissl bodies are composed of rough endoplasmic reticulum and ribosomes (including free polyribosomes), accounting for their cytoplasmic basophilia and their absence from the axon.
+## pitfalls
+Confusing Nissl substance with the Golgi apparatus (a separate, argyrophilic organelle) or with lipofuscin granules; forgetting that Nissl bodies are absent from the axon hillock and axon.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Neuron Cell Body
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Nissl bodies consist of: a. Clusters of synaptic vesicles. b. Ribosomes & rER. c. Golgi bodies. d. Lysosomes and lipofuscin granules." ANSWER: b (205 NEU Histology Department MCQ book, batch 198, Nervous Tissue Q1; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option rather than read off a printed key. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q1, p.3); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems (EOM/EOY clusters) before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-319189335A5F54
+## label
+Bipolar neurons are found in the vestibular and cochlear ganglia
+## canonical_key
+bipolarneuron.location.vestibular-and-cochlear-ganglia
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Bipolar neurons have two processes -- a single dendrite and a single axon -- extending from opposite poles of the cell body. In the adult they occur in the special sensory pathways: the retina, the olfactory epithelium, and the vestibular (Scarpa's) and cochlear (spiral) ganglia of the vestibulocochlear nerve. This contrasts with the pseudounipolar neurons of the spinal (dorsal root) ganglia and the mesencephalic nucleus of the trigeminal nerve, and with the multipolar neurons of the sympathetic (autonomic) ganglia.
+## explicit_objective
+Identify the vestibular (and cochlear) ganglia as sites of bipolar neurons, distinguishing them from pseudounipolar (spinal ganglia, mesencephalic nucleus) and multipolar (sympathetic ganglia) neuron locations.
+## pitfalls
+Assuming sensory ganglia are uniformly pseudounipolar -- the vestibular and cochlear ganglia are the exception, holding bipolar neurons; the mesencephalic nucleus of CN V is a rare CNS site of pseudounipolar (not bipolar) sensory cells.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Neuron Morphological Types
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.78
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"Bipolar neurons are present in: a. Vestibular ganglia. b. Spinal ganglia. c. Sympathetic ganglia. d. Mesencephalic nucleus." ANSWER: a (205 NEU Histology Department MCQ book, batch 198, Nervous Tissue Q11; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q11, p.3); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems (EOM/EOY clusters) before authoring.
+
+---
+
+# Item
+## id
+CON-NEU-B55F8FAE5D3A4C
+## label
+Free nerve endings are unencapsulated sensory receptors
+## canonical_key
+freenerveending.type.unencapsulated-receptor
+## aliases
+
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sensory nerve endings are classified as encapsulated -- enclosed in a connective-tissue capsule (Meissner's, Pacinian, Ruffini and Krause corpuscles and the Golgi tendon organ) -- or unencapsulated, which are naked terminals lacking such a capsule. Free nerve endings are the prototypical unencapsulated ending: bare terminal branches, mostly of pain and temperature fibres, ramifying among epithelial and connective-tissue cells without any capsule. Merkel discs and peritrichial (hair-follicle) endings are the other unencapsulated types.
+## explicit_objective
+Classify free nerve endings as unencapsulated sensory receptors, distinguishing them from the encapsulated Golgi tendon organ, Meissner's corpuscle and Krause end bulb.
+## pitfalls
+Assuming every named receptor has a capsule -- free nerve endings, Merkel discs and peritrichial endings are unencapsulated; the Golgi tendon organ and Krause end bulb, despite their names, are encapsulated.
+## concept_type
+definition
+## status
+under review
+## support_mode
+direct_statement
+## subject
+neuro
+## primary_node_id
+
+## secondary_node_ids
+
+## topic
+Histology
+## subtopic
+Nervous tissue histology
+## microtopic
+
+## nanotopic
+
+## modules
+205 NEU
+## module_subject
+205 NEU > Histology > Nervous Tissue > Sensory Nerve Endings
+## article_ids
+
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_19813a4e42780d6c6cd0
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.35
+## exam_weight_by_year
+KAU_Y2=0.35
+## clinical_relevance
+0.2
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.8
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+"One of the following is classified as unencapsulated: a. Golgi tendon organ. b. Meissner's corpuscles. c. Krause end bulb. d. Free nerve endings." ANSWER: d (205 NEU Histology Department MCQ book, batch 198, Nervous Tissue Q18; unkeyed bank, answer expert-determined by medical reasoning)
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Department histology MCQ book is unkeyed; the correct option was determined by standard histology reasoning and defended per-option. A readable department-book/atlas render should be attached as evidence before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+keySource: expert-determined on the unkeyed 205 NEU Histology Department MCQ book (src_19813a4e42780d6c6cd0, Nervous Tissue Q18, p.4); native-text bank, answer by medical reasoning defended per-option. sourceCandidateIds: dotted canonical key hashed university-blind (sha256, kau:205 NEU:key, NEU prefix), collision-checked filename-only against the module concept file -- no hit; new concept. De-duplicated against the ~200 already-authored 205 NEU stems (EOM/EOY clusters) before authoring.
