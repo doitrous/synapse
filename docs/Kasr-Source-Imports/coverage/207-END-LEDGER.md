@@ -840,8 +840,23 @@ gluconeogenesis/insulin were already in the corpus and skipped; the cortisol-mec
 (concept 30 items 0 errors; article 5 items 0 errors; MCQ 30 items 0 errors with `--with` concept+article+resource
 siblings). Seed re-emitted.
 
-**The 207 END module is now 324 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
-+ Jalal 28 + Zahra histology 14 + Shebl physiology 30), 6 held, 2 excluded. **Next 207 END cluster:** continue
-the Dr Shebl bank at **Ch.6 Pancreas (p.29-33)**, then Ch.7 Male / Ch.8 Female reproduction (plus the held
-Graves-exophthalmos, iodine-deficiency, hyperphosphataemia-PTH and secondary-hyperaldosteronism items); dedup
-each vs the physiology corpus, push-per-slice.
+**Slice 5 — 8 authored** (Ch.6 Pancreas): Q16 (insulin-dependent uptake = GLUT4), Q17 (beta-cell glucose
+sensor = GLUT2), Q4 (glucagon stimulates hepatic glycogenolysis + gluconeogenesis), Q6 (glucagon stimulated
+by hypoglycaemia), Q14 (alpha-adrenergic activation inhibits insulin), Q23 (insulin stimulates Na+-K+ ATPase,
+drives K+ into cells), Q11 (islet cell types; F cells secrete pancreatic polypeptide not gastrin), Q1 (adipose
+uptake insulin-dependent, brain/RBC insulin-independent). 0 excluded, **1 held (Q20 bad item** — "somatostatin
+inhibits all EXCEPT gastrin" is medically wrong, somatostatin does inhibit gastrin). **All 8 keyed from the
+printed answer line.** 8 concepts minted university-blind (all `CON-END-*`: DFD9B57210BB1F, 69D0D9F921105C,
+7D6D51CC5879BD, 13AA6D3ACC464C, FEB624BCDA9205, E54AA943E43475, 5EDC5BD1CF21F2, 3014D5CCB595C3) — collision-
+checked corpus-wide, 0 collisions, 0 in-batch dupes. Grouped into 1 new article
+(`ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY`). Subject tag `endo`. Dedup Ch.6 ~ moderate: insulin metabolic
+effects/antiketogenesis, insulin RTK signalling, GLP-1 incretin and insulin-IGF-1 shared receptor were already
+in the corpus and skipped; the GLUT-transporter / islet-cell / glucagon-stimulus / insulin-K+ seam was fresh.
+Gate-clean (concept 38 items 0 errors; article 6 items 0 errors; MCQ 38 items 0 errors with `--with`
+concept+article+resource siblings). Seed re-emitted.
+
+**The 207 END module is now 332 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
++ Jalal 28 + Zahra histology 14 + Shebl physiology 38), 7 held, 2 excluded. **Next 207 END cluster:** continue
+the Dr Shebl bank at **Ch.7 Male reproduction (p.34-37)** and **Ch.8 Female reproduction (p.38-43)** (plus the
+held Graves-exophthalmos, iodine-deficiency, hyperphosphataemia-PTH, secondary-hyperaldosteronism and
+somatostatin-gastrin items); dedup each vs the physiology corpus, push-per-slice.

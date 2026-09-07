@@ -585,3 +585,27 @@ steroid mix — low-yield), Q9 (secondary hyperaldosteronism renin — deferred)
 / non-aldosterone hyperglycaemic hormones — folded into the Cushing + gluconeogenesis concepts), Q15 (Conn ECF
 expansion). Dedup Ch.5 ~ moderate; the cortisol-mechanism / aldosterone-regulation / zonal-product / ACTH-pigment
 / ANP seam was fresh. Held: Q9 (secondary hyperaldosteronism). NEXT: Ch.6 Pancreas (p.29-33).
+
+Ch.6 Pancreas (30 Qs) recovered keys:
+Q1.a  Q2.c  Q3.c  Q4.c  Q5.c  Q6.c  Q7.c  Q8.a  Q9.c  Q10.c  Q11.b  Q12.b  Q13.d  Q14.c  Q15.c
+Q16.d Q17.b Q18.a Q19.d Q20.d Q21.a Q22.b Q23.d Q24.b Q25.c Q26.c Q27.c Q28.a Q29.c Q30.c
+
+— Authoring pass 2026-09-07, SLICE 5 (8 fresh MCQs, Ch.6 Pancreas) —
+Authored: Q16 (insulin-dependent uptake = GLUT4), Q17 (beta-cell glucose sensor = GLUT2), Q4 (glucagon
+stimulates glycogenolysis + gluconeogenesis; Q3/Q29 corroborate), Q6 (glucagon stimulated by hypoglycaemia;
+Q27 corroborates), Q14 (insulin inhibited by alpha-adrenergic activation), Q23 (insulin stimulates Na+-K+
+ATPase, drives K+ into cells), Q11 (islet cell types; F cells = pancreatic polypeptide not gastrin), Q1
+(adipose glucose uptake insulin-dependent, brain/RBC not). 8 concepts minted university-blind (all CON-END-*),
+collision-checked corpus-wide (0 collisions, 0 in-batch dupes), grouped into 1 new article
+(ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY). Subject tag endo. All 8 keys read from the printed answer line.
+SKIPPED as dupes of the authored 207-END physiology corpus: Q5/Q28 (insulin anabolic/antigluconeogenic =
+insulin.metabolic-effects), Q7/Q12 (insulin antiketogenic / T1DM lipolysis = insulin.metabolic-effects.excludes-
+ketogenesis), Q8/Q10 (insulin receptor tyrosine kinase = insulin.signal-transduction.receptor-tyrosine-kinase-
+not-camp), Q15 (GLP-1 incretin = glp1.incretin.increases-insulin-secretion), Q21 (insulin & IGF-1 shared
+receptor = insulin-igf1.receptor.shared-binding), Q25 (insulin hepatic glycogenesis — folded into metabolic-
+effects), Q18/Q19 (counter-regulatory hormones / adrenocortical hypoglycaemia = addison + GH concepts), Q2/Q9/
+Q26 (diabetes features/T2DM receptor — clinical, low-yield), Q30 (growth hormones EXCEPT PTH — low-yield).
+HELD (bad item, NOT authored): Q20 ("somatostatin inhibits all EXCEPT gastrin", keyed d) — somatostatin
+physiologically DOES inhibit gastrin, so the keyed exception is medically wrong; held per answer policy.
+Dedup Ch.6 ~ moderate; the GLUT-transporter / islet-cell / glucagon-stimulus / insulin-K+ seam was fresh.
+NEXT: Ch.7 Male reproduction (p.34-37) and Ch.8 Female reproduction (p.38-43).

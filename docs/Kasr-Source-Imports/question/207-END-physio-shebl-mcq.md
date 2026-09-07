@@ -4215,3 +4215,1123 @@ yes
 ## author_notes
 keySource: printed answer key (Q30 = b; Q11 = b striae, Q23 = c moon face corroborate)
 kasr: Dr Shebl physiology bank, Ch.5 Adrenal p.25-28
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-031
+
+## title
+Insulin-dependent glucose uptake uses GLUT4
+
+## question
+Insulin-dependent glucose uptake into skeletal muscle and adipose tissue is mainly mediated by:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+GLUT 1
+
+## explanation_a
+Incorrect. GLUT1 mediates basal, insulin-independent glucose uptake in cells such as red cells and the blood-brain barrier.
+
+## answer_b
+GLUT 2
+
+## explanation_b
+Incorrect. GLUT2 is a high-capacity transporter of the liver and pancreatic beta cells, not the insulin-responsive muscle/fat transporter.
+
+## answer_c
+GLUT 3
+
+## explanation_c
+Incorrect. GLUT3 is a high-affinity neuronal transporter and is insulin-independent.
+
+## answer_d
+GLUT 4
+
+## explanation_d
+Correct. Insulin stimulates glucose uptake into skeletal muscle and adipose tissue by recruiting GLUT4 transporters from intracellular vesicles to the plasma membrane. When insulin falls, GLUT4 is internalised, so uptake in these tissues is insulin-dependent. This is why muscle and fat glucose uptake drops in insulin deficiency.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-DFD9B57210BB1F
+
+## concept_ids
+CON-END-DFD9B57210BB1F
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that insulin-dependent glucose uptake in muscle and fat is mediated by GLUT4 recruitment.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.31 (Q16)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q16 = d)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.31
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-032
+
+## title
+Beta-cell glucose sensing uses GLUT2
+
+## question
+Insulin secretion from beta cells of the pancreas in response to a glucose load is mediated by:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+GLUT 1
+
+## explanation_a
+Incorrect. GLUT1 provides basal uptake in other tissues but is not the beta-cell glucose sensor.
+
+## answer_b
+GLUT 2
+
+## explanation_b
+Correct. Pancreatic beta cells take up glucose through GLUT2, a high-Km transporter whose uptake rate tracks the blood glucose level. Glucose is phosphorylated by glucokinase and metabolised, raising ATP, which closes ATP-sensitive K+ channels, depolarises the cell and triggers insulin release. GLUT2 therefore couples plasma glucose to insulin secretion.
+
+## answer_c
+GLUT 3
+
+## explanation_c
+Incorrect. GLUT3 is a neuronal transporter, not the beta-cell sensor.
+
+## answer_d
+GLUT 4
+
+## explanation_d
+Incorrect. GLUT4 is the insulin-responsive transporter of muscle and fat, not the beta-cell glucose sensor.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-69D0D9F921105C
+
+## concept_ids
+CON-END-69D0D9F921105C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that the pancreatic beta cell senses glucose through the GLUT2 transporter.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.31 (Q17)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q17 = b)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.31
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-033
+
+## title
+Glucagon stimulates hepatic glycogenolysis and gluconeogenesis
+
+## question
+Glucagon hormone (indicate the one correct characteristic):
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+It is secreted by pancreatic D-cells
+
+## explanation_a
+Incorrect. Glucagon is secreted by the alpha cells of the islets, not the delta (D) cells, which make somatostatin.
+
+## answer_b
+Its secretion is stimulated by an increase in blood glucose
+
+## explanation_b
+Incorrect. Glucagon secretion is stimulated by a fall, not a rise, in blood glucose.
+
+## answer_c
+It stimulates glycogenolysis and gluconeogenesis
+
+## explanation_c
+Correct. Glucagon is the main hyperglycaemic hormone: acting on the liver it stimulates glycogenolysis and gluconeogenesis, raising hepatic glucose output and blood glucose. It also promotes lipolysis and ketogenesis during fasting. Its actions oppose those of insulin.
+
+## answer_d
+It produces its action by binding to a cytoplasmic receptor
+
+## explanation_d
+Incorrect. Glucagon is a peptide that binds a membrane G-protein-coupled receptor and acts through cyclic AMP, not a cytoplasmic receptor.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-7D6D51CC5879BD
+
+## concept_ids
+CON-END-7D6D51CC5879BD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that glucagon raises blood glucose by stimulating hepatic glycogenolysis and gluconeogenesis.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.29 (Q4; Q3/Q29 corroborate)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q4 = c; Q3 = c, Q29 = c corroborate)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.29 and p.33
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-034
+
+## title
+Glucagon secretion is stimulated by hypoglycaemia
+
+## question
+Glucagon secretion is induced by:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+High serum concentration of glucose
+
+## explanation_a
+Incorrect. Hyperglycaemia suppresses glucagon secretion rather than stimulating it.
+
+## answer_b
+Low serum concentration of amino acids
+
+## explanation_b
+Incorrect. A rise in amino acids, not a fall, stimulates glucagon; low amino acids do not induce it.
+
+## answer_c
+Low serum concentration of glucose
+
+## explanation_c
+Correct. The principal stimulus for glucagon secretion is hypoglycaemia: a fall in blood glucose triggers alpha-cell glucagon release, which restores glucose by hepatic glycogenolysis and gluconeogenesis. This mirrors insulin, which is released when glucose is high. Amino acids and sympathetic activity also stimulate glucagon.
+
+## answer_d
+Secretion of somatostatin by pancreatic delta cells
+
+## explanation_d
+Incorrect. Somatostatin from delta cells inhibits glucagon secretion; it does not induce it.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-13AA6D3ACC464C
+
+## concept_ids
+CON-END-13AA6D3ACC464C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+Identify hypoglycaemia as the principal stimulus for glucagon secretion.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.29 (Q6; Q27 corroborates)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q6 = c; Q27 = c corroborates)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.29 and p.33
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-035
+
+## title
+Alpha-adrenergic activation inhibits insulin secretion
+
+## question
+Insulin secretion from beta-cells in the pancreas is inhibited by:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Acetylcholine
+
+## explanation_a
+Incorrect. Acetylcholine (parasympathetic) stimulates insulin secretion rather than inhibiting it.
+
+## answer_b
+Activation of beta-adrenergic receptors
+
+## explanation_b
+Incorrect. Beta-adrenergic activation stimulates insulin release; it is the alpha effect that inhibits.
+
+## answer_c
+Activation of alpha-adrenergic receptors
+
+## explanation_c
+Correct. Sympathetic activity acting on alpha-2 adrenergic receptors of the beta cell inhibits insulin secretion, which is appropriate in stress or exercise when glucose must be spared. This alpha effect dominates the sympathetic response. Acetylcholine and beta-adrenergic activity, in contrast, promote insulin release.
+
+## answer_d
+Glucagon
+
+## explanation_d
+Incorrect. Glucagon actually stimulates insulin secretion by a paracrine effect, rather than inhibiting it.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-FEB624BCDA9205
+
+## concept_ids
+CON-END-FEB624BCDA9205
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that alpha-adrenergic (sympathetic) activation inhibits insulin secretion.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.31 (Q14)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q14 = c)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.31
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-036
+
+## title
+Insulin increases Na+-K+ ATPase activity, driving potassium into cells
+
+## question
+Insulin hormone:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Inhibits the use of ketoacids by peripheral tissue
+
+## explanation_a
+Incorrect. Insulin promotes rather than inhibits substrate use and is antiketogenic, so this statement is wrong.
+
+## answer_b
+Transports glucose freely into liver cells through an insulin-sensitive GLUT2
+
+## explanation_b
+Incorrect. Hepatic glucose uptake is via GLUT2 but is not insulin-dependent; GLUT2 is not an insulin-sensitive transporter.
+
+## answer_c
+Stimulates glucose reabsorption in the kidney
+
+## explanation_c
+Incorrect. Insulin does not stimulate renal glucose reabsorption, which is handled by SGLT/GLUT independent of insulin.
+
+## answer_d
+Increases activity of the Na+-K+ ATPase in cell membranes
+
+## explanation_d
+Correct. Insulin increases the activity of the Na+-K+ ATPase in cell membranes, driving potassium into cells together with glucose. This is why insulin lowers plasma potassium and is used to treat hyperkalaemia. It supports the anabolic, gradient-dependent transport that insulin promotes.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-E54AA943E43475
+
+## concept_ids
+CON-END-E54AA943E43475
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that insulin stimulates the Na+-K+ ATPase, driving potassium into cells.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.32 (Q23)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q23 = d)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.32
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-037
+
+## title
+Islet cell types: F cells secrete pancreatic polypeptide, not gastrin
+
+## question
+Which of the following is incorrectly paired?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Beta cells - Insulin
+
+## explanation_a
+Incorrect (correctly paired). Beta cells secrete insulin, so this pairing is right and is not the wrong one.
+
+## answer_b
+F cells - Gastrin
+
+## explanation_b
+Correct (the incorrect pairing). The F cells (PP cells) of the islets secrete pancreatic polypeptide, not gastrin. Gastrin is produced by the G cells of the gastric antrum and duodenum, not by the pancreatic islets. Pairing F cells with gastrin is therefore wrong, making this the answer.
+
+## answer_c
+Delta cells - Somatostatin
+
+## explanation_c
+Incorrect (correctly paired). Delta cells secrete somatostatin, a correct pairing.
+
+## answer_d
+Alpha cells - Glucagon
+
+## explanation_d
+Incorrect (correctly paired). Alpha cells secrete glucagon, a correct pairing.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-5EDC5BD1CF21F2
+
+## concept_ids
+CON-END-5EDC5BD1CF21F2
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+Match the islet cell types to their hormones (alpha/glucagon, beta/insulin, delta/somatostatin, F/pancreatic polypeptide).
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.30 (Q11)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q11 = b)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.30
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-038
+
+## title
+Adipose glucose uptake is insulin-dependent, unlike brain and red cells
+
+## question
+Even without insulin, glucose uptake is adequate in all the following tissues EXCEPT:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Adipose tissue
+
+## explanation_a
+Correct (the exception). Adipose tissue depends on insulin for glucose uptake because it uses the insulin-responsive GLUT4 transporter. Without insulin, GLUT4 is internalised and adipose glucose uptake becomes inadequate. Adipose tissue is therefore the exception among these tissues.
+
+## answer_b
+Intestinal mucosa
+
+## explanation_b
+Incorrect. Intestinal mucosa takes up glucose independently of insulin, so its uptake is adequate without insulin.
+
+## answer_c
+The brain
+
+## explanation_c
+Incorrect. The brain takes up glucose through insulin-independent GLUT1 and GLUT3, so it does not require insulin.
+
+## answer_d
+Red blood cells
+
+## explanation_d
+Incorrect. Red blood cells take up glucose through insulin-independent GLUT1, so their uptake is adequate without insulin.
+
+## topic
+Physiology
+
+## subtopic
+Pancreatic islet
+
+## main_concept
+CON-END-3014D5CCB595C3
+
+## concept_ids
+CON-END-3014D5CCB595C3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Pancreatic islet
+
+## question_only_for
+
+## library_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+Contrast insulin-independent tissues (brain, red cells, gut) with insulin-dependent adipose and muscle.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.6 Pancreas p.29 (Q1)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q1 = a)
+kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.29

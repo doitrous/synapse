@@ -3372,3 +3372,899 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q30 = b, Q11 = b, Q23 = c).
+
+---
+
+# Item
+## id
+CON-END-DFD9B57210BB1F
+## label
+Insulin-dependent glucose uptake in muscle and fat is mediated by GLUT4
+## canonical_key
+insulin.glucose-uptake.glut4-muscle-adipose
+## aliases
+Insulin recruits GLUT4 to the membrane in muscle and adipose
+GLUT4 is the insulin-responsive glucose transporter
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Insulin stimulates glucose uptake into skeletal muscle and adipose tissue by recruiting GLUT4 transporters from intracellular vesicles to the plasma membrane. When insulin levels fall the GLUT4 transporters are internalised, so glucose uptake in these tissues is insulin-dependent. Other transporters (GLUT1, GLUT2, GLUT3) mediate insulin-independent uptake in cells such as red cells, the liver/beta cell and neurons.
+## explicit_objective
+State that insulin-dependent glucose uptake in muscle and fat is mediated by GLUT4 recruitment.
+## pitfalls
+Confusing the transporters; GLUT4 is the insulin-responsive one, whereas GLUT1-3 mediate insulin-independent uptake.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q16 = d).
+
+---
+
+# Item
+## id
+CON-END-69D0D9F921105C
+## label
+The pancreatic beta cell senses glucose through the GLUT2 transporter
+## canonical_key
+pancreatic-beta-cell.glucose-sensor.glut2
+## aliases
+GLUT2 couples blood glucose to insulin release
+Beta-cell glucose uptake is via high-Km GLUT2
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Pancreatic beta cells take up glucose through GLUT2, a high-Km transporter whose uptake rate tracks the blood glucose concentration. Glucose is phosphorylated by glucokinase and metabolised, raising intracellular ATP, which closes ATP-sensitive potassium channels, depolarises the cell, opens voltage-gated calcium channels and triggers insulin exocytosis. GLUT2 therefore couples the plasma glucose level to the rate of insulin secretion.
+## explicit_objective
+State that the pancreatic beta cell senses glucose through the GLUT2 transporter.
+## pitfalls
+Assuming the beta cell uses the insulin-responsive GLUT4; its glucose sensor is the high-Km GLUT2.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q17 = b).
+
+---
+
+# Item
+## id
+CON-END-7D6D51CC5879BD
+## label
+Glucagon raises blood glucose by stimulating hepatic glycogenolysis and gluconeogenesis
+## canonical_key
+glucagon.action.glycogenolysis-gluconeogenesis
+## aliases
+Glucagon is the main hyperglycaemic hormone acting on the liver
+Alpha-cell glucagon increases hepatic glucose output
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glucagon, secreted by the alpha cells of the islets, is the main hyperglycaemic hormone. Acting on the liver through a membrane G-protein-coupled receptor and cyclic AMP, it stimulates glycogenolysis and gluconeogenesis, raising hepatic glucose output and blood glucose, and it also promotes lipolysis and ketogenesis during fasting. Its actions oppose those of insulin.
+## explicit_objective
+State that glucagon raises blood glucose by stimulating hepatic glycogenolysis and gluconeogenesis.
+## pitfalls
+Attributing glucagon to beta cells or a cytoplasmic receptor; it is an alpha-cell peptide acting on a membrane GPCR.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q4 = c, Q3 = c, Q29 = c).
+
+---
+
+# Item
+## id
+CON-END-13AA6D3ACC464C
+## label
+Glucagon secretion is stimulated by hypoglycaemia
+## canonical_key
+glucagon.secretion-stimulus.hypoglycemia
+## aliases
+A fall in blood glucose triggers glucagon release
+Low glucose stimulates alpha-cell glucagon
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The principal stimulus for glucagon secretion is a fall in blood glucose (hypoglycaemia): the alpha cells respond by releasing glucagon, which restores glucose through hepatic glycogenolysis and gluconeogenesis. This is the mirror image of insulin, which is released when glucose is high. A rise in plasma amino acids and sympathetic activity also stimulate glucagon, whereas somatostatin and hyperglycaemia inhibit it.
+## explicit_objective
+Identify hypoglycaemia as the principal stimulus for glucagon secretion.
+## pitfalls
+Reversing the trigger; glucagon rises with low glucose, whereas insulin rises with high glucose.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q6 = c, Q27 = c).
+
+---
+
+# Item
+## id
+CON-END-FEB624BCDA9205
+## label
+Alpha-adrenergic (sympathetic) activation inhibits insulin secretion
+## canonical_key
+insulin.secretion.inhibited-by-alpha-adrenergic
+## aliases
+Sympathetic alpha-2 tone suppresses beta-cell insulin release
+Stress adrenergic activity lowers insulin secretion
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sympathetic activity acting on alpha-2 adrenergic receptors of the pancreatic beta cell inhibits insulin secretion, sparing glucose during stress and exercise. This alpha effect dominates the sympathetic response to catecholamines. In contrast, parasympathetic acetylcholine and beta-adrenergic stimulation promote insulin release.
+## explicit_objective
+State that alpha-adrenergic (sympathetic) activation inhibits insulin secretion.
+## pitfalls
+Assuming all autonomic input raises insulin; the alpha-adrenergic effect inhibits it, while vagal and beta effects stimulate.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q14 = c).
+
+---
+
+# Item
+## id
+CON-END-E54AA943E43475
+## label
+Insulin stimulates the Na+-K+ ATPase, driving potassium into cells
+## canonical_key
+insulin.action.stimulates-sodium-potassium-atpase
+## aliases
+Insulin lowers plasma potassium by activating the Na-K pump
+Insulin drives cellular potassium uptake
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Besides its effects on glucose, insulin increases the activity of the Na+-K+ ATPase in cell membranes, driving potassium into cells along with glucose. This lowers plasma potassium, which is the basis for using insulin (with glucose) to treat hyperkalaemia. The action complements insulin's anabolic, gradient-dependent transport of nutrients into cells.
+## explicit_objective
+State that insulin stimulates the Na+-K+ ATPase, driving potassium into cells.
+## pitfalls
+Overlooking insulin's potassium effect; by activating the Na-K pump insulin lowers plasma potassium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q23 = d).
+
+---
+
+# Item
+## id
+CON-END-5EDC5BD1CF21F2
+## label
+Islet cell types: alpha-glucagon, beta-insulin, delta-somatostatin, F-pancreatic polypeptide
+## canonical_key
+pancreatic-islet.cell-types.alpha-beta-delta-f-cells
+## aliases
+F (PP) cells secrete pancreatic polypeptide, not gastrin
+The four islet cell types and their hormones
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The islets of Langerhans contain four main endocrine cell types, each with its own hormone: alpha cells secrete glucagon, beta cells secrete insulin, delta cells secrete somatostatin, and F (PP) cells secrete pancreatic polypeptide. Gastrin is a hormone of gastric and duodenal G cells, not of the pancreatic F cells, so pairing F cells with gastrin is incorrect.
+## explicit_objective
+Match the islet cell types to their hormones (alpha/glucagon, beta/insulin, delta/somatostatin, F/pancreatic polypeptide).
+## pitfalls
+Pairing F (PP) cells with gastrin; F cells secrete pancreatic polypeptide, while gastrin comes from gastric G cells.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q11 = b).
+
+---
+
+# Item
+## id
+CON-END-3014D5CCB595C3
+## label
+Brain, red cells and gut take up glucose without insulin, unlike muscle and adipose
+## canonical_key
+glucose-uptake.insulin-independent-tissues.brain-rbc
+## aliases
+Insulin-independent glucose uptake in brain and red cells
+Adipose and muscle need insulin for glucose uptake, the brain does not
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Several tissues take up glucose independently of insulin because they use non-insulin-responsive transporters: the brain (GLUT1/GLUT3), red blood cells (GLUT1), the intestinal mucosa, renal tubules and the liver (GLUT2). By contrast, skeletal muscle and adipose tissue depend on insulin-recruited GLUT4, so their uptake fails in insulin deficiency. This is why the brain is relatively protected while muscle and fat are affected when insulin is lacking.
+## explicit_objective
+Contrast insulin-independent tissues (brain, red cells, gut) with insulin-dependent adipose and muscle.
+## pitfalls
+Assuming all tissues need insulin for glucose; the brain and red cells do not, whereas adipose and muscle do.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Pancreatic islet
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## article_ids
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q1 = a).

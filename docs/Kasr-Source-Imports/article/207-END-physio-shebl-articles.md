@@ -463,3 +463,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.5 Adrenal cortex).
 ## reading_time
 7
+
+---
+
+# Item
+## id
+ART-END-207END-SHEBL-PANCREAS-PHYSIOLOGY
+## title
+Pancreatic islet physiology: insulin, glucagon and glucose transporters
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+The islets of Langerhans hold four cell types: alpha cells make glucagon, beta cells insulin, delta cells somatostatin, and F (PP) cells pancreatic polypeptide. Beta cells sense glucose through the high-Km GLUT2 transporter, which couples blood glucose to insulin release; insulin then drives glucose into muscle and adipose tissue by recruiting GLUT4, and it activates the Na+-K+ ATPase, lowering plasma potassium. Tissues such as the brain and red cells take up glucose without insulin through GLUT1/GLUT3, whereas muscle and fat depend on insulin. Insulin secretion is stimulated by glucose, amino acids, incretins and vagal activity, and is inhibited by alpha-adrenergic (sympathetic) tone. Glucagon from alpha cells is the main hyperglycaemic hormone: released in hypoglycaemia, it drives hepatic glycogenolysis and gluconeogenesis.
+## sections
+### Definition
+This article groups the pancreatic-islet physiology facts tested by the Dr Shebl set: the islet cell types and their hormones, GLUT2 glucose sensing, GLUT4 insulin-dependent uptake, the insulin-independent tissues, insulin's Na-K ATPase action, alpha-adrenergic inhibition of insulin, and glucagon's hypoglycaemic stimulus and hepatic actions.
+### Mechanism
+Glucose enters beta cells via GLUT2, is metabolised, closes ATP-sensitive K+ channels and triggers insulin release. Insulin recruits GLUT4 in muscle and fat and stimulates the Na-K pump. Sympathetic alpha-2 tone suppresses insulin, while low glucose drives alpha-cell glucagon, which raises hepatic glucose output by glycogenolysis and gluconeogenesis.
+### Key determinants
+Discriminators tested here: the four islet cell/hormone pairs; GLUT2 (beta-cell sensor) versus GLUT4 (insulin-responsive) versus GLUT1/3 (insulin-independent); insulin's potassium-lowering Na-K ATPase action; alpha-adrenergic inhibition versus vagal/beta stimulation of insulin; and hypoglycaemia as the glucagon stimulus.
+### Clinical significance
+These points underlie insulin-glucose treatment of hyperkalaemia, the protection of the brain during hypoglycaemia, the pathophysiology of type 1 and type 2 diabetes, and the counter-regulatory role of glucagon.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors here are built from those reversals (pairing F cells with gastrin, using GLUT4 as the beta-cell sensor, assuming the brain needs insulin, or reversing the glucose stimulus for insulin and glucagon).
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Pancreatic islet
+## subtopic
+Pancreatic islet
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## related_concepts
+CON-END-DFD9B57210BB1F
+CON-END-69D0D9F921105C
+CON-END-7D6D51CC5879BD
+CON-END-13AA6D3ACC464C
+CON-END-FEB624BCDA9205
+CON-END-E54AA943E43475
+CON-END-5EDC5BD1CF21F2
+CON-END-3014D5CCB595C3
+## related_articles
+
+## resource_ids
+src_8363527119860a6d39ed
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.6 Pancreas).
+## reading_time
+7
