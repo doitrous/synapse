@@ -1,15 +1,18 @@
-import { useMemo, useState } from 'react'
-import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, CreditCard, GraduationCap, UserRound } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, Contact, CreditCard, GraduationCap, Upload, UserRound, type LucideIcon } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
+import { Avatar } from '@/components/ui/Avatar'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import { universities as seededUniversities } from '@/data/universities'
 import { useIdentity } from '@/lib/useIdentity'
-import { takeSignupDetails } from '@/lib/auth/client'
+import { useAvatar } from '@/lib/useAvatar'
+import { normalisePhone } from '@/data/accountIdentity'
+import { peekSignupDetails, takeSignupDetails } from '@/lib/auth/client'
 import { API_MODE, apiPut } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
@@ -69,9 +72,17 @@ function StepDots({ step, total }: { step: number; total: number }) {
 
 export function StudentOnboarding() {
   const t = useT()
-  const { audienceSettled, audienceUnknown, status, saveEnrolment } = useIdentity()
+  const { audienceSettled, audienceUnknown, status, saveEnrolment, metadataName, avatarUrl, displayName, email } = useIdentity()
+  const avatar = useAvatar()
   const [configured, , catalogueStatus] = useUniversityCatalogue()
   const [catalog] = usePlanCatalog()
+
+  // A password sign-up parked its phone locally; a Google/Facebook one did not.
+  // An empty phone here is what marks a social account that still owes the
+  // contact details this flow now collects itself, right after login, rather
+  // than on a later screen. Password sign-ups already carry them and skip it.
+  const signup = useMemo(() => peekSignupDetails(), [])
+  const needsDetails = !signup.phone
 
   const [step, setStep] = useState(0)
   const [universityId, setUniversityId] = useState('')
@@ -81,8 +92,35 @@ export function StudentOnboarding() {
   const [profileDraft, setProfileDraft] = usePersistentState<StudentProfileDraft>(PROFILE_STORAGE_KEY, { username: '', iconId: DEFAULT_PROFILE_ICON })
   const [username, setUsername] = useState(profileDraft.username)
   const [iconId, setIconId] = useState(profileDraft.iconId || DEFAULT_PROFILE_ICON)
+  const [phone, setPhone] = useState('')
+  const [nationality, setNationality] = useState(signup.nationality ?? '')
+  const [name, setName] = useState(signup.name ?? '')
+  const namePrefilled = useRef(false)
+  // null = not chosen yet, so a provider photo arriving after first paint still
+  // becomes the default; an explicit click pins the choice.
+  const [photoChoice, setPhotoChoice] = useState<'provider' | 'upload' | 'none' | null>(null)
+  const effectivePhoto = photoChoice ?? (avatarUrl ? 'provider' : 'none')
+  const [customFile, setCustomFile] = useState<File | null>(null)
+  const [customPreview, setCustomPreview] = useState<string | null>(null)
+  const fileInputRef = useRef<HTMLInputElement>(null)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
+
+  useEffect(() => {
+    if (!customFile) { setCustomPreview(null); return undefined }
+    const url = URL.createObjectURL(customFile)
+    setCustomPreview(url)
+    return () => URL.revokeObjectURL(url)
+  }, [customFile])
+
+  // The provider's name arrives with /api/me, sometimes a beat after mount.
+  // Seed the editable Name field with it once it lands, then leave it alone so
+  // the student can correct or clear it.
+  useEffect(() => {
+    if (namePrefilled.current) return
+    const provided = metadataName?.trim()
+    if (provided) { setName(provided); namePrefilled.current = true }
+  }, [metadataName])
 
   // An admin-configured catalogue is the real list; the seeded schools stand in
   // when none has been set up yet, so this is never an empty screen.
@@ -98,28 +136,42 @@ export function StudentOnboarding() {
   )
   const cleanUsername = normaliseUsername(username)
   const profileError = usernameProblem(username)
-  const steps = [
+  const cleanPhone = normalisePhone(phone)
+  const stepList: { key: string; title: string; description: string; icon: LucideIcon }[] = [
     {
+      key: 'university',
       title: t('Where do you study?'),
       description: t('This decides which timetable and which content you see.'),
       icon: Building2,
     },
     {
+      key: 'year',
       title: t('Which year are you in?'),
       description: t('Your year decides the modules you are taught, and what your timetable shows.'),
       icon: GraduationCap,
     },
     {
+      key: 'profile',
       title: t('Choose your profile'),
       description: t('Your username and icon are what classmates see if you opt in to discovery later.'),
       icon: UserRound,
     },
+    ...(needsDetails
+      ? [{
+          key: 'details',
+          title: t('Your details'),
+          description: t('Google and Facebook share your name and photo — add a phone number to finish.'),
+          icon: Contact,
+        }]
+      : []),
     {
+      key: 'plan',
       title: t('Choose your plan'),
       description: t('Every new account starts with {days} days of full access.').replace('{days}', String(TRIAL_DAYS)),
       icon: CreditCard,
     },
   ]
+  const current = stepList[step] ?? stepList[stepList.length - 1]
 
   // Nothing is decided until the account has answered for itself, and the
   // catalogue this screen offers has arrived. Rendering earlier means asking a
@@ -136,6 +188,11 @@ export function StudentOnboarding() {
 
   async function finish() {
     if (!university || !year || !planId || profileError) return
+    if (needsDetails && !cleanPhone) {
+      setError(t('Enter your phone number, including the country code if you are outside Egypt.'))
+      setStep(stepList.findIndex((entry) => entry.key === 'details'))
+      return
+    }
     setError('')
     setSaving(true)
     try {
@@ -150,49 +207,76 @@ export function StudentOnboarding() {
           // choice locally while the deployment catches up.
         }
       }
-      // Sign-up collected a name, a phone and a nationality before there was
-      // any row to store them in. This is the first request that can carry
-      // them across, and it is also what finally gives the phone-number
-      // uniqueness check a row to compare against. Read once and dropped: a
-      // second onboarding must not resurrect the first account's details.
+      // A social sign-up's photo — the provider's own, imported, or one they
+      // uploaded — saved before the enrolment lands, because saving the
+      // enrolment is what closes this overlay. Best-effort: a photo that fails
+      // to save is not worth blocking the whole sign-up over.
+      if (needsDetails) {
+        try {
+          if (effectivePhoto === 'upload' && customFile) await avatar.upload(customFile)
+          else if (effectivePhoto === 'provider' && avatarUrl) await avatar.importFromUrl(avatarUrl)
+        } catch { /* see above */ }
+      }
+      // Sign-up collected a name, a phone and a nationality before there was any
+      // row to store them in — a password one parked in localStorage, a social
+      // one handed over by the provider (name here, phone/nationality from the
+      // step above). This save carries them across, and finally gives the
+      // phone-uniqueness check a row to compare against.
       const details = takeSignupDetails()
-      await saveEnrolment({
+      const { phoneConflict } = await saveEnrolment({
         universityId: university.id,
         year: year.year,
         group: group.trim(),
         plan: planId,
-        name: details.name,
-        phone: details.phone,
-        nationality: details.nationality,
+        name: needsDetails ? (name.trim() || metadataName?.trim() || details.name) : details.name,
+        phone: needsDetails ? (cleanPhone ?? undefined) : details.phone,
+        nationality: needsDetails ? nationality.trim() : details.nationality,
       })
+      if (phoneConflict) {
+        // The enrolment saved; only the number was dropped. CompleteProfile is
+        // the fallback that catches this, but say so here in case the overlay
+        // is still up.
+        setSaving(false)
+        setError(t('That phone number is already registered to another account. Use a different number.'))
+        setStep(stepList.findIndex((entry) => entry.key === 'details'))
+      }
     } catch {
       setSaving(false)
       setError(t('That could not be saved. Check your connection and try again — nothing has been lost.'))
     }
   }
 
-  const canContinue = [Boolean(university), Boolean(year), !profileError, Boolean(planId)][step]
+  const canContinueByKey: Record<string, boolean> = {
+    university: Boolean(university),
+    year: Boolean(year),
+    profile: !profileError,
+    details: Boolean(cleanPhone),
+    plan: Boolean(planId),
+  }
+  const canContinue = canContinueByKey[current.key] ?? false
+  const photoPill = (active: boolean) =>
+    cn('inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-[11.5px] font-medium transition-colors', active ? 'border-primary bg-primary-tint text-primary-strong' : 'border-line text-ink-2 hover:bg-inset')
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-paper" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
       <div className="mx-auto flex min-h-full w-full max-w-3xl flex-col px-5 py-8 sm:py-12">
         <div className="flex items-center gap-3">
           <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-primary-tint text-primary-strong">
-            <Icon icon={steps[step].icon} size={20} />
+            <Icon icon={current.icon} size={20} />
           </span>
           <div className="min-w-0 flex-1">
             <h1 id="onboarding-title" className="font-serif text-[22px] font-semibold text-ink">
-              {steps[step].title}
+              {current.title}
             </h1>
             <p className="mt-0.5 text-[13px] text-ink-2">
-              {steps[step].description}
+              {current.description}
             </p>
           </div>
-          <StepDots step={step} total={steps.length} />
+          <StepDots step={step} total={stepList.length} />
         </div>
 
         <div className="mt-7 flex-1">
-          {step === 0 && (
+          {current.key === 'university' && (
             <ul className="grid gap-2 sm:grid-cols-2">
               {universities.map((entry) => (
                 <li key={entry.id}>
@@ -221,7 +305,7 @@ export function StudentOnboarding() {
             </ul>
           )}
 
-          {step === 1 && (
+          {current.key === 'year' && (
             <>
               <ul className="grid gap-2 sm:grid-cols-3">
                 {years.map((entry) => (
@@ -272,7 +356,7 @@ export function StudentOnboarding() {
             </>
           )}
 
-          {step === 2 && (
+          {current.key === 'profile' && (
             <div className="space-y-5">
               <Field
                 label={t('Username')}
@@ -327,7 +411,60 @@ export function StudentOnboarding() {
             </div>
           )}
 
-          {step === 3 && (
+          {current.key === 'details' && (
+            <div className="space-y-5">
+              {/* Profile photo — the provider's own by default, so a social
+                  sign-up keeps the face it already has. */}
+              <div className="flex items-center gap-3.5 rounded-xl border border-line bg-surface-2/50 p-3.5">
+                {effectivePhoto === 'upload' && customPreview
+                  ? <img src={customPreview} alt="" className="size-12 shrink-0 rounded-full border border-primary-line object-cover" />
+                  : effectivePhoto === 'provider' && avatarUrl
+                    ? <img src={avatarUrl} alt="" referrerPolicy="no-referrer" className="size-12 shrink-0 rounded-full border border-primary-line object-cover" />
+                    : <Avatar name={displayName} size="lg" />}
+                <div className="min-w-0 flex-1">
+                  <p className="text-[13px] font-medium text-ink">{t('Profile photo')}</p>
+                  <p className="mt-0.5 text-[11.5px] text-ink-3">{avatarUrl ? t('Your Google or Facebook photo, another you upload, or the default.') : t('Upload a photo, or keep the default.')}</p>
+                  <div className="mt-2 flex flex-wrap gap-1.5">
+                    {avatarUrl && (
+                      <button type="button" onClick={() => { setPhotoChoice('provider'); setCustomFile(null) }} className={photoPill(effectivePhoto === 'provider')}>{t('Use my photo')}</button>
+                    )}
+                    <button type="button" onClick={() => fileInputRef.current?.click()} className={photoPill(effectivePhoto === 'upload')}><Icon icon={Upload} size={12} />{t('Upload')}</button>
+                    <button type="button" onClick={() => { setPhotoChoice('none'); setCustomFile(null) }} className={photoPill(effectivePhoto === 'none')}>{t('No photo')}</button>
+                  </div>
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    accept="image/png,image/jpeg,image/gif,image/webp"
+                    className="hidden"
+                    onChange={(event) => {
+                      const file = event.target.files?.[0] ?? null
+                      if (file) { setCustomFile(file); setPhotoChoice('upload') }
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div className="grid gap-4 sm:grid-cols-2">
+                <Field label={t('Name')} htmlFor="onboarding-name" hint={t('From your Google or Facebook account — edit if it is not quite right.')}>
+                  <TextInput id="onboarding-name" name="name" autoComplete="name" value={name} onChange={(event) => setName(event.target.value)} placeholder={t('Your full name')} />
+                </Field>
+                <Field label={t('Email')} htmlFor="onboarding-email" hint={t('The account you signed in with')}>
+                  <TextInput id="onboarding-email" name="email" type="email" value={email ?? ''} readOnly aria-readonly="true" className="bg-surface-2 text-ink-2" />
+                </Field>
+              </div>
+
+              <div className="grid gap-4 sm:grid-cols-2">
+                <Field label={t('Phone number')} htmlFor="onboarding-phone" hint={t('One account per number')}>
+                  <TextInput id="onboarding-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567…" />
+                </Field>
+                <Field label={t('Nationality')} htmlFor="onboarding-nationality" hint={t('Optional')}>
+                  <TextInput id="onboarding-nationality" name="nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian…" />
+                </Field>
+              </div>
+            </div>
+          )}
+
+          {current.key === 'plan' && (
             <ul className="grid gap-2.5">
               {plans.map((plan) => (
                 <PlanChoice
@@ -358,8 +495,8 @@ export function StudentOnboarding() {
               {t('Back')}
             </Button>
           )}
-          <span className="ms-auto text-[12px] text-ink-3">{t('Step')} {step + 1} / {steps.length}</span>
-          {step < steps.length - 1 ? (
+          <span className="ms-auto text-[12px] text-ink-3">{t('Step')} {step + 1} / {stepList.length}</span>
+          {step < stepList.length - 1 ? (
             <Button type="button" variant="primary" iconRight={ArrowRight} disabled={!canContinue} onClick={() => setStep((current) => current + 1)}>
               {t('Continue')}
             </Button>

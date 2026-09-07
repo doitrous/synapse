@@ -146,3 +146,19 @@ export function takeSignupDetails(): SignupDetails {
     return {}
   }
 }
+
+/**
+ * The same values without consuming them — for deciding *whether* to ask again.
+ * A password sign-up parks a phone here; a Google/Facebook one never does, so an
+ * empty phone is how onboarding knows a social account still owes those details
+ * and must collect them itself. Read-only: the real, clearing read stays
+ * `takeSignupDetails`, on the save that writes the row.
+ */
+export function peekSignupDetails(): SignupDetails {
+  try {
+    const stored = localStorage.getItem(SIGNUP_DETAILS_KEY)
+    return stored ? (JSON.parse(stored) as SignupDetails) : {}
+  } catch {
+    return {}
+  }
+}
