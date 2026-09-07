@@ -347,3 +347,41 @@ Kasr Al Ainy END 207 Dr Ahmed Zahra HISTOLOGY MCQ bank (endocrine + reproductive
 true
 
 ---
+
+# Item
+## id
+src_8363527119860a6d39ed
+## title
+Physio MCQ by Dr.Shebl [END]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Physiology Dr. Shebl [2nd priority]/MCQs/Physio MCQ by Dr.Shebl [END].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+43
+## sha256
+8363527119860a6d39ed859ddc9ee0b5a8519ebee8b83d67baf2aaba3e32cd07
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 Dr Shebl PHYSIOLOGY MCQ bank (endocrine + reproductive systems). An instructor topic bank filed under Physiology Dr. Shebl [2nd priority] (filename names Shebl), so examSittingYear is null. Native text layer, 43 pages, organised by chapter (Ch.1 Introduction, Ch.2 Pituitary, Ch.3 Thyroid, Ch.4 Calcium regulation, Ch.5 Adrenal cortex, Ch.6 Pancreas, Ch.7 Male reproduction, Ch.8 Female reproduction). SOLVED: each question is followed by a printed "Answer: <letter>- <full option text>" line, parsed directly for the key; the pagetext keys bold-flag heuristic is unreliable on this bank (spurious last-option run) and is ignored. Keys cross-checked against physiology first principles and against each stem for a clean single-best answer. This bank opens the Dr Shebl physiology frontier of the module (the physiology banks were triaged but unauthored). First authoring pass: Ch.2 Pituitary fresh single-best items (Q7 POMC/ACTH, Q14 GH JAK-STAT, Q11 GH amino-acid transport, Q37 somatomedin binding proteins, Q35 ADH aquaporin-2, Q28 oxytocin Ferguson reflex); dupes of the authored 207-END physiology corpus skipped. Remaining chapters (thyroid, calcium, adrenal, pancreas, male, female) remain for later slices.
+## confidence
+0.9
+## is_assessment
+true
+
+---

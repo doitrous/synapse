@@ -1,0 +1,188 @@
+{
+ "lane": "KASR-207END",
+ "cluster": "physio-shebl",
+ "header": "KASR-207END - Dr Shebl PHYSIOLOGY MCQ bank - Kasr Al Ainy 207 END physiology of the endocrine and reproductive systems, instructor topic bank filed under Physiology Dr. Shebl [2nd priority], sourceId src_8363527119860a6d39ed (sha256 8363527119860a6d39ed859ddc9ee0b5a8519ebee8b83d67baf2aaba3e32cd07). Native text layer, 43 pages, organised by chapter (Ch.1 Introduction, Ch.2 Pituitary, Ch.3 Thyroid, Ch.4 Calcium, Ch.5 Adrenal cortex, Ch.6 Pancreas, Ch.7 Male reproduction, Ch.8 Female reproduction). SOLVED - each question is followed by a printed 'Answer: <letter>- <full option text>' line, parsed directly (the pagetext keys bold-flag heuristic is unreliable on this bank and is ignored). This file opens the Dr Shebl physiology frontier; only items whose atomic claim is NOT already in the authored 207-END corpus (294 concepts) are authored - keys read from the printed answer line and each stem cross-checked for a clean single-best answer. Concepts minted university-blind (CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked - all new. Options faithful to the paper (minor spelling cleanup only); keys unchanged. Being a doctor's topic bank the manifest examSittingYear is null.\n\n  Import: Admin > Bulk import -> question.",
+ "defaults": {
+  "subject": "endo",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": ["kau"],
+  "years": ["KAU_Y2"],
+  "module": "207 END",
+  "exam_weight_by_year": { "KAU_Y2": "moderate" },
+  "question_only_for": "",
+  "resource_ids": ["src_8363527119860a6d39ed"],
+  "source_citation": "Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, {page}",
+  "setting": "Academic",
+  "difficulty": "Moderate",
+  "question_type": "Single best answer",
+  "cognitive_effort": "Medium",
+  "reasoning_level": 2,
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Physiology",
+  "library_ids": ["ART-END-207END-SHEBL-ANTERIOR-PITUITARY-PHYSIOLOGY"]
+ },
+ "questions": [
+  {
+   "key": "c2q07",
+   "id": "QST-KASR207END-PHYSHEBL-001",
+   "page": "Ch.2 Pituitary p.6 (Q7)",
+   "title": "Pro-opiomelanocortin is the precursor of ACTH",
+   "question": "Pro-opiomelanocortin (POMC) is the precursor of:",
+   "options": {
+    "A": "Adrenocorticotropic hormone (ACTH)",
+    "B": "Cortisol",
+    "C": "Growth hormone",
+    "D": "Prolactin",
+    "E": "Thyroid-stimulating hormone (TSH)"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. Pro-opiomelanocortin is a large precursor peptide made by the corticotrophs of the anterior pituitary. Post-translational cleavage of POMC yields ACTH together with melanocyte-stimulating hormone, beta-lipotropin and beta-endorphin, so ACTH is the pituitary hormone derived from POMC.",
+    "B": "Incorrect. Cortisol is a steroid synthesised from cholesterol by the adrenal zona fasciculata under the drive of ACTH; it is not a peptide and is not cleaved from POMC.",
+    "C": "Incorrect. Growth hormone is a single-chain polypeptide transcribed from its own gene in the somatotrophs; it is not part of the POMC family.",
+    "D": "Incorrect. Prolactin is a distinct single-chain polypeptide made by the mammotrophs and is unrelated to POMC.",
+    "E": "Incorrect. TSH is a glycoprotein of an alpha and a beta subunit encoded by separate genes; it is not derived from POMC."
+   },
+   "main_concept": "CON-END-AB812888FA4AB4",
+   "concept_ids": ["CON-END-AB812888FA4AB4"],
+   "subtopic": "Anterior pituitary",
+   "module_subject": "207 END > Physiology > Anterior pituitary",
+   "learning_objective": "Identify ACTH (with MSH, beta-lipotropin and beta-endorphin) as the cleavage products of pro-opiomelanocortin.",
+   "field_notes": { "keySource": "printed answer key (Q7 = a)", "kasr": "Dr Shebl physiology bank, Ch.2 Pituitary p.6" }
+  },
+  {
+   "key": "c2q14",
+   "id": "QST-KASR207END-PHYSHEBL-002",
+   "page": "Ch.2 Pituitary p.7 (Q14; Q36 corroborates)",
+   "title": "Growth hormone signals through the JAK-STAT pathway",
+   "question": "JAK-STAT pathways mediate the effects of:",
+   "options": {
+    "A": "Thyroid hormones",
+    "B": "Vasopressin",
+    "C": "Glucagon",
+    "D": "Growth hormone"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. Thyroid hormones are lipophilic and act on nuclear thyroid-hormone receptors that bind DNA response elements; they do not use a membrane JAK-STAT cascade.",
+    "B": "Incorrect. Vasopressin acts through G-protein-coupled receptors: V2 receptors raise cyclic AMP and V1 receptors raise intracellular calcium via phospholipase C, not JAK-STAT.",
+    "C": "Incorrect. Glucagon works through a Gs-coupled receptor that raises cyclic AMP; it does not signal through JAK-STAT.",
+    "D": "Correct. The growth-hormone receptor is a single-pass cytokine-family receptor with no intrinsic kinase activity. Hormone binding dimerises the receptor and activates associated JAK2 (Janus kinase 2), which phosphorylates STAT proteins; the STATs then translocate to the nucleus to alter transcription, so the JAK-STAT pathway mediates growth-hormone action."
+   },
+   "main_concept": "CON-END-7B2DA0D46E8EAB",
+   "concept_ids": ["CON-END-7B2DA0D46E8EAB"],
+   "subtopic": "Anterior pituitary",
+   "module_subject": "207 END > Physiology > Anterior pituitary",
+   "learning_objective": "State that growth hormone acts through a JAK2-STAT signalling cascade.",
+   "field_notes": { "keySource": "printed answer key (Q14 = d; Q36 = b 'activates JAK2' corroborates)", "kasr": "Dr Shebl physiology bank, Ch.2 Pituitary p.7 and p.10" }
+  },
+  {
+   "key": "c2q11",
+   "id": "QST-KASR207END-PHYSHEBL-003",
+   "page": "Ch.2 Pituitary p.6 (Q11)",
+   "title": "Growth hormone promotes protein synthesis via amino-acid transport",
+   "question": "Growth hormone effects include:",
+   "options": {
+    "A": "Growth by a direct action on the epiphyseal cartilage",
+    "B": "Protein synthesis by increasing amino acid transport through cell membranes",
+    "C": "Glucose utilization by the cells",
+    "D": "Lipogenesis in adipose tissue"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Growth hormone acts on the epiphyseal cartilage mainly indirectly, by inducing hepatic somatomedins (IGF-1) which drive chondrocyte proliferation; the epiphyseal effect is not a direct GH action.",
+    "B": "Correct. Growth hormone is anabolic for protein. It increases the active transport of amino acids into cells and stimulates their incorporation into protein while reducing protein catabolism. The net result is a positive nitrogen balance, which supports tissue growth.",
+    "C": "Incorrect. Growth hormone is diabetogenic - it decreases cellular glucose utilisation and antagonises insulin, so it does not increase glucose uptake by cells.",
+    "D": "Incorrect. Growth hormone is lipolytic, mobilising fatty acids from adipose tissue for energy; it promotes lipolysis, not lipogenesis."
+   },
+   "main_concept": "CON-END-38A875EEE45153",
+   "concept_ids": ["CON-END-38A875EEE45153"],
+   "subtopic": "Anterior pituitary",
+   "module_subject": "207 END > Physiology > Anterior pituitary",
+   "learning_objective": "Describe growth hormone's protein-anabolic action through increased amino-acid transport into cells.",
+   "field_notes": { "keySource": "printed answer key (Q11 = b)", "kasr": "Dr Shebl physiology bank, Ch.2 Pituitary p.6" }
+  },
+  {
+   "key": "c2q37",
+   "id": "QST-KASR207END-PHYSHEBL-004",
+   "page": "Ch.2 Pituitary p.10 (Q37)",
+   "title": "Somatomedins circulate bound to carrier proteins with slow release",
+   "question": "Somatomedins:",
+   "options": {
+    "A": "Are secreted from the liver to stimulate growth hormone secretion",
+    "B": "Are insulin-like growth factors secreted by the hypothalamus",
+    "C": "Attach strongly to carrier proteins in the blood and are released slowly to tissues",
+    "D": "Decrease the synthesis of collagen and chondroitin sulphate"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Somatomedins do feed back on growth-hormone secretion, but they inhibit it (by stimulating hypothalamic somatostatin and acting on the pituitary), rather than stimulate it.",
+    "B": "Incorrect. Somatomedins (insulin-like growth factors) are produced mainly by the liver in response to growth hormone, not by the hypothalamus.",
+    "C": "Correct. Circulating somatomedins are almost entirely bound to specific IGF-binding proteins. This binding gives them a long plasma half-life and releases the active factor slowly to the tissues, so their action is sustained rather than pulsatile.",
+    "D": "Incorrect. Somatomedins stimulate the synthesis of collagen and chondroitin sulphate by chondrocytes, promoting cartilage and bone growth; they do not decrease it."
+   },
+   "main_concept": "CON-END-05E9EB0E5FF3F8",
+   "concept_ids": ["CON-END-05E9EB0E5FF3F8"],
+   "subtopic": "Anterior pituitary",
+   "module_subject": "207 END > Physiology > Anterior pituitary",
+   "learning_objective": "Explain that somatomedins circulate bound to carrier proteins, giving a long half-life and slow tissue release.",
+   "field_notes": { "keySource": "printed answer key (Q37 = c)", "kasr": "Dr Shebl physiology bank, Ch.2 Pituitary p.10" }
+  },
+  {
+   "key": "c2q35",
+   "id": "QST-KASR207END-PHYSHEBL-005",
+   "page": "Ch.2 Pituitary p.10 (Q35)",
+   "title": "ADH inserts aquaporin-2 water channels in the renal tubule",
+   "question": "The functions of ADH include:",
+   "options": {
+    "A": "V1 receptor activation to induce the production of prostaglandin E2",
+    "B": "Decreased potassium excretion in urine",
+    "C": "Insertion of aquaporin-2 channels into the distal renal tubules",
+    "D": "V2 receptor stimulation in pituitary corticotropes during stress"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. V1 receptors act through phospholipase C to cause vascular smooth-muscle contraction; renal prostaglandin E2 actually opposes ADH, so PGE2 production is not an ADH effect.",
+    "B": "Incorrect. ADH regulates water rather than potassium handling; it does not reduce urinary potassium excretion (that is a feature of aldosterone-driven sodium-potassium exchange).",
+    "C": "Correct. ADH binds V2 receptors on the basolateral membrane of collecting-duct principal cells, raising intracellular cyclic AMP. The cyclic AMP signal drives insertion of preformed aquaporin-2 water channels into the apical membrane. Water is then reabsorbed down the medullary osmotic gradient, so a concentrated urine is formed.",
+    "D": "Incorrect. The renal antidiuretic action is mediated by V2 receptors on the collecting duct, not on pituitary corticotropes; ADH does potentiate ACTH release, but through V1b (V3) receptors, not V2."
+   },
+   "main_concept": "CON-END-01389CD9E41784",
+   "concept_ids": ["CON-END-01389CD9E41784"],
+   "subtopic": "Posterior pituitary",
+   "module_subject": "207 END > Physiology > Posterior pituitary",
+   "learning_objective": "Describe the V2-receptor / cyclic-AMP / aquaporin-2 mechanism of the antidiuretic action of ADH.",
+   "field_notes": { "keySource": "printed answer key (Q35 = c)", "kasr": "Dr Shebl physiology bank, Ch.2 Pituitary p.10" },
+   "library_ids": ["ART-END-207END-SHEBL-POSTERIOR-PITUITARY-PHYSIOLOGY"]
+  },
+  {
+   "key": "c2q28",
+   "id": "QST-KASR207END-PHYSHEBL-006",
+   "page": "Ch.2 Pituitary p.9 (Q28; Q26 corroborates)",
+   "title": "Cervical dilation stimulates oxytocin release (Ferguson reflex)",
+   "question": "Secretion of oxytocin is increased by:",
+   "options": {
+    "A": "Milk ejection",
+    "B": "Dilation of cervix",
+    "C": "Increased prolactin levels",
+    "D": "Increased extracellular fluid volume"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Milk ejection is the result of oxytocin action on breast myoepithelial cells, not a stimulus for its secretion; the stimulus is suckling.",
+    "B": "Correct. Stretch of the cervix and vagina during labour sends afferent signals to the hypothalamus that trigger oxytocin release. The released oxytocin strengthens uterine contraction, which dilates the cervix further and evokes still more oxytocin. This self-reinforcing loop is the positive-feedback Ferguson reflex of parturition.",
+    "C": "Incorrect. Prolactin and oxytocin are secreted in parallel during lactation, but a rise in prolactin is not itself a stimulus for oxytocin release.",
+    "D": "Incorrect. A rise in extracellular fluid volume suppresses ADH, and volume is not a physiological stimulus for oxytocin secretion."
+   },
+   "main_concept": "CON-END-0D30110930BD3D",
+   "concept_ids": ["CON-END-0D30110930BD3D"],
+   "subtopic": "Posterior pituitary",
+   "module_subject": "207 END > Physiology > Posterior pituitary",
+   "learning_objective": "Identify cervical/vaginal stretch as the stimulus for oxytocin release in the Ferguson positive-feedback reflex.",
+   "field_notes": { "keySource": "printed answer key (Q28 = b; Q26 = d 'cervical dilation' corroborates)", "kasr": "Dr Shebl physiology bank, Ch.2 Pituitary p.9" },
+   "library_ids": ["ART-END-207END-SHEBL-POSTERIOR-PITUITARY-PHYSIOLOGY"]
+  }
+ ]
+}

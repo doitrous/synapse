@@ -758,3 +758,47 @@ Triaged the physiology MCQ folders in priority order:
 `✓ Answer:` lines, dedup vs the physiology corpus, push-per-slice), then continue the **Zahra Male/Female**
 histology sections. The Histology department book (`mcq histo (207).department .pdf`, 36 MB) and the scanned
 Kandeel/Dalia/Female-year histology banks remain untriaged (each needs an OCR+render key pass).
+
+## TENTH SOURCE — Dr Shebl PHYSIOLOGY MCQ bank (PHYSIOLOGY frontier opened)
+
+Paper: `Physio MCQ by Dr.Shebl [END].pdf` (Physiology Dr. Shebl [2nd priority]/MCQs; manifest sourceId
+`src_8363527119860a6d39ed`, sha256
+8363527119860a6d39ed859ddc9ee0b5a8519ebee8b83d67baf2aaba3e32cd07; examType null — an instructor TOPIC
+bank, so examSittingYear=null; already in kasr-y2-sources.json, no new manifest row). Native text, 43
+pages, organised by chapter (Ch.1 Introduction, Ch.2 Pituitary, Ch.3 Thyroid, Ch.4 Calcium, Ch.5 Adrenal
+cortex, Ch.6 Pancreas, Ch.7 Male reproduction, Ch.8 Female reproduction). Registered in
+`evidence/207-END-resources.md`. This OPENS the physiology-bank frontier of the module (the anatomy banks
+and the Zahra histology Endocrine slices are the prior frontiers).
+
+**Key marker: a printed `Answer: <letter>- <full option text>` line after EACH question**, parsed directly
+from the native text — the `pagetext keys` bold-flag heuristic is UNRELIABLE on this bank (spurious
+last-option run) and is ignored. Every authored key was cross-checked against physiology first principles
+and against the stem for a clean single-best answer. All Ch.2 keys are in `coverage/207-END-triage-keys.txt`.
+
+**Slice 1 — 6 authored** (Ch.2 Pituitary): Q7 (POMC → ACTH), Q14 (GH JAK-STAT signalling; Q36 corroborates
+JAK2), Q11 (GH protein-anabolic via amino-acid transport), Q37 (somatomedins bound to carrier proteins,
+long half-life), Q35 (ADH aquaporin-2 insertion via V2), Q28 (cervical dilation → oxytocin, Ferguson
+reflex; Q26 corroborates). 0 held, 0 excluded. **All 6 keyed from the printed answer line** (0
+expert-determined). 6 concepts minted university-blind (all `CON-END-*`: AB812888FA4AB4, 7B2DA0D46E8EAB,
+38A875EEE45153, 05E9EB0E5FF3F8, 01389CD9E41784, 0D30110930BD3D) — collision-checked corpus-wide, 0
+collisions, 0 in-batch duplicates; none of the EOM/2023 physiology concepts reusable (distinct atomic
+claims). Filed under DIS-PHY-T06 with SYS-END-T01 cross-nav. Grouped into 2 new library articles
+(`ART-END-207END-SHEBL-ANTERIOR-PITUITARY-PHYSIOLOGY`, `ART-END-207END-SHEBL-POSTERIOR-PITUITARY-PHYSIOLOGY`).
+Subject tag `endo`.
+
+**Dedup:** Ch.2 Pituitary (41 Qs) is heavily saturated by the EOM/2023 physiology tranches — ~24 stems
+duplicate authored concepts (hypothalamic-pituitary basics, GH hypoglycemia stimulus / diabetogenic action /
+somatomedin feedback, prolactin-dopamine, ADH osmolality, oxytocin ejaculation, acromegaly acral, pituitary
+dwarfism). 6 clean fresh mechanistic items harvested (dedup rate ~ high but the fresh items are distinct
+second-messenger / precursor / transport mechanisms not previously tested). Authored in
+`question/207-END-physio-shebl-mcq.md` (from seed `seed/207-END-physio-shebl.json` — never hand-edit the
+emitted .md; fix the seed and re-emit), `concept/207-END-physio-shebl-concepts.md`,
+`article/207-END-physio-shebl-articles.md`. Gate-clean vs the module baseline (concept batch 6 items 0
+errors; article batch 2 items 0 errors; MCQ batch 6 items 0 errors with `--with` concept+article+resource
+siblings).
+
+**The 207 END module is now 300 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
++ Jalal 28 + Zahra histology 14 + Shebl physiology 6), 6 held, 2 excluded. **Next 207 END cluster:**
+continue the Dr Shebl bank at **Ch.3 Thyroid (p.12-18)** — expected higher fresh yield than the saturated
+pituitary chapter — then Ch.4 Calcium, Ch.5 Adrenal, Ch.6 Pancreas, Ch.7/8 reproduction; dedup each vs the
+physiology corpus, push-per-slice.

@@ -476,3 +476,39 @@ key surfaced; needs a render pass to confirm any mark (provisionally UNSOLVED-pe
 `MCQ.MHR_Female.pdf` / `MCQ.MHR_male.pdf` (Maher) — not yet opened.
 NEXT 207 END cluster: author Dr Shebl physiology gland chapters (parse "✓ Answer:" lines, dedup, push-per-
 slice), then continue the Zahra Male/Female histology sections.
+
+================================================================================
+TENTH SOURCE — Dr Shebl PHYSIOLOGY MCQ bank (NON-EOM instructor topic bank)
+  `Physio MCQ by Dr.Shebl [END].pdf`   src_8363527119860a6d39ed
+================================================================================
+Native text, 43 pages, by chapter. KEY MARKER: a printed "Answer: <letter>- <full option text>" line
+after EACH question, parsed directly (the pagetext bold-flag heuristic is unreliable here and is ignored).
+Chapter map (page ranges): Ch.1 Introduction p.2-4, Ch.2 Pituitary p.5-11, Ch.3 Thyroid p.12-18,
+Ch.4 Calcium regulation p.19-23, Ch.5 Adrenal cortex p.24-28, Ch.6 Pancreas p.29-33, Ch.7 Male
+reproduction p.34-37, Ch.8 Female reproduction p.38-43.
+
+Ch.2 Pituitary (41 Qs) recovered keys:
+Q1.b  Q2.a  Q3.b  Q4.c  Q5.c  Q6.d  Q7.a  Q8.d  Q9.c  Q10.a  Q11.b  Q12.d  Q13.a  Q14.d
+Q15.d Q16.c Q17.c Q18.d Q19.d Q20.d Q21.c Q22.d Q23.a Q24.b Q25.b Q26.d Q27.d Q28.b Q29.c
+Q30.a Q31.a Q32.a Q33.b Q34.c Q35.c Q36.b Q37.c Q38.b Q39.c Q40.d Q41.d
+
+— Authoring pass 2026-09-07, SLICE 1 (6 fresh MCQs, Ch.2 Pituitary) —
+Authored: Q7 (POMC precursor of ACTH), Q14 (GH acts via JAK-STAT; Q36 corroborates JAK2), Q11 (GH
+protein-anabolic via amino-acid transport), Q37 (somatomedins bound to carrier proteins, long half-life),
+Q35 (ADH inserts aquaporin-2 via V2 receptor), Q28 (cervical dilation stimulates oxytocin = Ferguson
+reflex; Q26 corroborates). 6 concepts minted university-blind (all CON-END-*), collision-checked corpus-
+wide (0 collisions, 0 in-batch dupes), grouped into 2 new articles (anterior-pituitary, posterior-
+pituitary physiology). Subject tag endo. All 6 keys read from the printed "Answer:" line and cross-checked
+against the stem for a clean single-best answer.
+SKIPPED as dupes of the authored 207-END physiology corpus: Q3/Q5/Q8/Q18/Q24/Q25/Q32/Q33 (hypothalamic-
+pituitary basics + which hormone from which lobe — covered), Q9/Q13 (GH stimulated by hypoglycemia =
+growth-hormone.secretion-stimulus.hypoglycemia), Q10/Q34 (GH diabetogenic/decreases glucose utilisation =
+growth-hormone.metabolic-action.decrease-muscle-glucose-oxidation), Q12 (somatomedin negative feedback =
+growth-hormone.long-loop-feedback), Q15 (somatomedins cause bone growth = somatomedin-c.action.chondrocyte),
+Q16/Q17 (prolactin inhibited by dopamine = prolactin.disinhibition.loss-of-dopamine-galactorrhea),
+Q20/Q23/Q35-partial (ADH secretion by osmolality = adh.action.opposite-urine-plasma-osmolality),
+Q27 (oxytocin facilitates ejaculation = oxytocin.action.vas-deferens-contraction-ejaculation), Q29/Q39/Q40
+(acromegaly soft-tissue/acral = acromegaly.adult-gh-excess.acral-bone-enlargement), Q30/Q41 (pituitary
+dwarfism normal mentality — the contrast lives in growth-hormone.short-stature.cretinism-is-thyroid-not-gh).
+Dedup rate Ch.2 ~ high (pituitary was already saturated by the EOM/2023 physiology tranches); 6 clean fresh
+mechanistic items harvested. NEXT: Ch.3 Thyroid (p.12-18) — expected higher fresh yield.
