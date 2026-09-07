@@ -617,6 +617,222 @@
    "learning_objective": "Recognise low ionized calcium with high PTH as secondary hyperparathyroidism of vitamin D deficiency.",
    "field_notes": { "keySource": "printed answer key (Q9 = c)", "kasr": "Dr Shebl physiology bank, Ch.4 Calcium p.20" },
    "library_ids": ["ART-END-207END-SHEBL-CALCIUM-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q06",
+   "id": "QST-KASR207END-PHYSHEBL-023",
+   "page": "Ch.5 Adrenal p.24 (Q6; Q25 corroborates)",
+   "title": "Cortisol is anti-inflammatory by reducing prostaglandin formation",
+   "question": "The anti-inflammatory effect of cortisol is thought to be due to:",
+   "options": {
+    "A": "Increased formation of leukotrienes",
+    "B": "Decreased formation of prostaglandins",
+    "C": "Increased release of proteolytic enzymes from lysosomes",
+    "D": "Activation of phospholipase A2"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Cortisol reduces, not increases, leukotriene formation by limiting arachidonic-acid release.",
+    "B": "Correct. Cortisol induces lipocortin (annexin-1), which inhibits phospholipase A2 and so reduces the liberation of arachidonic acid. With less arachidonic acid, the formation of prostaglandins (and leukotrienes) falls, producing the anti-inflammatory effect. Cortisol also stabilises lysosomal membranes and suppresses inflammatory cytokines.",
+    "C": "Incorrect. Cortisol stabilises lysosomal membranes and decreases release of proteolytic enzymes, the opposite of this option.",
+    "D": "Incorrect. Cortisol inhibits phospholipase A2 (through lipocortin); it does not activate it."
+   },
+   "main_concept": "CON-END-0598FA6EA8569E",
+   "concept_ids": ["CON-END-0598FA6EA8569E"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "Explain that cortisol is anti-inflammatory by inhibiting phospholipase A2 and reducing prostaglandins.",
+   "field_notes": { "keySource": "printed answer key (Q6 = b; Q25 = d corroborates the anti-inflammatory profile)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.24 and p.27" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q08",
+   "id": "QST-KASR207END-PHYSHEBL-024",
+   "page": "Ch.5 Adrenal p.25 (Q8; Q14 corroborates)",
+   "title": "Aldosterone is regulated mainly by potassium and angiotensin II, not ACTH",
+   "question": "Aldosterone secretion is markedly increased by an increase in plasma:",
+   "options": {
+    "A": "Volume",
+    "B": "Sodium concentration",
+    "C": "Potassium concentration",
+    "D": "Adrenocorticotropic hormone (ACTH)"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. A rise in plasma volume suppresses aldosterone by reducing renin and angiotensin II, rather than increasing it.",
+    "B": "Incorrect. A rise in plasma sodium tends to lower aldosterone; it is hyponatraemia, not hypernatraemia, that stimulates it.",
+    "C": "Correct. The two principal stimuli to aldosterone are angiotensin II and a rise in plasma potassium, and even a small increase in plasma K+ directly stimulates the zona glomerulosa. ACTH is only a minor, permissive regulator. Hence hyperkalaemia markedly increases aldosterone secretion.",
+    "D": "Incorrect. ACTH exerts only a small permissive effect and is the least important regulator of aldosterone."
+   },
+   "main_concept": "CON-END-AE213C20F2B8D4",
+   "concept_ids": ["CON-END-AE213C20F2B8D4"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "State that aldosterone is controlled mainly by angiotensin II and plasma potassium, with ACTH minor.",
+   "field_notes": { "keySource": "printed answer key (Q8 = c; Q14 = a 'ACTH least important' corroborates)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.25-26" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q13",
+   "id": "QST-KASR207END-PHYSHEBL-025",
+   "page": "Ch.5 Adrenal p.25 (Q13)",
+   "title": "The zona glomerulosa is the sole source of aldosterone",
+   "question": "Selective destruction of the zona glomerulosa of the adrenal cortex would produce a deficiency of:",
+   "options": {
+    "A": "Aldosterone",
+    "B": "Androstenedione",
+    "C": "Cortisol",
+    "D": "Dehydroepiandrosterone"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The zona glomerulosa, the outermost cortical zone, is the only site that expresses aldosterone synthase, so it is the exclusive source of the mineralocorticoid aldosterone. Its selective destruction therefore causes aldosterone deficiency. The other cortical zones are spared.",
+    "B": "Incorrect. Androstenedione is an androgen produced by the zona reticularis, not the glomerulosa.",
+    "C": "Incorrect. Cortisol is made in the zona fasciculata, so loss of the glomerulosa does not cause cortisol deficiency.",
+    "D": "Incorrect. Dehydroepiandrosterone is an androgen of the zona reticularis and is unaffected by glomerulosa destruction."
+   },
+   "main_concept": "CON-END-CB91D6C033C9B9",
+   "concept_ids": ["CON-END-CB91D6C033C9B9"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "Identify the zona glomerulosa as the exclusive source of aldosterone.",
+   "field_notes": { "keySource": "printed answer key (Q13 = a)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.25-26" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q19",
+   "id": "QST-KASR207END-PHYSHEBL-026",
+   "page": "Ch.5 Adrenal p.26 (Q19)",
+   "title": "Adrenal androgen secretion is driven by ACTH",
+   "question": "Release of androgens from the adrenal cortex is stimulated mainly by:",
+   "options": {
+    "A": "LH",
+    "B": "FSH",
+    "C": "ACTH",
+    "D": "GnRH"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. LH stimulates gonadal steroid production in the testis and ovary, not adrenal androgen secretion.",
+    "B": "Incorrect. FSH acts on gonadal cells such as Sertoli and granulosa cells, not on the adrenal cortex.",
+    "C": "Correct. Adrenal androgens, mainly DHEA and androstenedione, are produced by the zona reticularis, whose secretion is driven by ACTH, the same trophic hormone that controls cortisol. This is why ACTH excess raises adrenal androgens, as in congenital adrenal hyperplasia. Gonadotrophins do not control the adrenal cortex.",
+    "D": "Incorrect. GnRH acts on the pituitary to release gonadotrophins and has no direct action on adrenal androgen output."
+   },
+   "main_concept": "CON-END-3D0DDA5730DFE5",
+   "concept_ids": ["CON-END-3D0DDA5730DFE5"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "State that ACTH is the main stimulus for adrenal androgen (zona reticularis) secretion.",
+   "field_notes": { "keySource": "printed answer key (Q19 = c)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.26" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q18",
+   "id": "QST-KASR207END-PHYSHEBL-027",
+   "page": "Ch.5 Adrenal p.26 (Q18)",
+   "title": "Glucocorticoids reduce circulating lymphocytes",
+   "question": "Glucocorticoids decrease the number of circulating:",
+   "options": {
+    "A": "Neutrophils",
+    "B": "Lymphocytes",
+    "C": "Platelets",
+    "D": "Red blood cells"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Glucocorticoids increase circulating neutrophils by demargination, rather than decreasing them.",
+    "B": "Correct. Glucocorticoids reduce circulating lymphocytes and eosinophils by redistribution out of the blood and by apoptosis. At the same time they raise neutrophils, so the characteristic blood picture is lymphopenia and eosinopenia with neutrophilia. This contributes to their immunosuppressive effect.",
+    "C": "Incorrect. Platelet counts are not characteristically lowered by glucocorticoids.",
+    "D": "Incorrect. Glucocorticoids tend to raise the red-cell count slightly, not lower it."
+   },
+   "main_concept": "CON-END-028EFC431B2D7D",
+   "concept_ids": ["CON-END-028EFC431B2D7D"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "State that glucocorticoids cause lymphopenia and eosinopenia with neutrophilia.",
+   "field_notes": { "keySource": "printed answer key (Q18 = b)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.26" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q22",
+   "id": "QST-KASR207END-PHYSHEBL-028",
+   "page": "Ch.5 Adrenal p.27 (Q22; Q2 corroborates)",
+   "title": "Chronically high ACTH causes hyperpigmentation",
+   "question": "Adrenocorticotropic hormone (ACTH):",
+   "options": {
+    "A": "Is an important physiologic regulator of aldosterone secretion",
+    "B": "Is secreted at a constant level throughout the day",
+    "C": "Causes hyperpigmentation whenever it is chronically increased",
+    "D": "Has no effect on the size of cells in the zona fasciculata and zona reticularis"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. ACTH is only a minor regulator of aldosterone; angiotensin II and potassium are the main controllers.",
+    "B": "Incorrect. ACTH is secreted with a circadian rhythm that peaks in the early morning, not at a constant level.",
+    "C": "Correct. ACTH is cleaved from pro-opiomelanocortin and shares its N-terminal sequence with melanocyte-stimulating hormone, so chronically raised ACTH stimulates melanocytes and produces skin hyperpigmentation. This is seen in primary adrenal insufficiency (Addison disease) and in ectopic-ACTH syndromes. It is a useful clinical marker of a high-ACTH state.",
+    "D": "Incorrect. ACTH is trophic for the zona fasciculata and reticularis; chronic excess enlarges these cells, and its loss causes cortical atrophy."
+   },
+   "main_concept": "CON-END-D1E1DE633958CF",
+   "concept_ids": ["CON-END-D1E1DE633958CF"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "Explain that chronically high ACTH causes hyperpigmentation through its MSH-like activity.",
+   "field_notes": { "keySource": "printed answer key (Q22 = c; Q2 = d Addison hyperpigmentation corroborates)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.24 and p.27" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q24",
+   "id": "QST-KASR207END-PHYSHEBL-029",
+   "page": "Ch.5 Adrenal p.27 (Q24)",
+   "title": "Atrial natriuretic peptide increases renal sodium excretion",
+   "question": "Which of the following hormones increases sodium excretion in the kidney?",
+   "options": {
+    "A": "Aldosterone",
+    "B": "Atrial natriuretic peptide",
+    "C": "Cortisol",
+    "D": "Angiotensin II"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Aldosterone increases sodium reabsorption and conserves sodium, rather than promoting its excretion.",
+    "B": "Correct. Atrial natriuretic peptide is released from atrial myocytes when they are stretched by a rise in blood volume. It increases renal sodium and water excretion by raising GFR and inhibiting tubular sodium reabsorption, and it suppresses renin and aldosterone. The net effect lowers blood volume and pressure.",
+    "C": "Incorrect. Cortisol has weak mineralocorticoid activity and tends to promote sodium retention, not excretion.",
+    "D": "Incorrect. Angiotensin II promotes sodium reabsorption and stimulates aldosterone, reducing sodium excretion."
+   },
+   "main_concept": "CON-END-15FA14F0FF0904",
+   "concept_ids": ["CON-END-15FA14F0FF0904"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "State that atrial natriuretic peptide promotes renal sodium excretion and opposes aldosterone.",
+   "field_notes": { "keySource": "printed answer key (Q24 = b)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.27" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
+  },
+  {
+   "key": "c5q30",
+   "id": "QST-KASR207END-PHYSHEBL-030",
+   "page": "Ch.5 Adrenal p.28 (Q30; Q11/Q23 corroborate)",
+   "title": "Cushing syndrome features truncal obesity",
+   "question": "Cushing syndrome is:",
+   "options": {
+    "A": "Due to hypersecretion of aldosterone",
+    "B": "Characterized by truncal obesity",
+    "C": "Always associated with low ACTH",
+    "D": "Characterized by lymphocytosis"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Cushing syndrome is caused by glucocorticoid (cortisol) excess, not by hypersecretion of aldosterone.",
+    "B": "Correct. Cortisol excess causes central redistribution of fat, giving truncal (central) obesity with a moon face and buffalo hump, together with purple abdominal striae, muscle wasting and hyperglycaemia. These are the classic features of Cushing syndrome. The catabolic action on protein also thins the skin and weakens muscle.",
+    "C": "Incorrect. ACTH may be high (ACTH-dependent pituitary or ectopic causes) or low (adrenal or exogenous causes), so it is not always low.",
+    "D": "Incorrect. Cortisol excess causes lymphopenia, not lymphocytosis."
+   },
+   "main_concept": "CON-END-1CABAD4FBB1EB7",
+   "concept_ids": ["CON-END-1CABAD4FBB1EB7"],
+   "subtopic": "Adrenal cortex",
+   "module_subject": "207 END > Physiology > Adrenal cortex",
+   "learning_objective": "Recognise truncal obesity and striae as classic features of cortisol excess (Cushing syndrome).",
+   "field_notes": { "keySource": "printed answer key (Q30 = b; Q11 = b striae, Q23 = c moon face corroborate)", "kasr": "Dr Shebl physiology bank, Ch.5 Adrenal p.25-28" },
+   "library_ids": ["ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY"]
   }
  ]
 }

@@ -2476,3 +2476,899 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.4 Q9 = c).
+
+---
+
+# Item
+## id
+CON-END-0598FA6EA8569E
+## label
+Cortisol is anti-inflammatory by inhibiting phospholipase A2 and reducing prostaglandins
+## canonical_key
+cortisol.anti-inflammatory.inhibits-phospholipase-a2-prostaglandins
+## aliases
+Cortisol induces lipocortin to block arachidonic-acid release
+Glucocorticoids reduce prostaglandin and leukotriene synthesis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cortisol produces its anti-inflammatory effect largely by inducing lipocortin (annexin-1), which inhibits phospholipase A2. Because phospholipase A2 liberates arachidonic acid from membrane phospholipids, its inhibition reduces the formation of prostaglandins and leukotrienes. Cortisol also stabilises lysosomal membranes, reduces capillary permeability and suppresses inflammatory cytokines and leucocyte function.
+## explicit_objective
+Explain that cortisol is anti-inflammatory by inhibiting phospholipase A2 and lowering prostaglandin formation.
+## pitfalls
+Thinking cortisol activates phospholipase A2; it inhibits the enzyme through lipocortin, cutting prostaglandin output.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q6 = b, Q25 = d).
+
+---
+
+# Item
+## id
+CON-END-AE213C20F2B8D4
+## label
+Aldosterone is regulated mainly by angiotensin II and plasma potassium, not ACTH
+## canonical_key
+aldosterone.regulation.angiotensin-ii-and-potassium-not-acth
+## aliases
+Hyperkalaemia and angiotensin II are the chief aldosterone stimuli
+ACTH is only a minor regulator of aldosterone
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The secretion of aldosterone by the zona glomerulosa is controlled chiefly by angiotensin II (via the renin-angiotensin system) and by the plasma potassium concentration, with even a small rise in plasma K+ directly stimulating aldosterone. A fall in blood volume raises renin and angiotensin II and so increases aldosterone, whereas ACTH is only a minor, permissive regulator and is the least important of these factors.
+## explicit_objective
+State that aldosterone is controlled mainly by angiotensin II and plasma potassium, with ACTH minor.
+## pitfalls
+Assuming ACTH drives aldosterone as it drives cortisol; aldosterone depends mainly on angiotensin II and potassium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q8 = c, Q14 = a).
+
+---
+
+# Item
+## id
+CON-END-CB91D6C033C9B9
+## label
+The zona glomerulosa is the exclusive source of aldosterone
+## canonical_key
+adrenal-zona-glomerulosa.product.aldosterone
+## aliases
+Only the outer adrenal zone makes aldosterone
+Aldosterone synthase is confined to the zona glomerulosa
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The adrenal cortex is arranged in three zones with distinct products: the outer zona glomerulosa makes the mineralocorticoid aldosterone, the zona fasciculata makes cortisol, and the zona reticularis makes adrenal androgens. Only the zona glomerulosa expresses aldosterone synthase, so it is the exclusive source of aldosterone. Selective loss of this zone therefore causes isolated aldosterone deficiency while cortisol and androgen output are preserved.
+## explicit_objective
+Identify the zona glomerulosa as the exclusive source of aldosterone.
+## pitfalls
+Confusing the zonal products; aldosterone comes only from the glomerulosa, cortisol from the fasciculata, androgens from the reticularis.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q13 = a).
+
+---
+
+# Item
+## id
+CON-END-3D0DDA5730DFE5
+## label
+Adrenal androgen secretion is driven by ACTH
+## canonical_key
+adrenal-androgen.secretion-control.acth
+## aliases
+ACTH controls zona reticularis androgen output
+Adrenal DHEA/androstenedione respond to ACTH, not gonadotrophins
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Adrenal androgens, mainly dehydroepiandrosterone (DHEA) and androstenedione, are produced by the zona reticularis, and their secretion is stimulated by ACTH, the same trophic hormone that drives cortisol. Gonadotrophins (LH, FSH) and GnRH act on the gonads, not on the adrenal cortex, so they do not control adrenal androgen output. This dependence on ACTH explains why ACTH excess (as in congenital adrenal hyperplasia) raises adrenal androgens.
+## explicit_objective
+State that ACTH is the main stimulus for adrenal androgen (zona reticularis) secretion.
+## pitfalls
+Assuming gonadotrophins control adrenal androgens; the adrenal cortex responds to ACTH, while LH/FSH act on the gonads.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q19 = c).
+
+---
+
+# Item
+## id
+CON-END-028EFC431B2D7D
+## label
+Glucocorticoids cause lymphopenia and eosinopenia with neutrophilia
+## canonical_key
+glucocorticoids.blood-cells.lymphopenia
+## aliases
+Cortisol lowers circulating lymphocytes and eosinophils
+Steroids raise neutrophils but drop lymphocytes
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Glucocorticoids alter the leucocyte profile of blood: they reduce circulating lymphocytes and eosinophils by redistributing them out of the circulation and by promoting apoptosis, while they increase circulating neutrophils through demargination and reduced egress. The characteristic picture is therefore lymphopenia and eosinopenia with neutrophilia. Suppression of lymphocyte number and function is part of the immunosuppressive action of glucocorticoids.
+## explicit_objective
+State that glucocorticoids cause lymphopenia and eosinopenia with neutrophilia.
+## pitfalls
+Assuming steroids lower all white cells; neutrophils rise, while lymphocytes and eosinophils fall.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q18 = b).
+
+---
+
+# Item
+## id
+CON-END-D1E1DE633958CF
+## label
+Chronically raised ACTH causes skin hyperpigmentation through MSH-like activity
+## canonical_key
+acth.chronic-excess.hyperpigmentation-msh
+## aliases
+High ACTH pigments the skin via its MSH sequence
+Addison and ectopic-ACTH states cause hyperpigmentation
+## arabic_label
+
+## arabic_aliases
+
+## definition
+ACTH is cleaved from pro-opiomelanocortin and shares its N-terminal amino-acid sequence with melanocyte-stimulating hormone. When ACTH is chronically elevated it stimulates melanocytes and produces skin hyperpigmentation. This is characteristic of primary adrenal insufficiency (Addison disease), where loss of cortisol negative feedback raises ACTH, and of ectopic-ACTH syndromes; it is a useful clinical marker of a high-ACTH state.
+## explicit_objective
+Explain that chronically high ACTH causes hyperpigmentation through its MSH-like activity.
+## pitfalls
+Forgetting the POMC/MSH link; hyperpigmentation indicates a high-ACTH cause, not a low-ACTH (adrenal or exogenous) one.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q22 = c, Q2 = d).
+
+---
+
+# Item
+## id
+CON-END-15FA14F0FF0904
+## label
+Atrial natriuretic peptide increases renal sodium excretion and opposes aldosterone
+## canonical_key
+atrial-natriuretic-peptide.action.increases-sodium-excretion
+## aliases
+ANP causes natriuresis when blood volume rises
+Atrial natriuretic peptide lowers volume and suppresses renin-aldosterone
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Atrial natriuretic peptide is released from atrial myocytes when they are stretched by an increase in blood volume. It increases renal sodium and water excretion by raising the glomerular filtration rate and inhibiting tubular sodium reabsorption, and it suppresses renin and aldosterone. The net effect is to reduce blood volume and pressure, opposing the sodium-retaining action of aldosterone.
+## explicit_objective
+State that atrial natriuretic peptide promotes renal sodium excretion and opposes aldosterone.
+## pitfalls
+Confusing ANP with aldosterone; ANP causes natriuresis and volume loss, while aldosterone conserves sodium.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine/renal physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q24 = b).
+
+---
+
+# Item
+## id
+CON-END-1CABAD4FBB1EB7
+## label
+Cushing syndrome (cortisol excess) is characterised by truncal obesity and striae
+## canonical_key
+cushing-syndrome.features.truncal-obesity-striae
+## aliases
+Central obesity, moon face and purple striae mark Cushing syndrome
+Cortisol excess causes truncal obesity with muscle wasting
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Cushing syndrome results from chronic glucocorticoid (cortisol) excess. Cortisol redistributes fat centrally, producing truncal obesity with a moon face and buffalo hump, while its catabolic action on protein causes purple abdominal striae, thin skin, muscle wasting and osteoporosis, along with hyperglycaemia and hypertension. Circulating ACTH may be high (ACTH-dependent causes) or low (adrenal or exogenous causes), so it is not always low.
+## explicit_objective
+Recognise truncal obesity and striae as classic features of cortisol excess (Cushing syndrome).
+## pitfalls
+Attributing Cushing syndrome to aldosterone or assuming ACTH is always low; the cause is cortisol excess and ACTH may be high or low.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+endo
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## topic
+Physiology
+## subtopic
+Adrenal cortex
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## article_ids
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.5
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.5 Q30 = b, Q11 = b, Q23 = c).

@@ -826,8 +826,22 @@ claims were already in the corpus and skipped; the PTH-mechanism / calcitonin / 
 fresh. Held: Q11/Q12 (hyperphosphataemia stimulates PTH). Gate-clean (concept 22 items 0 errors; article 4
 items 0 errors; MCQ 22 items 0 errors with `--with` concept+article+resource siblings). Seed re-emitted.
 
-**The 207 END module is now 316 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
-+ Jalal 28 + Zahra histology 14 + Shebl physiology 22), 6 held, 2 excluded. **Next 207 END cluster:** continue
-the Dr Shebl bank at **Ch.5 Adrenal cortex (p.24-28)**, then Ch.6 Pancreas, Ch.7/8 reproduction (plus the held
-Graves-exophthalmos, iodine-deficiency and hyperphosphataemia-PTH items); dedup each vs the physiology corpus,
-push-per-slice.
+**Slice 4 — 8 authored** (Ch.5 Adrenal cortex): Q6 (cortisol anti-inflammatory via lipocortin/PLA2 inhibition,
+lower prostaglandins), Q8 (aldosterone regulated by K+/angiotensin II, ACTH minor), Q13 (zona glomerulosa sole
+aldosterone source), Q19 (adrenal androgens driven by ACTH), Q18 (glucocorticoids cause lymphopenia +
+neutrophilia), Q22 (chronic high ACTH -> hyperpigmentation via MSH), Q24 (ANP increases sodium excretion), Q30
+(Cushing = truncal obesity/striae). 0 held, 0 excluded. **All 8 keyed from the printed answer line.** 8 concepts
+minted university-blind (all `CON-END-*`: 0598FA6EA8569E, AE213C20F2B8D4, CB91D6C033C9B9, 3D0DDA5730DFE5,
+028EFC431B2D7D, D1E1DE633958CF, 15FA14F0FF0904, 1CABAD4FBB1EB7) — collision-checked corpus-wide, 0 collisions,
+0 in-batch dupes. Grouped into 1 new article (`ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY`). Subject tag `endo`.
+Dedup Ch.5 ~ moderate: ACTH diurnal rhythm, Addison hypoglycaemia, RAAS volume response and cortisol
+gluconeogenesis/insulin were already in the corpus and skipped; the cortisol-mechanism / aldosterone-regulation
+/ zonal-product / ACTH-pigment / ANP seam was fresh. Held: Q9 (secondary hyperaldosteronism). Gate-clean
+(concept 30 items 0 errors; article 5 items 0 errors; MCQ 30 items 0 errors with `--with` concept+article+resource
+siblings). Seed re-emitted.
+
+**The 207 END module is now 324 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
++ Jalal 28 + Zahra histology 14 + Shebl physiology 30), 6 held, 2 excluded. **Next 207 END cluster:** continue
+the Dr Shebl bank at **Ch.6 Pancreas (p.29-33)**, then Ch.7 Male / Ch.8 Female reproduction (plus the held
+Graves-exophthalmos, iodine-deficiency, hyperphosphataemia-PTH and secondary-hyperaldosteronism items); dedup
+each vs the physiology corpus, push-per-slice.

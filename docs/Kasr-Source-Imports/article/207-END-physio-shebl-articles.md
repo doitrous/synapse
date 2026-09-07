@@ -370,3 +370,96 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.4 Calcium regulation).
 ## reading_time
 7
+
+---
+
+# Item
+## id
+ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY
+## title
+Adrenal cortex physiology: cortisol, aldosterone and adrenal androgens
+## subject
+endo
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+The adrenal cortex has three functional zones. The zona glomerulosa alone makes aldosterone, regulated mainly by angiotensin II and plasma potassium (ACTH is minor); aldosterone conserves sodium, and it is opposed by atrial natriuretic peptide, which promotes sodium excretion when blood volume rises. The zona fasciculata makes cortisol under ACTH; cortisol is anti-inflammatory by inducing lipocortin, which inhibits phospholipase A2 and lowers prostaglandins, and it alters blood cells to give lymphopenia and eosinopenia with neutrophilia. The zona reticularis makes adrenal androgens, also driven by ACTH. Because ACTH shares a sequence with MSH, chronic ACTH excess causes hyperpigmentation, while chronic cortisol excess produces Cushing syndrome with truncal obesity and striae.
+## sections
+### Definition
+This article groups the adrenal-cortex physiology facts tested by the Dr Shebl set: zonal products (glomerulosa/aldosterone, fasciculata/cortisol, reticularis/androgens), the regulators of aldosterone, ANP-driven natriuresis, cortisol's anti-inflammatory mechanism and effect on leucocytes, ACTH control of adrenal androgens and its MSH-linked hyperpigmentation, and the features of Cushing syndrome.
+### Mechanism
+Angiotensin II and potassium stimulate glomerulosa aldosterone; ANP opposes it. ACTH drives cortisol and androgens. Cortisol induces lipocortin to block phospholipase A2 (reducing prostaglandins), redistributes leucocytes (lymphopenia, neutrophilia), and in excess causes central fat deposition. ACTH's shared MSH sequence pigments the skin when it is chronically high.
+### Key determinants
+Discriminators tested here: aldosterone's dependence on angiotensin II and K+ rather than ACTH; the single-zone origin of aldosterone; ANP as a natriuretic opposing aldosterone; cortisol's phospholipase-A2 anti-inflammatory route; lymphopenia-with-neutrophilia; ACTH control of adrenal androgens; and the hyperpigmentation of high ACTH versus the truncal obesity of high cortisol.
+### Clinical significance
+These points underlie the biochemistry and signs of Addison disease (low cortisol, high ACTH, hyperpigmentation, hyponatraemia, hypoglycaemia), Conn and secondary hyperaldosteronism, and Cushing syndrome, and the immunosuppressive/anti-inflammatory use of glucocorticoids.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors here are built from those reversals (ACTH driving aldosterone, cortisol activating phospholipase A2, steroids lowering all white cells, or Cushing being an aldosterone or always-low-ACTH disorder).
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Adrenal cortex
+## subtopic
+Adrenal cortex
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-END-T01
+## related_concepts
+CON-END-0598FA6EA8569E
+CON-END-AE213C20F2B8D4
+CON-END-CB91D6C033C9B9
+CON-END-3D0DDA5730DFE5
+CON-END-028EFC431B2D7D
+CON-END-D1E1DE633958CF
+CON-END-15FA14F0FF0904
+CON-END-1CABAD4FBB1EB7
+## related_articles
+
+## resource_ids
+src_8363527119860a6d39ed
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.5 Adrenal cortex).
+## reading_time
+7

@@ -563,3 +563,25 @@ hypoparathyroidism.post-thyroidectomy.hypocalcemic-tetany; latent-tetany range l
 resorption/fastest via bone = folded into osteoblast-RANKL + labile-pool concepts). Held for a later slice:
 Q11/Q12 (hyperphosphataemia stimulates PTH). Dedup rate Ch.4 ~ moderate; the PTH-mechanism / calcitonin /
 vitamin-D-synthesis seam was fresh despite a saturated PTH-basics corpus. NEXT: Ch.5 Adrenal cortex (p.24-28).
+
+Ch.5 Adrenal cortex (31 Qs) recovered keys:
+Q1.e  Q2.d  Q3.a  Q4.c  Q5.c  Q6.b  Q7.a  Q8.c  Q9.d  Q10.c  Q11.b  Q12.d  Q13.a  Q14.a  Q15.c
+Q16.b Q17.c Q18.b Q19.c Q20.b Q21.d Q22.c Q23.c Q24.b Q25.d Q26.a Q27.c Q28.b Q29.a Q30.b Q31.c
+
+— Authoring pass 2026-09-07, SLICE 4 (8 fresh MCQs, Ch.5 Adrenal cortex) —
+Authored: Q6 (cortisol anti-inflammatory = lipocortin inhibits PLA2, lowers prostaglandins; Q25 corroborates),
+Q8 (aldosterone regulated by K+/angiotensin II, ACTH minor; Q14 corroborates), Q13 (zona glomerulosa is sole
+aldosterone source), Q19 (adrenal androgens driven by ACTH), Q18 (glucocorticoids -> lymphopenia + neutrophilia),
+Q22 (chronic high ACTH -> hyperpigmentation via MSH; Q2 corroborates), Q24 (ANP increases sodium excretion),
+Q30 (Cushing = truncal obesity/striae; Q11/Q23 corroborate). 8 concepts minted university-blind (all CON-END-*),
+collision-checked corpus-wide (0 collisions, 0 in-batch dupes), grouped into 1 new article
+(ART-END-207END-SHEBL-ADRENAL-PHYSIOLOGY). Subject tag endo. All 8 keys read from the printed answer line.
+SKIPPED as dupes of the authored 207-END physiology corpus: Q3 (ACTH diurnal rhythm = acth.circadian-rhythm.peak-
+early-morning), Q4/Q5/Q27 (Addison hypoglycaemia/hyponatraemia = addison-disease.cortisol-deficiency.hypoglycemia),
+Q7/Q21/Q31 (aldosterone/RAAS volume = ecf-volume-depletion.response), Q16 (cortisol inhibits ACTH = feedback),
+Q17/Q20/Q26/Q29 (cortisol gluconeogenesis/protein-catabolism/insulin-resistance/glycogenesis = cortisol.metabolic-
+effect.gluconeogenesis + glucocorticoid.metabolic-effect.indirect-insulin-increase), Q1 (ACTH trophic + peptide/
+steroid mix — low-yield), Q9 (secondary hyperaldosteronism renin — deferred), Q10/Q12/Q23/Q28 (Cushing hyperglycaemia
+/ non-aldosterone hyperglycaemic hormones — folded into the Cushing + gluconeogenesis concepts), Q15 (Conn ECF
+expansion). Dedup Ch.5 ~ moderate; the cortisol-mechanism / aldosterone-regulation / zonal-product / ACTH-pigment
+/ ANP seam was fresh. Held: Q9 (secondary hyperaldosteronism). NEXT: Ch.6 Pancreas (p.29-33).
