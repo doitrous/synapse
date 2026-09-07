@@ -4268,3 +4268,899 @@ authored_needs_independent_evidence
 ## field_notes
 sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
 resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.6 Q1 = a).
+
+---
+
+# Item
+## id
+CON-AND-5D7527B90F5567
+## label
+Spermatogenesis requires both FSH and testosterone acting on Sertoli cells
+## canonical_key
+spermatogenesis.hormonal-control.fsh-and-testosterone
+## aliases
+Sertoli cells need FSH and testosterone to support germ cells
+Both FSH and intratesticular testosterone drive spermatogenesis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Full spermatogenesis in the seminiferous tubules requires two hormonal inputs acting on the Sertoli cell: FSH from the pituitary, and a high local concentration of testosterone produced by Leydig cells under LH. FSH and testosterone act together to sustain the Sertoli-cell support of developing germ cells, and neither hormone alone is sufficient. This is why loss of pituitary gonadotrophins or of Leydig-cell testosterone impairs sperm production.
+## explicit_objective
+State that spermatogenesis requires both FSH and testosterone acting on Sertoli cells.
+## pitfalls
+Attributing spermatogenesis to LH alone or to a single hormone; it needs both FSH and testosterone converging on the Sertoli cell.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Male reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Male reproduction
+## article_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.7 Q4 = a, Q1 = d).
+
+---
+
+# Item
+## id
+CON-AND-0357025AA59561
+## label
+Dihydrotestosterone is the most potent androgen, formed by 5-alpha-reductase
+## canonical_key
+dihydrotestosterone.potency.most-active-androgen
+## aliases
+DHT binds the androgen receptor more strongly than testosterone
+5-alpha-reductase converts testosterone to the more potent DHT
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Dihydrotestosterone (DHT) is the most potent androgen. It is formed from testosterone by the enzyme 5-alpha-reductase in target tissues and binds the androgen receptor with higher affinity than testosterone itself. DHT mediates many androgenic actions, including development of the external genitalia and the prostate, whereas androstenedione and dehydroepiandrosterone are weaker precursors.
+## explicit_objective
+Identify dihydrotestosterone as the most potent androgen, formed by 5-alpha-reductase.
+## pitfalls
+Assuming testosterone is the most potent androgen; its 5-alpha-reduced product DHT is more potent at the receptor.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Male reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Male reproduction
+## article_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.7 Q12 = a).
+
+---
+
+# Item
+## id
+CON-AND-F69BC595E70446
+## label
+Estrogen increases plasma sex-hormone-binding globulin
+## canonical_key
+sex-hormone-binding-globulin.regulation.increased-by-estrogen
+## aliases
+Oestrogen raises hepatic SHBG synthesis
+SHBG rises in pregnancy and with oestrogen, lowering free sex steroids
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Sex-hormone-binding globulin (SHBG) is the plasma carrier of testosterone and oestradiol, and its hepatic synthesis is increased by oestrogen. A rise in SHBG (as in pregnancy or with oestrogen therapy) increases the bound fraction and lowers the free, active fraction of sex steroids. Androgens and, to a degree, growth hormone have the opposite effect, lowering SHBG.
+## explicit_objective
+State that estrogen raises hepatic synthesis of sex-hormone-binding globulin.
+## pitfalls
+Assuming androgens raise SHBG; oestrogen increases it, whereas androgens lower it.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Male reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Male reproduction
+## article_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.7 Q13 = c).
+
+---
+
+# Item
+## id
+CON-AND-CF54995F897DFD
+## label
+Seminal-vesicle fructose is the main energy substrate for sperm
+## canonical_key
+seminal-vesicle.secretion.fructose-sperm-energy
+## aliases
+Semen fructose comes from the seminal vesicles
+Fructose fuels sperm motility and marks seminal-vesicle patency
+## arabic_label
+
+## arabic_aliases
+
+## definition
+The seminal vesicles secrete fructose into the seminal fluid, and this fructose is the main energy substrate for sperm motility. Most of the ejaculate volume comes from the accessory glands (seminal vesicles and prostate), and the semen is alkaline to buffer vaginal acidity. Seminal fructose is a clinical marker of seminal-vesicle secretion and of patency of the ejaculatory ducts, so its absence suggests obstruction.
+## explicit_objective
+State that seminal-vesicle fructose is the main energy substrate for sperm.
+## pitfalls
+Thinking the sperm-nourishing fructose comes from the testis or prostate; it is a seminal-vesicle secretion.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+androl
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## topic
+Physiology
+## subtopic
+Male reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Male reproduction
+## article_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.7 Q17 = c).
+
+---
+
+# Item
+## id
+CON-GYN-289056A14DA0E7
+## label
+FSH signals through a G-protein-coupled receptor using cyclic AMP
+## canonical_key
+fsh.signal-transduction.camp-second-messenger
+## aliases
+FSH raises cyclic AMP as its second messenger
+Gonadotrophin FSH acts via Gs / adenylate cyclase
+## arabic_label
+
+## arabic_aliases
+
+## definition
+FSH, like the other glycoprotein hormones LH and TSH, binds a G-protein-coupled receptor and acts through the Gs / adenylate-cyclase pathway, raising cyclic AMP as its second messenger. Cyclic AMP activates protein kinase A to produce the cellular response, such as induction of aromatase in ovarian granulosa cells. FSH therefore does not act through a nuclear receptor or a principally calcium-based pathway.
+## explicit_objective
+State that FSH signals through a G-protein-coupled receptor using cyclic AMP.
+## pitfalls
+Assuming a gonadotrophin uses a nuclear or calcium pathway; FSH raises cyclic AMP as its second messenger.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Female reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Female reproduction
+## article_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.8 Q14 = a).
+
+---
+
+# Item
+## id
+CON-GYN-5785146078A272
+## label
+Progesterone converts the proliferative endometrium into the secretory phase
+## canonical_key
+progesterone.endometrium.secretory-transformation
+## aliases
+Corpus-luteum progesterone drives the secretory endometrium
+Progesterone makes endometrial glands tortuous and glycogen-secreting
+## arabic_label
+
+## arabic_aliases
+
+## definition
+After ovulation the corpus luteum secretes progesterone, which acts on the oestrogen-primed proliferative endometrium to produce the secretory phase. The glands become tortuous and secrete glycogen, and the spiral arteries develop, preparing the endometrium for implantation. Oestrogen is responsible for the earlier proliferative phase, so the secretory transformation is specifically a progesterone effect.
+## explicit_objective
+State that progesterone converts the proliferative endometrium into the secretory phase.
+## pitfalls
+Crediting oestrogen with the secretory phase; oestrogen drives proliferation, whereas progesterone drives secretory transformation.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Female reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Female reproduction
+## article_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.8 Q16 = d).
+
+---
+
+# Item
+## id
+CON-GYN-DFF01BB0003E30
+## label
+Granulosa aromatase converts theca-derived testosterone to estradiol (two-cell model)
+## canonical_key
+ovarian-estradiol-synthesis.granulosa-aromatase-testosterone
+## aliases
+Theca androgens are aromatised to estradiol in granulosa cells
+Two-cell two-gonadotrophin ovarian oestrogen synthesis
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Ovarian oestrogen is made by cooperation of two cell types. Under LH the theca cells synthesise androgens (testosterone and androstenedione), which diffuse into the granulosa cells, where FSH-induced aromatase converts testosterone to estradiol. Estradiol is therefore the principal oestrogen of the growing follicle, and this two-cell, two-gonadotrophin mechanism explains follicular oestrogen production.
+## explicit_objective
+Describe granulosa-cell aromatisation of testosterone to estradiol in the two-cell model.
+## pitfalls
+Assuming granulosa cells make androgens; they aromatise theca-derived androgens to estradiol under FSH.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## topic
+Physiology
+## subtopic
+Female reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Female reproduction
+## article_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.3
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.8 Q24 = a, Q22 = a).
+
+---
+
+# Item
+## id
+CON-GYN-D9641BF1A682E9
+## label
+Progesterone decreases uterine contractility to maintain pregnancy
+## canonical_key
+progesterone.pregnancy.decreases-uterine-contractility
+## aliases
+Progesterone quiets the myometrium (progesterone block)
+Progesterone relaxes uterine smooth muscle in pregnancy
+## arabic_label
+
+## arabic_aliases
+
+## definition
+Progesterone relaxes uterine smooth muscle, decreasing myometrial contractility and excitability during pregnancy to maintain gestation, an effect known as the progesterone block. A decline in progesterone activity near term contributes to the onset of labour. Progesterone also develops the breast alveoli (whereas oestrogen develops the ducts) and rises after implantation from the corpus luteum and later the placenta.
+## explicit_objective
+State that progesterone reduces uterine contractility to maintain pregnancy.
+## pitfalls
+Confusing progesterone with oxytocin/oestrogen effects; progesterone quiets the uterus rather than stimulating contraction.
+## concept_type
+fact
+## status
+under review
+## support_mode
+direct_statement
+## subject
+gyn
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-OBS-T01
+## topic
+Physiology
+## subtopic
+Female reproduction
+## microtopic
+
+## nanotopic
+
+## modules
+207 END
+## module_subject
+207 END > Physiology > Female reproduction
+## article_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## related_article_ids
+
+## related_concept_ids
+
+## resource_ids
+src_8363527119860a6d39ed
+## approved_file_resource_ids
+
+## approved_video_resource_ids
+
+## learner_years
+2
+## universities
+kau
+## blueprint_weight
+0.4
+## exam_weight_by_year
+KAU_Y2=moderate
+## clinical_relevance
+0.4
+## academic_relevance
+0.8
+## weight_confidence
+0.6
+## confidence
+0.85
+## atomic_claim_ids
+
+## resource_occurrence_ids
+
+## source_candidate_ids
+
+## original_wording
+
+## merge_ids
+
+## rejected_merge_candidate_ids
+
+## conflicts
+
+## uncertainty
+
+## evidence_gaps
+Evidence must be attached before publication.
+## owner
+Claude
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## exclusion_reason
+
+## field_notes
+sourceCandidateIds: minted university-blind as CON-<SYS>- + first 14 hex of SHA-256 of the canonical key, uppercased, collision-checked against the corpus concept IDs -- no collision, new concept.
+resourceOccurrenceIds: Fact grounded in standard endocrine physiology teaching (Guyton & Hall / Ganong level) corroborated by the Dr Shebl bank's own keyed stem/options (printed answer line; Ch.8 Q34 = b).

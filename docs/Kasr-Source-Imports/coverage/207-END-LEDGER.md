@@ -855,8 +855,30 @@ in the corpus and skipped; the GLUT-transporter / islet-cell / glucagon-stimulus
 Gate-clean (concept 38 items 0 errors; article 6 items 0 errors; MCQ 38 items 0 errors with `--with`
 concept+article+resource siblings). Seed re-emitted.
 
-**The 207 END module is now 332 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
-+ Jalal 28 + Zahra histology 14 + Shebl physiology 38), 7 held, 2 excluded. **Next 207 END cluster:** continue
-the Dr Shebl bank at **Ch.7 Male reproduction (p.34-37)** and **Ch.8 Female reproduction (p.38-43)** (plus the
-held Graves-exophthalmos, iodine-deficiency, hyperphosphataemia-PTH, secondary-hyperaldosteronism and
-somatostatin-gastrin items); dedup each vs the physiology corpus, push-per-slice.
+**Slice 6 — 8 authored** (Ch.7 Male + Ch.8 Female reproduction): male Q4 (spermatogenesis needs FSH +
+testosterone), Q12 (DHT is the most potent androgen), Q13 (estrogen raises SHBG), Q17 (seminal-vesicle fructose
+= sperm energy); female Q14 (cAMP is FSH second messenger), Q16 (progesterone drives the secretory endometrium),
+Q24 (granulosa aromatase makes estradiol, two-cell model), Q34 (progesterone decreases uterine contractility).
+0 held, 0 excluded. **All 8 keyed from the printed answer line.** 8 concepts minted university-blind (4
+`CON-AND-*` androl: 5D7527B90F5567, 0357025AA59561, F69BC595E70446, CF54995F897DFD; 4 `CON-GYN-*` gyn:
+289056A14DA0E7, 5785146078A272, DFF01BB0003E30, D9641BF1A682E9) — collision-checked corpus-wide, 0 collisions,
+0 in-batch dupes. Grouped into 2 new articles (`ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY`,
+`ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY`). Dedup Ch.7/8 ~ high (the reproductive corpus is
+saturated by the EOM + 2023 + Zahra histology + Galal/Jalal anatomy tranches): Leydig testosterone, Sertoli
+aromatase, sperm-maturation, ovulation/LH-surge, corpus-luteum/hCG, proliferative/secretory histology and
+progesterone-thermogenic were already authored and skipped; the FSH-cAMP / two-cell aromatase / secretory-
+transformation / SHBG / seminal-fructose / DHT-potency seam was fresh. Deferred fresh-but-lower-yield: Q3
+relaxin (peptide), Q23 estradiol-most-potent, Q7 normal sperm count, Q29 placental-estrogen oxytocin
+responsiveness; Q26 held (keyed "estrone" as prevalent pregnancy estrogen is medically questionable).
+Gate-clean (concept 46 items 0 errors; article 8 items 0 errors; MCQ 46 items 0 errors with `--with`
+concept+article+resource siblings). Seed re-emitted.
+
+**The 207 END module is now 340 authored** (3 EOM 173 + Medhat 21 + Galal repro 27 + Galal endo 17 + RPR 14
++ Jalal 28 + Zahra histology 14 + Shebl physiology 46), 8 held, 2 excluded. **The Dr Shebl physiology bank is
+now authored across Ch.2-8 in 6 slices (46 fresh MCQs, 46 concepts, 8 articles); Ch.1 Introduction overlaps
+already-authored GPCR/hormone-receptor/cell-communication concepts and was skipped.** A handful of fresh-but-
+lower-yield reproductive stems remain deferred (relaxin, estradiol potency, normal sperm count, placental-estrogen
+oxytocin), plus the held Graves-exophthalmos, iodine-deficiency, hyperphosphataemia-PTH, secondary-
+hyperaldosteronism, somatostatin-gastrin and Q26-pregnancy-estrogen items. **Next 207 END cluster:** the Zahra
+Male/Female histology sections, or another physiology bank (Maher / Merged PHYSIO 2022/2023) after a key-render
+pass; dedup vs the physiology corpus, push-per-slice.

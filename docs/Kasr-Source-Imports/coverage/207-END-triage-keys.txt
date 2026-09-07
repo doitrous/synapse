@@ -609,3 +609,36 @@ HELD (bad item, NOT authored): Q20 ("somatostatin inhibits all EXCEPT gastrin", 
 physiologically DOES inhibit gastrin, so the keyed exception is medically wrong; held per answer policy.
 Dedup Ch.6 ~ moderate; the GLUT-transporter / islet-cell / glucagon-stimulus / insulin-K+ seam was fresh.
 NEXT: Ch.7 Male reproduction (p.34-37) and Ch.8 Female reproduction (p.38-43).
+
+Ch.7 Male reproduction (20 Qs) recovered keys:
+Q1.d  Q2.a  Q3.b  Q4.a  Q5.b  Q6.c  Q7.d  Q8.d  Q9.a  Q10.c  Q11.d  Q12.a  Q13.c  Q14.d  Q15.d
+Q16.d Q17.c Q18.b Q19.d Q20.a
+Ch.8 Female reproduction (34 Qs) recovered keys:
+Q1.c  Q2.d  Q3.c  Q4.d  Q5.a  Q6.c  Q7.c  Q8.c  Q9.b  Q10.c  Q11.a  Q12.d  Q13.d  Q14.a  Q15.e
+Q16.d Q17.a Q18.c Q19.d Q20.a Q21.b Q22.a Q23.c Q24.a Q25.b Q26.a Q27.a Q28.d Q29.a Q30.d Q31.b
+Q32.b Q33.c Q34.b
+
+— Authoring pass 2026-09-07, SLICE 6 (8 fresh MCQs, Ch.7 Male + Ch.8 Female reproduction) —
+Authored (male): Q4 (spermatogenesis needs FSH + testosterone; Q1 corroborates), Q12 (DHT is most potent
+androgen), Q13 (estrogen raises SHBG), Q17 (seminal-vesicle fructose = sperm energy). Authored (female): Q14
+(cAMP is FSH second messenger), Q16 (progesterone drives secretory endometrium), Q24 (granulosa aromatase makes
+estradiol, two-cell; Q22 corroborates), Q34 (progesterone decreases uterine contractility). 8 concepts minted
+university-blind (4 CON-AND androl, 4 CON-GYN gyn), collision-checked corpus-wide (0 collisions, 0 in-batch
+dupes), grouped into 2 new articles (male + female reproductive physiology). All 8 keys read from the printed
+answer line.
+SKIPPED as dupes of the saturated 207-END reproductive corpus: male Q2/Q3/Q8/Q10 (Leydig testosterone = testis.
+leydig-cell.smooth-er-steroidogenic), Q9 (Sertoli estradiol/aromatase = sertoli-cell.secretions.activin-inhibin-
+aromatase), Q5 (sperm maturation epididymis), Q14 (testosterone effects = testosterone.effects.excludes-high-
+pitched-voice), Q19 (secondary sex chars need pituitary — low-yield); female Q4 (oxytocin labour), Q6 (inhibin
+inhibits FSH), Q10/Q11/Q12 (ovulation day 14 / LH surge positive feedback = menstrual-cycle.ovulation + hormone-
+feedback.positive), Q13/Q30/Q31 (corpus luteum / hCG = ovary.corpus-luteum + hCG concept), Q18 (proliferative
+straight glands = menstrual-cycle.proliferative-phase), Q19 (secretory glycogen = menstrual-cycle-histology.
+secretory), Q27 (progesterone thermogenic = progesterone.physiologic-effect.thermogenic), Q22 (granulosa estrogen
+= folded into aromatase concept), Q8/Q9 (FSH follicle growth / estrogen FSH feedback). HELD/deferred (fresh but
+lower-yield or questionable key): Q3 (relaxin peptide-not-steroid), Q23 (estradiol most potent estrogen), Q7
+(normal sperm count >20M), Q29 (placental estrogen raises oxytocin responsiveness), Q26 (keyed "estrone" as
+prevalent pregnancy estrogen — medically questionable, estriol is the placental dominant; NOT authored).
+Dedup Ch.7/8 ~ high (repro corpus saturated by EOM + 2023 + Zahra histology + Galal/Jalal anatomy); 8 clean
+fresh mechanistic/functional items harvested. **Dr Shebl physiology bank now 46 authored across 6 slices
+(Ch.2-8); Ch.1 intro overlaps authored GPCR/receptor concepts (skipped).** NEXT 207 END cluster: the Zahra
+Male/Female histology sections, or a new physiology bank (Maher, Merged PHYSIO 2022/2023) after a key-render pass.

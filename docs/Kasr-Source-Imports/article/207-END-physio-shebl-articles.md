@@ -556,3 +556,181 @@ arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than
 university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.6 Pancreas).
 ## reading_time
 7
+
+---
+
+# Item
+## id
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+## title
+Male reproductive physiology: androgens, spermatogenesis and semen
+## subject
+androl
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+Spermatogenesis in the seminiferous tubules requires both FSH, acting on Sertoli cells, and a high local concentration of testosterone made by Leydig cells under LH; neither hormone alone suffices. Testosterone is converted in target tissues by 5-alpha-reductase to dihydrotestosterone, the most potent androgen. Sex steroids circulate on sex-hormone-binding globulin, whose hepatic synthesis is raised by oestrogen and lowered by androgens. The accessory glands shape the ejaculate: the seminal vesicles secrete fructose, the main energy substrate for sperm, and contribute most of the alkaline seminal volume.
+## sections
+### Definition
+This article groups the male reproductive physiology facts tested by the Dr Shebl set: the dual FSH-and-testosterone control of spermatogenesis, the potency of dihydrotestosterone, the oestrogen regulation of SHBG, and the seminal-vesicle fructose of semen.
+### Mechanism
+FSH and Leydig-cell testosterone converge on Sertoli cells to sustain germ cells. 5-alpha-reductase makes DHT for high-affinity receptor binding. Oestrogen raises SHBG, altering the free sex-steroid fraction. Seminal vesicles add fructose and alkaline fluid to the ejaculate.
+### Key determinants
+Discriminators tested here: the requirement for both FSH and testosterone; DHT as the most potent androgen; oestrogen (not androgen) raising SHBG; and seminal-vesicle fructose as the sperm energy source.
+### Clinical significance
+These points underlie the hormonal evaluation of male infertility, the role of 5-alpha-reductase (and its inhibitors) in prostate and hair conditions, the interpretation of SHBG changes, and seminal fructose as a marker of seminal-vesicle/ductal patency.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors here are built from those reversals (spermatogenesis by LH alone, testosterone as the most potent androgen, androgens raising SHBG, or fructose coming from the testis or prostate).
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Male reproduction
+## subtopic
+Male reproduction
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-AND-T01
+## related_concepts
+CON-AND-5D7527B90F5567
+CON-AND-0357025AA59561
+CON-AND-F69BC595E70446
+CON-AND-CF54995F897DFD
+## related_articles
+
+## resource_ids
+src_8363527119860a6d39ed
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.7 Male reproduction).
+## reading_time
+6
+
+---
+
+# Item
+## id
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+## title
+Female reproductive physiology: gonadotrophin signalling, ovarian steroids and the endometrium
+## subject
+gyn
+## status
+Draft
+## owner
+Claude
+## topic
+Physiology
+## summary
+FSH, a glycoprotein gonadotrophin, signals through a G-protein-coupled receptor and cyclic AMP; in the ovary it induces granulosa aromatase. In the two-cell model, theca cells make androgens under LH and granulosa cells aromatise theca-derived testosterone to estradiol, the main oestrogen of the growing follicle. Oestrogen drives the proliferative endometrium, and after ovulation corpus-luteum progesterone converts it to the secretory phase, with tortuous glycogen-secreting glands ready for implantation. In pregnancy progesterone relaxes the myometrium, decreasing uterine contractility to maintain gestation.
+## sections
+### Definition
+This article groups the female reproductive physiology facts tested by the Dr Shebl set: FSH cyclic-AMP signalling, the two-cell granulosa aromatisation of testosterone to estradiol, the progesterone-driven secretory endometrium, and the uterine-quieting action of progesterone in pregnancy.
+### Mechanism
+FSH raises cyclic AMP and induces granulosa aromatase, which converts theca androgens to estradiol. Oestrogen proliferates the endometrium; corpus-luteum progesterone then makes it secretory and, in pregnancy, relaxes uterine smooth muscle.
+### Key determinants
+Discriminators tested here: FSH acting via cyclic AMP; the two-cell origin of estradiol; progesterone (not oestrogen) as the secretory-phase hormone; and progesterone reducing rather than raising uterine contractility.
+### Clinical significance
+These points underlie ovulation induction and monitoring, the endometrial dating used in fertility work, and the role of progesterone (and its withdrawal) in maintaining pregnancy and the timing of labour.
+### Common misconceptions
+See each concept's pitfalls field for the specific reversal a hurried reader makes; the distractors here are built from those reversals (FSH using a nuclear/calcium pathway, granulosa cells making androgens, oestrogen producing the secretory phase, or progesterone stimulating uterine contraction).
+## universities
+kau
+## years
+KAU_Y2
+## module
+207 END
+## module_subject
+207 END > Physiology > Female reproduction
+## subtopic
+Female reproduction
+## microtopic
+
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## learner_stage
+Year 2 foundation
+## high_yield
+Core
+## primary_node_id
+DIS-PHY-T06
+## secondary_node_ids
+SYS-GYN-T01
+## related_concepts
+CON-GYN-289056A14DA0E7
+CON-GYN-5785146078A272
+CON-GYN-DFF01BB0003E30
+CON-GYN-D9641BF1A682E9
+## related_articles
+
+## resource_ids
+src_8363527119860a6d39ed
+## nanotopic
+
+## arabic_title
+
+## aliases
+
+## language
+en
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## evidence_gaps
+Evidence must be attached before publication.
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## field_notes
+arabicTitle: No reviewed Arabic terminology was supplied; left empty rather than model-translated.
+university_notes: No department physiology book PDF was located/read this pass -- written from standard physiology teaching (Guyton & Hall / Ganong level) corroborated by this bank's own keyed stems and options (printed answer lines, Ch.8 Female reproduction).
+## reading_time
+6

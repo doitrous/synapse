@@ -5335,3 +5335,1123 @@ yes
 ## author_notes
 keySource: printed answer key (Q1 = a)
 kasr: Dr Shebl physiology bank, Ch.6 Pancreas p.29
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-039
+
+## title
+Spermatogenesis requires FSH and testosterone
+
+## question
+Which hormones are responsible for spermatogenesis?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+FSH and testosterone
+
+## explanation_a
+Correct. Spermatogenesis requires both FSH, which acts on the Sertoli cells, and a high local concentration of testosterone produced by Leydig cells under LH. FSH and testosterone act together on the Sertoli cells to support the developing germ cells. Neither hormone alone is sufficient for full spermatogenesis.
+
+## answer_b
+LH and inhibin
+
+## explanation_b
+Incorrect. LH acts on Leydig cells to make testosterone and inhibin restrains FSH; this pair does not itself drive spermatogenesis.
+
+## answer_c
+GnRH and inhibin
+
+## explanation_c
+Incorrect. GnRH acts on the pituitary and inhibin inhibits FSH, so this pair does not directly support spermatogenesis.
+
+## answer_d
+Prolactin and GH
+
+## explanation_d
+Incorrect. Prolactin and growth hormone are not the hormones responsible for spermatogenesis.
+
+## topic
+Physiology
+
+## subtopic
+Male reproduction
+
+## main_concept
+CON-AND-5D7527B90F5567
+
+## concept_ids
+CON-AND-5D7527B90F5567
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Male reproduction
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that spermatogenesis requires both FSH and testosterone acting on Sertoli cells.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.7 Male p.34 (Q4; Q1 corroborates)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q4 = a; Q1 = d corroborates)
+kasr: Dr Shebl physiology bank, Ch.7 Male reproduction p.34
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-040
+
+## title
+Dihydrotestosterone is the most potent androgen
+
+## question
+Which hormone is the most potent (active) form of testosterone?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Dihydrotestosterone
+
+## explanation_a
+Correct. Dihydrotestosterone (DHT) is the most potent androgen: it is formed from testosterone by 5-alpha-reductase in target tissues and binds the androgen receptor with higher affinity than testosterone. DHT mediates many androgenic effects, such as external genital and prostate development. It is therefore the most active form.
+
+## answer_b
+Androstenedione
+
+## explanation_b
+Incorrect. Androstenedione is a weak androgen precursor, far less potent than DHT.
+
+## answer_c
+Dehydroepiandrosterone
+
+## explanation_c
+Incorrect. Dehydroepiandrosterone is a weak adrenal androgen precursor, not the most potent form.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. These androgens differ greatly in potency, so 'all of the above' is wrong; DHT is the most potent.
+
+## topic
+Physiology
+
+## subtopic
+Male reproduction
+
+## main_concept
+CON-AND-0357025AA59561
+
+## concept_ids
+CON-AND-0357025AA59561
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Male reproduction
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+Identify dihydrotestosterone as the most potent androgen, formed by 5-alpha-reductase.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.7 Male p.35 (Q12)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q12 = a)
+kasr: Dr Shebl physiology bank, Ch.7 Male reproduction p.35
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-041
+
+## title
+Estrogen increases sex-hormone-binding globulin
+
+## question
+Which of the following increases the level of sex-hormone-binding globulin (SHBG) in plasma?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Testosterone
+
+## explanation_a
+Incorrect. Androgens tend to lower SHBG rather than raise it.
+
+## answer_b
+Growth hormone
+
+## explanation_b
+Incorrect. Growth hormone does not raise SHBG and tends to lower it.
+
+## answer_c
+Estrogen
+
+## explanation_c
+Correct. Estrogen increases hepatic synthesis of sex-hormone-binding globulin, raising plasma SHBG. This is why SHBG rises in pregnancy and with oestrogen therapy, which lowers the free fraction of circulating sex steroids. Androgens have the opposite effect on SHBG.
+
+## answer_d
+A and B only
+
+## explanation_d
+Incorrect. Neither testosterone nor growth hormone raises SHBG, so this combination is wrong.
+
+## topic
+Physiology
+
+## subtopic
+Male reproduction
+
+## main_concept
+CON-AND-F69BC595E70446
+
+## concept_ids
+CON-AND-F69BC595E70446
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Male reproduction
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that estrogen raises hepatic synthesis of sex-hormone-binding globulin.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.7 Male p.35 (Q13)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q13 = c)
+kasr: Dr Shebl physiology bank, Ch.7 Male reproduction p.35-36
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-042
+
+## title
+Seminal vesicles secrete fructose as sperm energy source
+
+## question
+The normal seminal ejaculate:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Has a volume of about 5-10 ml
+
+## explanation_a
+Incorrect. Normal ejaculate volume is about 2-5 ml, not 5-10 ml.
+
+## answer_b
+Comes mainly from the seminiferous tubules and epididymis
+
+## explanation_b
+Incorrect. Most of the seminal volume comes from the accessory glands (seminal vesicles and prostate), not from the tubules and epididymis.
+
+## answer_c
+Contains fructose from the seminal vesicles
+
+## explanation_c
+Correct. The seminal vesicles secrete fructose into the semen, which is the main energy substrate for sperm motility. Seminal fructose is a marker of seminal-vesicle secretion and of patency of the ejaculatory ducts. Its absence suggests seminal-vesicle or ductal obstruction.
+
+## answer_d
+Has an acidic pH
+
+## explanation_d
+Incorrect. Semen is alkaline, not acidic, to buffer the acidity of the vagina.
+
+## topic
+Physiology
+
+## subtopic
+Male reproduction
+
+## main_concept
+CON-AND-CF54995F897DFD
+
+## concept_ids
+CON-AND-CF54995F897DFD
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Male reproduction
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-SHEBL-MALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that seminal-vesicle fructose is the main energy substrate for sperm.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.7 Male p.36 (Q17)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q17 = c)
+kasr: Dr Shebl physiology bank, Ch.7 Male reproduction p.36
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-043
+
+## title
+cAMP is the second messenger of FSH
+
+## question
+Which of the following acts as a second messenger for FSH hormone?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+cAMP
+
+## explanation_a
+Correct. FSH, like LH and TSH, is a glycoprotein hormone that binds a G-protein-coupled receptor and acts through the Gs / adenylate-cyclase pathway, raising cyclic AMP as its second messenger. Cyclic AMP activates protein kinase A to produce the response, such as aromatase induction in granulosa cells. FSH does not act through a nuclear or a principally calcium-based pathway.
+
+## answer_b
+DNA
+
+## explanation_b
+Incorrect. DNA is the genetic template, not a second messenger.
+
+## answer_c
+Ca2+
+
+## explanation_c
+Incorrect. Calcium is the second messenger for Gq-coupled hormones, not the principal messenger for FSH.
+
+## answer_d
+mRNA
+
+## explanation_d
+Incorrect. mRNA carries transcriptional information and is not a second messenger.
+
+## topic
+Physiology
+
+## subtopic
+Female reproduction
+
+## main_concept
+CON-GYN-289056A14DA0E7
+
+## concept_ids
+CON-GYN-289056A14DA0E7
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Female reproduction
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that FSH signals through a G-protein-coupled receptor using cyclic AMP.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.8 Female p.40 (Q14)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q14 = a)
+kasr: Dr Shebl physiology bank, Ch.8 Female reproduction p.40
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-044
+
+## title
+Progesterone drives the secretory transformation of the endometrium
+
+## question
+Which of the following hormones produces the shift in the histologic appearance of the endometrium to the secretory phase?
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Estrogen
+
+## explanation_a
+Incorrect. Estrogen drives the proliferative phase, not the secretory transformation.
+
+## answer_b
+Follicle-stimulating hormone (FSH)
+
+## explanation_b
+Incorrect. FSH acts on the ovary and does not directly transform the endometrium.
+
+## answer_c
+Luteinizing hormone (LH)
+
+## explanation_c
+Incorrect. LH triggers ovulation and corpus-luteum formation but does not itself produce the secretory endometrium.
+
+## answer_d
+Progesterone
+
+## explanation_d
+Correct. After ovulation the corpus luteum secretes progesterone, which converts the estrogen-primed proliferative endometrium into the secretory phase: the glands become tortuous and secrete glycogen and the spiral arteries develop. This prepares the endometrium for implantation. Progesterone is therefore the hormone of the secretory phase.
+
+## topic
+Physiology
+
+## subtopic
+Female reproduction
+
+## main_concept
+CON-GYN-5785146078A272
+
+## concept_ids
+CON-GYN-5785146078A272
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Female reproduction
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that progesterone converts the proliferative endometrium into the secretory phase.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.8 Female p.40 (Q16)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q16 = d)
+kasr: Dr Shebl physiology bank, Ch.8 Female reproduction p.40
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-045
+
+## title
+Granulosa aromatase converts testosterone to estradiol (two-cell model)
+
+## question
+Aromatase acting on testosterone in the granulosa cells of the ovary results in synthesis of:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Estradiol
+
+## explanation_a
+Correct. In the two-cell model, theca cells make androgens (testosterone and androstenedione) under LH, and these diffuse to the granulosa cells where FSH-induced aromatase converts testosterone to estradiol. Estradiol is thus the main estrogen of the growing follicle. This theca-granulosa cooperation underlies follicular estrogen synthesis.
+
+## answer_b
+Estrone
+
+## explanation_b
+Incorrect. Aromatase acting on testosterone yields estradiol; estrone arises mainly from aromatisation of androstenedione.
+
+## answer_c
+Estriol
+
+## explanation_c
+Incorrect. Estriol is a weak estrogen formed largely in the placenta during pregnancy, not the granulosa product here.
+
+## answer_d
+Progesterone
+
+## explanation_d
+Incorrect. Progesterone is a corpus-luteum product; aromatase does not synthesise it.
+
+## topic
+Physiology
+
+## subtopic
+Female reproduction
+
+## main_concept
+CON-GYN-DFF01BB0003E30
+
+## concept_ids
+CON-GYN-DFF01BB0003E30
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Female reproduction
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+Describe granulosa-cell aromatisation of testosterone to estradiol in the two-cell model.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.8 Female p.41 (Q24; Q22 corroborates)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q24 = a; Q22 = a granulosa estrogen corroborates)
+kasr: Dr Shebl physiology bank, Ch.8 Female reproduction p.41
+
+---
+
+# Item
+
+## id
+QST-KASR207END-PHYSHEBL-046
+
+## title
+Progesterone decreases uterine contractility in pregnancy
+
+## question
+Progesterone:
+
+## subject
+endo
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Stimulates development of the ducts of the breast
+
+## explanation_a
+Incorrect. Progesterone develops the breast alveoli (lobules), whereas estrogen develops the ducts.
+
+## answer_b
+Decreases uterine contractility during pregnancy
+
+## explanation_b
+Correct. Progesterone relaxes uterine smooth muscle, decreasing myometrial contractility and excitability during pregnancy to maintain gestation (the progesterone block). A decline in progesterone activity near term contributes to the onset of labour. This quieting of the uterus is a key pregnancy-maintaining action.
+
+## answer_c
+Both A and B
+
+## explanation_c
+Incorrect. Because option A is wrong (ducts are an estrogen effect), the combination in C cannot be correct.
+
+## answer_d
+Plasma levels remain constant after implantation
+
+## explanation_d
+Incorrect. Progesterone rises after implantation, secreted by the corpus luteum and later the placenta; it does not remain constant.
+
+## topic
+Physiology
+
+## subtopic
+Female reproduction
+
+## main_concept
+CON-GYN-D9641BF1A682E9
+
+## concept_ids
+CON-GYN-D9641BF1A682E9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Physiology > Female reproduction
+
+## question_only_for
+
+## library_ids
+ART-GYN-207END-SHEBL-FEMALE-REPRODUCTIVE-PHYSIOLOGY
+
+## resource_ids
+src_8363527119860a6d39ed
+
+## learning_objective
+State that progesterone reduces uterine contractility to maintain pregnancy.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Shebl physiology MCQ bank, Ch.8 Female p.43 (Q34)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed answer key (Q34 = b)
+kasr: Dr Shebl physiology bank, Ch.8 Female reproduction p.43
