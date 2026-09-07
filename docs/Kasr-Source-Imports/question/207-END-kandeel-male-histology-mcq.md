@@ -152,6 +152,146 @@ kasr: Dr Kandeel male histology bank, p.2
 QST-KASR207END-KANDEELMALE-002
 
 ## title
+The tunica albuginea of the testis
+
+## question
+The middle covering layer of the testis, formed of dense fibrous connective tissue, is called:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Tunica vaginalis
+
+## explanation_a
+Incorrect. The tunica vaginalis is the outer serous coat, not the dense fibrous middle layer.
+
+## answer_b
+Tunica vasculosa
+
+## explanation_b
+Incorrect. The tunica vasculosa is the inner loose vascular layer, not a dense fibrous coat.
+
+## answer_c
+Tunica propria
+
+## explanation_c
+Incorrect. "Tunica propria" is the peritubular tissue of the seminiferous tubule, not a coat of the testis.
+
+## answer_d
+Tunica albuginea
+
+## explanation_d
+Correct. The tunica albuginea is the thick capsule of dense fibrous (collagenous) connective tissue lying deep to the tunica vaginalis. It thickens posteriorly to form the mediastinum testis and sends fibrous septa that divide the gland into lobules, making it the tough middle covering that gives the testis its firm consistency.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-6803B344944ABC
+
+## concept_ids
+CON-AND-6803B344944ABC
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Identify the tunica albuginea as the dense fibrous capsule of the testis that forms the mediastinum and septa.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.2 (Kandeel Q2)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q2 = D)
+kasr: Dr Kandeel male histology bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-003
+
+## title
 Cells of the seminiferous tubule
 
 ## question
@@ -289,7 +429,427 @@ kasr: Dr Kandeel male histology bank, p.2
 # Item
 
 ## id
-QST-KASR207END-KANDEELMALE-003
+QST-KASR207END-KANDEELMALE-004
+
+## title
+The spermatogenic cell line
+
+## question
+All the following cells are spermatogenic cells EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+Spermatogonia
+
+## explanation_a
+Incorrect. Spermatogonia are the diploid stem cells at the start of the spermatogenic series, so they are spermatogenic cells.
+
+## answer_b
+Spermatocytes
+
+## explanation_b
+Incorrect. Spermatocytes (primary and secondary) are the meiotic members of the spermatogenic line.
+
+## answer_c
+Spermatids
+
+## explanation_c
+Incorrect. Spermatids are the haploid post-meiotic germ cells that mature into spermatozoa, so they are spermatogenic cells.
+
+## answer_d
+Sertoli cells
+
+## explanation_d
+Correct. The spermatogenic (germ) line comprises spermatogonia, spermatocytes and spermatids. Sertoli cells are the somatic SUPPORTING (sustentacular) cells of the tubule; they nourish and protect the germ cells and form the blood-testis barrier but never become sperm, so they are not spermatogenic cells and are the required exception.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-F214FF37770951
+
+## concept_ids
+CON-AND-F214FF37770951
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Distinguish the spermatogenic germ-cell line from the supporting Sertoli cell.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.2 (Kandeel Q6)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q6 = D)
+kasr: Dr Kandeel male histology bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-005
+
+## title
+Origin of primary spermatocytes
+
+## question
+Which of the following cells divide and differentiate into primary spermatocytes?
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Pale type A spermatogonia
+
+## explanation_a
+Incorrect. Pale type A spermatogonia are the renewing stem cells; they divide to maintain the stem pool and to give type B cells, but they do not become primary spermatocytes directly.
+
+## answer_b
+Dark type A spermatogonia
+
+## explanation_b
+Incorrect. Dark type A spermatogonia are the reserve (dormant) stem cells and do not differentiate directly into spermatocytes.
+
+## answer_c
+Type B spermatogonia
+
+## explanation_c
+Correct. Type B spermatogonia are the last mitotic generation of the spermatogonial series; each divides and then differentiates into a primary spermatocyte, which enters the long prophase of the first meiotic division. Type A (pale/dark) cells are the stem compartment that ultimately gives rise to type B, but it is the type B cell that becomes the primary spermatocyte.
+
+## answer_d
+Spermatids
+
+## explanation_d
+Incorrect. Spermatids are the haploid product of the second meiotic division, downstream of the spermatocytes, not their precursor.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-0AB22469FF3621
+
+## concept_ids
+CON-AND-0AB22469FF3621
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that type B spermatogonia differentiate into primary spermatocytes.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.2 (Kandeel Q7)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q7 = C)
+kasr: Dr Kandeel male histology bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-006
+
+## title
+Chromosomes after the first meiotic division
+
+## question
+At the end of the first meiotic division, each daughter cell contains:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+23 d-chromosomes (dyads)
+
+## explanation_a
+Correct. Meiosis I is the reductional division: homologous chromosomes separate, so each secondary spermatocyte receives 23 chromosomes. Each of those chromosomes still consists of two sister chromatids joined at the centromere — a "dyad" or d-chromosome. So the product is 23 double-structured (dyad) chromosomes, halving the chromosome number while the DNA content is still 2C.
+
+## answer_b
+46 s-chromosomes
+
+## explanation_b
+Incorrect. The chromosome number is halved to 23 at meiosis I, not kept at 46.
+
+## answer_c
+46 d-chromosomes
+
+## explanation_c
+Incorrect. 46 is the diploid number of the primary spermatocyte before meiosis I, not the number in each daughter cell after it.
+
+## answer_d
+23 s-chromosomes
+
+## explanation_d
+Incorrect. Single-chromatid (monad, s-) chromosomes appear only after meiosis II, when the sister chromatids separate; after meiosis I the 23 chromosomes are still dyads.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-D7D7B90D8AD92C
+
+## concept_ids
+CON-AND-D7D7B90D8AD92C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that the first meiotic division yields cells with 23 dyad (double-chromatid) chromosomes.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.2 (Kandeel Q10)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q10 = A)
+kasr: Dr Kandeel male histology bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-007
 
 ## title
 Source of androgen-binding protein
@@ -333,7 +893,7 @@ Incorrect. Type A spermatogonia are the stem/reserve germ cells and do not secre
 Sertoli cells
 
 ## explanation_d
-Correct. Androgen-binding protein is a secretory product of the Sertoli cell, made under FSH stimulation. By binding testosterone, ABP keeps a high local androgen concentration inside the seminiferous tubule and carries testosterone into the lumen and along the ducts, which is essential for spermatogenesis.
+Correct. Androgen-binding protein is a secretory product of the Sertoli cell, made under FSH stimulation. By binding testosterone (supplied by the neighbouring Leydig cells), ABP keeps a high local androgen concentration inside the seminiferous tubule and carries testosterone into the lumen and along the ducts, which is essential for spermatogenesis.
 
 ## topic
 Histology
@@ -423,3 +983,2249 @@ yes
 ## author_notes
 keySource: printed p.7 Dr Kandeel answer table (Q11 = D)
 kasr: Dr Kandeel male histology bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-008
+
+## title
+Ploidy of the primary spermatocyte
+
+## question
+In the seminiferous tubules, the primary spermatocytes:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Contain a diploid number of chromosomes
+
+## explanation_a
+Correct. The primary spermatocyte arises from a type B spermatogonium and has NOT yet completed a reduction division, so it still carries the diploid (2n = 46) chromosome number. It then enters the long prophase of meiosis I; only when meiosis I is complete does the chromosome number fall to the haploid 23 of the secondary spermatocyte.
+
+## answer_b
+Rest on the basement membrane
+
+## explanation_b
+Incorrect. Spermatogonia rest on the basal lamina; once a cell becomes a primary spermatocyte it has moved into the adluminal compartment above the Sertoli tight junctions.
+
+## answer_c
+Are the smallest of the spermatogenic cells
+
+## explanation_c
+Incorrect. The primary spermatocyte is in fact the LARGEST cell of the spermatogenic series, not the smallest.
+
+## answer_d
+Divide by mitosis to give secondary spermatocytes
+
+## explanation_d
+Incorrect. Primary spermatocytes give secondary spermatocytes by the FIRST MEIOTIC (reductional) division, not by mitosis.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-F84200CCCB0837
+
+## concept_ids
+CON-AND-F84200CCCB0837
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that the primary spermatocyte is diploid before it completes the first meiotic division.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.2 (Kandeel Q12)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q12 = A)
+kasr: Dr Kandeel male histology bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-009
+
+## title
+Cytology of the Leydig cell
+
+## question
+Interstitial cells of Leydig contain all the following EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Basophilic cytoplasm
+
+## explanation_a
+Correct. Leydig cells are steroid-secreting cells, so their cytoplasm is ACIDOPHILIC (eosinophilic), not basophilic. Basophilia reflects abundant rough endoplasmic reticulum / ribosomes (protein-secreting cells); a steroid-secreting cell instead has eosinophilic cytoplasm rich in smooth ER and lipid, so "basophilic cytoplasm" is the false statement and the required exception.
+
+## answer_b
+Mitochondria with tubular cristae
+
+## explanation_b
+Incorrect. Like other steroid-secreting cells, Leydig cells contain mitochondria with tubular (tubulovesicular) cristae, which house steroidogenic enzymes.
+
+## answer_c
+Well-developed smooth endoplasmic reticulum
+
+## explanation_c
+Incorrect. Leydig cells have abundant smooth endoplasmic reticulum, the site of cholesterol-to-testosterone conversion, so this is a true feature.
+
+## answer_d
+Numerous lipid droplets
+
+## explanation_d
+Incorrect. Numerous lipid droplets store the cholesterol substrate for steroidogenesis and are a characteristic Leydig-cell feature.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-F22C8EFE1FBE73
+
+## concept_ids
+CON-AND-F22C8EFE1FBE73
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Recognise the acidophilic, steroid-secreting cytology of the Leydig cell (smooth ER, tubular-cristae mitochondria, lipid droplets).
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.2 (Kandeel Q14)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q14 = A)
+kasr: Dr Kandeel male histology bank, p.2
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-010
+
+## title
+Type A spermatogonia
+
+## question
+There is only one true answer about type A spermatogonia:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+They give rise directly to primary spermatocytes
+
+## explanation_a
+Incorrect. Type A cells give rise to type B spermatogonia; it is the type B cell that becomes the primary spermatocyte, not type A directly.
+
+## answer_b
+They develop from secondary spermatocytes
+
+## explanation_b
+Incorrect. Type A spermatogonia are the earliest stem cells of the line; they do not develop from the much later secondary spermatocytes.
+
+## answer_c
+They are of dark and pale types
+
+## explanation_c
+Correct. Type A spermatogonia exist as two forms: dark type A (Ad), the dormant reserve stem cells, and pale type A (Ap), the renewing stem cells that divide to maintain the pool and to produce type B spermatogonia. This dark/pale distinction is the defining feature of type A cells.
+
+## answer_d
+They undergo meiotic division
+
+## explanation_d
+Incorrect. Spermatogonia divide by MITOSIS; meiosis begins only at the primary spermatocyte stage, so type A cells do not undergo meiotic division.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-189AF254723964
+
+## concept_ids
+CON-AND-189AF254723964
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that type A spermatogonia occur as dark (reserve) and pale (renewing) types.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.3 (Kandeel Q17)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q17 = C)
+kasr: Dr Kandeel male histology bank, p.3
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-011
+
+## title
+Location of Leydig cells
+
+## question
+Leydig cells are present in:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+The seminal vesicle
+
+## explanation_a
+Incorrect. The seminal vesicle is an accessory gland of the duct system and contains no Leydig cells.
+
+## answer_b
+Between the seminiferous tubules
+
+## explanation_b
+Correct. Leydig (interstitial) cells lie in the loose vascular connective tissue in the angular spaces BETWEEN the seminiferous tubules of the testis. There, close to blood capillaries, they secrete testosterone under luteinising-hormone (ICSH) control. Their interstitial position is what distinguishes them from the intratubular Sertoli and germ cells.
+
+## answer_c
+The bulbourethral gland
+
+## explanation_c
+Incorrect. The bulbourethral (Cowper's) gland is a mucus-secreting accessory gland and contains no Leydig cells.
+
+## answer_d
+The prostate gland
+
+## explanation_d
+Incorrect. The prostate is an accessory gland with fibromuscular stroma; Leydig cells are confined to the testicular interstitium.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-E74E8F881F7914
+
+## concept_ids
+CON-AND-E74E8F881F7914
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Locate Leydig cells in the interstitial tissue between the seminiferous tubules.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.3 (Kandeel Q19)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q19 = B)
+kasr: Dr Kandeel male histology bank, p.3
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-012
+
+## title
+Phases of spermiogenesis
+
+## question
+Spermiogenesis is divided into the following phases EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Golgi phase
+
+## explanation_a
+Incorrect. The Golgi phase is the first phase of spermiogenesis, in which pro-acrosomal granules from the Golgi coalesce into the acrosomal vesicle.
+
+## answer_b
+Acrosomal phase
+
+## explanation_b
+Incorrect. The acrosomal (cap) phase, in which the acrosome spreads to cap the anterior nucleus, is a true phase of spermiogenesis.
+
+## answer_c
+Mitochondrial phase
+
+## explanation_c
+Correct. Spermiogenesis is classically divided into four phases: Golgi, cap (acrosomal), acrosomal/tail and maturation phase. There is no separately named "mitochondrial phase"; the mitochondria simply aggregate around the proximal flagellum to form the middle-piece sheath during the tail/maturation stages, so "mitochondrial phase" is the required exception.
+
+## answer_d
+Maturation phase
+
+## explanation_d
+Incorrect. The maturation phase, in which excess cytoplasm is shed as the residual body, is a true final phase of spermiogenesis.
+
+## topic
+Histology
+
+## subtopic
+Spermiogenesis
+
+## main_concept
+CON-AND-538FED0F050341
+
+## concept_ids
+CON-AND-538FED0F050341
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Spermiogenesis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Name the phases of spermiogenesis (Golgi, cap/acrosomal, maturation) and recognise there is no separate "mitochondrial phase".
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.4 (Kandeel Q30)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q30 = C)
+kasr: Dr Kandeel male histology bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-013
+
+## title
+Control of spermatogenesis
+
+## question
+All the following are necessary for the control of spermatogenesis EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+FSH
+
+## explanation_a
+Incorrect. FSH acts on Sertoli cells to support spermatogenesis and to drive androgen-binding-protein and inhibin production, so it is required.
+
+## answer_b
+TSH
+
+## explanation_b
+Correct. TSH (thyroid-stimulating hormone) controls the thyroid gland and has no direct role in the local control of spermatogenesis. The regulators of spermatogenesis are FSH and LH-driven testosterone (androgen), the Sertoli products androgen-binding protein and inhibin (feedback on FSH), so TSH is the required exception.
+
+## answer_c
+Inhibin
+
+## explanation_c
+Incorrect. Inhibin, secreted by Sertoli cells, feeds back on the pituitary to modulate FSH output and is part of the control loop.
+
+## answer_d
+ABP
+
+## explanation_d
+Incorrect. Androgen-binding protein maintains the high intratubular testosterone that spermatogenesis needs, so it is part of the control system.
+
+## answer_e
+Androgen
+
+## explanation_e
+Incorrect. Androgen (testosterone from Leydig cells) is essential for spermatogenesis and for maintaining the germinal epithelium.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-FA6C3218E3A1D8
+
+## concept_ids
+CON-AND-FA6C3218E3A1D8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+List the regulators of spermatogenesis (FSH, androgen, ABP, inhibin) and exclude TSH.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.4 (Kandeel Q31)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q31 = B)
+kasr: Dr Kandeel male histology bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-014
+
+## title
+Features of Sertoli cells
+
+## question
+Sertoli cells are characterised by all the following EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Occluding (tight) junctions between them
+
+## explanation_a
+Incorrect. Adjacent Sertoli cells are joined by occluding (tight) junctions near their base; these junctions create the blood-testis barrier, so this is a true feature.
+
+## answer_b
+They divide during the reproductive period
+
+## explanation_b
+Correct. Sertoli cells are a STABLE, non-dividing population: they stop proliferating at puberty and their number is then fixed for life, which sets the upper limit on sperm output. Saying they "divide during the reproductive period" is therefore false and is the required exception.
+
+## answer_c
+They secrete androgen-binding protein
+
+## explanation_c
+Incorrect. Sertoli cells secrete androgen-binding protein (as well as inhibin and anti-Mullerian hormone), so this is a true feature.
+
+## answer_d
+They contain abundant smooth endoplasmic reticulum
+
+## explanation_d
+Incorrect. Sertoli cells have abundant smooth endoplasmic reticulum (and rER), consistent with their varied synthetic and steroid-handling roles.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-5208DE32ECB65B
+
+## concept_ids
+CON-AND-5208DE32ECB65B
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that Sertoli cells do not divide after puberty (their number is fixed).
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.4 (Kandeel Q46)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q46 = B)
+kasr: Dr Kandeel male histology bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-015
+
+## title
+Secretions of Sertoli cells
+
+## question
+Sertoli cells secrete all the following EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+C
+
+## answer_a
+Inhibin peptide
+
+## explanation_a
+Incorrect. Inhibin is a Sertoli-cell peptide that feeds back on the pituitary to reduce FSH secretion, so it is a true Sertoli product.
+
+## answer_b
+Anti-Mullerian hormone
+
+## explanation_b
+Incorrect. Anti-Mullerian hormone (Mullerian-inhibiting substance) is secreted by Sertoli cells; in the fetus it causes regression of the Mullerian ducts.
+
+## answer_c
+Testosterone hormone
+
+## explanation_c
+Correct. Testosterone is synthesised by the interstitial LEYDIG cells, not by Sertoli cells. Sertoli cells secrete inhibin, anti-Mullerian hormone and androgen-binding protein and support spermatogenesis, but they do not make testosterone, so testosterone is the required exception.
+
+## answer_d
+Androgen-binding protein
+
+## explanation_d
+Incorrect. Androgen-binding protein is a Sertoli-cell secretion that concentrates testosterone within the tubule, so it is a true Sertoli product.
+
+## topic
+Histology
+
+## subtopic
+Testis
+
+## main_concept
+CON-AND-98DA066DE03A89
+
+## concept_ids
+CON-AND-98DA066DE03A89
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Testis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-TESTIS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+List the Sertoli-cell secretions (inhibin, anti-Mullerian hormone, ABP) and exclude testosterone (a Leydig product).
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.5 (Kandeel Q48)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q48 = C)
+kasr: Dr Kandeel male histology bank, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-016
+
+## title
+Epithelium of the vas deferens
+
+## question
+The vas deferens is lined with:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Simple columnar cells
+
+## explanation_a
+Incorrect. The mucosa of the vas deferens is pseudostratified, not a single layer of simple columnar cells.
+
+## answer_b
+Pseudostratified columnar epithelium with stereocilia
+
+## explanation_b
+Correct. The vas (ductus) deferens is lined by a pseudostratified columnar epithelium whose principal cells carry stereocilia, continuing the epithelial pattern of the epididymis. This epithelium sits on a folded mucosa surrounded by the characteristic thick three-layered muscular coat that propels sperm during emission.
+
+## answer_c
+Simple cuboidal cells
+
+## explanation_c
+Incorrect. Simple cuboidal epithelium lines small ducts such as the rete testis, not the vas deferens.
+
+## answer_d
+Transitional epithelium
+
+## explanation_d
+Incorrect. Transitional epithelium (urothelium) lines the urinary tract, not the vas deferens.
+
+## topic
+Histology
+
+## subtopic
+Genital ducts
+
+## main_concept
+CON-AND-DF0B3D53D3CEE8
+
+## concept_ids
+CON-AND-DF0B3D53D3CEE8
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Genital ducts
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that the vas deferens is lined by pseudostratified columnar epithelium with stereocilia.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.4 (Kandeel Q38)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q38 = B)
+kasr: Dr Kandeel male histology bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-017
+
+## title
+Characteristics of the prostate gland
+
+## question
+The prostate gland is characterised by all the following EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It consists of 30-50 tubulo-alveolar glands
+
+## explanation_a
+Incorrect. The prostate is built of 30-50 branched tubulo-alveolar glands arranged in mucosal, submucosal and main groups, so this is true.
+
+## answer_b
+It secretes a mucous fluid
+
+## explanation_b
+Correct. Prostatic secretion is a thin, milky, slightly acidic fluid rich in acid phosphatase, citric acid, fibrinolysin and prostate-specific antigen — it is NOT a mucous secretion. Mucus is the product of the bulbourethral (Cowper's) glands, so "secretes a mucous fluid" is the false statement and the required exception.
+
+## answer_c
+It is penetrated by the urethra
+
+## explanation_c
+Incorrect. The prostatic urethra runs through the gland, so the prostate is genuinely penetrated by the urethra.
+
+## answer_d
+Its capsule is rich in smooth muscle fibres
+
+## explanation_d
+Incorrect. The prostatic capsule and stroma are fibromuscular, rich in smooth muscle whose contraction expels the secretion at ejaculation, so this is true.
+
+## topic
+Histology
+
+## subtopic
+Prostate
+
+## main_concept
+CON-AND-2ADC4CAB5994C3
+
+## concept_ids
+CON-AND-2ADC4CAB5994C3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Prostate
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that prostatic secretion is a thin milky fluid, not mucous (mucus is a Cowper's-gland product).
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.4 (Kandeel Q41)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q41 = B)
+kasr: Dr Kandeel male histology bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-018
+
+## title
+Characteristics of the seminal vesicle
+
+## question
+The seminal vesicle is characterised by all the following EXCEPT:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+It is a pair of coiled tubular glands
+
+## explanation_a
+Incorrect. Each seminal vesicle is a single, highly coiled tubular gland, so the pair are coiled tubular glands — a true feature.
+
+## answer_b
+Its mucosa is lined with simple cuboidal epithelium
+
+## explanation_b
+Correct. The seminal vesicle is lined by a pseudostratified/simple COLUMNAR secretory epithelium thrown into an elaborate honeycomb of folds, not by simple cuboidal cells. Calling the lining "simple cuboidal" is therefore the false statement and the required exception.
+
+## answer_c
+Its smooth muscle is arranged as inner circular and outer longitudinal
+
+## explanation_c
+Incorrect. The wall has a smooth muscle coat of inner circular and outer longitudinal layers that contracts at emission, so this is true.
+
+## answer_d
+It secretes a yellowish, alkaline, viscid fluid
+
+## explanation_d
+Incorrect. Seminal-vesicle fluid is a yellowish, alkaline, fructose-rich viscid secretion that forms much of the ejaculate volume, so this is true.
+
+## topic
+Histology
+
+## subtopic
+Accessory glands
+
+## main_concept
+CON-AND-32E00167A9D220
+
+## concept_ids
+CON-AND-32E00167A9D220
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Accessory glands
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that the seminal vesicle is lined by a folded columnar (not simple cuboidal) secretory epithelium.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.4 (Kandeel Q43)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q43 = B)
+kasr: Dr Kandeel male histology bank, p.4
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-019
+
+## title
+Epithelium of the prostatic urethra
+
+## question
+The prostatic urethra is lined with:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Stratified squamous epithelium
+
+## explanation_a
+Incorrect. Stratified squamous epithelium lines the terminal (navicular) part of the penile urethra, not the prostatic urethra.
+
+## answer_b
+Transitional epithelium
+
+## explanation_b
+Correct. The prostatic urethra — the first part of the male urethra, passing through the prostate — is lined by transitional epithelium (urothelium), continuous with that of the urinary bladder above it. Only more distally does the urethral lining change to pseudostratified/stratified columnar and finally stratified squamous.
+
+## answer_c
+Stratified columnar epithelium
+
+## explanation_c
+Incorrect. Stratified columnar epithelium lines much of the membranous and penile urethra, not the prostatic part.
+
+## answer_d
+Pseudostratified columnar epithelium
+
+## explanation_d
+Incorrect. Pseudostratified columnar epithelium appears more distally in the urethra; the prostatic urethra is urothelium.
+
+## topic
+Histology
+
+## subtopic
+Male urethra
+
+## main_concept
+CON-AND-FDD8E2BEEE176C
+
+## concept_ids
+CON-AND-FDD8E2BEEE176C
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Male urethra
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that the prostatic urethra is lined by transitional epithelium (urothelium).
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.5 (Kandeel Q52)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q52 = B)
+kasr: Dr Kandeel male histology bank, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-020
+
+## title
+The rete testis
+
+## question
+The network of anastomosing tubules present within the mediastinum testis and lined with cuboidal epithelium is called:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Rete testis
+
+## explanation_a
+Correct. The rete testis is the labyrinth of anastomosing channels housed within the fibrous mediastinum testis, lined by a simple cuboidal epithelium (often with a single apical cilium). It receives sperm from the straight tubules (tubuli recti) and drains into the efferent ductules.
+
+## answer_b
+Tubuli recti
+
+## explanation_b
+Incorrect. The tubuli recti (straight tubules) are short straight ducts that carry sperm from the seminiferous tubules INTO the rete; they are not the anastomosing network itself.
+
+## answer_c
+Ductuli efferentes
+
+## explanation_c
+Incorrect. The ductuli efferentes leave the rete to reach the epididymis and lie outside the mediastinum; they are not the mediastinal network.
+
+## answer_d
+All of the above
+
+## explanation_d
+Incorrect. Only the rete testis fits the description of an anastomosing network within the mediastinum, so "all of the above" is wrong.
+
+## topic
+Histology
+
+## subtopic
+Genital ducts
+
+## main_concept
+CON-AND-066B65C9B02DF9
+
+## concept_ids
+CON-AND-066B65C9B02DF9
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Genital ducts
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Identify the rete testis as the anastomosing channel network in the mediastinum testis lined by simple cuboidal epithelium.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.5 (Kandeel Q56)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q56 = A)
+kasr: Dr Kandeel male histology bank, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-021
+
+## title
+The corpus spongiosum
+
+## question
+This structure is ventrally located in the body of the penis, terminates by the glans penis and is penetrated by the penile urethra:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+B
+
+## answer_a
+Corpus cavernosum
+
+## explanation_a
+Incorrect. The two corpora cavernosa lie dorsally in the body of the penis and do not transmit the urethra.
+
+## answer_b
+Corpus spongiosum
+
+## explanation_b
+Correct. The corpus spongiosum is the single midline erectile column on the VENTRAL aspect of the penile body; the penile (spongy) urethra runs through it, and distally it expands to form the glans penis. Its venous erectile spaces are smaller and more uniform than those of the corpora cavernosa, which keeps the urethra patent during erection.
+
+## answer_c
+Corpus luteum
+
+## explanation_c
+Incorrect. The corpus luteum is an ovarian endocrine structure, unrelated to the penis.
+
+## answer_d
+Corpus amylacea
+
+## explanation_d
+Incorrect. Corpora amylacea are concretions inside prostatic alveoli, not an erectile body of the penis.
+
+## topic
+Histology
+
+## subtopic
+Penis
+
+## main_concept
+CON-AND-362B40DA27E3A3
+
+## concept_ids
+CON-AND-362B40DA27E3A3
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Penis
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Identify the corpus spongiosum as the ventral penile erectile body that transmits the urethra and forms the glans.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.5 (Kandeel Q57)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q57 = B)
+kasr: Dr Kandeel male histology bank, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-022
+
+## title
+The bulbourethral (Cowper's) glands
+
+## question
+These are two tubulo-alveolar glands present outside the membranous urethra of the male and empty into the first part of the penile urethra:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+A
+
+## answer_a
+Cowper's glands
+
+## explanation_a
+Correct. The bulbourethral (Cowper's) glands are paired, pea-sized compound tubulo-alveolar mucous glands lying in the deep perineal pouch outside the membranous urethra. Their ducts pierce the perineal membrane and open into the first (bulbous) part of the penile urethra, where their clear mucoid secretion lubricates it before ejaculation.
+
+## answer_b
+Prostate glands
+
+## explanation_b
+Incorrect. The single prostate surrounds the prostatic urethra; it is not a pair of glands outside the membranous urethra.
+
+## answer_c
+Bowman's glands
+
+## explanation_c
+Incorrect. Bowman's glands are serous olfactory glands in the nasal mucosa, unrelated to the male genital tract.
+
+## answer_d
+Seminal vesicles
+
+## explanation_d
+Incorrect. The seminal vesicles lie behind the bladder and empty (via the ejaculatory ducts) into the prostatic urethra, not into the penile urethra.
+
+## topic
+Histology
+
+## subtopic
+Accessory glands
+
+## main_concept
+CON-AND-5FC10093E99251
+
+## concept_ids
+CON-AND-5FC10093E99251
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Accessory glands
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+Identify the bulbourethral (Cowper's) glands as paired tubulo-alveolar glands opening into the penile urethra.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.5 (Kandeel Q60)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q60 = A)
+kasr: Dr Kandeel male histology bank, p.5
+
+---
+
+# Item
+
+## id
+QST-KASR207END-KANDEELMALE-023
+
+## title
+Benign prostatic hyperplasia
+
+## question
+The prostatic acini which undergo hyperplasia in old age are:
+
+## subject
+androl
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## correct_answer
+D
+
+## answer_a
+The main acini only
+
+## explanation_a
+Incorrect. The main (peripheral) group is the site of prostatic CARCINOMA, not of the benign age-related hyperplasia.
+
+## answer_b
+The submucosal acini only
+
+## explanation_b
+Incorrect. The submucosal group is involved, but not alone; the mucosal group enlarges as well.
+
+## answer_c
+The mucosal acini only
+
+## explanation_c
+Incorrect. The mucosal group is involved, but not alone; the submucosal group enlarges with it.
+
+## answer_d
+Both the mucosal and the submucosal acini
+
+## explanation_d
+Correct. Benign prostatic hyperplasia of old age arises in the inner, periurethral MUCOSAL and SUBMUCOSAL glands. Their enlargement compresses the prostatic urethra and causes obstructive urinary symptoms. This inner-gland origin contrasts with prostatic carcinoma, which typically arises in the outer main (peripheral) glands.
+
+## topic
+Histology
+
+## subtopic
+Prostate
+
+## main_concept
+CON-AND-B6C2AC07E04211
+
+## concept_ids
+CON-AND-B6C2AC07E04211
+
+## contextual_concept_ids
+
+## difficulty
+Moderate
+
+## question_type
+Single best answer
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+KAU_Y2=moderate
+
+## years
+KAU_Y2
+
+## universities
+kau
+
+## module
+207 END
+
+## module_subject
+207 END > Histology > Prostate
+
+## question_only_for
+
+## library_ids
+ART-AND-207END-KANDEEL-MALE-DUCTS-GLANDS-HISTOLOGY
+
+## resource_ids
+src_3823ae2689790cc49841
+
+## learning_objective
+State that benign prostatic hyperplasia affects the mucosal and submucosal (inner, periurethral) prostatic glands.
+
+## source_citation
+Kasr Al Ainy 207 END - Dr Kandeel male histology MCQ bank, Male p.5 (Kandeel Q61)
+
+## attached_image
+
+## attachments
+
+## media_recommendations
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## author_notes
+keySource: printed p.7 Dr Kandeel answer table (Q61 = D)
+kasr: Dr Kandeel male histology bank, p.5
