@@ -17,6 +17,9 @@
 | 2021-eom-biochemistry-tranche-6 (Q115-120, same paper) | 5 | 0 | 1 skipped-dupe (Q117) | 6 |
 | **2021 EOM paper COMPLETE** (`EOM - DIG-206 EOM (solved).pdf`) | **64** | **4** | **0** | **120** |
 | 206 DIG module (10 tier 1-3 papers + 31 tier-5 banks, `coverage/KAU-Y2-priority-sources.md`) | 82 | 0 | 1 (untriaged) | 1 |
+| Physio dept bank — Dr Effat GI (`Physio Extra MCQ by Dr.Effat [GIT].pdf`, src_7b17...) | 14 | 11 | 0 | 25 (block 1) |
+| Physio dept bank — PreTest GI (`Physio MCQ PreTest [GIT].pdf`, src_20cd...) | 27 | 1 (Q358) | ~30 dupe/near-dupe | 61 |
+| Physio dept bank — Guyton GI (`Guyton mcq [GIT].pdf`, src_6971...) | 7 | 9 matrix + Q31 | ~40 figure/dupe | 57 |
 
 Tranche 1: 16/16 questions authored (Q1-16), 0 held. Tranche 2: 26/26 questions authored
 (Q17-42, all Anatomy — posterior abdominal wall/retroperitoneal vasculature and nerves,
@@ -488,3 +491,46 @@ block from page 8 onward (Pretest-style GI vignettes) — it overlaps the separa
 (src_20cdf9a81be58d2176a1) and should be authored against whichever of the two banks is taken next.
 
 206-DIG authored total now: 277 + 3 (physio Effat t1) + 8 (physio Effat t2) + 3 (physio Effat t3) = **291 MCQs**.
+
+pretest-tranche-1..4 (`Physio MCQ PreTest [GIT]`, McGraw-Hill PreTest GI Physiology, src_20cdf9a81be58d2176a1;
+native-text, KEYED via its Answers section from page 17): **27 authored** of the bank's 61 items
+(Q311-Q371). t1 (Q311,Q312,Q314) gastric-emptying duodenal feedback, small-intestinal motility
+(distension/BER/MMC), terminal-ileum bile-salt reabsorption. t2 (Q324,Q328,Q329,Q331,Q333,Q335,Q338,Q344)
+motilin/erythromycin, pancreatic lipase, myogenic LES tone, gastrinoma/ZES gastrin, folate gut-bacterial
+synthesis (key=e folic acid), CCK gallbladder, coeliac villous atrophy, lactase-deficiency osmotic diarrhoea.
+t3 (Q350,Q352,Q353,Q355,Q357,Q359,Q360,Q369) SGLT1 uptake, medium-chain triglycerides to portal blood,
+iron on transferrin, VIP/NO NANC inhibitory transmitters (achalasia), enteropeptidase, hepatocellular
+jaundice, colonic gas, long-chain fat chylomicrons. t4 (Q348,Q349,Q351,Q356,Q363,Q367,Q368,Q371)
+bile-acid/cholesterol excretion, osmotic-vs-secretory diarrhoea stool gap, colonic SCFA, jejunum water
+absorption, dumping hypoglycaemia, obstructive jaundice conjugated bilirubin, neutral NaCl small-intestinal
+Na+, pancreatic-bicarbonate duodenal protection. 27 new gi concepts minted (CON-GIT-*, university-blind
+SHA-256, collision-checked, no collisions) under DIS-PHY-T05 / SYS-GIT-T01-S02; new article
+ART-GIT-206DIG-PHYSIO-PRETEST; resource record added to evidence/206-DIG-resources.md. Gate-clean per
+tranche (batch 0 errors). Files: question/206-DIG-pretest-mcq-tranche{1..4}.md,
+concept/206-DIG-pretest-tranche{1..4}-concepts.md, seed/206-DIG-pretest-tranche{1..4}.json.
+HELD: Q358 (total colectomy → blood ammonia) — key medically shaky (colectomy typically lowers ammonia
+via lactulose/rifaximin logic; option a 'decreased urinary urobilinogen' is also true). SKIPPED as dupes
+of Effat/PreTest concepts: Q313/Q361 (B12 terminal ileum), Q316 (cholera), Q323 (receptive relaxation),
+Q327/Q332/Q340 (bile salts), Q342 (PPI), Q345 (secondary peristalsis), Q346 (CCK gallbladder), Q361-Q366
+(various), Q364/Q365 (incretin/gastrocolic), plus near-dupes of newly-minted concepts (gastric-emptying,
+acid-feedback, LES, coeliac variants). Remaining ~30 items are mostly such dupes; high-yield distinct
+physiology now covered.
+
+guyton-tranche-1 (`Guyton mcq [GIT]`, Guyton & Hall Physiology Review Unit XII, src_6971b8ed34aad73da1e9;
+native-text, KEYED via ANSWERS section from page 11): **7 authored** (Q5,Q8,Q10,Q11,Q12,Q25,Q48) — salivary
+ionic composition (Q5 bicarbonate highest absolute, Q12 potassium highest relative to plasma; one shared
+concept), achlorhydria impairs protein digestion (pepsin needs acid), pepsinogen from chief cells, CCK the
+only physiological inhibitor of gastric emptying, palatopharyngeal-fold bolus selection in the pharyngeal
+phase, CFTR chloride transport in cystic fibrosis. 6 new gi concepts (university-blind SHA-256,
+collision-checked) under DIS-PHY-T05 / SYS-GIT-T01-S02; new article ART-GIT-206DIG-PHYSIO-GUYTON; resource
+record added. Gate-clean (7 items, 0 errors). Files: question/206-DIG-guyton-mcq-tranche1.md,
+concept/206-DIG-guyton-tranche1-concepts.md, seed/206-DIG-guyton-tranche1.json.
+HELD: Q31 (vomiting) and other multi-column matrix/grid statement-sets (Q13,Q33,Q34,Q35,Q36,Q43,Q45,Q54).
+SKIPPED: figure-dependent items (Q1,Q3,Q4,Q9,Q17,Q23,Q26,Q37,Q38,Q40,Q42) and dupes of Effat/PreTest
+concepts (Q2 duodenocolic, Q6/Q7 GIP/incretin, Q16 MMC, Q39/Q49 mucosal barrier, Q50 receptive relaxation,
+Q51 gastrin trophic).
+
+206-DIG authored total now: 291 + 27 (PreTest t1-t4) + 7 (Guyton t1) = **325 MCQs**. All three native-text
+Physiology department banks in the `[1st priority]` MCQs folder (Effat, PreTest, Guyton) now have their
+prose single-best items authored; remaining Physiology banks (`Physio MCQ [GIT]` ×3) are image-only and
+await an OCR pass before authoring.

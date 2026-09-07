@@ -3856,8 +3856,8 @@
    "fileType": "pdf",
    "pageCount": 19,
    "textLayer": "native",
-   "processingStatus": "pending",
-   "extractionDisposition": null
+   "processingStatus": "extracted",
+   "extractionDisposition": "authored 7 MCQs — guyton tranche 1 (bank Q5,Q8,Q10,Q11,Q12,Q25,Q48): salivary ionic composition, achlorhydria/protein digestion, pepsinogen from chief cells, CCK as sole physiological inhibitor of gastric emptying, pharyngeal-phase bolus selection, CFTR chloride in cystic fibrosis. 6 gi concepts, ART-GIT-206DIG-PHYSIO-GUYTON. Keyed via ANSWERS section (page 11+). HELD matrix/grid statement-sets (Q13,Q31,Q33-Q36,Q43,Q45,Q54); figure-dependent items and Effat/PreTest dupes not re-authored."
   },
   {
    "sourceId": "src_4d35d5b94e826ad992ab",
@@ -4226,8 +4226,8 @@
    "fileType": "pdf",
    "pageCount": 34,
    "textLayer": "native",
-   "processingStatus": "pending",
-   "extractionDisposition": null,
+   "processingStatus": "extracted",
+   "extractionDisposition": "authored 27 MCQs — pretest tranches 1-4 (bank Q311,Q312,Q314,Q324,Q328,Q329,Q331,Q333,Q335,Q338,Q344,Q350,Q352,Q353,Q355,Q357,Q359,Q360,Q369,Q348,Q349,Q351,Q356,Q363,Q367,Q368,Q371): gastric emptying, SI motility, absorption (bile salts/B12/iron/SGLT1/MCT/chylomicron), gut hormones (motilin/CCK/gastrin/ZES), secretion, jaundice, diarrhoea mechanisms. 27 gi concepts, ART-GIT-206DIG-PHYSIO-PRETEST. HELD Q358 (colectomy/ammonia key shaky). Remaining ~30 items dupe Effat/PreTest concepts. Keyed via Answers section (page 17+).",
    "duplicateOf": [
     "_Catalog/Exact Duplicates/206 DIG/Physiology Dpt Physiology [1st priority]/MCQs/Physio MCQ Pretest [GIT] (2).pdf"
    ]
