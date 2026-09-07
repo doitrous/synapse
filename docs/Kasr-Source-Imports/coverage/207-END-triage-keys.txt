@@ -713,3 +713,35 @@ increases fallopian-tube ciliary motility (b). Dedupe ~95%: thyroid/calcium/PTH/
 most repro basics already in corpus. Held 0. NEXT: female repro Q37+ (LH surge/pregnancy/labour) + male
 Q8-26 remainder likely dupe-saturated; then Merged_PHYSIO 2023 (near-identical merged bank, expect ~duplicate)
 and the Maher endo/male/female banks. Physiology is effectively exhausted for fresh mechanistic content.
+
+
+— THE THREE SCANNED HISTOLOGY BANKS (2026-09-07) — all SOLVED by printed key tables (render-read 300 dpi) —
+
+Kandeel Male (Histo MCQ by Dr.Kandeel [Male].pdf, src_3823ae2689790cc49841, 13pp) — printed answer table p.7,
+first "MALE.QUESTIONS" set Q1-79 (gaps carry --): 1c 2d 3a 4b 5b 6d 7c 8a 9c 10a 11d 12a 13b 14a 15d 16a 17c 18c
+19b 20d 21a 22c 23a 24b 25c 26d 27d 28a 30c 31b 33d 34a 35d 36c 37b 38b 39d 40a 41b 42c 43b 45c 46b 47c 48c 51c
+52b 53c 54c 55a 56a 57b 58c 59a 60a 61d 62b 63d 66c 67c 68d 70a 71a 73b 74d 77d 78a 79b. (2nd "Male Genital System"
+set pp.8-12 unkeyed, matching tables pp.11-12 held.) AUTHORED 23 fresh (Q1,2,4,6,7,10,11,12,14,17,19,30,31,38,41,43,
+46,48,52,56,57,60,61). Skipped dupes (myoid/epididymis-stereocilia/duct-pathway/sperm-head/residual-bodies/Reinke/
+primary-spermatocyte-largest/74-days), 1 collision dropped (Q18 BTB=existing physiology concept). HELD: Q40 (capacitation
+keyed to epididymis — wrong, female-tract event), Q54 (key c vs stem=capacitation mismatch).
+
+Kandeel Female (Histo MCQ by Dr.Kandeel [Female].pdf, src_90142feb7bb7c3c1e43d, 13pp) — printed answer table p.7,
+Q1-109 (gaps --): 1c 2b 4D 5A 6A 7C 8C 9B 10D 11A 13D 14B 15B 16A 18D 19A 23C 24A 26A 27C 28D 29C 30B 31D 32B 33C
+34D 35A 36C 37D 38C 39D 40B 41D 42C 46B 47B 48C 50B 51B 52A 54D 55D 56B 57C 58A 60A 61B 62C 63B 64A 65C 66D 67C 68B
+69C 70B 71D 72C 73A 74B 75B 76C 78B 82C 83D 85A 89C 91C 92C 97B 98A 99A 100D 101B 102A 103D 104B 105C 107A 108B 109D.
+AUTHORED 16 fresh (Q47,50,51,54,6,92,83,91,57,15,23,14,68,16,19,107). Female repro is the SATURATED seam — high dedup
+(~60-75%): zona/corona/antrum/primordial/oviduct-peg/corpus-albicans/vaginal-pH/endocervix/spiral-arteries + physiology
+stems (oxytocin/relaxin/menstrual timing) skipped as dupes.
+
+Dalia (Histo MCQ by Dr.Dalia [END] (1).pdf, src_7b1795dd530937c3b5e5, 22pp) — printed answer tables pp.21-22, 130 items,
+rows of 10. Q1-50: 1c 2b 3d 4d 5b 6a 7c 8c 9d 10a | 11b 12c 13c 14d 15c 16c 17a 18d 19d 20d | 21c 22a 23b 24c 25c 26d
+27d 28b 29a 30c | 31c 32d 33c 34d 35c 36d 37a 38b 39c 40b | 41d 42c 43a 44b 45d 46a 47c 48d 49c 50b. Q61-70: b d e b a
+a e a e b; Q81-90: a b b d b b b a e -; Q101-110: b a b e e d b a e e; Q121-130: a b a a b e a b e a. COMPREHENSIVE bank
+(endocrine + male + female) that OVERLAPS the whole corpus — male Q117-130 fully dup Kandeel/Zahra male, most endocrine
+dup Zahra-endocrine/physiology — DUPE-SATURATED (>85%). AUTHORED only 8 fresh endocrine (Q1,2,4,7,9,10,11,15); Q8 adrenal
+zonation dropped as a collision with the Galal-endo bank. Reproductive remainder NOT mined (all near-duplicates).
+
+207 END HISTOLOGY is now EXHAUSTED for fresh keyed content (Zahra + Kandeel M/F + Dalia all mined = ~411 module total).
+Remaining scanned Histo [Female] 2022/2023 twins + 36 MB dept book un-OCR'd but expected dupe-saturated. NEXT (non-histology):
+Maher / Merged_PHYSIO 2023 physiology banks after a key-render pass.

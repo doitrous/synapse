@@ -917,3 +917,50 @@ Dedup rate high on the saturated repro corpus (function/anatomy dupes skipped). 
 Zahra Department-stream + module-tagged (197/196/195) sub-blocks (need the stream-mapping care noted above), OR a new
 physiology bank -- `MCQ ENDO (Dr. Maher)` / `Merged_PHYSIO 2022/2023` -- after a key-render pass; dedup vs the
 corpus, push-per-slice.
+
+## Authoring pass 2026-09-07 — the three SCANNED histology banks (Kandeel Male + Kandeel Female + Dalia): 47 fresh keyed MCQs
+
+Opened and OCR'd the three remaining scanned/no-text-layer histology banks in the `Histology Dpt [1st priority]/MCQs/`
+folder. All three turned out to be SOLVED by printed answer-key tables (render-read at 300 dpi), NOT the high-dupe
+frontier feared — the Kandeel banks are largely fresh, and even the comprehensive Dalia bank yielded a fresh endocrine
+minority. All keys read from the printed tables and cross-checked against each stem.
+
+- **Kandeel Male** (`Histo MCQ by Dr.Kandeel [Male].pdf`, src_3823ae2689790cc49841, 13pp, key p.7): **23 fresh keyed
+  MCQs** in 2 slices (slice A `ba405345` = testis coverings/seminiferous cells/ABP; slice B expanded to 23). Testis
+  coverings (tunica propria not a coat), seminiferous cell content (Leydig interstitial), spermatogonial lineage (type
+  A dark/pale, type B->primary spermatocyte), meiosis-I 23 dyads, primary spermatocyte diploid, Leydig acidophilic
+  cytology + location, spermiogenesis phases, spermatogenesis control (not TSH), Sertoli non-dividing + secretions
+  (not testosterone), vas/rete/prostate/seminal-vesicle/prostatic-urethra/penis/Cowper/BPH histology. 23 `CON-AND-`,
+  2 articles (testis, ducts/glands/penis). Dupes skipped: myoid cells, epididymis stereocilia, duct pathway, sperm
+  head, residual bodies, Reinke, primary-spermatocyte-largest, spermatogenesis-74-days; **1 collision** dropped (BTB
+  = existing physiology concept). Held: Q40 capacitation keyed to epididymis (wrong), Q54 key/stem mismatch, plus the
+  2nd "Male Genital System" set's matching tables (pp.11-12). Dedup ~35-45% among checked claims (well under 85%).
+- **Kandeel Female** (`Histo MCQ by Dr.Kandeel [Female].pdf`, src_90142feb7bb7c3c1e43d, 13pp, key p.7, Q1-109):
+  **16 fresh keyed MCQs** (`d091b22b`). Mammary secretion mode/IgA identity+source/lactiferous duct, placental-barrier
+  layers (continuous fetal endothelium) + late-pregnancy cytotrophoblast loss, decidua regions, maternal(basalis)/
+  fetal(chorion) placenta, syncytiotrophoblast lipid, theca-interna steroid ultrastructure, ovarian germinal
+  epithelium (simple cuboidal misnomer), corpus-luteum in cortex, ovulation extrusion (theca interna retained),
+  secretory-endometrium coiled glands, vaginal epithelium (squamous not transitional). 16 `CON-GYN-`, 3 articles
+  (mammary, placenta/decidua, ovary/uterus). Female repro is the SATURATED seam, so dedup was high (~60-75%): zona/
+  corona/antrum/primordial/oviduct-peg/corpus-albicans/vaginal-pH/endocervix/spiral-arteries and the physiology stems
+  all skipped.
+- **Dalia** (`Histo MCQ by Dr.Dalia [END] (1).pdf`, src_7b1795dd530937c3b5e5, 22pp, keys pp.21-22, 130 items):
+  **8 fresh keyed endocrine MCQs** (this slice). A COMPREHENSIVE bank spanning endocrine + male + female histology
+  that overlaps the whole corpus — the male section Q117-130 fully duplicates Kandeel/Zahra male, and most endocrine
+  stems duplicate Zahra-endocrine/physiology — so it is **dupe-saturated (>85%)**. Harvested only the fresh
+  endocrine-gland minority: ductless-gland definition, Rathke's-pouch development, hypophyseal-portal two-plexus,
+  adrenal-cortex smooth ER, chromaffin neural-crest origin, thyroid colloid = glycoprotein thyroglobulin, thyroid
+  follicular epithelium height, non-storing steroid cortex. 8 `CON-END-`, 1 article. **1 collision** dropped (adrenal
+  zonation = existing Galal-endo concept). Per the dupe-discipline, Dalia's reproductive Q17-116/Q117-130 were NOT
+  mined — all near-duplicates of the now-authored Kandeel/Zahra/EOM histology.
+
+All three banks registered in `evidence/207-END-resources.md` (already in `manifest/kasr-y2-sources.json`, no new
+manifest rows). Gate-clean each slice (batch errors=0 on every concept/article/MCQ batch with `--with` siblings).
+
+**207 END module now ~= 411 authored** (364 prior + 23 Kandeel-male + 16 Kandeel-female + 8 Dalia-endocrine), ~11 held,
+2 excluded. **207 END HISTOLOGY is now EXHAUSTED for fresh keyed content:** the Zahra (endocrine+male+female), Kandeel
+(male+female) and Dalia (endocrine) banks are all mined; Dalia's reproductive remainder and any leftover Zahra
+Department/module-tagged sub-blocks are near-duplicates of the authored corpus. The scanned `Histo MCQ [Female]
+2022/2023` twins and the 36 MB `mcq histo (207).department .pdf` remain un-OCR'd but are expected to be
+dupe-saturated against this now-large histology corpus. **Next 207 END cluster (non-histology):** the physiology banks
+`MCQ ENDO (Dr. Maher)` / `Merged_PHYSIO 2023` after a key-render pass, dedup vs the corpus, push-per-slice.

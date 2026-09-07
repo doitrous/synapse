@@ -499,3 +499,41 @@ Kasr Al Ainy END 207 Dr Kandeel FEMALE genital HISTOLOGY MCQ bank. A doctor's ba
 true
 
 ---
+
+# Item
+## id
+src_7b1795dd530937c3b5e5
+## title
+Histo MCQ by Dr.Dalia [END]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+207 END/Histology Dpt Histology [1st priority]/MCQs/Histo MCQ by Dr.Dalia [END] (1).pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+22
+## sha256
+7b1795dd530937c3b5e5b2fcddb7e8a9d2268b1ee46c4cd17e0521ec39249dcb
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy END 207 Dr Dalia El Marakby comprehensive HISTOLOGY MCQ bank (130 items spanning endocrine glands then male/female reproductive histology). A doctor's bank filed under the Histology Dpt [1st priority] folder (filename names Dalia), so examSittingYear is null. Scanned, no native text layer -- read via `node scripts/content/pagetext.mjs ocr` at default settings; SOLVED by PRINTED ANSWER-KEY TABLES on pp.21-22 (rows of 10, Q1-130, read at 300 dpi), spot-verified against the stems (e.g. Q1=c endocrine glands ductless, Q2=b adenohypophysis from Rathke's pouch, Q9=d chromaffin cells neural-crest, Q10=a colloid = glycoprotein thyroglobulin -- all correct). This 130-item bank overlaps the whole authored 207-END histology corpus (Zahra endocrine/male/female + Kandeel male/female + EOM histology + Galal/physiology): the male section Q117-130 fully duplicates the Kandeel/Zahra male banks, and most endocrine stems duplicate the Zahra endocrine + physiology concepts, so it is dupe-saturated. Only a fresh endocrine-gland-histology minority is authored (ductless-gland definition, Rathke's-pouch development, hypophyseal-portal two-plexus, adrenal-cortex smooth ER, chromaffin neural-crest origin, thyroid colloid composition, thyroid follicular epithelium height, non-storing steroid cortex); the adrenal-zonation stem (Q8) was dropped as a deterministic collision with the Galal-endo bank.
+## confidence
+0.9
+## is_assessment
+true
+
+---

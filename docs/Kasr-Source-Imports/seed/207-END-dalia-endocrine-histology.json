@@ -1,0 +1,236 @@
+{
+ "lane": "KASR-207END",
+ "cluster": "dalia-endocrine-histology",
+ "header": "KASR-207END - Dr Dalia El Marakby comprehensive HISTOLOGY MCQ bank (130 Qs; Endocrine Q1-~50 then reproductive), printed answer-key tables pp.21-22. NON-department doctor's bank filed under the Histology Dpt [1st priority] folder, sourceId src_7b1795dd530937c3b5e5 (sha256 7b1795dd530937c3b5e5b2fcddb7e8a9d2268b1ee46c4cd17e0521ec39249dcb). Scanned, no text layer (OCR'd at default settings); SOLVED by printed answer-key tables on pp.21-22 (rows of 10, read at 300 dpi and spot-verified against the stems). This 130-item bank overlaps the whole authored 207-END histology corpus (Zahra endocrine/male/female + Kandeel male/female + EOM histology + Galal/physiology): the male section Q117-130 fully duplicates Kandeel/Zahra male, and most endocrine stems duplicate the Zahra endocrine + physiology concepts. DEDUPED HARD - only a small fresh endocrine-gland-histology minority is authored (ductless-gland definition, Rathke's-pouch development, hypophyseal-portal two-plexus, adrenal-cortex SER, chromaffin neural-crest origin, thyroid colloid composition, thyroid follicular epithelium height, non-storing steroid cortex). Keys read from the printed pp.21-22 tables and cross-checked against each stem for a clean single-best answer. Concepts minted university-blind (CON-END- + first 14 hex of SHA-256 of the canonical key, uppercased), collision-checked corpus-wide - all new (adrenal zonation Q8 dropped as a collision with the Galal-endo bank). Doctor topic bank -> examSittingYear null.\n\n  Import: Admin > Bulk import -> question.",
+ "defaults": {
+  "subject": "endo",
+  "status": "Draft",
+  "owner": "Claude",
+  "universities": ["kau"],
+  "years": ["KAU_Y2"],
+  "module": "207 END",
+  "exam_weight_by_year": { "KAU_Y2": "moderate" },
+  "question_only_for": "",
+  "resource_ids": ["src_7b1795dd530937c3b5e5"],
+  "source_citation": "Kasr Al Ainy 207 END - Dr Dalia El Marakby histology MCQ bank, {page}",
+  "setting": "Academic",
+  "difficulty": "Moderate",
+  "question_type": "Single best answer",
+  "cognitive_effort": "Medium",
+  "reasoning_level": 2,
+  "estimated_seconds": 60,
+  "randomise_answers": true,
+  "topic": "Histology",
+  "library_ids": ["ART-END-207END-DALIA-ENDOCRINE-HISTOLOGY"]
+ },
+ "questions": [
+  {
+   "key": "dq01",
+   "id": "QST-KASR207END-DALIAEND-001",
+   "page": "Endocrine p.1 (Dalia Q1)",
+   "title": "Defining feature of endocrine glands",
+   "question": "Which of the following statements describes endocrine glands best?",
+   "options": {
+    "A": "They have no trabeculae",
+    "B": "They have no follicles",
+    "C": "They have no ducts",
+    "D": "They are avascular"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Many endocrine glands do have connective-tissue trabeculae/septa (for example the adrenal and pituitary), so \"no trabeculae\" does not define them.",
+    "B": "Incorrect. The thyroid is an endocrine gland built entirely of follicles, so absence of follicles is not a defining feature.",
+    "C": "Correct. Endocrine glands are DUCTLESS glands: they lost their connection to a surface during development and release their hormones directly into the blood rather than through a duct. This is the defining structural feature that separates them from exocrine glands, whose secretion travels along a duct.",
+    "D": "Incorrect. Endocrine glands are in fact HIGHLY vascular — a rich capillary network carries the hormone away — so \"avascular\" is the opposite of the truth."
+   },
+   "main_concept": "CON-END-6857E313E630C1",
+   "concept_ids": ["CON-END-6857E313E630C1"],
+   "subtopic": "Endocrine glands",
+   "module_subject": "207 END > Histology > Endocrine glands",
+   "learning_objective": "State that endocrine glands are ductless and release hormones directly into the blood.",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q1 = c)", "kasr": "Dr Dalia histology bank, p.1" }
+  },
+  {
+   "key": "dq02",
+   "id": "QST-KASR207END-DALIAEND-002",
+   "page": "Endocrine p.1 (Dalia Q2)",
+   "title": "Development of the adenohypophysis",
+   "question": "Which structure gives rise to the adenohypophysis?",
+   "options": {
+    "A": "Ebner's glands",
+    "B": "Rathke's pouch",
+    "C": "Diencephalon",
+    "D": "Hypothalamus"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. Ebner's (von Ebner's) glands are serous glands of the tongue, unrelated to pituitary development.",
+    "B": "Correct. The adenohypophysis (anterior pituitary) develops from Rathke's pouch, an ectodermal diverticulum that grows upward from the roof of the primitive oral cavity (stomodeum). This oral ectodermal origin is why the anterior lobe is glandular epithelium, in contrast to the neurohypophysis, which grows down from the diencephalon as neural tissue.",
+    "C": "Incorrect. The diencephalon gives rise to the neurohypophysis (posterior pituitary), not the adenohypophysis.",
+    "D": "Incorrect. The hypothalamus supplies the axons and releasing hormones that control the pituitary but does not form the adenohypophysis itself."
+   },
+   "main_concept": "CON-END-BCC41608954FAB",
+   "concept_ids": ["CON-END-BCC41608954FAB"],
+   "subtopic": "Pituitary",
+   "module_subject": "207 END > Histology > Pituitary",
+   "learning_objective": "State that the adenohypophysis develops from Rathke's pouch (oral ectoderm).",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q2 = b)", "kasr": "Dr Dalia histology bank, p.1" }
+  },
+  {
+   "key": "dq04",
+   "id": "QST-KASR207END-DALIAEND-003",
+   "page": "Endocrine p.1 (Dalia Q4)",
+   "title": "The hypothalamic-hypophyseal portal system",
+   "question": "In the hypothalamic-hypophyseal portal system, we have:",
+   "options": {
+    "A": "Two arterial capillary networks",
+    "B": "One capillary network",
+    "C": "Two venous capillary networks",
+    "D": "One arterial and one venous capillary network"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. Only the first (primary) plexus is fed directly by an artery; the second plexus is supplied by portal veins, so the two beds are not both arterial.",
+    "B": "Incorrect. A portal system by definition has TWO capillary beds in series, not one.",
+    "C": "Incorrect. The primary plexus is arterial-fed, so the two beds are not both venous.",
+    "D": "Correct. The hypophyseal portal system links two capillary beds by portal veins. The primary (upper) plexus in the median eminence/infundibulum is supplied by the superior hypophyseal artery and picks up hypothalamic releasing/inhibiting hormones; hypophyseal portal veins then carry that blood to the secondary (lower) plexus in the pars distalis, which drains into veins. So there is one arterial-fed and one venous-fed capillary network connected in series."
+   },
+   "main_concept": "CON-END-244BF1AE396342",
+   "concept_ids": ["CON-END-244BF1AE396342"],
+   "subtopic": "Pituitary",
+   "module_subject": "207 END > Histology > Pituitary",
+   "learning_objective": "Describe the hypophyseal portal system as two capillary plexuses (median eminence and pars distalis) linked by portal veins.",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q4 = d)", "kasr": "Dr Dalia histology bank, p.1" }
+  },
+  {
+   "key": "dq07",
+   "id": "QST-KASR207END-DALIAEND-004",
+   "page": "Endocrine p.2 (Dalia Q7)",
+   "title": "Ultrastructure of adrenal cortex cells",
+   "question": "Cells of the cortex of the suprarenal gland have a conspicuous morphological property. Which one?",
+   "options": {
+    "A": "Their rough endoplasmic reticulum is well developed",
+    "B": "Their cytoplasm is devoid of fat droplets",
+    "C": "Their smooth endoplasmic reticulum is well developed",
+    "D": "Their nucleus has two lobes"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. Prominent rough ER is a feature of protein-secreting cells; the steroid-secreting cortical cells are dominated by SMOOTH ER instead.",
+    "B": "Incorrect. Adrenal cortical cells are packed with lipid droplets (the cholesterol substrate for steroidogenesis), which is why they look pale and foamy ('spongiocytes'); they are not devoid of fat.",
+    "C": "Correct. The cortical cells of the suprarenal gland are steroid-secreting cells, so their conspicuous feature is abundant smooth endoplasmic reticulum, together with mitochondria that have tubular cristae and numerous lipid droplets. The smooth ER and these mitochondria house the enzymes that convert cholesterol into the corticosteroids.",
+    "D": "Incorrect. A bilobed nucleus is a feature of some granulocytes, not of adrenal cortical cells."
+   },
+   "main_concept": "CON-END-7E188CEDD4004B",
+   "concept_ids": ["CON-END-7E188CEDD4004B"],
+   "subtopic": "Suprarenal gland",
+   "module_subject": "207 END > Histology > Suprarenal gland",
+   "learning_objective": "Recognise the adrenal cortical cell as a steroid-secreting cell with abundant smooth ER, tubular-cristae mitochondria and lipid.",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q7 = c)", "kasr": "Dr Dalia histology bank, p.2" }
+  },
+  {
+   "key": "dq09",
+   "id": "QST-KASR207END-DALIAEND-005",
+   "page": "Endocrine p.2 (Dalia Q9)",
+   "title": "Origin of adrenal chromaffin cells",
+   "question": "Which statement about the suprarenal gland is true?",
+   "options": {
+    "A": "There are no androgen-producing cells in the suprarenal gland",
+    "B": "Aldosterone-producing cells are under the control of ACTH",
+    "C": "Cortex and medulla are of the same embryonic origin",
+    "D": "Chromaffin cells are derived from the neural crest"
+   },
+   "correct": "D",
+   "explanations": {
+    "A": "Incorrect. The zona reticularis of the cortex does produce androgens (e.g. DHEA), so it is false that the gland has no androgen-producing cells.",
+    "B": "Incorrect. Aldosterone-producing cells of the zona glomerulosa are controlled mainly by the renin-angiotensin system and plasma potassium, not by ACTH.",
+    "C": "Incorrect. The cortex and medulla have DIFFERENT embryonic origins: the cortex from coelomic (mesodermal) epithelium and the medulla from the neural crest.",
+    "D": "Correct. The chromaffin cells of the adrenal medulla are modified postganglionic sympathetic neurons derived from the NEURAL CREST. This explains why they are innervated by preganglionic sympathetic fibres and secrete catecholamines (adrenaline, noradrenaline) directly into the blood, and why the medulla is embryologically distinct from the mesodermal cortex."
+   },
+   "main_concept": "CON-END-F1343092B72635",
+   "concept_ids": ["CON-END-F1343092B72635"],
+   "subtopic": "Suprarenal gland",
+   "module_subject": "207 END > Histology > Suprarenal gland",
+   "learning_objective": "State that adrenal medullary chromaffin cells are of neural-crest origin (distinct from the mesodermal cortex).",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q9 = d)", "kasr": "Dr Dalia histology bank, p.2" }
+  },
+  {
+   "key": "dq10",
+   "id": "QST-KASR207END-DALIAEND-006",
+   "page": "Endocrine p.2 (Dalia Q10)",
+   "title": "Composition of thyroid colloid",
+   "question": "Which molecule is the main compound of the colloid in the thyroid gland?",
+   "options": {
+    "A": "A glycoprotein called thyroglobulin",
+    "B": "A lipoprotein called thyroglobulin",
+    "C": "A glycoprotein called thyroxin",
+    "D": "A lipoprotein called thyroxin"
+   },
+   "correct": "A",
+   "explanations": {
+    "A": "Correct. The colloid that fills the thyroid follicle is composed mainly of thyroglobulin, a large iodinated GLYCOPROTEIN made by the follicular cells. It is the stored, inactive precursor from which the thyroid hormones T3 and T4 are later cleaved after endocytosis and lysosomal digestion.",
+    "B": "Incorrect. Thyroglobulin is a glycoprotein, not a lipoprotein.",
+    "C": "Incorrect. Thyroxin (T4) is the active hormone released into blood, not the bulk molecule of the stored colloid.",
+    "D": "Incorrect. The colloid is neither a lipoprotein nor thyroxin; it is the glycoprotein thyroglobulin."
+   },
+   "main_concept": "CON-END-7AD7CCA8D2164E",
+   "concept_ids": ["CON-END-7AD7CCA8D2164E"],
+   "subtopic": "Thyroid gland",
+   "module_subject": "207 END > Histology > Thyroid gland",
+   "learning_objective": "State that thyroid colloid is mainly the glycoprotein thyroglobulin (the stored hormone precursor).",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q10 = a)", "kasr": "Dr Dalia histology bank, p.2" }
+  },
+  {
+   "key": "dq11",
+   "id": "QST-KASR207END-DALIAEND-007",
+   "page": "Endocrine p.2 (Dalia Q11)",
+   "title": "Epithelium of thyroid follicular cells",
+   "question": "Which type of epithelium do the follicular cells of the thyroid gland form?",
+   "options": {
+    "A": "Stratified squamous to simple columnar epithelium",
+    "B": "Simple squamous to simple columnar epithelium",
+    "C": "Pseudostratified columnar non-ciliated epithelium",
+    "D": "Neuroepithelium"
+   },
+   "correct": "B",
+   "explanations": {
+    "A": "Incorrect. The follicle is lined by a SIMPLE (single-layered) epithelium, never a stratified one.",
+    "B": "Correct. Thyroid follicular cells form a simple epithelium whose height varies with activity: flattened (simple squamous) when the gland is inactive and the follicle is distended with colloid, cuboidal when normally active, and simple columnar when strongly stimulated. So the range is simple squamous to simple columnar, always a single layer.",
+    "C": "Incorrect. The follicular epithelium is a simple layer, not pseudostratified columnar.",
+    "D": "Incorrect. Neuroepithelium is sensory epithelium (e.g. in taste buds or the retina), not the lining of a thyroid follicle."
+   },
+   "main_concept": "CON-END-C835F2E080B967",
+   "concept_ids": ["CON-END-C835F2E080B967"],
+   "subtopic": "Thyroid gland",
+   "module_subject": "207 END > Histology > Thyroid gland",
+   "learning_objective": "State that thyroid follicular cells form a simple epithelium whose height varies from squamous to columnar with activity.",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q11 = b)", "kasr": "Dr Dalia histology bank, p.2" }
+  },
+  {
+   "key": "dq15",
+   "id": "QST-KASR207END-DALIAEND-008",
+   "page": "Endocrine p.3 (Dalia Q15)",
+   "title": "Endocrine tissue that does not store its secretion",
+   "question": "Which of the following does NOT store its secretion?",
+   "options": {
+    "A": "Pars nervosa",
+    "B": "Pars distalis",
+    "C": "Suprarenal cortex",
+    "D": "Thyroid gland"
+   },
+   "correct": "C",
+   "explanations": {
+    "A": "Incorrect. The pars nervosa stores oxytocin and ADH in the terminals of hypothalamic axons (seen as Herring bodies), so it does store secretion.",
+    "B": "Incorrect. The pars distalis cells store their peptide/protein hormones in cytoplasmic secretory granules until released.",
+    "C": "Correct. The suprarenal (adrenal) cortex secretes STEROID hormones, and steroid-secreting cells do not store their product; they synthesise it on demand from cholesterol and release it immediately by simple diffusion. So the cortex is the tissue that does not store its secretion, unlike the granule- or colloid-storing endocrine tissues.",
+    "D": "Incorrect. The thyroid is unique among endocrine glands in storing a large extracellular reserve of hormone as colloid (thyroglobulin) in its follicles."
+   },
+   "main_concept": "CON-END-37454B76FCB7D6",
+   "concept_ids": ["CON-END-37454B76FCB7D6"],
+   "subtopic": "Suprarenal gland",
+   "module_subject": "207 END > Histology > Suprarenal gland",
+   "learning_objective": "State that steroid-secreting adrenal cortical cells do not store their hormone (unlike granule- or colloid-storing endocrine tissue).",
+   "field_notes": { "keySource": "printed pp.21-22 Dr Dalia answer table (Q15 = c)", "kasr": "Dr Dalia histology bank, p.3" }
+  }
+ ]
+}
