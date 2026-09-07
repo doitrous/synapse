@@ -1,0 +1,222 @@
+{
+  "lane": "KASR-206DIG",
+  "cluster": "biochem-bank1-t2",
+  "header": "KASR-206DIG · Biochemistry department MCQ bank 'Bio MCQ [GIT]' tranche 2 (Q6-Q15 slice, 8 authored) — Kasr Al Ainy 206 DIG Biochemistry Dpt bank, native-text, UNKEYED. Answers expert-determined by biochemical reasoning; per-option rationale in explanations. sourceId src_a5284e5337d583b3ff25. Carbohydrate digestion/absorption (GLUT4, dietary pentose, cellulose fibre, salivary amylase) and lipid digestion/absorption basics (chylomicron transport, TAG synthesis, bile-salt emulsification, micelle orientation). 8 new fnd concepts minted university-blind (carb under DIS-BIO-T03, lipid under DIS-BIO-T04) with SYS-GIT-T01. Held/skipped from this slice: Q10 (renal-threshold stem ambiguous), Q14 (steatorrhoea — dupe of existing lipid-malabsorption concept), Q16 (internal dupe of Q13 bile-salt emulsification).",
+  "defaults": {
+    "subject": "fnd",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "206 DIG",
+    "module_subject": "206 DIG > Biochemistry",
+    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-GIT-206DIG-BIOCHEM-DIGESTION-BASICS"],
+    "resource_ids": ["src_a5284e5337d583b3ff25"],
+    "source_citation": "Kasr Al Ainy 206 DIG Biochemistry Dpt MCQ bank (Bio MCQ [GIT]), {page}",
+    "setting": "Academic",
+    "topic": "Biochemistry",
+    "difficulty": "Easy",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Low",
+    "reasoning_level": 1,
+    "estimated_seconds": 45,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q6", "id": "QST-KASR206DIG-BIOCHEMBANK1-6", "page": "Q6",
+      "title": "Properties of GLUT4",
+      "question": "GLUT4:",
+      "options": {
+        "A": "Is present in adipose tissue",
+        "B": "Facilitates transport of glucose",
+        "C": "Is insulin dependent",
+        "D": "All of the above"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the sole answer. GLUT4 is indeed expressed in adipose tissue (and skeletal and cardiac muscle), but this is only one of several true statements here.",
+        "B": "Incorrect as the sole answer. GLUT4 does facilitate glucose transport (facilitated diffusion down the gradient), but again this is not the only true statement.",
+        "C": "Incorrect as the sole answer. GLUT4 is the insulin-responsive transporter, recruited to the membrane by insulin, but this too is only one true statement.",
+        "D": "Correct. All three statements are true of GLUT4: it is present in adipose tissue and muscle, it facilitates glucose transport by facilitated diffusion, and its surface expression is insulin dependent (insulin triggers translocation of GLUT4 vesicles to the plasma membrane). Because A, B and C are each correct, 'All of the above' is the best answer."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-27465BBE1D340E",
+      "concept_ids": ["CON-GIT-27465BBE1D340E"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion and absorption",
+      "subtopic": "Glucose transport",
+      "learning_objective": "State that GLUT4 is the insulin-dependent facilitative glucose transporter of muscle and adipose tissue."
+    },
+    {
+      "key": "q7", "id": "QST-KASR206DIG-BIOCHEMBANK1-7", "page": "Q7",
+      "title": "Why dietary pentoses are not utilised",
+      "question": "Dietary pentoses are not utilised in our body due to:",
+      "options": {
+        "A": "The presence of endogenous pentose",
+        "B": "Deficiency of a specific pentokinase",
+        "C": "Cannot be absorbed",
+        "D": "None of the above"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The body does synthesise pentoses (e.g. ribose from the pentose phosphate pathway), but the availability of endogenous pentose is not the reason dietary pentoses go unused.",
+        "B": "Correct. Dietary pentoses (such as arabinose and xylose) are absorbed but cannot be metabolised because the body lacks a specific kinase to phosphorylate them; unphosphorylated, they cannot enter metabolic pathways and are excreted largely unchanged. Endogenous ribose needed for nucleotides is instead made from glucose via the pentose phosphate pathway.",
+        "C": "Incorrect. Pentoses are in fact absorbed from the gut (partly by passive diffusion); the block is metabolic, not absorptive.",
+        "D": "Incorrect. Option B gives the correct reason, so 'none of the above' is wrong."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-3B3B9B4408D037",
+      "concept_ids": ["CON-GIT-3B3B9B4408D037"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion and absorption",
+      "subtopic": "Pentose metabolism",
+      "learning_objective": "Explain that dietary pentoses are not utilised because no specific kinase phosphorylates them."
+    },
+    {
+      "key": "q8", "id": "QST-KASR206DIG-BIOCHEMBANK1-8", "page": "Q8",
+      "title": "Dietary component that prevents constipation",
+      "question": "___ forms an important component of the human diet as it prevents constipation:",
+      "options": {
+        "A": "Malt sugar",
+        "B": "Starch",
+        "C": "Cellulose",
+        "D": "Fruit sugar"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Malt sugar (maltose) is a digestible disaccharide that provides energy, not dietary fibre.",
+        "B": "Incorrect. Starch is a digestible polysaccharide broken down to glucose; it is not the indigestible fibre that adds faecal bulk.",
+        "C": "Correct. Cellulose is a beta-1,4-linked glucose polymer that humans cannot digest (we lack cellulase). As insoluble dietary fibre it adds bulk and holds water in the stool, speeding transit and preventing constipation.",
+        "D": "Incorrect. Fruit sugar (fructose) is an absorbable monosaccharide used for energy, not a source of fibre."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-2DD02AFFF27337",
+      "concept_ids": ["CON-GIT-2DD02AFFF27337"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion and absorption",
+      "subtopic": "Dietary fibre",
+      "learning_objective": "Identify cellulose as indigestible dietary fibre that prevents constipation."
+    },
+    {
+      "key": "q9", "id": "QST-KASR206DIG-BIOCHEMBANK1-9", "page": "Q9",
+      "title": "Where carbohydrate digestion begins",
+      "question": "Digestion of carbohydrate starts in the:",
+      "options": {
+        "A": "Stomach",
+        "B": "Mouth",
+        "C": "Small intestine",
+        "D": "Large intestine"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The acidic stomach inactivates salivary amylase; no significant carbohydrate digestion begins there.",
+        "B": "Correct. Carbohydrate digestion begins in the mouth, where salivary alpha-amylase (ptyalin) starts hydrolysing starch to maltose and dextrins during chewing. It continues in the small intestine with pancreatic amylase and brush-border disaccharidases.",
+        "C": "Incorrect. The small intestine is the main site of completion of carbohydrate digestion, but it is not where digestion starts.",
+        "D": "Incorrect. In the large intestine, undigested carbohydrate is fermented by bacteria; host enzymatic digestion does not begin there."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-F5EEE0882DC0CB",
+      "concept_ids": ["CON-GIT-F5EEE0882DC0CB"],
+      "module_subject": "206 DIG > Biochemistry > Carbohydrate digestion and absorption",
+      "subtopic": "Carbohydrate digestion",
+      "learning_objective": "State that carbohydrate digestion begins in the mouth with salivary amylase."
+    },
+    {
+      "key": "q11", "id": "QST-KASR206DIG-BIOCHEMBANK1-11", "page": "Q11",
+      "title": "Transport form of dietary fat",
+      "question": "The dietary fats are transported as:",
+      "options": {
+        "A": "Micelles",
+        "B": "Chylomicrons",
+        "C": "Fatty acid-albumin complex",
+        "D": "Liposomes"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. Micelles carry the products of fat digestion to the enterocyte surface within the gut lumen; they are not the form in which absorbed dietary fat is transported in blood/lymph.",
+        "B": "Correct. After absorption, dietary triacylglycerols are re-esterified in the enterocyte and packaged into chylomicrons, which enter the lymphatics and then the blood to deliver exogenous fat to peripheral tissues. Chylomicrons are the transport form of dietary (exogenous) fat.",
+        "C": "Incorrect. The fatty acid-albumin complex transports free fatty acids released from adipose tissue, not absorbed dietary fat.",
+        "D": "Incorrect. Liposomes are artificial lipid vesicles, not a physiological lipid-transport particle."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-130366224DFA25",
+      "concept_ids": ["CON-GIT-130366224DFA25"],
+      "module_subject": "206 DIG > Biochemistry > Lipid digestion and absorption",
+      "subtopic": "Lipid transport",
+      "learning_objective": "State that absorbed dietary fat is transported as chylomicrons.",
+      "clinical_relevance": 0.3
+    },
+    {
+      "key": "q12", "id": "QST-KASR206DIG-BIOCHEMBANK1-12", "page": "Q12",
+      "title": "Substrate added to diacylglycerol to form triacylglycerol",
+      "question": "To form triacylglycerol, which of the following is added to diacylglycerol?",
+      "options": {
+        "A": "Glycerol",
+        "B": "Glycerol-3-phosphate",
+        "C": "Fatty acyl-CoA",
+        "D": "Acetyl-CoA"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Glycerol is the backbone alcohol, not the group added at the final step; free glycerol is not the acyl donor.",
+        "B": "Incorrect. Glycerol-3-phosphate is the starting backbone that is acylated early in the pathway, not the substrate added to diacylglycerol.",
+        "C": "Correct. The final step of triacylglycerol synthesis is catalysed by diacylglycerol acyltransferase (DGAT), which transfers a third fatty acid from fatty acyl-CoA onto diacylglycerol. The activated acyl donor is therefore fatty acyl-CoA.",
+        "D": "Incorrect. Acetyl-CoA is a two-carbon unit for fatty-acid synthesis, not the long-chain acyl donor used to esterify diacylglycerol."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-440EFB9ADE609A",
+      "concept_ids": ["CON-GIT-440EFB9ADE609A"],
+      "module_subject": "206 DIG > Biochemistry > Lipid digestion and absorption",
+      "subtopic": "Triacylglycerol synthesis",
+      "learning_objective": "Identify fatty acyl-CoA as the acyl donor added to diacylglycerol by DGAT to form triacylglycerol."
+    },
+    {
+      "key": "q13", "id": "QST-KASR206DIG-BIOCHEMBANK1-13", "page": "Q13",
+      "title": "Function of bile salts in the intestine",
+      "question": "What is the function of bile salts in the intestine?",
+      "options": {
+        "A": "Activator of lipase",
+        "B": "Emulsifier",
+        "C": "Cofactor for cholesteryl esterase",
+        "D": "Inhibitor of lipid absorption"
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. It is colipase, not bile salt, that anchors and activates pancreatic lipase; bile salts alone actually tend to displace lipase from the fat surface.",
+        "B": "Correct. Bile salts are amphipathic molecules that emulsify dietary fat, breaking large fat globules into a fine emulsion of small droplets. This hugely increases the surface area available to pancreatic lipase and helps form the mixed micelles that carry digestion products to the mucosa.",
+        "C": "Incorrect. Bile salts help solubilise substrate but are not described as the specific cofactor of cholesteryl esterase; their defining role here is emulsification.",
+        "D": "Incorrect. Bile salts promote, rather than inhibit, lipid digestion and absorption."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-39311B404606F1",
+      "concept_ids": ["CON-GIT-39311B404606F1"],
+      "module_subject": "206 DIG > Biochemistry > Lipid digestion and absorption",
+      "subtopic": "Bile salts",
+      "learning_objective": "State that bile salts emulsify dietary fat to aid its digestion and absorption."
+    },
+    {
+      "key": "q15", "id": "QST-KASR206DIG-BIOCHEMBANK1-15", "page": "Q15",
+      "title": "Orientation of fatty acids in a micelle",
+      "question": "Micelles of fatty acids in water are organised such that the ___ face the solvent and the ___ are directed toward the interior:",
+      "options": {
+        "A": "Carboxylic acid groups, hydrocarbon chains",
+        "B": "Hydrophilic heads, hydrophobic tails",
+        "C": "Hydrocarbon chains, carboxylic acid groups",
+        "D": "Both A and B"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect as the sole answer. Naming the polar carboxylic-acid groups as facing the water and the hydrocarbon chains as the interior is correct, but it is the same arrangement stated in B, so A alone is not the best answer.",
+        "B": "Incorrect as the sole answer. 'Hydrophilic heads out, hydrophobic tails in' is correct, but it merely restates A in general terms, so B alone is not the best answer.",
+        "C": "Incorrect. This reverses the arrangement: the hydrophobic hydrocarbon chains cannot face the aqueous solvent.",
+        "D": "Correct. In water, fatty acids form micelles with their polar hydrophilic heads (the carboxylic-acid groups) facing the aqueous solvent and their hydrophobic hydrocarbon tails packed toward the interior. Options A and B describe this same correct orientation in different words, so 'Both A and B' is the best answer."
+      },
+      "field_notes": { "keySource": "expert-determined, no source key; rationale in explanations" },
+      "main_concept": "CON-GIT-C074B8AE72D015",
+      "concept_ids": ["CON-GIT-C074B8AE72D015"],
+      "module_subject": "206 DIG > Biochemistry > Lipid digestion and absorption",
+      "subtopic": "Micelle structure",
+      "learning_objective": "Describe the micelle orientation: hydrophilic heads facing water, hydrophobic tails inward."
+    }
+  ]
+}
