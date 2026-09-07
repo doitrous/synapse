@@ -1,0 +1,107 @@
+{
+  "lane": "KASR-206DIG",
+  "cluster": "pretest-t1",
+  "header": "KASR-206DIG · Physiology department bank 'Physio MCQ Pretest [GIT]' (McGraw-Hill PreTest GI Physiology, Q311+) tranche 1 (bank Q311,Q312,Q314 — 3 authored) — native-text, KEYED (each item has an Answers section with per-option rationale). sourceId src_20cdf9a81be58d2176a1. Gastric-emptying duodenal feedback (Q311), small-intestinal motility initiated by wall distension / BER / MMC (Q312), and terminal-ileum bile-salt reabsorption lost after ileal resection (Q314). Q313 (vitamin B12 terminal-ileum absorption) SKIPPED as a duplicate of the Effat bank's already-authored B12 item. 3 new gi concepts under DIS-PHY-T05, collision-checked. New library article ART-GIT-206DIG-PHYSIO-PRETEST.",
+  "defaults": {
+    "subject": "gi",
+    "status": "Draft",
+    "owner": "Claude",
+    "universities": ["kau"],
+    "years": ["KAU_Y2"],
+    "module": "206 DIG",
+    "module_subject": "206 DIG > Physiology",
+    "exam_weight_by_year": { "KAU_Y2": "moderate" },
+    "question_only_for": "",
+    "library_ids": ["ART-GIT-206DIG-PHYSIO-PRETEST"],
+    "resource_ids": ["src_20cdf9a81be58d2176a1"],
+    "source_citation": "Kasr Al Ainy 206 DIG Physiology Dpt MCQ bank (Physio MCQ PreTest [GIT], McGraw-Hill PreTest Physiology), {page}",
+    "setting": "Academic",
+    "topic": "Physiology",
+    "difficulty": "Moderate",
+    "question_type": "Single best answer",
+    "cognitive_effort": "Medium",
+    "reasoning_level": 2,
+    "estimated_seconds": 55,
+    "randomise_answers": true
+  },
+  "questions": [
+    {
+      "key": "q311", "id": "QST-KASR206DIG-PRETEST-311", "page": "Q311",
+      "title": "Correct statement about gastric emptying in gastroparesis",
+      "question": "A patient with diabetes mellitus presents with gastroesophageal reflux disease accompanying gastroparesis. Which of the following statements about gastric emptying is correct?",
+      "options": {
+        "A": "Solids empty more rapidly than liquids",
+        "B": "Meals containing fat empty faster than carbohydrate-rich food",
+        "C": "Hyperosmolality of duodenal contents initiates a decrease in gastric emptying",
+        "D": "Acidification of the antrum increases gastric emptying",
+        "E": "Vagal stimulation decreases receptive relaxation in the upper portion of the stomach"
+      },
+      "correct": "C",
+      "explanations": {
+        "A": "Incorrect. Solids must be liquefied by trituration before they leave the stomach, so the emptying of liquids begins before that of solids, not after.",
+        "B": "Incorrect. Emptying is fastest for a carbohydrate meal and slowest after a fatty meal, because fat in the duodenum evokes the strongest inhibitory feedback.",
+        "C": "Correct. Gastric emptying is governed by inhibitory feedback from the proximal small bowel. Duodenal osmoreceptors sense hyperosmolar chyme and, largely through a neural (enterogastric) reflex, slow gastric emptying. This feedback is exaggerated relative to gastric drive in diabetic gastroparesis.",
+        "D": "Incorrect. Acid in the antrum inhibits gastrin secretion and tends to reduce gastric motility, so it slows rather than increases emptying.",
+        "E": "Incorrect. The vagus mediates receptive relaxation: vagal activity relaxes the fundus and upper body to accommodate a meal, so vagal stimulation increases, not decreases, receptive relaxation."
+      },
+      "field_notes": { "keySource": "source answer key (PreTest Answers section, item 311, correct = c) with rationale" },
+      "main_concept": "CON-GIT-E9080094FC4F68",
+      "concept_ids": ["CON-GIT-E9080094FC4F68"],
+      "module_subject": "206 DIG > Physiology > Gastric motility",
+      "subtopic": "Gastric emptying",
+      "learning_objective": "Explain that gastric emptying is slowed by duodenal feedback (fat, hyperosmolarity and acid), that liquids empty before solids, and that the vagus mediates receptive relaxation."
+    },
+    {
+      "key": "q312", "id": "QST-KASR206DIG-PRETEST-312", "page": "Q312",
+      "title": "Correct statement about small intestinal motility",
+      "question": "A 27-year-old medical student with irritable bowel syndrome has altered intestinal motility with fluctuating constipation and diarrhoea. Which of the following statements about small intestinal motility is correct?",
+      "options": {
+        "A": "Contractile frequency is constant from duodenum to terminal ileum",
+        "B": "Peristalsis is the only contractile activity that occurs during feeding",
+        "C": "Migrating motor complexes occur during the digestive period",
+        "D": "Vagotomy abolishes contractile activity during the digestive period",
+        "E": "Contractile activity is initiated in response to bowel wall distention"
+      },
+      "correct": "E",
+      "explanations": {
+        "A": "Incorrect. The basal electrical rhythm falls along the small intestine, from roughly 12 cycles/min in the duodenum to about 8/min in the distal ileum, so contractile frequency is not constant.",
+        "B": "Incorrect. Feeding drives peristalsis together with segmental and tonic contractions, so peristalsis is not the only activity.",
+        "C": "Incorrect. Migrating motor complexes are a fasting (interdigestive) pattern that sweeps residue toward the ileum; they stop immediately when food is eaten, so they do not occur during the digestive period.",
+        "D": "Incorrect. After vagotomy small-intestinal contractile activity becomes irregular and chaotic but is not abolished, because it is driven by the enteric nervous system and the interstitial cells of Cajal.",
+        "E": "Correct. Small-intestinal contractions are initiated by distension of the bowel wall. The interstitial cells of Cajal set the basal electrical rhythm, and contractions occur on its depolarising phase; wall stretch triggers the peristaltic and segmenting activity that mixes and propels chyme."
+      },
+      "field_notes": { "keySource": "source answer key (PreTest Answers section, item 312, correct = e) with rationale" },
+      "main_concept": "CON-GIT-4ADDF23A15AC56",
+      "concept_ids": ["CON-GIT-4ADDF23A15AC56"],
+      "module_subject": "206 DIG > Physiology > GI motility",
+      "subtopic": "Small intestinal motility",
+      "learning_objective": "State that small-intestinal contractile activity is triggered by wall distension, that the basal electrical rhythm declines aborally, and that migrating motor complexes are a fasting pattern abolished by feeding."
+    },
+    {
+      "key": "q314", "id": "QST-KASR206DIG-PRETEST-314", "page": "Q314",
+      "title": "Malabsorption after terminal ileal resection",
+      "question": "A 57-year-old man undergoes resection of the distal 100 cm of the terminal ileum as part of treatment for Crohn's disease. The patient will most likely develop malabsorption of which of the following?",
+      "options": {
+        "A": "Iron",
+        "B": "Folate",
+        "C": "Lactose",
+        "D": "Bile salts",
+        "E": "Protein"
+      },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Iron is absorbed in the duodenum and proximal jejunum, so terminal ileal resection does not selectively impair it.",
+        "B": "Incorrect. Folate is absorbed in the proximal small intestine (duodenum and jejunum) and is spared by terminal ileal resection.",
+        "C": "Incorrect. Lactose is digested by brush-border lactase and absorbed as glucose and galactose in the proximal small intestine, not the terminal ileum.",
+        "D": "Correct. The terminal ileum carries the specialised active transporters that reabsorb conjugated bile salts in the enterohepatic circulation. Resecting it prevents bile-salt reabsorption, causing bile-salt (and fat) malabsorption with steatorrhoea; unabsorbed bile acids reaching the colon also stimulate secretion and cause diarrhoea.",
+        "E": "Incorrect. Protein is absorbed as amino acids and small peptides in the proximal small intestine, so it is not the nutrient selectively lost after distal ileal resection."
+      },
+      "field_notes": { "keySource": "source answer key (PreTest Answers section, item 314, correct = d) with rationale" },
+      "main_concept": "CON-GIT-3BC52EBDFA9CD1",
+      "concept_ids": ["CON-GIT-3BC52EBDFA9CD1"],
+      "module_subject": "206 DIG > Physiology > GI absorption",
+      "subtopic": "Bile salt absorption",
+      "learning_objective": "State that the terminal ileum actively reabsorbs bile salts, so its resection causes bile-salt malabsorption and steatorrhoea while proximally absorbed nutrients are spared."
+    }
+  ]
+}

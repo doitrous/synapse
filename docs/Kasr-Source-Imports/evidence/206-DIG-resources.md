@@ -190,3 +190,41 @@ Kasr Al Ainy 206 DIG Physiology department MCQ bank (tier 5, NON-EOM), GI physio
 0.9
 ## is_assessment
 true
+
+---
+
+# Item
+## id
+src_20cdf9a81be58d2176a1
+## title
+Physio MCQ PreTest [GIT]
+## institution
+Kasr Al Ainy Faculty of Medicine, Cairo University
+## collection_id
+kau-y2
+## source_relative_path
+206 DIG/Physiology Dpt Physiology [1st priority]/MCQs/Physio MCQ Pretest [GIT].pdf
+## source_uri
+
+## media_type
+application/pdf
+## languages
+en
+## publication_date
+
+## accessed_at
+
+## page_count
+34
+## sha256
+20cdf9a81be58d2176a1cf5049109d03bd8a0a079586cf45ca4e51f32dc9fde7
+## processing_status
+extracted
+## rights
+University teaching material held for internal extraction only. Not redistributable; no page image is published from it, and quotation is limited to option text and stems reproduced in the question items themselves.
+## qualification
+Kasr Al Ainy 206 DIG Physiology department MCQ bank (tier 5, NON-EOM): the McGraw-Hill PreTest GI Physiology chapter (items numbered from 311), 34 pages, GI physiology. Native text layer present (OCR-clean via scripts/content/pagetext.mjs show). The bank is KEYED: a Questions section (pages 1-16) is followed by an Answers section (from page 17) giving the correct letter and a full per-item rationale, and authored answers are taken from that source key. GI-physiology vignettes on motility, secretion, absorption and gut hormones; overlaps the second (page-8+) block of the Dr Effat GI bank (src_7b173a573b072b0b0702), so items are deduped between the two banks.
+## confidence
+0.9
+## is_assessment
+true
