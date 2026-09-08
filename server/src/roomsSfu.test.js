@@ -222,3 +222,18 @@ test('the probe offers the announced address on both protocols and reuses its tr
     resetSfu()
   }
 })
+
+test('SFU denies audio consumers and resume across table boundaries', {skip:!engineAvailable},async()=>{
+  resetSfu();const sfu=await loadSfu({SFU_RTC_MIN_PORT:'42600',SFU_RTC_MAX_PORT:'42700'})
+  try{
+    const send=await sfu.createTransport('scope-room','speaker','send')
+    const recv=await sfu.createTransport('scope-room','listener','recv')
+    const {producerId}=await sfu.produce('scope-room','speaker',send.id,'audio',{codecs:[{mimeType:'audio/opus',payloadType:111,clockRate:48000,channels:2,parameters:{},rtcpFeedback:[]}],headerExtensions:[],encodings:[{ssrc:987654321}],rtcp:{cname:'scope-test'}},{scope:'table',tableId:'pair-8'})
+    const caps=await sfu.rtpCapabilities('scope-room')
+    assert.deepEqual(sfu.producersFor('scope-room','listener','pair-10'),[])
+    await assert.rejects(()=>sfu.consume('scope-room','listener',recv.id,producerId,caps,'pair-10'),/voice_audience_mismatch/)
+    const consumer=await sfu.consume('scope-room','listener',recv.id,producerId,caps,'pair-8')
+    await assert.rejects(()=>sfu.resume('scope-room','listener',consumer.id,'pair-10'),/voice_audience_mismatch/)
+    assert.deepEqual(await sfu.resume('scope-room','listener',consumer.id,'pair-8'),{ok:true})
+  }finally{await sfu.close();resetSfu()}
+})

@@ -4,6 +4,8 @@ import { useIdentity } from '@/lib/useIdentity'
 import { useRoomAudio, type RoomAudio } from './useRoomAudio'
 import { useRoomChannel } from './useRoomChannel'
 import type { RoomChannel } from './useRoomChannel'
+import { useFocusSession, type FocusSessionController } from './useFocusSession'
+import { worldForRoom } from './studyWorld'
 import { loadActiveRoom, saveActiveRoom, sameRoom, type ActiveRoom } from './activeRoom'
 
 /**
@@ -21,6 +23,7 @@ import { loadActiveRoom, saveActiveRoom, sameRoom, type ActiveRoom } from './act
  */
 
 export interface RoomSession {
+  study: FocusSessionController
   /** The room the student is in, or null. Includes demo rooms (page-only, never persisted). */
   room: ActiveRoom | null
   /** The live socket for the active live room; null in demo mode and when idle. */
@@ -56,6 +59,7 @@ const RoomSessionContext = createContext<RoomSession | null>(null)
 export function RoomSessionProvider({ children }: { children: ReactNode }) {
   const identity = useIdentity()
   const selfId = identity.userId ?? 'self'
+  const study = useFocusSession()
 
   // Rehydrate a live room once, at start, so a reload lands the student back in
   // the room rather than at the lobby. Voice is not auto-rejoined — a browser
@@ -69,26 +73,27 @@ export function RoomSessionProvider({ children }: { children: ReactNode }) {
   const channel = useRoomChannel(isLive ? room!.roomCode : null)
   const audio = useRoomAudio(room?.roomId ?? '', selfId, room ? (room.demo ? null : channel) : null)
 
+  const roomRef = useRef(room)
+  roomRef.current = room
+  const release = (current: ActiveRoom | null) => {
+    if (current && !current.demo && API_MODE) {
+      void apiPost(`/parties/${encodeURIComponent(current.roomId)}/leave`).catch(() => undefined)
+    }
+  }
   const join = useCallback((next: ActiveRoom) => {
-    setRoom((current) => {
-      if (sameRoom(current, next)) return current
-      saveActiveRoom(next)
-      return next
-    })
+    if (sameRoom(roomRef.current, next)) return
+    release(roomRef.current)
+    roomRef.current = next
+    saveActiveRoom(next)
+    setRoom(next)
     setDockExpanded(false)
   }, [])
 
   const leave = useCallback(() => {
-    setRoom((current) => {
-      // Free the seat server-side for a real room. Fire-and-forget: the local
-      // session ends now regardless, and a failed call only leaves a seat that
-      // the heartbeat stopping will dim on its own.
-      if (current && !current.demo && API_MODE) {
-        void apiPost(`/parties/${encodeURIComponent(current.roomId)}/leave`).catch(() => undefined)
-      }
-      saveActiveRoom(null)
-      return null
-    })
+    release(roomRef.current)
+    roomRef.current = null
+    saveActiveRoom(null)
+    setRoom(null)
     setViewingFull(false)
     setDockExpanded(false)
   }, [])
@@ -126,8 +131,12 @@ export function RoomSessionProvider({ children }: { children: ReactNode }) {
     return () => window.clearInterval(timer)
   }, [isLive, room?.roomCode])
 
+  const resetStudy = study.reset
+  useEffect(() => { resetStudy(worldForRoom(room?.roomId ?? '').minutes) }, [room?.roomId, resetStudy])
+
   const value = useMemo<RoomSession>(() => ({
     room,
+    study,
     channel: isLive ? channel : null,
     audio: room ? audio : null,
     join,
@@ -136,7 +145,7 @@ export function RoomSessionProvider({ children }: { children: ReactNode }) {
     setViewingFull,
     dockExpanded,
     setDockExpanded,
-  }), [room, isLive, channel, audio, join, leave, viewingFull, dockExpanded])
+  }), [room, study, isLive, channel, audio, join, leave, viewingFull, dockExpanded])
 
   return <RoomSessionContext.Provider value={value}>{children}</RoomSessionContext.Provider>
 }

@@ -5,7 +5,7 @@ import express from 'express'
 import { requireAuthenticated } from '../auth.js'
 import { deletionCallback as facebookDeletionCallback, linkAccount as linkFacebookAccount, matchFacebookFriends, parseSignedRequest as parseFacebookSignedRequest, unlinkAccount as unlinkFacebookAccount } from '../facebook.js'
 import { mintInvite, redeemInvite } from '../friendInvites.js'
-import { directorySearch, myFriends, myRequests, removeFriend, respondToRequest, sendRequest } from '../friends.js'
+import { directorySearch, myFriends, myRequests, removeFriend, respondToRequest, sendRequest, searchByUsername } from '../friends.js'
 import { PUBLIC_ORIGIN, wrap } from '../http.js'
 
 export function registerFriendRoutes(app) {
@@ -21,6 +21,10 @@ export function registerFriendRoutes(app) {
 
   app.post('/api/friends/request', requireAuthenticated, wrap(async (req, res) => {
     res.json(await sendRequest(req.identity.id, req.body?.userId))
+  }))
+
+  app.get('/api/friends/username', requireAuthenticated, wrap(async (req, res) => {
+    res.json(await searchByUsername(req.identity.id, req.query))
   }))
 
   app.post('/api/friends/respond', requireAuthenticated, wrap(async (req, res) => {

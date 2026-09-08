@@ -1,3 +1,4 @@
+import { STUDY_WORLDS } from './studyWorld'
 import {
   isStudying,
   type SeatOccupant,
@@ -136,7 +137,7 @@ export const DEMO_OPEN_ROOMS: readonly DemoRoomSummary[] = [
 ]
 
 /** Every room the demo build knows about, yours first. */
-export const DEMO_ROOMS: readonly DemoRoomSummary[] = [DEMO_ROOM_SUMMARY, ...DEMO_OPEN_ROOMS]
+export const DEMO_ROOMS: readonly DemoRoomSummary[] = [DEMO_ROOM_SUMMARY, ...DEMO_OPEN_ROOMS, ...STUDY_WORLDS.map(room => ({ ...room, members: room.students, speaking: 0, mine: false }))]
 
 /**
  * Look a demo room up by id or by the code in the address bar.

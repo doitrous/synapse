@@ -1,3 +1,4 @@
+import { FoundationGameLibrary } from '@/components/games/FoundationGameLibrary'
 import { useMemo, useState } from 'react'
 import { AlertTriangle, RotateCcw } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -14,7 +15,7 @@ function redFlagPacks(): RedFlagSortPack[] {
   return validMiniGamePacks('red_flag_sort').filter((pack): pack is RedFlagSortPack => pack.kind === 'red_flag_sort')
 }
 
-export function RedFlagSortPage() {
+function LegacyRedFlagSortPage() {
   const t = useT()
   const packs = useMemo(() => redFlagPacks(), [])
   const pack = packs[0]
@@ -134,3 +135,5 @@ export function RedFlagSortPage() {
     </PageContainer>
   )
 }
+
+export function RedFlagSortPage(){return <FoundationGameLibrary kind="red-flag-sort"><LegacyRedFlagSortPage/></FoundationGameLibrary>}

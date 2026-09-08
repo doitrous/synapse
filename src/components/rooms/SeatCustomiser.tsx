@@ -33,7 +33,7 @@ const DEVICE_LABELS: Record<SeatDevice, string> = {
 
 const CHAIR_LABELS: Record<SeatChair, string> = {
   stool: 'Stool',
-  office: 'Office chair',
+  office: 'Office chair', ergonomic:'Ergonomic mesh', executive:'Executive leather', lounge:'Designer lounge', gaming:'Gaming chair',
 }
 
 /**

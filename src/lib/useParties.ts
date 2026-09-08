@@ -19,6 +19,9 @@ import { API_MODE, apiGet, apiPost } from '@/lib/api'
 const POLL_MS = 4_000
 
 export interface PartySummary {
+  layoutKey?:string
+  scope?:'global'|'university'|'cohort'
+  capacity?:number
   id: string
   code: string
   name: string
@@ -37,6 +40,9 @@ export interface PartySummary {
  * (not standing in) has no `isHost` to report.
  */
 export interface OpenParty {
+  layoutKey?:string
+  scope?:'global'|'university'|'cohort'
+  capacity?:number
   id: string
   code: string
   name: string
@@ -49,7 +55,7 @@ export interface OpenParty {
 export interface PartyMemberSeat {
   desk: 'plain' | 'drawer' | 'corner' | null
   device: 'laptop' | 'desktop' | 'tablet' | 'iphone' | 'android' | null
-  chair: 'stool' | 'office' | null
+  chair: 'stool' | 'office' | 'ergonomic' | 'executive' | 'lounge' | 'gaming' | null
   /** Which of the room's twenty desks, or null for "here, nowhere in particular". */
   seatIndex: number | null
 }
@@ -70,6 +76,9 @@ export interface PartyMember {
 }
 
 export interface Party {
+  layoutKey?:string
+  scope?:'global'|'university'|'cohort'
+  capacity?:number
   id: string
   code: string
   name: string
@@ -92,6 +101,7 @@ export interface PartySessionItemRef {
 
 /** One party session as it appears in a party's session list — no per-member detail. */
 export interface PartySessionSummary {
+  tableId?:string|null
   id: string
   name: string
   itemCount: number
@@ -127,6 +137,8 @@ export interface PartySession extends PartySessionSummary {
 }
 
 export const PARTY_REFUSALS: Record<string, string> = {
+  room_full:'This room is full. Choose another room or try again later.',
+  invalid_room_options:'Choose a room layout and audience.',
   no_cohort: 'Your account has no university and year on file yet, so study parties are not available to you.',
   code_collision: 'A code could not be generated. Try again.',
   // Deliberately vague: the server answers a party in another year and a code
@@ -168,7 +180,14 @@ export function useMyParties() {
     }
   }, [])
 
-  useEffect(() => { void reload() }, [reload])
+  useEffect(() => {
+    void reload()
+    if (!API_MODE) return
+    const refresh=()=>{if(document.visibilityState==='visible')void reload()}
+    const timer=window.setInterval(refresh,15_000)
+    window.addEventListener('focus',refresh)
+    return()=>{window.clearInterval(timer);window.removeEventListener('focus',refresh)}
+  }, [reload])
   return { parties, loading, reload }
 }
 
@@ -189,7 +208,14 @@ export function useOpenParties() {
     }
   }, [])
 
-  useEffect(() => { void reload() }, [reload])
+  useEffect(() => {
+    void reload()
+    if (!API_MODE) return
+    const refresh=()=>{if(document.visibilityState==='visible')void reload()}
+    const timer=window.setInterval(refresh,15_000)
+    window.addEventListener('focus',refresh)
+    return()=>{window.clearInterval(timer);window.removeEventListener('focus',refresh)}
+  }, [reload])
   return { parties, loading, reload }
 }
 
@@ -305,7 +331,7 @@ export function usePartySession(sessionId: string | null) {
 
 export function usePartyActions() {
   const create = useCallback(
-    (name: string) => apiPost<{ ok: boolean; reason?: string; party?: Party }>('/parties', { name }),
+    (name: string, options?:{layoutKey:string;scope:'cohort'|'university'|'global';visibility:'open'|'invite'}) => apiPost<{ ok: boolean; reason?: string; party?: Party }>('/parties', { name,...options }),
     [],
   )
   const join = useCallback(
@@ -322,7 +348,7 @@ export function usePartyActions() {
     [],
   )
   const createSession = useCallback(
-    (partyId: string, input: { name: string; items: PartySessionItemRef[]; startsAt: string | null }) =>
+    (partyId: string, input: { name: string; items: PartySessionItemRef[]; startsAt: string | null; scope?:'room'|'table' }) =>
       apiPost<{ ok: boolean; reason?: string; session?: PartySession }>(`/parties/${encodeURIComponent(partyId)}/sessions`, input),
     [],
   )

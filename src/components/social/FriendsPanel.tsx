@@ -234,6 +234,8 @@ function DirectorySearch({
   const { profile } = useIdentity()
   const hasCohort = Boolean(profile.universityId && profile.year)
   const [query, setQuery] = useState('')
+  const [privacyRevision,setPrivacyRevision]=useState(0)
+  useEffect(()=>{const refresh=()=>setPrivacyRevision(value=>value+1);window.addEventListener('nishany:discoverability-changed',refresh);return()=>window.removeEventListener('nishany:discoverability-changed',refresh)},[])
   const [results, setResults] = useState<FriendProfile[]>([])
   const [addingId, setAddingId] = useState<string | null>(null)
   const [message, setMessage] = useState('')
@@ -247,7 +249,7 @@ function DirectorySearch({
         .catch(() => { if (!cancelled) setResults([]) })
     }, 300)
     return () => { cancelled = true; window.clearTimeout(timer) }
-  }, [query, hasCohort, onSearch])
+  }, [query, hasCohort, onSearch, privacyRevision])
 
   if (!hasCohort) {
     return (

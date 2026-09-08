@@ -70,10 +70,11 @@ export function Topbar({
   useEffect(() => {
     if (!API_MODE || portal !== 'student') return
     let active = true
-    void apiGet<NotificationCampaign[]>('/notifications/shared').then((items) => {
-      if (active) setSharedNotifications(items)
-    }).catch(() => undefined)
-    return () => { active = false }
+    const refresh=()=>void Promise.allSettled([apiGet<NotificationCampaign[]>('/notifications/shared'),apiGet<NotificationCampaign[]>('/notifications/rooms')]).then(results=>{
+      if(active)setSharedNotifications(results.flatMap(result=>result.status==='fulfilled'?result.value:[]))
+    })
+    refresh();const timer=window.setInterval(refresh,20000)
+    return () => { active = false;window.clearInterval(timer) }
   }, [portal])
 
   function markRead(ids: string[]) {

@@ -15,6 +15,7 @@
  * works without a single byte of audio, and it keeps working here.
  */
 import os from 'node:os'
+import { mayHear } from './roomVoiceScope.js'
 
 /** Opus, and nothing else. A study room is a conversation, not a broadcast. */
 const MEDIA_CODECS = [
@@ -380,6 +381,7 @@ async function startEngine(env) {
         preferUdp: true,
         appData: { direction, userId },
       })
+      if(rooms.get(roomId)!==room||room.peers.get(userId)!==peer){transport.close();throw new Error('voice_peer_closed')}
       peer.transports.set(transport.id, transport)
       /*
        * The one place the media path is visible from the server. A call whose
@@ -408,25 +410,30 @@ async function startEngine(env) {
       return { ok: true }
     },
 
-    async produce(roomId, userId, transportId, kind, rtpParameters) {
+    async produce(roomId, userId, transportId, kind, rtpParameters, audience={scope:'room',tableId:null}) {
       const room = rooms.get(roomId)
       const transport = room?.peers.get(userId)?.transports.get(transportId)
       if (!transport) throw new Error('unknown_transport')
       // Audio only. A video producer on a router with no video codec would fail
       // anyway; refusing it here says so in a word rather than in a stack trace.
       if (kind !== 'audio') throw new Error('unsupported_kind')
-      const producer = await transport.produce({ kind, rtpParameters, appData: { userId } })
-      const peer = peerFor(room, userId)
+      const peer=room.peers.get(userId)
+      const producer = await transport.produce({ kind, rtpParameters, appData: { userId, audience } })
+      if(rooms.get(roomId)!==room||room.peers.get(userId)!==peer||peer.transports.get(transportId)!==transport||transport.closed){producer.close();throw new Error('voice_peer_closed')}
       peer.producers.set(producer.id, producer)
       producer.on('transportclose', () => peer.producers.delete(producer.id))
       return { producerId: producer.id }
     },
 
-    async consume(roomId, userId, transportId, producerId, rtpCapabilities) {
+    async consume(roomId, userId, transportId, producerId, rtpCapabilities, listenerTableId=null) {
       const room = rooms.get(roomId)
       const transport = room?.peers.get(userId)?.transports.get(transportId)
       if (!transport) throw new Error('unknown_transport')
+      const owner=producerUserIdOf(room,producerId)
+      const producer=room.peers.get(owner)?.producers.get(producerId)
+      if(!producer||!mayHear(producer.appData.audience,listenerTableId))throw new Error('voice_audience_mismatch')
       if (!room.router.canConsume({ producerId, rtpCapabilities })) throw new Error('cannot_consume')
+      const peer=room.peers.get(userId)
       const consumer = await transport.consume({
         producerId,
         rtpCapabilities,
@@ -435,7 +442,7 @@ async function startEngine(env) {
         // the client resumes it the moment it is ready.
         paused: true,
       })
-      const peer = peerFor(room, userId)
+      if(rooms.get(roomId)!==room||room.peers.get(userId)!==peer||peer.transports.get(transportId)!==transport||transport.closed||producer.closed){consumer.close();throw new Error('voice_peer_closed')}
       peer.consumers.set(consumer.id, consumer)
       consumer.on('transportclose', () => peer.consumers.delete(consumer.id))
       consumer.on('producerclose', () => peer.consumers.delete(consumer.id))
@@ -448,9 +455,13 @@ async function startEngine(env) {
       }
     },
 
-    async resume(roomId, userId, consumerId) {
-      const consumer = rooms.get(roomId)?.peers.get(userId)?.consumers.get(consumerId)
+    async resume(roomId, userId, consumerId, listenerTableId=null) {
+      const room=rooms.get(roomId)
+      const consumer = room?.peers.get(userId)?.consumers.get(consumerId)
       if (!consumer) throw new Error('unknown_consumer')
+      const owner=producerUserIdOf(room,consumer.producerId)
+      const producer=room.peers.get(owner)?.producers.get(consumer.producerId)
+      if(!producer||!mayHear(producer.appData.audience,listenerTableId))throw new Error('voice_audience_mismatch')
       await consumer.resume()
       return { ok: true }
     },
@@ -463,13 +474,13 @@ async function startEngine(env) {
     },
 
     /** Every producer in the room that is not this member's own. */
-    producersFor(roomId, userId) {
+    producersFor(roomId, userId, listenerTableId=null) {
       const room = rooms.get(roomId)
       if (!room) return []
       const list = []
       for (const [peerId, peer] of room.peers) {
         if (peerId === userId) continue
-        for (const producerId of peer.producers.keys()) list.push({ producerId, userId: peerId })
+        for (const [producerId,producer] of peer.producers) if(mayHear(producer.appData.audience,listenerTableId))list.push({ producerId, userId: peerId })
       }
       return list
     },

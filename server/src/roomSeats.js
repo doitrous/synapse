@@ -13,7 +13,7 @@
 
 export const SEAT_DESKS = ['plain', 'drawer', 'corner']
 export const SEAT_DEVICES = ['laptop', 'desktop', 'tablet', 'iphone', 'android']
-export const SEAT_CHAIRS = ['stool', 'office']
+export const SEAT_CHAIRS = ['stool', 'office', 'ergonomic', 'executive', 'lounge', 'gaming']
 
 /** Twenty desks to a room — four rows of five, as the hall is drawn. */
 export const ROOM_CAPACITY = 20
@@ -47,7 +47,7 @@ function oneOf(list, value) {
  * client sending `desk: 'hammock'` has a bug, and silently storing NULL would
  * hide it behind a seat that merely looks wrong.
  */
-export function normalizeSeatInput(body) {
+export function normalizeSeatInput(body,capacity=ROOM_CAPACITY) {
   const raw = body && typeof body === 'object' ? body : {}
   const given = (key) => Object.prototype.hasOwnProperty.call(raw, key)
 
@@ -78,7 +78,7 @@ export function normalizeSeatInput(body) {
   // move somebody across the room every time they changed their chair.
   let index
   if (given('seatIndex')) {
-    index = normalizeSeatIndex(raw.seatIndex)
+    index = normalizeSeatIndex(raw.seatIndex,capacity)
     if (index === undefined) return { ok: false, reason: 'invalid_seat_index' }
   }
 
@@ -92,11 +92,11 @@ export function normalizeSeatInput(body) {
  * not a desk in this room, so the caller can refuse rather than quietly
  * unseating somebody who asked for desk 41.
  */
-export function normalizeSeatIndex(value) {
+export function normalizeSeatIndex(value,capacity=ROOM_CAPACITY) {
   if (value === undefined || value === null || value === '') return null
   const index = Number(value)
   if (!Number.isInteger(index)) return undefined
-  if (index < 0 || index >= ROOM_CAPACITY) return undefined
+  if (index < 0 || index >= capacity) return undefined
   return index
 }
 

@@ -23,12 +23,13 @@ export function sameCohort(party, viewer) {
  * holds the link. Only cohort and archival state can actually keep someone
  * out.
  */
+export function matchesRoomAudience(party,viewer){return party.scope==='global'||(party.scope==='university'?Boolean(viewer.universityId&&party.universityId===viewer.universityId):sameCohort(party,viewer))}
 export function canJoin(party, viewer) {
   // Cohort is checked before anything else on purpose. Answering "archived" to
   // someone outside the cohort would confirm that a guessed code names a real
   // party — the one thing a refusal here must never do. Outside the year, every
   // code looks alike.
-  if (!sameCohort(party, viewer)) return { ok: false, reason: 'wrong_cohort' }
+  if (!matchesRoomAudience(party,viewer)) return { ok: false, reason: 'wrong_cohort' }
   if (party.archivedAt) return { ok: false, reason: 'archived' }
   return { ok: true }
 }
@@ -41,7 +42,7 @@ export function canJoin(party, viewer) {
  */
 export function visibleTo(parties, viewer) {
   return parties.filter((party) => (
-    !party.archivedAt && party.visibility === 'open' && sameCohort(party, viewer)
+    !party.archivedAt && party.visibility === 'open' && matchesRoomAudience(party,viewer)
   ))
 }
 

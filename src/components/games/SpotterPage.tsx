@@ -1,6 +1,7 @@
 import { LoadingRegion } from '@/components/loading/SkeletonParts'
 import { Skeleton } from '@/components/ui/Skeleton'
 import { ContentSkeleton } from '@/components/loading/PageSkeleton'
+import { FoundationGameLibrary } from '@/components/games/FoundationGameLibrary'
 import { useCallback, useEffect, useMemo, useState, type CSSProperties } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Crosshair, Copy, Check, CheckCircle2, XCircle } from 'lucide-react'
@@ -254,7 +255,7 @@ function SpotterPlayer({
   )
 }
 
-export function SpotterPage() {
+function LegacySpotterPage() {
   const t = useT()
   const { slides } = useLiveHistology()
   const availability = useCatalogueAvailability(slides.length)
@@ -331,3 +332,5 @@ export function SpotterPage() {
     </PageContainer>
   )
 }
+
+export function SpotterPage(){return <FoundationGameLibrary kind="spotter"><LegacySpotterPage/></FoundationGameLibrary>}

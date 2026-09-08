@@ -1,3 +1,4 @@
+import { FOUNDATION_ORDER_PACKS,FOUNDATION_RED_FLAG_PACKS } from '../../server/shared/foundationGames.js'
 /**
  * Authored medicine game packs.
  *
@@ -196,7 +197,7 @@ export function validateMiniGamePack(pack: MiniGamePack): string[] {
 }
 
 export function validMiniGamePacks(kind?: MiniGameKind): MiniGamePack[] {
-  return MINI_GAME_PACKS.filter((pack) => (!kind || pack.kind === kind) && validateMiniGamePack(pack).length === 0)
+  return [...FOUNDATION_ORDER_PACKS,...FOUNDATION_RED_FLAG_PACKS,...MINI_GAME_PACKS].filter((pack) => (!kind || pack.kind === kind) && validateMiniGamePack(pack).length === 0)
 }
 
 export function shuffledStepIds(pack: OrderedMiniGamePack, seed: number): string[] {

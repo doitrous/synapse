@@ -1,3 +1,4 @@
+import { inviteToRoom,roomInvitationFor,respondToRoomInvitation,roomInvitationNotifications } from '../roomInvitations.js'
 /**
  * Study parties: the party itself, its seats and activity, its games and its
  * question sessions.
@@ -9,6 +10,11 @@ import { actOnPartyGame, createPartyGame, partyGameFor, partyGamesFor, streamPar
 import { notifyRoomPresence } from '../roomsRealtime.js'
 
 export function registerPartyRoutes(app) {
+  app.get('/api/notifications/rooms',requireAuthenticated,wrap(async(req,res)=>res.json(await roomInvitationNotifications(req.identity.id))))
+  app.post('/api/parties/:id/invitations',requireAuthenticated,wrap(async(req,res)=>res.json(await inviteToRoom(req.identity.id,req.params.id,req.body))))
+  app.get('/api/room-invitations/:id',requireAuthenticated,wrap(async(req,res)=>{const invitation=await roomInvitationFor(req.identity.id,req.params.id);res.status(invitation?200:404).json({invitation})}))
+  app.post('/api/room-invitations/:id/respond',requireAuthenticated,wrap(async(req,res)=>{const result=await respondToRoomInvitation(req.identity.id,req.params.id,req.body?.accept);if(result.party)notifyRoomPresence(result.party.id);res.json(result)}))
+
   /* ── Study parties ───────────────────────────────────────────────────────── */
 
   app.post('/api/parties', requireAuthenticated, wrap(async (req, res) => {

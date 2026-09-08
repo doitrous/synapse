@@ -1,11 +1,12 @@
+import { RoomInvitation } from '@/components/rooms/RoomInvitation'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { HubPage, HubStat } from '@/components/hub'
+import { HubPage } from '@/components/hub'
+import { PageContainer } from '@/components/shell/Page'
 import { RoomLobby, type RoomAddress } from '@/components/rooms/RoomLobby'
 import { RoomView } from '@/components/rooms/RoomView'
 import { PARTY_REFUSALS, usePartyActions } from '@/lib/useParties'
 import { API_MODE } from '@/lib/api'
-import { ROOM_CAPACITY } from '@/lib/rooms/roomPresence'
 import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
 import { demoRoomByCode } from '@/lib/rooms/demoRoom'
 import { useT } from '@/lib/i18n'
@@ -37,14 +38,18 @@ export function StudyRooms() {
   const { join } = usePartyActions()
   const session = useRoomSession()
   const [message, setMessage] = useState('')
+  const suppressedCode = useRef<string | null>(null)
+  const latestRequested = useRef('')
 
   const requested = (params.get(ROOM_PARAM) ?? params.get(LEGACY_PARAM) ?? '').trim().toUpperCase()
+  latestRequested.current = requested
   const active = session?.room ?? null
   // The full hall is open when the address bar names the room the session is in.
   const openRoom = Boolean(active && requested && active.roomCode.toUpperCase() === requested)
 
   /** Put a room in the address bar, as a real navigation so Back leaves the hall. */
   const enter = useCallback((room: RoomAddress) => {
+    suppressedCode.current = null
     session?.join({ roomId: room.id, roomCode: room.code, roomName: room.name, demo: room.demo ?? !API_MODE })
     setParams((current) => {
       const next = new URLSearchParams(current)
@@ -56,6 +61,9 @@ export function StudyRooms() {
 
   /** Minimise: close the hall but stay in the room. The dock takes over. */
   const minimise = useCallback(() => {
+    // Membership updates can commit before Router's navigation transition.
+    // Do not redeem the old URL again while it is being removed.
+    suppressedCode.current = requested
     setMessage('')
     setParams((current) => {
       const next = new URLSearchParams(current)
@@ -63,7 +71,7 @@ export function StudyRooms() {
       next.delete(LEGACY_PARAM)
       return next
     })
-  }, [setParams])
+  }, [setParams, requested])
 
   /** Leave for good: end the session, then close the hall. */
   const leaveRoom = useCallback(() => {
@@ -83,9 +91,11 @@ export function StudyRooms() {
   const resolving = useRef<string | null>(null)
   useEffect(() => {
     if (!requested || !session) {
+      suppressedCode.current = null
       resolving.current = null
       return
     }
+    if (suppressedCode.current === requested) return
     if ((active && active.roomCode.toUpperCase() === requested) || resolving.current === requested) return
     resolving.current = requested
 
@@ -93,8 +103,9 @@ export function StudyRooms() {
       let found: { id: string; code: string; name?: string; demo?: boolean } | null = null
       let refusal = ''
 
-      if (!API_MODE) {
-        const demo = demoRoomByCode(requested)
+      const previewRoom = demoRoomByCode(requested)
+      if (!API_MODE || previewRoom?.id.startsWith('world-')) {
+        const demo = previewRoom
         if (demo) found = { id: demo.id, code: demo.code, name: demo.name, demo: true }
         else refusal = t('No room has that code.')
       } else {
@@ -102,6 +113,8 @@ export function StudyRooms() {
         if (result?.ok && result.party) found = { id: result.party.id, code: result.party.code, name: result.party.name }
         else refusal = PARTY_REFUSALS[result?.reason ?? ''] ?? t('That did not work. Try again.')
       }
+
+      if (latestRequested.current !== requested || suppressedCode.current === requested) return
 
       if (found) {
         setMessage('')
@@ -128,29 +141,20 @@ export function StudyRooms() {
     })()
   }, [requested, active, session, setParams, join, t])
 
+  const invitationId=params.get('invitation')
+  const invitation=invitationId?<RoomInvitation id={invitationId} onClose={()=>setParams(current=>{const next=new URLSearchParams(current);next.delete('invitation');return next})} onAccept={(party,seatIndex)=>{enter({id:party.id,code:party.code,name:party.name});setParams({room:party.code});if(seatIndex!==null)session?.study.patch({seatIndex})}}/>:null
+  if(openRoom)return <>{invitation} <PageContainer className="study-room-page"><RoomView key={active?.roomId} onMinimise={minimise} onLeave={leaveRoom}/></PageContainer></>
+
   return (
     <HubPage
       eyebrow="STUDY ROOMS"
       title="Study Rooms"
-      aside={
-        <>
-          <HubStat label="Seats to a room" value={String(ROOM_CAPACITY)} sub="four rows of five" />
-          <span className="inline-flex h-9 items-center gap-1.5 rounded-full border border-line bg-surface px-3.5 text-[13px] text-ink-2 shadow-control">
-            <span className="size-2 rounded-full bg-ink-3" aria-hidden />
-            {t('Voice not connected yet')}
-          </span>
-        </>
-      }
     >
       {/* Rendered unconditionally so the live region exists before it has
           anything to say — a status inserted with its text often goes unread. */}
       <p role="status" className="mb-3 text-[12.5px] text-danger">{message}</p>
 
-      {openRoom ? (
-        <RoomView onMinimise={minimise} onLeave={leaveRoom} />
-      ) : (
-        <RoomLobby onEnter={enter} />
-      )}
+      {invitation}<RoomLobby onEnter={enter} />
     </HubPage>
   )
 }

@@ -1,4 +1,5 @@
 import { ContentSkeleton } from '@/components/loading/PageSkeleton'
+import { FoundationGameLibrary } from '@/components/games/FoundationGameLibrary'
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Shuffle, Copy, Check } from 'lucide-react'
@@ -83,7 +84,7 @@ function TermMatchTile({
  * a fresh seed — remounts this with fresh local state, the same way
  * `TermGridPlayer` is keyed on `${category}:${generation}`.
  */
-function TermMatchPlayer({
+export function TermMatchPlayer({
   board,
   onReplay,
 }: {
@@ -243,7 +244,7 @@ function TermMatchPlayer({
   )
 }
 
-export function TermMatchPage() {
+function LegacyTermMatchPage() {
   const t = useT()
   // Same source `MedicalTaxonomy` reads: live in production, the starter set
   // in demo mode.
@@ -334,3 +335,5 @@ export function TermMatchPage() {
     </PageContainer>
   )
 }
+
+export function TermMatchPage(){return <FoundationGameLibrary kind="term-match"><LegacyTermMatchPage/></FoundationGameLibrary>}

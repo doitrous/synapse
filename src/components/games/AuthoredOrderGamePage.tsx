@@ -1,3 +1,4 @@
+import { FoundationGameLibrary } from './FoundationGameLibrary'
 import { useEffect, useMemo, useState } from 'react'
 import { ArrowDown, ArrowUp, ListOrdered, RotateCcw } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -33,7 +34,7 @@ function move(ids: string[], from: number, to: number): string[] {
   return next
 }
 
-export function AuthoredOrderGamePage({ kind }: { kind: 'clinical_sequence' | 'mechanism_chain' }) {
+function LegacyAuthoredOrderGamePage({ kind }: { kind: 'clinical_sequence' | 'mechanism_chain' }) {
   const t = useT()
   const packs = useMemo(() => orderedPacks(kind), [kind])
   const pack = packs[0]
@@ -142,3 +143,5 @@ export function AuthoredOrderGamePage({ kind }: { kind: 'clinical_sequence' | 'm
     </PageContainer>
   )
 }
+
+export function AuthoredOrderGamePage({kind}:{kind:'clinical_sequence'|'mechanism_chain'}){return <FoundationGameLibrary kind={kind==='clinical_sequence'?'clinical-sequence':'mechanism-chain'}><LegacyAuthoredOrderGamePage kind={kind}/></FoundationGameLibrary>}

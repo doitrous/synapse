@@ -498,7 +498,11 @@ test('concept, relation, evidence, and subject fixtures round-trip through their
 })
 
 test('authored medicine game packs are first-class bulk-import contracts', () => {
-  assert.equal(validMiniGamePacks().length, 3)
+  // Ten foundation sets plus the original authored pack for each import kind.
+  assert.equal(validMiniGamePacks().length, 33)
+  for (const kind of ['clinical_sequence', 'mechanism_chain', 'red_flag_sort'] as const) {
+    assert.equal(validMiniGamePacks(kind).length, 11)
+  }
   assert.deepEqual(validMiniGamePacks().flatMap(validateMiniGamePack), [])
 
   const clinicalSequence = {

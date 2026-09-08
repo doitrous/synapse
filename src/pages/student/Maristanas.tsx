@@ -1,3 +1,4 @@
+import { FoundationGameLibrary } from '@/components/games/FoundationGameLibrary'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
@@ -180,7 +181,7 @@ function HospitalCard({ hospital, selected, onSelect }: { hospital: MaristanaHos
   )
 }
 
-export function Maristanas() {
+function LegacyMaristanas() {
   const t = useT()
   const { audienceSettled, audienceUnknown } = useIdentity()
   const { data, loading, error, refresh, rename } = useMaristanas()
@@ -382,3 +383,5 @@ export function Maristanas() {
     </>
   )
 }
+
+export function Maristanas(){return <FoundationGameLibrary kind="maristanas"><LegacyMaristanas/></FoundationGameLibrary>}

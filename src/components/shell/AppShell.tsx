@@ -194,7 +194,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
       {/* Main column */}
       <div
         className={cn(
-          'flex min-h-dvh min-w-0 flex-col transition-[padding] duration-200 ease-[var(--ease-out-quint)]',
+          'app-content-shell flex min-h-dvh min-w-0 flex-col transition-[padding] duration-200 ease-[var(--ease-out-quint)]',
           focusMode ? '' : railed ? 'lg:ps-(--spacing-sidebar-collapsed)' : 'lg:ps-(--spacing-sidebar)',
         )}
       >
@@ -215,6 +215,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
         <main ref={mainRef} key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in focus:outline-none" tabIndex={-1}>
           <Outlet />
         </main>
+        {portal === 'student' && <RoomDock railed={railed} focusMode={focusMode} />}
       </div>
 
       {/* The way back out of focus mode, for anyone who does not reach for Escape. */}
@@ -242,7 +243,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
       {/* The study room, floated over every page so joining a room is not the
           same as being pinned to the Study Rooms page. Draws nothing until a
           room is joined, and steps aside while the full hall is on screen. */}
-      {portal === 'student' && <RoomDock railed={railed} focusMode={focusMode} />}
+
     </div>
   )
 }

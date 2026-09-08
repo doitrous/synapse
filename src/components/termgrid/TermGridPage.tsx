@@ -1,4 +1,5 @@
 import { ContentSkeleton } from '@/components/loading/PageSkeleton'
+import { FoundationGameLibrary } from '@/components/games/FoundationGameLibrary'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Grid3x3, Copy, Check } from 'lucide-react'
@@ -46,7 +47,7 @@ function formatElapsed(ms: number): string {
  * remounts this with fresh local state, the same way `EssayRunner` is keyed
  * on the question id.
  */
-function TermGridPlayer({
+export function TermGridPlayer({
   category,
   seed,
   terms,
@@ -176,7 +177,7 @@ function TermGridPlayer({
   )
 }
 
-export function TermGridPage() {
+function LegacyTermGridPage() {
   const t = useT()
   // Same source `MedicalTaxonomy` reads: live in production, the starter set
   // in demo mode. See `useMedicalGlossary` for why it is not auto-seeded here.
@@ -280,3 +281,5 @@ export function TermGridPage() {
     </PageContainer>
   )
 }
+
+export function TermGridPage(){return <FoundationGameLibrary kind="term-grid"><LegacyTermGridPage/></FoundationGameLibrary>}

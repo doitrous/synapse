@@ -673,3 +673,30 @@ test('closing one of a member’s two tabs does not cut the audio in the other',
   hub.remove(firstTab)
   assert.deepEqual(other.lastOf('sfu:producerClosed'), { type: 'sfu:producerClosed', producerId: 'p-a', userId: 'a' })
 })
+
+test('voice negotiation fails closed when a fresh membership read fails',async()=>{
+  const calls=[],sfu={...stubSfu(),consume:async()=>{calls.push('consume');return {}}}
+  const hub=hubWith({sfu}),a=stubClient('R1','a')
+  await hub.add(a);hub.state.fail=true
+  await hub.receive(a,JSON.stringify({type:'sfu:consume',requestId:42,producerId:'private'}))
+  assert.deepEqual(calls,[])
+  assert.equal(a.lastOf('error').error,'voice_membership_unavailable')
+})
+test('table audience is derived from server membership, never a submitted table ID',async()=>{
+  let captured=null
+  const snapshot=roomOf('a','b');snapshot.members[0].seat={seatIndex:9}
+  const sfu={...stubSfu(),produce:async(...args)=>{captured=args[5];return {producerId:'p-a'}}}
+  const hub=createRoomHub({readRoom:async()=>snapshot,sfu}),a=stubClient('R1','a')
+  await hub.add(a)
+  await hub.receive(a,JSON.stringify({type:'sfu:produce',audience:'table',tableId:'table-16',transportId:'t',requestId:1}))
+  assert.deepEqual(captured,{scope:'table',tableId:'pair-8'})
+  snapshot.members[0].seat={seatIndex:0};captured=null
+  await hub.receive(a,JSON.stringify({type:'sfu:produce',audience:'table',transportId:'t',requestId:2}))
+  assert.equal(captured,null);assert.equal(a.lastOf('error').error,'sit_at_shared_table_first')
+})
+test('changing seats resets voice in every tab owned by the moving member',async()=>{
+  const hub=hubWith({sfu:stubSfu()}),a=stubClient('R1','a'),otherTab=stubClient('R1','a'),b=stubClient('R1','b')
+  await hub.add(a);await hub.add(otherTab);await hub.add(b)
+  hub.closeVoice('R1','a')
+  assert.ok(a.lastOf('sfu:voiceReset'));assert.ok(otherTab.lastOf('sfu:voiceReset'));assert.equal(b.lastOf('sfu:voiceReset'),null)
+})
