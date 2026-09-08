@@ -97,6 +97,7 @@ export const ROUTE_TITLES: Record<string, string> = {
   // should not silently become a different page's title.
   '/app/taxonomy': 'Medical Terminology',
   '/app/resources': 'Resources',
+  '/app/anatomy-atlas': 'Anatomy Atlas',
   // Practice
   '/app/qbank': 'Question Bank',
   '/app/qotd': 'Question of the Day',

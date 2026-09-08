@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { BookOpen, FolderOpen, Languages, MonitorPlay } from 'lucide-react'
+import { BookOpen, FolderOpen, Languages, MonitorPlay, PersonStanding } from 'lucide-react'
 import { FeatureCard, FeatureGrid, HubPage, HubStat } from '@/components/hub'
 import { useMedicalGlossary } from '@/data/glossaryStore'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
@@ -74,6 +74,23 @@ export function Learn() {
           icon={MonitorPlay}
           title={t('Tutorial')}
           description={t('Short videos on how each part of Nishany works, by area.')}
+        />
+        <FeatureCard
+          to="/app/anatomy-atlas"
+          icon={PersonStanding}
+          title={t('Anatomy Atlas')}
+          description={t('Explore male and female anatomy in 3D, system by system, and inspect individual anatomical structures.')}
+          status="coming-soon"
+          comingSoon={{
+            body: t('The full Anatomy Atlas is coming soon. Try the interactive demo now to switch between male and female anatomy, reveal systems, and inspect modeled structures.'),
+            previewHref: '/app/anatomy-atlas',
+            previewLabel: 'Demo',
+            showPreviewOnCard: true,
+          }}
+          stats={[
+            { label: t('Models'), value: '2' },
+            { label: t('Pieces'), value: '5,238' },
+          ]}
         />
       </FeatureGrid>
     </HubPage>

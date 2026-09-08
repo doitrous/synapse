@@ -169,6 +169,7 @@ const Tutorial = lazyNamed(() => import('@/pages/student/Tutorial'), 'Tutorial')
 const StudyRooms = lazyNamed(() => import('@/pages/student/StudyRooms'), 'StudyRooms')
 const Plan = lazyNamed(() => import('@/pages/student/Plan'), 'Plan')
 const Learn = lazyNamed(() => import('@/pages/student/Learn'), 'Learn')
+const AnatomyAtlas = lazyNamed(() => import('@/pages/student/AnatomyAtlas'), 'AnatomyAtlas')
 const Practice = lazyNamed(() => import('@/pages/student/Practice'), 'Practice')
 const Revise = lazyNamed(() => import('@/pages/student/Revise'), 'Revise')
 const QuestionOfTheDay = lazyNamed(() => import('@/pages/student/QuestionOfTheDay'), 'QuestionOfTheDay')
@@ -250,6 +251,7 @@ const studentPages: Record<string, Preloadable> = {
   'study-rooms': StudyRooms,
   plan: Plan,
   learn: Learn,
+  'anatomy-atlas': AnatomyAtlas,
   practice: Practice,
   revise: Revise,
   qotd: QuestionOfTheDay,

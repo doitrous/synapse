@@ -19,6 +19,7 @@ export function ComingSoonDialog({
   body,
   icon,
   previewHref,
+  previewLabel,
   onClose,
 }: {
   title: string
@@ -26,6 +27,7 @@ export function ComingSoonDialog({
   body: string
   icon: LucideIcon
   previewHref?: string
+  previewLabel?: string
   onClose: () => void
 }) {
   const t = useT()
@@ -47,7 +49,7 @@ export function ComingSoonDialog({
       <div className="flex flex-col-reverse gap-2 border-t border-line px-5 py-3.5 sm:flex-row sm:justify-end">
         {previewHref && (
           <ButtonLink to={previewHref} variant="secondary" onClick={onClose}>
-            {t('Open the preview')}
+            {t(previewLabel ?? 'Open the preview')}
           </ButtonLink>
         )}
         <Button variant="primary" onClick={onClose}>{t('Got it')}</Button>

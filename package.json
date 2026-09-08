@@ -50,6 +50,7 @@
     "@lexical/table": "^0.49.0",
     "@simplewebauthn/browser": "^13.1.0",
     "@tailwindcss/vite": "^4.3.3",
+    "@types/three": "^0.159.0",
     "fflate": "^0.8.3",
     "fzstd": "^0.1.1",
     "lexical": "^0.49.0",
@@ -61,7 +62,8 @@
     "react-router-dom": "^7.18.2",
     "read-excel-file": "^9.3.5",
     "sql.js": "^1.14.2",
-    "tailwindcss": "^4.3.3"
+    "tailwindcss": "^4.3.3",
+    "three": "^0.159.0"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",

@@ -38,7 +38,13 @@ export interface FeatureCardProps {
   status?: 'live' | 'coming-soon'
   /** Required when `status === 'coming-soon'` — a card with nothing to say
    *  about why it is not ready is worse than no card. */
-  comingSoon?: { body: string; previewHref?: string }
+  comingSoon?: {
+    body: string
+    previewHref?: string
+    previewLabel?: string
+    /** Shows the preview as a direct action on the card instead of hiding it in the dialog. */
+    showPreviewOnCard?: boolean
+  }
   /** Handles the activation itself instead of navigating — how a hub selects
    *  a tab on a page it is already on (Practical's stations, say). */
   onClick?: () => void
@@ -71,6 +77,7 @@ export function FeatureCard({
   const [dialogOpen, setDialogOpen] = useState(false)
   const soon = status === 'coming-soon'
   const shown = stats?.slice(0, 2) ?? []
+  const previewOnCard = soon && comingSoon?.showPreviewOnCard && comingSoon.previewHref
 
   const surface = cn(
     'group/card relative flex min-w-0 flex-col rounded-xl border border-line bg-surface p-5 text-start shadow-panel',
@@ -143,6 +150,23 @@ export function FeatureCard({
     </>
   )
 
+  if (previewOnCard) {
+    return (
+      <article className={surface}>
+        {body}
+        <div className="mt-auto flex justify-end pt-4">
+          <Link
+            to={previewOnCard}
+            className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-primary px-3.5 text-[13px] font-semibold text-white shadow-sm transition-colors hover:bg-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+          >
+            {t(comingSoon.previewLabel ?? 'Open the preview')}
+            <Icon icon={ArrowUpRight} size={14} className="rtl:-scale-x-100" />
+          </Link>
+        </div>
+      </article>
+    )
+  }
+
   if (soon || onClick) {
     return (
       <>
@@ -159,6 +183,7 @@ export function FeatureCard({
             body={comingSoon?.body ?? ''}
             icon={icon}
             previewHref={comingSoon?.previewHref}
+            previewLabel={comingSoon?.previewLabel}
             onClose={() => setDialogOpen(false)}
           />
         )}
