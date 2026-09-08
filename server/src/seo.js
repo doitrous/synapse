@@ -50,6 +50,7 @@ export function registerSeo(app) {
   })
   app.get('/blog/:lang/:slug', async (req, res, next) => {
     try {
+      if (!SUPPORTED.includes(req.params.lang)) return res.status(404).type('text').send('Not found')
       const rows = await store.listArticles()
       const row = rows.find((a) => a.lang === req.params.lang && a.slug === req.params.slug)
       if (!row) return res.status(404).type('html').send('<!doctype html><title>Not found</title><h1>404</h1>')
