@@ -288,7 +288,9 @@ export async function apiAuthGate(req, res, next) {
     // signed in, and it already hides everything unless an admin turned it on.
     || (req.method === 'GET' && req.path === '/api/public/subscriber-count')
     || req.path === '/api/facebook/deletion-callback'
-    // seo-hub receiver: authenticated by its own shared secret (routes/seoArticles.js)
+    // seo-hub receiver: authenticated by its own shared secret, and mounted (seo.js,
+    // registerSeo) ahead of this gate, so in practice this exemption is never reached — kept as
+    // a safety net in case that mount order ever changes.
     || (req.method === 'POST' && req.path === '/api/articles')
     // The marketing site's contact form: visitors are, by definition, not
     // signed in. Turnstile and its own rate limit guard it (contentReports.js).

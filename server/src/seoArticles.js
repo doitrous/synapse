@@ -1,83 +1,5 @@
-import { Marked } from 'marked'
-
 export const SUPPORTED = ['en', 'ar']
-const str = (v) => typeof v === 'string' && v.trim().length > 0
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
-
-// Only http(s), root-relative, and in-page anchors may reach an href/src —
-// this is checked at the renderer level (below) so CommonMark's angle-bracket
-// link/image destinations ([x](<javascript:...>)) can't bypass a source regex.
-const SAFE_TARGET = /^(https?:\/\/|\/|#)/i
-const bodyMarked = new Marked({
-  renderer: {
-    link({ href, title, tokens }) {
-      const text = this.parser.parseInline(tokens)
-      const target = String(href ?? '').trim()
-      if (!SAFE_TARGET.test(target)) return text
-      return `<a href="${esc(target)}"${title ? ` title="${esc(title)}"` : ''}>${text}</a>`
-    },
-    image({ href, title, text }) {
-      const target = String(href ?? '').trim()
-      if (!SAFE_TARGET.test(target)) return ''
-      return `<img src="${esc(target)}" alt="${esc(text)}"${title ? ` title="${esc(title)}"` : ''}>`
-    },
-    // marked's default html renderer emits block AND inline html tokens
-    // (both go through renderer.html in v15) verbatim — the very hole a
-    // source-regex strip (formerly stripRawHtml here) can't reliably close,
-    // since a nested/broken tag like `<scr<script>ipt>` still tokenizes as
-    // html. Escaping every such token instead means no raw markup ever
-    // reaches the page, regardless of how it's spelled.
-    html(token) { return esc(token.text) },
-  },
-})
-
-const SLUG_RE = /^[a-z0-9-]{1,191}$/
-export function validatePayload(body) {
-  if (!body || !Number.isInteger(body.externalId)) return { error: 'invalid externalId' }
-  if (!Array.isArray(body.articles) || body.articles.length === 0) return { error: 'invalid articles' }
-  for (const [i, a] of body.articles.entries()) {
-    for (const k of ['lang', 'title', 'slug', 'bodyMd']) if (!str(a?.[k])) return { error: `invalid articles[${i}].${k}` }
-    if (!SLUG_RE.test(a.slug)) return { error: `invalid articles[${i}].slug` }
-    if (a.title.length > 500) return { error: `invalid articles[${i}].title` }
-    if (a.metaDescription !== undefined && (!str(a.metaDescription) || a.metaDescription.length > 1000)) return { error: `invalid articles[${i}].metaDescription` }
-    if (a.faq !== undefined && (!Array.isArray(a.faq) || a.faq.some((f) => !str(f?.q) || !str(f?.a)))) return { error: `invalid articles[${i}].faq` }
-    if (a.schemaJsonld !== undefined && !Array.isArray(a.schemaJsonld)) return { error: `invalid articles[${i}].schemaJsonld` }
-    if (a.references !== undefined && (!Array.isArray(a.references) || a.references.some((r) => !str(r?.title) || typeof r?.url !== 'string' || !/^https:\/\//i.test(r.url) || r.url.length > 2048))) return { error: `invalid articles[${i}].references` }
-    if (a.og !== undefined && (typeof a.og !== 'object' || a.og === null || Array.isArray(a.og) || ['title', 'description'].some((k) => a.og[k] !== undefined && typeof a.og[k] !== 'string'))) return { error: `invalid articles[${i}].og` }
-  }
-  if (body.image != null && !str(body.image.url)) return { error: 'invalid image' }
-  return { payload: body }
-}
-
-// Anchored to the start of the string (no /m flag) so only a genuinely
-// leading H1 is dropped — an H1 anywhere later in the body is real content.
-export function renderBody(md) {
-  const html = bodyMarked.parse(md.replace(/^# .*\n?/, ''), { async: false })
-  return html.replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" rel="noopener" target="_blank"')
-}
-export function intro(md) {
-  const p = md.replace(/^# .*\n?/, '').split(/\n{2,}/).map((x) => x.trim()).find((x) => x && !x.startsWith('#')) ?? ''
-  return p.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/[*_`]/g, '')
-}
-// Validation already guaranteed an https url and a non-blank title; this only
-// trims and fills the optional keys so the renderer can read them directly.
-const references = (raw) => (raw ?? []).map((r) => ({
-  title: r.title.trim(), url: r.url,
-  publisher: str(r.publisher) ? r.publisher.trim() : null,
-  date: /^\d{4}-\d{2}-\d{2}$/.test(r.date ?? '') ? r.date : null,
-}))
-export function toRows(payload) {
-  const skipped = [], rows = []
-  for (const a of payload.articles) {
-    if (!SUPPORTED.includes(a.lang)) { skipped.push(a.lang); continue }
-    rows.push({ external_id: payload.externalId, lang: a.lang, slug: a.slug, title: a.title, meta_title: a.metaTitle || a.title,
-      meta_description: a.metaDescription || intro(a.bodyMd).slice(0, 155), body_md: a.bodyMd, body_html: renderBody(a.bodyMd),
-      faq: a.faq ?? [], schema_jsonld: a.schemaJsonld ?? [], image_url: payload.image?.url ?? null, image_alt: payload.image?.alt ?? null,
-      author_name: payload.author?.name ?? null, author_credentials: payload.author?.credentials ?? null,
-      references_json: references(a.references), og_title: a.og?.title?.trim() || null, og_description: a.og?.description?.trim() || null })
-  }
-  return { skipped, rows }
-}
 
 const T = { en: { blog: 'Blog', home: 'Nishany', by: 'By', faq: 'Frequently asked questions', more: 'Read more', references: 'References' }, ar: { blog: 'المدونة', home: 'نيشاني', by: 'بقلم', faq: 'الأسئلة الشائعة', more: 'اقرأ المزيد', references: 'المراجع' } }
 const shell = (lang, head, body) => `<!doctype html>
@@ -88,7 +10,7 @@ const shell = (lang, head, body) => `<!doctype html>
 
 export function articlePage(row, siblings, origin) {
   // slug is hub-supplied; escaped here like every other user-derived string
-  // (defence in depth even though validatePayload already restricts its
+  // (defence in depth even though the hub's own ingest already restricts its
   // format) so it can't break out of these href attributes. Each sibling
   // carries its OWN slug — the hub lets translations of the same job use
   // different slugs — so hreflang must not reuse this row's slug for every
@@ -115,33 +37,4 @@ export function indexPage(lang, rows, origin) {
     return `<div class="card">${img}<h2><a href="/blog/${lang}/${esc(r.slug)}">${esc(r.title)}</a></h2><p>${esc(r.meta_description)}</p><p class="meta">${r.published_at ? new Date(r.published_at).toISOString().slice(0, 10) : ''}</p></div>`
   }).join('')
   return shell(lang, head, `<h1>${t.blog}</h1>${cards}`)
-}
-export const STATIC_URLS = [
-  { path: '/', alternates: { ar: '/ar', en: '/en', 'x-default': '/' } },
-  { path: '/ar', alternates: { ar: '/ar', en: '/en' } },
-  { path: '/en', alternates: { ar: '/ar', en: '/en' } },
-  { path: '/pricing', alternates: { ar: '/ar/pricing', en: '/pricing', 'x-default': '/pricing' } },
-  { path: '/en/pricing', alternates: { ar: '/ar/pricing', en: '/pricing', 'x-default': '/pricing' } },
-  { path: '/ar/pricing', alternates: { ar: '/ar/pricing', en: '/pricing' } },
-  { path: '/terms', alternates: { en: '/terms', 'x-default': '/terms' } },
-  { path: '/privacy', alternates: { en: '/privacy', 'x-default': '/privacy' } },
-  { path: '/refund-policy', alternates: { en: '/refund-policy', 'x-default': '/refund-policy' } },
-  { path: '/contact', alternates: { en: '/contact', 'x-default': '/contact' } },
-  { path: '/accessibility', alternates: { en: '/accessibility', 'x-default': '/accessibility' } },
-]
-export function sitemapXml(rows, origin) {
-  const u = (loc, alternates, lastmod) => `<url><loc>${origin}${loc}</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}${Object.entries(alternates).map(([l, p]) => `<xhtml:link rel="alternate" hreflang="${l}" href="${origin}${p}"/>`).join('')}</url>`
-  // Grouped by external_id, not slug: two different jobs can share a slug in
-  // different languages (each (lang, slug) pair is only unique within one
-  // language), and those must NOT be linked to each other as hreflang alternates.
-  const byExternalId = new Map()
-  for (const r of rows) { if (!byExternalId.has(r.external_id)) byExternalId.set(r.external_id, []); byExternalId.get(r.external_id).push(r) }
-  const articleUrls = [...byExternalId.values()].flatMap((group) => {
-    // slug is hub-supplied; escaped only where it lands in the XML below —
-    // same reasoning as articlePage/indexPage.
-    const alternates = Object.fromEntries(group.map((r) => [r.lang, `/blog/${r.lang}/${esc(r.slug)}`]))
-    return group.map((r) => u(`/blog/${r.lang}/${esc(r.slug)}`, alternates, r.updated_at ? new Date(r.updated_at).toISOString().slice(0, 10) : undefined))
-  })
-  const indexUrls = SUPPORTED.map((l) => u(`/blog/${l}`, Object.fromEntries(SUPPORTED.map((x) => [x, `/blog/${x}`]))))
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${STATIC_URLS.map((s) => u(s.path, s.alternates)).join('')}${indexUrls.join('')}${articleUrls.join('')}</urlset>`
 }

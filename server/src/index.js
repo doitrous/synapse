@@ -13,8 +13,11 @@
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { existsSync } from 'node:fs'
+import { readFile } from 'node:fs/promises'
 import express from 'express'
 import compression from 'compression'
+import { resolveSeo } from '@omary98/seo-runtime-core'
+import { injectHead } from '@omary98/seo-runtime-express'
 import cors from 'cors'
 import { pool, migrate } from './db.js'
 import { apiAuthGate, identityFromCookieHeader, identityFromToken } from './auth.js'
@@ -31,7 +34,7 @@ import { setMailer } from './qotdReminderEmail.js'
 import { startQotdReminderScheduler } from './qotdReminders.js'
 import { registerContentRoutes } from './studentContent.js'
 import { registerPublicRoutes } from './routes/public.js'
-import { registerSeoArticleRoutes } from './routes/seoArticles.js'
+import { registerSeo, store } from './seo.js'
 import { registerAuthRoutes } from './routes/auth.js'
 import { registerAssistantRoutes, registerEssayRoutes } from './routes/assistant.js'
 import { registerMeRoutes } from './routes/me.js'
@@ -65,6 +68,11 @@ app.set('trust proxy', 1)
 // A separate constant from the static-file PUBLIC_DIR below: this one only
 // needs to exist early enough to hash the built index.html's inline theme
 // script for CSP, before the SPA is ever wired up.
+// The seo-hub receiver (@omary98/seo-runtime-express): POST /api/articles, POST/GET /api/seo/*,
+// GET /sitemap.xml and /robots.txt, plus its redirect middleware — registered before EVERY other
+// middleware (body parser, session, auth, static/catch-all), because its redirect check and its
+// own 2 MB-capped body reader must run ahead of the rest of this stack, not behind it.
+registerSeo(app)
 const SECURITY_HEADERS_PUBLIC_DIR = process.env.PUBLIC_DIR || join(__dirname, '..', 'public')
 app.use(securityHeaders({ publicDir: SECURITY_HEADERS_PUBLIC_DIR }))
 /**
@@ -138,10 +146,6 @@ app.use(express.json({
  * of an unsubscribe link is signed out.
  */
 registerPublicRoutes(app)
-// The seo-hub receiver: POST /api/articles plus the public /blog/:lang(/:slug)
-// pages and /sitemap.xml it serves. Mounted before the SPA static/catch-all
-// block below so these routes are matched first.
-registerSeoArticleRoutes(app)
 registerAuthRoutes(app)
 registerEssayRoutes(app)
 registerMeRoutes(app)
@@ -212,9 +216,18 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
   for (const locale of LOCALE_ENTRY_PATHS) {
     const document = join(PUBLIC_DIR, locale, 'index.html')
     if (!existsSync(document)) continue
-    app.get([`/${locale}`, `/${locale}/`], (_req, res) => {
-      res.setHeader('Cache-Control', 'no-cache')
-      res.sendFile(document)
+    // Head tags come from the hub now, not only from what Vite baked in at build time: the hub
+    // owns title/description/canonical/alternates/robots/OG/JSON-LD for `page:home:{lang}`
+    // (seo.js's `pages()`), and injectHead splices those into this static shell server-side —
+    // before the crawler ever sees the response — same reason these are static per-locale
+    // documents rather than the SPA's client-side-only routes: a crawler running no JavaScript
+    // never sees anything the SPA sets after it mounts.
+    app.get([`/${locale}`, `/${locale}/`], async (_req, res, next) => {
+      try {
+        res.setHeader('Cache-Control', 'no-cache')
+        const [html, seo] = await Promise.all([readFile(document, 'utf8'), resolveSeo(store, `/${locale}`, locale)])
+        res.type('html').send(injectHead(html, seo))
+      } catch (e) { next(e) }
     })
   }
 
