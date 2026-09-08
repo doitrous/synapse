@@ -1,5 +1,5 @@
 import { ButtonLink } from '@/components/ui/Button'
-import { NishanyLoader } from '@/components/ui/NishanyLoader'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { useT } from '@/lib/i18n'
 import { useQotd } from '@/lib/useQotd'
 import { cn } from '@/lib/cn'
@@ -44,7 +44,7 @@ export function QotdCompact({ className }: { className?: string }) {
       </div>
 
       <p className="mt-1.5 flex min-h-[1.25rem] items-center gap-1.5 text-[11.5px] leading-snug text-ink-3">
-        {qotd.loading ? <NishanyLoader mini label={t('Loading')} /> : state}
+        {qotd.loading ? <Skeleton className="h-4 w-20" /> : state}
       </p>
 
       <div className="mt-auto pt-3">

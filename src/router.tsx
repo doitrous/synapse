@@ -1,7 +1,9 @@
+import { InitialReadBoundary } from '@/components/loading/InitialReadBoundary'
+import { loadingLayoutFor } from '@/components/loading/routeSkeletons'
 import { lazy, Suspense, useEffect, useState, type ComponentType, type ReactElement } from 'react'
-import { createBrowserRouter, Navigate } from 'react-router-dom'
+import { createBrowserRouter, Navigate, useLocation } from 'react-router-dom'
 import { AppShell } from '@/components/shell/AppShell'
-import { RouteLoading, type RouteSkeleton } from '@/components/shell/RouteLoading'
+import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RedirectWithSearch } from '@/components/shell/RedirectWithSearch'
 import { RequireAuth } from '@/components/auth/RequireAuth'
@@ -34,10 +36,19 @@ function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: s
  * message for this only because the router supplies one at the top level;
  * everything under `/app` and `/admin` showed an empty page instead.
  */
-function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}, skeleton: RouteSkeleton = 'page'): ReactElement {
+function PageReads({ children }: { children: ReactElement }) {
+  const { pathname, search } = useLocation()
+  // Dashboard sections load independently. Canvas/reader pages own their
+  // viewport and use their local content and media loaders.
+  const layout = loadingLayoutFor(pathname, search)
+  if (['dashboard', 'reader', 'whiteboard', 'atlas', 'room'].includes(layout.shape)) return children
+  return <InitialReadBoundary key={pathname} layout={layout} tab={new URLSearchParams(search).get('tab') ?? undefined}>{children}</InitialReadBoundary>
+}
+
+function render(Page: ComponentType<Record<string, unknown>>, props: Record<string, unknown> = {}): ReactElement {
   return (
     <RouteBoundary>
-      <Suspense fallback={<RouteLoading variant={skeleton} />}><Page {...props} /></Suspense>
+      <Suspense fallback={<RouteLoading />}><PageReads><Page {...props} /></PageReads></Suspense>
     </RouteBoundary>
   )
 }
@@ -167,8 +178,6 @@ const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteb
 const Notebook = lazyNamed(() => import('@/pages/student/Notebook'), 'Notebook')
 const Tutorial = lazyNamed(() => import('@/pages/student/Tutorial'), 'Tutorial')
 const StudyRooms = lazyNamed(() => import('@/pages/student/StudyRooms'), 'StudyRooms')
-const Plan = lazyNamed(() => import('@/pages/student/Plan'), 'Plan')
-const Learn = lazyNamed(() => import('@/pages/student/Learn'), 'Learn')
 const AnatomyAtlas = lazyNamed(() => import('@/pages/student/AnatomyAtlas'), 'AnatomyAtlas')
 const Practice = lazyNamed(() => import('@/pages/student/Practice'), 'Practice')
 const Revise = lazyNamed(() => import('@/pages/student/Revise'), 'Revise')
@@ -249,35 +258,15 @@ const studentPages: Record<string, Preloadable> = {
   notebook: Notebook,
   tutorial: Tutorial,
   'study-rooms': StudyRooms,
-  plan: Plan,
-  learn: Learn,
+  'clinical-practice': Practice,
+  'study-tools': Revise,
   'anatomy-atlas': AnatomyAtlas,
-  practice: Practice,
-  revise: Revise,
   qotd: QuestionOfTheDay,
   account: Account,
 }
 
-/**
- * The skeleton each student page wears while its chunk loads. Only the pages
- * whose first painted view is not the default `page` shape (header + cards) are
- * listed; everything else falls through to `page`. A new page is honest by
- * default — add a line here only when it opens on a different shape.
- */
-const studentSkeletons: Partial<Record<keyof typeof studentPages, RouteSkeleton>> = {
-  performance: 'stats',
-  account: 'form',
-  resources: 'list',
-  university: 'list',
-  maristanas: 'list',
-  tutorial: 'list',
-  notebook: 'split',
-  library: 'split',
-  whiteboard: 'canvas',
-}
-
 const studentBuilt: Record<string, ReactElement> = Object.fromEntries(
-  Object.entries(studentPages).map(([path, Page]) => [path, render(Page, {}, studentSkeletons[path] ?? 'page')]),
+  Object.entries(studentPages).map(([path, Page]) => [path, render(Page)]),
 )
 
 /**
@@ -289,8 +278,7 @@ export function preloadStudentRoute(to: string): void {
   studentPages[to.replace(/^\/app\/?/, '')]?.preload()
 }
 
-// Admin console skeletons are left at the default for now — this pass tunes the
-// student-facing pages only.
+// RouteLoading resolves both portals through the explicit loading-layout registry.
 const adminBuilt: Record<string, ReactElement> = {
   academic: render(AcademicSetup),
   library: render(ControlDashboard, { initialKind: 'article', lockedKind: true }),
@@ -321,7 +309,7 @@ const adminBuilt: Record<string, ReactElement> = {
   audit: render(AuditSecurity),
   access: render(AccessControl),
   assistant: render(AssistantSetup),
-  validation: render(ValidationAnalytics, {}, 'stats'),
+  validation: render(ValidationAnalytics),
 }
 
 // Keep mounted routes and preloadable student pages in one registry so a new
@@ -338,6 +326,10 @@ const adminPaths = ['validation', 'academic', 'library', 'questions', 'adaptive'
  * of Study Together to Study Rooms.
  */
 const studentRedirects = [
+  { path: 'plan', element: <RedirectWithSearch to="/app/calendar" /> },
+  { path: 'learn', element: <RedirectWithSearch to="/app/library" /> },
+  { path: 'practice', element: <RedirectWithSearch to="/app/qbank" /> },
+  { path: 'revise', element: <RedirectWithSearch to="/app/study-tools" /> },
   { path: 'study-together', element: <RedirectWithSearch to="/app/study-rooms" /> },
   { path: 'billing', element: <RedirectWithSearch to="/app/account?tab=billing" /> },
   { path: 'question-notes', element: <RedirectWithSearch to="/app/notebook?tab=questions" /> },
@@ -348,7 +340,7 @@ const studentRoutes = [
   ...studentRedirects,
   // Reading a source is its own screen, not a modal over the catalogue: it owns
   // the viewport, and it has to be linkable at a page.
-  { path: 'resources/:id', element: render(ResourceReader, {}, 'split') },
+  { path: 'resources/:id', element: render(ResourceReader) },
 ]
 /**
  * The tab that owns each admin path.
@@ -418,7 +410,7 @@ const adminApp = {
   path: '/admin',
   element: <RequireAuth console><AppShell portal="admin" /></RequireAuth>,
   children: [
-    { index: true, element: <AdminHome /> },
+    { index: true, element: <RouteBoundary><Suspense fallback={<RouteLoading />}><AdminHome /></Suspense></RouteBoundary> },
     // `import/:kind` is the one path whose tab depends on the parameter, so it
     // is guarded by the ledger tab that owns that content kind.
     { path: 'import/:kind', element: <RequireImportKind>{render(BulkImportPage)}</RequireImportKind> },
@@ -486,7 +478,7 @@ export const router = createBrowserRouter([
   { path: '/logout', element: render(Logout) },
   { path: '/validator', element: adminHost
     ? toStudentSite
-    : <RequireAuth validator>{render(ValidatorWorkspace, {}, 'stats')}</RequireAuth> },
+    : <RequireAuth validator>{render(ValidatorWorkspace)}</RequireAuth> },
   // Followed from an inbox, signed out, on either host — never behind auth.
   { path: '/unsubscribe', element: render(Unsubscribe) },
   // A note or a board somebody shared. Deliberately outside `/app`: whoever

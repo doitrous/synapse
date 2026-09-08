@@ -1,7 +1,8 @@
 import { BookOpen, CircleAlert, WifiOff } from 'lucide-react'
 import { EmptyState } from './EmptyState'
 import { Button } from './Button'
-import { NishanyLoader } from './NishanyLoader'
+import type { ReactNode } from 'react'
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { useT } from '@/lib/i18n'
 import { useOnlineStatus } from '@/lib/useOnlineStatus'
 import type { CatalogueAvailability } from '@/lib/catalogueAvailability'
@@ -23,7 +24,9 @@ import type { StateErrorKind } from '@/lib/apiErrors'
 export function CatalogueUnavailable({
   availability,
   empty,
+  skeleton,
 }: {
+  skeleton?: ReactNode
   availability: CatalogueAvailability
   empty: { title: string; description: string }
 }) {
@@ -31,15 +34,7 @@ export function CatalogueUnavailable({
   const online = useOnlineStatus()
 
   if (availability.kind === 'loading') {
-    // An EmptyState here claimed the catalogue *was* empty for the second or
-    // two before it arrived — icon, title and all. The loader says the one
-    // thing that is true at that moment and nothing more.
-    return (
-      <div className="grid min-h-52 place-items-center gap-3 py-10 text-center">
-        <NishanyLoader size={44} label={t('Loading…')} />
-        <p className="text-[13px] text-ink-2">{t('Fetching the reviewed catalogue.')}</p>
-      </div>
-    )
+    return skeleton ?? <LoadingRegion label={t('Loading…')}><SkeletonRows rows={6} /></LoadingRegion>
   }
 
   if (availability.kind === 'error') {

@@ -6,7 +6,7 @@ import { resolveMediaSource } from '@/lib/mediaStorage'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { IconButton } from '@/components/ui/IconButton'
-import { NishanyLoader } from '@/components/ui/NishanyLoader'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { Badge } from '@/components/ui/Badge'
 import { Toggle } from '@/components/ui/Toggle'
 import { Panel } from '@/components/ui/Panel'
@@ -603,7 +603,7 @@ export function SlideViewer({
               <div className="pointer-events-none absolute bottom-3 start-3 z-20 hidden items-center gap-2 rounded-md border border-white/10 bg-black/60 px-2 py-1 text-[10.5px] text-white/60 sm:flex" aria-hidden>
                 <span>{t('Drag to pan')}</span><span className="text-white/25">·</span><span>{t('Scroll to zoom')}</span>
               </div>
-        {imageLoading && <span className="absolute inset-0 grid place-items-center px-8 text-center"><NishanyLoader size={40} label={t('Loading')} /></span>}
+        {imageLoading && <span className="absolute inset-0 grid place-items-center px-8 text-center"><Skeleton className="h-full w-full" /></span>}
         {!imageLoading && imageError && (
           <p role="alert" className="absolute inset-0 grid place-items-center px-8 text-center text-[12px] text-[#ffb4b9]">
             {imageError}

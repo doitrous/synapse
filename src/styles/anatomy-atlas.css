@@ -14,15 +14,34 @@
 }
 
 .anatomy-atlas-shell {
+  --atlas-background: #f2f3f3;
+  --atlas-stage-environment: 1;
+  --atlas-ground: #d5d9dc;
+  --atlas-platform: #eeeeec;
+  --atlas-ring: #8c969f;
+  --atlas-inner-ring: #a4aeb8;
+  --atlas-marker: #64748b;
   position: relative;
   min-height: 680px;
   height: calc(100dvh - 122px);
   overflow: hidden;
   border: 1px solid var(--color-line);
   border-radius: 12px;
-  background: #f2f3f3;
+  background: var(--atlas-background);
   box-shadow: var(--shadow-panel);
   isolation: isolate;
+}
+
+/* Only the stage follows the theme; anatomical materials and lighting stay fixed. */
+:root[data-theme='dark'] .anatomy-atlas-shell,
+:root[data-theme='oled'] .anatomy-atlas-shell {
+  --atlas-background: var(--color-inset);
+  --atlas-stage-environment: 0;
+  --atlas-ground: var(--color-inset);
+  --atlas-platform: var(--color-surface);
+  --atlas-ring: var(--color-ink-3);
+  --atlas-inner-ring: var(--color-ink-3);
+  --atlas-marker: var(--color-ink-2);
 }
 
 .anatomy-atlas-scene,
@@ -236,7 +255,7 @@
   max-width: calc(100% - 24px);
   transform: translateX(-50%);
   font-size: 10.5px;
-  color: #637078;
+  color: var(--color-ink-2);
 }
 
 .anatomy-atlas-scene .part-hover {

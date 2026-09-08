@@ -1,3 +1,5 @@
+import { PageSkeleton } from '@/components/loading/PageSkeleton'
+import { LoadingError } from '@/components/loading/LoadingError'
 import { useNavigate } from 'react-router-dom'
 import { HubStat } from '@/components/hub'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -18,8 +20,11 @@ import { useT } from '@/lib/i18n'
 export function Skills() {
   const t = useT()
   const navigate = useNavigate()
-  const { progress } = usePracticalProgress()
+  const { progress, loading, status } = usePracticalProgress()
   const summary = summariseSkills(progress, skills.length)
+
+  if (status.error) return <PageContainer><LoadingError /></PageContainer>
+  if (loading) return <PageSkeleton layout={{ shape: 'skills' }} />
 
   return (
     <PageContainer>

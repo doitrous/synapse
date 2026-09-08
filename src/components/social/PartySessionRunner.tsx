@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useMemo, useState } from 'react'
 import { Users, Hash, Trophy, Eye, Check, Clock } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -181,7 +182,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
   }
 
   if (!session) {
-    return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the session…')}</Panel>
+    return <ContentSkeleton shape="question" />
   }
 
   const roster = (
@@ -314,7 +315,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
   }
 
   if (!current) {
-    return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the session…')}</Panel>
+    return <ContentSkeleton shape="question" />
   }
 
   if (current.kind === 'question') {

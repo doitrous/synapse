@@ -1,3 +1,4 @@
+import { initialLoadState } from './loadingState'
 import { useCallback, useMemo, useRef } from 'react'
 import { usePersistentState } from './usePersistentState'
 import {
@@ -81,6 +82,7 @@ export interface DeckView {
 
 export interface FlashcardsApi {
   ready: boolean
+  error?: import('./apiErrors').StateErrorKind | null
   collection: FlashcardCollection
   reviewEvents: ReviewEvent[]
   decks: DeckView[]
@@ -129,17 +131,15 @@ export interface FlashcardsApi {
 
 export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi {
   const bootNow = useRef(new Date()).current
-  const [storedV2, setStoredV2] = usePersistentState<FlashcardCollection | null>(COLLECTION_KEY, null)
-  const [legacyV1] = usePersistentState<StoredDecksV1>(LEGACY_DECKS_KEY, {})
-  const [reviewEvents, setReviewEvents] = usePersistentState<ReviewEvent[]>(REVIEW_LOG_KEY, [])
+  const [storedV2, setStoredV2, collectionStatus] = usePersistentState<FlashcardCollection | null>(COLLECTION_KEY, null)
+  const [legacyV1, , legacyStatus] = usePersistentState<StoredDecksV1>(LEGACY_DECKS_KEY, {})
+  const [reviewEvents, setReviewEvents, reviewStatus] = usePersistentState<ReviewEvent[]>(REVIEW_LOG_KEY, [])
 
   // Until something is written to v2, the working collection is the migrated
   // view of the v1 store, computed once so unseen cards keep a stable due time.
-  const migratedRef = useRef<FlashcardCollection | null>(null)
   const collection = useMemo<FlashcardCollection>(() => {
     if (storedV2) return storedV2
-    if (!migratedRef.current) migratedRef.current = ensureV2(legacyV1, bootNow)
-    return migratedRef.current
+    return ensureV2(legacyV1, bootNow)
   }, [storedV2, legacyV1, bootNow])
 
   const commit = useCallback(
@@ -547,8 +547,10 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
 
   const allNotes = useMemo(() => Object.values(notes), [notes])
 
+  const load = initialLoadState(collectionStatus, reviewStatus, ...(storedV2 ? [] : [legacyStatus]))
   return {
-    ready: true,
+    ready: !load.loading && !load.error,
+    error: load.error,
     collection,
     reviewEvents,
     decks,

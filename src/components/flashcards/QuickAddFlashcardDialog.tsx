@@ -1,3 +1,5 @@
+import { LoadingRegion } from '@/components/loading/SkeletonParts'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { useMemo, useRef, useState } from 'react'
 import { Layers, CheckCircle2 } from 'lucide-react'
 import { Dialog } from '@/components/ui/Dialog'
@@ -146,7 +148,7 @@ export function QuickAddFlashcardDialog({
           )}
           <div className="flex items-center gap-3 border-t border-line pt-4">
             <Button variant="primary" iconLeft={Layers} onClick={save} disabled={!canSave}>{t('Create flashcard')}</Button>
-            {!status.hydrated && <span className="text-[12px] text-ink-3" role="status">{t('Loading your decks…')}</span>}
+            {!status.hydrated && <LoadingRegion label={t('Loading your decks…')}><Skeleton className="h-4 w-24" /></LoadingRegion>}
             <Button variant="ghost" className="ms-auto" onClick={onClose}>{t('Cancel')}</Button>
           </div>
         </div>

@@ -1,8 +1,7 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { FolderPlus, ListChecks } from 'lucide-react'
+import { useEffect, useMemo, useState, type ReactNode } from 'react'
+import { Eye, EyeOff, FolderPlus, ListChecks } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
-import { Toggle } from '@/components/ui/Toggle'
 import { TextInput } from '@/components/ui/Field'
 import { DEFAULT_GROUP_ID, isoDay, openTasks } from '@/data/tasks'
 import { useT } from '@/lib/i18n'
@@ -40,20 +39,18 @@ export function TaskList({
   const api = useTasks()
   const { doc } = api
   const [groupId, setGroupId] = useState(DEFAULT_GROUP_ID)
-  const [showCompleted, setShowCompleted] = useState(false)
+  // Hide only the completions the student explicitly dismissed. A task checked
+  // afterward stays visible, including when the last subtask completes it.
+  const [hiddenCompletions, setHiddenCompletions] = useState<Record<string, string>>({})
   const [addingGroup, setAddingGroup] = useState(false)
   const [groupDraft, setGroupDraft] = useState('')
   const [flash, setFlash] = useState<string | null>(null)
   const today = isoDay(new Date())
-  // Read through a ref so the flash runs once per highlight request, not on
-  // every later edit to the list.
-  const tasksRef = useRef(doc.tasks)
-  tasksRef.current = doc.tasks
 
   useEffect(() => {
     if (!highlightedId) return
     setFlash(highlightedId)
-    if (tasksRef.current.find((task) => task.id === highlightedId)?.done) setShowCompleted(true)
+    setHiddenCompletions((current) => { const next = { ...current }; delete next[highlightedId]; return next })
     const timer = window.setTimeout(() => setFlash(null), 1600)
     return () => window.clearTimeout(timer)
   }, [highlightedId])
@@ -73,8 +70,11 @@ export function TaskList({
     return map
   }, [doc])
   const open = openTasks(doc).length
+  const completed = doc.tasks.filter((task) => task.done)
+  const visibleCompleted = completed.filter((task) => hiddenCompletions[task.id] !== task.updatedAt).length
 
   function submitGroup() {
+    if (!groupDraft.trim()) return
     const id = api.addGroup(groupDraft)
     if (id) setGroupId(id)
     setGroupDraft('')
@@ -86,11 +86,10 @@ export function TaskList({
       <PanelHeader
         title={t('Tasks')}
         icon={ListChecks}
-        hint={open ? `${open} ${open === 1 ? t('open') : t('open')}` : t('all clear')}
-        action={<Button variant="ghost" size="sm" iconLeft={FolderPlus} onClick={() => setAddingGroup(true)}>{t('Group')}</Button>}
+        hint={open ? `${open} ${t('open')}` : t('all clear')}
+        action={<Button variant="ghost" size="sm" iconLeft={FolderPlus} onClick={() => setAddingGroup(true)}>{t('New group')}</Button>}
       />
-      {prelude}
-      <div className="space-y-3 p-3">
+      <div className="space-y-4 p-3 sm:p-4">
         <TaskComposer groups={doc.groups} groupId={groupId} onGroupChange={setGroupId} selectedDay={selectedDay} onAdd={(task) => { api.addTask(task); onAdded?.() }} />
         {addingGroup && (
           <div className="flex items-center gap-2">
@@ -104,7 +103,7 @@ export function TaskList({
               }}
               placeholder={t('New group name')}
               aria-label={t('New group name')}
-              className="flex-1"
+              className="min-w-0 flex-1"
             />
             <Button variant="secondary" size="sm" onClick={submitGroup} disabled={!groupDraft.trim()}>{t('Add')}</Button>
             <Button variant="ghost" size="sm" onClick={() => { setAddingGroup(false); setGroupDraft('') }}>{t('Cancel')}</Button>
@@ -118,19 +117,29 @@ export function TaskList({
               tasks={byGroup.get(group.id) ?? []}
               api={api}
               today={today}
-              showCompleted={showCompleted}
+              hiddenCompletions={hiddenCompletions}
               highlightedId={flash}
               onRename={(title) => api.renameGroup(group.id, title)}
             />
           ))}
         </div>
-        {doc.tasks.some((task) => task.done) && (
-          <label className="flex cursor-pointer items-center justify-between gap-2 border-t border-line pt-3 text-[12.5px] text-ink-2">
-            {t('Show completed')}
-            <Toggle checked={showCompleted} onChange={setShowCompleted} label={t('Show completed')} />
-          </label>
+        {completed.length > 0 && (
+          <div className="flex flex-wrap items-center justify-between gap-2 border-t border-line pt-3">
+            <span className="text-[12px] text-ink-2" role="status">{completed.length} {t('completed')}</span>
+            <Button
+              variant="ghost"
+              size="sm"
+              iconLeft={visibleCompleted ? EyeOff : Eye}
+              onClick={() => setHiddenCompletions(visibleCompleted
+                ? Object.fromEntries(completed.map((task) => [task.id, task.updatedAt]))
+                : {})}
+            >
+              {visibleCompleted ? t('Hide completed') : t('Show completed')}
+            </Button>
+          </div>
         )}
       </div>
+      {prelude && <div className="overflow-hidden rounded-b-xl border-t border-line">{prelude}</div>}
     </Panel>
   )
 }

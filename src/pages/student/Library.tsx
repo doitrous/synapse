@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useSearchParams, useLocation } from 'react-router-dom'
 import {
@@ -1290,7 +1291,7 @@ export function Library() {
 
       <div className="min-h-0 flex-1">
         {availability.kind !== 'ready' && !userArticles.length ? (
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="reader" />}
             availability={availability}
             empty={{
               title: t('No articles have been published yet'),

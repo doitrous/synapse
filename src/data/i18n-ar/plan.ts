@@ -26,6 +26,14 @@ export const AR_PLAN: Record<string, string> = {
   'Sessions': 'جلسات',
 
   // task list
+  'New group': 'مجموعة جديدة',
+  'Hide completed': 'إخفاء المنجزة',
+  'completed': 'منجزة',
+  'Completed': 'منجزة',
+  'Task date': 'تاريخ المهمة',
+  'Edit task': 'تعديل المهمة',
+  'Subtasks': 'المهام الفرعية',
+  'subtasks': 'مهام فرعية',
   'Tasks': 'المهام',
   'open': 'مفتوحة',
   'all clear': 'لا شيء متبقٍ',

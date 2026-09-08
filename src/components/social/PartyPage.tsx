@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Users, Hash, Copy, Check, ArrowLeft, Play, Clock, Trophy, CalendarPlus, Gamepad2 } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -196,7 +197,7 @@ export function PartyPage({
   }
 
   if (!party) {
-    return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the party…')}</Panel>
+    return <ContentSkeleton shape="rooms" />
   }
 
   // The code is the whole mechanism — carrying it as a query param just saves

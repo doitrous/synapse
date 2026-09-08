@@ -1,3 +1,4 @@
+import { useInitialRead } from '@/lib/initialReadContext'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { BarChart3, CheckCircle2, ClipboardCheck, Clock3, Flag, RefreshCw, ShieldCheck, Users } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -35,6 +36,7 @@ export function ValidationAnalytics() {
   const [analytics, setAnalytics] = useState<ValidationAnalyticsData | null>(null)
   const [setup, setSetup] = useState<ValidationSetup>({ validators: [], batches: [] })
   const [loading, setLoading] = useState(true)
+  useInitialRead({ hydrated: !loading, error: null })
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const [notice, setNotice] = useState('')

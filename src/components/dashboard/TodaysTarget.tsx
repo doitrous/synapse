@@ -1,3 +1,5 @@
+import { DayStripSkeleton } from '@/components/loading/DashboardSkeletons'
+import { LoadingError } from '@/components/loading/LoadingError'
 import { useMemo, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { CalendarDays } from 'lucide-react'
@@ -12,7 +14,7 @@ import { useIdentity } from '@/lib/useIdentity'
 import { useUpcoming } from '@/lib/useUpcoming'
 import { itemsOn } from '@/lib/upcoming'
 import { useQotd } from '@/lib/useQotd'
-import { useNextExam } from '@/lib/useExamProgramme'
+import { useNextExamState } from '@/lib/useExamProgramme'
 import { cn } from '@/lib/cn'
 
 function greetingKey(): string {
@@ -107,26 +109,27 @@ function Fact({
 export function TodaysTarget() {
   const { t, lang } = useI18n()
   const { displayName, audience } = useIdentity()
-  const { items } = useUpcoming()
+  const { items, loading: scheduleLoading, error: scheduleError } = useUpcoming()
   const qotd = useQotd()
   const due = useDueReviewSummary()
-  const nextExam = useNextExam()
+  const { nextExam, loading: examLoading, error: examError } = useNextExamState()
 
   const now = new Date()
   const today = itemsOn(items, now)
   const personal = today.filter((item) => item.source === 'personal')
   const donePersonal = personal.filter((item) => item.done).length
 
+  const { current: streakCount, history: streakHistory, date: streakDate } = qotd
   const streakDays = useMemo<DayStatus[]>(() => {
-    if (!qotd.current) return []
-    const landed = new Set(qotd.history)
+    if (!streakCount) return []
+    const landed = new Set(streakHistory)
     const days: DayStatus[] = []
     for (let offset = 6; offset >= 0; offset--) {
       if (offset === 0) { days.push('today'); continue }
-      days.push(landed.has(shiftDate(qotd.date, -offset)) ? 'landed' : 'missed')
+      days.push(landed.has(shiftDate(streakDate, -offset)) ? 'landed' : 'missed')
     }
     return days
-  }, [qotd.current, qotd.history, qotd.date])
+  }, [streakCount, streakHistory, streakDate])
 
   // The exam fact prefers the programme's own figures and falls back to the
   // block itself, because a paper too far out to have opened a plan is still a
@@ -142,6 +145,9 @@ export function TodaysTarget() {
       exam = { daysAway: away, label: when ? `${title} · ${when}` : title }
     }
   }
+
+  if (scheduleError || examError || due.error) return <div className="w-full max-w-[60rem]"><LoadingError /></div>
+  if (scheduleLoading || examLoading || qotd.loading || due.loading) return <DayStripSkeleton />
 
   const facts: ReactNode[] = [
     <Fact

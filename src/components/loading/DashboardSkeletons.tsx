@@ -1,0 +1,21 @@
+import { Skeleton } from '@/components/ui/Skeleton'
+import { LoadingRegion, SkeletonPanel } from './SkeletonParts'
+
+export function DayStripSkeleton() {
+  return <LoadingRegion name="dashboard-day" className="w-full max-w-[60rem]"><SkeletonPanel title={false} className="flex flex-col gap-3.5 px-4 py-4 sm:flex-row sm:items-center sm:gap-7 sm:px-6 sm:py-[18px]"><div className="min-w-0 flex-1 space-y-2"><Skeleton className="h-6 w-56 max-w-full" /><Skeleton className="h-3 w-44 max-w-full" /></div><div className="grid grid-cols-2 gap-2 sm:flex sm:gap-6">{[0, 1, 2].map(i => <div key={i} className="space-y-2 p-2 sm:w-24"><Skeleton className="h-5 w-12" /><Skeleton className="h-3 w-20" /></div>)}</div></SkeletonPanel></LoadingRegion>
+}
+export function NextStepSkeleton() {
+  return <LoadingRegion name="dashboard-next-step"><SkeletonPanel title={false} className="flex flex-col items-center gap-6 rounded-2xl p-6 sm:flex-row sm:gap-9 sm:p-8"><div className="flex shrink-0 flex-col items-center gap-2"><Skeleton className="h-9 w-36" /><Skeleton className="h-3 w-24" /></div><div className="flex w-full min-w-0 flex-1 flex-col items-center sm:items-start"><Skeleton className="h-7 w-28 rounded-full" /><Skeleton className="mt-3 h-7 w-full" /><Skeleton className="mt-2 h-6 w-3/4" /><Skeleton className="mt-3 h-3 w-20" /><Skeleton className="mt-4 h-11 w-32 sm:h-9" /></div></SkeletonPanel><div className="mt-3 flex items-center gap-3"><Skeleton className="h-3 w-7 shrink-0" /><Skeleton className="h-11 min-w-0 flex-1 sm:h-10" /><Skeleton className="h-11 min-w-0 flex-1 sm:h-10" /></div></LoadingRegion>
+}
+export function TutorialCardSkeleton() {
+  return <LoadingRegion name="dashboard-tutorial" className="h-full"><SkeletonPanel title={false} className="flex h-full flex-col rounded-2xl p-5"><Skeleton className="size-10" /><Skeleton className="mt-3 h-5 w-4/5" /><Skeleton className="mt-3 h-3 w-full" /><Skeleton className="mt-2 h-3 w-3/4" /><div className="mt-4 lg:mt-auto lg:pt-4"><Skeleton className="h-11 w-full" /></div></SkeletonPanel></LoadingRegion>
+}
+export function ProgressSkeleton() {
+  return <LoadingRegion name="dashboard-progress"><SkeletonPanel title={false} className="p-4"><div className="flex flex-wrap items-center gap-x-6 gap-y-3"><div className="relative grid size-[148px] shrink-0 place-items-center" aria-hidden>{[124, 94, 64].map(size => <div key={size} className="absolute animate-pulse rounded-full border-[9px] border-ink/10" style={{ width: size, height: size }} />)}</div><div className="min-w-0 flex-1 basis-52 divide-y divide-line">{[0, 1, 2].map(i => <div key={i} className="flex items-center gap-3 py-3"><Skeleton className="size-2.5 shrink-0 rounded-full" /><Skeleton className="h-3.5 min-w-0 flex-1" /><Skeleton className="h-3 w-16" /><Skeleton className="h-4 w-10" /></div>)}</div></div></SkeletonPanel></LoadingRegion>
+}
+export function HeatmapSkeleton() {
+  return <LoadingRegion name="dashboard-rhythm"><SkeletonPanel><div className="p-4 sm:p-5"><div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_15rem]"><div className="min-w-0"><div className="overflow-hidden"><div className="mx-auto flex w-max gap-[3px]">{Array.from({ length: 18 }, (_, col) => <div key={col} className="flex flex-col gap-[3px]">{Array.from({ length: 7 }, (_, row) => <Skeleton key={row} className="size-[13px] rounded-[3px]" />)}</div>)}</div></div><div className="mt-4 flex gap-4"><Skeleton className="h-3 flex-1" /><Skeleton className="h-3 w-24" /></div></div></div><div className="mt-4 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-3 lg:grid-cols-5">{[0, 1, 2, 3, 4].map(i => <div key={i} className="space-y-2 bg-surface px-3 py-2.5"><Skeleton className="h-3 w-20 max-w-full" /><Skeleton className="h-4 w-10" /><Skeleton className="h-2.5 w-full" /></div>)}<div className="bg-surface lg:hidden" /></div></div></SkeletonPanel></LoadingRegion>
+}
+export function DashboardSkeleton() {
+  return <div className="flex flex-col items-center gap-6 py-4 sm:py-8"><DayStripSkeleton /><div className="grid w-full max-w-[60rem] min-w-0 gap-4 lg:grid-cols-[minmax(0,1fr)_17rem]"><NextStepSkeleton /><TutorialCardSkeleton /></div><div className="w-full max-w-[60rem]"><ProgressSkeleton /></div><div className="w-full max-w-[60rem]"><HeatmapSkeleton /></div></div>
+}

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, type RefObject } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, Bell, CalendarClock, BookOpen, BellRing, X, ArrowRight, Maximize, Minimize } from 'lucide-react'
+import { Menu, Bell, CalendarClock, BookOpen, BellRing, X, ArrowRight, Calendar } from 'lucide-react'
 import type { Portal } from './nav'
 import { titleForPath } from './nav'
 import { Icon } from '@/components/ui/Icon'
@@ -11,7 +11,7 @@ import { useI18n } from '@/lib/i18n'
 import { initialNotificationCampaigns, notificationAllowedByPrefs, notificationIsDue, notificationMatchesStudent, NOTIFICATION_READ_STORAGE_KEY, NOTIFICATION_STORAGE_KEY, type NotificationCampaign } from '@/data/notifications'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
-import { useFullscreen } from '@/lib/useFullscreen'
+import { useQotd } from '@/lib/useQotd'
 import { hasConsoleAccess } from '@/data/adminRoles'
 import { API_MODE, apiGet, apiPost } from '@/lib/api'
 
@@ -33,10 +33,10 @@ export function Topbar({
   onOpenMobile: () => void
   onOpenSearch: () => void
 }) {
+  const qotd = useQotd(portal === 'student')
   const { pathname } = useLocation()
   const { t } = useI18n()
   const { audience, role, tabs } = useIdentity()
-  const { isFullscreen, toggle: toggleFullscreen } = useFullscreen()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
   const [sharedNotifications, setSharedNotifications] = useState<NotificationCampaign[]>([])
@@ -79,7 +79,7 @@ export function Topbar({
   function markRead(ids: string[]) {
     const unique = [...new Set(ids)]
     setReadIds((current) => [...new Set([...current, ...unique])])
-    const serverIds = unique.filter((id) => sharedNotifications.some((notification) => notification.id === id))
+    const serverIds = unique.filter((id) => !id.startsWith('room-invite-') && sharedNotifications.some((notification) => notification.id === id))
     if (serverIds.length) void apiPost('/notifications/shared/read', { ids: serverIds }).catch(() => undefined)
   }
 
@@ -126,35 +126,28 @@ export function Topbar({
         <span className="truncate text-[14px] font-semibold text-ink">{t(title)}</span>
       </nav>
 
-      <div className="ms-auto flex shrink-0 items-center gap-2">
-        {/* Pomodoro · Focus audio · Tools. Search is the Tools menu's first row
-            now: the bar was giving width to a box nobody typed into — the
-            palette it opens is the field — and the two study tools earn the
-            permanent slots instead, because a countdown behind a menu is a
-            countdown you cannot see. ⌘K still works from anywhere. */}
-        {/* Fullscreen rides inside the tools cluster, just before the dropdown:
-            one press, no menu, and the icon says which way it will go. Not on
-            phones — the bar is full there and iOS ignores the fullscreen API. */}
+      <div className="ms-auto flex shrink-0 items-center gap-0.5 sm:gap-2">
+        {/* Keep the timer and audio first, then the daily question and Tools. */}
         <TopbarTools
           portal={portal}
           focusMode={focusMode}
           onToggleFocusMode={onToggleFocusMode}
           onOpenSearch={onOpenSearch}
-          beforeMenu={(
-            <div className="hidden sm:block">
-            <button
-              type="button"
-              className={iconBtn}
-              onClick={toggleFullscreen}
-              aria-label={isFullscreen ? t('Exit fullscreen') : t('Fullscreen')}
-              aria-pressed={isFullscreen}
-            >
-              <Icon icon={isFullscreen ? Minimize : Maximize} size={18} />
-            </button>
-            </div>
-          )}
+          beforeMenu={portal === 'student' ? (
+          <Link
+            to="/app/qotd"
+            aria-label={t('Question of the Day')}
+            title={t('Question of the Day')}
+            className={cn(iconBtn, 'relative text-primary-strong')}
+          >
+            <span className="relative size-5" aria-hidden="true">
+              <Icon icon={Calendar} size={20} />
+              <span className="absolute start-1/2 top-[6px] -translate-x-1/2 text-[10px] font-bold leading-3">?</span>
+            </span>
+            {!qotd.loading && !qotd.answered && <span className="absolute end-2 top-2 size-1.5 rounded-full bg-primary ring-2 ring-paper" aria-hidden="true" />}
+          </Link>
+          ) : undefined}
         />
-
 
         <div className="relative" ref={popoverRef}>
             <button

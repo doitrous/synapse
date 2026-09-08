@@ -16,7 +16,7 @@ interface Cmd {
   group: string
 }
 
-const STUDENT_COMMANDS: Cmd[] = studentNav.flatMap((g) => g.items.map((i) => ({ ...i, group: 'Student app' })))
+const STUDENT_COMMANDS: Cmd[] = studentNav.flatMap((g) => g.items.filter((i) => !i.comingSoon).map((i) => ({ ...i, group: 'Student app' })))
 
 /**
  * Paths that only exist to bounce somewhere else. They carry a `ROUTE_TITLES`
@@ -24,7 +24,7 @@ const STUDENT_COMMANDS: Cmd[] = studentNav.flatMap((g) => g.items.map((i) => ({ 
  * lands, but offering one in the palette is offering a row that navigates
  * twice and ends up somewhere the row did not name.
  */
-const REDIRECT_ONLY = new Set(['/app/study-together', '/app/billing', '/app/question-notes'])
+const REDIRECT_ONLY = new Set(['/app/study-together', '/app/billing', '/app/question-notes', '/app/plan', '/app/learn', '/app/practice', '/app/revise'])
 
 /**
  * The pages the sidebar stopped listing.

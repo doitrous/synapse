@@ -1,3 +1,4 @@
+import { AtlasSkeleton } from '@/components/loading/PageSkeleton'
 import { useEffect, useMemo, useState } from 'react'
 import {
   ArrowLeft,
@@ -162,7 +163,7 @@ export function AnatomyAtlas() {
     <div className="anatomy-atlas-page">
       <header className="anatomy-atlas-page-header">
         <div className="flex min-w-0 items-center gap-3">
-          <ButtonLink to="/app/learn" size="sm" variant="ghost" iconLeft={ArrowLeft}>Learn</ButtonLink>
+          <ButtonLink to="/app/study-tools" size="sm" variant="ghost" iconLeft={ArrowLeft}>Tools</ButtonLink>
           <span className="h-6 w-px bg-line" aria-hidden />
           <div className="flex min-w-0 items-baseline gap-2">
             <h1 className="truncate font-serif text-[22px] font-semibold tracking-[-0.02em] text-ink sm:text-[25px]">Anatomy Atlas</h1>
@@ -300,6 +301,7 @@ export function AnatomyAtlas() {
           <button type="button" title="Reset atlas" aria-label="Reset atlas" onClick={reset} className="anatomy-atlas-view-button"><Icon icon={RotateCcw} size={15} /></button>
         </div>
 
+        {progress < 100 && !error && <AtlasSkeleton stageOnly />}
         {progress < 100 && !error && (
           <div className="anatomy-atlas-loading" role="status">
             <div className="flex items-center justify-between gap-4"><span className="text-[12.5px] font-semibold text-ink">Preparing the {atlasConfig.label.toLowerCase()} anatomy</span><span className="font-mono text-[11px] text-ink-3">{progress}%</span></div>

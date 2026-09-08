@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useCallback, useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { BookA, Languages, Layers } from 'lucide-react'
@@ -140,7 +141,7 @@ export function MedicalTerminology() {
 
       {availability.kind !== 'ready' ? (
         <Panel className="p-10">
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="terminology" />}
             availability={availability}
             empty={{
               title: t('The glossary has not been published yet.'),

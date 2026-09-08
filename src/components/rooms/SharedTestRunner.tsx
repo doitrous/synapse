@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { ArrowLeft, ArrowRight, Check, Copy, Eye, Hash, Play, Trophy, Users } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -58,7 +59,7 @@ export function SharedTestRunner({ roomId, onExit }: { roomId: string; onExit: (
   useEffect(() => { questionShownAt.current = Date.now() }, [currentId])
 
   if (!room) {
-    return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the shared test…')}</Panel>
+    return <ContentSkeleton shape="question" />
   }
 
   const roster = (

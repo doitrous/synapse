@@ -1,3 +1,7 @@
+import { Skeleton } from '@/components/ui/Skeleton'
+import { PageSkeleton } from '@/components/loading/PageSkeleton'
+import { LoadingError } from '@/components/loading/LoadingError'
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
@@ -79,8 +83,8 @@ export function Whiteboard() {
   const minimapRef = useRef<HTMLDivElement>(null)
   // The board starts at its own corner: there is nothing before (0, 0) to show.
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 })
-  const [legacyBoard] = usePersistentState<BoardState>(LEGACY_WHITEBOARD_KEY, INITIAL_BOARD)
-  const [collection, setCollection] = usePersistentState<WhiteboardCollection>(
+  const [legacyBoard, , legacyStatus] = usePersistentState<BoardState>(LEGACY_WHITEBOARD_KEY, INITIAL_BOARD)
+  const [collection, setCollection, collectionStatus] = usePersistentState<WhiteboardCollection>(
     WHITEBOARD_COLLECTION_KEY,
     () => emptyWhiteboardCollection(identity.userId ?? 'local-student', identity.displayName, identity.audience.universityId, identity.audience.year),
   )
@@ -153,14 +157,14 @@ export function Whiteboard() {
   boardRef.current = board
 
   useEffect(() => {
-    if (identity.loading) return
+    if (identity.loading || !legacyStatus.hydrated || !collectionStatus.hydrated || legacyStatus.error || collectionStatus.error) return
     setCollection((current) => migrateSingleBoardToCollection(legacyBoard, current, {
       ownerId: identity.userId ?? 'local-student',
       ownerName: identity.displayName,
       universityId: identity.audience.universityId,
       year: identity.audience.year,
     }))
-  }, [identity.audience.universityId, identity.audience.year, identity.displayName, identity.loading, identity.userId, legacyBoard, setCollection])
+  }, [identity.audience.universityId, identity.audience.year, identity.displayName, identity.loading, identity.userId, legacyBoard, setCollection, legacyStatus.hydrated, legacyStatus.error, collectionStatus.hydrated, collectionStatus.error])
 
   // Connected accounts lazily move legacy inline/IndexedDB pictures into the
   // same managed asset ledger as new board uploads. Placement is untouched.
@@ -904,7 +908,7 @@ export function Whiteboard() {
     })
     observer.observe(node)
     return () => observer.disconnect()
-  }, [])
+  }, [legacyStatus.hydrated, collectionStatus.hydrated, legacyStatus.error, collectionStatus.error])
 
   const byId = (id: string) => board.notes.find((note) => note.id === id)
   const documentsById = useMemo(() => new globalThis.Map(documents.items.map((document) => [document.id, document])), [documents.items])
@@ -1019,6 +1023,9 @@ export function Whiteboard() {
       )}
     </svg>
   )
+
+  if (legacyStatus.error || collectionStatus.error) return <div className="p-4"><LoadingError /></div>
+  if (!legacyStatus.hydrated || !collectionStatus.hydrated) return <PageSkeleton layout={{ shape: 'whiteboard' }} />
 
   return <div ref={canvasRef} onPointerDown={backgroundDown} onDoubleClick={backgroundDoubleClick} onWheel={onWheel} className="relative h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] touch-none overflow-hidden bg-paper" style={{ backgroundImage: 'radial-gradient(var(--color-grid-major) 1.2px, transparent 1.2px)', backgroundSize: `${24 * view.scale}px ${24 * view.scale}px`, backgroundPosition: `${view.x}px ${view.y}px` }}>
     <div className="absolute left-0 top-0 origin-top-left" style={{ transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }}>
@@ -1391,7 +1398,7 @@ export function Whiteboard() {
             ) : API_MODE ? (
               <div className="max-h-52 overflow-auto pr-1">
                 {sharedWhiteboards.loading ? (
-                  <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">{t('Opening shared boards…')}</p>
+                  <LoadingRegion label={t('Opening shared boards…')}><SkeletonRows rows={3} /></LoadingRegion>
                 ) : sharedWhiteboards.error ? (
                   <p role="alert" className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-danger">{t(sharedWhiteboards.error)}</p>
                 ) : liveSharedGroups.length === 0 ? (
@@ -1738,7 +1745,7 @@ function BoardImageView({ image, documentRef }: { image: BoardImage; documentRef
     return <p role="alert" className="grid size-full place-items-center p-3 text-center text-[12px] text-danger">{error}</p>
   }
   if (!url) {
-    return <p className="grid size-full place-items-center p-3 text-center text-[12px] text-ink-3">{t('Loading picture…')}</p>
+    return <LoadingRegion className="size-full" label={t('Loading picture…')}><Skeleton className="size-full" /></LoadingRegion>
   }
   return <img src={url} alt={image.alt} draggable={false} className="size-full select-none object-contain" />
 }

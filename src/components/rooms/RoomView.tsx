@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { ArrowLeft, Check, Copy, Hash, Info, Link2 } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -176,7 +177,7 @@ export function RoomView({
   if (!room || !audio) {
     return (
       <Panel className="p-8 text-center">
-        <p className="text-[13.5px] text-ink-2">{t('Loading the room…')}</p>
+        <ContentSkeleton shape="room" />
       </Panel>
     )
   }
@@ -255,7 +256,7 @@ export function RoomView({
       ) : party ? (
         <PartyPage partyId={roomId} party={party} onReload={reload} onExit={onLeave} />
       ) : (
-        <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the room…')}</Panel>
+        <ContentSkeleton shape="room" />
       )}
 
       {customising && (

@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Grid3x3, Copy, Check } from 'lucide-react'
@@ -248,7 +249,7 @@ export function TermGridPage() {
 
       {availability.kind !== 'ready' ? (
         <Panel className="p-8">
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="game-round" />}
             availability={availability}
             empty={{
               title: t('The glossary has not been published yet.'),

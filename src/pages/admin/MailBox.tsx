@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Mail, Inbox, Send, Plus, Paperclip, Download, X, RefreshCw, AtSign, Info, ChevronLeft, Zap } from 'lucide-react'
-import { NishanyLoader } from '@/components/ui/NishanyLoader'
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button, ButtonLink } from '@/components/ui/Button'
@@ -44,7 +44,7 @@ export function MailBox() {
   const [box, setBox] = useState<string>('')
   const [mailboxes, setMailboxes] = useState<Mailbox[]>([])
   const [rows, setRows] = useState<MailRow[]>([])
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(API_MODE)
   const [selected, setSelected] = useState<MailFull | null>(null)
   const [composing, setComposing] = useState(false)
   const [notice, setNotice] = useState<string | null>(null)
@@ -123,7 +123,7 @@ export function MailBox() {
             <Panel className="overflow-hidden">
               <PanelHeader title={folder === 'inbox' ? 'Inbox' : folder === 'outbox' ? 'Outbox' : 'All mail'} icon={folder === 'inbox' ? Inbox : folder === 'outbox' ? Send : Mail} hint={`${rows.length} messages${box ? ` · ${box}` : ''}`} />
               {loading ? (
-                <div className="flex items-center justify-center gap-2 py-16 text-ink-3"><NishanyLoader size={20} label="Loading…" />Loading…</div>
+                <LoadingRegion><SkeletonRows rows={7} /></LoadingRegion>
               ) : rows.length === 0 ? (
                 <div className="px-5 py-16 text-center"><Icon icon={Mail} size={22} className="mx-auto text-ink-3" /><p className="mt-2 text-[13px] font-medium text-ink">No messages</p><p className="mt-1 text-[12px] text-ink-3">Compose one, or wait for inbound mail.</p></div>
               ) : (

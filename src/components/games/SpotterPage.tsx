@@ -1,3 +1,6 @@
+import { LoadingRegion } from '@/components/loading/SkeletonParts'
+import { Skeleton } from '@/components/ui/Skeleton'
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useCallback, useEffect, useMemo, useState, type CSSProperties } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Crosshair, Copy, Check, CheckCircle2, XCircle } from 'lucide-react'
@@ -110,9 +113,7 @@ function SpotterRoundView({
 
       <div className="relative mx-auto w-full max-w-sm overflow-hidden rounded-xl border border-line bg-surface-2">
         {imageLoading && (
-          <p className="grid aspect-square place-items-center px-8 text-center text-[12px] text-ink-3">
-            {t('Loading the slide…')}
-          </p>
+          <LoadingRegion label={t('Loading the slide…')}><Skeleton className="aspect-square w-full" /></LoadingRegion>
         )}
         {!imageLoading && imageError && (
           <p role="alert" className="grid aspect-square place-items-center px-8 text-center text-[12px] text-danger">
@@ -290,7 +291,7 @@ export function SpotterPage() {
 
       {availability.kind === 'loading' || availability.kind === 'error' ? (
         <Panel className="p-8">
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="game-round" />}
             availability={availability}
             empty={{
               title: t('No slides ready for Spotter'),

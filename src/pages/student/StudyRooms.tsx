@@ -132,7 +132,6 @@ export function StudyRooms() {
     <HubPage
       eyebrow="STUDY ROOMS"
       title="Study Rooms"
-      lede="Sit with your cohort. Up to 20 to a room."
       aside={
         <>
           <HubStat label="Seats to a room" value={String(ROOM_CAPACITY)} sub="four rows of five" />

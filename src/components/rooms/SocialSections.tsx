@@ -341,7 +341,7 @@ export function FriendsSection({
     <QuietSection
       title={t('Friends')}
       icon={Users}
-      hint={friends.length ? `${friends.length}` : t('Classmates and challenges')}
+      hint={friends.length ? `${friends.length}` : undefined}
     >
       {!API_MODE ? (
         <DemoFriendsPreview />

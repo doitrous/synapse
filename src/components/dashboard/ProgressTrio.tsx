@@ -1,3 +1,7 @@
+import { LoadingRegion, SkeletonPanel } from '@/components/loading/SkeletonParts'
+import { Skeleton, SkeletonText } from '@/components/ui/Skeleton'
+import { ProgressSkeleton } from '@/components/loading/DashboardSkeletons'
+import { LoadingError } from '@/components/loading/LoadingError'
 import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from 'react'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -138,7 +142,7 @@ function RingStack({ rings, allEarned }: { rings: { value: number; color: string
  */
 export function ProgressRingStack() {
   const t = useT()
-  const { seen, bankTotal, firstAccuracy, practicalTotal, attempted, essayTotal, markedCount } = usePracticeProgress()
+  const { seen, bankTotal, firstAccuracy, practicalTotal, attempted, essayTotal, markedCount, loading, error } = usePracticeProgress()
   const bankPct = bankTotal ? Math.round((Math.min(seen, bankTotal) / bankTotal) * 100) : 0
   const practicalPct = practicalTotal ? Math.round((attempted / practicalTotal) * 100) : 0
   const essayPct = essayTotal ? Math.round((markedCount / essayTotal) * 100) : 0
@@ -174,8 +178,10 @@ export function ProgressRingStack() {
   // Re-subscribes to the ledger entry the counts above are already derived
   // from, just to recover the load status they otherwise drop.
   const availability = useCatalogueAvailability(bankTotal + practicalTotal + essayTotal)
+  if (error) return <LoadingError />
+  if (loading || availability.kind === 'loading') return <ProgressSkeleton />
   if (!shown.length) {
-    if (availability.kind === 'loading' || availability.kind === 'error') {
+    if (availability.kind === 'error') {
       return (
         <Panel className="p-4">
           <CatalogueUnavailable
@@ -270,7 +276,7 @@ function StatBox({
  */
 export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
   const t = useT()
-  const { ledger } = useMastery()
+  const { ledger, loading: masteryLoading, status: masteryStatus } = useMastery()
   const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
 
   const totalConcepts = graph.concepts.length
@@ -286,18 +292,15 @@ export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
   const met = bands.secure + bands.developing + bands.shaky + bands.practised
   const coverage = totalConcepts ? Math.round((met / totalConcepts) * 100) : 0
 
+  if (graphStatus.error || masteryStatus.error) return <LoadingError />
+  if (!graphStatus.hydrated || masteryLoading) return <LoadingRegion><SkeletonPanel title={false} className={compact ? 'space-y-3 p-3' : 'space-y-4 p-4'}><Skeleton className="h-4 w-36" /><Skeleton className="h-8 w-20" /><SkeletonText lines={2} /><Skeleton className="h-2 w-full" /></SkeletonPanel></LoadingRegion>
+
   if (!totalConcepts) {
     return (
       <StatBox
         label={t('Curriculum coverage')}
         value=""
-        sub={
-          !graphStatus.hydrated
-            ? t('Loading…')
-            : graphStatus.error
-              ? t('This could not be loaded. It keeps retrying on its own.')
-              : t('Coverage appears once your curriculum concepts are published.')
-        }
+        sub={t('Coverage appears once your curriculum concepts are published.')}
         compact={compact}
       />
     )

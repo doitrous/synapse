@@ -1,3 +1,4 @@
+import { LoadingRegion, SkeletonFields } from '@/components/loading/SkeletonParts'
 import { useCallback, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ShieldCheck, ShieldOff } from 'lucide-react'
@@ -93,7 +94,7 @@ export function MfaControl() {
 
       {error && <p role="alert" className="mt-2 rounded-md border border-danger/30 bg-danger-tint px-2.5 py-2 text-[11.5px] text-danger">{error}</p>}
 
-      {status.kind === 'loading' && <p className="mt-3 text-[12px] text-ink-3">{t('Checking…')}</p>}
+      {status.kind === 'loading' && <LoadingRegion><SkeletonFields fields={2} /></LoadingRegion>}
 
       {status.kind === 'unavailable' && (
         <p className="mt-3 text-[12px] text-ink-3">{t('Unavailable until this deployment is connected to its account service.')}</p>

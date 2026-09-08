@@ -1,6 +1,6 @@
 import type { LucideIcon } from 'lucide-react'
 import {
-  LayoutDashboard, BookOpen, CalendarRange, Users, UserCog, Layers, Gamepad2, Target, Radar,
+  LayoutDashboard, BookOpen, CalendarRange, Users, UserCog, Layers, Gamepad2, ListChecks, Stethoscope,
 } from 'lucide-react'
 // Relative rather than `@/data/adminTabs`: `nav.test.ts` runs on Node, which
 // has no bundler alias, and the nine destinations are exactly the sort of list
@@ -14,6 +14,9 @@ export interface NavItem {
   to: string
   icon: LucideIcon
   end?: boolean
+  comingSoon?: boolean
+  /** Detail pages that keep this section selected. */
+  activePaths?: string[]
 }
 
 export interface NavGroup {
@@ -21,24 +24,7 @@ export interface NavGroup {
   items: NavItem[]
 }
 
-/**
- * Nine destinations, one unlabelled group.
- *
- * This was twenty-two items under five captions, which is a directory rather
- * than a way of getting anywhere: a student looking for flashcards had to know
- * that "Workspace" is where flashcards live. The four verbs in the middle —
- * Plan, Learn, Practice, Revise — are hub pages that gather what those groups
- * used to list, so the sidebar names what you are trying to do and the hub
- * names the tool. Taking in (Plan, Learn) and giving back (Practice, Revise)
- * sit under separate captions so the two halves of a study day read apart.
- * Nothing was removed; every old route is still reachable from
- * a hub, from a redirect, or from the ⌘K palette, and every one of them keeps a
- * breadcrumb title in `ROUTE_TITLES`.
- *
- * "Revise" rather than "Consolidate": one word every medical student already
- * uses, it names what Notebook, Whiteboard and Flashcards are for, and it
- * translates cleanly (مراجعة).
- */
+/** Direct destinations and grouped tools for the student study workflow. */
 export const studentNav: NavGroup[] = [
   {
     items: [
@@ -48,23 +34,23 @@ export const studentNav: NavGroup[] = [
   {
     label: 'Study',
     items: [
-      { label: 'Plan', to: '/app/plan', icon: CalendarRange },
-      { label: 'Learn', to: '/app/learn', icon: BookOpen },
+      { label: 'Plan', to: '/app/calendar', icon: CalendarRange, activePaths: ['/app/university'] },
+      { label: 'Library', to: '/app/library', icon: BookOpen, comingSoon: true },
+      { label: 'Tools', to: '/app/study-tools', icon: Layers, activePaths: ['/app/resources', '/app/terminology', '/app/taxonomy', '/app/anatomy-atlas', '/app/notebook', '/app/whiteboard', '/app/flashcards'] },
     ],
   },
   {
     label: 'Test yourself',
     items: [
-      { label: 'Practice', to: '/app/practice', icon: Target },
-      { label: 'Adaptive Study', to: '/app/adaptive', icon: Radar },
-      { label: 'Revise', to: '/app/revise', icon: Layers },
+      { label: 'Bank', to: '/app/qbank', icon: ListChecks },
+      { label: 'Practice', to: '/app/clinical-practice', icon: Stethoscope, activePaths: ['/app/performance', '/app/oral', '/app/skills', '/app/adaptive', '/app/histology', '/app/practical', '/app/essays'] },
     ],
   },
   {
     label: 'Together',
     items: [
-      { label: 'Minigames', to: '/app/minigames', icon: Gamepad2 },
       { label: 'Study Rooms', to: '/app/study-rooms', icon: Users },
+      { label: 'Minigames', to: '/app/minigames', icon: Gamepad2 },
     ],
   },
   {
@@ -86,26 +72,28 @@ export const studentNav: NavGroup[] = [
 export const ROUTE_TITLES: Record<string, string> = {
   // Reached from the dashboard, not the sidebar
   '/app/tutorial': 'Tutorial',
+  '/app/plan': 'Plan',
+  '/app/learn': 'Library',
+  '/app/practice': 'Bank',
+  '/app/revise': 'Tools',
+  '/app/adaptive': 'Adaptive Study',
   // Plan
-  '/app/calendar': 'Calendar',
   '/app/university': 'University',
   '/app/performance': 'Performance',
   // Learn
-  '/app/library': 'Library',
+  '/app/anatomy-atlas': 'Anatomy Atlas',
   '/app/terminology': 'Medical Terminology',
   // The old route keeps the old name: a bookmark that says "Medical Taxonomy"
   // should not silently become a different page's title.
   '/app/taxonomy': 'Medical Terminology',
   '/app/resources': 'Resources',
-  '/app/anatomy-atlas': 'Anatomy Atlas',
   // Practice
-  '/app/qbank': 'Question Bank',
   '/app/qotd': 'Question of the Day',
   '/app/practical': 'Practical',
   // Off Practical's tab strip and onto the Practice hub in their own right.
   '/app/oral': 'Oral questions',
   '/app/skills': 'Skills',
-  '/app/histology': 'Histology',
+  '/app/histology': 'Histology Lab',
   '/app/essays': 'Essay questions',
   // Revise
   '/app/notebook': 'Notebook',

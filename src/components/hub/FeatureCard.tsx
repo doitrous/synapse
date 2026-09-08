@@ -3,6 +3,7 @@ import type { LucideIcon } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Meter } from '@/components/ui/Meter'
 import { TargetRing } from '@/components/ui/TargetRing'
@@ -32,6 +33,8 @@ export interface FeatureCardProps {
   icon: LucideIcon
   title: string
   description: string
+  /** A visible demo action alongside the feature’s release status. */
+  demoHref?: string
   progress?: FeatureProgress
   /** Up to two. Anything beyond the second is dropped rather than wrapped. */
   stats?: FeatureStat[]
@@ -67,6 +70,7 @@ export function FeatureCard({
   icon,
   title,
   description,
+  demoHref,
   progress,
   stats,
   status = 'live',
@@ -77,12 +81,13 @@ export function FeatureCard({
   const [dialogOpen, setDialogOpen] = useState(false)
   const soon = status === 'coming-soon'
   const shown = stats?.slice(0, 2) ?? []
-  const previewOnCard = soon && comingSoon?.showPreviewOnCard && comingSoon.previewHref
+  const previewOnCard = soon && comingSoon?.showPreviewOnCard ? comingSoon.previewHref : undefined
+  const demoTarget = demoHref ?? previewOnCard
 
   const surface = cn(
     'group/card relative flex min-w-0 flex-col rounded-xl border border-line bg-surface p-5 text-start shadow-panel',
     'transition-[transform,box-shadow] duration-[var(--dur-base)] ease-[var(--ease-out-quint)]',
-    'hover:-translate-y-0.5 hover:shadow-raised motion-reduce:transform-none',
+    !demoTarget && 'hover:-translate-y-0.5 hover:shadow-raised motion-reduce:transform-none',
     'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
   )
 
@@ -150,20 +155,16 @@ export function FeatureCard({
     </>
   )
 
-  if (previewOnCard) {
+  if (demoTarget) {
     return (
-      <article className={surface}>
+      <div className={surface}>
         {body}
-        <div className="mt-auto flex justify-end pt-4">
-          <Link
-            to={previewOnCard}
-            className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-primary px-3.5 text-[13px] font-semibold text-white shadow-sm transition-colors hover:bg-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
-          >
-            {t(comingSoon.previewLabel ?? 'Open the preview')}
-            <Icon icon={ArrowUpRight} size={14} className="rtl:-scale-x-100" />
-          </Link>
+        <div className="mt-auto pt-4">
+          <ButtonLink to={demoTarget} variant="primary" size="sm" iconRight={ArrowUpRight}>
+            {t(demoHref ? 'Demo' : comingSoon?.previewLabel ?? 'Open the preview')}
+          </ButtonLink>
         </div>
-      </article>
+      </div>
     )
   }
 

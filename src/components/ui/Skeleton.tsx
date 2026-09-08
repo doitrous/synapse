@@ -23,7 +23,7 @@ export function Skeleton({
   return (
     <div
       aria-hidden
-      className={cn('animate-pulse rounded-lg bg-inset', className)}
+      className={cn('animate-pulse bg-ink/10', !/(?:^|\s)rounded(?:-|\s|$)/.test(className ?? '') && 'rounded-lg', className)}
       style={{ width, height, ...style }}
     />
   )

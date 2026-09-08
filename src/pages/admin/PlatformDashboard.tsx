@@ -1,3 +1,4 @@
+import { PageSkeleton } from '@/components/loading/PageSkeleton'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
@@ -64,7 +65,7 @@ function sourceLabel(source: string) {
 
 export function PlatformDashboard() {
   const [report, setReport] = useState<PlatformReport | null>(() => API_MODE ? null : demoPlatformReport())
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(API_MODE)
   const [ackBusy, setAckBusy] = useState(false)
   const [error, setError] = useState('')
   const [notice, setNotice] = useState('')
@@ -127,6 +128,8 @@ export function PlatformDashboard() {
       setAckBusy(false)
     }
   }
+
+  if (loading && !report) return <PageSkeleton layout={{ shape: 'report', metrics: 4 }} />
 
   return (
     <PageContainer>

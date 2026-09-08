@@ -24,7 +24,7 @@ import { Tabs } from '@/components/ui/Tabs'
 import { Badge } from '@/components/ui/Badge'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { AsyncSurface } from '@/components/ui/AsyncSurface'
-import { SkeletonList, SkeletonText } from '@/components/ui/Skeleton'
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { Today } from '@/components/adaptive/Today'
 import { Practice } from '@/components/adaptive/Practice'
 import { Readiness } from '@/components/adaptive/Readiness'
@@ -80,18 +80,9 @@ export function AdaptiveStudy() {
 
       <Tabs items={tabs} value={tab} onChange={setTab} className="mb-5" />
 
-      {/* ponytail: one shared skeleton shape for every tab rather than one per
-          tab — `study.loading` clears fast enough (it is local storage plus
-          the evidence ledger, not a network round trip) that a closer match
-          would be spent effort. */}
       <AsyncSurface
         loading={study.loading}
-        fallback={
-          <Panel className="p-6">
-            <SkeletonText lines={2} className="mb-4" />
-            <SkeletonList rows={5} />
-          </Panel>
-        }
+        fallback={<ContentSkeleton shape="adaptive" />}
       >
         {study.scopeUnknown ? (
           // Every figure on this page is scoped to a university and year. Rendering

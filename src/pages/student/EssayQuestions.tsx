@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useMemo, useState } from 'react'
 import { BookOpen, ChevronRight, Crosshair, FileText, ListChecks, PenLine, Shuffle, TextCursorInput } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
@@ -327,7 +328,7 @@ export function EssayQuestions() {
 
       {availability.kind !== 'ready' ? (
         <Panel className="p-8">
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="essays" />}
             availability={availability}
             empty={{
               title: t('No written questions published yet'),

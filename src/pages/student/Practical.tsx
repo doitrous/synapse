@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Navigate, useSearchParams } from 'react-router-dom'
 import {
@@ -127,7 +128,7 @@ function OsceTab({ onOpen }: { onOpen: Open }) {
   if (availability.kind !== 'ready') {
     return (
       <Panel className="p-8">
-        <CatalogueUnavailable
+        <CatalogueUnavailable skeleton={<ContentSkeleton shape="practical" />}
           availability={availability}
           empty={{ title: t('No stations published yet'), description: t('OSCE stations and skills checklists appear here once they are published in Practical Setup.') }}
         />
@@ -206,7 +207,7 @@ function CasesTab({ onOpen }: { onOpen: Open }) {
   if (availability.kind !== 'ready') {
     return (
       <Panel className="p-8">
-        <CatalogueUnavailable
+        <CatalogueUnavailable skeleton={<ContentSkeleton shape="practical" />}
           availability={availability}
           empty={{ title: t('No cases published yet'), description: t('Clinical cases appear here once they are published in Practical Setup.') }}
         />
@@ -266,7 +267,7 @@ function LabTab({ onOpen }: { onOpen: Open }) {
   if (availability.kind !== 'ready') {
     return (
       <Panel className="p-8">
-        <CatalogueUnavailable
+        <CatalogueUnavailable skeleton={<ContentSkeleton shape="practical" />}
           availability={availability}
           empty={{ title: t('No lab or imaging sets yet'), description: t('Interpretation sets appear here once they are published in Practical Setup.') }}
         />

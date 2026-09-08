@@ -1,3 +1,4 @@
+import { useInitialRead } from '@/lib/initialReadContext'
 import { useEffect, useMemo, useState } from 'react'
 import { Building2, Users, Plug, Flag, IdCard, Hammer, Activity, Highlighter, RotateCcw, CircleCheck, TrendingDown, TrendingUp, BarChart3 } from 'lucide-react'
 import { API_MODE, apiGet, apiPost } from '@/lib/api'
@@ -85,6 +86,8 @@ export function Settings() {
 
   const [subscriberForm, setSubscriberForm] = useState<SubscriberCountForm>(DEFAULT_SUBSCRIBER_FORM)
   const [subscriberSaving, setSubscriberSaving] = useState(false)
+  const [subscriberLoading, setSubscriberLoading] = useState(API_MODE)
+  useInitialRead({ hydrated: !subscriberLoading, error: null })
   const [subscriberError, setSubscriberError] = useState('')
   const [subscriberPreviewKey, setSubscriberPreviewKey] = useState(0)
 
@@ -97,6 +100,7 @@ export function Settings() {
         setSubscriberForm((current) => ({ ...current, ...res.value }))
       })
       .catch(() => {})
+      .finally(() => { if (active) setSubscriberLoading(false) })
     return () => { active = false }
   }, [])
 
@@ -155,12 +159,15 @@ export function Settings() {
   // preview below becomes a live cohort report; until then (or in demo mode) it
   // falls back to the calculation over this session's own activity.
   const [cohort, setCohort] = useState<CohortActivity | null>(null)
+  const [cohortLoading, setCohortLoading] = useState(API_MODE)
+  useInitialRead({ hydrated: !cohortLoading, error: null })
   useEffect(() => {
     if (!API_MODE) return
     let active = true
     apiGet<CohortActivity>('/admin/activity-tracking')
       .then((data) => { if (active) setCohort(data) })
       .catch(() => { if (active) setCohort(null) })
+      .finally(() => { if (active) setCohortLoading(false) })
     return () => { active = false }
   }, [])
 

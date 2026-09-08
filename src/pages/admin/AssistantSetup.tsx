@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useEffect, useMemo, useState } from 'react'
 import { ArrowDown, ArrowUp, Bot, CircleAlert, KeyRound, Layers, Plus, RefreshCw, RotateCcw, Trash2, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -173,7 +174,7 @@ export function AssistantSetup() {
         </div>
       )}
 
-      {loading && !settings && <Panel className="p-6 text-[13.5px] text-ink-3">Loading…</Panel>}
+      {loading && !settings && <ContentSkeleton shape="settings" />}
 
       {settings && (
         <div className="grid gap-5">

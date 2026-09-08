@@ -3,7 +3,8 @@ import { ArrowLeft, DoorOpen, Globe, LogIn, Plus, Users, WifiOff } from 'lucide-
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { SkeletonList } from '@/components/ui/Skeleton'
+import { RoomCardsSkeleton } from '@/components/loading/PageSkeleton'
+import { LoadingRegion } from '@/components/loading/SkeletonParts'
 import { Field, TextInput } from '@/components/ui/Field'
 import { PARTY_REFUSALS, useMyParties, useOpenParties, usePartyActions } from '@/lib/useParties'
 import { API_MODE } from '@/lib/api'
@@ -154,7 +155,7 @@ export function RoomLobby({ onEnter }: { onEnter: (room: RoomAddress) => void })
           <Panel>
             <PanelHeader title={t('Your rooms')} icon={Users} hint={mine.length ? `${mine.length}` : undefined} />
             {loadingMine ? (
-              <SkeletonList rows={2} className="p-4" />
+              <LoadingRegion className="p-4"><RoomCardsSkeleton /></LoadingRegion>
             ) : mine.length === 0 && !online ? (
               <EmptyState
                 className="px-5 py-8"
@@ -186,7 +187,7 @@ export function RoomLobby({ onEnter }: { onEnter: (room: RoomAddress) => void })
               hint={t('Open to your university and year')}
             />
             {loadingOpen ? (
-              <SkeletonList rows={2} className="p-4" />
+              <LoadingRegion className="p-4"><RoomCardsSkeleton /></LoadingRegion>
             ) : open.length === 0 && !online ? (
               <p className="px-5 py-6 text-center text-[12.5px] text-ink-3">{t("You're offline — this keeps retrying on its own.")}</p>
             ) : open.length === 0 ? (

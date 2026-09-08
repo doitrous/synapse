@@ -1,3 +1,5 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { useEffect, useMemo, useState } from 'react'
 import {
   Award, BarChart3, Brain, ClipboardCheck, Clock3, Highlighter, Hourglass, Layers, ListChecks, Medal,
@@ -17,7 +19,7 @@ import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
 import { SourceCoveragePanel } from '@/components/performance/SourceCoverage'
 import { SessionLedgerPanel } from '@/components/performance/SessionLedger'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Skeleton, SkeletonCard, SkeletonList } from '@/components/ui/Skeleton'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { Meter } from '@/components/ui/Meter'
 import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
@@ -320,7 +322,7 @@ function TopPerformers({ records }: { records: AttemptRecord[] }) {
         </div>
 
         {loading ? (
-          <div aria-label={t('Loading leaderboard')}><SkeletonList rows={5} className="p-5" /></div>
+          <LoadingRegion label={t('Loading leaderboard')}><SkeletonRows rows={5} /></LoadingRegion>
         ) : failed ? (
           <div className="p-10"><EmptyState icon={Users} title={t('Leaderboard unavailable')} description={t('The verified ranking could not be loaded. Your private performance data has not been substituted.')}/></div>
         ) : rows.length === 0 ? (
@@ -643,19 +645,7 @@ export function Performance() {
     return (
       <PageContainer>
         {header}
-        <div className="space-y-4" aria-label={t('Loading your record…')}>
-          <div className="grid gap-4 lg:grid-cols-2">
-            <SkeletonCard className="h-40" />
-            <SkeletonCard className="h-40" />
-          </div>
-          <div className="grid grid-cols-2 gap-3 lg:grid-cols-5">
-            {[0, 1, 2, 3, 4].map((i) => <SkeletonCard key={i} className="h-24" />)}
-          </div>
-          <div className="grid gap-4 lg:grid-cols-2">
-            <SkeletonCard className="h-52" />
-            <SkeletonCard className="h-52" />
-          </div>
-        </div>
+        <ContentSkeleton shape="performance" />
       </PageContainer>
     )
   }
