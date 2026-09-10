@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS seo_articles (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  external_id BIGINT UNSIGNED NOT NULL,
+  lang VARCHAR(8) NOT NULL,
+  slug VARCHAR(191) NOT NULL,
+  title VARCHAR(500) NOT NULL,
+  meta_title VARCHAR(500) NULL,
+  meta_description VARCHAR(1000) NULL,
+  body_md MEDIUMTEXT NOT NULL,
+  body_html MEDIUMTEXT NOT NULL,
+  faq JSON NULL,
+  schema_jsonld JSON NULL,
+  image_url VARCHAR(2048) NULL,
+  image_alt VARCHAR(500) NULL,
+  author_name VARCHAR(255) NULL,
+  author_credentials VARCHAR(255) NULL,
+  published_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY seo_articles_external_lang (external_id, lang),
+  UNIQUE KEY seo_articles_lang_slug (lang, slug)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

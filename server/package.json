@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Nishany backend \u2014 state store, students, and Resend mail on MariaDB.",
+  "description": "Nishany backend — state store, students, and Resend mail on MariaDB.",
   "main": "src/index.js",
   "scripts": {
     "start": "node --env-file-if-exists=.env src/index.js",
@@ -19,11 +19,14 @@
     "node": ">=20"
   },
   "dependencies": {
+    "@omary98/seo-runtime-core": "0.1.2",
+    "@omary98/seo-runtime-express": "0.1.2",
     "@simplewebauthn/server": "^13.1.1",
     "compression": "^1.8.1",
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "jose": "^6.2.8",
+    "marked": "^15.0.12",
     "mysql2": "^3.11.5",
     "resend": "^6.18.1",
     "web-push": "^3.6.7",
