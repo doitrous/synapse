@@ -10,7 +10,7 @@ import { Kbd } from '@/components/ui/Kbd'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { countOverlays } from '@/lib/overlayStack'
 import { Toggle } from '@/components/ui/Toggle'
-import { PomodoroPanel, usePomodoroEngine, type PomodoroEngine } from './PomodoroTimer'
+import { PomodoroPanel, usePomodoro, type PomodoroEngine } from './PomodoroTimer'
 import { FocusAudioPanel, useFocusAudio } from './FocusAudioPlayer'
 import type { Portal } from './nav'
 import { cn } from '@/lib/cn'
@@ -390,9 +390,10 @@ function ToolsMenu({
 
 function StudentTools({ focusMode, onToggleFocusMode, onOpenSearch, beforeMenu }: { focusMode: boolean; onToggleFocusMode: () => void; onOpenSearch: () => void; beforeMenu?: ReactNode }) {
   const t = useT()
-  // One engine for the whole bar: the button, the phone row and the panel all
-  // read the same clock, and it keeps running with every surface closed.
-  const engine = usePomodoroEngine()
+  // One engine for the whole student app: the top-bar button, the phone row,
+  // the panel and the study room's "Start focus timer" all read the same clock
+  // from PomodoroProvider (mounted for the student portal in AppShell).
+  const engine = usePomodoro()!
   const { playing } = useFocusAudio()
   return (
     <>

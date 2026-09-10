@@ -17,6 +17,7 @@ import { useT } from '@/lib/i18n'
 import { ImmersionProvider, useImmersion } from './ImmersionContext'
 import { StudyActivityTracker } from './StudyActivityTracker'
 import { FocusAudioProvider } from './FocusAudioPlayer'
+import { PomodoroProvider } from './PomodoroTimer'
 import { MaristanaProgressNotice } from '@/components/maristanas/MaristanaProgressNotice'
 import { RoomSessionProvider } from '@/lib/rooms/RoomSessionProvider'
 import { RoomDock } from '@/components/rooms/RoomDock'
@@ -258,6 +259,10 @@ export function AppShell({ portal }: { portal: Portal }) {
     </ImmersionProvider>
   )
   // The room session sits above the routed page and the dock alike, and only in
-  // the student app — the admin console has no study rooms to keep alive.
-  return portal === 'student' ? <RoomSessionProvider>{shell}</RoomSessionProvider> : shell
+  // the student app — the admin console has no study rooms to keep alive. The
+  // Pomodoro engine sits here too so the top bar and the study room share one
+  // clock (see PomodoroProvider).
+  return portal === 'student'
+    ? <PomodoroProvider><RoomSessionProvider>{shell}</RoomSessionProvider></PomodoroProvider>
+    : shell
 }

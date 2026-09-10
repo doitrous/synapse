@@ -2,7 +2,9 @@ import { DiscoverabilityControl } from './DiscoverabilityControl'
 import { AddFriendButton } from '@/components/social/AddFriendButton'
 import { useCallback, useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { ChevronDown, LogIn, Plus, Trophy, UserPlus, Users } from 'lucide-react'
+import { ChevronDown, Copy, LogIn, Plus, Trophy, Users } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { useIdentity } from '@/lib/useIdentity'
 import type { LucideIcon } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Collapse } from '@/components/ui/Collapse'
@@ -279,6 +281,40 @@ export function SharedTestsSection({ onOpenSharedTest }: { onOpenSharedTest: (ro
  * started from a friend's row uses ten questions from every topic — stated in
  * the panel rather than left to be discovered.
  */
+/**
+ * Your own handle, shown so you can hand it to a friend to add you.
+ *
+ * The friend adds by username (the Add button), so the fastest way in is to
+ * read yours off the screen and send it — no link to mint, no directory to
+ * search.
+ */
+function YourUsernameShare() {
+  const t = useT()
+  const { profile } = useIdentity()
+  const [copied, setCopied] = useState(false)
+  if (!profile.username) {
+    return (
+      <p className="rounded-lg border border-line bg-inset px-3 py-2 text-[12.5px] text-ink-2">
+        <Link to="/app/account" className="underline">{t('Set a username in Account')}</Link> {t('so friends can add you.')}
+      </p>
+    )
+  }
+  return (
+    <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border border-line bg-inset px-3 py-2">
+      <span className="text-[12.5px] text-ink-2">{t('Your username')}: <strong className="text-ink">@{profile.username}</strong></span>
+      <Button
+        size="sm"
+        variant="ghost"
+        iconLeft={Copy}
+        aria-label={t('Copy your username')}
+        onClick={() => { void navigator.clipboard?.writeText(`@${profile.username}`); setCopied(true); window.setTimeout(() => setCopied(false), 1600) }}
+      >
+        {copied ? t('Copied') : t('Copy')}
+      </Button>
+    </div>
+  )
+}
+
 export function FriendsSection({
   onOpenSharedTest,
   onOpenChallenge,
@@ -291,8 +327,7 @@ export function FriendsSection({
   const { create } = useStudyRoomActions()
   const { reload: reloadRooms } = useMyRooms()
   const {
-    friends, incoming, outgoing, blocked, respond, remove, request, block, unblock, searchDirectory, mintInvite, redeemInvite,
-    linkFacebook, matchFacebook, reload:reloadFriends,
+    friends, incoming, outgoing, blocked, respond, remove, unblock, redeemInvite, reload:reloadFriends,
   } = useFriends()
   const { challenges, reload: reloadChallenges } = useMyChallenges()
   const { create: createChallenge, respond: respondChallenge } = useChallengeActions()
@@ -351,13 +386,11 @@ export function FriendsSection({
       {!API_MODE ? (
         <DemoFriendsPreview />
       ) : (
-        <div className="space-y-4"><section><h3 className="font-semibold">{t('Discoverability')}</h3><p className="text-sm text-ink-2 mt-1">{t('Choose whether classmates can find your profile.')}</p><DiscoverabilityControl/></section>
+        <div className="space-y-4">
+          <YourUsernameShare/>
+          <DiscoverabilityControl/>
           <p role="status" className={cn('text-[12.5px]', !inviteNotice && 'sr-only', inviteNotice?.tone === 'success' ? 'text-success' : 'text-danger')}>
             {inviteNotice?.text}
-          </p>
-          <p className="flex items-center gap-2 text-[12px] text-ink-3">
-            <Icon icon={UserPlus} size={14} />
-            {t('Study together starts a shared test of 10 questions from every topic, with your friend already seated in it.')}
           </p>
           <ChallengePanel
             challenges={challenges}
@@ -374,13 +407,7 @@ export function FriendsSection({
             onRemove={remove}
             onStudyTogether={handleStudyTogether}
             onChallenge={setChallengeTarget}
-            onCreateInvite={mintInvite}
-            onRequest={request}
-            onBlock={block}
             onUnblock={unblock}
-            onSearchDirectory={searchDirectory}
-            onConnectFacebook={linkFacebook}
-            onMatchFacebook={matchFacebook}
           />
           {challengeTarget && (
             <ChallengeDialog

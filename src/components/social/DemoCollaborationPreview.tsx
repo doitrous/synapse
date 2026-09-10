@@ -1,6 +1,6 @@
 import { DiscoverabilityControl } from '@/components/rooms/DiscoverabilityControl'
 import { useState } from 'react'
-import { Bell, CalendarClock, Check, Copy, Hash, Link2, LogIn, Play, Plus, Users } from 'lucide-react'
+import { CalendarClock, Check, Copy, Hash, Link2, LogIn, Play, Plus, Users } from 'lucide-react'
 import { Avatar } from '@/components/ui/Avatar'
 import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
@@ -66,7 +66,7 @@ export function DemoFriendsPreview() {
   return (
     <div className="grid grid-cols-1 items-start gap-4">
       <Panel><PanelHeader title={t('Classmates in your year')} icon={Users} action={<Badge tone="primary" dot>{t('Demo preview')}</Badge>} /><ul className="divide-y divide-line">{[['Nora Hassan', '@neuro-nora'], ['Karim Adel', '@cardio-karim'], ['Hana Samir', '@hema-hana']].map(([name, username]) => <li key={username} className="flex items-center gap-3 px-4 py-3"><Avatar name={name} size="sm" /><span className="min-w-0 flex-1"><span className="block text-[13.5px] font-medium text-ink">{name}</span><span className="text-[12px] text-ink-3">{username} · ASU Year 1</span></span><Button size="sm" variant="secondary" disabled>Add</Button></li>)}</ul></Panel>
-      <Panel><PanelHeader title={t('Discoverability')} icon={Bell} /><div className="p-5"><Badge tone="outline">{t('Off by default')}</Badge><p className="mt-3 text-[13px] leading-relaxed text-ink-2">{t('Students opt in before they can appear here or browse classmates in the same university and year.')}</p><DiscoverabilityControl/></div></Panel>
+      <DiscoverabilityControl/>
     </div>
   )
 }

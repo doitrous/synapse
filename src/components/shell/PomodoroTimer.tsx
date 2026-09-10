@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react'
+import { createContext, useCallback, useContext, useEffect, useRef, type ReactNode } from 'react'
 import { Bell, BellOff, Minus, Pause, Play, Plus, RotateCcw, SkipForward, Volume2, VolumeX } from 'lucide-react'
 import { IconButton } from '@/components/ui/IconButton'
 import { cn } from '@/lib/cn'
@@ -330,6 +330,28 @@ export function usePomodoroEngine() {
 }
 
 export type PomodoroEngine = ReturnType<typeof usePomodoroEngine>
+
+/**
+ * One clock for the whole student app.
+ *
+ * The top bar and the study room both need to show — and drive — the same
+ * countdown, and two `usePomodoroEngine()` instances would each run their own
+ * ticking interval writing the same localStorage key, fighting each other. So
+ * the engine is created exactly once here and shared: start it from the room's
+ * "Start focus timer" button and the top-bar pill moves too, because it is
+ * literally the same timer.
+ */
+const PomodoroContext = createContext<PomodoroEngine | null>(null)
+
+export function PomodoroProvider({ children }: { children: ReactNode }) {
+  const engine = usePomodoroEngine()
+  return <PomodoroContext.Provider value={engine}>{children}</PomodoroContext.Provider>
+}
+
+/** The shared engine. Null outside the provider (e.g. the admin portal top bar). */
+export function usePomodoro(): PomodoroEngine | null {
+  return useContext(PomodoroContext)
+}
 
 /** The timer's own surface, with no chrome of its own — the host frames it. */
 export function PomodoroPanel({ engine, settingsOpen }: { engine: PomodoroEngine; settingsOpen: boolean }) {
