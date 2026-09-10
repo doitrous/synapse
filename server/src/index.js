@@ -25,6 +25,7 @@ import { sendMail } from './mail.js'
 import { medicalResourceRecords } from './mediaStore.js'
 import { sweepIdle } from './sessionStore.js'
 import { attachRoomsRealtime } from './roomsRealtime.js'
+import { areBlocked } from './blocks.js'
 import { loadSfu } from './roomsSfu.js'
 import { resolvePartyId, roomSnapshot } from './parties.js'
 import { setMailer } from './qotdReminderEmail.js'
@@ -292,6 +293,7 @@ migrate()
       resolveRoom: resolvePartyId,
       readRoom: roomSnapshot,
       loadSfu,
+      areBlocked,
     })
       .then((realtime) => {
         if (!realtime) return

@@ -155,8 +155,16 @@ export async function directorySearch(userId, query) {
            WHERE (f.user_a = LEAST(s.user_id, ?) AND f.user_b = GREATEST(s.user_id, ?))
              AND f.status IN ('pending','accepted')
         )
+        -- Mutual invisibility: a block hides the blocker from the blocked and
+        -- the blocked from the blocker, whichever way the row was written.
+        AND NOT EXISTS (
+          SELECT 1 FROM blocks b WHERE b.blocker_id = s.user_id AND b.blocked_id = ?
+        )
+        AND NOT EXISTS (
+          SELECT 1 FROM blocks b WHERE b.blocker_id = ? AND b.blocked_id = s.user_id
+        )
       ORDER BY sortKey LIMIT 20`,
-    [cohort.university_id, cohort.year, userId, term, userId, userId],
+    [cohort.university_id, cohort.year, userId, term, userId, userId, userId, userId],
   )
   return rows.map((row) => ({
     userId: row.user_id,

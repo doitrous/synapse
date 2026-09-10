@@ -33,19 +33,26 @@ export function useFriends() {
   const [friends, setFriends] = useState<FriendProfile[]>([])
   const [incoming, setIncoming] = useState<FriendProfile[]>([])
   const [outgoing, setOutgoing] = useState<FriendProfile[]>([])
+  const [blocked, setBlocked] = useState<FriendProfile[]>([])
   const [loading, setLoading] = useState(API_MODE)
 
   const reload = useCallback(async () => {
     if (!API_MODE) { setLoading(false); return }
     try {
-      const data = await apiGet<{ friends: FriendProfile[]; requests: { incoming: FriendProfile[]; outgoing: FriendProfile[] } }>('/friends')
+      const data = await apiGet<{
+        friends: FriendProfile[]
+        requests: { incoming: FriendProfile[]; outgoing: FriendProfile[] }
+        blocked: FriendProfile[]
+      }>('/friends')
       setFriends(data?.friends ?? [])
       setIncoming(data?.requests?.incoming ?? [])
       setOutgoing(data?.requests?.outgoing ?? [])
+      setBlocked(data?.blocked ?? [])
     } catch {
       setFriends([])
       setIncoming([])
       setOutgoing([])
+      setBlocked([])
     } finally {
       setLoading(false)
     }
@@ -125,6 +132,22 @@ export function useFriends() {
     }
   }, [reload])
 
+  // Blocking touches three things a reload already recomputes correctly — the
+  // friends list (a block removes any friendship), the directory (a blocked
+  // user stops appearing server-side), and the blocked list itself — so this
+  // reloads afterwards rather than guessing the new state like `remove` does.
+  const block = useCallback(async (userId: string) => {
+    const result = await apiPost<{ ok: boolean; reason?: string }>('/friends/block', { userId })
+    void reload()
+    return result
+  }, [reload])
+
+  const unblock = useCallback(async (userId: string) => {
+    const result = await apiPost<{ ok: boolean }>('/friends/unblock', { userId })
+    void reload()
+    return result
+  }, [reload])
+
   // Minting needs no reload: nothing about the viewer's own friend graph
   // changes until someone else redeems the link.
   const mintInvite = useCallback(async () => {
@@ -162,7 +185,8 @@ export function useFriends() {
   }, [])
 
   return {
-    friends, incoming, outgoing, loading, reload, request, respond, remove,
+    friends, incoming, outgoing, blocked, loading, reload, request, respond, remove,
+    block, unblock,
     mintInvite, redeemInvite, searchDirectory, linkFacebook, unlinkFacebook, matchFacebook,
   }
 }

@@ -6,13 +6,28 @@ import { requireAuthenticated } from '../auth.js'
 import { deletionCallback as facebookDeletionCallback, linkAccount as linkFacebookAccount, matchFacebookFriends, parseSignedRequest as parseFacebookSignedRequest, unlinkAccount as unlinkFacebookAccount } from '../facebook.js'
 import { mintInvite, redeemInvite } from '../friendInvites.js'
 import { directorySearch, myFriends, myRequests, removeFriend, respondToRequest, sendRequest } from '../friends.js'
+import { blockUser, blockedList, unblockUser } from '../blocks.js'
 import { PUBLIC_ORIGIN, wrap } from '../http.js'
 
 export function registerFriendRoutes(app) {
   /* ── Friends ─────────────────────────────────────────────────────────────── */
 
   app.get('/api/friends', requireAuthenticated, wrap(async (req, res) => {
-    res.json({ friends: await myFriends(req.identity.id), requests: await myRequests(req.identity.id) })
+    res.json({
+      friends: await myFriends(req.identity.id),
+      requests: await myRequests(req.identity.id),
+      blocked: await blockedList(req.identity.id),
+    })
+  }))
+
+  /* ── Blocking ────────────────────────────────────────────────────────────── */
+
+  app.post('/api/friends/block', requireAuthenticated, wrap(async (req, res) => {
+    res.json(await blockUser(req.identity.id, req.body?.userId))
+  }))
+
+  app.post('/api/friends/unblock', requireAuthenticated, wrap(async (req, res) => {
+    res.json(await unblockUser(req.identity.id, req.body?.userId))
   }))
 
   app.get('/api/friends/directory', requireAuthenticated, wrap(async (req, res) => {

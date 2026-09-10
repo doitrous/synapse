@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { UserPlus, Users, Check, X, Swords, Play, Link2, Copy } from 'lucide-react'
+import { UserPlus, Users, Check, X, Swords, Play, Link2, Copy, Ban } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Avatar } from '@/components/ui/Avatar'
@@ -226,9 +226,11 @@ function FacebookConnect({
 function DirectorySearch({
   onSearch,
   onRequest,
+  onBlock,
 }: {
   onSearch: (query: string) => Promise<{ people: FriendProfile[] }>
   onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+  onBlock: (userId: string) => Promise<{ ok: boolean; reason?: string }>
 }) {
   const t = useT()
   const { profile } = useIdentity()
@@ -236,6 +238,7 @@ function DirectorySearch({
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<FriendProfile[]>([])
   const [addingId, setAddingId] = useState<string | null>(null)
+  const [blockingId, setBlockingId] = useState<string | null>(null)
   const [message, setMessage] = useState('')
 
   useEffect(() => {
@@ -276,6 +279,23 @@ function DirectorySearch({
     }
   }
 
+  async function block(userId: string) {
+    setBlockingId(userId)
+    setMessage('')
+    try {
+      const result = await onBlock(userId)
+      // Blocked users stop appearing in the directory server-side, so this
+      // row is gone from every future search anyway — dropping it now just
+      // means the person does not sit there a second after the click.
+      if (result.ok) setResults((prev) => prev.filter((person) => person.userId !== userId))
+      else setMessage(FRIEND_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t))
+    } catch {
+      setMessage(fallbackRefusal(t))
+    } finally {
+      setBlockingId(null)
+    }
+  }
+
   return (
     <div className="space-y-2">
       <SearchInput
@@ -298,9 +318,20 @@ function DirectorySearch({
                 size="sm"
                 iconLeft={UserPlus}
                 loading={addingId === person.userId}
+                disabled={blockingId === person.userId}
                 onClick={() => void add(person.userId)}
               >
                 {t('Add')}
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                iconLeft={Ban}
+                loading={blockingId === person.userId}
+                disabled={addingId === person.userId}
+                onClick={() => void block(person.userId)}
+              >
+                {t('Block')}
               </Button>
             </li>
           ))}
@@ -322,12 +353,14 @@ function InviteLinkPanel({
   onCreateInvite,
   onSearchDirectory,
   onRequest,
+  onBlock,
   onConnectFacebook,
   onMatchFacebook,
 }: {
   onCreateInvite: () => Promise<{ token: string }>
   onSearchDirectory: (query: string) => Promise<{ people: FriendProfile[] }>
   onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+  onBlock: (userId: string) => Promise<{ ok: boolean; reason?: string }>
   onConnectFacebook: (fbUserId: string) => Promise<{ ok: boolean; reason?: string }>
   onMatchFacebook: (fbFriendIds: string[]) => Promise<{ people: FriendProfile[] }>
 }) {
@@ -356,7 +389,7 @@ function InviteLinkPanel({
     <Panel>
       <PanelHeader title={t('Find friends')} icon={Link2} />
       <div className="space-y-4 p-5">
-        <DirectorySearch onSearch={onSearchDirectory} onRequest={onRequest} />
+        <DirectorySearch onSearch={onSearchDirectory} onRequest={onRequest} onBlock={onBlock} />
 
         <div className="space-y-3 border-t border-line pt-4">
           <p className="text-[12.5px] leading-relaxed text-ink-3">
@@ -402,12 +435,15 @@ export function FriendsPanel({
   friends,
   incoming,
   outgoing,
+  blocked,
   onRespond,
   onRemove,
   onStudyTogether,
   onChallenge,
   onCreateInvite,
   onRequest,
+  onBlock,
+  onUnblock,
   onSearchDirectory,
   onConnectFacebook,
   onMatchFacebook,
@@ -415,6 +451,7 @@ export function FriendsPanel({
   friends: FriendProfile[]
   incoming: FriendProfile[]
   outgoing: FriendProfile[]
+  blocked: FriendProfile[]
   onRespond: (userId: string, accept: boolean) => Promise<{ ok: boolean; reason?: string }>
   onRemove: (userId: string) => Promise<{ ok: boolean; reason?: string }>
   // Creates the room and opens it; resolves once that is known so this panel
@@ -427,6 +464,8 @@ export function FriendsPanel({
   // from the search did not appear in "Waiting for an answer" until the
   // page's own copy happened to reload.
   onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+  onBlock: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+  onUnblock: (userId: string) => Promise<{ ok: boolean }>
   onSearchDirectory: (query: string) => Promise<{ people: FriendProfile[] }>
   onConnectFacebook: (fbUserId: string) => Promise<{ ok: boolean; reason?: string }>
   onMatchFacebook: (fbFriendIds: string[]) => Promise<{ people: FriendProfile[] }>
@@ -439,6 +478,7 @@ export function FriendsPanel({
   const [actingIds, setActingIds] = useState<Set<string>>(new Set())
   const [requestsMessage, setRequestsMessage] = useState('')
   const [friendsMessage, setFriendsMessage] = useState('')
+  const [blockedMessage, setBlockedMessage] = useState('')
 
   function markActing(userId: string, acting: boolean) {
     setActingIds((prev) => {
@@ -473,6 +513,18 @@ export function FriendsPanel({
     }
   }
 
+  async function handleUnblock(userId: string) {
+    markActing(userId, true)
+    try {
+      const result = await onUnblock(userId)
+      setBlockedMessage(result.ok ? '' : fallbackRefusal(t))
+    } catch {
+      setBlockedMessage(fallbackRefusal(t))
+    } finally {
+      markActing(userId, false)
+    }
+  }
+
   async function handleStudyTogether(friend: FriendProfile) {
     markActing(friend.userId, true)
     try {
@@ -493,6 +545,7 @@ export function FriendsPanel({
         onCreateInvite={onCreateInvite}
         onSearchDirectory={onSearchDirectory}
         onRequest={onRequest}
+        onBlock={onBlock}
         onConnectFacebook={onConnectFacebook}
         onMatchFacebook={onMatchFacebook}
       />
@@ -589,6 +642,29 @@ export function FriendsPanel({
               </li>
             ))}
           </ul>
+        </Panel>
+      )}
+
+      {blocked.length > 0 && (
+        <Panel>
+          <PanelHeader title={t('Blocked')} icon={Ban} hint={String(blocked.length)} />
+          <ul className="divide-y divide-line">
+            {blocked.map((person) => (
+              <li key={person.userId} className="flex items-center gap-3 px-4 py-3">
+                <Avatar name={person.displayName} size="sm" />
+                <span className="min-w-0 flex-1 truncate text-[13.5px] text-ink-2">{person.displayName}</span>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  disabled={actingIds.has(person.userId)}
+                  onClick={() => void handleUnblock(person.userId)}
+                >
+                  {t('Unblock')}
+                </Button>
+              </li>
+            ))}
+          </ul>
+          {blockedMessage && <p role="status" className="border-t border-line px-4 py-2.5 text-[12.5px] text-danger">{blockedMessage}</p>}
         </Panel>
       )}
     </div>

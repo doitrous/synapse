@@ -37,6 +37,14 @@ export interface RoomAudio {
   leave(): void
   toggleMute(): void
   /**
+   * Members this listener has silenced, by id. Client-side and per-session only:
+   * muting someone stops *you* hearing them, tells them nothing, and is
+   * forgotten when you leave. A persistent, mutual cut is Block, not this.
+   */
+  mutedUsers: Set<string>
+  /** Silence, or unsilence, one member's voice for this listener alone. */
+  toggleUserMute(userId: string): void
+  /**
    * Why voice is not what a student expects, in a sentence they can read.
    *
    * Absent when this is a real call and nothing is wrong. Otherwise a local
@@ -131,6 +139,11 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
   const [selfSpeaking, setSelfSpeaking] = useState(false)
   const [callActive, setCallActive] = useState(false)
   const [voiceReconnecting, setVoiceReconnecting] = useState(false)
+  const [mutedUsers, setMutedUsers] = useState<Set<string>>(() => new Set())
+  // Read inside `consumeProducer` (which is created once) so a producer that
+  // arrives from an already-muted member starts muted without rebuilding it.
+  const mutedUsersRef = useRef(mutedUsers)
+  mutedUsersRef.current = mutedUsers
 
   const rig = useRef<MicRig | null>(null)
   const call = useRef<CallRig | null>(null)
@@ -188,6 +201,7 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
     setSelfSpeaking(false)
     setMuted(false)
     mutedRef.current = false
+    setMutedUsers((current) => (current.size ? new Set() : current))
     setState(unsupportedReason ? 'unsupported' : 'idle')
     setLocalReason(unsupportedReason)
   }, [teardown, unsupportedReason])
@@ -260,7 +274,11 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
       return
     }
     current.consumers.set(producerId, voice)
-    element.muted = false
+    // Stay muted if this producer's owner is on the listener's mute list —
+    // a member muted before they spoke must not become audible the moment
+    // they do.
+    const owner = live.producers.find((producer) => producer.producerId === producerId)?.userId
+    element.muted = Boolean(owner && mutedUsersRef.current.has(owner))
     // Autoplay is allowed here: the student pressed Join voice and granted the
     // microphone in the same gesture. A refusal is one voice that stays silent,
     // not a failed call, so it is swallowed.
@@ -542,6 +560,28 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
     })
   }, [])
 
+  const toggleUserMute = useCallback((userId: string) => {
+    if (!userId) return
+    setMutedUsers((current) => {
+      const next = new Set(current)
+      const nowMuted = !next.has(userId)
+      if (nowMuted) next.add(userId)
+      else next.delete(userId)
+      // Apply to whatever this member is already playing. A producer maps to a
+      // member through the channel's producer list, and one member can have
+      // more than one, so every element they own follows the toggle.
+      const owned = new Set(
+        (channelRef.current?.producers ?? [])
+          .filter((producer) => producer.userId === userId)
+          .map((producer) => producer.producerId),
+      )
+      for (const [producerId, voice] of call.current?.consumers ?? []) {
+        if (owned.has(producerId)) voice.element.muted = nowMuted
+      }
+      return next
+    })
+  }, [])
+
   /** Leaving the page, the room, or switching rooms all release the microphone. */
   useEffect(() => () => teardown(), [teardown])
   useEffect(() => {
@@ -616,6 +656,8 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
     join,
     leave,
     toggleMute,
+    mutedUsers,
+    toggleUserMute,
     reason: localReason ?? transportReason ?? undefined,
     callActive,
     voiceReconnecting,

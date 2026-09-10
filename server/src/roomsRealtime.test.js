@@ -62,7 +62,7 @@ const roomOf = (...ids) => ({ id: 'party-1', code: 'KTP0R2', name: 'Room', archi
  * room being archived is simulated — the two cases where authorization has to
  * be re-decided *after* admission.
  */
-function hubWith({ roster = ['a', 'b'], sfu = null, onError } = {}) {
+function hubWith({ roster = ['a', 'b'], sfu = null, onError, areBlocked } = {}) {
   const state = { roster: [...roster], archivedAt: null, missing: false, fail: false, reads: 0 }
   const hub = createRoomHub({
     readRoom: async () => {
@@ -73,6 +73,7 @@ function hubWith({ roster = ['a', 'b'], sfu = null, onError } = {}) {
     },
     sfu,
     onError: onError ?? (() => {}),
+    ...(areBlocked ? { areBlocked } : {}),
   })
   hub.state = state
   return hub
@@ -228,6 +229,27 @@ test('a blank or oversized chat is dropped rather than relayed', async () => {
   await hub.receive(a, JSON.stringify({ type: 'chat', text: 'x'.repeat(2001) }))
   assert.equal(b.lastOf('chat'), null)
   assert.equal(a.lastOf('chat'), null)
+})
+
+test('a private chat between a blocked pair is dropped for both of them', async () => {
+  const hub = hubWith({ areBlocked: async (x, y) => [x, y].includes('a') && [x, y].includes('b') })
+  const a = stubClient('R1', 'a')
+  const b = stubClient('R1', 'b')
+  await hub.add(a)
+  await hub.add(b)
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: 'let me in', to: 'b' }))
+  assert.equal(b.lastOf('chat'), null)
+  assert.equal(a.lastOf('chat'), null)
+})
+
+test('a block never stops the same pair from seeing public chat', async () => {
+  const hub = hubWith({ areBlocked: async () => true })
+  const a = stubClient('R1', 'a')
+  const b = stubClient('R1', 'b')
+  await hub.add(a)
+  await hub.add(b)
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: 'hello room' }))
+  assert.equal(b.lastOf('chat').text, 'hello room')
 })
 
 /* ── Presence pushed from the HTTP routes ────────────────────────────────── */

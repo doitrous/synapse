@@ -113,7 +113,7 @@ export function bearerFromProtocols(header) {
  * `sfu:*` message with the reason, and the room says voice is unavailable
  * instead of pretending to negotiate.
  */
-export function createRoomHub({ readRoom, sfu, onError = () => {} }) {
+export function createRoomHub({ readRoom, sfu, onError = () => {}, areBlocked = async () => false }) {
   /** roomId → { sockets: Set<client>, snapshot: { members, archivedAt } | null } */
   const rooms = new Map()
 
@@ -386,6 +386,12 @@ export function createRoomHub({ readRoom, sfu, onError = () => {} }) {
             at: new Date().toISOString(),
           }
           if (typeof message.to === 'string' && message.to) {
+            // A block is checked only on the private path — a blocked pair can
+            // still be in the same room and see the same public chat, blocking
+            // only stops them whispering to each other. Dropped silently, same
+            // as a blank frame: this is not a place to tell an attacker which
+            // ids are blocked.
+            if (message.to !== client.userId && await areBlocked(client.userId, message.to)) return
             // Private: only the addressed member's sockets, plus an echo to
             // the sender so they see their own message land — even when the
             // target has nobody in the room to receive it.
@@ -557,7 +563,7 @@ export function notifyRoomPresence(roomId) {
  * "connection error" in every browser; a close code is something the client can
  * read and say out loud.
  */
-export async function attachRoomsRealtime(httpServer, { identityFromToken, identityFromCookies, resolveRoom, readRoom, loadSfu }) {
+export async function attachRoomsRealtime(httpServer, { identityFromToken, identityFromCookies, resolveRoom, readRoom, loadSfu, areBlocked }) {
   let WebSocketServer
   try {
     ({ WebSocketServer } = await import('ws'))
@@ -572,6 +578,7 @@ export async function attachRoomsRealtime(httpServer, { identityFromToken, ident
   hub = createRoomHub({
     readRoom,
     sfu,
+    ...(areBlocked ? { areBlocked } : {}),
     onError: (error) => console.error('room socket:', error?.message ?? error),
   })
 

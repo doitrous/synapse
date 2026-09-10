@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { ArrowLeft, Check, Copy, Hash, Info, Link2, MessageCircle } from 'lucide-react'
+import { ArrowLeft, Ban, Check, Copy, Hash, Info, Link2, MessageCircle, Volume2, VolumeX } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
@@ -9,6 +9,7 @@ import { PartyPage } from '@/components/social/PartyPage'
 import { DemoPartiesPreview } from '@/components/social/DemoCollaborationPreview'
 import { useParty, type PartyMember } from '@/lib/useParties'
 import { useIdentity } from '@/lib/useIdentity'
+import { useFriends } from '@/lib/useFriends'
 import { API_MODE } from '@/lib/api'
 import { useT } from '@/lib/i18n'
 import {
@@ -113,6 +114,7 @@ export function RoomView({
 
   const channel = session?.channel ?? null
   const audio = session?.audio ?? null
+  const { block } = useFriends()
 
   const { party, error, reload } = useParty(demo ? null : roomId, { background: channel?.connected ?? false })
   const [seat, setSeat] = useSeatPreference(demo ? null : roomCode)
@@ -281,8 +283,6 @@ export function RoomView({
         <Dialog label={memberMenu.name} size="sm" onClose={() => setMemberMenu(null)}>
           <PanelHeader title={memberMenu.name} icon={MessageCircle} />
           <div className="grid gap-1 p-2">
-            {/* ponytail: one action today. Mute and block are a later task —
-                this is the same list they get appended to, not a new menu. */}
             <button
               type="button"
               onClick={() => {
@@ -293,6 +293,30 @@ export function RoomView({
             >
               <Icon icon={MessageCircle} size={16} className="text-ink-3" />
               {t('Message privately')}
+            </button>
+            {/* Mute is client-side and silences only this listener; it needs a
+                live call to have any audio to silence, so it is offered only
+                when voice is actually flowing. */}
+            {audio.callActive && (
+              <button
+                type="button"
+                onClick={() => audio.toggleUserMute(memberMenu.id)}
+                className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] text-ink transition-colors hover:bg-inset"
+              >
+                <Icon icon={audio.mutedUsers.has(memberMenu.id) ? Volume2 : VolumeX} size={16} className="text-ink-3" />
+                {audio.mutedUsers.has(memberMenu.id) ? t('Unmute') : t('Mute')}
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={() => {
+                void block(memberMenu.id)
+                setMemberMenu(null)
+              }}
+              className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] text-danger transition-colors hover:bg-inset"
+            >
+              <Icon icon={Ban} size={16} />
+              {t('Block')}
             </button>
           </div>
         </Dialog>

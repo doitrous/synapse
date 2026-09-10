@@ -287,7 +287,7 @@ export function FriendsSection({
   const { create } = useStudyRoomActions()
   const { reload: reloadRooms } = useMyRooms()
   const {
-    friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite,
+    friends, incoming, outgoing, blocked, respond, remove, request, block, unblock, searchDirectory, mintInvite, redeemInvite,
     linkFacebook, matchFacebook,
   } = useFriends()
   const { challenges, reload: reloadChallenges } = useMyChallenges()
@@ -364,12 +364,15 @@ export function FriendsSection({
             friends={friends}
             incoming={incoming}
             outgoing={outgoing}
+            blocked={blocked}
             onRespond={respond}
             onRemove={remove}
             onStudyTogether={handleStudyTogether}
             onChallenge={setChallengeTarget}
             onCreateInvite={mintInvite}
             onRequest={request}
+            onBlock={block}
+            onUnblock={unblock}
             onSearchDirectory={searchDirectory}
             onConnectFacebook={linkFacebook}
             onMatchFacebook={matchFacebook}
