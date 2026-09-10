@@ -4,8 +4,10 @@
  * A room polled every four seconds cannot carry a conversation: WebRTC needs
  * sub-second, bidirectional exchange of transport parameters, and "who is
  * speaking" arrives and leaves faster than a poll can see. So a room has one
- * WebSocket, and it carries three things — who is in the room, who is talking,
- * and the SFU negotiation in `roomsSfu.js`.
+ * WebSocket, and it carries four things — who is in the room, who is talking,
+ * the SFU negotiation in `roomsSfu.js`, and now the chat relayed below (public
+ * or, addressed with `to`, whispered to one member — never stored, exactly as
+ * ephemeral as the room itself).
  *
  * The hub below knows nothing about `ws`. It takes clients that can `send` an
  * object and `close`, and a `readRoom` function, which is what lets the
@@ -21,8 +23,13 @@
  * has leaked.
  */
 
+import { randomUUID } from 'node:crypto'
+
 /** How often a socket is pinged, and every room re-checked. */
 export const PING_MS = 25_000
+
+/** A chat message longer than this is not a message, it is an attack on every reader's screen. */
+export const MAX_CHAT_LENGTH = 2000
 
 /**
  * The largest frame this endpoint will accept.
@@ -133,6 +140,18 @@ export function createRoomHub({ readRoom, sfu, onError = () => {} }) {
     for (const client of [...socketsIn(roomId)]) {
       if (client === except) continue
       post(client, message)
+    }
+  }
+
+  /**
+   * Deliver a message to every socket a given member has open in this room —
+   * a private chat's only audience. A member with the room open in two tabs
+   * gets the whisper in both; a member with none open simply does not, and
+   * that is not an error, it is the whole point of "private".
+   */
+  function postToUser(roomId, userId, message) {
+    for (const client of [...socketsIn(roomId)]) {
+      if (client.userId === userId) post(client, message)
     }
   }
 
@@ -347,6 +366,38 @@ export function createRoomHub({ readRoom, sfu, onError = () => {} }) {
             userId: client.userId,
             speaking: Boolean(message.speaking),
           })
+          return
+        }
+
+        case 'chat': {
+          // Ephemeral by design, like the room itself: relayed to whoever is
+          // here right now and never written down. A blank or oversized frame
+          // is dropped rather than answered — a chat box is not a place to
+          // hand an attacker a way to probe the server's error path.
+          const text = typeof message.text === 'string' ? message.text.trim() : ''
+          if (!text || text.length > MAX_CHAT_LENGTH) return
+          const outgoing = {
+            type: 'chat',
+            id: randomUUID(),
+            // Never the client's word for who they are — only the identity the
+            // socket was authenticated with.
+            from: client.userId,
+            text,
+            at: new Date().toISOString(),
+          }
+          if (typeof message.to === 'string' && message.to) {
+            // Private: only the addressed member's sockets, plus an echo to
+            // the sender so they see their own message land — even when the
+            // target has nobody in the room to receive it.
+            const whisper = { ...outgoing, private: true, to: message.to }
+            postToUser(client.roomId, message.to, whisper)
+            if (message.to !== client.userId) post(client, whisper)
+          } else {
+            // Public: the whole room, sender included, so a client that
+            // reconnects mid-conversation is told the same thing everyone else
+            // was told.
+            broadcast(client.roomId, outgoing)
+          }
           return
         }
 

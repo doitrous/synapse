@@ -169,6 +169,67 @@ test('an unknown message type is ignored rather than answered or fatal', async (
   assert.equal(a.sent.length, before)
 })
 
+/* ── Chat ────────────────────────────────────────────────────────────────── */
+
+test('a public chat reaches the whole room, sender included', async () => {
+  const hub = hubWith()
+  const a = stubClient('R1', 'a')
+  const b = stubClient('R1', 'b')
+  await hub.add(a)
+  await hub.add(b)
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: 'hi everyone' }))
+  assert.equal(a.lastOf('chat').text, 'hi everyone')
+  assert.equal(a.lastOf('chat').from, 'a')
+  assert.equal(b.lastOf('chat').text, 'hi everyone')
+  assert.equal(a.lastOf('chat').private, undefined)
+})
+
+test('a private chat reaches only the addressed member and the sender', async () => {
+  const hub = hubWith({ roster: ['a', 'b', 'c'] })
+  const a = stubClient('R1', 'a')
+  const b = stubClient('R1', 'b')
+  const c = stubClient('R1', 'c')
+  await hub.add(a)
+  await hub.add(b)
+  await hub.add(c)
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: 'just us', to: 'b' }))
+  assert.deepEqual(b.lastOf('chat'), { ...a.lastOf('chat') })
+  assert.equal(a.lastOf('chat').private, true)
+  assert.equal(a.lastOf('chat').to, 'b')
+  assert.equal(c.lastOf('chat'), null)
+})
+
+test('a private chat to somebody with no socket in the room still echoes to the sender', async () => {
+  const hub = hubWith({ roster: ['a', 'b'] })
+  const a = stubClient('R1', 'a')
+  await hub.add(a)
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: 'are you there', to: 'b' }))
+  assert.equal(a.lastOf('chat').text, 'are you there')
+  assert.equal(a.lastOf('chat').private, true)
+})
+
+test('a client cannot forge who a chat is from', async () => {
+  const hub = hubWith()
+  const a = stubClient('R1', 'a')
+  const b = stubClient('R1', 'b')
+  await hub.add(a)
+  await hub.add(b)
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: 'hi', from: 'b' }))
+  assert.equal(b.lastOf('chat').from, 'a')
+})
+
+test('a blank or oversized chat is dropped rather than relayed', async () => {
+  const hub = hubWith()
+  const a = stubClient('R1', 'a')
+  const b = stubClient('R1', 'b')
+  await hub.add(a)
+  await hub.add(b)
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: '   ' }))
+  await hub.receive(a, JSON.stringify({ type: 'chat', text: 'x'.repeat(2001) }))
+  assert.equal(b.lastOf('chat'), null)
+  assert.equal(a.lastOf('chat'), null)
+})
+
 /* ── Presence pushed from the HTTP routes ────────────────────────────────── */
 
 test('a seat change announced from a route reaches every open socket', async () => {

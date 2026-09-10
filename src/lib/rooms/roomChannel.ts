@@ -44,9 +44,25 @@ export type ChannelMessage =
   | { type: 'sfu:newProducer'; producerId: string; userId: string }
   | { type: 'sfu:producerClosed'; producerId: string; userId: string }
   | { type: 'sfu:unavailable'; requestId?: string | number; reason: string }
+  | { type: 'chat'; id: string; from: string; text: string; at: string; private?: boolean; to?: string }
   | { type: 'archived'; roomId: string }
   | { type: 'error'; requestId?: string | number; error: string }
   | { type: string; requestId?: string | number; [key: string]: unknown }
+
+/** One line of room chat, public or whispered to one member. */
+export interface ChatMessage {
+  id: string
+  from: string
+  text: string
+  at: string
+  /** Set when this line was addressed to one member rather than the room. */
+  private?: boolean
+  /** The addressed member's userId, present only alongside `private`. */
+  to?: string
+}
+
+/** The last this many chat lines are kept — a room's chat is not a transcript. */
+export const CHAT_HISTORY_LIMIT = 100
 
 /* ---- The room, as the channel knows it -------------------------------- */
 
@@ -66,6 +82,13 @@ export interface RoomChannelState {
   producers: ChannelProducer[]
   /** Null until `hello`. `available: false` carries the reason the room shows. */
   sfu: { available: boolean; reason?: string; iceServers?: RTCIceServer[] } | null
+  /**
+   * The room's chat, oldest first, capped at `CHAT_HISTORY_LIMIT`.
+   *
+   * Ephemeral like everything else here: nothing is persisted, so a reload
+   * starts this list empty again, the same way `speaking` does.
+   */
+  messages: ChatMessage[]
   /**
    * The room was archived, or is gone. The socket is closed for good and the
    * page has to re-read the party rather than sit in a room that no longer
@@ -89,6 +112,7 @@ export const initialChannelState: RoomChannelState = {
   speaking: [],
   producers: [],
   sfu: null,
+  messages: [],
   archived: false,
   retrying: false,
 }
@@ -212,6 +236,17 @@ function reduceMessage(state: RoomChannelState, message: ChannelMessage): RoomCh
     case 'sfu:unavailable': {
       const { reason } = message as Extract<ChannelMessage, { type: 'sfu:unavailable' }>
       return { ...state, sfu: { available: false, reason } }
+    }
+
+    case 'chat': {
+      const chat = message as Extract<ChannelMessage, { type: 'chat' }>
+      if (typeof chat.id !== 'string' || typeof chat.from !== 'string' || typeof chat.text !== 'string') return state
+      // The sender's own echo of a message it already appended optimistically
+      // would otherwise double it — the last line is the only one worth
+      // checking, since a chat box never gets the same id out of order.
+      if (state.messages.at(-1)?.id === chat.id) return state
+      const line: ChatMessage = { id: chat.id, from: chat.from, text: chat.text, at: chat.at, ...(chat.private ? { private: true, to: chat.to } : {}) }
+      return { ...state, messages: [...state.messages, line].slice(-CHAT_HISTORY_LIMIT) }
     }
 
     default:

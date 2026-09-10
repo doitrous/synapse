@@ -117,6 +117,7 @@ export const AR_ROOMS: Record<string, string> = {
 
   // ---- Seat customiser ---------------------------------------------------
   'Customise your seat': 'خصّص مقعدك',
+  'Open member options': 'افتح خيارات العضو',
   'Everyone in the room sees the desk you choose.': 'كل من في الغرفة يرى المكتب الذي تختاره.',
   'Your seat': 'مقعدك',
   'Save seat': 'احفظ المقعد',
@@ -298,4 +299,15 @@ export const AR_ROOMS: Record<string, string> = {
   'Off by default': 'معطّل افتراضيًا',
   'Students opt in before they can appear here or browse classmates in the same university and year.':
     'يوافق الطلاب صراحةً قبل أن يظهروا هنا أو يتصفّحوا زملاء الجامعة والسنة نفسها.',
+
+  // ---- Room chat -----------------------------------------------------------
+  'Chat': 'الدردشة',
+  'To': 'إلى',
+  'From': 'من',
+  'Private': 'خاصة',
+  'Message everyone instead': 'راسل الجميع بدلاً من ذلك',
+  'No messages yet. Say hello.': 'لا رسائل بعد. قل مرحبًا.',
+  'Message privately…': 'راسل بشكل خاص…',
+  'Message the room…': 'راسل الغرفة…',
+  'Message privately': 'راسل بشكل خاص',
 }

@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { ArrowLeft, Check, Copy, Hash, Info, Link2 } from 'lucide-react'
+import { ArrowLeft, Check, Copy, Hash, Info, Link2, MessageCircle } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
+import { Dialog } from '@/components/ui/Dialog'
 import { PartyPage } from '@/components/social/PartyPage'
 import { DemoPartiesPreview } from '@/components/social/DemoCollaborationPreview'
 import { useParty, type PartyMember } from '@/lib/useParties'
@@ -24,6 +25,7 @@ import { demoRoomById, demoRoomSeats } from '@/lib/rooms/demoRoom'
 import { StudyHall } from './StudyHall'
 import { RoomControls } from './RoomControls'
 import { SeatCustomiser } from './SeatCustomiser'
+import { ChatBox, type ChatTarget } from './ChatBox'
 
 /** How often the hall re-reads its own clock, so a seat dims when its 90 s runs out. */
 const TICK_MS = 15_000
@@ -116,6 +118,12 @@ export function RoomView({
   const [seat, setSeat] = useSeatPreference(demo ? null : roomCode)
   const [customising, setCustomising] = useState(false)
   const [copied, copy] = useCopyFlash()
+
+  // Clicking a desk that is not yours opens this instead of the customiser —
+  // one action today (message privately), structured as a list so mute and
+  // block have somewhere to land without a second menu component.
+  const [memberMenu, setMemberMenu] = useState<SeatOccupant | null>(null)
+  const [chatTarget, setChatTarget] = useState<ChatTarget | null>(null)
 
   const selfId = identity.userId ?? 'self'
   const selfName = identity.displayName || t('You')
@@ -224,7 +232,11 @@ export function RoomView({
               seats={desks}
               selfId={selfId}
               capacity={capacity}
-              onSeatClick={() => setCustomising(true)}
+              onSeatClick={(occupant) => {
+                if (!occupant) return
+                if (occupant.id === selfId) setCustomising(true)
+                else setMemberMenu(occupant)
+              }}
             />
             <p className="mt-3 flex items-start gap-2 text-[12px] leading-relaxed text-ink-3">
               <Icon icon={Info} size={14} className="mt-0.5" />
@@ -239,15 +251,52 @@ export function RoomView({
           </div>
         </Panel>
 
-        <RoomControls
-          audio={audio}
-          occupants={occupants}
-          selfId={selfId}
-          onCustomise={() => setCustomising(true)}
-          onLeave={onLeave}
-          leaveLabel={t('Leave room')}
-        />
+        <div className="space-y-4">
+          <RoomControls
+            audio={audio}
+            occupants={occupants}
+            selfId={selfId}
+            onCustomise={() => setCustomising(true)}
+            onLeave={onLeave}
+            leaveLabel={t('Leave room')}
+          />
+
+          {/* Chat needs the live socket relaying it — a demo room has none,
+              so it shows nothing here rather than a box that can never send. */}
+          {channel && (
+            <ChatBox
+              messages={channel.messages}
+              selfId={selfId}
+              selfName={selfName}
+              members={members}
+              target={chatTarget}
+              onClearTarget={() => setChatTarget(null)}
+              onSend={(text, toUserId) => channel.sendChat(text, toUserId)}
+            />
+          )}
+        </div>
       </div>
+
+      {memberMenu && (
+        <Dialog label={memberMenu.name} size="sm" onClose={() => setMemberMenu(null)}>
+          <PanelHeader title={memberMenu.name} icon={MessageCircle} />
+          <div className="grid gap-1 p-2">
+            {/* ponytail: one action today. Mute and block are a later task —
+                this is the same list they get appended to, not a new menu. */}
+            <button
+              type="button"
+              onClick={() => {
+                setChatTarget({ id: memberMenu.id, name: memberMenu.name })
+                setMemberMenu(null)
+              }}
+              className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] text-ink transition-colors hover:bg-inset"
+            >
+              <Icon icon={MessageCircle} size={16} className="text-ink-3" />
+              {t('Message privately')}
+            </button>
+          </div>
+        </Dialog>
+      )}
 
       {/* Everything a study party could already do, unchanged. */}
       {demo ? (

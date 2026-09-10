@@ -8,6 +8,7 @@ import {
   type ChannelMember,
   type ChannelProducer,
   type ChannelStatus,
+  type ChatMessage,
   type RoomChannelState,
 } from './roomChannel'
 
@@ -45,6 +46,8 @@ export interface RoomChannel {
   speaking: Set<string>
   producers: ChannelProducer[]
   sfu: RoomChannelState['sfu']
+  /** The room's chat, oldest first. Empty and reset on every reload — nothing here is persisted. */
+  messages: ChatMessage[]
   /** True while presence from this socket should be preferred over polling. */
   connected: boolean
   /** The room was archived or deleted; the page should re-read the party. */
@@ -55,6 +58,8 @@ export interface RoomChannel {
   send(message: Record<string, unknown>): void
   /** Ask and wait. Rejects if the socket closes or the answer never comes. */
   request<T = Record<string, unknown>>(message: Record<string, unknown>): Promise<T>
+  /** Send a chat line to the whole room, or — with `toUserId` — to one member alone. */
+  sendChat(text: string, toUserId?: string): void
 }
 
 interface Pending {
@@ -208,6 +213,12 @@ export function useRoomChannel(code: string | null): RoomChannel {
     })
   }, [])
 
+  const sendChat = useCallback((text: string, toUserId?: string) => {
+    const trimmed = text.trim()
+    if (!trimmed) return
+    send({ type: 'chat', text: trimmed, ...(toUserId ? { to: toUserId } : {}) })
+  }, [send])
+
   const speaking = useMemo(() => new Set(state.speaking), [state.speaking])
 
   return {
@@ -216,10 +227,12 @@ export function useRoomChannel(code: string | null): RoomChannel {
     speaking,
     producers: state.producers,
     sfu: state.sfu,
+    messages: state.messages,
     connected: state.status === 'open',
     archived: state.archived,
     retrying: state.retrying,
     send,
     request,
+    sendChat,
   }
 }

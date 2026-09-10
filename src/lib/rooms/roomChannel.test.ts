@@ -85,6 +85,39 @@ test('a speaking frame that says what the room already knew changes nothing at a
   assert.equal(apply(seeded, { type: 'speaking', userId: 'z', speaking: false }), seeded)
 })
 
+/* ---- Chat ---------------------------------------------------------------- */
+
+test('a public chat appends to the room history', () => {
+  const state = apply(initialChannelState, { type: 'chat', id: 'm1', from: 'a', text: 'hi all', at: '2026-01-01T00:00:00Z' })
+  assert.deepEqual(state.messages, [{ id: 'm1', from: 'a', text: 'hi all', at: '2026-01-01T00:00:00Z' }])
+})
+
+test('a private chat carries who it is to, marked private', () => {
+  const state = apply(initialChannelState, {
+    type: 'chat', id: 'm1', from: 'a', text: 'just us', at: '2026-01-01T00:00:00Z', private: true, to: 'b',
+  })
+  assert.deepEqual(state.messages, [
+    { id: 'm1', from: 'a', text: 'just us', at: '2026-01-01T00:00:00Z', private: true, to: 'b' },
+  ])
+})
+
+test('chat history holds only the last 100 lines', () => {
+  const messages: ChannelMessage[] = Array.from({ length: 120 }, (_, i) => (
+    { type: 'chat', id: `m${i}`, from: 'a', text: `line ${i}`, at: '2026-01-01T00:00:00Z' } as ChannelMessage
+  ))
+  const state = apply(initialChannelState, ...messages)
+  assert.equal(state.messages.length, 100)
+  assert.equal(state.messages[0]?.id, 'm20')
+  assert.equal(state.messages.at(-1)?.id, 'm119')
+})
+
+test('the sender\'s own echo does not double the line', () => {
+  const first = apply(initialChannelState, { type: 'chat', id: 'm1', from: 'a', text: 'hi', at: 't' })
+  const echoed = apply(first, { type: 'chat', id: 'm1', from: 'a', text: 'hi', at: 't' })
+  assert.equal(echoed, first)
+  assert.equal(echoed.messages.length, 1)
+})
+
 /* ---- The SFU ----------------------------------------------------------- */
 
 test('hello carries whether there is any voice at all', () => {
