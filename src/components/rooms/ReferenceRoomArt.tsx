@@ -67,7 +67,7 @@ export function ReferenceArchitecture({height=1020,roomStyle='campus',id,hasDisc
     {Array.from({length:35},(_,i)=><ellipse key={i} cx={12+(i*47)%84} cy={25+(i*91)%650} rx={10+i%4*3} ry={5+i%3*4} transform={`rotate(${i*29} ${12+(i*47)%84} ${25+(i*91)%650})`} fill={['#849774','#a2af8d','#c3cba9'][i%3]} opacity=".55"/>)}
     {!courtyard&&[0,1,2,3].map(i=><g key={i}><path d={`M${14+i*29} 0V${height-160-i*190}`} stroke="#f5f4ed" strokeWidth="7"/><path d={`M${19+i*29} 0V${height-165-i*190}`} stroke="#a6ada9" strokeWidth="1.5"/></g>)}
     {!courtyard&&[170,350,540].map(y=><path key={y} d={`M8 ${y+100}L105 ${y*.28}`} stroke="#fafaf5" strokeWidth="7"/>)}
-    {courtyard&&<g>{[120,340,560].map(y=><g key={y}><path d={`M6 ${y+130}V${y}Q50 ${y-70}104 ${y-100}V${y+45}`} fill="none" stroke="#e8ddc6" strokeWidth="19"/><path d={`M7 ${y+130}L110 ${y+46}`} stroke="#d6c7ae" strokeWidth="9"/></g>)}</g>}
+    {courtyard&&<g>{[120,340,560].map(y=><g key={y}><path d={`M6 ${y+130}V${y}Q50 ${y-70} 104 ${y-100}V${y+45}`} fill="none" stroke="#e8ddc6" strokeWidth="19"/><path d={`M7 ${y+130}L110 ${y+46}`} stroke="#d6c7ae" strokeWidth="9"/></g>)}</g>}
     <path d={`M108 183L0 ${height-50}`} stroke="#eeece4" strokeWidth="12"/>
     <path d={`M504 245H575L634 ${height}H435Z`} fill="#bcc2c5" opacity=".69"/>
     {[340,555,765].map(y=><path key={y} d={`M35 ${y}L365 ${y+90}L390 ${y+135}L24 ${y+40}Z`} fill="#fff" opacity=".34"/>)}
