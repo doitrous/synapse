@@ -12,7 +12,7 @@ const USER_OWNED_PATTERNS = [
   // Left out of this list it would be routed to the shared catalogue store,
   // which only an admin may write — so every save a student made would be
   // refused by the server and dropped.
-  /^nishany\.library\.(read|userArticles|personalTags|marks)/,
+  /^nishany\.library\.(read|userArticles|personalTags|marks|held)/,
   /^nishany\.account\./,
   // Question-of-the-day answers made offline, waiting to be submitted. Missing
   // from this list they went to the shared store and every student read got 403.
@@ -60,6 +60,10 @@ const USER_OWNED_PATTERNS = [
   // it is not to be confused with `nishany-tutorial-videos-v1` — the undotted,
   // admin-written document holding the video links every student reads.
   /^nishany\.tutorial\./,
+  // The student's own "let classmates find me" preview toggle in the study
+  // rooms. Per-student, so it must be user-owned: routed to the shared store it
+  // 403'd on every read and took the whole study-rooms page down with it.
+  /^nishany\.discoverability\./,
 ]
 
 export function isUserOwnedState(key: string): boolean {
