@@ -7,6 +7,8 @@ import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RedirectWithSearch } from '@/components/shell/RedirectWithSearch'
 import { RequireAuth } from '@/components/auth/RequireAuth'
+import { RequirePlan } from '@/components/auth/RequirePlan'
+import { FREE_STUDENT_PATHS } from '@/lib/entitlement'
 import { RequireImportKind } from '@/components/auth/RequireImportKind'
 import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
 import { useIdentity } from '@/lib/useIdentity'
@@ -183,6 +185,7 @@ const Practice = lazyNamed(() => import('@/pages/student/Practice'), 'Practice')
 const Revise = lazyNamed(() => import('@/pages/student/Revise'), 'Revise')
 const QuestionOfTheDay = lazyNamed(() => import('@/pages/student/QuestionOfTheDay'), 'QuestionOfTheDay')
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
+const Upgrade = lazyNamed(() => import('@/pages/student/Upgrade'), 'Upgrade')
 
 const PlatformDashboard = lazyNamed(() => import('@/pages/admin/PlatformDashboard'), 'PlatformDashboard')
 const AcademicSetup = lazyNamed(() => import('@/pages/admin/AcademicSetup'), 'AcademicSetup')
@@ -316,12 +319,22 @@ const studentRedirects = [
   { path: 'question-notes', element: <RedirectWithSearch to="/app/notebook?tab=questions" /> },
 ]
 
+/**
+ * Close a gated student page behind an active subscription; leave the free ones
+ * open. `FREE_STUDENT_PATHS` is the single list of what stays reachable without
+ * a plan — the guard redirects everything else to `/app/upgrade`.
+ */
+const gateStudent = (path: string, element: ReactElement): ReactElement =>
+  FREE_STUDENT_PATHS.has(path) ? element : <RequirePlan>{element}</RequirePlan>
+
 const studentRoutes = [
-  ...studentPaths.map((path) => ({ path, element: studentBuilt[path] ?? render(Placeholder) })),
+  ...studentPaths.map((path) => ({ path, element: gateStudent(path, studentBuilt[path] ?? render(Placeholder)) })),
   ...studentRedirects,
+  // The paywall a gated page redirects to. Free by construction — never gated.
+  { path: 'upgrade', element: render(Upgrade) },
   // Reading a source is its own screen, not a modal over the catalogue: it owns
-  // the viewport, and it has to be linkable at a page.
-  { path: 'resources/:id', element: render(ResourceReader) },
+  // the viewport, and it has to be linkable at a page. Part of the library, so gated.
+  { path: 'resources/:id', element: <RequirePlan>{render(ResourceReader)}</RequirePlan> },
 ]
 /**
  * The tab that owns each admin path.

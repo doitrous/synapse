@@ -19,6 +19,7 @@ import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { PARTY_REFUSALS, usePartySession, usePartyActions, type PartySessionAnswer, type PartySessionItemRef } from '@/lib/useParties'
 import { formatDateTime } from '@/lib/format'
 import { useT } from '@/lib/i18n'
+import { ActivityLocked, useActivityLocked } from '@/components/auth/ActivityLocked'
 
 function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
@@ -150,6 +151,7 @@ function EssayItemBody({ essay, busy, onDone, t }: { essay: EssayQuestion; busy:
  */
 export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; onExit: () => void }) {
   const t = useT()
+  const locked = useActivityLocked()
   const { session, error, reload } = usePartySession(sessionId)
   const { answer } = usePartyActions()
   const { record } = useMastery()
@@ -172,6 +174,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
 
+  if (locked) return <ActivityLocked />
   if (error) {
     return (
       <Panel className="p-8 text-center">
