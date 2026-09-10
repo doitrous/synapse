@@ -81,3 +81,6 @@ __pycache__/
 
 # scripts/content/gate.mjs writes each gate's full output here (derived, large)
 .gates/
+
+# graphify code-graph output (37M, derived from AST — regenerate with `graphify update .`)
+graphify-out/
