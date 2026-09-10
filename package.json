@@ -54,7 +54,7 @@
     "fzstd": "^0.1.1",
     "lexical": "^0.49.0",
     "lucide-react": "^1.28.0",
-    "mediasoup-client": "3.23.1",
+    "mediasoup-client": "^3.23.1",
     "pdfjs-dist": "6.2.108",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
