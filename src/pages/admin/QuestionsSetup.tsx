@@ -164,9 +164,13 @@ export function QuestionsSetup({ allKinds = false }: { allKinds?: boolean } = {}
                 ? (allKinds ? 'All content — every kind, every university and year' : 'Master Question Bank — every question')
                 : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
             </div>
+            {/* No scope in the key: ControlDashboard reads scope/view from props and
+                resets its own paging on scope change, so switching university/year
+                keeps the component mounted instead of rebuilding the facet index
+                (built over every question) on each click. */}
             {allKinds
-              ? <ControlDashboard key={`content-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} scope={scope} />
-              : <ControlDashboard key={`${view}-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} questionView={view} archiveControl="external" />}
+              ? <ControlDashboard scope={scope} />
+              : <ControlDashboard initialKind="question" lockedKind questionScope={scope} questionView={view} archiveControl="external" />}
           </>
         )}
       </div>

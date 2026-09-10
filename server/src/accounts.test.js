@@ -3,10 +3,42 @@ import assert from 'node:assert/strict'
 import {
   entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem,
   isProfileComplete, saveOwnEnrolment, normaliseStatusMessage, normaliseTimezone, usernameAvailability,
+  grantsAccess, callerHasActiveAccess,
 } from './accounts.js'
 import { pool } from './db.js'
 
 const NOW = new Date('2026-08-13T12:00:00Z')
+
+test('grantsAccess: only a live trial or paid plan opens the app', () => {
+  assert.equal(grantsAccess({ state: 'active' }), true)
+  assert.equal(grantsAccess({ state: 'trialing' }), true)
+  assert.equal(grantsAccess({ state: 'expired' }), false)
+  assert.equal(grantsAccess({ state: 'cancelled' }), false)
+  assert.equal(grantsAccess({ state: 'none' }), false)
+})
+
+test('callerHasActiveAccess: a console role passes without touching the subscription table', async (t) => {
+  let queried = false
+  t.mock.method(pool, 'query', async () => { queried = true; return [[]] })
+  assert.equal(await callerHasActiveAccess({ id: 'staff-1', role: 'editor' }), true)
+  assert.equal(queried, false)
+})
+
+test('callerHasActiveAccess: a student needs a live subscription', async (t) => {
+  t.mock.method(pool, 'query', async () => [[{ plan: 'QBank', status: 'active', expires_at: '2999-01-01T00:00:00Z' }]])
+  assert.equal(await callerHasActiveAccess({ id: 'stu-1', role: 'student' }), true)
+})
+
+test('callerHasActiveAccess: an expired subscription does not grant access', async (t) => {
+  t.mock.method(pool, 'query', async () => [[{ plan: 'QBank', status: 'active', expires_at: '2020-01-01T00:00:00Z' }]])
+  assert.equal(await callerHasActiveAccess({ id: 'stu-2', role: 'student' }), false)
+})
+
+test('callerHasActiveAccess: a student with no subscription row is refused, and no identity is refused', async (t) => {
+  t.mock.method(pool, 'query', async () => [[]])
+  assert.equal(await callerHasActiveAccess({ id: 'stu-3', role: 'student' }), false)
+  assert.equal(await callerHasActiveAccess(null), false)
+})
 
 test('a subscription past its expiry reads as expired even while stored active', () => {
   // Status is written once and time keeps moving. If expiry were trusted only

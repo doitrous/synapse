@@ -12,6 +12,7 @@ import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { useChallenge, useChallengeActions } from '@/lib/useChallenges'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
+import { ActivityLocked, useActivityLocked } from '@/components/auth/ActivityLocked'
 
 /**
  * Sit a challenge, one question at a time.
@@ -25,6 +26,7 @@ import { useT } from '@/lib/i18n'
  */
 export function ChallengeRunner({ challengeId, onExit }: { challengeId: string; onExit: () => void }) {
   const t = useT()
+  const locked = useActivityLocked()
   const questions = usePublishedQuestions()
   const { challenge, reload } = useChallenge(challengeId)
   const { answer, finish } = useChallengeActions()
@@ -44,6 +46,7 @@ export function ChallengeRunner({ challengeId, onExit }: { challengeId: string; 
   const byId = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
   const answeredIds = useMemo(() => new Set(challenge?.myAnswers.map((entry) => entry.questionId) ?? []), [challenge])
 
+  if (locked) return <ActivityLocked />
   if (!challenge) {
     return <ContentSkeleton shape="question" />
   }

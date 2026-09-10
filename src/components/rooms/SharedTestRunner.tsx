@@ -15,6 +15,7 @@ import { attemptSeconds } from '@/data/attempts'
 import { useRoom, useStudyRoomActions } from '@/lib/useStudyRooms'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
+import { ActivityLocked, useActivityLocked } from '@/components/auth/ActivityLocked'
 
 /**
  * Sit a shared test, one question at a time.
@@ -28,6 +29,7 @@ import { useT } from '@/lib/i18n'
  */
 export function SharedTestRunner({ roomId, onExit }: { roomId: string; onExit: () => void }) {
   const t = useT()
+  const locked = useActivityLocked()
   const questions = usePublishedQuestions()
   const { room, reload } = useRoom(roomId)
   const { start, answer, finish } = useStudyRoomActions()
@@ -58,6 +60,7 @@ export function SharedTestRunner({ roomId, onExit }: { roomId: string; onExit: (
   const questionShownAt = useRef(Date.now())
   useEffect(() => { questionShownAt.current = Date.now() }, [currentId])
 
+  if (locked) return <ActivityLocked />
   if (!room) {
     return <ContentSkeleton shape="question" />
   }

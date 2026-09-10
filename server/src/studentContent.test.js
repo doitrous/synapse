@@ -100,9 +100,19 @@ function rowsAt(version) {
   ]
 }
 
-/** The two queries this module makes: the version snapshot, and the caller's cohort. */
-function stubPool(version, profile) {
-  pool.query = async (sql) => (/FROM students/.test(sql) ? [profile ? [profile] : []] : [rowsAt(version)])
+/**
+ * The queries these handlers make: the version snapshot, the caller's cohort,
+ * and — since content is subscription-gated — the caller's subscription. The
+ * subscription query joins `subscriptions`, which is how it is told apart from
+ * the plain cohort read. Defaults to a live subscription so a test that is about
+ * audience or redaction is not also forced to spell one out.
+ */
+function stubPool(version, profile, subscription) {
+  pool.query = async (sql) => {
+    if (/JOIN subscriptions/.test(sql)) return [subscription ? [subscription] : []]
+    if (/FROM students/.test(sql)) return [profile ? [profile] : []]
+    return [rowsAt(version)]
+  }
 }
 
 function fakeRes() {
@@ -131,9 +141,9 @@ async function call(handler, { query = {}, params = {}, role = 'student', header
 
 const OMS_STUDENT = { universityId: 'OMS', year: '1', yearId: 'OMS_Y1' }
 
-async function withLedger(fn, { version = 1, profile = OMS_STUDENT } = {}) {
+async function withLedger(fn, { version = 1, profile = OMS_STUDENT, subscription = { plan: 'QBank', status: 'active', expires_at: null } } = {}) {
   const original = pool.query
-  stubPool(version, profile)
+  stubPool(version, profile, subscription)
   invalidateStudentContent(LEDGER_KEY)
   try { await fn() } finally {
     pool.query = original
@@ -289,4 +299,33 @@ test('a student with no enrolment on record still sees the catalogue', async () 
     const res = await call(itemsHandler, { query: { kind: 'resource' } })
     assert.deepEqual(res.body.items.map((item) => item.id).sort(), ['r-alx', 'r-oms'])
   }, { profile: null })
+})
+
+test('a student without a subscription is refused answerable content but keeps the free views', async () => {
+  await withLedger(async () => {
+    // Full questions, full slices and a single item all carry the paid product.
+    assert.equal((await call(questionsHandler)).statusCode, 402)
+    assert.equal((await call(itemsHandler, { query: { kind: 'resource' } })).statusCode, 402)
+    assert.equal((await call(itemHandler, { params: { id: 'r-oms' } })).statusCode, 402)
+    // The dashboard's views carry no answers, so they stay open.
+    assert.equal((await call(summaryHandler)).statusCode, 200)
+    assert.equal((await call(questionsHandler, { query: { view: 'summary' } })).statusCode, 200)
+    assert.equal((await call(itemsHandler, { query: { kind: 'article', view: 'index' } })).statusCode, 200)
+  }, { subscription: null })
+})
+
+test('a lapsed student cannot use a single-item read to probe which ids exist', async () => {
+  await withLedger(async () => {
+    // Gated before the id is even looked up: a real id and a nonexistent one
+    // both return 402, so the read is never an existence oracle for a cohort.
+    assert.equal((await call(itemHandler, { params: { id: 'does-not-exist' } })).statusCode, 402)
+    assert.equal((await call(itemHandler, { params: { id: 'r-oms' } })).statusCode, 402)
+  }, { subscription: null })
+})
+
+test('a subscribed student still gets 404 for a nonexistent single item', async () => {
+  await withLedger(async () => {
+    assert.equal((await call(itemHandler, { params: { id: 'does-not-exist' } })).statusCode, 404)
+    assert.equal((await call(itemHandler, { params: { id: 'r-oms' } })).statusCode, 200)
+  })
 })

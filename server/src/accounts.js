@@ -61,6 +61,39 @@ export function entitlementOf(row, now = new Date()) {
   return { state: row.status === 'trialing' ? 'trialing' : 'active', plan: row.plan, expiresAt: row.expires_at, daysLeft }
 }
 
+/** Whether an entitlement currently grants access — a live trial or paid plan. */
+export function grantsAccess(entitlement) {
+  return entitlement.state === 'active' || entitlement.state === 'trialing'
+}
+
+/** The caller's current entitlement, from their latest non-cancelled subscription. */
+async function entitlementForUser(userId) {
+  const [rows] = await pool.query(
+    `SELECT sub.plan, sub.status, sub.expires_at
+       FROM students st JOIN subscriptions sub ON sub.student_id = st.id
+      WHERE st.user_id = ? AND sub.status <> 'cancelled'
+      ORDER BY sub.started_at DESC, sub.created_at DESC
+      LIMIT 1`,
+    [userId],
+  )
+  return entitlementOf(rows[0] ?? null)
+}
+
+/**
+ * Whether a signed-in user may open subscription-gated content right now.
+ *
+ * Console roles (an author or reviewer previewing what a student sees) always
+ * may — the same carve-out `audienceFor` makes. Everyone else needs a live
+ * trial or paid subscription. Mirrors the client's `hasActiveAccess`
+ * (src/lib/entitlement.ts) so the page a student can open and the content the
+ * server will serve never disagree.
+ */
+export async function callerHasActiveAccess(identity) {
+  if (!identity?.id) return false
+  if (hasConsoleAccess(identity.role)) return true
+  return grantsAccess(await entitlementForUser(identity.id))
+}
+
 /**
  * Where an extension starts from.
  *

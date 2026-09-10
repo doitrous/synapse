@@ -103,10 +103,13 @@ export function AdaptiveSetup() {
   )
   const blueprint = useResolvedBlueprint(scope)
 
-  const items = useMemo(() => {
-    const approved = adaptiveItemsFrom(catalogue)
-    return universityId ? approved.filter((item) => itemInScope(item, scope)) : approved
-  }, [catalogue, scope, universityId])
+  // Project the whole catalogue once. The projection resolves every item against
+  // the full catalogue, so it must not re-run each time the scope selector changes.
+  const approved = useMemo(() => adaptiveItemsFrom(catalogue), [catalogue])
+  const items = useMemo(
+    () => (universityId ? approved.filter((item) => itemInScope(item, scope)) : approved),
+    [approved, scope, universityId],
+  )
 
   const heldOut = useMemo(() => heldOutIds(items, registry, config), [items, registry, config])
 

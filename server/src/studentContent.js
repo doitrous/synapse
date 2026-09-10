@@ -25,6 +25,21 @@ import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentL
 import { itemModules, itemUniversities, itemYears, yearNumber } from './contentScope.js'
 import { requireAuthenticated } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
+import { callerHasActiveAccess } from './accounts.js'
+
+/**
+ * Answerable content — full questions with their answers, article and slice
+ * bodies, a single item — is the paid product and needs a live subscription.
+ * The non-answerable views (counts, `view=summary` stems, the article index,
+ * an id manifest) stay open: they carry nothing a student could study or answer
+ * from, and the free dashboard is built on them. Console roles preview
+ * everything. Returns true (and sends 402) when the caller may not have it.
+ */
+async function contentLocked(req, res) {
+  if (await callerHasActiveAccess(req.identity)) return false
+  res.status(402).json({ error: 'subscription_required' })
+  return true
+}
 
 const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
 const ACADEMIC_CATALOGUE_KEY = 'nishany-academic-universities-v1'
@@ -372,6 +387,9 @@ export async function itemsHandler(req, res) {
     })
   }
   if (!SLICE_KINDS.has(kind)) return res.status(400).json({ error: 'unsupported kind' })
+  // Full slice bodies (resources, practicals, essays, histology, decks) are the
+  // paid product; the id-manifest and article-index branches above are not.
+  if (await contentLocked(req, res)) return
   return sendVersioned(req, res, content.signature, {
     items: scoped(content.byKind.get(kind) ?? [], audience),
   })
@@ -401,6 +419,11 @@ export async function questionsHandler(req, res) {
     return sendVersioned(req, res, content.signature, { items: items.map(questionSummaryRow) })
   }
 
+  // Beyond here every question ships with its answers and explanations — the
+  // paid product. The summary branch above (the free dashboard's view) has
+  // already returned, so only a subscription-gated request reaches this.
+  if (await contentLocked(req, res)) return
+
   // `managedQuestionToStudentQuestion` resolves `libraryIds`/`resourceIds` to
   // titles against the whole catalogue. It gets the titles it needs and nothing
   // else, so the projection keeps working against a slice.
@@ -417,6 +440,10 @@ export async function questionsHandler(req, res) {
 }
 
 export async function itemHandler(req, res) {
+  // A single full item is answerable content, so the gate comes first: a lapsed
+  // student gets 402 for every id alike and so cannot use the 404-vs-hit split
+  // below as an oracle for which ids exist in their cohort.
+  if (await contentLocked(req, res)) return
   const content = await loadStudentContent()
   const item = content.byId.get(req.params.id)
   // One 404 for "no such item" and for "not yours": which of the two it is

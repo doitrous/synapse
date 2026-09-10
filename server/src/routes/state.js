@@ -2,6 +2,7 @@
  * The shared document store: what a student may read, when each document last
  * changed, and the guarded read/write/delete of one document.
  */
+import { callerHasActiveAccess } from '../accounts.js'
 import { heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin } from '../auth.js'
 import { CONTENT_REPORTS_STATE_KEY } from '../contentReports.js'
 import { pool } from '../db.js'
@@ -163,6 +164,13 @@ export function registerStateDocumentRoutes(app) {
     // field removed after delivery has already been delivered.
     const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(key)
     if (!authoring && key === CONTENT_LEDGER_STATE_KEY) {
+      // The whole published catalogue in one read: the paid product. The sliced
+      // `/api/content/*` routes gate this same content, so this legacy path must
+      // too, or it is a way straight around them. A live trial or subscription is
+      // required; console roles never reach here (they are `authoring`).
+      if (!(await callerHasActiveAccess(req.identity))) {
+        return res.status(402).json({ error: 'subscription_required' })
+      }
       // The whole-ledger read the sliced `/api/content/*` routes replace. Native
       // bundles still take this path, so it stays — logged so we can see who is
       // left on it before anyone proposes deleting it.
