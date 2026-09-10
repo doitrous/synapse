@@ -39,6 +39,16 @@ import './studyWorld.css'
 export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>void}) {
   const t=useT()
   const identity=useIdentity()
+  // Back doesn't just cut to the lobby: the hall shrinks toward the bottom-left
+  // corner where the floating room dock lives, so leaving reads as the room
+  // folding into its companion rather than blinking away. Reduced motion skips
+  // straight to the lobby.
+  const [collapsing,setCollapsing]=useState(false)
+  const minimiseWithCollapse=useCallback(()=>{
+    if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){onMinimise();return}
+    setCollapsing(true)
+    window.setTimeout(onMinimise,300)
+  },[onMinimise])
   const [configuredUniversities] = useUniversityCatalogue()
   const universities = configuredUniversities.length ? configuredUniversities : seededUniversities
   const universityName = universities.find(u => u.id === identity.audience.universityId)?.name
@@ -135,9 +145,9 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
   const liveChat=demo||!session.channel?null:{messages:session.channel.messages,selfId,nameFor:(id:string)=>people.find(p=>p.id===id)?.name||t('Student'),target:chatTarget,onClearTarget:()=>setChatTarget(null),onSend:(text:string,to?:string)=>session.channel!.sendChat(text,to)}
   const sendDemoMessage=()=>{if(chatDraft.trim()){setMessages(current=>[...current,{id:Date.now(),text:chatDraft.trim()}]);setChatDraft('')}}
   if(activitiesOpen)return <RoomActivities partyId={room.roomId} shared={sharedSeat} demo={demo} onClose={()=>setActivitiesOpen(false)}/>
-  return <div ref={worldRef} style={{'--room-fit-ratio':1000/illustratedLayout(world).height} as CSSProperties} role={focusMode?'dialog':undefined} aria-modal={focusMode||undefined} aria-label={focusMode?t('Focus mode'):undefined} tabIndex={-1} className={`study-world world-refined ${libraryLayout?'world-library-layout':''} ${focusMode?'world-focus-mode':''}`}>
+  return <div ref={worldRef} style={{'--room-fit-ratio':1000/illustratedLayout(world).height} as CSSProperties} role={focusMode?'dialog':undefined} aria-modal={focusMode||undefined} aria-label={focusMode?t('Focus mode'):undefined} tabIndex={-1} className={`study-world world-refined ${libraryLayout?'world-library-layout':''} ${focusMode?'world-focus-mode':''} ${collapsing?'is-collapsing':''}`}>
     <header className="world-header">
-      <div className="flex items-center gap-3"><Button size="sm" variant="ghost" aria-label={t('Back to rooms')} onClick={onMinimise}><ArrowLeft size={17}/></Button><div><h1 className="font-serif text-2xl">{t(roomName)}</h1><p className="text-xs text-ink-2 mt-1">{t(world.type)} · {people.length}/{world.capacity} {t('students')} · {world.capacity-people.length} {t('seats available')}</p></div></div>
+      <div className="flex items-center gap-3"><Button size="sm" variant="ghost" aria-label={t('Back to rooms')} onClick={minimiseWithCollapse}><ArrowLeft size={17}/></Button><div><h1 className="font-serif text-2xl">{t(roomName)}</h1><p className="text-xs text-ink-2 mt-1">{t(world.type)} · {people.length}/{world.capacity} {t('students')} · {world.capacity-people.length} {t('seats available')}</p></div></div>
       <div className="flex items-center gap-2"><Button variant="secondary" size="sm" onClick={()=>setActivitiesOpen(true)}>{t('Study together')}</Button><span className="world-room-code text-xs text-ink-2">{room.roomCode}</span><Button variant="ghost" size="sm" aria-label={t('Copy room link')} onClick={()=>void copyLink()}>{copied?<Check size={16}/>:<Copy size={16}/>}</Button><Button variant="secondary" size="sm" iconLeft={focusMode?Minimize2:Maximize2} onClick={()=>setFocusMode(!focusMode)}>{t(focusMode?'Exit focus':'Focus mode')}</Button></div>
     </header>
     {!online&&<p className="world-banner" role="status">{t('You are offline. Your focus timer still works; live presence and voice will reconnect when you are online.')}</p>}

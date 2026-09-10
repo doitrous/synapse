@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import './roomDock.css'
-import { clockText } from '@/lib/rooms/studyWorld'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDown, ChevronUp, ExternalLink, LogOut, Mic, MicOff, Volume2, Pause, Play, Coffee, Hand, BookOpen, Layers, Brain } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
@@ -8,6 +7,7 @@ import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
+import { usePomodoro } from '@/components/shell/PomodoroTimer'
 
 /** First letters of the first two words — the hall's own initials, kept in step. */
 function initials(name: string): string {
@@ -36,6 +36,8 @@ export function RoomDock({railed,focusMode}: { railed: boolean; focusMode: boole
   const navigate = useNavigate()
   const identity = useIdentity()
   const session = useRoomSession()
+  const timer = usePomodoro()
+  const startTimer = () => { if (!timer) return; if (!timer.running && timer.current.mode !== 'focus') timer.selectMode('focus'); timer.startPause() }
 
   const dockRef=useRef<HTMLElement>(null)
   const [dockHeight,setDockHeight]=useState(82)
@@ -102,7 +104,7 @@ export function RoomDock({railed,focusMode}: { railed: boolean; focusMode: boole
             <span className="block truncate text-[13.5px] font-semibold leading-tight text-ink">{name}</span>
             {session.study.focus.goal && <span className="block truncate text-xs text-ink-2">{session.study.focus.goal}</span>}
             <span className="mt-0.5 block truncate text-[11.5px] text-ink-3">
-              <span className="font-mono tracking-[0.04em] text-ink-2">{clockText(Math.max(0, session.study.focus.durationMinutes * 60 - session.study.elapsed / 1000))}</span> · {t(session.study.focus.status)}
+              {timer && <><span className="font-mono tracking-[0.04em] text-ink-2">{timer.timeLabel}</span> · </>}{t(session.study.focus.status)}
               {reconnecting
                 ? <> · <span className="text-warning">{t('Reconnecting voice…')}</span></>
                 : someoneElseSpeaking
@@ -137,7 +139,7 @@ export function RoomDock({railed,focusMode}: { railed: boolean; focusMode: boole
         </div>
 
         <div className="room-companion-shortcuts" role="group" aria-label={t('Room shortcuts')}>
-          <button onClick={session.study.toggleTimer} title={t(session.study.focus.startedAt!==null?'Pause focus':'Start focus')} aria-label={t(session.study.focus.startedAt!==null?'Pause focus':'Start focus')}><Icon icon={session.study.focus.startedAt!==null?Pause:Play} size={16}/><span>{t(session.study.focus.startedAt!==null?'Pause':'Focus')}</span></button>
+          <button onClick={startTimer} title={t(timer?.running?'Pause focus':'Start focus')} aria-label={t(timer?.running?'Pause focus':'Start focus')}><Icon icon={timer?.running?Pause:Play} size={16}/><span>{t(timer?.running?'Pause':'Focus')}</span></button>
           <button onClick={()=>session.study.setStatus(session.study.focus.status==='On Break'?'Focusing':'On Break')} aria-pressed={session.study.focus.status==='On Break'}><Coffee size={16}/><span>{t('Break')}</span></button>
           <button onClick={()=>session.study.patch({handRaised:!session.study.focus.handRaised})} aria-pressed={session.study.focus.handRaised}><Hand size={16}/><span>{t('Hand')}</span></button>
           <button onClick={openRoom}><ExternalLink size={16}/><span>{t('Room')}</span></button>
