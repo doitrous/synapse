@@ -33,6 +33,14 @@ const STUDENT_READABLE_STATE = new Set([
   'nishany-academic-universities-v1',
   'nishany-course-curricula-v1',
   'nishany-module-schedules-v1',
+  // The by-module subject tree and the assessment/marks schemes. Admin-written
+  // from the curriculum tabs, read by `useStudentCurriculum` on the student
+  // side — so they belong here beside the other academic structures. Added
+  // late with the academic model and, until now, missing: the 403 they returned
+  // is what made the Question Bank, study rooms and dashboard show the
+  // boundary's "could not be loaded".
+  'nishany-module-subjects-v1',
+  'nishany-assessment-schemes-v1',
   'nishany-admin-content-ledger-v4',
   'nishany-concept-graph-v2',
   'nishany-relation-types-v1',
@@ -56,6 +64,9 @@ const STUDENT_READABLE_STATE = new Set([
   // The construction economy is set by an admin and explained on the student
   // dashboard. Students can read the multipliers but only Settings can write.
   'nishany-maristana-config-v1',
+  // The tutorial videos an admin curates; the dashboard's tutorial card plays
+  // them. Admin-written, student-read — its 403 broke the dashboard.
+  'nishany-tutorial-videos-v1',
   // Adaptive Study runs entirely on these three, on the student's own screen.
   // Admin-written and student-read: a student must not be able to edit the
   // thresholds they are judged by, but a page that cannot read them silently
@@ -63,6 +74,11 @@ const STUDENT_READABLE_STATE = new Set([
   'nishany-adaptive-config-v1',
   'nishany-adaptive-blueprints-v1',
   'nishany-adaptive-heldout-v1',
+  // Whether the answer-distribution bars are shown to students, and how. The
+  // Question Bank reads this to decide what to render; it is admin-written from
+  // Settings and student-read only. Without it here the read 403s and every
+  // page that reads it shows the boundary's "could not be loaded" instead.
+  'nishany-answer-stats-v1',
 ])
 
 export function registerStateManifestRoutes(app) {
