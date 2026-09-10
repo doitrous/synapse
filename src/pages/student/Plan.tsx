@@ -104,8 +104,8 @@ export function Plan() {
         <FeatureCard
           to="/app/performance"
           icon={LineChart}
-          title={t('Performance')}
-          description={t('How your accuracy is moving, where it slips, and when you actually study.')}
+          title={t('My Analytics')}
+          description={t('How well you are doing, where you slip, and when you study.')}
           progress={accuracy === null ? undefined : { kind: 'ring', value: Math.round(accuracy * 100), max: 100, label: t('first attempt'), tone: 'accent' }}
           stats={[
             { label: t('This week'), value: `${week} ${t('answered')}` },
@@ -113,7 +113,7 @@ export function Plan() {
           ]}
           status="coming-soon"
           comingSoon={{
-            body: t('Performance will report your whole record against your year’s blueprint — every surface, every subject, and where the next mark is most likely to come from. Until then it is a preview: the figures are computed from your own attempts, and they fill in as you answer.'),
+            body: t('This is your own study record — how much you have done and how well it is going. It is still a preview, and the numbers fill in as you answer more questions.'),
             previewHref: '/app/performance',
           }}
         />

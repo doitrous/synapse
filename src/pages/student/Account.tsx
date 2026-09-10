@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Bell, Check, ChevronDown, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
+import { Link, useNavigate } from 'react-router-dom'
+import { Bell, Check, ChevronDown, Download, KeyRound, Languages, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Target, TriangleAlert, Trash2, Upload, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button, ButtonAnchor } from '@/components/ui/Button'
@@ -17,8 +17,8 @@ import { useIdentity } from '@/lib/useIdentity'
 import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import { universities as seededUniversities, YEARS } from '@/data/universities'
-import { API_MODE, apiGet, apiPost, apiPut } from '@/lib/api'
-import { useT } from '@/lib/i18n'
+import { API_MODE, apiGet, apiPost, apiPut, apiDelete } from '@/lib/api'
+import { useT, useI18n, type Lang } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
 import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem } from '@/data/profileIcons'
@@ -45,11 +45,16 @@ function detectTimezone(): string {
 interface AccountPrefs {
   reviewReminders: boolean
   calendarReminders: boolean
+  /** Study preferences — kept on this device until a server field exists. */
+  dailyGoalQuestions: number
+  reminderTime: string
 }
 
 const DEFAULTS: AccountPrefs = {
   reviewReminders: true,
   calendarReminders: true,
+  dailyGoalQuestions: 30,
+  reminderTime: '19:00',
 }
 
 const ACCOUNT_PREFS_STORAGE_KEY = 'nishany.account.prefs.v1'
@@ -421,6 +426,72 @@ function ProfileIdentity() {
   )
 }
 
+interface EmailPref { key: string; label: string; description: string; subscribed: boolean }
+
+/** Shown in demo, where there is no server to read a real suppression list from. */
+const DEMO_EMAIL_PREFS: EmailPref[] = [
+  { key: 'Question of the Day', label: 'Daily study reminders', description: 'A nudge to keep your streak and answer the day’s question.', subscribed: true },
+  { key: 'announcement', label: 'News and announcements', description: 'New features, and the occasional important update.', subscribed: true },
+]
+
+/**
+ * Which emails a student wants. Reads and writes `/me/email-preferences`, which
+ * is backed by the same suppression list the mailer already checks before it
+ * sends — so turning one off here actually stops that mail. Account and billing
+ * email (receipts, password resets) is never listed: it is not a choice.
+ */
+function EmailPreferences() {
+  const t = useT()
+  const [prefs, setPrefs] = useState<EmailPref[] | null>(API_MODE ? null : DEMO_EMAIL_PREFS)
+
+  useEffect(() => {
+    if (!API_MODE) return
+    let alive = true
+    apiGet<{ categories: EmailPref[] }>('/me/email-preferences')
+      .then((r) => { if (alive) setPrefs(r.categories) })
+      .catch(() => { if (alive) setPrefs([]) })
+    return () => { alive = false }
+  }, [])
+
+  const toggle = async (key: string, subscribed: boolean) => {
+    if (!API_MODE) { setPrefs((p) => (p ?? []).map((x) => (x.key === key ? { ...x, subscribed } : x))); return }
+    // Optimistic: flip now, reconcile with the server's authoritative list.
+    setPrefs((p) => (p ?? []).map((x) => (x.key === key ? { ...x, subscribed } : x)))
+    try {
+      const r = await apiPut<{ categories: EmailPref[] }>('/me/email-preferences', { category: key, subscribed })
+      setPrefs(r.categories)
+    } catch {
+      setPrefs((p) => (p ?? []).map((x) => (x.key === key ? { ...x, subscribed: !subscribed } : x)))
+    }
+  }
+
+  return (
+    <div className="border-t border-line px-5 py-1">
+      <p className="pt-3 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Email')}</p>
+      {prefs === null ? (
+        <p className="py-3.5 text-[12px] text-ink-3">{t('Loading…')}</p>
+      ) : prefs.length === 0 ? (
+        <p className="py-3.5 text-[12px] text-ink-3">{t('Nishany only emails you about your account.')}</p>
+      ) : (
+        <div className="divide-y divide-line">
+          {prefs.map((p) => (
+            <label key={p.key} className="flex cursor-pointer items-center justify-between gap-4 py-3.5">
+              <span>
+                <span className="block text-[13.5px] font-medium text-ink">{t(p.label)}</span>
+                <span className="mt-0.5 block text-[12px] text-ink-3">{t(p.description)}</span>
+              </span>
+              <Toggle checked={p.subscribed} onChange={(value) => void toggle(p.key, value)} label={t(p.label)} />
+            </label>
+          ))}
+        </div>
+      )}
+      <p className="pb-3 pt-1 text-[11.5px] leading-relaxed text-ink-3">
+        {t('Account and billing email — receipts, password resets — is always sent and cannot be turned off.')}
+      </p>
+    </div>
+  )
+}
+
 /**
  * Everything a student manages about their own account, on four tabs.
  *
@@ -432,6 +503,8 @@ function ProfileIdentity() {
  */
 export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } = {}) {
   const t = useT()
+  const { lang, setLang } = useI18n()
+  const navigate = useNavigate()
   const { email, profile, reload } = useIdentity()
   const [tab, setTab] = useAccountTab(initialTab)
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
@@ -440,8 +513,50 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
   // New and existing students are private until they explicitly opt in.
   const [discoverable, setDiscoverableState] = useState(false)
 
+  // In-place password change (server rotates this session, evicts the others).
+  const [pwNew, setPwNew] = useState('')
+  const [pwConfirm, setPwConfirm] = useState('')
+  const [pwBusy, setPwBusy] = useState(false)
+  const [pwNotice, setPwNotice] = useState<{ text: string; ok: boolean } | null>(null)
+
+  // Account deletion, gated behind two barriers before the irreversible call.
+  const [deleteAck, setDeleteAck] = useState(false)
+  const [deleteConfirm, setDeleteConfirm] = useState('')
+  const [deleteBusy, setDeleteBusy] = useState(false)
+  const [deleteError, setDeleteError] = useState('')
+
   const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Maristana profile change request')}`
+  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Nishany profile change request')}`
+
+  async function changePassword() {
+    setPwNotice(null)
+    if (pwNew.length < 8) { setPwNotice({ text: t('Use at least 8 characters.'), ok: false }); return }
+    if (pwNew !== pwConfirm) { setPwNotice({ text: t('The two passwords do not match.'), ok: false }); return }
+    if (!API_MODE) { setPwNotice({ text: t('Connect a backend to change your password.'), ok: false }); return }
+    setPwBusy(true)
+    try {
+      await apiPut('/auth/password', { password: pwNew })
+      setPwNew(''); setPwConfirm('')
+      setPwNotice({ text: t('Password changed. Other devices have been signed out.'), ok: true })
+    } catch {
+      setPwNotice({ text: t('Could not change your password. Try again in a moment.'), ok: false })
+    } finally {
+      setPwBusy(false)
+    }
+  }
+
+  async function deleteAccount() {
+    setDeleteError('')
+    if (!API_MODE) { setDeleteError(t('Connect a backend to delete your account.')); return }
+    setDeleteBusy(true)
+    try {
+      await apiDelete('/account')
+      navigate('/logout')
+    } catch {
+      setDeleteError(t('Could not delete your account. Try again or email support.'))
+      setDeleteBusy(false)
+    }
+  }
 
   useEffect(() => {
     if (!API_MODE) return
@@ -551,23 +666,66 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                   </label>
                 ))}
               </div>
-              {/* The two email toggles that used to sit here — weekly digest and
-                  product updates — were read by nothing at all. They return when
-                  email delivery actually consults a preference. */}
-              <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
-                {t('Email preferences are not configurable yet. Maristana only emails you about your account.')}
-              </p>
+              {/* Email toggles, backed by the suppression list the mailer checks
+                  before sending — so turning one off actually stops that mail. */}
+              <EmailPreferences />
             </Panel>
 
             <div className="space-y-4">
               <Panel>
                 <PanelHeader title={t('Appearance')} icon={Palette} />
-                <div className="flex flex-wrap items-center justify-between gap-3 p-4">
-                  <div className="min-w-0">
-                    <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
-                    <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, warm, or dark. Kept on this device.')}</p>
+                <div className="divide-y divide-line px-4">
+                  <div className="flex flex-wrap items-center justify-between gap-3 py-3.5">
+                    <div className="min-w-0">
+                      <p className="text-[13px] font-medium text-ink">{t('Theme')}</p>
+                      <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Light, warm, or dark. Kept on this device.')}</p>
+                    </div>
+                    <ThemeSwitch />
                   </div>
-                  <ThemeSwitch />
+                  <div className="flex flex-wrap items-center justify-between gap-3 py-3.5">
+                    <div className="min-w-0">
+                      <p className="flex items-center gap-1.5 text-[13px] font-medium text-ink"><Languages size={14} className="text-ink-3" />{t('Language')}</p>
+                      <p className="mt-0.5 text-[11.5px] text-ink-3">{t('The interface language. Kept on this device.')}</p>
+                    </div>
+                    <Select aria-label={t('Language')} value={lang} onChange={(e) => setLang(e.target.value as Lang)} className="w-40">
+                      <option value="en">English</option>
+                      <option value="ar">العربية</option>
+                    </Select>
+                  </div>
+                </div>
+              </Panel>
+
+              <Panel>
+                <PanelHeader title={t('Study preferences')} icon={Target} hint={t('On this device')} />
+                <div className="divide-y divide-line px-4">
+                  <div className="flex flex-wrap items-center justify-between gap-3 py-3.5">
+                    <div className="min-w-0">
+                      <p className="text-[13px] font-medium text-ink">{t('Daily question goal')}</p>
+                      <p className="mt-0.5 text-[11.5px] text-ink-3">{t('How many questions you aim to answer each day.')}</p>
+                    </div>
+                    <TextInput
+                      type="number"
+                      min={0}
+                      step={5}
+                      aria-label={t('Daily question goal')}
+                      value={String(prefs.dailyGoalQuestions ?? DEFAULTS.dailyGoalQuestions)}
+                      onChange={(e) => patch({ dailyGoalQuestions: Math.max(0, Number(e.target.value) || 0) })}
+                      className="w-24"
+                    />
+                  </div>
+                  <div className="flex flex-wrap items-center justify-between gap-3 py-3.5">
+                    <div className="min-w-0">
+                      <p className="text-[13px] font-medium text-ink">{t('Reminder time')}</p>
+                      <p className="mt-0.5 text-[11.5px] text-ink-3">{t('When to nudge you about due reviews.')}</p>
+                    </div>
+                    <TextInput
+                      type="time"
+                      aria-label={t('Reminder time')}
+                      value={prefs.reminderTime ?? DEFAULTS.reminderTime}
+                      onChange={(e) => patch({ reminderTime: e.target.value })}
+                      className="w-32"
+                    />
+                  </div>
                 </div>
               </Panel>
 
@@ -598,8 +756,20 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
               <div className="space-y-3 p-4">
                 <div className="rounded-lg border border-line bg-surface-2 p-3">
                   <p className="text-[13px] font-medium text-ink">{t('Password')}</p>
-                  <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Reset through a time-limited email link.')}</p>
-                  <Link to="/auth/forgot-password" className="mt-3 inline-flex min-h-9 items-center gap-2 rounded-lg border border-line-2 bg-surface px-3 text-[13px] font-semibold text-ink hover:bg-inset"><KeyRound size={15} />{t('Change password')}</Link>
+                  <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Set a new password here — no email link needed. Signs you out of other devices.')}</p>
+                  <div className="mt-3 space-y-2">
+                    <Field label={t('New password')} htmlFor="account-new-password">
+                      <TextInput id="account-new-password" type="password" autoComplete="new-password" value={pwNew} onChange={(e) => setPwNew(e.target.value)} placeholder={t('At least 8 characters')} />
+                    </Field>
+                    <Field label={t('Confirm new password')} htmlFor="account-confirm-password">
+                      <TextInput id="account-confirm-password" type="password" autoComplete="new-password" value={pwConfirm} onChange={(e) => setPwConfirm(e.target.value)} />
+                    </Field>
+                    {pwNotice && <p role="alert" className={cn('text-[11.5px]', pwNotice.ok ? 'text-success' : 'text-danger')}>{pwNotice.text}</p>}
+                    <div className="flex items-center gap-3">
+                      <Button variant="secondary" iconLeft={KeyRound} loading={pwBusy} disabled={!pwNew || !pwConfirm} onClick={() => void changePassword()}>{t('Change password')}</Button>
+                      <Link to="/auth/forgot-password" className="text-[12px] font-semibold text-ink-3 hover:text-ink">{t('Forgot it? Reset by email')}</Link>
+                    </div>
+                  </div>
                 </div>
                 <PasskeyControl />
                 <MfaControl />
@@ -647,6 +817,38 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
                 <PanelHeader title={t('Support')} icon={LifeBuoy} />
                 <div className="p-4">
                   <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Nishany team')}</ButtonAnchor>
+                </div>
+              </Panel>
+
+              {/* Two barriers guard the irreversible call: an explicit
+                  acknowledgement, then a type-to-confirm. The server delete is
+                  a real hard delete scoped to the caller's own token. */}
+              <Panel className="border-danger/40">
+                <PanelHeader title={t('Delete account')} icon={TriangleAlert} />
+                <div className="space-y-3 p-4">
+                  <p className="text-[12px] leading-relaxed text-ink-2">
+                    {t('This permanently deletes your account and everything it owns — progress, notes, whiteboards, bookmarks and calendar. It cannot be undone.')}
+                  </p>
+                  <label className="flex items-start gap-2.5 text-[12.5px] text-ink-2">
+                    <input type="checkbox" checked={deleteAck} onChange={(e) => setDeleteAck(e.target.checked)} className="mt-0.5 size-4 accent-[var(--danger)]" />
+                    <span>{t('I understand this is permanent and cannot be undone.')}</span>
+                  </label>
+                  {deleteAck && (
+                    <Field label={t('Type DELETE to confirm')} htmlFor="account-delete-confirm">
+                      <TextInput id="account-delete-confirm" value={deleteConfirm} onChange={(e) => setDeleteConfirm(e.target.value)} placeholder="DELETE" autoComplete="off" />
+                    </Field>
+                  )}
+                  {deleteError && <p role="alert" className="text-[11.5px] text-danger">{deleteError}</p>}
+                  <Button
+                    variant="danger"
+                    iconLeft={Trash2}
+                    loading={deleteBusy}
+                    disabled={!deleteAck || deleteConfirm.trim().toUpperCase() !== 'DELETE'}
+                    onClick={() => void deleteAccount()}
+                    className="w-full justify-center"
+                  >
+                    {t('Permanently delete my account')}
+                  </Button>
                 </div>
               </Panel>
             </div>

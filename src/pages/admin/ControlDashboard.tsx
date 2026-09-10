@@ -1,4 +1,4 @@
-import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { NishanyLoader } from '@/components/ui/NishanyLoader'
 import { ImagePlus,
@@ -67,7 +67,7 @@ import { LegacyContentArchivePanel } from '@/components/admin/LegacyContentArchi
 import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { usePersistentState, preloadState } from '@/lib/usePersistentState'
 import { useScopedItems } from '@/lib/useScopedContent'
 import { LibraryTreeEditor } from '@/components/admin/LibraryTreeEditor'
 import { useIdentity } from '@/lib/useIdentity'
@@ -262,7 +262,10 @@ export function ControlDashboard({
   const items = useScopedItems(ledger)
   const identity = useIdentity()
   const { contentScope } = identity
-  const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  // The concept graph is a large document the catalogue needs only inside an
+  // editor (concept pickers, resource auto-linking) — never to render the list.
+  // Deferring it keeps that weight off first paint; it loads the moment an editor opens.
+  const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph, { defer: true })
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [catalogue] = useUniversityCatalogue()
   const [addingTopicFor, setAddingTopicFor] = useState<string | null>(null)
@@ -271,8 +274,14 @@ export function ControlDashboard({
   const [status, setStatus] = useState<Status | 'All'>('All')
   const [mediaFilter, setMediaFilter] = useState<MediaRequestFilter>('all')
   const [query, setQuery] = useState('')
+  // The input stays bound to `query` so typing is instant; the catalogue filter
+  // below reads the deferred value, so a large ledger re-filters without janking
+  // the keystroke that triggered it.
+  const deferredQuery = useDeferredValue(query)
   const [facets, setFacets] = useState<Set<string>>(() => new Set())
   const [editorOpen, setEditorOpen] = useState(false)
+  // Pull the deferred concept graph the first time an editor opens.
+  useEffect(() => { if (editorOpen) preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph) }, [editorOpen])
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
   const [deleting, setDeleting] = useState<ManagedContentItem | null>(null)
   const [notice, setNotice] = useState<{ text: string; tone: 'success' | 'warning' } | null>(null)
@@ -375,7 +384,7 @@ export function ControlDashboard({
   const kindCurrentCount = kindItems.length - kindArchivedCount
 
   const matching = useMemo(() => {
-    const normalized = query.trim().toLowerCase()
+    const normalized = deferredQuery.trim().toLowerCase()
     return items
       .filter((item) => item.kind === activeKind)
       .filter((item) => !archiveSplit || (isArchiveView ? item.status === 'Archived' : item.status !== 'Archived'))
@@ -390,7 +399,7 @@ export function ControlDashboard({
       })
       .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')} ${[...(facetIndex.get(item.id) ?? [])].join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
-  }, [activeKind, activeUniversityId, activeYear, archiveSplit, facetIndex, facets, isArchiveView, items, mediaFilter, query, status])
+  }, [activeKind, activeUniversityId, activeYear, archiveSplit, facetIndex, facets, isArchiveView, items, mediaFilter, deferredQuery, status])
 
   /**
    * Questions and practicals taken from a faculty's own papers are reviewed,

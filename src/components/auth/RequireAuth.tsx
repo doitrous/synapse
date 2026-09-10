@@ -28,15 +28,21 @@ import { useNoIndex } from '@/lib/pageMeta'
  * Editors, admins and super admins keep student-app access, because previewing
  * what a student sees is part of their work.
  */
-export function RequireAuth({ console: needsConsole, tab, student, validator, children }: {
+export function RequireAuth({ console: needsConsole, tab, anyTab, student, validator, children }: {
   console?: boolean
   tab?: string
+  /** Reachable by holding any one of these tabs. For the Inbox, which gathers
+   * three separately-held moderation queues under one route. */
+  anyTab?: readonly string[]
   student?: boolean
   validator?: boolean
   children: ReactElement
 }) {
   const identity = useIdentity()
   const location = useLocation()
+  // A gated route asks for console access and MFA whether it names one tab or a
+  // set; treat "any of these" the same as "this one" for those checks.
+  const gatedTab = tab ?? (anyTab && anyTab.length ? anyTab[0] : undefined)
   // Every route this guard covers is private — search has no business
   // indexing it, on top of robots.txt already disallowing /app and /admin.
   useNoIndex()
@@ -59,7 +65,7 @@ export function RequireAuth({ console: needsConsole, tab, student, validator, ch
     return <Navigate to={`/auth/verify-email${address}`} replace />
   }
 
-  if (needsConsole || tab) {
+  if (needsConsole || gatedTab) {
     if (!hasConsoleAccess(identity.role ?? '')) return <Navigate to="/app" replace />
   }
   // Admin and above require a second factor, because they decide who else gets
@@ -85,8 +91,8 @@ export function RequireAuth({ console: needsConsole, tab, student, validator, ch
   if (identity.status === 'authenticated' && identity.mfaPending && identity.aal !== 'aal2') {
     return <Navigate to={`/auth/mfa?next=${encodeURIComponent(`${location.pathname}${location.search}`)}`} replace />
   }
-  const needsMfaSetup = (needsConsole || tab) && identity.status !== 'demo' && mfaEnforced(identity.role ?? '') && identity.aal !== 'aal2'
-  if (needsMfaSetup && tab) {
+  const needsMfaSetup = (needsConsole || gatedTab) && identity.status !== 'demo' && mfaEnforced(identity.role ?? '') && identity.aal !== 'aal2'
+  if (needsMfaSetup && gatedTab) {
     return (
       <div className="mx-auto flex min-h-[60vh] max-w-md flex-col justify-center gap-3 px-6 text-center">
         <span className="mx-auto grid size-12 place-items-center rounded-xl bg-warning-tint text-warning"><Icon icon={ShieldAlert} size={22} /></span>
@@ -101,6 +107,7 @@ export function RequireAuth({ console: needsConsole, tab, student, validator, ch
   // A tab this role does not hold is not a 404 — the console exists, this part
   // of it is simply not theirs. `/admin` sends them to a page that is.
   if (tab && !identity.tabs.includes(tab)) return <Navigate to="/admin" replace />
+  if (anyTab && !anyTab.some((id) => identity.tabs.includes(id))) return <Navigate to="/admin" replace />
 
   if (validator && identity.role !== 'mcq_validator') {
     return <Navigate to={hasConsoleAccess(identity.role ?? '') ? '/admin' : '/app'} replace />

@@ -54,11 +54,11 @@ test('a student holds nothing', () => {
 })
 
 test('a stored configuration replaces a role default, and junk in it is ignored', () => {
-  assert.deepEqual(tabsForRole('reviewer', { reviewer: ['questions', 'nope'] }), ['questions'])
+  assert.deepEqual(tabsForRole('reviewer', { reviewer: ['content', 'nope'] }), ['content'])
   assert.deepEqual(tabsForRole('reviewer', { reviewer: [] }), [])
   assert.deepEqual(tabsForRole('reviewer', { reviewer: ['validation'] }), [])
   // A super-admin-only tab cannot be handed out by configuration.
-  assert.deepEqual(tabsForRole('editor', { editor: ['settings', 'questions'] }), ['questions'])
+  assert.deepEqual(tabsForRole('editor', { editor: ['settings', 'content'] }), ['content'])
   // A role the document does not mention keeps its default.
   assert.deepEqual(tabsForRole('admin', { reviewer: [] }), tabsForRole('admin', null))
   assert.deepEqual(tabsForRole('admin', 'nonsense'), tabsForRole('admin', null))
@@ -72,21 +72,23 @@ test('the tabs are returned in registry order, so the first one is predictable',
 
 test('a state key resolves to the tabs that may write it', () => {
   assert.deepEqual(tabsForStateKey('nishany-vouchers-v1'), ['vouchers'])
+  // The seven per-kind content tabs collapsed into one Content tab, which now
+  // owns the ledger alongside Media Requests.
   assert.deepEqual(
     tabsForStateKey('nishany-admin-content-ledger-v4'),
-    ['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'resources', 'media'],
+    ['content', 'media'],
   )
   assert.deepEqual(tabsForStateKey(ROLE_TABS_STATE_KEY), ['access'])
-  assert.deepEqual(tabsForStateKey('nishany-media-library-v1'), ['resources', 'media'])
-  assert.deepEqual(tabsForStateKey('nishany-library-trees-v1'), ['library'])
+  assert.deepEqual(tabsForStateKey('nishany-media-library-v1'), ['content', 'media'])
+  assert.deepEqual(tabsForStateKey('nishany-library-trees-v1'), ['content'])
 })
 
 test('an unregistered key belongs to no tab, so only a super admin may write it', () => {
   assert.deepEqual(tabsForStateKey('nishany-something-nobody-declared'), [])
   assert.equal(holdsTab(tabsForRole('editor', null), []), false)
-  assert.equal(holdsTab(tabsForRole('editor', null), ['questions']), true)
-  assert.equal(holdsTab(tabsForRole('admin', null), ['questions']), false)
-  assert.equal(holdsTab(tabsForRole('admin', null), ['questions', 'users']), true)
+  assert.equal(holdsTab(tabsForRole('editor', null), ['content']), true)
+  assert.equal(holdsTab(tabsForRole('admin', null), ['content']), false)
+  assert.equal(holdsTab(tabsForRole('admin', null), ['content', 'users']), true)
 })
 
 test('every declared state key and api prefix is claimed by exactly one owner list', () => {

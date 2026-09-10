@@ -1,0 +1,19 @@
+import test from 'node:test'
+import assert from 'node:assert/strict'
+import { fillDays } from './studentAnalytics.js'
+
+test('fillDays returns one point per day, zero-filling gaps', () => {
+  const series = fillDays([], ['count'])
+  assert.equal(series.length, 30)
+  assert.equal(series[0].count, 0)
+  assert.ok(series[0].day < series[29].day, 'days run oldest → newest')
+})
+
+test('fillDays places a known row on its own day and leaves the rest at zero', () => {
+  const today = new Date(); today.setUTCHours(0, 0, 0, 0)
+  const key = today.toISOString().slice(0, 10)
+  const series = fillDays([{ day: key, count: 7 }], ['count'], 3)
+  assert.equal(series.length, 3)
+  assert.equal(series.at(-1).count, 7)
+  assert.equal(series[0].count, 0)
+})

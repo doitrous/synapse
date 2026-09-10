@@ -96,10 +96,13 @@ const SURFACE_LABEL: Record<string, string> = {
   card: 'Flashcards',
 }
 
-function KpiTile({ icon, value, label, sub, tone }: { icon: typeof Timer; value: string; label: string; sub?: string; tone?: string }) {
+function KpiTile({ icon, value, label, sub, tone, highlight }: { icon: typeof Timer; value: string; label: string; sub?: string; tone?: string; highlight?: boolean }) {
   return (
-    <Panel className="p-4">
-      <div className="flex items-center gap-2 text-ink-3"><Icon icon={icon} size={15} /><p className="text-[12px] font-medium text-ink-2">{label}</p></div>
+    <Panel className={cn('p-4', highlight && 'border-primary-line bg-primary-tint/25')}>
+      <div className="flex items-center gap-2 text-ink-3">
+        <Icon icon={icon} size={15} className={highlight ? 'text-primary' : undefined} />
+        <p className="text-[12px] font-medium text-ink-2">{label}</p>
+      </div>
       <p className={cn('tnum mt-2 font-mono text-[27px] font-semibold leading-none', tone ?? 'text-ink')}>{value}</p>
       {sub && <p className="mt-1.5 text-[11.5px] text-ink-3">{sub}</p>}
     </Panel>
@@ -130,9 +133,9 @@ function WhenYouStudy({ records }: { records: AttemptRecord[] }) {
   return (
     <Panel>
       <PanelHeader
-        title={t('When you actually study')}
+        title={t('When you study')}
         icon={Clock3}
-        hint={t('Answers committed, by hour of day')}
+        hint={t('What time of day you answer questions')}
         action={<Segmented value={range} onChange={(value) => setRange(value as typeof range)} items={[{ value: 'week', label: t('Week') }, { value: 'month', label: t('Month') }, { value: 'all', label: t('All') }]} />}
       />
       <div className="p-5">
@@ -415,7 +418,7 @@ function PeerStandingPanel({ records }: { records: AttemptRecord[] }) {
 
   return (
     <Panel>
-      <PanelHeader title={t('How you compare')} icon={Percent} hint={t('Percentile standing by accuracy')} />
+      <PanelHeader title={t('How you compare')} icon={Percent} hint={t('Your accuracy next to other students in your year')} />
       <div className="p-5">
         {!API_MODE && <Badge tone="primary" dot className="mb-3">{t('Demo cohort preview')}</Badge>}
         {loading ? (
@@ -431,17 +434,17 @@ function PeerStandingPanel({ records }: { records: AttemptRecord[] }) {
         ) : (
           <>
             <p className="text-[13px] text-ink-2">
-              {t('You scored better than')} <span className="font-mono font-semibold text-primary-strong">{standing.percentile}%</span> {t('of ranked peers, by accuracy.')}
+              {t('You are more accurate than')} <span className="font-mono font-semibold text-primary-strong">{standing.percentile}%</span> {t('of ranked students in your year.')}
             </p>
             <div className="mt-4">
               <Meter value={yourPct} max={100} tone="primary" ticks />
               <div className="mt-1.5 flex justify-between font-mono text-[10.5px] text-ink-3">
                 <span>{t('You')} · {yourPct}%</span>
-                <span>{t('Peer median')} · {Math.round(standing.peerMedian * 100)}%</span>
+                <span>{t('Class average')} · {Math.round(standing.peerMedian * 100)}%</span>
               </div>
             </div>
             <p className="mt-4 border-t border-line pt-3 text-[11.5px] leading-relaxed text-ink-3">
-              {standing.peerCount} {t('ranked peers in your university, year and current term, each with at least 100 server-verified answers this term.')}
+              {t('Compared with')} {standing.peerCount} {t('students in your university and year who have answered at least 100 checked questions this term.')}
             </p>
           </>
         )}
@@ -479,7 +482,7 @@ function StudentActivityPanel({ records }: { records: AttemptRecord[] }) {
 
   return (
     <Panel>
-      <PanelHeader title={t('Your study habits')} icon={RotateCcw} hint={t('Answer changes and highlighting, from your own activity')} />
+      <PanelHeader title={t('Your study habits')} icon={RotateCcw} hint={t('How you change answers and what you highlight')} />
       <div className="grid gap-4 p-5 sm:grid-cols-2">
         <div className="rounded-lg border border-line bg-surface-2/40 p-4">
           <p className="text-[12px] font-semibold text-ink-2">{t('When you re-answer a question')}</p>
@@ -580,7 +583,7 @@ function StudyTimePanel() {
               </div>
             </div>
             <p className="mt-4 border-t border-line pt-3 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Reading is time in the reader, library and glossary; solving is the Question Bank and other answer-and-do surfaces; other study is notebook, whiteboard and flashcards. Each is a count of active minutes on that surface over the last week.')}
+              {t('Reading is the reader, library and glossary. Solving is the Question Bank and other answer-and-do activities. Other is notebook, whiteboard and flashcards. Each counts your active minutes over the last week.')}
             </p>
           </>
         )}
@@ -618,20 +621,20 @@ export function Performance() {
 
   const header = (
     <>
-      <PageHeader title={t('Performance')} back={{ fallback: '/app' }} />
+      <PageHeader title={t('My Analytics')} back={{ fallback: '/app' }} />
       {/* Inside `header`, so every branch below — leaders, loading, too few
           answers, the full page — says the same thing about being a preview. */}
       <ComingSoonBanner
         icon={TrendingUp}
-        body="Performance will report your whole record against your year’s blueprint — every surface, every subject, and where the next mark is most likely to come from. Until then it is a preview: the figures are computed from your own attempts, and they fill in as you answer."
+        body="This is your own study record — how much you have done and how well it is going. It is still a preview, and the numbers fill in as you answer more questions."
       />
       <Tabs
         className="mb-4"
         value={view}
         onChange={(value) => setView(value as PerformanceView)}
         items={[
-          { value: 'personal', label: t('Personal progress'), icon: TrendingUp },
-          { value: 'leaders', label: t('Top performers'), icon: Award },
+          { value: 'personal', label: t('My progress'), icon: TrendingUp },
+          { value: 'leaders', label: t('Class leaders'), icon: Award },
         ]}
       />
     </>
@@ -663,7 +666,7 @@ export function Performance() {
             <EmptyState
               icon={TrendingUp}
               title={t('Not enough answers yet')}
-              description={`${t('This page reports on your own marked answers. It needs at least')} ${MIN_MARKED} ${t('before any figure here would mean anything — you have')} ${scored.length}.`}
+              description={`${t('This page uses answers you have graded yourself. It needs at least')} ${MIN_MARKED} ${t('for the numbers to mean anything — you have')} ${scored.length}.`}
             />
           </Panel>
           <ConceptMasteryPanel />
@@ -687,35 +690,36 @@ export function Performance() {
           <KpiTile
             icon={TrendingUp}
             value={overall === null ? '—' : `${Math.round(overall * 100)}%`}
-            label={t('Overall accuracy')}
-            sub={`${scored.length} ${t('marked answers')}`}
+            label={t('How often you are right')}
+            sub={`${t('across')} ${scored.length} ${t('graded answers')}`}
             tone="text-primary-strong"
+            highlight
           />
           <KpiTile
             icon={ListChecks}
             value={split.first.accuracy === null ? '—' : `${Math.round(split.first.accuracy * 100)}%`}
-            label={t('First attempt')}
+            label={t('Right on the first try')}
             sub={split.repeat.accuracy === null
-              ? t('No repeats yet')
-              : `${Math.round(split.repeat.accuracy * 100)}% ${t('on repeats')}`}
+              ? t('No retries yet')
+              : `${Math.round(split.repeat.accuracy * 100)}% ${t('when you retried')}`}
           />
           <KpiTile
             icon={Layers}
             value={distinctItems(records).toLocaleString()}
-            label={t('Items covered')}
-            sub={`${records.length.toLocaleString()} ${t('attempts in total')}`}
+            label={t('Different questions tried')}
+            sub={`${records.length.toLocaleString()} ${t('tries in total')}`}
           />
           <KpiTile
             icon={Timer}
             value={median === null ? '—' : `${median}s`}
-            label={t('Median per question')}
-            sub={median === null ? t('No timed sessions yet') : `${currentStreak(records)} ${t('day streak')}`}
+            label={t('Usual time per question')}
+            sub={median === null ? t('No timed sessions yet') : `${currentStreak(records)}-${t('day streak')}`}
           />
           <KpiTile
             icon={Hourglass}
             value={average === null ? '—' : `${average}s`}
-            label={t('Average per question')}
-            sub={t('Mean across all timed answers')}
+            label={t('Average time per question')}
+            sub={t('Across all timed questions')}
           />
         </div>
 
@@ -732,7 +736,7 @@ export function Performance() {
         <SourceCoveragePanel records={records} />
 
         <Panel>
-          <PanelHeader title={t('Accuracy by subject')} icon={Table2} hint={`${t('Subjects with at least')} ${MIN_PER_SUBJECT} ${t('marked answers')}`} />
+          <PanelHeader title={t('How you do in each subject')} icon={Table2} hint={`${t('Subjects where you have graded at least')} ${MIN_PER_SUBJECT} ${t('answers')}`} />
           {subjects.length === 0 ? (
             <p className="p-8 text-center text-[13px] text-ink-3">{t('No subject has enough marked answers to report on yet.')}</p>
           ) : (
@@ -758,7 +762,7 @@ export function Performance() {
 
         <div className="grid gap-4 lg:grid-cols-2">
           <Panel>
-            <PanelHeader title={t('Where are you weak?')} icon={Brain} hint={t('Lowest accuracy first')} />
+            <PanelHeader title={t('What to work on')} icon={Brain} hint={t('Your weakest subjects first')} />
             <div className="p-5">
               {weakest(subjects, MIN_PER_SUBJECT, 6).length === 0 ? (
                 <p className="py-8 text-center text-[13px] text-ink-3">{t('Nothing stands out as a weakness yet.')}</p>
@@ -778,7 +782,7 @@ export function Performance() {
           </Panel>
 
           <Panel>
-            <PanelHeader title={t('Accuracy by difficulty')} icon={ListChecks} hint={t('As the author graded each item')} />
+            <PanelHeader title={t('How you do by difficulty')} icon={ListChecks} hint={t('Easy, medium and hard questions')} />
             <div className="p-5">
               {difficulties.filter((row) => row.marked > 0).length === 0 ? (
                 <p className="py-8 text-center text-[13px] text-ink-3">{t('No marked answers yet.')}</p>
@@ -794,7 +798,7 @@ export function Performance() {
 
         <div className="grid gap-4 lg:grid-cols-2">
           <Panel>
-            <PanelHeader title={t('Coverage by subject')} icon={Layers} hint={t('Attempts — where your practice is concentrated')} />
+            <PanelHeader title={t('How much you practise each subject')} icon={Layers} hint={t('Number of tries per subject')} />
             <div className="p-5">
               <BarList data={bySubject(records).map((row) => ({
                 key: row.key,
@@ -809,7 +813,7 @@ export function Performance() {
         </div>
 
         <Panel>
-          <PanelHeader title={t('Where does the work go?')} icon={BarChart3} hint={t('Attempts by surface')} />
+          <PanelHeader title={t('Where your practice goes')} icon={BarChart3} hint={t('Tries by activity')} />
           <div className="p-5">
             <p className="font-mono text-[26px] font-semibold text-ink">{records.length.toLocaleString()}</p>
             <p className="text-[12px] text-ink-3">{t('Attempts recorded')}</p>
@@ -827,7 +831,7 @@ export function Performance() {
               ))}
             </div>
             <p className="mt-5 border-t border-line pt-4 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Stations, checklists and written questions are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Maristana aggregates other students yet.')}
+              {t('Stations, checklists and written questions are graded by you, so they count as tries but not toward your accuracy score.')}
             </p>
           </div>
         </Panel>

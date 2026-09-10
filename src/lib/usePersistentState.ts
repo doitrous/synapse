@@ -24,7 +24,16 @@ export { preloadState } from './stateStore'
  * discard what it read. See that file for how reads, retries and the
  * crash-recovery copy are handled.
  */
-export function usePersistentState<T>(key: string, initial: T | (() => T)) {
+export function usePersistentState<T>(
+  key: string,
+  initial: T | (() => T),
+  // `defer` registers the document (so the snapshot is correct) but holds the
+  // network hydrate until something calls `preloadState(key)`. Used when a large
+  // document is only needed on demand — e.g. the concept graph, which the content
+  // catalogue reads only once an editor opens, not to render the list.
+  options?: { defer?: boolean },
+) {
+  const defer = options?.defer ?? false
   // Registering during render keeps the first snapshot correct: subscribing in
   // an effect would hand this render an entry that does not exist yet.
   ensureEntry(key, initial)
@@ -36,11 +45,11 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
 
   useEffect(() => {
     ensureEntry(key, initial)
-    hydrate(key)
+    if (!defer) hydrate(key)
     // `initial` is intentionally not a dependency: it is frequently an inline
     // literal, and it is only ever read when a key is first seen.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [key])
+  }, [key, defer])
 
   useInitialRead(snapshot[2])
 

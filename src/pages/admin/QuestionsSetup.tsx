@@ -17,8 +17,14 @@ export type QuestionCatalogueView = 'current' | 'archived' | 'qotd'
  * catalogue keeps its own search, status filter, systems→topics grouping, and
  * editor; the rail only narrows the scope. Systems/topics themselves are edited
  * in the single-source Subjects & Topics tab.
+ *
+ * `allKinds` turns the same rail into the unified Content workspace: the
+ * catalogue's kind switcher (questions, articles, practicals, resources, decks,
+ * written, histology) is unlocked and each kind carries its own Current/Archive
+ * toggle, so one tab replaces the seven per-kind setup tabs. The university/year
+ * rail and Question-of-the-Day curation are shared across all of them.
  */
-export function QuestionsSetup() {
+export function QuestionsSetup({ allKinds = false }: { allKinds?: boolean } = {}) {
   const [universities] = useUniversityCatalogue()
   const identity = useIdentity()
   const [selection, setSelection] = useState<Selection>({})
@@ -46,10 +52,12 @@ export function QuestionsSetup() {
           )}
         >
           <Icon icon={Database} size={16} />
-          Master Question Bank
+          {allKinds ? 'All content' : 'Master Question Bank'}
         </button>}
 
-        <button
+        {/* The dedicated archive rail is question-only. In all-kinds mode each
+            kind carries its own Current/Archive toggle inside the catalogue. */}
+        {!allKinds && <button
           type="button"
           onClick={() => { setView('archived'); setSelection({}); setOpenUni(null) }}
           aria-pressed={view === 'archived'}
@@ -60,7 +68,7 @@ export function QuestionsSetup() {
         >
           <Icon icon={Archive} size={16} />
           Archived questions
-        </button>
+        </button>}
 
         {/* Editors and super admins can curate the Question of the Day; the
             deterministic daily pick and the pins document are cohort-keyed, not
@@ -153,10 +161,12 @@ export function QuestionsSetup() {
               {view === 'archived'
                 ? 'Archive — retired questions from every former university and year'
                 : isMaster
-                ? 'Master Question Bank — every question'
+                ? (allKinds ? 'All content — every kind, every university and year' : 'Master Question Bank — every question')
                 : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
             </div>
-            <ControlDashboard key={`${view}-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} questionView={view} archiveControl="external" />
+            {allKinds
+              ? <ControlDashboard key={`content-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} scope={scope} />
+              : <ControlDashboard key={`${view}-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} questionView={view} archiveControl="external" />}
           </>
         )}
       </div>

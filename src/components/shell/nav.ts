@@ -1,6 +1,6 @@
 import type { LucideIcon } from 'lucide-react'
 import {
-  LayoutDashboard, BookOpen, CalendarRange, Users, UserCog, Layers, Gamepad2, ListChecks, Stethoscope,
+  LayoutDashboard, BookOpen, CalendarRange, Users, UserCog, Layers, Gamepad2, ListChecks, Stethoscope, Inbox,
 } from 'lucide-react'
 // Relative rather than `@/data/adminTabs`: `nav.test.ts` runs on Node, which
 // has no bundler alias, and the nine destinations are exactly the sort of list
@@ -79,7 +79,7 @@ export const ROUTE_TITLES: Record<string, string> = {
   '/app/adaptive': 'Adaptive Study',
   // Plan
   '/app/university': 'University',
-  '/app/performance': 'Performance',
+  '/app/performance': 'My Analytics',
   // Learn
   '/app/anatomy-atlas': 'Anatomy Atlas',
   '/app/terminology': 'Medical Terminology',
@@ -123,17 +123,43 @@ const ADMIN_GROUP_ORDER: AdminTabGroup[] = ['Overview', 'Content', 'Operations',
  * in the sidebar because the caller holds it — the same fact the server checks
  * when the page saves, so a visible link and a rendering page cannot disagree.
  */
+/**
+ * A `navHidden` tab is a real capability and route, just not its own sidebar
+ * item — several of them are gathered under one entry. The Inbox holds the three
+ * moderation queues (each its own access tier); People holds console-user
+ * management and the student roster (each independently grantable). The merged
+ * entry appears when the viewer holds any of its tabs, and leads to a page that
+ * renders only the sections that are theirs.
+ */
+const NAV_MERGES: { group: AdminTabGroup; tabs: string[]; item: NavItem }[] = [
+  { group: 'Content', tabs: ['media', 'escalations', 'reports'], item: { label: 'Inbox', to: '/admin/inbox', icon: Inbox } },
+  { group: 'Operations', tabs: ['users', 'students'], item: { label: 'People', to: '/admin/people', icon: Users } },
+]
+
 export function adminNavFor(tabs: readonly string[]): NavGroup[] {
   const held = new Set(tabs)
-  const visible = ADMIN_TAB_VIEWS.filter((view) => held.has(view.id))
+  const mergeOf = new Map(NAV_MERGES.flatMap((m) => m.tabs.map((id) => [id, m] as const)))
+  const emitted = new Set<typeof NAV_MERGES[number]>()
   return ADMIN_GROUP_ORDER
-    .map((group) => ({
+    .map((group) => {
+      const items: NavItem[] = []
+      for (const view of ADMIN_TAB_VIEWS) {
+        if (view.group !== group) continue
+        if (view.navHidden) {
+          // The merged entry takes the slot of the first of its tabs, so it
+          // lands where those tabs used to sit.
+          const merge = mergeOf.get(view.id)
+          if (merge && !emitted.has(merge) && merge.tabs.some((id) => held.has(id))) {
+            items.push(merge.item)
+            emitted.add(merge)
+          }
+          continue
+        }
+        if (held.has(view.id)) items.push({ label: view.label, to: view.to, icon: view.icon, end: view.end })
+      }
       // The first group is the dashboard on its own and reads better unlabelled.
-      label: group === 'Overview' ? undefined : group,
-      items: visible
-        .filter((view) => view.group === group)
-        .map((view) => ({ label: view.label, to: view.to, icon: view.icon, end: view.end })),
-    }))
+      return { label: group === 'Overview' ? undefined : group, items }
+    })
     .filter((navGroup) => navGroup.items.length > 0)
 }
 

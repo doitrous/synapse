@@ -55,7 +55,7 @@ export function registerLibraryRoutes(app) {
 
   /* ── Medical library coverage review (admin-only) ───────────────────────── */
 
-  app.get('/api/medical-library/coverage/summary', requireTab('library'), wrap(async (_req, res) => {
+  app.get('/api/medical-library/coverage/summary', requireTab('content'), wrap(async (_req, res) => {
     const [[totals], destinations, systems, sourceStates, collections] = await Promise.all([
       pool.query('SELECT COUNT(*) AS candidates, COUNT(DISTINCT source_id) AS candidateSources FROM medical_library_candidate_coverage').then(([rows]) => rows),
       pool.query('SELECT destination, COUNT(*) AS count FROM medical_library_candidate_coverage GROUP BY destination ORDER BY count DESC').then(([rows]) => rows),
@@ -73,7 +73,7 @@ export function registerLibraryRoutes(app) {
     })
   }))
 
-  app.get('/api/medical-library/coverage/candidates', requireTab('library'), wrap(async (req, res) => {
+  app.get('/api/medical-library/coverage/candidates', requireTab('content'), wrap(async (req, res) => {
     const page = Math.max(1, Number.parseInt(String(req.query.page || '1'), 10) || 1)
     const pageSize = Math.min(100, Math.max(10, Number.parseInt(String(req.query.pageSize || '50'), 10) || 50))
     const destination = String(req.query.destination || '').trim()
@@ -112,7 +112,7 @@ export function registerLibraryRoutes(app) {
     })
   }))
 
-  app.get('/api/medical-library/coverage/sources', requireTab('library'), wrap(async (req, res) => {
+  app.get('/api/medical-library/coverage/sources', requireTab('content'), wrap(async (req, res) => {
     const collectionId = String(req.query.collectionId || '').trim()
     const status = String(req.query.status || '').trim()
     const where = []

@@ -10,6 +10,7 @@ import { pool } from '../db.js'
 import { applyDirectEnrollmentChange, decideEnrollmentChangeRequest, listEnrollmentChangeRequests } from '../enrollmentChanges.js'
 import { wrap } from '../http.js'
 import { acknowledgeStorageThreshold, platformReport } from '../platformReports.js'
+import { studentAnalytics } from '../studentAnalytics.js'
 import { createPricingVoucher, createPromotion, listPricingDiscounts } from '../pricing.js'
 
 export function registerAdminRoutes(app) {
@@ -287,6 +288,10 @@ export function registerAdminRoutes(app) {
 
   app.get('/api/admin/platform/reports', requireTab('dashboard'), wrap(async (_req, res) => {
     res.json(await platformReport())
+  }))
+
+  app.get('/api/admin/analytics', requireTab('analytics'), wrap(async (_req, res) => {
+    res.json(await studentAnalytics())
   }))
 
   app.post('/api/admin/platform/storage-thresholds/:thresholdGb/ack', requireTab('dashboard'), wrap(async (req, res) => {

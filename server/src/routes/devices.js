@@ -1,11 +1,13 @@
 /**
  * Deleting your own account, and the push devices that account signs in on.
  */
+import { randomUUID } from 'node:crypto'
 import { deleteAccount } from '../accountDeletion.js'
 import { requireAuthenticated } from '../auth.js'
 import { pool } from '../db.js'
 import { wrap } from '../http.js'
 import { normaliseDeviceToken } from '../push.js'
+import { readPreferences, planChange, STUDENT_EMAIL_CATEGORIES } from '../emailPreferences.js'
 
 export function registerDeviceRoutes(app) {
   /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
@@ -23,6 +25,66 @@ export function registerDeviceRoutes(app) {
     const result = await deleteAccount(req.identity)
     if (result.error) return res.status(result.status ?? 400).json(result)
     return res.json(result)
+  }))
+
+  /* ── Email preferences ───────────────────────────────────────────────────── */
+
+  /**
+   * The categories of email this student can turn on and off, and where each
+   * currently stands. Scoped to the caller's own address — there is no address
+   * in the path, so this can only read the preferences of whoever is signed in.
+   * Transactional mail (receipts, password resets) is never listed: it is not a
+   * choice.
+   */
+  app.get('/api/me/email-preferences', requireAuthenticated, wrap(async (req, res) => {
+    const address = String(req.identity.email ?? '').toLowerCase()
+    if (!address) return res.json(readPreferences([]))
+    const [rows] = await pool.query('SELECT category FROM email_suppressions WHERE address = ?', [address])
+    res.json(readPreferences(rows.map((row) => row.category)))
+  }))
+
+  /**
+   * Turn one category on or off. Scoped to the caller's own address.
+   *
+   * A category turned off writes its suppression row; turned on removes it, and
+   * rewrites the legacy blanket switch into explicit rows for the others so that
+   * re-subscribing to one thing never re-subscribes to everything (see
+   * `planChange`). All the writes for one toggle go in a single transaction.
+   */
+  app.put('/api/me/email-preferences', requireAuthenticated, wrap(async (req, res) => {
+    const address = String(req.identity.email ?? '').toLowerCase()
+    if (!address) return res.status(400).json({ error: 'no address on this account' })
+    const category = req.body?.category
+    const subscribed = Boolean(req.body?.subscribed)
+    if (!STUDENT_EMAIL_CATEGORIES.some((c) => c.key === category)) {
+      return res.status(400).json({ error: 'unknown category' })
+    }
+
+    const [rows] = await pool.query('SELECT category FROM email_suppressions WHERE address = ?', [address])
+    const { inserts, deletes } = planChange(rows.map((row) => row.category), category, subscribed)
+
+    const conn = await pool.getConnection()
+    try {
+      await conn.beginTransaction()
+      for (const cat of deletes) {
+        await conn.query('DELETE FROM email_suppressions WHERE address = ? AND category <=> ?', [address, cat])
+      }
+      for (const cat of inserts) {
+        await conn.query(
+          'INSERT INTO email_suppressions (id, address, category, reason) VALUES (?,?,?,?) ON DUPLICATE KEY UPDATE created_at = created_at',
+          [`sup-${randomUUID().slice(0, 12)}`, address, cat, 'preference'],
+        )
+      }
+      await conn.commit()
+    } catch (err) {
+      await conn.rollback()
+      throw err
+    } finally {
+      conn.release()
+    }
+
+    const [after] = await pool.query('SELECT category FROM email_suppressions WHERE address = ?', [address])
+    res.json(readPreferences(after.map((row) => row.category)))
   }))
 
   /* ── Push notification devices ───────────────────────────────────────────── */

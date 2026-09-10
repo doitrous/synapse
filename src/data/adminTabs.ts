@@ -10,9 +10,9 @@
  */
 import type { LucideIcon } from 'lucide-react'
 import {
-  Gauge, Network, Languages, GraduationCap, Scale, Library, FileQuestion, Compass,
-  Stethoscope, Braces, GitFork, Clapperboard, ImagePlus, Flag, MonitorPlay, FileText, Mail, Inbox, BellRing,
-  Layers, PenLine, Microscope, Siren,
+  Gauge, ChartColumnBig, Network, Languages, GraduationCap, Scale, Compass,
+  GitFork, ImagePlus, Flag, MonitorPlay, FileText, FolderOpen, Mail, Inbox, BellRing,
+  Siren,
   UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound, ClipboardCheck,
 } from 'lucide-react'
 import { rank } from './adminRoles.ts'
@@ -34,12 +34,23 @@ export interface AdminTabView {
   /** Cross-university personal data: admin/editor/super admin, never reviewer. */
   adminOnly?: boolean
   end?: boolean
+  /**
+   * Kept as a capability and a route, but not drawn as its own sidebar item —
+   * it is surfaced under another entry. The moderation queues (Media Requests,
+   * Escalations, Content Reports) are three separate capabilities, each with its
+   * own access tier, presented under one "Inbox" entry that shows only the
+   * sections the viewer holds. Client-only presentation, so it is absent from
+   * server/src/tabs.js and the parity test.
+   */
+  navHidden?: boolean
 }
 
 export const ADMIN_TAB_VIEWS: AdminTabView[] = [
   { id: 'dashboard', label: 'Control Dashboard', to: '/admin', icon: Gauge, group: 'Overview', end: true, stateKeys: [], apiPrefixes: ['/api/admin/platform'] },
   { id: 'validation', label: 'MCQ Validation', to: '/admin/validation', icon: ClipboardCheck, group: 'Overview', adminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/admin/mcq-validation'] },
+  { id: 'analytics', label: 'Student Analytics', to: '/admin/analytics', icon: ChartColumnBig, group: 'Overview', adminOnly: true,
+    stateKeys: [], apiPrefixes: ['/api/admin/analytics'] },
 
   { id: 'taxonomy', label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network, group: 'Content',
     stateKeys: ['nishany-taxonomy-tree-v4', 'nishany-medical-library-taxonomy-v1'], apiPrefixes: [] },
@@ -49,33 +60,18 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
     stateKeys: ['nishany-academic-universities-v1', 'nishany-course-curricula-v1', 'nishany-module-schedules-v1', 'nishany-module-subjects-v1', 'nishany-assessment-schemes-v1', 'nishany-academic-source-provenance-v1'], apiPrefixes: [] },
   { id: 'marks', label: 'Marks & Weights', to: '/admin/academic/marks', icon: Scale, group: 'Content',
     stateKeys: ['nishany-module-subjects-v1', 'nishany-assessment-schemes-v1'], apiPrefixes: [] },
-  { id: 'library', label: 'Library Setup', to: '/admin/library', icon: Library, group: 'Content',
-    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-medical-evidence-v1', 'nishany-medical-evidence-published-v1', 'nishany-import-journal-v1', 'nishany-library-trees-v1'],
-    apiPrefixes: ['/api/medical-library/coverage'] },
-  { id: 'questions', label: 'Questions Setup', to: '/admin/questions', icon: FileQuestion, group: 'Content',
-    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
+  { id: 'content', label: 'Content', to: '/admin/content', icon: FolderOpen, group: 'Content',
+    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-medical-evidence-v1', 'nishany-medical-evidence-published-v1', 'nishany-import-journal-v1', 'nishany-library-trees-v1', 'nishany-minigame-packs-v1', 'nishany-media-library-v1'],
+    apiPrefixes: ['/api/medical-library/coverage', '/api/medical-resources', '/api/media'] },
   { id: 'adaptive', label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass, group: 'Content',
     stateKeys: ['nishany-adaptive-config-v1', 'nishany-adaptive-blueprints-v1', 'nishany-adaptive-heldout-v1'], apiPrefixes: [] },
-  { id: 'practical', label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope, group: 'Content',
-    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-minigame-packs-v1', 'nishany-import-journal-v1'], apiPrefixes: [] },
-  { id: 'flashcards', label: 'Flashcards Setup', to: '/admin/flashcards', icon: Layers, group: 'Content',
-    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
-  { id: 'written', label: 'Written Setup', to: '/admin/written', icon: PenLine, group: 'Content',
-    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
-  { id: 'histology', label: 'Histology', to: '/admin/histology', icon: Microscope, group: 'Content',
-    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-import-journal-v1'], apiPrefixes: [] },
-  { id: 'concepts', label: 'Concepts', to: '/admin/concepts', icon: Braces, group: 'Content',
-    stateKeys: ['nishany-concept-graph-v2', 'nishany-import-journal-v1'], apiPrefixes: [] },
-  { id: 'relationships', label: 'Relationships', to: '/admin/relationships', icon: GitFork, group: 'Content',
+  { id: 'knowledge', label: 'Knowledge Graph', to: '/admin/knowledge', icon: GitFork, group: 'Content',
     stateKeys: ['nishany-concept-graph-v2', 'nishany-relation-types-v1', 'nishany-import-journal-v1'], apiPrefixes: [] },
-  { id: 'resources', label: 'Resources & Media', to: '/admin/resources', icon: Clapperboard, group: 'Content',
-    stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-media-library-v1'],
-    apiPrefixes: ['/api/medical-resources', '/api/media'] },
-  { id: 'media', label: 'Media Requests', to: '/admin/library/media', icon: ImagePlus, group: 'Content',
+  { id: 'media', label: 'Media Requests', to: '/admin/library/media', icon: ImagePlus, group: 'Content', navHidden: true,
     stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-media-library-v1'], apiPrefixes: ['/api/media'] },
-  { id: 'escalations', label: 'Escalations', to: '/admin/escalations', icon: Siren, group: 'Content',
+  { id: 'escalations', label: 'Escalations', to: '/admin/escalations', icon: Siren, group: 'Content', navHidden: true,
     stateKeys: [], apiPrefixes: [] },
-  { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: Flag, group: 'Content',
+  { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: Flag, group: 'Content', navHidden: true,
     stateKeys: ['nishany-content-reports-v1'], apiPrefixes: [] },
   { id: 'tutorial', label: 'Tutorial Videos', to: '/admin/tutorial', icon: MonitorPlay, group: 'Content',
     stateKeys: ['nishany-tutorial-videos-v1'], apiPrefixes: [] },
@@ -88,9 +84,9 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
     stateKeys: [], apiPrefixes: ['/api/mail', '/api/mailboxes'] },
   { id: 'notifications', label: 'Student Notifications', to: '/admin/notifications', icon: BellRing, group: 'Operations',
     stateKeys: ['nishany-notification-campaigns-v1'], apiPrefixes: [] },
-  { id: 'users', label: 'Users', to: '/admin/users', icon: UserCog, group: 'Operations',
+  { id: 'users', label: 'Console Users', to: '/admin/users', icon: UserCog, group: 'Operations', navHidden: true,
     stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/admin/enrollment-change-requests'] },
-  { id: 'students', label: 'Students', to: '/admin/students', icon: Users, group: 'Operations',
+  { id: 'students', label: 'Students', to: '/admin/students', icon: Users, group: 'Operations', navHidden: true,
     stateKeys: [], apiPrefixes: ['/api/students'] },
   { id: 'payments', label: 'Payments & Finance', to: '/admin/payments', icon: Banknote, group: 'Operations',
     stateKeys: ['nishany-plans-v1', 'nishany-plan-catalog-v1', 'nishany-student-id-discount-v1'], apiPrefixes: ['/api/admin/pricing'] },
@@ -116,7 +112,7 @@ const SUPER_ADMIN_ONLY = new Set(ADMIN_TAB_VIEWS.filter((view) => view.superAdmi
 export const DEFAULT_ROLE_TABS: Record<string, string[]> = {
   editor: TAB_IDS.filter((id) => !SUPER_ADMIN_ONLY.has(id)),
   admin: [
-    'dashboard', 'validation', 'reports', 'email', 'mailbox', 'notifications',
+    'dashboard', 'validation', 'analytics', 'reports', 'email', 'mailbox', 'notifications',
     'users', 'students', 'payments', 'vouchers', 'assistant', 'privacy',
     // The public documents. Not content authoring — an admin who runs billing
     // and support is the person who is told the company's registered name and

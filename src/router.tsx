@@ -185,7 +185,6 @@ const QuestionOfTheDay = lazyNamed(() => import('@/pages/student/QuestionOfTheDa
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
 
 const PlatformDashboard = lazyNamed(() => import('@/pages/admin/PlatformDashboard'), 'PlatformDashboard')
-const ControlDashboard = lazyNamed(() => import('@/pages/admin/ControlDashboard'), 'ControlDashboard')
 const AcademicSetup = lazyNamed(() => import('@/pages/admin/AcademicSetup'), 'AcademicSetup')
 const PaymentsFinance = lazyNamed(() => import('@/pages/admin/PaymentsFinance'), 'PaymentsFinance')
 const EmailAutomations = lazyNamed(() => import('@/pages/admin/EmailAutomations'), 'EmailAutomations')
@@ -194,29 +193,20 @@ const AdminSettings = lazyNamed(() => import('@/pages/admin/Settings'), 'Setting
 const AuditSecurity = lazyNamed(() => import('@/pages/admin/AuditSecurity'), 'AuditSecurity')
 const AccessControl = lazyNamed(() => import('@/pages/admin/AccessControl'), 'AccessControl')
 const MedicalCoverageReview = lazyNamed(() => import('@/pages/admin/MedicalCoverageReview'), 'MedicalCoverageReview')
-const ReportsReview = lazyNamed(() => import('@/pages/admin/ReportsReview'), 'ReportsReview')
-const EscalationsQueue = lazyNamed(() => import('@/pages/admin/EscalationsQueue'), 'EscalationsQueue')
+const Inbox = lazyNamed(() => import('@/pages/admin/Inbox'), 'Inbox')
 const VoucherManagement = lazyNamed(() => import('@/pages/admin/VoucherManagement'), 'VoucherManagement')
 const AssistantSetup = lazyNamed(() => import('@/pages/admin/AssistantSetup'), 'AssistantSetup')
 const TutorialSetup = lazyNamed(() => import('@/pages/admin/TutorialSetup'), 'TutorialSetup')
 const LegalPagesSetup = lazyNamed(() => import('@/pages/admin/LegalPagesSetup'), 'LegalPagesSetup')
 const NotificationCampaigns = lazyNamed(() => import('@/pages/admin/NotificationCampaigns'), 'NotificationCampaigns')
 const BulkImportPage = lazyNamed(() => import('@/pages/admin/BulkImportPage'), 'BulkImportPage')
-const ConceptsSetup = lazyNamed(() => import('@/pages/admin/ConceptsSetup'), 'ConceptsSetup')
-const RelationshipsSetup = lazyNamed(() => import('@/pages/admin/RelationshipsSetup'), 'RelationshipsSetup')
+const KnowledgeGraph = lazyNamed(() => import('@/pages/admin/KnowledgeGraph'), 'KnowledgeGraph')
 const TaxonomySetup = lazyNamed(() => import('@/pages/admin/TaxonomySetup'), 'TaxonomySetup')
-const StudentsManagement = lazyNamed(() => import('@/pages/admin/StudentsManagement'), 'StudentsManagement')
-const UsersManagement = lazyNamed(() => import('@/pages/admin/UsersManagement'), 'UsersManagement')
+const People = lazyNamed(() => import('@/pages/admin/People'), 'People')
 const QuestionsSetup = lazyNamed(() => import('@/pages/admin/QuestionsSetup'), 'QuestionsSetup')
 const AdaptiveSetup = lazyNamed(() => import('@/pages/admin/AdaptiveSetup'), 'AdaptiveSetup')
-const ResourcesSetup = lazyNamed(() => import('@/pages/admin/ResourcesSetup'), 'ResourcesSetup')
-const PracticalSetup = lazyNamed(() => import('@/pages/admin/PracticalSetup'), 'PracticalSetup')
-const FlashcardsSetup = lazyNamed(() => import('@/pages/admin/FlashcardsSetup'), 'FlashcardsSetup')
-const WrittenSetup = lazyNamed(() => import('@/pages/admin/WrittenSetup'), 'WrittenSetup')
-const HistologySetup = lazyNamed(() => import('@/pages/admin/HistologySetup'), 'HistologySetup')
 const ConceptsImportPage = lazyNamed(() => import('@/pages/admin/ConceptsImportPage'), 'ConceptsImportPage')
 const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImportPage'), 'RelationsImportPage')
-const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
 const EvidenceImportPage = lazyNamed(() => import('@/pages/admin/EvidenceImportPage'), 'EvidenceImportPage')
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
 const AcademicIntakePage = lazyNamed(() => import('@/pages/admin/AcademicIntakePage'), 'AcademicIntakePage')
@@ -226,6 +216,7 @@ const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
 const GlossarySetup = lazyNamed(() => import('@/pages/admin/GlossarySetup'), 'GlossarySetup')
 const GlossaryImportPage = lazyNamed(() => import('@/pages/admin/GlossaryImportPage'), 'GlossaryImportPage')
 const ValidationAnalytics = lazyNamed(() => import('@/pages/admin/ValidationAnalytics'), 'ValidationAnalytics')
+const StudentAnalytics = lazyNamed(() => import('@/pages/admin/StudentAnalytics'), 'StudentAnalytics')
 const ValidatorWorkspace = lazyNamed(() => import('@/pages/validator/ValidatorWorkspace'), 'ValidatorWorkspace')
 
 const studentPages: Record<string, Preloadable> = {
@@ -281,24 +272,13 @@ export function preloadStudentRoute(to: string): void {
 // RouteLoading resolves both portals through the explicit loading-layout registry.
 const adminBuilt: Record<string, ReactElement> = {
   academic: render(AcademicSetup),
-  library: render(ControlDashboard, { initialKind: 'article', lockedKind: true }),
-  questions: render(QuestionsSetup),
+  content: render(QuestionsSetup, { allKinds: true }),
   adaptive: render(AdaptiveSetup),
-  concepts: render(ConceptsSetup),
-  relationships: render(RelationshipsSetup),
+  knowledge: render(KnowledgeGraph),
   taxonomy: render(TaxonomySetup),
   glossary: render(GlossarySetup),
-  practical: render(PracticalSetup),
-  flashcards: render(FlashcardsSetup),
-  written: render(WrittenSetup),
-  histology: render(HistologySetup),
-  resources: render(ResourcesSetup),
-  escalations: render(EscalationsQueue),
-  reports: render(ReportsReview),
   tutorial: render(TutorialSetup),
   legal: render(LegalPagesSetup),
-  students: render(StudentsManagement),
-  users: render(UsersManagement),
   notifications: render(NotificationCampaigns),
   vouchers: render(VoucherManagement),
   payments: render(PaymentsFinance),
@@ -310,12 +290,13 @@ const adminBuilt: Record<string, ReactElement> = {
   access: render(AccessControl),
   assistant: render(AssistantSetup),
   validation: render(ValidationAnalytics),
+  analytics: render(StudentAnalytics),
 }
 
 // Keep mounted routes and preloadable student pages in one registry so a new
 // page cannot be linked in navigation while silently falling through to 404.
 const studentPaths = Object.keys(studentPages)
-const adminPaths = ['validation', 'academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'escalations', 'reports', 'tutorial', 'legal', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
+const adminPaths = ['validation', 'analytics', 'academic', 'content', 'adaptive', 'knowledge', 'taxonomy', 'glossary', 'tutorial', 'legal', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 /**
  * Routes that were renamed, kept alive as redirects.
@@ -414,17 +395,33 @@ const adminApp = {
     // `import/:kind` is the one path whose tab depends on the parameter, so it
     // is guarded by the ledger tab that owns that content kind.
     { path: 'import/:kind', element: <RequireImportKind>{render(BulkImportPage)}</RequireImportKind> },
-    guarded('concepts/import', render(ConceptsImportPage)),
-    guarded('relationships/import', render(RelationsImportPage)),
+    { path: 'concepts/import', element: <RequireAuth tab="knowledge">{render(ConceptsImportPage)}</RequireAuth> },
+    { path: 'relationships/import', element: <RequireAuth tab="knowledge">{render(RelationsImportPage)}</RequireAuth> },
+    // Concepts and Relationships merged into the Knowledge Graph tab.
+    { path: 'concepts', element: <RedirectWithSearch to="/admin/knowledge" /> },
+    { path: 'relationships', element: <RedirectWithSearch to="/admin/knowledge?view=relationships" /> },
     guarded('academic/import', render(AcademicImportPage)),
     guarded('academic/intake', render(AcademicIntakePage)),
     guarded('academic/marks', render(MarksWeights)),
     guarded('taxonomy/import', render(SubjectsImportPage)),
     guarded('glossary/import', render(GlossaryImportPage)),
-    guarded('library/coverage', render(MedicalCoverageReview)),
-    guarded('library/media', render(MediaRequests)),
-    guarded('library/evidence/import', render(EvidenceImportPage)),
-    { path: 'content', element: <RequireAuth tab="library">{render(ControlDashboard)}</RequireAuth> },
+    { path: 'library/coverage', element: <RequireAuth tab="content">{render(MedicalCoverageReview)}</RequireAuth> },
+    { path: 'library/evidence/import', element: <RequireAuth tab="content">{render(EvidenceImportPage)}</RequireAuth> },
+    // The three moderation queues gathered behind one Inbox, each section shown
+    // only to the tier that holds it. Old links land on the right section.
+    { path: 'inbox', element: <RequireAuth anyTab={['media', 'escalations', 'reports']}>{render(Inbox)}</RequireAuth> },
+    { path: 'library/media', element: <RedirectWithSearch to="/admin/inbox?view=media" /> },
+    { path: 'escalations', element: <RedirectWithSearch to="/admin/inbox?view=escalations" /> },
+    { path: 'reports', element: <RedirectWithSearch to="/admin/inbox?view=reports" /> },
+    // Console Users and Students gathered under one People entry, each section
+    // shown only to the capability that holds it.
+    { path: 'people', element: <RequireAuth anyTab={['users', 'students']}>{render(People)}</RequireAuth> },
+    { path: 'users', element: <RedirectWithSearch to="/admin/people?view=users" /> },
+    { path: 'students', element: <RedirectWithSearch to="/admin/people?view=students" /> },
+    // The seven per-kind setup tabs collapsed into one Content workspace; old
+    // bookmarks and in-app links keep working.
+    ...['library', 'questions', 'practical', 'flashcards', 'written', 'histology', 'resources']
+      .map((path) => ({ path, element: <RedirectWithSearch to="/admin/content" /> })),
     ...adminRoutes,
   ],
 }

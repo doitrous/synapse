@@ -18,7 +18,7 @@ import { assembleChunks, receiveChunk, receiveStream, resolveWithin } from '../u
 
 export function registerMediaRoutes(app) {
   /** Legacy bounded request, kept for older clients. New clients use chunks. */
-  app.post('/api/media', requireTab('resources', 'media'), wrap(async (req, res) => {
+  app.post('/api/media', requireTab('content', 'media'), wrap(async (req, res) => {
     const staging = resolveWithin(MEDIA_STORAGE_DIR, join('media', '.staging', randomUUID()))
     if (!staging) return res.status(500).json({ error: 'media staging path could not be resolved' })
 
@@ -46,7 +46,7 @@ export function registerMediaRoutes(app) {
   }))
 
   /** Start a large, resumable managed-media upload. */
-  app.post('/api/media/uploads', requireTab('resources', 'media'), wrap(async (req, res) => {
+  app.post('/api/media/uploads', requireTab('content', 'media'), wrap(async (req, res) => {
     await cleanupStaleMediaUploads()
     const sizeBytes = Number(req.body?.sizeBytes)
     if (!Number.isFinite(sizeBytes) || sizeBytes < 1 || sizeBytes > MEDIA_CHUNKED_MAX_BYTES) {
@@ -61,7 +61,7 @@ export function registerMediaRoutes(app) {
     res.json({ id, uploadId, chunkMaxBytes: MEDIA_CHUNK_MAX_BYTES, maxBytes: MEDIA_CHUNKED_MAX_BYTES })
   }))
 
-  app.put('/api/media/uploads/:id/:uploadId/chunks/:index', requireTab('resources', 'media'), wrap(async (req, res) => {
+  app.put('/api/media/uploads/:id/:uploadId/chunks/:index', requireTab('content', 'media'), wrap(async (req, res) => {
     const [rows] = await pool.query(
       `SELECT id FROM managed_media WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
       [req.params.id, req.params.uploadId, req.identity.id],
@@ -78,7 +78,7 @@ export function registerMediaRoutes(app) {
     res.json({ ok: true, index, sizeBytes: result.sizeBytes })
   }))
 
-  app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'media'), wrap(async (req, res) => {
+  app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('content', 'media'), wrap(async (req, res) => {
     const [rows] = await pool.query(
       `SELECT id, status, storage_key AS storageKey, sha256, media_type AS mediaType,
          mime_type AS mimeType, size_bytes AS sizeBytes, width, height, failure_reason AS failureReason
@@ -133,7 +133,7 @@ export function registerMediaRoutes(app) {
     }
   }))
 
-  app.delete('/api/media/uploads/:id/:uploadId', requireTab('resources', 'media'), wrap(async (req, res) => {
+  app.delete('/api/media/uploads/:id/:uploadId', requireTab('content', 'media'), wrap(async (req, res) => {
     const deleted = await deleteManagedMediaRow({
       id: req.params.id,
       uploadId: req.params.uploadId,
@@ -178,7 +178,7 @@ export function registerMediaRoutes(app) {
    * this route refuses active use and drops this managed alias. Content-addressed
    * bytes are reclaimed only after every database and library alias is gone.
    */
-  app.delete('/api/media/:id', requireTab('resources', 'media'), wrap(async (req, res) => {
+  app.delete('/api/media/:id', requireTab('content', 'media'), wrap(async (req, res) => {
     const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
     const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['nishany-concept-graph-v2'])
     const ledger = ledgerRow.length ? JSON.parse(ledgerRow[0].v) : []
@@ -194,7 +194,7 @@ export function registerMediaRoutes(app) {
     res.json({ ok: true })
   }))
 
-  app.post('/api/medical-resources/cleanup-uploads', requireTab('resources'), wrap(async (_req, res) => {
+  app.post('/api/medical-resources/cleanup-uploads', requireTab('content'), wrap(async (_req, res) => {
     const storedResources = (await medicalResourceRecords()).filter((resource) => resource.storageKey)
     if (!storedResources.length) return res.status(409).json({ error: 'no qualified stored resources are registered' })
     const missingResourceIds = storedResources
@@ -232,7 +232,7 @@ export function registerMediaRoutes(app) {
     res.sendFile(fullPath)
   }))
 
-  app.put('/api/medical-resources/:resourceId/file', requireTab('resources'), wrap(async (req, res) => {
+  app.put('/api/medical-resources/:resourceId/file', requireTab('content'), wrap(async (req, res) => {
     const resource = await resourceRecord(req.params.resourceId)
     if (!resource) return res.status(404).json({ error: 'resource not found' })
     const fullPath = resolvedResourcePath(resource.storageKey)
@@ -250,7 +250,7 @@ export function registerMediaRoutes(app) {
    * These endpoints accept bounded chunks, then verify the reconstructed file
    * against the qualified source hash before it becomes visible to readers.
    */
-  app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireTab('resources'), wrap(async (req, res) => {
+  app.put('/api/medical-resources/:resourceId/chunks/:uploadId/:index', requireTab('content'), wrap(async (req, res) => {
     const resource = await resourceRecord(req.params.resourceId)
     if (!resource) return res.status(404).json({ error: 'resource not found' })
     const fullPath = resolvedResourcePath(resource.storageKey)
@@ -265,7 +265,7 @@ export function registerMediaRoutes(app) {
     res.json({ ok: true, index, sizeBytes })
   }))
 
-  app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireTab('resources'), wrap(async (req, res) => {
+  app.post('/api/medical-resources/:resourceId/chunks/:uploadId/complete', requireTab('content'), wrap(async (req, res) => {
     const resource = await resourceRecord(req.params.resourceId)
     if (!resource) return res.status(404).json({ error: 'resource not found' })
     const fullPath = resolvedResourcePath(resource.storageKey)
