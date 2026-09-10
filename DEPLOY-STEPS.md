@@ -39,7 +39,7 @@ Point it at this repo, branch `main`, and set:
 |------|-------|------------------------|
 | `DATABASE_URL` | the internal URL from Step 1 | no |
 | `RESEND_API_KEY` | copy the **sending** key from `.env.local` | no |
-| `MAIL_FROM` | `info@nishany.com` (support/fallback sender; transactional & news default to `no-reply@mail.nishany.com` / `news@news.nishany.com`) | no |
+| `MAIL_FROM` | `info@mail.nishany.com` (support/fallback sender; transactional & news default to `no-reply@mail.nishany.com` / `news@news.nishany.com`) | no |
 | `SUPABASE_URL` | your Supabase project URL | no |
 | `VITE_SUPABASE_URL` | the same Supabase project URL | **yes** |
 | `VITE_SUPABASE_PUBLISHABLE_KEY` | Supabase publishable key (never service-role) | **yes** |
