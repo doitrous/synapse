@@ -7,6 +7,7 @@ import { CONTENT_REPORTS_STATE_KEY } from '../contentReports.js'
 import { pool } from '../db.js'
 import { ACADEMIC_CATALOGUE_STATE_KEY, CONTENT_LEDGER_STATE_KEY, wrap } from '../http.js'
 import { MEDIA_STATE_KEY } from '../mediaLibrary.js'
+import { NOTIFICATION_CAMPAIGNS_KEY, projectCampaignsForStudent } from '../notificationDelivery.js'
 import { collectMediaRequests } from '../mediaRequestPolicy.js'
 import { deleteManagedMediaRow, invalidateSnapshots, mediaRecords, removePhysicalMediaIfUnreferenced, withManagedMediaDigestLock } from '../mediaStore.js'
 import { hasConsoleAccess } from '../roles.js'
@@ -171,6 +172,15 @@ export function registerStateDocumentRoutes(app) {
       let catalogue = []
       try { catalogue = catalogueRows[0] ? JSON.parse(catalogueRows[0].v) : [] } catch { catalogue = [] }
       value = redactLedgerForStudent(value, releasedMediaIds, catalogue)
+    } else if (!authoring && key === NOTIFICATION_CAMPAIGNS_KEY && Array.isArray(value)) {
+      // Deliver only the campaigns due and addressed to this student's cohort —
+      // the same match the bell makes, done before the document leaves the
+      // server so inactive, future and other-cohort campaigns are never sent.
+      const [profileRows] = await pool.query(
+        'SELECT university_id AS universityId, year, study_group AS `group` FROM students WHERE user_id = ? LIMIT 1',
+        [req.identity?.id],
+      )
+      value = projectCampaignsForStudent(value, profileRows[0] ?? {}, Date.now())
     } else if (redact) value = redact(value)
     // Archived reports stay on the record for editors and super admins, but a
     // reviewer's queue is only the live work: they are filtered out before the
