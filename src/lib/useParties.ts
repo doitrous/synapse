@@ -164,17 +164,31 @@ export const PARTY_REFUSALS: Record<string, string> = {
   not_allowed: 'Only the host or the person who created this session can close it.',
 }
 
+/**
+ * Stale-while-revalidate caches, module-level so they outlive a component that
+ * unmounts on navigation. Going back to Study Rooms and reopening a room are
+ * the two round-trips a student makes constantly, and both used to blank to a
+ * skeleton while a fetch they had already done ran again. Now the last good
+ * answer paints instantly and the fetch refreshes it underneath. A transient
+ * failure keeps the last good answer rather than blanking; only a first-ever
+ * load with nothing cached shows empty.
+ */
+let myPartiesCache: PartySummary[] | null = null
+let openPartiesCache: OpenParty[] | null = null
+const partyCache = new Map<string, Party>()
+
 export function useMyParties() {
-  const [parties, setParties] = useState<PartySummary[]>([])
-  const [loading, setLoading] = useState(API_MODE)
+  const [parties, setParties] = useState<PartySummary[]>(() => myPartiesCache ?? [])
+  const [loading, setLoading] = useState(API_MODE && myPartiesCache === null)
 
   const reload = useCallback(async () => {
     if (!API_MODE) return
     try {
       const result = await apiGet<{ parties: PartySummary[] }>('/parties/mine')
+      myPartiesCache = result.parties
       setParties(result.parties)
     } catch {
-      setParties([])
+      if (myPartiesCache === null) setParties([])
     } finally {
       setLoading(false)
     }
@@ -193,16 +207,17 @@ export function useMyParties() {
 
 /** Parties in the caller's own cohort they could join, but are not standing in yet. */
 export function useOpenParties() {
-  const [parties, setParties] = useState<OpenParty[]>([])
-  const [loading, setLoading] = useState(API_MODE)
+  const [parties, setParties] = useState<OpenParty[]>(() => openPartiesCache ?? [])
+  const [loading, setLoading] = useState(API_MODE && openPartiesCache === null)
 
   const reload = useCallback(async () => {
     if (!API_MODE) return
     try {
       const result = await apiGet<{ parties: OpenParty[] }>('/parties/open')
+      openPartiesCache = result.parties
       setParties(result.parties)
     } catch {
-      setParties([])
+      if (openPartiesCache === null) setParties([])
     } finally {
       setLoading(false)
     }
@@ -242,7 +257,11 @@ const SLOW_POLL_MS = POLL_MS * 15
  * away.
  */
 export function useParty(partyId: string | null, options?: { background?: boolean }) {
-  const [party, setParty] = useState<Party | null>(null)
+  // Seeded from the cache so reopening a room the student was just in paints the
+  // hall immediately instead of flashing "Loading students and seats…". RoomView
+  // is keyed by room id, so this hook remounts per room and the initializer is
+  // always reading the right room's cached party.
+  const [party, setParty] = useState<Party | null>(() => (partyId ? partyCache.get(partyId) ?? null : null))
   const [error, setError] = useState('')
   const archivedRef = useRef(false)
   const background = Boolean(options?.background)
@@ -251,11 +270,14 @@ export function useParty(partyId: string | null, options?: { background?: boolea
     if (!partyId || !API_MODE) return
     try {
       const result = await apiGet<{ party: Party }>(`/parties/${encodeURIComponent(partyId)}`)
+      partyCache.set(partyId, result.party)
       setParty(result.party)
       archivedRef.current = result.party.archivedAt !== null
       setError('')
     } catch {
-      setError('That party could not be loaded.')
+      // Keep the cached party on a transient failure; only surface the error
+      // when there was nothing to show in the first place.
+      if (!partyCache.has(partyId)) setError('That party could not be loaded.')
     }
   }, [partyId])
 

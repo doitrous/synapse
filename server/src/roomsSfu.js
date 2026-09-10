@@ -47,9 +47,13 @@ export function sfuConfig(env = process.env) {
   // Four ports per member in voice (UDP + TCP on each of a send and a receive
   // transport). The old 101-port default capped the host at about twenty-five
   // concurrent speakers — barely one full room — which is not a default, it is
-  // a trap. 401 ports is roughly a hundred.
+  // a trap. 10 000 ports is roughly 2 500 concurrent speakers, which clears a
+  // few hundred students across many rooms with all of them in voice at once.
+  // The firewall/security group must open this whole UDP+TCP range (see
+  // docs/rooms-voice.md); mediasoup binds ports lazily, so a wide range costs
+  // nothing until members actually join voice.
   const min = Number(env.SFU_RTC_MIN_PORT) || 40000
-  const max = Number(env.SFU_RTC_MAX_PORT) || 40400
+  const max = Number(env.SFU_RTC_MAX_PORT) || 49999
   return {
     listenIp: env.SFU_LISTEN_IP || '0.0.0.0',
     // No default is possible: this is the address other people's browsers dial,

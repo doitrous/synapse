@@ -121,8 +121,8 @@ Study room signalling ready, voice unavailable (<reason>)
 ```
 
 Media does **not** travel over the HTTP port. Open UDP **and** TCP
-`SFU_RTC_MIN_PORT`–`SFU_RTC_MAX_PORT` (40000–40400 by default, about four ports
-per member in voice) on the host and
+`SFU_RTC_MIN_PORT`–`SFU_RTC_MAX_PORT` (40000–49999 by default, four ports per
+member in voice, so ~2 500 concurrent speakers) on the host and
 in Coolify, and set `SFU_ANNOUNCED_IP` to this machine's public IP — unset, voice
 only connects on the server host itself. A `coturn` server (`TURN_URLS`,
 `TURN_USERNAME`, `TURN_CREDENTIAL`) is required for reliability: STUN alone

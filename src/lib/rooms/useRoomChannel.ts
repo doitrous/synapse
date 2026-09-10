@@ -39,6 +39,17 @@ const CLOSE_EVICTED = 4403
 /** How long a request waits for its answer before giving up on it. */
 const REQUEST_TIMEOUT_MS = 15_000
 
+/**
+ * How often to send an application-level ping while connected.
+ *
+ * Under the server's ping interval (25s) so a keepalive always lands inside the
+ * window, and, more importantly, it is a *data* frame: a reverse proxy that
+ * idle-closes a quiet WebSocket, or one that strips ws ping/pong control
+ * frames, sees steady traffic and leaves the socket alone. Without it an idle
+ * member (not speaking, not chatting) reconnect-loops behind such a proxy.
+ */
+const HEARTBEAT_MS = 20_000
+
 export interface RoomChannel {
   voiceReset:number
   status: ChannelStatus
@@ -103,6 +114,7 @@ export function useRoomChannel(code: string | null): RoomChannel {
     const mine = ++generation.current
     let retries = 0
     let retryTimer = 0
+    let heartbeat = 0
     let closedForGood = false
 
     const connect = () => {
@@ -124,6 +136,11 @@ export function useRoomChannel(code: string | null): RoomChannel {
 
       ws.addEventListener('open', () => {
         retries = 0
+        heartbeat = window.setInterval(() => {
+          if (ws.readyState === WebSocket.OPEN) {
+            try { ws.send(JSON.stringify({ type: 'ping' })) } catch { /* closing under us */ }
+          }
+        }, HEARTBEAT_MS)
       })
 
       ws.addEventListener('message', (event) => {
@@ -147,6 +164,7 @@ export function useRoomChannel(code: string | null): RoomChannel {
       })
 
       ws.addEventListener('close', (event) => {
+        window.clearInterval(heartbeat)
         if (socket.current === ws) socket.current = null
         failPending('The room connection closed.')
         // 4401 is "you were never allowed in"; 4403 is "you are not allowed in
@@ -178,6 +196,7 @@ export function useRoomChannel(code: string | null): RoomChannel {
       closedForGood = true
       generation.current += 1
       window.clearTimeout(retryTimer)
+      window.clearInterval(heartbeat)
       failPending('The room was closed.')
       const open = socket.current
       socket.current = null

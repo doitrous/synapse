@@ -704,6 +704,13 @@ export async function attachRoomsRealtime(httpServer, { identityFromToken, ident
       // be fatal to the process, so it is caught here too. Cheap insurance on
       // the one path an attacker controls the input to.
       ws.on('message', (data) => {
+        // Any inbound frame proves the peer is alive. Relying on the ws-level
+        // pong alone means a reverse proxy that forwards data frames but drops
+        // ping/pong control frames leaves isAlive false, the heartbeat below
+        // terminates the socket every PING_MS, and the client reconnect-loops.
+        // The client sends an application `ping` on its own timer for exactly
+        // this reason (useRoomChannel), so an idle-but-connected member counts.
+        ws.isAlive = true
         void hub.receive(client, data.toString())
           .catch((error) => console.error('room socket: message failed:', error?.message ?? error))
       })
