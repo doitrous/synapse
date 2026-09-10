@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useEffect, useMemo, useState } from 'react'
 import {
   Archive, ArchiveRestore, Check, ChevronRight, CircleAlert, Eye, Flag, ListChecks,
@@ -310,7 +311,7 @@ export function ReportsReview() {
         <Panel className="overflow-hidden">
           <PanelHeader title={t('Review queue')} icon={Flag} hint={`${rows.length} ${t('shown')}`} />
           {listAvailability.kind !== 'ready' ? (
-            <CatalogueUnavailable
+            <CatalogueUnavailable skeleton={<ContentSkeleton shape="editor" />}
               availability={listAvailability}
               empty={{
                 title: reports.length ? t('Nothing matches these filters') : t('No reports yet'),
@@ -439,7 +440,7 @@ function ReportDetail({
               {previewAvailability.kind === 'ready' && previewItem ? (
                 <StudentFaithfulPreview item={previewItem} anchor={reportPreviewAnchor(report)} />
               ) : (
-                <CatalogueUnavailable
+                <CatalogueUnavailable skeleton={<ContentSkeleton shape="editor" />}
                   availability={previewAvailability}
                   empty={{
                     title: t('Content not found'),

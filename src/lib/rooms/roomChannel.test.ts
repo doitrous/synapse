@@ -262,3 +262,12 @@ test('giving up and then trying again is a new attempt, not a stale one', () => 
   assert.equal(trying.retrying, true)
   assert.equal(trying.status, 'connecting')
 })
+
+
+test('each server voice reset reaches the microphone lifecycle even without a seat snapshot', () => {
+  const once = apply(initialChannelState, { type: 'sfu:voiceReset' })
+  const twice = apply(once, { type: 'sfu:voiceReset' })
+  assert.equal(once.voiceReset, 1)
+  assert.equal(twice.voiceReset, 2)
+  assert.equal(twice.members, null)
+})

@@ -1,0 +1,13 @@
+.room-companion-popup{position:fixed;left:12px;bottom:calc(12px + env(safe-area-inset-bottom));width:min(320px,calc(100vw - 24px));z-index:35;transition:left .2s ease;max-height:calc(100dvh - 90px);overflow:auto;border-radius:16px;scrollbar-width:thin}
+.room-companion-shortcuts{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;border-top:1px solid var(--color-line);padding:6px 10px}
+.room-companion-shortcuts button{display:flex;justify-content:center;align-items:center;gap:5px;min-height:32px;font-size:11px;border-radius:6px;color:var(--color-ink-2);cursor:pointer}
+.room-companion-shortcuts button:hover,.room-companion-shortcuts button[aria-pressed=true]{background:var(--color-primary-tint);color:var(--color-primary-strong)}
+.room-companion-study-links{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid var(--color-line)}
+.room-companion-study-links button{flex:1;display:flex;align-items:center;justify-content:center;gap:5px;font-size:11px;min-height:34px;border:1px solid var(--color-line);border-radius:6px;cursor:pointer;color:var(--color-ink-2)}
+.room-companion-study-links button:hover{background:var(--color-inset)}
+.room-companion-popup button:focus-visible{outline:2px solid var(--color-primary);outline-offset:2px}
+.app-content-shell:has(>.room-companion-popup){height:100dvh;min-height:0!important;overflow:hidden}
+.app-content-shell:has(>.room-companion-popup)>#main-content{flex:1 1 0%;min-height:0;overflow:auto;overscroll-behavior:contain}
+.room-companion-clearance{flex:none}
+@media(min-width:1024px){.room-companion-popup{left:calc(var(--room-sidebar-offset) + 12px)}}
+@media(prefers-reduced-motion:reduce){.room-companion-popup{transition:none}}

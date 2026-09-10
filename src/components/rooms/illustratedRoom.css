@@ -1,0 +1,122 @@
+/* The reference room is assembled from editable furniture, people and devices. */
+.reference-room{background:#f4f0e7;border-radius:0 0 12px 12px;overflow:hidden;color:#273e51}
+.reference-room-options{padding:9px 16px;display:flex;justify-content:space-between;align-items:center;gap:16px;background:var(--color-surface);color:var(--color-ink-2);font-size:11px;border-bottom:1px solid var(--color-line)}
+.reference-room-options button{padding:6px 10px;cursor:pointer;color:var(--color-ink);border:1px solid var(--color-line);border-radius:5px;white-space:nowrap}
+.reference-room-pan{overflow:auto;scrollbar-width:thin}
+.reference-room-stage{position:relative;min-width:760px;width:100%;isolation:isolate;overflow:hidden;background:#f6f2e9}
+.reference-architecture{position:absolute;inset:0;width:100%;height:100%}
+.reference-furniture{position:absolute;display:block;mix-blend-mode:multiply;pointer-events:none;overflow:hidden}
+.reference-student{position:absolute;display:block;aspect-ratio:2/3;background-image:url('/assets/study-room/students-rear.png');background-size:400% 200%;mix-blend-mode:multiply;pointer-events:none}
+.reference-student.faces-front{background-image:url('/assets/study-room/students-front.png')}
+.reference-station{position:absolute;aspect-ratio:350/220;isolation:isolate}
+.reference-rug{position:absolute;left:7%;top:33%;width:87%;height:61%;background:#cbd0d1;box-shadow:1px 3px 4px #34475417;transform:skewX(-4deg);opacity:.52}
+.reference-station.is-discussion .reference-rug{border-radius:50%;top:34%;height:72%}
+.reference-desk-items{position:absolute;height:40%;pointer-events:none}
+.reference-item{position:absolute;display:block;transform:translateX(-50%);bottom:55%;width:18%}
+.reference-item.item-device{width:42%;bottom:33%}.reference-device{width:100%;height:auto;display:block;filter:drop-shadow(1px 2px 1px #3332)}
+.reference-item.item-plant{width:28%;height:57%;bottom:45%}.reference-item .furniture-plant{width:100%;height:auto;bottom:0}
+.reference-notebook{display:flex;width:100%;height:13px;transform:skewX(-14deg);background:#faf8f0;box-shadow:1px 2px 1px #7c75615c;border:1px solid #cac5b8}.reference-notebook i{width:50%;background:repeating-linear-gradient(0deg,transparent 0 3px,#cdc8bc 3px 3.5px);border-right:1px solid #b8b2a5;margin:2px}
+.reference-cup{display:block;width:11px;height:14px;background:#f9f9f2;border-radius:2px 2px 6px 6px;border-top:3px solid #755c45;box-shadow:1px 2px 2px #52472d4d}.reference-cup:after{content:'';position:absolute;left:8px;top:3px;width:7px;height:7px;border:2px solid #e1e3dc;border-radius:50%}
+.reference-note{display:block;width:25px;height:18px;overflow:hidden;background:#f2e2ac;transform:skewX(-12deg);box-shadow:1px 1px 1px #5553;font:3px Georgia;color:#796c50;padding:2px}
+.reference-drawer{position:absolute;right:13%;top:40%;width:15%;height:16%;background:#c4a276;box-shadow:inset 0 1px #ead1a3,1px 2px 2px #68563833;z-index:-1}
+.reference-seat-target{position:absolute;display:flex;align-items:center;justify-content:center;gap:6px;min-height:34px;cursor:pointer;color:#253f55;background:transparent;border:1px solid transparent;border-radius:6px;padding:3px;white-space:nowrap}
+.reference-seat-target b{display:grid;place-items:center;width:23px;height:25px;background:#294660;color:white;border-radius:3px;font-weight:500;font-size:13px;box-shadow:1px 2px 2px #22374b26;flex-shrink:0}
+.reference-seat-target>span{padding:3px 7px;background:#fdfcf5e8;border-radius:4px;display:flex;gap:7px;align-items:center;min-width:0;box-shadow:1px 2px 3px #47526512}
+.reference-seat-target strong{font-size:11px;font-weight:600;max-width:67px;overflow:hidden;text-overflow:ellipsis}.reference-seat-target small{display:flex;align-items:center;gap:3px;font-size:9px;font-variant-numeric:tabular-nums}
+.reference-seat-target small i{width:4px;height:4px;border-radius:50%;background:#688052}.reference-seat-target small i[data-status='On Break']{background:#b29754}.reference-seat-target small i[data-status='Needs Help']{background:#b26868}
+.reference-seat-target.is-self b{background:var(--color-primary-strong)}.reference-seat-target.is-self strong{color:var(--color-primary-strong)}
+.reference-seat-target:hover,.reference-seat-target[aria-pressed=true]{border-color:#738b9d;background:#fffff5aa}.reference-seat-target:focus-visible,.reference-room-pan:focus-visible,.reference-room-options button:focus-visible{outline:2px solid var(--color-primary);outline-offset:-2px}
+.reference-library .reference-room-stage{background:#b8aa93}.reference-library .reference-rug{background:#b0a28d}
+.reference-room.is-preview .reference-room-stage{min-width:360px}.reference-room.is-preview .reference-room-pan{height:100%;overflow:hidden}
+.room-fallback-scroll>.reference-room{min-width:0}
+@media(max-width:560px){.reference-room-options{padding:7px 10px}.reference-room-options>span{max-width:180px}.reference-seat-target{min-height:40px}}
+.reference-station{isolation:auto}.reference-room-stage{min-width:650px}
+@media(min-width:901px){.reference-room-stage{min-width:0}}
+.reference-station{mix-blend-mode:multiply}
+/* The white matte is keyed during rendering, preserving opaque clothing and furniture. */
+.reference-student,.reference-furniture{filter:var(--reference-matte);mix-blend-mode:normal}
+.reference-station{mix-blend-mode:normal}
+.reference-far-hands{position:absolute;inset:0;pointer-events:none}.reference-far-hands .reference-student{clip-path:inset(0 0 43% 0)}
+
+.reference-student.on-stool{background-image:url('/assets/study-room/students-stools.png')}
+.reference-art-status{position:absolute;z-index:2000;padding:8px 12px;background:var(--color-surface);color:var(--color-ink-2);font-size:12px;border-radius:5px;max-width:90%}.reference-art-status button{margin-left:10px;text-decoration:underline;cursor:pointer}
+.reference-corner-extension{position:absolute;left:7%;top:36%;width:20%;height:20%;background:#cfb084;box-shadow:inset 0 3px #e5c79a,0 3px #846d51;transform:skewY(8deg);border-radius:3px;pointer-events:none}.reference-corner-extension:after{content:'';position:absolute;left:3px;top:100%;height:44px;width:5px;background:#454849}
+.room-fallback.is-preview,.room-fallback.is-preview .room-fallback-scroll,.reference-room.is-preview{height:100%}
+.reference-room.is-preview .reference-room-stage{min-width:0;width:100%;height:100%;aspect-ratio:auto!important}
+.reference-preview-switch{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:11px;padding:8px 0;color:var(--color-ink-2)}.reference-preview-switch button{padding:5px 8px;border:1px solid var(--color-line);border-radius:5px;cursor:pointer;color:var(--color-ink)}
+.reference-desk-preview{position:relative;aspect-ratio:350/220;background:#ebe8df;isolation:isolate;overflow:hidden;border-radius:8px}
+.reference-preview-item{position:absolute;top:27%;width:8%;transform:translateX(-50%)}.reference-preview-item.preview-device{width:18%;top:16%}.reference-preview-item.preview-plant{width:9%;top:20%;height:13%}.reference-preview-item .reference-furniture{width:100%;height:auto;bottom:0}
+/* Fit the whole room while preserving sprite proportions and readable seat controls. */
+.reference-room-view-actions{display:flex;gap:5px;flex-shrink:0}
+.reference-room-options{padding:5px 12px;gap:8px}
+.reference-room-options button{padding:4px 7px}
+.reference-room-stage{margin-inline:auto}
+.reference-room:not(.is-preview) .reference-room-pan{background:#e9e5db}
+@media(min-width:901px){
+  .reference-room:not(.is-preview):not(.is-expanded) .reference-room-stage{width:min(100%,max(320px,calc(clamp(260px,calc(100dvh - 450px),660px) * var(--reference-ratio))))}
+  .reference-room.is-expanded .reference-room-stage{width:100%}
+  .room-fallback:not(.is-preview)>.diorama-view-controls{padding:6px 12px}
+}
+@media(max-width:900px){.reference-size-toggle{display:none}.reference-room-options>span{max-width:180px}}
+
+@media(min-width:901px){.reference-room:not(.is-expanded):not(.is-preview) .reference-seat-target small{display:none}.reference-room:not(.is-expanded) .reference-seat-target>span{padding:3px 5px}}
+@media(min-width:901px){
+  .reference-room:not(.is-expanded):not(.is-preview) .reference-seat-target{padding:0;gap:3px}
+  .reference-room:not(.is-expanded):not(.is-preview) .reference-seat-target b{width:18px;height:22px;font-size:11px}
+  .reference-room:not(.is-expanded):not(.is-preview) .reference-seat-target>span{padding:3px}
+}
+
+
+@media(min-width:901px) and (max-height:760px){
+  .reference-room:not(.is-expanded) .reference-seat-target{min-height:25px}
+  .reference-room:not(.is-expanded) .reference-seat-target b{width:15px;height:19px;font-size:10px}
+  .reference-room:not(.is-expanded) .reference-seat-target strong{font-size:9px}
+  .reference-room:not(.is-expanded) .reference-seat-target>span{padding:2px}
+}
+
+/* Evening library: warm work surfaces, slate platforms and direct stair access. */
+.reference-library,.reference-library:not(.is-preview) .reference-room-pan,.reference-library .reference-room-stage{background:#10212e;color:#eee5d6}
+.library-prop{position:absolute;display:block;pointer-events:none;filter:var(--library-prop-matte);overflow:hidden}
+.reference-library .reference-station>.furniture-desk,.reference-library .reference-station>.furniture-round{filter:var(--reference-matte) brightness(.68) saturate(1.1)}
+.reference-library .reference-student,.reference-library .furniture-chair,.reference-library .furniture-chair-front{filter:var(--reference-matte) brightness(.85) saturate(.8)}
+.reference-library .reference-station.is-discussion .reference-rug{background:#657582;opacity:.35;box-shadow:0 9px 0 #08141e,0 15px 14px #0005;border:1px solid #92a1a34d;top:27%;height:75%}
+.reference-library .reference-seat-target{color:#ece5d7}
+.reference-library .reference-seat-target>span{background:#102330ed;box-shadow:0 1px 3px #0003}
+.reference-library .reference-seat-target b{background:#334e60;color:#f7f0df;border:1px solid #7e99984d}
+.reference-library .reference-seat-target.is-self b{background:#367b78}
+.reference-library .reference-seat-target.is-self strong{color:#9de0d5}
+.reference-library .reference-seat-target:hover,.reference-library .reference-seat-target[aria-pressed=true]{background:#4d66666b;border-color:#c5b78b}
+.library-lamp-pool{position:absolute;pointer-events:none;left:45%;top:9%;width:40%;height:40%;border-radius:50%;background:radial-gradient(ellipse,#ffd48738,transparent 72%);mix-blend-mode:screen}
+.is-discussion .library-lamp-pool{left:28%;width:45%;top:2%}
+.library-stair-target{position:absolute;top:116%;left:14%;width:72%;display:flex;align-items:center;justify-content:center;gap:6px;min-height:30px;padding:4px 8px;border:1px solid #71878388;background:#142b38e8;color:#ece1c7;border-radius:5px;font-size:11px;white-space:nowrap;cursor:pointer;box-shadow:0 2px 4px #0004}
+.library-stair-target:hover{background:#34525d;border-color:#ead8ac}
+.library-stair-target:focus-visible{outline:2px solid #dfc48c;outline-offset:3px}
+.reference-library .reference-seat-target:focus-visible{outline-color:#dfc48c}
+.reference-library.is-preview .library-prop{filter:var(--library-prop-matte)}
+@media(min-width:901px){
+  .reference-library:not(.is-preview):not(.is-expanded) .reference-room-stage{width:min(100%,max(380px,calc(clamp(280px,calc(100dvh - 415px),620px) * var(--reference-ratio))))}
+  .reference-library:not(.is-expanded) .reference-seat-target>span{padding:2px}
+  .reference-library:not(.is-expanded) .reference-seat-target strong{font-size:10px}
+  .reference-library:not(.is-expanded) .library-stair-target{min-height:26px;font-size:10px;padding:3px}
+}
+.library-private-label{position:absolute;top:116%;left:14%;width:72%;text-align:center;font-size:10px;line-height:26px;color:#dccdab;pointer-events:none;white-space:nowrap;letter-spacing:.015em}
+.reference-seat-legend{display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:10px}
+.reference-seat-legend>span{display:flex;gap:5px;align-items:center;white-space:nowrap}
+.reference-seat-legend i{width:7px;height:7px;border-radius:50%;display:inline-block}
+.legend-available{background:#487c57}.legend-occupied{background:#9b7349}.legend-self{background:#327980}
+.reference-room .reference-seat-target b{background:#8a6743;color:#fff3df;border-color:#bd9971}
+.reference-room .reference-seat-target.is-empty b{background:#366748;color:#e9ffe9;border:1px solid #80b98e}
+.reference-room .reference-seat-target.is-self b{background:#246b74;color:#e5ffff;border:1px solid #72b8be}
+.reference-room .reference-seat-target.is-empty:hover{background:#487c5733;border-color:#80b98e}
+.reference-status-icon{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#132d3ee6;color:#f3e9d5;font-style:normal;flex-shrink:0}
+.reference-availability-mark{font-style:normal;color:#a4d8ac;font-size:13px;font-weight:600;line-height:1}
+.reference-room:not(.reference-library) .reference-status-icon{background:#fcfaf1;color:#566d79}
+.reference-room:not(.reference-library) .reference-availability-mark{color:#366748}
+.desk-preview-front{aspect-ratio:350/260;background:#e9e5db}
+.desk-preview-front .reference-far-hands .reference-student{clip-path:inset(0 0 47% 0)}
+.desk-preview-front .reference-rug{top:44%}
+.desk-preview-front .reference-drawer{top:58%}
+.desk-preview-front .reference-corner-extension{top:54%}
+.reference-raised-hand{position:absolute;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#f6d990;color:#594515;box-shadow:0 2px 5px #1115;border:1px solid #fff0c4;z-index:5;pointer-events:none}
+.reference-far-hands .reference-raised-hand{display:none}
+@media(min-width:901px){.reference-room:not(.is-expanded):not(.is-preview) .reference-seat-target{min-height:24px}}

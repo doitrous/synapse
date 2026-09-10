@@ -1,3 +1,5 @@
+import { LoadingRegion } from '@/components/loading/SkeletonParts'
+import { Skeleton, SkeletonText } from '@/components/ui/Skeleton'
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Check, Eye, LinkIcon, PencilLine, Save } from 'lucide-react'
@@ -99,7 +101,7 @@ export function SharedDocument() {
       </header>
 
       <main className="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
-        {loading && <p className="text-[13.5px] text-ink-2">{t('Opening…')}</p>}
+        {loading && <LoadingRegion label={t('Opening…')}><Skeleton className="mb-6 h-8 w-2/3" /><SkeletonText lines={6} /><Skeleton className="my-6 h-64 w-full" /><SkeletonText lines={4} /></LoadingRegion>}
 
         {!loading && error === 'offline' && (
           <p className="rounded-xl border border-line bg-surface p-6 text-[13.5px] leading-relaxed text-ink-2">

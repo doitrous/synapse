@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { Microscope as MicroscopeIcon } from 'lucide-react'
 import { ComingSoonBanner, HubStat } from '@/components/hub'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -36,7 +37,7 @@ export function Histology() {
       />
       {availability.kind !== 'ready' ? (
         <Panel className="p-8">
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="histology" />}
             availability={availability}
             empty={{ title: t('No slides published yet'), description: t('Published histology slides will appear here.') }}
           />

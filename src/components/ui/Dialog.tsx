@@ -38,6 +38,8 @@ export function Dialog({
 }) {
   const id = useId()
   const panelRef = useRef<HTMLDivElement>(null)
+  const closeRef = useRef(onClose)
+  closeRef.current = onClose
 
   useEffect(() => {
     pushOverlay(id, 'dialog')
@@ -56,7 +58,7 @@ export function Dialog({
       if (event.key === 'Escape') {
         event.preventDefault()
         event.stopPropagation()
-        onClose()
+        closeRef.current()
         return
       }
       wrapTab(event, panelRef.current)
@@ -69,7 +71,9 @@ export function Dialog({
       if (!countOverlays('dialog')) document.body.style.overflow = bodyOverflow
       previous?.focus?.()
     }
-  }, [id, onClose])
+  // Editing a field often creates a new onClose callback. The focus trap must
+  // stay mounted for the dialog's lifetime, rather than refocusing every render.
+  }, [id])
 
   return createPortal(
     <div

@@ -1,10 +1,12 @@
+import { NextStepSkeleton } from '@/components/loading/DashboardSkeletons'
+import { LoadingError } from '@/components/loading/LoadingError'
 import { Link } from 'react-router-dom'
 import {
   AlarmClock, BookOpenText, CalendarClock, CalendarPlus,
   FileQuestion, MapPin, PenLine, Stethoscope,
 } from 'lucide-react'
 import { EXAM_KIND_LABEL, type StudyKind } from '@/data/examProgramme'
-import { useNextExam } from '@/lib/useExamProgramme'
+import { useNextExam, useNextExamState } from '@/lib/useExamProgramme'
 import { useUpcoming } from '@/lib/useUpcoming'
 import { nextUp, itemMinutes, type UpcomingItem } from '@/lib/upcoming'
 import { formatClock, formatLongDate, formatMinutes } from '@/lib/format'
@@ -279,7 +281,10 @@ function ScheduleHero() {
  * against — never a blank space where the day's next thing should be.
  */
 export function ExamCountdown() {
-  const next = useNextExam()
+  const { nextExam: next, loading, error } = useNextExamState()
+  const schedule = useUpcoming()
+  if (error || schedule.error) return <LoadingError />
+  if (loading || schedule.loading) return <NextStepSkeleton />
   if (next?.programme?.days[0]?.items.length) return <ExamHero />
   return <ScheduleHero />
 }

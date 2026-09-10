@@ -16,11 +16,11 @@ migrateLegacyLocalKey(LEGACY_MASTERY_STORAGE_KEY, MASTERY_STORAGE_KEY)
  * every time React re-ran the component.
  */
 export function useMastery() {
-  const [ledger, setLedger] = usePersistentState<MasteryLedger>(MASTERY_STORAGE_KEY, {})
+  const [ledger, setLedger, status] = usePersistentState<MasteryLedger>(MASTERY_STORAGE_KEY, {})
 
   const record = useCallback((input: Omit<EvidenceInput, 'at'>) => {
     setLedger((current) => recordEvidence(current, { ...input, at: new Date().toISOString() }))
   }, [setLedger])
 
-  return { ledger, record }
+  return { status, loading: !status.hydrated && !status.error, ledger, record }
 }

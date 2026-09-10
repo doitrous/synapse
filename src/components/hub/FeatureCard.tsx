@@ -3,6 +3,7 @@ import type { LucideIcon } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Meter } from '@/components/ui/Meter'
 import { TargetRing } from '@/components/ui/TargetRing'
@@ -32,13 +33,21 @@ export interface FeatureCardProps {
   icon: LucideIcon
   title: string
   description: string
+  /** A visible demo action alongside the feature’s release status. */
+  demoHref?: string
   progress?: FeatureProgress
   /** Up to two. Anything beyond the second is dropped rather than wrapped. */
   stats?: FeatureStat[]
   status?: 'live' | 'coming-soon'
   /** Required when `status === 'coming-soon'` — a card with nothing to say
    *  about why it is not ready is worse than no card. */
-  comingSoon?: { body: string; previewHref?: string }
+  comingSoon?: {
+    body: string
+    previewHref?: string
+    previewLabel?: string
+    /** Shows the preview as a direct action on the card instead of hiding it in the dialog. */
+    showPreviewOnCard?: boolean
+  }
   /** Handles the activation itself instead of navigating — how a hub selects
    *  a tab on a page it is already on (Practical's stations, say). */
   onClick?: () => void
@@ -61,6 +70,7 @@ export function FeatureCard({
   icon,
   title,
   description,
+  demoHref,
   progress,
   stats,
   status = 'live',
@@ -71,11 +81,13 @@ export function FeatureCard({
   const [dialogOpen, setDialogOpen] = useState(false)
   const soon = status === 'coming-soon'
   const shown = stats?.slice(0, 2) ?? []
+  const previewOnCard = soon && comingSoon?.showPreviewOnCard ? comingSoon.previewHref : undefined
+  const demoTarget = demoHref ?? previewOnCard
 
   const surface = cn(
     'group/card relative flex min-w-0 flex-col rounded-xl border border-line bg-surface p-5 text-start shadow-panel',
     'transition-[transform,box-shadow] duration-[var(--dur-base)] ease-[var(--ease-out-quint)]',
-    'hover:-translate-y-0.5 hover:shadow-raised motion-reduce:transform-none',
+    !demoTarget && 'hover:-translate-y-0.5 hover:shadow-raised motion-reduce:transform-none',
     'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
   )
 
@@ -143,6 +155,19 @@ export function FeatureCard({
     </>
   )
 
+  if (demoTarget) {
+    return (
+      <div className={surface}>
+        {body}
+        <div className="mt-auto pt-4">
+          <ButtonLink to={demoTarget} variant="primary" size="sm" iconRight={ArrowUpRight}>
+            {t(demoHref ? 'Demo' : comingSoon?.previewLabel ?? 'Open the preview')}
+          </ButtonLink>
+        </div>
+      </div>
+    )
+  }
+
   if (soon || onClick) {
     return (
       <>
@@ -159,6 +184,7 @@ export function FeatureCard({
             body={comingSoon?.body ?? ''}
             icon={icon}
             previewHref={comingSoon?.previewHref}
+            previewLabel={comingSoon?.previewLabel}
             onClose={() => setDialogOpen(false)}
           />
         )}

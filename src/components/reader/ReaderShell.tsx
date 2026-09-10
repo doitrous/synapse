@@ -1,3 +1,5 @@
+import { LoadingRegion } from '@/components/loading/SkeletonParts'
+import { Skeleton, SkeletonText } from '@/components/ui/Skeleton'
 import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import {
@@ -429,7 +431,7 @@ export function ReaderShell() {
   /* ---- Render ---------------------------------------------------------- */
 
   if (!source.found) {
-    if (source.loading) return <p className="py-16 text-center text-[13px] text-ink-3">{t('Opening…')}</p>
+    if (source.loading) return <LoadingRegion label={t('Opening…')} className="space-y-6 py-6"><Skeleton className="mb-6 h-8 w-2/3" /><SkeletonText lines={7} /><Skeleton className="my-6 h-56 w-full" /><SkeletonText lines={6} /></LoadingRegion>
     return (
       <div className="mx-auto max-w-lg px-6 py-16 text-center">
         <p className="text-[15px] font-semibold text-ink">{t('That resource is not here')}</p>
@@ -549,7 +551,7 @@ export function ReaderShell() {
           className="size-full overflow-auto overscroll-contain"
           style={{ touchAction: 'pan-x pan-y pinch-zoom' }}
         >
-          {loading && <p className="py-16 text-center text-[13px] text-ink-3">{t('Opening…')}</p>}
+          {loading && <LoadingRegion label={t('Opening…')} className="space-y-6 py-6"><Skeleton className="mb-6 h-8 w-2/3" /><SkeletonText lines={7} /><Skeleton className="my-6 h-56 w-full" /><SkeletonText lines={6} /></LoadingRegion>}
 
           {!loading && !source.hasFile && (
             <div className="mx-auto max-w-md py-16 text-center">

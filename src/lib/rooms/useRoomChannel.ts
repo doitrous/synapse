@@ -40,6 +40,7 @@ const CLOSE_EVICTED = 4403
 const REQUEST_TIMEOUT_MS = 15_000
 
 export interface RoomChannel {
+  voiceReset:number
   status: ChannelStatus
   /** Null until the socket has said who is here — not the same as an empty room. */
   members: ChannelMember[] | null
@@ -222,6 +223,7 @@ export function useRoomChannel(code: string | null): RoomChannel {
   const speaking = useMemo(() => new Set(state.speaking), [state.speaking])
 
   return {
+    voiceReset:state.voiceReset,
     status: state.status,
     members: state.members,
     speaking,

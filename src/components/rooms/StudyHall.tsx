@@ -63,9 +63,8 @@ export function StudyHall({
   /** How many desks the room holds. Anything past the occupants is drawn empty. */
   capacity?: number
   /**
-   * Opening a desk: your own opens the seat customiser, anyone else's opens
-   * their member menu. Only an occupied desk is rendered as a control, so this
-   * is never called with an empty one.
+   * Opening your own desk. Only the self seat is rendered as a control, so this
+   * is called with your own occupant and never with an empty desk.
    */
   onSeatClick?: (occupant: SeatOccupant | null, index: number) => void
   className?: string
@@ -173,12 +172,10 @@ export function StudyHall({
            * of the room controls — fourteen announcing "Empty desk" and five
            * announcing a classmate's name — and all but one of them did
            * nothing when pressed. A keyboard user was made to walk past the
-           * whole room to reach Join voice. An empty desk is still a picture,
-           * not a button; every occupied one is now a control — your own opens
-           * the customiser, anyone else's opens their member menu (message
-           * them privately today, mute or block in a later task).
+           * whole room to reach Join voice. Your own desk opens the customiser;
+           * the rest are a picture, and a picture is not a button.
            */
-          if (!onSeatClick || !occupant) {
+          if (!onSeatClick || !isSelf) {
             return (
               <span key={position.index} className="absolute" style={style}>
                 <span className="sr-only">{label}</span>
@@ -197,7 +194,7 @@ export function StudyHall({
               style={style}
               onClick={() => onSeatClick(occupant, position.index)}
             >
-              <span className="sr-only">{isSelf ? t('Customise your seat') : t('Open member options')}</span>
+              <span className="sr-only">{t('Customise your seat')}</span>
               {plate}
             </button>
           )

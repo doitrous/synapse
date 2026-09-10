@@ -1,3 +1,4 @@
+import { SharedSpotterFigure } from './SharedSpotterFigure'
 import { useEffect, useMemo, useState } from 'react'
 import { Play, RotateCcw, Send, Trophy, Users, Wifi, WifiOff } from 'lucide-react'
 import { Badge } from '@/components/ui/Badge'
@@ -211,7 +212,7 @@ export function PartyGameSyncPlayer({
             <div className="rounded-xl border border-dashed border-line-2 bg-inset p-5 text-center">
               <Users className="mx-auto size-6 text-ink-3" aria-hidden />
               <p className="mt-2 text-[15px] font-semibold text-ink">{t('Lobby is ready')}</p>
-              <p className="mt-1 text-[13px] text-ink-2">{t('The host starts the server-authoritative game when everyone is in.')}</p>
+              <p className="mt-1 text-[13px] text-ink-2">{t('The host starts when everyone is ready.')}</p>
               {isHost && (
                 <Button className="mt-4" variant="primary" iconLeft={Play} loading={busy} onClick={() => dispatch({ type: 'start' })}>
                   {t('Start party game')}
@@ -228,6 +229,7 @@ export function PartyGameSyncPlayer({
                   {state.currentRound.prompt}
                 </h3>
               </div>
+              {state.kind==='spotter'&&state.currentRound.payload&&<SharedSpotterFigure payload={state.currentRound.payload}/>}
               <RoundAnswerControls
                 round={state.currentRound}
                 disabled={busy || hasAnswered}
@@ -240,7 +242,7 @@ export function PartyGameSyncPlayer({
           {state.status === 'between_rounds' && (
             <div className="rounded-xl border border-line bg-inset p-5">
               <p className="text-[15px] font-semibold text-ink">{t('Round recorded')}</p>
-              <p className="mt-1 text-[13px] text-ink-2">{t('Scores are server-calculated. The host can continue when ready.')}</p>
+              <p className="mt-1 text-[13px] text-ink-2">{t('Your answers have been scored. The host can continue when everyone is ready.')}</p>
               {isHost && (
                 <Button className="mt-4" variant="primary" iconLeft={Play} loading={busy} onClick={() => dispatch({ type: 'next_round' })}>
                   {state.currentRoundIndex + 1 >= state.roundCount ? t('Complete game') : t('Next round')}
@@ -255,7 +257,7 @@ export function PartyGameSyncPlayer({
                 <Trophy className="size-4" aria-hidden />
                 {t('Party game complete')}
               </p>
-              <p className="mt-1 text-[13px] text-ink-2">{t('Final scores are ready for the lobby summary.')}</p>
+              <p className="mt-1 text-[13px] text-ink-2">{t('See how you did, and compare what you learned together.')}</p>
             </div>
           )}
         </div>

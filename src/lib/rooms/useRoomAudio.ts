@@ -29,6 +29,8 @@ import type { RoomChannel } from './useRoomChannel'
 export type RoomAudioState = 'unsupported' | 'idle' | 'joining' | 'live' | 'error'
 
 export interface RoomAudio {
+  audience: 'room'|'table'
+  setAudience(audience:'room'|'table'):void
   state: RoomAudioState
   muted: boolean
   /** Member ids currently speaking: yours from your own analyser, everyone else's from the room. */
@@ -36,6 +38,8 @@ export interface RoomAudio {
   join(): Promise<void>
   leave(): void
   toggleMute(): void
+  deafened: boolean
+  toggleDeafen(): void
   /**
    * Members this listener has silenced, by id. Client-side and per-session only:
    * muting someone stops *you* hearing them, tells them nothing, and is
@@ -132,10 +136,14 @@ function micReason(): string | null {
 }
 
 export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChannel | null): RoomAudio {
+  const [audience,setAudienceState]=useState<'room'|'table'>('room')
+  const audienceRef=useRef<'room'|'table'>('room')
   const unsupportedReason = useMemo(() => micReason(), [])
   const [state, setState] = useState<RoomAudioState>(unsupportedReason ? 'unsupported' : 'idle')
   const [localReason, setLocalReason] = useState<string | null>(unsupportedReason)
   const [muted, setMuted] = useState(false)
+  const [deafened, setDeafened] = useState(false)
+  const deafenedRef = useRef(false)
   const [selfSpeaking, setSelfSpeaking] = useState(false)
   const [callActive, setCallActive] = useState(false)
   const [voiceReconnecting, setVoiceReconnecting] = useState(false)
@@ -274,11 +282,11 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
       return
     }
     current.consumers.set(producerId, voice)
-    // Stay muted if this producer's owner is on the listener's mute list —
-    // a member muted before they spoke must not become audible the moment
-    // they do.
+    // Silent to this listener if they have deafened the whole room, or muted
+    // this producer's owner individually — a member muted before they spoke
+    // must not become audible the moment they do.
     const owner = live.producers.find((producer) => producer.producerId === producerId)?.userId
-    element.muted = Boolean(owner && mutedUsersRef.current.has(owner))
+    element.muted = deafenedRef.current || Boolean(owner && mutedUsersRef.current.has(owner))
     // Autoplay is allowed here: the student pressed Join voice and granted the
     // microphone in the same gesture. A refusal is one voice that stays silent,
     // not a failed call, so it is swallowed.
@@ -366,7 +374,7 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
     }
 
     send.on('produce', ({ kind, rtpParameters }, callback, errback) => {
-      live.request<{ producerId: string }>({ type: 'sfu:produce', transportId: send.id, kind, rtpParameters })
+      live.request<{ producerId: string }>({ type: 'sfu:produce', transportId: send.id, kind, rtpParameters, audience:audienceRef.current })
         .then((result) => callback({ id: result.producerId }))
         .catch((error) => errback(error as Error))
     })
@@ -576,7 +584,9 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
           .map((producer) => producer.producerId),
       )
       for (const [producerId, voice] of call.current?.consumers ?? []) {
-        if (owned.has(producerId)) voice.element.muted = nowMuted
+        // Deafen still wins: unmuting one member while deafened must not make
+        // them the one voice you can hear.
+        if (owned.has(producerId)) voice.element.muted = deafenedRef.current || nowMuted
       }
       return next
     })
@@ -604,6 +614,9 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
    * producer that arrived while the transports were still being built is picked
    * up the moment they exist, and one that arrived twice is consumed once.
    */
+  const reset=channel?.voiceReset??0
+  const lastReset=useRef(reset)
+  useEffect(()=>{if(lastReset.current===reset)return;lastReset.current=reset;if(reset){leave();setLocalReason('Your seat changed. Choose who to speak to and rejoin voice.')}},[reset,leave])
   const producers = channel?.producers
   useEffect(() => {
     if (!callActive || !producers) return
@@ -649,7 +662,25 @@ export function useRoomAudio(roomId: string, selfId: string, channel?: RoomChann
       ? (channel.sfu && !channel.sfu.available && channel.sfu.reason) || VOICE_TRANSPORT_REASON
       : DEMO_VOICE_REASON
 
+  const toggleDeafen = useCallback(() => {
+    const next = !deafenedRef.current
+    deafenedRef.current = next
+    setDeafened(next)
+    // Un-deafening restores each voice to its own state, not to audible:
+    // a member you had muted individually stays muted.
+    const producers = channelRef.current?.producers ?? []
+    for (const [producerId, voice] of call.current?.consumers ?? []) {
+      const owner = producers.find((producer) => producer.producerId === producerId)?.userId
+      voice.element.muted = next || Boolean(owner && mutedUsersRef.current.has(owner))
+    }
+  }, [])
+
+  const setAudience=useCallback((next:'room'|'table')=>{if(next===audienceRef.current)return;leave();audienceRef.current=next;setAudienceState(next)},[leave])
+
   return {
+    audience,setAudience,
+    deafened,
+    toggleDeafen,
     state,
     muted,
     speaking,

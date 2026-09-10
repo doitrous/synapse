@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router-dom'
-import { ChevronsUpDown, SlidersHorizontal } from 'lucide-react'
+import { NavLink, useLocation } from 'react-router-dom'
+import { ChevronsUpDown, Languages, Palette } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Wordmark } from '@/components/brand/Wordmark'
@@ -18,7 +18,6 @@ import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
 import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
 import { useOpenEscalationCount } from '@/lib/useEscalationBadge'
-import { useQotd } from '@/lib/useQotd'
 
 export function Sidebar({
   portal,
@@ -37,10 +36,7 @@ export function Sidebar({
   const avatar = useAvatar()
   const groups = navFor(portal, identity.tabs)
   const escalationCount = useOpenEscalationCount()
-  // Only the student sidebar renders the dot this feeds, so the hook does no
-  // work (and makes no request) off the student app.
-  const qotd = useQotd(portal === 'student')
-  const qotdUnanswered = portal === 'student' && !qotd.loading && !qotd.answered
+  const { pathname } = useLocation()
   // `audience`, not `profile`: the roster record is authoritative but often
   // absent, and `audience` is the merge of it with what the student told
   // onboarding. Reading `profile` here showed nothing to every student whose
@@ -102,7 +98,18 @@ export function Sidebar({
             <ul className="space-y-0.5">
               {group.items.map((item) => (
                 <li key={item.to}>
-                  <NavLink
+                  {item.comingSoon ? (
+                    <button
+                      type="button"
+                      disabled
+                      title={`${t(item.label)} · ${t('Coming soon')}`}
+                      aria-label={`${t(item.label)} · ${t('Coming soon')}`}
+                      className={cn('flex min-h-11 w-full items-center gap-2.5 rounded-md text-start text-[13.5px] text-ink-3 lg:min-h-9', collapsed ? 'justify-center px-0' : 'px-2.5')}
+                    >
+                      <Icon icon={item.icon} size={17} />
+                      {!collapsed && <><OverflowText>{t(item.label)}</OverflowText><span className="ms-auto shrink-0 rounded border border-line px-1.5 py-0.5 text-[10px]">{t('Coming soon')}</span></>}
+                    </button>
+                  ) : <NavLink
                     to={item.to}
                     end={item.end}
                     onClick={onNavigate}
@@ -113,7 +120,7 @@ export function Sidebar({
                       cn(
                         'group relative flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
                         collapsed ? 'justify-center px-0' : 'px-2.5',
-                        isActive
+                        isActive || item.activePaths?.some((path) => pathname === path || pathname.startsWith(`${path}/`))
                           ? 'nav-selected font-medium'
                           : 'text-ink-2 hover:bg-inset hover:text-ink',
                       )
@@ -124,7 +131,7 @@ export function Sidebar({
                         <Icon
                           icon={item.icon}
                           size={17}
-                          className={isActive ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
+                          className={isActive || item.activePaths?.some((path) => pathname === path || pathname.startsWith(`${path}/`)) ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
                         />
                         {collapsed ? (
                           <span role="tooltip" className="pointer-events-none absolute start-[calc(100%+0.5rem)] top-1/2 z-[90] hidden w-max max-w-56 -translate-y-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium leading-snug text-paper shadow-pop group-hover:block group-focus-visible:block">
@@ -145,22 +152,10 @@ export function Sidebar({
                             </span>
                           )
                         )}
-                        {/* Question of the Day is no longer its own nav item,
-                            so the unanswered signal moves to the Dashboard —
-                            which is where the card that answers it now lives. */}
-                        {item.to === '/app' && qotdUnanswered && (
-                          collapsed ? (
-                            <span className="absolute end-1.5 top-1.5 h-2 w-2 rounded-full bg-primary" aria-hidden="true" />
-                          ) : (
-                            <span
-                              className="ms-auto h-2 w-2 shrink-0 rounded-full bg-primary"
-                              aria-label={t('Not answered yet today')}
-                            />
-                          )
-                        )}
+
                       </>
                     )}
-                  </NavLink>
+                  </NavLink>}
                 </li>
               ))}
             </ul>
@@ -168,19 +163,9 @@ export function Sidebar({
         ))}
       </nav>
 
-      {/* Appearance, then language, then who this is — the order asked for, and
-          the order they are reached in: how the app looks, what it speaks, whose
-          it is. Both were previously in the top bar and hidden below `sm`,
-          which left the theme reachable only from the account page on a phone. */}
-      <div className="shrink-0 border-t border-line px-2 py-2">
-        {collapsed ? (
-          <RailPreferences />
-        ) : (
-          <div className="space-y-1.5">
-            <ThemeSwitch className="flex w-full" />
-            <LanguageSwitch className="flex w-full [&>button]:flex-1" />
-          </div>
-        )}
+      <div className={cn('grid shrink-0 gap-2 border-t border-line px-2 py-2', collapsed ? 'grid-cols-1' : 'grid-cols-2')}>
+        <PreferenceSelector kind="theme" />
+        <PreferenceSelector kind="language" />
       </div>
 
       {/* User */}
@@ -210,16 +195,11 @@ export function Sidebar({
   )
 }
 
-/**
- * The same two controls in a 68px rail.
- *
- * Five segments do not fit, and cycling on click would mean a control whose
- * only affordance is trial and error. A popover keeps both choices visible and
- * labelled at any width.
- */
-function RailPreferences() {
+/** Compact sidebar controls that reveal their selectors when needed. */
+function PreferenceSelector({ kind }: { kind: 'theme' | 'language' }) {
   const { t } = useI18n()
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
+  const label = kind === 'theme' ? t('Appearance') : t('Language')
 
   return (
     <>
@@ -229,22 +209,19 @@ function RailPreferences() {
         onClick={() => setOpen((current) => !current)}
         aria-haspopup="dialog"
         aria-expanded={open}
-        aria-label={t('Appearance and language')}
-        className="mx-auto grid size-9 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink"
+        aria-label={label}
+        title={label}
+        className="flex h-11 w-full min-w-0 items-center justify-center rounded-lg border border-line bg-surface text-ink-2 transition-colors hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] lg:h-9"
       >
-        <Icon icon={SlidersHorizontal} size={16} />
+        <Icon icon={kind === 'theme' ? Palette : Languages} size={16} />
       </button>
       {open && (
-        <Popover anchor={anchor} onClose={close} placement="top-start" label={t('Appearance and language')} className="p-2.5">
-          <div className="space-y-2">
-            <div>
-              <p className="mb-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Appearance')}</p>
-              <ThemeSwitch className="flex w-full" />
-            </div>
-            <div>
-              <p className="mb-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Language')}</p>
-              <LanguageSwitch className="flex w-full [&>button]:flex-1" />
-            </div>
+        <Popover anchor={anchor} onClose={close} placement="top-start" label={label} className="w-56 p-2.5">
+          <p className="mb-2 text-[12px] font-semibold text-ink">{label}</p>
+          <div onClick={(event) => { if ((event.target as HTMLElement).closest('[role="radio"]')) close() }}>
+            {kind === 'theme'
+              ? <ThemeSwitch className="flex w-full" />
+              : <LanguageSwitch className="flex w-full [&>button]:flex-1" />}
           </div>
         </Popover>
       )}

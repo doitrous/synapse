@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import {
-  ArrowLeft, ArrowLeftRight, AudioLines, ChevronRight, LogOut, Maximize2, Search, Settings, SlidersHorizontal, TimerReset, UserRound, type LucideIcon,
+  ArrowLeft, ArrowLeftRight, AudioLines, ChevronRight, LogOut, Maximize, Minimize, Maximize2, Search, Settings, SlidersHorizontal, TimerReset, UserRound, type LucideIcon,
 } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { Avatar } from '@/components/ui/Avatar'
@@ -15,6 +15,7 @@ import { FocusAudioPanel, useFocusAudio } from './FocusAudioPlayer'
 import type { Portal } from './nav'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
+import { useFullscreen } from '@/lib/useFullscreen'
 import { useIdentity } from '@/lib/useIdentity'
 import { useAvatar } from '@/lib/useAvatar'
 import { useUniversityName } from '@/lib/useUniversityCatalogue'
@@ -235,6 +236,8 @@ function ToolsMenu({
   audioPlaying?: boolean
 }) {
   const t = useT()
+  const { isFullscreen, toggle: toggleFullscreen } = useFullscreen()
+  const fullscreenSupported = typeof document !== 'undefined' && document.fullscreenEnabled
   const { anchor, setAnchor, open, setOpen, close } = usePopoverTrigger()
   const [view, setView] = useState<View>('root')
   const [timerSettings, setTimerSettings] = useState(false)
@@ -359,6 +362,18 @@ function ToolsMenu({
                   </button>
                 )}
 
+                {fullscreenSupported && (
+                  <button
+                    type="button"
+                    className={ROW}
+                    aria-pressed={isFullscreen}
+                    onClick={() => { toggleFullscreen(); close() }}
+                  >
+                    <RowIcon icon={isFullscreen ? Minimize : Maximize} />
+                    <span className="min-w-0 flex-1 text-[13px] font-medium text-ink">{isFullscreen ? t('Exit fullscreen') : t('Fullscreen')}</span>
+                  </button>
+                )}
+
                 <div className={cn(ROW, 'hover:bg-transparent')}>
                   <RowIcon icon={Maximize2} />
                   <span className="min-w-0 flex-1 text-[13px] font-medium text-ink">{t('Hide menus')}</span>
@@ -409,7 +424,7 @@ export function TopbarTools({
   focusMode: boolean
   onToggleFocusMode: () => void
   onOpenSearch: () => void
-  /** Rendered immediately before the Tools trigger — the bar's fullscreen button. */
+  /** Rendered immediately before the Tools trigger — the student's daily question. */
   beforeMenu?: ReactNode
 }) {
   return portal === 'student'

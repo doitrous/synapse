@@ -1,3 +1,4 @@
+import { useInitialRead } from '@/lib/initialReadContext'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { CheckCircle2, ClipboardCheck, Clock3, FileUp, Flag, LogOut, RefreshCw } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -39,6 +40,7 @@ export function ValidatorWorkspace() {
   const [batch, setBatch] = useState<ValidatorBatchData | null>(null)
   const [activeIndex, setActiveIndex] = useState(0)
   const [loading, setLoading] = useState(true)
+  useInitialRead({ hydrated: !loading, error: null })
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState('')
   const [notice, setNotice] = useState('')

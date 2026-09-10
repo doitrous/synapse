@@ -234,10 +234,9 @@ export function openTasks(doc: TaskDoc): Task[] {
   return doc.tasks.filter((task) => !task.done)
 }
 
-/** Open first (by date, undated last, then creation), done sinking to the end. */
+/** Stable schedule order: checking a task must not move it away from the pointer. */
 export function sortTasks(tasks: Task[]): Task[] {
   return [...tasks].sort((a, b) => {
-    if (a.done !== b.done) return a.done ? 1 : -1
     const ad = a.date ?? '9999-99-99'
     const bd = b.date ?? '9999-99-99'
     return ad.localeCompare(bd) || (a.time ?? '99:99').localeCompare(b.time ?? '99:99') || a.createdAt.localeCompare(b.createdAt)

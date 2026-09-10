@@ -1,5 +1,4 @@
 import { useState, type ReactNode } from 'react'
-import type { LucideIcon } from 'lucide-react'
 import { BookOpen, ChevronDown, GraduationCap, ListChecks, MoreHorizontal } from 'lucide-react'
 import type { Question } from '@/data/qbank'
 import type { Scope } from '@/data/qbankScope'
@@ -13,7 +12,6 @@ import { Collapse } from '@/components/ui/Collapse'
 import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { DrawFromChips } from '@/components/qbank/unified/BankControls'
 import { BuilderSummary } from './BuilderSummary'
-import { QuickStartDeck } from './QuickStartDeck'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
@@ -26,18 +24,6 @@ export interface SourceCard {
   bucket: SourceBucket
   label: string
   count: number
-}
-
-/** A quick-start chip: a named pool the student can open in one press. */
-export interface TestBuilderPreset {
-  id: string
-  label: string
-  icon: LucideIcon
-  /** How many questions it would draw from — 0 disables the chip. */
-  count: number
-  /** The tooltip: what the preset actually selects. */
-  description: string
-  apply: () => void
 }
 
 /** The most questions one sitting can hold. */
@@ -85,7 +71,6 @@ export interface TestBuilderProps {
   /** The whole pool it is being drawn out of, for the summary ring. */
   pool: number
   onStart: () => void
-  presets: TestBuilderPreset[]
   /** The "Your Qbank" panel, rendered under the summary in the end column. */
   stats?: ReactNode
 }
@@ -148,7 +133,6 @@ export function TestBuilder({
   matching,
   pool,
   onStart,
-  presets,
   stats,
 }: TestBuilderProps) {
   const t = useT()
@@ -348,10 +332,6 @@ export function TestBuilder({
         </div>
 
         <div className="min-w-0 space-y-4">
-          {/* Above the summary, not above the composer: a quick start is an
-              alternative to building a test, so it belongs beside the thing it
-              is an alternative to rather than in front of it. */}
-          <QuickStartDeck presets={presets} />
           <BuilderSummary matching={matching} pool={pool} count={count} summary={summary} onStart={onStart} />
           {stats}
         </div>

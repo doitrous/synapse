@@ -69,6 +69,7 @@ export const CHAT_HISTORY_LIMIT = 100
 export type ChannelStatus = 'idle' | 'connecting' | 'open' | 'closed'
 
 export interface RoomChannelState {
+  voiceReset:number
   status: ChannelStatus
   /**
    * Null until the first `presence` arrives — which is not the same as an empty
@@ -111,6 +112,7 @@ export const initialChannelState: RoomChannelState = {
   members: null,
   speaking: [],
   producers: [],
+  voiceReset:0,
   sfu: null,
   messages: [],
   archived: false,
@@ -233,6 +235,7 @@ function reduceMessage(state: RoomChannelState, message: ChannelMessage): RoomCh
       return { ...state, producers: producers as ChannelProducer[] }
     }
 
+    case 'sfu:voiceReset': return {...state,voiceReset:state.voiceReset+1}
     case 'sfu:unavailable': {
       const { reason } = message as Extract<ChannelMessage, { type: 'sfu:unavailable' }>
       return { ...state, sfu: { available: false, reason } }

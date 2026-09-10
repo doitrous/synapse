@@ -6,12 +6,15 @@ import {
   Layers,
   LifeBuoy,
   Search,
-  Target,
+  ListChecks,
+  Stethoscope,
+  Gamepad2,
   UserCog,
   Users,
   type LucideIcon,
 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
+import { Badge } from '@/components/ui/Badge'
 import { Panel } from '@/components/ui/Panel'
 import { BoxTabs, boxTabId } from '@/components/ui/BoxTabs'
 import { SearchInput } from '@/components/ui/Field'
@@ -27,6 +30,7 @@ import {
   TUTORIAL_TOPICS,
   TUTORIAL_VIDEOS_STATE_KEY,
   matchesTutorialQuery,
+  firstTutorialVideoTopic,
   readTutorialHub,
   tutorialTopicsByHub,
   type TutorialHub,
@@ -38,7 +42,7 @@ import {
  *
  * It used to be twenty-seven stacked rows, each with a dashed grey rectangle
  * where a video will one day be — a page that read as a list of things that are
- * missing. It is a two-pane reference now: the sidebar's own seven destinations
+ * missing. It is a two-pane reference now: the sidebar's current destinations
  * as a row of boxes (the Question Bank's bank selector, which is the selector
  * shape across the app), the chosen one's topics as a short index, and one
  * topic open beside it. Hub and topic both live in the URL, so the dashboard's
@@ -61,10 +65,12 @@ const HUB_ICON: Record<TutorialHub, LucideIcon> = {
   // The sidebar's own glyphs, so the row reads as the sidebar it mirrors.
   'getting-started': LifeBuoy,
   plan: CalendarRange,
-  learn: BookOpen,
-  practice: Target,
-  revise: Layers,
-  together: Users,
+  library: BookOpen,
+  tools: Layers,
+  bank: ListChecks,
+  practice: Stethoscope,
+  minigames: Gamepad2,
+  'study-rooms': Users,
   account: UserCog,
 }
 
@@ -80,7 +86,7 @@ export function Tutorial() {
   const searching = trimmed !== ''
 
   // A named topic decides the hub: a deep link says `?topic=qbank`, and the
-  // Practice box is the one that should be lit when it opens. `?hub=` is what a
+  // Bank box is the one that should be lit when it opens. `?hub=` is what a
   // plain browse carries, and an unknown one falls back rather than emptying
   // the page.
   const topicFromUrl = TUTORIAL_TOPICS.find((topic) => topic.id === params.get('topic'))
@@ -174,7 +180,10 @@ export function Tutorial() {
     setParams((current) => {
       const next = new URLSearchParams(current)
       if (staleTopic) next.delete('topic')
-      if (staleHub) next.delete('hub')
+      if (staleHub) {
+        if (knownTopic) next.delete('hub')
+        else next.set('hub', readTutorialHub(rawHub, 'getting-started'))
+      }
       return next
     }, { replace: true })
   }, [params, setParams])
@@ -209,7 +218,9 @@ export function Tutorial() {
           // `div.relative` around the field, and as a flex item that div is
           // shrink-to-fit, so `w-full` on the input alone resolves against a box
           // the input already sized. On a phone the field runs edge to edge.
-          <div className="w-full sm:w-72">
+          <div className="flex w-full flex-wrap items-center gap-2">
+            {!firstTutorialVideoTopic(videos) && <Badge tone="outline">{t('Videos coming soon')}</Badge>}
+            <div className="w-full sm:w-72">
             <SearchInput
               id={SEARCH_ID}
               value={query}
@@ -218,6 +229,7 @@ export function Tutorial() {
               aria-label={t('Search the guide…')}
               className="w-full"
             />
+            </div>
           </div>
         )}
       />

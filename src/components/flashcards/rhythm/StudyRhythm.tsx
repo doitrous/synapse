@@ -4,7 +4,7 @@ import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
 import { Dialog } from '@/components/ui/Dialog'
-import { Segmented } from '@/components/ui/Tabs'
+import { Select } from '@/components/ui/Field'
 import { useScope } from '@/lib/shortcuts/useShortcuts'
 import { cn } from '@/lib/cn'
 import { useI18n, useT } from '@/lib/i18n'
@@ -137,15 +137,17 @@ export function StudyRhythm({
         title={t('Study Rhythm')}
         icon={CalendarDays}
         action={
-          /* The header's own wrap cannot reach inside a single child, so this
-             row wraps too: on a phone the segmented control takes the first
-             line and the two icon actions follow it. */
           <div className="flex items-center gap-1.5 max-sm:flex-wrap max-sm:justify-end">
-            <Segmented
-              items={RHYTHM_CALENDAR_MODES.map((m) => ({ value: m, label: t(MODE_LABEL[m]) }))}
+            <Select
+              aria-label={t('Calendar view')}
               value={mode}
-              onChange={(m) => settingsApi.update({ calendarMode: m as RhythmCalendarMode })}
-            />
+              onChange={(event) => settingsApi.update({ calendarMode: event.target.value as RhythmCalendarMode })}
+              className="text-[12.5px] sm:h-8"
+            >
+              {RHYTHM_CALENDAR_MODES.map((m) => (
+                <option key={m} value={m}>{t(MODE_LABEL[m])}</option>
+              ))}
+            </Select>
             <IconButton icon={Settings2} label={t('Study Rhythm settings')} size="sm" onClick={() => setSettingsOpen(true)} />
             <IconButton icon={RotateCcw} label={t('Reset Study Rhythm')} size="sm" onClick={() => setResetOpen(true)} />
           </div>

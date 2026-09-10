@@ -1,27 +1,13 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { cn } from '@/lib/cn'
-import { NishanyLoader } from './NishanyLoader'
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 
-/**
- * Content, or what stands in its place while it is still arriving.
- *
- * `fallback` is optional now: a surface that has nothing better to show than
- * "wait" gets the app's loader rather than each caller hand-rolling a spinner,
- * which is how the codebase ended up with four different ones. Pass a skeleton
- * only where its shape genuinely matches the content that replaces it.
- *
- * `error` and `empty`/`isEmpty` are additive: existing callers that only ever
- * passed `loading` are unaffected. `error` wins over everything (mirrors
- * `catalogueAvailability`'s own precedence) — pass an `EmptyState` with a
- * retry action, the same idiom `CatalogueUnavailable` already uses; there is
- * no separate ErrorState component, EmptyState already covers icon + title +
- * description + action.
- */
+/** Reserves the content's footprint until its first read finishes. Saving is not loading. */
 export function AsyncSurface({
   loading,
   children,
   fallback,
-  delayMs = 150,
+  delayMs = 0,
   className,
   busyLabel = 'Loading',
   error,
@@ -58,12 +44,10 @@ export function AsyncSurface({
   return (
     <div className={cn('min-w-0', className)} aria-busy={loading || undefined} aria-live="polite">
       <span className="sr-only">{loading ? busyLabel : ''}</span>
-      {loading && showFallback
-        ? (fallback ?? (
-            <div className="grid min-h-32 place-items-center">
-              <NishanyLoader size={40} decorative />
-            </div>
-          ))
+      {loading
+        ? <div className={delayMs > 0 && !showFallback ? 'invisible' : undefined}>
+            {fallback ?? <LoadingRegion label={busyLabel}><SkeletonRows /></LoadingRegion>}
+          </div>
         : isEmpty && empty
           ? empty
           : children}

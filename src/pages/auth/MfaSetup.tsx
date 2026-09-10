@@ -1,3 +1,5 @@
+import { LoadingRegion, SkeletonFields } from '@/components/loading/SkeletonParts'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { useEffect, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, CheckCircle2, KeyRound, MessageSquareText, ShieldCheck } from 'lucide-react'
@@ -130,7 +132,7 @@ export function MfaSetup() {
             <div className="min-w-0 flex-1"><div className="flex flex-wrap items-center gap-2"><h2 className="text-[22px]">Authenticator app</h2><Badge tone="primary">Recommended · free</Badge></div><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">Works offline with 1Password, Google Authenticator, Microsoft Authenticator, Authy, and compatible apps.</p></div>
           </div>
           {error && <div role="alert" className="mt-5 flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
-          {loading && <p className="mt-6 text-[13px] text-ink-2">Preparing secure enrollment…</p>}
+          {loading && <LoadingRegion className="mt-6"><Skeleton className="mx-auto size-40" /><SkeletonFields fields={1} /></LoadingRegion>}
           {/* The way past this screen is not inside the enrollment panel.
               Enrollment can fail — a network fault, a provider that is not
               configured — and when it did, the only control on the page was

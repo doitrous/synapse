@@ -26,7 +26,7 @@ export function HubPage({
   /** Accepted for compatibility with the first version; no longer rendered. */
   eyebrow?: string
   title: string
-  lede: string
+  lede?: string
   aside?: ReactNode
   children?: ReactNode
   className?: string
@@ -37,7 +37,7 @@ export function HubPage({
     <PageContainer className={className}>
       <PageHeader
         title={t(title)}
-        description={t(lede)}
+        description={lede ? t(lede) : undefined}
         actions={aside}
         className="border-b border-line pb-5 sm:pb-6"
       />

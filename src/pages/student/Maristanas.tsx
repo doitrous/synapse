@@ -1,3 +1,4 @@
+import { FoundationGameLibrary } from '@/components/games/FoundationGameLibrary'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
@@ -10,7 +11,7 @@ import { Button, ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { TextInput } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { Skeleton } from '@/components/ui/Skeleton'
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { MaristanaModel } from '@/components/maristanas/MaristanaModel'
 import { MaristanaAchievementRail, MaristanaAchievementToast } from '@/components/maristanas/MaristanaAchievements'
 import { MaristanaHowItWorksDialog, MaristanaOnboarding } from '@/components/maristanas/MaristanaOnboarding'
@@ -180,7 +181,7 @@ function HospitalCard({ hospital, selected, onSelect }: { hospital: MaristanaHos
   )
 }
 
-export function Maristanas() {
+function LegacyMaristanas() {
   const t = useT()
   const { audienceSettled, audienceUnknown } = useIdentity()
   const { data, loading, error, refresh, rename } = useMaristanas()
@@ -227,8 +228,7 @@ export function Maristanas() {
   if (loading && !data) {
     return (
       <PageContainer className="space-y-4" aria-label={t('Loading Build Maristanas')}>
-        <Skeleton className="h-20 rounded-xl" />
-        <div className="grid gap-4 lg:grid-cols-[1.6fr_0.8fr]"><Skeleton className="h-[520px] rounded-xl" /><Skeleton className="h-[520px] rounded-xl" /></div>
+        <ContentSkeleton shape="hospital" />
       </PageContainer>
     )
   }
@@ -383,3 +383,5 @@ export function Maristanas() {
     </>
   )
 }
+
+export function Maristanas(){return <FoundationGameLibrary kind="maristanas"><LegacyMaristanas/></FoundationGameLibrary>}

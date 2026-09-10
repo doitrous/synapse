@@ -1,3 +1,5 @@
+import { DiscoverabilityControl } from './DiscoverabilityControl'
+import { AddFriendButton } from '@/components/social/AddFriendButton'
 import { useCallback, useEffect, useId, useMemo, useRef, useState, type ReactNode } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { ChevronDown, LogIn, Plus, Trophy, UserPlus, Users } from 'lucide-react'
@@ -51,15 +53,17 @@ function QuietSection({
   title,
   icon,
   hint,
+  action,
   children,
 }: {
   title: string
   icon: LucideIcon
   hint?: ReactNode
+  action?: ReactNode
   children: ReactNode
 }) {
   const t = useT()
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(title===t('Friends'))
   const id = useId()
   return (
     <Panel>
@@ -68,7 +72,7 @@ function QuietSection({
         icon={icon}
         hint={hint}
         action={
-          <Button
+          <div className="flex items-center gap-2">{action}<Button
             variant="ghost"
             size="sm"
             aria-expanded={open}
@@ -77,7 +81,7 @@ function QuietSection({
           >
             <Icon icon={ChevronDown} size={15} className="chevron-turn" open={open} />
             {open ? t('Hide') : t('Show')}
-          </Button>
+          </Button></div>
         }
       />
       <Collapse open={open} id={id}>
@@ -288,7 +292,7 @@ export function FriendsSection({
   const { reload: reloadRooms } = useMyRooms()
   const {
     friends, incoming, outgoing, blocked, respond, remove, request, block, unblock, searchDirectory, mintInvite, redeemInvite,
-    linkFacebook, matchFacebook,
+    linkFacebook, matchFacebook, reload:reloadFriends,
   } = useFriends()
   const { challenges, reload: reloadChallenges } = useMyChallenges()
   const { create: createChallenge, respond: respondChallenge } = useChallengeActions()
@@ -341,12 +345,13 @@ export function FriendsSection({
     <QuietSection
       title={t('Friends')}
       icon={Users}
-      hint={friends.length ? `${friends.length}` : t('Classmates and challenges')}
+      hint={friends.length ? `${friends.length}` : undefined}
+      action={<AddFriendButton onAdded={()=>void reloadFriends()}/>}
     >
       {!API_MODE ? (
         <DemoFriendsPreview />
       ) : (
-        <div className="space-y-4">
+        <div className="space-y-4"><section><h3 className="font-semibold">{t('Discoverability')}</h3><p className="text-sm text-ink-2 mt-1">{t('Choose whether classmates can find your profile.')}</p><DiscoverabilityControl/></section>
           <p role="status" className={cn('text-[12.5px]', !inviteNotice && 'sr-only', inviteNotice?.tone === 'success' ? 'text-success' : 'text-danger')}>
             {inviteNotice?.text}
           </p>

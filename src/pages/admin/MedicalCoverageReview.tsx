@@ -1,3 +1,5 @@
+import { PageSkeleton } from '@/components/loading/PageSkeleton'
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { useEffect, useMemo, useState } from 'react'
 import { ArrowLeft, BookCheck, ChevronLeft, ChevronRight, Database, FileSearch, RefreshCw, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -138,6 +140,8 @@ export function MedicalCoverageReview() {
     setPage(1)
   }
 
+  if (loading && !pageData && !error) return <PageSkeleton layout={{ shape: 'table', metrics: 4, description: true }} />
+
   return (
     <PageContainer>
       <PageHeader
@@ -202,7 +206,7 @@ export function MedicalCoverageReview() {
             {!loading && pageData?.items.length === 0 && (
               <div className="px-4 py-14 text-center"><Icon icon={BookCheck} size={22} className="mx-auto text-ink-3" /><p className="mt-2 text-[13px] font-medium text-ink">No matching candidates</p><p className="mt-1 text-[12px] text-ink-3">Change a filter or clear the search.</p></div>
             )}
-            {loading && !pageData && <div className="px-4 py-14 text-center text-[12.5px] text-ink-3">Loading the evidence queue…</div>}
+            {loading && !pageData && <LoadingRegion><SkeletonRows rows={6} /></LoadingRegion>}
             {pageData?.items.map((candidate) => (
               <button
                 key={candidate.candidateId}

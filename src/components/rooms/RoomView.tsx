@@ -1,339 +1,184 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
-import { ArrowLeft, Ban, Check, Copy, Hash, Info, Link2, MessageCircle, Volume2, VolumeX } from 'lucide-react'
-import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
-import { Badge } from '@/components/ui/Badge'
-import { Icon } from '@/components/ui/Icon'
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
+import { RoomActivities } from './RoomActivities'
+import { tableForSeat } from '../../../server/shared/roomLayouts.js'
+import { roomLayout } from '../../../server/shared/roomLayouts.js'
 import { Dialog } from '@/components/ui/Dialog'
+import { randomMotivation } from '@/lib/rooms/motivation'
+import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
+import { ArrowLeft, Check, Copy, Maximize2, Minimize2, MicOff, Hand } from 'lucide-react'
+import { Button } from '@/components/ui/Button'
+import { Panel } from '@/components/ui/Panel'
 import { PartyPage } from '@/components/social/PartyPage'
-import { DemoPartiesPreview } from '@/components/social/DemoCollaborationPreview'
-import { useParty, type PartyMember } from '@/lib/useParties'
+import { useParty } from '@/lib/useParties'
 import { useIdentity } from '@/lib/useIdentity'
-import { useFriends } from '@/lib/useFriends'
-import { API_MODE } from '@/lib/api'
+import { API_MODE, apiSend } from '@/lib/api'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { universities as seededUniversities } from '@/data/universities'
+import { focusFirstWithin, wrapTab } from '@/lib/focusTrap'
+import { pushOverlay, popOverlay, isTopOverlay } from '@/lib/overlayStack'
 import { useT } from '@/lib/i18n'
-import {
-  MEMBER_ACTIVE_WINDOW_MS,
-  ROOM_CAPACITY,
-  isStudying,
-  normalizeSeat,
-  placeSeats,
-  type SeatOccupant,
-} from '@/lib/rooms/roomPresence'
-import { useSeatPreference } from '@/lib/rooms/useSeatPreference'
+import { useOnlineStatus } from '@/lib/useOnlineStatus'
+import { usePersistentState } from '@/lib/usePersistentState'
 import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
-import { demoRoomById, demoRoomSeats } from '@/lib/rooms/demoRoom'
-import { StudyHall } from './StudyHall'
-import { RoomControls } from './RoomControls'
-import { SeatCustomiser } from './SeatCustomiser'
-import { ChatBox, type ChatTarget } from './ChatBox'
+import { useSeatPreference } from '@/lib/rooms/useSeatPreference'
+import { normalizeSeat, placeSeats } from '@/lib/rooms/roomPresence'
+import { DEFAULT_PERSONALISATION, clockText, mockWorldPresence, normalizePersonalisation, worldForRoom, type StudyPresence, type DeskPersonalisation } from '@/lib/rooms/studyWorld'
+import { WorldHall } from './WorldHall'
+import { StudentPopover } from './StudentPopover'
+import { RoomChatBox, type ChatTarget } from './RoomChatBox'
+import { useFriends } from '@/lib/useFriends'
+import { MyStudySession } from './MyStudySession'
+import { StudyControlDock } from './StudyControlDock'
+import { DeskPersonaliser } from './DeskPersonaliser'
+import { illustratedLayout } from '@/lib/rooms/illustratedLayout'
+import { roomSceneLayout } from '@/lib/rooms/sceneLayout'
+import { StudentPortrait } from './StudyWorldArt'
+import './studyWorld.css'
 
-/** How often the hall re-reads its own clock, so a seat dims when its 90 s runs out. */
-const TICK_MS = 15_000
-
-/** One shared empty set, so "nobody is speaking" is a stable value the memo can trust. */
-const NO_SPEAKING = new Set<string>()
-
-/**
- * Your own activity, measured the way `StudyActivityTracker` measures it.
- *
- * Used only for how the hall draws *your* desk. The room-wide heartbeat lives in
- * `RoomSessionProvider` now, so presence keeps beating while you are on another
- * page; this is the display-only half that the open hall still needs.
- */
-function useSelfActivity(): number {
-  const [lastActiveAt, setLastActiveAt] = useState(() => Date.now())
-  useEffect(() => {
-    let pending = 0
-    const mark = () => {
-      const now = Date.now()
-      if (now - pending < 1_000) return
-      pending = now
-      setLastActiveAt(now)
-    }
-    const events: Array<keyof WindowEventMap> = ['keydown', 'pointerdown', 'touchstart', 'scroll']
-    for (const event of events) window.addEventListener(event, mark, { passive: true })
-    return () => { for (const event of events) window.removeEventListener(event, mark) }
-  }, [])
-  return lastActiveAt
-}
-
-/**
- * A copy button's "Copied" flash, cleared if the room closes under it.
- */
-function useCopyFlash(): [('code' | 'link') | null, (value: string, kind: 'code' | 'link') => void] {
-  const [copied, setCopied] = useState<'code' | 'link' | null>(null)
-  const timer = useRef(0)
-  useEffect(() => () => window.clearTimeout(timer.current), [])
-  const copy = (value: string, kind: 'code' | 'link') => {
-    void navigator.clipboard?.writeText(value)
-    setCopied(kind)
-    window.clearTimeout(timer.current)
-    timer.current = window.setTimeout(() => setCopied(null), 1600)
-  }
-  return [copied, copy]
-}
-
-/**
- * Inside a room: the hall, who is in it, and everything the party already knew
- * how to do.
- *
- * The live room — its socket, its call, its heartbeat — is owned by
- * `RoomSessionProvider` and reached through `useRoomSession`, so this page is a
- * *view* of the room rather than its owner. That is what lets the room survive
- * the page: closing this view (Back / Minimise) leaves the session running and
- * hands it to the dock, while "Leave" ends it. The party, the seat furniture and
- * the schedule below are still the page's own, read the way they always were.
- */
-export function RoomView({
-  onMinimise,
-  onLeave,
-}: {
-  /** Close the hall but stay in the room — the dock takes over. */
-  onMinimise: () => void
-  /** Leave the room for good: ends the session. */
-  onLeave: () => void
-}) {
-  const t = useT()
-  const identity = useIdentity()
-  const session = useRoomSession()
-
-  // The full view marks itself present so the dock stays out of the way while
-  // the hall it summarises is on screen.
-  const setViewingFull = session?.setViewingFull
-  useEffect(() => {
-    setViewingFull?.(true)
-    return () => setViewingFull?.(false)
-  }, [setViewingFull])
-
-  const room = session?.room ?? null
-  const demo = Boolean(room?.demo) || !API_MODE
-  const roomId = room?.roomId ?? ''
-  const roomCode = room?.roomCode ?? ''
-  const demoRoom = demoRoomById(roomId)
-
-  const channel = session?.channel ?? null
-  const audio = session?.audio ?? null
-  const { block } = useFriends()
-
-  const { party, error, reload } = useParty(demo ? null : roomId, { background: channel?.connected ?? false })
-  const [seat, setSeat] = useSeatPreference(demo ? null : roomCode)
-  const [customising, setCustomising] = useState(false)
-  const [copied, copy] = useCopyFlash()
-
-  // Clicking a desk that is not yours opens this instead of the customiser —
-  // one action today (message privately), structured as a list so mute and
-  // block have somewhere to land without a second menu component.
-  const [memberMenu, setMemberMenu] = useState<SeatOccupant | null>(null)
-  const [chatTarget, setChatTarget] = useState<ChatTarget | null>(null)
-
-  const selfId = identity.userId ?? 'self'
-  const selfName = identity.displayName || t('You')
-
-  // The room told us it is gone; re-read the party now rather than on the poll.
-  const archived = channel?.archived ?? false
-  useEffect(() => {
-    if (!archived) return
-    void reload()
-  }, [archived, reload])
-
-  const lastActiveAt = useSelfActivity()
-  const [tick, setTick] = useState(() => Date.now())
-  useEffect(() => {
-    const timer = window.setInterval(() => setTick(Date.now()), TICK_MS)
-    return () => window.clearInterval(timer)
-  }, [])
-  const now = Math.max(tick, lastActiveAt)
-
-  const roomName = demo ? demoRoom?.name ?? room?.roomName ?? t('Study room') : party?.name ?? room?.roomName ?? t('Study room')
-  const code = demo ? demoRoom?.code ?? roomCode : party?.code ?? roomCode
-  const capacity = demo ? demoRoom?.capacity ?? ROOM_CAPACITY : ROOM_CAPACITY
-
-  const speaking = audio?.speaking ?? NO_SPEAKING
-
-  const members: PartyMember[] = useMemo(
-    () => (channel?.members as PartyMember[] | null) ?? party?.members ?? [],
-    [channel?.members, party?.members],
-  )
-
-  const occupants = useMemo<SeatOccupant[]>(() => {
-    if (demo) {
-      return demoRoomSeats(
-        { id: selfId, name: selfName, seat, lastActiveAt },
-        now,
-        speaking,
-      )
-    }
-    return members.map((member) => {
-      const isSelf = member.userId === selfId
-      return {
-        id: member.userId,
-        name: member.displayName || t('Student'),
-        seat: isSelf ? seat : normalizeSeat(member.seat ?? undefined),
-        studying: isSelf
-          ? isStudying(lastActiveAt, now)
-          : member.activity === 'studying' && isStudying(member.lastActiveAt, now, MEMBER_ACTIVE_WINDOW_MS),
-        speaking: speaking.has(member.userId),
-        seatIndex: member.seat?.seatIndex ?? null,
+/** Full room is a view onto the existing provider, so membership, voice and focus survive navigation. */
+export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>void}) {
+  const t=useT()
+  const identity=useIdentity()
+  const [configuredUniversities] = useUniversityCatalogue()
+  const universities = configuredUniversities.length ? configuredUniversities : seededUniversities
+  const universityName = universities.find(u => u.id === identity.audience.universityId)?.name
+  const session=useRoomSession()!
+  const room=session.room
+  const demo=Boolean(room?.demo)||!API_MODE
+  const online=useOnlineStatus()
+  const {party,error,reload}=useParty(demo?null:room?.roomId??null,{background:session.channel?.connected??false})
+  const definition=worldForRoom(demo?room?.roomId??'':`world-${party?.layoutKey??'campus'}`)
+  const world=useMemo(()=>demo?definition:{...definition,...roomLayout(party?.layoutKey??'legacy')},[definition,demo,party?.layoutKey])
+  const [seat,setSeat]=useSeatPreference(demo?null:room?.roomCode)
+  const [initialReminder]=useState(randomMotivation)
+  const [stored,setStored]=usePersistentState<DeskPersonalisation>('nishany.studyRooms.personalisation.v1',{...DEFAULT_PERSONALISATION,note:initialReminder})
+  const personalisation=useMemo(()=>normalizePersonalisation(stored),[stored])
+  const [activitiesOpen,setActivitiesOpen]=useState(false)
+  const [pendingSeat,setPendingSeat]=useState<number|null>(null)
+  const [customising,setCustomising]=useState(false)
+  const closeCustomiser=useCallback(()=>setCustomising(false),[])
+  const [selected,setSelected]=useState<number|null>(null)
+  const [focusMode,setFocusMode]=useState(false)
+  const [mobileTab,setMobileTab]=useState<'session'|'room'>('session')
+  const [panelTab,setPanelTab]=useState<'session'|'people'>('session')
+  const chatTrigger=useRef<HTMLElement|null>(null)
+  const toggleChat=()=>{chatTrigger.current=document.activeElement as HTMLElement;setChatOpen(open=>!open);setSelected(null);if(!chatOpen&&window.innerWidth<=900)setMobileTab('room')}
+  const closeChat=()=>{setChatOpen(false);if(chatTrigger.current?.getClientRects().length)chatTrigger.current.focus({preventScroll:true})}
+  const [chatOpen,setChatOpen]=useState(false)
+  const [chatDraft,setChatDraft]=useState('')
+  const [messages,setMessages]=useState<{id:number;text:string}[]>([])
+  const [chatTarget,setChatTarget]=useState<ChatTarget|null>(null)
+  const {block}=useFriends()
+  const switchMobileTab=(next:'session'|'room')=>{setMobileTab(next);setChatOpen(false);setSelected(null)}
+  useEffect(()=>{if(!chatOpen)return;const media=window.matchMedia('(max-width:900px)');const sync=()=>{if(media.matches)setMobileTab('room')};sync();media.addEventListener('change',sync);return()=>media.removeEventListener('change',sync)},[chatOpen])
+  const [notice,setNotice]=useState('')
+  const [busy,setBusy]=useState(false)
+  const [copied,setCopied]=useState(false)
+  const worldRef=useRef<HTMLDivElement>(null)
+  useLayoutEffect(()=>{
+    const root=worldRef.current, region=root?.querySelector<HTMLElement>('.world-room-region')
+    if(!root||!region)return
+    const update=()=>{const box=region.getBoundingClientRect();root.style.setProperty('--room-controls-left',`${box.left}px`);root.style.setProperty('--room-controls-width',`${box.width}px`)}
+    const observer=new ResizeObserver(update);observer.observe(region);window.addEventListener('resize',update);update()
+    return()=>{observer.disconnect();window.removeEventListener('resize',update)}
+  },[activitiesOpen,party?.id,focusMode])
+  const detailTrigger=useRef<HTMLElement|null>(null)
+  const openDetails=(index:number)=>{detailTrigger.current=document.activeElement as HTMLElement;setSelected(current=>current===index?null:index);setChatOpen(false);if(window.innerWidth<=900)setMobileTab('room')}
+  const closeDetails=useCallback(()=>{const trigger=detailTrigger.current?.getClientRects().length?detailTrigger.current:document.querySelector<HTMLElement>('[data-reference-seat][aria-pressed="true"]');setSelected(null);trigger?.focus({preventScroll:true})},[])
+  const selfId=identity.userId??'self'
+  const {focus,elapsed,patch}=session.study
+  const setViewingFull=session.setViewingFull
+  useEffect(()=>{setViewingFull(true);return()=>setViewingFull(false)},[setViewingFull])
+  useEffect(()=>{
+    if(!focusMode)return
+    const previous=document.activeElement as HTMLElement|null
+    const overlayId='study-room-focus'
+    pushOverlay(overlayId,'dialog')
+    const hidden: {node:HTMLElement;inert:boolean}[]=[]
+    let branch:HTMLElement|null=worldRef.current
+    while(branch?.parentElement && branch.parentElement!==document.body){
+      for(const sibling of branch.parentElement.children){
+        if(sibling!==branch && sibling instanceof HTMLElement){hidden.push({node:sibling,inert:sibling.inert});sibling.inert=true}
       }
-    })
-  }, [demo, members, selfId, selfName, seat, lastActiveAt, now, speaking, t])
-
-  const desks = useMemo(() => placeSeats(occupants, capacity), [occupants, capacity])
-
-  const link = code ? `${window.location.origin}/app/study-rooms?room=${code}` : ''
-
-  if (!room || !audio) {
-    return (
-      <Panel className="p-8 text-center">
-        <p className="text-[13.5px] text-ink-2">{t('Loading the room…')}</p>
-      </Panel>
-    )
+      branch=branch.parentElement
+    }
+    const overflow=document.body.style.overflow
+    document.body.style.overflow='hidden'
+    focusFirstWithin(worldRef.current)
+    const close=(event:KeyboardEvent)=>{
+      if(!isTopOverlay(overlayId))return
+      if(event.key==='Escape'){event.preventDefault();setFocusMode(false)}
+      wrapTab(event,worldRef.current)
+    }
+    document.addEventListener('keydown',close,true)
+    return()=>{document.removeEventListener('keydown',close,true);hidden.forEach(({node,inert})=>{node.inert=inert});document.body.style.overflow=overflow;popOverlay(overlayId);previous?.focus()}
+  },[focusMode])
+  const sample=useMemo(()=>mockWorldPresence(selfId,world),[selfId,world])
+  const people=useMemo<StudyPresence[]>(()=>{
+    const others:StudyPresence[]=demo?sample:(session.channel?.members??party?.members??[]).filter(m=>m.userId!==selfId).map(m=>({id:m.userId,name:m.displayName||t('Student'),seat:normalizeSeat(m.seat),seatIndex:m.seat?.seatIndex,studying:m.activity==='studying',speaking:session.audio?.speaking.has(m.userId)??false,goal:'statusMessage' in m ? m.statusMessage??undefined : undefined,status:m.activity==='studying'?'Focusing':undefined}))
+    const self:StudyPresence={id:selfId,name:identity.displayName||t('You'),seat,seatIndex:focus.seatIndex??(demo?1:party?.members.find(m=>m.userId===selfId)?.seat?.seatIndex),studying:!['On Break','Needs Help','Available to Talk'].includes(focus.status),speaking:session.audio?.speaking.has(selfId)??false,university:universityName,year:identity.audience.year||undefined,topic:focus.topic,goal:focus.goal,status:focus.status,elapsedSeconds:elapsed/1000,micMuted:!session.audio?.callActive||session.audio.muted,handRaised:focus.handRaised,personalisation}
+    return [...others,self]
+  },[demo,sample,session.channel?.members,party?.members,selfId,t,identity.displayName,universityName,identity.audience.year,seat,focus,elapsed,session.audio,personalisation])
+  const desks=useMemo(()=>placeSeats(people,world.capacity) as (StudyPresence|null)[],[people,world.capacity])
+  const selectedPerson=selected!==null?desks[selected]:null
+  const selfIndex=desks.findIndex(p=>p?.id===selfId)
+  const sharedSeat=roomSceneLayout(world).seats[selfIndex]?.shared??false
+  useEffect(()=>{if(!sharedSeat&&session.audio?.audience==='table')session.audio.setAudience('room')},[sharedSeat,session.audio])
+  async function chooseSeat(index:number,confirmed=false) {
+    if(desks[index]){openDetails(index);return}
+    if(busy)return
+    if(!demo&&!online){setNotice(t('Reconnect before changing your seat.'));return}
+    if(!confirmed){setPendingSeat(index);return}
+    setPendingSeat(null)
+    session.audio?.leave()
+    setBusy(true)
+    try {
+      if(!demo){const result=await apiSend<{ok:boolean;reason?:string}>(`/parties/${encodeURIComponent(room!.roomCode)}/seat`,'PATCH',{seatIndex:index});if(!result.ok)throw new Error(t('That seat could not be reserved. Refresh the room and try again.'));await reload()}
+      patch({seatIndex:index});setSelected(null);setNotice(`${t('You are now at desk')} ${index+1}.`)
+    }catch(e){setNotice(e instanceof Error?e.message:t('Could not change seats. Try again.'))}finally{setBusy(false)}
   }
+  async function copyLink(){try{await navigator.clipboard.writeText(`${window.location.origin}/app/study-rooms?room=${encodeURIComponent(room!.roomCode)}`);setCopied(true)}catch{setNotice(t('Could not copy the link. Copy the room code instead.'))}}
+  if(!room)return <ContentSkeleton shape="room" />
+  if(!demo&&!party&&!error)return <Panel className="p-8" role="status" aria-busy="true">{t('Loading students and seats…')}</Panel>
+  if(!demo&&error)return <Panel className="p-8"><p role="alert">{error}</p><div className="flex gap-2 mt-4"><Button onClick={()=>void reload()}>{t('Try again')}</Button><Button variant="ghost" onClick={onMinimise}>{t('Back to rooms')}</Button></div></Panel>
+  const roomName=room.roomId.startsWith('world-')?world.name:party?.name??room.roomName??world.name
+  const libraryLayout=world.style==='library'&&world.capacity===12&&!focusMode
+  const controls=<StudyControlDock shared={sharedSeat} discussion={world.style==='discussion'} demo={demo} onLeave={onLeave} onChat={toggleChat} chatOpen={chatOpen}/>
+  if(activitiesOpen)return <RoomActivities partyId={room.roomId} shared={sharedSeat} demo={demo} onClose={()=>setActivitiesOpen(false)}/>
+  return <div ref={worldRef} style={{'--room-fit-ratio':1000/illustratedLayout(world).height} as CSSProperties} role={focusMode?'dialog':undefined} aria-modal={focusMode||undefined} aria-label={focusMode?t('Focus mode'):undefined} tabIndex={-1} className={`study-world world-refined ${libraryLayout?'world-library-layout':''} ${focusMode?'world-focus-mode':''}`}>
+    <header className="world-header">
+      <div className="flex items-center gap-3"><Button size="sm" variant="ghost" aria-label={t('Back to rooms')} onClick={onMinimise}><ArrowLeft size={17}/></Button><div><h1 className="font-serif text-2xl">{t(roomName)}</h1><p className="text-xs text-ink-2 mt-1">{t(world.type)} · {people.length}/{world.capacity} {t('students')} · {world.capacity-people.length} {t('seats available')}</p></div></div>
+      <div className="flex items-center gap-2"><Button variant="secondary" size="sm" onClick={()=>setActivitiesOpen(true)}>{t('Study together')}</Button><span className="world-room-code text-xs text-ink-2">{room.roomCode}</span><Button variant="ghost" size="sm" aria-label={t('Copy room link')} onClick={()=>void copyLink()}>{copied?<Check size={16}/>:<Copy size={16}/>}</Button><Button variant="secondary" size="sm" iconLeft={focusMode?Minimize2:Maximize2} onClick={()=>setFocusMode(!focusMode)}>{t(focusMode?'Exit focus':'Focus mode')}</Button></div>
+    </header>
+    {!online&&<p className="world-banner" role="status">{t('You are offline. Your focus timer still works; live presence and voice will reconnect when you are online.')}</p>}
+    {session.channel?.retrying&&<p className="world-banner" role="status">{t('Reconnecting. Showing the last room snapshot.')}</p>}
+    <p className="text-sm text-ink-2" role="status">{notice}</p>
+    <div className="world-mobile-tabs" role="tablist" aria-label={t('Study room view')}><button id="session-tab" role="tab" tabIndex={mobileTab==='session'?0:-1} onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();switchMobileTab('room');document.getElementById('room-tab')?.focus()}}} aria-controls="world-session-region" aria-selected={mobileTab==='session'} onClick={()=>switchMobileTab('session')}>{t('My Session')}</button><button id="room-tab" role="tab" tabIndex={mobileTab==='room'?0:-1} onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();switchMobileTab('session');document.getElementById('session-tab')?.focus()}}} aria-controls="world-room-region" aria-selected={mobileTab==='room'} onClick={()=>switchMobileTab('room')}>{t('Room')}</button></div>
+    {focusMode&&<div className="world-focus-timer"><span>{focus.goal||t('One topic at a time.')}</span><time>{clockText(Math.max(0,focus.durationMinutes*60-elapsed/1000))}</time><Button size="sm" variant="secondary" onClick={session.study.toggleTimer}>{t(focus.startedAt!==null?'Pause':'Start focus')}</Button></div>}
+    <div className="world-workspace">
+      <section id="world-room-region" className={`world-room-region ${mobileTab==='room'?'mobile-visible':''}`} aria-label={t('Room')}>
+        <div className="world-room-caption"><span>{t('Choose any available desk to sit down.')}</span><span>{demo?t('Sample students'):t(party?.scope==='global'?'Global room':'University room')}</span></div>
+        <WorldHall paused={customising} world={world} seats={desks} selfId={selfId} selected={selected} onSeat={index=>void chooseSeat(index)}/>
 
-  if (!demo && error) {
-    return (
-      <Panel className="p-8 text-center">
-        <p className="text-[13.5px] text-ink-2">{error}</p>
-        <Button className="mt-4" variant="secondary" iconLeft={ArrowLeft} onClick={onMinimise}>
-          {t('Back to Study Rooms')}
-        </Button>
-      </Panel>
-    )
-  }
-
-  return (
-    <div className="space-y-4">
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <Button variant="ghost" size="sm" iconLeft={ArrowLeft} onClick={onMinimise}>
-          {t('Back to Study Rooms')}
-        </Button>
-        <div className="flex flex-wrap items-center gap-2">
-          {demo && <Badge tone="primary" dot>{t('Demo room')}</Badge>}
-          <span className="tnum rounded-lg border border-line bg-surface-2 px-3 py-1.5 font-mono text-[14px] font-semibold tracking-[0.18em] text-ink">
-            {code || '—'}
-          </span>
-          <Button size="sm" variant="secondary" iconLeft={copied === 'code' ? Check : Copy} disabled={!code} onClick={() => copy(code, 'code')}>
-            {copied === 'code' ? t('Copied') : t('Copy code')}
-          </Button>
-          <Button size="sm" variant="ghost" iconLeft={copied === 'link' ? Check : Link2} disabled={!link} onClick={() => copy(link, 'link')}>
-            {copied === 'link' ? t('Copied') : t('Copy link')}
-          </Button>
+      </section>
+      <aside id="world-session-region" className={`world-session-region ${mobileTab==='session'?'mobile-visible':''}`} aria-label={t('Your study session')}>
+        <div className="session-rail-tabs" role="tablist" aria-label={t('Session panel')} onKeyDown={e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();const next=panelTab==='session'?'people':'session';setPanelTab(next);document.getElementById(`rail-${next}-tab`)?.focus()}}}>
+          <button type="button" role="tab" id="rail-session-tab" aria-controls="rail-session" aria-selected={panelTab==='session'} tabIndex={panelTab==='session'?0:-1} onClick={()=>setPanelTab('session')}>{t('My Session')}</button>
+          <button type="button" role="tab" id="rail-people-tab" aria-controls="rail-people" aria-selected={panelTab==='people'} tabIndex={panelTab==='people'?0:-1} onClick={()=>setPanelTab('people')}>{t('People')} <span>{people.length}</span></button>
         </div>
-      </div>
-
-      <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(19rem,0.62fr)]">
-        <Panel className="overflow-hidden">
-          <PanelHeader
-            title={roomName}
-            icon={Hash}
-            hint={`${occupants.length} / ${capacity} ${t('seated')}`}
-          />
-          <div className="p-3 sm:p-4">
-            <StudyHall
-              seats={desks}
-              selfId={selfId}
-              capacity={capacity}
-              onSeatClick={(occupant) => {
-                if (!occupant) return
-                if (occupant.id === selfId) setCustomising(true)
-                else setMemberMenu(occupant)
-              }}
-            />
-            <p className="mt-3 flex items-start gap-2 text-[12px] leading-relaxed text-ink-3">
-              <Icon icon={Info} size={14} className="mt-0.5" />
-              {demo
-                ? t('A seeded room, so the scene has someone in it. Your own desk is the one with the crimson cushion — click it to change your furniture.')
-                : channel?.connected
-                  ? t('Everyone here is live: their desk, their furniture and whether they are working. Your own desk is the one with the crimson cushion — click it to change your furniture.')
-                  : channel?.retrying
-                    ? t('Reconnecting to the room. Seats and activity are the last thing the room said.')
-                    : t('Live updates are not available here, so the room is re-read every few seconds instead.')}
-            </p>
-          </div>
-        </Panel>
-
-        <div className="space-y-4">
-          <RoomControls
-            audio={audio}
-            occupants={occupants}
-            selfId={selfId}
-            onCustomise={() => setCustomising(true)}
-            onLeave={onLeave}
-            leaveLabel={t('Leave room')}
-          />
-
-          {/* Chat needs the live socket relaying it — a demo room has none,
-              so it shows nothing here rather than a box that can never send. */}
-          {channel && (
-            <ChatBox
-              messages={channel.messages}
-              selfId={selfId}
-              selfName={selfName}
-              members={members}
-              target={chatTarget}
-              onClearTarget={() => setChatTarget(null)}
-              onSend={(text, toUserId) => channel.sendChat(text, toUserId)}
-            />
-          )}
+        <div id="rail-session" role="tabpanel" aria-labelledby="rail-session-tab" hidden={panelTab!=='session'}><MyStudySession reminder={personalisation.note} onReminder={note=>setStored({...personalisation,note})} onCustomise={()=>setCustomising(true)}/></div>
+        <div id="rail-people" role="tabpanel" aria-labelledby="rail-people-tab" hidden={panelTab!=='people'}>
+        <section className="world-students"><h3 className="font-semibold text-sm mb-2">{t('In the room')} · {people.length}</h3>{people.length===1&&<p className="text-xs text-ink-2 mb-3">{t('You are the first one here. Settle in, or invite your study partner with the room link.')}</p>}<ul>{desks.map((person,index)=>person&&<li key={person.id}><button type="button" onClick={()=>openDetails(index)}><StudentPortrait model={person.personalisation?.model??'man-1'} className="size-9 shrink-0"/><span><strong>{person.name}</strong><small>{t(person.status??'In the room')}</small></span>{person.handRaised?<Hand size={14}/>:<MicOff size={14}/>}</button></li>)}</ul></section>
+        {!demo&&party&&<div className="mt-3"><PartyPage partyId={room.roomId} party={party} onReload={reload} onExit={onLeave}/></div>}
         </div>
-      </div>
-
-      {memberMenu && (
-        <Dialog label={memberMenu.name} size="sm" onClose={() => setMemberMenu(null)}>
-          <PanelHeader title={memberMenu.name} icon={MessageCircle} />
-          <div className="grid gap-1 p-2">
-            <button
-              type="button"
-              onClick={() => {
-                setChatTarget({ id: memberMenu.id, name: memberMenu.name })
-                setMemberMenu(null)
-              }}
-              className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] text-ink transition-colors hover:bg-inset"
-            >
-              <Icon icon={MessageCircle} size={16} className="text-ink-3" />
-              {t('Message privately')}
-            </button>
-            {/* Mute is client-side and silences only this listener; it needs a
-                live call to have any audio to silence, so it is offered only
-                when voice is actually flowing. */}
-            {audio.callActive && (
-              <button
-                type="button"
-                onClick={() => audio.toggleUserMute(memberMenu.id)}
-                className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] text-ink transition-colors hover:bg-inset"
-              >
-                <Icon icon={audio.mutedUsers.has(memberMenu.id) ? Volume2 : VolumeX} size={16} className="text-ink-3" />
-                {audio.mutedUsers.has(memberMenu.id) ? t('Unmute') : t('Mute')}
-              </button>
-            )}
-            <button
-              type="button"
-              onClick={() => {
-                void block(memberMenu.id)
-                setMemberMenu(null)
-              }}
-              className="flex items-center gap-2 rounded-lg px-3 py-2.5 text-start text-[13.5px] text-danger transition-colors hover:bg-inset"
-            >
-              <Icon icon={Ban} size={16} />
-              {t('Block')}
-            </button>
-          </div>
-        </Dialog>
-      )}
-
-      {/* Everything a study party could already do, unchanged. */}
-      {demo ? (
-        <DemoPartiesPreview />
-      ) : party ? (
-        <PartyPage partyId={roomId} party={party} onReload={reload} onExit={onLeave} />
-      ) : (
-        <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the room…')}</Panel>
-      )}
-
-      {customising && (
-        <SeatCustomiser seat={seat} onSave={setSeat} onClose={() => setCustomising(false)} />
-      )}
+      </aside>
     </div>
-  )
+    {selectedPerson&&selected!==null&&<StudentPopover onInvite={sharedSeat&&selectedPerson.id!==selfId&&tableForSeat(selected,demo?world.style:party?.layoutKey)!==tableForSeat(selfIndex,demo?world.style:party?.layoutKey)?()=>{if(demo){setNotice(t('Invitations are available in connected rooms. Sample students cannot receive requests.'));closeDetails();return}void apiSend<{ok:boolean;reason?:string}>(`/parties/${room.roomId}/invitations`,'POST',{recipientId:selectedPerson.id,scope:'table'}).then(result=>setNotice(t(result.ok?'Table invitation sent.':'The invitation could not be sent. Try again shortly.'))).catch(()=>setNotice(t('Check your connection and try again.')));closeDetails()}:undefined} person={selectedPerson} index={selected} self={selectedPerson.id===selfId} onClose={closeDetails} onCustomise={()=>setCustomising(true)} muted={session.audio?.mutedUsers.has(selectedPerson.id)??false} onToggleMute={!demo&&session.audio?.callActive?()=>session.audio!.toggleUserMute(selectedPerson.id):undefined} onMessage={demo?undefined:()=>{setChatTarget({id:selectedPerson.id,name:selectedPerson.name});setChatOpen(true);closeDetails()}} onBlock={demo?undefined:()=>{void block(selectedPerson.id);setNotice(t('Blocked. They can no longer message you privately.'));closeDetails()}}/>}
+    {chatOpen&&<RoomChatBox demo={demo} messages={messages} draft={chatDraft} onDraft={setChatDraft} name={identity.displayName||t('You')} onClose={closeChat} onSend={()=>{if(chatDraft.trim()){setMessages(current=>[...current,{id:Date.now(),text:chatDraft.trim()}]);setChatDraft('')}}} live={demo||!session.channel?null:{messages:session.channel.messages,selfId,nameFor:id=>people.find(p=>p.id===id)?.name||t('Student'),target:chatTarget,onClearTarget:()=>setChatTarget(null),onSend:(text,to)=>session.channel!.sendChat(text,to)}}/>}
+    {pendingSeat!==null&&<Dialog label={t('Join this table?')} onClose={()=>setPendingSeat(null)}><div className="p-5"><h2 className="font-serif text-xl">{t(roomSceneLayout(world).seats[pendingSeat]?.shared?'Join this table?':'Take this private seat?')}</h2><p className="text-sm text-ink-2 my-3">{t('Move to seat')} {pendingSeat+1}? {t('Your focus timer will keep running.')}</p><div className="flex justify-end gap-2"><Button variant="ghost" onClick={()=>setPendingSeat(null)}>{t('Cancel')}</Button><Button variant="primary" onClick={()=>void chooseSeat(pendingSeat,true)}>{t('Sit here')}</Button></div></div></Dialog>}
+    {controls}
+    {!demo&&<p className="text-xs text-ink-2">{t('Your focus goal and study status stay with this session. Room-wide sharing is coming later.')}</p>}
+    {selfIndex<0&&<p role="alert">{t('This room is full. Choose another room to take a seat.')}</p>}
+    {customising&&<DeskPersonaliser shared={roomSceneLayout(world).seats[selfIndex]?.shared??false} value={personalisation} seat={seat} onSave={(next,furniture)=>{setStored(next);setSeat(furniture)}} onClose={closeCustomiser}/>}
+  </div>
 }

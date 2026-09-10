@@ -1,3 +1,4 @@
+import { useInitialRead } from '../initialReadContext'
 /**
  * React bindings for `contentClient`.
  *
@@ -97,6 +98,7 @@ function useContentResource<T>(key: string | null, fetcher: (force: boolean) => 
   }, [key])
 
   heldOk.current = held.status.error === null && held.status.hydrated
+  useInitialRead(held.status)
   return held
 }
 

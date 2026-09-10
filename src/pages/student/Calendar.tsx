@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { CalendarDays, Check, CheckSquare2, ChevronLeft, ChevronRight, CircleAlert, Clock, Filter, Pencil, Plus, Trash2, X, MapPin, Layers, ArrowRight, WifiOff } from 'lucide-react'
+import { CalendarDays, Check, CheckSquare2, ChevronLeft, ChevronRight, CircleAlert, Clock, Filter, Pencil, Plus, Trash2, X, MapPin, Layers, ArrowRight, WifiOff, GraduationCap } from 'lucide-react'
 import type { CalEvent } from '@/data/calendar'
 import { scheduleLinks, type ModuleScheduleStore } from '@/data/moduleSchedule'
 import { getSubject, subjects } from '@/data/subjects'
@@ -25,7 +25,8 @@ import { Toggle } from '@/components/ui/Toggle'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { DateField, TimeField } from '@/components/ui/DateTimeField'
 import { SystemMark } from '@/components/ui/SystemMark'
-import { Skeleton, SkeletonList } from '@/components/ui/Skeleton'
+import { CalendarSkeleton } from '@/components/loading/PageSkeleton'
+import { LoadingRegion } from '@/components/loading/SkeletonParts'
 import { DEFAULT_WEEK_START, addDays, monthGrid, sameDay, weekDays, weekdayLabels } from '@/lib/calendarGrid'
 import { useIdentity } from '@/lib/useIdentity'
 import { useStudentModules, useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
@@ -448,8 +449,8 @@ export function CalendarPage() {
   const [, , moduleScheduleStatus] = usePersistentState<ModuleScheduleStore>(MODULE_SCHEDULE_STORAGE_KEY, {})
   const [, , tasksStatus] = usePersistentState<TaskDoc>(TASKS_STORAGE_KEY, EMPTY_TASKS)
   const calendarStatuses = [blocksStatus, catalogueStatus, moduleScheduleStatus, tasksStatus]
-  const calendarLoading = calendarStatuses.some((status) => !status.hydrated)
   const calendarError = calendarStatuses.find((status) => status.error)?.error ?? null
+  const calendarLoading = !calendarError && calendarStatuses.some((status) => !status.hydrated)
   const online = useOnlineStatus()
 
   const days = useMemo(
@@ -551,32 +552,26 @@ export function CalendarPage() {
               that is true for almost every student on almost every day: both
               layers are on. They are one button now, and it speaks up — with a
               count — only once a layer is actually hidden. */}
-          <div className="flex min-w-0 basis-full items-center gap-2 md:basis-auto">
-            <Segmented value={view} onChange={setView} items={[{ value: 'month', label: t('Month') }, { value: 'week', label: t('Week') }]} />
+          <div className="flex min-w-0 basis-full flex-wrap items-center gap-2 md:basis-auto">
+            <Segmented value={view} onChange={setView} items={[{ value: 'month', label: t('Month') }, { value: 'week', label: t('Week') }]} className="shrink-0 max-sm:flex-nowrap" />
             <CalendarLayers
               showCurriculum={showCurriculum}
               setShowCurriculum={setShowCurriculum}
               showPersonal={showPersonal}
               setShowPersonal={setShowPersonal}
             />
-            <Button variant="primary" size="sm" iconLeft={Plus} className="ms-auto" onClick={() => setDialogDate(new Date())}>{t('Add block')}</Button>
+            <Button variant="primary" size="sm" iconLeft={Plus} className="ms-auto whitespace-nowrap" onClick={() => setDialogDate(new Date())}>{t('Add block')}</Button>
+            <UniversityButton className="hidden xl:inline-flex" />
           </div>
         </div>
-        <div className="mt-2 xl:hidden">
-          <Segmented value={pane} onChange={setPane} items={[{ value: 'calendar', label: t('Calendar') }, { value: 'tasks', label: t('Tasks') }]} className="w-full" />
+        <div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-line pt-2 xl:hidden">
+          <Segmented value={pane} onChange={setPane} items={[{ value: 'calendar', label: t('Calendar') }, { value: 'tasks', label: t('Tasks') }]} className="w-fit xl:hidden" />
+          <UniversityButton />
         </div>
       </div>
 
       {calendarLoading ? (
-        <div className="grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_21rem]" aria-label={t('Loading your calendar')}>
-          <div className="space-y-2">
-            <Skeleton className="h-10 w-full rounded-lg" />
-            <div className="grid grid-cols-7 gap-1">
-              {Array.from({ length: 35 }, (_, i) => <Skeleton key={i} className="h-16 rounded-md sm:h-28" />)}
-            </div>
-          </div>
-          <SkeletonList rows={6} />
-        </div>
+        <LoadingRegion label={t('Loading your calendar')}><CalendarSkeleton toolbar={false} pane={pane} view={view} /></LoadingRegion>
       ) : calendarError ? (
         <Panel className="p-10">
           {online ? (
@@ -671,14 +666,6 @@ export function CalendarPage() {
           />
         </Panel>
       )}
-      {!calendarLoading && !calendarError && hasYear && sessions.length === 0 && (
-        <p className="mt-3 rounded-lg border border-dashed border-line bg-surface-2/40 px-4 py-3 text-[12.5px] text-ink-3">
-          {t('Your year has no published sessions yet. Blocks you plan yourself still appear on this calendar.')}
-        </p>
-      )}
-      {!calendarLoading && !calendarError && (
-        <p className="mt-3 flex items-center gap-1.5 text-[12px] text-ink-3"><CalendarDays size={13} />{t('Select any day to add a personal block. Curriculum sessions are filled; your plan is outlined.')}</p>
-      )}
       {daySheet && (
         <DaySheet
           date={daySheet}
@@ -708,5 +695,23 @@ export function CalendarPage() {
         />
       )}
     </PageContainer>
+  )
+}
+
+function UniversityButton({ className }: { className?: string }) {
+  const t = useT()
+  return (
+          <button
+            type="button"
+            disabled
+            title={`${t('University')} · ${t('Coming soon')}`}
+            className={cn('min-h-11 items-center gap-2 rounded-lg border border-line bg-surface-2 px-2.5 py-0.5 text-ink-3 sm:min-h-8', className ?? 'inline-flex')}
+          >
+            <Icon icon={GraduationCap} size={16} />
+            <span className="grid text-start leading-tight">
+              <span className="text-[12px] font-medium">{t('University')}</span>
+              <span className="text-[10px]">{t('Coming soon')}</span>
+            </span>
+          </button>
   )
 }

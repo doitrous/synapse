@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useMemo, useState, type ReactNode } from 'react'
 import { ArrowLeft, ChartColumn, Layers, Play, Plus, Pencil, Trash2, Settings2, Undo2, FileUp, Download } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -86,7 +87,7 @@ export function DeckDashboard({
     if (ledgerAvailability && ledgerAvailability.kind !== 'ready' && ledgerAvailability.kind !== 'empty') {
       return (
         <Panel className="p-10">
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="flashcards" />}
             availability={ledgerAvailability}
             empty={{ title: t('No decks yet'), description: t('Create a deck to study by spaced repetition, or wait for a published deck to appear here.') }}
           />
@@ -116,9 +117,6 @@ export function DeckDashboard({
 
   return (
     <div className="space-y-5">
-      {rhythm.settings.showOnMain && (
-        <StudyRhythm api={api} scope={ALL_SCOPE} settingsApi={rhythm} />
-      )}
       <Panel>
         <PanelHeader
           title={t('Your decks')}
@@ -153,6 +151,10 @@ export function DeckDashboard({
             ))}
           </ul>
         </Panel>
+      )}
+
+      {rhythm.settings.showOnMain && (
+        <StudyRhythm api={api} scope={ALL_SCOPE} settingsApi={rhythm} />
       )}
 
       {creating && <CreateDeckDialog onClose={() => setCreating(false)} onCreate={(name) => { const id = api.createDeck(name); setCreating(false); setSelectedId(id) }} />}

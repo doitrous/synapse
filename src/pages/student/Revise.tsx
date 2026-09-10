@@ -1,6 +1,6 @@
 import { useMemo, useRef } from 'react'
-import { Layers, NotebookPen, PenTool } from 'lucide-react'
-import { FeatureCard, FeatureGrid, HubPage, HubStat } from '@/components/hub'
+import { Layers, NotebookPen, PenTool, FolderOpen, Languages, Bone } from 'lucide-react'
+import { FeatureCard, FeatureGrid, HubPage } from '@/components/hub'
 import { QBANK_NOTES_STORAGE_KEY } from '@/components/qbank/StudyRail'
 import { useContentSlice } from '@/lib/content'
 import { managedDeckToStudentDeck, type StudentDeck } from '@/data/decks'
@@ -11,6 +11,9 @@ import { localDay } from '@/data/flashcards/time'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useFlashcards } from '@/lib/useFlashcards'
 import { useT } from '@/lib/i18n'
+import { useMedicalGlossary } from '@/data/glossaryStore'
+import { useTerminologyProgress } from '@/lib/useTerminologyProgress'
+import { useRecentResources } from '@/lib/useRecentResources'
 
 /**
  * How many boards the student has, without assuming the document's shape.
@@ -27,7 +30,7 @@ function boardCount(collection: unknown): number {
 }
 
 /**
- * Revise: capture it, connect it, keep it.
+ * Study tools: references, note-taking, and spaced review.
  *
  * The three surfaces where a student's own words live. Notebook and Whiteboard
  * are counted rather than scored — there is no "right" number of notes — while
@@ -36,6 +39,12 @@ function boardCount(collection: unknown): number {
  */
 export function Revise() {
   const t = useT()
+  const [glossary] = useMedicalGlossary()
+  const { knownIn } = useTerminologyProgress()
+  const { recent } = useRecentResources()
+  const [bookmarks] = usePersistentState<string[]>('nishany.bookmarks.resources.v1', [])
+  const termIds = useMemo(() => glossary.terms.map((term) => term.id), [glossary.terms])
+  const knownCount = knownIn(termIds)
   const [notes] = usePersistentState<Note[]>('nishany.notebook.notes', initialNotes)
   const [questionNotes] = usePersistentState<Record<string, string>>(QBANK_NOTES_STORAGE_KEY, {})
   // Seeded with the same document `Whiteboard.tsx` seeds it with, not with a
@@ -97,28 +106,27 @@ export function Revise() {
   const dueAtStartOfDay = clearedToday + dueLeft
 
   return (
-    <HubPage
-      eyebrow="04 · REVISE"
-      title={t('Revise')}
-      lede={t('Capture it, connect it, keep it.')}
-      aside={
-        <HubStat
-          label="Due today"
-          value={dueAtStartOfDay > 0 ? `${clearedToday}/${dueAtStartOfDay}` : '0'}
-          sub={dueAtStartOfDay === 0 ? 'nothing due today' : dueLeft === 0 ? 'all cleared' : 'flashcards cleared'}
-        />
-      }
-    >
+    <HubPage title={t('Tools')}>
       <FeatureGrid>
         <FeatureCard
-          to="/app/notebook"
-          icon={NotebookPen}
-          title={t('Notebook')}
-          description={t('Your own notes, the ones classmates shared with you, and everything you wrote beside a question.')}
+          to="/app/terminology"
+          icon={Languages}
+          title={t('Medical Terminology')}
+          description={t('The bilingual dictionary of the terms you meet first — flip, check yourself, mark what you know.')}
+          progress={termIds.length ? { kind: 'ring', value: knownCount, max: termIds.length, label: t('known') } : undefined}
           stats={[
-            { label: t('Notes'), value: String(notes.length) },
-            { label: t('Question notes'), value: String(questionNoteCount) },
+            { label: t('Categories'), value: String(glossary.categories.length) },
+            { label: t('Terms'), value: String(termIds.length) },
           ]}
+        />
+        <FeatureCard
+          to="/app/anatomy-atlas"
+          demoHref="/app/anatomy-atlas"
+          icon={Bone}
+          title={t('Anatomy Atlas')}
+          description={t('A visual reference for anatomical structures and their relationships.')}
+          status="coming-soon"
+          comingSoon={{ body: t('Anatomy Atlas is coming soon.') }}
         />
         <FeatureCard
           to="/app/whiteboard"
@@ -138,6 +146,26 @@ export function Revise() {
           stats={[
             { label: t('Decks'), value: String(deckCount) },
             { label: t('Cards'), value: String(cardCount) },
+          ]}
+        />
+        <FeatureCard
+          to="/app/notebook"
+          icon={NotebookPen}
+          title={t('Notebook')}
+          description={t('Your own notes, the ones classmates shared with you, and everything you wrote beside a question.')}
+          stats={[
+            { label: t('Notes'), value: String(notes.length) },
+            { label: t('Question notes'), value: String(questionNoteCount) },
+          ]}
+        />
+        <FeatureCard
+          to="/app/resources"
+          icon={FolderOpen}
+          title={t('Resources')}
+          description={t('Textbooks, videos, guidelines and your own uploads — read in place, with deep links into pages.')}
+          stats={[
+            { label: t('Bookmarks'), value: String(Array.isArray(bookmarks) ? bookmarks.length : 0) },
+            { label: t('Recently opened'), value: String(recent.length) },
           ]}
         />
       </FeatureGrid>

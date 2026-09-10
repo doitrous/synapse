@@ -21,6 +21,7 @@ export type PartyGameKind =
   | 'clinical-sequence'
   | 'mechanism-chain'
   | 'red-flag-sort'
+  | 'maristanas'
 
 export type PartyGameStatus = 'lobby' | 'in_round' | 'between_rounds' | 'completed'
 export type PartyAnswerValue = string | string[] | Record<string, string>

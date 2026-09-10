@@ -1,3 +1,7 @@
+import { FOUNDATION_TOPICS,FOUNDATION_ORDER_PACKS,FOUNDATION_RED_FLAG_PACKS } from '../shared/foundationGames.js'
+import { FOUNDATION_SPOTTERS } from '../shared/foundationSpotters.js'
+import { resolveActivityAudience,mayAccessActivity,activityMembership,canSeeActivity } from './roomActivityScope.js'
+import { tableForSeat } from '../shared/roomLayouts.js'
 import { randomUUID } from 'node:crypto'
 import { EventEmitter } from 'node:events'
 import { pool } from './db.js'
@@ -15,6 +19,7 @@ const GAME_KINDS = new Set([
   'clinical-sequence',
   'mechanism-chain',
   'red-flag-sort',
+  'maristanas',
 ])
 
 const streamBus = new EventEmitter()
@@ -250,6 +255,7 @@ function spotterContent(request, docs) {
           maxPoints: 1,
           scoring: 'choice',
           payload: {
+            image:candidate.slide.views.find(view=>view.objective===candidate.objective)?.image,
             slideId: candidate.slide.id,
             slideTitle: candidate.slide.title,
             objective: candidate.objective,
@@ -352,6 +358,20 @@ function authoredPackContent(request, expectedKind, docs = {}) {
   return { ok: true, content: packContent(pack, 'authored') }
 }
 
+export function foundationGameContent(request){
+  const kind=request.kind
+  const sets=kind==='spotter'?FOUNDATION_SPOTTERS:kind==='red-flag-sort'?FOUNDATION_RED_FLAG_PACKS:kind==='clinical-sequence'||kind==='mechanism-chain'?FOUNDATION_ORDER_PACKS.filter(pack=>normalizePackKind(pack.kind)===kind):FOUNDATION_TOPICS
+  const pack=request.foundationPackId?sets.find(pack=>pack.id===request.foundationPackId):sets[Math.abs(Number(request.seed)||0)%sets.length]
+  if(!pack)return {ok:false,reason:'no_content'}
+  if(kind==='clinical-sequence'||kind==='mechanism-chain'||kind==='red-flag-sort'){
+    const content=packContent(pack)
+    for(const round of content.rounds)round.choices=shuffle(round.choices,(Number(request.seed)||1)+round.index)
+    return {ok:true,content}
+  }
+  const records=kind==='spotter'?pack.structures:pack.terms
+  return {ok:true,content:{kind,title:pack.title,source:contentSource('authored',pack.id,pack.source.label),authoredOnly:true,rounds:records.map((item,index)=>({id:`foundation-${kind}-${item.id}`,index,prompt:kind==='spotter'?`Identify the pinned structure in ${pack.title}.`:kind==='term-match'?`Which definition matches ${item.term}?`:item.def,choices:kind==='term-grid'?[]:shuffle(kind==='spotter'?pack.structures.map(s=>({id:s.id,label:s.label})):kind==='term-match'?pack.terms.map(t=>({id:t.id,label:t.def})).filter(t=>t.id===item.id||pack.terms.filter(t=>t.id!==item.id).slice(0,3).some(other=>other.id===t.id)):[item,...pack.terms.filter(t=>t.id!==item.id).slice(0,3)].map(t=>({id:t.id,label:t.term})),(Number(request.seed)||1)+index),answerKey:kind==='term-grid'?item.term:item.id,maxPoints:1,scoring:kind==='term-grid'?'normalized_text':'choice',payload:kind==='spotter'?{image:pack.image,at:{x:item.x,y:item.y},slideTitle:pack.title}:{}}))}}
+}
+
 export function contentFromTrustedSource(request, docs = {}) {
   if (!GAME_KINDS.has(request?.kind)) return { ok: false, reason: 'invalid_kind' }
   if (
@@ -359,6 +379,7 @@ export function contentFromTrustedSource(request, docs = {}) {
     || 'answerKey' in request
     || (request.rounds !== undefined && typeof request.rounds !== 'number')
   ) return { ok: false, reason: 'client_content_refused' }
+  if(request.foundationPackId||request.kind==='maristanas')return foundationGameContent(request)
   if (request.kind === 'term-grid') return termGridContent(request, docs)
   if (request.kind === 'term-match') return termMatchContent(request, docs)
   if (request.kind === 'spotter') return spotterContent(request, docs)
@@ -587,7 +608,7 @@ async function trustedDocsForCreation() {
 async function partyMembers(partyId) {
   const [rows] = await pool.query(
     `SELECT pm.user_id AS userId, COALESCE(s.username, s.name, s.email, a.email) AS displayName,
-            s.profile_icon AS profileIcon, pm.role
+            s.profile_icon AS profileIcon, pm.role, pm.seat_index AS seatIndex
        FROM study_party_members pm
        LEFT JOIN students s ON s.user_id = pm.user_id
        LEFT JOIN user_access a ON a.user_id = pm.user_id
@@ -599,13 +620,13 @@ async function partyMembers(partyId) {
     userId: row.userId,
     displayName: row.displayName ? String(row.displayName).split('@')[0] : 'Student',
     profileIcon: row.profileIcon,
-    role: row.role,
+    role: row.role, seatIndex:row.seatIndex,
   }))
 }
 
 async function partyMeta(partyId) {
   const [rows] = await pool.query(
-    'SELECT id, host_user_id AS hostId, archived_at AS archivedAt FROM study_parties WHERE id = ? LIMIT 1',
+    'SELECT id, layout_key AS layoutKey, host_user_id AS hostId, archived_at AS archivedAt FROM study_parties WHERE id = ? LIMIT 1',
     [partyId],
   )
   return rows[0] ?? null
@@ -643,7 +664,7 @@ async function recordFromRows(row, participants, answers) {
     }
   }
   return {
-    id: row.id,
+    id: row.id, tableId:row.tableId,
     partyId: row.partyId,
     hostId: row.hostId,
     kind: row.kind,
@@ -670,7 +691,7 @@ async function recordFromRows(row, participants, answers) {
 
 async function fullGame(gameId, conn = pool, lock = false) {
   const [rows] = await conn.query(
-    `SELECT id, party_id AS partyId, host_user_id AS hostId, kind, title, status,
+    `SELECT id, table_id AS tableId, party_id AS partyId, host_user_id AS hostId, kind, title, status,
             content_json AS contentJson, current_round_index AS currentRoundIndex,
             scores_json AS scoresJson, version, created_at AS createdAt,
             updated_at AS updatedAt, completed_at AS completedAt
@@ -741,7 +762,8 @@ async function persistEvents(conn, events, publicState) {
 export async function createPartyGame(userId, partyId, request) {
   const membership = await memberVerdict(partyId, userId)
   if (!membership.ok) return membership
-  if (!membership.isHost) return { ok: false, reason: 'not_host' }
+  const audience=await resolveActivityAudience(userId,partyId,request?.scope)
+  if(!audience.ok)return audience
 
   const docs = await trustedDocsForCreation()
   const built = contentFromTrustedSource(request ?? {}, docs)
@@ -749,12 +771,12 @@ export async function createPartyGame(userId, partyId, request) {
 
   const meta = await partyMeta(partyId)
   if (!meta) return { ok: false, reason: 'not_found' }
-  const members = await partyMembers(partyId)
+  const members = (await partyMembers(partyId)).filter(member=>!audience.tableId||tableForSeat(member.seatIndex,meta.layoutKey)===audience.tableId)
   const at = nowIso()
   const game = createInitialPartyGame({
     id: randomUUID(),
     partyId,
-    hostId: meta.hostId,
+    hostId: userId,
     content: built.content,
     members,
     at,
@@ -766,12 +788,12 @@ export async function createPartyGame(userId, partyId, request) {
     await conn.query(
       `INSERT INTO study_party_games
           (id, party_id, host_user_id, kind, title, source_kind, source_id, source_label,
-           content_json, status, current_round_index, scores_json, version, created_by)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+           content_json, status, current_round_index, scores_json, version, created_by, table_id)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
         game.id, partyId, game.hostId, game.kind, game.title, game.content.source.kind,
         game.content.source.id, game.content.source.label, JSON.stringify(game.content),
-        game.status, game.currentRoundIndex, JSON.stringify(game.scores), game.version, userId,
+        game.status, game.currentRoundIndex, JSON.stringify(game.scores), game.version, userId, audience.tableId,
       ],
     )
     await persistGame(conn, game)
@@ -789,7 +811,7 @@ export async function partyGamesFor(userId, partyId) {
   const membership = await memberVerdict(partyId, userId)
   if (!membership.ok) return []
   const [rows] = await pool.query(
-    `SELECT id, party_id AS partyId, host_user_id AS hostId, kind, title, status,
+    `SELECT id, table_id AS tableId, party_id AS partyId, host_user_id AS hostId, kind, title, status,
             current_round_index AS currentRoundIndex, version, updated_at AS updatedAt,
             completed_at AS completedAt
        FROM study_party_games
@@ -798,8 +820,10 @@ export async function partyGamesFor(userId, partyId) {
       LIMIT 10`,
     [partyId],
   )
-  return rows.map((row) => ({
-    id: row.id,
+  const viewer=await activityMembership(userId,partyId)
+  if(!viewer)return []
+  return rows.filter(row=>canSeeActivity(row.tableId,viewer.tableId)).map((row) => ({
+    id: row.id, tableId:row.tableId,
     partyId: row.partyId,
     hostId: row.hostId,
     kind: row.kind,
@@ -816,7 +840,7 @@ export async function partyGameFor(userId, partyId, gameId) {
   const membership = await memberVerdict(partyId, userId)
   if (!membership.ok) return null
   const game = await fullGame(gameId)
-  if (!game || game.partyId !== partyId) return null
+  if (!game || game.partyId !== partyId || !(await mayAccessActivity(userId,partyId,game.tableId))) return null
   return publicStateOf(game)
 }
 
@@ -831,9 +855,14 @@ export async function actOnPartyGame(userId, partyId, gameId, action) {
     // Serialize every state transition for this game. Without the row lock two
     // answers can read the same version, double-score, and claim one sequence.
     const game = await fullGame(gameId, conn, true)
-    if (!game || game.partyId !== partyId) {
+    if (!game || game.partyId !== partyId || !(await mayAccessActivity(userId,partyId,game.tableId,conn))) {
       await conn.rollback()
       return { ok: false, reason: 'not_found' }
+    }
+    if(action?.type==='reconnect'&&!game.participants[userId]) {
+      const [rows]=await conn.query('SELECT username FROM students WHERE user_id = ? LIMIT 1',[userId])
+      game.participants[userId]={id:userId,username:rows[0]?.username||'Student',connected:false,joinedAt:nowIso(),lastSeenAt:nowIso()}
+      game.scores[userId]=0
     }
     const result = applyActionToPartyGame(game, { userId, partyId }, action ?? {})
     if (!result.ok) {
@@ -892,8 +921,9 @@ export async function streamPartyGameEvents(userId, partyId, gameId, req, res) {
     for (const row of rows) writeSse(res, parseJson(row.payloadJson, {}))
   }
 
-  const ping = setInterval(() => res.write(': ping\n\n'), 25_000)
-  const send = (event) => writeSse(res, event)
+  const permitted=async()=>Boolean(await partyGameFor(userId,partyId,gameId))
+  const ping = setInterval(() => {void permitted().then(ok=>ok?res.write(': ping\n\n'):res.end()).catch(()=>res.end())}, 25_000)
+  const send = (event) => {void permitted().then(ok=>{if(ok)writeSse(res,event);else res.end()}).catch(()=>res.end())}
   streamBus.on(gameId, send)
   req.on('close', () => {
     clearInterval(ping)

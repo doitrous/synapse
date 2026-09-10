@@ -1,3 +1,4 @@
+import { useInitialRead } from '@/lib/initialReadContext'
 import type { StoredRole } from '@/data/adminRoles'
 import { useCallback, useEffect, useState } from 'react'
 import { API_MODE, apiGet, apiPost, apiSend } from '@/lib/api'
@@ -50,6 +51,7 @@ async function readError(error: unknown): Promise<string> {
 export function useAdminUsers() {
   const [users, setUsers] = useState<AdminUser[]>([])
   const [loading, setLoading] = useState(true)
+  useInitialRead({ hydrated: !loading, error: null })
   const [error, setError] = useState('')
   const [passwordResetAvailable, setPasswordResetAvailable] = useState(false)
 

@@ -37,7 +37,7 @@ export interface EssayAnswer {
  * question overwrites its entry instead of appending a new record.
  */
 export function useEssayAnswers() {
-  const [answers, setAnswers] = usePersistentState<Record<string, EssayAnswer>>(
+  const [answers, setAnswers, status] = usePersistentState<Record<string, EssayAnswer>>(
     ESSAY_ANSWERS_STORAGE_KEY,
     {},
   )
@@ -49,5 +49,5 @@ export function useEssayAnswers() {
     }))
   }, [setAnswers])
 
-  return { answers, save }
+  return { status, loading: !status.hydrated && !status.error, answers, save }
 }

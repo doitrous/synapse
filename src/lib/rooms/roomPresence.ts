@@ -18,7 +18,7 @@
  */
 export type SeatDesk = 'plain' | 'drawer' | 'corner'
 export type SeatDevice = 'laptop' | 'desktop' | 'tablet' | 'iphone' | 'android'
-export type SeatChair = 'stool' | 'office'
+export type SeatChair = 'stool' | 'office' | 'ergonomic' | 'executive' | 'lounge' | 'gaming'
 
 export interface SeatPreference {
   desk: SeatDesk
@@ -28,7 +28,7 @@ export interface SeatPreference {
 
 export const SEAT_DESKS: readonly SeatDesk[] = ['plain', 'drawer', 'corner']
 export const SEAT_DEVICES: readonly SeatDevice[] = ['laptop', 'desktop', 'tablet', 'iphone', 'android']
-export const SEAT_CHAIRS: readonly SeatChair[] = ['stool', 'office']
+export const SEAT_CHAIRS: readonly SeatChair[] = ['stool', 'office', 'ergonomic', 'executive', 'lounge', 'gaming']
 
 export const DEFAULT_SEAT: SeatPreference = { desk: 'plain', device: 'laptop', chair: 'office' }
 

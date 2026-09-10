@@ -1,3 +1,4 @@
+import { useInitialRead } from '@/lib/initialReadContext'
 import { useEffect, useState } from 'react'
 import { CreditCard, BadgeCheck, IdCard, LifeBuoy, TicketPercent, X } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -68,6 +69,8 @@ export function BillingPanels() {
   const [vouchers] = usePersistentState<Voucher[]>(VOUCHER_STORAGE_KEY, initialVouchers)
   const [catalogue] = useUniversityCatalogue()
   const [redemption, setRedemption] = useState<Redemption | null>(null)
+  const [redemptionLoading, setRedemptionLoading] = useState(API_MODE)
+  useInitialRead({ hydrated: !redemptionLoading, error: null })
   const [code, setCode] = useState('')
   const [message, setMessage] = useState('')
   const [busy, setBusy] = useState(false)
@@ -77,6 +80,7 @@ export function BillingPanels() {
     apiGet<{ redemption: Redemption | null }>('/vouchers/mine')
       .then((result) => setRedemption(result.redemption))
       .catch(() => setRedemption(null))
+      .finally(() => setRedemptionLoading(false))
   }, [])
 
   const plan = findPlan(catalog, entitlement.plan)

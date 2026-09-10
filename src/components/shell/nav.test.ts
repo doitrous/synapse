@@ -5,7 +5,7 @@ import { ROUTE_TITLES, studentNav, titleForPath } from './nav.ts'
 test('student nav is the nine destinations in five sections', () => {
   assert.deepEqual(
     studentNav.flatMap((g) => g.items.map((i) => i.label)),
-    ['Dashboard', 'Plan', 'Learn', 'Practice', 'Adaptive Study', 'Revise', 'Minigames', 'Study Rooms', 'Account'],
+    ['Dashboard', 'Plan', 'Library', 'Tools', 'Bank', 'Practice', 'Study Rooms', 'Minigames', 'Account'],
   )
   assert.deepEqual(studentNav.map((g) => g.label), [undefined, 'Study', 'Test yourself', 'Together', 'You'])
 })
@@ -17,10 +17,10 @@ test('student nav is the nine destinations in five sections', () => {
  * that `titleForPath` then hands that entry back.
  */
 const TITLED_ROUTES = [
-  '/app/tutorial', '/app/qbank', '/app/qotd', '/app/calendar', '/app/university', '/app/terminology',
+  '/app/tutorial', '/app/qotd', '/app/university', '/app/terminology',
   '/app/taxonomy', '/app/notebook', '/app/practical', '/app/essays', '/app/performance',
-  '/app/oral', '/app/skills', '/app/histology',
-  '/app/maristanas', '/app/flashcards', '/app/whiteboard', '/app/resources', '/app/library',
+  '/app/oral', '/app/skills', '/app/histology', '/app/anatomy-atlas',
+  '/app/maristanas', '/app/flashcards', '/app/whiteboard', '/app/resources',
   '/app/term-grid',
 ]
 
@@ -41,7 +41,8 @@ test('titleForPath returns the ROUTE_TITLES entry, not the Dashboard fallback', 
 
 test('a nav item still wins over the fallback map', () => {
   assert.equal(titleForPath('/app', 'student'), 'Dashboard')
-  assert.equal(titleForPath('/app/plan', 'student'), 'Plan')
+  assert.equal(titleForPath('/app/calendar', 'student'), 'Plan')
+  assert.equal(titleForPath('/app/qbank', 'student'), 'Bank')
 })
 
 test('a nested route inherits its parent title', () => {
@@ -57,4 +58,14 @@ test('no route title duplicates a nav label it would shadow', () => {
   for (const path of Object.keys(ROUTE_TITLES)) {
     assert.ok(!navPaths.has(path), `${path} is in the nav and does not need a ROUTE_TITLES entry`)
   }
+})
+
+
+test('primary destinations open directly and Library is explicitly unavailable', () => {
+  const items = studentNav.flatMap((group) => group.items)
+  assert.equal(items.find((item) => item.label === 'Plan')?.to, '/app/calendar')
+  assert.equal(items.find((item) => item.label === 'Bank')?.to, '/app/qbank')
+  assert.equal(items.find((item) => item.label === 'Library')?.comingSoon, true)
+  assert.ok(items.find((item) => item.label === 'Tools')?.activePaths?.includes('/app/resources'))
+  assert.ok(items.find((item) => item.label === 'Practice')?.activePaths?.includes('/app/oral'))
 })

@@ -1,3 +1,4 @@
+import { LoadingRegion, SkeletonTable } from '@/components/loading/SkeletonParts'
 import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import {
@@ -698,8 +699,7 @@ export function MediaRequests() {
           />
         ) : !ledgerStatus.hydrated ? (
           <div className="flex items-center justify-center gap-2 py-16 text-ink-3">
-            <NishanyLoader size={20} label={t('Loading the backlog…')} />
-            {t('Loading the backlog…')}
+            <LoadingRegion label={t('Loading the backlog…')} className="w-full"><SkeletonTable rows={6} columns={4} /></LoadingRegion>
           </div>
         ) : visible.length === 0 ? (
           <EmptyState

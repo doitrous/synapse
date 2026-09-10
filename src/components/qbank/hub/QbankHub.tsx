@@ -1,9 +1,7 @@
 import type { ReactNode } from 'react'
-import { GraduationCap, History, ListChecks, PenLine, Shuffle, Stethoscope, Target } from 'lucide-react'
-import { ButtonLink } from '@/components/ui/Button'
+import { GraduationCap, History, ListChecks, PenLine, Shuffle, Stethoscope } from 'lucide-react'
 import { Tabs } from '@/components/ui/Tabs'
 import { PageHeader } from '@/components/shell/Page'
-import { useQotd } from '@/lib/useQotd'
 import { useT } from '@/lib/i18n'
 
 /**
@@ -52,8 +50,6 @@ export function QbankHub({
   children,
 }: QbankHubProps) {
   const t = useT()
-  const qotd = useQotd()
-  const unanswered = !qotd.loading && Boolean(qotd.question) && !qotd.answered
 
   const lede = bank === 'mcq' ? t('Single-best-answer questions, marked against their key.')
     : bank === 'practical' ? t('OSCE stations, clinical cases and interpretation sets, run one after another.')
@@ -62,28 +58,7 @@ export function QbankHub({
 
   return (
     <>
-      <PageHeader
-        title={t('Question Bank')}
-        description={t('Build a test out of any part of the bank, or go back to what you flagged and missed.')}
-        actions={(
-          <>
-          <ButtonLink to="/app/qotd" variant="secondary" iconLeft={Target}>
-            {t('Question of the Day')}
-            {unanswered && (
-              <>
-                <span className="size-2 rounded-full bg-primary" aria-hidden />
-                {/* The dot is the whole signal on screen, so it says the same
-                    thing in words for anyone who cannot see a crimson circle. */}
-                <span className="sr-only">{t('not answered yet')}</span>
-              </>
-            )}
-          </ButtonLink>
-          {/* No "Previous tests" shortcut here: it is one of the two tabs
-              directly below, and a header button for it was the same press
-              twice. */}
-          </>
-        )}
-      />
+      <PageHeader title={t('Question Bank')} />
 
       {banner}
 

@@ -1,3 +1,5 @@
+import { HeatmapSkeleton } from '@/components/loading/DashboardSkeletons'
+import { LoadingError } from '@/components/loading/LoadingError'
 import { useMemo, type ReactNode } from 'react'
 import { Activity } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -77,7 +79,7 @@ const DAY_LABELS = ['Mon', '', 'Wed', '', 'Fri', '', '']
  */
 export function StudyHeatmap({ aside }: { aside?: ReactNode }) {
   const t = useT()
-  const { records } = useAttemptHistory()
+  const { records, loading, error } = useAttemptHistory()
 
   const cells = useMemo<Cell[]>(
     () => dailyCounts(records, DAYS).map((day) => ({ ...day, day: new Date(`${day.date}T00:00:00`) })),
@@ -103,12 +105,14 @@ export function StudyHeatmap({ aside }: { aside?: ReactNode }) {
     return Math.round(sessions.reduce((sum, session) => sum + session.seconds, 0) / sessions.length / 60)
   }, [records])
 
+  if (error) return <LoadingError />
+  if (loading) return <HeatmapSkeleton />
+
   return (
     <Panel className="h-full min-w-0">
       <PanelHeader
         title={t('Study rhythm')}
         icon={Activity}
-        hint={t('Questions answered per day · last 17 weeks')}
         action={
           <div className="flex items-center gap-1.5">
             <Badge tone="primary">{totalAnswered} {t('answered')}</Badge>

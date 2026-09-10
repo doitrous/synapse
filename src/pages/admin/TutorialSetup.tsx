@@ -9,7 +9,8 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import {
   TUTORIAL_VIDEOS_STATE_KEY,
   isPlausibleVideoUrl,
-  tutorialTopicsByArea,
+  TUTORIAL_HUBS,
+  tutorialTopicsByHub,
   type TutorialVideoMap,
 } from '@/data/tutorials'
 
@@ -30,7 +31,7 @@ export function TutorialSetup() {
   const [videos, setVideos] = usePersistentState<TutorialVideoMap>(TUTORIAL_VIDEOS_STATE_KEY, {})
   const [drafts, setDrafts] = useState<Record<string, string>>({})
 
-  const groups = tutorialTopicsByArea()
+  const groups = TUTORIAL_HUBS.map((hub) => ({ area: hub.label, topics: tutorialTopicsByHub(hub.id) }))
   const filledCount = groups.reduce((sum, group) => sum + group.topics.filter((topic) => (videos[topic.id] ?? '').trim() !== '').length, 0)
   const totalCount = groups.reduce((sum, group) => sum + group.topics.length, 0)
 
@@ -60,7 +61,7 @@ export function TutorialSetup() {
     <PageContainer>
       <PageHeader
         title="Tutorial videos"
-        description="Paste a video URL for each platform function — a direct .mp4 link, or a YouTube/Vimeo link. Students see whatever is saved here on the Tutorial page; leave a field blank to show its placeholder instead."
+        description="Paste a video URL for each platform function — a direct .mp4 link, or a YouTube/Vimeo link. Save a video to enable the dashboard tutorial button. Blank topics keep their written guide without a video. Sections follow the current app navigation."
       />
 
       <p className="mb-4 text-[12.5px] text-ink-3">

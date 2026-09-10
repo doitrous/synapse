@@ -18,15 +18,19 @@ export function useUpcoming(): {
   items: UpcomingItem[]
   hasYear: boolean
   hasBlocks: boolean
+  loading: boolean
+  error: import('./apiErrors').StateErrorKind | null
 } {
-  const { sessions, hasYear } = useStudentSchedule()
-  const [blocks] = usePersistentState<StudyBlock[]>(STUDY_BLOCKS_STORAGE_KEY, [])
+  const { sessions, hasYear, loading, error } = useStudentSchedule()
+  const [blocks, , blocksStatus] = usePersistentState<StudyBlock[]>(STUDY_BLOCKS_STORAGE_KEY, [])
 
   return useMemo(() => ({
     items: mergeUpcoming(sessions, blocks),
     hasYear,
+    loading: !error && !blocksStatus.error && (loading || !blocksStatus.hydrated),
+    error: error ?? blocksStatus.error,
     hasBlocks: blocks.length > 0,
-  }), [blocks, hasYear, sessions])
+  }), [blocks, hasYear, sessions, loading, error, blocksStatus])
 }
 
 /** Tick a personal block off, or back on, in the record the calendar reads. */

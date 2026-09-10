@@ -1,3 +1,4 @@
+import { useInitialRead } from './initialReadContext'
 import { useCallback, useEffect, useSyncExternalStore } from 'react'
 import { API_MODE } from './api'
 import {
@@ -40,6 +41,8 @@ export function usePersistentState<T>(key: string, initial: T | (() => T)) {
     // literal, and it is only ever read when a key is first seen.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key])
+
+  useInitialRead(snapshot[2])
 
   return snapshot as unknown as readonly [T, (next: Updater<T>) => void, PersistentStateStatus]
 }

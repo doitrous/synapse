@@ -11,6 +11,8 @@ import { useScopedPublishedQuestionSummaries } from '@/lib/usePublishedQuestions
 
 export interface PracticeProgress {
   /** Bank and room attempts only — the records the bank figures are cut from. */
+  loading: boolean
+  error: import('./apiErrors').StateErrorKind | null
   qbankRecords: AttemptRecord[]
   /** Distinct bank questions the student has answered at least once. */
   seen: number
@@ -42,10 +44,10 @@ export function usePracticeProgress(): PracticeProgress {
   // explanations onto the dashboard on boot.
   const questions = useScopedPublishedQuestionSummaries()
   const history = useAttemptHistory()
-  const { progress } = usePracticalProgress()
+  const { progress, status: practicalStatus } = usePracticalProgress()
   const { osceStations, clinicalCases, labImaging } = useLivePracticals()
   const essays = useLiveEssays()
-  const { answers } = useEssayAnswers()
+  const { answers, status: essayStatus } = useEssayAnswers()
 
   const qbankRecords = useMemo(
     () => history.records.filter((record) => record.surface === 'qbank' || record.surface === 'room'),
@@ -62,6 +64,8 @@ export function usePracticeProgress(): PracticeProgress {
       if (covered) markedCount += 1
     }
     return {
+      loading: history.loading || (!practicalStatus.hydrated && !practicalStatus.error) || (!essayStatus.hydrated && !essayStatus.error),
+      error: history.error ?? practicalStatus.error ?? essayStatus.error,
       qbankRecords,
       seen: distinctItems(qbankRecords),
       bankTotal: questions.length,
@@ -73,5 +77,5 @@ export function usePracticeProgress(): PracticeProgress {
       essayTotal: essays.length,
       markedCount,
     }
-  }, [qbankRecords, questions.length, progress, osceStations.length, clinicalCases.length, labImaging.length, essays, answers])
+  }, [qbankRecords, questions.length, progress, osceStations.length, clinicalCases.length, labImaging.length, essays, answers, history.loading, history.error, practicalStatus, essayStatus])
 }

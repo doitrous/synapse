@@ -1,3 +1,6 @@
+import { resolveActivityAudience,mayAccessActivity,activityMembership,canSeeActivity } from './roomActivityScope.js'
+import { tableForSeat } from '../shared/roomLayouts.js'
+import { ROOM_LAYOUTS, roomLayout } from '../shared/roomLayouts.js'
 /**
  * Study parties — a standing group confined to one university and year, with
  * one permanent link and a switch between findable-by-your-year and
@@ -11,7 +14,7 @@
  */
 import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
-import { notifyRoomPresence } from './roomsRealtime.js'
+import { notifyRoomPresence, closeRoomVoice } from './roomsRealtime.js'
 import { canJoin, visibleTo, sessionState, tally } from './partyRules.js'
 import {
   activityAfter, firstFreeSeatIndex, normalizeActivity, normalizeSeatInput, seatFromRow, seatIndexTaken,
@@ -139,7 +142,7 @@ export async function partyMembers(partyId, userId) {
  */
 export async function roomSnapshot(partyId) {
   const [parties] = await pool.query(
-    'SELECT id, code, name, archived_at AS archivedAt FROM study_parties WHERE id = ? LIMIT 1',
+    'SELECT id, code, name, layout_key AS layoutKey, archived_at AS archivedAt FROM study_parties WHERE id = ? LIMIT 1',
     [partyId],
   )
   if (!parties.length) return null
@@ -148,7 +151,7 @@ export async function roomSnapshot(partyId) {
   return {
     id: parties[0].id,
     code: parties[0].code,
-    name: parties[0].name,
+    name: parties[0].name, layoutKey:parties[0].layoutKey,
     archivedAt: parties[0].archivedAt ?? null,
     members: rows.map((row) => memberView(row, names)),
   }
@@ -181,13 +184,6 @@ async function isPartyMember(partyId, userId) {
   return rows.length > 0
 }
 
-async function isPartyHost(partyId, userId) {
-  const [rows] = await pool.query(
-    'SELECT 1 FROM study_parties WHERE id = ? AND host_user_id = ? AND archived_at IS NULL LIMIT 1',
-    [partyId, userId],
-  )
-  return rows.length > 0
-}
 
 /**
  * Published ledger items of the given kinds, id only — the practical and
@@ -226,7 +222,7 @@ async function publishedLedgerIdsByKind(kinds) {
  * Null when the student has none recorded, which callers must refuse on rather
  * than default: a party with no year is confined to nobody.
  */
-async function cohortFor(userId) {
+export async function cohortFor(userId) {
   const [rows] = await pool.query(
     'SELECT university_id AS universityId, year FROM students WHERE user_id = ? LIMIT 1',
     [userId],
@@ -236,7 +232,8 @@ async function cohortFor(userId) {
   return { universityId: row.universityId, year: row.year }
 }
 
-export async function createParty(userId, { name }) {
+export async function createParty(userId, { name, layoutKey='campus', scope='cohort', visibility='open' }) {
+  if(!Object.hasOwn(ROOM_LAYOUTS,layoutKey)||!['cohort','university','global'].includes(scope)||!['open','invite'].includes(visibility))return {ok:false,reason:'invalid_room_options'}
   const cohort = await cohortFor(userId)
   // A party with no year cannot be confined to one; making it visible to
   // everybody by default would be exactly the failure to avoid.
@@ -249,9 +246,9 @@ export async function createParty(userId, { name }) {
     const code = newCode()
     try {
       await pool.query(
-        `INSERT INTO study_parties (id, code, name, host_user_id, university_id, year)
-         VALUES (?, ?, ?, ?, ?, ?)`,
-        [id, code, String(name || 'Study party').slice(0, 255), userId, cohort.universityId, cohort.year],
+        `INSERT INTO study_parties (id, code, name, host_user_id, university_id, year, layout_key, room_scope, visibility)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        [id, code, String(name || 'Study party').slice(0, 255), userId, cohort.universityId, cohort.year, layoutKey, scope, visibility],
       )
       await pool.query(
         "INSERT INTO study_party_members (party_id, user_id, role) VALUES (?, ?, 'host')",
@@ -271,7 +268,7 @@ export async function joinByCode(userId, rawCode) {
 
   const code = String(rawCode ?? '').trim().toUpperCase()
   const [rows] = await pool.query(
-    `SELECT id, university_id AS universityId, year, visibility, archived_at AS archivedAt
+    `SELECT id, university_id AS universityId, year, visibility, layout_key AS layoutKey, room_scope AS scope, archived_at AS archivedAt
        FROM study_parties WHERE code = ?`,
     [code],
   )
@@ -282,11 +279,17 @@ export async function joinByCode(userId, rawCode) {
   const verdict = canJoin(party, cohort)
   if (!verdict.ok) return verdict
 
-  await pool.query(
-    `INSERT INTO study_party_members (party_id, user_id, role) VALUES (?, ?, 'member')
-     ON DUPLICATE KEY UPDATE role = role`,
-    [rows[0].id, userId],
-  )
+  const conn=await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    await conn.query('SELECT id FROM study_parties WHERE id = ? FOR UPDATE',[party.id])
+    const [members]=await conn.query('SELECT user_id AS userId FROM study_party_members WHERE party_id = ?',[party.id])
+    if(!members.some(m=>m.userId===userId)){
+      if(members.length>=roomLayout(party.layoutKey).capacity){await conn.rollback();return {ok:false,reason:'room_full'}}
+      await conn.query("INSERT INTO study_party_members (party_id,user_id,role) VALUES (?,?,'member')",[party.id,userId])
+    }
+    await conn.commit()
+  }catch(error){await conn.rollback();throw error}finally{conn.release()}
   return { ok: true, party: await partyFor(userId, rows[0].id) }
 }
 
@@ -309,7 +312,7 @@ export async function setVisibility(userId, partyId, visibility) {
 export async function partyFor(userId, partyId) {
   const [parties] = await pool.query(
     `SELECT id, code, name, host_user_id AS hostUserId, university_id AS universityId, year,
-            visibility, created_at AS createdAt, archived_at AS archivedAt
+            visibility, layout_key AS layoutKey, room_scope AS scope, created_at AS createdAt, archived_at AS archivedAt
        FROM study_parties WHERE id = ?`,
     [partyId],
   )
@@ -330,7 +333,7 @@ export async function partyFor(userId, partyId) {
     isHost: party.hostUserId === userId,
     universityId: party.universityId,
     year: party.year,
-    visibility: party.visibility,
+    visibility: party.visibility, layoutKey:party.layoutKey, scope:party.scope, capacity:roomLayout(party.layoutKey).capacity,
     createdAt: party.createdAt,
     archivedAt: party.archivedAt,
     members: members.map((member) => memberView(member, names)),
@@ -340,7 +343,7 @@ export async function partyFor(userId, partyId) {
 /** Parties this student hosts or has joined, most recent first. */
 export async function myParties(userId) {
   const [rows] = await pool.query(
-    `SELECT p.id, p.code, p.name, p.host_user_id AS hostUserId, p.visibility,
+    `SELECT p.id, p.code, p.name, p.host_user_id AS hostUserId, p.visibility, p.layout_key AS layoutKey, p.room_scope AS scope,
             p.created_at AS createdAt, p.archived_at AS archivedAt,
             (SELECT COUNT(*) FROM study_party_members pm WHERE pm.party_id = p.id) AS members
        FROM study_parties p
@@ -354,7 +357,7 @@ export async function myParties(userId) {
     code: row.code,
     name: row.name,
     isHost: row.hostUserId === userId,
-    visibility: row.visibility,
+    visibility: row.visibility, layoutKey:row.layoutKey, scope:row.scope, capacity:roomLayout(row.layoutKey).capacity,
     createdAt: row.createdAt,
     archivedAt: row.archivedAt,
     members: Number(row.members),
@@ -373,10 +376,10 @@ export async function openParties(userId) {
 
   const [rows] = await pool.query(
     `SELECT p.id, p.code, p.name, p.host_user_id AS hostUserId, p.university_id AS universityId, p.year,
-            p.visibility, p.created_at AS createdAt, p.archived_at AS archivedAt,
+            p.visibility, p.layout_key AS layoutKey, p.room_scope AS scope, p.created_at AS createdAt, p.archived_at AS archivedAt,
             (SELECT COUNT(*) FROM study_party_members pm WHERE pm.party_id = p.id) AS members
        FROM study_parties p
-      WHERE p.university_id = ? AND p.year = ?
+      WHERE (p.room_scope = 'global' OR (p.university_id = ? AND (p.room_scope = 'university' OR p.year = ?)))
         -- "Open in your year" is a list of parties to join. One you are already
         -- in is not an invitation, and offering to let someone join a party they
         -- are standing in reads as a bug.
@@ -393,7 +396,7 @@ export async function openParties(userId) {
     hostUserId: row.hostUserId,
     universityId: row.universityId,
     year: row.year,
-    visibility: row.visibility,
+    visibility: row.visibility, layoutKey:row.layoutKey, scope:row.scope, capacity:roomLayout(row.layoutKey).capacity,
     createdAt: row.createdAt,
     archivedAt: row.archivedAt,
     members: Number(row.members),
@@ -404,7 +407,7 @@ export async function openParties(userId) {
     name: party.name,
     hostUserId: party.hostUserId,
     createdAt: party.createdAt,
-    members: party.members,
+    members: party.members, layoutKey:party.layoutKey, scope:party.scope, capacity:party.capacity,
   }))
 }
 
@@ -442,8 +445,9 @@ function parseItemRefs(raw) {
  * unpublished, deleted, or was never real is silently dropped rather than
  * failing the whole request, again matching `createRoom`.
  */
-async function createSessionUnlocked(userId, partyId, { name, items, startsAt }) {
-  if (!(await isPartyHost(partyId, userId))) return { ok: false, reason: 'not_host' }
+async function createSessionUnlocked(userId, partyId, { name, items, startsAt, scope='room' }) {
+  const audience=await resolveActivityAudience(userId,partyId,scope)
+  if(!audience.ok)return audience
 
   const wanted = Array.isArray(items) ? items : []
   const published = await publishedQuestions()
@@ -474,9 +478,9 @@ async function createSessionUnlocked(userId, partyId, { name, items, startsAt })
   const id = randomUUID()
   const status = sessionState({ startsAt: starts, closedAt: null })
   await pool.query(
-    `INSERT INTO study_party_sessions (id, party_id, name, item_refs, starts_at, status, created_by)
-     VALUES (?, ?, ?, ?, ?, ?, ?)`,
-    [id, partyId, String(name || 'Study session').slice(0, 255), JSON.stringify(frozen), starts, status, userId],
+    `INSERT INTO study_party_sessions (id, party_id, name, item_refs, starts_at, status, created_by, table_id)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+    [id, partyId, String(name || 'Study session').slice(0, 255), JSON.stringify(frozen), starts, status, userId, audience.tableId],
   )
   return { ok: true, session: await sessionFor(userId, id) }
 }
@@ -490,16 +494,18 @@ export async function sessionsFor(userId, partyId) {
   if (!(await isPartyMember(partyId, userId))) return []
 
   const [rows] = await pool.query(
-    `SELECT id, name, item_refs AS itemRefs, starts_at AS startsAt, closed_at AS closedAt,
+    `SELECT id, name, table_id AS tableId, item_refs AS itemRefs, starts_at AS startsAt, closed_at AS closedAt,
             created_by AS createdBy, created_at AS createdAt
        FROM study_party_sessions WHERE party_id = ? ORDER BY created_at DESC`,
     [partyId],
   )
-  return rows.map((row) => {
+  const membership=await activityMembership(userId,partyId)
+  if(!membership)return []
+  return rows.filter(row=>canSeeActivity(row.tableId,membership.tableId)).map((row) => {
     const itemRefs = parseItemRefs(row.itemRefs)
     return {
       id: row.id,
-      name: row.name,
+      name: row.name, tableId:row.tableId,
       itemCount: itemRefs.length,
       startsAt: row.startsAt,
       closedAt: row.closedAt,
@@ -522,19 +528,21 @@ export async function sessionsFor(userId, partyId) {
  */
 export async function sessionFor(userId, sessionId) {
   const [rows] = await pool.query(
-    `SELECT id, party_id AS partyId, name, item_refs AS itemRefs, starts_at AS startsAt,
+    `SELECT id, party_id AS partyId, name, table_id AS tableId, item_refs AS itemRefs, starts_at AS startsAt,
             closed_at AS closedAt, created_by AS createdBy, created_at AS createdAt
        FROM study_party_sessions WHERE id = ?`,
     [sessionId],
   )
   if (!rows.length) return null
   const session = rows[0]
-  if (!(await isPartyMember(session.partyId, userId))) return null
+  if (!(await mayAccessActivity(userId,session.partyId,session.tableId))) return null
 
+  const membership=await activityMembership(userId,session.partyId)
+  if(!membership)return null
   const itemRefs = parseItemRefs(session.itemRefs)
 
   const [members] = await pool.query(
-    'SELECT user_id AS userId, joined_at AS joinedAt FROM study_party_members WHERE party_id = ? ORDER BY joined_at',
+    'SELECT user_id AS userId, seat_index AS seatIndex, joined_at AS joinedAt FROM study_party_members WHERE party_id = ? ORDER BY joined_at',
     [session.partyId],
   )
   const names = await displayNamesFor(members.map((member) => member.userId))
@@ -560,7 +568,7 @@ export async function sessionFor(userId, sessionId) {
   return {
     id: session.id,
     partyId: session.partyId,
-    name: session.name,
+    name: session.name, tableId:session.tableId,
     itemRefs,
     itemCount: itemRefs.length,
     startsAt: session.startsAt,
@@ -570,7 +578,7 @@ export async function sessionFor(userId, sessionId) {
     createdAt: session.createdAt,
     state: sessionState({ startsAt: session.startsAt, closedAt: session.closedAt }),
     myAnswers: mine.map((answer) => ({ kind: answer.itemKind, id: answer.itemId, correct: answer.correct, seconds: answer.seconds })),
-    members: members.map((member) => ({
+    members: members.filter(member=>!session.tableId||tableForSeat(member.seatIndex,membership.layoutKey)===session.tableId).map((member) => ({
       userId: member.userId,
       displayName: names.get(member.userId) ?? 'Student',
       tally: tally(answers.filter((answer) => answer.userId === member.userId)),
@@ -590,13 +598,13 @@ export async function sessionFor(userId, sessionId) {
  */
 export async function answerItem(userId, sessionId, { kind, id, chosenIndex, seconds }) {
   const [rows] = await pool.query(
-    `SELECT party_id AS partyId, item_refs AS itemRefs, starts_at AS startsAt, closed_at AS closedAt
+    `SELECT party_id AS partyId, table_id AS tableId, item_refs AS itemRefs, starts_at AS startsAt, closed_at AS closedAt
        FROM study_party_sessions WHERE id = ?`,
     [sessionId],
   )
   if (!rows.length) return { ok: false, reason: 'not_found' }
   const session = rows[0]
-  if (!(await isPartyMember(session.partyId, userId))) return { ok: false, reason: 'not_a_member' }
+  if (!(await mayAccessActivity(userId,session.partyId,session.tableId))) return { ok: false, reason: 'not_found' }
 
   // `sessionState` decides this, not the client and not a stale `status`
   // column: a scheduled session that has quietly turned open must start
@@ -675,7 +683,8 @@ export async function setSeat(userId, partyRef, input) {
   if (!partyId) return { ok: false, reason: 'not_found' }
   if (!(await isPartyMember(partyId, userId))) return { ok: false, reason: 'not_a_member' }
 
-  const parsed = normalizeSeatInput(input)
+  const [settings]=await pool.query('SELECT layout_key AS layoutKey FROM study_parties WHERE id = ?',[partyId])
+  const parsed = normalizeSeatInput(input,roomLayout(settings[0]?.layoutKey).capacity)
   if (!parsed.ok) return parsed
 
   const seatIndex = parsed.seat.seatIndex
@@ -717,6 +726,7 @@ export async function setSeat(userId, partyRef, input) {
     throw error
   }
 
+  if(moving)closeRoomVoice(partyId,userId)
   return { ok: true, partyId, party: await partyFor(userId, partyId) }
 }
 
@@ -734,6 +744,8 @@ export async function setSeat(userId, partyRef, input) {
  * error for something they did not ask for.
  */
 export async function ensureSeated(userId, partyId) {
+  const [settings]=await pool.query('SELECT layout_key AS layoutKey FROM study_parties WHERE id = ?',[partyId])
+  const capacity=roomLayout(settings[0]?.layoutKey).capacity
   for (let attempt = 0; attempt < 3; attempt++) {
     const members = await memberRows(partyId)
     const me = members.find((row) => row.userId === userId)
@@ -742,7 +754,7 @@ export async function ensureSeated(userId, partyId) {
 
     const free = firstFreeSeatIndex(
       members.map((row) => ({ userId: row.userId, seatIndex: row.seatIndex })),
-      userId,
+      userId, capacity,
     )
     if (free === null) return null
     try {

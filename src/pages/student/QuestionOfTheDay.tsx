@@ -1,3 +1,4 @@
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { useEffect, useState } from 'react'
 import { Bell, BellRing, Check, Share2, Target, Trophy, Users, WifiOff, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -6,7 +7,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { Skeleton, SkeletonList } from '@/components/ui/Skeleton'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { Avatar } from '@/components/ui/Avatar'
 import { QuestionView } from '@/components/qbank/QuestionView'
@@ -96,7 +97,7 @@ function QotdLeaderboardPanel({
         hint={data?.scope ? [data.scope.universityId, data.scope.year].filter(Boolean).join(' · ') : undefined}
       />
       {loading ? (
-        <div aria-label={t('Loading leaderboard')}><SkeletonList rows={3} className="p-5" /></div>
+        <LoadingRegion label={t('Loading leaderboard')}><SkeletonRows rows={3} /></LoadingRegion>
       ) : failed || !data || data.rows.length === 0 ? (
         <div className="p-8">
           <EmptyState icon={Trophy} title={t('No ranking yet')} description={t('The board appears once your cohort starts answering.')} />
@@ -155,7 +156,7 @@ function QotdFriendsPanel({ data, loading }: { data: QotdFriendsResponse | null;
     <Panel>
       <PanelHeader title={t('Friends')} icon={Users} />
       {loading ? (
-        <div aria-label={t('Loading friends')}><SkeletonList rows={2} className="p-5" /></div>
+        <LoadingRegion label={t('Loading friends')}><SkeletonRows rows={2} /></LoadingRegion>
       ) : !data || data.friends.length === 0 ? (
         <div className="p-8">
           <EmptyState icon={Users} title={t('No friends yet')} description={t('Add friends to compare today’s streaks.')} />

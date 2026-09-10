@@ -1,3 +1,4 @@
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
 import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Link2, Star, Bell, Users, ArrowLeft, StickyNote } from 'lucide-react'
@@ -8,7 +9,7 @@ import { IconButton } from '@/components/ui/IconButton'
 import { Icon } from '@/components/ui/Icon'
 import { SearchInput } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { Skeleton, SkeletonList } from '@/components/ui/Skeleton'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { cn } from '@/lib/cn'
 import { subjects } from '@/data/subjects'
 import { Select } from '@/components/ui/Field'
@@ -286,8 +287,8 @@ export function Notebook() {
         )}
       </div>
       {tab === 'questions' ? null : tab === 'your' ? (
-        !notesStatus.hydrated ? (
-          <SkeletonList rows={5} className="px-2 py-3" />
+        !notesStatus.hydrated && !notesStatus.error ? (
+          <LoadingRegion><SkeletonRows rows={5} icon={false} action={false} /></LoadingRegion>
         ) : notesStatus.error && !online ? (
           <p className="px-4 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">{t("You're offline. Your notes will sync once you reconnect.")}</p>
         ) : notesStatus.error ? (
@@ -654,7 +655,7 @@ function SharedNotesList({
     } catch { /* the server keeps the truth */ }
   }
 
-  if (shared.loading) return <div aria-label={t('Opening shared notes…')}><SkeletonList rows={3} className="px-2 py-3" /></div>
+  if (shared.loading) return <LoadingRegion label={t('Opening shared notes…')}><SkeletonRows rows={3} icon={false} action={false} /></LoadingRegion>
   if (!API_MODE) return <DemoSharedNotesList query={query} />
   if (shared.error) return <p role="alert" className="px-4 py-6 text-center text-[12.5px] text-danger">{t(shared.error)}</p>
   if (!items.length) return <p className="px-4 py-6 text-center text-[12.5px] text-ink-3">{t('No shared notes match.')}</p>

@@ -1,3 +1,4 @@
+import { LoadingRegion, SkeletonFields } from '@/components/loading/SkeletonParts'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
   Users, Search, ShieldOff, ShieldCheck, KeyRound, CalendarPlus, Ban,
@@ -418,7 +419,7 @@ export function UsersManagement() {
             </div>
           )}
 
-          {selectedId && detailLoading && <p className="px-4 py-10 text-center text-[13px] text-ink-3">Loading…</p>}
+          {selectedId && detailLoading && <LoadingRegion><SkeletonFields fields={5} /></LoadingRegion>}
 
           {selectedId && !detailLoading && detail && (
             <div className="divide-y divide-line">

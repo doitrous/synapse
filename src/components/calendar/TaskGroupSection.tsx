@@ -1,12 +1,12 @@
-import { useState } from 'react'
-import { ChevronRight, MoreHorizontal, Pencil, Trash2 } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { ChevronRight, MoreHorizontal, Pencil, Trash2, X } from 'lucide-react'
 import { Collapse } from '@/components/ui/Collapse'
 import { ContextMenu } from '@/components/ui/ContextMenu'
 import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
 import { TextInput } from '@/components/ui/Field'
 import { DEFAULT_GROUP_ID, sortTasks, type Task, type TaskGroup } from '@/data/tasks'
-import { cn } from '@/lib/cn'
+import { Button } from '@/components/ui/Button'
 import { useT } from '@/lib/i18n'
 import type { TasksApi } from '@/lib/useTasks'
 import { TaskRow } from './TaskRow'
@@ -17,7 +17,7 @@ export function TaskGroupSection({
   tasks,
   api,
   today,
-  showCompleted,
+  hiddenCompletions,
   highlightedId,
   onRename,
 }: {
@@ -25,7 +25,7 @@ export function TaskGroupSection({
   tasks: Task[]
   api: TasksApi
   today: string
-  showCompleted: boolean
+  hiddenCompletions: Record<string, string>
   highlightedId: string | null
   onRename: (title: string) => void
 }) {
@@ -35,7 +35,10 @@ export function TaskGroupSection({
   const [draft, setDraft] = useState(group.title)
   const [menu, setMenu] = useState<{ x: number; y: number } | null>(null)
   const openCount = tasks.filter((task) => !task.done).length
-  const shown = sortTasks(showCompleted ? tasks : tasks.filter((task) => !task.done))
+  const shown = sortTasks(tasks.filter((task) => !task.done || hiddenCompletions[task.id] !== task.updatedAt))
+  useEffect(() => {
+    if (highlightedId && tasks.some((task) => task.id === highlightedId)) setOpen(true)
+  }, [highlightedId, tasks])
   const isDefault = group.id === DEFAULT_GROUP_ID
 
   return (
@@ -48,7 +51,6 @@ export function TaskGroupSection({
               autoFocus
               value={draft}
               onChange={(event) => setDraft(event.target.value)}
-              onBlur={() => { onRename(draft); setRenaming(false) }}
               onKeyDown={(event) => {
                 if (event.key === 'Enter') { onRename(draft); setRenaming(false) }
                 if (event.key === 'Escape') { setDraft(group.title); setRenaming(false) }
@@ -56,34 +58,37 @@ export function TaskGroupSection({
               aria-label={t('Group name')}
               className="text-[13px] sm:!h-8"
             />
+            <Button variant="secondary" size="sm" disabled={!draft.trim()} onClick={() => { onRename(draft); setRenaming(false) }}>{t('Save')}</Button>
+            <IconButton icon={X} label={t('Cancel')} size="sm" onClick={() => setRenaming(false)} />
           </div>
         ) : (
           <button
             type="button"
             onClick={() => setOpen((current) => !current)}
             aria-expanded={open}
+            aria-controls={`task-group-${group.id}`}
             className="flex min-h-11 min-w-0 flex-1 items-center gap-1.5 rounded-md text-start sm:min-h-9"
           >
             <Icon icon={ChevronRight} size={14} open={open} className="chevron-turn shrink-0 text-ink-3" />
             <span className="truncate text-[13px] font-semibold text-ink">{isDefault ? t(group.title) : group.title}</span>
-            <span className="tnum ms-auto font-mono text-[11px] text-ink-3">{openCount}</span>
+            <span className="tnum ms-auto text-[11.5px] text-ink-3">{openCount} {t('open')}</span>
           </button>
         )}
-        <IconButton
+        {!isDefault && <IconButton
           icon={MoreHorizontal}
           label={t('Group options')}
           size="sm"
-          className={cn('opacity-0 group-hover/head:opacity-100 focus-visible:opacity-100 [@media(hover:none)]:opacity-100', menu && 'opacity-100')}
           onClick={(event) => { const rect = event.currentTarget.getBoundingClientRect(); setMenu({ x: rect.left, y: rect.bottom + 4 }) }}
-        />
+        />}
       </div>
-      <Collapse open={open}>
+      <Collapse open={open} id={`task-group-${group.id}`}>
         {shown.length ? (
-          <ul className="space-y-0.5 pt-1">
+          <ul className="divide-y divide-line/60 pt-1">
             {shown.map((task) => (
               <TaskRow
                 key={task.id}
                 task={task}
+                groups={api.doc.groups}
                 today={today}
                 highlighted={highlightedId === task.id}
                 onToggle={() => api.toggleTask(task.id)}

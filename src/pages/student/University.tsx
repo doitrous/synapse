@@ -10,7 +10,7 @@ import { Badge } from '@/components/ui/Badge'
 import { ButtonLink } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Icon } from '@/components/ui/Icon'
-import { Skeleton, SkeletonCard } from '@/components/ui/Skeleton'
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { Meter } from '@/components/ui/Meter'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { SystemMark } from '@/components/ui/SystemMark'
@@ -293,19 +293,7 @@ function CurriculumView({
       )}
 
       {loading ? (
-        <div className="space-y-4" aria-label={t('Loading your university page')}>
-          <SkeletonCard className="h-40" />
-          <div className="grid gap-4 xl:grid-cols-[minmax(0,1fr)_20rem]">
-            <div className="min-w-0 space-y-3">
-              <SkeletonCard className="h-32" />
-              <SkeletonCard className="h-32" />
-            </div>
-            <div className="space-y-4">
-              <Skeleton className="h-40" />
-              <Skeleton className="h-20" />
-            </div>
-          </div>
-        </div>
+        <ContentSkeleton shape="university" />
       ) : !map || map.status === 'missing_profile' ? (
         <Panel>
           <EmptyState

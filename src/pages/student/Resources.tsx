@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useSearchParams } from 'react-router-dom'
 import { useLocalChoice, useLocalPreference } from '@/lib/useLocalPreference'
@@ -5,7 +6,7 @@ import { clickableRow, stopRowClick } from '@/lib/clickableRow'
 import { NO_CHAPTER, UNGROUPED, groupResources } from '@/data/resourceGrouping'
 import { resourceIcon } from '@/data/resourceIcons'
 import { MenuToggle } from '@/components/shell/MenuToggle'
-import { NishanyLoader } from '@/components/ui/NishanyLoader'
+import { Skeleton } from '@/components/ui/Skeleton'
 import {
   PlayCircle,
   Bookmark,
@@ -46,7 +47,7 @@ import { FilterChip } from '@/components/ui/FilterChip'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { SkeletonList } from '@/components/ui/Skeleton'
+import { LoadingRegion, SkeletonRows } from '@/components/loading/SkeletonParts'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { SubjectDot } from '@/components/ui/Subject'
 import { useUniversityCatalogue, universityFrom } from '@/lib/useUniversityCatalogue'
@@ -372,7 +373,7 @@ export function Resources() {
 
       {section === 'mine' ? null : availability.kind !== 'ready' ? (
         <Panel className="p-8">
-          <CatalogueUnavailable
+          <CatalogueUnavailable skeleton={<ContentSkeleton shape="resources" />}
             availability={availability}
             empty={{
               title: section === 'video' ? t('No videos published yet') : t('No resources published yet'),
@@ -676,7 +677,7 @@ function MyUploads() {
       </Panel>
 
       {documents.loading ? (
-        <Panel><div aria-label={t('Opening…')}><SkeletonList rows={4} className="p-5" /></div></Panel>
+        <Panel><LoadingRegion label={t('Opening…')}><SkeletonRows rows={4} /></LoadingRegion></Panel>
       ) : readable.length === 0 && mediaRows.length === 0 ? (
         <Panel>
           <EmptyState
@@ -773,7 +774,7 @@ function MyUploads() {
                         </div>
                         {entry && (
                           <div className="px-4 pb-3 ps-12">
-                            {entry.status === 'loading' && <NishanyLoader size={24} label={t('Loading')} />}
+                            {entry.status === 'loading' && <Skeleton className="h-48 w-full" />}
                             {entry.status === 'error' && <p role="alert" className="text-[12px] text-danger">{entry.message}</p>}
                             {entry.status === 'ready' && entry.url && (
                               <img src={entry.url} alt={row.title} className="max-h-52 w-auto max-w-full rounded-md border border-line object-contain" />

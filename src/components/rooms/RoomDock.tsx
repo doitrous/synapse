@@ -1,5 +1,8 @@
+import { useEffect, useRef, useState, type CSSProperties } from 'react'
+import './roomDock.css'
+import { clockText } from '@/lib/rooms/studyWorld'
 import { useNavigate } from 'react-router-dom'
-import { ChevronDown, ChevronUp, ExternalLink, LogOut, Mic, MicOff, Volume2 } from 'lucide-react'
+import { ChevronDown, ChevronUp, ExternalLink, LogOut, Mic, MicOff, Volume2, Pause, Play, Coffee, Hand, BookOpen, Layers, Brain } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
@@ -28,11 +31,21 @@ function initials(name: string): string {
  * sidebar whatever width it is; on mobile the sidebar is a drawer and the bar
  * simply spans the screen above the home indicator.
  */
-export function RoomDock({ railed, focusMode }: { railed: boolean; focusMode: boolean }) {
+export function RoomDock({railed,focusMode}: { railed: boolean; focusMode: boolean }) {
   const t = useT()
   const navigate = useNavigate()
   const identity = useIdentity()
   const session = useRoomSession()
+
+  const dockRef=useRef<HTMLElement>(null)
+  const [dockHeight,setDockHeight]=useState(82)
+  const visible=Boolean(session?.room&&!session.viewingFull)
+  useEffect(()=>{
+    if(!visible||!dockRef.current)return
+    const observer=new ResizeObserver(([entry])=>setDockHeight(entry.target.getBoundingClientRect().height))
+    observer.observe(dockRef.current)
+    return()=>observer.disconnect()
+  },[visible])
 
   if (!session || !session.room || session.viewingFull) return null
 
@@ -49,11 +62,6 @@ export function RoomDock({ railed, focusMode }: { railed: boolean; focusMode: bo
   const canVoice = Boolean(audio) && audio!.state !== 'unsupported'
   const voiceUnavailable = Boolean(audio?.reason) && !inVoice && !reconnecting
 
-  const startOffset = focusMode
-    ? '1rem'
-    : railed
-      ? 'calc(var(--spacing-sidebar-collapsed) + 1rem)'
-      : 'calc(var(--spacing-sidebar) + 1rem)'
 
   const dot = reconnecting
     ? 'bg-warning'
@@ -72,17 +80,14 @@ export function RoomDock({ railed, focusMode }: { railed: boolean; focusMode: bo
 
   const avatars = (members ?? []).slice(0, 4)
 
-  return (
+  return (<>
+    <div aria-hidden="true" className="room-companion-clearance" style={{height:dockHeight+24}}/>
     <section
+      ref={dockRef}
       aria-label={t('Study room')}
-      className={cn(
-        'fixed z-40',
-        // Mobile: a bar spanning the screen above the home indicator.
-        'inset-x-3 bottom-[calc(0.75rem+env(safe-area-inset-bottom))]',
-        // Desktop: a compact card at the start corner, clear of the sidebar.
-        'lg:inset-x-auto lg:end-auto lg:bottom-4 lg:w-[360px] lg:[inset-inline-start:var(--dock-start)]',
-      )}
-      style={{ ['--dock-start' as string]: startOffset }}
+      className="room-companion-popup"
+      style={{'--room-sidebar-offset':focusMode?'0px':railed?'var(--spacing-sidebar-collapsed)':'var(--spacing-sidebar)'} as CSSProperties}
+
     >
       <div className="rounded-2xl border border-line bg-surface shadow-pop">
         {/* ── The bar (always shown) ─────────────────────────────── */}
@@ -95,8 +100,9 @@ export function RoomDock({ railed, focusMode }: { railed: boolean; focusMode: bo
             aria-expanded={dockExpanded}
           >
             <span className="block truncate text-[13.5px] font-semibold leading-tight text-ink">{name}</span>
+            {session.study.focus.goal && <span className="block truncate text-xs text-ink-2">{session.study.focus.goal}</span>}
             <span className="mt-0.5 block truncate text-[11.5px] text-ink-3">
-              <span className="font-mono tracking-[0.04em] text-ink-2">{room.roomCode}</span>
+              <span className="font-mono tracking-[0.04em] text-ink-2">{clockText(Math.max(0, session.study.focus.durationMinutes * 60 - session.study.elapsed / 1000))}</span> · {t(session.study.focus.status)}
               {reconnecting
                 ? <> · <span className="text-warning">{t('Reconnecting voice…')}</span></>
                 : someoneElseSpeaking
@@ -128,6 +134,13 @@ export function RoomDock({ railed, focusMode }: { railed: boolean; focusMode: bo
           >
             <Icon icon={dockExpanded ? ChevronDown : ChevronUp} size={17} />
           </button>
+        </div>
+
+        <div className="room-companion-shortcuts" role="group" aria-label={t('Room shortcuts')}>
+          <button onClick={session.study.toggleTimer} title={t(session.study.focus.startedAt!==null?'Pause focus':'Start focus')} aria-label={t(session.study.focus.startedAt!==null?'Pause focus':'Start focus')}><Icon icon={session.study.focus.startedAt!==null?Pause:Play} size={16}/><span>{t(session.study.focus.startedAt!==null?'Pause':'Focus')}</span></button>
+          <button onClick={()=>session.study.setStatus(session.study.focus.status==='On Break'?'Focusing':'On Break')} aria-pressed={session.study.focus.status==='On Break'}><Coffee size={16}/><span>{t('Break')}</span></button>
+          <button onClick={()=>session.study.patch({handRaised:!session.study.focus.handRaised})} aria-pressed={session.study.focus.handRaised}><Hand size={16}/><span>{t('Hand')}</span></button>
+          <button onClick={openRoom}><ExternalLink size={16}/><span>{t('Room')}</span></button>
         </div>
 
         {/* ── Expanded: roster + full controls ───────────────────── */}
@@ -215,6 +228,9 @@ export function RoomDock({ railed, focusMode }: { railed: boolean; focusMode: bo
               </button>
             </div>
 
+            <div className="room-companion-study-links" role="group" aria-label={t('Continue studying')}>
+              {[{to:'/app/library',label:'Lectures',icon:BookOpen},{to:'/app/flashcards',label:'Flashcards',icon:Layers},{to:'/app/qbank',label:'MCQs',icon:Brain}].map(({to,label,icon:Glyph})=><button key={to} onClick={()=>navigate(to)}><Glyph size={15}/>{t(label)}</button>)}
+            </div>
             <button
               type="button"
               onClick={openRoom}
@@ -227,5 +243,5 @@ export function RoomDock({ railed, focusMode }: { railed: boolean; focusMode: bo
         )}
       </div>
     </section>
-  )
+  </>)
 }

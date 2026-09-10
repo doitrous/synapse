@@ -1,11 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Bell, Check, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
+import { Bell, Check, ChevronDown, Download, KeyRound, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Trash2, Upload, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button, ButtonAnchor } from '@/components/ui/Button'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
+import { Collapse } from '@/components/ui/Collapse'
 import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { MfaControl } from '@/components/auth/MfaControl'
@@ -93,6 +94,7 @@ function RosterNote({ recorded }: { recorded: string }) {
  * the app reads.
  */
 function StudyContext() {
+  const [changeOpen, setChangeOpen] = useState(false)
   const t = useT()
   const { audience, profile, displayName, email, saveEnrolment } = useIdentity()
   const [configured] = useUniversityCatalogue()
@@ -211,37 +213,50 @@ function StudyContext() {
         {error && <p role="alert" className="text-[12.5px] text-danger sm:col-span-2">{error}</p>}
       </form>
 
-      <div className="sm:col-span-2 rounded-xl border border-line bg-surface-2/50 p-4">
-        <p className="text-[13px] font-semibold text-ink">{t('Request a university or year change')}</p>
-        <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">
-          {t('University and year changes need administrator approval and notes. If your university changes, the admin also rechecks that your username is still unique there.')}
-        </p>
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">
-          <Field label={t('Target university')} htmlFor="account-target-university">
-            <Select id="account-target-university" value={targetUniversityId} onChange={(event) => { setTargetUniversityId(event.target.value); setRequestSent(false) }}>
-              <option value="">{t('Choose your university')}</option>
-              {universities.map((university) => (
-                <option key={university.id} value={university.id}>{university.short} — {university.name}</option>
-              ))}
-            </Select>
-          </Field>
-          <Field label={t('Target year')} htmlFor="account-target-year">
-            <Select id="account-target-year" value={targetYear} onChange={(event) => { setTargetYear(event.target.value); setRequestSent(false) }}>
-              <option value="">{t('Choose your year')}</option>
-              {targetYears.map((option) => <option key={option} value={option}>{t(option)}</option>)}
-            </Select>
-          </Field>
-          <Field label={t('Reason')} htmlFor="account-change-reason" hint={t('Required for the admin audit trail')} className="sm:col-span-2">
-            <TextInput id="account-change-reason" value={reason} onChange={(event) => { setReason(event.target.value); setRequestSent(false) }} placeholder={t('e.g. I transferred to another university this term.')} maxLength={160} />
-          </Field>
-        </div>
-        {requestError && <p role="alert" className="mt-3 text-[12.5px] text-danger">{requestError}</p>}
-        {requestSent && <p className="mt-3 rounded-lg border border-success/25 bg-success-tint px-3 py-2 text-[12.5px] text-success">{t('Request sent for admin review.')}</p>}
-        <div className="mt-4 flex justify-end">
-          <Button type="button" variant="secondary" loading={requesting} disabled={!canRequest || requesting} onClick={() => void requestChange()}>
-            {t('Submit change request')}
-          </Button>
-        </div>
+      <div className="sm:col-span-2">
+        <Button
+          type="button"
+          variant="secondary"
+          aria-expanded={changeOpen}
+          aria-controls="account-university-change"
+          onClick={() => setChangeOpen((open) => !open)}
+          iconRight={ChevronDown}
+        >
+          {t('Request a university or year change')}
+        </Button>
+        <Collapse id="account-university-change" open={changeOpen}>
+          <div className="mt-3 rounded-xl border border-line bg-surface-2/50 p-4">
+            <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">
+              {t('University and year changes need administrator approval and notes. If your university changes, the admin also rechecks that your username is still unique there.')}
+            </p>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <Field label={t('Target university')} htmlFor="account-target-university">
+                <Select id="account-target-university" value={targetUniversityId} onChange={(event) => { setTargetUniversityId(event.target.value); setRequestSent(false) }}>
+                  <option value="">{t('Choose your university')}</option>
+                  {universities.map((university) => (
+                    <option key={university.id} value={university.id}>{university.short} — {university.name}</option>
+                  ))}
+                </Select>
+              </Field>
+              <Field label={t('Target year')} htmlFor="account-target-year">
+                <Select id="account-target-year" value={targetYear} onChange={(event) => { setTargetYear(event.target.value); setRequestSent(false) }}>
+                  <option value="">{t('Choose your year')}</option>
+                  {targetYears.map((option) => <option key={option} value={option}>{t(option)}</option>)}
+                </Select>
+              </Field>
+              <Field label={t('Reason')} htmlFor="account-change-reason" hint={t('Required for the admin audit trail')} className="sm:col-span-2">
+                <TextInput id="account-change-reason" value={reason} onChange={(event) => { setReason(event.target.value); setRequestSent(false) }} placeholder={t('e.g. I transferred to another university this term.')} maxLength={160} />
+              </Field>
+            </div>
+            {requestError && <p role="alert" className="mt-3 text-[12.5px] text-danger">{requestError}</p>}
+            {requestSent && <p className="mt-3 rounded-lg border border-success/25 bg-success-tint px-3 py-2 text-[12.5px] text-success">{t('Request sent for admin review.')}</p>}
+            <div className="mt-4 flex justify-end">
+              <Button type="button" variant="secondary" loading={requesting} disabled={!canRequest || requesting} onClick={() => void requestChange()}>
+                {t('Submit change request')}
+              </Button>
+            </div>
+          </div>
+        </Collapse>
       </div>
     </div>
   )
@@ -501,7 +516,7 @@ export function Account({ initialTab = 'profile' }: { initialTab?: AccountTab } 
 
   return (
     <PageContainer>
-      <PageHeader title={t('Account')} description={t('Your profile, study preferences, billing, security, and data.')} back={{ fallback: '/app' }} />
+      <PageHeader title={t('Account')} back={{ fallback: '/app' }} />
       <AccountTabs value={tab} onChange={setTab} />
 
       <div className="mt-4">

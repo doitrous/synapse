@@ -1,3 +1,4 @@
+import { liveTableForSeat, voiceAudience } from './roomVoiceScope.js'
 /**
  * The signalling channel for study rooms.
  *
@@ -344,8 +345,12 @@ export function createRoomHub({ readRoom, sfu, onError = () => {}, areBlocked = 
     if (!message) return
     const { requestId } = message
     const reply = (body) => post(client, { ...body, requestId })
+    let voiceSnapshot=null
+    const seatIndex=()=>voiceSnapshot?.members.find(member=>member.userId===client.userId)?.seat?.seatIndex
+    const listenerTable=()=>liveTableForSeat(seatIndex(),voiceSnapshot?.layoutKey)
 
     try {
+      if(['sfu:produce','sfu:consume','sfu:resume','sfu:producers'].includes(message.type)){voiceSnapshot=await refresh(client.roomId);if(!voiceSnapshot)throw new Error('voice_membership_unavailable');if(!stillAllowed(client))return}
       switch (message.type) {
         case 'ping':
           reply({ type: 'pong' })
@@ -437,7 +442,7 @@ export function createRoomHub({ readRoom, sfu, onError = () => {}, areBlocked = 
         case 'sfu:produce': {
           if (!sfu?.available) return refuseSfu(client, requestId)
           const { producerId } = await sfu.produce(
-            client.roomId, client.userId, message.transportId, message.kind ?? 'audio', message.rtpParameters,
+            client.roomId, client.userId, message.transportId, message.kind ?? 'audio', message.rtpParameters, voiceAudience(message.audience,seatIndex(),voiceSnapshot?.layoutKey),
           )
           reply({ type: 'sfu:produce', producerId })
           broadcast(
@@ -450,14 +455,14 @@ export function createRoomHub({ readRoom, sfu, onError = () => {}, areBlocked = 
 
         case 'sfu:producers': {
           if (!sfu?.available) return refuseSfu(client, requestId)
-          reply({ type: 'sfu:producers', producers: sfu.producersFor(client.roomId, client.userId) })
+          reply({ type: 'sfu:producers', producers: sfu.producersFor(client.roomId, client.userId,listenerTable()) })
           return
         }
 
         case 'sfu:consume': {
           if (!sfu?.available) return refuseSfu(client, requestId)
           const consumer = await sfu.consume(
-            client.roomId, client.userId, message.transportId, message.producerId, message.rtpCapabilities,
+            client.roomId, client.userId, message.transportId, message.producerId, message.rtpCapabilities,listenerTable(),
           )
           reply({ type: 'sfu:consume', ...consumer })
           return
@@ -465,7 +470,7 @@ export function createRoomHub({ readRoom, sfu, onError = () => {}, areBlocked = 
 
         case 'sfu:resume': {
           if (!sfu?.available) return refuseSfu(client, requestId)
-          await sfu.resume(client.roomId, client.userId, message.consumerId)
+          await sfu.resume(client.roomId, client.userId, message.consumerId,listenerTable())
           reply({ type: 'sfu:resume', ok: true })
           return
         }
@@ -503,6 +508,11 @@ export function createRoomHub({ readRoom, sfu, onError = () => {}, areBlocked = 
     receive,
     broadcast,
     announcePresence,
+    closeVoice(roomId,userId){
+      if(!sfu?.available)return
+      for(const client of socketsIn(roomId))if(client.userId===userId)post(client,{type:'sfu:voiceReset'})
+      for(const producerId of sfu.closePeer(roomId,userId))broadcast(roomId,{type:'sfu:producerClosed',producerId,userId})
+    },
     refresh,
     sweep,
     /** How many sockets are open on a room. Used by the tests. */
@@ -545,6 +555,8 @@ let hub = null
  * four seconds. A no-op before `attachRoomsRealtime` has run, which is exactly
  * what a test importing `parties.js` needs it to be.
  */
+export function closeRoomVoice(roomId,userId){hub?.closeVoice(roomId,userId)}
+
 export function notifyRoomPresence(roomId) {
   if (!hub || !roomId) return
   void hub.announcePresence(roomId)

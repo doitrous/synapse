@@ -80,11 +80,25 @@ test('updateTask clears the time when the date is cleared and keeps an unknown g
   assert.equal(doc.tasks[0].groupId, DEFAULT_GROUP_ID)
 })
 
-test('tasksForDay and sortTasks order by time then creation, done last', () => {
+test('tasksForDay and sortTasks keep schedule order when a task is completed', () => {
   let doc = addTask(EMPTY_TASKS, { title: 'Late', date: '2026-09-05', time: '14:00' }, now).doc
   doc = addTask(doc, { title: 'Early', date: '2026-09-05', time: '08:00' }, new Date(now.getTime() + 1000)).doc
   doc = addTask(doc, { title: 'Undated' }, new Date(now.getTime() + 2000)).doc
   assert.deepEqual(tasksForDay(doc, '2026-09-05').map((task) => task.title), ['Early', 'Late'])
   doc = toggleTask(doc, doc.tasks[1].id, now)
-  assert.deepEqual(sortTasks(doc.tasks).map((task) => task.title), ['Late', 'Undated', 'Early'])
+  assert.deepEqual(sortTasks(doc.tasks).map((task) => task.title), ['Early', 'Late', 'Undated'])
+})
+
+test('completing the last subtask and reopening a task preserve its list position', () => {
+  let doc = addTask(EMPTY_TASKS, { title: 'First task' }, now).doc
+  const first = doc.tasks[0].id
+  doc = addSubtask(doc, first, 'Final step', now)
+  doc = addTask(doc, { title: 'Second task' }, new Date(now.getTime() + 1000)).doc
+  const order = sortTasks(doc.tasks).map((task) => task.id)
+  doc = toggleSubtask(doc, first, doc.tasks[0].subtasks[0].id, now)
+  assert.equal(doc.tasks[0].done, true)
+  assert.deepEqual(sortTasks(doc.tasks).map((task) => task.id), order)
+  doc = toggleTask(doc, first, now)
+  assert.equal(doc.tasks[0].done, false)
+  assert.deepEqual(sortTasks(doc.tasks).map((task) => task.id), order)
 })

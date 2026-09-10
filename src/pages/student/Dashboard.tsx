@@ -5,7 +5,6 @@ import { ExamCountdown } from '@/components/dashboard/ExamCountdown'
 import { ProgressRingStack } from '@/components/dashboard/ProgressTrio'
 import { StudyRhythmSection } from '@/components/dashboard/StudyRhythmSection'
 import { TutorialCard } from '@/components/dashboard/TutorialCard'
-import { useDueReviewSummary } from '@/components/dashboard/DueReviews'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 
@@ -16,14 +15,11 @@ import { useIdentity } from '@/lib/useIdentity'
  * one action — because a student opening the app wants one answer, "what do
  * I do right now", not a page competing for the first look. Everything below
  * it is the quick-access layer: what's next on the calendar, the three
- * headline meters, and the study-rhythm band — the heatmap with today's single
- * question beside it — each one click away rather than pinned open whether it
- * is needed today or not.
+ * headline meters, and the study-rhythm heatmap.
  */
 export function Dashboard() {
   const { t } = useI18n()
   const { audienceUnknown } = useIdentity()
-  const { count: dueCount, startHref: dueHref } = useDueReviewSummary()
 
   return (
     <PageContainer>
@@ -52,16 +48,6 @@ export function Dashboard() {
           <StudyRhythmSection />
         </div>
 
-        <p className="max-w-[60rem] text-center text-[12.5px] text-ink-3">
-          {t('Everything else lives one click away')} &mdash;{' '}
-          <Link to="/app/calendar" className="font-medium text-primary hover:text-primary-strong">{t('full schedule')}</Link>
-          {' · '}
-          <Link to="/app/performance" className="font-medium text-primary hover:text-primary-strong">{t('performance')}</Link>
-          {' · '}
-          <Link to={dueHref} className="font-medium text-primary hover:text-primary-strong">
-            {t('review queue')} &middot; {dueCount} {t('waiting')}
-          </Link>
-        </p>
       </div>
     </PageContainer>
   )

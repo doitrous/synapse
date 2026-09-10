@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useMemo, useState } from 'react'
 import { Swords, Trophy, Hourglass } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -44,7 +45,7 @@ export function ChallengeRunner({ challengeId, onExit }: { challengeId: string; 
   const answeredIds = useMemo(() => new Set(challenge?.myAnswers.map((entry) => entry.questionId) ?? []), [challenge])
 
   if (!challenge) {
-    return <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading the challenge…')}</Panel>
+    return <ContentSkeleton shape="question" />
   }
 
   if (challenge.status === 'sent') {

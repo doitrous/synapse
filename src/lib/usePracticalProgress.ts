@@ -13,7 +13,7 @@ import {
  * matching how `useMastery` treats the concept ledger.
  */
 export function usePracticalProgress() {
-  const [progress, setProgress] = usePersistentState<PracticalProgress>(
+  const [progress, setProgress, status] = usePersistentState<PracticalProgress>(
     PRACTICAL_PROGRESS_STORAGE_KEY,
     EMPTY_PRACTICAL_PROGRESS,
   )
@@ -38,5 +38,5 @@ export function usePracticalProgress() {
     setProgress((current) => setOralMark(current, questionId, mark, new Date().toISOString()))
   }, [setProgress])
 
-  return { progress, finishStation, advanceCase, advanceLab, markSkill, markOral }
+  return { status, loading: !status.hydrated && !status.error, progress, finishStation, advanceCase, advanceLab, markSkill, markOral }
 }

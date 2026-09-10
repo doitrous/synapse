@@ -8,6 +8,7 @@
  */
 import { pool } from './db.js'
 import { orderedPair, isSelf, canSendRequest, resolveResponse } from './friendship.js'
+import { normaliseUsername, usernameProblem } from './accounts.js'
 
 /** The row for a pair, in the shape the pure rules expect, or null. */
 async function pairRow(a, b) {
@@ -73,6 +74,29 @@ export async function sendRequest(userId, targetId) {
     [userA, userB, userId],
   )
   return { ok: true }
+}
+
+/** Exact shared usernames can be looked up without opting into directory browsing.
+ * Show all matching universities so the student explicitly chooses the recipient. */
+export async function searchByUsername(userId, input) {
+  const raw = typeof input?.username === 'string' ? input.username.trim().replace(/^@/, '') : ''
+  if (raw.length > 64 || usernameProblem(raw)) return {ok:false, reason:'invalid_username', people:[]}
+  const university = typeof input?.universityId === 'string' ? input.universityId.trim().slice(0,100) : ''
+  const [rows] = await pool.query(
+    `SELECT s.user_id, s.name, s.email, s.username, s.university_id, s.year,
+            f.status AS friendship_status, f.requested_by
+       FROM students s JOIN user_access a ON a.user_id = s.user_id
+       LEFT JOIN friendships f ON f.user_a = LEAST(s.user_id, ?) AND f.user_b = GREATEST(s.user_id, ?)
+      WHERE s.username_normalized = ? AND s.user_id <> ?
+      ${university ? 'AND s.university_id = ?' : ''}
+      ORDER BY s.university_id, s.user_id LIMIT 20`,
+    [userId,userId,normaliseUsername(raw),userId,...(university?[university]:[])],
+  )
+  return {ok:true,people:rows.map(row=>({
+    userId:row.user_id,displayName:displayNameFrom(row),username:row.username,
+    universityId:row.university_id,year:row.year,
+    relationship:row.friendship_status==='accepted'?'friends':row.friendship_status==='pending'?(row.requested_by===userId?'outgoing':'incoming'):'none',
+  }))}
 }
 
 export async function respondToRequest(userId, otherId, accept) {

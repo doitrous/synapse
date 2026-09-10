@@ -78,8 +78,8 @@ export interface NextExam {
  * failure — the surfaces that use this render nothing rather than an empty
  * countdown.
  */
-export function useNextExam(now: Date = new Date()): NextExam | null {
-  const { sessions } = useStudentSchedule()
+export function useNextExamState(now: Date = new Date()) {
+  const { sessions, loading, error } = useStudentSchedule()
 
   const exam = useMemo(() => sessions
     .filter((session) => isExamBlock(session as unknown as ExamBlock))
@@ -94,9 +94,9 @@ export function useNextExam(now: Date = new Date()): NextExam | null {
 
   // Only the ids this one exam names, so the dashboard asks about a few dozen
   // records instead of downloading the catalogue.
-  const [published] = useContentManifest(useMemo(() => (exam ? examContentIds(exam) : EMPTY_IDS), [exam]))
+  const [published, manifestStatus] = useContentManifest(useMemo(() => (exam ? examContentIds(exam) : EMPTY_IDS), [exam]))
 
-  return useMemo(() => {
+  const nextExam = useMemo(() => {
     if (!exam) return null
     const content = programmeContentFor(exam, published)
     return {
@@ -106,5 +106,10 @@ export function useNextExam(now: Date = new Date()): NextExam | null {
       reminder: dueReminder(exam, now, exam.reminders),
     }
   }, [exam, published, now])
+  return { nextExam, loading: !error && !manifestStatus.error && (loading || Boolean(exam && !manifestStatus.hydrated)), error: error ?? manifestStatus.error }
+}
+
+export function useNextExam(now: Date = new Date()): NextExam | null {
+  return useNextExamState(now).nextExam
 }
 

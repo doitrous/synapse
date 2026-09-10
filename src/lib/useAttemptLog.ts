@@ -119,6 +119,7 @@ export interface AttemptHistory {
   totals: AttemptIndex['totals']
   /** True until every month document has been read, in live mode. */
   loading: boolean
+  error: import('./apiErrors').StateErrorKind | null
 }
 
 /* eslint-disable react-hooks/rules-of-hooks -- the month count is a module
@@ -130,15 +131,17 @@ export interface AttemptHistory {
  * heavy student's log from being re-uploaded on every answer.
  */
 export function useAttemptHistory(): AttemptHistory {
-  const [index] = usePersistentState<AttemptIndex>(ATTEMPT_INDEX_KEY, EMPTY_INDEX)
+  const [index, , indexStatus] = usePersistentState<AttemptIndex>(ATTEMPT_INDEX_KEY, EMPTY_INDEX)
   const months = useMemo(() => recentMonths(HISTORY_MONTHS), [])
 
   const shards: AttemptMonth[] = []
-  let hydrated = true
+  let hydrated = indexStatus.hydrated
+  let error = indexStatus.error
   for (const month of months) {
     const [value, , status] = usePersistentState<AttemptMonth>(attemptMonthKey(month), () => emptyMonth(month))
     shards.push(value)
     if (!status.hydrated) hydrated = false
+    error ??= status.error
   }
 
   // The loop builds a new array every render, so the merge is keyed on what
@@ -151,7 +154,7 @@ export function useAttemptHistory(): AttemptHistory {
     [signature],
   )
 
-  return { records, totals: index.totals, loading: !hydrated }
+  return { records, totals: index.totals, loading: !hydrated && !error, error }
 }
 
 /**

@@ -1,3 +1,5 @@
+import { PageSkeleton } from '@/components/loading/PageSkeleton'
+import { LoadingError } from '@/components/loading/LoadingError'
 import { useMemo, useState } from 'react'
 import { Layers, Plus, Search, BarChart3 } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -84,6 +86,9 @@ function FlashcardsShell() {
     [],
   )
   useCommands(navCommands)
+
+  if (api.error) return <PageContainer><LoadingError /></PageContainer>
+  if (!api.ready || ledgerAvailability.kind === 'loading') return <PageSkeleton layout={{ shape: 'flashcards' }} />
 
   // Study takes over the whole surface, like the old runner.
   if (studyDeckId) {

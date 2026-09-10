@@ -1,3 +1,4 @@
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useBlocker, useLocation, useSearchParams } from 'react-router-dom'
 import {
@@ -12,17 +13,12 @@ import {
   BookOpen,
   RotateCcw,
   Trophy,
-  Siren,
-  Flame,
-  Shuffle,
-  TrendingDown,
   Columns2,
   Layers,
 }from 'lucide-react'
-import { DEMANDING_DIFFICULTIES, type Question } from '@/data/qbank'
+import { type Question } from '@/data/qbank'
 import { bySession, sessionDetail, type SessionSummary } from '@/data/attemptStats'
 import { useSubjectName } from '@/lib/useSubjectName'
-import { bySubject as accuracyBySubject, weakest } from '@/data/attemptStats'
 import { useMastery } from '@/lib/useMastery'
 import {
   incorrectIds,
@@ -44,7 +40,7 @@ import {
 }from '@/data/qbankSession'
 import { QbankHub, type QbankBank, type QbankHubTab } from '@/components/qbank/hub/QbankHub'
 import { YourProgress } from '@/components/qbank/hub/YourProgress'
-import { TestBuilder, type TestBuilderPreset } from '@/components/qbank/hub/TestBuilder'
+import { TestBuilder } from '@/components/qbank/hub/TestBuilder'
 import { UnifiedBuilder } from '@/components/qbank/unified/UnifiedBuilder'
 import { MixedRunner } from '@/components/qbank/unified/MixedRunner'
 import { MixedSummary } from '@/components/qbank/unified/MixedSummary'
@@ -101,7 +97,6 @@ import {
   REVIEW_SESSION_SIZE,
   SESSION_NAMES_STORAGE_KEY,
   SESSION_QUESTIONS_STORAGE_KEY,
-  WEAKNESS_EVIDENCE,
   clock,
   diffTone,
   newSessionId,
@@ -110,7 +105,6 @@ import {
   shuffle,
   type LiveSession,
   type Mode,
-  type PresetKind,
   type Source,
 }from './qbank/state'
 import { SessionDetailPanel } from './qbank/SessionDetailPanel'
@@ -637,43 +631,6 @@ export function QuestionBank() {
   }), [articleQuestions.length, flaggedQuestions.length, incorrectQuestions.length, omittedQuestions.length])
 
   /**
-   * The subjects this student is actually weakest in.
-   *
-   * Was the literal `['renal', 'pharm', 'endo']` — the same three subjects for
-   * everyone, including a student who had never answered a question. Empty
-   * until there is enough marked work to name one.
-   */
-  const weakestSubjects = useMemo(
-    () => weakest(accuracyBySubject(history.records), WEAKNESS_EVIDENCE, 3).map((entry) => entry.key),
-    [history.records],
-  )
-
-  /**
-   * The four quick-start pools, defined once.
-   *
-   * The counts on the buttons and the questions a button actually opens have to
-   * come from the same expression, or a button can advertise a number and then
-   * serve a different set — which is what happened when an empty pool silently
-   * fell back to the whole bank.
-   */
-  const presetPool = useCallback((kind: PresetKind): Question[] => {
-    if (kind === 'weak') {
-      const weakSubjects = new Set(weakestSubjects)
-      return questions.filter((question) => weakSubjects.has(question.subjectId))
-    }
-    if (kind === 'emergency') return questions.filter((question) => /acute|STEMI|acidosis|hypox/i.test(`${question.topic} ${question.vignette} ${question.stem}`))
-    if (kind === 'demanding') return questions.filter((question) => DEMANDING_DIFFICULTIES.includes(question.difficulty))
-    return questions
-  }, [questions, weakestSubjects])
-
-  const presetCounts = useMemo(() => ({
-    weak: presetPool('weak').length,
-    emergency: presetPool('emergency').length,
-    demanding: presetPool('demanding').length,
-    everything: questions.length,
-  }), [presetPool, questions])
-
-  /**
    * A review session opened from elsewhere in the app.
    *
    * `?concepts=` is what the dashboard's due-review list sends: the concepts the
@@ -1084,27 +1041,6 @@ export function QuestionBank() {
     requestSession(shuffle(available).slice(0, Math.min(count, available.length)), sessionName.trim() || autoSessionName)
   }
 
-  function startPreset(kind: 'weak' | 'emergency' | 'demanding' | 'everything') {
-    const labels = {
-      weak: t('Your weakest topics'),
-      emergency: t('Emergencies only'),
-      demanding: t('Demanding questions'),
-      everything: t('Everything, shuffled'),
-    }
-    // A quick start produced records under a name nobody had written, so every
-    // one of them arrived in the history as "Untitled test".
-    requestSession(shuffle(presetPool(kind)).slice(0, count), labels[kind])
-  }
-
-  // The composer renders the chips; the pools, counts and names stay here with
-  // the rest of the session state, exactly as `startPreset` needs them.
-  const builderPresets: TestBuilderPreset[] = [
-    { id: 'weak', label: t('Your weakest topics'), icon: TrendingDown, count: presetCounts.weak, description: t('Questions from subjects where your marked answers show the lowest accuracy, once there is enough evidence.'), apply: () => startPreset('weak') },
-    { id: 'emergency', label: t('Emergencies only'), icon: Siren, count: presetCounts.emergency, description: t('Acute and emergency-care questions selected from their authored topics and tags.'), apply: () => startPreset('emergency') },
-    { id: 'demanding', label: t('Demanding questions'), icon: Flame, count: presetCounts.demanding, description: t('Questions authored as moderate, hard, or challenging for focused reasoning practice.'), apply: () => startPreset('demanding') },
-    { id: 'everything', label: t('Everything, shuffled'), icon: Shuffle, count: presetCounts.everything, description: t('Every question available to your university and year, mixed into a new random order.'), apply: () => startPreset('everything') },
-  ]
-
   const stats = useMemo(() => {
     const correct = session.filter((q) => q.options[answers[q.id]]?.correct).length
     return { correct }
@@ -1172,7 +1108,7 @@ export function QuestionBank() {
     return (
       <PageContainer>
         <PageHeader title={t('Question Bank')} />
-        <CatalogueUnavailable
+        <CatalogueUnavailable skeleton={<ContentSkeleton shape="qbank" />}
           availability={availability}
           empty={{
             title: t('No questions have been published yet'),
@@ -1287,7 +1223,6 @@ export function QuestionBank() {
                   matching={available.length}
                   pool={articleQuestions.length}
                   onStart={start}
-                  presets={builderPresets}
                   stats={<YourProgress bank={bank} questions={questions} history={history} />}
                 />
               )}
