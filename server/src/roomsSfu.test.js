@@ -8,7 +8,7 @@ test('the defaults are the documented ones', () => {
   const config = sfuConfig({})
   assert.equal(config.listenIp, '0.0.0.0')
   assert.equal(config.rtcMinPort, 40000)
-  assert.equal(config.rtcMaxPort, 49999)
+  assert.equal(config.rtcMaxPort, 40400)
   assert.ok(config.workers >= 1)
 })
 
@@ -26,7 +26,7 @@ test('a port range given backwards is still a range', () => {
 test('an unparseable port range falls back rather than listening on NaN', () => {
   const config = sfuConfig({ SFU_RTC_MIN_PORT: 'soon', SFU_RTC_MAX_PORT: '' })
   assert.equal(config.rtcMinPort, 40000)
-  assert.equal(config.rtcMaxPort, 49999)
+  assert.equal(config.rtcMaxPort, 40400)
 })
 
 test('with nothing configured a client gets STUN alone', () => {
@@ -181,7 +181,7 @@ test('a worker that dies takes its rooms out of the cache and the SFU says so', 
 test('the boot line names the announced address, the port range and the relay, never the credential', () => {
   assert.equal(
     describeConfig(sfuConfig({})),
-    'announced UNSET, udp/tcp 40000-49999, turn none',
+    'announced UNSET, udp/tcp 40000-40400, turn none',
   )
   assert.equal(
     describeConfig(sfuConfig({
