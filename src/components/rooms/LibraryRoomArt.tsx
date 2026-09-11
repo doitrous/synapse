@@ -1,7 +1,7 @@
 import type { CSSProperties } from 'react'
 import { ReferenceMatte } from './ReferenceRoomArt'
 
-export const libraryArtwork='/assets/study-room/library-props.png'
+export const libraryArtwork='/assets/study-room/library-props.webp'
 export function LibraryProp({kind,style}:{kind:'bookcase'|'platform'|'lamp'|'print';style?:CSSProperties}){
   const box={bookcase:'0 0 630 565',platform:'630 75 818 490',lamp:'170 565 470 500',print:'800 565 440 500'}[kind]
   return <svg className={`library-prop library-${kind}`} viewBox={box} style={style} aria-hidden="true"><image href={libraryArtwork} width="1448" height="1086"/></svg>

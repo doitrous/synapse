@@ -6,8 +6,8 @@
 .reference-room-stage{position:relative;min-width:760px;width:100%;isolation:isolate;overflow:hidden;background:#f6f2e9}
 .reference-architecture{position:absolute;inset:0;width:100%;height:100%}
 .reference-furniture{position:absolute;display:block;mix-blend-mode:multiply;pointer-events:none;overflow:hidden}
-.reference-student{position:absolute;display:block;aspect-ratio:2/3;background-image:url('/assets/study-room/students-rear.png');background-size:400% 200%;mix-blend-mode:multiply;pointer-events:none}
-.reference-student.faces-front{background-image:url('/assets/study-room/students-front.png')}
+.reference-student{position:absolute;display:block;aspect-ratio:2/3;background-image:url('/assets/study-room/students-rear.webp');background-size:400% 200%;mix-blend-mode:multiply;pointer-events:none}
+.reference-student.faces-front{background-image:url('/assets/study-room/students-front.webp')}
 .reference-station{position:absolute;aspect-ratio:350/220;isolation:isolate}
 .reference-rug{position:absolute;left:7%;top:33%;width:87%;height:61%;background:#cbd0d1;box-shadow:1px 3px 4px #34475417;transform:skewX(-4deg);opacity:.52}
 .reference-station.is-discussion .reference-rug{border-radius:50%;top:34%;height:72%}
@@ -38,7 +38,7 @@
 .reference-station{mix-blend-mode:normal}
 .reference-far-hands{position:absolute;inset:0;pointer-events:none}.reference-far-hands .reference-student{clip-path:inset(0 0 43% 0)}
 
-.reference-student.on-stool{background-image:url('/assets/study-room/students-stools.png')}
+.reference-student.on-stool{background-image:url('/assets/study-room/students-stools.webp')}
 .reference-art-status{position:absolute;z-index:2000;padding:8px 12px;background:var(--color-surface);color:var(--color-ink-2);font-size:12px;border-radius:5px;max-width:90%}.reference-art-status button{margin-left:10px;text-decoration:underline;cursor:pointer}
 .reference-corner-extension{position:absolute;left:7%;top:36%;width:20%;height:20%;background:#cfb084;box-shadow:inset 0 3px #e5c79a,0 3px #846d51;transform:skewY(8deg);border-radius:3px;pointer-events:none}.reference-corner-extension:after{content:'';position:absolute;left:3px;top:100%;height:44px;width:5px;background:#454849}
 .room-fallback.is-preview,.room-fallback.is-preview .room-fallback-scroll,.reference-room.is-preview{height:100%}

@@ -10,7 +10,7 @@ export function SeatedStudent({model,front=false,stool=false,style,seatIndex,cha
 }
 export function FurnitureSprite({kind,style}:{kind:'desk'|'chair'|'chair-front'|'round'|'plant';style?:CSSProperties}){
   const box={desk:'0 0 770 543',chair:'780 0 668 520','chair-front':'780 0 668 520',round:'0 543 770 543',plant:'780 543 668 543'}[kind]
-  return <svg className={`reference-furniture furniture-${kind}`} viewBox={box} style={style} aria-hidden="true"><image href={kind==='chair-front'?'/assets/study-room/furniture-front-chair.png':'/assets/study-room/furniture-clean.png'} width="1448" height="1086"/></svg>
+  return <svg className={`reference-furniture furniture-${kind}`} viewBox={box} style={style} aria-hidden="true"><image href={kind==='chair-front'?'/assets/study-room/furniture-front-chair.webp':'/assets/study-room/furniture-clean.webp'} width="1448" height="1086"/></svg>
 }
 function DeviceLogo({android=false,x=40,y=30,scale=1}:{android?:boolean;x?:number;y?:number;scale?:number}){
   return <g transform={`translate(${x} ${y}) scale(${scale})`} fill={android?'#c5dec0':'#e3e7e9'}>{android?<><path d="M-8 0A8 8 0 0 1 8 0V7H-8Z"/><path d="M-5-5L-8-10M5-5L8-10" fill="none" stroke="#c5dec0" strokeWidth="1.6"/><circle cx="-4" cy="-1" r="1" fill="#385044"/><circle cx="4" cy="-1" r="1" fill="#385044"/></>:<><path d="M0-5C-7-10-11-3-8 4C-5 12-2 10 0 9C3 11 6 10 9 4C4 2 4-3 8-5C4-9 2-7 0-5Z"/><path d="M0-7C-1-11 2-14 5-14C6-11 3-7 0-7Z"/></>}</g>

@@ -8,8 +8,8 @@ const additions:Partial<Record<StudentModel,{sheet:string;column:number}>>={
 /** Every model has a registered front, rear-chair and rear-stool view. */
 export function characterSprite(model:StudentModel,front=false,stool=false){
   const extra=additions[model]
-  if(extra)return {src:`/assets/study-room/students-extra-${extra.sheet}.png`,column:extra.column,row:front?0:stool?2:1,rows:3}
+  if(extra)return {src:`/assets/study-room/students-extra-${extra.sheet}.webp`,column:extra.column,row:front?0:stool?2:1,rows:3}
   const index=original[model]??0
-  return {src:`/assets/study-room/students-${front?'front':stool?'stools':'rear'}.png`,column:index%4,row:Math.floor(index/4),rows:2}
+  return {src:`/assets/study-room/students-${front?'front':stool?'stools':'rear'}.webp`,column:index%4,row:Math.floor(index/4),rows:2}
 }
-export const roomArtwork=['/assets/study-room/students-rear.png','/assets/study-room/students-front.png','/assets/study-room/furniture-clean.png','/assets/study-room/students-stools.png','/assets/study-room/furniture-front-chair.png',...['a','b','c'].map(sheet=>`/assets/study-room/students-extra-${sheet}.png`)]
+export const roomArtwork=['/assets/study-room/students-rear.webp','/assets/study-room/students-front.webp','/assets/study-room/furniture-clean.webp','/assets/study-room/students-stools.webp','/assets/study-room/furniture-front-chair.webp',...['a','b','c'].map(sheet=>`/assets/study-room/students-extra-${sheet}.webp`)]

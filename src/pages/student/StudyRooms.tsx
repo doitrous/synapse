@@ -1,10 +1,12 @@
 import { RoomInvitation } from '@/components/rooms/RoomInvitation'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { HubPage } from '@/components/hub'
 import { PageContainer } from '@/components/shell/Page'
 import { RoomLobby, type RoomAddress } from '@/components/rooms/RoomLobby'
-import { RoomView } from '@/components/rooms/RoomView'
+// The hall (RoomView → IllustratedRoom) is only needed once a student opens a
+// room; keeping it out of the lobby chunk lets the landing page paint sooner.
+const RoomView = lazy(() => import('@/components/rooms/RoomView').then((m) => ({ default: m.RoomView })))
 import { PARTY_REFUSALS, usePartyActions } from '@/lib/useParties'
 import { API_MODE } from '@/lib/api'
 import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
@@ -143,7 +145,7 @@ export function StudyRooms() {
 
   const invitationId=params.get('invitation')
   const invitation=invitationId?<RoomInvitation id={invitationId} onClose={()=>setParams(current=>{const next=new URLSearchParams(current);next.delete('invitation');return next})} onAccept={(party,seatIndex)=>{enter({id:party.id,code:party.code,name:party.name});setParams({room:party.code});if(seatIndex!==null)session?.study.patch({seatIndex})}}/>:null
-  if(openRoom)return <>{invitation} <PageContainer className="study-room-page"><RoomView key={active?.roomId} onMinimise={minimise} onLeave={leaveRoom}/></PageContainer></>
+  if(openRoom)return <>{invitation} <PageContainer className="study-room-page"><Suspense fallback={null}><RoomView key={active?.roomId} onMinimise={minimise} onLeave={leaveRoom}/></Suspense></PageContainer></>
 
   return (
     <HubPage
