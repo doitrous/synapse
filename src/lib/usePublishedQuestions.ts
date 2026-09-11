@@ -10,6 +10,18 @@ function difficultyFor(item: ManagedContentItem): Difficulty {
   return DIFFICULTIES.includes(value as Difficulty) ? value as Difficulty : 'Moderate'
 }
 
+/**
+ * The module ids a question is tagged for: its own `moduleIds`, plus the module
+ * named at the head of each `module > subject > topic` path. Same union the
+ * server's `itemModules` takes, so the chooser groups by the authored module.
+ */
+function questionModuleIds(tags: { moduleIds?: string[]; moduleSubjectPaths?: string[] }): string[] {
+  const fromPaths = (tags.moduleSubjectPaths ?? [])
+    .map((path) => path.split('>')[0]?.trim())
+    .filter((module): module is string => Boolean(module))
+  return [...new Set([...(tags.moduleIds ?? []), ...fromPaths])]
+}
+
 /** Convert the admin authoring shape into the exact question shape used by students. */
 export function managedQuestionToStudentQuestion(
   item: ManagedContentItem,
@@ -47,6 +59,7 @@ export function managedQuestionToStudentQuestion(
     // revise something this question did not measure.
     conceptIds: [...new Set([...(data.tags.mainConceptIds ?? []), ...data.tags.conceptIds])],
     source: data.tags.sourceCategory,
+    moduleIds: questionModuleIds(data.tags),
   }
 }
 
@@ -93,6 +106,7 @@ function managedQuestionToSummary(item: ManagedContentItem): Question | null {
     learningObjective: undefined,
     conceptIds: [...new Set([...(data.tags.mainConceptIds ?? []), ...data.tags.conceptIds])],
     source: data.tags.sourceCategory,
+    moduleIds: questionModuleIds(data.tags),
   }
 }
 

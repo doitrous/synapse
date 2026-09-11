@@ -132,6 +132,7 @@ export function questionSummaryRow(item) {
         conceptIds: list(tags.conceptIds),
         mainConceptIds: list(tags.mainConceptIds),
         moduleIds: list(tags.moduleIds),
+        moduleSubjectPaths: list(tags.moduleSubjectPaths),
         universityIds: list(tags.universityIds),
         years: list(tags.years),
         questionOnlyFor: list(tags.questionOnlyFor),
