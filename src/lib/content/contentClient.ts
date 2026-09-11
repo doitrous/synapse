@@ -19,6 +19,7 @@
  */
 import { API_MODE, apiGetIfChanged } from '../api'
 import { CONTENT_LEDGER_STORAGE_KEY, type ManagedContentItem } from '@/data/contentControl'
+import { CONCEPT_STORAGE_KEY, type Concept } from '@/data/conceptGraph'
 import type { QuestionFormat } from '@/data/questionFormat'
 import { manifestKey, questionLinksFrom, questionsKey, type QuestionLink, type QuestionScope } from './contentKeys'
 
@@ -271,6 +272,31 @@ export function fetchItem(id: string, force = false): Promise<ItemResponse> {
     return Promise.resolve(remember(key, { version: 'demo', item: demoLedger().find((item) => item.id === id) ?? null }))
   }
   return load<ItemResponse>(key, `/content/item/${encodeURIComponent(id)}`, force)
+}
+
+export interface ConceptDetailResponse { version: string; concept: Concept | null }
+export const conceptKey = (id: string) => `content:concept:${id}`
+
+/** The demo build reads the whole concept from what `demoPreview` seeded. */
+function demoConcept(id: string): Concept | null {
+  if (typeof localStorage === 'undefined') return null
+  try {
+    const raw = JSON.parse(localStorage.getItem(CONCEPT_STORAGE_KEY) ?? '{}')
+    const concepts = Array.isArray(raw?.concepts) ? (raw.concepts as Concept[]) : []
+    return concepts.find((concept) => concept.id === id) ?? null
+  } catch { return null }
+}
+
+/**
+ * One concept in full — its `definition`, `pitfalls`, images and evidence: the
+ * prose the concept index leaves out, fetched only when the glossary opens it.
+ */
+export function fetchConceptDetail(id: string, force = false): Promise<ConceptDetailResponse> {
+  const key = conceptKey(id)
+  if (!API_MODE) {
+    return Promise.resolve(remember(key, { version: 'demo', concept: demoConcept(id) }))
+  }
+  return load<ConceptDetailResponse>(key, `/content/concept/${encodeURIComponent(id)}`, force)
 }
 
 /** Test seam: forget both the data and the ETags. */

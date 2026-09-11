@@ -14,11 +14,14 @@ import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore
 import { errorKind, type StateErrorKind } from '../api'
 import type { PersistentStateStatus } from '../stateStore'
 import type { ManagedContentItem } from '@/data/contentControl'
+import type { Concept } from '@/data/conceptGraph'
 import {
   ARTICLE_INDEX_KEY,
   SUMMARY_KEY,
+  conceptKey,
   contentBusy,
   fetchArticleIndex,
+  fetchConceptDetail,
   fetchItem,
   fetchItemManifest,
   fetchQuestions,
@@ -178,4 +181,17 @@ export function useContentItem(id: string | null): readonly [ManagedContentItem 
     useCallback((force: boolean) => (id ? fetchItem(id, force) : Promise.resolve({ version: '', item: null })), [id]),
   )
   return [held.data?.item ?? null, held.status] as const
+}
+
+/**
+ * One concept's full detail, fetched only when a caller passes its id — the
+ * glossary card opening. Null id (nothing open) makes no request. The concept
+ * index the rest of the app holds carries everything else about the concept.
+ */
+export function useConceptDetail(id: string | null): readonly [Concept | null, PersistentStateStatus] {
+  const held = useContentResource(
+    id ? conceptKey(id) : null,
+    useCallback((force: boolean) => (id ? fetchConceptDetail(id, force) : Promise.resolve({ version: '', concept: null })), [id]),
+  )
+  return [held.data?.concept ?? null, held.status] as const
 }

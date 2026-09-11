@@ -15,6 +15,9 @@ import { useUniversityCatalogue } from './useUniversityCatalogue'
 
 export type LiveSubtopic = Subtopic & { topicId: string; topicTitle: string; subjectId: string }
 
+/** A stable empty graph, so passing it never changes a memo's dependencies. */
+const EMPTY_GRAPH = initialConceptGraph()
+
 /** Every subject's place in the curriculum, in the order `subjects` declares it. */
 const subjectRank = new Map(subjects.map((subject, index) => [subject.id, index]))
 
@@ -32,8 +35,16 @@ export function useLiveLibrary() {
    */
   const [index, ledgerStatus] = useArticleIndex()
   const [evidence, , evidenceStatus] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
-  const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [catalogue] = useUniversityCatalogue()
+  // The concept graph is deliberately NOT read here. This projection works over
+  // article *index* rows, which carry no `articleData` — so `readerAnnotations`
+  // has nothing to resolve and the graph would never be consulted. Loading it
+  // was ~16 MB fetched on every list and hub that mounts this hook (Library,
+  // Learn, Notebook, the Question Bank hub, rooms, challenges) for no output.
+  // The graph is loaded once, on demand, only when a student opens an article —
+  // see `useArticleWithBody`, which needs it to render that article's inline
+  // concept annotations.
+  const graph = EMPTY_GRAPH
 
   return useMemo(() => {
     // No `kind` check: this route serves articles and nothing else, and an
@@ -114,12 +125,12 @@ export function useLiveLibrary() {
      * apart without this.
      */
     const availability = catalogueAvailability({
-      statuses: [ledgerStatus, evidenceStatus, graphStatus],
+      statuses: [ledgerStatus, evidenceStatus],
       itemCount: subtopics.length,
     })
 
     return { topics: orderedTopics, subtopics, updatedAtFor, subjects, availability }
-  }, [catalogue, evidence, evidenceStatus, graph, graphStatus, index, ledgerStatus])
+  }, [catalogue, evidence, evidenceStatus, graph, index, ledgerStatus])
 }
 
 /**

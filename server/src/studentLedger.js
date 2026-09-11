@@ -531,7 +531,113 @@ export function redactModuleSchedulesForStudent(document) {
   return out
 }
 
-/** The keys that need redacting on the way out, by key name. */
+/**
+ * The author-only fields stripped from every concept a student may see. These
+ * are editorial provenance and extraction lineage — why a value was left blank,
+ * the raw wording a concept was minted from, the merge and source-candidate
+ * bookkeeping, the reviewer/publisher trail. No student surface reads any of
+ * them, and `fieldNotes` alone is ~8.7 MB of the 31 MB document in production.
+ */
+const CONCEPT_AUTHOR_ONLY_FIELDS = [
+  'fieldNotes', 'originalWording', 'evidenceGaps', 'uncertainty', 'conflicts',
+  'resourceOccurrenceIds', 'sourceCandidateIds', 'mergeIds', 'rejectedMergeCandidateIds',
+  'owner', 'reviewer', 'finalPublisher', 'lastReviewed', 'reviewDue',
+  'editorialReviewStatus', 'exclusionReason', 'weightConfidence', 'canonicalKey', 'supportMode',
+]
+
+/**
+ * The fields kept in the concept *index* — the bulk read every student page
+ * makes. This is exactly the set the many-concept surfaces read: the glossary's
+ * term matcher (`label`, `aliases`, `status`, `id`), the dashboard and rails
+ * (`label` by id), inline article annotations (`label` + `publicationStatus`),
+ * and Adaptive Study's blueprint (`subjectId`/`topicId`/`topicTagId`/`systemId`,
+ * `moduleIds`, `examSignal`/`examWeightByYear`/`blueprintWeight`). `universityIds`
+ * rides along because it is what the scope filter reads; `primaryNodeId` /
+ * `secondaryNodeIds` because curriculum membership places concepts by them.
+ *
+ * Deliberately absent — and served instead by `/api/content/concept/:id` only
+ * when the glossary opens one concept: `definition`, `pitfalls`, `mediaIds`,
+ * `atomicClaimIds`, `resourceIds` and everything else. Those are ~40% of the
+ * per-concept bytes and no list needs them, so keeping the index to this set is
+ * what takes a Kasr student's bulk read from ~6 MB to ~2 MB.
+ */
+export const CONCEPT_INDEX_FIELDS = [
+  'id', 'label', 'aliases', 'status', 'publicationStatus',
+  'subjectId', 'topicId', 'topicTagId', 'systemId', 'primaryNodeId', 'secondaryNodeIds',
+  'moduleIds', 'universityIds', 'examSignal', 'examWeightByYear', 'blueprintWeight',
+]
+
+/** One concept reduced to the index fields, dropping any that are absent. */
+export function conceptIndexRow(concept) {
+  const row = {}
+  for (const field of CONCEPT_INDEX_FIELDS) {
+    if (concept?.[field] !== undefined) row[field] = concept[field]
+  }
+  return row
+}
+
+/** One concept with only the author-only fields removed — the shape the detail endpoint serves. */
+export function conceptDetail(concept) {
+  const slim = { ...concept }
+  for (const field of CONCEPT_AUTHOR_ONLY_FIELDS) delete slim[field]
+  return slim
+}
+
+/**
+ * What a student is allowed to receive of the concept graph, for the student's
+ * own university: the slim *index*.
+ *
+ * The full document is ~31 MB (8,184 concepts across all 14 universities). Three
+ * cuts, all safe:
+ *
+ *  1. Scope to the caller's university. Every concept carries `universityIds`; a
+ *     student only studies their own faculty's, so the rest are dead weight. A
+ *     concept with no `universityIds` is shared and kept for everyone. One cohort
+ *     is a fraction — Kasr is 3,061 of 8,184, most faculties a few hundred.
+ *  2. Keep only the index fields (`CONCEPT_INDEX_FIELDS`) — everything the
+ *     many-concept surfaces read. The prose (`definition`, `pitfalls`, images,
+ *     evidence) is fetched per concept from `/api/content/concept/:id` when the
+ *     glossary opens one, so it never ships in bulk.
+ *  3. Prune `relations` to edges whose both endpoints survived the scope, so the
+ *     client never holds a relation pointing at a concept it did not receive.
+ *
+ * `universityId` null (an unsettled profile, or a console caller previewing as a
+ * student) applies no scope — every concept, still index-only — matching how the
+ * question audience treats an unsettled cohort: see everything rather than
+ * nothing.
+ *
+ * ponytail: parses the 31 MB document per request (no server cache); fine while
+ * the client's own ETag revalidation means a returning student re-reads it only
+ * when it actually changed. The detail endpoint (`conceptCatalogue.js`) caches
+ * its parse by version; cache this one the same way if first-reads ever bite.
+ */
+export function conceptGraphForStudent(graph, universityId) {
+  if (!graph || typeof graph !== 'object' || Array.isArray(graph)) return graph
+  const uni = universityId ? String(universityId).trim().toLowerCase() : null
+  const all = Array.isArray(graph.concepts) ? graph.concepts : []
+  const inScope = uni
+    ? all.filter((concept) => {
+        const ids = concept?.universityIds
+        if (!Array.isArray(ids) || ids.length === 0) return true // shared → everyone
+        return ids.some((id) => String(id).trim().toLowerCase() === uni)
+      })
+    : all
+  const kept = new Set(inScope.map((concept) => concept?.id))
+  const concepts = inScope.map(conceptIndexRow)
+  const relations = Array.isArray(graph.relations)
+    ? graph.relations.filter((relation) => kept.has(relation?.sourceId) && kept.has(relation?.targetId))
+    : []
+  return { ...graph, concepts, relations }
+}
+
+/**
+ * The keys that need redacting on the way out, by key name.
+ *
+ * The concept graph is deliberately absent: its projection needs the caller's
+ * university, so `/api/state/:key` calls `conceptGraphForStudent` directly (the
+ * same way it handles the ledger and notification campaigns) rather than through
+ * this audience-blind map.
+ */
 export const REDACTED_STATE_KEYS = new Map([
   ['nishany-admin-content-ledger-v4', redactLedgerForStudent],
   [MEDIA_STATE_KEY, redactMediaForStudent],

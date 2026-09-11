@@ -9,6 +9,7 @@ import { Popover } from '@/components/ui/Popover'
 import { RichText } from '@/components/ui/RichText'
 import { apiOpenFile } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
+import { useConceptDetail } from '@/lib/content'
 import { useT } from '@/lib/i18n'
 
 function escapeRegExp(value: string) {
@@ -39,6 +40,12 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
   const active = open?.concept ?? null
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  // The graph the app holds is the slim concept *index* — labels, aliases and
+  // relations, no prose. When a card opens, fetch that one concept's full
+  // detail (definition, pitfalls, images, evidence) and lay it over the index
+  // concept; until it lands the card shows the title and a loading line.
+  const [detail] = useConceptDetail(open?.concept.id ?? null)
+  const full: Concept | null = detail ?? active
   const matches = useMemo(() => {
     if (!enabled) return [{ text, concept: null as Concept | null }]
     const lookup = new Map<string, Concept>()
@@ -63,16 +70,16 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
   const relations = active ? graph.relations.filter((relation) => relation.sourceId === active.id || relation.targetId === active.id).slice(0, 5) : []
   const conceptName = (id: string) => graph.concepts.find((concept) => concept.id === id)?.label ?? id
   const activeSources = useMemo(() => {
-    if (!active) return []
-    const claimIds = new Set(active.atomicClaimIds ?? [])
+    if (!full) return []
+    const claimIds = new Set(full.atomicClaimIds ?? [])
     const conceptCitations = evidence.citations.filter((citation) => claimIds.has(citation.claimId))
-    const resourceIds = active.resourceIds?.length ? active.resourceIds : [...new Set(conceptCitations.map((citation) => citation.resourceId))]
+    const resourceIds = full.resourceIds?.length ? full.resourceIds : [...new Set(conceptCitations.map((citation) => citation.resourceId))]
     return resourceIds.map((resourceId) => ({
       resourceId,
       resource: evidence.resources.find((resource) => resource.id === resourceId),
       citation: conceptCitations.find((citation) => citation.resourceId === resourceId),
     }))
-  }, [active, evidence.citations, evidence.resources])
+  }, [full, evidence.citations, evidence.resources])
 
   async function openSource(resourceId: string, sourceUri: string | undefined, locator: EvidenceLocator | string | undefined) {
     const fragment = sourceFragment(locator)
@@ -130,29 +137,31 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
 
           <div className="max-h-[min(26rem,60dvh)] overflow-y-auto overscroll-contain">
             <div className="px-4 py-3 text-[13px] leading-[1.6] text-ink-2">
-              {open.concept.definition
-                ? open.concept.definition.split('\n').filter((line) => line.trim()).map((para, index) => (
+              {full?.definition
+                ? full.definition.split('\n').filter((line) => line.trim()).map((para, index) => (
                     <p key={index} className={index ? 'mt-2.5' : undefined}><RichText text={para} /></p>
                   ))
-                : <p>{t('Definition awaiting editorial review.')}</p>}
+                : detail
+                  ? <p>{t('Definition awaiting editorial review.')}</p>
+                  : <p className="text-ink-3">{t('Loading…')}</p>}
             </div>
 
             {/* A concept's own images, from the same library a question draws
                 on — so the plate a student meets in a question is the plate
                 they meet again here. */}
-            {(open.concept.mediaIds ?? []).length > 0 && (
+            {(full?.mediaIds ?? []).length > 0 && (
               <div className="px-4 pb-3">
-                {(open.concept.mediaIds ?? []).map((mediaId) => {
+                {(full?.mediaIds ?? []).map((mediaId) => {
                   const record = mediaRecords.get(mediaId)
                   return record ? <PlacedImage key={mediaId} record={record} className="max-h-48 w-full rounded object-contain" /> : null
                 })}
               </div>
             )}
 
-            {open.concept.pitfalls && (
+            {full?.pitfalls && (
               <div className="mx-4 mb-3 rounded-lg border border-warning/30 bg-warning-tint/50 p-3">
                 <p className="mb-1 flex items-center gap-1.5 text-[10.5px] font-bold uppercase tracking-[0.06em] text-warning"><Icon icon={TriangleAlert} size={12} />{t('Pitfall')}</p>
-                <p className="text-[12px] leading-relaxed text-ink-2">{open.concept.pitfalls}</p>
+                <p className="text-[12px] leading-relaxed text-ink-2">{full.pitfalls}</p>
               </div>
             )}
 

@@ -12,6 +12,7 @@ export {
 } from './contentClient'
 export {
   useArticleIndex,
+  useConceptDetail,
   useContentBusy,
   useContentItem,
   useContentManifest,

@@ -13,6 +13,9 @@ import {
   publicationMediaBlockers,
   redactItem,
   redactLedgerForStudent,
+  conceptGraphForStudent,
+  conceptDetail,
+  conceptIndexRow,
   redactMediaForStudent,
   redactModuleSchedulesForStudent,
   releasedMediaIdsFromDocument,
@@ -606,5 +609,95 @@ describe('redactModuleSchedulesForStudent', () => {
 
   test('the schedule key is redacted on the way out', () => {
     assert.equal(REDACTED_STATE_KEYS.get(SCHEDULE_KEY), redactModuleSchedulesForStudent)
+  })
+})
+
+describe('the concept graph a student may read', () => {
+  const graph = {
+    concepts: [
+      {
+        id: 'CON-KAU', label: 'Hypoxaemia', publicationStatus: 'published',
+        universityIds: ['kau'], primaryNodeId: 'NODE-A', secondaryNodeIds: ['NODE-B'],
+        // Student-facing fields that MUST survive: the glossary shows these and
+        // Adaptive Study derives its blueprint from examSignal.
+        definition: 'x'.repeat(4000), pitfalls: 'trap', aliases: ['low O2'],
+        examSignal: { papers: [1, 2] }, atomicClaimIds: ['a', 'b'], status: 'active',
+        // Author-only editorial/lineage fields that must never reach a student:
+        fieldNotes: { definition: 'why blank' }, originalWording: ['raw'],
+        owner: 'someone@example.com', reviewer: 'r', evidenceGaps: ['gap'],
+        mergeIds: ['m'], canonicalKey: 'hypoxaemia', reviewDue: '2026-01-01',
+      },
+      { id: 'CON-ASU', label: 'Other faculty', publicationStatus: 'published', universityIds: ['asu'] },
+      { id: 'CON-SHARED', label: 'Shared', publicationStatus: 'draft', universityIds: [] },
+    ],
+    relations: [
+      { id: 'REL-IN', sourceId: 'CON-KAU', targetId: 'CON-SHARED', type: 'related_concepts' },
+      { id: 'REL-OUT', sourceId: 'CON-KAU', targetId: 'CON-ASU', type: 'related_concepts' },
+    ],
+  }
+
+  test('a student receives only their own university plus shared concepts', () => {
+    const ids = conceptGraphForStudent(graph, 'kau').concepts.map((c) => c.id)
+    assert.deepEqual(ids.sort(), ['CON-KAU', 'CON-SHARED'])
+  })
+
+  test('university matching is case-insensitive', () => {
+    const ids = conceptGraphForStudent(graph, 'KAU').concepts.map((c) => c.id)
+    assert.ok(ids.includes('CON-KAU'))
+  })
+
+  test('a null university (unsettled profile) applies no scope', () => {
+    assert.equal(conceptGraphForStudent(graph, null).concepts.length, 3)
+  })
+
+  test('the bulk index keeps the fields the many-concept surfaces read', () => {
+    const [first] = conceptGraphForStudent(graph, 'kau').concepts
+    assert.deepEqual(first.aliases, ['low O2'])
+    assert.deepEqual(first.examSignal, { papers: [1, 2] })
+    assert.equal(first.status, 'active')
+    assert.equal(first.label, 'Hypoxaemia')
+    assert.equal(first.primaryNodeId, 'NODE-A')
+    assert.equal(first.publicationStatus, 'published')
+  })
+
+  test('the bulk index drops the prose and evidence — those come from the detail endpoint', () => {
+    const [first] = conceptGraphForStudent(graph, 'kau').concepts
+    for (const field of ['definition', 'pitfalls', 'atomicClaimIds', 'fieldNotes', 'originalWording', 'owner']) {
+      assert.equal(first[field], undefined, `${field} must not ship in the bulk index`)
+    }
+  })
+
+  test('conceptDetail carries the prose but never the author-only fields', () => {
+    const detail = conceptDetail(graph.concepts[0])
+    assert.equal(detail.definition, 'x'.repeat(4000))
+    assert.equal(detail.pitfalls, 'trap')
+    assert.deepEqual(detail.atomicClaimIds, ['a', 'b'])
+    for (const field of ['fieldNotes', 'originalWording', 'owner', 'reviewer', 'evidenceGaps', 'mergeIds', 'canonicalKey', 'reviewDue']) {
+      assert.equal(detail[field], undefined, `${field} must not reach a student`)
+    }
+  })
+
+  test('conceptIndexRow omits absent fields rather than emitting undefined', () => {
+    const row = conceptIndexRow({ id: 'x', label: 'y' })
+    assert.deepEqual(Object.keys(row).sort(), ['id', 'label'])
+  })
+
+  test('drafts are kept — the reader does its own publication check', () => {
+    assert.ok(conceptGraphForStudent(graph, 'kau').concepts.some((c) => c.publicationStatus === 'draft'))
+  })
+
+  test('relations to concepts outside the scope are pruned; in-scope ones survive', () => {
+    const relations = conceptGraphForStudent(graph, 'kau').relations
+    assert.deepEqual(relations.map((r) => r.id), ['REL-IN'])
+  })
+
+  test('a malformed document is returned unchanged rather than thrown', () => {
+    for (const bad of [null, undefined, [], 'nope', 42]) {
+      assert.equal(conceptGraphForStudent(bad, 'kau'), bad)
+    }
+  })
+
+  test('the concept graph is NOT in the audience-blind redaction map (the route scopes it by university)', () => {
+    assert.equal(REDACTED_STATE_KEYS.has('nishany-concept-graph-v2'), false)
   })
 })

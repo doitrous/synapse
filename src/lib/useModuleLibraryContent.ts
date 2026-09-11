@@ -1,7 +1,9 @@
 import { useMemo } from 'react'
-import { usePersistentState } from './usePersistentState'
 import { useArticleIndex } from './content'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { initialConceptGraph } from '@/data/conceptGraph'
+
+/** A stable empty graph: this hook never reads the concept graph (see below). */
+const EMPTY_GRAPH = initialConceptGraph()
 import { itemInScope } from '@/data/contentControl'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { buildCurriculumMembership } from '@/data/curriculumMembership'
@@ -79,11 +81,15 @@ export function useModuleLibraryContent(universityId: string, yearId: string): M
   const curriculum = useStudentCurriculum()
   const library = useLiveLibrary()
   const [index] = useArticleIndex()
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [medicalTaxonomy] = useMedicalTaxonomy()
 
   // Articles are the only kind this resolves — `articlesUnder` is the whole of
-  // what is read below — so the index stands in for the ledger unchanged.
+  // what is read below — so the index stands in for the ledger unchanged. And
+  // `articlesUnder` places articles by the article index's own node ids, never
+  // by the concept graph, so an empty graph is passed instead of loading the
+  // ~16 MB document: the `conceptsUnder` branch that would read it is never hit
+  // from this hook. (Consumers that DO need concepts still load them directly.)
+  const graph = EMPTY_GRAPH
   const membership = useMemo(
     () => buildCurriculumMembership({ items: index.items, graph, medicalTaxonomy }),
     [index, graph, medicalTaxonomy],

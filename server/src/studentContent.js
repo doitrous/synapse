@@ -22,6 +22,7 @@
 import { pool } from './db.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
+import { loadConceptCatalogue } from './conceptCatalogue.js'
 import { itemModules, itemUniversities, itemYears, yearNumber } from './contentScope.js'
 import { requireAuthenticated } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
@@ -452,6 +453,22 @@ export async function itemHandler(req, res) {
   return sendVersioned(req, res, content.signature, { item })
 }
 
+/**
+ * One concept's full detail — the prose the concept index leaves out, fetched
+ * only when the glossary opens that concept.
+ *
+ * Not subscription-gated and not audience-gated: a concept definition was always
+ * readable by any signed-in student (the whole graph used to ship to everyone),
+ * and the index a student holds only ever surfaces their own cohort's ids, so
+ * this cannot widen what they can reach. One 404 covers "no such concept".
+ */
+export async function conceptHandler(req, res) {
+  const { byId, signature } = await loadConceptCatalogue()
+  const concept = byId.get(String(req.params.id))
+  if (!concept) return res.status(404).json({ error: 'not found' })
+  return sendVersioned(req, res, signature, { concept })
+}
+
 const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
   console.error(error)
   res.status(500).json({ error: error.message || 'server error' })
@@ -462,4 +479,5 @@ export function registerContentRoutes(app) {
   app.get('/api/content/items', requireAuthenticated, wrap(itemsHandler))
   app.get('/api/content/questions', requireAuthenticated, wrap(questionsHandler))
   app.get('/api/content/item/:id', requireAuthenticated, wrap(itemHandler))
+  app.get('/api/content/concept/:id', requireAuthenticated, wrap(conceptHandler))
 }

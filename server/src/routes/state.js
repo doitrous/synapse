@@ -14,7 +14,7 @@ import { deleteManagedMediaRow, invalidateSnapshots, mediaRecords, removePhysica
 import { hasConsoleAccess } from '../roles.js'
 import { canonicalStateKey } from '../stateKeys.js'
 import { applyDelta, authoriseChanges, diffDocument, isMergeable, mergeDocument, reconstructChanges } from '../stateMerge.js'
-import { REDACTED_STATE_KEYS, archiveScopeBlockedPublishedItems, newlyArchiveScopeBlockedPublishedItems, newlyMediaBlockedPublishedItems, redactLedgerForStudent, releasedMediaIdsFromDocument } from '../studentLedger.js'
+import { REDACTED_STATE_KEYS, archiveScopeBlockedPublishedItems, conceptGraphForStudent, newlyArchiveScopeBlockedPublishedItems, newlyMediaBlockedPublishedItems, redactLedgerForStudent, releasedMediaIdsFromDocument } from '../studentLedger.js'
 import { SUBSCRIBER_DISPLAY_STATE_KEY } from '../subscriberCount.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from '../tabs.js'
 
@@ -124,12 +124,17 @@ export function registerStateManifestRoutes(app) {
   }))
 }
 
+const CONCEPT_GRAPH_STATE_KEY = 'nishany-concept-graph-v2'
+
 export function registerStateDocumentRoutes(app) {
   app.get('/api/state/:key', wrap(async (req, res) => {
     // Console access, not the single role 'admin': an editor or a reviewer
     // authors this content and must read it whole. Redaction is for students.
     const authoring = hasConsoleAccess(req.identity?.role)
     const key = canonicalStateKey(req.params.key)
+    // The university a student's concept-graph read is scoped to; also the
+    // second half of that read's ETag. Null for every other key and caller.
+    let conceptScopeUni = null
     if (!STUDENT_READABLE_STATE.has(key)) {
       if (!authoring) return res.status(403).json({ error: 'console access required' })
       if (!mfaSatisfied(req.identity)) return res.status(403).json({ error: 'mfa_required' })
@@ -189,12 +194,34 @@ export function registerStateDocumentRoutes(app) {
         [req.identity?.id],
       )
       value = projectCampaignsForStudent(value, profileRows[0] ?? {}, Date.now())
+    } else if (!authoring && key === CONCEPT_GRAPH_STATE_KEY) {
+      // A student only studies their own faculty's concepts, so send that slice
+      // of the ~31 MB graph rather than all 14 universities' — see
+      // `conceptGraphForStudent`. The projection is by university alone, which
+      // is the one field it needs.
+      const [profileRows] = await pool.query(
+        'SELECT university_id AS universityId FROM students WHERE user_id = ? LIMIT 1',
+        [req.identity?.id],
+      )
+      conceptScopeUni = profileRows[0]?.universityId ?? null
+      value = conceptGraphForStudent(value, conceptScopeUni)
     } else if (redact) value = redact(value)
     // Archived reports stay on the record for editors and super admins, but a
     // reviewer's queue is only the live work: they are filtered out before the
     // document ever reaches a reviewer, not merely hidden in the browser.
     if (req.identity?.role === 'reviewer' && key === CONTENT_REPORTS_STATE_KEY && Array.isArray(value)) {
       value = value.filter((report) => report?.status !== 'Archived')
+    }
+    // A returning student re-reads the concept graph on every reload; it changes
+    // rarely, so answer a conditional reload with 304 and let the browser reuse
+    // the copy it already holds instead of shipping the slice again. The tag is
+    // per-version AND per-university: the body is the caller's cohort's, so two
+    // students sharing a browser must never be served each other's from cache.
+    if (!authoring && key === CONCEPT_GRAPH_STATE_KEY) {
+      const etag = `W/"${version ?? 0}.${conceptScopeUni ?? 'all'}"`
+      res.set('ETag', etag)
+      res.set('Cache-Control', 'private, no-cache')
+      if (req.get('if-none-match') === etag) return res.status(304).end()
     }
     res.json({ value, updatedAt, version, deltaSupported })
   }))
