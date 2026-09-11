@@ -33,4 +33,15 @@ export const FREE_STUDENT_PATHS: ReadonlySet<string> = new Set([
   'upgrade', // the paywall screen itself
   'qotd', // the free daily teaser
   'study-rooms', // study rooms & social
+  // Minigames are free — the hub and every game it links to. They run on
+  // authored packs or the open glossary, not the paid bank; Spotter reads
+  // histology through the gated content slice, so for a lapsed student it
+  // shows its own "catalogue unavailable" state rather than the paywall.
+  'minigames',
+  'term-grid',
+  'spotter',
+  'term-match',
+  'clinical-sequence',
+  'mechanism-chain',
+  'red-flag-sort',
 ])
