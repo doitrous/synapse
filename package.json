@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:app": "vite build",
     "lint": "oxlint",
     "test": "node --test --experimental-strip-types \"src/**/*.test.ts\"",
     "load:students": "node scripts/load-test-students.mjs",
