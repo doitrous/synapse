@@ -14,6 +14,7 @@ import {
   filterTopicsInContainer,
   matchesQuery,
   scopeCounts,
+  topicInModule,
   topicKey,
   subtopicKey,
   type Scope,
@@ -311,17 +312,15 @@ export function TopicChooser({
   const allModules = useMemo(() => {
     return moduleContent.groups.map((mod) => {
       const articleIds = new Set(mod.articleIds)
-      const moduleTopics = libraryTopics.filter((topic) => {
-        if (existsCounts.topics[topic.id] <= 0) return false
-        if (articleIds.has(topic.id)) return true
-        if (topic.subtopics.some((s) => articleIds.has(s.id))) return true
-        return pool.some(
-          (q) =>
-            (q.topic.toLowerCase() === topic.title.toLowerCase() ||
-              q.libraryRefs.some((ref) => topic.subtopics.some((s) => s.id === ref.id))) &&
-            q.libraryRefs.some((ref) => articleIds.has(ref.id)),
-        )
-      })
+      // A question names its module by the module's id or its display name, so
+      // match on both — the article-coverage id space and the curriculum name
+      // space can each be the one the author tagged.
+      const moduleTokens = new Set(
+        [mod.moduleId, mod.moduleName].map((token) => token?.trim().toLowerCase()).filter(Boolean) as string[],
+      )
+      const moduleTopics = libraryTopics.filter(
+        (topic) => existsCounts.topics[topic.id] > 0 && topicInModule(topic, pool, articleIds, moduleTokens),
+      )
       const systemGroups = subjects
         .map((subj) => ({ subj, topics: moduleTopics.filter((tp) => tp.subjectId === subj.id) }))
         .filter((g) => g.topics.length > 0)

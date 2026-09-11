@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { chooserTopics, filterTopicsByQuery, filterTopicsInContainer, isQuestionTopic, matchesQuery, questionsInScope, questionsInSources, scopeCounts, topicKey } from './qbankScope.ts'
+import { chooserTopics, filterTopicsByQuery, filterTopicsInContainer, isQuestionTopic, matchesQuery, questionsInScope, questionsInSources, scopeCounts, topicInModule, topicKey } from './qbankScope.ts'
 import type { Question } from './qbank.ts'
 import type { LibTopic } from './library.ts'
 import type { QuestionSource, SourceBucket } from './questionSource.ts'
@@ -13,6 +13,29 @@ function question(id: string, subjectId: string, topic: string, refIds: string[]
     resourceRefs: [],
   } as unknown as Question
 }
+
+test('a module offers its questions by their module tag, with no article link', () => {
+  // The 101-ISK regression: a module with published questions but no published
+  // library articles showed an empty selector, because grouping went only
+  // through articles. The question is tagged for the module directly.
+  const q = { ...question('q1', 'anat', 'Axilla'), moduleIds: ['101 ISK'] } as Question
+  const synthetic = chooserTopics([q], []) // no library articles at all
+  const topic = synthetic[0]
+  // Matches on the module's display name even though articleIds is empty.
+  assert.equal(topicInModule(topic, [q], new Set<string>(), new Set(['101 isk'])), true)
+  // A different module does not claim it.
+  assert.equal(topicInModule(topic, [q], new Set<string>(), new Set(['104 cps'])), false)
+})
+
+test('article-linked and id-token module membership still hold', () => {
+  const topic: LibTopic = { id: 'art-1', title: 'Nerve supply', subjectId: 'anat', subtopics: [] }
+  const q = question('q1', 'anat', 'Nerve supply', ['art-1'])
+  // Topic IS one of the module's article ids.
+  assert.equal(topicInModule(topic, [q], new Set(['art-1']), new Set()), true)
+  // Question cites one of the module's articles.
+  const other: LibTopic = { id: 'qt', title: 'Nerve supply', subjectId: 'anat', subtopics: [] }
+  assert.equal(topicInModule(other, [q], new Set(['art-1']), new Set()), true)
+})
 
 const LIBRARY: LibTopic[] = [{
   id: 'hf',

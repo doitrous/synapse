@@ -111,6 +111,35 @@ export function chooserTopics(pool: Question[], libraryTopics: LibTopic[]): LibT
 }
 
 /**
+ * Does a chooser topic belong to a module?
+ *
+ * A topic belongs when it (or one of its subtopics) IS one of the module's
+ * published article ids, when a question filed under it cites one of those
+ * articles, or — the case a bank without published library articles hits —
+ * when a question filed under it is tagged directly for the module. That last
+ * rule is why "all published questions under a module" show up by default: the
+ * module tag the author set is honoured even when no article links them.
+ */
+export function topicInModule(
+  topic: LibTopic,
+  pool: Question[],
+  articleIds: ReadonlySet<string>,
+  moduleTokens: ReadonlySet<string>,
+): boolean {
+  if (articleIds.has(topic.id)) return true
+  if (topic.subtopics.some((s) => articleIds.has(s.id))) return true
+  const underTopic = (q: Question) =>
+    q.topic.toLowerCase() === topic.title.toLowerCase() ||
+    q.libraryRefs.some((ref) => topic.subtopics.some((s) => s.id === ref.id))
+  return pool.some(
+    (q) =>
+      underTopic(q) &&
+      (q.libraryRefs.some((ref) => articleIds.has(ref.id)) ||
+        (q.moduleIds ?? []).some((m) => moduleTokens.has(m.trim().toLowerCase()))),
+  )
+}
+
+/**
  * Does a title answer to a search box? Case- and whitespace-insensitive
  * substring, which is what a student typing "heart" into a chapter list means.
  * An empty query matches everything, so "no search" needs no special case.

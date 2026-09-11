@@ -58,6 +58,13 @@ export interface Question {
   conceptIds?: string[]
   /** Which MCQ source this question came from. Absent until tagged/backfilled. */
   source?: QuestionSource
+  /**
+   * The module(s) this question is tagged for — its own `moduleIds` plus the
+   * module named at the head of each `module > subject > topic` path. Lets the
+   * qbank chooser file a module's questions under it directly, so a module with
+   * published questions but no published library articles still offers them.
+   */
+  moduleIds?: string[]
 }
 
 export const questions: Question[] = [
