@@ -16,7 +16,7 @@ import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { TopicChooser } from '@/components/qbank/TopicChooser'
 import { chooserTopics, questionsInScope, type Scope } from '@/data/qbankScope'
-import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { usePublishedQuestionSummaries } from '@/lib/usePublishedQuestions'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { ROOM_REFUSALS, useMyRooms, useStudyRoomActions } from '@/lib/useStudyRooms'
 import { FRIEND_REFUSALS, useFriends, type FriendProfile } from '@/lib/useFriends'
@@ -106,7 +106,7 @@ function QuietSection({
 export function SharedTestsSection({ onOpenSharedTest }: { onOpenSharedTest: (roomId: string) => void }) {
   const t = useT()
   const relativeTime = useRelativeTime()
-  const questions = usePublishedQuestions()
+  const questions = usePublishedQuestionSummaries()
   const { topics: publishedTopics } = useLiveLibrary()
   const { rooms, reload: reloadRooms } = useMyRooms()
   const { create, join } = useStudyRoomActions()
@@ -323,7 +323,7 @@ export function FriendsSection({
   onOpenChallenge: (challengeId: string) => void
 }) {
   const t = useT()
-  const questions = usePublishedQuestions()
+  const questions = usePublishedQuestionSummaries()
   const { create } = useStudyRoomActions()
   const { reload: reloadRooms } = useMyRooms()
   const {

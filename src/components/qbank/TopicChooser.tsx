@@ -247,8 +247,7 @@ export function TopicChooser({
   // topic the questions name that the library has no article for yet.
   const { topics: publishedTopics } = useLiveLibrary()
   const libraryTopics = useMemo(() => chooserTopics(pool, publishedTopics), [pool, publishedTopics])
-  // scopeCounts walks every topic × subtopic × question. Unmemoised it ran on
-  // every render — so on every keystroke and every checkbox in this tree.
+  // Count once per bank/tree snapshot, not on every checkbox or expansion.
   // Computed from `pool`, never `countPool`: this is what decides whether a
   // chapter ever has anything in it at all, which is what the group filter
   // below uses to decide whether the chapter is offered as an option.

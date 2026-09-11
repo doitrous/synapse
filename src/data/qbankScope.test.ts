@@ -231,3 +231,44 @@ test('filterTopicsInContainer: nothing matching anywhere returns an empty list',
 test('filterTopicsInContainer: an empty query returns the tree untouched', () => {
   assert.equal(filterTopicsInContainer(['Cardiovascular'], SEARCH_TREE, '   '), SEARCH_TREE)
 })
+
+test('counts deduplicate title matches and repeated references while preserving shared chapter names', () => {
+  const library = [
+    { id: 'a', title: 'Heart', subjectId: 'cvs', subtopics: [{ id: 's1' }, { id: 's2' }] },
+    { id: 'b', title: 'HEART', subjectId: 'resp', subtopics: [{ id: 's3' }] },
+    { id: 'empty', title: 'Empty', subjectId: 'cvs', subtopics: [] },
+  ] as LibTopic[]
+  const pool = [question('q1', 'cvs', 'heart', ['s1', 's1', 's2']), question('q2', 'cvs', 'Other', ['s1', 's2'])]
+  assert.deepEqual(scopeCounts(pool, library), { topics: { a: 2, b: 1, empty: 0 }, subtopics: { s1: 2, s2: 2, s3: 1 } })
+})
+
+test('counting a large topic tree does not rescan the question bank per subtopic', () => {
+  let reads = 0
+  const pool = Array.from({ length: 100 }, (_, i) => {
+    const q = question(`q${i}`, 'cvs', `Topic ${i}`, [`s${i}`])
+    Object.defineProperty(q, 'topic', { get() { reads++; return `Topic ${i}` } })
+    return q
+  })
+  const library = Array.from({ length: 100 }, (_, i) => ({ id: `t${i}`, title: `Topic ${i}`, subjectId: 'cvs', subtopics: [{ id: `s${i}` }] })) as LibTopic[]
+  const counts = scopeCounts(pool, library)
+  assert.equal(counts.topics.t99, 1)
+  assert.ok(reads <= 200, `Read question topics ${reads} times for 100 questions`)
+})
+
+test('indexed counts match the original filtering rules across a varied catalogue', () => {
+  const library = Array.from({ length: 25 }, (_, i) => ({
+    id: `t${i}`, title: `Topic ${i % 12}`, subjectId: 'cvs',
+    subtopics: Array.from({ length: i % 5 }, (_, j) => ({ id: `s${i}-${j}`, title: `Article ${j}` })),
+  })) as LibTopic[]
+  const pool = Array.from({ length: 200 }, (_, i) => question(`q${i}`, 'cvs', `TOPIC ${i % 15}`, [
+    `s${i % 25}-${i % 4}`, `s${(i * 7) % 25}-0`, `s${i % 25}-${i % 4}`, 'missing',
+  ]))
+  const expected = { topics: {} as Record<string, number>, subtopics: {} as Record<string, number> }
+  for (const topic of library) {
+    for (const sub of topic.subtopics) {
+      expected.subtopics[sub.id] = pool.filter(q => q.libraryRefs.some(ref => ref.id === sub.id) || q.topic.toLowerCase() === topic.title.toLowerCase()).length
+    }
+    expected.topics[topic.id] = pool.filter(q => q.topic.toLowerCase() === topic.title.toLowerCase() || q.libraryRefs.some(ref => topic.subtopics.some(sub => sub.id === ref.id))).length
+  }
+  assert.deepEqual(scopeCounts(pool, library), expected)
+})

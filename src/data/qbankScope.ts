@@ -204,20 +204,38 @@ export function filterTopicsInContainer(
 export function scopeCounts(pool: Question[], libraryTopics: LibTopic[]): { topics: Record<string, number>; subtopics: Record<string, number> } {
   const subtopics: Record<string, number> = {}
   const topics: Record<string, number> = {}
-  libraryTopics.forEach((topic) => {
-    let topicTotal = 0
-    topic.subtopics.forEach((s) => {
-      const n = pool.filter(
-        (q) => q.libraryRefs.some((ref) => ref.id === s.id) || q.topic.toLowerCase() === topic.title.toLowerCase(),
-      ).length
-      subtopics[s.id] = n
-    })
-    topicTotal = pool.filter(
-      (q) =>
-        q.topic.toLowerCase() === topic.title.toLowerCase() ||
-        q.libraryRefs.some((ref) => topic.subtopics.some((s) => s.id === ref.id)),
-    ).length
-    topics[topic.id] = topicTotal
-  })
+  const byTitle = new Map<string, LibTopic[]>()
+  const bySubtopic = new Map<string, string[]>()
+  for (const topic of libraryTopics) {
+    topics[topic.id] = 0
+    const title = topic.title.toLowerCase()
+    const matching = byTitle.get(title) ?? []
+    matching.push(topic)
+    byTitle.set(title, matching)
+    for (const subtopic of topic.subtopics) {
+      subtopics[subtopic.id] = 0
+      const parents = bySubtopic.get(subtopic.id) ?? []
+      parents.push(topic.id)
+      bySubtopic.set(subtopic.id, parents)
+    }
+  }
+  // Visit the bank once. Sets keep a title + reference match from counting the
+  // same question twice, including repeated references to the same article.
+  for (const question of pool) {
+    const matchedTopics = new Set<string>()
+    const matchedSubtopics = new Set<string>()
+    for (const topic of byTitle.get(question.topic.toLowerCase()) ?? []) {
+      matchedTopics.add(topic.id)
+      for (const subtopic of topic.subtopics) matchedSubtopics.add(subtopic.id)
+    }
+    for (const ref of question.libraryRefs) {
+      const parents = bySubtopic.get(ref.id)
+      if (!parents) continue
+      matchedSubtopics.add(ref.id)
+      for (const id of parents) matchedTopics.add(id)
+    }
+    for (const id of matchedTopics) topics[id]++
+    for (const id of matchedSubtopics) subtopics[id]++
+  }
   return { topics, subtopics }
 }
