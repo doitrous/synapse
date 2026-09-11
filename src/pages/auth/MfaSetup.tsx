@@ -117,6 +117,33 @@ export function MfaSetup() {
     navigate(next, { replace: true })
   }
 
+  // The account already carries a second factor and is only owed the code to
+  // finish signing in. Nothing to add, nothing to scan — so none of the
+  // enrollment scaffolding (checklist, QR, secret, SMS row, "Recommended")
+  // belongs here. Just ask for the code.
+  if (identity.mfaPending) {
+    return (
+      <AuthLayout step="verify" showProgress={false} title="Two-step verification" description="Enter the six-digit code from your authenticator app to finish signing in." compact>
+        <form className="mx-auto max-w-sm" onSubmit={verify}>
+          <div className="flex items-start gap-3">
+            <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-inset text-primary-strong"><Icon icon={KeyRound} size={19} /></span>
+            <div className="min-w-0 flex-1"><h2 className="text-[22px]">Enter your code</h2><p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">Open your authenticator app and type the current six-digit code for Nishany.</p></div>
+          </div>
+          {error && <div role="alert" className="mt-5 flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
+          {loading ? <LoadingRegion className="mt-6"><SkeletonFields fields={1} /></LoadingRegion> : (
+            <>
+              <div className="mt-6"><Field label="Six-digit verification code" htmlFor="mfa-code"><TextInput id="mfa-code" name="one-time-code" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" maxLength={6} value={code} onChange={(event) => setCode(event.target.value.replace(/\D/g, '').slice(0, 6))} placeholder="000000…" className="font-mono tracking-[0.25em]" autoFocus /></Field></div>
+              <div className="mt-5 flex flex-wrap items-center gap-3">
+                <Button type="submit" variant="primary" iconLeft={ShieldCheck} loading={verifying} disabled={code.length !== 6}>Verify and continue</Button>
+                <Link to="/logout" className="inline-flex min-h-11 items-center rounded-lg px-3 text-[13px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink">Sign out</Link>
+              </div>
+            </>
+          )}
+        </form>
+      </AuthLayout>
+    )
+  }
+
   // No progress rail: this is not a step in signing up. Drawing one here was
   // what made an optional lock look like the last thing standing between a
   // student and the app.

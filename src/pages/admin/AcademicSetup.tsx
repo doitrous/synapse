@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload, Scale, ShieldCheck } from 'lucide-react'
+import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload, Scale, ShieldCheck, ChevronUp, ChevronDown } from 'lucide-react'
 import type { CurriculumCourse, University } from '@/data/universities'
 import { newUniversityYears, defaultModuleId, universityYearId } from '@/data/universities'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -180,6 +180,19 @@ export function AcademicSetup() {
 
   function setYearActive(yearIdx: number, active: boolean) {
     patchSelected((u) => ({ ...u, years: u.years.map((y, i) => (i === yearIdx ? { ...y, active } : y)) }))
+  }
+
+  // Years are keyed by year.id, and every store (marks, curricula, schedules)
+  // is keyed off that id too — so reordering is a pure array move. Nothing to
+  // migrate.
+  function moveYear(from: number, to: number) {
+    patchSelected((u) => {
+      if (to < 0 || to >= u.years.length) return u
+      const years = [...u.years]
+      const [moved] = years.splice(from, 1)
+      years.splice(to, 0, moved)
+      return { ...u, years }
+    })
   }
 
   /** Apply an edit, moving the module and everything keyed to it when asked. */
@@ -440,6 +453,8 @@ export function AcademicSetup() {
                     <span className="text-[11.5px] text-ink-3">{y.students} students · {y.courses.length} modules · {yearTerms.length} terms</span>
                     {!yearLive && <span className="rounded-md border border-warning/30 bg-warning-tint px-1.5 py-0.5 text-[10.5px] font-semibold text-warning">Not live</span>}
                     <div className="ms-auto flex items-center gap-1.5">
+                      <button onClick={() => moveYear(i, i - 1)} disabled={i === 0} className="grid size-8 place-items-center rounded text-ink-3 enabled:hover:bg-inset enabled:hover:text-ink disabled:opacity-30" aria-label="Move year up"><Icon icon={ChevronUp} size={15} /></button>
+                      <button onClick={() => moveYear(i, i + 1)} disabled={i === uni.years.length - 1} className="grid size-8 place-items-center rounded text-ink-3 enabled:hover:bg-inset enabled:hover:text-ink disabled:opacity-30" aria-label="Move year down"><Icon icon={ChevronDown} size={15} /></button>
                       <Toggle checked={y.active !== false} onChange={(next) => setYearActive(i, next)} label={`${y.year} is live to students`} />
                       <Button variant="ghost" size="sm" iconLeft={Plus} onClick={() => addTerm(i)}>Add term</Button>
                       <button onClick={() => setRemovingYear(i)} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label="Remove year"><Icon icon={Trash2} size={14} /></button>
