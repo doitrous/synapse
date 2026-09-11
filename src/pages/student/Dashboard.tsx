@@ -5,6 +5,7 @@ import { ExamCountdown } from '@/components/dashboard/ExamCountdown'
 import { ProgressRingStack } from '@/components/dashboard/ProgressTrio'
 import { StudyRhythmSection } from '@/components/dashboard/StudyRhythmSection'
 import { TutorialCard } from '@/components/dashboard/TutorialCard'
+import { AvailableNow } from '@/components/dashboard/AvailableNow'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
 
@@ -25,6 +26,8 @@ export function Dashboard() {
     <PageContainer>
       <div className="flex flex-col items-center gap-6 py-4 sm:py-8">
         <TodaysTarget />
+
+        <AvailableNow />
 
         {audienceUnknown && (
           <div className="w-full max-w-[60rem] rounded-lg border border-warning/30 bg-warning-tint px-4 py-3 text-[13px] leading-relaxed text-ink-2">
