@@ -198,7 +198,7 @@ the moment the socket closes.
 | `SFU_ANNOUNCED_IP` | *(none)* | **The public IP of this machine.** Required in production. |
 | `SFU_LISTEN_IP` | `0.0.0.0` | The interface the media sockets bind to. |
 | `SFU_RTC_MIN_PORT` | `40000` | Bottom of the media port range. |
-| `SFU_RTC_MAX_PORT` | `49999` | Top of it. |
+| `SFU_RTC_MAX_PORT` | `40400` | Top of it. Must match the published port mapping. |
 | `TURN_URLS` | *(none)* | Comma-separated `turn:`/`turns:` URLs. |
 | `TURN_USERNAME` | *(none)* | |
 | `TURN_CREDENTIAL` | *(none)* | |
@@ -218,19 +218,30 @@ trying.
 WebRTC media does **not** go over the HTTP port. Open, on the host firewall and
 in Coolify's port mapping for this application:
 
-- **UDP 40000–49999** (the media itself)
-- **TCP 40000–49999** (the fallback for networks that block UDP)
+- **UDP 40000–40400** (the media itself)
+- **TCP 40000–40400** (the fallback for networks that block UDP)
 - the existing HTTP port, which already carries `/api/rooms/ws`
 
 Size the range by **four ports per member in voice** — a send and a receive
-transport, each binding UDP and TCP. The 10 000-port default is about 2 500
-concurrent speakers across every room on the host, which clears a few hundred
-students spread across many rooms with all of them in voice at once. (Earlier
-drafts defaulted to 101 ports — twenty-five speakers — and then 401 — a hundred;
-both were a trap the moment more than one room filled.) mediasoup binds a port
-only when a member actually joins voice, so a wide range costs nothing until it
-is used. A peer is capped at two transports; asking for a third replaces the one
-facing the same direction, so a member cannot take the range by looping
+transport, each binding UDP and TCP. The 401-port default is about a hundred
+concurrent *speakers* across every room on the host. Note that is speakers, not
+students: presence and chat ride the WebSocket over 443, so a few hundred
+students sitting in rooms cost nothing here — only the ones actually talking
+bind a port.
+
+**Scaling the speaker ceiling is a three-place change, made together:**
+
+1. `SFU_RTC_MIN_PORT` / `SFU_RTC_MAX_PORT` (the app's env, in Coolify)
+2. the app's **Ports Mappings** in Coolify — currently
+   `40000-40400:40000-40400/udp,40000-40400:40000-40400/tcp`
+3. the host firewall / Hetzner security group
+
+The env range **must not exceed** what the port mapping publishes. mediasoup
+binds anywhere inside its configured range; if that range is wider than the
+Docker mapping, members are handed transports on ports that never reach the host
+and their audio silently fails. For ~2 500 speakers, set all three to
+`40000–49999`. A peer is capped at two transports; asking for a third replaces
+the one facing the same direction, so a member cannot take the range by looping
 `sfu:createTransport`.
 
 If the range is changed, change it in three places: `SFU_RTC_MIN_PORT` /

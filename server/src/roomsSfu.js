@@ -45,15 +45,17 @@ export const DEFAULT_STUN_URL = 'stun:stun.l.google.com:19302'
  */
 export function sfuConfig(env = process.env) {
   // Four ports per member in voice (UDP + TCP on each of a send and a receive
-  // transport). The old 101-port default capped the host at about twenty-five
-  // concurrent speakers — barely one full room — which is not a default, it is
-  // a trap. 10 000 ports is roughly 2 500 concurrent speakers, which clears a
-  // few hundred students across many rooms with all of them in voice at once.
-  // The firewall/security group must open this whole UDP+TCP range (see
-  // docs/rooms-voice.md); mediasoup binds ports lazily, so a wide range costs
-  // nothing until members actually join voice.
+  // transport). 401 ports is about a hundred concurrent speakers across every
+  // room on the host — comfortably more than a few hundred *present* students
+  // (presence and chat ride the WebSocket over 443, not these ports; only
+  // members actually talking bind here). The default MUST match the ports the
+  // deployment publishes: mediasoup binds anywhere in this range, so a range
+  // wider than the Docker port mapping / firewall hands members transports on
+  // unreachable ports and breaks voice. To raise the concurrent-speaker ceiling
+  // you change three things together — this env pair, the Coolify port mapping,
+  // and the host firewall — see docs/rooms-voice.md. Do not widen one alone.
   const min = Number(env.SFU_RTC_MIN_PORT) || 40000
-  const max = Number(env.SFU_RTC_MAX_PORT) || 49999
+  const max = Number(env.SFU_RTC_MAX_PORT) || 40400
   return {
     listenIp: env.SFU_LISTEN_IP || '0.0.0.0',
     // No default is possible: this is the address other people's browsers dial,
