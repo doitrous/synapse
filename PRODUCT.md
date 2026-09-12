@@ -8,11 +8,12 @@ web
 
 ## Stack
 
-Delegated: React 19 + Vite + TypeScript + Tailwind CSS v4, with `react-router-dom`
-and `lucide-react`. Chosen for a component-driven prototype spanning many
-interactive surfaces (whiteboard, charts, calendar) that runs with a single
-`npm run dev` and leaves a clean path to a real backend. Fonts are self-hosted
-via Fontsource (offline, no external requests).
+React 19 + Vite + TypeScript + Tailwind CSS v4, with `react-router-dom` and
+`lucide-react`, spanning many interactive surfaces (whiteboard, charts,
+calendar). Backed by a Node/Express + MariaDB API with Supabase Auth, plus
+native iOS (Swift) and Android (Kotlin) clients that share the same API. Runs in
+demo mode with `npm run dev` (localStorage, seeded data) or in live mode against
+`server/`. Fonts are self-hosted via Fontsource (offline, no external requests).
 
 ## Users
 
@@ -51,10 +52,12 @@ Together, Billing) and an Admin console (Control Dashboard, Academic/Library/
 Questions/Practical Setup, Resources & Media, Email & Automations, Payments &
 Finance, Privacy & Support, Settings, Audit & Security).
 
-Constraint: this is a **front-end prototype** with a typed mock data layer
-(`src/data/`). No real authentication, database, or payment processing. Content
-is realistic and illustrative for undergraduate medicine — **not** clinical
-guidance, and not claimed as authoritative.
+The web app runs in two modes: a **demo mode** (typed local data in `src/data/`,
+no backend) for offline preview, and a **live mode** with real Supabase
+authentication, MariaDB persistence, media storage, email, and payment
+processing through `server/`. Medical content is authored for undergraduate
+medicine and is a study aid — **not** clinical guidance, and not claimed as
+authoritative.
 
 Build status: **all three phases shipped.** Phase 1 — design system, app shell,
 landing, Student Dashboard. Phase 2 — the 10 remaining student surfaces. Phase 3 —
@@ -70,10 +73,11 @@ route falls back to an "on the build plan" placeholder.
 
 ## Evidence on Hand
 
-None real. All names, schedules, questions, resources, and metrics in
-`src/data/student.ts` are authored placeholders labelled illustrative. Any future
-commercial claim (pricing, institutional customers, benchmarks) must be supplied
-as real data, not invented.
+Demo-mode data in `src/data/student.ts` (names, schedules, sample metrics) is
+authored and illustrative. Live-mode content is real medical material authored
+through the admin console and content pipeline across multiple Egyptian
+universities. Any commercial claim (pricing, institutional customers,
+benchmarks) must be backed by real data, not invented.
 
 ## Product Principles
 
