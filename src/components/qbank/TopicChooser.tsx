@@ -1,4 +1,4 @@
-import { useMemo, useState, type Dispatch, type SetStateAction } from 'react'
+import { useCallback, useMemo, useState, type Dispatch, type SetStateAction } from 'react'
 import { ChevronRight, Check } from 'lucide-react'
 import { subjects } from '@/data/subjects'
 import type { Subject } from '@/data/types'
@@ -11,8 +11,10 @@ import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 import {
   chooserTopics,
+  countTopicsQuestions,
   filterTopicsInContainer,
   matchesQuery,
+  questionsInScope,
   scopeCounts,
   topicInModule,
   topicKey,
@@ -65,6 +67,7 @@ function SubjectGroup({
   allTopics,
   value,
   counts,
+  questionCount,
   isOpen,
   onToggleOpen,
   toggleSubject,
@@ -90,6 +93,8 @@ function SubjectGroup({
   allTopics: LibTopic[]
   value: Scope
   counts: { topics: Record<string, number>; subtopics: Record<string, number> }
+  /** Distinct questions this system covers (deduped), not the sum of row badges. */
+  questionCount: number
   isOpen: boolean
   onToggleOpen: () => void
   toggleSubject: (subjectId: string) => void
@@ -112,7 +117,6 @@ function SubjectGroup({
   const anyGranular = allTopics.some((topic) => topic.subtopics.some((sub) => value.has(subtopicKey(sub.id))))
   const allSelected = allTopics.length > 0 && selectedTopics.length === allTopics.length
   const someSelected = selectedTopics.length > 0 || anyGranular
-  const questionCount = allTopics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
   const chapterWord = allTopics.length === 1 ? t('{n} chapter') : t('{n} chapters')
   const closedCount = `${chapterWord.replace('{n}', String(allTopics.length))} · ${questionCount}`
   const openCount = t('{n} of {m}').replace('{n}', String(selectedTopics.length)).replace('{m}', String(allTopics.length))
@@ -258,6 +262,13 @@ export function TopicChooser({
     () => (countPool ? scopeCounts(countPool, libraryTopics) : existsCounts),
     [countPool, libraryTopics, existsCounts],
   )
+  // Distinct-question count for any set of topics, deduped the same way the year
+  // total is. The displayed headers/totals route through this instead of summing
+  // per-topic `counts`, which double-counts questions filed under several topics.
+  const countTopicSet = useCallback(
+    (topicSet: LibTopic[]) => countTopicsQuestions(countPool ?? pool, topicSet, libraryTopics),
+    [countPool, pool, libraryTopics],
+  )
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   /** Systems start closed: the list is a menu of twenty, not a wall of chapters. */
   const [openSubjects, setOpenSubjects] = useState<Record<string, boolean>>({})
@@ -287,8 +298,11 @@ export function TopicChooser({
   const activeGrouping: 'module' | 'system' = !groupingTouched && audienceUnknown ? 'system' : grouping
 
   const groups = useMemo(() => subjects
-    .map((subj) => ({ subj, topics: libraryTopics.filter((tp) => tp.subjectId === subj.id && existsCounts.topics[tp.id] > 0) }))
-    .filter((g) => g.topics.length > 0), [libraryTopics, existsCounts])
+    .map((subj) => {
+      const topics = libraryTopics.filter((tp) => tp.subjectId === subj.id && existsCounts.topics[tp.id] > 0)
+      return { subj, topics, count: countTopicSet(topics) }
+    })
+    .filter((g) => g.topics.length > 0), [libraryTopics, existsCounts, countTopicSet])
 
   /**
    * Module → system → topic grouping.
@@ -321,12 +335,15 @@ export function TopicChooser({
         (topic) => existsCounts.topics[topic.id] > 0 && topicInModule(topic, pool, articleIds, moduleTokens),
       )
       const systemGroups = subjects
-        .map((subj) => ({ subj, topics: moduleTopics.filter((tp) => tp.subjectId === subj.id) }))
+        .map((subj) => {
+          const topics = moduleTopics.filter((tp) => tp.subjectId === subj.id)
+          return { subj, topics, count: countTopicSet(topics) }
+        })
         .filter((g) => g.topics.length > 0)
-      const questionCount = moduleTopics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
+      const questionCount = countTopicSet(moduleTopics)
       return { moduleId: mod.moduleId, moduleName: mod.moduleName, topics: moduleTopics, systemGroups, questionCount }
     })
-  }, [moduleContent.groups, libraryTopics, existsCounts, pool, counts])
+  }, [moduleContent.groups, libraryTopics, existsCounts, pool, countTopicSet])
 
   /**
    * The modules that actually have something to offer. Still what decides
@@ -455,16 +472,16 @@ export function TopicChooser({
     (topic) => value.has(topicKey(topic.id)) || topic.subtopics.some((s) => value.has(subtopicKey(s.id))),
   )
   const totalTopics = activeTopics.length
-  const totalQuestionCount = activeTopics.reduce((sum, topic) => sum + (counts.topics[topic.id] ?? 0), 0)
+  const totalQuestionCount = countTopicSet(activeTopics)
 
   /** Chapters with anything ticked in them, whole or granular — what "in scope" means. */
   const scopeChapters = activeTopics.filter(
     (topic) => value.has(topicKey(topic.id)) || topic.subtopics.some((s) => value.has(subtopicKey(s.id))),
   )
-  const scopeQuestionCount = scopeChapters.reduce((sum, topic) => {
-    if (value.has(topicKey(topic.id))) return sum + (counts.topics[topic.id] ?? 0)
-    return sum + topic.subtopics.reduce((n, sub) => (value.has(subtopicKey(sub.id)) ? n + (counts.subtopics[sub.id] ?? 0) : n), 0)
-  }, 0)
+  // The distinct questions the current selection actually draws — the same
+  // `questionsInScope` the session builder runs, so this number matches the
+  // test it produces instead of summing (and over-counting) per-topic badges.
+  const scopeQuestionCount = value.size === 0 ? 0 : questionsInScope(countPool ?? pool, value, libraryTopics).length
 
   const chaptersLabel = (n: number) => (n === 1 ? t('{n} chapter') : t('{n} chapters')).replace('{n}', String(n))
   const questionsLabel = (n: number) => (n === 1 ? t('{n} question') : t('{n} questions')).replace('{n}', String(n))
@@ -566,7 +583,7 @@ export function TopicChooser({
       </div>
       {activeGrouping === 'system' ? (
         <div className="max-h-[22rem] divide-y divide-line/60 overflow-y-auto">
-          {visibleGroups.length === 0 ? noSearchHits : visibleGroups.map(({ subj, topics, allTopics }) => (
+          {visibleGroups.length === 0 ? noSearchHits : visibleGroups.map(({ subj, topics, allTopics, count }) => (
             <SubjectGroup
               key={subj.id}
               subj={subj}
@@ -574,6 +591,7 @@ export function TopicChooser({
               allTopics={allTopics}
               value={value}
               counts={counts}
+              questionCount={count}
               // A system holding a search hit opens itself; the student's own
               // open/closed state is left untouched underneath it.
               isOpen={searching || (openSubjects[subj.id] ?? false)}
@@ -644,7 +662,7 @@ export function TopicChooser({
                 </button>
                 {isOpen && (
                   <div className="divide-y divide-line/60 border-t border-line/60">
-                    {mod.systemGroups.map(({ subj, topics, allTopics }) => {
+                    {mod.systemGroups.map(({ subj, topics, allTopics, count }) => {
                       // Keyed by module + subject: the same system can appear
                       // under more than one module, each with a different
                       // topic slice, and each occurrence opens/closes and
@@ -658,6 +676,7 @@ export function TopicChooser({
                           allTopics={allTopics}
                           value={value}
                           counts={counts}
+                          questionCount={count}
                           isOpen={searching || (openSubjects[rowKey] ?? false)}
                           onToggleOpen={() => setOpenSubjects((current) => ({ ...current, [rowKey]: !(current[rowKey] ?? false) }))}
                           toggleSubject={() => toggleSubjectTopics(topics)}

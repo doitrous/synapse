@@ -55,6 +55,22 @@ export function questionsInScope(pool: Question[], scope: Scope, libraryTopics: 
 }
 
 /**
+ * How many *distinct* questions a set of whole topics covers.
+ *
+ * The per-topic `scopeCounts` map is right for a single row's badge, but
+ * summing it across topics double-counts: a question filed under two topics
+ * (two library refs, or a title + a ref) is added to both tallies, and a topic
+ * claimed by two modules is summed under each. That is why a module could read
+ * far more questions than the bank holds. Counting through `questionsInScope`
+ * instead dedupes exactly the way the year total does, so the numbers reconcile.
+ */
+export function countTopicsQuestions(pool: Question[], topics: LibTopic[], libraryTopics: LibTopic[]): number {
+  if (topics.length === 0) return 0
+  const scope: Scope = new Set(topics.map((topic) => topicKey(topic.id)))
+  return questionsInScope(pool, scope, libraryTopics).length
+}
+
+/**
  * Narrow a question set to the chosen MCQ source buckets. An empty selection
  * means "all sources" — the pre-feature behaviour — so an untouched builder is
  * unchanged. Untagged questions match only when the `'unspecified'` bucket is

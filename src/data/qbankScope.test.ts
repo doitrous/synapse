@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { chooserTopics, filterTopicsByQuery, filterTopicsInContainer, isQuestionTopic, matchesQuery, questionsInScope, questionsInSources, scopeCounts, topicInModule, topicKey } from './qbankScope.ts'
+import { chooserTopics, countTopicsQuestions, filterTopicsByQuery, filterTopicsInContainer, isQuestionTopic, matchesQuery, questionsInScope, questionsInSources, scopeCounts, topicInModule, topicKey } from './qbankScope.ts'
 import type { Question } from './qbank.ts'
 import type { LibTopic } from './library.ts'
 import type { QuestionSource, SourceBucket } from './questionSource.ts'
@@ -43,6 +43,22 @@ const LIBRARY: LibTopic[] = [{
   subjectId: 'cvs',
   subtopics: [{ id: 'hf-path', title: 'Pathophysiology' } as LibTopic['subtopics'][number]],
 }]
+
+test('countTopicsQuestions counts a multi-topic question once, not once per topic', () => {
+  // The count-discrepancy bug: one question filed under two topics (by title and
+  // by a library ref to the other) was summed into both topics' tallies, so the
+  // module/total badges read higher than the bank holds. The deduped count is 1.
+  const topics: LibTopic[] = [
+    { id: 'a', title: 'Topic A', subjectId: 'cvs', subtopics: [{ id: 'a-1', title: 'Sub A' } as LibTopic['subtopics'][number]] },
+    { id: 'b', title: 'Topic B', subjectId: 'cvs', subtopics: [] },
+  ]
+  const q = question('q1', 'cvs', 'Topic B', ['a-1']) // matches Topic B by title AND Topic A by ref
+  const counts = scopeCounts([q], topics)
+  // scopeCounts (per-topic, correct per row) tallies the question under both.
+  assert.equal(counts.topics['a'] + counts.topics['b'], 2)
+  // The distinct count over both topics is 1 — the number summing got wrong.
+  assert.equal(countTopicsQuestions([q], topics, topics), 1)
+})
 
 test('a topic the library already covers is not duplicated', () => {
   const pool = [question('q1', 'cvs', 'Heart failure')]
