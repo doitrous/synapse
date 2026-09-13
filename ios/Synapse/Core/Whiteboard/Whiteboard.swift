@@ -105,7 +105,7 @@ struct BoardState: Codable, Equatable, Sendable {
     var inkAbove: Bool?
 
     /// The retired single-board key. Read once to migrate, never written again.
-    static let legacyStorageKey = "synapse.whiteboard.board"
+    static let legacyStorageKey = "nishany.whiteboard.board"
     static let empty = BoardState()
 }
 

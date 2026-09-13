@@ -102,7 +102,7 @@ struct RecentResource: Codable, Identifiable, Equatable, Sendable {
     /// Enough to fill the panel and show a little history, without unbounded
     /// growth.
     static let limit = 10
-    static let key = "synapse.progress.recentResources.v1"
+    static let key = "nishany.progress.recentResources.v1"
 
     /// Re-opening moves a document to the front rather than listing it twice.
     static func noting(_ opened: RecentResource, in current: [RecentResource]) -> [RecentResource] {

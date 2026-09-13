@@ -47,7 +47,7 @@ struct AttemptIndex: Codable, Equatable, Sendable {
 }
 
 enum AttemptStore {
-    static let indexKey = "synapse.progress.attemptIndex.v1"
+    static let indexKey = "nishany.progress.attemptIndex.v1"
 
     /// `YYYY-MM` — the shard a timestamp belongs to.
     ///
@@ -60,7 +60,7 @@ enum AttemptStore {
         return String(format: "%04d-%02d", parts.year ?? 0, parts.month ?? 0)
     }
 
-    static func monthKey(_ month: String) -> String { "synapse.progress.attempts.\(month)" }
+    static func monthKey(_ month: String) -> String { "nishany.progress.attempts.\(month)" }
 }
 
 /// How well a concept is known.
@@ -77,5 +77,5 @@ struct ConceptMastery: Codable, Equatable, Sendable {
 }
 
 enum MasteryStore {
-    static let key = "synapse.progress.mastery.v1"
+    static let key = "nishany.progress.mastery.v1"
 }

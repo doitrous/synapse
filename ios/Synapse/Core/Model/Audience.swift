@@ -33,7 +33,7 @@ struct StudentAudience: Codable, Equatable, Hashable, Sendable {
 
     /// Where a student records their own cohort when the roster has none.
     /// The same key the web app uses, so setting it on one shows on the other.
-    static let storageKey = "synapse.account.audience.v1"
+    static let storageKey = "nishany.account.audience.v1"
 }
 
 /// Deciding whether a piece of content is meant for a given cohort.

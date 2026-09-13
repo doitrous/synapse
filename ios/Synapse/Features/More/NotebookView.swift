@@ -221,7 +221,7 @@ private struct NoteEditor: View {
 
     /// Reading or writing. Device-scoped, as on the web: whether you are
     /// reading your notes or editing them is about the moment, not the account.
-    @AppStorage("synapse.notebook.reading") private var reading = false
+    @AppStorage("nishany.notebook.reading") private var reading = false
     @State private var tagDraft = ""
 
     init(note: Note, save: @escaping (Note) -> Void) {

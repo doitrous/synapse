@@ -20,7 +20,7 @@ struct FlashcardGenerateTests {
     private var occ: FlashcardNote {
         FlashcardNote(id: "n3", type: .imageOcclusion, deckId: "d1", tags: [], createdAt: "", updatedAt: "",
                       fields: NoteFields(back: "", header: ""),
-                      image: "synapse-media:img", imageWidth: 100, imageHeight: 100,
+                      image: "nishany-media:img", imageWidth: 100, imageHeight: 100,
                       occluders: [
                         Occluder(id: "o1", shape: OccluderShape(kind: .rect, x: 0, y: 0, w: 10, h: 10), label: "", groupId: nil),
                         Occluder(id: "o2", shape: OccluderShape(kind: .rect, x: 20, y: 0, w: 10, h: 10), label: "", groupId: "g1"),

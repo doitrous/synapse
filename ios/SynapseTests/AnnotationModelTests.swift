@@ -153,11 +153,11 @@ struct AnnotationModelTests {
             #expect(scope == "r-src_3cbca0e699baf9104cb9")
             #expect(
                 AnnotationKey.manifestKey(scope: scope)
-                    == "synapse.annotations.v1.r-src_3cbca0e699baf9104cb9.idx"
+                    == "nishany.annotations.v1.r-src_3cbca0e699baf9104cb9.idx"
             )
             #expect(
                 AnnotationKey.shardKey(scope: scope, index: 3)
-                    == "synapse.annotations.v1.r-src_3cbca0e699baf9104cb9.s3"
+                    == "nishany.annotations.v1.r-src_3cbca0e699baf9104cb9.s3"
             )
         }
 

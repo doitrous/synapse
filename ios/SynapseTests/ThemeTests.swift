@@ -113,7 +113,7 @@ struct ThemeStoreTests {
     /// The web keeps the theme under this key, and it is device-scoped: a
     /// student on a phone in a dark room has not chosen dark on their laptop.
     @Test func theKeyIsTheWebs() {
-        #expect(AppTheme.key == "synapse-theme")
+        #expect(AppTheme.key == "nishany-theme")
     }
 
     @MainActor

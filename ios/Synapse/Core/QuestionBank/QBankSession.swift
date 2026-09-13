@@ -52,7 +52,7 @@ struct LiveSession: Codable, Equatable, Sendable {
     /// ISO 8601.
     var startedAt: String
 
-    static let key = "synapse.qbank.activeSession.v1"
+    static let key = "nishany.qbank.activeSession.v1"
 }
 
 /// What the navigator shows for one question.

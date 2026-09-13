@@ -85,7 +85,7 @@ final class ResourceModel {
     /// the tap.
     private(set) var bookmarkProblem: String?
 
-    static let bookmarksKey = "synapse.bookmarks.resources.v1"
+    static let bookmarksKey = "nishany.bookmarks.resources.v1"
 
     private let store: LocalStore
     private let sync: SyncEngine
@@ -199,7 +199,7 @@ final class ResourceModel {
             }
         }
 
-        static let key = "synapse.resources.groupBy"
+        static let key = "nishany.resources.groupBy"
     }
 
     /// Group the shelf. Resources with nothing recorded collect at the end

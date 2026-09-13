@@ -11,7 +11,7 @@ import Foundation
 /// phone never strips a board of its web-authored ink or pictures.
 
 /// The board key the live web reads and writes.
-let whiteboardCollectionKey = "synapse.whiteboard.boards.v1"
+let whiteboardCollectionKey = "nishany.whiteboard.boards.v1"
 
 struct WhiteboardCollaborator: Codable, Equatable, Sendable {
     var userId: String

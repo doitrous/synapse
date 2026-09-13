@@ -51,7 +51,7 @@ struct Note: Codable, Identifiable, Equatable, Sendable {
     /// ISO timestamp of the last edit.
     var updatedAt: String
 
-    static let storageKey = "synapse.notebook.notes"
+    static let storageKey = "nishany.notebook.notes"
 
     init(
         id: String,

@@ -83,7 +83,7 @@ struct FlashcardModelTests {
         let sched = SM2Scheduler()
         let basic = FlashcardNote(
             id: "n1", type: .basic, deckId: "d1", tags: ["cardio"], createdAt: "t1", updatedAt: "t1",
-            fields: NoteFields(front: "front", back: "back", audio: "synapse-media:a1"),
+            fields: NoteFields(front: "front", back: "back", audio: "nishany-media:a1"),
             image: nil, imageWidth: nil, imageHeight: nil, occluders: nil, groups: nil, mode: nil
         )
         let cloze = FlashcardNote(
@@ -94,7 +94,7 @@ struct FlashcardModelTests {
         let occlusion = FlashcardNote(
             id: "n3", type: .imageOcclusion, deckId: "d1", tags: [], createdAt: "t3", updatedAt: "t3",
             fields: NoteFields(back: "extra", header: "Heart"),
-            image: "synapse-media:img1", imageWidth: 800, imageHeight: 600,
+            image: "nishany-media:img1", imageWidth: 800, imageHeight: 600,
             occluders: [
                 Occluder(id: "o1", shape: OccluderShape(kind: .rect, x: 1, y: 2, w: 3, h: 4), label: "aorta", groupId: nil),
                 Occluder(id: "o2", shape: OccluderShape(kind: .polygon, points: [OcclusionPoint(x: 0, y: 0), OcclusionPoint(x: 5, y: 5)]), label: "apex", groupId: "g1"),

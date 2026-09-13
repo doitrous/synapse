@@ -19,7 +19,7 @@ struct LocalisationTests {
     /// it in `USER_OWNED_PATTERNS`; if this drifted, a language chosen on a
     /// laptop would not follow to the phone.
     @Test func theLanguageKeyIsTheWebs() {
-        #expect(Localisation.key == "synapse-lang")
+        #expect(Localisation.key == "nishany-lang")
         #expect(StateOwnership.isUserOwned(Localisation.key))
     }
 

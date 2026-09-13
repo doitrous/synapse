@@ -25,8 +25,8 @@ import Observation
 @Observable
 final class FlashcardStore {
 
-    static let collectionKey = "synapse.flashcards.collection.v2"
-    static let reviewLogKey = "synapse.flashcards.reviewlog.v2"
+    static let collectionKey = "nishany.flashcards.collection.v2"
+    static let reviewLogKey = "nishany.flashcards.reviewlog.v2"
     /// The web's own ceiling on the log, applied on every write.
     static let reviewLogCap = 50_000
 

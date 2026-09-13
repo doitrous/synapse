@@ -9,9 +9,9 @@ struct WhiteboardCollectionTests {
     private let now = ISO8601DateFormatter.synapse.date(from: "2026-08-29T09:00:00.000Z")!
 
     @Test func theKeyIsTheLiveBoardsKeyAndIsUserOwned() {
-        #expect(whiteboardCollectionKey == "synapse.whiteboard.boards.v1")
+        #expect(whiteboardCollectionKey == "nishany.whiteboard.boards.v1")
         #expect(StateOwnership.isUserOwned(whiteboardCollectionKey))
-        #expect(BoardState.legacyStorageKey == "synapse.whiteboard.board")
+        #expect(BoardState.legacyStorageKey == "nishany.whiteboard.board")
     }
 
     // MARK: lossless preservation

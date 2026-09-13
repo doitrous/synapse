@@ -9,31 +9,31 @@ import Foundation
 /// never reads, and their work would simply not be there when they opened a
 /// laptop. Neither side would report an error.
 ///
-/// The convention the patterns encode: a dotted prefix (`synapse.qbank.…`)
+/// The convention the patterns encode: a dotted prefix (`nishany.qbank.…`)
 /// means the document belongs to one student.
 enum StateOwnership {
 
     private static let userOwnedPatterns: [NSRegularExpression] = {
         let sources = [
-            "^synapse-lang$",
-            "^synapse\\.notebook\\.",
-            "^synapse\\.whiteboard\\.",
-            "^synapse\\.calendar\\.blocks$",
-            "^synapse\\.library\\.(read|userArticles|personalTags|marks)",
-            "^synapse\\.account\\.",
-            "^synapse-notification-read-v1-",
-            "^synapse-applied-voucher-v1$",
-            "^synapse\\.qbank\\.",
-            "^synapse\\.flashcards\\.",
-            "^synapse\\.practical\\.",
-            "^synapse\\.essay\\.",
-            "^synapse\\.highlights\\.",
-            "^synapse\\.annotations\\.",
-            "^synapse\\.reader\\.",
-            "^synapse\\.bookmarks\\.",
-            "^synapse\\.progress\\.",
-            "^synapse\\.myDocuments\\.",
-            "^synapse\\.termgrid\\.",
+            "^nishany-lang$",
+            "^nishany\\.notebook\\.",
+            "^nishany\\.whiteboard\\.",
+            "^nishany\\.calendar\\.blocks$",
+            "^nishany\\.library\\.(read|userArticles|personalTags|marks)",
+            "^nishany\\.account\\.",
+            "^nishany-notification-read-v1-",
+            "^nishany-applied-voucher-v1$",
+            "^nishany\\.qbank\\.",
+            "^nishany\\.flashcards\\.",
+            "^nishany\\.practical\\.",
+            "^nishany\\.essay\\.",
+            "^nishany\\.highlights\\.",
+            "^nishany\\.annotations\\.",
+            "^nishany\\.reader\\.",
+            "^nishany\\.bookmarks\\.",
+            "^nishany\\.progress\\.",
+            "^nishany\\.myDocuments\\.",
+            "^nishany\\.termgrid\\.",
         ]
         return sources.compactMap { try? NSRegularExpression(pattern: $0) }
     }()

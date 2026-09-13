@@ -64,7 +64,7 @@ struct StudentIdDiscount: Codable, Equatable, Sendable {
     var enabled: Bool = false
     var percent: Int = 5
 
-    static let key = "synapse-student-id-discount-v1"
+    static let key = "nishany-student-id-discount-v1"
 
     /// What this takes off a price, or nothing.
     ///
@@ -96,7 +96,7 @@ struct StudentIdSubmission: Codable, Equatable, Sendable {
     var status: StudentIdStatus
 
     /// The student's own, so dotted.
-    static let key = "synapse.account.student-id.v1"
+    static let key = "nishany.account.student-id.v1"
 }
 
 /// The subscription row behind the entitlement, when there is one.
@@ -173,7 +173,7 @@ final class BillingModel {
 
         async let remoteCatalog = try? api.state(PlanCatalog.self, key: PlanCatalog.key)
         async let remoteOffer = try? api.state(StudentIdDiscount.self, key: StudentIdDiscount.key)
-        async let remoteVouchers = try? api.state([Voucher].self, key: "synapse-vouchers-v1")
+        async let remoteVouchers = try? api.state([Voucher].self, key: "nishany-vouchers-v1")
         async let remoteSubmission = try? api.userState(StudentIdSubmission.self, key: StudentIdSubmission.key)
         async let me = try? api.me()
         async let mine = try? api.myVoucher()

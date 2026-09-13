@@ -12,8 +12,8 @@ struct FlashcardStoreTests {
         #expect(StateOwnership.isUserOwned(FlashcardStore.collectionKey))
         #expect(StateOwnership.isUserOwned(FlashcardStore.reviewLogKey))
         // Regression guard on the exact web key strings.
-        #expect(FlashcardStore.collectionKey == "synapse.flashcards.collection.v2")
-        #expect(FlashcardStore.reviewLogKey == "synapse.flashcards.reviewlog.v2")
+        #expect(FlashcardStore.collectionKey == "nishany.flashcards.collection.v2")
+        #expect(FlashcardStore.reviewLogKey == "nishany.flashcards.reviewlog.v2")
     }
 
     @Test func newIdCarriesItsPrefix() {
