@@ -1,0 +1,19 @@
+# Scope graphify to CODE, not the content corpus.
+# Syntax = .gitignore. .gitignore is honored too (node_modules, dist, etc.).
+
+# Content / curriculum data (thousands of .md/.json/.tsv — not code)
+docs/
+en/
+ar/
+"Instruction Manual for Content Creation/"
+
+# Derived / generated
+coverage/
+public/
+reports/
+graphify-out/
+.gates/
+.claude/
+
+# Data blobs living beside the tooling code (keep the .py/.mjs, drop the data)
+**/*.tsv
