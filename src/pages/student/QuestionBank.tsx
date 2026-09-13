@@ -1538,13 +1538,17 @@ export function QuestionBank() {
           right answer's explanation first, and the rest on demand. Native
           <details>, so no extra state. */}
       {otherWrong.length > 0 && (
-        <details className="group space-y-2.5 rounded-lg border border-line bg-surface px-3 py-2.5">
-          <summary className="flex cursor-pointer list-none items-center gap-2 text-[12px] font-semibold text-ink-2">
-            <ChevronRight size={14} className="shrink-0 text-ink-3 transition-transform group-open:rotate-90 rtl:rotate-180 rtl:group-open:rotate-90" />
-            {t('Why the other answers are wrong')}
-            <span className="tnum font-mono text-[11.5px] text-ink-3">({otherWrong.length})</span>
+        <details className="group overflow-hidden rounded-xl border border-danger/40 bg-danger-tint/40">
+          {/* Its own banner, deliberately loud — the wrong-answer breakdown is the
+              highest-value part of a review, so it reads as a call to action, not
+              a footnote tucked inside the explanations card. */}
+          <summary className="flex cursor-pointer list-none items-center gap-2 bg-danger-tint px-3.5 py-3 text-[13px] font-semibold text-danger">
+            <AlertTriangle size={16} className="shrink-0" />
+            <span className="flex-1">{t('Why the other answers are wrong')}</span>
+            <span className="tnum rounded-full bg-danger/15 px-2 py-0.5 font-mono text-[11.5px] text-danger">{otherWrong.length}</span>
+            <ChevronRight size={16} className="shrink-0 transition-transform group-open:rotate-90 rtl:rotate-180 rtl:group-open:rotate-90" />
           </summary>
-          <div className="space-y-2.5 pt-0.5">
+          <div className="space-y-2.5 p-3">
             {otherWrong.map(({ opt, i }) => (
               <div key={i} className="rounded-lg border border-line bg-surface-2/50 px-3 py-2.5">
                 <div className="flex items-center gap-2">
