@@ -21,7 +21,10 @@ android {
     namespace = "com.synapse.app"
     compileSdk = 36
     defaultConfig {
-        applicationId = "com.synapse.app"
+        // Play Store identity is the nishany brand. The Kotlin `namespace`
+        // (R class, imports) stays com.synapse.app — invisible to users and not
+        // worth the churn — and the synapse.* wire state keys are untouched.
+        applicationId = "com.nishany.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
