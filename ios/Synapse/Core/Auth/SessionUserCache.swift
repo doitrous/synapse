@@ -45,7 +45,7 @@ struct ForgetfulSessionUserCache: SessionUserCache {
 /// own sign-in.
 final class KeychainSessionUserCache: SessionUserCache {
 
-    private let service = "com.synapse.app.session-user"
+    private let service = "com.nishany.app.session-user"
     private let account = "current"
 
     func readUser() -> SessionUser? {

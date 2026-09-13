@@ -130,7 +130,7 @@ struct SynapseAPI {
     /// than reached for, so this type can be tested without an auth stack.
     typealias TokenProvider = @Sendable () async throws -> String?
 
-    static let log = Logger(subsystem: "com.synapse.app", category: "api")
+    static let log = Logger(subsystem: "com.nishany.app", category: "api")
 
     #if DEBUG
     /// Debug diagnostics the sign-in screen surfaces. Written from `send` on

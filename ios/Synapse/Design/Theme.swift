@@ -71,7 +71,7 @@ extension EnvironmentValues {
     }
 }
 
-/// The Connect Cortex palette, ported from the `@theme` block in
+/// The nishany palette, ported from the `@theme` block in
 /// `src/index.css`.
 ///
 /// **Two hues, and which is which matters.** `primary` is cortex crimson and is

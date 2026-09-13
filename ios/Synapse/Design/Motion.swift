@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// The Connect Cortex motion tokens.
+/// The nishany motion tokens.
 ///
 /// Ported from `src/index.css`. Interface response is 100–250ms on
 /// `ease-out-quint`; anything slower reads as the app thinking rather than the

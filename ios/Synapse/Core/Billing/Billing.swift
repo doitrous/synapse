@@ -4,7 +4,7 @@ import Observation
 /// Vouchers, the student-ID offer, and what the student is actually subscribed
 /// to.
 ///
-/// There is no payment provider in Connect Cortex. Nothing here offers to take
+/// There is no payment provider in nishany. Nothing here offers to take
 /// a payment, change a plan or cancel one, because none of those are things the
 /// app can do — the subscription is granted by the team, and this screen says
 /// so rather than showing buttons that do nothing.

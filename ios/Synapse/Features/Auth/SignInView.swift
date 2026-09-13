@@ -39,7 +39,7 @@ struct SignInView: View {
     /// enough that typing a password by hand is not a reliable way to reach the
     /// screens behind this one.
     ///
-    ///     xcrun simctl launch <udid> com.synapse.app \
+    ///     xcrun simctl launch <udid> com.nishany.app \
     ///         -SynapseTestEmail you@example.com -SynapseTestPassword secret
     private static var launchCredentials: (email: String, password: String)? {
         #if DEBUG
