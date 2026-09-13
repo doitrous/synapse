@@ -15,7 +15,10 @@ test('every mounted student page has an explicit loading contract', () => {
 })
 test('every mounted admin page and nested editor has a loading contract', () => {
   const keys = keysBetween('const adminBuilt:', '// Keep mounted routes')
-  assert.ok(keys.length > 25)
+  // Floor, not an exact count: it guards against the regex silently matching
+  // nothing, so it sits a little under the real number (20 after the console
+  // tabs were consolidated) rather than tracking it exactly.
+  assert.ok(keys.length > 18)
   for (const key of ['', ...keys]) assert.ok(key in ADMIN_LOADING_LAYOUTS, key)
   for (const match of router.matchAll(/guarded\('([^']+)'/g)) assert.notEqual(loadingLayoutFor(`/admin/${match[1]}`).shape, 'message', match[1])
 })
