@@ -187,7 +187,11 @@ function reduceMessage(state: RoomChannelState, message: ChannelMessage): RoomCh
   switch (message.type) {
     case 'hello': {
       const hello = message as Extract<ChannelMessage, { type: 'hello' }>
-      return { ...state, status: 'open', retrying: true, sfu: hello.sfu ?? { available: false } }
+      // The socket is open now, so it is no longer "a closed socket expected
+      // back": clear `retrying`. Leaving it true here left every connected room
+      // showing "Reconnecting. Showing the last room snapshot." for the whole
+      // session — the connection was fine, the label was stuck.
+      return { ...state, status: 'open', retrying: false, sfu: hello.sfu ?? { available: false } }
     }
 
     case 'archived':
@@ -205,6 +209,10 @@ function reduceMessage(state: RoomChannelState, message: ChannelMessage): RoomCh
       return {
         ...state,
         status: 'open',
+        // Presence can arrive before `hello`, so opening the socket clears
+        // `retrying` here too — otherwise a room that gets presence first stays
+        // labelled "Reconnecting" despite being live.
+        retrying: false,
         members: members as ChannelMember[],
         speaking: speaking.length === state.speaking.length ? state.speaking : speaking,
       }

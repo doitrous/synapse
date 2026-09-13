@@ -256,6 +256,20 @@ test('a transient drop is expected back; a refusal is not', () => {
   assert.equal(reduceChannel(live, { kind: 'closed', permanent: true }).retrying, false)
 })
 
+test('an open socket is not retrying, whichever frame opens it', () => {
+  // The reconnect banner keys on `retrying`; a connected room that keeps it true
+  // shows "Reconnecting" for the whole session. Opening clears it — via `hello`,
+  // and via `presence` for the case where presence arrives first.
+  const connecting = reduceChannel(initialChannelState, { kind: 'connecting' })
+  assert.equal(connecting.retrying, true)
+  const hello = apply(connecting, { type: 'hello', userId: 'a', roomId: 'r', sfu: { available: true } })
+  assert.equal(hello.status, 'open')
+  assert.equal(hello.retrying, false)
+  const presenceFirst = apply(connecting, { type: 'presence', members: [member('a')] })
+  assert.equal(presenceFirst.status, 'open')
+  assert.equal(presenceFirst.retrying, false)
+})
+
 test('giving up and then trying again is a new attempt, not a stale one', () => {
   const gaveUp = reduceChannel(initialChannelState, { kind: 'closed', permanent: true })
   const trying = reduceChannel(gaveUp, { kind: 'connecting' })

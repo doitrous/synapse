@@ -47,7 +47,7 @@ export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=fals
     const person=seats[index];if(!person)return null
     const personal=person.personalisation??DEFAULT_PERSONALISATION
     const slots=deskItemPositions(personal.items,person.seat.device)
-    return <div className="reference-desk-items" style={{left:`${x}%`,top:`${y}%`,width:`${scale*42}%`}} aria-hidden="true">{personal.items.map(item=>{
+    return <div key={`desk-items-${index}`} className="reference-desk-items" style={{left:`${x}%`,top:`${y}%`,width:`${scale*42}%`}} aria-hidden="true">{personal.items.map(item=>{
       const offset=(slots.get(item)??0)*30+50
       return <span key={item} className={`reference-item item-${item}`} style={{left:`${offset}%`,top:`${deskItemDepth(item)*1.1}%`}}>
         {item==='device'?<StudyDevice device={person.seat.device} facingStudent={facingStudent}/>:item==='plant'?<FurnitureSprite kind="plant"/>:item==='notebook'?<span className="reference-notebook"><i/><i/></span>:item==='cup'?<span className="reference-cup"/>:<span className="reference-note" title={personal.note}>{personal.note}</span>}
