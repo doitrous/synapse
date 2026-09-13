@@ -117,13 +117,15 @@ export function Topbar({
       </button>
 
       <nav className="flex min-w-0 flex-1 items-center gap-1.5" aria-label={t('Breadcrumb')}>
-        {/* The portal word is context, not the destination: it only earns a
-            place once the window is wide enough that the title is not the
-            thing being crowded. */}
-        <span className="hidden text-[13px] text-ink-3 lg:inline">
+        {/* The portal word links home — it is the way back to the dashboard from
+            any page, phone included; the current-page title truncates beside it. */}
+        <Link
+          to={portal === 'admin' ? '/admin' : '/app'}
+          className="shrink-0 rounded text-[13px] text-ink-3 transition-colors hover:text-ink"
+        >
           {portal === 'admin' ? t('Admin console') : t('Student')}
-        </span>
-        <span className="hidden text-ink-3 lg:inline">/</span>
+        </Link>
+        <span className="shrink-0 text-ink-3">/</span>
         <span className="truncate text-[14px] font-semibold text-ink">{t(title)}</span>
       </nav>
 

@@ -31,7 +31,7 @@ export function BuilderSummary({ matching, pool, count, summary, onStart }: Buil
 
   return (
     <>
-      <div className="rounded-xl border border-mist-line bg-mist p-5 shadow-panel lg:sticky lg:top-[4.5rem]">
+      <div className="rounded-xl border border-mist-line bg-mist p-5 shadow-panel">
         <p className="text-[14px] font-semibold text-ink">{t('This test')}</p>
         <div className="mt-4 flex items-center gap-4">
           <TargetRing

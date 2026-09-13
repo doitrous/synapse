@@ -1573,7 +1573,7 @@ export function QuestionBank() {
   ) : null
 
   return (
-    <div className="mx-auto max-w-[1500px] px-3 pt-2 pb-6 sm:px-4">
+    <div className="mx-auto max-w-[1180px] px-3 pt-2 pb-6 sm:px-4">
       {/* Top strip: the question-number grid spans the full width, and the
           timer and split toggle are embedded at the top-right of that same
           count box rather than sitting on a row of their own. */}
