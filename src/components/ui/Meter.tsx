@@ -66,12 +66,19 @@ export function Meter({
       aria-valuemin={0}
       aria-valuemax={max}
     >
+      {/* The fill slides on `transform`, not `width`: a transform transition is
+          composited on the GPU, so a screen full of meters filling at once (a
+          dashboard, the room list) stays smooth instead of re-laying-out every
+          bar each frame. `inset-0` sizes it to the track; translating it left by
+          the empty remainder reveals the fill from the start, and the track's
+          `overflow-hidden` clips the off-track part, keeping the leading edge
+          crisply rounded. */}
       <div
         className={cn(
-          'h-full rounded-full transition-[width] duration-700 ease-[var(--ease-out-quint)]',
+          'absolute inset-0 rounded-full transition-transform duration-700 ease-[var(--ease-out-quint)]',
           FILL[tone],
         )}
-        style={{ width: `${w}%` }}
+        style={{ transform: `translateX(${w - 100}%)` }}
       />
       {ticks &&
         [20, 40, 60, 80].map((t) => (
@@ -83,11 +90,16 @@ export function Meter({
           />
         ))}
       {target && !earned && (
+        // The leading dot rides the same transform as the fill, so it stays
+        // pinned to the fill's edge through the whole animation and moves on the
+        // GPU with it rather than animating `inset` on its own.
         <span
           aria-hidden
-          className="absolute top-1/2 size-2.5 -translate-y-1/2 -translate-x-1/2 rtl:translate-x-1/2 rounded-full bg-primary ring-2 ring-surface"
-          style={{ insetInlineStart: `${w}%` }}
-        />
+          className="absolute inset-0 transition-transform duration-700 ease-[var(--ease-out-quint)]"
+          style={{ transform: `translateX(${w - 100}%)` }}
+        >
+          <span className="absolute end-0 top-1/2 size-2.5 -translate-y-1/2 translate-x-1/2 rtl:-translate-x-1/2 rounded-full bg-primary ring-2 ring-surface" />
+        </span>
       )}
     </div>
   )

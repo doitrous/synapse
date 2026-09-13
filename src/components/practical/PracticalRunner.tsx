@@ -608,10 +608,10 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
             <span className="text-[13px] font-medium text-ink-2">
               {t('Decision')} <span className="tnum font-mono text-ink">{idx + 1}</span> {t('of')} {stages.length}
             </span>
-            <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
+            <div className="relative h-1 flex-1 overflow-hidden rounded-full bg-inset">
               <div
-                className="h-full rounded-full bg-primary transition-[width] duration-300"
-                style={{ width: `${((idx + 1) / stages.length) * 100}%` }}
+                className="absolute inset-0 rounded-full bg-primary transition-transform duration-300 ease-[var(--ease-out-quint)]"
+                style={{ transform: `translateX(${((idx + 1) / stages.length) * 100 - 100}%)` }}
               />
             </div>
           </div>
@@ -856,10 +856,10 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
         <span className="text-[13px] font-medium text-ink-2">
           {t('Question')} <span className="tnum font-mono text-ink">{idx + 1}</span> {t('of')} {qs.length}
         </span>
-        <div className="h-1 flex-1 overflow-hidden rounded-full bg-inset">
+        <div className="relative h-1 flex-1 overflow-hidden rounded-full bg-inset">
           <div
-            className="h-full rounded-full bg-primary transition-[width] duration-300"
-            style={{ width: `${((idx + 1) / qs.length) * 100}%` }}
+            className="absolute inset-0 rounded-full bg-primary transition-transform duration-300 ease-[var(--ease-out-quint)]"
+            style={{ transform: `translateX(${((idx + 1) / qs.length) * 100 - 100}%)` }}
           />
         </div>
       </div>
