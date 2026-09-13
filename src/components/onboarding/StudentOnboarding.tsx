@@ -361,7 +361,7 @@ export function StudentOnboarding() {
               <Field
                 label={t('Username')}
                 htmlFor="onboarding-username"
-                hint={t('Usernames are unique inside your university. The server rechecks this before approval.')}
+                hint={t('Usernames are unique across all universities. The server rechecks this before approval.')}
               >
                 <TextInput
                   id="onboarding-username"

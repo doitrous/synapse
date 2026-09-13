@@ -853,13 +853,18 @@ export function normaliseProfileIcon(value) {
   return /^[a-z][a-z0-9_-]{1,63}$/i.test(icon) ? icon : null
 }
 
-export async function usernameConflict(conn, { universityId, usernameNormalized, studentId }) {
-  if (!universityId || !usernameNormalized) return false
+// Usernames are unique across the whole platform, not per university:
+// `@cardio-sara` can be claimed by exactly one student regardless of where they
+// study. `universityId` is accepted (callers still pass it) but no longer part
+// of the check — the global UNIQUE index `uniq_students_username` is the
+// authority this mirrors. See migration 0012.
+export async function usernameConflict(conn, { usernameNormalized, studentId }) {
+  if (!usernameNormalized) return false
   const [rows] = await conn.query(
     `SELECT id FROM students
-      WHERE university_id = ? AND username_normalized = ? AND id <> ?
+      WHERE username_normalized = ? AND id <> ?
       LIMIT 1`,
-    [universityId, usernameNormalized, studentId ?? ''],
+    [usernameNormalized, studentId ?? ''],
   )
   return rows.length > 0
 }

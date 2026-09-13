@@ -225,7 +225,7 @@ test('usernameAvailability reports the caller\'s own current username as availab
   assert.deepEqual(result, { available: true })
 })
 
-test('usernameAvailability reports taken when another student at the same university holds it', async (t) => {
+test('usernameAvailability reports taken when another student anywhere holds it', async (t) => {
   t.mock.method(pool, 'query', async (sql) => {
     if (/FROM students WHERE user_id/.test(sql)) return [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]]
     return [[{ id: 'stu-2' }]] // usernameConflict's own query, via the same pool
@@ -234,7 +234,7 @@ test('usernameAvailability reports taken when another student at the same univer
   assert.deepEqual(result, { available: false, reason: 'taken' })
 })
 
-test('usernameAvailability reports available when nobody else at the university holds it', async (t) => {
+test('usernameAvailability reports available when nobody else holds it', async (t) => {
   t.mock.method(pool, 'query', async (sql) => {
     if (/FROM students WHERE user_id/.test(sql)) return [[{ id: 'stu-1', universityId: 'cairo', usernameNormalized: 'nour' }]]
     return [[]]

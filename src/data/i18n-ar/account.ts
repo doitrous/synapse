@@ -24,10 +24,10 @@ export const AR_ACCOUNT: Record<string, string> = {
   'Email address': 'البريد الإلكتروني',
   'Username': 'اسم المستخدم',
   'username': 'اسم المستخدم',
-  'Unique inside your university, compared case-insensitively by the server.':
-    'فريد داخل جامعتك، ويقارنه الخادم دون تمييز بين الحروف الكبيرة والصغيرة.',
-  'Usernames are unique inside your university. The server rechecks this before approval.':
-    'أسماء المستخدمين فريدة داخل جامعتك. ويعيد الخادم التحقق من ذلك قبل الموافقة.',
+  'Unique across all universities, compared case-insensitively by the server.':
+    'فريد على مستوى جميع الجامعات، ويقارنه الخادم دون تمييز بين الحروف الكبيرة والصغيرة.',
+  'Usernames are unique across all universities. The server rechecks this before approval.':
+    'أسماء المستخدمين فريدة على مستوى جميع الجامعات. ويعيد الخادم التحقق من ذلك قبل الموافقة.',
   'Your username and icon are what classmates see if you opt in to discovery later.':
     'اسم المستخدم والأيقونة هما ما يراه زملاؤك إن اخترت لاحقًا الظهور في الدليل.',
   'Choose your university': 'اختر جامعتك',
@@ -55,8 +55,8 @@ export const AR_ACCOUNT: Record<string, string> = {
   'Required for the admin audit trail': 'مطلوب لسجل مراجعة الإدارة',
   'e.g. I transferred to another university this term.': 'مثال: انتقلت إلى جامعة أخرى هذا الفصل الدراسي.',
   'Request sent for admin review.': 'أُرسل الطلب لمراجعة الإدارة.',
-  'University and year changes need administrator approval and notes. If your university changes, the admin also rechecks that your username is still unique there.':
-    'يحتاج تغيير الجامعة أو السنة الدراسية إلى موافقة المسؤول وإلى ملاحظات. وإذا تغيّرت جامعتك، يتحقق المسؤول أيضًا من أن اسم المستخدم ما زال فريدًا فيها.',
+  'University and year changes need administrator approval and notes.':
+    'يحتاج تغيير الجامعة أو السنة الدراسية إلى موافقة المسؤول وإلى ملاحظات.',
   'Your university has you recorded as': 'جامعتك مُسجِّلة بياناتك بوصفك',
   'Your request could not be sent. Try again, or contact support if it keeps happening.':
     'تعذّر إرسال طلبك. حاول مرة أخرى، أو تواصل مع الدعم إن تكرّر ذلك.',

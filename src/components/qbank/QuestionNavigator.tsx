@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { type ReactNode, useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
@@ -49,6 +49,7 @@ export function QuestionNavigator({
   onJump,
   graded = false,
   className,
+  headerRight,
 }: {
   count: number
   current: number
@@ -58,6 +59,8 @@ export function QuestionNavigator({
   /** After checking or in review, the strip reports right and wrong rather than merely answered. */
   graded?: boolean
   className?: string
+  /** Controls parked at the top-right of the count box — the timer and the split toggle. */
+  headerRight?: ReactNode
 }) {
   const t = useT()
   // Open everywhere. It used to start closed on a phone, on the argument that
@@ -72,28 +75,34 @@ export function QuestionNavigator({
 
   return (
     <section className={cn('rounded-xl border border-line bg-surface', className)} aria-label={t('Question navigator')}>
-      <button
-        type="button"
-        onClick={() => setOpen((value) => !value)}
-        aria-expanded={open}
-        className="flex min-h-11 w-full items-center gap-2 px-3 text-start"
-      >
-        <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Jump to question')}</span>
-        <span className="tnum font-mono text-[11.5px] text-ink-2">
-          {answered}/{count}
-        </span>
-        {flagged > 0 && (
-          <span className="inline-flex items-center gap-1 text-[11.5px] text-ink-3">
-            <span className="size-1.5 rounded-full bg-primary" aria-hidden />
-            <span className="tnum font-mono">{flagged}</span> {t('marked')}
+      {/* The toggle and the parked controls (timer, split) are siblings, not
+          nested — a button inside a button is invalid, and the controls must
+          stay clickable without also collapsing the strip. */}
+      <div className="flex min-h-11 w-full items-center gap-2 px-3">
+        <button
+          type="button"
+          onClick={() => setOpen((value) => !value)}
+          aria-expanded={open}
+          className="flex flex-1 items-center gap-2 text-start"
+        >
+          <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Jump to question')}</span>
+          <span className="tnum font-mono text-[11.5px] text-ink-2">
+            {answered}/{count}
           </span>
-        )}
-        <Icon
-          icon={ChevronDown}
-          size={15}
-          className={cn('ms-auto text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !open && '-rotate-90 rtl:rotate-90')}
-        />
-      </button>
+          {flagged > 0 && (
+            <span className="inline-flex items-center gap-1 text-[11.5px] text-ink-3">
+              <span className="size-1.5 rounded-full bg-primary" aria-hidden />
+              <span className="tnum font-mono">{flagged}</span> {t('marked')}
+            </span>
+          )}
+          <Icon
+            icon={ChevronDown}
+            size={15}
+            className={cn('ms-auto text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !open && '-rotate-90 rtl:rotate-90')}
+          />
+        </button>
+        {headerRight && <div className="flex shrink-0 items-center gap-2">{headerRight}</div>}
+      </div>
 
       {open && (
         <div className="border-t border-line px-3 pb-3 pt-2.5">

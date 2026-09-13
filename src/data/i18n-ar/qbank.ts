@@ -325,6 +325,7 @@ export const AR_QBANK: Record<string, string> = {
   'Correct answer': 'الإجابة الصحيحة',
   'Why the right answer is right': 'لماذا الإجابة الصحيحة صحيحة',
   'Why this is wrong': 'لماذا هذه خاطئة',
+  'Why the other answers are wrong': 'لماذا الإجابات الأخرى خاطئة',
   'What this proves': 'ما تُثبته هذه الإجابة',
   'Where this is taught': 'أين يُدرَّس هذا',
   'Concepts tested': 'المفاهيم المُختبَرة',

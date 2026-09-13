@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Bell, Check, ChevronDown, Download, KeyRound, Languages, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Target, TriangleAlert, Trash2, Upload, UserRound } from 'lucide-react'
+import { Bell, Check, Download, ImagePlus, KeyRound, Languages, LifeBuoy, LockKeyhole, LogOut, Palette, ShieldCheck, Target, TriangleAlert, Trash2, Upload, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button, ButtonAnchor } from '@/components/ui/Button'
@@ -22,6 +22,7 @@ import { useT, useI18n, type Lang } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
 import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
 import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem } from '@/data/profileIcons'
+import { PRESET_AVATARS } from '@/data/presetAvatars'
 import { AccountTabs } from '@/components/account/AccountTabs'
 import { useAccountTab, type AccountTab } from '@/components/account/useAccountTab'
 import { BillingPanels } from '@/components/account/BillingPanels'
@@ -210,29 +211,31 @@ function StudyContext() {
             onChange={(event) => { setGroup(event.target.value); setJustSaved(false) }}
           />
         </Field>
-        <div className="flex items-end">
+        <div className="flex flex-col items-start justify-end gap-1.5 sm:items-end">
           <Button type="submit" variant="primary" loading={saving} disabled={!dirty || saving} iconLeft={justSaved && !dirty ? Check : undefined}>
             {justSaved && !dirty ? t('Saved') : t('Save group')}
           </Button>
+          {/* A small text link, not a second button competing with Save: the
+              change flow is a rare, admin-approved errand that belongs quietly
+              under the primary action. */}
+          <button
+            type="button"
+            aria-expanded={changeOpen}
+            aria-controls="account-university-change"
+            onClick={() => setChangeOpen((open) => !open)}
+            className="text-[12px] font-medium text-primary underline decoration-primary/40 underline-offset-2 transition-colors hover:text-primary-strong hover:decoration-primary"
+          >
+            {t('Request a university or year change')}
+          </button>
         </div>
         {error && <p role="alert" className="text-[12.5px] text-danger sm:col-span-2">{error}</p>}
       </form>
 
       <div className="sm:col-span-2">
-        <Button
-          type="button"
-          variant="secondary"
-          aria-expanded={changeOpen}
-          aria-controls="account-university-change"
-          onClick={() => setChangeOpen((open) => !open)}
-          iconRight={ChevronDown}
-        >
-          {t('Request a university or year change')}
-        </Button>
         <Collapse id="account-university-change" open={changeOpen}>
           <div className="mt-3 rounded-xl border border-line bg-surface-2/50 p-4">
             <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">
-              {t('University and year changes need administrator approval and notes. If your university changes, the admin also rechecks that your username is still unique there.')}
+              {t('University and year changes need administrator approval and notes.')}
             </p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               <Field label={t('Target university')} htmlFor="account-target-university">
@@ -277,6 +280,7 @@ function AvatarControl() {
   const identity = useIdentity()
   const avatar = useAvatar()
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const [galleryOpen, setGalleryOpen] = useState(false)
 
   async function handleFile(file: File | undefined) {
     if (!file) return
@@ -289,31 +293,70 @@ function AvatarControl() {
     }
   }
 
+  // A preset is just a picture we ship. Fetch its bytes and send them through
+  // the same upload path an uploaded photo takes, so the server, the preview
+  // and the removal all behave identically — no second code path to keep right.
+  async function pickPreset(src: string, label: string) {
+    try {
+      const response = await fetch(src)
+      if (!response.ok) throw new Error('fetch failed')
+      const blob = await response.blob()
+      await avatar.upload(new File([blob], `${label}.png`, { type: blob.type || 'image/png' }))
+      setGalleryOpen(false)
+    } catch {
+      // avatar.error already carries a message when the upload itself fails.
+    }
+  }
+
   return (
-    <div className="flex items-center gap-3.5 p-5">
-      <Avatar name={identity.displayName} size="lg" src={avatar.src} />
-      <div className="min-w-0 flex-1">
-        <p className="text-[13px] font-medium text-ink">{t('Profile photo')}</p>
-        <p className="mt-0.5 text-[11.5px] text-ink-3">{t('PNG, JPEG, GIF or WebP, up to 2 MB.')}</p>
-        <div className="mt-2 flex flex-wrap gap-2">
-          <Button type="button" variant="secondary" size="sm" iconLeft={Upload} loading={avatar.busy} onClick={() => fileInputRef.current?.click()}>
-            {avatar.hasPhoto ? t('Change photo') : t('Upload photo')}
-          </Button>
-          {avatar.hasPhoto && (
-            <Button type="button" variant="ghost" size="sm" iconLeft={Trash2} loading={avatar.busy} onClick={() => void avatar.remove()}>
-              {t('Remove')}
+    <div className="p-5">
+      <div className="flex items-center gap-3.5">
+        <Avatar name={identity.displayName} size="lg" src={avatar.src} />
+        <div className="min-w-0 flex-1">
+          <p className="text-[13px] font-medium text-ink">{t('Profile photo')}</p>
+          <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Pick a ready-made avatar, or upload your own — PNG, JPEG, GIF or WebP, up to 2 MB.')}</p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <Button type="button" variant="secondary" size="sm" iconLeft={ImagePlus} loading={avatar.busy} onClick={() => setGalleryOpen((open) => !open)} aria-expanded={galleryOpen}>
+              {t('Choose an avatar')}
             </Button>
-          )}
+            <Button type="button" variant="ghost" size="sm" iconLeft={Upload} loading={avatar.busy} onClick={() => fileInputRef.current?.click()}>
+              {avatar.hasPhoto ? t('Upload your own') : t('Upload photo')}
+            </Button>
+            {avatar.hasPhoto && (
+              <Button type="button" variant="ghost" size="sm" iconLeft={Trash2} loading={avatar.busy} onClick={() => void avatar.remove()}>
+                {t('Remove')}
+              </Button>
+            )}
+          </div>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="image/png,image/jpeg,image/gif,image/webp"
+            className="hidden"
+            onChange={(event) => void handleFile(event.target.files?.[0])}
+          />
+          {avatar.error && <p role="alert" className="mt-2 text-[11.5px] text-danger">{avatar.error}</p>}
         </div>
-        <input
-          ref={fileInputRef}
-          type="file"
-          accept="image/png,image/jpeg,image/gif,image/webp"
-          className="hidden"
-          onChange={(event) => void handleFile(event.target.files?.[0])}
-        />
-        {avatar.error && <p role="alert" className="mt-2 text-[11.5px] text-danger">{avatar.error}</p>}
       </div>
+
+      <Collapse id="account-avatar-gallery" open={galleryOpen}>
+        <div className="mt-4 grid grid-cols-6 gap-2 sm:grid-cols-8" role="listbox" aria-label={t('Choose an avatar')}>
+          {PRESET_AVATARS.map((preset) => (
+            <button
+              key={preset.id}
+              type="button"
+              role="option"
+              aria-selected={false}
+              title={t(preset.label)}
+              disabled={avatar.busy}
+              onClick={() => void pickPreset(preset.src, preset.label)}
+              className="aspect-square overflow-hidden rounded-full border border-line bg-surface-2 transition-colors hover:border-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary disabled:opacity-50"
+            >
+              <img src={preset.src} alt={t(preset.label)} loading="lazy" className="size-full object-cover" />
+            </button>
+          ))}
+        </div>
+      </Collapse>
     </div>
   )
 }
@@ -372,7 +415,7 @@ function ProfileIdentity() {
   return (
     <div className="border-t border-line p-5">
       <div className="grid gap-4 sm:grid-cols-[minmax(0,1fr)_auto]">
-        <Field label={t('Username')} htmlFor="account-username" hint={t('Unique inside your university, compared case-insensitively by the server.')}>
+        <Field label={t('Username')} htmlFor="account-username" hint={t('Unique across all universities, compared case-insensitively by the server.')}>
           <TextInput id="account-username" value={username} onChange={(event) => { setUsername(event.target.value); setSaved(false) }} maxLength={24} autoComplete="username" />
         </Field>
         <div className="flex items-end">

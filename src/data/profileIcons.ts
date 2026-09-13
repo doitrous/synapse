@@ -1,16 +1,34 @@
 export interface ProfileIconDef {
   id: string
   label: string
-  path: string
+  /** Public asset URL for the icon PNG (generated set under /public/profile-icons). */
+  src: string
 }
 
+/** Build a base-aware URL for an icon in /public/profile-icons. */
+const icon = (id: string) => `${import.meta.env.BASE_URL}profile-icons/${id}.png`
+
 export const PROFILE_ICONS: ProfileIconDef[] = [
-  { id: 'stethoscope', label: 'Stethoscope', path: 'M7 3v5a5 5 0 0 0 10 0V3M5 3h4m6 0h4M17 8v5a4 4 0 0 0 8 0v-1' },
-  { id: 'neuron', label: 'Neuron', path: 'M12 12m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M12 9.5V4m2 9.5 5 4M9.8 13.4 5 17m8.8-6.9 5-3.5M10 10.2 5.5 7M19 6.5h2M4 17h-2M12 4V2' },
-  { id: 'capsule', label: 'Capsule', path: 'M10.2 20.8a5 5 0 0 1-7.1-7.1l10.6-10.6a5 5 0 0 1 7.1 7.1L10.2 20.8Zm-2.1-8.5 3.6 3.6' },
-  { id: 'microscope', label: 'Microscope', path: 'M9 3h6v4H9zM11 7v4a4 4 0 0 0 4 4h1M7 21h12M8 21a7 7 0 0 1 7-7M6 11h4m-2 0v6' },
-  { id: 'heart', label: 'Heart', path: 'M12 21s-7-4.4-9.2-9.1C1.1 8.3 3.2 5 6.7 5c2 0 3.4 1 4.3 2.3C11.9 6 13.3 5 15.3 5c3.5 0 5.6 3.3 3.9 6.9C19 16.6 12 21 12 21Z' },
-  { id: 'book', label: 'Book', path: 'M5 4.5A3.5 3.5 0 0 1 8.5 1H21v18H8.5A3.5 3.5 0 0 0 5 22.5V4.5Zm0 0A3.5 3.5 0 0 0 1.5 1H3v18h2' },
+  { id: 'stethoscope', label: 'Stethoscope', src: icon('stethoscope') },
+  { id: 'heart', label: 'Heart', src: icon('heart') },
+  { id: 'brain', label: 'Brain', src: icon('brain') },
+  { id: 'dna', label: 'DNA', src: icon('dna') },
+  { id: 'neuron', label: 'Neuron', src: icon('neuron') },
+  { id: 'microscope', label: 'Microscope', src: icon('microscope') },
+  { id: 'lungs', label: 'Lungs', src: icon('lungs') },
+  { id: 'bone', label: 'Bone', src: icon('bone') },
+  { id: 'tooth', label: 'Tooth', src: icon('tooth') },
+  { id: 'eye', label: 'Eye', src: icon('eye') },
+  { id: 'capsule', label: 'Capsule', src: icon('capsule') },
+  { id: 'syringe', label: 'Syringe', src: icon('syringe') },
+  { id: 'flask', label: 'Flask', src: icon('flask') },
+  { id: 'ecg', label: 'ECG', src: icon('ecg') },
+  { id: 'caduceus', label: 'Caduceus', src: icon('caduceus') },
+  { id: 'first-aid', label: 'First aid', src: icon('first-aid') },
+  { id: 'atlas', label: 'Atlas', src: icon('atlas') },
+  { id: 'graduation-cap', label: 'Graduation cap', src: icon('graduation-cap') },
+  { id: 'owl', label: 'Owl', src: icon('owl') },
+  { id: 'mountain', label: 'Summit', src: icon('mountain') },
 ]
 
 export const DEFAULT_PROFILE_ICON = PROFILE_ICONS[0].id

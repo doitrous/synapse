@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, type Location } from 'react-router-dom'
-import { BookOpen, CheckCircle2, FileText, Flag, GitFork, Loader, Lock, LogOut, MessageSquareWarning, NotebookPen, Target } from 'lucide-react'
+import { BookOpen, CheckCircle2, ChevronDown, FileText, Flag, GitFork, Loader, Lock, LogOut, MessageSquareWarning, NotebookPen, Target } from 'lucide-react'
 import { backState } from '@/components/ui/BackBar'
 import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -26,23 +26,38 @@ function Section({
   icon,
   children,
   action,
+  open,
+  onToggle,
 }: {
   title: string
   icon: typeof Target
   children: React.ReactNode
   /** Sits opposite the title — used for the notes "Saved" cue. */
   action?: React.ReactNode
+  /** When provided, the header collapses the body. Undefined = always open. */
+  open?: boolean
+  onToggle?: () => void
 }) {
+  const collapsible = onToggle != null
+  const shown = !collapsible || open
+  const heading = (
+    <h3 className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink">
+      <Icon icon={icon} size={13} />
+      {title}
+    </h3>
+  )
   return (
     <section className="border-t border-line px-4 py-3.5 first:border-t-0">
-      <div className="mb-2 flex items-center gap-2">
-        <h3 className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-ink">
-          <Icon icon={icon} size={13} />
-          {title}
-        </h3>
+      <div className={cn('flex items-center gap-2', shown && 'mb-2')}>
+        {collapsible ? (
+          <button type="button" onClick={onToggle} aria-expanded={open} className="inline-flex min-h-8 items-center gap-1.5 text-start">
+            {heading}
+            <Icon icon={ChevronDown} size={13} className={cn('text-ink-3 transition-transform', !open && '-rotate-90 rtl:rotate-90')} />
+          </button>
+        ) : heading}
         {action && <span className="ms-auto">{action}</span>}
       </div>
-      {children}
+      {shown && children}
     </section>
   )
 }
@@ -122,6 +137,9 @@ export function StudyRail({
   // The cue appears once this student has actually typed something. Showing
   // "Saved" against a note nobody has written is noise, not reassurance.
   const [touched, setTouched] = useState(false)
+  // Collapsed by default: the notepad is optional, and leaving it open pushed
+  // the concepts and reading links down out of sight on most screens.
+  const [notesOpen, setNotesOpen] = useState(false)
 
   const labelled = (question.conceptIds ?? [])
     .map((id) => graph.concepts.find((concept) => concept.id === id))
@@ -162,7 +180,13 @@ export function StudyRail({
             {endLabel}
           </button>
         </section>
-        <Section title={t('Your notes')} icon={NotebookPen} action={touched ? <SavedCue pending={notesStatus.pending} /> : null}>
+        <Section
+          title={t('Your notes')}
+          icon={NotebookPen}
+          open={notesOpen}
+          onToggle={() => setNotesOpen((value) => !value)}
+          action={notesOpen && touched ? <SavedCue pending={notesStatus.pending} /> : null}
+        >
           <Textarea
             value={note}
             onChange={(event) => {
@@ -170,7 +194,7 @@ export function StudyRail({
               setNotes((current) => ({ ...current, [question.id]: event.target.value }))
             }}
             placeholder={t('What did you think, and what caught you out?')}
-            className="min-h-[13rem] text-[13px]"
+            className="min-h-[6rem] text-[13px]"
             aria-label={t('Notes for this question')}
           />
           <p className="mt-1.5 text-[11px] text-ink-3">{t('Only you can see this.')}</p>

@@ -209,6 +209,12 @@ const IdentityContext = createContext<Identity>(ANONYMOUS)
 
 /** The name to greet someone by, never invented. */
 function nameFor(profile: IdentityProfile | null, email: string | null): string {
+  // The username the student chose at sign-up is how they are identified across
+  // the app now — in the sidebar, the greeting and anywhere else `displayName`
+  // is shown. Full name (kept for the account record) and the email local part
+  // remain the fallbacks for an account that predates a username.
+  const username = profile?.username?.trim()
+  if (username) return username
   const real = profile?.name?.trim()
   if (real) return real
   const local = email?.split('@')[0]?.trim()

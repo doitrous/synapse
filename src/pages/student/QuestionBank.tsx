@@ -15,6 +15,7 @@ import {
   Trophy,
   Columns2,
   Layers,
+  ChevronRight,
 }from 'lucide-react'
 import { type Question } from '@/data/qbank'
 import { bySession, sessionDetail, type SessionSummary } from '@/data/attemptStats'
@@ -1496,88 +1497,127 @@ export function QuestionBank() {
 
   const sessionClock = timedClock(session.length, elapsed)
 
-  return (
-    <div className="mx-auto max-w-[1100px] px-4 py-6 sm:px-6">
-      {/* Runner header */}
-      <div className="mb-4">
-        {/* The position is stated once, by the navigator below. This line used
-            to repeat it as "Question 1 of 5" directly above "QUESTIONS 1/5". */}
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
-          {reviewing && <span className="text-[13px] font-medium text-primary">{t('Reviewing')}</span>}
-          <div className="flex items-center gap-2 sm:ms-auto">
-            {/* Rearranging the question into two columns only makes sense
-                once there is an answer to look at, and only where there is
-                room for two columns side by side. */}
-            {revealed && (
-              <IconButton
-                icon={Columns2}
-                label={splitView ? t('Single column') : t('Split view')}
-                active={splitView}
-                variant="surface"
-                className="hidden lg:inline-flex"
-                onClick={() => setSplitView((value) => !value)}
-              />
-            )}
-            {/* The clock is the whole point of this mode, so it is a fixture
-                rather than a caption: same place, same width, legible across
-                the room. It was previously grey mono text among four other
-                grey controls, which is close to not being there. */}
-            {!reviewing && (
-              <span
-                className={cn(
-                  'tnum inline-flex items-center gap-1.5 rounded-lg border bg-surface px-2.5 py-1.5 font-mono text-[14px] font-semibold shadow-panel',
-                  mode === 'timed' && sessionClock.overtime > 0 ? 'border-danger/40 text-danger' : 'border-line-2 text-ink',
-                )}
-                aria-label={mode === 'tutor'
-                  ? `${t('Elapsed time')} ${clock(elapsed)}`
-                  : sessionClock.overtime > 0
-                    ? `${t('Overtime')} ${clock(sessionClock.overtime)}`
-                    : `${t('Time remaining')} ${clock(sessionClock.remaining)}`}
-              >
-                <Icon icon={Clock} size={15} className="text-primary" />
-                {mode === 'tutor'
-                  ? clock(elapsed)
-                  : sessionClock.overtime > 0
-                    ? `+${clock(sessionClock.overtime)}`
-                    : clock(sessionClock.remaining)}
-              </span>
-            )}
-          </div>
-        </div>
-        <div className="relative mt-2 h-1 overflow-hidden rounded-full bg-inset">
-          <div
-            className="absolute inset-0 rounded-full bg-primary transition-transform duration-300 ease-[var(--ease-out-quint)]"
-            style={{ transform: `translateX(${((idx + 1) / session.length) * 100 - 100}%)` }}
-          />
-        </div>
-      </div>
+  // The clock, shown in both layouts. Timed mode reads it against the sitting
+  // allowance; Tutor presents the same value as a calm count-up.
+  const timer = !reviewing ? (
+    <span
+      className={cn(
+        'tnum inline-flex items-center gap-1.5 rounded-lg border bg-surface px-2.5 py-1.5 font-mono text-[14px] font-semibold shadow-panel',
+        mode === 'timed' && sessionClock.overtime > 0 ? 'border-danger/40 text-danger' : 'border-line-2 text-ink',
+      )}
+      aria-label={mode === 'tutor'
+        ? `${t('Elapsed time')} ${clock(elapsed)}`
+        : sessionClock.overtime > 0
+          ? `${t('Overtime')} ${clock(sessionClock.overtime)}`
+          : `${t('Time remaining')} ${clock(sessionClock.remaining)}`}
+    >
+      <Icon icon={Clock} size={15} className="text-primary" />
+      {mode === 'tutor'
+        ? clock(elapsed)
+        : sessionClock.overtime > 0
+          ? `+${clock(sessionClock.overtime)}`
+          : clock(sessionClock.remaining)}
+    </span>
+  ) : null
 
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_300px] lg:items-start lg:gap-5">
-        <div className="min-w-0">
+  // "Why the wrong answers are wrong" — the consolidated block. It holds the
+  // rationale for every wrong option the student did *not* pick (the correct
+  // option and the picked-wrong one are shown inline under the options), plus
+  // the explicit `Explanation` text. In split view it moves to the right column
+  // beside the study tools; in single column it sits below the question.
+  const otherWrong = revealed
+    ? q.options
+        .map((opt, i) => ({ opt, i }))
+        .filter(({ opt, i }) => !opt.correct && i !== chosen && opt.rationale.trim())
+    : []
+  const showExplanations = revealed && (otherWrong.length > 0 || hasSeparateExplanation)
+  const explanations = showExplanations ? (
+    <div className="space-y-2.5 rounded-xl border border-line bg-surface-2/50 p-4">
+      <p className="text-[13px] font-semibold text-ink">{t('Answer explanations')}</p>
+      {/* The other wrong answers are collapsed by default — a student wants the
+          right answer's explanation first, and the rest on demand. Native
+          <details>, so no extra state. */}
+      {otherWrong.length > 0 && (
+        <details className="group space-y-2.5 rounded-lg border border-line bg-surface px-3 py-2.5">
+          <summary className="flex cursor-pointer list-none items-center gap-2 text-[12px] font-semibold text-ink-2">
+            <ChevronRight size={14} className="shrink-0 text-ink-3 transition-transform group-open:rotate-90 rtl:rotate-180 rtl:group-open:rotate-90" />
+            {t('Why the other answers are wrong')}
+            <span className="tnum font-mono text-[11.5px] text-ink-3">({otherWrong.length})</span>
+          </summary>
+          <div className="space-y-2.5 pt-0.5">
+            {otherWrong.map(({ opt, i }) => (
+              <div key={i} className="rounded-lg border border-line bg-surface-2/50 px-3 py-2.5">
+                <div className="flex items-center gap-2">
+                  <span className="grid size-5 shrink-0 place-items-center rounded-full border border-line-2 bg-surface text-[11px] font-semibold text-ink-2">{LETTERS[i]}</span>
+                  <span className="text-[12px] font-semibold text-ink">{t('Why this is wrong')}</span>
+                </div>
+                <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">
+                  <HighlightableText text={opt.rationale.trim()} enabled blockId={`rationale-${i}`} highlights={highlights} />
+                </p>
+              </div>
+            ))}
+          </div>
+        </details>
+      )}
+      {hasSeparateExplanation && (
+        <div className="rounded-lg border border-line bg-surface p-3.5">
+          <p className="mb-1.5 text-[13px] font-semibold text-ink">{t('Explanation')}</p>
+          <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
+        </div>
+      )}
+    </div>
+  ) : null
+
+  return (
+    <div className="mx-auto max-w-[1500px] px-3 pt-2 pb-6 sm:px-4">
+      {/* Top strip: the question-number grid spans the full width, and the
+          timer and split toggle are embedded at the top-right of that same
+          count box rather than sitting on a row of their own. */}
       <QuestionNavigator
-        className="mb-4"
+        className="mb-2"
         count={session.length}
         current={idx}
         stateFor={stateFor}
         isFlagged={(i) => marked.has(session[i].id)}
         onJump={setIdx}
         graded={reviewing || mode === 'tutor'}
+        headerRight={
+          <>
+            {reviewing && <span className="hidden text-[12px] font-medium text-primary sm:inline">{t('Reviewing')}</span>}
+            {/* Always offered, so a student can pre-set the layout; it only
+                takes effect once there is an answer to show, side by side. */}
+            <IconButton
+              icon={Columns2}
+              label={splitView ? t('Single column') : t('Split view')}
+              active={splitView}
+              variant="surface"
+              className="hidden lg:inline-flex"
+              onClick={() => setSplitView((value) => !value)}
+            />
+            {timer}
+          </>
+        }
       />
+      <div className="relative mb-3 h-1 overflow-hidden rounded-full bg-inset">
+        <div
+          className="absolute inset-0 rounded-full bg-primary transition-transform duration-300 ease-[var(--ease-out-quint)]"
+          style={{ transform: `translateX(${((idx + 1) / session.length) * 100 - 100}%)` }}
+        />
+      </div>
 
+      {/* Split view gives the answer explanations a wider companion column so
+          the whole left side stays the question. Single column keeps the slim
+          study rail on the right. */}
+      <div className={cn('grid gap-4 lg:items-start lg:gap-5', splitActive ? 'lg:grid-cols-2' : 'lg:grid-cols-[minmax(0,1fr)_300px]')}>
+        <div className="min-w-0">
       <Panel ref={questionCardRef} className="p-5 sm:p-6">
         {/* Select any of the stem, an option, or an explanation to highlight
             it — one colour, no toolbar. Scoped to this card so a selection
             made anywhere else on the page (the navigator, the study rail)
             never opens it. */}
         <HighlightSelectionPopover container={questionCardRef} highlights={highlights} />
-        {/* In split view the question stays in this column and the answer
-            area (explanations, per-option rationale, the explicit
-            `Explanation` text) moves into a second column alongside it. Below
-            `lg`, or with the toggle off, or before the answer is revealed,
-            this is just one column and the two `lg:grid-cols-2` cells stack
-            in source order — question, then answer area. */}
-        <div className={cn(splitActive && 'lg:grid lg:grid-cols-2 lg:items-start lg:gap-6')}>
-          <div className={cn(splitActive && 'lg:border-e lg:border-line lg:pe-6')}>
+        <div>
+          <div>
             <div className="flex flex-wrap items-center gap-2">
               <span className="inline-flex items-center gap-1.5 text-[12.5px] font-bold text-ink">
                 <SubjectDot id={q.subjectId} />
@@ -1612,10 +1652,12 @@ export function QuestionBank() {
             <div className="mt-5 space-y-2.5">
               {q.options.map((opt, i) => {
                 const ruledOut = (struck[q.id] ?? []).includes(i)
-                // What made this option right or wrong, read directly under
-                // it once revealed — not collected separately at the bottom
-                // of the page, or (in split view) in the answer-area column.
+                // Only two rationales are shown right under the options: the
+                // correct answer's, and — if it was wrong — the one the student
+                // picked. Every other wrong option is explained in the
+                // consolidated "Answer explanations" block instead.
                 const rationaleText = opt.rationale.trim()
+                const inlineRationale = rationaleText && (opt.correct || chosen === i)
                 const badge = (
                   <span
                     className={cn(
@@ -1667,20 +1709,18 @@ export function QuestionBank() {
                               </span>
                             )}
                           </span>
-                          {/* Split view carries this same rationale in the
-                              answer-area column instead, so it is not shown
-                              twice. */}
-                          {!splitActive && rationaleText && (
+                          {inlineRationale && (
                             <p
                               className={cn(
                                 'mt-2 rounded-lg border px-3 py-2 text-[12.5px] leading-relaxed',
                                 opt.correct
                                   ? 'border-success/20 bg-success-tint/40 text-ink-2'
-                                  : chosen === i
-                                    ? 'border-danger/20 bg-danger-tint/40 text-ink-2'
-                                    : 'border-line bg-surface-2 text-ink-3',
+                                  : 'border-danger/20 bg-danger-tint/40 text-ink-2',
                               )}
                             >
+                              <span className="mb-0.5 block text-[11px] font-bold uppercase tracking-[0.05em] text-ink-3">
+                                {opt.correct ? t('Why this is right') : t('Why your answer is wrong')}
+                              </span>
                               <HighlightableText text={rationaleText} enabled blockId={`rationale-${i}`} highlights={highlights} />
                             </p>
                           )}
@@ -1744,66 +1784,10 @@ export function QuestionBank() {
               </div>
             )}
 
-            {/* The explicit `Explanation` text (see `hasSeparateExplanation`)
-                stays with the question in single column. In split view it
-                moves to the answer-area column below instead of appearing
-                twice. */}
-            {revealed && !splitActive && hasSeparateExplanation && (
-              <div className="mt-6 rounded-xl border border-line bg-surface-2 p-4">
-                <p className="mb-1.5 text-[13px] font-semibold text-ink">{t('Explanation')}</p>
-                <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
-              </div>
-            )}
+            {/* Consolidated explanations stay with the question in single
+                column; in split view they move to the right column below. */}
+            {!splitActive && explanations && <div className="mt-6">{explanations}</div>}
           </div>
-
-          {/* The answer area: every option's rationale gathered in one place,
-              plus the explicit `Explanation` text — only ever shown here
-              instead of under each option, never in addition to it. */}
-          {revealed && splitActive && (
-            <div className="mt-6 space-y-2.5 lg:mt-0">
-              <p className="text-[13px] font-semibold text-ink">{t('Answer explanations')}</p>
-              {q.options.map((opt, i) => {
-                const rationaleText = opt.rationale.trim()
-                if (!rationaleText) return null
-                return (
-                  <div
-                    key={i}
-                    className={cn(
-                      'rounded-lg border px-3 py-2.5',
-                      opt.correct
-                        ? 'border-success/20 bg-success-tint/40'
-                        : chosen === i
-                          ? 'border-danger/20 bg-danger-tint/40'
-                          : 'border-line bg-surface-2',
-                    )}
-                  >
-                    <div className="flex items-center gap-2">
-                      <span
-                        className={cn(
-                          'grid size-5 shrink-0 place-items-center rounded-full border text-[11px] font-semibold',
-                          opt.correct ? 'border-success bg-success text-on-success' : 'border-line-2 bg-surface text-ink-2',
-                        )}
-                      >
-                        {opt.correct ? <Icon icon={Check} size={12} strokeWidth={2.6} /> : LETTERS[i]}
-                      </span>
-                      <span className="text-[12px] font-semibold text-ink">
-                        {opt.correct ? t('Why the right answer is right') : t('Why this is wrong')}
-                      </span>
-                    </div>
-                    <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">
-                      <HighlightableText text={rationaleText} enabled blockId={`rationale-${i}`} highlights={highlights} />
-                    </p>
-                  </div>
-                )
-              })}
-              {hasSeparateExplanation && (
-                <div className="rounded-xl border border-line bg-surface-2 p-4">
-                  <p className="mb-1.5 text-[13px] font-semibold text-ink">{t('Explanation')}</p>
-                  <p className="text-[14px] leading-relaxed text-ink"><HighlightableText text={q.explanation} enabled blockId="explanation" highlights={highlights} /></p>
-                </div>
-              )}
-            </div>
-          )}
         </div>
 
         {/* Footer actions */}
@@ -1855,25 +1839,30 @@ export function QuestionBank() {
       </Panel>
         </div>
 
-        <StudyRail
-          question={q}
-          revealed={revealed}
-          location={location}
-          flagged={marked.has(q.id)}
-          onFlag={() => setMarked((current) => {
-            const next = new Set(current)
-            if (!next.delete(q.id)) next.add(q.id)
-            return next
-          })}
-          onReport={() => setReportTarget({ kind: 'question', id: q.id, title: q.stem })}
-          onEnd={() => {
-            if (!reviewing) { setEndOpen(true); return }
-            setReviewing(false)
-            setPhase(reviewReturn)
-          }}
-          endLabel={reviewing ? (reviewReturn === 'results' ? t('Back') : t('Done')) : t('End')}
-          className="lg:sticky lg:top-6"
-        />
+        {/* Right column: in split view the answer explanations sit above the
+            study tools (flag, notes, concepts); otherwise it is the study rail
+            alone. */}
+        <div className="space-y-4 lg:sticky lg:top-4">
+          {splitActive && explanations}
+          <StudyRail
+            question={q}
+            revealed={revealed}
+            location={location}
+            flagged={marked.has(q.id)}
+            onFlag={() => setMarked((current) => {
+              const next = new Set(current)
+              if (!next.delete(q.id)) next.add(q.id)
+              return next
+            })}
+            onReport={() => setReportTarget({ kind: 'question', id: q.id, title: q.stem })}
+            onEnd={() => {
+              if (!reviewing) { setEndOpen(true); return }
+              setReviewing(false)
+              setPhase(reviewReturn)
+            }}
+            endLabel={reviewing ? (reviewReturn === 'results' ? t('Back') : t('Done')) : t('End')}
+          />
+        </div>
       </div>
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
       {flashcardSeed && (

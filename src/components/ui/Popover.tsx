@@ -85,6 +85,11 @@ export function Popover({
     }
     if (!anchor) return
     const rect = anchor.getBoundingClientRect()
+    // A trigger that has been unmounted (its text re-rendered underneath the
+    // open surface) reports a zero rect at the origin, which would fling the
+    // surface into the top-left corner and off screen. Keep the last good
+    // position instead — the outside-press and scroll handlers still close it.
+    if (!anchor.isConnected || (rect.width === 0 && rect.height === 0)) return
     if (matchAnchorWidth) setMinWidth(rect.width)
     const placed = placeAtAnchor(rect, size, viewport, {
       placement,

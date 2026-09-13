@@ -253,7 +253,10 @@ ALTER TABLE students ADD COLUMN IF NOT EXISTS username_normalized VARCHAR(32) NU
 ALTER TABLE students ADD COLUMN IF NOT EXISTS profile_icon VARCHAR(64) NULL;
 ALTER TABLE students ADD COLUMN IF NOT EXISTS social_provider VARCHAR(32) NULL;
 ALTER TABLE students ADD COLUMN IF NOT EXISTS social_subject VARCHAR(191) NULL;
-ALTER TABLE students ADD UNIQUE INDEX IF NOT EXISTS uniq_students_university_username (university_id, username_normalized);
+/* Usernames are unique across the whole platform, not per university — see
+   migration 0012. Multiple NULLs are allowed, so students without a username
+   do not collide. */
+ALTER TABLE students ADD UNIQUE INDEX IF NOT EXISTS uniq_students_username (username_normalized);
 
 /* A photo, not a glyph. Points at a `managed_media` row (uploaded or imported
    from the OAuth provider's `avatar_url`/`picture`) rather than storing bytes
