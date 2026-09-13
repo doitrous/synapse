@@ -66,6 +66,13 @@ final class SyncEngine {
     private(set) var status: Status = .idle
     private(set) var pendingUploads = 0
 
+    /// The server refused paid content with a 402 on the last pull — the trial
+    /// lapsed or there is no active plan. The shell reads this to show the
+    /// paywall instead of the generic "couldn't reach the server" failure a
+    /// retryable error would produce. Entitlement from `/api/me` is the durable
+    /// source of truth; this is the content layer's own verdict.
+    private(set) var subscriptionRequired = false
+
     private let api: SynapseAPI
     private let store: LocalStore
     private var inFlight = false
@@ -145,7 +152,7 @@ final class SyncEngine {
         let serverVersions: [String: Date?]
         do {
             serverVersions = try await api.stateManifest()
-        } catch APIError.notFound, APIError.forbidden {
+        } catch APIError.notFound, APIError.forbidden, APIError.paymentRequired {
             // An API deployed before the manifest endpoint. Fall back to the
             // only behaviour available to it — fetch every catalogue — rather
             // than refusing to sync at all. Every key then reads as "not
@@ -165,6 +172,8 @@ final class SyncEngine {
 
         let localVersions = try await store.catalogueVersions()
 
+        // Recomputed each pull, so access returning clears the paywall.
+        subscriptionRequired = false
         var changed = 0
         for key in Self.catalogueKeys {
             // Three cases, and they are genuinely different.
@@ -211,6 +220,12 @@ final class SyncEngine {
             return true
         } catch APIError.forbidden {
             // Not ours to read. Correct, and permanent — do not retry.
+            return false
+        } catch APIError.paymentRequired {
+            // Behind a subscription the student no longer has. Not a failure to
+            // retry — record it so the shell shows the paywall, and move on so
+            // the rest of the (free) sync still finishes.
+            subscriptionRequired = true
             return false
         }
     }

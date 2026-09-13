@@ -20,7 +20,20 @@ struct SignedInView: View {
     /// every redraw.
     @State private var tab = Destination.today
 
-    enum Destination: String, Hashable { case today, questions, flashcards, library, more }
+    enum Destination: String, Hashable {
+        case today, questions, flashcards, library, more
+
+        /// Whether entering this tab needs an active subscription. Mirrors the
+        /// web's `FREE_STUDENT_PATHS`: the dashboard is free, and the More hub
+        /// is free to open (its paid children answer 402 themselves). The daily
+        /// study surfaces are paid.
+        var isPaid: Bool {
+            switch self {
+            case .today, .more: false
+            case .questions, .flashcards, .library: true
+            }
+        }
+    }
 
     var body: some View {
         Group {
@@ -112,6 +125,21 @@ struct SignedInView: View {
         // Rebuild the surfaces when the cohort resolves, so a student who set
         // their year a moment ago is not still looking at everyone's content.
         .id(audience)
+        // A student whose access has lapsed sees the paywall over any paid tab,
+        // not the study surface's empty/error state. Dismisses itself the moment
+        // access returns (the get-only binding tracks `subscriptionRequired`) or
+        // the student steps back to a free surface.
+        .fullScreenCover(isPresented: Binding(
+            get: { container.sync.subscriptionRequired && tab.isPaid },
+            set: { _ in }
+        )) {
+            PaywallView(
+                onRefresh: { await container.sync.refresh() },
+                onBrowseFree: { tab = .today }
+            )
+            .environment(\.strings, strings)
+            .environment(\.layoutDirection, strings.layoutDirection)
+        }
     }
 
     private func start() async {

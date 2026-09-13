@@ -17,6 +17,11 @@ enum APIError: Error, Equatable {
     /// API deployed before a given endpoint answers, and the caller can often
     /// fall back to how it worked previously.
     case notFound
+    /// Signed in and allowed, but the content is behind a subscription the
+    /// caller no longer has (trial expired / no active plan). Never retry — the
+    /// fix is to subscribe, not to ask again. The UI answers this with a
+    /// paywall, not the generic "couldn't reach the server" error.
+    case paymentRequired
     /// The server broke, or the network did. Safe to retry.
     case transient(status: Int?)
     /// The response was not the shape we expected.
@@ -336,6 +341,7 @@ struct SynapseAPI {
         switch http.statusCode {
         case 200...299: return temporary
         case 401: throw APIError.unauthorized
+        case 402: throw APIError.paymentRequired
         case 403: throw APIError.forbidden
         case 404: throw APIError.notFound
         default: throw APIError.transient(status: http.statusCode)
@@ -551,6 +557,8 @@ struct SynapseAPI {
             return data
         case 401:
             throw APIError.unauthorized
+        case 402:
+            throw APIError.paymentRequired
         case 403:
             throw APIError.forbidden
         case 404:
@@ -638,6 +646,7 @@ extension SynapseAPI {
         switch http.statusCode {
         case 200...299: return
         case 401: throw APIError.unauthorized
+        case 402: throw APIError.paymentRequired
         case 403: throw APIError.forbidden
         case 404: throw APIError.notFound
         default: throw APIError.transient(status: http.statusCode)
