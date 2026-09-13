@@ -12,6 +12,7 @@ import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Field, TextInput } from '@/components/ui/Field'
+import { Avatar } from '@/components/ui/Avatar'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
 import { TopicChooser } from '@/components/qbank/TopicChooser'
@@ -24,7 +25,7 @@ import { useChallengeActions, useMyChallenges } from '@/lib/useChallenges'
 import { FriendsPanel } from '@/components/social/FriendsPanel'
 import { ChallengeDialog, ChallengePanel } from '@/components/social/ChallengePanel'
 import { DemoFriendsPreview, DemoSharedTestsPreview } from '@/components/social/DemoCollaborationPreview'
-import { API_MODE } from '@/lib/api'
+import { API_MODE, apiGet } from '@/lib/api'
 import { useRelativeTime } from '@/lib/useRelativeTime'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
@@ -57,15 +58,18 @@ function QuietSection({
   hint,
   action,
   children,
+  collapsible = true,
 }: {
   title: string
   icon: LucideIcon
   hint?: ReactNode
   action?: ReactNode
   children: ReactNode
+  /** Left out or true, the section can be hidden. Friends passes false — it is always shown. */
+  collapsible?: boolean
 }) {
   const t = useT()
-  const [open, setOpen] = useState(title===t('Friends'))
+  const [open, setOpen] = useState(collapsible ? title === t('Friends') : true)
   const id = useId()
   return (
     <Panel>
@@ -74,19 +78,21 @@ function QuietSection({
         icon={icon}
         hint={hint}
         action={
-          <div className="flex items-center gap-2">{action}<Button
-            variant="ghost"
-            size="sm"
-            aria-expanded={open}
-            aria-controls={id}
-            onClick={() => setOpen((current) => !current)}
-          >
-            <Icon icon={ChevronDown} size={15} className="chevron-turn" open={open} />
-            {open ? t('Hide') : t('Show')}
-          </Button></div>
+          collapsible ? (
+            <div className="flex items-center gap-2">{action}<Button
+              variant="ghost"
+              size="sm"
+              aria-expanded={open}
+              aria-controls={id}
+              onClick={() => setOpen((current) => !current)}
+            >
+              <Icon icon={ChevronDown} size={15} className="chevron-turn" open={open} />
+              {open ? t('Hide') : t('Show')}
+            </Button></div>
+          ) : action
         }
       />
-      <Collapse open={open} id={id}>
+      <Collapse open={collapsible ? open : true} id={id}>
         <div className="p-4">{children}</div>
       </Collapse>
     </Panel>
@@ -315,6 +321,90 @@ function YourUsernameShare() {
   )
 }
 
+/**
+ * Classmates in your own university and year who have opted in — the surface
+ * that makes "let classmates find me" mean something.
+ *
+ * It reads the same `discoverable` flag the toggle above writes, and re-reads
+ * it when that toggle fires `nishany:discoverability-changed`, so opting in
+ * fills the list in the same breath. The directory is reciprocal by design:
+ * the server only answers a browse from a student who is themselves
+ * discoverable, so the list is empty until you opt in — which is exactly why a
+ * student who had turned it on saw nobody, and nobody saw them: nothing on the
+ * page ever asked the directory. Existing friends, pending requests and blocks
+ * are filtered server-side, so every row here is someone you can add.
+ */
+function ClassmatesDirectory() {
+  const t = useT()
+  const { searchDirectory, request } = useFriends()
+  const [discoverable, setDiscoverable] = useState<boolean | null>(null)
+  const [people, setPeople] = useState<FriendProfile[] | null>(null)
+  const [sending, setSending] = useState<string | null>(null)
+  const [sent, setSent] = useState<Set<string>>(new Set())
+  const [message, setMessage] = useState('')
+
+  useEffect(() => {
+    let active = true
+    const load = () => { void apiGet<{ discoverable: boolean }>('/account/discoverable').then((r) => { if (active) setDiscoverable(r.discoverable) }).catch(() => { if (active) setDiscoverable(false) }) }
+    load()
+    window.addEventListener('nishany:discoverability-changed', load)
+    return () => { active = false; window.removeEventListener('nishany:discoverability-changed', load) }
+  }, [])
+
+  useEffect(() => {
+    if (!discoverable) { setPeople(null); return }
+    let active = true
+    void searchDirectory('').then((r) => { if (active) setPeople(r.people) }).catch(() => { if (active) setMessage(t('Could not load classmates. Try again shortly.')) })
+    return () => { active = false }
+  }, [discoverable, searchDirectory, t])
+
+  if (discoverable === null) return null
+  if (!discoverable) {
+    return <p className="rounded-lg border border-line bg-inset px-3 py-2 text-[12.5px] text-ink-2">{t('Turn on “let classmates find me” above to see classmates in your year here — and to let them find you.')}</p>
+  }
+
+  async function add(person: FriendProfile) {
+    setSending(person.userId)
+    setMessage('')
+    try {
+      const result = await request(person.userId)
+      if (result.ok) setSent((current) => new Set(current).add(person.userId))
+      else setMessage(FRIEND_REFUSALS[result.reason ?? ''] ?? t('Could not send the request. Try again.'))
+    } catch { setMessage(t('Check your connection and try again.')) }
+    finally { setSending(null) }
+  }
+
+  return (
+    <div className="rounded-lg border border-line">
+      <p className="flex items-center gap-2 border-b border-line px-4 py-2.5 text-[12.5px] font-semibold text-ink-2">
+        <Icon icon={Users} size={14} /> {t('Classmates in your year')}
+        {people && people.length > 0 && <span className="ms-auto font-normal text-ink-3">{people.length}</span>}
+      </p>
+      {people === null ? (
+        <p className="px-4 py-4 text-center text-[12.5px] text-ink-3">{t('Finding classmates…')}</p>
+      ) : people.length === 0 ? (
+        <p className="px-4 py-4 text-center text-[12.5px] text-ink-3">{t('No classmates in your year have opted in yet. As they do, they will appear here.')}</p>
+      ) : (
+        <ul className="divide-y divide-line">
+          {people.map((person) => (
+            <li key={person.userId} className="flex items-center gap-3 px-4 py-3">
+              <Avatar name={person.displayName} size="sm" />
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-[13.5px] font-medium text-ink">{person.displayName}</span>
+                {person.statusMessage && <span className="block truncate text-[12px] text-ink-3">{person.statusMessage}</span>}
+              </span>
+              <Button size="sm" variant="secondary" iconLeft={Plus} disabled={sent.has(person.userId) || sending !== null} loading={sending === person.userId} onClick={() => void add(person)}>
+                {sent.has(person.userId) ? t('Requested') : t('Add')}
+              </Button>
+            </li>
+          ))}
+        </ul>
+      )}
+      <p role="status" className={cn('px-4 pb-2 text-[12px] text-danger', !message && 'sr-only')}>{message}</p>
+    </div>
+  )
+}
+
 export function FriendsSection({
   onOpenSharedTest,
   onOpenChallenge,
@@ -380,6 +470,7 @@ export function FriendsSection({
     <QuietSection
       title={t('Friends')}
       icon={Users}
+      collapsible={false}
       hint={friends.length ? `${friends.length}` : undefined}
       action={<AddFriendButton onAdded={()=>void reloadFriends()}/>}
     >
@@ -389,6 +480,7 @@ export function FriendsSection({
         <div className="space-y-4">
           <YourUsernameShare/>
           <DiscoverabilityControl/>
+          <ClassmatesDirectory/>
           <p role="status" className={cn('text-[12.5px]', !inviteNotice && 'sr-only', inviteNotice?.tone === 'success' ? 'text-success' : 'text-danger')}>
             {inviteNotice?.text}
           </p>

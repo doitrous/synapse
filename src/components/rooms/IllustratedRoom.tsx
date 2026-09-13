@@ -62,7 +62,9 @@ export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=fals
         {!preview&&artState==='loading'&&<LoadingRegion label={t('Preparing room artwork…')} className="pointer-events-none absolute inset-0 z-10"><Skeleton className="size-full" /></LoadingRegion>}
         <>{library?<LibraryArchitecture height={height} id={id}/>:<ReferenceArchitecture height={height} roomStyle={world.style} id={id} hasDiscussion={hasDiscussion}/>}</>
         {!library&&<>
-        <FurnitureSprite kind="chair" style={{left:'22%',top:'11%',width:'15%',height:'auto'}}/>
+        {/* No lone chair against the back wall — it read as a seat but had no
+            desk or pick target, so students clicked it and nothing happened.
+            Every real seat is a data-driven .reference-seat-target below. */}
         <FurnitureSprite kind="plant" style={{left:'2%',top:'25%',width:'9%',height:'auto'}}/>
         <FurnitureSprite kind="plant" style={{left:'50%',top:'55%',width:'10%',height:'auto'}}/>
         <FurnitureSprite kind="plant" style={{left:'88%',top:'13%',width:'10%',height:'auto'}}/>

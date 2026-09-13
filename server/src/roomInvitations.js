@@ -37,7 +37,9 @@ export async function respondToRoomInvitation(userId,id,accept){
   if(!invite)return {ok:false,reason:'invitation_expired'}
   if(accept!==true&&accept!==false)return {ok:false,reason:'invalid_response'}
   if(!accept){await pool.query("UPDATE study_room_invitations SET status='declined',read_at=NOW() WHERE id=? AND recipient_id=?",[id,userId]);return {ok:true}}
-  // Accepting a table request never follows an inviter to a different table.
+  // Accepting a table request moves the recipient to a free seat at the
+  // inviter's table — but only if the inviter is still sitting there, so a
+  // stale invite can't drag someone to an empty corner.
   let seatIndex=null
   if(invite.tableId){
     const party=await partyFor(userId,invite.partyId)

@@ -53,7 +53,7 @@
 .reference-room-stage{margin-inline:auto}
 .reference-room:not(.is-preview) .reference-room-pan{background:#e9e5db}
 @media(min-width:901px){
-  .reference-room:not(.is-preview):not(.is-expanded) .reference-room-stage{width:min(100%,max(320px,calc(clamp(260px,calc(100dvh - 450px),660px) * var(--reference-ratio))))}
+  .reference-room:not(.is-preview):not(.is-expanded) .reference-room-stage{width:min(100%,max(360px,calc(clamp(280px,calc(100dvh - 320px),760px) * var(--reference-ratio))))}
   .reference-room.is-expanded .reference-room-stage{width:100%}
   .room-fallback:not(.is-preview)>.diorama-view-controls{padding:6px 12px}
 }

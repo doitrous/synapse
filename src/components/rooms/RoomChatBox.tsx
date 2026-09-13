@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { MessageCircle, Send, X } from 'lucide-react'
 import { useT } from '@/lib/i18n'
 import { Button } from '@/components/ui/Button'
@@ -62,17 +62,10 @@ function Conversation({demo,messages,draft,onDraft,onSend,name,live}:{demo:boole
  */
 export function RoomChatBox(props:{demo:boolean;messages:RoomMessage[];draft:string;onDraft:(text:string)=>void;onSend:()=>void;onClose?:()=>void;name:string;live?:LiveChat|null;embedded?:boolean}){
   const t=useT()
-  const [placement,setPlacement]=useState({left:12,width:340})
-  useLayoutEffect(()=>{
-    if(props.embedded)return
-    const room=document.getElementById('world-room-region')
-    const update=()=>{const rect=room?.getBoundingClientRect();const available=rect&&rect.width>0?rect.width:innerWidth;setPlacement({left:Math.max(12,(rect?.left??0)+12),width:Math.min(360,available-24)})}
-    update();const observer=new ResizeObserver(update);if(room)observer.observe(room)
-    window.addEventListener('resize',update);window.addEventListener('scroll',update,true)
-    return()=>{observer.disconnect();window.removeEventListener('resize',update);window.removeEventListener('scroll',update,true)}
-  },[props.embedded])
   if(props.embedded)return <div className="room-chat-box room-chat-embedded" aria-label={t('Room chat')}><Conversation {...props}/></div>
-  return <section style={{left:placement.left,width:placement.width,right:'auto'}} className="room-chat-box" aria-label={t('Room chat')} onKeyDown={e=>{if(e.key==='Escape'){e.stopPropagation();props.onClose?.()}}}>
+  // Floating over the room floor: positioned by CSS, anchored to its container
+  // (the room region), so there is nothing to measure and nothing to keep in sync.
+  return <section className="room-chat-box animate-pop" aria-label={t('Room chat')} onKeyDown={e=>{if(e.key==='Escape'){e.stopPropagation();props.onClose?.()}}}>
     <header><div><MessageCircle size={18}/><h2>{t('Room chat')}</h2></div><button type="button" onClick={props.onClose} aria-label={t('Close chat')}><X size={18}/></button></header>
     <Conversation {...props}/>
   </section>

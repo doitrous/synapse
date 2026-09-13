@@ -6,8 +6,9 @@
 .room-companion-study-links button{flex:1;display:flex;align-items:center;justify-content:center;gap:5px;font-size:11px;min-height:34px;border:1px solid var(--color-line);border-radius:6px;cursor:pointer;color:var(--color-ink-2)}
 .room-companion-study-links button:hover{background:var(--color-inset)}
 .room-companion-popup button:focus-visible{outline:2px solid var(--color-primary);outline-offset:2px}
-.app-content-shell:has(>.room-companion-popup){height:100dvh;min-height:0!important;overflow:hidden}
-.app-content-shell:has(>.room-companion-popup)>#main-content{flex:1 1 0%;min-height:0;overflow:auto;overscroll-behavior:contain}
-.room-companion-clearance{flex:none}
+/* The dock is position:fixed — it floats on its own. The page keeps its normal
+   document scroll; we only reserve a little room at the bottom so the last of a
+   page's content can scroll clear of the collapsed card, never covered by it. */
+.app-content-shell:has(.room-companion-popup) #main-content{padding-bottom:132px}
 @media(min-width:1024px){.room-companion-popup{left:calc(var(--room-sidebar-offset) + 12px)}}
 @media(prefers-reduced-motion:reduce){.room-companion-popup{transition:none}}

@@ -19,7 +19,7 @@ import { StudyActivityTracker } from './StudyActivityTracker'
 import { FocusAudioProvider } from './FocusAudioPlayer'
 import { PomodoroProvider } from './PomodoroTimer'
 import { MaristanaProgressNotice } from '@/components/maristanas/MaristanaProgressNotice'
-import { RoomSessionProvider } from '@/lib/rooms/RoomSessionProvider'
+import { RoomSessionProvider, useRoomSession } from '@/lib/rooms/RoomSessionProvider'
 import { RoomDock } from '@/components/rooms/RoomDock'
 
 function isTypingTarget(target: EventTarget | null): boolean {
@@ -50,6 +50,10 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // The student's own preference is never written by a test — it is only
   // overridden while one is running, and comes straight back afterwards.
   const railed = collapsed || immersive
+  // The immersive room is its own workspace: the floating study assistant, like
+  // the dock, steps aside while the full hall is on screen so nothing hovers
+  // over the room floor.
+  const inRoom = Boolean(useRoomSession()?.viewingFull)
 
   // The sidebar destination this URL belongs to: "/app/resources/42" and
   // "/app/resources" are one destination, "/app/library" is another.
@@ -240,7 +244,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
       {/* Docked, not a page: the question is nearly always about what is
           already on screen. Renders nothing unless the assistant is on and
           included on this student's plan. */}
-      {portal === 'student' && !focusMode && <StudyAssistant />}
+      {portal === 'student' && !focusMode && !inRoom && <StudyAssistant />}
       {/* The study room, floated over every page so joining a room is not the
           same as being pinned to the Study Rooms page. Draws nothing until a
           room is joined, and steps aside while the full hall is on screen. */}

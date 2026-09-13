@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type CSSProperties } from 'react'
+import { type CSSProperties } from 'react'
 import './roomDock.css'
 import { useNavigate } from 'react-router-dom'
 import { ChevronDown, ChevronUp, ExternalLink, LogOut, Mic, MicOff, Volume2, Pause, Play, Coffee, Hand, BookOpen, Layers, Brain } from 'lucide-react'
@@ -39,16 +39,6 @@ export function RoomDock({railed,focusMode}: { railed: boolean; focusMode: boole
   const timer = usePomodoro()
   const startTimer = () => { if (!timer) return; if (!timer.running && timer.current.mode !== 'focus') timer.selectMode('focus'); timer.startPause() }
 
-  const dockRef=useRef<HTMLElement>(null)
-  const [dockHeight,setDockHeight]=useState(82)
-  const visible=Boolean(session?.room&&!session.viewingFull)
-  useEffect(()=>{
-    if(!visible||!dockRef.current)return
-    const observer=new ResizeObserver(([entry])=>setDockHeight(entry.target.getBoundingClientRect().height))
-    observer.observe(dockRef.current)
-    return()=>observer.disconnect()
-  },[visible])
-
   if (!session || !session.room || session.viewingFull) return null
 
   const { room, channel, audio, leave, dockExpanded, setDockExpanded } = session
@@ -82,14 +72,11 @@ export function RoomDock({railed,focusMode}: { railed: boolean; focusMode: boole
 
   const avatars = (members ?? []).slice(0, 4)
 
-  return (<>
-    <div aria-hidden="true" className="room-companion-clearance" style={{height:dockHeight+24}}/>
+  return (
     <section
-      ref={dockRef}
       aria-label={t('Study room')}
       className="room-companion-popup"
       style={{'--room-sidebar-offset':focusMode?'0px':railed?'var(--spacing-sidebar-collapsed)':'var(--spacing-sidebar)'} as CSSProperties}
-
     >
       <div className="rounded-2xl border border-line bg-surface shadow-pop">
         {/* ── The bar (always shown) ─────────────────────────────── */}
@@ -245,5 +232,5 @@ export function RoomDock({railed,focusMode}: { railed: boolean; focusMode: boole
         )}
       </div>
     </section>
-  </>)
+  )
 }

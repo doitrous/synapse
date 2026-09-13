@@ -11,7 +11,7 @@
 .world-courtyard{--world-wood:color-mix(in srgb,var(--color-warning-tint) 70%,var(--color-surface));--world-edge:var(--color-line-2);--world-floor:color-mix(in srgb,var(--color-success-tint) 48%,var(--color-mist))}
 .world-header{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
 .world-workspace{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:20px;align-items:start}
-.world-room-region{min-width:0}
+.world-room-region{min-width:0;position:relative}
 .world-room-caption{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:var(--color-ink-2);padding:0 0 10px}
 .world-control-dock button:focus-visible,.world-model:focus-within{outline:2px solid var(--color-primary);outline-offset:3px}
 .world-session{border:1px solid var(--color-line);border-radius:12px;background:var(--color-surface);padding:20px}
@@ -164,8 +164,8 @@
 
 
 /* A wider session rail, with a reserved bottom band for the floating controls. */
-.world-refined{padding-bottom:155px}
-.world-refined .world-workspace{grid-template-columns:minmax(0,1fr) clamp(310px,28vw,380px);gap:20px}
+.world-refined{--room-panel-w:clamp(300px,24vw,352px);padding-bottom:24px}
+.world-refined .world-workspace{grid-template-columns:minmax(0,1fr) var(--room-panel-w);gap:20px}
 .world-refined>.world-dock-wrap{position:fixed;left:50%;transform:translateX(-50%);bottom:12px;margin:0;z-index:40;width:max-content;max-width:calc(100vw - 24px);padding:8px 12px;border:0;box-shadow:0 6px 28px #10232e26}
 .world-refined .world-control-dock button{min-height:46px}
 .world-refined .world-dock-wrap>p{font-size:10px;margin-top:4px}
@@ -202,7 +202,17 @@
 .session-resources{padding:22px 0}
 .session-resources .world-quick-links{border:0;padding-top:12px;justify-content:space-between;gap:8px}
 .session-desk-action{width:100%;justify-content:center}
-.room-chat-box{position:fixed;z-index:43;right:24px;bottom:150px;width:360px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 180px);display:flex;flex-direction:column;border-radius:12px;background:var(--color-surface);box-shadow:0 8px 35px #10232e33;overflow:hidden}
+/* Pinned to the viewport corner just clear of the panel, so it is on screen at
+   every scroll position; the box opens above the button. */
+.room-chat-box{position:fixed;z-index:42;inset-inline-end:calc(var(--room-panel-w,352px) + 40px);bottom:84px;width:min(360px,calc(100vw - 32px));max-height:min(70dvh,440px);display:flex;flex-direction:column;border:1px solid var(--color-line);border-radius:12px;background:var(--color-surface);box-shadow:var(--shadow-pop);overflow:hidden}
+.room-chat-fab{position:fixed;z-index:41;inset-inline-end:calc(var(--room-panel-w,352px) + 40px);bottom:20px;display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border-radius:99px;background:var(--color-primary);color:var(--color-on-primary);box-shadow:var(--shadow-action);cursor:pointer;transition:background .15s var(--ease-out-quint)}
+.room-chat-fab:hover{background:var(--color-primary-hover)}
+.room-chat-fab.is-open{background:var(--color-surface);color:var(--color-ink-2);box-shadow:var(--shadow-pop);border:1px solid var(--color-line)}
+.room-chat-fab:focus-visible{outline:2px solid var(--color-primary);outline-offset:2px}
+.room-chat-fab-badge{position:absolute;top:-3px;inset-inline-end:-3px;min-width:18px;height:18px;padding:0 5px;display:grid;place-items:center;border-radius:99px;background:var(--color-danger);color:#fff;font-size:10px;font-weight:700;line-height:1;border:2px solid var(--color-surface)}
+/* Below the panel's own breakpoint it is a full-width tab; the button sits in the corner. */
+@media(max-width:900px){.room-chat-fab,.room-chat-box{inset-inline-end:16px}}
+.world-focus-mode .room-chat-fab,.world-focus-mode .room-chat-box{display:none}
 .room-chat-box>header{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1px solid var(--color-line)}
 .room-chat-box>header>div{display:flex;align-items:center;gap:9px}.room-chat-box h2{font-size:16px;font-family:var(--font-serif)}
 .room-chat-box>header button{cursor:pointer;padding:7px;border-radius:5px;color:var(--color-ink-2)}
@@ -218,12 +228,10 @@
 .room-chat-box form small{grid-column:1/-1;font-size:10px;color:var(--color-ink-2)}.room-chat-live{overflow:auto;padding:16px}
 .room-chat-box textarea:focus-visible,.room-chat-box button:focus-visible{outline:2px solid var(--color-primary);outline-offset:2px}
 @media(max-width:900px){.world-refined .world-workspace{display:block}.world-refined .world-session-region{max-height:none;overflow:visible}.world-refined>.world-dock-wrap{bottom:calc(8px + env(safe-area-inset-bottom));width:max-content}.session-redesigned .world-timer time{font-size:62px}.world-refined{padding-bottom:165px}}
-@media(max-width:560px){.world-refined>.world-dock-wrap{width:calc(100vw - 24px);padding:8px 5px}.world-refined .world-control-dock button{min-height:46px}.room-chat-box{right:12px;bottom:155px;max-height:calc(100dvh - 180px)}.room-chat-log{height:220px}.session-redesigned.world-session{padding:20px}}
+@media(max-width:560px){.world-refined>.world-dock-wrap{width:calc(100vw - 24px);padding:8px 5px}.world-refined .world-control-dock button{min-height:46px}.room-chat-box{right:12px;bottom:70px;max-height:min(70%,60dvh)}.room-chat-log{height:220px}.session-redesigned.world-session{padding:20px}}
 .world-refined.world-focus-mode{padding-bottom:155px}.world-refined.world-focus-mode>.world-dock-wrap{position:fixed}
 
 @media(min-width:901px){
-  .world-refined .world-workspace:has(.reference-room:not(.is-expanded)){grid-template-columns:minmax(0,min(62%,max(380px,calc(clamp(280px,calc(100dvh - 415px),620px) * var(--room-fit-ratio))))) minmax(310px,1fr)}
-  .world-refined .reference-room:not(.is-expanded):not(.is-preview) .reference-room-stage{width:100%}
   .world-refined .reference-room-options{flex-wrap:wrap}
   .world-refined .reference-room-options>span{flex:1;min-width:150px}
   .world-refined .reference-room-options button{min-height:30px}
@@ -270,10 +278,11 @@
 .world-chooser .world-card-copy>div:last-child button{padding-inline:10px}
 @media(max-width:560px){.world-chooser .world-preview{height:145px}.world-chooser .world-card-copy{padding:12px}}
 
-/* Use width for parallel tasks; only the People view scrolls. */
-@media(min-width:901px){
-  .world-refined .world-workspace{grid-template-columns:minmax(0,1fr) minmax(400px,46%)}
-  .world-refined .world-workspace:has(.reference-room:not(.is-expanded)){grid-template-columns:minmax(0,min(47%,max(330px,calc(clamp(250px,calc(100dvh - 415px),620px) * var(--room-fit-ratio))))) minmax(400px,1fr)}
+/* The room is the larger, flexible column; the panel is a fixed rail. The room
+   drawing self-caps to the vertical budget and centres, so the extra width reads
+   as a roomier floor rather than a stretched illustration. */
+@media(min-width:1500px){
+  .world-refined{--room-panel-w:clamp(320px,22vw,372px)}
 }
 .world-refined .world-session-region{max-height:none;overflow:visible;container-type:inline-size}
 .world-refined .session-rail-tabs{position:static;padding:0 14px;gap:16px}
@@ -329,13 +338,20 @@
 .room-discovery-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .room-discovery-friends{display:grid;gap:16px;position:sticky;top:90px;min-width:0}
 .room-live-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
-.room-code-form{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:14px 0;border-block:1px solid var(--color-line)}
+.room-code-form{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:2px 0 18px}
 .room-code-form label{font-size:13px;font-weight:600}.room-code-form input{flex:1;min-width:140px;max-width:300px}
 .room-discovery .world-cards{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .room-discovery .world-preview{height:140px}
 @media(max-width:1100px){.room-discovery{grid-template-columns:minmax(0,1fr) 270px;gap:18px}}
 @media(max-width:800px){.room-discovery{grid-template-columns:1fr}.room-discovery-friends{position:static}.room-code-form label{width:100%}}
 .room-activities{max-width:1000px;margin:auto;display:grid;gap:18px;padding-block:12px 100px}.room-activity-builders{display:grid;grid-template-columns:1.2fr 1fr;gap:30px}.room-activity-builders>section{display:grid;gap:12px;align-content:start;padding:20px;background:var(--color-surface);border:1px solid var(--color-line);border-radius:12px}.room-activity-builders h3{display:flex;gap:8px;align-items:center;font-weight:600}.room-activity-list>button{display:flex;align-items:center;gap:12px;width:100%;text-align:start;padding:14px;border-bottom:1px solid var(--color-line)}.room-activity-list small{display:block;color:var(--color-ink-2);font-size:12px;margin-top:4px}.room-activity-runner{padding-bottom:100px}@media(max-width:650px){.room-activity-builders{grid-template-columns:1fr}}
+.room-activity-cue{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--color-primary-line);border-radius:8px;background:var(--color-primary-tint);color:var(--color-primary-strong);font-size:13px}
+.room-activity-cue>svg:first-child{flex:0 0 auto}
+.room-activity-cue>span{flex:1;min-width:0}
+.room-activity-cue strong{font-weight:600}
+.room-activity-cue-dismiss{flex:0 0 auto;padding:4px;border-radius:5px;color:var(--color-primary-strong);cursor:pointer}
+.room-activity-cue-dismiss:hover{background:#00000012}
+.room-activity-cue-dismiss:focus-visible{outline:2px solid var(--color-primary);outline-offset:1px}
 .room-live-cards{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
 .room-card-thumbnail{height:110px;overflow:hidden;border-radius:8px;background:var(--color-inset);position:relative;pointer-events:none}
 .room-card-thumbnail .room-fallback{border:0;border-radius:0}
@@ -389,9 +405,11 @@
 .session-dock{display:flex;flex-direction:column;min-height:0;flex:1}
 
 .session-focus-strip{padding:14px 16px;border-bottom:1px solid var(--color-line);display:flex;flex-direction:column;gap:10px}
-.session-goal{display:flex;align-items:center;gap:8px;color:var(--color-accent-strong)}
+.session-goal{display:flex;align-items:center;gap:8px;padding:9px 11px;border:1px solid var(--color-line-2);border-radius:8px;background:var(--color-surface-2);color:var(--color-accent-strong);cursor:text;transition:border-color .15s var(--ease-out-quint),background .15s var(--ease-out-quint)}
+.session-goal:hover{border-color:var(--color-primary-line)}
+.session-goal:focus-within{border-color:var(--color-primary);background:var(--color-surface)}
 .session-goal input{flex:1;min-width:0;border:0;background:transparent;font-size:14px;font-weight:550;color:var(--color-ink)}
-.session-goal input::placeholder{color:var(--color-ink-3);font-weight:400}
+.session-goal input::placeholder{color:var(--color-ink-2);font-weight:450}
 .session-goal input:focus-visible{outline:none}
 .session-focus-row{display:flex;align-items:center;justify-content:space-between;gap:8px}
 .session-status-pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:500;color:var(--color-ink-2);background:var(--color-surface-2);padding:5px 9px;border-radius:99px}
@@ -410,6 +428,9 @@
 .session-voice-controls>button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:38px;padding:7px 12px;border-radius:8px;border:1px solid var(--color-line);background:var(--color-surface);color:var(--color-ink-2);font-size:12px;font-weight:500;cursor:pointer}
 .session-voice-controls>button:first-child{flex:1}
 .session-voice-controls>button:hover{background:var(--color-surface-2)}
+/* Join voice is the accented call to action until you are connected. */
+.session-voice-controls>button.is-join{background:var(--color-accent);border-color:var(--color-accent);color:#fff;font-weight:600}
+.session-voice-controls>button.is-join:hover{background:var(--color-accent-strong);border-color:var(--color-accent-strong)}
 .session-voice-controls>button.is-live[aria-pressed=true]{background:var(--color-primary-tint);border-color:var(--color-primary-line);color:var(--color-primary-strong)}
 .session-voice-controls>button:disabled{opacity:.5;cursor:not-allowed}
 .session-voice-controls .session-voice-leave{flex:0 0 auto;color:var(--color-danger)}
@@ -420,7 +441,7 @@
 .session-audience button:disabled{opacity:.45;cursor:default}
 .session-voice-status{font-size:11px;color:var(--color-ink-3)}
 
-.session-members{padding:12px 16px 10px;border-bottom:1px solid var(--color-line);max-height:24vh;overflow:auto;scrollbar-width:thin;flex-shrink:0}
+.session-members{padding:12px 16px 10px;border-bottom:1px solid var(--color-line);flex:1;min-height:120px;overflow:auto;scrollbar-width:thin}
 .session-members h3{font-size:12px;font-weight:600;color:var(--color-ink);display:flex;align-items:center;gap:8px;margin-bottom:8px}
 .session-talking{display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:600;color:var(--color-success);background:var(--color-success-tint);padding:2px 7px;border-radius:99px}
 .session-members ul{display:flex;flex-direction:column;gap:2px}
@@ -435,9 +456,14 @@
 .session-member-icon{flex-shrink:0;color:var(--color-ink-3)}
 .session-member-icon.is-speaking{color:var(--color-primary)}
 
-.session-chat{flex:1;min-height:130px;display:flex;flex-direction:column}
-.room-chat-embedded{position:static;inset:auto;width:auto;max-width:none;max-height:none;height:100%;border-radius:0;box-shadow:none;background:transparent;flex:1;min-height:0}
-.room-chat-embedded .room-chat-log{height:auto;flex:1;min-height:0}
+.session-together{display:flex;align-items:center;gap:11px;width:100%;padding:12px 16px;border-bottom:1px solid var(--color-line);text-align:start;color:var(--color-ink);cursor:pointer}
+.session-together:hover{background:var(--color-surface-2)}
+.session-together:focus-visible{outline:2px solid var(--color-primary);outline-offset:-2px}
+.session-together-icon{flex:0 0 auto;color:var(--color-primary-strong)}
+.session-together-copy{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.session-together-copy strong{font-size:13px;font-weight:600}
+.session-together-copy small{font-size:11px;color:var(--color-ink-2)}
+.session-together-chevron{flex:0 0 auto;color:var(--color-ink-3)}
 
 .session-footer{display:flex;gap:4px;padding:10px 12px;border-top:1px solid var(--color-line)}
 .session-footer button{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:48px;border-radius:8px;padding:6px;color:var(--color-ink-2);font-size:11px;cursor:pointer}
@@ -480,23 +506,28 @@
    dock's own corner (bottom-left, past the sidebar) and settles on an
    iOS-sheet curve, so leaving reads as the room being *tucked into* its
    companion rather than blinking out. It stays fully opaque through the first
-   third — you watch it fold — then fades as it seats. Motion is carried on
-   transform/opacity (composited); only the shrinking element's corner radius
-   paints, which is cheap once it is small. The dock answers with a short
-   receive-pop so the two moves read as one handoff. */
+   third — you watch it fold — then fades as it seats. Motion is carried purely
+   on transform/opacity so the whole fold stays on the compositor: the corner
+   radius is a constant (rounding a huge element by 24px reads the same at full
+   size) rather than animated, so not a single frame repaints the 2.5D scene.
+   The layer is promoted a frame before the transform starts (see RoomView) so
+   frame one never hitches. The dock answers with a short receive-pop so the two
+   moves read as one handoff. */
 @media(prefers-reduced-motion:no-preference){
   .study-world{transition:transform .3s var(--ease-out-quint,cubic-bezier(.22,1,.36,1)),opacity .3s ease}
   .study-world.is-collapsing{
     transform-origin:12px calc(100% - 12px);
+    border-radius:24px;
     animation:room-fold-into-dock 440ms cubic-bezier(.32,.72,0,1) forwards;
     pointer-events:none;
     overflow:hidden;
     will-change:transform,opacity;
+    backface-visibility:hidden;
   }
   @keyframes room-fold-into-dock{
-    0%{transform:scale(1) translateY(0);opacity:1;border-radius:0}
-    32%{transform:scale(.82) translateY(4px);opacity:1;border-radius:24px}
-    100%{transform:scale(.13) translateY(18px);opacity:0;border-radius:32px}
+    0%{transform:scale(1) translateY(0);opacity:1}
+    32%{transform:scale(.82) translateY(4px);opacity:1}
+    100%{transform:scale(.13) translateY(18px);opacity:0}
   }
   .room-companion-popup{animation:dock-receive .5s cubic-bezier(.32,.72,0,1) both}
   @keyframes dock-receive{

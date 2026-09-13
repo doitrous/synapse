@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from 'react'
-import { ChevronDown, Coffee, Hand, Headphones, HeadphoneOff, LogOut, Mic, MicOff, Target, Volume2 } from 'lucide-react'
+import { ChevronDown, ChevronRight, ClipboardList, Coffee, Hand, Headphones, HeadphoneOff, LogOut, Mic, MicOff, Target, Volume2 } from 'lucide-react'
 import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
 import { useT } from '@/lib/i18n'
 import type { StudyPresence } from '@/lib/rooms/studyWorld'
@@ -7,22 +7,20 @@ import { StudentPortrait } from './StudyWorldArt'
 import { StudyStatusIcon } from './StudyStatusIcon'
 import { StudyTimerButton } from './StudyTimerButton'
 import { MyStudySession } from './MyStudySession'
-import { RoomChatBox, type ChatTarget, type RoomMessage } from './RoomChatBox'
-import type { LiveChat } from './RoomChatBox'
 
 /**
- * The room's right-hand dock, redesigned chat-forward.
+ * The room's right-hand panel, redesigned quiet and single-column.
  *
- * Everything a student does while seated lives here in one column: a compact
- * focus line (goal, status, the shared study timer), the voice bar (mic,
- * deafen, who they speak to), who is in the room and who is talking, and the
- * live chat filling the rest. The old bottom control dock, the separate People
- * tab and the floating chat popover all folded into this. The full focus editor
- * (module, reminder, status, study links, desk) is one tap away under "Study
- * tools", collapsed so it never crowds the conversation.
+ * One vertical run, hairline-ruled into four bands the way the rest of the app
+ * is: your focus line (goal, status, the shared timer), the voice bar, the one
+ * door into shared tests and games, and who is in the room — which now takes the
+ * height the embedded chat used to eat, because chat became a floating box over
+ * the floor. Raise hand / break / leave sit in the footer, and the fuller focus
+ * editor and room management stay one tap away under their disclosures so they
+ * never crowd the people you came to sit with.
  */
 export function RoomSessionRail({
-  demo, people, onOpenMember, reminder, onReminder, onCustomise, shared, onLeaveRoom, chat, manage,
+  demo, people, onOpenMember, reminder, onReminder, onCustomise, shared, onLeaveRoom, onStudyTogether, manage,
 }: {
   demo: boolean
   people: StudyPresence[]
@@ -32,7 +30,8 @@ export function RoomSessionRail({
   onCustomise: () => void
   shared: boolean
   onLeaveRoom: () => void
-  chat: { name: string; messages: RoomMessage[]; draft: string; onDraft: (t: string) => void; onSend: () => void; target: ChatTarget | null; live: LiveChat | null }
+  /** Opens the shared tests & games surface — the room's one collaborative door. */
+  onStudyTogether: () => void
   /** Party management (schedule, games, roster) — shown behind a disclosure. */
   manage?: ReactNode
 }) {
@@ -73,7 +72,7 @@ export function RoomSessionRail({
       {/* Voice bar */}
       <div className="session-voice">
         <div className="session-voice-controls" role="group" aria-label={t('Voice')}>
-          <button type="button" aria-pressed={micOn} className={micOn ? 'is-live' : ''} disabled={demo || audio?.state === 'joining' || audio?.state === 'unsupported'} onClick={() => (audio?.callActive ? audio.toggleMute() : void audio?.join())}>
+          <button type="button" aria-pressed={micOn} className={audio?.callActive ? (micOn ? 'is-live' : '') : 'is-join'} disabled={demo || audio?.state === 'joining' || audio?.state === 'unsupported'} onClick={() => (audio?.callActive ? audio.toggleMute() : void audio?.join())}>
             {micOn ? <Mic size={17} /> : <MicOff size={17} />}<span>{t(audio?.callActive ? (micOn ? 'Mute' : 'Unmute') : 'Join voice')}</span>
           </button>
           <button type="button" aria-pressed={audio?.deafened ?? false} disabled={demo || !audio?.callActive} onClick={() => audio?.toggleDeafen()} aria-label={t('Deafen')}>
@@ -91,7 +90,17 @@ export function RoomSessionRail({
         <p className="session-voice-status" role="status">{voiceStatus}</p>
       </div>
 
-      {/* Who is here / who is talking */}
+      {/* Study together — the one door into shared tests and games. */}
+      <button type="button" className="session-together" onClick={onStudyTogether}>
+        <ClipboardList size={18} className="session-together-icon" />
+        <span className="session-together-copy">
+          <strong>{t('Study together')}</strong>
+          <small>{t('Start a shared test or game')}</small>
+        </span>
+        <ChevronRight size={16} className="session-together-chevron" />
+      </button>
+
+      {/* Who is here / who is talking — takes the height chat used to. */}
       <section className="session-members" aria-label={t('In the room')}>
         <h3>{t('In the room')} · {people.length}{talking > 0 && <span className="session-talking"><Volume2 size={12} /> {talking} {t('talking')}</span>}</h3>
         <ul>
@@ -106,11 +115,6 @@ export function RoomSessionRail({
           ))}
         </ul>
       </section>
-
-      {/* Chat fills the rest */}
-      <div className="session-chat">
-        <RoomChatBox embedded demo={demo} name={chat.name} messages={chat.messages} draft={chat.draft} onDraft={chat.onDraft} onSend={chat.onSend} live={chat.live} />
-      </div>
 
       {/* Footer: the room-level actions the bottom dock used to carry. */}
       <div className="session-footer">
