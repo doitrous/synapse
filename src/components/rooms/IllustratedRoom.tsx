@@ -23,11 +23,20 @@ export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=fals
   const t=useT(),[showNames,setShowNames]=useState(false),[expanded,setExpanded]=useState(false)
   const id=useId().replaceAll(':',''),[artState,setArtState]=useState<'loading'|'ready'|'error'>('loading'),[artRetry,setArtRetry]=useState(0)
   const library=world.style==='library'&&world.capacity===12
+  // The full room holds its art behind a skeleton until every sprite has
+  // preloaded, so the layered 2.5D scene appears all at once rather than
+  // architecture-then-furniture. A lobby thumbnail (`preview`) has no such need
+  // and the gate actively hurt it: on a cold cache every card sat under a
+  // skeleton until its sprites loaded, so the room list showed *no* images until
+  // the student had entered a room and warmed the cache. Previews now render the
+  // sprites straight away — the browser paints them as they arrive, just like
+  // the room a round-trip used to reveal — so the preload only runs off-preview.
   useEffect(()=>{
+    if(preview)return
     let active=true;setArtState('loading')
     Promise.all([...roomArtwork,...(library?[libraryArtwork]:[])].map(src=>new Promise<void>((resolve,reject)=>{const image=new Image();image.onload=()=>resolve();image.onerror=()=>reject();image.src=src}))).then(()=>{if(active)setArtState('ready')},()=>{if(active)setArtState('error')})
     return()=>{active=false}
-  },[artRetry,library])
+  },[artRetry,library,preview])
   const {places,height,hasDiscussion}=illustratedLayout(world)
   const personArt=(index:number,x:number,y:number,width:number,front=false)=>{
     const person=seats[index]
@@ -47,10 +56,10 @@ export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=fals
   }
   return <div className={`reference-room reference-${world.style} ${preview?'is-preview':''} ${expanded?'is-expanded':''}`} style={{'--reference-ratio':1000/height,'--library-prop-matte':`url('#${id}-library-prop-matte')`,'--reference-matte':`url('#${id}-reference-white-matte')`} as CSSProperties}>
     {!preview&&<div className="reference-room-options"><div className="reference-seat-legend" aria-label={t('Seat availability')}><span><i className="legend-available"/>{t('Available')}</span><span><i className="legend-occupied"/>{t('Occupied')}</span><span><i className="legend-self"/>{t('You')}</span></div><div className="reference-room-view-actions"><button type="button" className="reference-size-toggle" aria-pressed={expanded} onClick={()=>setExpanded(!expanded)}>{t(expanded?'Fit to screen':'Larger view')}</button><button type="button" aria-pressed={showNames} onClick={()=>setShowNames(!showNames)}>{t(showNames?'Hide names':'Show names')}</button></div></div>}
-    {artState==='error'&&<div className="reference-art-status" role="status">{t('Some room artwork could not load. You can still use the seats below.')}{artState==='error'&&<button type="button" onClick={()=>setArtRetry(artRetry+1)}>{t('Retry artwork')}</button>}</div>}
+    {!preview&&artState==='error'&&<div className="reference-art-status" role="status">{t('Some room artwork could not load. You can still use the seats below.')}<button type="button" onClick={()=>setArtRetry(artRetry+1)}>{t('Retry artwork')}</button></div>}
     <div className="reference-room-pan" tabIndex={preview?undefined:0} aria-label={t('Room layout — scroll to explore')}>
       <div className="reference-room-stage" style={{aspectRatio:`1000 / ${height}`}}>
-        {artState==='loading'&&<LoadingRegion label={t('Preparing room artwork…')} className="pointer-events-none absolute inset-0 z-10"><Skeleton className="size-full" /></LoadingRegion>}
+        {!preview&&artState==='loading'&&<LoadingRegion label={t('Preparing room artwork…')} className="pointer-events-none absolute inset-0 z-10"><Skeleton className="size-full" /></LoadingRegion>}
         <>{library?<LibraryArchitecture height={height} id={id}/>:<ReferenceArchitecture height={height} roomStyle={world.style} id={id} hasDiscussion={hasDiscussion}/>}</>
         {!library&&<>
         <FurnitureSprite kind="chair" style={{left:'22%',top:'11%',width:'15%',height:'auto'}}/>
