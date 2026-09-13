@@ -21,9 +21,20 @@ function swAssetManifest(): Plugin {
       // build (~32 MB, admin pages included) onto each student's phone on first
       // visit. Route chunks are hashed and immutable, so the worker caches them
       // the first time they are actually fetched instead.
+      // A font the app declares but first paint never needs, so it should not be
+      // precached — it is fetched on demand instead, if a glyph ever calls for
+      // it. Two kinds: the `.woff` fallbacks (every browser in the support floor
+      // has woff2, so the .woff files double the font weight for nothing), and
+      // the Cyrillic / Greek / Vietnamese / Devanagari subsets (the last a 112 KB
+      // Baloo face) — this content is Latin and Arabic, and each subset's
+      // unicode-range keeps the browser from requesting the others anyway. They
+      // reach the graph through the entry CSS's imported assets, so the skip has
+      // to live in `visit`, not only in the explicit font pass below.
+      const skipPrecache = (name: string) =>
+        /\.woff$/.test(name) || /-(?:cyrillic|cyrillic-ext|greek|vietnamese|devanagari)-.*\.woff2?$/.test(name)
       const files = new Set<string>()
       const visit = (name: string) => {
-        if (files.has(name)) return
+        if (files.has(name) || skipPrecache(name)) return
         const file = bundle[name]
         if (!file) return
         files.add(name)
@@ -36,7 +47,7 @@ function swAssetManifest(): Plugin {
       }
       for (const file of Object.values(bundle)) {
         if (file.type === 'chunk' && file.isEntry) visit(file.fileName)
-        if (file.type === 'asset' && /\.woff2?$/.test(file.fileName)) files.add(file.fileName)
+        if (file.type === 'asset' && /\.woff2$/.test(file.fileName) && !skipPrecache(file.fileName)) files.add(file.fileName)
       }
       const urls = [...files].filter((name) => name.startsWith('assets/')).sort().map((name) => `/${name}`)
       this.emitFile({ type: 'asset', fileName: 'sw-assets.json', source: JSON.stringify({ version, urls }) })

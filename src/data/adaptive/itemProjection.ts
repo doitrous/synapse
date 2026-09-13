@@ -91,9 +91,19 @@ export function adaptiveItemFrom(
   }
 }
 
+// Cached by the catalogue's reference: it is one stable object per store
+// document, so a remount reads the projection back rather than re-hashing and
+// re-projecting the whole catalogue — the same module-scope memo trick
+// `publishedQuestionsFromCatalogue` uses. Mirrors it deliberately.
+const adaptiveItems = new WeakMap<ManagedContentItem[], AdaptiveItem[]>()
+
 /** Every approved, answerable item in the catalogue. */
 export function adaptiveItemsFrom(catalogue: ManagedContentItem[]): AdaptiveItem[] {
-  return catalogue
+  const cached = adaptiveItems.get(catalogue)
+  if (cached) return cached
+  const items = catalogue
     .map((item) => adaptiveItemFrom(item, catalogue))
     .filter((item): item is AdaptiveItem => item !== null)
+  adaptiveItems.set(catalogue, items)
+  return items
 }

@@ -1,5 +1,13 @@
 import { ApiError, errorKind, type StateErrorKind } from './apiErrors'
-import { AR } from '@/data/i18n-ar'
+
+// The two strings the detached "opening source" popup shows, inline. This is an
+// eager module (imported on boot), so importing the full ~320KB dictionary here
+// would put all of it on the English boot path; I18nProvider now loads that
+// lazily instead. See apiOpenFile.
+const POPUP_AR: Record<string, string> = {
+  'Opening source…': 'جارٍ فتح المصدر…',
+  'Opening the cited source…': 'جارٍ فتح المصدر المُستشهد به…',
+}
 
 export { ApiError, errorKind, isRetryable } from './apiErrors'
 export type { StateErrorKind } from './apiErrors'
@@ -246,7 +254,7 @@ export async function apiOpenFile(path: string, fragment = ''): Promise<void> {
     // The popup is a detached document with no React tree, so it reads the
     // language `I18nProvider` stamps onto `<html lang>` rather than `useT()`.
     const lang = document.documentElement.lang
-    const say = (en: string) => (lang === 'ar' ? AR[en] ?? en : en)
+    const say = (en: string) => (lang === 'ar' ? POPUP_AR[en] ?? en : en)
     popup.document.title = say('Opening source…')
     popup.document.body.textContent = say('Opening the cited source…')
   }

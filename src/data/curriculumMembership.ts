@@ -39,11 +39,27 @@ export interface CurriculumMembership {
   resourcesUnder(nodeId: string): ManagedContentItem[]
 }
 
+// Cached by the references of its three inputs, which are each one stable
+// object per store document. A remount reads the finished membership back
+// rather than re-indexing the ~2,400-node taxonomy and re-partitioning the whole
+// content list every time the Library tree or the Question Bank's topic chooser
+// mounts. The lazy `*Under` closures it returns keep their own per-node memos, so
+// those are reused across mounts too. Weak keys drop the entry when any input is
+// replaced, so stale data is never served.
+const membershipCache = new WeakMap<ManagedContentItem[], WeakMap<ConceptGraph, WeakMap<MedicalTaxonomyNode[], CurriculumMembership>>>()
+
 export function buildCurriculumMembership({ items, graph, medicalTaxonomy }: {
   items: ManagedContentItem[]
   graph: ConceptGraph
   medicalTaxonomy: MedicalTaxonomyNode[]
 }): CurriculumMembership {
+  let byGraph = membershipCache.get(items)
+  if (!byGraph) { byGraph = new WeakMap(); membershipCache.set(items, byGraph) }
+  let byTaxonomy = byGraph.get(graph)
+  if (!byTaxonomy) { byTaxonomy = new WeakMap(); byGraph.set(graph, byTaxonomy) }
+  const hit = byTaxonomy.get(medicalTaxonomy)
+  if (hit) return hit
+
   const index = indexMedicalTaxonomy(medicalTaxonomy)
 
   // Choosing a topic means choosing everything beneath it, so each lookup walks
@@ -130,5 +146,7 @@ export function buildCurriculumMembership({ items, graph, medicalTaxonomy }: {
     })
   })
 
-  return { conceptsUnder, articlesUnder, questionsUnder, practicalsUnder, resourcesUnder }
+  const membership = { conceptsUnder, articlesUnder, questionsUnder, practicalsUnder, resourcesUnder }
+  byTaxonomy.set(medicalTaxonomy, membership)
+  return membership
 }

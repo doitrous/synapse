@@ -1,6 +1,6 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, type ReactNode } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { AR } from '@/data/i18n-ar'
+import { AppBootSkeleton } from '@/components/loading/AppBootSkeleton'
 
 export type Lang = 'en' | 'ar'
 export type Dir = 'ltr' | 'rtl'
@@ -26,6 +26,13 @@ const I18nContext = createContext<I18nValue | null>(null)
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = usePersistentState<Lang>(LANG_STORAGE_KEY, 'en')
   const dir: Dir = lang === 'ar' ? 'rtl' : 'ltr'
+  // The Arabic dictionary is ~320KB. English is the default, so it is fetched
+  // lazily the first time a session is actually in Arabic — never on the English
+  // boot path, where the whole thing used to ship in the eager app shell.
+  const [ar, setAr] = useState<Record<string, string> | null>(null)
+  // If the fetch fails, the app renders anyway with the English source as a last
+  // resort — the alternative is holding a skeleton forever on a lost network.
+  const [arFailed, setArFailed] = useState(false)
 
   useEffect(() => {
     const root = document.documentElement
@@ -33,20 +40,39 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     root.dir = dir
   }, [lang, dir])
 
+  useEffect(() => {
+    if (lang !== 'ar' || ar) return
+    let cancelled = false
+    void import('@/data/i18n-ar').then(
+      (m) => { if (!cancelled) setAr(m.AR) },
+      () => { if (!cancelled) setArFailed(true) },
+    )
+    return () => { cancelled = true }
+  }, [lang, ar])
+
   const t = useCallback(
     (en: string) => {
       if (lang === 'en') return en
-      return AR[en] ?? en
+      return ar?.[en] ?? en
     },
-    [lang],
+    [lang, ar],
   )
+
+  // An Arabic session waits behind a skeleton until its dictionary arrives,
+  // rather than painting English strings that snap to Arabic a beat later. The
+  // skeleton lays out right-to-left, so first paint already reads as Arabic.
+  const arabicPending = lang === 'ar' && !ar && !arFailed
 
   const value = useMemo<I18nValue>(
     () => ({ lang, dir, setLang, toggle: () => setLang(lang === 'ar' ? 'en' : 'ar'), t }),
     [lang, dir, setLang, t],
   )
 
-  return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>
+  return (
+    <I18nContext.Provider value={value}>
+      {arabicPending ? <AppBootSkeleton /> : children}
+    </I18nContext.Provider>
+  )
 }
 
 export function useI18n(): I18nValue {

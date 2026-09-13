@@ -49,6 +49,9 @@ export const ADMIN_LOADING_LAYOUTS = {
   resources: { shape: 'table', description: true, metrics: 4, actions: 2 },
   concepts: { shape: 'table', description: true, actions: 2 },
   relationships: { shape: 'editor', description: true, actions: 2 },
+  // The consolidated console mounts Concepts and Relationships as one route
+  // (KnowledgeGraph) — two editors over one graph document.
+  knowledge: { shape: 'editor', description: true, actions: 2 },
   taxonomy: { shape: 'academic', description: true, metrics: 5, actions: 2 },
   glossary: { shape: 'editor', description: true, actions: 2 },
   escalations: { shape: 'editor', description: true },
@@ -69,6 +72,7 @@ export const ADMIN_LOADING_LAYOUTS = {
   audit: { shape: 'report', description: true, metrics: 4 },
   adaptive: { shape: 'settings', description: true, tabs: 4, fields: 8, columns: 2 },
   validation: { shape: 'report', description: true, metrics: 5 },
+  analytics: { shape: 'report', description: true, metrics: 4 },
   'academic/marks': { shape: 'academic', description: true },
   'academic/intake': { shape: 'import', description: true },
   'library/coverage': { shape: 'table', description: true, metrics: 4 },
