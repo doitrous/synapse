@@ -47,7 +47,7 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
   const minimiseWithCollapse=useCallback(()=>{
     if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){onMinimise();return}
     setCollapsing(true)
-    window.setTimeout(onMinimise,300)
+    window.setTimeout(onMinimise,430)
   },[onMinimise])
   const [configuredUniversities] = useUniversityCatalogue()
   const universities = configuredUniversities.length ? configuredUniversities : seededUniversities

@@ -475,10 +475,33 @@
 .layout-card-check{position:absolute;top:8px;inset-inline-end:8px;display:grid;place-items:center;width:22px;height:22px;border-radius:99px;background:var(--color-primary);color:var(--color-on-primary);box-shadow:0 1px 4px #10232e40}
 @media(max-width:520px){.layout-picker{grid-template-columns:1fr;max-height:54vh}}
 
-/* ── Collapse the hall into the bottom-left dock on Back ──────────────── */
+/* ── Fold the hall down into its dock on Back ─────────────────────────────
+   Not a plain shrink-and-fade: the hall rounds into a card, tips toward the
+   dock's own corner (bottom-left, past the sidebar) and settles on an
+   iOS-sheet curve, so leaving reads as the room being *tucked into* its
+   companion rather than blinking out. It stays fully opaque through the first
+   third — you watch it fold — then fades as it seats. Motion is carried on
+   transform/opacity (composited); only the shrinking element's corner radius
+   paints, which is cheap once it is small. The dock answers with a short
+   receive-pop so the two moves read as one handoff. */
 @media(prefers-reduced-motion:no-preference){
   .study-world{transition:transform .3s var(--ease-out-quint,cubic-bezier(.22,1,.36,1)),opacity .3s ease}
-  .study-world.is-collapsing{transform:scale(.14);transform-origin:0 100%;opacity:0;pointer-events:none}
-  .room-companion-popup{animation:dock-rise .34s var(--ease-out-quint,cubic-bezier(.22,1,.36,1)) both}
-  @keyframes dock-rise{from{transform:translateY(10px) scale(.92);opacity:0}to{transform:none;opacity:1}}
+  .study-world.is-collapsing{
+    transform-origin:12px calc(100% - 12px);
+    animation:room-fold-into-dock 440ms cubic-bezier(.32,.72,0,1) forwards;
+    pointer-events:none;
+    overflow:hidden;
+    will-change:transform,opacity;
+  }
+  @keyframes room-fold-into-dock{
+    0%{transform:scale(1) translateY(0);opacity:1;border-radius:0}
+    32%{transform:scale(.82) translateY(4px);opacity:1;border-radius:24px}
+    100%{transform:scale(.13) translateY(18px);opacity:0;border-radius:32px}
+  }
+  .room-companion-popup{animation:dock-receive .5s cubic-bezier(.32,.72,0,1) both}
+  @keyframes dock-receive{
+    0%{transform:translateY(16px) scale(.9);opacity:0}
+    58%{transform:translateY(-2px) scale(1.015);opacity:1}
+    100%{transform:translateY(0) scale(1);opacity:1}
+  }
 }

@@ -24,10 +24,10 @@ export function AnswerStatBar({ pct, tone }: { pct: number; tone: AnswerStatTone
   }, [pct])
   const fill = tone === 'correct' ? 'bg-success/45' : tone === 'wrong' ? 'bg-danger/45' : 'bg-ink/15'
   return (
-    <span aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-1.5 bg-ink/[0.06]">
+    <span aria-hidden className="pointer-events-none absolute inset-x-0 bottom-0 h-1.5 overflow-hidden bg-ink/[0.06]">
       <span
-        className={cn('block h-full transition-[width] duration-700 ease-[var(--ease-out-quint)]', fill)}
-        style={{ width: `${width}%` }}
+        className={cn('absolute inset-0 transition-transform duration-700 ease-[var(--ease-out-quint)]', fill)}
+        style={{ transform: `translateX(${width - 100}%)` }}
       />
     </span>
   )

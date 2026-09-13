@@ -90,10 +90,10 @@ export function MaristanaProgressNotice() {
             <p className="mt-1 text-[13.5px] font-semibold tracking-[-0.01em] text-ink">{title}</p>
             <p className="mt-0.5 truncate text-[10.5px] text-ink-3">{notice.hospitalName} · {t('Stage')} {notice.nextStage} {t('of')} 25</p>
             <div className="mt-3" aria-label={t('{n}% toward the next construction part').replace('{n}', String(percent))}>
-              <div className="h-1.5 overflow-hidden rounded-full bg-inset">
+              <div className="relative h-1.5 overflow-hidden rounded-full bg-inset">
                 <div
-                  className="h-full rounded-full bg-primary transition-[width] duration-500 ease-[var(--ease-out-quint)] motion-reduce:transition-none"
-                  style={{ width: `${percent}%` }}
+                  className="absolute inset-0 rounded-full bg-primary transition-transform duration-500 ease-[var(--ease-out-quint)] motion-reduce:transition-none"
+                  style={{ transform: `translateX(${percent - 100}%)` }}
                 />
               </div>
               <div className="mt-1.5 flex items-center justify-between gap-3 text-[9.5px] text-ink-3">

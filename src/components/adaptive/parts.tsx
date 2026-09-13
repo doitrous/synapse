@@ -239,12 +239,11 @@ export function ProgressBlock({
         {right && <span className="tnum shrink-0 font-mono text-[12px] text-ink-2">{right}</span>}
       </div>
       <div className="relative h-4 overflow-hidden rounded-md border border-line bg-scale-0">
-        <div className={cn('absolute inset-y-0 left-0 rounded-[5px] transition-[width]', fill)} style={{ width: `${width}%` }} />
+        <div className={cn('absolute inset-0 rounded-[5px] transition-transform duration-700 ease-[var(--ease-out-quint)]', fill)} style={{ transform: `translateX(${width - 100}%)` }} />
         {width > 0.5 && (
-          <span
-            className={cn('absolute inset-y-0 w-[3px] rounded-full', cap)}
-            style={{ left: `calc(${width}% - 3px)` }}
-          />
+          <span className="absolute inset-0 transition-transform duration-700 ease-[var(--ease-out-quint)]" style={{ transform: `translateX(${width - 100}%)` }}>
+            <span className={cn('absolute inset-y-0 end-0 w-[3px] rounded-full', cap)} />
+          </span>
         )}
       </div>
     </div>

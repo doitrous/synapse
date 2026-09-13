@@ -305,7 +305,7 @@ export function AnatomyAtlas() {
         {progress < 100 && !error && (
           <div className="anatomy-atlas-loading" role="status">
             <div className="flex items-center justify-between gap-4"><span className="text-[12.5px] font-semibold text-ink">Preparing the {atlasConfig.label.toLowerCase()} anatomy</span><span className="font-mono text-[11px] text-ink-3">{progress}%</span></div>
-            <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-inset"><i className="block h-full rounded-full bg-primary transition-[width]" style={{ width: `${progress}%` }} /></div>
+            <div className="relative mt-2 h-1.5 overflow-hidden rounded-full bg-inset"><i className="absolute inset-0 rounded-full bg-primary transition-transform duration-300 ease-[var(--ease-out-quint)]" style={{ transform: `translateX(${progress - 100}%)` }} /></div>
             <p className="mt-2 text-[10.5px] text-ink-3">Loading {atlas?.parts.length.toLocaleString() ?? atlasConfig.pieces} interactive pieces</p>
           </div>
         )}

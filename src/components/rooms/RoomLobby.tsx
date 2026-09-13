@@ -20,6 +20,13 @@ import { RoomCard } from './RoomCard'
 import { RoomLayoutPicker } from './RoomLayoutPicker'
 import { SharedTestRunner } from './SharedTestRunner'
 import { FriendsSection } from './SocialSections'
+// The lobby's own layout — the discovery grid, the room cards, the diorama
+// thumbnails — lives in this stylesheet, which was previously imported only by
+// RoomView (the full room). So on a first visit, before the student had entered
+// any room, the cards rendered unstyled: no thumbnail column, plain stacked
+// blocks. Entering a room loaded the sheet and it stuck, which is why the list
+// only looked right after going in and back. The lobby needs these styles too.
+import './studyWorld.css'
 
 /** What entering a room needs: the id to read it by, and the code to address it by. */
 export interface RoomAddress {

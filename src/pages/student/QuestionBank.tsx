@@ -1544,10 +1544,10 @@ export function QuestionBank() {
             )}
           </div>
         </div>
-        <div className="mt-2 h-1 overflow-hidden rounded-full bg-inset">
+        <div className="relative mt-2 h-1 overflow-hidden rounded-full bg-inset">
           <div
-            className="h-full rounded-full bg-primary transition-[width] duration-300"
-            style={{ width: `${((idx + 1) / session.length) * 100}%` }}
+            className="absolute inset-0 rounded-full bg-primary transition-transform duration-300 ease-[var(--ease-out-quint)]"
+            style={{ transform: `translateX(${((idx + 1) / session.length) * 100 - 100}%)` }}
           />
         </div>
       </div>

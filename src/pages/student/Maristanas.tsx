@@ -114,8 +114,8 @@ function BuildLedger({ hospital, creditsPerStep }: { hospital: MaristanaHospital
             <span className="font-medium text-ink-2">{t('To place the next part')}</span>
             <span className="tnum font-mono font-semibold text-ink">{credit(hospital.creditsToNextStep)} {t('credits')}</span>
           </div>
-          <div className="mt-2.5 h-1.5 overflow-hidden rounded-full bg-inset">
-            <div className="h-full rounded-full bg-primary transition-[width] duration-500 ease-[var(--ease-out-quint)] motion-reduce:transition-none" style={{ width: `${hospital.stepProgress * 100}%` }} />
+          <div className="relative mt-2.5 h-1.5 overflow-hidden rounded-full bg-inset">
+            <div className="absolute inset-0 rounded-full bg-primary transition-transform duration-500 ease-[var(--ease-out-quint)] motion-reduce:transition-none" style={{ transform: `translateX(${hospital.stepProgress * 100 - 100}%)` }} />
           </div>
           <p className="mt-2 text-[10.5px] text-ink-3">{t('Each part requires {n} construction credits.').replace('{n}', credit(creditsPerStep))}</p>
         </div>

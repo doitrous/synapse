@@ -37,11 +37,11 @@ export function BarList({
           className="grid grid-cols-[minmax(6rem,8.5rem)_1fr_2.5rem] items-center gap-3"
         >
           <div className="truncate text-[13px] text-ink-2">{d.label}</div>
-          <div className="h-2 overflow-hidden rounded-full bg-inset">
+          <div className="relative h-2 overflow-hidden rounded-full bg-inset">
             <div
-              className="h-full rounded-full transition-[width] duration-700 ease-[var(--ease-out-quint)]"
+              className="absolute inset-0 rounded-full transition-transform duration-700 ease-[var(--ease-out-quint)]"
               style={{
-                width: mounted ? `${(d.value / max) * 100}%` : '0%',
+                transform: `translateX(${mounted ? (d.value / max) * 100 - 100 : -100}%)`,
                 backgroundColor: d.color ?? 'var(--color-primary)',
               }}
             />
