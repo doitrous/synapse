@@ -119,43 +119,93 @@ function managedQuestionToSummary(item: ManagedContentItem): Question | null {
   }
 }
 
-/** The server has already scoped these rows; room setup adds no client audience gate. */
-export function publishedQuestionSummariesFromCatalogue(catalogue: ManagedContentItem[]): Question[] {
-  return catalogue.map(managedQuestionToSummary).filter((question): question is Question => question !== null)
+/**
+ * Cache a catalogue→questions projection by the catalogue's reference.
+ *
+ * The catalogue is one stable object per store document (see stateStore), so a
+ * remount hands the same reference back and reads the cached projection instead
+ * of walking the whole catalogue again — the transform that a per-component
+ * `useMemo` would otherwise redo on every visit to the tab. The WeakMap drops
+ * the entry when the catalogue is replaced, so stale data is never served.
+ */
+function catalogueCached(
+  store: WeakMap<ManagedContentItem[], Question[]>,
+  catalogue: ManagedContentItem[],
+  project: () => Question[],
+): Question[] {
+  const cached = store.get(catalogue)
+  if (cached) return cached
+  const projected = project()
+  store.set(catalogue, projected)
+  return projected
 }
 
+/**
+ * Same idea, but audience-scoped: one inner cache per catalogue reference, keyed
+ * by the audience. Different students in different (university, year) audiences
+ * each keep their own projection of the shared catalogue, and a remount in the
+ * same audience is a lookup rather than a full re-projection.
+ */
+function audienceCached(
+  store: WeakMap<ManagedContentItem[], Map<string, Question[]>>,
+  catalogue: ManagedContentItem[],
+  audience: { universityId?: string; yearId?: string },
+  project: () => Question[],
+): Question[] {
+  let byAudience = store.get(catalogue)
+  if (!byAudience) { byAudience = new Map(); store.set(catalogue, byAudience) }
+  const key = JSON.stringify([audience.universityId ?? null, audience.yearId ?? null])
+  const cached = byAudience.get(key)
+  if (cached) return cached
+  const projected = project()
+  byAudience.set(key, projected)
+  return projected
+}
+
+const summaryProjections = new WeakMap<ManagedContentItem[], Question[]>()
+/** The server has already scoped these rows; room setup adds no client audience gate. */
+export function publishedQuestionSummariesFromCatalogue(catalogue: ManagedContentItem[]): Question[] {
+  return catalogueCached(summaryProjections, catalogue, () =>
+    catalogue.map(managedQuestionToSummary).filter((question): question is Question => question !== null),
+  )
+}
+
+const summaryAudienceProjections = new WeakMap<ManagedContentItem[], Map<string, Question[]>>()
 /** Project the catalogue to lightweight, audience-scoped question descriptors — see `managedQuestionToSummary`. */
 export function publishedQuestionSummariesForAudience(
   catalogue: ManagedContentItem[],
   audience: { universityId?: string; yearId?: string },
 ): Question[] {
-  const { universityId, yearId } = audience
-  return catalogue
-    .map((item) => (questionInAudience(item, universityId, yearId) ? managedQuestionToSummary(item) : null))
-    .filter((question): question is Question => question !== null)
+  return audienceCached(summaryAudienceProjections, catalogue, audience, () => {
+    const { universityId, yearId } = audience
+    return catalogue
+      .map((item) => (questionInAudience(item, universityId, yearId) ? managedQuestionToSummary(item) : null))
+      .filter((question): question is Question => question !== null)
+  })
 }
 
 const projections = new WeakMap<ManagedContentItem[], Question[]>()
 export function publishedQuestionsFromCatalogue(catalogue: ManagedContentItem[]): Question[] {
-  const cached = projections.get(catalogue)
-  if (cached) return cached
-  const questions = catalogue
-    .map((item) => managedQuestionToStudentQuestion(item, catalogue))
-    .filter((question): question is Question => question !== null)
-  projections.set(catalogue, questions)
-  return questions
+  return catalogueCached(projections, catalogue, () =>
+    catalogue
+      .map((item) => managedQuestionToStudentQuestion(item, catalogue))
+      .filter((question): question is Question => question !== null),
+  )
 }
 
+const audienceProjections = new WeakMap<ManagedContentItem[], Map<string, Question[]>>()
 /** Project the catalogue to the questions a student in this audience may sit. */
 export function publishedQuestionsForAudience(
   catalogue: ManagedContentItem[],
   audience: { universityId?: string; yearId?: string },
 ): Question[] {
-  const { universityId, yearId } = audience
-  return catalogue
-    .map((item) =>
-      questionInAudience(item, universityId, yearId) ? managedQuestionToStudentQuestion(item, catalogue) : null,
-    )
-    .filter((question): question is Question => question !== null)
+  return audienceCached(audienceProjections, catalogue, audience, () => {
+    const { universityId, yearId } = audience
+    return catalogue
+      .map((item) =>
+        questionInAudience(item, universityId, yearId) ? managedQuestionToStudentQuestion(item, catalogue) : null,
+      )
+      .filter((question): question is Question => question !== null)
+  })
 }
 
