@@ -1,7 +1,25 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react'
 import { RouteLoading } from './RouteLoading'
 import { isChunkLoadError, shouldReloadForChunk } from '@/lib/chunkReload'
-import { AR } from '@/data/i18n-ar'
+
+/**
+ * Just this boundary's Arabic strings, inline.
+ *
+ * The full dictionary (~320KB) is loaded lazily by `I18nProvider`; importing it
+ * here would pull it back onto the eager boot path for every visitor. It also
+ * cannot be relied on here — the very failure this boundary exists to catch is a
+ * chunk (the dictionary included) failing to load — so the strings it renders
+ * live inline. Their canonical entries remain in `shell.ts`.
+ */
+const AR: Record<string, string> = {
+  'Maristana has been updated': 'جرى تحديث Maristana',
+  'This screen could not be opened': 'تعذّر فتح هذه الشاشة',
+  'This tab was open while a new version went out, and reloading did not pick it up. Your work is saved.':
+    'كان هذا التبويب مفتوحًا حين صدرت نسخة جديدة، ولم تلتقطها إعادة التحميل. وعملك محفوظ.',
+  'Something in this screen failed to start. Your work is saved — nothing here writes to your record.':
+    'أخفق شيء في هذه الشاشة عن العمل. وعملك محفوظ — ولا شيء هنا يكتب في سجلّك.',
+  'Reload the page': 'أعد تحميل الصفحة',
+}
 
 /**
  * This boundary's own translate.

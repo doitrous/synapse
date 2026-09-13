@@ -1,6 +1,5 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, type ReactNode } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { AR } from '@/data/i18n-ar'
 
 export type Lang = 'en' | 'ar'
 export type Dir = 'ltr' | 'rtl'
@@ -26,6 +25,12 @@ const I18nContext = createContext<I18nValue | null>(null)
 export function I18nProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = usePersistentState<Lang>(LANG_STORAGE_KEY, 'en')
   const dir: Dir = lang === 'ar' ? 'rtl' : 'ltr'
+  // The Arabic dictionary is ~320KB. English is the default, so it is fetched
+  // lazily the first time a session is actually in Arabic — never on the English
+  // boot path, where the whole thing used to ship in the eager app shell. Until
+  // it arrives, `t` returns the English source, exactly as it already does for
+  // any untranslated key, so nothing breaks in the gap.
+  const [ar, setAr] = useState<Record<string, string> | null>(null)
 
   useEffect(() => {
     const root = document.documentElement
@@ -33,12 +38,19 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     root.dir = dir
   }, [lang, dir])
 
+  useEffect(() => {
+    if (lang !== 'ar' || ar) return
+    let cancelled = false
+    void import('@/data/i18n-ar').then((m) => { if (!cancelled) setAr(m.AR) })
+    return () => { cancelled = true }
+  }, [lang, ar])
+
   const t = useCallback(
     (en: string) => {
       if (lang === 'en') return en
-      return AR[en] ?? en
+      return ar?.[en] ?? en
     },
-    [lang],
+    [lang, ar],
   )
 
   const value = useMemo<I18nValue>(

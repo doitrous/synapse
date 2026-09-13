@@ -1,5 +1,21 @@
 import { Component, type ErrorInfo, type ReactNode } from 'react'
-import { AR } from '@/data/i18n-ar'
+
+/**
+ * Just this screen's Arabic strings, inline.
+ *
+ * The full dictionary (~320KB) is loaded lazily by `I18nProvider`; importing it
+ * here would pull it back onto the eager boot path for every visitor. It also
+ * cannot be relied on: this boundary has to render even when a chunk — the
+ * dictionary's own included — is the thing that failed to load. A handful of
+ * literals is the whole cost of keeping the recovery screen self-contained.
+ */
+const AR: Record<string, string> = {
+  'Something went wrong': 'حدث خطأ ما',
+  'The page hit an unexpected error. Reloading usually fixes it — your saved work is stored locally and will still be here.':
+    'واجهت الصفحة خطأً غير متوقع. وإعادة التحميل تحلّ ذلك عادةً — وعملك المحفوظ مخزَّن محليًا وسيبقى كما هو.',
+  'Reload the page': 'أعد تحميل الصفحة',
+  'Go home': 'العودة إلى الرئيسية',
+}
 
 /**
  * The recovery screen's own translate.
