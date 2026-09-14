@@ -36,6 +36,7 @@ interface Analytics {
   performance: {
     totalAttempts: number; accuracy: number | null; avgSeconds: number | null; overtimeAttempts: number
     accuracyTrend: DayPoint[]; bySubject: TopicStat[]; hardestTopics: TopicStat[]; topTopics: TopicStat[]
+    readiness: { cohort: number | null; ready: number; scored: number; targetAttempts: number; readyThreshold: number }
   }
   retention: { activeToday: number; active7d: number; active30d: number; dormant: number; neverAnswered: number }
   answerChanges: {
@@ -109,6 +110,7 @@ const DATA_CATALOG: Array<{ group: string; fields: string; source: string }> = [
   { group: 'Session & activity', fields: 'last active (stamped on every verified attempt), questions answered, rolling accuracy', source: 'students (server rollup)' },
   { group: 'Question attempts', fields: 'per-question correctness, chosen vs correct option, seconds taken, session duration, overtime, university/year/term/subject/topic/subtopic/concepts, timestamp', source: 'qbank_attempts' },
   { group: 'Answer changes', fields: 'correct→correct, correct→incorrect, incorrect→correct, incorrect→incorrect transitions per student+question', source: 'qbank_attempts (derived)' },
+  { group: 'Exam readiness', fields: 'per-student 30-day accuracy damped by practice volume, averaged across active students; count at/above the ready threshold', source: 'qbank_attempts (derived)' },
   { group: 'Study time', fields: 'server-clocked active minutes by module, subject and surface', source: 'maristana_study_minutes' },
   { group: 'AI assistant', fields: 'messages, input/output tokens, model fallbacks, per day and plan', source: 'assistant_usage' },
   { group: 'Subscriptions', fields: 'plan, status, source (payment/voucher/manual/trial), start, expiry, cancellations', source: 'subscriptions' },
@@ -149,6 +151,7 @@ function demoAnalytics(): Analytics {
       bySubject: [{ label: 'Anatomy', attempts: 210000, accuracy: 0.71 }, { label: 'Physiology', attempts: 184000, accuracy: 0.66 }, { label: 'Biochemistry', attempts: 141000, accuracy: 0.63 }],
       hardestTopics: [{ label: 'Acid–base balance', attempts: 8400, accuracy: 0.44 }, { label: 'Brachial plexus', attempts: 7600, accuracy: 0.48 }, { label: 'Glycolysis regulation', attempts: 9100, accuracy: 0.51 }],
       topTopics: [{ label: 'Cardiac cycle', attempts: 22400, accuracy: 0.73 }, { label: 'Cranial nerves', attempts: 19800, accuracy: 0.69 }, { label: 'Nephron function', attempts: 18100, accuracy: 0.64 }],
+      readiness: { cohort: 0.58, ready: 1180, scored: 3140, targetAttempts: 300, readyThreshold: 0.7 },
     },
     retention: { activeToday: 640, active7d: 2100, active30d: 3140, dormant: 1680, neverAnswered: 520 },
     answerChanges: { correctToCorrect: 18400, correctToIncorrect: 4200, incorrectToCorrect: 12600, incorrectToIncorrect: 6100, totalTransitions: 41300, studentsWithChanges: 2480, questionsWithChanges: 9200 },
@@ -267,6 +270,13 @@ export function StudentAnalytics() {
         <Stat label="Study minutes (7d)" value={whole(a?.engagement.studyMinutes.d7)} sub="server-clocked" icon={Clock} />
         <Stat label="AI messages (30d)" value={whole(a?.engagement.assistant30d.messages)} sub={`${whole(a?.engagement.assistant30d.users)} users`} icon={BrainCircuit} />
         <Stat label="AI tokens (30d)" value={whole(a?.engagement.assistant30d.tokens)} sub={`${whole(a?.engagement.assistant30d.fallbacks)} fallbacks`} icon={Cpu} />
+      </div>
+
+      {/* Exam readiness — 30-day accuracy damped by practice volume, per student */}
+      <div className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+        <Stat label="Exam readiness" value={pct(a?.performance.readiness.cohort)} sub={`cohort avg · ${whole(a?.performance.readiness.scored)} active students`} icon={GraduationCap} />
+        <Stat label="Students ready" value={whole(a?.performance.readiness.ready)} sub={`≥ ${pct(a?.performance.readiness.readyThreshold)} readiness`} icon={BookOpenCheck} />
+        <Stat label="Volume target" value={`${whole(a?.performance.readiness.targetAttempts)} / 30d`} sub="attempts for full-confidence score" icon={Target} />
       </div>
 
       {/* Performance */}

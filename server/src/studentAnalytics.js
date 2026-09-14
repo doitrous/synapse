@@ -18,6 +18,24 @@ import { answerChangeTracking } from './studyTrackingAdmin.js'
 
 const num = (value) => Number(value ?? 0)
 
+// Exam readiness: a student's own 30-day accuracy, damped by how much they have
+// actually practised — 90% over five questions is not readiness. Both knobs are
+// tunable; change them here and the whole metric (and its "ready" count) follows.
+const READINESS_TARGET_ATTEMPTS = 300 // attempts in 30d at/above which volume stops damping
+const READINESS_READY_THRESHOLD = 0.7 // a student at/above this readiness counts as "ready"
+
+/**
+ * Exam readiness for one student: accuracy damped by how much they have actually
+ * practised, so 90% over five questions does not read as ready. The cohort query
+ * below computes exactly this in SQL over the 30-day window; keeping the formula
+ * here too is its executable definition — the guard that a future edit does not
+ * quietly collapse readiness back to raw accuracy.
+ */
+export function readinessScore(accuracy, attempts, target = READINESS_TARGET_ATTEMPTS) {
+  if (accuracy == null || !(attempts > 0)) return 0
+  return accuracy * Math.min(1, attempts / target)
+}
+
 /** Fill a daily series so a quiet day reads as 0 rather than a gap. */
 export function fillDays(rows, valueKeys, days = 30) {
   const byDay = new Map((rows ?? []).map((row) => [String(row.day instanceof Date ? row.day.toISOString().slice(0, 10) : row.day), row]))
@@ -60,6 +78,7 @@ export async function studentAnalytics() {
     [hardestTopics],
     [topTopics],
     [accuracyTrendRows],
+    [readiness],
     [studyTrendRows],
     [studyWindows],
     [assistant30],
@@ -92,6 +111,16 @@ export async function studentAnalytics() {
     pool.query("SELECT topic AS label, COUNT(*) AS attempts, AVG(correct) AS accuracy FROM qbank_attempts WHERE topic IS NOT NULL AND topic <> '' GROUP BY topic HAVING attempts >= 20 ORDER BY accuracy ASC LIMIT 10"),
     pool.query("SELECT topic AS label, COUNT(*) AS attempts, AVG(correct) AS accuracy FROM qbank_attempts WHERE topic IS NOT NULL AND topic <> '' GROUP BY topic ORDER BY attempts DESC LIMIT 10"),
     pool.query('SELECT DATE(verified_at) AS day, AVG(correct) AS accuracy FROM qbank_attempts WHERE verified_at >= DATE_SUB(CURDATE(), INTERVAL 30 DAY) GROUP BY DATE(verified_at)'),
+    // Per student: 30-day accuracy × LEAST(1, attempts/target), then averaged over
+    // the students who answered in the window — honest about thin practice.
+    pool.query(
+      `SELECT AVG(r) AS cohort, SUM(r >= ?) AS ready, COUNT(*) AS scored FROM (
+         SELECT AVG(correct) * LEAST(1, COUNT(*) / ?) AS r
+           FROM qbank_attempts
+          WHERE verified_at >= DATE_SUB(NOW(), INTERVAL 30 DAY) AND student_id IS NOT NULL
+          GROUP BY student_id) t`,
+      [READINESS_READY_THRESHOLD, READINESS_TARGET_ATTEMPTS],
+    ),
 
     // ── Study time ────────────────────────────────────────────────────────
     pool.query('SELECT DATE(recorded_at) AS day, COUNT(*) AS minutes FROM maristana_study_minutes WHERE recorded_at >= DATE_SUB(CURDATE(), INTERVAL 30 DAY) GROUP BY DATE(recorded_at)'),
@@ -122,6 +151,7 @@ export async function studentAnalytics() {
   const aw = attemptWindows[0] ?? {}
   const anw = answererWindows[0] ?? {}
   const ov = overall[0] ?? {}
+  const rd = readiness[0] ?? {}
   const sw = studyWindows[0] ?? {}
   const ai = assistant30[0] ?? {}
   const ret = retention[0] ?? {}
@@ -159,6 +189,13 @@ export async function studentAnalytics() {
       bySubject: topics(bySubject),
       hardestTopics: topics(hardestTopics),
       topTopics: topics(topTopics),
+      readiness: {
+        cohort: rd.cohort == null ? null : Number(rd.cohort),
+        ready: num(rd.ready),
+        scored: num(rd.scored),
+        targetAttempts: READINESS_TARGET_ATTEMPTS,
+        readyThreshold: READINESS_READY_THRESHOLD,
+      },
     },
     retention: {
       activeToday: num(ret.today),
