@@ -27,6 +27,7 @@ import com.synapse.app.feature.flashcards.FlashcardsRoot
 import com.synapse.app.feature.library.LibraryRoute
 import com.synapse.app.feature.placeholder.PlaceholderScreen
 import com.synapse.app.feature.taxonomy.TaxonomyRoute
+import com.synapse.app.feature.practical.PracticalRoute
 import com.synapse.app.feature.qbank.QuestionBankRoot
 import com.synapse.app.feature.resources.ResourcesRoute
 
@@ -74,6 +75,7 @@ fun AppScaffold(
     resourcesContent: @Composable () -> Unit = { ResourcesRoute() },
     taxonomyContent: @Composable () -> Unit = { TaxonomyRoute() },
     essaysContent: @Composable () -> Unit = { EssaysRoute() },
+    practicalContent: @Composable () -> Unit = { PracticalRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -109,6 +111,7 @@ fun AppScaffold(
         FLASHCARDS_ROUTE to flashcardsContent,
         "taxonomy" to taxonomyContent,
         "essays" to essaysContent,
+        "practical" to practicalContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 

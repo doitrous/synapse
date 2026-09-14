@@ -45,6 +45,7 @@ class AppScaffoldTest {
                     resourcesContent = { Text("ResourcesStandIn") },
                     taxonomyContent = { Text("TaxonomyStandIn") },
                     essaysContent = { Text("EssaysStandIn") },
+                    practicalContent = { Text("PracticalStandIn") },
                 )
             }
         }
@@ -117,6 +118,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Calendar")
         composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingPracticalInTheMoreHubRendersPracticalContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("practical")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Practical")
+        composeTestRule.onNodeWithText("PracticalStandIn").assertIsDisplayed()
     }
 
     @Test
