@@ -35,9 +35,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.library.LibraryArticle
 import com.synapse.app.core.library.LibraryTreeNode
 import com.synapse.app.core.library.articleIdsUnder
@@ -127,7 +130,7 @@ private fun LibraryScreen(
             modifier = Modifier.fillMaxSize().testTag(LIBRARY_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.library_loading)) }
         return
     }
 
@@ -199,9 +202,10 @@ private fun LibraryScreen(
 }
 
 /** `module:MOD_CVS` -> `"Module MOD_CVS"`; unrecognised scopes are shown verbatim. */
+@Composable
 private fun friendlyScopeLabel(scope: String): String = when {
-    scope.startsWith("module:") -> "Module ${scope.removePrefix("module:")}"
-    scope.startsWith("year:") -> "Year ${scope.removePrefix("year:")}"
+    scope.startsWith("module:") -> stringResource(R.string.library_module_label_format, scope.removePrefix("module:"))
+    scope.startsWith("year:") -> stringResource(R.string.library_year_label_format, scope.removePrefix("year:"))
     else -> scope
 }
 
@@ -212,15 +216,15 @@ private fun LibraryShelf(
     onOpenScope: (String) -> Unit,
 ) {
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
-        Text("Library", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.library_title), style = MaterialTheme.typography.titleLarge)
 
         if (uiState.trees.isNotEmpty()) {
-            Text("Browse by module & year", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+            Text(stringResource(R.string.library_browse_by_module_year), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
             uiState.trees.forEach { (scope, roots) ->
                 val count = roots.flatMap(::articleIdsUnder).distinct().size
                 ShelfRow(
                     title = friendlyScopeLabel(scope),
-                    subtitle = "$count article${if (count == 1) "" else "s"}",
+                    subtitle = pluralStringResource(R.plurals.library_article_count, count, count),
                     tag = libraryScopeRowTag(scope),
                     onClick = { onOpenScope(scope) },
                 )
@@ -228,10 +232,10 @@ private fun LibraryShelf(
             }
         }
 
-        Text("All articles", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+        Text(stringResource(R.string.library_all_articles), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
         if (uiState.chapters.isEmpty()) {
             Text(
-                "Published articles appear here once they are released.",
+                stringResource(R.string.library_empty_message),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 8.dp),
             )
@@ -239,7 +243,7 @@ private fun LibraryShelf(
             uiState.chapters.forEach { chapter ->
                 ShelfRow(
                     title = chapter.title,
-                    subtitle = "${chapter.articleIds.size} article${if (chapter.articleIds.size == 1) "" else "s"}",
+                    subtitle = pluralStringResource(R.plurals.library_article_count, chapter.articleIds.size, chapter.articleIds.size),
                     tag = libraryChapterRowTag(chapter.id),
                     onClick = { onOpenChapter(chapter.id) },
                 )
@@ -275,7 +279,7 @@ private fun TreePane(
 
         if (nodes.isEmpty() && articleIdsHere.isEmpty()) {
             Text(
-                "Nothing is filed here yet.",
+                stringResource(R.string.library_tree_empty_message),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 12.dp),
             )
@@ -285,7 +289,7 @@ private fun TreePane(
             val count = articleIdsUnder(node).size
             ShelfRow(
                 title = node.title,
-                subtitle = "$count article${if (count == 1) "" else "s"}",
+                subtitle = pluralStringResource(R.plurals.library_article_count, count, count),
                 tag = "${libraryScopeRowTag(scope)}_${node.id}",
                 onClick = { onOpenNode(node) },
             )
@@ -293,7 +297,7 @@ private fun TreePane(
         }
 
         if (articleIdsHere.isNotEmpty()) {
-            Text("Articles here", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 16.dp))
+            Text(stringResource(R.string.library_articles_here), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 16.dp))
             articleIdsHere.forEach { id ->
                 val article = uiState.articlesById[id] ?: return@forEach
                 ArticleRow(article, read = id in uiState.readIds, onClick = { onOpenArticle(id) })
@@ -325,7 +329,7 @@ private fun ArticleListPane(
 private fun BackHeader(title: String, onBack: () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         IconButton(onClick = onBack, modifier = Modifier.testTag(LIBRARY_BACK_BUTTON_TAG)) {
-            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.library_back_description))
         }
         Text(title, style = MaterialTheme.typography.titleLarge)
     }
@@ -342,7 +346,7 @@ private fun ArticleRow(article: LibraryArticle, read: Boolean, onClick: () -> Un
             if (read) {
                 Icon(
                     Icons.Filled.CheckCircle,
-                    contentDescription = "Read",
+                    contentDescription = stringResource(R.string.library_read_description),
                     modifier = Modifier.size(18.dp),
                     tint = MaterialTheme.colorScheme.primary,
                 )
@@ -385,9 +389,10 @@ private fun ArticleReaderPane(
         ) {
             if (isRead) {
                 Icon(Icons.Filled.CheckCircle, contentDescription = null, modifier = Modifier.size(18.dp))
-                Text(" Marked as read")
+                Spacer(modifier = Modifier.size(4.dp))
+                Text(stringResource(R.string.library_marked_as_read))
             } else {
-                Text("Mark as read")
+                Text(stringResource(R.string.library_mark_as_read))
             }
         }
 
@@ -405,30 +410,30 @@ private fun ArticleReaderPane(
         }
 
         if (article.keyPoints.isNotEmpty()) {
-            Text("Key points", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+            Text(stringResource(R.string.library_key_points), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
             article.keyPoints.forEach { Text("• $it", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp)) }
         }
 
         if (article.traps.isNotEmpty()) {
-            Text("Where people lose the mark", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+            Text(stringResource(R.string.library_exam_traps), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
             article.traps.forEach { Text("• $it", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp)) }
         }
 
         if (article.questionIds.isNotEmpty()) {
             Text(
-                "${article.questionIds.size} linked question${if (article.questionIds.size == 1) "" else "s"} in the question bank.",
+                pluralStringResource(R.plurals.library_linked_questions, article.questionIds.size, article.questionIds.size),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 20.dp),
             )
         }
 
-        Text("Your tags", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+        Text(stringResource(R.string.library_your_tags), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
         Row(modifier = Modifier.fillMaxWidth().padding(top = 6.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             tags.forEach { tag ->
                 AssistChip(
                     onClick = { onRemoveTag(tag) },
                     label = { Text(tag) },
-                    trailingIcon = { Icon(Icons.Filled.Close, contentDescription = "Remove tag", modifier = Modifier.size(16.dp)) },
+                    trailingIcon = { Icon(Icons.Filled.Close, contentDescription = stringResource(R.string.library_remove_tag_description), modifier = Modifier.size(16.dp)) },
                     colors = AssistChipDefaults.assistChipColors(),
                 )
             }
@@ -437,7 +442,7 @@ private fun ArticleReaderPane(
             OutlinedTextField(
                 value = newTag,
                 onValueChange = { newTag = it },
-                label = { Text("Add a tag") },
+                label = { Text(stringResource(R.string.library_add_tag_label)) },
                 singleLine = true,
                 modifier = Modifier.weight(1f).testTag(LIBRARY_ADD_TAG_FIELD_TAG),
             )
@@ -445,7 +450,7 @@ private fun ArticleReaderPane(
                 onClick = { onAddTag(newTag); newTag = "" },
                 enabled = newTag.isNotBlank(),
                 modifier = Modifier.testTag(LIBRARY_ADD_TAG_BUTTON_TAG),
-            ) { Text("Add") }
+            ) { Text(stringResource(R.string.library_add)) }
         }
     }
 }
