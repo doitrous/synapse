@@ -3,6 +3,7 @@ package com.synapse.app.feature.adaptive
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.test.core.app.ApplicationProvider
+import com.synapse.app.R
 import com.synapse.app.core.adaptive.ConceptStatus
 import com.synapse.app.core.api.SynapseApi
 import com.synapse.app.core.auth.AccountIdentityStore
@@ -91,7 +92,10 @@ class AdaptiveViewModelTest {
         assertTrue(state is AdaptiveUiState.Content)
         state as AdaptiveUiState.Content
         assertTrue(state.study.blueprintNodes.isEmpty())
-        assertEquals("Nothing on your blueprint yet", state.study.recommendation.title)
+        assertEquals(
+            RecommendationTitle.Text(R.string.adaptive_recommendation_no_blueprint_title),
+            state.study.recommendation.title,
+        )
         assertNull(state.study.recommendation.cta)
     }
 
@@ -113,7 +117,10 @@ class AdaptiveViewModelTest {
         val study = (viewModel.uiState.value as AdaptiveUiState.Content).study
         assertEquals(ConceptStatus.WEAK, study.states.getValue("CON-A").status)
         assertEquals(2, study.states.getValue("CON-A").rawWrong)
-        assertTrue(study.recommendation.title.contains("weak concept"))
+        assertEquals(
+            RecommendationTitle.Counted(R.plurals.adaptive_recommendation_weak_title, 1),
+            study.recommendation.title,
+        )
         assertEquals(RecommendationCta.PRACTICE, study.recommendation.cta)
     }
 

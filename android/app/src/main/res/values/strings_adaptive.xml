@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tabs (AdaptiveScreen). -->
+    <string name="adaptive_tab_today">Today</string>
+    <string name="adaptive_tab_practice">Practice</string>
+    <string name="adaptive_tab_readiness">Readiness</string>
+    <string name="adaptive_tab_concepts">Concepts</string>
+    <string name="adaptive_tab_plan">Plan</string>
+    <string name="adaptive_tab_how_it_works">How this works</string>
+
+    <string name="adaptive_loading">Loading…</string>
+    <string name="adaptive_coming_soon">Coming soon.</string>
+
+    <!-- Deferred tabs. -->
+    <string name="adaptive_practice_deferred_body">Blocks are built by a soft-constraint selector (novelty, difficulty mix, exposure caps) that has not landed on Android yet. Today already shows you what a block would prioritise.</string>
+    <string name="adaptive_readiness_deferred_body">Readiness assessments are timed, blueprint-balanced sittings drawn from questions held back from practice. That session flow has not landed on Android yet.</string>
+    <string name="adaptive_plan_deferred_body">The weekly study-plan scheduler has not been ported to this client yet.</string>
+
+    <!-- Today tab. -->
+    <string name="adaptive_recommended_next">Recommended next</string>
+    <string name="adaptive_at_a_glance">At a glance</string>
+    <string name="adaptive_not_yet">Not yet</string>
+    <string name="adaptive_readiness_from_held_out">From %1$d held-out questions</string>
+    <string name="adaptive_readiness_measured_separately">Measured separately, on questions held back from practice.</string>
+    <string name="adaptive_blueprint_covered_label">Blueprint covered</string>
+    <string name="adaptive_weak_concepts_label">Weak concepts</string>
+    <string name="adaptive_due_for_review_label">Due for review</string>
+    <string name="adaptive_blueprint_coverage_title">Blueprint coverage</string>
+    <string name="adaptive_next_block_title">What your next block will contain</string>
+    <string name="adaptive_share_weakness">Weakness</string>
+    <string name="adaptive_share_coverage">Coverage</string>
+    <string name="adaptive_share_review">Review</string>
+    <string name="adaptive_share_uncertainty">Uncertainty</string>
+    <string name="adaptive_allocation_note">These are allocation targets, not separate pools. One question often satisfies several of them at once and takes a single slot.</string>
+    <string name="adaptive_wrong_vs_weak_heading">Wrong answers and weak concepts are counted differently</string>
+    <string name="adaptive_wrong_vs_weak_body">If you answer three questions incorrectly and all three were mainly testing the same concept, that records three wrong attempts and at most one weak concept. The mistakes are all kept — they make repairing that concept more urgent — but they do not create three separate weaknesses. This is why the number of wrong answers you remember is usually larger than the number of weak concepts shown.</string>
+
+    <plurals name="adaptive_concepts_untouched_count">
+        <item quantity="one">%1$d concept untouched</item>
+        <item quantity="other">%1$d concepts untouched</item>
+    </plurals>
+    <plurals name="adaptive_wrong_answers_recorded_count">
+        <item quantity="one">%1$d wrong answer recorded</item>
+        <item quantity="other">%1$d wrong answers recorded</item>
+    </plurals>
+    <plurals name="adaptive_concepts_measured_count">
+        <item quantity="one">%1$d concept measured</item>
+        <item quantity="other">%1$d concepts measured</item>
+    </plurals>
+    <plurals name="adaptive_coverage_debt_message">
+        <item quantity="one">Recent blocks under-served blueprint coverage by about %1$d question. That shortfall is being repaid across the next few blocks rather than all at once.</item>
+        <item quantity="other">Recent blocks under-served blueprint coverage by about %1$d questions. That shortfall is being repaid across the next few blocks rather than all at once.</item>
+    </plurals>
+
+    <!-- Concepts tab. -->
+    <string name="adaptive_no_concepts_title">No concepts in scope</string>
+    <string name="adaptive_no_concepts_body">Nothing is scoped to your university and year yet, so there is nothing to measure. An administrator sets the blueprint up.</string>
+    <string name="adaptive_your_concepts_title">Your concepts (%1$d)</string>
+    <string name="adaptive_concept_group_percent">%1$s · %2$s of blueprint</string>
+    <string name="adaptive_concept_mastery_summary">Mastery %1$s · %2$d items · %3$d wrong</string>
+    <string name="adaptive_not_enough_evidence">Not enough evidence yet</string>
+    <string name="adaptive_override_normal">Normal</string>
+    <string name="adaptive_override_snoozed">Snoozed</string>
+    <string name="adaptive_override_out_of_scope">Out of scope</string>
+    <string name="adaptive_overrides_title">What your overrides do</string>
+    <string name="adaptive_override_snoozed_explanation">Snoozed keeps the concept measured and keeps its evidence, but stops selection offering it for two weeks. Use it when you have decided to come back to something later.</string>
+    <string name="adaptive_override_out_of_scope_explanation">Out of scope removes the concept from your blueprint entirely, so it stops counting toward coverage and stops being selected. Use it when a concept genuinely is not on your exam.</string>
+    <string name="adaptive_override_neither_deletes_note">Neither deletes anything. Your answers stay in the record, and setting a concept back to Normal restores its state exactly as it was.</string>
+
+    <!-- How this works tab. -->
+    <string name="adaptive_how_it_works_title">Two systems, measured separately</string>
+    <string name="adaptive_config_label">Config</string>
+    <string name="adaptive_blueprint_label">Blueprint</string>
+    <string name="adaptive_version_value">v%1$d</string>
+    <string name="adaptive_practice_chooses_title">Adaptive practice chooses what to study</string>
+    <string name="adaptive_practice_chooses_body">Adaptive blocks deliberately oversample what you are weakest at and what is due for review. Your accuracy inside them is therefore not a fair estimate of your exam performance, and it is not used as one.</string>
+    <string name="adaptive_readiness_measures_title">Readiness assessment measures where you stand</string>
+    <string name="adaptive_readiness_measures_body">Readiness assessments are balanced against your exam blueprint, timed, and built from questions held back from ordinary practice. They report a range rather than a single score, because a limited number of questions cannot support more precision than that.</string>
+    <string name="adaptive_your_record">Your record: %1$d wrong answers · %2$d weak concepts</string>
+    <string name="adaptive_what_measures_title">What Maristana measures</string>
+    <string name="adaptive_measured_mastery_title">Concept mastery</string>
+    <string name="adaptive_measured_mastery_body">A decayed estimate per concept, rebuilt from every answer you have given. It carries a range, not a single number, and the range widens as evidence ages.</string>
+    <string name="adaptive_measured_coverage_body">How much of your exam blueprint, by weight, has any evidence behind it. Covered means practised at all — not mastered.</string>
+    <string name="adaptive_measured_retention_title">Retention</string>
+    <string name="adaptive_measured_retention_body">Whether a concept survives a gap. A correct answer at least two days after the last one counts differently from four in a row.</string>
+    <string name="adaptive_measured_uncertainty_body">How little is known about a concept. This is what funds practice on things you have never been asked about.</string>
+    <string name="adaptive_measured_readiness_body">A separate, blueprint-balanced, timed measurement using questions held back from your practice.</string>
+    <string name="adaptive_not_measured_title">What it does not measure</string>
+    <string name="adaptive_not_measured_time_in_app">Time spent in the app, or how often you open it.</string>
+    <string name="adaptive_not_measured_questions_completed">How many questions you have completed.</string>
+    <string name="adaptive_not_measured_practice_accuracy">Your accuracy inside adaptive blocks — those deliberately oversample your weak areas, so it reads lower than your real standing.</string>
+    <string name="adaptive_not_measured_other_students">Anything about other students. No figure here is a comparison.</string>
+    <string name="adaptive_prediction_caveat">Every estimate here is a range based on the questions you have answered so far, under a model that has not yet been calibrated against results at your university. It describes your current preparation. It is not a prediction of your exam result, and it is not a guarantee.</string>
+    <string name="adaptive_next_block_explainer_title">How your next block is put together</string>
+    <string name="adaptive_next_block_explainer_body">Each block is divided into slots. These are allocation targets, not separate pools — one question often satisfies several needs at once, and always takes exactly one slot.</string>
+    <string name="adaptive_rules_never_relaxed_title">Rules that are never relaxed</string>
+    <string name="adaptive_relaxation_order_note">When the question bank cannot satisfy every selection rule, the rules below are relaxed in this published order, the relaxation is recorded, and a shortage is reported.</string>
+    <string name="adaptive_relaxation_rule_item">%1$d. %2$s</string>
+    <string name="adaptive_status_meanings_title">What each status means</string>
+    <string name="adaptive_status_explanation_unmeasured">Not enough distinct questions yet to say anything about this.</string>
+    <string name="adaptive_status_explanation_attention">One recent answer went wrong. This will be checked again — this is not a weakness label.</string>
+    <string name="adaptive_status_explanation_weak">Repeated evidence across different questions points to a real gap here.</string>
+    <string name="adaptive_status_explanation_developing">Measurable, but not yet strong enough to count as secure.</string>
+    <string name="adaptive_status_explanation_secure">Answered correctly across several distinct questions, including one after a gap of at least two days.</string>
+    <string name="adaptive_status_explanation_review_due">This was secure, and enough time has passed that it is worth checking again.</string>
+    <string name="adaptive_provenance_title">Provenance</string>
+    <string name="adaptive_provenance_most_recent_evidence">Most recent evidence</string>
+    <string name="adaptive_provenance_none_yet">None yet</string>
+    <string name="adaptive_provenance_answers_recorded">Answers recorded</string>
+    <string name="adaptive_provenance_algorithm_version">Algorithm version</string>
+    <string name="adaptive_provenance_no_blueprint">No blueprint published</string>
+    <string name="adaptive_provenance_concepts_in_scope">Concepts in scope</string>
+
+    <!-- Recommendation (AdaptiveViewModel). -->
+    <string name="adaptive_recommendation_no_blueprint_title">Nothing on your blueprint yet</string>
+    <string name="adaptive_recommendation_no_blueprint_body">No concepts are in scope for your university and year, so there is nothing to select from. This is a content gap, not a gap in your work.</string>
+    <string name="adaptive_recommendation_no_items_title">No approved questions in scope</string>
+    <string name="adaptive_recommendation_no_items_body">Your blueprint exists, but no published questions match your university, year and modules yet.</string>
+    <string name="adaptive_recommendation_due_body">These were secure, and enough time has passed that they are worth checking before they fade.</string>
+    <string name="adaptive_recommendation_weak_body">Repeated evidence across different questions points to real gaps here. The next block will oversample them while still covering your blueprint.</string>
+    <string name="adaptive_recommendation_readiness_title">Time for a readiness assessment</string>
+    <string name="adaptive_recommendation_readiness_body">You have enough practice behind you to measure where you stand. Practice accuracy will not tell you — adaptive blocks deliberately oversample your weak areas.</string>
+    <string name="adaptive_recommendation_uncovered_title">%1$d%% of your blueprint is unpractised</string>
+    <string name="adaptive_recommendation_uncovered_body">The next block will weight coverage more heavily so the untouched areas start being measured.</string>
+    <string name="adaptive_recommendation_start_block_title">Start a block</string>
+    <string name="adaptive_recommendation_start_block_body">Nothing is overdue and no confirmed weakness is outstanding. The next block will balance review with the parts of your blueprint that have the least evidence behind them.</string>
+
+    <plurals name="adaptive_recommendation_due_title">
+        <item quantity="one">%1$d concept due for review</item>
+        <item quantity="other">%1$d concepts due for review</item>
+    </plurals>
+    <plurals name="adaptive_recommendation_weak_title">
+        <item quantity="one">%1$d weak concept to repair</item>
+        <item quantity="other">%1$d weak concepts to repair</item>
+    </plurals>
+</resources>
