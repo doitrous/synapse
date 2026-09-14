@@ -227,12 +227,17 @@ private struct StudyChooser: View {
                 .padding(.top, 8)
 
                 ForEach(LibraryViewKind.allCases) { kind in
+                    let palette = Self.palette(kind)
                     Button { choose(kind) } label: {
-                        HStack(alignment: .top, spacing: 14) {
+                        HStack(alignment: .center, spacing: 14) {
+                            // A filled icon tile, coloured per shelf, so the five
+                            // doors read apart at a glance rather than as one
+                            // stack of identical pink glyphs.
                             Image(systemName: kind.symbol)
-                                .font(.system(size: 18))
-                                .foregroundStyle(Theme.primary)
-                                .frame(width: 26)
+                                .font(.system(size: 20, weight: .semibold))
+                                .foregroundStyle(palette.fg)
+                                .frame(width: 46, height: 46)
+                                .background(palette.bg, in: RoundedRectangle(cornerRadius: 13))
 
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(kind.label)
@@ -245,12 +250,17 @@ private struct StudyChooser: View {
                                     .fixedSize(horizontal: false, vertical: true)
                                 Text(count(kind))
                                     .font(Theme.numeric(11))
-                                    .foregroundStyle(Theme.ink3)
+                                    .foregroundStyle(palette.fg)
                                     .padding(.top, 2)
                             }
                             .frame(maxWidth: .infinity, alignment: .leading)
+
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 13, weight: .semibold))
+                                .foregroundStyle(Theme.ink3)
+                                .flipsForRightToLeftLayoutDirection(true)
                         }
-                        .padding(16)
+                        .padding(14)
                         .background(Theme.surface)
                         .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
                         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
@@ -261,6 +271,18 @@ private struct StudyChooser: View {
             .padding(16)
         }
         .background(Theme.paper)
+    }
+
+    /// A colour per shelf, drawn only from the theme's existing accents so the
+    /// hub gains variety without inventing a palette.
+    static func palette(_ kind: LibraryViewKind) -> (fg: Color, bg: Color) {
+        switch kind {
+        case .system: (Theme.accent, Theme.accentTint)
+        case .discipline: (Theme.primary, Theme.primaryTint)
+        case .skills: (Theme.success, Theme.successTint)
+        case .knowledge: (Theme.warning, Theme.warningTint)
+        case .curriculum: (Theme.accentStrong, Theme.accentTint)
+        }
     }
 
     /// What is actually behind each door. A card promising a shelf that turns
