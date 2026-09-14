@@ -62,7 +62,10 @@ struct PerformanceView: View {
     @ViewBuilder
     private var headline: some View {
         if model.hasEnoughForAccuracy {
-            HStack(spacing: 10) {
+            LazyVGrid(
+                columns: [GridItem(.flexible(), spacing: 10), GridItem(.flexible(), spacing: 10)],
+                spacing: 10
+            ) {
                 StatTile(
                     label: "Accuracy",
                     value: model.summary.accuracy.map { "\(Int(($0 * 100).rounded()))%" } ?? "—",
@@ -73,6 +76,20 @@ struct PerformanceView: View {
                     value: "\(model.summary.streak)",
                     detail: model.summary.streak == 1 ? "day" : "days"
                 )
+                // Distinct items, not tries — the count that says how much of
+                // the bank you have actually seen.
+                StatTile(
+                    label: "Questions seen",
+                    value: "\(model.covered)",
+                    detail: "of \(model.summary.attempts) tries"
+                )
+                if let median = model.summary.medianSeconds {
+                    StatTile(
+                        label: "Typical time",
+                        value: timeLabel(median),
+                        detail: model.summary.averageSeconds.map { "avg \(timeLabel($0))" } ?? "per question"
+                    )
+                }
             }
         } else {
             // Say how far off it is rather than showing a figure that cannot
@@ -120,6 +137,11 @@ struct PerformanceView: View {
             .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
         }
+    }
+
+    /// Seconds as "45s" or "1m 12s" — a bare "72s" reads slower than "1m 12s".
+    private func timeLabel(_ seconds: Int) -> String {
+        seconds < 60 ? "\(seconds)s" : "\(seconds / 60)m \(seconds % 60)s"
     }
 
     private func figure(_ title: String, _ accuracy: Double?, marked: Int) -> some View {

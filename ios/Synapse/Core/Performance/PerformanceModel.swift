@@ -31,9 +31,12 @@ struct PerformanceSummary: Equatable, Sendable {
         marked > 0 ? Double(correct) / Double(marked) : nil
     }
 
-    var medianSeconds: Int? {
-        attempts > 0 ? totalSeconds / attempts : nil
-    }
+    /// The typical and mean seconds per question, over *timed* answers only —
+    /// an untimed one (imported, or a surface that does not clock) must not drag
+    /// the figure toward zero. Web parity: "usual" is the median, "average" the
+    /// mean. Set in `summarise`.
+    var medianSeconds: Int?
+    var averageSeconds: Int?
 
     struct SubjectAccuracy: Identifiable, Equatable, Sendable {
         let subjectId: String
@@ -171,6 +174,13 @@ final class PerformanceModel {
         summary.byDifficulty = byDifficulty
             .map { PerformanceSummary.DifficultyAccuracy(difficulty: $0.key, marked: $0.value.marked, correct: $0.value.correct) }
             .sorted { (order.firstIndex(of: $0.difficulty) ?? 99) < (order.firstIndex(of: $1.difficulty) ?? 99) }
+
+        // Time per question, over timed answers only (a zero means "not timed").
+        let times = records.compactMap(\.seconds).filter { $0 > 0 }.sorted()
+        if !times.isEmpty {
+            summary.medianSeconds = times[times.count / 2]
+            summary.averageSeconds = times.reduce(0, +) / times.count
+        }
 
         summary.activity = activity(perDay: perDay, now: now, calendar: calendar)
         summary.streak = streak(perDay: perDay, now: now, calendar: calendar)

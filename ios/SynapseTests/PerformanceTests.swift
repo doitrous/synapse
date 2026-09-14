@@ -56,6 +56,25 @@ struct PerformanceTests {
         #expect(summarise([]).accuracy == nil)
     }
 
+    /// Time per question is over *timed* answers only, and the typical figure is
+    /// the median — a single slow session must not drag it the way a mean would.
+    @Test("time per question is the median and mean of timed answers only")
+    func timePerQuestion() {
+        let summary = summarise([
+            record(seconds: 10), record(seconds: 20), record(seconds: 120),
+            record(seconds: 0), record(seconds: nil),  // untimed: ignored
+        ])
+        #expect(summary.medianSeconds == 20, "median of 10/20/120, not dragged by 120")
+        #expect(summary.averageSeconds == 50, "(10+20+120)/3")
+    }
+
+    @Test("no timed answers means no time figure")
+    func noTimeWithoutTiming() {
+        let summary = summarise([record(seconds: 0), record(seconds: nil)])
+        #expect(summary.medianSeconds == nil)
+        #expect(summary.averageSeconds == nil)
+    }
+
     @Suite("Streaks")
     struct Streaks {
         private let helper = PerformanceTests()
