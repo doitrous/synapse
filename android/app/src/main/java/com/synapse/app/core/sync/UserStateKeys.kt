@@ -64,4 +64,18 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     // onboarding dialog. Matches web's `MARISTANA_ONBOARDING_KEY`
     // (`src/data/maristanas.ts`) exactly. See `core/maristanas/Maristana.kt`.
     "synapse.maristanas.onboarding.v1",
+    // Shares: the local handle -> live-share-id index, matching web's
+    // `SHARE_INDEX_STORAGE_KEY` (`src/lib/useShares.ts`) exactly. Client
+    // metadata only — `GET /api/shares/mine` remains the source of truth for
+    // what a student has published; this key exists purely so re-publishing
+    // the same note/board updates its existing link. See
+    // `core/shares/SharesModel.kt`'s `SHARE_INDEX_KEY` doc comment.
+    //
+    // No entry for `synapse.myDocuments.v1`: on web that key is the *entire*
+    // document store, and only in demo/offline mode (no server) — see
+    // `useMyDocuments.ts`'s doc comment ("in demo mode there is no server to
+    // hold anything, so the bytes stay local"). Android is always API-backed,
+    // so `GET /api/my-documents` is the sole source of truth and this key has
+    // no role to play here.
+    "synapse.account.shares.v1",
 )
