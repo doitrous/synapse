@@ -25,9 +25,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.PartyGameChoiceDto
 import com.synapse.app.core.api.PartyGameParticipantDto
 import com.synapse.app.core.api.PublicPartyGameRoundDto
@@ -41,8 +43,8 @@ fun PartyGameScreen(viewModel: PartyGameViewModel = hiltViewModel(), onExit: () 
         PartyGameUiState.Loading -> Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
 
         is PartyGameUiState.Gone -> Column(modifier = Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text(state.message, style = MaterialTheme.typography.bodyLarge)
-            OutlinedButton(onClick = onExit) { Text("Back") }
+            Text(stringResource(state.message), style = MaterialTheme.typography.bodyLarge)
+            OutlinedButton(onClick = onExit) { Text(stringResource(R.string.party_back)) }
         }
 
         is PartyGameUiState.InGame -> {
@@ -54,20 +56,21 @@ fun PartyGameScreen(viewModel: PartyGameViewModel = hiltViewModel(), onExit: () 
                 item {
                     Text(game.title, style = MaterialTheme.typography.titleLarge)
                     Text(
-                        game.currentRound?.let { "Round ${it.index + 1} / ${game.roundCount}" } ?: "No active round",
+                        game.currentRound?.let { stringResource(R.string.party_round_progress, it.index + 1, game.roundCount) }
+                            ?: stringResource(R.string.party_no_active_round),
                         style = MaterialTheme.typography.bodyMedium,
                     )
                 }
-                state.message?.let { message -> item { Text(message, color = MaterialTheme.colorScheme.error) } }
+                state.message?.let { message -> item { Text(stringResource(message), color = MaterialTheme.colorScheme.error) } }
 
                 when (game.status) {
                     "lobby" -> item {
                         Card(modifier = Modifier.fillMaxWidth()) {
                             Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                                Text("Lobby is ready", style = MaterialTheme.typography.titleMedium)
-                                Text("The host starts the server-authoritative game when everyone is in.", style = MaterialTheme.typography.bodyMedium)
+                                Text(stringResource(R.string.party_lobby_ready_title), style = MaterialTheme.typography.titleMedium)
+                                Text(stringResource(R.string.party_lobby_ready_body), style = MaterialTheme.typography.bodyMedium)
                                 if (state.isHost) {
-                                    Button(onClick = viewModel::start, enabled = !state.busy) { Text("Start party game") }
+                                    Button(onClick = viewModel::start, enabled = !state.busy) { Text(stringResource(R.string.party_start_game)) }
                                 }
                             }
                         }
@@ -81,7 +84,7 @@ fun PartyGameScreen(viewModel: PartyGameViewModel = hiltViewModel(), onExit: () 
                                 onSubmit = { answer -> viewModel.submitAnswer(game.currentRound.id, answer) },
                             )
                             if (state.hasAnswered) {
-                                Text("Answer submitted. Waiting for the next round.", style = MaterialTheme.typography.bodySmall)
+                                Text(stringResource(R.string.party_answer_submitted), style = MaterialTheme.typography.bodySmall)
                             }
                         }
                     }
@@ -89,11 +92,11 @@ fun PartyGameScreen(viewModel: PartyGameViewModel = hiltViewModel(), onExit: () 
                     "between_rounds" -> item {
                         Card(modifier = Modifier.fillMaxWidth()) {
                             Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                                Text("Round recorded", style = MaterialTheme.typography.titleMedium)
-                                Text("Scores are server-calculated. The host can continue when ready.", style = MaterialTheme.typography.bodyMedium)
+                                Text(stringResource(R.string.party_round_recorded_title), style = MaterialTheme.typography.titleMedium)
+                                Text(stringResource(R.string.party_round_recorded_body), style = MaterialTheme.typography.bodyMedium)
                                 if (state.isHost) {
                                     Button(onClick = viewModel::nextRound, enabled = !state.busy) {
-                                        Text(if (game.currentRoundIndex + 1 >= game.roundCount) "Complete game" else "Next round")
+                                        Text(stringResource(if (game.currentRoundIndex + 1 >= game.roundCount) R.string.party_complete_game else R.string.party_next_round))
                                     }
                                 }
                             }
@@ -103,17 +106,17 @@ fun PartyGameScreen(viewModel: PartyGameViewModel = hiltViewModel(), onExit: () 
                     "completed" -> item {
                         Card(modifier = Modifier.fillMaxWidth()) {
                             Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                                Text("Party game complete", style = MaterialTheme.typography.titleMedium)
-                                Text("Final scores are ready below.", style = MaterialTheme.typography.bodyMedium)
+                                Text(stringResource(R.string.party_game_complete_title), style = MaterialTheme.typography.titleMedium)
+                                Text(stringResource(R.string.party_game_complete_body), style = MaterialTheme.typography.bodyMedium)
                             }
                         }
                     }
                 }
 
-                item { Text("Scoreboard", style = MaterialTheme.typography.titleMedium) }
+                item { Text(stringResource(R.string.party_scoreboard_title), style = MaterialTheme.typography.titleMedium) }
                 items(ranked, key = { it.id }) { participant -> ScoreRow(participant, game.scores[participant.id] ?: 0) }
 
-                item { OutlinedButton(onClick = onExit) { Text("Leave") } }
+                item { OutlinedButton(onClick = onExit) { Text(stringResource(R.string.party_leave_action)) } }
             }
         }
     }
@@ -154,11 +157,11 @@ private fun TextAnswerControls(disabled: Boolean, onSubmit: (PartyGameAnswer) ->
             value = text,
             onValueChange = { text = it },
             enabled = !disabled,
-            label = { Text("Your answer") },
+            label = { Text(stringResource(R.string.party_your_answer_label)) },
             singleLine = true,
             modifier = Modifier.weight(1f),
         )
-        Button(onClick = { onSubmit(PartyGameAnswer.Text(text)); text = "" }, enabled = !disabled && text.isNotBlank()) { Text("Submit") }
+        Button(onClick = { onSubmit(PartyGameAnswer.Text(text)); text = "" }, enabled = !disabled && text.isNotBlank()) { Text(stringResource(R.string.party_submit)) }
     }
 }
 
@@ -168,7 +171,7 @@ private fun OrderedAnswerControls(choices: List<PartyGameChoiceDto>, disabled: B
     val remaining = choices.filter { it.id !in order }
 
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        Text("Your order", style = MaterialTheme.typography.labelLarge)
+        Text(stringResource(R.string.party_your_order_label), style = MaterialTheme.typography.labelLarge)
         order.forEachIndexed { index, id ->
             Text("${index + 1}. ${choices.firstOrNull { it.id == id }?.label ?: id}")
         }
@@ -176,11 +179,11 @@ private fun OrderedAnswerControls(choices: List<PartyGameChoiceDto>, disabled: B
             OutlinedButton(onClick = { order = order + choice.id }, enabled = !disabled, modifier = Modifier.fillMaxWidth()) { Text(choice.label) }
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            OutlinedButton(onClick = { order = emptyList() }, enabled = !disabled && order.isNotEmpty()) { Text("Clear order") }
+            OutlinedButton(onClick = { order = emptyList() }, enabled = !disabled && order.isNotEmpty()) { Text(stringResource(R.string.party_clear_order)) }
             Button(
                 onClick = { onSubmit(PartyGameAnswer.Ordered(order)) },
                 enabled = !disabled && order.size == choices.size,
-            ) { Text("Submit order") }
+            ) { Text(stringResource(R.string.party_submit_order)) }
         }
     }
 }
@@ -194,7 +197,7 @@ private fun ScoreRow(participant: PartyGameParticipantDto, score: Int) {
     ) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(participant.username)
-            if (!participant.connected) Badge { Text("Away") }
+            if (!participant.connected) Badge { Text(stringResource(R.string.party_away_badge)) }
         }
         Text("$score", style = MaterialTheme.typography.titleMedium)
     }

@@ -28,9 +28,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.OpenPartyDto
 import com.synapse.app.core.api.PartySummaryDto
 
@@ -51,19 +54,19 @@ fun PartiesScreen(viewModel: PartiesViewModel = hiltViewModel(), onOpenParty: (S
         item {
             Card(modifier = Modifier.fillMaxWidth()) {
                 Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("Join a party", style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(R.string.party_join_title), style = MaterialTheme.typography.titleMedium)
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         OutlinedTextField(
                             value = code,
                             onValueChange = { code = it.uppercase() },
-                            label = { Text("Party code") },
+                            label = { Text(stringResource(R.string.party_code_label)) },
                             singleLine = true,
                             modifier = Modifier.weight(1f),
                         )
-                        Button(onClick = { viewModel.join(code); code = "" }, enabled = code.isNotBlank()) { Text("Join") }
+                        Button(onClick = { viewModel.join(code); code = "" }, enabled = code.isNotBlank()) { Text(stringResource(R.string.party_join)) }
                     }
                     Text(
-                        "A party is a standing group for your university and year — study games and sessions together.",
+                        stringResource(R.string.party_join_description),
                         style = MaterialTheme.typography.bodySmall,
                     )
                 }
@@ -72,46 +75,47 @@ fun PartiesScreen(viewModel: PartiesViewModel = hiltViewModel(), onOpenParty: (S
 
         item {
             OutlinedButton(onClick = { showCreate = true }, modifier = Modifier.fillMaxWidth()) {
-                Text("Start a party")
+                Text(stringResource(R.string.party_start))
             }
         }
 
         state.message?.let { message ->
-            item { Text(message, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium) }
+            item { Text(stringResource(message), color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium) }
         }
 
         if (state.offline) {
-            item { Text("Could not reach Synapse. Parties need a connection.", style = MaterialTheme.typography.bodyMedium) }
+            item { Text(stringResource(R.string.party_offline), style = MaterialTheme.typography.bodyMedium) }
         } else {
             if (state.mine.isNotEmpty()) {
-                item { Text("Your parties", style = MaterialTheme.typography.titleMedium) }
+                item { Text(stringResource(R.string.party_mine_title), style = MaterialTheme.typography.titleMedium) }
                 items(state.mine, key = { "mine-${it.id}" }) { party -> MyPartyRow(party, onClick = { onOpenParty(party.id) }) }
             }
             if (state.open.isNotEmpty()) {
-                item { Text("Open in your year", style = MaterialTheme.typography.titleMedium) }
+                item { Text(stringResource(R.string.party_open_title), style = MaterialTheme.typography.titleMedium) }
                 items(state.open, key = { "open-${it.id}" }) { party -> OpenPartyRow(party, onClick = { viewModel.join(party.code); onOpenParty(party.id) }) }
             }
             if (state.mine.isEmpty() && state.open.isEmpty()) {
-                item { Text("No parties yet — start one or join with a code.", style = MaterialTheme.typography.bodyMedium) }
+                item { Text(stringResource(R.string.party_empty), style = MaterialTheme.typography.bodyMedium) }
             }
         }
     }
 
     if (showCreate) {
-        var name by remember { mutableStateOf("Study party") }
+        val defaultName = stringResource(R.string.party_default_name)
+        var name by remember { mutableStateOf(defaultName) }
         AlertDialog(
             onDismissRequest = { showCreate = false },
-            title = { Text("Start a party") },
+            title = { Text(stringResource(R.string.party_start)) },
             text = {
-                OutlinedTextField(value = name, onValueChange = { name = it }, label = { Text("Name") }, singleLine = true)
+                OutlinedTextField(value = name, onValueChange = { name = it }, label = { Text(stringResource(R.string.party_name_label)) }, singleLine = true)
             },
             confirmButton = {
                 TextButton(
                     onClick = { viewModel.create(name); showCreate = false },
                     enabled = name.isNotBlank(),
-                ) { Text("Start") }
+                ) { Text(stringResource(R.string.party_start_confirm)) }
             },
-            dismissButton = { TextButton(onClick = { showCreate = false }) { Text("Cancel") } },
+            dismissButton = { TextButton(onClick = { showCreate = false }) { Text(stringResource(R.string.party_cancel)) } },
         )
     }
 }
@@ -126,9 +130,12 @@ private fun MyPartyRow(party: PartySummaryDto, onClick: () -> Unit) {
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(party.name, style = MaterialTheme.typography.titleMedium)
-                Text("${party.members} member${if (party.members == 1) "" else "s"} · ${party.code}", style = MaterialTheme.typography.bodySmall)
+                Text(
+                    "${pluralStringResource(R.plurals.party_members_count, party.members, party.members)} · ${party.code}",
+                    style = MaterialTheme.typography.bodySmall,
+                )
             }
-            if (party.isHost) Badge { Text("Host") }
+            if (party.isHost) Badge { Text(stringResource(R.string.party_host_badge)) }
         }
     }
 }
@@ -143,9 +150,9 @@ private fun OpenPartyRow(party: OpenPartyDto, onClick: () -> Unit) {
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(party.name, style = MaterialTheme.typography.titleMedium)
-                Text("${party.members} member${if (party.members == 1) "" else "s"}", style = MaterialTheme.typography.bodySmall)
+                Text(pluralStringResource(R.plurals.party_members_count, party.members, party.members), style = MaterialTheme.typography.bodySmall)
             }
-            Text("Join", style = MaterialTheme.typography.labelLarge)
+            Text(stringResource(R.string.party_join), style = MaterialTheme.typography.labelLarge)
         }
     }
 }

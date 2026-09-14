@@ -1,44 +1,51 @@
 package com.synapse.app.core.party
 
+import androidx.annotation.StringRes
+import com.synapse.app.R
+
 /**
  * Turns a server-reported `reason` (from a `{ ok: false, reason }` refusal —
- * see the party/session mutation DTOs in `core/api/PartyApi.kt`) into words a
- * student can act on. Mirrors [com.synapse.app.core.social.socialReasonMessage],
- * extended to the reasons `server/src/parties.js` actually reports.
+ * see the party/session mutation DTOs in `core/api/PartyApi.kt`) into a
+ * string resource a student can act on. Mirrors [com.synapse.app.core.social.socialReasonMessage],
+ * extended to the reasons `server/src/parties.js` actually reports. Resolve
+ * the returned id with `stringResource` at the composable — the `reason`
+ * codes themselves are the wire contract and are never translated.
  */
-fun partyReasonMessage(reason: String?): String = when (reason) {
-    null -> "That did not work."
-    "no_cohort" -> "Your university and year need to be set before you can use parties."
-    "code_collision" -> "Could not generate a party code. Try again."
-    "invalid_visibility" -> "That is not a valid visibility setting."
-    "not_found" -> "That could not be found."
-    "not_host" -> "Only the host can do that."
-    "host_cannot_leave" -> "The host cannot leave their own party."
-    "no_items" -> "Pick something to study first."
-    "invalid_starts_at" -> "That date and time is not valid."
-    "not_a_member" -> "You are not in that party."
-    "not_started" -> "This session has not started yet."
-    "closed" -> "That session has already closed."
-    "question_gone" -> "That question is no longer published."
-    "not_in_session" -> "That item is not part of this session."
-    "archived" -> "That party has been archived."
-    else -> "That did not work."
+@StringRes
+fun partyReasonMessage(reason: String?): Int = when (reason) {
+    null -> R.string.party_reason_default
+    "no_cohort" -> R.string.party_reason_no_cohort
+    "code_collision" -> R.string.party_reason_code_collision
+    "invalid_visibility" -> R.string.party_reason_invalid_visibility
+    "not_found" -> R.string.party_reason_not_found
+    "not_host" -> R.string.party_reason_not_host
+    "host_cannot_leave" -> R.string.party_reason_host_cannot_leave
+    "no_items" -> R.string.party_reason_no_items
+    "invalid_starts_at" -> R.string.party_reason_invalid_starts_at
+    "not_a_member" -> R.string.party_reason_not_a_member
+    "not_started" -> R.string.party_reason_not_started
+    "closed" -> R.string.party_reason_closed
+    "question_gone" -> R.string.party_reason_question_gone
+    "not_in_session" -> R.string.party_reason_not_in_session
+    "archived" -> R.string.party_reason_archived
+    else -> R.string.party_reason_default
 }
 
 /** As [partyReasonMessage], for the reasons `server/src/partyGames.js` reports. */
-fun partyGameReasonMessage(reason: String?): String = when (reason) {
-    null -> "That did not work."
-    "invalid_kind" -> "That party game is not available."
-    "client_content_refused" -> "Party games must be created from server-validated content."
-    "no_content" -> "There is not enough published or authored material for that game yet."
-    "not_host" -> "Only the host of this party can do that."
-    "not_a_member" -> "You are not a member of this party."
-    "not_found" -> "That could not be found."
-    "archived" -> "That party has been archived."
-    "invalid_state" -> "That is not possible right now."
-    "wrong_round" -> "That round is no longer active."
-    "duplicate_answer" -> "You have already answered this round."
-    "invalid_answer" -> "That answer could not be submitted."
-    "invalid_action" -> "That action is not recognized."
-    else -> "That did not work."
+@StringRes
+fun partyGameReasonMessage(reason: String?): Int = when (reason) {
+    null -> R.string.party_reason_default
+    "invalid_kind" -> R.string.party_game_reason_invalid_kind
+    "client_content_refused" -> R.string.party_game_reason_client_content_refused
+    "no_content" -> R.string.party_game_reason_no_content
+    "not_host" -> R.string.party_game_reason_not_host
+    "not_a_member" -> R.string.party_game_reason_not_a_member
+    "not_found" -> R.string.party_reason_not_found
+    "archived" -> R.string.party_reason_archived
+    "invalid_state" -> R.string.party_game_reason_invalid_state
+    "wrong_round" -> R.string.party_game_reason_wrong_round
+    "duplicate_answer" -> R.string.party_game_reason_duplicate_answer
+    "invalid_answer" -> R.string.party_game_reason_invalid_answer
+    "invalid_action" -> R.string.party_game_reason_invalid_action
+    else -> R.string.party_reason_default
 }

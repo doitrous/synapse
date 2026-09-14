@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared across the party dialogs. -->
+    <string name="party_cancel">Cancel</string>
+    <string name="party_name_label">Name</string>
+
+    <!-- Parties list (feature/party PartiesScreen). -->
+    <string name="party_join_title">Join a party</string>
+    <string name="party_code_label">Party code</string>
+    <string name="party_join">Join</string>
+    <string name="party_join_description">A party is a standing group for your university and year — study games and sessions together.</string>
+    <string name="party_start">Start a party</string>
+    <string name="party_offline">Could not reach nishany. Parties need a connection.</string>
+    <string name="party_mine_title">Your parties</string>
+    <string name="party_open_title">Open in your year</string>
+    <string name="party_empty">No parties yet — start one or join with a code.</string>
+    <string name="party_start_confirm">Start</string>
+    <string name="party_default_name">Study party</string>
+    <string name="party_host_badge">Host</string>
+    <string name="party_yours_badge">Yours</string>
+
+    <plurals name="party_members_count">
+        <item quantity="one">%1$d member</item>
+        <item quantity="other">%1$d members</item>
+    </plurals>
+
+    <!-- Party lobby (PartyLobbyScreen). -->
+    <string name="party_back_to_parties">Back to parties</string>
+    <string name="party_copy_code">Copy code</string>
+    <string name="party_visibility_open">Open to your year</string>
+    <string name="party_visibility_invite">Invite only</string>
+    <string name="party_who_is_in_count">Who is in (%1$d)</string>
+    <string name="party_member_fallback_name">Student</string>
+    <string name="party_sessions_title">Sessions</string>
+    <string name="party_schedule">Schedule</string>
+    <string name="party_no_sessions">No sessions yet.</string>
+    <string name="party_games_title">Party games</string>
+    <string name="party_create">Create</string>
+    <string name="party_no_games">No party games yet.</string>
+    <string name="party_leave">Leave party</string>
+    <string name="party_session_state_scheduled">Scheduled</string>
+    <string name="party_session_state_open">Open</string>
+    <string name="party_session_state_closed">Closed</string>
+    <string name="party_game_status_completed">Completed</string>
+    <string name="party_game_status_live">Live</string>
+    <string name="party_schedule_session_title">Schedule a session</string>
+    <string name="party_choose_question">Choose a question</string>
+    <string name="party_session_note">Starts immediately, open to the whole party. Practical and essay activities can be scheduled from the web app for now.</string>
+    <string name="party_create_game_title">Create a party game</string>
+
+    <plurals name="party_items_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+
+    <!-- Party game kinds — mirrors the minigame titles used elsewhere. -->
+    <string name="party_game_kind_term_grid">Term Grid</string>
+    <string name="party_game_kind_spotter">Spotter</string>
+    <string name="party_game_kind_term_match">Term Match</string>
+    <string name="party_game_kind_clinical_sequence">Clinical Sequence</string>
+    <string name="party_game_kind_mechanism_chain">Mechanism Chain</string>
+    <string name="party_game_kind_red_flag_sort">Red Flag Sort</string>
+
+    <!-- Party session (PartySessionScreen). -->
+    <string name="party_back">Back</string>
+    <string name="party_question_unavailable">This question is no longer available.</string>
+    <string name="party_who_is_in_title">Who is in</string>
+    <string name="party_leave_action">Leave</string>
+    <string name="party_submit_answer">Submit answer</string>
+    <string name="party_practical_item">Practical item</string>
+    <string name="party_essay_question">Essay question</string>
+    <string name="party_self_check_note">This item\'s authored content isn\'t previewable on Android yet — work through it on the web app, then mark it done here. It is self-checked, not scored by the server.</string>
+    <string name="party_done_this">I\'ve done this</string>
+    <string name="party_your_result">Your result</string>
+    <string name="party_marked_none">No questions were marked in this session.</string>
+    <string name="party_self_checked_note">Self-checked items are marked by the person who did them, not the server — they are not scored.</string>
+    <string name="party_correct_of">%1$d of %2$d correct</string>
+    <string name="party_ratio_format">%1$d / %2$d</string>
+    <string name="party_not_marked_yet">Not marked yet</string>
+
+    <plurals name="party_self_checked_count">
+        <item quantity="one">%1$d item self-checked</item>
+        <item quantity="other">%1$d items self-checked</item>
+    </plurals>
+
+    <!-- Party game (PartyGameScreen). -->
+    <string name="party_round_progress">Round %1$d / %2$d</string>
+    <string name="party_no_active_round">No active round</string>
+    <string name="party_lobby_ready_title">Lobby is ready</string>
+    <string name="party_lobby_ready_body">The host starts the server-authoritative game when everyone is in.</string>
+    <string name="party_start_game">Start party game</string>
+    <string name="party_answer_submitted">Answer submitted. Waiting for the next round.</string>
+    <string name="party_round_recorded_title">Round recorded</string>
+    <string name="party_round_recorded_body">Scores are server-calculated. The host can continue when ready.</string>
+    <string name="party_complete_game">Complete game</string>
+    <string name="party_next_round">Next round</string>
+    <string name="party_game_complete_title">Party game complete</string>
+    <string name="party_game_complete_body">Final scores are ready below.</string>
+    <string name="party_scoreboard_title">Scoreboard</string>
+    <string name="party_your_answer_label">Your answer</string>
+    <string name="party_submit">Submit</string>
+    <string name="party_your_order_label">Your order</string>
+    <string name="party_clear_order">Clear order</string>
+    <string name="party_submit_order">Submit order</string>
+    <string name="party_away_badge">Away</string>
+
+    <!-- Server refusal reasons — see core/party/PartyMessages.kt. Reason codes
+         themselves (the `when` branches) are the wire contract and stay put;
+         only the human-facing text they map to is localized here. -->
+    <string name="party_reason_default">That did not work.</string>
+    <string name="party_reason_no_cohort">Your university and year need to be set before you can use parties.</string>
+    <string name="party_reason_code_collision">Could not generate a party code. Try again.</string>
+    <string name="party_reason_invalid_visibility">That is not a valid visibility setting.</string>
+    <string name="party_reason_not_found">That could not be found.</string>
+    <string name="party_reason_not_host">Only the host can do that.</string>
+    <string name="party_reason_host_cannot_leave">The host cannot leave their own party.</string>
+    <string name="party_reason_no_items">Pick something to study first.</string>
+    <string name="party_reason_invalid_starts_at">That date and time is not valid.</string>
+    <string name="party_reason_not_a_member">You are not in that party.</string>
+    <string name="party_reason_not_started">This session has not started yet.</string>
+    <string name="party_reason_closed">That session has already closed.</string>
+    <string name="party_reason_question_gone">That question is no longer published.</string>
+    <string name="party_reason_not_in_session">That item is not part of this session.</string>
+    <string name="party_reason_archived">That party has been archived.</string>
+
+    <string name="party_game_reason_invalid_kind">That party game is not available.</string>
+    <string name="party_game_reason_client_content_refused">Party games must be created from server-validated content.</string>
+    <string name="party_game_reason_no_content">There is not enough published or authored material for that game yet.</string>
+    <string name="party_game_reason_not_host">Only the host of this party can do that.</string>
+    <string name="party_game_reason_not_a_member">You are not a member of this party.</string>
+    <string name="party_game_reason_invalid_state">That is not possible right now.</string>
+    <string name="party_game_reason_wrong_round">That round is no longer active.</string>
+    <string name="party_game_reason_duplicate_answer">You have already answered this round.</string>
+    <string name="party_game_reason_invalid_answer">That answer could not be submitted.</string>
+    <string name="party_game_reason_invalid_action">That action is not recognized.</string>
+
+    <!-- ViewModel "gone"/"unavailable" poll states (PartyLobby/PartySession/PartyGame ViewModels). -->
+    <string name="party_gone_party">That party is no longer available.</string>
+    <string name="party_unreachable_party">Could not reach the party.</string>
+    <string name="party_gone_session">That session is no longer available.</string>
+    <string name="party_unreachable_session">Could not reach the session.</string>
+    <string name="party_gone_game">That party game is no longer available.</string>
+    <string name="party_unreachable_game">Could not reach the game.</string>
+</resources>
