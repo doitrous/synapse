@@ -1,4 +1,4 @@
-import { useId, useState, type FormEvent } from 'react'
+import { useId, useRef, useState, type FormEvent } from 'react'
 import { CircleCheck, Mail, TriangleAlert } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput, Textarea } from '@/components/ui/Field'
@@ -23,6 +23,7 @@ export function ContactForm({ lang }: { lang: 'ar' | 'en' }) {
   const [message, setMessage] = useState('')
   const [turnstileToken, setTurnstileToken] = useState('')
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
+  const sendingRef = useRef(false)
 
   function openMailApp() {
     const subject = `${label('Support request')}${name.trim() ? ` — ${name.trim()}` : ''}`
@@ -37,13 +38,18 @@ export function ContactForm({ lang }: { lang: 'ar' | 'en' }) {
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
     if (!API_MODE) return openMailApp()
-
+    // Guard a same-tick double submit (two rapid Enter presses) before the
+    // 'sending' state disables the button.
+    if (sendingRef.current) return
+    sendingRef.current = true
     setStatus('sending')
     try {
       await apiPost('/contact', { name: name.trim(), email: email.trim(), message: message.trim(), turnstileToken: turnstileToken || undefined })
       setStatus('sent')
     } catch {
       setStatus('error')
+    } finally {
+      sendingRef.current = false
     }
   }
 

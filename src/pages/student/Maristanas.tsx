@@ -245,13 +245,13 @@ function LegacyMaristanas() {
               icon={WifiOff}
               title={t("You're offline")}
               description={t('This page keeps retrying in the background — it will load as soon as you reconnect.')}
-              action={<Button onClick={() => void refresh()}>{t('Try again')}</Button>}
+              action={<Button loading={loading} onClick={() => void refresh()}>{t('Try again')}</Button>}
             />
           </Panel>
         </PageContainer>
       )
     }
-    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('No construction credit has changed.')} action={<Button onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel></PageContainer>
+    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('No construction credit has changed.')} action={<Button loading={loading} onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel></PageContainer>
   }
 
   if (!data.enabled) {

@@ -127,6 +127,7 @@ export function UsersManagement() {
   const [enrollmentRequests, setEnrollmentRequests] = useState<EnrollmentChangeRequest[]>([])
   const [enrollmentNote, setEnrollmentNote] = useState('')
   const [enrollmentBusy, setEnrollmentBusy] = useState<string | null>(null)
+  const [enrollmentLoading, setEnrollmentLoading] = useState(false)
   const [enrollmentError, setEnrollmentError] = useState('')
   /**
    * The roles this actor may give this person.
@@ -154,12 +155,15 @@ export function UsersManagement() {
 
   const loadEnrollmentRequests = useCallback(async () => {
     if (!API_MODE) return
+    setEnrollmentLoading(true)
     try {
       const response = await apiGet<{ requests: EnrollmentChangeRequest[] }>('/admin/enrollment-change-requests?status=pending')
       setEnrollmentRequests(response.requests)
       setEnrollmentError('')
     } catch {
       setEnrollmentError('Could not load enrollment change requests.')
+    } finally {
+      setEnrollmentLoading(false)
     }
   }, [])
 
@@ -298,7 +302,7 @@ export function UsersManagement() {
             <h3 className="text-[13.5px] font-bold text-ink">Pending enrollment changes</h3>
             <p className="mt-0.5 text-[12px] text-ink-3">Students can request a locked university or year change; admins approve or reject with an audit note.</p>
           </div>
-          <Button size="sm" variant="ghost" iconLeft={RefreshCw} onClick={() => void loadEnrollmentRequests()}>Refresh</Button>
+          <Button size="sm" variant="ghost" iconLeft={RefreshCw} loading={enrollmentLoading} onClick={() => void loadEnrollmentRequests()}>Refresh</Button>
         </div>
         {enrollmentError && <p role="alert" className="border-b border-line bg-warning-tint px-4 py-2 text-[12.5px] text-warning">{enrollmentError}</p>}
         <div className="p-4">
@@ -358,7 +362,7 @@ export function UsersManagement() {
               <option value="">Any university</option>
               {universities.map((u) => <option key={u.id} value={u.id}>{u.short}</option>)}
             </Select>
-            <Button size="sm" variant="ghost" iconLeft={RefreshCw} onClick={() => void refresh()}>Refresh</Button>
+            <Button size="sm" variant="ghost" iconLeft={RefreshCw} loading={loading} onClick={() => void refresh()}>Refresh</Button>
             <Button size="sm" variant="ghost" iconLeft={Download} disabled={!users.length} onClick={() => downloadCsv(users)}>Export</Button>
             <span className="ms-auto tnum font-mono text-[11.5px] text-ink-3">{users.length} shown</span>
           </div>

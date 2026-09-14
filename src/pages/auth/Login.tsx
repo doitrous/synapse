@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Link, Navigate, useLocation, useNavigate, useSearchParams } from 'react-router-dom'
 import { AlertCircle, ArrowRight, Eye, EyeOff, Fingerprint, LogIn } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
@@ -57,6 +57,7 @@ export function Login() {
   const [password, setPassword] = useState('')
   const [showPassword, setShowPassword] = useState(false)
   const [loading, setLoading] = useState(false)
+  const submittingRef = useRef(false)
   const [error, setError] = useState('')
   const [passkeyLoading, setPasskeyLoading] = useState(false)
 
@@ -80,11 +81,15 @@ export function Login() {
 
   async function submit(event: React.FormEvent) {
     event.preventDefault()
+    // A ref, not `loading`: two rapid Enter presses fire submit twice in the
+    // same tick, before the state update that disables the button flushes.
+    if (submittingRef.current) return
     setError('')
     if (!API_MODE) {
       setError('Account sign-in is not available yet: this deployment is not connected to its account service.')
       return
     }
+    submittingRef.current = true
     setLoading(true)
     try {
       const { mfaPending } = await signIn(email, password)
@@ -92,6 +97,7 @@ export function Login() {
     } catch (signInError) {
       setError(authMessage(signInError, 'Sign-in could not be completed. Check your details and try again.'))
       setLoading(false)
+      submittingRef.current = false
     }
   }
 

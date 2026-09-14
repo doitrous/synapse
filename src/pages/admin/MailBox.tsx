@@ -90,7 +90,7 @@ export function MailBox() {
       <PageHeader
         title="Mail Box"
         description="Every message sent and received — automations, campaigns and replies — with attachments."
-        actions={<><ButtonLink to="/admin/email" variant="secondary" size="md" iconLeft={Zap}>Automations</ButtonLink><Button variant="secondary" size="md" iconLeft={RefreshCw} onClick={() => void load()}>Refresh</Button><Button variant="primary" size="md" iconLeft={Plus} onClick={() => { setComposing(true); setSelected(null) }}>Compose</Button></>}
+        actions={<><ButtonLink to="/admin/email" variant="secondary" size="md" iconLeft={Zap}>Automations</ButtonLink><Button variant="secondary" size="md" iconLeft={RefreshCw} loading={loading} onClick={() => void load()}>Refresh</Button><Button variant="primary" size="md" iconLeft={Plus} onClick={() => { setComposing(true); setSelected(null) }}>Compose</Button></>}
       />
 
       {notice && (
