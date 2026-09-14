@@ -16,10 +16,10 @@
  * Demo mode (no `VITE_API_BASE`) has no server, so the same functions read the
  * ledger `demoPreview` seeded into localStorage.
  */
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState, type Dispatch, type SetStateAction } from 'react'
 import { API_MODE, apiGetIfChanged } from '../api'
 import { errorKind, type StateErrorKind } from '../apiErrors'
-import { CONTENT_LEDGER_STORAGE_KEY, type ManagedContentItem } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, mediaRequestsOf, type ManagedContentItem } from '@/data/contentControl'
 
 interface CacheEntry { etag: string | null; data: unknown }
 const cache = new Map<string, CacheEntry>()
@@ -113,6 +113,54 @@ export function useAdminArticleIndex(): { articles: AdminArticleIndexRow[]; load
     return () => { live = false }
   }, [])
   return state
+}
+
+export interface AdminItemsResponse { version: string; items: ManagedContentItem[] }
+
+/** True when any media request anywhere in the item has been escalated. */
+const hasEscalatedRequest = (item: ManagedContentItem): boolean =>
+  mediaRequestsOf(item).some((request) => Boolean(request?.escalation))
+
+/**
+ * The full items carrying an escalated media request — the Escalations queue's
+ * whole working set, fetched once instead of downloading the ledger to find a
+ * handful of items. Full items because the queue previews the owner and needs
+ * the exact stored item as the delta `before` when it acts.
+ */
+export function fetchAdminEscalations(force = false): Promise<AdminItemsResponse> {
+  if (!API_MODE) {
+    return Promise.resolve({ version: 'demo', items: demoLedger().filter(hasEscalatedRequest) })
+  }
+  return load<AdminItemsResponse>('admin:escalations', '/admin/content/escalations', force)
+}
+
+/**
+ * Escalation-bearing items as local, optimistically-mutable state. `setItems`
+ * lets the queue reflect an acted-on escalation immediately; the durable write
+ * goes through `saveLedgerChanges`, and the item it wrote becomes the next
+ * conflict base.
+ */
+export function useAdminEscalations(): {
+  items: ManagedContentItem[]
+  setItems: Dispatch<SetStateAction<ManagedContentItem[]>>
+  loading: boolean
+  error: StateErrorKind | null
+} {
+  const [state, setState] = useState<{ items: ManagedContentItem[]; loading: boolean; error: StateErrorKind | null }>(
+    { items: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdminEscalations()
+      .then((response) => { if (live) setState({ items: response.items, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ items: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  const setItems = useCallback<Dispatch<SetStateAction<ManagedContentItem[]>>>(
+    (update) => setState((prev) => ({ ...prev, items: typeof update === 'function' ? (update as (p: ManagedContentItem[]) => ManagedContentItem[])(prev.items) : update })),
+    [],
+  )
+  return { items: state.items, setItems, loading: state.loading, error: state.error }
 }
 
 /**

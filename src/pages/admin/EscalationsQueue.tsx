@@ -8,12 +8,13 @@ import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Field, Textarea } from '@/components/ui/Field'
 import { cn } from '@/lib/cn'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { useAdminEscalations } from '@/lib/content/adminContentClient'
+import { saveLedgerChanges } from '@/lib/content/adminLedgerWrite'
 import { useIdentity } from '@/lib/useIdentity'
 import { useI18n } from '@/lib/i18n'
 import { ROLE_LABEL, type EffectiveRole } from '@/data/adminRoles'
 import {
-  CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, mediaRequestsOf,
+  mediaRequestsOf,
   type ManagedContentItem, type MediaRequest, type MediaRequestOwnerKind,
   type MediaRequestEscalation, type MediaEscalationEvent, type EscalationStatus,
 } from '@/data/contentControl'
@@ -75,10 +76,11 @@ export function EscalationsQueue() {
   const canManage = identity.rank >= 2
   const actorRole = ROLE_LABEL[(identity.role ?? 'editor') as EffectiveRole]
 
-  const [ledger, setLedger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const { items: ledger, setItems: setLedger, loading, error: loadError } = useAdminEscalations()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [note, setNote] = useState('')
   const [error, setError] = useState('')
+  const [saving, setSaving] = useState(false)
 
   const [filters, setFilters] = useFilterState(
     { status: 'open', q: '', priority: [] as string[] },
@@ -123,15 +125,22 @@ export function EscalationsQueue() {
 
   const selected = visible.find((row) => row.requestId === selectedId) ?? null
 
-  function act(row: EscalationRow, nextStatus: EscalationStatus, action: MediaEscalationEvent['action']) {
+  async function act(row: EscalationRow, nextStatus: EscalationStatus, action: MediaEscalationEvent['action']) {
     setError('')
+    if (saving) return
     if (!canManage) { setError(t('Only an editor or super admin may act on an escalation.')); return }
     if (note.trim().length < 4) { setError(t('Add a short note explaining this decision.')); return }
+    // `before` is the exact stored owner item (this slice ships full items), so
+    // the delta applies rather than conflicts; `after` differs only in this one
+    // request's escalation. The save names only this id — every other item in the
+    // ledger is untouched.
+    const before = ledger.find((item) => item.id === row.ownerId) ?? null
+    if (!before) { setError(t('The owning content is no longer in the ledger.')); return }
     const event: MediaEscalationEvent = {
       at: new Date().toISOString(), actorId: identity.userId, actorName: identity.displayName,
       actorRole, action, note: note.trim(),
     }
-    setLedger((items) => items.map((item) => (item.id !== row.ownerId ? item : patchMediaRequest(item, row.requestId, (request) => (
+    const after = patchMediaRequest(before, row.requestId, (request) => (
       request.escalation
         ? {
             ...request,
@@ -144,8 +153,17 @@ export function EscalationsQueue() {
             },
           }
         : request
-    )))))
-    setNote('')
+    ))
+    setSaving(true)
+    try {
+      await saveLedgerChanges([{ id: row.ownerId, before, after }])
+      setLedger((items) => items.map((item) => (item.id === row.ownerId ? after : item)))
+      setNote('')
+    } catch {
+      setError(t('That change could not be saved — somebody may have edited it first. Reload and try again.'))
+    } finally {
+      setSaving(false)
+    }
   }
 
   const ownerItem = selected ? ledger.find((item) => item.id === selected.ownerId) ?? null : null
@@ -190,11 +208,19 @@ export function EscalationsQueue() {
           <PanelHeader title={t('Queue')} />
           {visible.length === 0 ? (
             <EmptyState
-              icon={Siren}
-              title={counts.all === 0 ? t('No escalations') : t('Nothing matches these filters')}
-              description={counts.all === 0
-                ? t('When a reviewer escalates a media request, it appears here for you to return or resolve.')
-                : t('Widen the filters to see the rest of the queue.')}
+              icon={loadError ? TriangleAlert : Siren}
+              title={loadError
+                ? t('Could not load escalations')
+                : loading
+                  ? t('Loading escalations…')
+                  : counts.all === 0 ? t('No escalations') : t('Nothing matches these filters')}
+              description={loadError
+                ? t('Reload the page to try again.')
+                : loading
+                  ? t('Fetching the escalation queue.')
+                  : counts.all === 0
+                    ? t('When a reviewer escalates a media request, it appears here for you to return or resolve.')
+                    : t('Widen the filters to see the rest of the queue.')}
             />
           ) : (
             <ul className="divide-y divide-line">
@@ -278,9 +304,9 @@ export function EscalationsQueue() {
                     </Field>
                     {error && <p role="alert" className="text-[12px] text-danger">{error}</p>}
                     <div className="flex flex-wrap gap-1.5">
-                      <Button size="sm" variant="secondary" iconLeft={Undo2} onClick={() => act(selected, 'returned', 'returned')}>{t('Return to reviewer')}</Button>
-                      <Button size="sm" variant="ghost" iconLeft={UserCog} onClick={() => act(selected, 'open', 'reassigned')}>{t('Reassign')}</Button>
-                      <Button size="sm" variant="primary" iconLeft={CircleCheck} onClick={() => act(selected, 'resolved', 'resolved')}>{t('Resolve')}</Button>
+                      <Button size="sm" variant="secondary" iconLeft={Undo2} loading={saving} onClick={() => void act(selected, 'returned', 'returned')}>{t('Return to reviewer')}</Button>
+                      <Button size="sm" variant="ghost" iconLeft={UserCog} disabled={saving} onClick={() => void act(selected, 'open', 'reassigned')}>{t('Reassign')}</Button>
+                      <Button size="sm" variant="primary" iconLeft={CircleCheck} disabled={saving} onClick={() => void act(selected, 'resolved', 'resolved')}>{t('Resolve')}</Button>
                     </div>
                   </div>
                 )}

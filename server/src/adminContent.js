@@ -24,6 +24,7 @@
 import { pool } from './db.js'
 import { requireConsole } from './auth.js'
 import { countsFor } from './studentContent.js'
+import { collectMediaRequests } from './mediaRequestPolicy.js'
 
 const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
 
@@ -109,6 +110,20 @@ export async function adminArticleIndexHandler(req, res) {
   return sendVersioned(req, res, content.signature, { articles })
 }
 
+/**
+ * The full items that carry an escalated media request — the Escalations queue's
+ * whole working set. Escalations are rare, so this is a handful of items, not the
+ * 60 MB ledger the tab used to download to find them. Full items (not an index)
+ * because the queue previews the owner and, on acting, needs the exact stored
+ * item as the delta `before`.
+ */
+export async function adminEscalationsHandler(req, res) {
+  const content = await loadAdminContent()
+  const items = content.items.filter((item) =>
+    [...collectMediaRequests(item).values()].some((request) => request && request.escalation))
+  return sendVersioned(req, res, content.signature, { items })
+}
+
 const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
   console.error(error)
   res.status(500).json({ error: error.message || 'server error' })
@@ -117,4 +132,5 @@ const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) =
 export function registerAdminContentRoutes(app) {
   app.get('/api/admin/content/item/:id', requireConsole, wrap(adminItemHandler))
   app.get('/api/admin/content/article-index', requireConsole, wrap(adminArticleIndexHandler))
+  app.get('/api/admin/content/escalations', requireConsole, wrap(adminEscalationsHandler))
 }
