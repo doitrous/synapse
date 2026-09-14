@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/placeholder — the "coming soon" stand-in shown for a shell
+         destination whose real screen has not been built yet. The
+         destination's own title is passed in already localized by the
+         caller (see AppScaffold.kt: stringResource(destination.labelRes)). -->
+
+    <string name="placeholder_coming_soon">Coming soon</string>
+</resources>

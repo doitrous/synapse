@@ -142,23 +142,12 @@ enum class RelaxableConstraint {
     @SerialName("quotaTolerance") QUOTA_TOLERANCE,
 }
 
-val RELAXABLE_CONSTRAINT_LABEL: Map<RelaxableConstraint, String> = mapOf(
-    RelaxableConstraint.NOVELTY to "Novelty preference",
-    RelaxableConstraint.DIFFICULTY_MIX to "Difficulty and cognitive-task mix",
-    RelaxableConstraint.CONSECUTIVE_TOPIC to "No more than three consecutive items from one topic",
-    RelaxableConstraint.UNSEEN_SHARE to "Minimum unseen share",
-    RelaxableConstraint.CONCEPT_CAP to "Maximum two items dominated by one concept",
-    RelaxableConstraint.EXPOSURE_CAP to "Exposure cap per item",
-    RelaxableConstraint.QUOTA_TOLERANCE to "Blueprint quota tolerance",
-)
-
-/** Never relaxed, at any pool size, for any student. Stated so it can be shown. */
-val NON_NEGOTIABLE_CONSTRAINTS: List<String> = listOf(
-    "Content approval status",
-    "University, year and module scope",
-    "Language and accessibility requirements",
-    "Held-out readiness items excluded from practice",
-)
+// The human-readable label for each relaxable constraint, and the list of
+// never-relaxed constraint descriptions, are UI copy, not config — they live
+// in feature/adaptive/AdaptiveScreen.kt as @StringRes ids (see
+// RELAXABLE_CONSTRAINT_LABEL_RES / NON_NEGOTIABLE_CONSTRAINT_RES there),
+// resolved with stringResource so they can be localized (strings_adaptive.xml
+// adaptive_constraint_* / adaptive_non_negotiable_*).
 
 /** Hard constraints. Evaluated before any scoring; a high score never overrides one. */
 @Serializable

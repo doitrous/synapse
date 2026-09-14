@@ -133,4 +133,30 @@
         <item quantity="one">%1$d weak concept to repair</item>
         <item quantity="other">%1$d weak concepts to repair</item>
     </plurals>
+
+    <!-- core-adaptive cleanup: human-readable labels for ConceptStatus and
+         RelaxableConstraint (core/adaptive/MasteryModel.kt, AdaptiveConfig.kt).
+         The enums and their wire keys are untouched — only these display
+         labels moved out of core into resources, resolved by
+         feature/adaptive/AdaptiveScreen.kt's CONCEPT_STATUS_LABEL_RES /
+         RELAXABLE_CONSTRAINT_LABEL_RES / NON_NEGOTIABLE_CONSTRAINT_RES maps. -->
+    <string name="adaptive_status_label_unmeasured">Unmeasured</string>
+    <string name="adaptive_status_label_attention">Needs a second look</string>
+    <string name="adaptive_status_label_weak">Weak</string>
+    <string name="adaptive_status_label_developing">Developing</string>
+    <string name="adaptive_status_label_secure">Secure</string>
+    <string name="adaptive_status_label_review_due">Review due</string>
+
+    <string name="adaptive_constraint_novelty">Novelty preference</string>
+    <string name="adaptive_constraint_difficulty_mix">Difficulty and cognitive-task mix</string>
+    <string name="adaptive_constraint_consecutive_topic">No more than three consecutive items from one topic</string>
+    <string name="adaptive_constraint_unseen_share">Minimum unseen share</string>
+    <string name="adaptive_constraint_concept_cap">Maximum two items dominated by one concept</string>
+    <string name="adaptive_constraint_exposure_cap">Exposure cap per item</string>
+    <string name="adaptive_constraint_quota_tolerance">Blueprint quota tolerance</string>
+
+    <string name="adaptive_non_negotiable_content_approval">Content approval status</string>
+    <string name="adaptive_non_negotiable_scope">University, year and module scope</string>
+    <string name="adaptive_non_negotiable_language_accessibility">Language and accessibility requirements</string>
+    <string name="adaptive_non_negotiable_held_out_readiness">Held-out readiness items excluded from practice</string>
 </resources>

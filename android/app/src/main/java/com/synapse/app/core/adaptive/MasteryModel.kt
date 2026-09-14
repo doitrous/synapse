@@ -50,14 +50,10 @@ enum class ConceptStatus {
     @SerialName("review-due") REVIEW_DUE,
 }
 
-val CONCEPT_STATUS_LABEL: Map<ConceptStatus, String> = mapOf(
-    ConceptStatus.UNMEASURED to "Unmeasured",
-    ConceptStatus.ATTENTION to "Needs a second look",
-    ConceptStatus.WEAK to "Weak",
-    ConceptStatus.DEVELOPING to "Developing",
-    ConceptStatus.SECURE to "Secure",
-    ConceptStatus.REVIEW_DUE to "Review due",
-)
+// The human-readable label for each status is UI copy, not model logic —
+// it lives in feature/adaptive/AdaptiveScreen.kt as a `Map<ConceptStatus, Int>`
+// of @StringRes ids (see CONCEPT_STATUS_LABEL_RES there), resolved with
+// stringResource so it can be localized (strings_adaptive.xml adaptive_status_label_*).
 
 /**
  * The statuses adaptive practice treats as a repair target.

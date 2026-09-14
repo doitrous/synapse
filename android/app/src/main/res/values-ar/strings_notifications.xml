@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/notifications — no exact precedent for these three lines on
+         iOS/web ArabicStrings.swift / i18n-ar.ts, so this is fresh MSA,
+         matching the "تعذّر الوصول إلى nishany" offline tone already used by
+         feature/social's strings_social.xml (social_offline_generic). -->
+
+    <string name="notifications_unavailable">الإشعارات غير متاحة حاليًا.</string>
+    <string name="notifications_offline_banner">تُعرض آخر نسخة معروفة من صندوق الوارد — أنت غير متصل بالإنترنت.</string>
+    <string name="notifications_empty">لا توجد إشعارات مستندات مشاركة بعد.</string>
+</resources>

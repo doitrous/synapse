@@ -28,10 +28,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.taxonomy.TaxonomyTerm
 
 const val TAXONOMY_LOADING_TAG = "taxonomy_loading"
@@ -58,7 +60,7 @@ private fun TaxonomyScreen(uiState: TaxonomyUiState, onQueryChange: (String) -> 
             modifier = Modifier.fillMaxSize().testTag(TAXONOMY_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.taxonomy_loading)) }
         return
     }
 
@@ -91,9 +93,9 @@ private fun TermListPane(
     onOpenTerm: (String) -> Unit,
 ) {
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("Medical taxonomy", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.taxonomy_title), style = MaterialTheme.typography.titleLarge)
         Text(
-            "A bilingual dictionary of the basic medical terms — with Arabic translations and plain explanations.",
+            stringResource(R.string.taxonomy_subtitle),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp),
         )
@@ -101,14 +103,14 @@ private fun TermListPane(
         OutlinedTextField(
             value = uiState.query,
             onValueChange = onQueryChange,
-            label = { Text("Search a term in Arabic or English") },
+            label = { Text(stringResource(R.string.taxonomy_search_label)) },
             singleLine = true,
             modifier = Modifier.fillMaxWidth().padding(top = 16.dp).testTag(TAXONOMY_SEARCH_FIELD_TAG),
         )
 
         if (uiState.groups.isEmpty()) {
             Text(
-                if (uiState.totalCount == 0) "The glossary has not been published yet." else "No terms match your search.",
+                stringResource(if (uiState.totalCount == 0) R.string.taxonomy_empty_not_published else R.string.taxonomy_empty_no_matches),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 24.dp),
             )
@@ -151,7 +153,7 @@ private fun TermDetailPane(term: TaxonomyTerm, onBack: () -> Unit) {
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             IconButton(onClick = onBack, modifier = Modifier.testTag(TAXONOMY_BACK_BUTTON_TAG)) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.taxonomy_back))
             }
             Text(term.term, style = MaterialTheme.typography.titleLarge)
         }
@@ -171,7 +173,7 @@ private fun TermDetailPane(term: TaxonomyTerm, onBack: () -> Unit) {
 
         term.example?.let { example ->
             Text(
-                "e.g. $example",
+                stringResource(R.string.taxonomy_example_format, example),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 16.dp),
             )
