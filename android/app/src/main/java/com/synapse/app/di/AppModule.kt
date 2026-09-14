@@ -21,6 +21,7 @@ import com.synapse.app.core.cache.room.RoomLocalStore
 import com.synapse.app.core.cache.room.SynapseDatabase
 import com.synapse.app.core.config.AppConfig
 import com.synapse.app.core.media.MediaCache
+import com.synapse.app.core.media.ResourceFileCache
 import com.synapse.app.core.sync.STUDENT_READABLE_KEYS
 import com.synapse.app.core.sync.STUDENT_USER_STATE_KEYS
 import com.synapse.app.core.sync.SyncEngine
@@ -113,6 +114,13 @@ object AppModule {
     fun provideMediaCache(@ApplicationContext context: Context, api: QBankApi): MediaCache {
         val cacheDir = File(context.filesDir, "qbank-media").apply { mkdirs() }
         return MediaCache(cacheDir, api)
+    }
+
+    @Provides
+    @Singleton
+    fun provideResourceFileCache(@ApplicationContext context: Context, api: QBankApi): ResourceFileCache {
+        val cacheDir = File(context.filesDir, "resources-files").apply { mkdirs() }
+        return ResourceFileCache(cacheDir, api)
     }
 
     @Provides
