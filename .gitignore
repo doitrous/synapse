@@ -81,3 +81,8 @@ __pycache__/
 
 # scripts/content/gate.mjs writes each gate's full output here (derived, large)
 .gates/
+
+# Regenerable corpus concept index (build-corpus-concept-index.mjs, from the
+# local, uncommitted corpus/). 41 MB each, read only by offline content scripts —
+# kept on disk, out of git. Regenerate with: node scripts/build-corpus-concept-index.mjs
+**/evidence/corpus-concept-index.json
