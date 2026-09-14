@@ -227,5 +227,53 @@ struct WhiteboardTests {
             let board = try JSONDecoder().decode(BoardState.self, from: data)
             #expect(board.notes.first?.tone == "lilac")
         }
+
+        /// Ink drawn on either platform must survive the trip. A board saved
+        /// before ink existed decodes with `inkAbove` nil, not a crash.
+        @Test("freehand ink round-trips and an old board has no ink layer")
+        func inkRoundTrip() throws {
+            let board = BoardState(
+                notes: [], links: [], frames: [],
+                ink: [InkStroke(id: "i1", points: [0, 0, 5, 5, 10, 0], color: "primary", width: 4)],
+                inkAbove: true
+            )
+            let data = try JSONEncoder().encode(board)
+            #expect(try JSONDecoder().decode(BoardState.self, from: data) == board)
+
+            let legacy = Data(#"{"notes":[],"links":[],"frames":[]}"#.utf8)
+            #expect(try JSONDecoder().decode(BoardState.self, from: legacy).inkAbove == nil)
+        }
+    }
+
+    @Suite("Ink")
+    struct Ink {
+
+        private func stroke(_ points: [Double], width: Double = 4) -> InkStroke {
+            InkStroke(id: "i", points: points, color: "ink", width: width)
+        }
+
+        /// The eraser aims at a fattened path, so a point near the line hits and
+        /// one clearly off it misses.
+        @Test("the eraser hits a point near the line and misses one far off")
+        func hitAndMiss() {
+            let line = stroke([0, 0, 100, 0])
+            #expect(BoardGeometry.strokeHit(CGPoint(x: 50, y: 3), stroke: line))
+            #expect(!BoardGeometry.strokeHit(CGPoint(x: 50, y: 200), stroke: line))
+        }
+
+        /// A wider stroke is easier to hit — the tolerance grows with the line.
+        @Test("a fatter line is hit from further away")
+        func widthWidensTolerance() {
+            let point = CGPoint(x: 50, y: 14)
+            #expect(!BoardGeometry.strokeHit(point, stroke: stroke([0, 0, 100, 0], width: 2)))
+            #expect(BoardGeometry.strokeHit(point, stroke: stroke([0, 0, 100, 0], width: 20)))
+        }
+
+        /// A stroke with nothing in it cannot be hit rather than crashing on the
+        /// empty array.
+        @Test("an empty stroke is never hit")
+        func emptyStroke() {
+            #expect(!BoardGeometry.strokeHit(.zero, stroke: stroke([])))
+        }
     }
 }

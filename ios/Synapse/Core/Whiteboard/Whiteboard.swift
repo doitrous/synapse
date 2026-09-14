@@ -202,6 +202,35 @@ enum BoardGeometry {
         )
     }
 
+    /// Distance from a point to a line segment — the primitive the eraser aims
+    /// with, since a stroke is a chain of these.
+    static func distance(from p: CGPoint, toSegment a: CGPoint, _ b: CGPoint) -> CGFloat {
+        let dx = b.x - a.x, dy = b.y - a.y
+        if dx == 0, dy == 0 { return hypot(p.x - a.x, p.y - a.y) }
+        let t = max(0, min(1, ((p.x - a.x) * dx + (p.y - a.y) * dy) / (dx * dx + dy * dy)))
+        return hypot(p.x - (a.x + t * dx), p.y - (a.y + t * dy))
+    }
+
+    /// Whether the eraser, at a board point, touches a stroke.
+    ///
+    /// The web aims the eraser at a fattened, invisible copy of the line
+    /// (`max(16, width + 12)` wide) because a hairline is impossible to hit; a
+    /// point within half that of the centreline counts as a hit.
+    static func strokeHit(_ point: CGPoint, stroke: InkStroke) -> Bool {
+        let pts = stroke.points
+        guard pts.count >= 2 else { return false }
+        let tolerance = max(16, stroke.width + 12) / 2
+        if pts.count == 2 { return hypot(point.x - pts[0], point.y - pts[1]) <= tolerance }
+        var i = 0
+        while i + 3 < pts.count {
+            let a = CGPoint(x: pts[i], y: pts[i + 1])
+            let b = CGPoint(x: pts[i + 2], y: pts[i + 3])
+            if distance(from: point, toSegment: a, b) <= tolerance { return true }
+            i += 2
+        }
+        return false
+    }
+
     /// The topmost note under a board point, searched in reverse so the note
     /// drawn last — the one visibly on top — is the one picked up.
     static func note(at point: CGPoint, in notes: [BoardNote]) -> BoardNote? {
@@ -237,6 +266,28 @@ enum BoardGeometry {
             size: noteSize
         )
     }
+}
+
+/// What a drag does on the board.
+enum WhiteboardTool: String, CaseIterable, Sendable {
+    case select, pen, eraser
+
+    var symbol: String {
+        switch self {
+        case .select: "hand.point.up.left"
+        case .pen: "pencil.tip"
+        case .eraser: "eraser"
+        }
+    }
+}
+
+/// Freehand ink colours and widths, by the keys the web app stores — kept as
+/// strings/numbers so a stroke drawn on either platform round-trips unchanged.
+enum BoardInk {
+    /// The five colours, in the web's order (`INK_COLOURS`).
+    static let colours = ["ink", "primary", "danger", "success", "warning"]
+    /// The three stroke widths (`INK_WIDTHS`).
+    static let widths: [Double] = [2, 4, 8]
 }
 
 /// The eight note colours, by the keys the web app stores.

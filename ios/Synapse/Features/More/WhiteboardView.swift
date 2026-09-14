@@ -33,6 +33,25 @@ struct WhiteboardView: View {
     @State private var editing: BoardNote?
     @State private var viewport = CGSize.zero
 
+    /// Which tool a one-finger drag drives. Pinch-to-zoom stays live in every
+    /// mode; panning is the select tool's drag, so drawing and panning never
+    /// fight over the same gesture.
+    @State private var tool: WhiteboardTool = .select
+    @State private var inkColour = BoardInk.colours[0]
+    @State private var inkWidth = BoardInk.widths[1]
+    /// The stroke being drawn right now, in board coordinates, shown live until
+    /// the finger lifts and it becomes one `InkStroke`.
+    @State private var currentStroke: [CGPoint] = []
+    @State private var strokeInProgress = false
+
+    /// Session-only undo/redo, snapshots of the whole board — the same simple
+    /// stack the web keeps, and cleared when the app closes.
+    @State private var history: [BoardState] = []
+    @State private var future: [BoardState] = []
+    /// So a continuous drag (moving a note, erasing) records one undo step, not
+    /// one per gesture frame.
+    @State private var didRememberGesture = false
+
     var body: some View {
         GeometryReader { geometry in
             ZStack {
@@ -88,6 +107,10 @@ struct WhiteboardView: View {
 
             links
 
+            // Ink sits under the notes by default, over them when the student
+            // flips the layer — the same two render sites the web toggles.
+            if board.inkAbove != true { inkLayer }
+
             ForEach(board.notes) { note in
                 NoteCard(
                     note: note,
@@ -100,7 +123,12 @@ struct WhiteboardView: View {
                 )
                 .onTapGesture { tap(note) }
                 .gesture(dragNote(note))
+                // In pen/eraser mode a note must not steal the drawing gesture:
+                // drawing over a note draws, it does not pick the note up.
+                .allowsHitTesting(tool == .select)
             }
+
+            if board.inkAbove == true { inkLayer }
         }
         .frame(
             width: BoardGeometry.size.width, height: BoardGeometry.size.height,
@@ -111,8 +139,39 @@ struct WhiteboardView: View {
         .frame(width: size.width, height: size.height, alignment: .topLeading)
         .clipped()
         .contentShape(Rectangle())
-        .gesture(pan(size))
+        .gesture(canvasGesture(size))
         .simultaneousGesture(pinch(size))
+    }
+
+    /// Every freehand stroke, plus the one being drawn right now.
+    private var inkLayer: some View {
+        Canvas { context, _ in
+            for stroke in board.ink ?? [] {
+                context.stroke(
+                    Self.inkPath(stroke.points),
+                    with: .color(Self.inkColour(stroke.color)),
+                    style: StrokeStyle(lineWidth: stroke.width, lineCap: .round, lineJoin: .round)
+                )
+            }
+            if strokeInProgress, currentStroke.count >= 2 {
+                context.stroke(
+                    Self.inkPath(currentStroke.flatMap { [$0.x, $0.y] }),
+                    with: .color(Self.inkColour(inkColour)),
+                    style: StrokeStyle(lineWidth: inkWidth, lineCap: .round, lineJoin: .round)
+                )
+            }
+        }
+        .frame(width: BoardGeometry.size.width, height: BoardGeometry.size.height)
+        .allowsHitTesting(false)
+    }
+
+    /// The one-finger gesture depends on the tool: pan, draw, or erase.
+    private func canvasGesture(_ size: CGSize) -> AnyGesture<Void> {
+        switch tool {
+        case .select: AnyGesture(pan(size).map { _ in () })
+        case .pen: AnyGesture(drawGesture().map { _ in () })
+        case .eraser: AnyGesture(eraseGesture().map { _ in () })
+        }
     }
 
     private var links: some View {
@@ -174,6 +233,7 @@ struct WhiteboardView: View {
         DragGesture()
             .onChanged { value in
                 guard let index = board.notes.firstIndex(where: { $0.id == note.id }) else { return }
+                if !didRememberGesture { remember(); didRememberGesture = true }
                 let moved = CGPoint(
                     x: note.x + value.translation.width / scale,
                     y: note.y + value.translation.height / scale
@@ -182,7 +242,56 @@ struct WhiteboardView: View {
                 board.notes[index].x = clamped.x
                 board.notes[index].y = clamped.y
             }
-            .onEnded { _ in Task { await save() } }
+            .onEnded { _ in didRememberGesture = false; Task { await save() } }
+    }
+
+    /// Pen: collect board-space points, thinned like the web (a point closer
+    /// than 1.5 units adds nothing the hand can see), commit one stroke on lift.
+    private func drawGesture() -> some Gesture {
+        DragGesture(minimumDistance: 0)
+            .onChanged { value in
+                let s = BoardGeometry.clampScale(scale)
+                let p = BoardGeometry.toBoard(value.location, offset: offset, scale: s)
+                strokeInProgress = true
+                if let last = currentStroke.last {
+                    if hypot(p.x - last.x, p.y - last.y) >= 1.5 { currentStroke.append(p) }
+                } else {
+                    currentStroke = [p]
+                }
+            }
+            .onEnded { _ in commitStroke() }
+    }
+
+    /// Eraser: a drag over any stroke's fattened path removes that whole stroke.
+    private func eraseGesture() -> some Gesture {
+        DragGesture(minimumDistance: 0)
+            .onChanged { value in
+                let s = BoardGeometry.clampScale(scale)
+                let p = BoardGeometry.toBoard(value.location, offset: offset, scale: s)
+                let hits = (board.ink ?? []).filter { BoardGeometry.strokeHit(p, stroke: $0) }
+                guard !hits.isEmpty else { return }
+                if !didRememberGesture { remember(); didRememberGesture = true }
+                let ids = Set(hits.map(\.id))
+                board.ink?.removeAll { ids.contains($0.id) }
+            }
+            .onEnded { _ in
+                if didRememberGesture { didRememberGesture = false; Task { await save() } }
+            }
+    }
+
+    private func commitStroke() {
+        defer { currentStroke = []; strokeInProgress = false }
+        // A tap is not a line: two points is the least that draws anything.
+        guard currentStroke.count >= 2 else { return }
+        remember()
+        let stroke = InkStroke(
+            id: UUID().uuidString,
+            points: currentStroke.flatMap { [$0.x, $0.y] },
+            color: inkColour,
+            width: inkWidth
+        )
+        board.ink = (board.ink ?? []) + [stroke]
+        Task { await save() }
     }
 
     private func tap(_ note: BoardNote) {
@@ -203,8 +312,80 @@ struct WhiteboardView: View {
     // MARK: - Toolbar
 
     private var toolbar: some View {
-        HStack(spacing: 10) {
-            if let selected, let note = board.notes.first(where: { $0.id == selected }) {
+        VStack(spacing: 8) {
+            HStack(spacing: 10) {
+                toolPicker
+                Spacer()
+                Button { undo() } label: { Image(systemName: "arrow.uturn.backward") }
+                    .tint(Theme.primary)
+                    .disabled(history.isEmpty)
+                Button { redo() } label: { Image(systemName: "arrow.uturn.forward") }
+                    .tint(Theme.primary)
+                    .disabled(future.isEmpty)
+            }
+
+            contextRow
+        }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 10)
+        .frame(maxWidth: .infinity)
+        .floatingChrome(in: Rectangle())
+    }
+
+    private var toolPicker: some View {
+        HStack(spacing: 4) {
+            ForEach(WhiteboardTool.allCases, id: \.self) { option in
+                Button {
+                    tool = option
+                    if option != .select { selected = nil; linkingFrom = nil }
+                } label: {
+                    Image(systemName: option.symbol)
+                        .font(.system(size: 15, weight: .medium))
+                        .frame(width: 38, height: 30)
+                        .background(tool == option ? Theme.primaryTint : Color.clear)
+                        .foregroundStyle(tool == option ? Theme.primary : Theme.ink2)
+                        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.sm))
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel(strings(option.rawValue.capitalized))
+            }
+        }
+        .padding(3)
+        .background(Theme.inset)
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md))
+    }
+
+    @ViewBuilder private var contextRow: some View {
+        if tool == .pen {
+            HStack(spacing: 12) {
+                ForEach(BoardInk.colours, id: \.self) { colour in
+                    Button { inkColour = colour } label: {
+                        Circle()
+                            .fill(Self.inkColour(colour))
+                            .frame(width: 22, height: 22)
+                            .overlay(Circle().stroke(Theme.primary, lineWidth: inkColour == colour ? 2.5 : 0))
+                    }
+                    .buttonStyle(.plain)
+                }
+                Divider().frame(height: 22)
+                ForEach(BoardInk.widths, id: \.self) { width in
+                    Button { inkWidth = width } label: {
+                        Circle()
+                            .fill(inkWidth == width ? Theme.primary : Theme.ink3)
+                            .frame(width: width + 6, height: width + 6)
+                            .frame(width: 26, height: 26)
+                    }
+                    .buttonStyle(.plain)
+                }
+                Spacer()
+                Button { toggleInkAbove() } label: {
+                    Image(systemName: board.inkAbove == true ? "square.stack.3d.up.fill" : "square.stack.3d.down.right.fill")
+                }
+                .tint(Theme.primary)
+                .accessibilityLabel(strings(board.inkAbove == true ? "Ink above notes" : "Ink below notes"))
+            }
+        } else if let selected, let note = board.notes.first(where: { $0.id == selected }) {
+            HStack(spacing: 10) {
                 Button {
                     linkingFrom = linkingFrom == nil ? note.id : nil
                 } label: {
@@ -225,10 +406,10 @@ struct WhiteboardView: View {
                 Text("\(board.notes.count) note\(board.notes.count == 1 ? "" : "s")")
                     .font(Theme.numeric(11))
                     .foregroundStyle(Theme.ink3)
-            } else {
-                Text(board.notes.isEmpty
-                     ? "Tap + to add a note. Drag to pan, pinch to zoom."
-                     : "Tap a note to select it.")
+            }
+        } else {
+            HStack(spacing: 10) {
+                Text(hint)
                     .font(Theme.ui(12))
                     .foregroundStyle(Theme.ink3)
                 Spacer()
@@ -237,10 +418,17 @@ struct WhiteboardView: View {
                     .foregroundStyle(Theme.ink3)
             }
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 10)
-        .frame(maxWidth: .infinity)
-        .floatingChrome(in: Rectangle())
+    }
+
+    private var hint: String {
+        switch tool {
+        case .eraser: "Drag across a line to rub it out."
+        case .pen: "Draw with a finger or pencil."
+        case .select:
+            board.notes.isEmpty
+                ? "Tap + to add a note. Drag to pan, pinch to zoom."
+                : "Tap a note to select it."
+        }
     }
 
     // MARK: - Editing
@@ -249,6 +437,7 @@ struct WhiteboardView: View {
         let point = BoardGeometry.placement(
             offset: offset, scale: scale, viewport: viewport, existing: board.notes.count
         )
+        remember()
         let note = BoardNote(
             id: UUID().uuidString, x: point.x, y: point.y, text: "", tone: "paper"
         )
@@ -260,11 +449,13 @@ struct WhiteboardView: View {
 
     private func update(_ note: BoardNote) async {
         guard let index = board.notes.firstIndex(where: { $0.id == note.id }) else { return }
+        remember()
         board.notes[index] = note
         await save()
     }
 
     private func deleteNote(_ note: BoardNote) async {
+        remember()
         board.notes.removeAll { $0.id == note.id }
         // A link to a note that no longer exists would draw from nowhere.
         board.links.removeAll { $0.from == note.id || $0.to == note.id }
@@ -274,8 +465,78 @@ struct WhiteboardView: View {
 
     private func addLink(from: String, to: String) async {
         guard !board.links.contains(where: { $0.from == from && $0.to == to }) else { return }
+        remember()
         board.links.append(BoardLink(id: UUID().uuidString, from: from, to: to))
         await save()
+    }
+
+    // MARK: - Undo / redo
+
+    /// Snapshot before a change, so it can be undone. Caps at 50 like the web,
+    /// and a fresh change abandons any redo branch.
+    private func remember() {
+        history.append(board)
+        if history.count > 50 { history.removeFirst() }
+        future.removeAll()
+    }
+
+    private func undo() {
+        guard let previous = history.popLast() else { return }
+        future.append(board)
+        board = previous
+        selected = nil
+        linkingFrom = nil
+        Task { await save() }
+    }
+
+    private func redo() {
+        guard let next = future.popLast() else { return }
+        history.append(board)
+        board = next
+        selected = nil
+        linkingFrom = nil
+        Task { await save() }
+    }
+
+    /// Flip freehand ink above or below the notes.
+    private func toggleInkAbove() {
+        remember()
+        board.inkAbove = !(board.inkAbove ?? false)
+        Task { await save() }
+    }
+
+    // MARK: - Ink rendering
+
+    /// A freehand line as a smooth path — quadratic through midpoints, the same
+    /// curve the web draws (`inkPath`), so a stroke looks identical on both.
+    static func inkPath(_ points: [Double]) -> Path {
+        var path = Path()
+        guard points.count >= 4 else {
+            if points.count == 2 {
+                path.move(to: CGPoint(x: points[0], y: points[1]))
+                path.addLine(to: CGPoint(x: points[0] + 0.01, y: points[1] + 0.01))
+            }
+            return path
+        }
+        path.move(to: CGPoint(x: points[0], y: points[1]))
+        var i = 2
+        while i + 3 < points.count {
+            let mid = CGPoint(x: (points[i] + points[i + 2]) / 2, y: (points[i + 1] + points[i + 3]) / 2)
+            path.addQuadCurve(to: mid, control: CGPoint(x: points[i], y: points[i + 1]))
+            i += 2
+        }
+        path.addLine(to: CGPoint(x: points[points.count - 2], y: points[points.count - 1]))
+        return path
+    }
+
+    static func inkColour(_ id: String) -> Color {
+        switch id {
+        case "primary": Theme.primary
+        case "danger": Theme.danger
+        case "success": Theme.success
+        case "warning": Theme.warning
+        default: Theme.ink
+        }
     }
 
     /// Bring everything into view.
