@@ -1,5 +1,6 @@
 package com.synapse.app.feature.shell
 
+import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material.icons.automirrored.filled.List
@@ -25,6 +26,7 @@ import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.ui.graphics.vector.ImageVector
+import com.synapse.app.R
 
 /** The [NavHost][androidx.navigation.compose.NavHost] start route — the "Today" tab. */
 const val DASHBOARD_ROUTE = "dashboard"
@@ -46,14 +48,16 @@ const val FLASHCARDS_ROUTE = "flashcards"
 
 /**
  * One entry in the student's navigation, mirroring a `NavItem` in the web app's `studentNav`
- * (`src/components/shell/nav.ts`). [route] is the `NavHost` route, [label] is shown as the
- * bottom-nav/hub label and top-bar title, and [icon] comes from the bundled
- * `material-icons-core` set (no extended icon-pack dependency is wired up yet, so choices are
- * the closest available glyph rather than an exact match to the web's `lucide-react` icons).
+ * (`src/components/shell/nav.ts`). [route] is the `NavHost` route, [labelRes] is a string
+ * resource shown as the bottom-nav/hub label and top-bar title (a resource rather than a plain
+ * `String` so every render site resolves it through `stringResource`, picking up the student's
+ * locale), and [icon] comes from the bundled `material-icons-core` set (no extended icon-pack
+ * dependency is wired up yet, so choices are the closest available glyph rather than an exact
+ * match to the web's `lucide-react` icons).
  */
 data class StudentDestination(
     val route: String,
-    val label: String,
+    @StringRes val labelRes: Int,
     val icon: ImageVector,
 )
 
@@ -65,16 +69,16 @@ data class StudentDestination(
  * [MORE_ROUTE] renders [MoreHubScreen], the hub for every other destination.
  */
 val BOTTOM_DESTINATIONS: List<StudentDestination> = listOf(
-    StudentDestination(DASHBOARD_ROUTE, "Today", Icons.Filled.Home),
-    StudentDestination(LIBRARY_ROUTE, "Library", Icons.AutoMirrored.Filled.List),
-    StudentDestination(QUESTION_BANK_ROUTE, "Questions", Icons.Filled.CheckCircle),
-    StudentDestination(RESOURCES_ROUTE, "Resources", Icons.Filled.Info),
-    StudentDestination(MORE_ROUTE, "More", Icons.Filled.MoreVert),
+    StudentDestination(DASHBOARD_ROUTE, R.string.nav_today, Icons.Filled.Home),
+    StudentDestination(LIBRARY_ROUTE, R.string.nav_library, Icons.AutoMirrored.Filled.List),
+    StudentDestination(QUESTION_BANK_ROUTE, R.string.nav_questions, Icons.Filled.CheckCircle),
+    StudentDestination(RESOURCES_ROUTE, R.string.nav_resources, Icons.Filled.Info),
+    StudentDestination(MORE_ROUTE, R.string.nav_more, Icons.Filled.MoreVert),
 )
 
 /** One labelled section of [MoreHubScreen], mirroring one [NavGroup] of the web's `studentNav`. */
 data class MoreGroup(
-    val label: String,
+    @StringRes val labelRes: Int,
     val items: List<StudentDestination>,
 )
 
@@ -87,46 +91,46 @@ data class MoreGroup(
  */
 val MORE_GROUPS: List<MoreGroup> = listOf(
     MoreGroup(
-        label = "Overview",
+        labelRes = R.string.nav_group_overview,
         items = listOf(
-            StudentDestination("university", "University", Icons.Filled.LocationOn),
-            StudentDestination("calendar", "Calendar", Icons.Filled.DateRange),
+            StudentDestination("university", R.string.nav_university, Icons.Filled.LocationOn),
+            StudentDestination("calendar", R.string.nav_calendar, Icons.Filled.DateRange),
         ),
     ),
     MoreGroup(
-        label = "Study",
+        labelRes = R.string.nav_group_study,
         items = listOf(
-            StudentDestination("adaptive", "Adaptive Study", Icons.AutoMirrored.Filled.ArrowForward),
-            StudentDestination("practical", "Practical", Icons.Filled.Build),
-            StudentDestination("essays", "Essay questions", Icons.Filled.Edit),
-            StudentDestination("taxonomy", "Medical Taxonomy", Icons.Filled.Search),
+            StudentDestination("adaptive", R.string.nav_adaptive_study, Icons.AutoMirrored.Filled.ArrowForward),
+            StudentDestination("practical", R.string.nav_practical, Icons.Filled.Build),
+            StudentDestination("essays", R.string.nav_essay_questions, Icons.Filled.Edit),
+            StudentDestination("taxonomy", R.string.nav_medical_taxonomy, Icons.Filled.Search),
         ),
     ),
     MoreGroup(
-        label = "Plan",
+        labelRes = R.string.nav_group_plan,
         items = listOf(
-            StudentDestination("performance", "Performance", Icons.Filled.Star),
-            StudentDestination("maristanas", "Build Maristanas", Icons.Filled.AddCircle),
+            StudentDestination("performance", R.string.nav_performance, Icons.Filled.Star),
+            StudentDestination("maristanas", R.string.nav_build_maristanas, Icons.Filled.AddCircle),
         ),
     ),
     MoreGroup(
-        label = "Workspace",
+        labelRes = R.string.nav_group_workspace,
         items = listOf(
-            StudentDestination("whiteboard", "Whiteboard", Icons.Filled.Create),
-            StudentDestination("notebook", "Notebook", Icons.Filled.MailOutline),
-            StudentDestination(FLASHCARDS_ROUTE, "Flashcards", Icons.Filled.Refresh),
-            StudentDestination("minigames", "Minigames", Icons.Filled.PlayArrow),
-            StudentDestination("study-together", "Study Together", Icons.Filled.Person),
-            StudentDestination("parties", "Parties", Icons.Filled.Face),
-            StudentDestination("shares", "My Documents", Icons.Filled.Share),
+            StudentDestination("whiteboard", R.string.nav_whiteboard, Icons.Filled.Create),
+            StudentDestination("notebook", R.string.nav_notebook, Icons.Filled.MailOutline),
+            StudentDestination(FLASHCARDS_ROUTE, R.string.nav_flashcards, Icons.Filled.Refresh),
+            StudentDestination("minigames", R.string.nav_minigames, Icons.Filled.PlayArrow),
+            StudentDestination("study-together", R.string.nav_study_together, Icons.Filled.Person),
+            StudentDestination("parties", R.string.nav_parties, Icons.Filled.Face),
+            StudentDestination("shares", R.string.nav_my_documents, Icons.Filled.Share),
         ),
     ),
     MoreGroup(
-        label = "Account",
+        labelRes = R.string.nav_group_account,
         items = listOf(
-            StudentDestination("account", "Manage account", Icons.Filled.AccountCircle),
-            StudentDestination("billing", "Billing", Icons.Filled.ShoppingCart),
-            StudentDestination("notifications", "Notifications", Icons.Filled.Notifications),
+            StudentDestination("account", R.string.nav_manage_account, Icons.Filled.AccountCircle),
+            StudentDestination("billing", R.string.nav_billing, Icons.Filled.ShoppingCart),
+            StudentDestination("notifications", R.string.nav_notifications, Icons.Filled.Notifications),
         ),
     ),
 )

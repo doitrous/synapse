@@ -3,6 +3,7 @@ package com.synapse.app.feature.account
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.synapse.app.core.account.AccountPrefs
+import com.synapse.app.core.i18n.LocaleController
 import com.synapse.app.core.api.MeEntitlement
 import com.synapse.app.core.api.MeProfile
 import com.synapse.app.core.api.MeUser
@@ -178,6 +179,7 @@ class AccountViewModel @Inject constructor(
     fun setLanguage(language: String) {
         val state = _uiState.value as? AccountUiState.Content ?: return
         _uiState.value = state.copy(language = language)
+        LocaleController.apply(language)
         viewModelScope.launch {
             try {
                 repository.setLanguage(language, now())

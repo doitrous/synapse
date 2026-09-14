@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- nishany is a brand name — not translated, same as iOS/web. -->
+    <string name="app_name">nishany</string>
+
+    <!-- Common/shared UI. -->
+    <string name="common_retry">إعادة المحاولة</string>
+    <string name="common_check_connection">تحقق من اتصالك وحاول مرة أخرى.</string>
+    <string name="common_email">البريد الإلكتروني</string>
+    <string name="common_password">كلمة المرور</string>
+    <string name="common_save">حفظ</string>
+    <string name="common_saving">جارٍ الحفظ…</string>
+
+    <!-- Shell. -->
+    <string name="nav_today">اليوم</string>
+    <string name="nav_library">المكتبة</string>
+    <string name="nav_questions">الأسئلة</string>
+    <string name="nav_resources">المصادر</string>
+    <string name="nav_more">أكثر</string>
+
+    <string name="nav_group_overview">نظرة عامة</string>
+    <string name="nav_group_study">الدراسة</string>
+    <string name="nav_group_plan">التخطيط</string>
+    <string name="nav_group_workspace">مساحة العمل</string>
+    <string name="nav_group_account">الحساب</string>
+
+    <string name="nav_university">الجامعة</string>
+    <string name="nav_calendar">التقويم</string>
+    <string name="nav_adaptive_study">الدراسة التكيّفية</string>
+    <string name="nav_practical">العملي</string>
+    <string name="nav_essay_questions">أسئلة المقال</string>
+    <string name="nav_medical_taxonomy">المصطلحات الطبية</string>
+    <string name="nav_performance">الأداء</string>
+    <string name="nav_build_maristanas">إنشاء Maristanas</string>
+    <string name="nav_whiteboard">السبورة</string>
+    <string name="nav_notebook">المفكرة</string>
+    <string name="nav_flashcards">البطاقات التعليمية</string>
+    <string name="nav_minigames">الألعاب المصغّرة</string>
+    <string name="nav_study_together">الدراسة الجماعية</string>
+    <string name="nav_parties">المجموعات</string>
+    <string name="nav_my_documents">مستنداتي</string>
+    <string name="nav_manage_account">إدارة الحساب</string>
+    <string name="nav_billing">الفوترة</string>
+    <string name="nav_notifications">الإشعارات</string>
+
+    <string name="shell_change_theme_description">تغيير المظهر</string>
+
+    <!-- Auth. -->
+    <string name="auth_welcome_back">مرحبًا بعودتك</string>
+    <string name="auth_sign_in">تسجيل الدخول</string>
+    <string name="auth_forgot_password">نسيت كلمة المرور؟</string>
+    <string name="auth_need_account_sign_up">ليس لديك حساب؟ أنشئ حسابًا</string>
+    <string name="auth_create_account">إنشاء حساب</string>
+    <string name="auth_sign_up">إنشاء حساب</string>
+    <string name="auth_already_have_account_sign_in">لديك حساب بالفعل؟ سجّل الدخول</string>
+    <string name="auth_reset_password_title">إعادة تعيين كلمة المرور</string>
+    <string name="auth_reset_password_body">أدخل بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور.</string>
+    <string name="auth_send_reset_link">إرسال رابط إعادة التعيين</string>
+    <string name="auth_back_to_sign_in">العودة إلى تسجيل الدخول</string>
+    <string name="auth_verify_email_title">تحقق من بريدك الإلكتروني</string>
+    <string name="auth_verify_email_body">أرسلنا رابط تحقق إلى بريدك الإلكتروني. اتبعه، ثم تحقق مرة أخرى أدناه.</string>
+    <string name="auth_check_again">تحقق مرة أخرى</string>
+
+    <!-- Account. -->
+    <string name="account_title">الحساب</string>
+    <string name="account_section_profile">الملف الشخصي</string>
+    <string name="account_signed_in_fallback">مسجّل الدخول</string>
+    <string name="account_section_study_context">سياق الدراسة</string>
+    <string name="account_section_preferences">التفضيلات</string>
+    <string name="account_review_reminders_title">تذكيرات المراجعة</string>
+    <string name="account_review_reminders_subtitle">إشعارات عند استحقاق مراجعة المفاهيم.</string>
+    <string name="account_calendar_reminders_title">تذكيرات التقويم</string>
+    <string name="account_calendar_reminders_subtitle">إشعارات قبل مهامك وجلساتك.</string>
+    <string name="account_language_label">اللغة</string>
+    <string name="account_language_note">يُطبَّق هنا، ويُسجَّل أيضًا لأجهزتك الأخرى.</string>
+    <string name="account_language_english">English</string>
+    <string name="account_language_arabic">العربية</string>
+    <string name="account_theme_label">المظهر</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_warm">دافئ</string>
+    <string name="theme_dark">داكن</string>
+    <string name="account_section_privacy_data">الخصوصية والبيانات</string>
+    <string name="account_discoverable_title">السماح لزملائي بالعثور عليّ</string>
+    <string name="account_discoverable_subtitle">معطّل افتراضيًا. يظهر اسمك في دليل زملائك من نفس الجامعة والسنة، ويمكنهم تصفحه.</string>
+    <string name="account_download_my_data">تنزيل بياناتي</string>
+    <string name="account_export_ready">التصدير جاهز (%1$d بايت). حفظه كملف غير متاح على أندرويد بعد.</string>
+    <string name="account_export_unavailable">تعذّر تصدير بياناتك الآن. حاول مرة أخرى بعد قليل.</string>
+    <string name="account_section_this_session">هذه الجلسة</string>
+    <string name="account_sign_out">تسجيل الخروج</string>
+    <string name="account_section_delete">حذف الحساب</string>
+    <string name="account_delete_warning">لا يمكن التراجع عن هذا. حذف حسابك يزيل ملاحظاتك ولوحاتك البيضاء وخطة دراستك وكامل سجل إجاباتك — ولا يمكن للدعم استرجاع أي منها بعد ذلك. حسابك على الموقع هو نفس الحساب، لذا يُحذف هو أيضًا.</string>
+    <string name="account_delete_confirm_label">اكتب DELETE للتأكيد</string>
+    <string name="account_delete_button">حذف حسابي</string>
+    <string name="account_deleting">جارٍ الحذف…</string>
+    <string name="account_unavailable_title">تعذّر تحميل حسابك.</string>
+    <string name="account_no_plan">لا توجد خطة مسجّلة</string>
+    <string name="account_enrolment_locked">مقفَل بعد إكمال التسجيل</string>
+    <string name="account_group_field_label">المجموعة</string>
+    <string name="account_enrolment_prompt">لم تُعِدّ جامعتك ملفك الشخصي بعد. أدخله بنفسك لفتح المحتوى المخصص لك.</string>
+    <string name="account_university_id_label">معرّف الجامعة</string>
+    <string name="account_year_label">السنة، مثال: السنة الثالثة</string>
+    <string name="account_group_optional_label">المجموعة (اختياري)</string>
+
+    <plurals name="account_trial_days_left">
+        <item quantity="zero">تجريبي · لا أيام متبقية</item>
+        <item quantity="one">تجريبي · يوم واحد متبقٍ</item>
+        <item quantity="two">تجريبي · يومان متبقيان</item>
+        <item quantity="few">تجريبي · %d أيام متبقية</item>
+        <item quantity="many">تجريبي · %d يومًا متبقيًا</item>
+        <item quantity="other">تجريبي · %d يوم متبقٍ</item>
+    </plurals>
+</resources>

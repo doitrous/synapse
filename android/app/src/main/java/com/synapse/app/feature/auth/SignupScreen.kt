@@ -14,11 +14,13 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 
 /**
  * Email/password account creation. On success [AuthModel]'s two-gate rule
@@ -38,12 +40,12 @@ fun SignupScreen(
             .padding(24.dp),
         verticalArrangement = Arrangement.Center,
     ) {
-        Text(text = "Create account", style = MaterialTheme.typography.headlineMedium)
+        Text(text = stringResource(R.string.auth_create_account), style = MaterialTheme.typography.headlineMedium)
 
         OutlinedTextField(
             value = uiState.email,
             onValueChange = viewModel::onEmailChange,
-            label = { Text("Email") },
+            label = { Text(stringResource(R.string.common_email)) },
             singleLine = true,
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
             modifier = Modifier
@@ -54,7 +56,7 @@ fun SignupScreen(
         OutlinedTextField(
             value = uiState.password,
             onValueChange = viewModel::onPasswordChange,
-            label = { Text("Password") },
+            label = { Text(stringResource(R.string.common_password)) },
             singleLine = true,
             visualTransformation = PasswordVisualTransformation(),
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
@@ -79,11 +81,11 @@ fun SignupScreen(
                 .fillMaxWidth()
                 .padding(top = 16.dp),
         ) {
-            Text("Sign up")
+            Text(stringResource(R.string.auth_sign_up))
         }
 
         TextButton(onClick = onNavigateToLogin) {
-            Text("Already have an account? Sign in")
+            Text(stringResource(R.string.auth_already_have_account_sign_in))
         }
     }
 }

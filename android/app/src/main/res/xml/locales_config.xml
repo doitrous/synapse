@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Drives the Android 13+ system "App languages" picker. Kept in sync with
+     LocaleController's SUPPORTED_LANGUAGES and synapse-lang's two valid values. -->
+<locale-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <locale android:name="en" />
+    <locale android:name="ar" />
+</locale-config>

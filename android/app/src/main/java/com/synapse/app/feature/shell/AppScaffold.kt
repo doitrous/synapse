@@ -15,11 +15,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.synapse.app.R
 import com.synapse.app.design.ThemeChoice
 import com.synapse.app.feature.adaptive.AdaptiveRoute
 import com.synapse.app.feature.dashboard.DashboardScreen
@@ -108,7 +110,9 @@ fun AppScaffold(
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
-    val title = ALL_DESTINATIONS.firstOrNull { it.route == currentRoute }?.label ?: "nishany"
+    val title = ALL_DESTINATIONS.firstOrNull { it.route == currentRoute }
+        ?.let { stringResource(it.labelRes) }
+        ?: stringResource(R.string.app_name)
 
     /** Bottom-tab navigation: resets to a fresh, single copy of [route] on the back stack. */
     fun navigateToTab(route: String) {
@@ -167,7 +171,7 @@ fun AppScaffold(
                         onClick = { onThemeChange(themeChoice.next()) },
                         modifier = Modifier.testTag(THEME_TOGGLE_TAG),
                     ) {
-                        Icon(Icons.Filled.Settings, contentDescription = "Change theme")
+                        Icon(Icons.Filled.Settings, contentDescription = stringResource(R.string.shell_change_theme_description))
                     }
                 },
             )
@@ -175,12 +179,13 @@ fun AppScaffold(
         bottomBar = {
             NavigationBar {
                 BOTTOM_DESTINATIONS.forEach { destination ->
+                    val label = stringResource(destination.labelRes)
                     NavigationBarItem(
                         modifier = Modifier.testTag(bottomNavItemTag(destination.route)),
                         selected = currentRoute == destination.route,
                         onClick = { navigateToTab(destination.route) },
-                        icon = { Icon(destination.icon, contentDescription = destination.label) },
-                        label = { Text(destination.label) },
+                        icon = { Icon(destination.icon, contentDescription = label) },
+                        label = { Text(label) },
                     )
                 }
             }
@@ -195,7 +200,7 @@ fun AppScaffold(
             ALL_DESTINATIONS.forEach { destination ->
                 composable(destination.route) {
                     val content = routeContent[destination.route]
-                        ?: { PlaceholderScreen(title = destination.label) }
+                        ?: { PlaceholderScreen(title = stringResource(destination.labelRes)) }
                     content()
                 }
             }

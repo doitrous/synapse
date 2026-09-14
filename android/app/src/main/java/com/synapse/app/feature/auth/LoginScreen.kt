@@ -14,11 +14,13 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 
 /**
  * Email/password sign-in. Rendered by the auth nav flow ([AuthNavHost]) when
@@ -38,12 +40,12 @@ fun LoginScreen(
             .padding(24.dp),
         verticalArrangement = Arrangement.Center,
     ) {
-        Text(text = "Welcome back", style = MaterialTheme.typography.headlineMedium)
+        Text(text = stringResource(R.string.auth_welcome_back), style = MaterialTheme.typography.headlineMedium)
 
         OutlinedTextField(
             value = uiState.email,
             onValueChange = viewModel::onEmailChange,
-            label = { Text("Email") },
+            label = { Text(stringResource(R.string.common_email)) },
             singleLine = true,
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
             modifier = Modifier
@@ -54,7 +56,7 @@ fun LoginScreen(
         OutlinedTextField(
             value = uiState.password,
             onValueChange = viewModel::onPasswordChange,
-            label = { Text("Password") },
+            label = { Text(stringResource(R.string.common_password)) },
             singleLine = true,
             visualTransformation = PasswordVisualTransformation(),
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
@@ -79,15 +81,15 @@ fun LoginScreen(
                 .fillMaxWidth()
                 .padding(top = 16.dp),
         ) {
-            Text("Sign in")
+            Text(stringResource(R.string.auth_sign_in))
         }
 
         TextButton(onClick = onNavigateToReset) {
-            Text("Forgot password?")
+            Text(stringResource(R.string.auth_forgot_password))
         }
 
         TextButton(onClick = onNavigateToSignup) {
-            Text("Need an account? Sign up")
+            Text(stringResource(R.string.auth_need_account_sign_up))
         }
     }
 }

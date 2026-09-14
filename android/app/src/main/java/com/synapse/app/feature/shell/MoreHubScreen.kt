@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 
 /** Test tag on the More-hub row for [route], so tests can trigger it unambiguously. */
@@ -33,16 +34,17 @@ fun MoreHubScreen(onNavigate: (String) -> Unit, modifier: Modifier = Modifier) {
     Column(modifier = modifier.verticalScroll(rememberScrollState())) {
         MORE_GROUPS.forEach { group ->
             Text(
-                text = group.label,
+                text = stringResource(group.labelRes),
                 style = MaterialTheme.typography.labelLarge,
                 color = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.padding(start = 16.dp, top = 16.dp, bottom = 4.dp),
             )
             group.items.forEach { destination ->
+                val label = stringResource(destination.labelRes)
                 ListItem(
-                    headlineContent = { Text(destination.label) },
+                    headlineContent = { Text(label) },
                     leadingContent = {
-                        Icon(destination.icon, contentDescription = destination.label)
+                        Icon(destination.icon, contentDescription = label)
                     },
                     modifier = Modifier
                         .testTag(moreHubItemTag(destination.route))

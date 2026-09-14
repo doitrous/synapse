@@ -1,5 +1,6 @@
 package com.synapse.app.feature.account
 
+import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -25,10 +26,13 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.MeProfile
 import com.synapse.app.design.ThemeChoice
 
@@ -127,13 +131,13 @@ private fun UnavailableState(onRetry: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
     ) {
-        Text("Your account could not be loaded.", style = MaterialTheme.typography.bodyLarge)
+        Text(stringResource(R.string.account_unavailable_title), style = MaterialTheme.typography.bodyLarge)
         Text(
-            "Check your connection and try again.",
+            stringResource(R.string.common_check_connection),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp),
         )
-        TextButton(onClick = onRetry, modifier = Modifier.padding(top = 12.dp)) { Text("Retry") }
+        TextButton(onClick = onRetry, modifier = Modifier.padding(top = 12.dp)) { Text(stringResource(R.string.common_retry)) }
     }
 }
 
@@ -153,15 +157,15 @@ private fun ContentState(
     onConfirmDelete: () -> Unit,
 ) {
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
-        Text("Account", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.account_title), style = MaterialTheme.typography.titleLarge)
 
-        SectionTitle("Profile")
-        Text(state.profile?.name ?: state.user.email ?: "Signed in", style = MaterialTheme.typography.bodyLarge)
+        SectionTitle(stringResource(R.string.account_section_profile))
+        Text(state.profile?.name ?: state.user.email ?: stringResource(R.string.account_signed_in_fallback), style = MaterialTheme.typography.bodyLarge)
         Text(state.user.email ?: "", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 2.dp))
         EntitlementRow(state)
         HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
 
-        SectionTitle("Study context")
+        SectionTitle(stringResource(R.string.account_section_study_context))
         EnrolmentSection(
             profile = state.profile,
             saving = state.savingEnrolment,
@@ -170,53 +174,53 @@ private fun ContentState(
         )
         HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
 
-        SectionTitle("Preferences")
+        SectionTitle(stringResource(R.string.account_section_preferences))
         ToggleRow(
-            title = "Review reminders",
-            subtitle = "Notices when concepts are due for review.",
+            title = stringResource(R.string.account_review_reminders_title),
+            subtitle = stringResource(R.string.account_review_reminders_subtitle),
             checked = state.prefs.reviewReminders,
             tag = ACCOUNT_REVIEW_REMINDERS_SWITCH_TAG,
             onCheckedChange = onSetReviewReminders,
         )
         ToggleRow(
-            title = "Calendar reminders",
-            subtitle = "Notices before your blocks and sessions.",
+            title = stringResource(R.string.account_calendar_reminders_title),
+            subtitle = stringResource(R.string.account_calendar_reminders_subtitle),
             checked = state.prefs.calendarReminders,
             tag = ACCOUNT_CALENDAR_REMINDERS_SWITCH_TAG,
             onCheckedChange = onSetCalendarReminders,
         )
-        Text("Language", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 12.dp))
+        Text(stringResource(R.string.account_language_label), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 12.dp))
         Text(
-            "Recorded for your other devices — Android doesn't translate its own screens yet.",
+            stringResource(R.string.account_language_note),
             style = MaterialTheme.typography.bodySmall,
         )
         Row(modifier = Modifier.padding(top = 6.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-            listOf("en" to "English", "ar" to "العربية").forEach { (code, label) ->
+            listOf("en" to R.string.account_language_english, "ar" to R.string.account_language_arabic).forEach { (code, labelRes) ->
                 FilterChip(
                     selected = state.language == code,
                     onClick = { onSetLanguage(code) },
-                    label = { Text(label) },
+                    label = { Text(stringResource(labelRes)) },
                     modifier = Modifier.testTag(accountLanguageChipTag(code)),
                 )
             }
         }
-        Text("Theme", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 16.dp))
+        Text(stringResource(R.string.account_theme_label), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 16.dp))
         Row(modifier = Modifier.padding(top = 6.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             ThemeChoice.entries.forEach { choice ->
                 FilterChip(
                     selected = theme == choice,
                     onClick = { onSetTheme(choice) },
-                    label = { Text(choice.name) },
+                    label = { Text(stringResource(choice.labelRes())) },
                     modifier = Modifier.testTag(accountThemeChipTag(choice)),
                 )
             }
         }
         HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
 
-        SectionTitle("Privacy and data")
+        SectionTitle(stringResource(R.string.account_section_privacy_data))
         ToggleRow(
-            title = "Let classmates find me",
-            subtitle = "Off by default. Appears in, and can browse, your same-university-and-year classmate directory.",
+            title = stringResource(R.string.account_discoverable_title),
+            subtitle = stringResource(R.string.account_discoverable_subtitle),
             checked = state.discoverable,
             tag = ACCOUNT_DISCOVERABLE_SWITCH_TAG,
             onCheckedChange = onSetDiscoverable,
@@ -224,14 +228,22 @@ private fun ContentState(
         ExportSection(state.export, onRequestExport)
         HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
 
-        SectionTitle("This session")
-        Text(state.user.email ?: "Signed in", style = MaterialTheme.typography.bodyMedium)
-        TextButton(onClick = onSignOut, modifier = Modifier.padding(top = 8.dp).testTag(ACCOUNT_SIGN_OUT_BUTTON_TAG)) { Text("Sign out") }
+        SectionTitle(stringResource(R.string.account_section_this_session))
+        Text(state.user.email ?: stringResource(R.string.account_signed_in_fallback), style = MaterialTheme.typography.bodyMedium)
+        TextButton(onClick = onSignOut, modifier = Modifier.padding(top = 8.dp).testTag(ACCOUNT_SIGN_OUT_BUTTON_TAG)) { Text(stringResource(R.string.account_sign_out)) }
         HorizontalDivider(modifier = Modifier.padding(vertical = 16.dp))
 
-        SectionTitle("Delete account")
+        SectionTitle(stringResource(R.string.account_section_delete))
         DeleteAccountSection(state.deletion, onDeletionTypedChange, onConfirmDelete)
     }
+}
+
+/** Display name for [ThemeChoice], shown on the Account theme chips. */
+@StringRes
+private fun ThemeChoice.labelRes(): Int = when (this) {
+    ThemeChoice.Light -> R.string.theme_light
+    ThemeChoice.Warm -> R.string.theme_warm
+    ThemeChoice.Dark -> R.string.theme_dark
 }
 
 @Composable
@@ -242,9 +254,11 @@ private fun SectionTitle(text: String) {
 @Composable
 private fun EntitlementRow(state: AccountUiState.Content) {
     val entitlement = state.entitlement
+    val resources = LocalContext.current.resources
     val text = when {
-        entitlement == null || entitlement.state.isNullOrEmpty() -> "No plan on record"
-        entitlement.state == "trialing" && entitlement.daysLeft != null -> "Trial · ${entitlement.daysLeft} day${if (entitlement.daysLeft == 1) "" else "s"} left"
+        entitlement == null || entitlement.state.isNullOrEmpty() -> stringResource(R.string.account_no_plan)
+        entitlement.state == "trialing" && entitlement.daysLeft != null ->
+            resources.getQuantityString(R.plurals.account_trial_days_left, entitlement.daysLeft, entitlement.daysLeft)
         else -> "${entitlement.plan ?: entitlement.state}"
     }
     Text(text, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 6.dp))
@@ -261,13 +275,13 @@ private fun EnrolmentSection(
 
     if (enrolled) {
         Text("${profile?.universityId} · ${profile?.year}", style = MaterialTheme.typography.bodyLarge)
-        Text("Locked after onboarding", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 2.dp))
+        Text(stringResource(R.string.account_enrolment_locked), style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 2.dp))
         var group by rememberSaveable(profile?.group) { mutableStateOf(profile?.group.orEmpty()) }
         Row(modifier = Modifier.fillMaxWidth().padding(top = 12.dp), verticalAlignment = Alignment.CenterVertically) {
             OutlinedTextField(
                 value = group,
                 onValueChange = { group = it },
-                label = { Text("Group") },
+                label = { Text(stringResource(R.string.account_group_field_label)) },
                 singleLine = true,
                 modifier = Modifier.weight(1f).testTag(ACCOUNT_GROUP_FIELD_TAG),
             )
@@ -275,34 +289,34 @@ private fun EnrolmentSection(
                 onClick = { onSave(profile!!.universityId!!, profile.year!!, group.trim()) },
                 enabled = !saving,
                 modifier = Modifier.padding(start = 8.dp).testTag(ACCOUNT_SAVE_ENROLMENT_BUTTON_TAG),
-            ) { Text(if (saving) "Saving…" else "Save") }
+            ) { Text(stringResource(if (saving) R.string.common_saving else R.string.common_save)) }
         }
     } else {
         var universityId by rememberSaveable { mutableStateOf("") }
         var year by rememberSaveable { mutableStateOf("") }
         var group by rememberSaveable { mutableStateOf("") }
         Text(
-            "Your university hasn't set up your profile yet. Enter it yourself to unlock scoped content.",
+            stringResource(R.string.account_enrolment_prompt),
             style = MaterialTheme.typography.bodyMedium,
         )
         OutlinedTextField(
             value = universityId,
             onValueChange = { universityId = it },
-            label = { Text("University id") },
+            label = { Text(stringResource(R.string.account_university_id_label)) },
             singleLine = true,
             modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(ACCOUNT_UNIVERSITY_FIELD_TAG),
         )
         OutlinedTextField(
             value = year,
             onValueChange = { year = it },
-            label = { Text("Year, e.g. Year 3") },
+            label = { Text(stringResource(R.string.account_year_label)) },
             singleLine = true,
             modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(ACCOUNT_YEAR_FIELD_TAG),
         )
         OutlinedTextField(
             value = group,
             onValueChange = { group = it },
-            label = { Text("Group (optional)") },
+            label = { Text(stringResource(R.string.account_group_optional_label)) },
             singleLine = true,
             modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(ACCOUNT_GROUP_FIELD_TAG),
         )
@@ -310,7 +324,7 @@ private fun EnrolmentSection(
             onClick = { onSave(universityId.trim(), year.trim(), group.trim().ifEmpty { null }) },
             enabled = !saving && universityId.isNotBlank() && year.isNotBlank(),
             modifier = Modifier.padding(top = 12.dp).testTag(ACCOUNT_SAVE_ENROLMENT_BUTTON_TAG),
-        ) { Text(if (saving) "Saving…" else "Save") }
+        ) { Text(stringResource(if (saving) R.string.common_saving else R.string.common_save)) }
     }
 
     if (error != null) {
@@ -340,15 +354,15 @@ private fun ExportSection(export: ExportUiState, onRequestExport: () -> Unit) {
             onClick = onRequestExport,
             enabled = export !is ExportUiState.Loading,
             modifier = Modifier.testTag(ACCOUNT_EXPORT_BUTTON_TAG),
-        ) { Text("Download my data") }
+        ) { Text(stringResource(R.string.account_download_my_data)) }
         when (export) {
             is ExportUiState.Ready -> Text(
-                "Export ready (${export.sizeBytes} bytes). Saving it to a file isn't wired up on Android yet.",
+                stringResource(R.string.account_export_ready, export.sizeBytes),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 6.dp),
             )
             ExportUiState.Unavailable -> Text(
-                "Your data couldn't be exported right now. Try again in a moment.",
+                stringResource(R.string.account_export_unavailable),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.error,
                 modifier = Modifier.padding(top = 6.dp),
@@ -367,13 +381,13 @@ private fun ExportSection(export: ExportUiState, onRequestExport: () -> Unit) {
 @Composable
 private fun DeleteAccountSection(state: DeletionUiState, onTypedChange: (String) -> Unit, onConfirm: () -> Unit) {
     Text(
-        "This cannot be undone. Deleting your account removes your notes, whiteboards, study plan and your whole answer history — support cannot recover any of it afterwards. Your account on the website is the same account, so it is deleted too.",
+        stringResource(R.string.account_delete_warning),
         style = MaterialTheme.typography.bodyMedium,
     )
     OutlinedTextField(
         value = state.typed,
         onValueChange = onTypedChange,
-        label = { Text("Type DELETE to confirm") },
+        label = { Text(stringResource(R.string.account_delete_confirm_label)) },
         singleLine = true,
         enabled = !state.isDeleting,
         modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(ACCOUNT_DELETE_CONFIRM_FIELD_TAG),
@@ -386,5 +400,5 @@ private fun DeleteAccountSection(state: DeletionUiState, onTypedChange: (String)
         enabled = state.canDelete,
         colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error),
         modifier = Modifier.padding(top = 12.dp).testTag(ACCOUNT_DELETE_BUTTON_TAG),
-    ) { Text(if (state.isDeleting) "Deleting…" else "Delete my account") }
+    ) { Text(stringResource(if (state.isDeleting) R.string.account_deleting else R.string.account_delete_button)) }
 }
