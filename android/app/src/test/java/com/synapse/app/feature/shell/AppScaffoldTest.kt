@@ -42,6 +42,7 @@ class AppScaffoldTest {
                     qbankContent = { Text("QBankStandIn") },
                     flashcardsContent = { Text("FlashcardsStandIn") },
                     libraryContent = { Text("LibraryStandIn") },
+                    taxonomyContent = { Text("TaxonomyStandIn") },
                 )
             }
         }
@@ -114,6 +115,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Calendar")
         composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingMedicalTaxonomyInTheMoreHubRendersTaxonomyContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("taxonomy")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Medical Taxonomy")
+        composeTestRule.onNodeWithText("TaxonomyStandIn").assertIsDisplayed()
     }
 
     @Test
