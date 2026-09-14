@@ -157,6 +157,12 @@ final class ResourceModel {
             bookmarks = Set(remote.value ?? [])
             bookmarksLoaded = true
             bookmarkProblem = nil
+        } catch APIError.notFound {
+            // Never written yet — for a new student the doc genuinely is empty,
+            // and empty is safe to write onto. (A missing user-state key 404s.)
+            bookmarks = []
+            bookmarksLoaded = true
+            bookmarkProblem = nil
         } catch {
             bookmarkProblem = "Your saved list could not be loaded, so saving is off until it can."
         }

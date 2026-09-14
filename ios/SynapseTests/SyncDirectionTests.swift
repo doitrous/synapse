@@ -82,6 +82,32 @@ struct SyncDirectionTests {
             #expect(writes.value == 0, "a write here would replace the student's list with one item")
             #expect(model.bookmarkProblem != nil, "and it must say so rather than ignoring the tap")
         }
+
+        /// A brand-new account has never written the bookmarks doc, so the read
+        /// 404s. That is genuinely empty and safe to write onto — treating it as
+        /// a failure would leave saving permanently off for every new student.
+        @Test("a never-written list 404s as empty, and saving still works")
+        func emptyListFromNotFound() async throws {
+            let uploaded = Box<[String]>([])
+            let server = StubServer { request in
+                if request.httpMethod == "PUT" { uploaded.value.append(request.stubBodyText) }
+                if request.httpMethod == "GET" { return .init(status: 404, body: Data("{}".utf8)) }
+                return .init(body: Data("{\"ok\":true}".utf8))
+            }
+            defer { server.finish() }
+
+            let store = try LocalStore(path: nil)
+            let model = ResourceModel(store: store, sync: SyncEngine(api: server.api, store: store), api: server.api)
+
+            await model.loadBookmarks()
+            #expect(model.bookmarks.isEmpty)
+            #expect(model.bookmarksLoaded, "404 means genuinely empty, not unread")
+            #expect(model.bookmarkProblem == nil)
+
+            await model.toggleBookmark("src_a")
+            #expect(model.bookmarks == ["src_a"])
+            #expect(uploaded.value.last?.contains("src_a") == true, "a fresh account's first save must reach the server")
+        }
     }
 
     // MARK: - Attempts
