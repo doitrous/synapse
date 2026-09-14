@@ -34,6 +34,25 @@ export function invalidateAdminContent(key) {
   if (key === LEDGER_KEY) snapshot = null
 }
 
+/**
+ * The list projection: an item with its heaviest content dropped. The Content
+ * dashboard renders lists, counts and facets from these, and its editor pickers
+ * read them too — none of which touch the fields removed here (verified against
+ * the search string, the row, `itemFacetTokens`, `itemScope` and `contentOptions`).
+ * Scope and placement live OUTSIDE these fields (e.g. `questionData.tags`), so
+ * they survive. The editor fetches the full item on open; this never feeds a save.
+ */
+const omit = (obj, keys) => { const out = { ...obj }; for (const key of keys) delete out[key]; return out }
+
+export function toIndexItem(item) {
+  if (!item || typeof item !== 'object') return item
+  const out = { ...item }
+  if (out.questionData && typeof out.questionData === 'object') out.questionData = omit(out.questionData, ['stem', 'answers'])
+  if (out.articleData && typeof out.articleData === 'object') out.articleData = omit(out.articleData, ['sections'])
+  if (out.deckData && typeof out.deckData === 'object') out.deckData = omit(out.deckData, ['cards'])
+  return out
+}
+
 function build(signature, ledger) {
   const items = Array.isArray(ledger) ? ledger : []
   const byId = new Map()
@@ -45,7 +64,9 @@ function build(signature, ledger) {
     byKind.get(kind).push(item)
     if (item.id) byId.set(String(item.id), item)
   }
-  return { signature, items, byId, byKind, summary: countsFor(items) }
+  // Projected once per ledger version (this snapshot is memoised by signature).
+  const indexItems = items.map(toIndexItem)
+  return { signature, items, indexItems, byId, byKind, summary: countsFor(items) }
 }
 
 export async function loadAdminContent() {
@@ -124,6 +145,28 @@ export async function adminEscalationsHandler(req, res) {
   return sendVersioned(req, res, content.signature, { items })
 }
 
+/**
+ * Every item, list-projected (heavy bodies dropped). The Content dashboard's
+ * whole catalogue in one versioned read, without the article bodies and answer
+ * banks it never shows in a list.
+ */
+export async function adminContentIndexHandler(req, res) {
+  const content = await loadAdminContent()
+  return sendVersioned(req, res, content.signature, { items: content.indexItems })
+}
+
+/**
+ * The FULL items for a set of ids — what an editor needs to open, and what a
+ * bulk or rename write needs as its per-item `before`. POST because the id list
+ * can be long. Missing ids are simply absent from the result.
+ */
+export async function adminContentItemsHandler(req, res) {
+  const content = await loadAdminContent()
+  const ids = Array.isArray(req.body?.ids) ? req.body.ids : []
+  const items = ids.map((id) => content.byId.get(String(id))).filter(Boolean)
+  return res.json({ version: content.signature, items })
+}
+
 const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
   console.error(error)
   res.status(500).json({ error: error.message || 'server error' })
@@ -133,4 +176,6 @@ export function registerAdminContentRoutes(app) {
   app.get('/api/admin/content/item/:id', requireConsole, wrap(adminItemHandler))
   app.get('/api/admin/content/article-index', requireConsole, wrap(adminArticleIndexHandler))
   app.get('/api/admin/content/escalations', requireConsole, wrap(adminEscalationsHandler))
+  app.get('/api/admin/content/index', requireConsole, wrap(adminContentIndexHandler))
+  app.post('/api/admin/content/items', requireConsole, wrap(adminContentItemsHandler))
 }
