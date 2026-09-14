@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/shares — localized strings for the Shares / My Documents surface (EN/AR). -->
+
+    <!-- Tab labels, reused for the section titles above each pane. -->
+    <string name="shares_tab_my_documents">My Documents</string>
+    <string name="shares_tab_shares">Shares</string>
+
+    <!-- Shared across both panes. -->
+    <string name="shares_cancel">Cancel</string>
+    <string name="shares_back_description">Back</string>
+    <string name="shares_close">Close</string>
+
+    <!-- Share kind / access labels — the wire values (ShareKind/ShareAccess
+         constants) stay in English; these are only the display labels. -->
+    <string name="shares_kind_note">Note</string>
+    <string name="shares_kind_whiteboard">Board</string>
+    <string name="shares_access_private">Private</string>
+    <string name="shares_access_view">View</string>
+    <string name="shares_access_edit">Edit</string>
+
+    <!-- My Documents pane. -->
+    <string name="shares_quota_used_format">%1$s of %2$s used</string>
+    <string name="shares_upload">Upload</string>
+    <string name="shares_documents_empty">Nothing uploaded yet.</string>
+    <string name="shares_rename">Rename</string>
+    <string name="shares_delete_description">Delete</string>
+    <string name="shares_media_type_fallback">file</string>
+    <string name="shares_document_meta_format">%1$s · %2$s</string>
+    <string name="shares_bytes_mb_format">%1$s MB</string>
+    <string name="shares_bytes_kb_format">%1$s KB</string>
+    <string name="shares_bytes_b_format">%1$d B</string>
+
+    <!-- My Documents reader. -->
+    <string name="shares_document_fallback_title">Document</string>
+    <string name="shares_remove_download_description">Remove download</string>
+    <string name="shares_downloading">Downloading…</string>
+    <string name="shares_reader_unsupported_file_type">This file type isn\'t supported in the reader yet — it has been downloaded to the app\'s storage.</string>
+    <string name="shares_reader_not_a_pdf">This document could not be opened as a PDF.</string>
+    <string name="shares_previous">Previous</string>
+    <string name="shares_next">Next</string>
+    <string name="shares_page_progress_format">%1$d of %2$d</string>
+    <string name="shares_pdf_page_description">Page</string>
+    <string name="shares_document_open_failed">That file could not be opened. It may still be uploading.</string>
+
+    <!-- Shares pane. -->
+    <string name="shares_new_share">New share</string>
+    <string name="shares_mine">Mine</string>
+    <string name="shares_discover">Discover</string>
+    <string name="shares_mine_empty">You haven\'t shared anything yet.</string>
+    <string name="shares_discover_empty">Nothing shared with your cohort yet.</string>
+    <string name="shares_owner_by_format">by %1$s</string>
+    <string name="shares_starred_description">Starred</string>
+    <string name="shares_star_description">Star</string>
+    <string name="shares_following">Following</string>
+    <string name="shares_follow">Follow</string>
+    <string name="shares_delete_share_description">Delete share</string>
+
+    <!-- Publish (share one of your things) dialog. -->
+    <string name="shares_publish_dialog_title">Share one of your things</string>
+    <string name="shares_access_label">Access</string>
+    <string name="shares_publish_empty">Nothing to share yet — write a note or start a board first.</string>
+    <string name="shares_untitled_note">Untitled note</string>
+
+    <!-- Shared-document reader. -->
+    <string name="shares_shared_item_fallback">Shared item</string>
+    <string name="shares_shared_item_open_failed">This shared item could not be opened. It may have been withdrawn.</string>
+    <string name="shares_image_fallback">Image</string>
+    <string name="shares_empty_note_fallback">Empty note</string>
+
+    <!-- Load / action failures (shown together with common_check_connection). -->
+    <string name="shares_load_failed">Your documents and shares could not be loaded.</string>
+    <string name="shares_action_failed">That could not be completed.</string>
+</resources>

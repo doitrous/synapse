@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/shares — Arabic strings. "My Documents" mirrors the Android
+         shell's own nav_my_documents ("مستنداتي"); Previous/Next/Cancel/Back/
+         Delete mirror feature/qbank's terms for the same actions. -->
+
+    <!-- Tab labels, reused for the section titles above each pane. -->
+    <string name="shares_tab_my_documents">مستنداتي</string>
+    <string name="shares_tab_shares">المشاركات</string>
+
+    <!-- Shared across both panes. -->
+    <string name="shares_cancel">إلغاء</string>
+    <string name="shares_back_description">رجوع</string>
+    <string name="shares_close">إغلاق</string>
+
+    <!-- Share kind / access labels — the wire values (ShareKind/ShareAccess
+         constants) stay in English; these are only the display labels. -->
+    <string name="shares_kind_note">ملاحظة</string>
+    <string name="shares_kind_whiteboard">لوحة</string>
+    <string name="shares_access_private">خاص</string>
+    <string name="shares_access_view">عرض</string>
+    <string name="shares_access_edit">تعديل</string>
+
+    <!-- My Documents pane. -->
+    <string name="shares_quota_used_format">%1$s من %2$s مُستخدَم</string>
+    <string name="shares_upload">رفع</string>
+    <string name="shares_documents_empty">لم تُرفع أي مستندات بعد.</string>
+    <string name="shares_rename">إعادة تسمية</string>
+    <string name="shares_delete_description">حذف</string>
+    <string name="shares_media_type_fallback">ملف</string>
+    <string name="shares_document_meta_format">%1$s · %2$s</string>
+    <string name="shares_bytes_mb_format">%1$s ميجابايت</string>
+    <string name="shares_bytes_kb_format">%1$s كيلوبايت</string>
+    <string name="shares_bytes_b_format">%1$d بايت</string>
+
+    <!-- My Documents reader. -->
+    <string name="shares_document_fallback_title">مستند</string>
+    <string name="shares_remove_download_description">إزالة التنزيل</string>
+    <string name="shares_downloading">جارٍ التنزيل…</string>
+    <string name="shares_reader_unsupported_file_type">هذا النوع من الملفات غير مدعوم في العارض بعد — تم تنزيله إلى تخزين التطبيق.</string>
+    <string name="shares_reader_not_a_pdf">تعذّر فتح هذا المستند كملف PDF.</string>
+    <string name="shares_previous">السابق</string>
+    <string name="shares_next">التالي</string>
+    <string name="shares_page_progress_format">%1$d من %2$d</string>
+    <string name="shares_pdf_page_description">صفحة</string>
+    <string name="shares_document_open_failed">تعذّر فتح هذا الملف. قد يكون لا يزال قيد الرفع.</string>
+
+    <!-- Shares pane. -->
+    <string name="shares_new_share">مشاركة جديدة</string>
+    <string name="shares_mine">الخاصة بي</string>
+    <string name="shares_discover">استكشاف</string>
+    <string name="shares_mine_empty">لم تشارك أي شيء بعد.</string>
+    <string name="shares_discover_empty">لا يوجد أي شيء مُشارَك مع مجموعتك بعد.</string>
+    <string name="shares_owner_by_format">بواسطة %1$s</string>
+    <string name="shares_starred_description">في المفضلة</string>
+    <string name="shares_star_description">إضافة إلى المفضلة</string>
+    <string name="shares_following">متابَع</string>
+    <string name="shares_follow">متابعة</string>
+    <string name="shares_delete_share_description">حذف المشاركة</string>
+
+    <!-- Publish (share one of your things) dialog. -->
+    <string name="shares_publish_dialog_title">شارك أحد أعمالك</string>
+    <string name="shares_access_label">الصلاحية</string>
+    <string name="shares_publish_empty">لا يوجد ما تشاركه بعد — اكتب ملاحظة أو ابدأ لوحة أولًا.</string>
+    <string name="shares_untitled_note">ملاحظة بلا عنوان</string>
+
+    <!-- Shared-document reader. -->
+    <string name="shares_shared_item_fallback">عنصر مُشارَك</string>
+    <string name="shares_shared_item_open_failed">تعذّر فتح هذا العنصر المُشارَك. ربما تم سحبه.</string>
+    <string name="shares_image_fallback">صورة</string>
+    <string name="shares_empty_note_fallback">ملاحظة فارغة</string>
+
+    <!-- Load / action failures (shown together with common_check_connection). -->
+    <string name="shares_load_failed">تعذّر تحميل مستنداتك ومشاركاتك.</string>
+    <string name="shares_action_failed">تعذّر إتمام ذلك.</string>
+</resources>

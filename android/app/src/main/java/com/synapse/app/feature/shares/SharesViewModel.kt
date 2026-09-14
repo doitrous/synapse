@@ -1,7 +1,9 @@
 package com.synapse.app.feature.shares
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.MyDocument
 import com.synapse.app.core.api.ShareDetail
 import com.synapse.app.core.api.ShareSummary
@@ -42,8 +44,8 @@ sealed interface SharesUiState {
         val shareIndex: Map<String, String> = emptyMap(),
         val documentReader: DocumentReaderState = DocumentReaderState.Closed,
         val sharedReader: SharedReaderState = SharedReaderState.Closed,
-        /** Set once, on the load or refresh that failed; cleared by the next successful one. */
-        val error: String? = null,
+        /** Set once, on the load or refresh that failed; cleared by the next successful one. Resolved at the composable, alongside `common_check_connection`. */
+        @StringRes val error: Int? = null,
     ) : SharesUiState
 }
 
@@ -52,7 +54,7 @@ sealed interface DocumentReaderState {
     data object Closed : DocumentReaderState
     data class Downloading(val documentId: String) : DocumentReaderState
     data class Ready(val documentId: String, val file: File, val mediaType: String) : DocumentReaderState
-    data class Failed(val documentId: String, val message: String) : DocumentReaderState
+    data class Failed(val documentId: String, @StringRes val message: Int) : DocumentReaderState
 }
 
 /** A shared document (opened by id, from either share list) being read. */
@@ -61,11 +63,8 @@ sealed interface SharedReaderState {
     data class Loading(val shareId: String) : SharedReaderState
     data class NoteReady(val share: ShareDetail, val text: String) : SharedReaderState
     data class BoardReady(val share: ShareDetail, val board: BoardState) : SharedReaderState
-    data class Failed(val shareId: String, val message: String) : SharedReaderState
+    data class Failed(val shareId: String, @StringRes val message: Int) : SharedReaderState
 }
-
-private const val LOAD_FAILURE = "Your documents and shares could not be loaded. Check your connection and try again."
-private const val ACTION_FAILURE = "That could not be completed. Check your connection and try again."
 
 /**
  * Drives [SharesRoute]: My Documents (list/rename/delete/download-and-open,
@@ -126,7 +125,7 @@ class SharesViewModel @Inject constructor(
         throw e
     } catch (e: Exception) {
         val current = _uiState.value as? SharesUiState.Content
-        current?.copy(error = LOAD_FAILURE) ?: SharesUiState.Content(error = LOAD_FAILURE)
+        current?.copy(error = R.string.shares_load_failed) ?: SharesUiState.Content(error = R.string.shares_load_failed)
     }
 
     private fun refresh() {
@@ -163,7 +162,7 @@ class SharesViewModel @Inject constructor(
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
-                setDocumentReader(DocumentReaderState.Failed(document.id, "That file could not be opened. It may still be uploading."))
+                setDocumentReader(DocumentReaderState.Failed(document.id, R.string.shares_document_open_failed))
             }
         }
     }
@@ -245,7 +244,7 @@ class SharesViewModel @Inject constructor(
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
-                setSharedReader(SharedReaderState.Failed(shareId, "This shared item could not be opened. It may have been withdrawn."))
+                setSharedReader(SharedReaderState.Failed(shareId, R.string.shares_shared_item_open_failed))
             }
         }
     }
@@ -261,7 +260,7 @@ class SharesViewModel @Inject constructor(
             throw e
         } catch (e: Exception) {
             val current = _uiState.value as? SharesUiState.Content ?: return
-            _uiState.value = current.copy(error = ACTION_FAILURE)
+            _uiState.value = current.copy(error = R.string.shares_action_failed)
         }
     }
 
