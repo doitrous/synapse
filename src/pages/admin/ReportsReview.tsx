@@ -30,10 +30,8 @@ import {
   type ReportContentKind,
   type ReportStatus,
 } from '@/data/contentReports'
-import {
-  CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
-  type ManagedContentItem,
-} from '@/data/contentControl'
+import { type ManagedContentItem } from '@/data/contentControl'
+import { useAdminItem } from '@/lib/content/adminContentClient'
 import { StudentFaithfulPreview } from '@/components/review/StudentFaithfulPreview'
 import { reporterRoleLabel } from '@/components/reports/reportRoleLabel'
 import { deletionConfirmed } from '@/components/reports/reportDeleteConfirmation'
@@ -117,7 +115,6 @@ export function ReportsReview() {
   const canDecide = identity.rank >= 2
 
   const [reports, setReports, reportsStatus] = usePersistentState<ContentReport[]>(REPORT_STORAGE_KEY, initialContentReports)
-  const [ledger, , ledgerStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
 
   const [selectedId, setSelectedId] = useState('')
   const [noteDraft, setNoteDraft] = useState('')
@@ -174,12 +171,10 @@ export function ReportsReview() {
 
   useEffect(() => { setNoteDraft('') }, [selected?.id])
 
-  const previewItem = useMemo(
-    () => (selected ? ledger.find((item) => item.id === selected.contentId) ?? null : null),
-    [ledger, selected],
-  )
+  // Just the one item this report points at, not the whole ledger.
+  const { item: previewItem, loading: previewLoading, error: previewError } = useAdminItem(selected?.contentId)
   const previewAvailability = catalogueAvailability({
-    statuses: [{ hydrated: ledgerStatus.hydrated, error: ledgerStatus.error }],
+    statuses: [{ hydrated: !previewLoading, error: previewError }],
     itemCount: previewItem ? 1 : 0,
   })
 

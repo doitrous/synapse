@@ -16,6 +16,7 @@ import { MEDIA_STATE_KEY, isMediaReleased, storageKeyFor } from './mediaLibrary.
 import { hasConsoleAccess } from './roles.js'
 import { invalidatePublishedQuestions } from './publishedQuestions.js'
 import { invalidateStudentContent } from './studentContent.js'
+import { invalidateAdminContent } from './adminContent.js'
 import { resolveUploadWorkspace, resolveWithin } from './uploads.js'
 import {
   MEDIA_STORAGE_DIR, MEDIA_TYPE_MAX_BYTES, MEDIA_UPLOAD_MAX_AGE_HOURS,
@@ -40,6 +41,7 @@ export function invalidateSnapshots(key) {
   if (key === MEDIA_STATE_KEY) mediaSnapshot = null
   invalidatePublishedQuestions(key)
   invalidateStudentContent(key)
+  invalidateAdminContent(key)
 }
 
 /**

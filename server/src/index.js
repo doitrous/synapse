@@ -34,6 +34,7 @@ import { resolvePartyId, roomSnapshot } from './parties.js'
 import { setMailer } from './qotdReminderEmail.js'
 import { startQotdReminderScheduler } from './qotdReminders.js'
 import { registerContentRoutes } from './studentContent.js'
+import { registerAdminContentRoutes } from './adminContent.js'
 import { registerPublicRoutes } from './routes/public.js'
 import { registerSeo, store } from './seo.js'
 import { registerAuthRoutes } from './routes/auth.js'
@@ -174,6 +175,7 @@ registerStateDocumentRoutes(app)
  * in `studentContent.js`; this is only where they are mounted.
  */
 registerContentRoutes(app)
+registerAdminContentRoutes(app)
 registerContentReportRoutes(app)
 registerMcqValidationRoutes(app)
 registerUserStateRoutes(app)
