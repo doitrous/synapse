@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/practical — localized strings for the OSCE/Clinical cases/Skills surface (EN/AR).
+         Case, station, and skill titles/content come from the shared admin content ledger
+         (see PracticalRepository/PracticalProjection) and are synced content — never localized. -->
+
+    <string name="practical_title">Practical</string>
+    <string name="practical_loading">Loading…</string>
+
+    <!-- Tabs (PracticalTab). Only OSCE/Clinical cases/Skills are implemented on Android today;
+         see PracticalScreen's top-level doc comment for what is deferred and why. -->
+    <string name="practical_tab_osce">OSCE stations</string>
+    <string name="practical_tab_cases">Clinical cases</string>
+    <string name="practical_tab_skills">Skills</string>
+
+    <!-- Empty states. -->
+    <string name="practical_osce_empty">No OSCE stations have been published for you yet.</string>
+    <string name="practical_cases_empty">No clinical cases have been published for you yet.</string>
+    <string name="practical_skills_empty">The skills checklist appears here once it has been published.</string>
+
+    <!-- Shared meta fragments (row + runner header), joined with a plain " · " in code. -->
+    <string name="practical_minutes_format">%1$d min</string>
+    <string name="practical_minutes_unknown">\? min</string>
+
+    <plurals name="practical_marks">
+        <item quantity="one">%1$d mark</item>
+        <item quantity="other">%1$d marks</item>
+    </plurals>
+
+    <plurals name="practical_steps">
+        <item quantity="one">%1$d step</item>
+        <item quantity="other">%1$d steps</item>
+    </plurals>
+
+    <plurals name="practical_attempts">
+        <item quantity="one">%1$d attempt</item>
+        <item quantity="other">%1$d attempts</item>
+    </plurals>
+
+    <!-- Standing (best score / attempted-or-not / case progress / skill status). -->
+    <string name="practical_best_score_format">Best %1$d/%2$d</string>
+    <string name="practical_not_attempted">Not attempted</string>
+    <string name="practical_not_started">Not started</string>
+    <string name="practical_case_completed">Completed</string>
+    <string name="practical_case_progress_format">Got to %1$d of %2$d</string>
+    <string name="practical_skill_practised">Practised</string>
+    <string name="practical_skill_ready">Ready</string>
+
+    <!-- RunnerPane. -->
+    <string name="practical_back">Back</string>
+    <string name="practical_candidate_instructions_title">Your instructions</string>
+    <string name="practical_decision_default_title">Decision</string>
+    <string name="practical_question_section_title">Question</string>
+    <string name="practical_mark_scheme_title">Mark scheme</string>
+    <string name="practical_ticked_count_format">%1$d of %2$d ticked</string>
+    <string name="practical_debrief_title">Debrief</string>
+    <string name="practical_reveal_answers">Show the answers</string>
+    <string name="practical_answers_shown">Answers shown</string>
+    <string name="practical_references_title">References</string>
+</resources>
