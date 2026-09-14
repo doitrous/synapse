@@ -13,4 +13,5 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.library.read",
     "synapse.library.personalTags",
     "synapse.bookmarks.resources.v1",
+    "synapse.practical.progress.v1",
 )
