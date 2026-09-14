@@ -21,7 +21,7 @@ import org.junit.Test
 import java.io.IOException
 import java.time.Instant
 
-/** A fixed instant so [DashboardState.lastSyncedLabel] is deterministic. */
+/** A fixed instant so [DashboardState.lastSyncedAt] is deterministic. */
 private val NOW: Instant = Instant.parse("2026-08-29T12:00:00Z")
 
 /**
@@ -39,7 +39,7 @@ class DashboardRepositoryTest {
         val state = repository.refresh(NOW)
 
         assertTrue(state.syncedOk)
-        assertEquals("Synced Aug 29, 12:00 UTC", state.lastSyncedLabel)
+        assertEquals("Aug 29, 12:00 UTC", state.lastSyncedAt)
     }
 
     @Test fun aNetworkFailureDuringSyncReturnsAnOfflineStateInsteadOfThrowing() = runTest {
@@ -54,7 +54,7 @@ class DashboardRepositoryTest {
         val state = repository.refresh(NOW)
 
         assertFalse(state.syncedOk)
-        assertNull(state.lastSyncedLabel)
+        assertNull(state.lastSyncedAt)
     }
 
     @Test fun greetingNameIsReadFromTheProfileCatalogueWhenPresent() = runTest {

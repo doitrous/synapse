@@ -27,13 +27,14 @@ private val SYNCED_LABEL_FORMATTER: DateTimeFormatter =
 
 /**
  * What the Dashboard renders: whether the last [DashboardRepository.refresh] reached the
- * network ([syncedOk]), a human-readable "last synced" label when it did
- * ([lastSyncedLabel]), and a greeting name read from [PROFILE_CATALOGUE_KEY] when that
- * catalogue doc happens to be present locally ([greetingName]).
+ * network ([syncedOk]), a formatted "last synced" timestamp when it did ([lastSyncedAt] —
+ * plain data, not a user-facing sentence; the screen wraps it in a localized template), and
+ * a greeting name read from [PROFILE_CATALOGUE_KEY] when that catalogue doc happens to be
+ * present locally ([greetingName]).
  */
 data class DashboardState(
     val syncedOk: Boolean,
-    val lastSyncedLabel: String? = null,
+    val lastSyncedAt: String? = null,
     val greetingName: String? = null,
 )
 
@@ -55,7 +56,7 @@ class DashboardRepository @Inject constructor(
         syncEngine.refresh(now)
         DashboardState(
             syncedOk = true,
-            lastSyncedLabel = "Synced ${SYNCED_LABEL_FORMATTER.format(now)}",
+            lastSyncedAt = SYNCED_LABEL_FORMATTER.format(now),
             greetingName = readGreetingName(),
         )
     } catch (e: CancellationException) {

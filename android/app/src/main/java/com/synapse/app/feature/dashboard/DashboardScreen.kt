@@ -16,9 +16,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 
 /** Test tag on the sync-status chip, so tests can read its label unambiguously. */
 const val SYNC_STATUS_CHIP_TAG = "dashboard_sync_status_chip"
@@ -40,7 +42,11 @@ fun DashboardScreen(viewModel: DashboardViewModel = hiltViewModel()) {
 @Composable
 private fun DashboardContent(uiState: DashboardUiState, onSyncNow: () -> Unit) {
     val greetingName = (uiState as? DashboardUiState.Content)?.state?.greetingName
-    val greeting = if (greetingName != null) "Welcome back, $greetingName" else "Welcome back"
+    val greeting = if (greetingName != null) {
+        stringResource(R.string.dashboard_greeting_with_name, greetingName)
+    } else {
+        stringResource(R.string.dashboard_greeting_default)
+    }
 
     Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
         Text(text = greeting, style = MaterialTheme.typography.titleLarge)
@@ -52,19 +58,19 @@ private fun DashboardContent(uiState: DashboardUiState, onSyncNow: () -> Unit) {
         ) {
             SyncStatusChip(uiState)
             Button(onClick = onSyncNow, modifier = Modifier.testTag(SYNC_NOW_BUTTON_TAG)) {
-                Text("Sync now")
+                Text(stringResource(R.string.dashboard_sync_now))
             }
         }
 
         EmptyStateCard(
-            title = "Due reviews",
-            body = "Nothing due yet — this fills in once your review schedule is set up.",
+            title = stringResource(R.string.dashboard_due_reviews_title),
+            body = stringResource(R.string.dashboard_due_reviews_body),
             modifier = Modifier.padding(top = 24.dp),
         )
 
         EmptyStateCard(
-            title = "Today's agenda",
-            body = "Your day's plan will show up here once a study plan is in place.",
+            title = stringResource(R.string.dashboard_agenda_title),
+            body = stringResource(R.string.dashboard_agenda_body),
             modifier = Modifier.padding(top = 16.dp),
         )
     }
@@ -73,9 +79,11 @@ private fun DashboardContent(uiState: DashboardUiState, onSyncNow: () -> Unit) {
 @Composable
 private fun SyncStatusChip(uiState: DashboardUiState) {
     val label = when (uiState) {
-        DashboardUiState.Loading -> "Syncing…"
-        DashboardUiState.Offline -> "Offline"
-        is DashboardUiState.Content -> uiState.state.lastSyncedLabel ?: "Synced"
+        DashboardUiState.Loading -> stringResource(R.string.dashboard_syncing)
+        DashboardUiState.Offline -> stringResource(R.string.dashboard_offline)
+        is DashboardUiState.Content -> uiState.state.lastSyncedAt?.let {
+            stringResource(R.string.dashboard_synced_at_format, it)
+        } ?: stringResource(R.string.dashboard_synced_default)
     }
     AssistChip(
         onClick = {},
