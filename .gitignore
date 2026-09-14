@@ -86,3 +86,7 @@ __pycache__/
 # local, uncommitted corpus/). 41 MB each, read only by offline content scripts —
 # kept on disk, out of git. Regenerate with: node scripts/build-corpus-concept-index.mjs
 **/evidence/corpus-concept-index.json
+
+# Content-ledger backups (backup-content-ledger.mjs, apply-content-import-to-db.mjs).
+# Full ledger snapshots, 250+ MB each — recovery points kept on disk, never in git.
+import-backups/
