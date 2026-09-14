@@ -72,17 +72,21 @@ export function publishReadiness(item: ManagedContentItem): PublishReadiness {
   if (item.kind !== 'article') return { ready: true, reason: '' }
 
   const data = item.articleData
+  // Works on both a full item (`publishedSections`/`sections`) and a list-index
+  // row, where the server ships `publishedSectionKinds` + `hasBody` in place of
+  // the ~35 MB of bodies (see server `toIndexItem`).
+  const publishedKinds = data?.publishedSectionKinds ?? data?.publishedSections?.map((section) => section.kind)
   // No projection at all means the article was never evidence-gated — the older
   // authoring path — so fall back to whether it has any body to show.
-  if (!data?.publishedSections) {
-    const hasBody = (data?.sections ?? []).some((section) => section.body?.trim() || section.narrative?.trim())
+  if (!publishedKinds) {
+    const hasBody = data?.hasBody ?? (data?.sections ?? []).some((section) => section.body?.trim() || section.narrative?.trim())
     return hasBody ? { ready: true, reason: '' } : { ready: false, reason: 'No content yet' }
   }
 
-  const visible = data.publishedSections.filter((section) => section.kind !== 'components')
+  const visible = publishedKinds.filter((kind) => kind !== 'components')
   if (visible.length > 0) return { ready: true, reason: '' }
 
-  return { ready: false, reason: GATE_REASON[data.publicationGate ?? ''] ?? 'Not ready' }
+  return { ready: false, reason: GATE_REASON[data?.publicationGate ?? ''] ?? 'Not ready' }
 }
 
 /**

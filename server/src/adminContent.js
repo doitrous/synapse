@@ -25,6 +25,9 @@ import { pool } from './db.js'
 import { requireConsole } from './auth.js'
 import { countsFor } from './studentContent.js'
 import { collectMediaRequests } from './mediaRequestPolicy.js'
+import { toIndexItem } from './adminContentProject.js'
+
+export { toIndexItem }
 
 const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
 
@@ -32,26 +35,6 @@ let snapshot = null
 
 export function invalidateAdminContent(key) {
   if (key === LEDGER_KEY) snapshot = null
-}
-
-/**
- * The list projection: a question with its stem and answer bank dropped. Those
- * two fields are the ledger's dominant weight (questions vastly outnumber every
- * other kind), and no list path reads them — verified against the search string,
- * the row, `itemFacetTokens`, `itemScope`, `contentOptions` and `publishReadiness`.
- * Scope and placement live in `questionData.tags`, which is kept.
- *
- * Only questions are projected. Articles keep their `sections` because
- * `publishReadiness` checks them for a body; decks keep their cards; both kinds
- * are few, so the weight saved by touching them would not pay for the risk. The
- * editor fetches the full item on open, so this projection never feeds a save.
- */
-const omit = (obj, keys) => { const out = { ...obj }; for (const key of keys) delete out[key]; return out }
-
-export function toIndexItem(item) {
-  if (!item || typeof item !== 'object') return item
-  if (!item.questionData || typeof item.questionData !== 'object') return item
-  return { ...item, questionData: omit(item.questionData, ['stem', 'answers']) }
 }
 
 function build(signature, ledger) {

@@ -375,6 +375,14 @@ export interface ArticleAuthoringData {
   sections: ArticleSection[]
   /** Evidence-gated student projection; `sections` remains the complete admin draft. */
   publishedSections?: ArticleSection[]
+  /**
+   * Admin list-index projection only (server `toIndexItem`): whether `sections`
+   * holds any body, and the kinds of `publishedSections` — so `publishReadiness`
+   * works on a list row without shipping the ~35 MB of article bodies. Absent on
+   * a full item (which carries `sections`/`publishedSections` instead).
+   */
+  hasBody?: boolean
+  publishedSectionKinds?: string[]
   /** Student summary for the evidence-gated projection. */
   publishedSummary?: string
   holdThese: string[]

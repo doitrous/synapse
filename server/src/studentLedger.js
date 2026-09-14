@@ -92,6 +92,9 @@ export const PUBLIC_FIELDS = new Set([
   // Article
   'arabicTitle', 'aliases', 'templateId', 'archetype', 'language',
   'learnerStage', 'summary', 'body', 'sections', 'publishedSections',
+  // Admin list-index projection only (server toIndexItem); never authored, never
+  // for students — private so the guard passes and they can never leak.
+  'hasBody', 'publishedSectionKinds',
   'publishedSummary', 'holdThese', 'loseTheMark', 'questionIds', 'annotations',
   'universityIds', 'yearIds', 'moduleIds', 'primaryNodeId', 'secondaryNodeIds',
   'subtopicId', 'microtopicId', 'nanotopicId', 'relatedConceptIds',
