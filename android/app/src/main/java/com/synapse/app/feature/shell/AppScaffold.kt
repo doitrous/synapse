@@ -22,6 +22,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.synapse.app.design.ThemeChoice
 import com.synapse.app.feature.dashboard.DashboardScreen
+import com.synapse.app.feature.essays.EssaysRoute
 import com.synapse.app.feature.flashcards.FlashcardsRoot
 import com.synapse.app.feature.library.LibraryRoute
 import com.synapse.app.feature.placeholder.PlaceholderScreen
@@ -72,6 +73,7 @@ fun AppScaffold(
     libraryContent: @Composable () -> Unit = { LibraryRoute() },
     resourcesContent: @Composable () -> Unit = { ResourcesRoute() },
     taxonomyContent: @Composable () -> Unit = { TaxonomyRoute() },
+    essaysContent: @Composable () -> Unit = { EssaysRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -106,6 +108,7 @@ fun AppScaffold(
         QUESTION_BANK_ROUTE to qbankContent,
         FLASHCARDS_ROUTE to flashcardsContent,
         "taxonomy" to taxonomyContent,
+        "essays" to essaysContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 

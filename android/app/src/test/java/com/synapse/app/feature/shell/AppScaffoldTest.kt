@@ -44,6 +44,7 @@ class AppScaffoldTest {
                     libraryContent = { Text("LibraryStandIn") },
                     resourcesContent = { Text("ResourcesStandIn") },
                     taxonomyContent = { Text("TaxonomyStandIn") },
+                    essaysContent = { Text("EssaysStandIn") },
                 )
             }
         }
@@ -116,6 +117,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Calendar")
         composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingEssayQuestionsInTheMoreHubRendersEssaysContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("essays")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Essay questions")
+        composeTestRule.onNodeWithText("EssaysStandIn").assertIsDisplayed()
     }
 
     @Test
