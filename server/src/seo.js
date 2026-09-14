@@ -1,4 +1,4 @@
-import { SqlStore } from '@omary98/seo-runtime-core'
+import { SqlStore, robotsTxt, sitemapEntries, sitemapXml } from '@omary98/seo-runtime-core'
 import { seoRuntime } from '@omary98/seo-runtime-express'
 import { pool } from './db.js'
 import { PUBLIC_ORIGIN } from './http.js'
@@ -17,26 +17,75 @@ export function mysqlDriver(p) {
 
 export const store = new SqlStore(mysqlDriver(pool))
 
+// Nishany serves /blog/{lang}/{slug}, not the package default /{lang}/blog/{slug}. Shared by the
+// `pages()` provider below and by the local sitemap fallback, so the two paths can't drift apart.
+export const ARTICLE_PATH = (lang, slug) => `/blog/${lang}/${slug}`
+
+const STATIC_PAGE_PATHS = ['/pricing', '/terms', '/privacy', '/refund-policy', '/contact', '/accessibility']
+
+/**
+ * The site's own list of public pages — what `/api/seo/pages` hands the hub, and (until the hub
+ * has pushed a snapshot back via `/api/seo/sync`) also the source for the sitemap/robots fallback
+ * below. `group` pairs each language's home/blog-index page with its siblings so the fallback
+ * sitemap can list them as hreflang alternates of each other, same as the hub-managed one would.
+ */
+export function localPages() {
+  const updatedAt = new Date().toISOString()
+  return [
+    ...SUPPORTED.map((lang) => ({ key: `page:home:${lang}`, type: 'page', lang, path: `/${lang}`, group: 'home', title: 'Nishany', updatedAt })),
+    ...SUPPORTED.map((lang) => ({ key: `page:blog:${lang}`, type: 'page', lang, path: `/blog/${lang}`, group: 'blog-index', title: 'Blog', updatedAt })),
+    ...STATIC_PAGE_PATHS.map((path) => ({ key: `page:${path}`, type: 'page', lang: 'en', path, title: path.slice(1), updatedAt })),
+    // No article entries here: the articles live in the runtime's own store, so the package
+    // appends them itself at `articlePath`. Listing them here as well is the duplicate.
+  ]
+}
+
+// Single-domain site — /en and /ar are paths, not subdomains — so every language shares one origin.
+export const FALLBACK_SETTINGS = { baseUrls: Object.fromEntries(SUPPORTED.map((lang) => [lang, PUBLIC_ORIGIN])), indexingEnabled: true, pageDefaults: {} }
+
+/**
+ * Bots that identify a genuine search/answer engine crawler get an explicit `Allow`; the
+ * AI-training scrapers that ignore a bare `Disallow: /` under `User-agent: *` get their own block.
+ * Appended to `robotsTxt`'s own output as `robotsExtra` rather than reimplemented, so the file
+ * still gets the wildcard rule, the `Sitemap:` line and the indexing kill-switch for free.
+ */
+export const CRAWLER_POLICY_LINES = [
+  ...['Googlebot', 'Bingbot', 'OAI-SearchBot', 'ChatGPT-User', 'Claude-SearchBot', 'Claude-User', 'PerplexityBot', 'GPTBot', 'ClaudeBot', 'Google-Extended']
+    .flatMap((bot) => [`User-agent: ${bot}`, 'Allow: /']),
+  ...['CCBot', 'Bytespider', 'meta-externalagent', 'Amazonbot'].flatMap((bot) => [`User-agent: ${bot}`, 'Disallow: /']),
+]
+
 export function registerSeo(app) {
+  /**
+   * Fallback sitemap/robots, registered ahead of the runtime's own routes below.
+   *
+   * `/sitemap.xml` and `/robots.txt` are unauthenticated in the runtime package (CONTRACT.md), so
+   * intercepting them here is safe — but only until the hub has actually synced: once
+   * `getSnapshot()` shows pages or a crawler policy pushed from the hub, this steps aside with
+   * `next()` and lets the runtime's hub-managed routes answer instead. Without this, a site whose
+   * hub sync has never run (no `SEO_HUB_*` env yet, or the hub simply hasn't pushed) serves an
+   * empty sitemap and a bare `Allow: /` robots.txt forever — which is exactly the state this was
+   * found in.
+   */
+  app.get('/sitemap.xml', async (req, res, next) => {
+    const snapshot = await store.getSnapshot().catch(() => null)
+    if (snapshot?.pages?.length) return next()
+    const pages = localPages().map((p) => ({ ...p, seo: { index: true, includeInSitemap: true } }))
+    const articles = await store.listArticles().catch(() => [])
+    res.type('application/xml').send(sitemapXml(sitemapEntries({ settings: FALLBACK_SETTINGS, pages }, articles, ARTICLE_PATH)))
+  })
+  app.get('/robots.txt', async (req, res, next) => {
+    const snapshot = await store.getSnapshot().catch(() => null)
+    if (snapshot?.settings?.robotsExtra?.length) return next()
+    res.type('text/plain').send(robotsTxt({ settings: { ...FALLBACK_SETTINGS, robotsExtra: CRAWLER_POLICY_LINES } }))
+  })
+
   seoRuntime({
     store,
     supported: SUPPORTED,
     version: '0.1.0',
-    // Nishany serves /blog/{lang}/{slug}, not the package default /{lang}/blog/{slug}.
-    // With this set, the package lists each article ONCE, at the real path — the `pages` callback
-    // below must therefore NOT list them again, or the hub registry gets every article twice,
-    // one of the two at a 404.
-    articlePath: (lang, slug) => `/blog/${lang}/${slug}`,
-    pages: async () => {
-      return [
-        ...SUPPORTED.map((lang) => ({ key: `page:home:${lang}`, type: 'page', lang, path: `/${lang}`, title: 'Nishany', updatedAt: new Date().toISOString() })),
-        ...SUPPORTED.map((lang) => ({ key: `page:blog:${lang}`, type: 'page', lang, path: `/blog/${lang}`, title: 'Blog', updatedAt: new Date().toISOString() })),
-        ...['/pricing', '/terms', '/privacy', '/refund-policy', '/contact', '/accessibility']
-          .map((path) => ({ key: `page:${path}`, type: 'page', lang: 'en', path, title: path.slice(1), updatedAt: new Date().toISOString() })),
-        // No article entries here: the articles live in the runtime's own store, so the package
-        // appends them itself at `articlePath`. Listing them here as well is the duplicate.
-      ]
-    },
+    articlePath: ARTICLE_PATH,
+    pages: async () => localPages(),
   })(app)
 
   // The site's own blog renderer, unchanged, now reading the runtime's article table.

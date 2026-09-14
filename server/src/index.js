@@ -37,6 +37,7 @@ import { registerContentRoutes } from './studentContent.js'
 import { registerAdminContentRoutes } from './adminContent.js'
 import { registerPublicRoutes } from './routes/public.js'
 import { registerSeo, store } from './seo.js'
+import { isKnownSpaPath } from './spaRoutes.js'
 import { registerAuthRoutes } from './routes/auth.js'
 import { registerAssistantRoutes, registerEssayRoutes } from './routes/assistant.js'
 import { registerMeRoutes } from './routes/me.js'
@@ -249,7 +250,11 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
   }))
   app.get('*', (req, res, next) => {
     if (req.path.startsWith('/api')) return next()
-    res.sendFile(join(PUBLIC_DIR, 'index.html'))
+    // Every path the client router actually owns (react-router's own top-level `path:` entries in
+    // src/router.tsx), so a crawler asking for something outside that set gets a real 404 instead
+    // of the 200 soft-404 this used to send for every unknown path — the same document either way
+    // (the SPA renders its own `NotFound` page client-side), only the status code differs.
+    res.status(isKnownSpaPath(req.path) ? 200 : 404).sendFile(join(PUBLIC_DIR, 'index.html'))
   })
   console.log('Serving SPA from', PUBLIC_DIR)
 }

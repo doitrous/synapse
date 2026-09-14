@@ -59,9 +59,49 @@
       content="منصة دراسة سريرية هادئة لطلاب الطب، تتكيف مع تقدمك."
     />
     <meta name="twitter:image" content="https://nishany.com/og-image-ar.png" />
+
+    <!-- Entity JSON-LD, home page only (SEO Phase 0 hygiene). -->
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"EducationalOrganization","name":"Nishany","url":"https://nishany.com/","logo":"https://nishany.com/brand/nishany-mark.png","description":"Nishany brings the library, question bank, practicals, and schedule for undergraduate medical students into one clinical study workspace, built around Egyptian university curricula."}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"Nishany","url":"https://nishany.com/"}
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <!--
+      Prerendered marketing shell (SEO Phase 0 hygiene) — see index.html for why this is safe:
+      `createRoot(...).render()` replaces it the instant the app boots, so it is only ever what a
+      crawler or `curl` sees, never a flash for a real visitor. Real copy from content.ts/AR_CONTENT,
+      the same object HeroSection renders once mounted.
+    -->
+    <div id="root">
+      <main>
+        <h1>اعرف بالضبط ما تذاكره تاليًا</h1>
+        <p>يجمع نيشاني مكتبتك وبنك الأسئلة والتدريب العملي وجدولك في مساحة سريرية واحدة هادئة — ثم يخبرك بما يستحق انتباهك اليوم. بالعربية أولًا، وبالإنجليزية كاملة.</p>
+        <h2>كل شيء في مكان واحد</h2>
+        <p>مساحات مترابطة تعمل معًا — لا أدوات متفرقة.</p>
+        <ul>
+          <li><strong>المكتبة</strong> — كل موضوع وموضوع فرعي، بأقسام واضحة</li>
+          <li><strong>مصادر موثّقة</strong> — كل حقيقة تحمل مرجعها وصفحته</li>
+          <li><strong>بنك الأسئلة</strong> — إجابات مشروحة، ومراجعة بعد التسليم</li>
+          <li><strong>العملي</strong> — محطات OSCE وحالات ومهارات وأشعة، مرتّبة حسب الجهاز</li>
+          <li><strong>قارئ ومحرّر PDF</strong> — اكتب وظلّل وغطِّ للاختبار الذاتي، محفوظ في حسابك</li>
+          <li><strong>المصادر</strong> — كتب وفيديوهات وإرشادات، ومستنداتك أنت</li>
+          <li><strong>التقويم</strong> — المنهج وخطتك في عرض واحد، من السبت</li>
+          <li><strong>الأداء</strong> — حسب المادة ونوع السؤال وعبر الزمن</li>
+          <li><strong>القاموس الطبي</strong> — المفاهيم وعلاقاتها، مربوطة بكل ما تقرأه</li>
+          <li><strong>دفتر الملاحظات</strong> — تنسيق مباشر أثناء الكتابة، ومراجع لمستنداتك</li>
+          <li><strong>السبورة</strong> — لوحة محدودة تربط فيها الأفكار بروابط قابلة للثني</li>
+          <li><strong>الدراسة الجماعية</strong> — حُلّ اختبارًا مشتركًا عبر رابط، ثم راجعوه معًا</li>
+        </ul>
+        <h2>كيف يقرّر نيشاني ما تذاكره</h2>
+        <p>ثلاث خطوات تحوّل الكمّ الهائل إلى خطوة واحدة واضحة كل صباح.</p>
+        <p><strong>ذاكِر وحُلّ</strong> — اقرأ من المكتبة ثم اختبر نفسك بأسئلة مشروحة مرتبطة مباشرة بما قرأته.</p>
+        <p><strong>نتتبّع تذكّرك</strong> — يحسب التكرار المتباعد متى تبدأ في نسيان كل موضوع قبل أن ينساك الامتحان.</p>
+        <p><strong>نخبرك بالتالي</strong> — كل صباح ترى ما يستحق انتباهك مرتّبًا حسب الإلحاح ومستوى التثبيت.</p>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
