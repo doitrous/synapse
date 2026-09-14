@@ -14,6 +14,7 @@
  * without turning into a surveillance export.
  */
 import { pool } from './db.js'
+import { answerChangeTracking } from './studyTrackingAdmin.js'
 
 const num = (value) => Number(value ?? 0)
 
@@ -40,6 +41,9 @@ const list = (rows, labelKey = 'label', valueKey = 'count') =>
 const topics = (rows) => (rows ?? []).map((r) => ({ label: r.label, attempts: num(r.attempts), accuracy: r.accuracy == null ? null : Number(r.accuracy) }))
 
 export async function studentAnalytics() {
+  // Correct↔wrong transitions, derived from the same verified ledger. Kicked
+  // off alongside the query fan-out below so it costs no extra wall-clock.
+  const answerChangesPromise = answerChangeTracking({})
   const [
     [studentTotals],
     [signupTrendRows],
@@ -97,7 +101,10 @@ export async function studentAnalytics() {
     pool.query('SELECT COALESCE(SUM(messages), 0) AS messages, COUNT(DISTINCT user_id) AS users, COALESCE(SUM(input_tokens + output_tokens), 0) AS tokens, COALESCE(SUM(fallbacks), 0) AS fallbacks FROM assistant_usage WHERE day >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)'),
 
     // ── Retention (last seen) ─────────────────────────────────────────────
-    pool.query('SELECT SUM(last_active >= DATE_SUB(NOW(), INTERVAL 1 DAY)) AS today, SUM(last_active >= DATE_SUB(NOW(), INTERVAL 7 DAY)) AS d7, SUM(last_active >= DATE_SUB(NOW(), INTERVAL 30 DAY)) AS d30, SUM(last_active < DATE_SUB(NOW(), INTERVAL 30 DAY) OR last_active IS NULL) AS dormant, SUM(questions_answered = 0 OR questions_answered IS NULL) AS neverAnswered FROM students'),
+    // `neverAnswered` reads the verified ledger directly, not the denormalised
+    // `students.questions_answered` counter (which only refreshes on enrolment
+    // changes and so reads stale). last_active is now stamped on every attempt.
+    pool.query('SELECT SUM(last_active >= DATE_SUB(NOW(), INTERVAL 1 DAY)) AS today, SUM(last_active >= DATE_SUB(NOW(), INTERVAL 7 DAY)) AS d7, SUM(last_active >= DATE_SUB(NOW(), INTERVAL 30 DAY)) AS d30, SUM(last_active < DATE_SUB(NOW(), INTERVAL 30 DAY) OR last_active IS NULL) AS dormant, SUM(NOT EXISTS (SELECT 1 FROM qbank_attempts a WHERE a.student_id = s.id)) AS neverAnswered FROM students s'),
 
     // ── Monetization ──────────────────────────────────────────────────────
     pool.query("SELECT SUM(status = 'active') AS active, SUM(status = 'trialing') AS trialing FROM subscriptions WHERE (expires_at IS NULL OR expires_at > NOW()) AND status IN ('active','trialing')"),
@@ -119,6 +126,7 @@ export async function studentAnalytics() {
   const ai = assistant30[0] ?? {}
   const ret = retention[0] ?? {}
   const subs = subsActive[0] ?? {}
+  const answerChanges = await answerChangesPromise
 
   return {
     generatedAt: new Date().toISOString(),
@@ -158,6 +166,15 @@ export async function studentAnalytics() {
       active30d: num(ret.d30),
       dormant: num(ret.dormant),
       neverAnswered: num(ret.neverAnswered),
+    },
+    answerChanges: {
+      correctToCorrect: num(answerChanges.correctToCorrect),
+      correctToIncorrect: num(answerChanges.correctToIncorrect),
+      incorrectToCorrect: num(answerChanges.incorrectToCorrect),
+      incorrectToIncorrect: num(answerChanges.incorrectToIncorrect),
+      totalTransitions: num(answerChanges.totalTransitions),
+      studentsWithChanges: num(answerChanges.studentsWithChanges),
+      questionsWithChanges: num(answerChanges.questionsWithChanges),
     },
     monetization: {
       activeSubscriptions: num(subs.active),

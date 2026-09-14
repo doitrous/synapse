@@ -81,13 +81,13 @@ test('recordVerifiedAttempts writes a whole batch in one query, not one per atte
     },
   }]
 
-  let connQueryCount = 0
+  const connSql = []
   const conn = {
     beginTransaction: async () => {},
     commit: async () => {},
     rollback: async () => {},
     release: () => {},
-    query: async () => { connQueryCount += 1; return [{ affectedRows: 3 }] },
+    query: async (sql) => { connSql.push(sql); return [{ affectedRows: 3 }] },
   }
   t.mock.method(pool, 'getConnection', async () => conn)
   t.mock.method(pool, 'query', async (sql) => {
@@ -110,5 +110,9 @@ test('recordVerifiedAttempts writes a whole batch in one query, not one per atte
 
   assert.equal(result.ok, true)
   assert.equal(result.recorded, 3)
-  assert.equal(connQueryCount, 1, 'three attempts should reach the database as a single multi-row INSERT')
+  const inserts = connSql.filter((sql) => /INSERT INTO qbank_attempts/.test(sql))
+  assert.equal(inserts.length, 1, 'three attempts should reach the database as a single multi-row INSERT')
+  assert.equal((inserts[0].match(/\(\?, \?/g) || []).length, 3, 'the one INSERT carries all three rows')
+  // last_active is stamped on the same connection so it commits with the batch.
+  assert.ok(connSql.some((sql) => /UPDATE students SET last_active/.test(sql)), 'last_active is updated in the same transaction')
 })

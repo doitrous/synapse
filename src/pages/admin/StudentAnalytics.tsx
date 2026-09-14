@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
-  Activity, BookOpenCheck, BrainCircuit, CalendarClock, ChartColumnBig, Clock, Cpu,
-  GraduationCap, Layers, MonitorSmartphone, RefreshCw, Target, TicketPercent, TrendingDown,
-  Users, WalletCards,
+  Activity, ArrowDownRight, ArrowUpRight, BookOpenCheck, BrainCircuit, CalendarClock,
+  ChartColumnBig, Clock, Cpu, GraduationCap, Layers, MonitorSmartphone, RefreshCw, Repeat,
+  Target, TicketPercent, TrendingDown, Users, WalletCards,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -38,6 +38,10 @@ interface Analytics {
     accuracyTrend: DayPoint[]; bySubject: TopicStat[]; hardestTopics: TopicStat[]; topTopics: TopicStat[]
   }
   retention: { activeToday: number; active7d: number; active30d: number; dormant: number; neverAnswered: number }
+  answerChanges: {
+    correctToCorrect: number; correctToIncorrect: number; incorrectToCorrect: number; incorrectToIncorrect: number
+    totalTransitions: number; studentsWithChanges: number; questionsWithChanges: number
+  }
   monetization: { activeSubscriptions: number; trialing: number; bySource: Slice[]; byPlan: Slice[]; redemptions30d: number }
   platform: { byPlatform: Slice[]; byAppVersion: Slice[]; byLocale: Slice[] }
 }
@@ -102,8 +106,9 @@ function TopicTable({ rows, caption }: { rows: TopicStat[]; caption: string }) {
 // a real server-owned field, with where it comes from.
 const DATA_CATALOG: Array<{ group: string; fields: string; source: string }> = [
   { group: 'Identity & enrolment', fields: 'name, email, phone, nationality, university, year, group, plan, status, joined date', source: 'students' },
-  { group: 'Session & activity', fields: 'last active, questions answered, rolling accuracy, exam readiness', source: 'students (server rollup)' },
+  { group: 'Session & activity', fields: 'last active (stamped on every verified attempt), questions answered, rolling accuracy', source: 'students (server rollup)' },
   { group: 'Question attempts', fields: 'per-question correctness, chosen vs correct option, seconds taken, session duration, overtime, university/year/term/subject/topic/subtopic/concepts, timestamp', source: 'qbank_attempts' },
+  { group: 'Answer changes', fields: 'correct→correct, correct→incorrect, incorrect→correct, incorrect→incorrect transitions per student+question', source: 'qbank_attempts (derived)' },
   { group: 'Study time', fields: 'server-clocked active minutes by module, subject and surface', source: 'maristana_study_minutes' },
   { group: 'AI assistant', fields: 'messages, input/output tokens, model fallbacks, per day and plan', source: 'assistant_usage' },
   { group: 'Subscriptions', fields: 'plan, status, source (payment/voucher/manual/trial), start, expiry, cancellations', source: 'subscriptions' },
@@ -146,6 +151,7 @@ function demoAnalytics(): Analytics {
       topTopics: [{ label: 'Cardiac cycle', attempts: 22400, accuracy: 0.73 }, { label: 'Cranial nerves', attempts: 19800, accuracy: 0.69 }, { label: 'Nephron function', attempts: 18100, accuracy: 0.64 }],
     },
     retention: { activeToday: 640, active7d: 2100, active30d: 3140, dormant: 1680, neverAnswered: 520 },
+    answerChanges: { correctToCorrect: 18400, correctToIncorrect: 4200, incorrectToCorrect: 12600, incorrectToIncorrect: 6100, totalTransitions: 41300, studentsWithChanges: 2480, questionsWithChanges: 9200 },
     monetization: {
       activeSubscriptions: 2600, trialing: 320,
       bySource: [{ label: 'payment', count: 1900 }, { label: 'voucher', count: 520 }, { label: 'manual', count: 120 }, { label: 'trial', count: 380 }],
@@ -188,6 +194,15 @@ export function StudentAnalytics() {
     { label: 'Active this month', value: a?.retention.active30d ?? 0, icon: CalendarClock, tone: 'primary' },
     { label: 'Dormant (30d+)', value: a?.retention.dormant ?? 0, icon: TrendingDown, tone: 'warning' },
     { label: 'Never answered a question', value: a?.retention.neverAnswered ?? 0, icon: TrendingDown, tone: 'warning' },
+  ]
+
+  // Correct↔wrong transitions: a student re-answering the same question. The
+  // two that matter are recovery (wrong→right) and regression (right→wrong).
+  const answerChangeRows: Array<{ label: string; value: number; icon: LucideIcon; className: string }> = [
+    { label: 'Wrong → right (recovered)', value: a?.answerChanges.incorrectToCorrect ?? 0, icon: ArrowUpRight, className: 'text-success' },
+    { label: 'Right → wrong (regressed)', value: a?.answerChanges.correctToIncorrect ?? 0, icon: ArrowDownRight, className: 'text-warning' },
+    { label: 'Right → right (held)', value: a?.answerChanges.correctToCorrect ?? 0, icon: Repeat, className: 'text-ink-3' },
+    { label: 'Wrong → wrong (still missed)', value: a?.answerChanges.incorrectToIncorrect ?? 0, icon: Repeat, className: 'text-ink-3' },
   ]
 
   return (
@@ -278,6 +293,24 @@ export function StudentAnalytics() {
                 <Icon icon={row.icon} size={16} className="text-ink-3" />
                 <span className="min-w-0 flex-1 text-[13px] text-ink-2">{row.label}</span>
                 <Badge tone={row.tone}>{whole(row.value)}</Badge>
+              </div>
+            ))}
+          </div>
+        </Panel>
+      </div>
+
+      {/* Answer changes — correct↔wrong transitions from the verified ledger */}
+      <div className="mb-4">
+        <Panel>
+          <PanelHeader title="Answer changes" icon={Repeat} hint={`${whole(a?.answerChanges.totalTransitions)} transitions · ${whole(a?.answerChanges.studentsWithChanges)} students · ${whole(a?.answerChanges.questionsWithChanges)} questions`} />
+          <div className="grid gap-2 p-4 sm:grid-cols-2 xl:grid-cols-4">
+            {answerChangeRows.map((row) => (
+              <div key={row.label} className="rounded-lg border border-line bg-surface-2 px-3 py-2.5">
+                <div className="mb-1 flex items-center gap-2">
+                  <Icon icon={row.icon} size={15} className={row.className} />
+                  <span className="text-[12px] text-ink-2">{row.label}</span>
+                </div>
+                <p className="tnum font-mono text-[20px] font-semibold text-ink">{whole(row.value)}</p>
               </div>
             ))}
           </div>

@@ -179,6 +179,10 @@ export async function recordVerifiedAttempts(userId, input) {
           verified_at = CURRENT_TIMESTAMP`,
         params,
       )
+      // The single funnel every attempt routes through, so this is where
+      // "last seen" is honestly stamped. Nothing else updates last_active from
+      // real student activity, so the admin Retention panel depends on it.
+      await conn.query('UPDATE students SET last_active = NOW() WHERE id = ?', [profile.id])
       await conn.commit()
     } catch (error) {
       await conn.rollback()

@@ -36,6 +36,39 @@ test('summariseAnswerChanges pairs consecutive attempts within a student+questio
   assert.equal(summary.questionsWithChanges, 1)
 })
 
+test('right → wrong → right across sittings counts one regression and one recovery', () => {
+  // The exact sequence the admin tab promises to report: a student who had a
+  // question right, got it wrong on re-attempt, then recovered.
+  const rows = [
+    { userId: 'u1', questionId: 'q1', correct: 1 }, // first sitting: right
+    { userId: 'u1', questionId: 'q1', correct: 0 }, // regressed
+    { userId: 'u1', questionId: 'q1', correct: 1 }, // recovered
+  ]
+  const summary = summariseAnswerChanges(rows)
+  assert.equal(summary.correctToIncorrect, 1)
+  assert.equal(summary.incorrectToCorrect, 1)
+  assert.equal(summary.correctToCorrect, 0)
+  assert.equal(summary.incorrectToIncorrect, 0)
+  assert.equal(summary.totalTransitions, 2)
+  assert.equal(summary.studentsWithChanges, 1)
+  assert.equal(summary.questionsWithChanges, 1)
+})
+
+test('correct/incorrect accept both DB tinyint (1/0) and boolean shapes', () => {
+  // answerChangeTracking hands rows straight from mysql2 (correct is 0/1); a
+  // future event source may hand booleans. Both must classify identically.
+  const asInt = summariseAnswerChanges([
+    { userId: 'u1', questionId: 'q1', correct: 0 },
+    { userId: 'u1', questionId: 'q1', correct: 1 },
+  ])
+  const asBool = summariseAnswerChanges([
+    { userId: 'u1', questionId: 'q1', correct: false },
+    { userId: 'u1', questionId: 'q1', correct: true },
+  ])
+  assert.equal(asInt.incorrectToCorrect, 1)
+  assert.deepEqual(asInt, asBool)
+})
+
 test('a fresh question boundary does not pair across students or questions', () => {
   const rows = [
     { userId: 'u1', questionId: 'q1', correct: 1 },
