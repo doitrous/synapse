@@ -6,7 +6,7 @@ import { Skeleton } from '@/components/ui/Skeleton'
  * FIRST VIEWPORT: Tall left windows, a rear quiet corner and discussion table, two desk banks.
  * FORM: User-pinned reference, layered 2.5D scene with independent semantic seat controls. */
 import { Fragment, useEffect, useId, useState, type CSSProperties } from 'react'
-import { Hand } from 'lucide-react'
+import { Hand, Lock } from 'lucide-react'
 import { useT } from '@/lib/i18n'
 import { clockText, DEFAULT_PERSONALISATION, type StudyPresence, type StudyRoomDefinition } from '@/lib/rooms/studyWorld'
 import { illustratedLayout } from '@/lib/rooms/illustratedLayout'
@@ -19,7 +19,7 @@ import './illustratedRoom.css'
 
 const position=(x:number,y:number,w:number):CSSProperties=>({left:`${x}%`,top:`${y}%`,width:`${w}%`})
 
-export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=false,bubbles}:{preview?:boolean;world:StudyRoomDefinition;seats:(StudyPresence|null)[];selfId:string;onSeat:(index:number)=>void;selected:number|null;bubbles?:Map<number,{id:string;text:string}>}){
+export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=false,bubbles}:{preview?:boolean;world:StudyRoomDefinition;seats:(StudyPresence|null)[];selfId:string;onSeat:(index:number)=>void;selected:number|null;bubbles?:Map<number,{id:string;text:string;private?:boolean}>}){
   const t=useT(),[showNames,setShowNames]=useState(false),[expanded,setExpanded]=useState(false)
   const id=useId().replaceAll(':',''),[artState,setArtState]=useState<'loading'|'ready'|'error'>('loading'),[artRetry,setArtRetry]=useState(0)
   const library=world.style==='library'&&world.capacity===12
@@ -102,7 +102,7 @@ export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=fals
             const width=place.discussion?`${90/half}%`:`${94/place.indices.length}%`
             // Float over the seated student's head; discussion tops sit lower.
             const top=place.discussion?(i<half?'6%':'62%'):'-7%'
-            return <div key={`bubble-${index}`} className="reference-chat-bubble animate-pop" style={{left,width,top}}><span>{bubble.text}</span></div>
+            return <div key={`bubble-${index}`} className={`reference-chat-bubble animate-pop ${bubble.private?'is-private':''}`} style={{left,width,top}}><span>{bubble.private&&<Lock size={10} aria-label={t('Private')}/>}<b>{bubble.text}</b></span></div>
           })}
         </div>)}
       </div>

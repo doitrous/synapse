@@ -135,7 +135,7 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
   // so a message reads as coming from that student on the floor, not only as a
   // line in the box. New lines only: the first pass seeds what already exists.
   const liveMessages=session.channel?.messages
-  const [bubbles,setBubbles]=useState<Map<number,{id:string;text:string}>>(new Map())
+  const [bubbles,setBubbles]=useState<Map<number,{id:string;text:string;private?:boolean}>>(new Map())
   const bubbleSeen=useRef<Set<string>|null>(null)
   useEffect(()=>{
     const list:{id:string;from:string;text:string;private?:boolean;to?:string}[]=(!demo&&liveMessages)?liveMessages:messages.map(m=>({id:String(m.id),from:selfId,text:m.text}))
@@ -143,10 +143,12 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
     for(const msg of list){
       if(bubbleSeen.current.has(msg.id))continue
       bubbleSeen.current.add(msg.id)
+      // A whisper only its two ends receive; the server never relays it to
+      // anyone else, and this guards the bubble the same way for safety.
       if(msg.private&&msg.to!==selfId&&msg.from!==selfId)continue
       const index=desks.findIndex(p=>p?.id===msg.from)
       if(index<0)continue
-      const entry={id:msg.id,text:msg.text}
+      const entry={id:msg.id,text:msg.text,private:Boolean(msg.private)}
       setBubbles(prev=>{const next=new Map(prev);next.set(index,entry);return next})
       window.setTimeout(()=>setBubbles(prev=>prev.get(index)?.id===entry.id?(()=>{const next=new Map(prev);next.delete(index);return next})():prev),5200)
     }
@@ -171,7 +173,7 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
   const roomName=room.roomId.startsWith('world-')?world.name:party?.name??room.roomName??world.name
   const libraryLayout=world.style==='library'&&world.capacity===12&&!focusMode
   const chatName=identity.displayName||t('You')
-  const liveChat=demo||!session.channel?null:{messages:session.channel.messages,selfId,nameFor:(id:string)=>people.find(p=>p.id===id)?.name||t('Student'),target:chatTarget,onClearTarget:()=>setChatTarget(null),onSend:(text:string,to?:string)=>session.channel!.sendChat(text,to)}
+  const liveChat=demo||!session.channel?null:{messages:session.channel.messages,selfId,nameFor:(id:string)=>people.find(p=>p.id===id)?.name||t('Student'),members:people.filter(p=>p.id!==selfId).map(p=>({id:p.id,name:p.name})),target:chatTarget,onClearTarget:()=>setChatTarget(null),onPickTarget:(target:ChatTarget)=>setChatTarget(target),onSend:(text:string,to?:string)=>session.channel!.sendChat(text,to)}
   const sendDemoMessage=()=>{if(chatDraft.trim()){setMessages(current=>[...current,{id:Date.now(),text:chatDraft.trim()}]);setChatDraft('')}}
   const chatTotal=liveChat?liveChat.messages.length:messages.length
   const chatUnread=chatOpen?0:Math.max(0,chatTotal-chatSeen)

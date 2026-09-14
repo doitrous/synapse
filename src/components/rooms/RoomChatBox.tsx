@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { MessageCircle, Send, X } from 'lucide-react'
+import { AtSign, MessageCircle, Send, X } from 'lucide-react'
 import { useT } from '@/lib/i18n'
 import { Button } from '@/components/ui/Button'
 import type { ChatMessage } from '@/lib/rooms/roomChannel'
@@ -20,8 +20,11 @@ export interface LiveChat {
   messages: ChatMessage[]
   selfId: string
   nameFor: (userId: string) => string
+  /** Everyone present you can whisper to (self excluded) — the @-mention menu. */
+  members: ChatTarget[]
   target: ChatTarget | null
   onClearTarget: () => void
+  onPickTarget: (target: ChatTarget) => void
   onSend: (text: string, toUserId?: string) => void
 }
 
@@ -29,9 +32,24 @@ export interface LiveChat {
 function Conversation({demo,messages,draft,onDraft,onSend,name,live}:{demo:boolean;messages:RoomMessage[];draft:string;onDraft:(text:string)=>void;onSend:()=>void;name:string;live?:LiveChat|null}){
   const t=useT(),input=useRef<HTMLTextAreaElement>(null),log=useRef<HTMLDivElement>(null)
   const [liveDraft,setLiveDraft]=useState('')
+  const [menuOpen,setMenuOpen]=useState(false)
   const liveCount=live?.messages.length??0
   useEffect(()=>{if(log.current)log.current.scrollTop=log.current.scrollHeight},[messages.length,liveCount])
   function submitLive(){const text=liveDraft.trim();if(!text||!live)return;setLiveDraft('');live.onSend(text,live.target?.id)}
+  // @-mention: the tail of the draft being typed after an "@" is a live filter
+  // over the people in the room; picking one addresses the next line to them
+  // privately. The button opens the same list with no query.
+  const mentionMatch=live?liveDraft.match(/(^|\s)@([^\s@]*)$/):null
+  const mentionQuery=mentionMatch?mentionMatch[2]:null
+  const showPicker=Boolean(live)&&(menuOpen||mentionQuery!==null)
+  const candidates=(live?.members??[]).filter(member=>{const q=(mentionQuery??'').toLowerCase();return !q||member.name.toLowerCase().includes(q)})
+  function pickTarget(member:ChatTarget){
+    if(!live)return
+    live.onPickTarget(member)
+    if(mentionQuery!==null)setLiveDraft(current=>current.replace(/(^|\s)@[^\s@]*$/,'$1'))
+    setMenuOpen(false)
+    input.current?.focus()
+  }
   const empty=<div className="room-chat-empty"><MessageCircle size={28}/><h3>{t('A little company, when you need it.')}</h3><p>{t('Share a study goal, ask a question, or say hello.')}</p></div>
   if(demo)return <>
     <p className="room-chat-context">{t('Preview chat · only visible on this device.')}</p>
@@ -52,7 +70,20 @@ function Conversation({demo,messages,draft,onDraft,onSend,name,live}:{demo:boole
         return <article key={message.id} className={mine?'is-mine':''}><div><strong>{mine?name:live.nameFor(message.from)}{message.private?` · ${message.private&&mine?`${t('To')} ${live.nameFor(message.to??'')}`:t('Private')}`:''}</strong><time dateTime={message.at}>{new Date(message.at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</time></div><p>{message.text}</p></article>
       })}
     </div>
-    <form onSubmit={e=>{e.preventDefault();submitLive()}}><label className="sr-only" htmlFor="room-chat-message">{t('Message')}</label><textarea id="room-chat-message" ref={input} maxLength={2000} rows={2} value={liveDraft} onChange={e=>setLiveDraft(e.target.value)} placeholder={live.target?t('Message privately…'):t('Write to the room…')} onKeyDown={e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.nativeEvent.isComposing){e.preventDefault();submitLive()}}}/><Button type="submit" size="sm" disabled={!liveDraft.trim()} aria-label={t('Send message')}><Send size={17}/></Button><small>{t('Enter to send · Shift + Enter for a new line')}</small></form>
+    <form className="room-chat-form" onSubmit={e=>{e.preventDefault();submitLive()}}>
+      {showPicker&&<ul className="room-chat-mention" role="listbox" aria-label={t('People in the room')}>
+        {candidates.length===0?<li className="room-chat-mention-empty">{t('No one to message here yet.')}</li>:candidates.map(member=>
+          <li key={member.id}><button type="button" role="option" aria-selected={live.target?.id===member.id} onClick={()=>pickTarget(member)}><span className="room-chat-mention-dot" aria-hidden>@</span>{member.name}</button></li>
+        )}
+      </ul>}
+      <label className="sr-only" htmlFor="room-chat-message">{t('Message')}</label>
+      <div className="room-chat-compose">
+        <button type="button" className={`room-chat-at ${menuOpen?'is-open':''}`} aria-label={t('Message someone privately')} aria-expanded={menuOpen} onClick={()=>setMenuOpen(open=>!open)}><AtSign size={17}/></button>
+        <textarea id="room-chat-message" ref={input} maxLength={2000} rows={2} value={liveDraft} onChange={e=>setLiveDraft(e.target.value)} placeholder={live.target?t('Message privately…'):t('Write to the room · @ to whisper')} onKeyDown={e=>{if(e.key==='Escape'&&(menuOpen||mentionQuery!==null)){e.preventDefault();e.stopPropagation();setMenuOpen(false)}else if(e.key==='Enter'&&!e.shiftKey&&!e.nativeEvent.isComposing){e.preventDefault();submitLive()}}}/>
+        <Button type="submit" size="sm" disabled={!liveDraft.trim()} aria-label={t('Send message')}><Send size={17}/></Button>
+      </div>
+      <small>{t('Enter to send · Shift + Enter for a new line')}</small>
+    </form>
   </>
 }
 
