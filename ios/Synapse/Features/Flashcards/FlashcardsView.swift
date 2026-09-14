@@ -26,9 +26,11 @@ struct FlashcardsView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            Group {
-                if !decks.isLoaded {
+        // No NavigationStack of its own: this now lives inside the More hub's
+        // stack (it lost its tab so Study Rooms could have one), and a nested
+        // stack would double the navigation bar.
+        Group {
+            if !decks.isLoaded {
                     ProgressView().tint(Theme.primary)
                         .frame(maxWidth: .infinity, maxHeight: .infinity)
                 } else if decks.decks.isEmpty {
@@ -64,7 +66,6 @@ struct FlashcardsView: View {
                     Task { await decks.createDeck(name: name) }
                 }
             }
-        }
         .task { await decks.load() }
         // The collection can arrive from a website change after this screen has
         // loaded; refresh the derived views when a sync settles.

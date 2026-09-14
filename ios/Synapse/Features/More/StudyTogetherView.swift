@@ -26,7 +26,7 @@ struct StudyTogetherView: View {
             }
         }
         .background(Theme.paper)
-        .navigationTitle(strings("Study together"))
+        .navigationTitle(strings("Study Rooms"))
         .navigationBarTitleDisplayMode(.inline)
         .task {
             if model == nil {

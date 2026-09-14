@@ -21,16 +21,16 @@ struct SignedInView: View {
     @State private var tab = Destination.today
 
     enum Destination: String, Hashable {
-        case today, questions, flashcards, library, more
+        case today, questions, rooms, library, more
 
         /// Whether entering this tab needs an active subscription. Mirrors the
-        /// web's `FREE_STUDENT_PATHS`: the dashboard is free, and the More hub
-        /// is free to open (its paid children answer 402 themselves). The daily
-        /// study surfaces are paid.
+        /// web's `FREE_STUDENT_PATHS`: the dashboard is free, the More hub is
+        /// free to open (its paid children answer 402 themselves), and Study
+        /// Rooms is a free social surface. The daily study surfaces are paid.
         var isPaid: Bool {
             switch self {
-            case .today, .more: false
-            case .questions, .flashcards, .library: true
+            case .today, .more, .rooms: false
+            case .questions, .library: true
             }
         }
     }
@@ -85,11 +85,11 @@ struct SignedInView: View {
     /// one, the rest are one tap deeper.
     ///
     /// iOS folds a sixth tab into a menu it names itself, so five is the budget.
-    /// Questions and Flashcards are the daily practice-and-review loop and each
-    /// earns a slot; the Library holds all reading, with Resources reached from
-    /// its toolbar; everything occasional lives in the More hub. Account is
-    /// reached from the Today screen: it is opened once a term, not once a
-    /// session.
+    /// Questions is the daily practice loop; Study Rooms is the free social
+    /// surface that draws students in and so earns easy reach; the Library holds
+    /// all reading, with Resources reached from its toolbar; everything else —
+    /// Flashcards included — lives in the More hub. Account is reached from the
+    /// Today screen: it is opened once a term, not once a session.
     private func tabs(_ container: Container) -> some View {
         let audience = container.audienceStore.audience
 
@@ -104,8 +104,10 @@ struct SignedInView: View {
             Tab(strings("Questions"), systemImage: "questionmark.circle", value: Destination.questions) {
                 QuestionBankView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
             }
-            Tab(strings("Flashcards"), systemImage: "rectangle.on.rectangle.angled", value: Destination.flashcards) {
-                FlashcardsView(store: container.store, sync: container.sync, api: auth.api, audience: audience)
+            Tab(strings("Study Rooms"), systemImage: "person.2", value: Destination.rooms) {
+                NavigationStack {
+                    StudyTogetherView(api: auth.api, store: container.store, audience: audience)
+                }
             }
             Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
                 LibraryView(store: container.store, sync: container.sync, api: auth.api, audience: audience)

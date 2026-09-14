@@ -19,6 +19,11 @@ struct MoreView: View {
         NavigationStack {
             List {
                 Section(strings("Study")) {
+                    // Flashcards gave up its tab so Study Rooms could have one;
+                    // it lives here, first, as the daily-review tool it is.
+                    link("Flashcards", "rectangle.on.rectangle.angled") {
+                        FlashcardsView(store: store, sync: sync, api: api, audience: audience)
+                    }
                     link("Adaptive Study", "wand.and.stars") {
                         AdaptiveStudyView(api: api, sync: sync, store: store, audience: audience)
                     }
@@ -40,9 +45,6 @@ struct MoreView: View {
                     }
                     link("Whiteboard", "scribble.variable") {
                         WhiteboardView(api: api, sync: sync)
-                    }
-                    link("Study together", "person.2") {
-                        StudyTogetherView(api: api, store: store, audience: audience)
                     }
                 }
                 .listRowBackground(Theme.surface)
