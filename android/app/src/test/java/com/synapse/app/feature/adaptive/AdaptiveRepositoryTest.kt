@@ -1,5 +1,8 @@
 package com.synapse.app.feature.adaptive
 
+import androidx.datastore.preferences.core.PreferenceDataStoreFactory
+import androidx.datastore.preferences.preferencesDataStoreFile
+import androidx.test.core.app.ApplicationProvider
 import com.synapse.app.core.adaptive.AttemptOutcome
 import com.synapse.app.core.adaptive.Confidence
 import com.synapse.app.core.adaptive.ConceptRole
@@ -9,6 +12,8 @@ import com.synapse.app.core.adaptive.EMPTY_HELD_OUT
 import com.synapse.app.core.adaptive.ExposureState
 import com.synapse.app.core.adaptive.PresentationMode
 import com.synapse.app.core.api.SynapseApi
+import com.synapse.app.core.auth.AccountIdentity
+import com.synapse.app.core.auth.AccountIdentityStore
 import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.cache.OutboxEntry
 import com.synapse.app.core.model.AttemptRecord as ModelAttemptRecord
@@ -26,6 +31,8 @@ import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
 import java.time.Instant
 
 /**
@@ -33,14 +40,18 @@ import java.time.Instant
  * projects the shared content ledger into [com.synapse.app.core.adaptive.AdaptiveItem]s,
  * rebuilds evidence from the QBank attempts store, and round-trips this
  * student's own overrides — the same convention as `LibraryRepositoryTest`: a
- * real [SyncEngine] against a fake in-memory [LocalStore].
+ * real [SyncEngine] against a fake in-memory [LocalStore], and a real
+ * [AccountIdentityStore] against a Robolectric-backed DataStore file — same
+ * convention as `AccountRepositoryTest`.
  */
+@RunWith(RobolectricTestRunner::class)
 class AdaptiveRepositoryTest {
 
     private val json = Json { ignoreUnknownKeys = true }
     private lateinit var localStore: FakeLocalStore
     private lateinit var api: FakeSynapseApi
     private lateinit var syncEngine: SyncEngine
+    private lateinit var identityStore: AccountIdentityStore
     private lateinit var repository: AdaptiveRepository
 
     @Before
@@ -48,7 +59,15 @@ class AdaptiveRepositoryTest {
         localStore = FakeLocalStore()
         api = FakeSynapseApi()
         syncEngine = SyncEngine(api, localStore, readableKeys = emptyList(), userStateKeys = emptyList())
-        repository = AdaptiveRepository(localStore, syncEngine, json)
+        identityStore = AccountIdentityStore(
+            PreferenceDataStoreFactory.create(
+                produceFile = {
+                    ApplicationProvider.getApplicationContext<android.content.Context>()
+                        .preferencesDataStoreFile("adaptive_repo_test_${System.nanoTime()}")
+                }
+            )
+        )
+        repository = AdaptiveRepository(localStore, syncEngine, json, identityStore)
     }
 
     // --- config / blueprints / heldOutRegistry ------------------------------
@@ -72,6 +91,7 @@ class AdaptiveRepositoryTest {
 
     @Test
     fun blueprintNodesReadsThePublishedBlueprintForAnUnscopedStudent() = runTest {
+        // No identity saved to identityStore — AccountIdentity.Unknown, so the default scope stays the unscoped ("", "").
         seedCatalogue("synapse-adaptive-blueprints-v1", "[$BLUEPRINT_JSON]")
 
         val nodes = repository.blueprintNodes()
@@ -79,6 +99,35 @@ class AdaptiveRepositoryTest {
         assertEquals(listOf("CON-A", "CON-B"), nodes.map { it.conceptId })
         // Normalised: 0.6 and 0.4 already sum to 1, so weights round-trip unchanged.
         assertEquals(0.6, nodes.first { it.conceptId == "CON-A" }.weight, 1e-9)
+    }
+
+    @Test
+    fun blueprintNodesDefaultsToThisStudentsOwnScopeWhenIdentityIsKnown() = runTest {
+        identityStore.save(AccountIdentity(universityId = "UNI-1", year = "Year 3", yearId = "OMS_Y3"))
+        seedCatalogue("synapse-adaptive-blueprints-v1", "[$BLUEPRINT_JSON,$SCOPED_BLUEPRINT_JSON]")
+
+        val nodes = repository.blueprintNodes()
+
+        // The unscoped blueprint (CON-A/CON-B) loses to the more specific one published for UNI-1/OMS_Y3.
+        assertEquals(listOf("CON-C"), nodes.map { it.conceptId })
+    }
+
+    @Test
+    fun storedBlueprintIgnoresAScopedPublicationWhenIdentityIsUnknown() = runTest {
+        // No identity saved — the default scope stays unscoped, so a blueprint published only for UNI-1/OMS_Y3 is never picked up.
+        seedCatalogue("synapse-adaptive-blueprints-v1", "[$SCOPED_BLUEPRINT_JSON]")
+
+        assertNull(repository.storedBlueprint())
+    }
+
+    @Test
+    fun anExplicitScopeArgumentOverridesTheIdentityDefault() = runTest {
+        identityStore.save(AccountIdentity(universityId = "UNI-1", year = "Year 3", yearId = "OMS_Y3"))
+        seedCatalogue("synapse-adaptive-blueprints-v1", "[$BLUEPRINT_JSON,$SCOPED_BLUEPRINT_JSON]")
+
+        val nodes = repository.blueprintNodes(com.synapse.app.core.adaptive.BlueprintScope("", ""))
+
+        assertEquals(listOf("CON-A", "CON-B"), nodes.map { it.conceptId })
     }
 
     @Test
@@ -257,6 +306,15 @@ class AdaptiveRepositoryTest {
               "nodes":[
                 {"conceptId":"CON-A","label":"A","groupId":"g1","groupLabel":"Group 1","weight":0.6,"overridden":false},
                 {"conceptId":"CON-B","label":"B","groupId":"g1","groupLabel":"Group 1","weight":0.4,"overridden":false}
+              ]}
+        """.trimIndent()
+
+        /** Published for a specific university/year, so [blueprintFor] prefers it over [BLUEPRINT_JSON]'s unscoped one for a student scoped to UNI-1/OMS_Y3. */
+        val SCOPED_BLUEPRINT_JSON = """
+            { "id":"bp2","name":"CVS (UNI-1 Y3)","version":1,"universityId":"UNI-1","yearId":"OMS_Y3","moduleIds":[],
+              "publishedAt":"2026-08-01T00:00:00Z","changeNotes":[],
+              "nodes":[
+                {"conceptId":"CON-C","label":"C","groupId":"g1","groupLabel":"Group 1","weight":1.0,"overridden":false}
               ]}
         """.trimIndent()
 

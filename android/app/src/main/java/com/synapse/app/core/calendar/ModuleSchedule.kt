@@ -86,12 +86,9 @@ private fun localDateTime(date: String, time: String): LocalDateTime? {
  * is no generated fallback here (see `Calendar.tsx`'s doc comment on why the
  * old generated calendar had to go).
  *
- * **Not yet wired to a real caller.** Android has no confirmed source for
- * which university/year the signed-in student belongs to (see
- * `feature/calendar/CalendarRepository.kt`'s `curriculumSessions` doc
- * comment for the same gap `feature/adaptive/AdaptiveRepository.kt` already
- * documents). This function is ready the day that identity lands: call it
- * with the real ids and course list.
+ * Called from `feature/calendar/CalendarRepository.kt`'s `curriculumSessions`
+ * with this student's own [com.synapse.app.core.auth.AccountIdentity] once
+ * known — empty (never a fabricated enrollment) until then.
  */
 fun flattenModuleSchedule(
     universityId: String,

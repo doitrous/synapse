@@ -1,6 +1,10 @@
 package com.synapse.app.feature.calendar
 
+import androidx.datastore.preferences.core.PreferenceDataStoreFactory
+import androidx.datastore.preferences.preferencesDataStoreFile
+import androidx.test.core.app.ApplicationProvider
 import com.synapse.app.core.api.SynapseApi
+import com.synapse.app.core.auth.AccountIdentityStore
 import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.cache.OutboxEntry
 import com.synapse.app.core.calendar.CalendarLayer
@@ -10,8 +14,10 @@ import com.synapse.app.core.model.Manifest
 import com.synapse.app.core.model.SessionDto
 import com.synapse.app.core.model.StateDoc
 import com.synapse.app.core.sync.SyncEngine
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runTest
@@ -24,6 +30,8 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
 import java.time.Instant
 import java.time.LocalDate
 import java.util.TimeZone
@@ -33,9 +41,13 @@ import java.util.TimeZone
  * the latter wired to hand-written fakes — the same convention as
  * `PracticalViewModelTest`. `now` is pinned throughout, per this task's
  * requirement that "current week/day" come from the view model's `now` seam,
- * never the system clock.
+ * never the system clock. A real [AccountIdentityStore] against a
+ * Robolectric-backed DataStore file backs [CalendarRepository]'s identity
+ * dependency; none of these tests save an identity, so `curriculumSessions()`
+ * stays empty throughout, same as before this dependency existed.
  */
 @OptIn(ExperimentalCoroutinesApi::class)
+@RunWith(RobolectricTestRunner::class)
 class CalendarViewModelTest {
 
     private val dispatcher = StandardTestDispatcher()
@@ -62,8 +74,26 @@ class CalendarViewModelTest {
         Dispatchers.resetMain()
     }
 
+    /**
+     * DataStore normally does its own file I/O on a real `Dispatchers.IO`-backed
+     * scope, independent of [dispatcher] — under [StandardTestDispatcher],
+     * `advanceUntilIdle` then has nothing of its own to advance and can return
+     * before that real work lands, making assertions racy. Pinning the
+     * DataStore's scope to [dispatcher] keeps every bit of work on the one
+     * virtual clock this test controls — same fix as `AccountViewModelTest`.
+     */
+    private fun freshIdentityDataStore() = AccountIdentityStore(
+        PreferenceDataStoreFactory.create(
+            scope = CoroutineScope(dispatcher + SupervisorJob()),
+            produceFile = {
+                ApplicationProvider.getApplicationContext<android.content.Context>()
+                    .preferencesDataStoreFile("calendar_vm_test_${System.nanoTime()}")
+            }
+        )
+    )
+
     private fun repository(localStore: VmFakeLocalStore = VmFakeLocalStore(), api: VmFakeApi = VmFakeApi()): CalendarRepository =
-        CalendarRepository(localStore, SyncEngine(api, localStore, readableKeys = emptyList(), userStateKeys = emptyList()), json)
+        CalendarRepository(localStore, SyncEngine(api, localStore, readableKeys = emptyList(), userStateKeys = emptyList()), json, freshIdentityDataStore())
 
     private fun viewModel(repository: CalendarRepository): CalendarViewModel =
         CalendarViewModel(repository).apply { now = { fixedNow } }
