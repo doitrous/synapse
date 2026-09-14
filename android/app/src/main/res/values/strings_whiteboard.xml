@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/whiteboard — localized strings for the Whiteboard surface (EN/AR).
+         Board/note/frame text the student actually typed is synced document content
+         and is never localized here — see WhiteboardScreen/WhiteboardViewModel for
+         which literals stay hardcoded on purpose (default titles that get written
+         into the synced collection, e.g. "Untitled board", "New study section"). -->
+
+    <!-- BoardTopBar: board switcher menu + undo/redo. -->
+    <string name="whiteboard_new_board">New board</string>
+    <string name="whiteboard_rename">Rename</string>
+    <string name="whiteboard_rename_board_title">Rename board</string>
+    <string name="whiteboard_delete_board">Delete this board</string>
+    <string name="whiteboard_undo">Undo</string>
+    <string name="whiteboard_redo">Redo</string>
+    <string name="whiteboard_cancel">Cancel</string>
+
+    <!-- Canvas chrome (not the canvas surface itself). -->
+    <string name="whiteboard_image_label">Image</string>
+    <string name="whiteboard_empty_note">Empty note</string>
+
+    <!-- NoteEditorDialog. -->
+    <string name="whiteboard_note_dialog_title">Note</string>
+    <string name="whiteboard_colour_label">Colour</string>
+
+    <!-- Shared across note/frame/link/item dialogs and the selection toolbar. -->
+    <string name="whiteboard_delete">Delete</string>
+    <string name="whiteboard_done">Done</string>
+    <string name="whiteboard_edit">Edit</string>
+
+    <!-- FrameEditorDialog. -->
+    <string name="whiteboard_frame_dialog_title">Frame</string>
+    <string name="whiteboard_title_label">Title</string>
+    <string name="whiteboard_width_label">Width</string>
+    <string name="whiteboard_height_label">Height</string>
+
+    <!-- BoardToolbar: tool switcher + add buttons + selection actions. -->
+    <string name="whiteboard_tool_select">Select</string>
+    <string name="whiteboard_tool_pen">Pen</string>
+    <string name="whiteboard_tool_eraser">Eraser</string>
+    <string name="whiteboard_add_note_button">+ Note</string>
+    <string name="whiteboard_add_frame_button">+ Frame</string>
+    <string name="whiteboard_connect">Connect</string>
+    <string name="whiteboard_pick_a_note">Pick a note</string>
+    <string name="whiteboard_straighten_link">Straighten</string>
+    <string name="whiteboard_zoom_percent_format">%1$d%%</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/whiteboard — Arabic strings. Terminology mirrors iOS's
+         Core/Localisation/ArabicStrings.swift and web's src/data/i18n-ar.ts
+         Whiteboard sections where the concept matches (Pen, Eraser, Undo,
+         Redo, Straighten, Colour, Image…); Width/Height/Rename/Frame have
+         no Android-only precedent on those platforms and are fresh MSA. -->
+
+    <!-- BoardTopBar: board switcher menu + undo/redo. -->
+    <string name="whiteboard_new_board">لوحة جديدة</string>
+    <string name="whiteboard_rename">إعادة التسمية</string>
+    <string name="whiteboard_rename_board_title">إعادة تسمية اللوحة</string>
+    <string name="whiteboard_delete_board">حذف هذه اللوحة</string>
+    <string name="whiteboard_undo">تراجع</string>
+    <string name="whiteboard_redo">إعادة</string>
+    <string name="whiteboard_cancel">إلغاء</string>
+
+    <!-- Canvas chrome (not the canvas surface itself). -->
+    <string name="whiteboard_image_label">صورة</string>
+    <string name="whiteboard_empty_note">ملاحظة فارغة</string>
+
+    <!-- NoteEditorDialog. -->
+    <string name="whiteboard_note_dialog_title">ملاحظة</string>
+    <string name="whiteboard_colour_label">اللون</string>
+
+    <!-- Shared across note/frame/link/item dialogs and the selection toolbar. -->
+    <string name="whiteboard_delete">حذف</string>
+    <string name="whiteboard_done">تم</string>
+    <string name="whiteboard_edit">تعديل</string>
+
+    <!-- FrameEditorDialog. -->
+    <string name="whiteboard_frame_dialog_title">إطار</string>
+    <string name="whiteboard_title_label">العنوان</string>
+    <string name="whiteboard_width_label">العرض</string>
+    <string name="whiteboard_height_label">الارتفاع</string>
+
+    <!-- BoardToolbar: tool switcher + add buttons + selection actions. -->
+    <string name="whiteboard_tool_select">تحديد</string>
+    <string name="whiteboard_tool_pen">قلم</string>
+    <string name="whiteboard_tool_eraser">ممحاة</string>
+    <string name="whiteboard_add_note_button">+ ملاحظة</string>
+    <string name="whiteboard_add_frame_button">+ إطار</string>
+    <string name="whiteboard_connect">ربط</string>
+    <string name="whiteboard_pick_a_note">اختر ملاحظة</string>
+    <string name="whiteboard_straighten_link">استقامة</string>
+    <string name="whiteboard_zoom_percent_format">%1$d%%</string>
+</resources>
