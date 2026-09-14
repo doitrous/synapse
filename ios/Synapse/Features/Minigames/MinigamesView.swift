@@ -15,6 +15,14 @@ struct MinigamesView: View {
         List {
             Section {
                 NavigationLink {
+                    TermGridView(store: store)
+                } label: {
+                    gameRow(
+                        "Term Grid", symbol: "grid",
+                        detail: "A crossword built from the glossary — fill in each term from its definition."
+                    )
+                }
+                NavigationLink {
                     TermMatchView(store: store)
                 } label: {
                     gameRow(
