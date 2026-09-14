@@ -206,6 +206,16 @@ struct SynapseAPI {
 
     // MARK: - Accounts
 
+    /// Update the caller's own editable profile. The server reads the timezone
+    /// from this row when it decides what hour to send reminders (see
+    /// `qotdReminders.js`), so keeping it current is what stops a student who
+    /// has travelled from being nudged in the middle of the night. None of the
+    /// profile fields are locked the way university/year are.
+    func putProfile(timezone: String) async throws {
+        struct Body: Encodable { let timezone: String }
+        _ = try await send(["me", "profile"], method: "PUT", body: Body(timezone: timezone))
+    }
+
     /// Whether this person already has an account, asked before one is made.
     ///
     /// Sign-up runs this first so somebody re-registering is sent to sign in

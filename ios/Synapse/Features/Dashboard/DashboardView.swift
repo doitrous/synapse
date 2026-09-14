@@ -39,11 +39,13 @@ struct DashboardView: View {
     @State private var recent: [RecentResource] = []
     private let api: SynapseAPI
 
-    /// No per-student daily target exists in settings yet. Forty questions is
-    /// a sensible default sitting — enough to matter, short enough to
-    /// actually finish — until the app exposes one to set. Mirrors
-    /// `DAILY_QUESTION_GOAL` in `src/components/dashboard/TodaysTarget.tsx`.
-    private static let dailyQuestionGoal = 40
+    /// The student's own daily target, set on the Account screen and carried on
+    /// the shared preferences document so it follows them to the website. The
+    /// default until they choose one is the same thirty the web ships; zero is
+    /// a valid choice meaning "no goal", which `TargetRing` renders as untracked
+    /// rather than perpetually full.
+    @State private var prefs: AccountPrefsStore
+    private var dailyQuestionGoal: Int { prefs.prefs.dailyGoalQuestions }
 
     init(
         store: LocalStore, sync: SyncEngine, user: SessionUser, auth: AuthModel,
@@ -51,6 +53,7 @@ struct DashboardView: View {
     ) {
         _model = State(wrappedValue: PerformanceModel(store: store))
         _mastery = State(wrappedValue: MasteryModel(api: auth.api, sync: sync))
+        _prefs = State(wrappedValue: AccountPrefsStore(api: auth.api, sync: sync))
         self.sync = sync
         self.library = store
         self.user = user
@@ -106,8 +109,11 @@ struct DashboardView: View {
     /// string, with `Money.number` giving each count Arabic-Indic digits.
     private var targetLine: Text {
         let done = model.summary.todayQuestions
-        let goal = Self.dailyQuestionGoal
+        let goal = dailyQuestionGoal
         let language = strings.language
+        guard goal > 0 else {
+            return Text(strings("No daily goal set — choose one in Account."))
+        }
         guard done < goal else {
             return Text(strings("Target hit for today — nice shooting"))
         }
@@ -167,12 +173,20 @@ struct DashboardView: View {
                 AccountView(user: user, auth: auth, sync: sync, audienceStore: audienceStore)
             .localisedSheet()
             }
+            // The Account sheet holds its own copy of the preferences, so a
+            // daily goal changed there does not reach this screen until it
+            // reads them again. Reload when the sheet closes so the ring is
+            // right on return, not only after the next launch.
+            .onChange(of: showingAccount) { _, open in
+                if !open { Task { await prefs.load() } }
+            }
             .sheet(isPresented: $showingQotd) {
                 QotdView(store: library, sync: sync, api: api, audience: audience)
             }
         }
         .task {
             await mastery.load()
+            await prefs.load()
             await refresh()
             openQotdIfRequested()
         }
@@ -216,7 +230,7 @@ struct DashboardView: View {
     /// actually moves it. A port of `TodaysTarget.tsx`'s panel.
     private var targetHero: some View {
         HStack(alignment: .center, spacing: 16) {
-            TargetRing(value: model.summary.todayQuestions, goal: Self.dailyQuestionGoal)
+            TargetRing(value: model.summary.todayQuestions, goal: dailyQuestionGoal)
 
             VStack(alignment: .leading, spacing: 5) {
                 Text(strings("Today's target"))

@@ -267,7 +267,7 @@ struct AccountView: View {
                     switchRow("Timetable reminders", on: prefs.prefs.calendarReminders) {
                         Task { await prefs.set(calendarReminders: !prefs.prefs.calendarReminders) }
                     }
-                    row("Time zone", prefs.prefs.timezone)
+                    row("Time zone", TimeZone.current.identifier)
                 } header: {
                     Text(strings("Reminders"))
                 } footer: {
@@ -275,6 +275,16 @@ struct AccountView: View {
                         .font(Theme.ui(12))
                 }
                 .tint(Theme.primary)
+                .listRowBackground(Theme.surface)
+
+                Section {
+                    goalRow
+                } header: {
+                    Text(strings("Study preferences"))
+                } footer: {
+                    Text(strings("How many questions you aim to answer each day. It sets your Today target, and follows you to the website."))
+                        .font(Theme.ui(12))
+                }
                 .listRowBackground(Theme.surface)
 
                 Section(strings("Sync")) {
@@ -374,6 +384,42 @@ struct AccountView: View {
         }
         .buttonStyle(.plain)
         .accessibilityAddTraits(on ? [.isButton, .isSelected] : .isButton)
+    }
+
+    /// A number a student steps in fives. Plain buttons rather than a `Stepper`
+    /// for the same reason `switchRow` avoids `Toggle`: stock controls in this
+    /// list draw correctly and then take no taps.
+    private var goalRow: some View {
+        HStack {
+            Text(strings("Daily question goal"))
+                .font(Theme.ui(15))
+                .foregroundStyle(Theme.ink)
+            Spacer()
+            Button {
+                Task { await prefs.set(dailyGoalQuestions: prefs.prefs.dailyGoalQuestions - 5) }
+            } label: {
+                Image(systemName: "minus.circle.fill").font(.system(size: 22))
+            }
+            .buttonStyle(.plain)
+            .tint(Theme.primary)
+            .disabled(prefs.prefs.dailyGoalQuestions <= 0)
+            .accessibilityLabel(strings("Fewer"))
+
+            Text("\(prefs.prefs.dailyGoalQuestions)")
+                .font(Theme.ui(16, weight: 700))
+                .monospacedDigit()
+                .foregroundStyle(Theme.ink)
+                .frame(minWidth: 40)
+
+            Button {
+                Task { await prefs.set(dailyGoalQuestions: prefs.prefs.dailyGoalQuestions + 5) }
+            } label: {
+                Image(systemName: "plus.circle.fill").font(.system(size: 22))
+            }
+            .buttonStyle(.plain)
+            .tint(Theme.primary)
+            .accessibilityLabel(strings("More"))
+        }
     }
 
     /// Where a student says which cohort they are in.
