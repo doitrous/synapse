@@ -36,6 +36,9 @@ struct MoreView: View {
                     link("Medical Terminology", "character.book.closed") {
                         TerminologyView(store: store, sync: sync, api: api)
                     }
+                    link("Minigames", "gamecontroller") {
+                        MinigamesView(store: store, sync: sync, api: api)
+                    }
                 }
                 .listRowBackground(Theme.surface)
 
