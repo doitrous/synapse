@@ -10,7 +10,7 @@ import {
   SUBJECTS_IMPORT_FIELDS, applyRow, indexTree, duplicateLabelsIn, referencesTo,
   type StructuralChange,
 } from '@/data/subjectsImport'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useAdminArticleIndex } from '@/lib/content/adminContentClient'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 
 const MD = `# Item
@@ -51,7 +51,7 @@ function describe(change: StructuralChange): string {
 
 export function SubjectsImportPage() {
   const [tree, setTree] = useTaxonomyTree()
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const { articles: articleIndex } = useAdminArticleIndex()
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [impact, setImpact] = useState<string[]>([])
 
@@ -79,7 +79,7 @@ export function SubjectsImportPage() {
     const affected = referencesTo(
       disruptive.map((change) => change.nodeId),
       {
-        articles: ledger.filter((item) => item.kind === 'article').map((item) => ({ id: item.id, ...item.articleData })),
+        articles: articleIndex,
         concepts: graph.concepts,
       },
     )

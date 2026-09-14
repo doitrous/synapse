@@ -11,7 +11,7 @@ import {
   type EvidenceContext, type EvidenceRecordKind,
 } from '@/data/evidenceImport'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { useAdminArticleIndex } from '@/lib/content/adminContentClient'
 
 const EXAMPLES: Record<EvidenceRecordKind, string> = {
   resource: `# Item
@@ -108,14 +108,14 @@ CIT-FND-PLASMA-MEMBRANE-01-LOCAL`,
 export function EvidenceImportPage() {
   const [store, setStore] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const { articles } = useAdminArticleIndex()
   const [kind, setKind] = useState<EvidenceRecordKind>('claim')
 
   const context = useMemo<EvidenceContext>(() => ({
     store,
     conceptIds: new Set(graph.concepts.map((concept) => concept.id)),
-    articleIds: new Set(ledger.filter((item) => item.kind === 'article').map((item) => item.id)),
-  }), [graph, ledger, store])
+    articleIds: new Set(articles.map((article) => article.id)),
+  }), [graph, articles, store])
 
   function commit(rows: Array<Record<string, string>>) {
     const errors: string[] = []

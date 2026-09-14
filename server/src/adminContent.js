@@ -85,6 +85,30 @@ export async function adminItemHandler(req, res) {
   return sendVersioned(req, res, content.signature, { item })
 }
 
+const list = (value) => (Array.isArray(value) ? value.filter((entry) => typeof entry === 'string' && entry.trim()) : [])
+
+/**
+ * Every article's id and taxonomy placement — the fields the import pages read
+ * to validate evidence rows and to find which records a taxonomy change would
+ * strand. Never the article body (`sections`), which is most of the weight.
+ */
+export function articleIndexRow(item) {
+  const data = item.articleData ?? {}
+  return {
+    id: item.id,
+    subtopicId: data.subtopicId,
+    microtopicId: data.microtopicId,
+    nanotopicId: data.nanotopicId,
+    moduleIds: list(data.moduleIds),
+  }
+}
+
+export async function adminArticleIndexHandler(req, res) {
+  const content = await loadAdminContent()
+  const articles = (content.byKind.get('article') ?? []).map(articleIndexRow)
+  return sendVersioned(req, res, content.signature, { articles })
+}
+
 const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
   console.error(error)
   res.status(500).json({ error: error.message || 'server error' })
@@ -92,4 +116,5 @@ const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) =
 
 export function registerAdminContentRoutes(app) {
   app.get('/api/admin/content/item/:id', requireConsole, wrap(adminItemHandler))
+  app.get('/api/admin/content/article-index', requireConsole, wrap(adminArticleIndexHandler))
 }

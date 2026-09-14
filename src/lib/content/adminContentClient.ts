@@ -75,6 +75,46 @@ export function fetchAdminItem(id: string, force = false): Promise<AdminItemResp
   return load<AdminItemResponse>(`admin:item:${id}`, `/admin/content/item/${encodeURIComponent(id)}`, force)
 }
 
+/** One article's id and taxonomy placement — never its body. Mirrors the server projection. */
+export interface AdminArticleIndexRow {
+  id: string
+  subtopicId?: string
+  microtopicId?: string
+  nanotopicId?: string
+  moduleIds: string[]
+}
+export interface AdminArticleIndexResponse { version: string; articles: AdminArticleIndexRow[] }
+
+const listOf = (value: unknown): string[] => (Array.isArray(value) ? value.filter((v): v is string => typeof v === 'string' && Boolean(v.trim())) : [])
+
+export function fetchAdminArticleIndex(force = false): Promise<AdminArticleIndexResponse> {
+  if (!API_MODE) {
+    const articles = demoLedger()
+      .filter((item) => item.kind === 'article')
+      .map((item) => {
+        const data = item.articleData
+        return { id: item.id, subtopicId: data?.subtopicId, microtopicId: data?.microtopicId, nanotopicId: data?.nanotopicId, moduleIds: listOf(data?.moduleIds) }
+      })
+    return Promise.resolve({ version: 'demo', articles })
+  }
+  return load<AdminArticleIndexResponse>('admin:article-index', '/admin/content/article-index', force)
+}
+
+/** The article index (ids + taxonomy placement), fetched once on mount. */
+export function useAdminArticleIndex(): { articles: AdminArticleIndexRow[]; loading: boolean; error: StateErrorKind | null } {
+  const [state, setState] = useState<{ articles: AdminArticleIndexRow[]; loading: boolean; error: StateErrorKind | null }>(
+    { articles: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdminArticleIndex()
+      .then((response) => { if (live) setState({ articles: response.articles, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ articles: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  return state
+}
+
 /**
  * One full catalogue item by id, fetched when `id` changes — the reader/preview
  * path, without loading the whole ledger. `null` id (nothing selected) resolves
