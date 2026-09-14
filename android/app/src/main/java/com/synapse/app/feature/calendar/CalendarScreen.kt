@@ -34,9 +34,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.calendar.CalendarEvent
 import com.synapse.app.core.calendar.CalendarLayer
 import com.synapse.app.core.calendar.DEFAULT_WEEK_START
@@ -102,7 +104,7 @@ private fun CalendarScreen(
             modifier = Modifier.fillMaxSize().testTag(CALENDAR_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.calendar_loading)) }
         return
     }
 
@@ -160,37 +162,41 @@ private fun CalendarHeader(
 ) {
     val title = if (uiState.view == CalendarViewMode.WEEK) {
         val days = uiState.days
-        "${days.first().format(DateTimeFormatter.ofPattern("d MMM"))} – ${days.last().format(DateTimeFormatter.ofPattern("d MMM"))}"
+        stringResource(
+            R.string.calendar_week_range_format,
+            days.first().format(DateTimeFormatter.ofPattern("d MMM")),
+            days.last().format(DateTimeFormatter.ofPattern("d MMM")),
+        )
     } else {
         uiState.anchor.month.getDisplayName(TextStyle.FULL, Locale.getDefault()) + " " + uiState.anchor.year
     }
 
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp)) {
         IconButton(onClick = { onShift(-1) }, modifier = Modifier.testTag(CALENDAR_PREV_BUTTON_TAG)) {
-            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Previous")
+            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.calendar_previous))
         }
         Text(title, style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
         IconButton(onClick = { onShift(1) }, modifier = Modifier.testTag(CALENDAR_NEXT_BUTTON_TAG)) {
-            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = "Next")
+            Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = stringResource(R.string.calendar_next))
         }
-        TextButton(onClick = onToday, modifier = Modifier.testTag(CALENDAR_TODAY_BUTTON_TAG)) { Text("Today") }
+        TextButton(onClick = onToday, modifier = Modifier.testTag(CALENDAR_TODAY_BUTTON_TAG)) { Text(stringResource(R.string.calendar_today)) }
     }
 
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.padding(top = 6.dp)) {
         CalendarViewMode.entries.forEach { mode ->
             val selected = uiState.view == mode
             TextButton(onClick = { onSetView(mode) }, modifier = Modifier.testTag(calendarViewModeTag(mode))) {
-                Text(mode.name.lowercase().replaceFirstChar { it.uppercase() }, fontWeight = if (selected) androidx.compose.ui.text.font.FontWeight.Bold else null)
+                Text(stringResource(mode.labelRes), fontWeight = if (selected) androidx.compose.ui.text.font.FontWeight.Bold else null)
             }
         }
-        Button(onClick = onAdd, modifier = Modifier.testTag(CALENDAR_ADD_BUTTON_TAG)) { Text("Add block") }
+        Button(onClick = onAdd, modifier = Modifier.testTag(CALENDAR_ADD_BUTTON_TAG)) { Text(stringResource(R.string.calendar_add_block)) }
     }
 
     Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 4.dp)) {
         Checkbox(checked = uiState.showCurriculum, onCheckedChange = { onToggleCurriculum() }, modifier = Modifier.testTag(CALENDAR_TOGGLE_CURRICULUM_TAG))
-        Text("Curriculum", style = MaterialTheme.typography.bodySmall)
+        Text(stringResource(R.string.calendar_curriculum), style = MaterialTheme.typography.bodySmall)
         Checkbox(checked = uiState.showPersonal, onCheckedChange = { onTogglePersonal() }, modifier = Modifier.testTag(CALENDAR_TOGGLE_PERSONAL_TAG))
-        Text("Personal", style = MaterialTheme.typography.bodySmall)
+        Text(stringResource(R.string.calendar_personal), style = MaterialTheme.typography.bodySmall)
     }
     HorizontalDivider(modifier = Modifier.padding(top = 8.dp))
 }
@@ -265,7 +271,10 @@ private fun DayCell(
                 )
             }
             if (events.size > 3) {
-                Text("+${events.size - 3} more", style = MaterialTheme.typography.labelSmall)
+                Text(
+                    stringResource(R.string.calendar_more_events_format, events.size - 3),
+                    style = MaterialTheme.typography.labelSmall,
+                )
             }
         }
     }
@@ -286,10 +295,10 @@ private fun WeekList(
                     style = MaterialTheme.typography.titleSmall,
                     modifier = Modifier.weight(1f),
                 )
-                TextButton(onClick = { onOpenDay(day) }) { Text("+ Add") }
+                TextButton(onClick = { onOpenDay(day) }) { Text(stringResource(R.string.calendar_add_short)) }
             }
             if (events.isEmpty()) {
-                Text("Nothing scheduled.", style = MaterialTheme.typography.bodySmall)
+                Text(stringResource(R.string.calendar_nothing_scheduled), style = MaterialTheme.typography.bodySmall)
             } else {
                 events.forEach { event ->
                     val block = if (event.layer == CalendarLayer.PERSONAL) uiState.blocks.firstOrNull { it.id == event.id } else null
@@ -301,7 +310,9 @@ private fun WeekList(
                             Text(event.time, style = MaterialTheme.typography.bodySmall, modifier = Modifier.widthIn(min = 48.dp))
                             Text(event.title, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
                             Text(
-                                if (event.layer == CalendarLayer.CURRICULUM) "Curriculum" else "Personal",
+                                stringResource(
+                                    if (event.layer == CalendarLayer.CURRICULUM) R.string.calendar_curriculum else R.string.calendar_personal,
+                                ),
                                 style = MaterialTheme.typography.labelSmall,
                             )
                         }
@@ -330,30 +341,31 @@ private fun BlockDialog(
     onSave: (StudyBlock) -> Unit,
     onDelete: (() -> Unit)?,
 ) {
+    val defaultKind = stringResource(R.string.calendar_kind_default)
     var title by rememberSaveable(existing?.id) { mutableStateOf(existing?.title ?: "") }
     var dateText by rememberSaveable(existing?.id) { mutableStateOf(existing?.date ?: date.toString()) }
     var start by rememberSaveable(existing?.id) { mutableStateOf(existing?.start ?: "17:00") }
     var end by rememberSaveable(existing?.id) { mutableStateOf(existing?.end ?: "18:00") }
-    var kind by rememberSaveable(existing?.id) { mutableStateOf(existing?.kind ?: "Study block") }
+    var kind by rememberSaveable(existing?.id) { mutableStateOf(existing?.kind ?: defaultKind) }
 
     val parsedDate = remember(dateText) { runCatching { LocalDate.parse(dateText) }.getOrNull() }
     val valid = title.isNotBlank() && parsedDate != null && durationMinutes(start, end) > 0
 
     AlertDialog(
         onDismissRequest = onClose,
-        title = { Text(if (existing != null) "Edit study block" else "Add a study block") },
+        title = { Text(if (existing != null) stringResource(R.string.calendar_dialog_title_edit) else stringResource(R.string.calendar_dialog_title_add)) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 OutlinedTextField(
                     value = title,
                     onValueChange = { title = it },
-                    label = { Text("What are you working on?") },
+                    label = { Text(stringResource(R.string.calendar_field_title_label)) },
                     modifier = Modifier.fillMaxWidth().testTag(CALENDAR_DIALOG_TITLE_FIELD_TAG),
                 )
                 OutlinedTextField(
                     value = dateText,
                     onValueChange = { dateText = it },
-                    label = { Text("Date (YYYY-MM-DD)") },
+                    label = { Text(stringResource(R.string.calendar_field_date_label)) },
                     isError = parsedDate == null,
                     modifier = Modifier.fillMaxWidth().testTag(CALENDAR_DIALOG_DATE_FIELD_TAG),
                 )
@@ -361,13 +373,13 @@ private fun BlockDialog(
                     OutlinedTextField(
                         value = start,
                         onValueChange = { start = it },
-                        label = { Text("Starts") },
+                        label = { Text(stringResource(R.string.calendar_field_starts_label)) },
                         modifier = Modifier.weight(1f).testTag(CALENDAR_DIALOG_START_FIELD_TAG),
                     )
                     OutlinedTextField(
                         value = end,
                         onValueChange = { end = it },
-                        label = { Text("Ends") },
+                        label = { Text(stringResource(R.string.calendar_field_ends_label)) },
                         isError = durationMinutes(start, end) <= 0,
                         modifier = Modifier.weight(1f).testTag(CALENDAR_DIALOG_END_FIELD_TAG),
                     )
@@ -375,7 +387,7 @@ private fun BlockDialog(
                 OutlinedTextField(
                     value = kind,
                     onValueChange = { kind = it },
-                    label = { Text("Type") },
+                    label = { Text(stringResource(R.string.calendar_field_type_label)) },
                     modifier = Modifier.fillMaxWidth(),
                 )
             }
@@ -399,14 +411,14 @@ private fun BlockDialog(
                     onSave(saved)
                 },
                 modifier = Modifier.testTag(CALENDAR_DIALOG_SAVE_BUTTON_TAG),
-            ) { Text(if (existing != null) "Save changes" else "Add block") }
+            ) { Text(if (existing != null) stringResource(R.string.calendar_dialog_save_changes) else stringResource(R.string.calendar_add_block)) }
         },
         dismissButton = {
             Row {
                 if (onDelete != null) {
-                    TextButton(onClick = onDelete, modifier = Modifier.testTag(CALENDAR_DIALOG_DELETE_BUTTON_TAG)) { Text("Delete") }
+                    TextButton(onClick = onDelete, modifier = Modifier.testTag(CALENDAR_DIALOG_DELETE_BUTTON_TAG)) { Text(stringResource(R.string.calendar_delete)) }
                 }
-                TextButton(onClick = onClose, modifier = Modifier.testTag(CALENDAR_DIALOG_CANCEL_BUTTON_TAG)) { Text("Cancel") }
+                TextButton(onClick = onClose, modifier = Modifier.testTag(CALENDAR_DIALOG_CANCEL_BUTTON_TAG)) { Text(stringResource(R.string.calendar_cancel)) }
             }
         },
     )

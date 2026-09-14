@@ -1,7 +1,9 @@
 package com.synapse.app.feature.calendar
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.calendar.CalendarEvent
 import com.synapse.app.core.calendar.CalendarLayer
 import com.synapse.app.core.calendar.DEFAULT_WEEK_START
@@ -20,7 +22,10 @@ import java.time.ZoneId
 import javax.inject.Inject
 
 /** Month or week — which grid [CalendarUiState.Content.days] holds. */
-enum class CalendarViewMode { WEEK, MONTH }
+enum class CalendarViewMode(@StringRes val labelRes: Int) {
+    WEEK(R.string.calendar_view_week),
+    MONTH(R.string.calendar_view_month),
+}
 
 /** What [CalendarScreen] renders. */
 sealed interface CalendarUiState {
