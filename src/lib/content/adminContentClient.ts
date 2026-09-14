@@ -20,6 +20,7 @@ import { useCallback, useEffect, useState, type Dispatch, type SetStateAction } 
 import { API_MODE, apiGetIfChanged, apiPost } from '../api'
 import { errorKind, type StateErrorKind } from '../apiErrors'
 import { CONTENT_LEDGER_STORAGE_KEY, mediaRequestsOf, type ManagedContentItem } from '@/data/contentControl'
+import { CONCEPT_STORAGE_KEY } from '@/data/conceptGraph'
 import { queryContentIndex, type ContentListParams, type ContentListResponse } from '@/data/contentQuery'
 import type { ContentScope } from '@/data/contentScope'
 import type { University } from '@/data/universities'
@@ -311,6 +312,26 @@ export function fetchContentList(
 ): Promise<ContentListResponse> {
   if (!API_MODE) return Promise.resolve(queryContentIndex(demoLedger(), params, catalogue, contentScope))
   return apiPost<ContentListResponse>('/admin/content/list', params)
+}
+
+/**
+ * Which of these ids are still referenced by any content item or concept — the
+ * taxonomy delete-guard, answered by the server (`POST /admin/content/references`)
+ * so the tab never downloads the 239 MB ledger + 72 MB concept graph just to
+ * substring-check. Demo mode runs the identical `"id"` check over the seeded
+ * localStorage ledger + concept graph.
+ */
+export function fetchContentReferences(ids: string[]): Promise<{ referenced: string[] }> {
+  if (!API_MODE) {
+    let concepts: unknown[] = []
+    try {
+      const graph = JSON.parse(localStorage.getItem(CONCEPT_STORAGE_KEY) ?? '{"concepts":[]}')
+      concepts = Array.isArray(graph?.concepts) ? graph.concepts : []
+    } catch { concepts = [] }
+    const haystack = `${JSON.stringify(demoLedger())} ${JSON.stringify(concepts)}`
+    return Promise.resolve({ referenced: ids.filter((id) => haystack.includes(`"${id}"`)) })
+  }
+  return apiPost<{ referenced: string[] }>('/admin/content/references', { ids })
 }
 
 /**

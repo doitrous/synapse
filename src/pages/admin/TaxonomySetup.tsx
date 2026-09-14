@@ -24,8 +24,7 @@ import {
   type TaxTopicNode as Topic,
   type TaxSysNode as Sys,
 } from '@/data/taxonomyStore'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { fetchContentReferences } from '@/lib/content/adminContentClient'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { MedicalTaxonomyAdminBrowser } from '@/components/admin/MedicalTaxonomyAdminBrowser'
 import { overlayPortal } from '@/lib/overlayPortal'
@@ -138,8 +137,6 @@ function SystemColorControl({ systemId, short }: { systemId: string; short: stri
 export function TaxonomySetup() {
   const [medicalTaxonomy] = useMedicalTaxonomy()
   const [tree, setTree] = usePersistentState<Sys[]>(TAXONOMY_STORAGE_KEY, seedTaxonomy)
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
-  const [ledger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [open, setOpen] = useState<Record<string, boolean>>({})
   const [importing, setImporting] = useState(false)
   const [importText, setImportText] = useState('')
@@ -174,11 +171,19 @@ export function TaxonomySetup() {
   const renameMicro = (sid: string, tid: string, suid: string, mid: string, title: string) => update((d) => { findMic(d, sid, tid, suid, mid).title = title; return d })
   const renameNano = (sid: string, tid: string, suid: string, mid: string, nid: string, title: string) => update((d) => { const n = findMic(d, sid, tid, suid, mid).nanos.find((x) => x.id === nid)!; n.title = title; return d })
 
-  const referenceBlob = JSON.stringify({ concepts: graph.concepts, content: ledger })
-  const guardedRemove = (label: string, ids: string[], action: () => void) => {
-    const references = ids.filter((id) => referenceBlob.includes(`"${id}"`))
-    if (references.length) {
-      setDeleteNotice(`${label} cannot be removed because ${references.length} taxonomy ID${references.length === 1 ? ' is' : 's are'} used by articles or concepts. Reassign those records first.`)
+  // The reference check runs on the server (POST /admin/content/references) so the
+  // page never downloads the 239 MB ledger + 72 MB concept graph just to guard a
+  // rare delete. Same `"id"` substring semantics as before, now server-side.
+  const guardedRemove = async (label: string, ids: string[], action: () => void) => {
+    let referenced: string[] = []
+    try {
+      referenced = (await fetchContentReferences(ids)).referenced
+    } catch {
+      setDeleteNotice('Could not check whether that is still in use right now. Please try again.')
+      return
+    }
+    if (referenced.length) {
+      setDeleteNotice(`${label} cannot be removed because ${referenced.length} taxonomy ID${referenced.length === 1 ? ' is' : 's are'} used by articles or concepts. Reassign those records first.`)
       return
     }
     if (window.confirm(`Remove ${label}? Its stable ID will not be reused.`)) action()
