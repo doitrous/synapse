@@ -60,4 +60,8 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     // `synapse\.` family the rest of this list belongs to). Storage only —
     // see `AccountRepository.LANGUAGE_KEY`'s doc comment.
     "synapse-lang",
+    // Build Maristanas: whether the student has dismissed the one-time
+    // onboarding dialog. Matches web's `MARISTANA_ONBOARDING_KEY`
+    // (`src/data/maristanas.ts`) exactly. See `core/maristanas/Maristana.kt`.
+    "synapse.maristanas.onboarding.v1",
 )
