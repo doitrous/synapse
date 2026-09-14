@@ -49,6 +49,7 @@ class AppScaffoldTest {
                     performanceContent = { Text("PerformanceStandIn") },
                     adaptiveContent = { Text("AdaptiveStandIn") },
                     notebookContent = { Text("NotebookStandIn") },
+                    whiteboardContent = { Text("WhiteboardStandIn") },
                 )
             }
         }
@@ -132,6 +133,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingWhiteboardInTheMoreHubRendersWhiteboardContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("whiteboard")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Whiteboard")
+        composeTestRule.onNodeWithText("WhiteboardStandIn").assertIsDisplayed()
     }
 
     @Test

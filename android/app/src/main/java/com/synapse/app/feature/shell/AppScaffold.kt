@@ -29,6 +29,7 @@ import com.synapse.app.feature.library.LibraryRoute
 import com.synapse.app.feature.notebook.NotebookRoute
 import com.synapse.app.feature.placeholder.PlaceholderScreen
 import com.synapse.app.feature.taxonomy.TaxonomyRoute
+import com.synapse.app.feature.whiteboard.WhiteboardRoute
 import com.synapse.app.feature.performance.PerformanceRoute
 import com.synapse.app.feature.practical.PracticalRoute
 import com.synapse.app.feature.qbank.QuestionBankRoot
@@ -82,6 +83,7 @@ fun AppScaffold(
     performanceContent: @Composable () -> Unit = { PerformanceRoute() },
     adaptiveContent: @Composable () -> Unit = { AdaptiveRoute() },
     notebookContent: @Composable () -> Unit = { NotebookRoute() },
+    whiteboardContent: @Composable () -> Unit = { WhiteboardRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -121,6 +123,7 @@ fun AppScaffold(
         "performance" to performanceContent,
         "adaptive" to adaptiveContent,
         "notebook" to notebookContent,
+        "whiteboard" to whiteboardContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 
