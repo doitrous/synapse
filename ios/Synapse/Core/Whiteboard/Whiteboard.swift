@@ -124,6 +124,11 @@ enum BoardGeometry {
     /// control you have to know about.
     static let size = CGSize(width: 8000, height: 5000)
     static let noteSize = CGSize(width: 176, height: 74)
+    /// A placed picture's default width; height follows the image's proportions.
+    static let imageWidth: CGFloat = 260
+    /// A pinned file card's size (web `FILE_W`/`FILE_H`).
+    static let fileSize = CGSize(width: 210, height: 78)
+    static let minImageSize = CGSize(width: 60, height: 45)
 
     static let minScale: CGFloat = 0.25
     static let maxScale: CGFloat = 2.5

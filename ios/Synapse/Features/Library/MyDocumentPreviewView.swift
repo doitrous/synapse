@@ -114,7 +114,7 @@ final class DocumentPreviewLoader {
 }
 
 /// A thin SwiftUI wrapper over `QLPreviewController`.
-private struct QuickLookPreview: UIViewControllerRepresentable {
+struct QuickLookPreview: UIViewControllerRepresentable {
     let url: URL
 
     func makeUIViewController(context: Context) -> QLPreviewController {

@@ -662,6 +662,34 @@ extension SynapseAPI {
         )
     }
 
+    /// Upload a file in one call and return its new document id — create the
+    /// record, push every chunk, assemble. Used where the caller needs the id
+    /// back to reference the file (e.g. a whiteboard picture), unlike the
+    /// locker's `MyDocumentStore.upload`, which only refreshes the list.
+    func uploadMyDocument(
+        data: Data, fileName: String, mimeType: String,
+        sourceKind: String = "resource", sourceId: String? = nil
+    ) async throws -> String {
+        let created = try await createMyDocument(
+            title: MyDocumentStore.title(from: fileName), fileName: fileName,
+            mimeType: mimeType, sourceKind: sourceKind, sourceId: sourceId
+        )
+        let chunk = MyDocumentStore.chunkBytes
+        let total = max(1, Int((Double(data.count) / Double(chunk)).rounded(.up)))
+        for index in 0..<total {
+            let start = index * chunk
+            let end = min(start + chunk, data.count)
+            try await uploadMyDocumentChunk(
+                documentId: created.id, uploadId: created.uploadId, index: index,
+                data: data.subdata(in: start..<end)
+            )
+        }
+        try await completeMyDocument(
+            documentId: created.id, uploadId: created.uploadId, totalChunks: total, sizeBytes: data.count
+        )
+        return created.id
+    }
+
     func renameMyDocument(id: String, title: String) async throws {
         struct Body: Encodable { let title: String }
         _ = try await send(["my-documents", id], method: "PATCH", body: Body(title: title))

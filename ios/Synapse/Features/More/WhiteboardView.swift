@@ -1,4 +1,6 @@
+import PhotosUI
 import SwiftUI
+import UniformTypeIdentifiers
 
 /// An infinite-feeling board of notes and connections.
 ///
@@ -56,6 +58,21 @@ struct WhiteboardView: View {
     @State private var query = ""
     @State private var matchIndex = 0
 
+    @State private var selectedImage: String?
+    @State private var selectedFile: String?
+    @State private var imageDrag: (id: String, ox: Double, oy: Double)?
+    @State private var imageResize: (id: String, ow: Double, oh: Double)?
+    @State private var fileDrag: (id: String, ox: Double, oy: Double)?
+
+    // Attaching pictures and files.
+    @State private var showPhotoPicker = false
+    @State private var photoItem: PhotosPickerItem?
+    @State private var showFileImporter = false
+    /// "image" | "file" while an upload is in flight, else nil.
+    @State private var attaching: String?
+    @State private var attachError: String?
+    @State private var previewingFile: BoardFile?
+
     /// Session-only undo/redo, snapshots of the whole board — the same simple
     /// stack the web keeps, and cleared when the app closes.
     @State private var history: [BoardState] = []
@@ -92,10 +109,13 @@ struct WhiteboardView: View {
                 Menu {
                     Button { addNote() } label: { Label(strings("Note"), systemImage: "note.text") }
                     Button { addFrame() } label: { Label(strings("Section"), systemImage: "rectangle.dashed") }
+                    Button { showPhotoPicker = true } label: { Label(strings("Picture"), systemImage: "photo") }
+                    Button { showFileImporter = true } label: { Label(strings("File"), systemImage: "paperclip") }
                 } label: {
                     Image(systemName: "plus.square")
                 }
                 .tint(Theme.primary)
+                .disabled(attaching != nil)
                 Button { fitToContent() } label: { Image(systemName: "arrow.up.left.and.arrow.down.right") }
                     .tint(Theme.primary)
                     .disabled(board.notes.isEmpty && board.frames.isEmpty)
@@ -129,6 +149,26 @@ struct WhiteboardView: View {
                 onDelete: { deleteBoard($0) }
             )
             .localisedSheet()
+        }
+        .sheet(item: $previewingFile) { file in
+            NavigationStack { BoardFilePreviewView(file: file, api: api) }
+                .localisedSheet()
+        }
+        .photosPicker(isPresented: $showPhotoPicker, selection: $photoItem, matching: .images)
+        .onChange(of: photoItem) { _, item in
+            guard let item else { return }
+            Task { await addPicture(item); photoItem = nil }
+        }
+        .fileImporter(isPresented: $showFileImporter, allowedContentTypes: [.pdf, .item]) { result in
+            if case .success(let url) = result { Task { await addFile(url) } }
+        }
+        .alert(
+            strings("That could not be added"),
+            isPresented: Binding(get: { attachError != nil }, set: { if !$0 { attachError = nil } })
+        ) {
+            Button(strings("OK"), role: .cancel) { attachError = nil }
+        } message: {
+            Text(attachError ?? "")
         }
         .task { await load() }
     }
@@ -175,6 +215,40 @@ struct WhiteboardView: View {
             // Ink sits under the notes by default, over them when the student
             // flips the layer — the same two render sites the web toggles.
             if board.inkAbove != true { inkLayer }
+
+            ForEach(board.images ?? []) { image in
+                BoardImageView(image: image, api: api)
+                    .frame(width: image.width, height: image.height)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: Theme.Radius.sm)
+                            .stroke(Theme.primary, lineWidth: selectedImage == image.id ? 2 : 0)
+                    )
+                    .position(x: image.x + image.width / 2, y: image.y + image.height / 2)
+                    .allowsHitTesting(tool == .select)
+                    .onTapGesture { selectItem(image: image.id) }
+                    .gesture(dragImage(image))
+            }
+
+            // A resize grabber on the selected picture's bottom-right corner.
+            if tool == .select, let id = selectedImage,
+               let image = (board.images ?? []).first(where: { $0.id == id }) {
+                Circle()
+                    .fill(Theme.primary)
+                    .frame(width: 22, height: 22)
+                    .overlay(Image(systemName: "arrow.down.right")
+                        .font(.system(size: 10, weight: .bold)).foregroundStyle(.white))
+                    .position(x: image.x + image.width, y: image.y + image.height)
+                    .gesture(resizeImage(image))
+            }
+
+            ForEach(board.files ?? []) { file in
+                BoardFileCard(file: file, isSelected: selectedFile == file.id)
+                    .position(x: file.x + BoardGeometry.fileSize.width / 2,
+                              y: file.y + BoardGeometry.fileSize.height / 2)
+                    .allowsHitTesting(tool == .select)
+                    .onTapGesture { tapFile(file) }
+                    .gesture(dragFile(file))
+            }
 
             ForEach(board.notes) { note in
                 NoteCard(
@@ -413,12 +487,174 @@ struct WhiteboardView: View {
 
     private func tapFrame(_ frame: BoardFrame) {
         selected = nil
+        selectedImage = nil
+        selectedFile = nil
         linkingFrom = nil
         if selectedFrame == frame.id {
             editingFrame = frame
         } else {
             selectedFrame = frame.id
         }
+    }
+
+    // MARK: - Pictures and files
+
+    private func selectItem(image id: String) {
+        selected = nil
+        selectedFrame = nil
+        selectedFile = nil
+        linkingFrom = nil
+        selectedImage = id
+    }
+
+    private func tapFile(_ file: BoardFile) {
+        selected = nil
+        selectedFrame = nil
+        selectedImage = nil
+        linkingFrom = nil
+        if selectedFile == file.id {
+            previewingFile = file
+        } else {
+            selectedFile = file.id
+        }
+    }
+
+    private func addPicture(_ item: PhotosPickerItem) async {
+        attaching = "image"
+        defer { attaching = nil }
+        guard let data = try? await item.loadTransferable(type: Data.self) else {
+            attachError = strings("That picture could not be added.")
+            return
+        }
+        let type = item.supportedContentTypes.first
+        let ext = type?.preferredFilenameExtension ?? "jpg"
+        let mime = type?.preferredMIMEType ?? "image/jpeg"
+        // Keep the image's own proportions so nothing arrives stretched.
+        let ratio = UIImage(data: data).map { $0.size.height / max(1, $0.size.width) } ?? 0.75
+        do {
+            let documentId = try await api.uploadMyDocument(
+                data: data, fileName: "Picture.\(ext)", mimeType: mime,
+                sourceKind: "whiteboard", sourceId: activeBoardId
+            )
+            let height = BoardGeometry.imageWidth * ratio
+            let origin = placement(width: BoardGeometry.imageWidth, height: height)
+            remember()
+            let image = BoardImage(
+                id: UUID().uuidString, x: origin.x, y: origin.y,
+                width: BoardGeometry.imageWidth, height: height,
+                documentId: documentId, src: nil, alt: "Picture.\(ext)", sizeBytes: Double(data.count)
+            )
+            board.images = (board.images ?? []) + [image]
+            selectItem(image: image.id)
+            await save()
+        } catch {
+            attachError = strings("That picture could not be added.")
+        }
+    }
+
+    private func addFile(_ url: URL) async {
+        attaching = "file"
+        defer { attaching = nil }
+        let scoped = url.startAccessingSecurityScopedResource()
+        defer { if scoped { url.stopAccessingSecurityScopedResource() } }
+        guard let data = try? Data(contentsOf: url) else {
+            attachError = strings("That file could not be added.")
+            return
+        }
+        let mime = UTType(filenameExtension: url.pathExtension)?.preferredMIMEType
+            ?? (url.pathExtension.lowercased() == "pdf" ? "application/pdf" : "application/octet-stream")
+        let isPDF = url.pathExtension.lowercased() == "pdf" || mime == "application/pdf"
+        do {
+            let documentId = try await api.uploadMyDocument(
+                data: data, fileName: url.lastPathComponent, mimeType: mime,
+                sourceKind: "whiteboard", sourceId: activeBoardId
+            )
+            let origin = placement(width: BoardGeometry.fileSize.width, height: BoardGeometry.fileSize.height)
+            remember()
+            let file = BoardFile(
+                id: UUID().uuidString, x: origin.x, y: origin.y, documentId: documentId,
+                name: url.lastPathComponent, sizeBytes: Double(data.count), kind: isPDF ? "pdf" : "file"
+            )
+            board.files = (board.files ?? []) + [file]
+            tapFile(file)
+            await save()
+        } catch {
+            attachError = strings("That file could not be added.")
+        }
+    }
+
+    /// Somewhere sensible to drop a new item: the middle of what is on screen.
+    private func placement(width: CGFloat, height: CGFloat) -> CGPoint {
+        let centre = BoardGeometry.toBoard(
+            CGPoint(x: viewport.width / 2, y: viewport.height / 2), offset: offset, scale: scale
+        )
+        return BoardGeometry.clampToBoard(
+            CGPoint(x: centre.x - width / 2, y: centre.y - height / 2),
+            size: CGSize(width: width, height: height)
+        )
+    }
+
+    private func dragImage(_ image: BoardImage) -> some Gesture {
+        DragGesture()
+            .onChanged { value in
+                if imageDrag == nil { remember(); selectItem(image: image.id); imageDrag = (image.id, image.x, image.y) }
+                guard let drag = imageDrag,
+                      let index = board.images?.firstIndex(where: { $0.id == drag.id }) else { return }
+                let moved = BoardGeometry.clampToBoard(
+                    CGPoint(x: drag.ox + value.translation.width / scale,
+                            y: drag.oy + value.translation.height / scale),
+                    size: CGSize(width: image.width, height: image.height)
+                )
+                board.images?[index].x = moved.x
+                board.images?[index].y = moved.y
+            }
+            .onEnded { _ in imageDrag = nil; Task { await save() } }
+    }
+
+    private func resizeImage(_ image: BoardImage) -> some Gesture {
+        DragGesture()
+            .onChanged { value in
+                if imageResize == nil { remember(); imageResize = (image.id, image.width, image.height) }
+                guard let resize = imageResize,
+                      let index = board.images?.firstIndex(where: { $0.id == resize.id }) else { return }
+                // Aspect-locked from the corner, like the web.
+                let ratio = resize.oh / max(1, resize.ow)
+                let width = max(BoardGeometry.minImageSize.width, resize.ow + value.translation.width / scale)
+                board.images?[index].width = width
+                board.images?[index].height = max(BoardGeometry.minImageSize.height, width * ratio)
+            }
+            .onEnded { _ in imageResize = nil; Task { await save() } }
+    }
+
+    private func dragFile(_ file: BoardFile) -> some Gesture {
+        DragGesture()
+            .onChanged { value in
+                if fileDrag == nil { remember(); tapFile(file); selectedFile = file.id; fileDrag = (file.id, file.x, file.y) }
+                guard let drag = fileDrag,
+                      let index = board.files?.firstIndex(where: { $0.id == drag.id }) else { return }
+                let moved = BoardGeometry.clampToBoard(
+                    CGPoint(x: drag.ox + value.translation.width / scale,
+                            y: drag.oy + value.translation.height / scale),
+                    size: BoardGeometry.fileSize
+                )
+                board.files?[index].x = moved.x
+                board.files?[index].y = moved.y
+            }
+            .onEnded { _ in fileDrag = nil; Task { await save() } }
+    }
+
+    private func deleteImage(_ id: String) async {
+        remember()
+        board.images?.removeAll { $0.id == id }
+        selectedImage = nil
+        await save()
+    }
+
+    private func deleteFile(_ id: String) async {
+        remember()
+        board.files?.removeAll { $0.id == id }
+        selectedFile = nil
+        await save()
     }
 
     private func addFrame() {
@@ -456,6 +692,8 @@ struct WhiteboardView: View {
 
     private func tap(_ note: BoardNote) {
         selectedFrame = nil
+        selectedImage = nil
+        selectedFile = nil
         if let source = linkingFrom {
             // Second tap completes a link. Linking a note to itself would draw
             // a curve from an edge back to the same edge, which is a smudge.
@@ -638,6 +876,29 @@ struct WhiteboardView: View {
                     .font(Theme.ui(11))
                     .foregroundStyle(Theme.ink3)
             }
+        } else if let id = selectedImage {
+            HStack(spacing: 10) {
+                Button(role: .destructive) { Task { await deleteImage(id) } } label: {
+                    Label(strings("Delete"), systemImage: "trash").font(Theme.ui(13, weight: 500))
+                }
+                .tint(Theme.danger)
+                Spacer()
+                Text(strings("Drag to move, the corner to resize."))
+                    .font(Theme.ui(11))
+                    .foregroundStyle(Theme.ink3)
+            }
+        } else if let id = selectedFile, let file = (board.files ?? []).first(where: { $0.id == id }) {
+            HStack(spacing: 10) {
+                Button { previewingFile = file } label: {
+                    Label(strings("Open"), systemImage: "arrow.up.forward.app").font(Theme.ui(13, weight: 500))
+                }
+                .tint(Theme.primary)
+                Button(role: .destructive) { Task { await deleteFile(id) } } label: {
+                    Label(strings("Delete"), systemImage: "trash").font(Theme.ui(13, weight: 500))
+                }
+                .tint(Theme.danger)
+                Spacer()
+            }
         } else {
             HStack(spacing: 10) {
                 Text(hint)
@@ -717,6 +978,8 @@ struct WhiteboardView: View {
         board = previous
         selected = nil
         selectedFrame = nil
+        selectedImage = nil
+        selectedFile = nil
         linkingFrom = nil
         Task { await save() }
     }
@@ -727,6 +990,8 @@ struct WhiteboardView: View {
         board = next
         selected = nil
         selectedFrame = nil
+        selectedImage = nil
+        selectedFile = nil
         linkingFrom = nil
         Task { await save() }
     }
@@ -1130,5 +1395,157 @@ private struct FrameEditorSheet: View {
                 }
             }
         }
+    }
+}
+
+/// A tiny in-memory cache of decoded board images, so a picture is fetched once
+/// per session however many times the canvas re-renders.
+@MainActor
+final class BoardMediaCache {
+    static let shared = BoardMediaCache()
+    private let cache = NSCache<NSString, UIImage>()
+    func image(_ id: String) -> UIImage? { cache.object(forKey: id as NSString) }
+    func store(_ image: UIImage, _ id: String) { cache.setObject(image, forKey: id as NSString) }
+}
+
+/// A picture on the board. Its bytes live in the student's document store; this
+/// downloads them once (bearer-authed, so a plain URL will not do) and caches
+/// the decoded image.
+private struct BoardImageView: View {
+    @Environment(\.strings) private var strings
+    let image: BoardImage
+    let api: SynapseAPI
+
+    @State private var uiImage: UIImage?
+    @State private var failed = false
+
+    var body: some View {
+        ZStack {
+            if let uiImage {
+                Image(uiImage: uiImage).resizable().scaledToFill()
+            } else if failed {
+                Image(systemName: "photo").font(.system(size: 22)).foregroundStyle(Theme.ink3)
+            } else {
+                ProgressView().tint(Theme.primary)
+            }
+        }
+        .frame(width: image.width, height: image.height)
+        .background(Theme.surface2)
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.sm))
+        .task(id: image.documentId ?? image.src ?? image.id) { await load() }
+    }
+
+    private func load() async {
+        // A legacy inline data: URL decodes directly; otherwise fetch by id.
+        if let src = image.src, let data = Self.dataURL(src), let decoded = UIImage(data: data) {
+            uiImage = decoded
+            return
+        }
+        guard let documentId = image.documentId else { failed = true; return }
+        if let cached = BoardMediaCache.shared.image(documentId) { uiImage = cached; return }
+        do {
+            let url = try await api.downloadMyDocument(id: documentId) { _ in }
+            guard let decoded = UIImage(contentsOfFile: url.path) else { failed = true; return }
+            BoardMediaCache.shared.store(decoded, documentId)
+            uiImage = decoded
+        } catch {
+            failed = true
+        }
+    }
+
+    /// Decode a `data:...;base64,...` URL, the shape a legacy web board uses.
+    private static func dataURL(_ src: String) -> Data? {
+        guard src.hasPrefix("data:"), let comma = src.firstIndex(of: ",") else { return nil }
+        return Data(base64Encoded: String(src[src.index(after: comma)...]))
+    }
+}
+
+/// A file pinned to the board, shown as a card with its name and size.
+private struct BoardFileCard: View {
+    let file: BoardFile
+    let isSelected: Bool
+
+    var body: some View {
+        HStack(spacing: 10) {
+            Image(systemName: file.kind == "pdf" ? "doc.richtext" : "doc")
+                .font(.system(size: 20))
+                .foregroundStyle(Theme.primary)
+            VStack(alignment: .leading, spacing: 2) {
+                Text(file.name).font(Theme.ui(13, weight: 600)).foregroundStyle(Theme.ink).lineLimit(2)
+                Text(ByteCountFormatter.string(fromByteCount: Int64(file.sizeBytes), countStyle: .file))
+                    .font(Theme.numeric(11)).foregroundStyle(Theme.ink3)
+            }
+            Spacer(minLength: 0)
+        }
+        .padding(10)
+        .frame(width: BoardGeometry.fileSize.width, height: BoardGeometry.fileSize.height, alignment: .leading)
+        .background(Theme.surface)
+        .overlay(
+            RoundedRectangle(cornerRadius: Theme.Radius.md)
+                .stroke(isSelected ? Theme.primary : Theme.line, lineWidth: isSelected ? 2 : 1)
+        )
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md))
+    }
+}
+
+/// Open a pinned file: download the bytes and hand them to QuickLook, which
+/// pages a PDF and previews other types.
+private struct BoardFilePreviewView: View {
+    @Environment(\.strings) private var strings
+    @Environment(\.dismiss) private var dismiss
+    let file: BoardFile
+    let api: SynapseAPI
+
+    @State private var phase: Phase = .loading
+
+    private enum Phase: Equatable { case loading, ready(URL), failed }
+
+    var body: some View {
+        Group {
+            switch phase {
+            case .loading:
+                VStack(spacing: 14) {
+                    ProgressView().tint(Theme.primary)
+                    Text(strings("Opening…")).font(Theme.ui(13)).foregroundStyle(Theme.ink2)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Theme.paper)
+            case .ready(let url):
+                QuickLookPreview(url: url).ignoresSafeArea(edges: .bottom)
+            case .failed:
+                EmptyStateView(
+                    symbol: "exclamationmark.triangle", title: "Could not open it",
+                    detail: "This file could not be opened. Check your connection and try again."
+                )
+            }
+        }
+        .navigationTitle(file.name)
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .confirmationAction) { Button(strings("Done")) { dismiss() } }
+        }
+        .task { await load() }
+    }
+
+    private func load() async {
+        do {
+            let temporary = try await api.downloadMyDocument(id: file.documentId) { _ in }
+            phase = .ready(try Self.place(temporary, for: file))
+        } catch {
+            phase = .failed
+        }
+    }
+
+    /// Give the download the right extension so QuickLook knows the type.
+    private static func place(_ temporary: URL, for file: BoardFile) throws -> URL {
+        let ns = file.name as NSString
+        let ext = ns.pathExtension.isEmpty ? (file.kind == "pdf" ? "pdf" : "dat") : ns.pathExtension
+        let safeId = file.documentId.filter { $0.isLetter || $0.isNumber || $0 == "_" || $0 == "-" }
+        let destination = FileManager.default.temporaryDirectory
+            .appendingPathComponent("wbfile-\(safeId).\(ext)")
+        guard destination != temporary else { return temporary }
+        try? FileManager.default.removeItem(at: destination)
+        try FileManager.default.moveItem(at: temporary, to: destination)
+        return destination
     }
 }
