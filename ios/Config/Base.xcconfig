@@ -28,7 +28,9 @@ INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPo
 INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
 
 // Where the app talks to. Hosts only — no scheme, see the note above.
-API_HOST = synapse.doitrous.com
+// Production host after the nishany rebrand; the old synapse.doitrous.com is
+// retired (returns 503).
+API_HOST = nishany.com
 
 // Real values live in Secrets.xcconfig, which is gitignored. The optional
 // include means a fresh clone still builds; the app then shows a clear
