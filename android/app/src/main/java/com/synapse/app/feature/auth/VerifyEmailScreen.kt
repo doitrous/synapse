@@ -11,9 +11,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 
 /**
  * Shown by [RequireAuth] when [com.synapse.app.core.auth.AuthState.NeedsEmailVerify]:
@@ -34,10 +36,9 @@ fun VerifyEmailScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Text(text = "Verify your email", style = MaterialTheme.typography.headlineMedium)
+        Text(text = stringResource(R.string.auth_verify_email_title), style = MaterialTheme.typography.headlineMedium)
         Text(
-            text = "We've sent a verification link to your email. " +
-                "Follow it, then check again below.",
+            text = stringResource(R.string.auth_verify_email_body),
             modifier = Modifier.padding(top = 8.dp),
         )
 
@@ -55,7 +56,7 @@ fun VerifyEmailScreen(
             enabled = !uiState.submitting,
             modifier = Modifier.padding(top = 16.dp),
         ) {
-            Text("Check again")
+            Text(stringResource(R.string.auth_check_again))
         }
     }
 }

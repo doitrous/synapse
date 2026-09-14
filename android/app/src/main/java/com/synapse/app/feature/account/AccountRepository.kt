@@ -114,7 +114,7 @@ class AccountRepository @Inject constructor(
         syncEngine.write(AccountPrefs.KEY, json.encodeToString(AccountPrefs.serializer(), prefs), now)
     }
 
-    // --- Language (synced storage only — see LANGUAGE_KEY doc comment) -------
+    // --- Language (synced; drives this client's own locale too — see LANGUAGE_KEY) -------
 
     suspend fun language(): String {
         val stored = localStore.getUserState(LANGUAGE_KEY) ?: return DEFAULT_LANGUAGE
@@ -189,10 +189,11 @@ class AccountRepository @Inject constructor(
          * exactly (no `.v1`, no leading `synapse.`) — `StateOwnership`
          * already carries a `^synapse-lang$` pattern for it.
          *
-         * Storage only: Android has no i18n/string-table or RTL layout
-         * system yet, so setting this records the student's choice for the
-         * other clients (and for whenever Android grows one) — it does not
-         * yet change anything this client renders.
+         * Cross-client: also drives this app's own locale (see
+         * [com.synapse.app.core.i18n.LocaleController], applied from
+         * [com.synapse.app.RootViewModel] at startup and from
+         * [AccountViewModel.setLanguage] on change), not just the other
+         * clients'.
          */
         const val LANGUAGE_KEY = "synapse-lang"
     }

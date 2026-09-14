@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:allowBackup="false"
         android:supportsRtl="true"
+        android:localeConfig="@xml/locales_config"
         android:theme="@style/Theme.Synapse">
         <activity
             android:name=".MainActivity"
@@ -35,5 +36,21 @@
                 android:value="androidx.startup"
                 tools:node="remove" />
         </provider>
+
+        <!--
+          Below Android 13, AppCompat has no OS-level per-app-language store to piggyback
+          on, so it keeps its own (a SharedPreferences file) instead — but only once this
+          override turns that on. Without it, setApplicationLocales(...) would still change
+          the running process's locale, but a fresh process (app restart, task kill) would
+          come back in the previous locale until synapse-lang is re-applied.
+        -->
+        <service
+            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="autoStoreLocales"
+                android:value="true" />
+        </service>
     </application>
 </manifest>

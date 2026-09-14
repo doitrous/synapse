@@ -84,6 +84,10 @@ dependencies {
     implementation(libs.datastore.preferences)
     implementation(libs.coil.compose)
 
+    // Per-app language (AppCompatDelegate.setApplicationLocales) — works with a
+    // plain ComponentActivity as long as appcompat is on the classpath.
+    implementation(libs.appcompat)
+
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
     testImplementation(libs.robolectric)
