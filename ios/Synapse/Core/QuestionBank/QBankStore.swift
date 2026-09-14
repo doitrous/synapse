@@ -40,24 +40,48 @@ final class QBankStore {
 
     private let api: SynapseAPI
     private let sync: SyncEngine
+    private let store: LocalStore
     private var savedCue: Task<Void, Never>?
 
-    init(api: SynapseAPI, sync: SyncEngine) {
+    init(api: SynapseAPI, sync: SyncEngine, store: LocalStore) {
         self.api = api
         self.sync = sync
+        self.store = store
     }
 
     func load() async {
-        async let remoteMarked = try? api.userState([String].self, key: Self.markedKey)
-        async let remoteNotes = try? api.userState([String: String].self, key: Self.notesKey)
-        async let remoteNames = try? api.userState([String: String].self, key: Self.namesKey)
-        async let remoteLive = try? api.userState(LiveSession.self, key: LiveSession.key)
+        // Read-through the local cache. A cold launch offline used to read all
+        // four as empty and then a single flag or note would overwrite the
+        // server with that emptiness, wiping everything the student had marked.
+        // Now the last successful read is cached, so offline restores the real
+        // values instead — and a genuinely first-ever offline launch (no cache,
+        // no server copy) reads empty correctly, with nothing to wipe.
+        async let m = readThrough([String].self, key: Self.markedKey)
+        async let n = readThrough([String: String].self, key: Self.notesKey)
+        async let s = readThrough([String: String].self, key: Self.namesKey)
+        async let l = readThrough(LiveSession.self, key: LiveSession.key)
 
-        marked = Set((await remoteMarked)?.value ?? [])
-        notes = (await remoteNotes)?.value ?? [:]
-        names = (await remoteNames)?.value ?? [:]
-        live = (await remoteLive)?.value
+        marked = Set(await m ?? [])
+        notes = await n ?? [:]
+        names = await s ?? [:]
+        live = await l
         isLoaded = true
+    }
+
+    /// Network-first with a local fallback: on a successful read, cache the
+    /// bytes and return the value; when the network fails, return the last
+    /// cached copy rather than nil-as-empty.
+    private func readThrough<Value: Codable>(_ type: Value.Type, key: String) async -> Value? {
+        if let remote = try? await api.userState(Value.self, key: key), let value = remote.value {
+            if let blob = try? JSONEncoder().encode(value) {
+                try? await store.saveUserDoc(key: key, document: blob)
+            }
+            return value
+        }
+        if let blob = (try? await store.userDoc(key: key)) ?? nil {
+            return try? JSONDecoder().decode(Value.self, from: blob)
+        }
+        return nil
     }
 
     // MARK: - Flagging

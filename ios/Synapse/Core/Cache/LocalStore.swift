@@ -139,6 +139,20 @@ actor LocalStore {
             }
         }
 
+        migrator.registerMigration("v3-userdoc") { db in
+            // A last-known-good copy of the student's own small documents —
+            // question flags, notes, session names, the live sitting. These
+            // have no rich local model like attempts do, but they must not read
+            // as empty on an offline cold launch: the store would then write
+            // that emptiness back and wipe the server's real flags and notes.
+            // A read-through cache keyed by user-state key, mirroring catalogue.
+            try db.create(table: "userDoc") { t in
+                t.primaryKey("key", .text)
+                t.column("document", .blob).notNull()
+                t.column("fetchedAt", .datetime).notNull()
+            }
+        }
+
         return migrator
     }
 
@@ -229,6 +243,32 @@ actor LocalStore {
     func catalogue(key: String) throws -> Data? {
         try dbQueue.read { db in
             try Data.fetchOne(db, sql: "SELECT document FROM catalogue WHERE key = ?", arguments: [key])
+        }
+    }
+
+    // MARK: - User documents (read-through cache)
+
+    /// Cache the last successful read of one of the student's own small
+    /// documents, so an offline cold launch can restore it instead of reading
+    /// empty and overwriting the server with that emptiness.
+    func saveUserDoc(key: String, document: Data) throws {
+        try dbQueue.write { db in
+            try db.execute(
+                sql: """
+                    INSERT INTO userDoc (key, document, fetchedAt)
+                    VALUES (?, ?, ?)
+                    ON CONFLICT(key) DO UPDATE SET
+                        document = excluded.document,
+                        fetchedAt = excluded.fetchedAt
+                    """,
+                arguments: [key, document, Date()]
+            )
+        }
+    }
+
+    func userDoc(key: String) throws -> Data? {
+        try dbQueue.read { db in
+            try Data.fetchOne(db, sql: "SELECT document FROM userDoc WHERE key = ?", arguments: [key])
         }
     }
 

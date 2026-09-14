@@ -12,7 +12,7 @@ struct QuestionBankView: View {
         _model = State(wrappedValue: QuestionBankModel(
             store: store, sync: sync, audience: audience
         ))
-        _qbank = State(wrappedValue: QBankStore(api: api, sync: sync))
+        _qbank = State(wrappedValue: QBankStore(api: api, sync: sync, store: store))
         _mastery = State(wrappedValue: MasteryModel(api: api, sync: sync))
         self.sync = sync
     }
