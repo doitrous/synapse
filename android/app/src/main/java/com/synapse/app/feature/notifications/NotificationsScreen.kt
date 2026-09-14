@@ -20,10 +20,12 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.ShareNotification
 
 const val NOTIFICATIONS_LOADING_TAG = "notifications_loading"
@@ -47,7 +49,7 @@ fun NotificationsRoute(viewModel: NotificationsViewModel = hiltViewModel()) {
         }
         is NotificationsUiState.Content -> NotificationsContent(state, onTap = viewModel::markRead)
         NotificationsUiState.Unavailable -> Box(Modifier.fillMaxSize().testTag(NOTIFICATIONS_UNAVAILABLE_TAG), contentAlignment = Alignment.Center) {
-            Text("Notifications aren't available right now.")
+            Text(stringResource(R.string.notifications_unavailable))
         }
     }
 }
@@ -57,14 +59,14 @@ private fun NotificationsContent(state: NotificationsUiState.Content, onTap: (St
     Column(Modifier.fillMaxSize()) {
         if (state.fromCache) {
             Text(
-                "Showing your last-known inbox — you're offline.",
+                stringResource(R.string.notifications_offline_banner),
                 color = MaterialTheme.colorScheme.error,
                 modifier = Modifier.padding(12.dp),
             )
         }
         if (state.items.isEmpty()) {
             Box(Modifier.fillMaxSize().testTag(NOTIFICATIONS_EMPTY_TAG), contentAlignment = Alignment.Center) {
-                Text("No shared-document notifications yet.")
+                Text(stringResource(R.string.notifications_empty))
             }
         } else {
             LazyColumn(Modifier.fillMaxSize()) {

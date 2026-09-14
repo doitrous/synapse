@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/taxonomy — mirrors iOS's Core/Localisation/ArabicStrings.swift
+         and web's src/data/i18n-ar.ts Medical Taxonomy section (Medical
+         Taxonomy, the bilingual-dictionary subtitle, search placeholder,
+         "no terms match", "e.g." prefix); "not published yet"/"back" mirror
+         other precedents there ("The glossary has not been published yet."
+         from web, notebook's "back" → رجوع). -->
+
+    <string name="taxonomy_loading">جارٍ التحميل…</string>
+
+    <!-- TermListPane: header, search field, empty states. -->
+    <string name="taxonomy_title">المصطلحات الطبية</string>
+    <string name="taxonomy_subtitle">قاموس ثنائي اللغة لأهم المصطلحات الطبية — بترجمة عربية وشرح مبسّط.</string>
+    <string name="taxonomy_search_label">ابحث عن مصطلح بالعربية أو الإنجليزية</string>
+    <string name="taxonomy_empty_not_published">لم يُنشر القاموس بعد.</string>
+    <string name="taxonomy_empty_no_matches">لا توجد مصطلحات مطابقة لبحثك.</string>
+
+    <!-- TermDetailPane: back button, example prefix. -->
+    <string name="taxonomy_back">رجوع</string>
+    <string name="taxonomy_example_format">مثال: %1$s</string>
+</resources>

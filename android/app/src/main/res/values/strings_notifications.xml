@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/notifications — shared-notifications inbox chrome (EN/AR).
+         A notification's own title/message comes from the server and is
+         never localized here — only the surrounding chrome: unavailable,
+         offline banner, and empty state. -->
+
+    <string name="notifications_unavailable">Notifications aren\'t available right now.</string>
+    <string name="notifications_offline_banner">Showing your last-known inbox — you\'re offline.</string>
+    <string name="notifications_empty">No shared-document notifications yet.</string>
+</resources>

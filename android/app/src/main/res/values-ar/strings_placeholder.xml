@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/placeholder — mirrors strings_adaptive.xml's own
+         adaptive_coming_soon precedent ("قريبًا"). -->
+
+    <string name="placeholder_coming_soon">قريبًا</string>
+</resources>

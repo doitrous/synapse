@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/taxonomy — Medical Taxonomy / bilingual glossary chrome (EN/AR).
+         Glossary term content itself (term, arabic, category, definition,
+         definitionAr, example) is synced data (synapse-medical-glossary-v1)
+         and is never localized here — only the surrounding chrome: loading,
+         header, search, empty/error states, and detail back button. -->
+
+    <string name="taxonomy_loading">Loading…</string>
+
+    <!-- TermListPane: header, search field, empty states. -->
+    <string name="taxonomy_title">Medical taxonomy</string>
+    <string name="taxonomy_subtitle">A bilingual dictionary of the basic medical terms — with Arabic translations and plain explanations.</string>
+    <string name="taxonomy_search_label">Search a term in Arabic or English</string>
+    <string name="taxonomy_empty_not_published">The glossary has not been published yet.</string>
+    <string name="taxonomy_empty_no_matches">No terms match your search.</string>
+
+    <!-- TermDetailPane: back button, example prefix. -->
+    <string name="taxonomy_back">Back</string>
+    <string name="taxonomy_example_format">e.g. %1$s</string>
+</resources>

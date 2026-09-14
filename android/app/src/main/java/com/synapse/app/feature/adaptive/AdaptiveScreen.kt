@@ -32,10 +32,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.synapse.app.R
-import com.synapse.app.core.adaptive.CONCEPT_STATUS_LABEL
 import com.synapse.app.core.adaptive.ConceptStatus
-import com.synapse.app.core.adaptive.NON_NEGOTIABLE_CONSTRAINTS
-import com.synapse.app.core.adaptive.RELAXABLE_CONSTRAINT_LABEL
+import com.synapse.app.core.adaptive.RelaxableConstraint
 import com.synapse.app.core.adaptive.rawWrongAttempts
 import kotlin.math.roundToInt
 
@@ -316,7 +314,7 @@ private fun ConceptsTab(study: AdaptiveStudy, onSetOverride: (String, OverrideMo
                 Column(modifier = Modifier.padding(12.dp)) {
                     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
                         Text(node.label, style = MaterialTheme.typography.bodyLarge)
-                        Text(CONCEPT_STATUS_LABEL.getValue(status), style = MaterialTheme.typography.labelLarge)
+                        Text(stringResource(CONCEPT_STATUS_LABEL_RES.getValue(status)), style = MaterialTheme.typography.labelLarge)
                     }
                     Text(
                         stringResource(R.string.adaptive_concept_group_percent, node.groupLabel, percent(node.weight)),
@@ -462,8 +460,8 @@ private fun HowItWorksTab(study: AdaptiveStudy) {
         }
 
         SectionCard(stringResource(R.string.adaptive_rules_never_relaxed_title)) {
-            NON_NEGOTIABLE_CONSTRAINTS.forEach { rule ->
-                Text("• $rule", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 6.dp))
+            NON_NEGOTIABLE_CONSTRAINT_RES.forEach { ruleRes ->
+                Text("• ${stringResource(ruleRes)}", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 6.dp))
             }
             Text(
                 stringResource(R.string.adaptive_relaxation_order_note),
@@ -472,7 +470,7 @@ private fun HowItWorksTab(study: AdaptiveStudy) {
             )
             study.config.relaxationOrder.forEachIndexed { index, rule ->
                 Text(
-                    stringResource(R.string.adaptive_relaxation_rule_item, index + 1, RELAXABLE_CONSTRAINT_LABEL.getValue(rule)),
+                    stringResource(R.string.adaptive_relaxation_rule_item, index + 1, stringResource(RELAXABLE_CONSTRAINT_LABEL_RES.getValue(rule))),
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(top = 4.dp),
                 )
@@ -480,8 +478,8 @@ private fun HowItWorksTab(study: AdaptiveStudy) {
         }
 
         SectionCard(stringResource(R.string.adaptive_status_meanings_title)) {
-            CONCEPT_STATUS_LABEL.keys.forEach { status ->
-                Text(CONCEPT_STATUS_LABEL.getValue(status), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 8.dp))
+            CONCEPT_STATUS_LABEL_RES.keys.forEach { status ->
+                Text(stringResource(CONCEPT_STATUS_LABEL_RES.getValue(status)), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 8.dp))
                 Text(
                     stringResource(STATUS_EXPLANATION.getValue(status)),
                     style = MaterialTheme.typography.bodySmall,
@@ -539,4 +537,37 @@ private val STATUS_EXPLANATION: Map<ConceptStatus, Int> = mapOf(
     ConceptStatus.DEVELOPING to R.string.adaptive_status_explanation_developing,
     ConceptStatus.SECURE to R.string.adaptive_status_explanation_secure,
     ConceptStatus.REVIEW_DUE to R.string.adaptive_status_explanation_review_due,
+)
+
+// core-adaptive cleanup: the label maps used to live in core/adaptive as
+// English-only String constants (CONCEPT_STATUS_LABEL, RELAXABLE_CONSTRAINT_LABEL,
+// NON_NEGOTIABLE_CONSTRAINTS). The model/config logic (ConceptStatus, RelaxableConstraint,
+// relaxationOrder) is untouched; only the human-readable label moved here as
+// @StringRes ids, resolved with stringResource at the call site below.
+
+private val CONCEPT_STATUS_LABEL_RES: Map<ConceptStatus, Int> = mapOf(
+    ConceptStatus.UNMEASURED to R.string.adaptive_status_label_unmeasured,
+    ConceptStatus.ATTENTION to R.string.adaptive_status_label_attention,
+    ConceptStatus.WEAK to R.string.adaptive_status_label_weak,
+    ConceptStatus.DEVELOPING to R.string.adaptive_status_label_developing,
+    ConceptStatus.SECURE to R.string.adaptive_status_label_secure,
+    ConceptStatus.REVIEW_DUE to R.string.adaptive_status_label_review_due,
+)
+
+private val RELAXABLE_CONSTRAINT_LABEL_RES: Map<RelaxableConstraint, Int> = mapOf(
+    RelaxableConstraint.NOVELTY to R.string.adaptive_constraint_novelty,
+    RelaxableConstraint.DIFFICULTY_MIX to R.string.adaptive_constraint_difficulty_mix,
+    RelaxableConstraint.CONSECUTIVE_TOPIC to R.string.adaptive_constraint_consecutive_topic,
+    RelaxableConstraint.UNSEEN_SHARE to R.string.adaptive_constraint_unseen_share,
+    RelaxableConstraint.CONCEPT_CAP to R.string.adaptive_constraint_concept_cap,
+    RelaxableConstraint.EXPOSURE_CAP to R.string.adaptive_constraint_exposure_cap,
+    RelaxableConstraint.QUOTA_TOLERANCE to R.string.adaptive_constraint_quota_tolerance,
+)
+
+/** Never relaxed, at any pool size, for any student. Stated so it can be shown. */
+private val NON_NEGOTIABLE_CONSTRAINT_RES: List<Int> = listOf(
+    R.string.adaptive_non_negotiable_content_approval,
+    R.string.adaptive_non_negotiable_scope,
+    R.string.adaptive_non_negotiable_language_accessibility,
+    R.string.adaptive_non_negotiable_held_out_readiness,
 )

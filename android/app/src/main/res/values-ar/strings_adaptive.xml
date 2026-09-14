@@ -157,4 +157,27 @@
         <item quantity="many">%1$d مفهومًا ضعيفًا لإصلاحه</item>
         <item quantity="other">%1$d مفهوم ضعيف لإصلاحه</item>
     </plurals>
+
+    <!-- core-adaptive cleanup: mirrors iOS's ArabicStrings.swift (Status /
+         non-negotiable-constraints / relaxable-constraints sections) verbatim,
+         same source strings web's i18n-ar.ts also mirrors. -->
+    <string name="adaptive_status_label_unmeasured">غير مُقاس</string>
+    <string name="adaptive_status_label_attention">يحتاج نظرة ثانية</string>
+    <string name="adaptive_status_label_weak">ضعيف</string>
+    <string name="adaptive_status_label_developing">قيد التطوّر</string>
+    <string name="adaptive_status_label_secure">راسخ</string>
+    <string name="adaptive_status_label_review_due">مراجعة مستحقة</string>
+
+    <string name="adaptive_constraint_novelty">تفضيل الأسئلة الجديدة</string>
+    <string name="adaptive_constraint_difficulty_mix">مزيج الصعوبة والمهام الذهنية</string>
+    <string name="adaptive_constraint_consecutive_topic">ما لا يزيد على ثلاثة أسئلة متتالية من موضوع واحد</string>
+    <string name="adaptive_constraint_unseen_share">الحد الأدنى لنسبة الأسئلة الجديدة عليك</string>
+    <string name="adaptive_constraint_concept_cap">ما لا يزيد على سؤالين يغلب عليهما مفهوم واحد</string>
+    <string name="adaptive_constraint_exposure_cap">حد التكرار لكل سؤال</string>
+    <string name="adaptive_constraint_quota_tolerance">هامش حصص المخطط</string>
+
+    <string name="adaptive_non_negotiable_content_approval">حالة اعتماد المحتوى</string>
+    <string name="adaptive_non_negotiable_scope">نطاق الجامعة والسنة والوحدة</string>
+    <string name="adaptive_non_negotiable_language_accessibility">متطلبات اللغة وإمكانية الوصول</string>
+    <string name="adaptive_non_negotiable_held_out_readiness">أسئلة الجاهزية المحجوزة مستبعدة من التدريب</string>
 </resources>
