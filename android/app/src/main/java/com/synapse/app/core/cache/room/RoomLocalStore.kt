@@ -46,6 +46,11 @@ class RoomLocalStore(
             AttemptRecord(id = it.id, month = it.month, payload = jsonFormat.decodeFromString(JsonObject.serializer(), it.json))
         }
 
+    override suspend fun allAttempts(): List<AttemptRecord> =
+        attemptDao.all().map {
+            AttemptRecord(id = it.id, month = it.month, payload = jsonFormat.decodeFromString(JsonObject.serializer(), it.json))
+        }
+
     override suspend fun putUserState(key: String, json: String, savedAt: String?, serverUpdatedAt: String?) {
         userStateDao.upsert(UserStateEntity(key = key, json = json, savedAt = savedAt, serverUpdatedAt = serverUpdatedAt))
     }
