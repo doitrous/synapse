@@ -53,6 +53,7 @@ class AppScaffoldTest {
                     calendarContent = { Text("CalendarStandIn") },
                     universityContent = { Text("UniversityStandIn") },
                     accountContent = { Text("AccountStandIn") },
+                    billingContent = { Text("BillingStandIn") },
                 )
             }
         }
@@ -136,6 +137,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingBillingInTheMoreHubRendersBillingContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("billing")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Billing")
+        composeTestRule.onNodeWithText("BillingStandIn").assertIsDisplayed()
     }
 
     @Test

@@ -24,6 +24,7 @@ import com.synapse.app.design.ThemeChoice
 import com.synapse.app.feature.adaptive.AdaptiveRoute
 import com.synapse.app.feature.dashboard.DashboardScreen
 import com.synapse.app.feature.account.AccountRoute
+import com.synapse.app.feature.billing.BillingRoute
 import com.synapse.app.feature.calendar.CalendarRoute
 import com.synapse.app.feature.essays.EssaysRoute
 import com.synapse.app.feature.flashcards.FlashcardsRoot
@@ -90,6 +91,7 @@ fun AppScaffold(
     calendarContent: @Composable () -> Unit = { CalendarRoute() },
     universityContent: @Composable () -> Unit = { UniversityRoute() },
     accountContent: @Composable () -> Unit = { AccountRoute() },
+    billingContent: @Composable () -> Unit = { BillingRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -133,6 +135,7 @@ fun AppScaffold(
         "calendar" to calendarContent,
         "university" to universityContent,
         "account" to accountContent,
+        "billing" to billingContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 
