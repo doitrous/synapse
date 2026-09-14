@@ -52,6 +52,9 @@ struct WhiteboardView: View {
     @State private var strokeInProgress = false
 
     @State private var showBoards = false
+    @State private var searching = false
+    @State private var query = ""
+    @State private var matchIndex = 0
 
     /// Session-only undo/redo, snapshots of the whole board — the same simple
     /// stack the web keeps, and cleared when the app closes.
@@ -79,6 +82,11 @@ struct WhiteboardView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {
+                Button {
+                    searching.toggle()
+                    if !searching { query = "" }
+                } label: { Image(systemName: "magnifyingglass") }
+                    .tint(Theme.primary)
                 Button { showBoards = true } label: { Image(systemName: "square.stack") }
                     .tint(Theme.primary)
                 Menu {
@@ -93,6 +101,7 @@ struct WhiteboardView: View {
                     .disabled(board.notes.isEmpty && board.frames.isEmpty)
             }
         }
+        .safeAreaInset(edge: .top) { if searching { findBar } }
         .safeAreaInset(edge: .bottom) { toolbar }
         .sheet(item: $editing) { note in
             NoteEditorSheet(note: note) { updated in
@@ -459,6 +468,59 @@ struct WhiteboardView: View {
         } else {
             selected = note.id
         }
+    }
+
+    // MARK: - Search
+
+    private var matches: [BoardNote] { BoardGeometry.matching(query, in: board.notes) }
+
+    private var findBar: some View {
+        HStack(spacing: 10) {
+            Image(systemName: "magnifyingglass").foregroundStyle(Theme.ink3)
+            TextField(strings("Find a note"), text: $query)
+                .textFieldStyle(.plain)
+                .font(Theme.ui(14))
+                .autocorrectionDisabled()
+                .onChange(of: query) { _, _ in matchIndex = 0; goToHit() }
+                .onSubmit { step(1) }
+
+            if !matches.isEmpty {
+                Text("\(matchIndex + 1)/\(matches.count)")
+                    .font(Theme.numeric(11)).foregroundStyle(Theme.ink3)
+                Button { step(-1) } label: { Image(systemName: "chevron.up") }.tint(Theme.primary)
+                Button { step(1) } label: { Image(systemName: "chevron.down") }.tint(Theme.primary)
+            } else if !query.isEmpty {
+                Text(strings("None")).font(Theme.ui(12)).foregroundStyle(Theme.ink3)
+            }
+
+            Button { searching = false; query = "" } label: { Image(systemName: "xmark") }
+                .tint(Theme.ink3)
+        }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 10)
+        .frame(maxWidth: .infinity)
+        .floatingChrome(in: Rectangle())
+    }
+
+    /// Step to the next/previous hit, wrapping around, and bring it into view.
+    private func step(_ delta: Int) {
+        guard !matches.isEmpty else { return }
+        matchIndex = (matchIndex + delta + matches.count) % matches.count
+        goToHit()
+    }
+
+    /// Centre the view on the current match and select it, so a found note is
+    /// both visible and highlighted.
+    private func goToHit() {
+        guard matchIndex < matches.count else { return }
+        let note = matches[matchIndex]
+        selected = note.id
+        selectedFrame = nil
+        offset = BoardGeometry.centred(
+            on: CGPoint(x: note.x + BoardGeometry.noteSize.width / 2,
+                        y: note.y + BoardGeometry.noteSize.height / 2),
+            scale: BoardGeometry.clampScale(scale), viewport: viewport
+        )
     }
 
     // MARK: - Toolbar
