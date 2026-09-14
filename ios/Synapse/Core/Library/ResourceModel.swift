@@ -55,17 +55,35 @@ enum ResourceType: String, CaseIterable, Sendable {
 @Observable
 final class ResourceModel {
 
+    /// A chapter grouping inside a folder. `key` is the chapter, or `noChapter`
+    /// for the resources that name none — those show without a subheading.
+    struct Subfolder: Identifiable, Equatable, Sendable {
+        let key: String
+        var items: [LibraryResource]
+        var id: String { key }
+        var chapter: String? { key == ResourceModel.noChapter ? nil : key }
+    }
+
     struct Folder: Identifiable, Equatable, Sendable {
         let id: String
         let title: String
-        var resources: [LibraryResource]
+        /// The subject to colour the folder by; absent when nothing names one.
+        let subjectId: String?
+        var subfolders: [Subfolder]
+        /// Everything in the folder, flattened — for the filters and counts.
+        var resources: [LibraryResource] { subfolders.flatMap(\.items) }
     }
+
+    /// A folder or chapter with no name — an absent subject/module, or chapter.
+    /// `nonisolated` so the pure `group` (also nonisolated) can read them.
+    nonisolated static let ungrouped = "__none__"
+    nonisolated static let noChapter = "__general__"
 
     private(set) var folders: [Folder] = []
     /// How the shelf is arranged, remembered on this device.
     var grouping: Grouping = Grouping(
         rawValue: UserDefaults.standard.string(forKey: Grouping.key) ?? ""
-    ) ?? .system {
+    ) ?? .module {
         didSet {
             UserDefaults.standard.set(grouping.rawValue, forKey: Grouping.key)
             folders = Self.group(folders.flatMap(\.resources), by: grouping)
@@ -190,53 +208,79 @@ final class ResourceModel {
 
     /// How the shelf is arranged.
     ///
-    /// The web keeps this choice per device under `synapse.resources.groupBy`:
-    /// it is about how a student likes to browse, not about the student.
+    /// The web keeps this choice per device under `nishany.resources.groupBy`:
+    /// it is about how a student likes to browse, not about the student. Two
+    /// axes, matching the web — the primary folder is a **subject** or a
+    /// **module**, and each folder is split into **chapter** subfolders.
     enum Grouping: String, CaseIterable, Sendable {
-        case system, subject, kind
+        case system, module
 
         var label: String {
             switch self {
-            case .system: "By chapter"
-            case .subject: "By subject"
-            case .kind: "By type"
+            case .system: "System"
+            case .module: "Module"
             }
         }
 
         static let key = "nishany.resources.groupBy"
     }
 
-    /// Group the shelf. Resources with nothing recorded collect at the end
-    /// rather than vanishing.
+    /// "CVS 2" before "CVS 10", and the nameless bucket last — a port of the
+    /// web's `byModuleId`, over `localizedStandard` so digits compare as numbers.
+    nonisolated private static func byModuleId(_ a: String, _ b: String) -> Bool {
+        if a == ungrouped { return false }
+        if b == ungrouped { return true }
+        return a.localizedStandardCompare(b) == .orderedAscending
+    }
+
+    /// Group the shelf into subject/module folders of chapter subfolders — a
+    /// port of `src/data/resourceGrouping.ts:groupResources`. Nothing is ever
+    /// dropped for carrying an off-catalogue subject or module; unknown keys
+    /// keep catalogue subjects company at the end, and the nameless bucket last.
     nonisolated static func group(
-        _ resources: [LibraryResource], by grouping: Grouping = .system
+        _ resources: [LibraryResource], by grouping: Grouping = .module
     ) -> [Folder] {
-        var folders: [String: Folder] = [:]
-        var order: [String] = []
-
+        // Primary buckets, in first-seen order.
+        var primaries: [String: [LibraryResource]] = [:]
+        var seen: [String] = []
         for resource in resources {
-            let title = switch grouping {
-            case .system: resource.chapter ?? "Unfiled"
-            case .subject: resource.subjectId.isEmpty ? "Unfiled" : SubjectCatalog.name(resource.subjectId)
-            case .kind: resource.type.rawValue
-            }
-            if folders[title] == nil {
-                folders[title] = Folder(id: title, title: title, resources: [])
-                order.append(title)
-            }
-            folders[title]?.resources.append(resource)
+            let key = (grouping == .system ? resource.subjectId : resource.modules.first ?? "")
+                .nilIfEmpty ?? ungrouped
+            if primaries[key] == nil { seen.append(key) }
+            primaries[key, default: []].append(resource)
         }
 
-        let unfiledLast = order.sorted { lhs, rhs in
-            if lhs == "Unfiled" { return false }
-            if rhs == "Unfiled" { return true }
-            return lhs.localizedCaseInsensitiveCompare(rhs) == .orderedAscending
+        let keys: [String]
+        if grouping == .system {
+            let known = SubjectCatalog.order.filter { primaries[$0] != nil }
+            let rest = seen.filter { !SubjectCatalog.order.contains($0) }.sorted(by: byModuleId)
+            keys = known + rest
+        } else {
+            keys = seen.sorted(by: byModuleId)
         }
 
-        return unfiledLast.compactMap { folders[$0] }.map { folder in
-            var sorted = folder
-            sorted.resources.sort { $0.title.localizedCaseInsensitiveCompare($1.title) == .orderedAscending }
-            return sorted
+        return keys.map { key in
+            let items = primaries[key] ?? []
+            // Chapter subfolders, in first-seen order; the chapterless bucket
+            // sits wherever it first appears — matching the web's Map order.
+            var subfolders: [Subfolder] = []
+            var subIndex: [String: Int] = [:]
+            for item in items {
+                let chapter = item.chapter?.nilIfEmpty ?? noChapter
+                if let i = subIndex[chapter] {
+                    subfolders[i].items.append(item)
+                } else {
+                    subIndex[chapter] = subfolders.count
+                    subfolders.append(Subfolder(key: chapter, items: [item]))
+                }
+            }
+            let subjectId = grouping == .system
+                ? (key == ungrouped ? nil : key)
+                : items.first?.subjectId.nilIfEmpty
+            let title = grouping == .system
+                ? (key == ungrouped ? "Unfiled" : SubjectCatalog.name(key))
+                : (key == ungrouped ? "No module" : key)
+            return Folder(id: key, title: title, subjectId: subjectId, subfolders: subfolders)
         }
     }
 

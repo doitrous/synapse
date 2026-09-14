@@ -67,65 +67,108 @@ struct ResourceProjectionTests {
         #expect(ResourceModel.project(question) == nil)
     }
 
+    /// Two-level grouping, a port of `src/data/resourceGrouping.test.ts`:
+    /// subject/module folders of chapter subfolders, nothing ever dropped.
     @Suite("Grouping")
     struct Grouping {
 
-        private func resource(_ id: String, _ title: String, chapter: String?) -> LibraryResource {
+        private func r(subject: String, modules: [String] = [], chapter: String? = nil) -> LibraryResource {
             LibraryResource(
-                id: id, title: title, type: .book, subjectId: "S", source: "—", meta: "",
-                year: nil, chapters: chapter.map { [$0] } ?? [], modules: [], hasFile: true
+                id: "\(subject)-\(modules.first ?? "")-\(chapter ?? "")",
+                title: "\(subject) \(chapter ?? "")", type: .book, subjectId: subject,
+                source: "—", meta: "", year: nil, chapters: chapter.map { [$0] } ?? [],
+                modules: modules, hasFile: true
             )
         }
 
-        @Test("resources are grouped by chapter and sorted by title")
-        func groupsByChapter() {
-            let folders = ResourceModel.group([
-                resource("2", "Zebra", chapter: "Anatomy"),
-                resource("1", "Alpha", chapter: "Anatomy"),
-                resource("3", "Beta", chapter: "Physiology"),
-            ])
-
-            #expect(folders.map(\.title) == ["Anatomy", "Physiology"])
-            #expect(folders[0].resources.map(\.title) == ["Alpha", "Zebra"])
+        private func total(_ folders: [ResourceModel.Folder]) -> Int {
+            folders.reduce(0) { $0 + $1.resources.count }
         }
 
-        /// A resource with no chapter would otherwise be invisible.
-        @Test("unfiled resources are kept, and kept last")
-        func unfiledLast() {
-            let folders = ResourceModel.group([
-                resource("1", "No chapter", chapter: nil),
-                resource("2", "Filed", chapter: "Anatomy"),
-            ])
-
-            #expect(folders.map(\.title) == ["Anatomy", "Unfiled"])
-            #expect(folders.last?.resources.map(\.id) == ["1"])
+        @Test("off-catalogue subjects are grouped, not dropped")
+        func offCatalogueKept() {
+            let items = [r(subject: "medical"), r(subject: "medical"), r(subject: "cvs")]
+            let folders = ResourceModel.group(items, by: .system)
+            #expect(folders.map(\.id) == ["cvs", "medical"])
+            #expect(total(folders) == items.count)
         }
 
-        @Test("an empty catalogue produces no folders")
-        func empty() {
-            #expect(ResourceModel.group([]).isEmpty)
-        }
-
-        /// The subject axis names each folder from the ported catalogue, and an
-        /// off-catalogue id (a resource tagged with a system this build doesn't
-        /// list) is kept and shown by its own code rather than dropped.
-        @Test("resources group by subject with catalogue names; unknown ids kept")
-        func groupsBySubject() {
-            func r(_ id: String, subject: String) -> LibraryResource {
-                LibraryResource(
-                    id: id, title: id, type: .book, subjectId: subject, source: "—",
-                    meta: "", year: nil, chapters: [], modules: [], hasFile: true
-                )
+        @Test("nothing is lost under either grouping")
+        func nothingLost() {
+            let items = [
+                r(subject: "medical", modules: ["CVS 01"]),
+                r(subject: "cvs"),
+                r(subject: "zzz", modules: ["RES 02"]),
+            ]
+            for grouping in [ResourceModel.Grouping.system, .module] {
+                #expect(total(ResourceModel.group(items, by: grouping)) == items.count)
             }
-            let titles = Set(ResourceModel.group([
-                r("1", subject: "cvs"),
-                r("2", subject: "resp"),
-                r("3", subject: "zzz"),
-            ], by: .subject).map(\.title))
+        }
 
-            #expect(titles.contains("Cardiovascular"))
-            #expect(titles.contains("Respiratory"))
-            #expect(titles.contains("ZZZ"))
+        @Test("catalogue subjects keep catalogue order, then the rest")
+        func catalogueOrder() {
+            let items = [r(subject: "renal"), r(subject: "aaa"), r(subject: "cvs"), r(subject: "bbb")]
+            let folders = ResourceModel.group(items, by: .system)
+            #expect(folders.map(\.id) == ["cvs", "renal", "aaa", "bbb"])
+        }
+
+        @Test("a resource with no subject lands in one trailing folder")
+        func noSubjectTrailing() {
+            let folders = ResourceModel.group([r(subject: ""), r(subject: "cvs")], by: .system)
+            #expect(folders.map(\.id) == ["cvs", ResourceModel.ungrouped])
+            #expect(folders.last?.subjectId == nil)
+        }
+
+        /// Catalogue names each subject folder; an off-catalogue id shows its
+        /// own uppercased code rather than vanishing.
+        @Test("catalogue names label subject folders; unknown ids show their code")
+        func subjectNames() {
+            let folders = ResourceModel.group([r(subject: "cvs"), r(subject: "zzz")], by: .system)
+            #expect(folders.map(\.title) == ["Cardiovascular", "ZZZ"])
+        }
+
+        @Test("module folders sort naturally, so CVS 2 precedes CVS 10")
+        func moduleNaturalSort() {
+            let items = [
+                r(subject: "cvs", modules: ["CVS 10"]),
+                r(subject: "cvs", modules: ["CVS 2"]),
+                r(subject: "cvs", modules: ["CVS 1"]),
+            ]
+            #expect(ResourceModel.group(items, by: .module).map(\.id) == ["CVS 1", "CVS 2", "CVS 10"])
+        }
+
+        @Test("resources with no module collect in one folder at the end")
+        func noModuleTrailing() {
+            let items = [r(subject: "cvs"), r(subject: "cvs", modules: ["CVS 01"]), r(subject: "resp")]
+            let folders = ResourceModel.group(items, by: .module)
+            #expect(folders.map(\.id) == ["CVS 01", ResourceModel.ungrouped])
+            #expect(folders.last?.resources.count == 2)
+        }
+
+        @Test("a module folder takes its colour from the first resource in it")
+        func moduleColour() {
+            let folders = ResourceModel.group([r(subject: "resp", modules: ["RES 02"])], by: .module)
+            #expect(folders.first?.subjectId == "resp")
+        }
+
+        @Test("chapters become subfolders; chapterless items collect under one key")
+        func chapterSubfolders() {
+            let items = [
+                r(subject: "cvs", chapter: "Ch. 1"),
+                r(subject: "cvs", chapter: "Ch. 1"),
+                r(subject: "cvs", chapter: "Ch. 2"),
+                r(subject: "cvs"),
+            ]
+            let folder = ResourceModel.group(items, by: .system).first
+            #expect(folder?.subfolders.map(\.key) == ["Ch. 1", "Ch. 2", ResourceModel.noChapter])
+            #expect(folder?.subfolders.first?.items.count == 2)
+            #expect(folder?.subfolders.last?.chapter == nil)
+        }
+
+        @Test("an empty list produces no folders")
+        func empty() {
+            #expect(ResourceModel.group([], by: .system).isEmpty)
+            #expect(ResourceModel.group([], by: .module).isEmpty)
         }
     }
 }

@@ -41,6 +41,15 @@ enum SubjectCatalog {
         "pop": .init(name: "Population health", short: "POP"),
     ]
 
+    /// Catalogue order — the sequence subjects should appear in, matching the
+    /// web's `subjects.map(s => s.id)`. A `Dictionary` has no order, so the
+    /// grouping needs this to lay subject folders out the same way both places.
+    static let order: [String] = [
+        "cvs", "resp", "renal", "gi", "neuro", "endo", "msk", "pharm", "fnd",
+        "dev", "haem", "imm", "inf", "obs", "gyn", "androl", "psy", "derm",
+        "mul", "pop",
+    ]
+
     /// A subject's display name, falling back to the uppercased id.
     static func name(_ id: String) -> String {
         byId[id]?.name ?? id.uppercased()

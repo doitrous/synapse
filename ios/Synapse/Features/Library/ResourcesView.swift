@@ -81,18 +81,35 @@ struct ResourcesView: View {
 
             ForEach(visibleFolders) { folder in
                 Section {
-                    ForEach(folder.resources) { resource in
-                        // Only an openable resource is a link. A row that
-                        // pushes to "nothing here" teaches a student not to
-                        // trust the rest of them.
-                        row(resource, model: model)
-                            .listRowBackground(Theme.surface)
+                    ForEach(folder.subfolders) { sub in
+                        // Chapter subheading, unless these are the resources
+                        // that name no chapter (they sit flush under the folder).
+                        if let chapter = sub.chapter {
+                            Text(chapter)
+                                .font(Theme.ui(12, weight: 600))
+                                .foregroundStyle(Theme.ink3)
+                                .textCase(nil)
+                                .listRowBackground(Theme.surface)
+                        }
+                        ForEach(sub.items) { resource in
+                            // Only an openable resource is a link. A row that
+                            // pushes to "nothing here" teaches a student not to
+                            // trust the rest of them.
+                            row(resource, model: model)
+                                .listRowBackground(Theme.surface)
+                        }
                     }
                 } header: {
-                    Text(folder.title)
-                        .font(Theme.panelTitle())
-                        .foregroundStyle(Theme.ink2)
-                        .textCase(nil)
+                    HStack {
+                        Text(folder.title)
+                            .font(Theme.panelTitle())
+                            .foregroundStyle(Theme.ink2)
+                        Spacer()
+                        Text("\(folder.resources.count)")
+                            .font(Theme.numeric(12))
+                            .foregroundStyle(Theme.ink3)
+                    }
+                    .textCase(nil)
                 }
             }
         }
@@ -221,25 +238,31 @@ struct ResourcesView: View {
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
 
         return model.folders.compactMap { folder in
-            var matches = folder.resources
-            if savedOnly {
-                matches = matches.filter { model.bookmarks.contains($0.id) }
-            }
-            if openableOnly {
-                matches = matches.filter(\.isOpenable)
-            }
-            if let typeFilter {
-                matches = matches.filter { $0.type == typeFilter }
-            }
-            if !trimmed.isEmpty {
-                matches = matches.filter {
-                    $0.title.localizedCaseInsensitiveContains(trimmed)
-                        || $0.source.localizedCaseInsensitiveContains(trimmed)
+            let subs = folder.subfolders.compactMap { sub -> ResourceModel.Subfolder? in
+                var items = sub.items
+                if savedOnly {
+                    items = items.filter { model.bookmarks.contains($0.id) }
                 }
+                if openableOnly {
+                    items = items.filter(\.isOpenable)
+                }
+                if let typeFilter {
+                    items = items.filter { $0.type == typeFilter }
+                }
+                if !trimmed.isEmpty {
+                    items = items.filter {
+                        $0.title.localizedCaseInsensitiveContains(trimmed)
+                            || $0.source.localizedCaseInsensitiveContains(trimmed)
+                    }
+                }
+                guard !items.isEmpty else { return nil }
+                var filtered = sub
+                filtered.items = items
+                return filtered
             }
-            guard !matches.isEmpty else { return nil }
+            guard !subs.isEmpty else { return nil }
             var filtered = folder
-            filtered.resources = matches
+            filtered.subfolders = subs
             return filtered
         }
     }
