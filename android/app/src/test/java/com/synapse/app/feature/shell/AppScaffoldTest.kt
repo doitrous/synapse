@@ -50,6 +50,7 @@ class AppScaffoldTest {
                     adaptiveContent = { Text("AdaptiveStandIn") },
                     notebookContent = { Text("NotebookStandIn") },
                     whiteboardContent = { Text("WhiteboardStandIn") },
+                    calendarContent = { Text("CalendarStandIn") },
                 )
             }
         }
@@ -117,10 +118,10 @@ class AppScaffoldTest {
                 .assertIsDisplayed()
         }
 
-        // Tapping one navigates to it: this hub item is a placeholder destination.
-        composeTestRule.onNodeWithTag(moreHubItemTag("calendar")).performScrollTo().performClick()
+        // Tapping one navigates to it: this hub item is still a placeholder destination.
+        composeTestRule.onNodeWithTag(moreHubItemTag("university")).performScrollTo().performClick()
 
-        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Calendar")
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("University")
         composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
     }
 
@@ -133,6 +134,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingCalendarInTheMoreHubRendersCalendarContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("calendar")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Calendar")
+        composeTestRule.onNodeWithText("CalendarStandIn").assertIsDisplayed()
     }
 
     @Test

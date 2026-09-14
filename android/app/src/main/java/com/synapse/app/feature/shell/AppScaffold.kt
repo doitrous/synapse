@@ -23,6 +23,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import com.synapse.app.design.ThemeChoice
 import com.synapse.app.feature.adaptive.AdaptiveRoute
 import com.synapse.app.feature.dashboard.DashboardScreen
+import com.synapse.app.feature.calendar.CalendarRoute
 import com.synapse.app.feature.essays.EssaysRoute
 import com.synapse.app.feature.flashcards.FlashcardsRoot
 import com.synapse.app.feature.library.LibraryRoute
@@ -84,6 +85,7 @@ fun AppScaffold(
     adaptiveContent: @Composable () -> Unit = { AdaptiveRoute() },
     notebookContent: @Composable () -> Unit = { NotebookRoute() },
     whiteboardContent: @Composable () -> Unit = { WhiteboardRoute() },
+    calendarContent: @Composable () -> Unit = { CalendarRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -124,6 +126,7 @@ fun AppScaffold(
         "adaptive" to adaptiveContent,
         "notebook" to notebookContent,
         "whiteboard" to whiteboardContent,
+        "calendar" to calendarContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 
