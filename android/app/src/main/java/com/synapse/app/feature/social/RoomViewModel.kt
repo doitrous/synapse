@@ -1,7 +1,9 @@
 package com.synapse.app.feature.social
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.StudyRoomDto
 import com.synapse.app.core.qbank.Question
 import com.synapse.app.core.social.socialReasonMessage
@@ -24,11 +26,11 @@ sealed interface RoomDetailUiState {
         val index: Int,
         val chosenIndex: Int?,
         val reviewExpanded: Boolean,
-        val message: String? = null,
+        @param:StringRes val message: Int? = null,
     ) : RoomDetailUiState
 
     /** The room is gone (deleted, or this student was never a member) — nothing left to poll for. */
-    data class Gone(val message: String) : RoomDetailUiState
+    data class Gone(@param:StringRes val message: Int) : RoomDetailUiState
 }
 
 /**
@@ -78,11 +80,11 @@ class RoomViewModel @Inject constructor(
     private suspend fun applyTick(tick: RoomPoll) {
         when (tick) {
             is RoomPoll.Loaded -> applyLoaded(tick.room)
-            RoomPoll.Gone -> _uiState.value = RoomDetailUiState.Gone("That room is no longer available.")
+            RoomPoll.Gone -> _uiState.value = RoomDetailUiState.Gone(R.string.social_room_gone)
             RoomPoll.Unavailable -> {
                 val prev = _uiState.value as? RoomDetailUiState.InRoom
-                _uiState.value = prev?.copy(message = "Could not reach the room.")
-                    ?: RoomDetailUiState.Gone("Could not reach the room.")
+                _uiState.value = prev?.copy(message = R.string.social_room_unreachable)
+                    ?: RoomDetailUiState.Gone(R.string.social_room_unreachable)
             }
         }
     }
@@ -131,7 +133,7 @@ class RoomViewModel @Inject constructor(
             val mutation = repository.submitAnswer(state.room.id, question.id, optionIndex, seconds)
             if (!mutation.succeeded) {
                 val current = _uiState.value as? RoomDetailUiState.InRoom ?: return@launch
-                _uiState.value = current.copy(chosenIndex = null, message = "That answer did not reach the room.")
+                _uiState.value = current.copy(chosenIndex = null, message = R.string.social_answer_not_delivered_room)
             }
         }
     }

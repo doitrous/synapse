@@ -14,9 +14,11 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 
 /** Which of the three Study Together sections is showing. */
 private enum class StudyTogetherTab { Rooms, Challenges, Friends }
@@ -73,13 +75,13 @@ fun StudyTogetherRoute(
         )
 
         else -> Column(modifier = Modifier.fillMaxSize()) {
-            Text("Study together", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(16.dp))
+            Text(stringResource(R.string.social_study_together_title), style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(16.dp))
 
             val tabIndex = tab.ordinal
             TabRow(selectedTabIndex = tabIndex) {
-                Tab(selected = tabIndex == 0, onClick = { tab = StudyTogetherTab.Rooms }, text = { Text("Rooms") })
-                Tab(selected = tabIndex == 1, onClick = { tab = StudyTogetherTab.Challenges }, text = { Text("Challenges") })
-                Tab(selected = tabIndex == 2, onClick = { tab = StudyTogetherTab.Friends }, text = { Text("Friends") })
+                Tab(selected = tabIndex == 0, onClick = { tab = StudyTogetherTab.Rooms }, text = { Text(stringResource(R.string.social_tab_rooms)) })
+                Tab(selected = tabIndex == 1, onClick = { tab = StudyTogetherTab.Challenges }, text = { Text(stringResource(R.string.social_tab_challenges)) })
+                Tab(selected = tabIndex == 2, onClick = { tab = StudyTogetherTab.Friends }, text = { Text(stringResource(R.string.social_friends_title)) })
             }
 
             when (tab) {

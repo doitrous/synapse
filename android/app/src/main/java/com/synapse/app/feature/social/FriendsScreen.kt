@@ -24,9 +24,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.PersonDto
 
 /** The Friends tab: this student's friend graph, incoming/outgoing requests, and finding/inviting people. */
@@ -42,19 +44,19 @@ fun FriendsScreen(viewModel: FriendsViewModel = hiltViewModel()) {
     }
 
     LazyColumn(modifier = Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        state.message?.let { item { Text(it, color = MaterialTheme.colorScheme.error) } }
+        state.message?.let { item { Text(stringResource(it), color = MaterialTheme.colorScheme.error) } }
         if (state.offline) {
-            item { Text("Could not reach Synapse.", style = MaterialTheme.typography.bodyMedium) }
+            item { Text(stringResource(R.string.social_offline_generic), style = MaterialTheme.typography.bodyMedium) }
         }
 
         item {
             Card(modifier = Modifier.fillMaxWidth()) {
                 Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("Find people", style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(R.string.social_find_people_title), style = MaterialTheme.typography.titleMedium)
                     OutlinedTextField(
                         value = query,
                         onValueChange = { query = it; viewModel.search(it) },
-                        label = { Text("Search your cohort") },
+                        label = { Text(stringResource(R.string.social_search_cohort_label)) },
                         singleLine = true,
                         modifier = Modifier.fillMaxWidth(),
                     )
@@ -64,12 +66,12 @@ fun FriendsScreen(viewModel: FriendsViewModel = hiltViewModel()) {
                             horizontalArrangement = Arrangement.SpaceBetween,
                             verticalAlignment = Alignment.CenterVertically,
                         ) {
-                            Text(person.displayName ?: "Student")
-                            TextButton(onClick = { viewModel.sendRequest(person.userId) }) { Text("Add") }
+                            Text(person.displayName ?: stringResource(R.string.social_student_fallback))
+                            TextButton(onClick = { viewModel.sendRequest(person.userId) }) { Text(stringResource(R.string.social_add_button)) }
                         }
                     }
                     if (state.directoryResults?.isEmpty() == true) {
-                        Text("Nobody matched.", style = MaterialTheme.typography.bodySmall)
+                        Text(stringResource(R.string.social_nobody_matched), style = MaterialTheme.typography.bodySmall)
                     }
                 }
             }
@@ -78,18 +80,18 @@ fun FriendsScreen(viewModel: FriendsViewModel = hiltViewModel()) {
         item {
             Card(modifier = Modifier.fillMaxWidth()) {
                 Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("Invite by link", style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(R.string.social_invite_by_link_title), style = MaterialTheme.typography.titleMedium)
                     if (state.inviteToken != null) {
                         Text(state.inviteToken, style = MaterialTheme.typography.bodyMedium)
                     } else {
-                        OutlinedButton(onClick = { viewModel.mintInvite() }) { Text("Create an invite") }
+                        OutlinedButton(onClick = { viewModel.mintInvite() }) { Text(stringResource(R.string.social_create_invite_button)) }
                     }
                 }
             }
         }
 
         if (state.incoming.isNotEmpty()) {
-            item { Text("Requests", style = MaterialTheme.typography.titleMedium) }
+            item { Text(stringResource(R.string.social_requests_title), style = MaterialTheme.typography.titleMedium) }
             items(state.incoming, key = { it.userId }) { person ->
                 RequestRow(
                     person = person,
@@ -100,18 +102,18 @@ fun FriendsScreen(viewModel: FriendsViewModel = hiltViewModel()) {
         }
 
         if (state.outgoing.isNotEmpty()) {
-            item { Text("Sent requests", style = MaterialTheme.typography.titleMedium) }
+            item { Text(stringResource(R.string.social_sent_requests_title), style = MaterialTheme.typography.titleMedium) }
             items(state.outgoing, key = { it.userId }) { person ->
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                    Text(person.displayName ?: "Student")
-                    Text("Pending", style = MaterialTheme.typography.labelMedium)
+                    Text(person.displayName ?: stringResource(R.string.social_student_fallback))
+                    Text(stringResource(R.string.social_pending_label), style = MaterialTheme.typography.labelMedium)
                 }
             }
         }
 
-        item { Text("Friends", style = MaterialTheme.typography.titleMedium) }
+        item { Text(stringResource(R.string.social_friends_title), style = MaterialTheme.typography.titleMedium) }
         if (state.friends.isEmpty()) {
-            item { Text("No friends yet — search your cohort above.", style = MaterialTheme.typography.bodyMedium) }
+            item { Text(stringResource(R.string.social_no_friends_yet), style = MaterialTheme.typography.bodyMedium) }
         } else {
             items(state.friends, key = { it.userId }) { friend ->
                 Row(
@@ -119,8 +121,8 @@ fun FriendsScreen(viewModel: FriendsViewModel = hiltViewModel()) {
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically,
                 ) {
-                    Text(friend.displayName ?: "Student")
-                    TextButton(onClick = { viewModel.remove(friend.userId) }) { Text("Remove") }
+                    Text(friend.displayName ?: stringResource(R.string.social_student_fallback))
+                    TextButton(onClick = { viewModel.remove(friend.userId) }) { Text(stringResource(R.string.social_remove_button)) }
                 }
             }
         }
@@ -134,10 +136,10 @@ private fun RequestRow(person: PersonDto, onAccept: () -> Unit, onDecline: () ->
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Text(person.displayName ?: "Student")
+        Text(person.displayName ?: stringResource(R.string.social_student_fallback))
         Row {
-            TextButton(onClick = onAccept) { Text("Accept") }
-            TextButton(onClick = onDecline) { Text("Decline") }
+            TextButton(onClick = onAccept) { Text(stringResource(R.string.social_accept_button)) }
+            TextButton(onClick = onDecline) { Text(stringResource(R.string.social_decline_button)) }
         }
     }
 }

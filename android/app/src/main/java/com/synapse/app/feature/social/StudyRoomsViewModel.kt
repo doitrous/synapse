@@ -1,5 +1,6 @@
 package com.synapse.app.feature.social
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.synapse.app.core.api.RoomSummaryDto
@@ -19,7 +20,7 @@ sealed interface RoomsUiState {
         val rooms: List<RoomSummaryDto>,
         val available: List<Question> = emptyList(),
         val offline: Boolean = false,
-        val message: String? = null,
+        @param:StringRes val message: Int? = null,
     ) : RoomsUiState
 }
 

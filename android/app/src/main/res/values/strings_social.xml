@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Study Together (feature/social): study rooms, challenges, friends. -->
+
+    <!-- Shared across rooms/challenges/friends. -->
+    <string name="social_study_together_title">Study together</string>
+    <string name="social_tab_rooms">Rooms</string>
+    <string name="social_tab_challenges">Challenges</string>
+    <string name="social_student_fallback">Student</string>
+    <string name="social_offline_generic">Could not reach nishany.</string>
+    <string name="social_leave_button">Leave</string>
+    <string name="social_cancel_button">Cancel</string>
+    <string name="social_accept_button">Accept</string>
+    <string name="social_decline_button">Decline</string>
+    <string name="social_name_label">Name</string>
+    <string name="social_questions_label">Questions</string>
+    <string name="social_timed_label">Timed</string>
+    <string name="social_create_button">Create</string>
+    <string name="social_next_button">Next</string>
+    <string name="social_hand_in_button">Hand it in</string>
+    <string name="social_score_fraction">%1$d / %2$d</string>
+    <string name="social_position_of_total">%1$d of %2$d</string>
+    <plurals name="social_question_count">
+        <item quantity="one">%1$d question</item>
+        <item quantity="other">%1$d questions</item>
+    </plurals>
+    <plurals name="social_questions_available">
+        <item quantity="one">%1$d question to choose from.</item>
+        <item quantity="other">%1$d questions to choose from.</item>
+    </plurals>
+
+    <!-- Study rooms: RoomsScreen / RoomDetailScreen. -->
+    <string name="social_join_test_title">Join a test</string>
+    <string name="social_room_code_label">Room code</string>
+    <string name="social_join_button">Join</string>
+    <string name="social_join_test_description">Everyone answers the same set at their own pace. Results open once you finish.</string>
+    <string name="social_build_test_button">Build a shared test</string>
+    <string name="social_rooms_offline">Could not reach nishany. A shared test needs a connection.</string>
+    <string name="social_rooms_empty">You have not joined or built a shared test yet.</string>
+    <string name="social_rooms_section_title">Your rooms</string>
+    <string name="social_room_status_waiting">waiting</string>
+    <string name="social_room_status_in_progress">in progress</string>
+    <string name="social_room_status_finished">finished</string>
+    <string name="social_build_test_dialog_title">Build a test</string>
+    <string name="social_default_room_name">Shared test</string>
+    <string name="social_share_code_label">Share this code</string>
+    <string name="social_timed_word">timed</string>
+    <string name="social_untimed_word">untimed</string>
+    <string name="social_start_test_button">Start the test</string>
+    <string name="social_waiting_for_host">Waiting for the host to start.</string>
+    <string name="social_room_questions_not_synced">This room uses questions this device has not synced yet. Sync the Question Bank, then come back.</string>
+    <string name="social_members_finished_count">%1$d of %2$d finished</string>
+    <string name="social_everyone_finished">Everyone has finished</string>
+    <string name="social_waiting_for_others">Waiting for the others</string>
+    <string name="social_hide_answers_button">Hide your answers</string>
+    <string name="social_review_answers_button">Look back at your answers</string>
+    <string name="social_question_unavailable">(question no longer available)</string>
+    <string name="social_answer_correct">Correct</string>
+    <string name="social_answer_incorrect">Incorrect</string>
+    <string name="social_members_title">Who is in</string>
+    <string name="social_room_gone">That room is no longer available.</string>
+    <string name="social_room_unreachable">Could not reach the room.</string>
+    <string name="social_answer_not_delivered_room">That answer did not reach the room.</string>
+
+    <!-- Friends: FriendsScreen. -->
+    <string name="social_find_people_title">Find people</string>
+    <string name="social_search_cohort_label">Search your cohort</string>
+    <string name="social_add_button">Add</string>
+    <string name="social_nobody_matched">Nobody matched.</string>
+    <string name="social_invite_by_link_title">Invite by link</string>
+    <string name="social_create_invite_button">Create an invite</string>
+    <string name="social_requests_title">Requests</string>
+    <string name="social_sent_requests_title">Sent requests</string>
+    <string name="social_pending_label">Pending</string>
+    <string name="social_friends_title">Friends</string>
+    <string name="social_no_friends_yet">No friends yet — search your cohort above.</string>
+    <string name="social_remove_button">Remove</string>
+
+    <!-- Challenges: ChallengesScreen / ChallengeDetailScreen. -->
+    <string name="social_add_friend_first_button">Add a friend first to challenge them</string>
+    <string name="social_challenge_friend_button">Challenge a friend</string>
+    <string name="social_no_challenges_yet">No challenges yet.</string>
+    <string name="social_challenge_fallback_title">Challenge</string>
+    <string name="social_challenge_status_waiting_response">waiting for a response</string>
+    <string name="social_challenge_status_sent_to_you">sent to you</string>
+    <string name="social_challenge_status_declined">declined</string>
+    <string name="social_challenge_status_finished">finished</string>
+    <string name="social_challenge_status_waiting_them">waiting for them</string>
+    <string name="social_challenge_status_in_progress">in progress</string>
+    <string name="social_challenge_score_summary">You: %1$d/%2$d · Them: %3$d/%4$d</string>
+    <string name="social_friend_label">Friend</string>
+    <string name="social_selected_label">Selected</string>
+    <string name="social_send_button">Send</string>
+    <string name="social_challenge_declined_message">This challenge was declined.</string>
+    <string name="social_waiting_other_side">Waiting for the other side to finish.</string>
+    <string name="social_waiting_them_respond">Waiting for them to respond.</string>
+    <string name="social_challenge_questions_not_synced">This challenge uses questions this device has not synced yet. Sync the Question Bank, then come back.</string>
+    <string name="social_comparison_unavailable">The comparison is not available.</string>
+    <string name="social_you_score">You: %1$d / %2$d</string>
+    <string name="social_them_score">Them: %1$d / %2$d</string>
+    <string name="social_challenge_gone">That challenge is no longer available.</string>
+    <string name="social_challenge_unreachable">Could not reach the challenge.</string>
+    <string name="social_answer_not_delivered_challenge">That answer did not reach the challenge.</string>
+
+    <!-- Reason-code -> human text (core/social/SocialMessages.kt socialReasonMessage). Reason codes themselves are never translated. -->
+    <string name="social_reason_generic">That did not work.</string>
+    <string name="social_reason_no_questions">Pick at least one question first.</string>
+    <string name="social_reason_code_collision">Could not generate a room code. Try again.</string>
+    <string name="social_reason_not_found">That could not be found.</string>
+    <string name="social_reason_closed">That has already closed.</string>
+    <string name="social_reason_not_a_member">You are not in that room.</string>
+    <string name="social_reason_not_host">Only the host can start it.</string>
+    <string name="social_reason_not_started">The host has not started it yet.</string>
+    <string name="social_reason_not_in_room">That question is not part of this test.</string>
+    <string name="social_reason_not_in_challenge">That question is not part of this challenge.</string>
+    <string name="social_reason_already_finished">You have already finished this one.</string>
+    <string name="social_reason_question_gone">That question is no longer published.</string>
+    <string name="social_reason_invalid_opponent">Pick someone to challenge.</string>
+    <string name="social_reason_not_friends">You can only challenge a friend.</string>
+    <string name="social_reason_not_pending">That request is no longer pending.</string>
+    <string name="social_reason_not_running">That is not in progress.</string>
+    <string name="social_reason_invalid_target">That person could not be found.</string>
+    <string name="social_reason_used">That invite has already been used.</string>
+    <string name="social_reason_expired">That invite has expired.</string>
+    <string name="social_reason_self">You cannot use your own invite.</string>
+</resources>

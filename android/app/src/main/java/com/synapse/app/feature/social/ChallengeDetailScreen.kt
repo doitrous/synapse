@@ -18,8 +18,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 
 /** One open challenge: a `sent` invite to accept/decline, the sitting itself, and the finished head-to-head. */
 @Composable
@@ -28,7 +31,7 @@ fun ChallengeDetailScreen(viewModel: ChallengeViewModel, onLeave: () -> Unit) {
 
     Column(modifier = Modifier.fillMaxSize()) {
         Row(modifier = Modifier.fillMaxWidth().padding(12.dp)) {
-            TextButton(onClick = onLeave) { Text("Leave") }
+            TextButton(onClick = onLeave) { Text(stringResource(R.string.social_leave_button)) }
         }
 
         when (val state = uiState) {
@@ -37,17 +40,17 @@ fun ChallengeDetailScreen(viewModel: ChallengeViewModel, onLeave: () -> Unit) {
             }
 
             is ChallengeDetailUiState.Gone -> Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text(state.message, modifier = Modifier.padding(24.dp))
+                Text(stringResource(state.message), modifier = Modifier.padding(24.dp))
             }
 
             is ChallengeDetailUiState.Detail -> when {
                 state.challenge.isSent -> SentPane(state, onRespond = viewModel::respond)
                 state.challenge.isDeclined -> Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Text("This challenge was declined.")
+                    Text(stringResource(R.string.social_challenge_declined_message))
                 }
                 state.challenge.isComplete -> CompletePane(state)
                 state.challenge.myFinished -> Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                    Text("Waiting for the other side to finish.")
+                    Text(stringResource(R.string.social_waiting_other_side))
                 }
                 else -> RunningPane(state, onSelect = viewModel::selectAnswer, onNext = viewModel::next)
             }
@@ -63,16 +66,19 @@ private fun SentPane(state: ChallengeDetailUiState.Detail, onRespond: (Boolean) 
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
-        Text(challenge.scopeLabel ?: "Challenge", style = MaterialTheme.typography.headlineSmall)
-        Text("${challenge.questionCount} questions", style = MaterialTheme.typography.bodyMedium)
-        state.message?.let { Text(it, color = MaterialTheme.colorScheme.error) }
+        Text(challenge.scopeLabel ?: stringResource(R.string.social_challenge_fallback_title), style = MaterialTheme.typography.headlineSmall)
+        Text(
+            pluralStringResource(R.plurals.social_question_count, challenge.questionCount, challenge.questionCount),
+            style = MaterialTheme.typography.bodyMedium,
+        )
+        state.message?.let { Text(stringResource(it), color = MaterialTheme.colorScheme.error) }
         if (challenge.myRole == "opponent") {
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                Button(onClick = { onRespond(true) }) { Text("Accept") }
-                TextButton(onClick = { onRespond(false) }) { Text("Decline") }
+                Button(onClick = { onRespond(true) }) { Text(stringResource(R.string.social_accept_button)) }
+                TextButton(onClick = { onRespond(false) }) { Text(stringResource(R.string.social_decline_button)) }
             }
         } else {
-            Text("Waiting for them to respond.", style = MaterialTheme.typography.bodyMedium)
+            Text(stringResource(R.string.social_waiting_them_respond), style = MaterialTheme.typography.bodyMedium)
         }
     }
 }
@@ -83,7 +89,7 @@ private fun RunningPane(state: ChallengeDetailUiState.Detail, onSelect: (Int) ->
     if (question == null) {
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             Text(
-                "This challenge uses questions this device has not synced yet. Sync the Question Bank, then come back.",
+                stringResource(R.string.social_challenge_questions_not_synced),
                 modifier = Modifier.padding(24.dp),
             )
         }
@@ -91,7 +97,12 @@ private fun RunningPane(state: ChallengeDetailUiState.Detail, onSelect: (Int) ->
     }
 
     LazyColumn(modifier = Modifier.fillMaxSize(), contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-        item { Text("${state.index + 1} of ${state.questions.size}", style = MaterialTheme.typography.labelMedium) }
+        item {
+            Text(
+                stringResource(R.string.social_position_of_total, state.index + 1, state.questions.size),
+                style = MaterialTheme.typography.labelMedium,
+            )
+        }
         if (question.vignette.isNotEmpty()) {
             item { Text(question.vignette, style = MaterialTheme.typography.bodyLarge) }
         }
@@ -105,11 +116,11 @@ private fun RunningPane(state: ChallengeDetailUiState.Detail, onSelect: (Int) ->
                 onClick = { onSelect(position) },
             )
         }
-        state.message?.let { item { Text(it, color = MaterialTheme.colorScheme.error) } }
+        state.message?.let { item { Text(stringResource(it), color = MaterialTheme.colorScheme.error) } }
         if (state.chosenIndex != null) {
             item {
                 Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) {
-                    Text(if (state.index + 1 < state.questions.size) "Next" else "Hand it in")
+                    Text(stringResource(if (state.index + 1 < state.questions.size) R.string.social_next_button else R.string.social_hand_in_button))
                 }
             }
         }
@@ -126,12 +137,12 @@ private fun CompletePane(state: ChallengeDetailUiState.Detail) {
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         if (result == null) {
-            Text("The comparison is not available.")
+            Text(stringResource(R.string.social_comparison_unavailable))
             return@Column
         }
         val mine = if (challenge.myRole == "challenger") result.challenger else result.opponent
         val theirs = if (challenge.myRole == "challenger") result.opponent else result.challenger
-        Text("You: ${mine.correct} / ${challenge.questionCount}", style = MaterialTheme.typography.headlineSmall)
-        Text("Them: ${theirs.correct} / ${challenge.questionCount}", style = MaterialTheme.typography.titleMedium)
+        Text(stringResource(R.string.social_you_score, mine.correct, challenge.questionCount), style = MaterialTheme.typography.headlineSmall)
+        Text(stringResource(R.string.social_them_score, theirs.correct, challenge.questionCount), style = MaterialTheme.typography.titleMedium)
     }
 }
