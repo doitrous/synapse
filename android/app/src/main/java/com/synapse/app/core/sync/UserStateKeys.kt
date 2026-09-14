@@ -12,6 +12,10 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.flashcards.dailyCounts.v1",
     "synapse.library.read",
     "synapse.library.personalTags",
+    // Notebook. One array under this key, matching web's `usePersistentState`
+    // and iOS's `Note.storageKey` — there is no per-note `synapse.notebook.<id>`
+    // key on either client (see `core/notebook/Notebook.kt`'s doc comment).
+    "synapse.notebook.notes",
     "synapse.bookmarks.resources.v1",
     "synapse.essay.answers.v1",
     "synapse.written.answers.v1",
