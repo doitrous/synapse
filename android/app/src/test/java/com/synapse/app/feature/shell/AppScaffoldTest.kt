@@ -41,6 +41,7 @@ class AppScaffoldTest {
                     dashboardContent = { Text("Dashboard") },
                     qbankContent = { Text("QBankStandIn") },
                     flashcardsContent = { Text("FlashcardsStandIn") },
+                    libraryContent = { Text("LibraryStandIn") },
                 )
             }
         }
@@ -55,13 +56,13 @@ class AppScaffoldTest {
     }
 
     @Test
-    fun clickingTheLibraryTabNavigatesToItsPlaceholder() {
+    fun clickingTheLibraryTabRendersLibraryContentSeam() {
         setScaffold()
 
         composeTestRule.onNodeWithTag(bottomNavItemTag(LIBRARY_ROUTE)).performClick()
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Library")
-        composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+        composeTestRule.onNodeWithText("LibraryStandIn").assertIsDisplayed()
     }
 
     @Test

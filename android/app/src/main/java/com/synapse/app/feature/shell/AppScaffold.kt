@@ -23,6 +23,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import com.synapse.app.design.ThemeChoice
 import com.synapse.app.feature.dashboard.DashboardScreen
 import com.synapse.app.feature.flashcards.FlashcardsRoot
+import com.synapse.app.feature.library.LibraryRoute
 import com.synapse.app.feature.placeholder.PlaceholderScreen
 import com.synapse.app.feature.qbank.QuestionBankRoot
 
@@ -66,6 +67,7 @@ fun AppScaffold(
     dashboardContent: @Composable () -> Unit = { DashboardScreen() },
     qbankContent: @Composable () -> Unit = { QuestionBankRoot() },
     flashcardsContent: @Composable () -> Unit = { FlashcardsRoot() },
+    libraryContent: @Composable () -> Unit = { LibraryRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -95,6 +97,7 @@ fun AppScaffold(
     // PlaceholderScreen (see the NavHost builder below) until its own feature lands.
     val routeContent: Map<String, @Composable () -> Unit> = mapOf(
         DASHBOARD_ROUTE to dashboardContent,
+        LIBRARY_ROUTE to libraryContent,
         QUESTION_BANK_ROUTE to qbankContent,
         FLASHCARDS_ROUTE to flashcardsContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
