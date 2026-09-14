@@ -83,7 +83,6 @@ export function registerSeo(app) {
   seoRuntime({
     store,
     supported: SUPPORTED,
-    version: '0.1.0',
     articlePath: ARTICLE_PATH,
     pages: async () => localPages(),
   })(app)
