@@ -72,13 +72,19 @@ export async function loadAdminContent() {
   return snapshot
 }
 
+// Bump when a slice's PROJECTION shape changes without the ledger version
+// moving — otherwise a cached body revalidates to a 304 and the client keeps the
+// old shape. (v2: list index slimmed from 178MB to 77MB.)
+const PROJECTION_VERSION = 2
+
 /**
  * Answer with the ledger version, or 304 when the caller already has it. The
  * signature is the max app_state_versions id, which advances on every write, so
- * a re-opened tab that has not missed a publish costs a 304 and no body.
+ * a re-opened tab that has not missed a publish costs a 304 and no body. The
+ * projection version is folded in so a server-side shape change also busts it.
  */
 function sendVersioned(req, res, signature, body) {
-  const etag = `W/"admin-content-${signature}"`
+  const etag = `W/"admin-content-${PROJECTION_VERSION}-${signature}"`
   res.set('ETag', etag)
   res.set('Cache-Control', 'private, no-cache')
   if (req.get('if-none-match') === etag) return res.status(304).end()
