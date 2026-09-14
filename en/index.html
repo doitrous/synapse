@@ -59,9 +59,46 @@
       content="A calm clinical workspace for undergraduate medicine."
     />
     <meta name="twitter:image" content="https://nishany.com/og-image.png" />
+
+    <!-- Entity JSON-LD, home page only (SEO Phase 0 hygiene). -->
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"EducationalOrganization","name":"Nishany","url":"https://nishany.com/","logo":"https://nishany.com/brand/nishany-mark.png","description":"Nishany brings the library, question bank, practicals, and schedule for undergraduate medical students into one clinical study workspace, built around Egyptian university curricula."}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebSite","name":"Nishany","url":"https://nishany.com/"}
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <!--
+      Prerendered marketing shell (SEO Phase 0 hygiene) — see index.html for why this is safe:
+      `createRoot(...).render()` replaces it the instant the app boots, so it is only ever what a
+      crawler or `curl` sees, never a flash for a real visitor. Real copy from content.ts/EN_CONTENT,
+      the same object HeroSection renders once mounted.
+    -->
+    <div id="root">
+      <main>
+        <h1>See exactly what to study next</h1>
+        <p>Nishany brings your library, question bank, practicals, and schedule into one calm clinical workspace — then tells you what deserves attention today. Arabic-first, fully English.</p>
+        <h2>Everything in one place</h2>
+        <p>Connected surfaces that work together — not scattered tools.</p>
+        <ul>
+          <li><strong>Library</strong> — Every topic and subtopic, in clear sections</li>
+          <li><strong>Verified sources</strong> — Every fact carries the book and page behind it</li>
+          <li><strong>Question Bank</strong> — Explained answers, and a full review after you submit</li>
+          <li><strong>Practical</strong> — OSCE stations, cases, skills, lab and imaging, by system</li>
+          <li><strong>PDF reader and editor</strong> — Write, highlight and tape over what you are testing, saved to your account</li>
+          <li><strong>Resources</strong> — Books, videos and guidelines, and your own uploads</li>
+          <li><strong>Calendar</strong> — Curriculum and your plan in one view, from Saturday</li>
+          <li><strong>Performance</strong> — By subject, by question type, over time</li>
+          <li><strong>Medical dictionary</strong> — Concepts and how they relate, linked to everything you read</li>
+        </ul>
+        <h2>How Nishany decides what you study</h2>
+        <p>Three steps that turn an overwhelming syllabus into one clear move each morning.</p>
+        <p><strong>Read and answer</strong> — Read from the library, then test yourself with explained questions tied to exactly what you read.</p>
+        <p><strong>We track your recall</strong> — Spaced repetition works out when you are about to forget each topic, before the exam does.</p>
+        <p><strong>We tell you what is next</strong> — Every morning you see what deserves attention, ordered by urgency and retention.</p>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
