@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/performance — Arabic (MSA) strings. Mirrors values/strings_performance.xml
+         key-for-key. -->
+
+    <string name="performance_title">الأداء</string>
+    <string name="performance_tab_personal">التقدم الشخصي</string>
+    <string name="performance_tab_leaders">المتصدرون</string>
+
+    <string name="performance_empty_message">لم يُقَس أي شيء بعد. أجب عن بعض الأسئلة لتظهر هنا دقتك وتغطيتك وسلسلة أيامك المتتالية.</string>
+
+    <!-- Personal progress section titles. -->
+    <string name="performance_section_when_you_study">أوقات دراستك</string>
+    <string name="performance_section_by_subject">الدقة حسب المادة</string>
+    <string name="performance_section_by_difficulty">الدقة حسب مستوى الصعوبة</string>
+    <string name="performance_section_by_surface">أين ذهب جهدك</string>
+
+    <!-- Headline KPI tiles. -->
+    <string name="performance_kpi_accuracy_label">الدقة</string>
+    <string name="performance_accuracy_percent">%1$d%%</string>
+    <string name="performance_no_value">—</string>
+    <plurals name="performance_marked_of">
+        <item quantity="zero">من لا إجابات مصححة</item>
+        <item quantity="one">من إجابة واحدة مصححة</item>
+        <item quantity="two">من إجابتين مصححتين</item>
+        <item quantity="few">من %1$d إجابات مصححة</item>
+        <item quantity="many">من %1$d إجابة مصححة</item>
+        <item quantity="other">من %1$d إجابة مصححة</item>
+    </plurals>
+    <plurals name="performance_more_marked_needed">
+        <item quantity="zero">لا حاجة لإجابات مصححة إضافية</item>
+        <item quantity="one">يلزم إجابة مصححة واحدة إضافية</item>
+        <item quantity="two">يلزم إجابتان مصححتان إضافيتان</item>
+        <item quantity="few">يلزم %1$d إجابات مصححة إضافية</item>
+        <item quantity="many">يلزم %1$d إجابة مصححة إضافية</item>
+        <item quantity="other">يلزم %1$d إجابة مصححة إضافية</item>
+    </plurals>
+
+    <string name="performance_kpi_streak_label">التتابع</string>
+    <plurals name="performance_streak_unit">
+        <item quantity="zero">يوم</item>
+        <item quantity="one">يوم</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">أيام</item>
+        <item quantity="many">يومًا</item>
+        <item quantity="other">يوم</item>
+    </plurals>
+
+    <string name="performance_kpi_items_label">العناصر المغطاة</string>
+    <plurals name="performance_attempts_count">
+        <item quantity="zero">لا محاولات</item>
+        <item quantity="one">محاولة واحدة</item>
+        <item quantity="two">محاولتان</item>
+        <item quantity="few">%1$d محاولات</item>
+        <item quantity="many">%1$d محاولةً</item>
+        <item quantity="other">%1$d محاولة</item>
+    </plurals>
+
+    <!-- Breakdown bars (subject / difficulty / surface). -->
+    <string name="performance_not_marked">لم تُصحَّح</string>
+    <string name="performance_breakdown_accuracy_of_marked">%1$d%% / %2$d</string>
+
+    <!-- Heatmap. -->
+    <string name="performance_heatmap_empty">لا نشاط بعد.</string>
+
+    <!-- Top performers. -->
+    <string name="performance_metric_concepts_mastered">المفاهيم المتقنة</string>
+    <string name="performance_metric_percent_correct">النسبة الصحيحة</string>
+    <string name="performance_leaderboard_unavailable">تعذّر تحميل لوحة المتصدرين. بيانات أدائك الخاصة لم تُستبدل بها.</string>
+    <string name="performance_leaderboard_empty">لا يوجد متأهلون بعد في دفعتك.</string>
+    <string name="performance_leaderboard_rank">#%1$d</string>
+    <string name="performance_leaderboard_username">\@%1$s</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/performance — Performance tab: the student's own study charts
+         (accuracy, coverage, streak, heatmap) plus the cohort leaderboard
+         (EN/AR). Breakdown group keys (subject id, difficulty band, surface)
+         and leaderboard scope/username are data from the attempt log and the
+         server and are never localized here — only the surrounding UI copy is. -->
+
+    <string name="performance_title">Performance</string>
+    <string name="performance_tab_personal">Personal progress</string>
+    <string name="performance_tab_leaders">Top performers</string>
+
+    <string name="performance_empty_message">Nothing measured yet. Answer some questions and your accuracy, coverage and streak appear here.</string>
+
+    <!-- Personal progress section titles. -->
+    <string name="performance_section_when_you_study">When you study</string>
+    <string name="performance_section_by_subject">Accuracy by subject</string>
+    <string name="performance_section_by_difficulty">Accuracy by difficulty</string>
+    <string name="performance_section_by_surface">Where the work went</string>
+
+    <!-- Headline KPI tiles. -->
+    <string name="performance_kpi_accuracy_label">Accuracy</string>
+    <string name="performance_accuracy_percent">%1$d%%</string>
+    <string name="performance_no_value">—</string>
+    <plurals name="performance_marked_of">
+        <item quantity="one">of %1$d marked answer</item>
+        <item quantity="other">of %1$d marked answers</item>
+    </plurals>
+    <plurals name="performance_more_marked_needed">
+        <item quantity="one">%1$d more marked answer needed</item>
+        <item quantity="other">%1$d more marked answers needed</item>
+    </plurals>
+
+    <string name="performance_kpi_streak_label">Streak</string>
+    <plurals name="performance_streak_unit">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+
+    <string name="performance_kpi_items_label">Items covered</string>
+    <plurals name="performance_attempts_count">
+        <item quantity="one">%1$d attempt</item>
+        <item quantity="other">%1$d attempts</item>
+    </plurals>
+
+    <!-- Breakdown bars (subject / difficulty / surface). -->
+    <string name="performance_not_marked">not marked</string>
+    <string name="performance_breakdown_accuracy_of_marked">%1$d%% / %2$d</string>
+
+    <!-- Heatmap. -->
+    <string name="performance_heatmap_empty">No activity yet.</string>
+
+    <!-- Top performers. -->
+    <string name="performance_metric_concepts_mastered">Concepts mastered</string>
+    <string name="performance_metric_percent_correct">% correct</string>
+    <string name="performance_leaderboard_unavailable">The leaderboard could not be loaded. Your own performance data has not been substituted.</string>
+    <string name="performance_leaderboard_empty">No eligible performers yet in your cohort.</string>
+    <string name="performance_leaderboard_rank">#%1$d</string>
+    <string name="performance_leaderboard_username">\@%1$s</string>
+</resources>
