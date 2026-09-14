@@ -61,14 +61,18 @@ import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.annotation.StringRes
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.MyDocument
 import com.synapse.app.core.api.ShareSummary
 import com.synapse.app.core.notebook.Note
 import com.synapse.app.core.shares.ShareAccess
+import com.synapse.app.core.shares.ShareKind
 import com.synapse.app.core.whiteboard.Board
 import com.synapse.app.core.whiteboard.BoardState
 import com.synapse.app.core.whiteboard.NOTE_HEIGHT
@@ -148,11 +152,14 @@ private fun TabbedPanes(state: SharesUiState.Content, viewModel: SharesViewModel
     var tab by rememberSaveable { mutableIntStateOf(0) }
     Column(Modifier.fillMaxSize()) {
         TabRow(selectedTabIndex = tab) {
-            Tab(selected = tab == 0, onClick = { tab = 0 }, text = { Text("My Documents") }, modifier = Modifier.testTag(SHARES_DOCUMENTS_TAB_TAG))
-            Tab(selected = tab == 1, onClick = { tab = 1 }, text = { Text("Shares") }, modifier = Modifier.testTag(SHARES_SHARES_TAB_TAG))
+            Tab(selected = tab == 0, onClick = { tab = 0 }, text = { Text(stringResource(R.string.shares_tab_my_documents)) }, modifier = Modifier.testTag(SHARES_DOCUMENTS_TAB_TAG))
+            Tab(selected = tab == 1, onClick = { tab = 1 }, text = { Text(stringResource(R.string.shares_tab_shares)) }, modifier = Modifier.testTag(SHARES_SHARES_TAB_TAG))
         }
-        state.error?.let { message ->
-            Text(message, color = MaterialTheme.colorScheme.error, modifier = Modifier.padding(12.dp))
+        state.error?.let { messageRes ->
+            Column(Modifier.padding(12.dp)) {
+                Text(stringResource(messageRes), color = MaterialTheme.colorScheme.error)
+                Text(stringResource(R.string.common_check_connection), color = MaterialTheme.colorScheme.error)
+            }
         }
         if (tab == 0) MyDocumentsPane(state, viewModel) else SharesPane(state, viewModel)
     }
@@ -163,6 +170,7 @@ private fun TabbedPanes(state: SharesUiState.Content, viewModel: SharesViewModel
 @Composable
 private fun MyDocumentsPane(state: SharesUiState.Content, viewModel: SharesViewModel) {
     val context = LocalContext.current
+    val documentFallbackTitle = stringResource(R.string.shares_document_fallback_title)
     val uploadLauncher = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
         if (uri == null) return@rememberLauncherForActivityResult
         val resolver = context.contentResolver
@@ -175,7 +183,7 @@ private fun MyDocumentsPane(state: SharesUiState.Content, viewModel: SharesViewM
             val column = cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME)
             if (cursor.moveToFirst() && column >= 0) cursorName = cursor.getString(column)
         }
-        val fileName = cursorName ?: uri.lastPathSegment ?: "Document"
+        val fileName = cursorName ?: uri.lastPathSegment ?: documentFallbackTitle
         val mimeType = resolver.getType(uri)
         var offset = 0
         viewModel.uploadDocument(fileName, mimeType, bytes.size.toLong()) { _, chunkBytes ->
@@ -188,16 +196,19 @@ private fun MyDocumentsPane(state: SharesUiState.Content, viewModel: SharesViewM
     Column(Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
-                Text("My Documents", style = MaterialTheme.typography.titleLarge)
+                Text(stringResource(R.string.shares_tab_my_documents), style = MaterialTheme.typography.titleLarge)
                 if (state.quotaBytes > 0) {
-                    Text("${formatBytes(state.usedBytes)} of ${formatBytes(state.quotaBytes)} used", style = MaterialTheme.typography.bodySmall)
+                    Text(
+                        stringResource(R.string.shares_quota_used_format, formatBytes(state.usedBytes), formatBytes(state.quotaBytes)),
+                        style = MaterialTheme.typography.bodySmall,
+                    )
                 }
             }
-            Button(onClick = { uploadLauncher.launch(arrayOf("*/*")) }, modifier = Modifier.testTag(SHARES_UPLOAD_BUTTON_TAG)) { Text("Upload") }
+            Button(onClick = { uploadLauncher.launch(arrayOf("*/*")) }, modifier = Modifier.testTag(SHARES_UPLOAD_BUTTON_TAG)) { Text(stringResource(R.string.shares_upload)) }
         }
 
         if (state.documents.isEmpty()) {
-            Text("Nothing uploaded yet.", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 24.dp))
+            Text(stringResource(R.string.shares_documents_empty), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 24.dp))
         } else {
             Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState())) {
                 state.documents.forEach { document ->
@@ -216,11 +227,18 @@ private fun DocumentRow(document: MyDocument, onOpen: () -> Unit, onRename: (Str
         Row(Modifier.fillMaxWidth().padding(vertical = 10.dp), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 Text(document.title, style = MaterialTheme.typography.bodyLarge)
-                Text("${document.mediaType ?: "file"} · ${formatBytes(document.sizeBytes)}", style = MaterialTheme.typography.bodySmall)
+                Text(
+                    stringResource(
+                        R.string.shares_document_meta_format,
+                        document.mediaType ?: stringResource(R.string.shares_media_type_fallback),
+                        formatBytes(document.sizeBytes),
+                    ),
+                    style = MaterialTheme.typography.bodySmall,
+                )
             }
-            TextButton(onClick = { renaming = true }) { Text("Rename") }
+            TextButton(onClick = { renaming = true }) { Text(stringResource(R.string.shares_rename)) }
             IconButton(onClick = onDelete, modifier = Modifier.testTag(documentDeleteButtonTag(document.id))) {
-                Icon(Icons.Filled.Delete, contentDescription = "Delete")
+                Icon(Icons.Filled.Delete, contentDescription = stringResource(R.string.shares_delete_description))
             }
         }
     }
@@ -234,10 +252,10 @@ private fun RenameDialog(initial: String, onConfirm: (String) -> Unit, onDismiss
     var text by remember { mutableStateOf(initial) }
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Rename") },
+        title = { Text(stringResource(R.string.shares_rename)) },
         text = { OutlinedTextField(value = text, onValueChange = { text = it }, singleLine = true) },
-        confirmButton = { TextButton(onClick = { onConfirm(text) }) { Text("Save") } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        confirmButton = { TextButton(onClick = { onConfirm(text) }) { Text(stringResource(R.string.common_save)) } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.shares_cancel)) } },
     )
 }
 
@@ -246,25 +264,25 @@ private fun DocumentReaderPane(document: MyDocument?, reader: DocumentReaderStat
     Column(Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             IconButton(onClick = onBack, modifier = Modifier.testTag(SHARES_DOCUMENT_READER_BACK_TAG)) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.shares_back_description))
             }
-            Text(document?.title ?: "Document", style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+            Text(document?.title ?: stringResource(R.string.shares_document_fallback_title), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
             if (reader is DocumentReaderState.Ready) {
-                IconButton(onClick = { onRemoveDownload(reader.documentId) }) { Icon(Icons.Filled.Delete, contentDescription = "Remove download") }
+                IconButton(onClick = { onRemoveDownload(reader.documentId) }) { Icon(Icons.Filled.Delete, contentDescription = stringResource(R.string.shares_remove_download_description)) }
             }
         }
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             when (reader) {
                 is DocumentReaderState.Downloading -> Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     CircularProgressIndicator()
-                    Text("Downloading…", modifier = Modifier.padding(top = 12.dp))
+                    Text(stringResource(R.string.shares_downloading), modifier = Modifier.padding(top = 12.dp))
                 }
-                is DocumentReaderState.Failed -> Text(reader.message, style = MaterialTheme.typography.bodyMedium)
+                is DocumentReaderState.Failed -> Text(stringResource(reader.message), style = MaterialTheme.typography.bodyMedium)
                 is DocumentReaderState.Ready ->
                     if (reader.mediaType.equals("pdf", ignoreCase = true)) {
                         DocumentPdfViewer(reader.file)
                     } else {
-                        Text("This file type isn't supported in the reader yet — it has been downloaded to the app's storage.", style = MaterialTheme.typography.bodyMedium)
+                        Text(stringResource(R.string.shares_reader_unsupported_file_type), style = MaterialTheme.typography.bodyMedium)
                     }
                 DocumentReaderState.Closed -> Unit
             }
@@ -288,7 +306,7 @@ private fun DocumentPdfViewer(file: File) {
     DisposableEffect(renderer) { onDispose { renderer?.close() } }
 
     if (renderer == null) {
-        Text("This document could not be opened as a PDF.", style = MaterialTheme.typography.bodyMedium)
+        Text(stringResource(R.string.shares_reader_not_a_pdf), style = MaterialTheme.typography.bodyMedium)
         return
     }
     val pageCount = renderer.pageCount
@@ -311,16 +329,16 @@ private fun DocumentPdfViewer(file: File) {
             if (current != null) Image2(current) else CircularProgressIndicator()
         }
         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 8.dp)) {
-            TextButton(onClick = { if (currentPage > 0) pageIndex = currentPage - 1 }, enabled = currentPage > 0) { Text("Previous") }
-            Text("${currentPage + 1} of $pageCount", modifier = Modifier.padding(horizontal = 8.dp))
-            TextButton(onClick = { if (currentPage < pageCount - 1) pageIndex = currentPage + 1 }, enabled = currentPage < pageCount - 1) { Text("Next") }
+            TextButton(onClick = { if (currentPage > 0) pageIndex = currentPage - 1 }, enabled = currentPage > 0) { Text(stringResource(R.string.shares_previous)) }
+            Text(stringResource(R.string.shares_page_progress_format, currentPage + 1, pageCount), modifier = Modifier.padding(horizontal = 8.dp))
+            TextButton(onClick = { if (currentPage < pageCount - 1) pageIndex = currentPage + 1 }, enabled = currentPage < pageCount - 1) { Text(stringResource(R.string.shares_next)) }
         }
     }
 }
 
 @Composable
 private fun Image2(bitmap: Bitmap) {
-    androidx.compose.foundation.Image(bitmap = bitmap.asImageBitmap(), contentDescription = "Page")
+    androidx.compose.foundation.Image(bitmap = bitmap.asImageBitmap(), contentDescription = stringResource(R.string.shares_pdf_page_description))
 }
 
 // --- Shares -----------------------------------------------------------------
@@ -332,17 +350,20 @@ private fun SharesPane(state: SharesUiState.Content, viewModel: SharesViewModel)
 
     Column(Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            Text("Shares", style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
-            Button(onClick = { showPublishPicker = true }, modifier = Modifier.testTag(SHARES_NEW_SHARE_BUTTON_TAG)) { Text("New share") }
+            Text(stringResource(R.string.shares_tab_shares), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+            Button(onClick = { showPublishPicker = true }, modifier = Modifier.testTag(SHARES_NEW_SHARE_BUTTON_TAG)) { Text(stringResource(R.string.shares_new_share)) }
         }
         Row(Modifier.padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-            FilterChip(selected = showMine, onClick = { showMine = true }, label = { Text("Mine") }, modifier = Modifier.testTag(SHARES_MINE_SUBTAB_TAG))
-            FilterChip(selected = !showMine, onClick = { showMine = false }, label = { Text("Discover") }, modifier = Modifier.testTag(SHARES_DISCOVER_SUBTAB_TAG))
+            FilterChip(selected = showMine, onClick = { showMine = true }, label = { Text(stringResource(R.string.shares_mine)) }, modifier = Modifier.testTag(SHARES_MINE_SUBTAB_TAG))
+            FilterChip(selected = !showMine, onClick = { showMine = false }, label = { Text(stringResource(R.string.shares_discover)) }, modifier = Modifier.testTag(SHARES_DISCOVER_SUBTAB_TAG))
         }
 
         val list = if (showMine) state.myShares else state.discoverableShares
         if (list.isEmpty()) {
-            Text(if (showMine) "You haven't shared anything yet." else "Nothing shared with your cohort yet.", modifier = Modifier.padding(top = 24.dp))
+            Text(
+                stringResource(if (showMine) R.string.shares_mine_empty else R.string.shares_discover_empty),
+                modifier = Modifier.padding(top = 24.dp),
+            )
         } else {
             Column(Modifier.weight(1f).fillMaxWidth().verticalScroll(rememberScrollState())) {
                 list.forEach { share ->
@@ -375,28 +396,44 @@ private fun ShareRow(share: ShareSummary, onOpen: () -> Unit, onToggleStar: () -
         Row(Modifier.fillMaxWidth().padding(vertical = 10.dp), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 Text(share.title, style = MaterialTheme.typography.bodyLarge)
-                val detail = listOfNotNull(share.kind, share.access, share.ownerName?.let { "by $it" }).joinToString(" · ")
+                val detail = listOfNotNull(
+                    stringResource(shareKindLabelRes(share.kind)),
+                    stringResource(shareAccessLabelRes(share.access)),
+                    share.ownerName?.let { stringResource(R.string.shares_owner_by_format, it) },
+                ).joinToString(" · ")
                 Text(detail, style = MaterialTheme.typography.bodySmall)
             }
             IconButton(onClick = onToggleStar, modifier = Modifier.testTag(shareStarButtonTag(share.id))) {
                 Icon(
                     Icons.Filled.Star,
-                    contentDescription = if (share.starred) "Starred" else "Star",
+                    contentDescription = stringResource(if (share.starred) R.string.shares_starred_description else R.string.shares_star_description),
                     tint = if (share.starred) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
             if (!share.isOwner) {
                 TextButton(onClick = onToggleFollow, modifier = Modifier.testTag(shareFollowButtonTag(share.id))) {
-                    Text(if (share.following) "Following" else "Follow")
+                    Text(stringResource(if (share.following) R.string.shares_following else R.string.shares_follow))
                 }
             }
             if (share.isOwner) {
                 IconButton(onClick = onDelete, modifier = Modifier.testTag(shareDeleteButtonTag(share.id))) {
-                    Icon(Icons.Filled.Delete, contentDescription = "Delete share")
+                    Icon(Icons.Filled.Delete, contentDescription = stringResource(R.string.shares_delete_share_description))
                 }
             }
         }
     }
+}
+
+/** Display label for a [ShareSummary.kind]/[com.synapse.app.core.api.ShareDetail.kind] wire value — the wire value itself is never changed. */
+@StringRes
+private fun shareKindLabelRes(kind: String): Int = if (kind == ShareKind.WHITEBOARD) R.string.shares_kind_whiteboard else R.string.shares_kind_note
+
+/** Display label for a [ShareAccess] wire value — the wire value itself is never changed. */
+@StringRes
+private fun shareAccessLabelRes(access: String): Int = when (access) {
+    ShareAccess.EDIT -> R.string.shares_access_edit
+    ShareAccess.PRIVATE -> R.string.shares_access_private
+    else -> R.string.shares_access_view
 }
 
 @Composable
@@ -407,28 +444,31 @@ private fun PublishPickerDialog(
     onDismiss: () -> Unit,
 ) {
     var access by remember { mutableStateOf(ShareAccess.VIEW) }
+    val noteKindLabel = stringResource(R.string.shares_kind_note)
+    val boardKindLabel = stringResource(R.string.shares_kind_whiteboard)
+    val untitledNote = stringResource(R.string.shares_untitled_note)
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Share one of your things") },
+        title = { Text(stringResource(R.string.shares_publish_dialog_title)) },
         text = {
             Column(Modifier.height(360.dp).verticalScroll(rememberScrollState())) {
-                Text("Access", style = MaterialTheme.typography.labelMedium)
+                Text(stringResource(R.string.shares_access_label), style = MaterialTheme.typography.labelMedium)
                 Row(Modifier.padding(top = 4.dp, bottom = 8.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    FilterChip(selected = access == ShareAccess.VIEW, onClick = { access = ShareAccess.VIEW }, label = { Text("View") })
-                    FilterChip(selected = access == ShareAccess.EDIT, onClick = { access = ShareAccess.EDIT }, label = { Text("Edit") })
+                    FilterChip(selected = access == ShareAccess.VIEW, onClick = { access = ShareAccess.VIEW }, label = { Text(stringResource(R.string.shares_access_view)) })
+                    FilterChip(selected = access == ShareAccess.EDIT, onClick = { access = ShareAccess.EDIT }, label = { Text(stringResource(R.string.shares_access_edit)) })
                 }
                 if (state.shareableNotes.isEmpty() && state.shareableBoards.isEmpty()) {
-                    Text("Nothing to share yet — write a note or start a board first.", style = MaterialTheme.typography.bodyMedium)
+                    Text(stringResource(R.string.shares_publish_empty), style = MaterialTheme.typography.bodyMedium)
                 }
                 state.shareableNotes.forEach { note ->
-                    PublishRow(title = note.title.ifBlank { "Untitled note" }, subtitle = "Note", onClick = { onPublishNote(note, access) })
+                    PublishRow(title = note.title.ifBlank { untitledNote }, subtitle = noteKindLabel, onClick = { onPublishNote(note, access) })
                 }
                 state.shareableBoards.forEach { board ->
-                    PublishRow(title = board.title, subtitle = "Board", onClick = { onPublishBoard(board, access) })
+                    PublishRow(title = board.title, subtitle = boardKindLabel, onClick = { onPublishBoard(board, access) })
                 }
             }
         },
-        confirmButton = { TextButton(onClick = onDismiss) { Text("Close") } },
+        confirmButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.shares_close)) } },
     )
 }
 
@@ -449,19 +489,19 @@ private fun SharedReaderPane(reader: SharedReaderState, onBack: () -> Unit) {
     Column(Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
             IconButton(onClick = onBack, modifier = Modifier.testTag(SHARES_SHARED_READER_BACK_TAG)) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.shares_back_description))
             }
             val title = when (reader) {
                 is SharedReaderState.NoteReady -> reader.share.title
                 is SharedReaderState.BoardReady -> reader.share.title
-                else -> "Shared item"
+                else -> stringResource(R.string.shares_shared_item_fallback)
             }
             Text(title, style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
         }
         Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             when (reader) {
                 is SharedReaderState.Loading -> CircularProgressIndicator()
-                is SharedReaderState.Failed -> Text(reader.message, style = MaterialTheme.typography.bodyMedium)
+                is SharedReaderState.Failed -> Text(stringResource(reader.message), style = MaterialTheme.typography.bodyMedium)
                 is SharedReaderState.NoteReady -> Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState())) {
                     Text(reader.text, modifier = Modifier.testTag(SHARES_SHARED_READER_TEXT_TAG))
                 }
@@ -519,7 +559,7 @@ private fun SharedBoardCanvas(board: BoardState) {
         }
         for (image in imagesOf(board)) {
             BoardTile(x = image.x, y = image.y, width = image.width, height = image.height, view = view, density = density, background = MaterialTheme.colorScheme.surfaceVariant) {
-                Text(image.alt.ifBlank { "Image" }, style = MaterialTheme.typography.labelSmall, maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.padding(6.dp))
+                Text(image.alt.ifBlank { stringResource(R.string.shares_image_fallback) }, style = MaterialTheme.typography.labelSmall, maxLines = 2, overflow = TextOverflow.Ellipsis, modifier = Modifier.padding(6.dp))
             }
         }
         for (file in filesOf(board)) {
@@ -530,7 +570,7 @@ private fun SharedBoardCanvas(board: BoardState) {
         for (note in board.notes) {
             BoardTile(x = note.x, y = note.y, width = NOTE_WIDTH, height = NOTE_HEIGHT, view = view, density = density, background = toneColor(note.tone)) {
                 Text(
-                    note.text.ifBlank { "Empty note" },
+                    note.text.ifBlank { stringResource(R.string.shares_empty_note_fallback) },
                     style = MaterialTheme.typography.bodySmall,
                     maxLines = 4,
                     overflow = TextOverflow.Ellipsis,
@@ -633,8 +673,9 @@ private fun DrawScope.drawSharedInk(points: List<Double>, view: com.synapse.app.
     drawPath(path, color, style = Stroke(width = maxOf(2f, strokeWidth)))
 }
 
+@Composable
 private fun formatBytes(bytes: Long): String = when {
-    bytes >= 1024 * 1024 -> "%.1f MB".format(bytes / (1024.0 * 1024.0))
-    bytes >= 1024 -> "%.0f KB".format(bytes / 1024.0)
-    else -> "$bytes B"
+    bytes >= 1024 * 1024 -> stringResource(R.string.shares_bytes_mb_format, "%.1f".format(java.util.Locale.US, bytes / (1024.0 * 1024.0)))
+    bytes >= 1024 -> stringResource(R.string.shares_bytes_kb_format, "%.0f".format(java.util.Locale.US, bytes / 1024.0))
+    else -> stringResource(R.string.shares_bytes_b_format, bytes)
 }
