@@ -244,6 +244,52 @@ class SessionViewModelTest {
 
         assertTrue(vm.hasActiveSession())
     }
+
+    // --- Flags: loaded on begin, persisted on toggle -------------------------
+
+    @Test fun beginLoadsPersistedFlagsForQuestionsInThisSitting() = runTest {
+        val store = FakeFlaggedQuestionsStore(initial = setOf("Q2"))
+        val vm = SessionViewModel(FakeAttemptRecorder(), store).also { it.now = { fixedNow } }
+        val session = QBankSession.start(questions(), length = 2, mode = QBankSession.Mode.Tutor, seed = 1L)
+        vm.begin(session, "qb-flags-1")
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val indexOfQ2 = session.questions.indexOfFirst { it.id == "Q2" }
+        vm.goTo(indexOfQ2)
+        assertTrue(vm.uiState.value.isFlagged)
+    }
+
+    @Test fun togglingAFlagPersistsItWithoutClobberingOtherPersistedFlags() = runTest {
+        val store = FakeFlaggedQuestionsStore(initial = setOf("Q-elsewhere"))
+        val vm = SessionViewModel(FakeAttemptRecorder(), store).also { it.now = { fixedNow } }
+        val session = QBankSession.start(questions(), length = 1, mode = QBankSession.Mode.Tutor, seed = 1L)
+        vm.begin(session, "qb-flags-2")
+        // Toggle before the async load of persisted flags necessarily lands --
+        // this is the race the read-modify-write in toggleFlag guards against.
+        vm.toggleFlag()
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertTrue(vm.uiState.value.isFlagged)
+        assertEquals(setOf("Q-elsewhere", session.questions[0].id), store.saved)
+    }
+
+    @Test fun togglingAnAlreadyFlaggedQuestionUnflagsAndPersistsThat() = runTest {
+        val store = FakeFlaggedQuestionsStore(initial = setOf("Q1"))
+        val vm = SessionViewModel(FakeAttemptRecorder(), store).also { it.now = { fixedNow } }
+        val session = QBankSession.start(questions(), length = 2, mode = QBankSession.Mode.Tutor, seed = 1L)
+        vm.begin(session, "qb-flags-3")
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val indexOfQ1 = session.questions.indexOfFirst { it.id == "Q1" }
+        vm.goTo(indexOfQ1)
+        assertTrue(vm.uiState.value.isFlagged)
+
+        vm.toggleFlag()
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertFalse(vm.uiState.value.isFlagged)
+        assertEquals(emptySet<String>(), store.saved)
+    }
 }
 
 private class FakeAttemptRecorder : AttemptRecorder {
@@ -264,5 +310,16 @@ private class FlakyAttemptRecorder(private var failuresRemaining: Int) : Attempt
             throw RuntimeException("simulated local write failure")
         }
         calls += records to now
+    }
+}
+
+/** A single mutable persisted set, so a test can assert exactly what the last write left behind. */
+private class FakeFlaggedQuestionsStore(initial: Set<String> = emptySet()) : FlaggedQuestionsStore {
+    var saved: Set<String> = initial
+        private set
+
+    override suspend fun flaggedIds(): Set<String> = saved
+    override suspend fun setFlaggedIds(ids: Set<String>, now: Instant) {
+        saved = ids
     }
 }

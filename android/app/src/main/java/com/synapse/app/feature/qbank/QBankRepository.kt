@@ -13,7 +13,9 @@ import com.synapse.app.core.model.StateDoc
 import com.synapse.app.core.qbank.AttemptRecord
 import com.synapse.app.core.qbank.MultiResponseProjection
 import com.synapse.app.core.qbank.MultiResponseQuestion
+import com.synapse.app.core.qbank.QBankCollections
 import com.synapse.app.core.qbank.QBankScope
+import com.synapse.app.core.qbank.SessionManifests
 import com.synapse.app.core.qbank.Question
 import com.synapse.app.core.qbank.QuestionProjection
 import com.synapse.app.core.qbank.attemptsKey
@@ -23,6 +25,7 @@ import com.synapse.app.core.sync.SyncEngine
 import com.synapse.app.di.QBankPinsDataStore
 import kotlinx.coroutines.flow.first
 import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
@@ -32,6 +35,15 @@ import kotlin.coroutines.cancellation.CancellationException
 
 /** The shared, admin-authored ledger every student catalogue is projected from. */
 internal const val CONTENT_LEDGER_KEY = "synapse-admin-content-ledger-v4"
+
+/** Dotted, so [com.synapse.app.core.sync.StateOwnership] routes these to the student's own record. */
+internal const val QBANK_MARKED_KEY = "synapse.qbank.marked.v1"
+
+/** Which questions each finished (or abandoned) sitting served, in the order it served them. */
+internal const val QBANK_SESSION_MANIFESTS_KEY = "synapse.qbank.sessionQuestions.v1"
+
+/** What a student has renamed each of their own sittings to. */
+internal const val QBANK_SESSION_NAMES_KEY = "synapse.qbank.sessionNames.v1"
 
 private typealias ModelAttemptRecord = com.synapse.app.core.model.AttemptRecord
 
@@ -138,6 +150,88 @@ class QBankRepository @Inject constructor(
         } catch (e: Exception) {
             // Best-effort: a failed leaderboard POST never fails the local attempt write.
         }
+    }
+
+    /** Every attempt this device knows about, across every month -- the Revise hub's raw material. */
+    suspend fun allAttemptRecords(): List<AttemptRecord> =
+        localStore.allAttempts().mapNotNull { decodeAttemptOrNull(it.payload) }
+
+    /** Questions flagged for another look ([QBANK_MARKED_KEY]). */
+    suspend fun flaggedIds(): Set<String> = readStringSet(QBANK_MARKED_KEY)
+
+    suspend fun setFlaggedIds(ids: Set<String>, now: Instant) = writeStringSet(QBANK_MARKED_KEY, ids, now)
+
+    /** Which questions each sitting served ([QBANK_SESSION_MANIFESTS_KEY]) -- what "omitted" is derived against. */
+    suspend fun sessionManifests(): SessionManifests = readManifests(QBANK_SESSION_MANIFESTS_KEY)
+
+    /**
+     * Files a sitting's manifest. Called as soon as a sitting starts (not when it
+     * finishes) — a sitting abandoned halfway still served the questions it
+     * served, and the ones never reached are still "omitted", not "unseen".
+     */
+    suspend fun recordSessionManifest(sessionId: String, questionIds: List<String>, now: Instant) {
+        val next = QBankCollections.pruneManifests(sessionManifests() + (sessionId to questionIds))
+        writeManifests(QBANK_SESSION_MANIFESTS_KEY, next, now)
+    }
+
+    /** What a student has renamed each sitting to ([QBANK_SESSION_NAMES_KEY]). */
+    suspend fun sessionNames(): Map<String, String> = readStringMap(QBANK_SESSION_NAMES_KEY)
+
+    suspend fun renameSession(sessionId: String, name: String, now: Instant) {
+        val current = sessionNames()
+        val next = if (name.isBlank()) current - sessionId else current + (sessionId to name.trim())
+        writeStringMap(QBANK_SESSION_NAMES_KEY, next, now)
+    }
+
+    /**
+     * Permanently forgets one sitting: every attempt it produced, its manifest
+     * entry, and its saved name. Re-syncs every month an attempt was removed
+     * from, the same way [recordAttempts] does after a write.
+     */
+    suspend fun deleteSession(sessionId: String, now: Instant) {
+        val toDelete = localStore.allAttempts().filter { decodeAttemptOrNull(it.payload)?.sessionId == sessionId }
+        if (toDelete.isNotEmpty()) {
+            localStore.deleteAttempts(toDelete.map { it.id })
+            for (month in toDelete.map { it.month }.distinct()) {
+                val monthRecords = localStore.attempts(month).mapNotNull { decodeAttemptOrNull(it.payload) }
+                val listJson = json.encodeToString(ListSerializer(AttemptRecord.serializer()), monthRecords)
+                syncEngine.write(attemptsKey(month), listJson, now)
+            }
+        }
+        writeManifests(QBANK_SESSION_MANIFESTS_KEY, sessionManifests() - sessionId, now)
+        writeStringMap(QBANK_SESSION_NAMES_KEY, sessionNames() - sessionId, now)
+    }
+
+    private fun decodeAttemptOrNull(payload: JsonObject): AttemptRecord? =
+        runCatching { json.decodeFromJsonElement(AttemptRecord.serializer(), payload) }.getOrNull()
+
+    private suspend fun readStringSet(key: String): Set<String> {
+        val stored = localStore.getUserState(key) ?: return emptySet()
+        return runCatching { json.decodeFromString(ListSerializer(String.serializer()), stored).toSet() }.getOrDefault(emptySet())
+    }
+
+    private suspend fun writeStringSet(key: String, values: Set<String>, now: Instant) {
+        syncEngine.write(key, json.encodeToString(ListSerializer(String.serializer()), values.sorted()), now)
+    }
+
+    private suspend fun readStringMap(key: String): Map<String, String> {
+        val stored = localStore.getUserState(key) ?: return emptyMap()
+        return runCatching { json.decodeFromString(MapSerializer(String.serializer(), String.serializer()), stored) }.getOrDefault(emptyMap())
+    }
+
+    private suspend fun writeStringMap(key: String, values: Map<String, String>, now: Instant) {
+        syncEngine.write(key, json.encodeToString(MapSerializer(String.serializer(), String.serializer()), values), now)
+    }
+
+    private suspend fun readManifests(key: String): SessionManifests {
+        val stored = localStore.getUserState(key) ?: return emptyMap()
+        return runCatching {
+            json.decodeFromString(MapSerializer(String.serializer(), ListSerializer(String.serializer())), stored)
+        }.getOrDefault(emptyMap())
+    }
+
+    private suspend fun writeManifests(key: String, values: SessionManifests, now: Instant) {
+        syncEngine.write(key, json.encodeToString(MapSerializer(String.serializer(), ListSerializer(String.serializer())), values), now)
     }
 
     /**

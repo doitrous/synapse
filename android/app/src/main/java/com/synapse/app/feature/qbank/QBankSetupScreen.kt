@@ -116,13 +116,6 @@ private fun QBankSetupContent(
                 )
             }
         }
-        if (uiState.source != QuestionSource.New) {
-            Text(
-                text = "Coming soon — this currently draws from the same pool as \"New\".",
-                style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.padding(top = 4.dp),
-            )
-        }
 
         Text(
             text = "Quick presets",
@@ -232,9 +225,10 @@ private fun QBankSetupContent(
 }
 
 private fun QuestionSource.label(): String = when (this) {
-    QuestionSource.New -> "New"
-    QuestionSource.FlaggedAndMissed -> "Flagged & missed"
-    QuestionSource.Previous -> "Previous"
+    QuestionSource.All -> "All"
+    QuestionSource.Flagged -> "Flagged"
+    QuestionSource.Incorrect -> "Got wrong"
+    QuestionSource.Omitted -> "Omitted"
 }
 
 private fun QBankPreset.label(): String = when (this) {
