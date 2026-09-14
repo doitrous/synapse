@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/essays — Arabic strings. Terminology mirrors existing
+         features where concepts overlap: "علامة" (mark) and "مخطط التقييم"
+         (mark scheme) from feature/practical's strings_practical.xml,
+         "أهم النقاط" (key points) from feature/library, "أسئلة المقال"
+         (essay questions) from web's src/data/i18n-ar.ts. -->
+
+    <!-- EssaysListScreen. -->
+    <string name="essays_loading">جارٍ التحميل…</string>
+    <string name="essays_title">أسئلة المقال</string>
+    <string name="essays_subtitle">اقرأ سؤالًا مكتوبًا، ثم اكتب إجابتك، ثم اكشف عن النقاط الأساسية وقيّم نفسك في ضوئها.</string>
+    <string name="essays_empty">لا توجد أسئلة مكتوبة منشورة بعد.</string>
+    <string name="essays_section_written">أسئلة الامتحان</string>
+    <string name="essays_section_practice">مقالات تدريبية</string>
+
+    <!-- Row status, shared by EssayRow and WrittenRow. -->
+    <string name="essays_status_not_started">لم يبدأ</string>
+    <string name="essays_status_draft_saved">تم حفظ المسودة</string>
+
+    <!-- EssayRow: "Marked · X of Y points covered" — non-human plural "نقاط"
+         takes singular feminine agreement ("مغطاة") except in the dual. -->
+    <plurals name="essays_row_marked_points">
+        <item quantity="zero">قُيِّم · لا نقاط مغطاة</item>
+        <item quantity="one">قُيِّم · %1$d من نقطة واحدة مغطاة</item>
+        <item quantity="two">قُيِّم · %1$d من نقطتين مغطاتين</item>
+        <item quantity="few">قُيِّم · %1$d من %2$d نقاط مغطاة</item>
+        <item quantity="many">قُيِّم · %1$d من %2$d نقطة مغطاة</item>
+        <item quantity="other">قُيِّم · %1$d من %2$d نقطة مغطاة</item>
+    </plurals>
+
+    <!-- Reused for both the WrittenRow summary line and the part heading's mark count. -->
+    <plurals name="essays_parts_count">
+        <item quantity="zero">لا أجزاء</item>
+        <item quantity="one">جزء واحد</item>
+        <item quantity="two">جزءان</item>
+        <item quantity="few">%1$d أجزاء</item>
+        <item quantity="many">%1$d جزءًا</item>
+        <item quantity="other">%1$d جزء</item>
+    </plurals>
+    <plurals name="essays_marks_count">
+        <item quantity="zero">لا علامات</item>
+        <item quantity="one">علامة واحدة</item>
+        <item quantity="two">علامتان</item>
+        <item quantity="few">%1$d علامات</item>
+        <item quantity="many">%1$d علامة</item>
+        <item quantity="other">%1$d علامة</item>
+    </plurals>
+
+    <!-- WrittenRow: "{parts} · {marks} · {status}". -->
+    <string name="essays_written_row_summary_format">%1$s · %2$s · %3$s</string>
+
+    <!-- WrittenRow: "Marked · X of Y marks". -->
+    <plurals name="essays_written_status_marked">
+        <item quantity="zero">قُيِّم · لا علامات</item>
+        <item quantity="one">قُيِّم · %1$d من علامة واحدة</item>
+        <item quantity="two">قُيِّم · %1$d من علامتين</item>
+        <item quantity="few">قُيِّم · %1$d من %2$d علامات</item>
+        <item quantity="many">قُيِّم · %1$d من %2$d علامة</item>
+        <item quantity="other">قُيِّم · %1$d من %2$d علامة</item>
+    </plurals>
+
+    <!-- BackHeader. -->
+    <string name="essays_back_content_description">رجوع</string>
+
+    <!-- Shared by EssayRunnerPane and WrittenRunnerPane. -->
+    <string name="essays_your_answer_label">إجابتك</string>
+
+    <!-- EssayRunnerPane. -->
+    <string name="essays_reveal_key_points_button">اكشف عن النقاط الأساسية</string>
+    <string name="essays_examiner_note_heading">ملاحظة الممتحن</string>
+    <string name="essays_tick_every_point">ضع علامة على كل نقطة ذكرتها فعلاً</string>
+    <string name="essays_model_answer_heading">الإجابة النموذجية</string>
+
+    <!-- WrittenRunnerPane: "Score: X of Y marks". -->
+    <plurals name="essays_score_format">
+        <item quantity="zero">النتيجة: لا علامات</item>
+        <item quantity="one">النتيجة: %1$d من علامة واحدة</item>
+        <item quantity="two">النتيجة: %1$d من علامتين</item>
+        <item quantity="few">النتيجة: %1$d من %2$d علامات</item>
+        <item quantity="many">النتيجة: %1$d من %2$d علامة</item>
+        <item quantity="other">النتيجة: %1$d من %2$d علامة</item>
+    </plurals>
+
+    <!-- WrittenRunnerPane part heading: "(label) prompt [marks]" — label and
+         prompt are server-synced content and stay untranslated. -->
+    <string name="essays_part_heading_format">(%1$s) %2$s [%3$s]</string>
+    <string name="essays_reveal_mark_scheme_button">اكشف عن مخطط التقييم</string>
+</resources>

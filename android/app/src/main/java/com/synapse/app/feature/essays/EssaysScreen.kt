@@ -29,9 +29,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.essays.EssayQuestion
 import com.synapse.app.core.essays.WrittenQuestion
 import com.synapse.app.core.essays.coveredCount
@@ -92,7 +95,7 @@ private fun EssaysScreen(
             modifier = Modifier.fillMaxSize().testTag(ESSAYS_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.essays_loading)) }
         return
     }
 
@@ -129,16 +132,16 @@ private fun EssaysListScreen(
     onOpenWritten: (String) -> Unit,
 ) {
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
-        Text("Essay questions", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.essays_title), style = MaterialTheme.typography.titleLarge)
         Text(
-            "Read a written question, write your answer, then reveal the key points and mark yourself against them.",
+            stringResource(R.string.essays_subtitle),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp),
         )
 
         if (uiState.essaysById.isEmpty() && uiState.writtenById.isEmpty()) {
             Text(
-                "No written questions published yet.",
+                stringResource(R.string.essays_empty),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 20.dp),
             )
@@ -146,7 +149,7 @@ private fun EssaysListScreen(
         }
 
         if (uiState.writtenById.isNotEmpty()) {
-            Text("Exam questions", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+            Text(stringResource(R.string.essays_section_written), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
             uiState.writtenById.values.forEach { question ->
                 WrittenRow(question, uiState.writtenAnswers[question.id], onClick = { onOpenWritten(question.id) })
                 HorizontalDivider()
@@ -154,7 +157,7 @@ private fun EssaysListScreen(
         }
 
         if (uiState.essaysById.isNotEmpty()) {
-            Text("Practice essays", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+            Text(stringResource(R.string.essays_section_practice), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
             uiState.essaysById.values.forEach { essay ->
                 EssayRow(essay, uiState.essayAnswers[essay.id], onClick = { onOpenEssay(essay.id) })
                 HorizontalDivider()
@@ -168,9 +171,9 @@ private fun EssaysListScreen(
 private fun EssayRow(essay: EssayQuestion, answer: EssayAnswer?, onClick: () -> Unit) {
     val covered = coveredCount(answer?.ticked, essay.keyPoints.map { it.id })
     val status = when {
-        covered != null -> "Marked · ${covered.covered} of ${covered.total} points covered"
-        !answer?.text.isNullOrBlank() -> "Draft saved"
-        else -> "Not started"
+        covered != null -> pluralStringResource(R.plurals.essays_row_marked_points, covered.total, covered.covered, covered.total)
+        !answer?.text.isNullOrBlank() -> stringResource(R.string.essays_status_draft_saved)
+        else -> stringResource(R.string.essays_status_not_started)
     }
     Surface(onClick = onClick, modifier = Modifier.fillMaxWidth().testTag(essaysEssayRowTag(essay.id))) {
         Column(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp)) {
@@ -186,13 +189,19 @@ private fun WrittenRow(question: WrittenQuestion, answer: WrittenAnswer?, onClic
     val score = markWritten(answer?.ticks, question.parts)
     val marked = writtenFullyMarked(answer?.ticks, question.parts)
     val wrote = answer?.text?.values?.any { it.isNotBlank() } == true
-    val status = score?.takeIf { marked }?.let { "Marked · ${it.marks} of ${it.outOf} marks" }
-        ?: if (wrote) "Draft saved" else "Not started"
+    val status = score?.takeIf { marked }
+        ?.let { pluralStringResource(R.plurals.essays_written_status_marked, it.outOf, it.marks, it.outOf) }
+        ?: stringResource(if (wrote) R.string.essays_status_draft_saved else R.string.essays_status_not_started)
     Surface(onClick = onClick, modifier = Modifier.fillMaxWidth().testTag(essaysWrittenRowTag(question.id))) {
         Column(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp)) {
             Text(question.title, style = MaterialTheme.typography.bodyLarge)
             Text(
-                "${question.parts.size} parts · ${question.totalMarks} marks · $status",
+                stringResource(
+                    R.string.essays_written_row_summary_format,
+                    pluralStringResource(R.plurals.essays_parts_count, question.parts.size, question.parts.size),
+                    pluralStringResource(R.plurals.essays_marks_count, question.totalMarks, question.totalMarks),
+                    status,
+                ),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 2.dp),
             )
@@ -204,7 +213,7 @@ private fun WrittenRow(question: WrittenQuestion, answer: WrittenAnswer?, onClic
 private fun BackHeader(title: String, onBack: () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         IconButton(onClick = onBack, modifier = Modifier.testTag(ESSAYS_BACK_BUTTON_TAG)) {
-            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.essays_back_content_description))
         }
         Text(title, style = MaterialTheme.typography.titleLarge)
     }
@@ -232,21 +241,21 @@ private fun EssayRunnerPane(
         OutlinedTextField(
             value = answer?.text.orEmpty(),
             onValueChange = onDraft,
-            label = { Text("Your answer") },
+            label = { Text(stringResource(R.string.essays_your_answer_label)) },
             modifier = Modifier.fillMaxWidth().heightIn(min = 140.dp).padding(top = 16.dp),
         )
 
         if (!answer.isRevealed()) {
             Button(onClick = onReveal, modifier = Modifier.padding(top = 16.dp).testTag(ESSAYS_REVEAL_BUTTON_TAG)) {
-                Text("Reveal key points")
+                Text(stringResource(R.string.essays_reveal_key_points_button))
             }
         } else {
             if (essay.examinerNote.isNotBlank()) {
-                Text("Examiner's note", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+                Text(stringResource(R.string.essays_examiner_note_heading), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
                 Text(essay.examinerNote, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp))
             }
 
-            Text("Tick every point you actually made", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+            Text(stringResource(R.string.essays_tick_every_point), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
             essay.keyPoints.forEach { point ->
                 val checked = answer?.ticked?.contains(point.id) == true
                 Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(top = 4.dp)) {
@@ -256,7 +265,7 @@ private fun EssayRunnerPane(
             }
 
             if (essay.modelAnswer.isNotBlank()) {
-                Text("Model answer", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+                Text(stringResource(R.string.essays_model_answer_heading), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
                 Text(essay.modelAnswer, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp))
             }
         }
@@ -293,7 +302,7 @@ private fun WrittenRunnerPane(
         }
         if (score != null) {
             Text(
-                "Score: ${score.marks} of ${score.outOf} marks",
+                pluralStringResource(R.plurals.essays_score_format, score.outOf, score.marks, score.outOf),
                 style = MaterialTheme.typography.titleMedium,
                 modifier = Modifier.padding(top = 8.dp),
             )
@@ -301,14 +310,19 @@ private fun WrittenRunnerPane(
 
         question.parts.forEach { part ->
             Text(
-                "(${part.label}) ${part.prompt} [${part.marks} marks]",
+                stringResource(
+                    R.string.essays_part_heading_format,
+                    part.label,
+                    part.prompt,
+                    pluralStringResource(R.plurals.essays_marks_count, part.marks, part.marks),
+                ),
                 style = MaterialTheme.typography.titleMedium,
                 modifier = Modifier.padding(top = 20.dp),
             )
             OutlinedTextField(
                 value = answer?.text?.get(part.id).orEmpty(),
                 onValueChange = { onDraft(part.id, it) },
-                label = { Text("Your answer") },
+                label = { Text(stringResource(R.string.essays_your_answer_label)) },
                 modifier = Modifier.fillMaxWidth().heightIn(min = 100.dp).padding(top = 8.dp),
             )
 
@@ -325,7 +339,7 @@ private fun WrittenRunnerPane(
 
         if (!revealed) {
             Button(onClick = onReveal, modifier = Modifier.padding(top = 20.dp).testTag(ESSAYS_REVEAL_BUTTON_TAG)) {
-                Text("Reveal mark scheme")
+                Text(stringResource(R.string.essays_reveal_mark_scheme_button))
             }
         }
     }
