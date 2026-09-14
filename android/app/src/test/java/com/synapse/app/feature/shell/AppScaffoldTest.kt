@@ -48,6 +48,7 @@ class AppScaffoldTest {
                     practicalContent = { Text("PracticalStandIn") },
                     performanceContent = { Text("PerformanceStandIn") },
                     adaptiveContent = { Text("AdaptiveStandIn") },
+                    notebookContent = { Text("NotebookStandIn") },
                 )
             }
         }
@@ -131,6 +132,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingNotebookInTheMoreHubRendersNotebookContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("notebook")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Notebook")
+        composeTestRule.onNodeWithText("NotebookStandIn").assertIsDisplayed()
     }
 
     @Test
