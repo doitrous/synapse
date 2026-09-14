@@ -26,6 +26,7 @@ import { DEFAULT_PERSONALISATION, mockWorldPresence, normalizePersonalisation, w
 import { WorldHall } from './WorldHall'
 import { StudentPopover } from './StudentPopover'
 import { RoomChatBox, type ChatTarget } from './RoomChatBox'
+import { ActivityBoundary } from './ActivityBoundary'
 import { useFriends } from '@/lib/useFriends'
 import { RoomSessionRail } from './RoomSessionRail'
 import { StudyTimerButton } from './StudyTimerButton'
@@ -130,6 +131,26 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
   const selfIndex=desks.findIndex(p=>p?.id===selfId)
   const sharedSeat=roomSceneLayout(world).seats[selfIndex]?.shared??false
   useEffect(()=>{if(!sharedSeat&&session.audio?.audience==='table')session.audio.setAudience('room')},[sharedSeat,session.audio])
+  // A chat line pops as a speech bubble over the sender's seat, then clears —
+  // so a message reads as coming from that student on the floor, not only as a
+  // line in the box. New lines only: the first pass seeds what already exists.
+  const liveMessages=session.channel?.messages
+  const [bubbles,setBubbles]=useState<Map<number,{id:string;text:string}>>(new Map())
+  const bubbleSeen=useRef<Set<string>|null>(null)
+  useEffect(()=>{
+    const list:{id:string;from:string;text:string;private?:boolean;to?:string}[]=(!demo&&liveMessages)?liveMessages:messages.map(m=>({id:String(m.id),from:selfId,text:m.text}))
+    if(bubbleSeen.current===null){bubbleSeen.current=new Set(list.map(m=>m.id));return}
+    for(const msg of list){
+      if(bubbleSeen.current.has(msg.id))continue
+      bubbleSeen.current.add(msg.id)
+      if(msg.private&&msg.to!==selfId&&msg.from!==selfId)continue
+      const index=desks.findIndex(p=>p?.id===msg.from)
+      if(index<0)continue
+      const entry={id:msg.id,text:msg.text}
+      setBubbles(prev=>{const next=new Map(prev);next.set(index,entry);return next})
+      window.setTimeout(()=>setBubbles(prev=>prev.get(index)?.id===entry.id?(()=>{const next=new Map(prev);next.delete(index);return next})():prev),5200)
+    }
+  },[liveMessages,messages,desks,selfId,demo])
   async function chooseSeat(index:number,confirmed=false) {
     if(desks[index]){openDetails(index);return}
     if(busy)return
@@ -168,7 +189,7 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
     {focusMode&&<div className="world-focus-timer"><span>{focus.goal||t('One topic at a time.')}</span>{timer&&<time className="tnum">{timer.timeLabel}</time>}<StudyTimerButton/></div>}
     <div className="world-workspace">
       <section id="world-room-region" className={`world-room-region ${mobileTab==='room'?'mobile-visible':''}`} aria-label={t('Room')}>
-        <WorldHall paused={customising} world={world} seats={desks} selfId={selfId} selected={selected} onSeat={index=>void chooseSeat(index)}/>
+        <WorldHall paused={customising} world={world} seats={desks} selfId={selfId} selected={selected} onSeat={index=>void chooseSeat(index)} bubbles={bubbles}/>
       </section>
       <aside id="world-session-region" className={`world-session-region session-dock-region ${mobileTab==='session'?'mobile-visible':''}`} aria-label={t('Your study session')}>
         <RoomSessionRail
@@ -192,7 +213,7 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
       {!chatOpen&&chatUnread>0&&<span className="room-chat-fab-badge tnum">{chatUnread>9?'9+':chatUnread}</span>}
     </button>
     {chatOpen&&<RoomChatBox demo={demo} name={chatName} messages={messages} draft={chatDraft} onDraft={setChatDraft} onSend={sendDemoMessage} live={liveChat} onClose={()=>setChatOpen(false)}/>}
-    {activitiesOpen&&<Dialog size="xl" label={t('Study together')} onClose={()=>setActivitiesOpen(false)}><RoomActivities partyId={room.roomId} shared={sharedSeat} demo={demo} onClose={()=>setActivitiesOpen(false)}/></Dialog>}
+    {activitiesOpen&&<Dialog size="xl" label={t('Study together')} onClose={()=>setActivitiesOpen(false)}><ActivityBoundary t={t} onClose={()=>setActivitiesOpen(false)}><RoomActivities partyId={room.roomId} shared={sharedSeat} demo={demo} onClose={()=>setActivitiesOpen(false)}/></ActivityBoundary></Dialog>}
     {selectedPerson&&selected!==null&&<StudentPopover onInvite={sharedSeat&&selectedPerson.id!==selfId&&tableForSeat(selected,demo?world.style:party?.layoutKey)!==tableForSeat(selfIndex,demo?world.style:party?.layoutKey)?()=>{if(demo){setNotice(t('Invitations are available in connected rooms. Sample students cannot receive requests.'));closeDetails();return}void apiSend<{ok:boolean;reason?:string}>(`/parties/${room.roomId}/invitations`,'POST',{recipientId:selectedPerson.id,scope:'table'}).then(result=>setNotice(t(result.ok?'Table invitation sent.':'The invitation could not be sent. Try again shortly.'))).catch(()=>setNotice(t('Check your connection and try again.')));closeDetails()}:undefined} person={selectedPerson} index={selected} self={selectedPerson.id===selfId} onClose={closeDetails} onCustomise={()=>setCustomising(true)} muted={session.audio?.mutedUsers.has(selectedPerson.id)??false} onToggleMute={!demo&&session.audio?.callActive?()=>session.audio!.toggleUserMute(selectedPerson.id):undefined} onMessage={demo?undefined:()=>{setChatTarget({id:selectedPerson.id,name:selectedPerson.name});setChatSeen(chatTotal);setChatOpen(true);closeDetails()}} onBlock={demo?undefined:()=>{void block(selectedPerson.id);setNotice(t('Blocked. They can no longer message you privately.'));closeDetails()}}/>}
     {pendingSeat!==null&&<Dialog label={t('Join this table?')} onClose={()=>setPendingSeat(null)}><div className="p-5"><h2 className="font-serif text-xl">{t(roomSceneLayout(world).seats[pendingSeat]?.shared?'Join this table?':'Take this private seat?')}</h2><p className="text-sm text-ink-2 my-3">{t('Move to seat')} {pendingSeat+1}? {t('Your focus timer will keep running.')}</p><div className="flex justify-end gap-2"><Button variant="ghost" onClick={()=>setPendingSeat(null)}>{t('Cancel')}</Button><Button variant="primary" onClick={()=>void chooseSeat(pendingSeat,true)}>{t('Sit here')}</Button></div></div></Dialog>}
     {selfIndex<0&&<p role="alert">{t('This room is full. Choose another room to take a seat.')}</p>}

@@ -19,7 +19,7 @@ import './illustratedRoom.css'
 
 const position=(x:number,y:number,w:number):CSSProperties=>({left:`${x}%`,top:`${y}%`,width:`${w}%`})
 
-export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=false}:{preview?:boolean;world:StudyRoomDefinition;seats:(StudyPresence|null)[];selfId:string;onSeat:(index:number)=>void;selected:number|null}){
+export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=false,bubbles}:{preview?:boolean;world:StudyRoomDefinition;seats:(StudyPresence|null)[];selfId:string;onSeat:(index:number)=>void;selected:number|null;bubbles?:Map<number,{id:string;text:string}>}){
   const t=useT(),[showNames,setShowNames]=useState(false),[expanded,setExpanded]=useState(false)
   const id=useId().replaceAll(':',''),[artState,setArtState]=useState<'loading'|'ready'|'error'>('loading'),[artRetry,setArtRetry]=useState(0)
   const library=world.style==='library'&&world.capacity===12
@@ -93,6 +93,16 @@ export function IllustratedRoom({world,seats,selfId,onSeat,selected,preview=fals
             return <button key={index} type="button" data-reference-seat={index} className={`reference-seat-target ${self?'is-self':''} ${person?'':'is-empty'}`} style={{left:place.discussion?`${3+(i%Math.ceil(place.indices.length/2))*(94/Math.ceil(place.indices.length/2))}%`:place.indices.length===1?'3%':`${2+i*(96/place.indices.length)}%`,top:place.discussion?(i<Math.ceil(place.indices.length/2)?'-29%':'82%'):'84%',width:place.discussion?`${90/Math.ceil(place.indices.length/2)}%`:`${94/place.indices.length}%`}} onClick={()=>onSeat(index)} aria-pressed={selected===index} aria-label={person?`${person.name}, ${t(person.status??'In the room')}${person.handRaised?`, ${t('Hand raised')}`:''}, ${t('desk')} ${index+1}. ${t('View student details')}`:`${t('Sit at desk')} ${index+1}`}>
               <b>{index+1}</b>{person?.status&&<i className="reference-status-icon" title={t(person.status)}><StudyStatusIcon status={person.status} size={13}/></i>}{!person&&<i className="reference-availability-mark" aria-hidden="true">+</i>}{showNames&&<span><strong>{person?(self?t('You'):person.name.split(' ')[0]):t('Sit here')}</strong>{person&&<small><i data-status={person.status}/>{person.elapsedSeconds===undefined?t('Here'):clockText(person.elapsedSeconds)}</small>}</span>}
             </button>
+          })}
+          {!preview&&bubbles&&place.indices.map((index,i)=>{
+            const bubble=bubbles.get(index)
+            if(!bubble)return null
+            const half=Math.ceil(place.indices.length/2)
+            const left=place.discussion?`${3+(i%half)*(94/half)}%`:place.indices.length===1?'3%':`${2+i*(96/place.indices.length)}%`
+            const width=place.discussion?`${90/half}%`:`${94/place.indices.length}%`
+            // Float over the seated student's head; discussion tops sit lower.
+            const top=place.discussion?(i<half?'6%':'62%'):'-7%'
+            return <div key={`bubble-${index}`} className="reference-chat-bubble animate-pop" style={{left,width,top}}><span>{bubble.text}</span></div>
           })}
         </div>)}
       </div>

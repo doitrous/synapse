@@ -120,3 +120,10 @@
 .reference-raised-hand{position:absolute;display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:#f6d990;color:#594515;box-shadow:0 2px 5px #1115;border:1px solid #fff0c4;z-index:5;pointer-events:none}
 .reference-far-hands .reference-raised-hand{display:none}
 @media(min-width:901px){.reference-room:not(.is-expanded):not(.is-preview) .reference-seat-target{min-height:24px}}
+
+/* A chat line as a speech bubble over the sender's seat: it reads as coming
+   from that student on the floor, not just a line in the box. Centred on the
+   seat, floats above the head, and clears itself after a few seconds. */
+.reference-chat-bubble{position:absolute;z-index:30;display:flex;justify-content:center;pointer-events:none}
+.reference-chat-bubble>span{position:relative;width:max-content;max-width:170px;padding:5px 9px;border-radius:12px;background:var(--color-ink,#1b2b38);color:#fff;font-size:11px;line-height:1.32;font-weight:500;text-align:center;word-break:break-word;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;box-shadow:var(--shadow-pop,0 6px 18px #10232e2e)}
+.reference-chat-bubble>span::after{content:"";position:absolute;top:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:var(--color-ink,#1b2b38);border-bottom:0}
