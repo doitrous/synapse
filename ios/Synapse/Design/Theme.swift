@@ -220,6 +220,16 @@ enum Theme {
         return Font(UIFont(descriptor: descriptor, size: size))
     }
 
+    /// The same bundled face as a `UIFont`, for the UIKit-backed rich editor.
+    static func uiFont(_ family: String = Family.serif, size: CGFloat, weight: CGFloat = 400) -> UIFont {
+        let axis = 0x77676874
+        let descriptor = UIFontDescriptor(fontAttributes: [
+            .family: family,
+            kCTFontVariationAttribute as UIFontDescriptor.AttributeName: [axis: weight],
+        ])
+        return UIFont(descriptor: descriptor, size: size)
+    }
+
     /// Page titles and headings: Source Serif 4 at 560, as the site sets it.
     static func display(_ size: CGFloat) -> Font {
         variable(Family.serif, size: size, weight: 560)

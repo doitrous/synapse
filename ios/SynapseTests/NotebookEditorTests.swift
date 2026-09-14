@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 import Testing
 @testable import Synapse
 
@@ -118,6 +119,49 @@ struct NotebookEditorTests {
         #expect(NotebookDoc.wordCount("") == 0)
         #expect(NotebookDoc.wordCount("   ") == 0)
         #expect(NotebookDoc.wordCount("one two   three\nfour") == 4)
+    }
+
+    // MARK: - Rich inline marks (the phone editor's four formats)
+
+    /// The invariant behind on-device formatting: a bold/italic/underline run
+    /// written on the phone must land in Lexical's `format` bitfield so the
+    /// website reads it as the same mark — and a round trip through the editor's
+    /// attributed string must not move a bit.
+    @Test func richMarksSurviveTheAttributedRoundTrip() {
+        let font = Theme.uiFont(size: 16)
+        let source = JSONValue.object(["root": .object([
+            "type": .string("root"), "version": .number(1),
+            "direction": .null, "format": .string(""), "indent": .number(0),
+            "children": .array([
+                .object(["type": .string("paragraph"), "version": .number(1),
+                         "children": .array([textRun("Acute", 1), textRun(" onset", 0)])]),
+                .object(["type": .string("paragraph"), "version": .number(1),
+                         "children": .array([textRun("notes", 2 | 8)])]),
+            ]),
+        ])])
+
+        let attributed = NotebookRichText.attributedString(from: source, baseFont: font, color: .black)
+        #expect(attributed.string == "Acute onset\nnotes")
+
+        let round = NotebookRichText.editorJson(from: attributed)
+        #expect(NotebookDoc.editorJsonToPlainText(round) == "Acute onset\nnotes")
+
+        let paragraphs = round["root"]?["children"]?.arrayValue ?? []
+        #expect(paragraphs.count == 2)
+
+        let firstRuns = paragraphs.first?["children"]?.arrayValue ?? []
+        #expect(firstRuns.first?["text"]?.stringValue == "Acute")
+        #expect(firstRuns.first?["format"]?.numberValue == 1)          // bold kept
+        #expect(firstRuns.last?["format"]?.numberValue == 0)           // plain stayed plain
+
+        let secondRuns = paragraphs.last?["children"]?.arrayValue ?? []
+        #expect(secondRuns.first?["format"]?.numberValue == Double(2 | 8)) // italic|underline
+    }
+
+    private func textRun(_ text: String, _ format: Int) -> JSONValue {
+        .object(["type": .string("text"), "version": .number(1), "text": .string(text),
+                 "detail": .number(0), "format": .number(Double(format)),
+                 "mode": .string("normal"), "style": .string("")])
     }
 
     // MARK: -

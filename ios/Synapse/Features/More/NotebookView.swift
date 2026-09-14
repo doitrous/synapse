@@ -218,18 +218,33 @@ private struct NoteEditor: View {
     /// ride through untouched and are folded back in only on save.
     @State private var title: String
     @State private var text: String
+    /// The rich body, for a note this editor can format (see `canRichEdit`).
+    @State private var attributed: NSAttributedString
 
     /// Reading or writing. Device-scoped, as on the web: whether you are
     /// reading your notes or editing them is about the moment, not the account.
     @AppStorage("nishany.notebook.reading") private var reading = false
     @State private var tagDraft = ""
 
+    private static let editorFont = Theme.uiFont(size: 16)
+
     init(note: Note, save: @escaping (Note) -> Void) {
         let ensured = NotebookDoc.ensureNotebookEditor(note)
         _note = State(initialValue: ensured)
         _title = State(initialValue: ensured.title)
         _text = State(initialValue: NotebookDoc.notePlainText(ensured))
+        _attributed = State(initialValue: NotebookRichText.attributedString(
+            from: ensured.editorJson, baseFont: Self.editorFont, color: UIColor(Theme.ink)))
         self.save = save
+    }
+
+    /// Whether the note is plain enough to format in place. A note with a
+    /// heading, list, table or image is edited as plain text so its structure
+    /// is never silently flattened (the notice below explains why).
+    private var canRichEdit: Bool { NotebookDoc.isSimple(note.editorJson) }
+
+    private var contentIsEmpty: Bool {
+        (canRichEdit ? attributed.string : text).trimmed.isEmpty
     }
 
     var body: some View {
@@ -255,10 +270,16 @@ private struct NoteEditor: View {
                 }
                 ToolbarItem(placement: .confirmationAction) {
                     Button(strings("Save")) {
-                        save(NotebookDoc.applyingEdit(to: note, title: title, text: text))
+                        if canRichEdit {
+                            save(NotebookDoc.applyingRichEdit(
+                                to: note, title: title,
+                                editorJson: NotebookRichText.editorJson(from: attributed)))
+                        } else {
+                            save(NotebookDoc.applyingEdit(to: note, title: title, text: text))
+                        }
                         dismiss()
                     }
-                    .disabled(title.trimmed.isEmpty && text.trimmed.isEmpty)
+                    .disabled(title.trimmed.isEmpty && contentIsEmpty)
                 }
             }
         }
@@ -270,15 +291,18 @@ private struct NoteEditor: View {
                 .font(Theme.display(20))
                 .foregroundStyle(Theme.ink)
 
-            if !NotebookDoc.isSimple(note.editorJson) {
+            if canRichEdit {
+                RichTextEditor(text: $attributed, baseFont: Self.editorFont, textColor: UIColor(Theme.ink))
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+            } else {
                 richFormattingNotice
-            }
 
-            TextEditor(text: $text)
-                .font(Theme.serifBody(16))
-                .foregroundStyle(Theme.ink)
-                .scrollContentBackground(.hidden)
-                .background(Theme.paper)
+                TextEditor(text: $text)
+                    .font(Theme.serifBody(16))
+                    .foregroundStyle(Theme.ink)
+                    .scrollContentBackground(.hidden)
+                    .background(Theme.paper)
+            }
 
             tagEditor
             context
@@ -309,12 +333,17 @@ private struct NoteEditor: View {
                     .font(Theme.display(24))
                     .foregroundStyle(Theme.ink)
 
-                Text(text)
-                    .font(Theme.serifBody(17))
-                    .foregroundStyle(Theme.ink)
-                    .lineSpacing(5)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .textSelection(.enabled)
+                Group {
+                    if canRichEdit {
+                        Text(AttributedString(attributed))
+                    } else {
+                        Text(text).font(Theme.serifBody(17))
+                    }
+                }
+                .foregroundStyle(Theme.ink)
+                .lineSpacing(5)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .textSelection(.enabled)
 
                 if !note.tags.isEmpty {
                     HStack(spacing: 6) {

@@ -146,6 +146,21 @@ enum NotebookDoc {
         return edited
     }
 
+    /// Apply a rich-text edit — the `editorJson` the on-device editor produced,
+    /// carrying inline bold/italic/underline/strike. `plainText` is derived from
+    /// it so search and previews stay in step; every untouched field rides
+    /// through, exactly as `applyingEdit` does for plain notes.
+    static func applyingRichEdit(to note: Note, title: String, editorJson: JSONValue) -> Note {
+        let plain = editorJsonToPlainText(editorJson)
+        var edited = note
+        edited.title = title
+        edited.editorJson = editorJson
+        edited.plainText = plain
+        edited.legacyMarkdownSource = note.legacyMarkdownSource ?? plain
+        edited.revision = (note.revision ?? 0) + 1
+        return edited
+    }
+
     // MARK: -
 
     /// `\r\n` and lone `\r` → `\n`, matching the web's `/\r\n?/g` normalisation.
@@ -169,6 +184,11 @@ extension JSONValue {
 
     var stringValue: String? {
         if case .string(let value) = self { return value }
+        return nil
+    }
+
+    var numberValue: Double? {
+        if case .number(let value) = self { return value }
         return nil
     }
 
