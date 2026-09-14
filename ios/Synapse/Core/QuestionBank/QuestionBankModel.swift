@@ -35,6 +35,11 @@ final class QuestionBankModel {
     /// are separate: in timed mode a student changes their mind, and only
     /// checking makes it final.
     private(set) var checked: [String: Bool] = [:]
+    /// Written question ids whose model answer the student has revealed. A
+    /// written question is self-graded, so revealing the mark scheme is a
+    /// separate act from committing a grade — the student reveals, compares,
+    /// then marks. Session-only: not carried across a resume.
+    private(set) var revealedWritten: Set<String> = []
     /// Indices actually looked at, so the navigator can tell a question left
     /// behind from one not reached yet.
     private(set) var visited: Set<Int> = []
@@ -213,6 +218,7 @@ final class QuestionBankModel {
         index = 0
         picked = [:]
         checked = [:]
+        revealedWritten = []
         visited = [0]
         spent = [:]
         answers = []
@@ -244,7 +250,12 @@ final class QuestionBankModel {
             else { return }
             result[entry.key] = question.options[entry.value].label
         }
-        checked = saved.checked
+        // Only a question whose choice was restored stays committed. A written
+        // question's self-grade is not persisted (it has no option index), so
+        // without this it would resume marked-but-blank; instead it resumes
+        // unanswered, ready to be graded again.
+        checked = saved.checked.filter { picked[$0.key] != nil }
+        revealedWritten = []
         visited = Set(saved.visited)
         reviewing = saved.reviewing
         elapsed = saved.elapsed
@@ -324,6 +335,43 @@ final class QuestionBankModel {
         ))
     }
 
+    // MARK: - Written (self-graded) questions
+
+    /// Whether the model answer for a written question is on show. Independent
+    /// of the grade: a student reveals the scheme, compares their own answer,
+    /// then grades it. In review the whole sitting is open.
+    func isWrittenRevealed(_ question: Question) -> Bool {
+        reviewing || checked[question.id] == true || revealedWritten.contains(question.id)
+    }
+
+    /// Show the mark scheme for the written question on screen.
+    func revealWritten() {
+        guard let question = current, question.isWritten else { return }
+        revealedWritten.insert(question.id)
+    }
+
+    /// Record the student's own grade of a written answer.
+    ///
+    /// Routed through the same `choose`/`check` an option takes — a sentinel
+    /// label graded against the question's `selfCorrectLabel` — so accuracy, the
+    /// navigator and the concept ledger count it with no special case. The mark
+    /// scheme is revealed first, because grading blind is not grading.
+    func selfMark(knewIt: Bool) {
+        guard let question = current, question.isWritten,
+              checked[question.id] != true, !reviewing
+        else { return }
+        revealedWritten.insert(question.id)
+        choose(knewIt ? Question.selfCorrectLabel : Question.selfReviewLabel)
+        check()
+    }
+
+    /// The grade a student gave a written question: true "knew it", false
+    /// "review", nil not yet graded.
+    func writtenGrade(_ question: Question) -> Bool? {
+        guard checked[question.id] == true, let label = picked[question.id] else { return nil }
+        return label == Question.selfCorrectLabel
+    }
+
     func go(to position: Int) {
         guard session.indices.contains(position), position != index else { return }
         index = position
@@ -384,6 +432,7 @@ final class QuestionBankModel {
         answers = []
         picked = [:]
         checked = [:]
+        revealedWritten = []
         visited = []
         index = 0
         reviewing = false

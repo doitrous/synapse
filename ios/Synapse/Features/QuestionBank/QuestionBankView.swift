@@ -311,18 +311,22 @@ private struct Runner: View {
                         .font(Theme.ui(18, weight: 600))
                         .foregroundStyle(Theme.ink)
 
-                    ForEach(question.options) { option in
-                        OptionRow(
-                            option: option,
-                            state: state(for: option, in: question),
-                            isAnswered: model.isRevealed
-                        ) {
-                            model.choose(option.label)
+                    if question.isWritten {
+                        writtenBody(question)
+                    } else {
+                        ForEach(question.options) { option in
+                            OptionRow(
+                                option: option,
+                                state: state(for: option, in: question),
+                                isAnswered: model.isRevealed
+                            ) {
+                                model.choose(option.label)
+                            }
                         }
-                    }
 
-                    if model.isRevealed {
-                        revealed(question)
+                        if model.isRevealed {
+                            revealed(question)
+                        }
                     }
                 }
                 .padding(20)
@@ -417,16 +421,25 @@ private struct Runner: View {
     /// move on; in timed mode there is nothing to reveal, so choosing and
     /// moving on are the same act.
     @ViewBuilder private var primaryAction: some View {
-        let canCheck = model.chosen != nil && !model.isChecked && model.mode.explainsAsYouGo
+        let isWritten = model.current?.isWritten == true
+        let canCheck = !isWritten && model.chosen != nil && !model.isChecked && model.mode.explainsAsYouGo
+        // A written question reveals its mark scheme before it is graded; the
+        // grade itself is given by the chips in the card, not this button.
+        let canReveal = isWritten && !model.reviewing
+            && !(model.current.map { model.isWrittenRevealed($0) } ?? true)
 
         Button {
             if canCheck {
                 model.check()
+            } else if canReveal {
+                model.revealWritten()
             } else {
                 Task { await model.next() }
             }
         } label: {
-            Text(canCheck ? "Check" : model.isLastQuestion ? "Finish" : "Next question")
+            Text(canCheck ? "Check"
+                 : canReveal ? "Reveal model answer"
+                 : model.isLastQuestion ? "Finish" : "Next question")
                 .font(Theme.ui(16, weight: 600))
                 .frame(maxWidth: .infinity)
                 .frame(height: 48)
@@ -541,6 +554,141 @@ private struct Runner: View {
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    /// A written question's card: the marked subparts, its model answer once
+    /// revealed, and the student's own grade. Written questions are self-graded
+    /// — there is nothing to auto-mark — so the runner shows the mark scheme and
+    /// trusts the student. A port in spirit of the web's written preview.
+    @ViewBuilder
+    private func writtenBody(_ question: Question) -> some View {
+        let revealed = model.isWrittenRevealed(question)
+
+        VStack(alignment: .leading, spacing: 12) {
+            if question.totalMarks > 0 {
+                Text("\(marksLabel(question.totalMarks)) \(strings("in total"))")
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink3)
+            }
+
+            ForEach(question.writtenParts) { part in
+                writtenPart(part, revealed: revealed)
+            }
+
+            if revealed {
+                if !question.explanation.isEmpty {
+                    block("Model answer", symbol: "checkmark", tint: Theme.success, text: question.explanation)
+                }
+                if let objective = question.learningObjective, !objective.isEmpty {
+                    block("What this tests", symbol: nil, tint: Theme.primaryStrong, text: objective)
+                }
+                selfMarkRow(question)
+            } else {
+                Text(strings("Answer it in your head or on paper, then reveal the model answer."))
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.ink3)
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    /// One marked subpart: its label, marks and prompt, and — once revealed —
+    /// the components an answer had to contain.
+    private func writtenPart(_ part: WrittenPart, revealed: Bool) -> some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack(alignment: .firstTextBaseline, spacing: 8) {
+                if !part.label.isEmpty {
+                    Text("(\(part.label))")
+                        .font(Theme.ui(14, weight: 700))
+                        .foregroundStyle(Theme.primaryStrong)
+                }
+                Text(part.prompt)
+                    .font(Theme.ui(15, weight: 600))
+                    .foregroundStyle(Theme.ink)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                if part.marks > 0 {
+                    Text(marksLabel(part.marks))
+                        .font(Theme.numeric(11))
+                        .foregroundStyle(Theme.ink2)
+                        .padding(.horizontal, 7).padding(.vertical, 2)
+                        .background(Theme.inset, in: Capsule())
+                }
+            }
+
+            if revealed && !part.expectedPoints.isEmpty {
+                VStack(alignment: .leading, spacing: 6) {
+                    ForEach(Array(part.expectedPoints.enumerated()), id: \.offset) { _, point in
+                        HStack(alignment: .top, spacing: 8) {
+                            Image(systemName: "checkmark.circle.fill")
+                                .font(.system(size: 13))
+                                .foregroundStyle(Theme.success)
+                            Text(point)
+                                .font(Theme.serifBody(14))
+                                .foregroundStyle(Theme.ink)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        }
+                    }
+                }
+            } else if revealed {
+                Text(strings("No mark scheme was published for this part."))
+                    .font(Theme.ui(12))
+                    .foregroundStyle(Theme.ink3)
+            }
+        }
+        .padding(14)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Theme.surface)
+        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+    }
+
+    /// After the scheme is out, the honest grade. Once given it becomes a pill;
+    /// in review it only reports what was recorded.
+    @ViewBuilder
+    private func selfMarkRow(_ question: Question) -> some View {
+        if let grade = model.writtenGrade(question) {
+            HStack(spacing: 8) {
+                Image(systemName: grade ? "checkmark.seal.fill" : "arrow.counterclockwise.circle.fill")
+                Text(grade ? strings("Marked: you knew this") : strings("Marked: for review"))
+                    .font(Theme.ui(14, weight: 600))
+            }
+            .foregroundStyle(grade ? Theme.success : Theme.primaryStrong)
+        } else if !model.reviewing {
+            VStack(alignment: .leading, spacing: 8) {
+                Text(strings("How did you do?"))
+                    .font(Theme.panelTitle())
+                    .foregroundStyle(Theme.ink2)
+                HStack(spacing: 10) {
+                    selfMarkButton(strings("I knew this"), symbol: "checkmark", tint: Theme.success) {
+                        model.selfMark(knewIt: true)
+                    }
+                    selfMarkButton(strings("Needs review"), symbol: "arrow.counterclockwise", tint: Theme.primary) {
+                        model.selfMark(knewIt: false)
+                    }
+                }
+            }
+        }
+    }
+
+    private func selfMarkButton(_ title: String, symbol: String, tint: Color, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
+            HStack(spacing: 6) {
+                Image(systemName: symbol).font(.system(size: 13, weight: .bold))
+                Text(title).font(Theme.ui(14, weight: 600))
+            }
+            .frame(maxWidth: .infinity)
+            .frame(height: 44)
+            .background(tint.opacity(0.12))
+            .foregroundStyle(tint)
+            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+        }
+        .buttonStyle(.plain)
+    }
+
+    /// "5 marks" / "0.5 marks" / "1 mark" — integers print without a decimal.
+    private func marksLabel(_ marks: Double) -> String {
+        let n = marks == marks.rounded() ? String(Int(marks)) : String(format: "%g", marks)
+        return "\(n) " + (marks == 1 ? strings("mark") : strings("marks"))
     }
 
     private func block(_ title: String, symbol: String?, tint: Color, text: String) -> some View {

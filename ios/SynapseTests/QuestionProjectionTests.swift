@@ -122,4 +122,85 @@ struct QuestionProjectionTests {
         ]]).items[0]
         #expect(QuestionProjection.project(article) == nil)
     }
+
+    // MARK: - Written formats
+
+    /// A written question carries no options — its `answers` are the fixed A–F
+    /// placeholders, all blank — so the choice guard would drop it. The content
+    /// is the mark scheme in `writtenParts`.
+    private func writtenItem(
+        format: String = "structured_written",
+        writtenParts: Any? = [
+            ["id": "part-a", "label": "a", "prompt": "Write the equation of MCHC.",
+             "marks": 2, "expectedPoints": ["MCHC = Hb / Hct x 100"], "conceptIds": ["CON-HEM-1"]],
+            ["id": "part-b", "label": "b", "prompt": "Define MCV.",
+             "marks": 2, "expectedPoints": ["Average volume of a single red cell"], "conceptIds": [] as [String]],
+        ]
+    ) -> LedgerItem {
+        var data: [String: Any] = [
+            "format": format,
+            "answers": [
+                ["label": "A", "text": "", "explanation": ""],
+                ["label": "B", "text": "", "explanation": ""],
+            ],
+            "correctAnswer": "A",
+            "tags": ["mainConceptIds": ["Q-CONCEPT"]],
+        ]
+        if let writtenParts { data["writtenParts"] = writtenParts }
+        return item(title: "Write the equation used to calculate MCHC, and define MCV.", questionData: data)
+    }
+
+    @Test("a written question is kept, not dropped for having no options")
+    func writtenKept() throws {
+        let q = try #require(QuestionProjection.project(writtenItem()))
+        #expect(q.isWritten)
+        #expect(q.options.isEmpty)
+        // Graded through the same path an option takes: its own answer counts.
+        #expect(q.correctLabel == Question.selfCorrectLabel)
+        #expect(q.isCorrect(Question.selfCorrectLabel))
+        #expect(!q.isCorrect(Question.selfReviewLabel))
+    }
+
+    @Test("the marked subparts and their totals are read")
+    func writtenParts() throws {
+        let q = try #require(QuestionProjection.project(writtenItem()))
+        #expect(q.writtenParts.map(\.label) == ["a", "b"])
+        #expect(q.writtenParts[0].prompt.hasPrefix("Write the equation"))
+        #expect(q.writtenParts[0].expectedPoints == ["MCHC = Hb / Hct x 100"])
+        #expect(q.totalMarks == 4)
+    }
+
+    @Test("a written question's concepts are its own plus every part's")
+    func writtenConceptUnion() throws {
+        let q = try #require(QuestionProjection.project(writtenItem()))
+        #expect(Set(q.conceptIds) == ["Q-CONCEPT", "CON-HEM-1"],
+                "mastery for a written question credits the question and each marked part")
+    }
+
+    /// A paper often prints a written question whose mark scheme was never
+    /// published. Losing the question because its answer is unknown is the wrong
+    /// trade — it is still worth putting in front of a student.
+    @Test("a written question with no parts still projects")
+    func writtenNoParts() throws {
+        let q = try #require(QuestionProjection.project(writtenItem(writtenParts: nil)))
+        #expect(q.isWritten)
+        #expect(q.writtenParts.isEmpty)
+    }
+
+    /// Matching and completion have no runner yet, and their `answers` are blank
+    /// placeholders, so they fall through to the choice guard and are dropped —
+    /// a missing question is better than a set of blank buttons.
+    @Test("a non-written format with no real options is still dropped")
+    func unrunnableFormatsDropped() {
+        #expect(QuestionProjection.project(writtenItem(format: "matching", writtenParts: nil)) == nil)
+        #expect(QuestionProjection.project(writtenItem(format: "completion", writtenParts: nil)) == nil)
+    }
+
+    @Test("an ordinary MCQ still reports its format and no written parts")
+    func choiceFormatUnchanged() throws {
+        let q = try #require(QuestionProjection.project(item()))
+        #expect(!q.isWritten)
+        #expect(q.format == "mcq_single_best")
+        #expect(q.writtenParts.isEmpty)
+    }
 }
