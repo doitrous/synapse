@@ -86,7 +86,14 @@ export function QuestionNavigator({
           className="flex flex-1 items-center gap-2 text-start"
         >
           <span className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Jump to question')}</span>
-          <span className="tnum font-mono text-[11.5px] text-ink-2">
+          {/* Sits right next to the label — it is the affordance for the label,
+              and pinned to the far right it read as unrelated to it. */}
+          <Icon
+            icon={ChevronDown}
+            size={15}
+            className={cn('text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !open && '-rotate-90 rtl:rotate-90')}
+          />
+          <span className="tnum ms-auto font-mono text-[11.5px] text-ink-2">
             {answered}/{count}
           </span>
           {flagged > 0 && (
@@ -95,11 +102,6 @@ export function QuestionNavigator({
               <span className="tnum font-mono">{flagged}</span> {t('marked')}
             </span>
           )}
-          <Icon
-            icon={ChevronDown}
-            size={15}
-            className={cn('ms-auto text-ink-3 transition-transform duration-[280ms] ease-[var(--ease-out-quint)]', !open && '-rotate-90 rtl:rotate-90')}
-          />
         </button>
         {headerRight && <div className="flex shrink-0 items-center gap-2">{headerRight}</div>}
       </div>

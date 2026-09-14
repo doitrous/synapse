@@ -1588,16 +1588,19 @@ export function QuestionBank() {
         headerRight={
           <>
             {reviewing && <span className="hidden text-[12px] font-medium text-primary sm:inline">{t('Reviewing')}</span>}
-            {/* Always offered, so a student can pre-set the layout; it only
-                takes effect once there is an answer to show, side by side. */}
-            <IconButton
-              icon={Columns2}
-              label={splitView ? t('Single column') : t('Split view')}
-              active={splitView}
-              variant="surface"
-              className="hidden lg:inline-flex"
-              onClick={() => setSplitView((value) => !value)}
-            />
+            {/* Split only exists on desktop (`splitActive` gates on `isDesktop`),
+                so the toggle is left out of the DOM entirely on a phone rather
+                than hidden with a class — that keeps the crowded mobile header
+                to just the timer. */}
+            {isDesktop && (
+              <IconButton
+                icon={Columns2}
+                label={splitView ? t('Single column') : t('Split view')}
+                active={splitView}
+                variant="surface"
+                onClick={() => setSplitView((value) => !value)}
+              />
+            )}
             {timer}
           </>
         }
