@@ -18,7 +18,10 @@ export function Avatar({
   /** An uploaded/imported photo. Omitted (or a load failure) falls back to initials. */
   src?: string
 }) {
-  const initials = name
+  // Coerce: `name` is typed string, but it arrives from server JSON that TS
+  // never checks, so a stray object here must not `.split`-crash the whole
+  // screen it renders in.
+  const initials = String(name ?? '')
     .split(' ')
     .filter(Boolean)
     .slice(0, 2)

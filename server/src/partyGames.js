@@ -771,7 +771,10 @@ export async function createPartyGame(userId, partyId, request) {
 
   const meta = await partyMeta(partyId)
   if (!meta) return { ok: false, reason: 'not_found' }
-  const members = (await partyMembers(partyId)).filter(member=>!audience.tableId||tableForSeat(member.seatIndex,meta.layoutKey)===audience.tableId)
+  // partyMembers needs the caller id to prove membership; without it the roster
+  // comes back null and this .filter threw, 500-ing every game a member started.
+  // The creator was already verified a member by memberVerdict above.
+  const members = (await partyMembers(partyId, userId) ?? []).filter(member=>!audience.tableId||tableForSeat(member.seatIndex,meta.layoutKey)===audience.tableId)
   const at = nowIso()
   const game = createInitialPartyGame({
     id: randomUUID(),

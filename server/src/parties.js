@@ -580,7 +580,11 @@ export async function sessionFor(userId, sessionId) {
     myAnswers: mine.map((answer) => ({ kind: answer.itemKind, id: answer.itemId, correct: answer.correct, seconds: answer.seconds })),
     members: members.filter(member=>!session.tableId||tableForSeat(member.seatIndex,membership.layoutKey)===session.tableId).map((member) => ({
       userId: member.userId,
-      displayName: names.get(member.userId) ?? 'Student',
+      // `displayNamesFor` returns { name, statusMessage }, not a bare string —
+      // handing the whole object to the client made <Avatar name> call
+      // .split on an object ("e.split is not a function") and took the whole
+      // Study-together screen down. Read the name the way memberView does.
+      displayName: names.get(member.userId)?.name ?? 'Student',
       tally: tally(answers.filter((answer) => answer.userId === member.userId)),
     })),
   }
