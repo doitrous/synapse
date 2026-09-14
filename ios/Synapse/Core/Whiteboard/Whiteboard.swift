@@ -243,6 +243,19 @@ enum BoardGeometry {
         return nil
     }
 
+    /// The smallest a section can be dragged down to.
+    static let minFrameSize = CGSize(width: 200, height: 140)
+
+    /// The notes a section holds — those whose centre sits inside it, so they
+    /// travel with the section when it moves, exactly as on the web.
+    static func notesInFrame(_ frame: BoardFrame, _ notes: [BoardNote]) -> [BoardNote] {
+        notes.filter { note in
+            let cx = note.x + noteSize.width / 2, cy = note.y + noteSize.height / 2
+            return cx >= frame.x && cx <= frame.x + frame.width
+                && cy >= frame.y && cy <= frame.y + frame.height
+        }
+    }
+
     /// Notes whose text matches a search.
     static func matching(_ query: String, in notes: [BoardNote]) -> [BoardNote] {
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)

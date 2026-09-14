@@ -245,6 +245,23 @@ struct WhiteboardTests {
         }
     }
 
+    @Suite("Frames")
+    struct Frames {
+
+        /// A section carries the notes whose centre sits inside it, and leaves
+        /// the ones that only overlap an edge — so moving a section moves what
+        /// looks like it belongs to it.
+        @Test("a section holds the notes centred inside it")
+        func held() {
+            let frame = BoardFrame(id: "f", x: 0, y: 0, width: 400, height: 300, title: "Group")
+            let inside = BoardNote(id: "in", x: 100, y: 100, text: "", tone: "paper")
+            // Its centre (x + 88) lands past the right edge, so it is not held.
+            let edge = BoardNote(id: "edge", x: 360, y: 100, text: "", tone: "paper")
+            let held = BoardGeometry.notesInFrame(frame, [inside, edge]).map(\.id)
+            #expect(held == ["in"])
+        }
+    }
+
     @Suite("Ink")
     struct Ink {
 

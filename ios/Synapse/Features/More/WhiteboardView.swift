@@ -29,9 +29,16 @@ struct WhiteboardView: View {
     @State private var gestureScale: CGFloat = 1
 
     @State private var selected: String?
+    @State private var selectedFrame: String?
     @State private var linkingFrom: String?
     @State private var editing: BoardNote?
+    @State private var editingFrame: BoardFrame?
     @State private var viewport = CGSize.zero
+
+    /// Captured when a section starts moving, so it and the notes it holds move
+    /// together from a fixed origin rather than chasing a shifting one.
+    @State private var frameDrag: (id: String, ox: Double, oy: Double, notes: [(id: String, ox: Double, oy: Double)])?
+    @State private var frameResize: (id: String, ow: Double, oh: Double)?
 
     /// Which tool a one-finger drag drives. Pinch-to-zoom stays live in every
     /// mode; panning is the select tool's drag, so drawing and panning never
@@ -70,11 +77,16 @@ struct WhiteboardView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {
-                Button { addNote() } label: { Image(systemName: "plus.square") }
-                    .tint(Theme.primary)
+                Menu {
+                    Button { addNote() } label: { Label(strings("Note"), systemImage: "note.text") }
+                    Button { addFrame() } label: { Label(strings("Section"), systemImage: "rectangle.dashed") }
+                } label: {
+                    Image(systemName: "plus.square")
+                }
+                .tint(Theme.primary)
                 Button { fitToContent() } label: { Image(systemName: "arrow.up.left.and.arrow.down.right") }
                     .tint(Theme.primary)
-                    .disabled(board.notes.isEmpty)
+                    .disabled(board.notes.isEmpty && board.frames.isEmpty)
             }
         }
         .safeAreaInset(edge: .bottom) { toolbar }
@@ -83,6 +95,14 @@ struct WhiteboardView: View {
                 Task { await update(updated) }
             } delete: {
                 Task { await deleteNote(note) }
+            }
+            .localisedSheet()
+        }
+        .sheet(item: $editingFrame) { frame in
+            FrameEditorSheet(frame: frame) { updated in
+                Task { await updateFrame(updated) }
+            } delete: {
+                Task { await deleteFrame(frame) }
             }
             .localisedSheet()
         }
@@ -104,6 +124,27 @@ struct WhiteboardView: View {
             Rectangle()
                 .fill(Theme.paper)
                 .frame(width: BoardGeometry.size.width, height: BoardGeometry.size.height)
+
+            // Sections sit at the back — they group what is drawn on top of them.
+            ForEach(board.frames) { frame in
+                FrameCard(frame: frame, isSelected: selectedFrame == frame.id)
+                    .position(x: frame.x + frame.width / 2, y: frame.y + frame.height / 2)
+                    .allowsHitTesting(tool == .select)
+                    .onTapGesture { tapFrame(frame) }
+                    .gesture(dragFrame(frame))
+            }
+
+            // A resize grabber on the selected section's bottom-right corner.
+            if tool == .select, let id = selectedFrame,
+               let frame = board.frames.first(where: { $0.id == id }) {
+                Circle()
+                    .fill(Theme.primary)
+                    .frame(width: 22, height: 22)
+                    .overlay(Image(systemName: "arrow.down.right")
+                        .font(.system(size: 10, weight: .bold)).foregroundStyle(.white))
+                    .position(x: frame.x + frame.width, y: frame.y + frame.height)
+                    .gesture(resizeFrame(frame))
+            }
 
             links
 
@@ -294,7 +335,103 @@ struct WhiteboardView: View {
         Task { await save() }
     }
 
+    /// A section moves with the notes it holds. The starting positions are
+    /// captured once so nothing drifts as the board re-renders mid-drag.
+    private func dragFrame(_ frame: BoardFrame) -> some Gesture {
+        DragGesture()
+            .onChanged { value in
+                if frameDrag == nil {
+                    remember()
+                    selectedFrame = frame.id
+                    selected = nil
+                    let held = BoardGeometry.notesInFrame(frame, board.notes).map { ($0.id, $0.x, $0.y) }
+                    frameDrag = (frame.id, frame.x, frame.y, held)
+                }
+                guard let drag = frameDrag,
+                      let fi = board.frames.firstIndex(where: { $0.id == drag.id }) else { return }
+                let target = CGPoint(
+                    x: drag.ox + value.translation.width / scale,
+                    y: drag.oy + value.translation.height / scale
+                )
+                let clamped = BoardGeometry.clampToBoard(
+                    target, size: CGSize(width: frame.width, height: frame.height)
+                )
+                board.frames[fi].x = clamped.x
+                board.frames[fi].y = clamped.y
+                let dx = clamped.x - drag.ox, dy = clamped.y - drag.oy
+                for note in drag.notes {
+                    guard let ni = board.notes.firstIndex(where: { $0.id == note.id }) else { continue }
+                    let moved = BoardGeometry.clampToBoard(
+                        CGPoint(x: note.ox + dx, y: note.oy + dy), size: BoardGeometry.noteSize
+                    )
+                    board.notes[ni].x = moved.x
+                    board.notes[ni].y = moved.y
+                }
+            }
+            .onEnded { _ in frameDrag = nil; Task { await save() } }
+    }
+
+    private func resizeFrame(_ frame: BoardFrame) -> some Gesture {
+        DragGesture()
+            .onChanged { value in
+                if frameResize == nil { remember(); frameResize = (frame.id, frame.width, frame.height) }
+                guard let resize = frameResize,
+                      let fi = board.frames.firstIndex(where: { $0.id == resize.id }) else { return }
+                board.frames[fi].width = max(
+                    BoardGeometry.minFrameSize.width, resize.ow + value.translation.width / scale
+                )
+                board.frames[fi].height = max(
+                    BoardGeometry.minFrameSize.height, resize.oh + value.translation.height / scale
+                )
+            }
+            .onEnded { _ in frameResize = nil; Task { await save() } }
+    }
+
+    private func tapFrame(_ frame: BoardFrame) {
+        selected = nil
+        linkingFrom = nil
+        if selectedFrame == frame.id {
+            editingFrame = frame
+        } else {
+            selectedFrame = frame.id
+        }
+    }
+
+    private func addFrame() {
+        let centre = BoardGeometry.toBoard(
+            CGPoint(x: viewport.width / 2, y: viewport.height / 2), offset: offset, scale: scale
+        )
+        remember()
+        let origin = BoardGeometry.clampToBoard(
+            CGPoint(x: centre.x - 260, y: centre.y - 150), size: CGSize(width: 520, height: 300)
+        )
+        let frame = BoardFrame(
+            id: UUID().uuidString, x: origin.x, y: origin.y,
+            width: 520, height: 300, title: strings("New study section")
+        )
+        board.frames.append(frame)
+        selected = nil
+        selectedFrame = frame.id
+        editingFrame = frame
+        Task { await save() }
+    }
+
+    private func updateFrame(_ frame: BoardFrame) async {
+        guard let index = board.frames.firstIndex(where: { $0.id == frame.id }) else { return }
+        remember()
+        board.frames[index] = frame
+        await save()
+    }
+
+    private func deleteFrame(_ frame: BoardFrame) async {
+        remember()
+        board.frames.removeAll { $0.id == frame.id }
+        selectedFrame = nil
+        await save()
+    }
+
     private func tap(_ note: BoardNote) {
+        selectedFrame = nil
         if let source = linkingFrom {
             // Second tap completes a link. Linking a note to itself would draw
             // a curve from an edge back to the same edge, which is a smudge.
@@ -407,6 +544,23 @@ struct WhiteboardView: View {
                     .font(Theme.numeric(11))
                     .foregroundStyle(Theme.ink3)
             }
+        } else if let id = selectedFrame, let frame = board.frames.first(where: { $0.id == id }) {
+            HStack(spacing: 10) {
+                Button { editingFrame = frame } label: {
+                    Label(strings("Rename"), systemImage: "pencil").font(Theme.ui(13, weight: 500))
+                }
+                .tint(Theme.primary)
+
+                Button(role: .destructive) { Task { await deleteFrame(frame) } } label: {
+                    Label(strings("Delete"), systemImage: "trash").font(Theme.ui(13, weight: 500))
+                }
+                .tint(Theme.danger)
+
+                Spacer()
+                Text(strings("Drag the bar to move, the corner to resize."))
+                    .font(Theme.ui(11))
+                    .foregroundStyle(Theme.ink3)
+            }
         } else {
             HStack(spacing: 10) {
                 Text(hint)
@@ -485,6 +639,7 @@ struct WhiteboardView: View {
         future.append(board)
         board = previous
         selected = nil
+        selectedFrame = nil
         linkingFrom = nil
         Task { await save() }
     }
@@ -494,6 +649,7 @@ struct WhiteboardView: View {
         history.append(board)
         board = next
         selected = nil
+        selectedFrame = nil
         linkingFrom = nil
         Task { await save() }
     }
@@ -706,6 +862,69 @@ private struct NoteEditorSheet: View {
         case "sand": Theme.inset
         case "clay": Theme.primaryTint.opacity(0.55)
         default: Theme.surface
+        }
+    }
+}
+
+/// A section: a dashed grouping rectangle with a title bar to drag it by.
+private struct FrameCard: View {
+    @Environment(\.strings) private var strings
+    let frame: BoardFrame
+    let isSelected: Bool
+
+    var body: some View {
+        VStack(spacing: 0) {
+            Text(frame.title.isEmpty ? strings("Section") : frame.title)
+                .font(Theme.ui(13, weight: 600))
+                .foregroundStyle(Theme.ink2)
+                .lineLimit(1)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 8)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(Theme.surface2.opacity(0.7))
+            Spacer(minLength: 0)
+        }
+        .frame(width: frame.width, height: frame.height, alignment: .topLeading)
+        .background(Theme.paper.opacity(0.3))
+        .overlay(
+            RoundedRectangle(cornerRadius: Theme.Radius.lg)
+                .strokeBorder(
+                    isSelected ? Theme.primary : Theme.line,
+                    style: StrokeStyle(lineWidth: isSelected ? 2 : 1.5, dash: isSelected ? [] : [7, 5])
+                )
+        )
+        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+    }
+}
+
+private struct FrameEditorSheet: View {
+    @Environment(\.strings) private var strings
+    @State var frame: BoardFrame
+    let save: (BoardFrame) -> Void
+    let delete: () -> Void
+
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            Form {
+                Section(strings("Section")) {
+                    TextField(strings("Name this section"), text: $frame.title)
+                        .font(Theme.ui(15))
+                }
+                Section {
+                    Button(strings("Delete section"), role: .destructive) { delete(); dismiss() }
+                }
+            }
+            .scrollContentBackground(.hidden)
+            .background(Theme.paper)
+            .navigationTitle(strings("Section"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button(strings("Done")) { save(frame); dismiss() }
+                }
+            }
         }
     }
 }
