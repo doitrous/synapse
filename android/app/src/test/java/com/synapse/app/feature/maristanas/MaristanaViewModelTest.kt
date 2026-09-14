@@ -1,5 +1,6 @@
 package com.synapse.app.feature.maristanas
 
+import com.synapse.app.R
 import com.synapse.app.core.api.ApiError
 import com.synapse.app.core.api.ApiException
 import com.synapse.app.core.api.MaristanaApi
@@ -115,7 +116,7 @@ class MaristanaViewModelTest {
         dispatcher.scheduler.advanceUntilIdle()
 
         assertEquals(1, api.renameCalls.size)
-        assertNull((viewModel.uiState.value as MaristanaUiState.Content).renameRefusalReason)
+        assertNull((viewModel.uiState.value as MaristanaUiState.Content).renameRefusalMessage)
     }
 
     @Test
@@ -129,7 +130,7 @@ class MaristanaViewModelTest {
         dispatcher.scheduler.advanceUntilIdle()
 
         val state = viewModel.uiState.value as MaristanaUiState.Content
-        assertEquals("hospital_not_unlocked", state.renameRefusalReason)
+        assertEquals(R.string.maristanas_rename_refused_not_unlocked, state.renameRefusalMessage)
     }
 
     @Test
@@ -143,7 +144,7 @@ class MaristanaViewModelTest {
         dispatcher.scheduler.advanceUntilIdle()
 
         val state = viewModel.uiState.value as MaristanaUiState.Content
-        assertNull(state.renameRefusalReason)
+        assertNull(state.renameRefusalMessage)
         assertEquals("Maristana 01", state.overview.hospitals.first().name)
     }
 

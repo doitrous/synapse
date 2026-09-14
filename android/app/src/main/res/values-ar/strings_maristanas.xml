@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/maristanas — Arabic (MSA) strings. Mirrors values/strings_maristanas.xml
+         key-for-key. "Maristana"/"Maristanas" is kept as the Latin-script brand term,
+         matching the existing Arabic usage of the same name elsewhere in this app. -->
+
+    <string name="maristanas_title">بناء Maristanas</string>
+    <string name="maristanas_unavailable_message">تعذّر تحميل سجل البناء الخاص بك. لم يتغيّر أي رصيد بناء.</string>
+    <string name="maristanas_cached_notice">يُعرض آخر تقدم محفوظ لديك — أعد الاتصال لرؤية الأحدث.</string>
+    <string name="maristanas_disabled_notice">بناء Maristanas متوقف مؤقتًا. أوقفه المسؤولون لديك؛ أدلة تعلّمك لا تزال آمنة.</string>
+
+    <plurals name="maristanas_hospitals_completed">
+        <item quantity="zero">لا توجد مستشفيات مكتملة</item>
+        <item quantity="one">مستشفى واحد مكتمل</item>
+        <item quantity="two">مستشفيان مكتملان</item>
+        <item quantity="few">%1$d مستشفيات مكتملة</item>
+        <item quantity="many">%1$d مستشفى مكتملًا</item>
+        <item quantity="other">%1$d مستشفى مكتمل</item>
+    </plurals>
+
+    <plurals name="maristanas_credits_total">
+        <item quantity="zero">لا رصيد إجمالي</item>
+        <item quantity="one">رصيد إجمالي واحد</item>
+        <item quantity="two">رصيدان إجماليان</item>
+        <item quantity="few">%1$d أرصدة إجمالية</item>
+        <item quantity="many">%1$d رصيدًا إجماليًا</item>
+        <item quantity="other">%1$d رصيد إجمالي</item>
+    </plurals>
+
+    <string name="maristanas_collection_title">مجموعتك</string>
+
+    <!-- Build ledger card. -->
+    <string name="maristanas_cancel">إلغاء</string>
+    <string name="maristanas_rename_button">إعادة تسمية</string>
+    <string name="maristanas_hospital_complete">المستشفى مكتمل</string>
+    <string name="maristanas_step_progress">الخطوة %1$d من %2$d</string>
+
+    <plurals name="maristanas_credits_to_next_step">
+        <item quantity="zero">لا رصيد متبقٍ لوضع الجزء التالي (تكلفة كل جزء %2$d)</item>
+        <item quantity="one">رصيد واحد متبقٍ لوضع الجزء التالي (تكلفة كل جزء %2$d)</item>
+        <item quantity="two">رصيدان متبقيان لوضع الجزء التالي (تكلفة كل جزء %2$d)</item>
+        <item quantity="few">%1$d أرصدة متبقية لوضع الجزء التالي (تكلفة كل جزء %2$d)</item>
+        <item quantity="many">%1$d رصيدًا متبقيًا لوضع الجزء التالي (تكلفة كل جزء %2$d)</item>
+        <item quantity="other">%1$d رصيد متبقٍ لوضع الجزء التالي (تكلفة كل جزء %2$d)</item>
+    </plurals>
+
+    <!-- Rename refusal — server reason codes stay wire strings; only the mapped message is localized. -->
+    <string name="maristanas_rename_refused_not_unlocked">يمكنك إعادة تسمية مستشفى بعد أن تبدأ في بنائه.</string>
+    <string name="maristanas_rename_refused_invalid">تعذّر حفظ هذا الاسم. جرّب اسمًا أقصر.</string>
+    <string name="maristanas_rename_refused_generic">تعذّر حفظ هذا الاسم.</string>
+
+    <!-- Construction ledger breakdown. -->
+    <string name="maristanas_ledger_title">سجل البناء</string>
+    <string name="maristanas_ledger_study_label">الدراسة المركزة</string>
+    <plurals name="maristanas_ledger_study_minutes">
+        <item quantity="zero">لا دقائق مسجّلة</item>
+        <item quantity="one">دقيقة واحدة مسجّلة</item>
+        <item quantity="two">دقيقتان مسجّلتان</item>
+        <item quantity="few">%1$d دقائق مسجّلة</item>
+        <item quantity="many">%1$d دقيقةً مسجّلة</item>
+        <item quantity="other">%1$d دقيقة مسجّلة</item>
+    </plurals>
+    <string name="maristanas_ledger_questions_label">الأسئلة المجابة</string>
+    <plurals name="maristanas_ledger_questions_detail">
+        <item quantity="zero">لا محاولات</item>
+        <item quantity="one">محاولة واحدة</item>
+        <item quantity="two">محاولتان</item>
+        <item quantity="few">%1$d محاولات</item>
+        <item quantity="many">%1$d محاولةً</item>
+        <item quantity="other">%1$d محاولة</item>
+    </plurals>
+    <string name="maristanas_ledger_accuracy_label">رصيد الإجابات الصحيحة</string>
+    <string name="maristanas_ledger_accuracy_percent">%1$d%% دقة</string>
+    <string name="maristanas_ledger_accuracy_none">لا إجابات مرصودة بعد</string>
+    <string name="maristanas_ledger_assessments_label">درجات التقييمات</string>
+    <plurals name="maristanas_ledger_assessments_detail">
+        <item quantity="zero">لا جلسات مسجّلة · %2$d%% المتوسط</item>
+        <item quantity="one">جلسة واحدة · %2$d%% المتوسط</item>
+        <item quantity="two">جلستان · %2$d%% المتوسط</item>
+        <item quantity="few">%1$d جلسات · %2$d%% المتوسط</item>
+        <item quantity="many">%1$d جلسةً · %2$d%% المتوسط</item>
+        <item quantity="other">%1$d جلسة · %2$d%% المتوسط</item>
+    </plurals>
+    <string name="maristanas_ledger_assessments_none">لا توجد جلسة تقييم بعد</string>
+    <string name="maristanas_ledger_credit_delta">+%1$d</string>
+
+    <!-- Hospital collection chips. -->
+    <string name="maristanas_hospital_built">مكتمل · %1$d/%1$d</string>
+    <plurals name="maristanas_hospital_parts_placed">
+        <item quantity="zero">0/%2$d جزء موضوع</item>
+        <item quantity="one">%1$d/%2$d جزء موضوع</item>
+        <item quantity="two">%1$d/%2$d جزءان موضوعان</item>
+        <item quantity="few">%1$d/%2$d أجزاء موضوعة</item>
+        <item quantity="many">%1$d/%2$d جزءًا موضوعًا</item>
+        <item quantity="other">%1$d/%2$d جزء موضوع</item>
+    </plurals>
+
+    <!-- Achievements — six fixed construction milestones (not admin-configurable). -->
+    <string name="maristanas_achievements_title">إنجازات البناء</string>
+    <string name="maristanas_achievement_earned">تم تحقيقه</string>
+    <string name="maristanas_achievement_stage">المرحلة %1$d</string>
+
+    <string name="maristanas_milestone_1_title">تجهيز الموقع</string>
+    <string name="maristanas_milestone_1_desc">المحيط والأساس الأول جاهزان.</string>
+    <string name="maristanas_milestone_5_title">تخطيط الفناء</string>
+    <string name="maristanas_milestone_5_desc">تم رسم الفناء المركزي وممراته.</string>
+    <string name="maristanas_milestone_10_title">رفع الأروقة</string>
+    <string name="maristanas_milestone_10_desc">الأجنحة السريرية الأولى تحيط الآن بالفناء.</string>
+    <string name="maristanas_milestone_15_title">افتتاح قاعة الشفاء</string>
+    <string name="maristanas_milestone_15_desc">القاعة المركزية تصل بين جانبي Maristana.</string>
+    <string name="maristanas_milestone_20_title">تتويج القبة</string>
+    <string name="maristanas_milestone_20_desc">تلقّت المستشفى قبتها المميزة.</string>
+    <string name="maristanas_milestone_25_title">اكتمال Maristana</string>
+    <string name="maristanas_milestone_25_desc">المستشفى وحدائقها جاهزة للخدمة.</string>
+
+    <!-- Onboarding. -->
+    <string name="maristanas_onboarding_title">ابنِ مكانًا للشفاء</string>
+    <string name="maristanas_onboarding_body">تتحول دراستك المركزة إلى Maristana — مستشفى يُبنى جزءًا تلو الآخر. تضع دقائق الدراسة النشطة، والأسئلة المجابة، ودرجات التقييم الجزء التالي تلقائيًا.</string>
+    <string name="maristanas_onboarding_start">ابدأ البناء</string>
+</resources>
