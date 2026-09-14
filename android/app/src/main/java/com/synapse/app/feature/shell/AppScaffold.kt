@@ -30,6 +30,7 @@ import com.synapse.app.feature.essays.EssaysRoute
 import com.synapse.app.feature.flashcards.FlashcardsRoot
 import com.synapse.app.feature.library.LibraryRoute
 import com.synapse.app.feature.maristanas.MaristanasRoute
+import com.synapse.app.feature.minigames.MinigamesRoute
 import com.synapse.app.feature.notebook.NotebookRoute
 import com.synapse.app.feature.placeholder.PlaceholderScreen
 import com.synapse.app.feature.taxonomy.TaxonomyRoute
@@ -39,6 +40,7 @@ import com.synapse.app.feature.performance.PerformanceRoute
 import com.synapse.app.feature.practical.PracticalRoute
 import com.synapse.app.feature.qbank.QuestionBankRoot
 import com.synapse.app.feature.resources.ResourcesRoute
+import com.synapse.app.feature.social.StudyTogetherRoute
 
 /** Test tag on the top bar's title [Text], so tests can read it unambiguously. */
 const val APP_BAR_TITLE_TAG = "app_scaffold_title"
@@ -94,6 +96,8 @@ fun AppScaffold(
     accountContent: @Composable () -> Unit = { AccountRoute() },
     billingContent: @Composable () -> Unit = { BillingRoute() },
     maristanasContent: @Composable () -> Unit = { MaristanasRoute() },
+    minigamesContent: @Composable () -> Unit = { MinigamesRoute() },
+    studyTogetherContent: @Composable () -> Unit = { StudyTogetherRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -139,6 +143,8 @@ fun AppScaffold(
         "account" to accountContent,
         "billing" to billingContent,
         "maristanas" to maristanasContent,
+        "minigames" to minigamesContent,
+        "study-together" to studyTogetherContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 

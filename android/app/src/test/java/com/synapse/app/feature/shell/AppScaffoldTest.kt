@@ -55,6 +55,8 @@ class AppScaffoldTest {
                     accountContent = { Text("AccountStandIn") },
                     billingContent = { Text("BillingStandIn") },
                     maristanasContent = { Text("MaristanasStandIn") },
+                    minigamesContent = { Text("MinigamesStandIn") },
+                    studyTogetherContent = { Text("StudyTogetherStandIn") },
                 )
             }
         }
@@ -122,11 +124,13 @@ class AppScaffoldTest {
                 .assertIsDisplayed()
         }
 
-        // Tapping one navigates to it: this hub item is still a placeholder destination.
-        composeTestRule.onNodeWithTag(moreHubItemTag("minigames")).performScrollTo().performClick()
+        // Tapping one navigates to it. Every hub destination now has a real
+        // content seam wired (no placeholders remain), so this verifies the
+        // navigation itself lands on the tapped destination's content.
+        composeTestRule.onNodeWithTag(moreHubItemTag("study-together")).performScrollTo().performClick()
 
-        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Minigames")
-        composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Study Together")
+        composeTestRule.onNodeWithText("StudyTogetherStandIn").assertIsDisplayed()
     }
 
     @Test
@@ -138,6 +142,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingMinigamesInTheMoreHubRendersMinigamesContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("minigames")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Minigames")
+        composeTestRule.onNodeWithText("MinigamesStandIn").assertIsDisplayed()
     }
 
     @Test
