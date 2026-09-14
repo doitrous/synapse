@@ -60,6 +60,7 @@ class AppScaffoldTest {
                     partiesContent = { Text("PartiesStandIn") },
                     sharesContent = { Text("SharesStandIn") },
                     notificationsContent = { Text("NotificationsStandIn") },
+                    studyActivityTracker = {},
                 )
             }
         }
