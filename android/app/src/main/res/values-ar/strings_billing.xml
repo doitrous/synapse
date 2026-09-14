@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/billing — Arabic (MSA) strings. Mirrors values/strings_billing.xml key-for-key. -->
+
+    <string name="billing_title">الفواتير</string>
+    <string name="billing_unavailable">تعذّر تحميل الفواتير. تحقق من اتصالك وحاول مرة أخرى.</string>
+
+    <string name="billing_entitlement_trial">تجريبي</string>
+    <string name="billing_entitlement_active">نشط</string>
+    <string name="billing_entitlement_expired">منتهي</string>
+    <string name="billing_entitlement_cancelled">ملغى</string>
+    <string name="billing_entitlement_none">لا يوجد اشتراك</string>
+
+    <string name="billing_plan_title">خطتك</string>
+    <string name="billing_no_plan_body">لم تُمنح أي خطة لحسابك بعد. تُرتَّب الخطط عبر الموقع الإلكتروني.</string>
+    <string name="billing_plan_fallback">خطتك</string>
+    <string name="billing_open_ended">غير محدد المدة · لا يوجد تاريخ انتهاء مسجَّل</string>
+    <string name="billing_runs_until_format">ساري حتى %1$s</string>
+    <string name="billing_plan_managed_note">يتولى الفريق إدارة الاشتراكات. لتغيير خطتك أو إنهائها، استخدم الموقع الإلكتروني.</string>
+
+    <plurals name="billing_runs_until_days_left">
+        <item quantity="zero">ساري حتى %1$s · لا أيام متبقية</item>
+        <item quantity="one">ساري حتى %1$s · يوم واحد متبقٍ</item>
+        <item quantity="two">ساري حتى %1$s · يومان متبقيان</item>
+        <item quantity="few">ساري حتى %1$s · %2$d أيام متبقية</item>
+        <item quantity="many">ساري حتى %1$s · %2$d يومًا متبقيًا</item>
+        <item quantity="other">ساري حتى %1$s · %2$d يوم متبقٍ</item>
+    </plurals>
+
+    <string name="billing_payments_title">المدفوعات</string>
+    <string name="billing_payments_body">لا يقبل هذا التطبيق الدفع بالبطاقة، ولا يخزّن أي بيانات بطاقة. تُرتَّب خطتك عبر الموقع الإلكتروني.</string>
+
+    <string name="billing_voucher_title">قسيمة الطالب</string>
+    <string name="billing_voucher_applied_badge">مُفعّلة</string>
+    <string name="billing_voucher_eligibility_note">يتم التحقق من الأهلية على الخادم وفقًا لجامعتك وسنتك ومجموعتك وتواريخ القسيمة وعدد مرات الاستخدام المتبقية.</string>
+    <string name="billing_voucher_code_placeholder">أدخل كود القسيمة</string>
+    <string name="billing_apply">تطبيق</string>
+    <string name="billing_remove">إزالة</string>
+
+    <string name="billing_trial_ended">انتهت الفترة التجريبية.</string>
+    <string name="billing_trial_full_access">وصول كامل تجريبي</string>
+    <string name="billing_voucher_applied_generic">تم تطبيقها على حسابك</string>
+
+    <plurals name="billing_trial_days_left">
+        <item quantity="zero">وصول كامل · لا أيام متبقية</item>
+        <item quantity="one">وصول كامل · يوم واحد متبقٍ</item>
+        <item quantity="two">وصول كامل · يومان متبقيان</item>
+        <item quantity="few">وصول كامل · %1$d أيام متبقية</item>
+        <item quantity="many">وصول كامل · %1$d يومًا متبقيًا</item>
+        <item quantity="other">وصول كامل · %1$d يوم متبقٍ</item>
+    </plurals>
+
+    <string name="billing_voucher_applied_discount">تم تطبيق %1$s على تجديدك القادم.</string>
+    <string name="billing_redeem_failed_transport">تعذّر تطبيق القسيمة. تحقق من اتصالك وحاول مرة أخرى.</string>
+    <string name="billing_voucher_removed">تمت إزالة القسيمة.</string>
+    <string name="billing_voucher_remove_failed">تعذّرت إزالة القسيمة. حاول مرة أخرى.</string>
+
+    <plurals name="billing_voucher_applied_trial">
+        <item quantity="zero">%1$s يمنحك وصولاً كاملاً دون أي أيام.</item>
+        <item quantity="one">%1$s يمنحك وصولاً كاملاً لمدة يوم واحد.</item>
+        <item quantity="two">%1$s يمنحك وصولاً كاملاً لمدة يومين.</item>
+        <item quantity="few">%1$s يمنحك وصولاً كاملاً لمدة %2$d أيام.</item>
+        <item quantity="many">%1$s يمنحك وصولاً كاملاً لمدة %2$d يومًا.</item>
+        <item quantity="other">%1$s يمنحك وصولاً كاملاً لمدة %2$d يوم.</item>
+    </plurals>
+
+    <string name="billing_reason_generic">تعذّر تطبيق هذه القسيمة.</string>
+    <string name="billing_reason_not_found">لم يتم العثور على كود القسيمة هذا. تحقق من الإملاء وحاول مرة أخرى.</string>
+    <string name="billing_reason_inactive">هذه القسيمة غير مفعّلة.</string>
+    <string name="billing_reason_not_started">هذه القسيمة غير متاحة بعد.</string>
+    <string name="billing_reason_expired">انتهت صلاحية هذه القسيمة.</string>
+    <string name="billing_reason_limit_reached">وصلت هذه القسيمة إلى حد مرات الاستخدام.</string>
+    <string name="billing_reason_not_your_university">هذه القسيمة غير متاحة لجامعتك.</string>
+    <string name="billing_reason_not_your_year">هذه القسيمة غير متاحة لسنتك الدراسية.</string>
+    <string name="billing_reason_not_your_group">هذه القسيمة غير متاحة لمجموعتك.</string>
+    <string name="billing_reason_already_redeemed">لقد طبّقت هذه القسيمة بالفعل.</string>
+    <string name="billing_reason_no_profile">لم يتم إعداد ملفك الدراسي بعد، لذا يتعذّر التحقق من القسائم المخصّصة.</string>
+</resources>

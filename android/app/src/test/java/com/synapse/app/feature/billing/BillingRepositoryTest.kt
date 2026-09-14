@@ -111,13 +111,16 @@ class BillingRepositoryTest {
         assertEquals("WELCOME20", (outcome as RedeemOutcome.Applied).voucher.code)
     }
 
-    @Test fun redeemReturnsRefusedWithTheServersMessage() = runTest {
+    @Test fun redeemReturnsRefusedWithTheServersReasonCode() = runTest {
         billingApi.redeemResult = RedeemResult(ok = false, reason = "not_found", message = "That voucher code was not found. Check the spelling and try again.")
 
         val outcome = repository.redeem("BOGUS")
 
         assertTrue(outcome is RedeemOutcome.Refused)
-        assertEquals("That voucher code was not found. Check the spelling and try again.", (outcome as RedeemOutcome.Refused).message)
+        // The reason CODE is carried through — the server's English `message` is
+        // deliberately dropped, since it isn't localized; the UI maps `reason`
+        // via billingReasonMessage() instead. See RedeemOutcome's doc comment.
+        assertEquals("not_found", (outcome as RedeemOutcome.Refused).reason)
     }
 
     @Test fun redeemReturnsFailedOnTransportError() = runTest {

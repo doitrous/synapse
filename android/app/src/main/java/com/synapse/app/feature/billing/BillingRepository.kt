@@ -18,14 +18,16 @@ sealed interface EntitlementOutcome {
 }
 
 /**
- * What a redeem attempt came back with. [Refused] carries the server's own
- * human-readable [Refused.message] (`server/src/vouchers.js#REFUSALS`) — a
- * refusal is a normal answer to render, not an error to interpret. [Failed]
- * is the transport/offline case, which has no server message to show.
+ * What a redeem attempt came back with. [Refused] carries the server's typed
+ * [Refused.reason] (`server/src/vouchers.js#REFUSALS`) rather than its
+ * `message` — a refusal is a normal answer to render, not an error to
+ * interpret, but the server's own `message` is English-only, so the caller
+ * localizes it from [Refused.reason] via [com.synapse.app.core.billing.billingReasonMessage]
+ * instead. [Failed] is the transport/offline case, which has no reason to map.
  */
 sealed interface RedeemOutcome {
     data class Applied(val voucher: Voucher) : RedeemOutcome
-    data class Refused(val message: String) : RedeemOutcome
+    data class Refused(val reason: String?) : RedeemOutcome
     data object Failed : RedeemOutcome
 }
 
@@ -86,7 +88,7 @@ class BillingRepository @Inject constructor(
         if (result.ok && voucher != null) {
             RedeemOutcome.Applied(voucher)
         } else {
-            RedeemOutcome.Refused(result.message ?: "That voucher could not be applied.")
+            RedeemOutcome.Refused(result.reason)
         }
     } catch (e: CancellationException) {
         throw e

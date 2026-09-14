@@ -15,6 +15,7 @@ import com.synapse.app.core.api.RedeemResult
 import com.synapse.app.core.api.Voucher
 import com.synapse.app.core.api.VoucherRedemption
 import com.synapse.app.core.cache.LocalStore
+import com.synapse.app.R
 import com.synapse.app.core.cache.OutboxEntry
 import com.synapse.app.core.model.AttemptRecord as ModelAttemptRecord
 import kotlinx.coroutines.Dispatchers
@@ -103,10 +104,30 @@ class BillingViewModelTest {
         assertEquals("", state.code)
         assertFalse(state.isBusy)
         assertEquals("v1", state.redemption?.voucherId)
-        assertTrue(state.message!!.contains("WELCOME20"))
+        assertEquals(R.string.billing_voucher_applied_discount, state.message?.res)
+        assertEquals(listOf("WELCOME20"), state.message?.args)
     }
 
-    @Test fun redeemSurfacesTheServersRefusalMessageWithoutClearingTheCode() = runTest {
+    @Test fun redeemingATrialVoucherSurfacesAPluralizedDaysMessage() = runTest {
+        val viewModel = viewModel()
+        dispatcher.scheduler.advanceUntilIdle()
+
+        billingApi.redeemResult = RedeemResult(
+            ok = true,
+            voucher = Voucher(id = "v1", code = "TRIAL3", grant = "Full-access trial", trialDays = 3),
+        )
+        billingApi.mine = MineResponse(redemption = VoucherRedemption("v1", "TRIAL3", "2026-08-13T09:00:00Z"))
+        viewModel.onCodeChange("trial3")
+        viewModel.redeem()
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val state = viewModel.uiState.value as BillingUiState.Content
+        assertEquals(R.plurals.billing_voucher_applied_trial, state.message?.res)
+        assertEquals(listOf("TRIAL3", 3), state.message?.args)
+        assertEquals(3, state.message?.pluralCount)
+    }
+
+    @Test fun redeemSurfacesTheServersRefusalReasonWithoutClearingTheCode() = runTest {
         val viewModel = viewModel()
         dispatcher.scheduler.advanceUntilIdle()
 
@@ -118,7 +139,8 @@ class BillingViewModelTest {
         val state = viewModel.uiState.value as BillingUiState.Content
         assertEquals("BOGUS", state.code)
         assertFalse(state.isBusy)
-        assertEquals("That voucher code was not found. Check the spelling and try again.", state.message)
+        // Localized from the `reason` code, not the server's English `message`.
+        assertEquals(R.string.billing_reason_not_found, state.message?.res)
         assertNull(state.redemption)
     }
 
@@ -132,7 +154,7 @@ class BillingViewModelTest {
         dispatcher.scheduler.advanceUntilIdle()
 
         val state = viewModel.uiState.value as BillingUiState.Content
-        assertEquals("That voucher could not be applied. Check your connection and try again.", state.message)
+        assertEquals(R.string.billing_redeem_failed_transport, state.message?.res)
     }
 
     @Test fun redeemIsANoOpForABlankCode() = runTest {
@@ -158,7 +180,7 @@ class BillingViewModelTest {
         val state = viewModel.uiState.value as BillingUiState.Content
         assertNull(state.redemption)
         assertNull(state.appliedVoucher)
-        assertEquals("Voucher removed.", state.message)
+        assertEquals(R.string.billing_voucher_removed, state.message?.res)
     }
 
     @Test fun removeVoucherSurfacesAFailureMessageAndKeepsTheRedemption() = runTest {
@@ -172,7 +194,7 @@ class BillingViewModelTest {
 
         val state = viewModel.uiState.value as BillingUiState.Content
         assertEquals("v1", state.redemption?.voucherId)
-        assertEquals("That voucher could not be removed. Try again.", state.message)
+        assertEquals(R.string.billing_voucher_remove_failed, state.message?.res)
     }
 
     // --- trial countdown (the `now` seam) --------------------------------------------

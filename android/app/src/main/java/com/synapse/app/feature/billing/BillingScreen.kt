@@ -22,9 +22,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.MeEntitlement
 import com.synapse.app.core.api.Voucher
 import com.synapse.app.core.api.VoucherRedemption
@@ -75,7 +78,7 @@ private fun BillingScreen(
             contentAlignment = Alignment.Center,
         ) {
             Text(
-                "Billing could not be loaded. Check your connection and try again.",
+                stringResource(R.string.billing_unavailable),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(24.dp),
             )
@@ -86,7 +89,7 @@ private fun BillingScreen(
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            item { Text("Billing", style = MaterialTheme.typography.titleLarge) }
+            item { Text(stringResource(R.string.billing_title), style = MaterialTheme.typography.titleLarge) }
             item { YourPlanCard(uiState.entitlement) }
             item { PaymentsCard() }
             item {
@@ -103,29 +106,32 @@ private fun BillingScreen(
 
 // --- Your plan -----------------------------------------------------------------
 
-private fun entitlementLabel(state: String?): String = when (state) {
-    "trialing" -> "Trial"
-    "active" -> "Active"
-    "expired" -> "Expired"
-    "cancelled" -> "Cancelled"
-    else -> "No subscription"
-}
+@Composable
+private fun entitlementLabel(state: String?): String = stringResource(
+    when (state) {
+        "trialing" -> R.string.billing_entitlement_trial
+        "active" -> R.string.billing_entitlement_active
+        "expired" -> R.string.billing_entitlement_expired
+        "cancelled" -> R.string.billing_entitlement_cancelled
+        else -> R.string.billing_entitlement_none
+    }
+)
 
 @Composable
 private fun YourPlanCard(entitlement: MeEntitlement?) {
-    PanelCard(title = "Your plan", badge = entitlementLabel(entitlement?.state)) {
+    PanelCard(title = stringResource(R.string.billing_plan_title), badge = entitlementLabel(entitlement?.state)) {
         if (entitlement == null || entitlement.state == null || entitlement.state == "none") {
             Text(
-                "No plan has been granted to your account yet. Plans are arranged on the website.",
+                stringResource(R.string.billing_no_plan_body),
                 style = MaterialTheme.typography.bodyMedium,
             )
         } else {
             Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text(entitlement.plan ?: "Your plan", style = MaterialTheme.typography.headlineSmall)
+                Text(entitlement.plan ?: stringResource(R.string.billing_plan_fallback), style = MaterialTheme.typography.headlineSmall)
                 Text(runsUntilText(entitlement), style = MaterialTheme.typography.bodySmall)
                 HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
                 Text(
-                    "Subscriptions are managed by the team. To change or end your plan, use the website.",
+                    stringResource(R.string.billing_plan_managed_note),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -134,21 +140,21 @@ private fun YourPlanCard(entitlement: MeEntitlement?) {
     }
 }
 
+@Composable
 private fun runsUntilText(entitlement: MeEntitlement): String {
     val expiry = entitlement.expiresAt
-    if (expiry.isNullOrEmpty()) return "Open-ended · no expiry recorded"
-    val days = entitlement.daysLeft ?: return "Runs until $expiry"
-    val left = if (days == 1) "day left" else "days left"
-    return "Runs until $expiry · $days $left"
+    if (expiry.isNullOrEmpty()) return stringResource(R.string.billing_open_ended)
+    val days = entitlement.daysLeft ?: return stringResource(R.string.billing_runs_until_format, expiry)
+    return pluralStringResource(R.plurals.billing_runs_until_days_left, days, expiry, days)
 }
 
 // --- Payments --------------------------------------------------------------------
 
 @Composable
 private fun PaymentsCard() {
-    PanelCard(title = "Payments") {
+    PanelCard(title = stringResource(R.string.billing_payments_title)) {
         Text(
-            "This app does not take card payments, and stores no card details. Your plan is arranged on the website.",
+            stringResource(R.string.billing_payments_body),
             style = MaterialTheme.typography.bodyMedium,
         )
     }
@@ -163,14 +169,17 @@ private fun VoucherCard(
     onRedeem: () -> Unit,
     onRemoveVoucher: () -> Unit,
 ) {
-    PanelCard(title = "Student voucher", badge = if (state.redemption != null) "Applied" else null) {
+    PanelCard(
+        title = stringResource(R.string.billing_voucher_title),
+        badge = if (state.redemption != null) stringResource(R.string.billing_voucher_applied_badge) else null,
+    ) {
         Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
             val redemption = state.redemption
             if (redemption != null) {
                 AppliedVoucherRow(redemption, state.appliedVoucher, state.trialDaysLeft, state.trialExpired, state.isBusy, onRemoveVoucher)
             } else {
                 Text(
-                    "Eligibility is checked on the server against your university, year, group, the voucher dates, and the remaining redemption limit.",
+                    stringResource(R.string.billing_voucher_eligibility_note),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
@@ -178,7 +187,7 @@ private fun VoucherCard(
                     OutlinedTextField(
                         value = state.code,
                         onValueChange = onCodeChange,
-                        placeholder = { Text("Enter voucher code") },
+                        placeholder = { Text(stringResource(R.string.billing_voucher_code_placeholder)) },
                         singleLine = true,
                         modifier = Modifier.weight(1f).testTag(BILLING_CODE_FIELD_TAG),
                     )
@@ -186,11 +195,16 @@ private fun VoucherCard(
                         onClick = onRedeem,
                         enabled = state.code.isNotBlank() && !state.isBusy,
                         modifier = Modifier.testTag(BILLING_APPLY_BUTTON_TAG),
-                    ) { Text("Apply") }
+                    ) { Text(stringResource(R.string.billing_apply)) }
                 }
             }
-            if (!state.message.isNullOrEmpty()) {
-                Text(state.message, style = MaterialTheme.typography.bodySmall)
+            state.message?.let { msg ->
+                val text = if (msg.pluralCount != null) {
+                    pluralStringResource(msg.res, msg.pluralCount, *msg.args.toTypedArray())
+                } else {
+                    stringResource(msg.res, *msg.args.toTypedArray())
+                }
+                Text(text, style = MaterialTheme.typography.bodySmall)
             }
         }
     }
@@ -215,7 +229,7 @@ private fun AppliedVoucherRow(
             Text(savingLine(voucher, trialDaysLeft, trialExpired), style = MaterialTheme.typography.bodySmall)
         }
         TextButton(onClick = onRemoveVoucher, enabled = !isBusy, modifier = Modifier.testTag(BILLING_REMOVE_BUTTON_TAG)) {
-            Text("Remove")
+            Text(stringResource(R.string.billing_remove))
         }
     }
 }
@@ -229,15 +243,16 @@ private fun AppliedVoucherRow(
  * [trialExpired] come from the server's own `redeemedAt` via
  * [BillingViewModel]'s `now` seam, not a guess.
  */
+@Composable
 private fun savingLine(voucher: Voucher?, trialDaysLeft: Int?, trialExpired: Boolean): String {
     if (voucher != null && isTrialVoucher(voucher)) {
         return when {
-            trialExpired -> "Trial has ended."
-            trialDaysLeft != null -> if (trialDaysLeft == 1) "Full access · 1 day left" else "Full access · $trialDaysLeft days left"
-            else -> "Full access trial"
+            trialExpired -> stringResource(R.string.billing_trial_ended)
+            trialDaysLeft != null -> pluralStringResource(R.plurals.billing_trial_days_left, trialDaysLeft, trialDaysLeft)
+            else -> stringResource(R.string.billing_trial_full_access)
         }
     }
-    return "Applied to your account"
+    return stringResource(R.string.billing_voucher_applied_generic)
 }
 
 // --- Shared card chrome ------------------------------------------------------------
