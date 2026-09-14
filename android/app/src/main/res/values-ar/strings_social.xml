@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Study Together (feature/social): study rooms, challenges, friends. -->
+
+    <!-- Shared across rooms/challenges/friends. -->
+    <string name="social_study_together_title">الدراسة الجماعية</string>
+    <string name="social_tab_rooms">الغرف</string>
+    <string name="social_tab_challenges">التحديات</string>
+    <string name="social_student_fallback">طالب</string>
+    <string name="social_offline_generic">تعذّر الوصول إلى nishany.</string>
+    <string name="social_leave_button">مغادرة</string>
+    <string name="social_cancel_button">إلغاء</string>
+    <string name="social_accept_button">قبول</string>
+    <string name="social_decline_button">رفض</string>
+    <string name="social_name_label">الاسم</string>
+    <string name="social_questions_label">الأسئلة</string>
+    <string name="social_timed_label">محدد بوقت</string>
+    <string name="social_create_button">إنشاء</string>
+    <string name="social_next_button">التالي</string>
+    <string name="social_hand_in_button">تسليم</string>
+    <string name="social_score_fraction">%1$d / %2$d</string>
+    <string name="social_position_of_total">%1$d من %2$d</string>
+    <plurals name="social_question_count">
+        <item quantity="zero">لا أسئلة</item>
+        <item quantity="one">سؤال واحد</item>
+        <item quantity="two">سؤالان</item>
+        <item quantity="few">%1$d أسئلة</item>
+        <item quantity="many">%1$d سؤالًا</item>
+        <item quantity="other">%1$d سؤال</item>
+    </plurals>
+    <plurals name="social_questions_available">
+        <item quantity="zero">لا أسئلة للاختيار منها.</item>
+        <item quantity="one">سؤال واحد للاختيار منه.</item>
+        <item quantity="two">سؤالان للاختيار منهما.</item>
+        <item quantity="few">%1$d أسئلة للاختيار منها.</item>
+        <item quantity="many">%1$d سؤالًا للاختيار منه.</item>
+        <item quantity="other">%1$d سؤال للاختيار منه.</item>
+    </plurals>
+
+    <!-- Study rooms: RoomsScreen / RoomDetailScreen. -->
+    <string name="social_join_test_title">الانضمام إلى اختبار</string>
+    <string name="social_room_code_label">رمز الغرفة</string>
+    <string name="social_join_button">انضمام</string>
+    <string name="social_join_test_description">يُجيب الجميع عن المجموعة نفسها بالسرعة التي تناسبهم. تُفتح النتائج بمجرد انتهائك.</string>
+    <string name="social_build_test_button">إنشاء اختبار مشترك</string>
+    <string name="social_rooms_offline">تعذّر الوصول إلى nishany. يحتاج الاختبار المشترك إلى اتصال بالإنترنت.</string>
+    <string name="social_rooms_empty">لم تنضم إلى اختبار مشترك أو تُنشئ واحدًا بعد.</string>
+    <string name="social_rooms_section_title">غرفك</string>
+    <string name="social_room_status_waiting">بالانتظار</string>
+    <string name="social_room_status_in_progress">جارٍ</string>
+    <string name="social_room_status_finished">منتهٍ</string>
+    <string name="social_build_test_dialog_title">إنشاء اختبار</string>
+    <string name="social_default_room_name">اختبار مشترك</string>
+    <string name="social_share_code_label">شارك هذا الرمز</string>
+    <string name="social_timed_word">محدد بوقت</string>
+    <string name="social_untimed_word">غير محدد بوقت</string>
+    <string name="social_start_test_button">بدء الاختبار</string>
+    <string name="social_waiting_for_host">بانتظار أن يبدأ المضيف.</string>
+    <string name="social_room_questions_not_synced">تستخدم هذه الغرفة أسئلة لم تتم مزامنتها على هذا الجهاز بعد. زامن بنك الأسئلة، ثم عد مرة أخرى.</string>
+    <string name="social_members_finished_count">%1$d من %2$d أنهوا</string>
+    <string name="social_everyone_finished">أنهى الجميع</string>
+    <string name="social_waiting_for_others">بانتظار الآخرين</string>
+    <string name="social_hide_answers_button">إخفاء إجاباتك</string>
+    <string name="social_review_answers_button">مراجعة إجاباتك</string>
+    <string name="social_question_unavailable">(السؤال لم يعد متاحًا)</string>
+    <string name="social_answer_correct">صحيح</string>
+    <string name="social_answer_incorrect">خطأ</string>
+    <string name="social_members_title">المشاركون</string>
+    <string name="social_room_gone">لم تعد هذه الغرفة متاحة.</string>
+    <string name="social_room_unreachable">تعذّر الوصول إلى الغرفة.</string>
+    <string name="social_answer_not_delivered_room">لم تصل إجابتك إلى الغرفة.</string>
+
+    <!-- Friends: FriendsScreen. -->
+    <string name="social_find_people_title">العثور على أشخاص</string>
+    <string name="social_search_cohort_label">ابحث في دفعتك</string>
+    <string name="social_add_button">إضافة</string>
+    <string name="social_nobody_matched">لم يُعثر على أحد.</string>
+    <string name="social_invite_by_link_title">الدعوة عبر رابط</string>
+    <string name="social_create_invite_button">إنشاء دعوة</string>
+    <string name="social_requests_title">الطلبات</string>
+    <string name="social_sent_requests_title">الطلبات المُرسَلة</string>
+    <string name="social_pending_label">قيد الانتظار</string>
+    <string name="social_friends_title">الأصدقاء</string>
+    <string name="social_no_friends_yet">لا يوجد أصدقاء بعد — ابحث في دفعتك أعلاه.</string>
+    <string name="social_remove_button">إزالة</string>
+
+    <!-- Challenges: ChallengesScreen / ChallengeDetailScreen. -->
+    <string name="social_add_friend_first_button">أضف صديقًا أولًا لتحدّيه</string>
+    <string name="social_challenge_friend_button">تحدي صديق</string>
+    <string name="social_no_challenges_yet">لا توجد تحديات بعد.</string>
+    <string name="social_challenge_fallback_title">تحدٍّ</string>
+    <string name="social_challenge_status_waiting_response">بانتظار الرد</string>
+    <string name="social_challenge_status_sent_to_you">أُرسل إليك</string>
+    <string name="social_challenge_status_declined">مرفوض</string>
+    <string name="social_challenge_status_finished">منتهٍ</string>
+    <string name="social_challenge_status_waiting_them">بانتظارهم</string>
+    <string name="social_challenge_status_in_progress">جارٍ</string>
+    <string name="social_challenge_score_summary">أنت: %1$d/%2$d · هم: %3$d/%4$d</string>
+    <string name="social_friend_label">الصديق</string>
+    <string name="social_selected_label">مُحدَّد</string>
+    <string name="social_send_button">إرسال</string>
+    <string name="social_challenge_declined_message">تم رفض هذا التحدي.</string>
+    <string name="social_waiting_other_side">بانتظار أن ينهي الطرف الآخر.</string>
+    <string name="social_waiting_them_respond">بانتظار ردهم.</string>
+    <string name="social_challenge_questions_not_synced">يستخدم هذا التحدي أسئلة لم تتم مزامنتها على هذا الجهاز بعد. زامن بنك الأسئلة، ثم عد مرة أخرى.</string>
+    <string name="social_comparison_unavailable">المقارنة غير متاحة.</string>
+    <string name="social_you_score">أنت: %1$d / %2$d</string>
+    <string name="social_them_score">هم: %1$d / %2$d</string>
+    <string name="social_challenge_gone">لم يعد هذا التحدي متاحًا.</string>
+    <string name="social_challenge_unreachable">تعذّر الوصول إلى التحدي.</string>
+    <string name="social_answer_not_delivered_challenge">لم تصل إجابتك إلى التحدي.</string>
+
+    <!-- Reason-code -> human text (core/social/SocialMessages.kt socialReasonMessage). Reason codes themselves are never translated. -->
+    <string name="social_reason_generic">لم ينجح ذلك.</string>
+    <string name="social_reason_no_questions">اختر سؤالًا واحدًا على الأقل أولًا.</string>
+    <string name="social_reason_code_collision">تعذّر توليد رمز للغرفة. حاول مرة أخرى.</string>
+    <string name="social_reason_not_found">تعذّر العثور على ذلك.</string>
+    <string name="social_reason_closed">لقد أُغلق ذلك بالفعل.</string>
+    <string name="social_reason_not_a_member">أنت لست عضوًا في تلك الغرفة.</string>
+    <string name="social_reason_not_host">المضيف وحده يمكنه بدء الاختبار.</string>
+    <string name="social_reason_not_started">لم يبدأ المضيف بعد.</string>
+    <string name="social_reason_not_in_room">هذا السؤال ليس ضمن هذا الاختبار.</string>
+    <string name="social_reason_not_in_challenge">هذا السؤال ليس ضمن هذا التحدي.</string>
+    <string name="social_reason_already_finished">لقد أنهيت هذا بالفعل.</string>
+    <string name="social_reason_question_gone">هذا السؤال لم يعد منشورًا.</string>
+    <string name="social_reason_invalid_opponent">اختر شخصًا لتتحداه.</string>
+    <string name="social_reason_not_friends">لا يمكنك تحدي إلا صديقًا.</string>
+    <string name="social_reason_not_pending">هذا الطلب لم يعد معلّقًا.</string>
+    <string name="social_reason_not_running">هذا ليس قيد التنفيذ.</string>
+    <string name="social_reason_invalid_target">تعذّر العثور على هذا الشخص.</string>
+    <string name="social_reason_used">هذه الدعوة استُخدمت بالفعل.</string>
+    <string name="social_reason_expired">انتهت صلاحية هذه الدعوة.</string>
+    <string name="social_reason_self">لا يمكنك استخدام دعوتك الخاصة.</string>
+</resources>

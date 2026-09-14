@@ -1,5 +1,6 @@
 package com.synapse.app.feature.social
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.synapse.app.core.api.PersonDto
@@ -24,7 +25,7 @@ sealed interface FriendsUiState {
         val directoryResults: List<PersonDto>? = null,
         val inviteToken: String? = null,
         val offline: Boolean = false,
-        val message: String? = null,
+        @param:StringRes val message: Int? = null,
     ) : FriendsUiState
 }
 

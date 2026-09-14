@@ -1,7 +1,9 @@
 package com.synapse.app.feature.social
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.ChallengeDto
 import com.synapse.app.core.qbank.Question
 import com.synapse.app.core.social.socialReasonMessage
@@ -23,10 +25,10 @@ sealed interface ChallengeDetailUiState {
         val questions: List<Question>,
         val index: Int,
         val chosenIndex: Int?,
-        val message: String? = null,
+        @param:StringRes val message: Int? = null,
     ) : ChallengeDetailUiState
 
-    data class Gone(val message: String) : ChallengeDetailUiState
+    data class Gone(@param:StringRes val message: Int) : ChallengeDetailUiState
 }
 
 /**
@@ -72,11 +74,11 @@ class ChallengeViewModel @Inject constructor(
     private suspend fun applyTick(tick: ChallengePoll) {
         when (tick) {
             is ChallengePoll.Loaded -> applyLoaded(tick.challenge)
-            ChallengePoll.Gone -> _uiState.value = ChallengeDetailUiState.Gone("That challenge is no longer available.")
+            ChallengePoll.Gone -> _uiState.value = ChallengeDetailUiState.Gone(R.string.social_challenge_gone)
             ChallengePoll.Unavailable -> {
                 val prev = _uiState.value as? ChallengeDetailUiState.Detail
-                _uiState.value = prev?.copy(message = "Could not reach the challenge.")
-                    ?: ChallengeDetailUiState.Gone("Could not reach the challenge.")
+                _uiState.value = prev?.copy(message = R.string.social_challenge_unreachable)
+                    ?: ChallengeDetailUiState.Gone(R.string.social_challenge_unreachable)
             }
         }
     }
@@ -120,7 +122,7 @@ class ChallengeViewModel @Inject constructor(
             val mutation = repository.submitAnswer(state.challenge.id, question.id, optionIndex, seconds)
             if (!mutation.succeeded) {
                 val current = _uiState.value as? ChallengeDetailUiState.Detail ?: return@launch
-                _uiState.value = current.copy(chosenIndex = null, message = "That answer did not reach the challenge.")
+                _uiState.value = current.copy(chosenIndex = null, message = R.string.social_answer_not_delivered_challenge)
             }
         }
     }

@@ -31,9 +31,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.RoomSummaryDto
 import com.synapse.app.core.qbank.Question
 
@@ -54,19 +57,21 @@ fun RoomsScreen(viewModel: StudyRoomsViewModel = hiltViewModel()) {
         item {
             Card(modifier = Modifier.fillMaxWidth()) {
                 Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text("Join a test", style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(R.string.social_join_test_title), style = MaterialTheme.typography.titleMedium)
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         OutlinedTextField(
                             value = code,
                             onValueChange = { code = it.uppercase() },
-                            label = { Text("Room code") },
+                            label = { Text(stringResource(R.string.social_room_code_label)) },
                             singleLine = true,
                             modifier = Modifier.weight(1f),
                         )
-                        Button(onClick = { viewModel.join(code); code = "" }, enabled = code.isNotBlank()) { Text("Join") }
+                        Button(onClick = { viewModel.join(code); code = "" }, enabled = code.isNotBlank()) {
+                            Text(stringResource(R.string.social_join_button))
+                        }
                     }
                     Text(
-                        "Everyone answers the same set at their own pace. Results open once you finish.",
+                        stringResource(R.string.social_join_test_description),
                         style = MaterialTheme.typography.bodySmall,
                     )
                 }
@@ -75,20 +80,20 @@ fun RoomsScreen(viewModel: StudyRoomsViewModel = hiltViewModel()) {
 
         item {
             OutlinedButton(onClick = { showBuilder = true }, modifier = Modifier.fillMaxWidth()) {
-                Text("Build a shared test")
+                Text(stringResource(R.string.social_build_test_button))
             }
         }
 
         state.message?.let { message ->
-            item { Text(message, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium) }
+            item { Text(stringResource(message), color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium) }
         }
 
         if (state.offline) {
-            item { Text("Could not reach Synapse. A shared test needs a connection.", style = MaterialTheme.typography.bodyMedium) }
+            item { Text(stringResource(R.string.social_rooms_offline), style = MaterialTheme.typography.bodyMedium) }
         } else if (state.rooms.isEmpty()) {
-            item { Text("You have not joined or built a shared test yet.", style = MaterialTheme.typography.bodyMedium) }
+            item { Text(stringResource(R.string.social_rooms_empty), style = MaterialTheme.typography.bodyMedium) }
         } else {
-            item { Text("Your rooms", style = MaterialTheme.typography.titleMedium) }
+            item { Text(stringResource(R.string.social_rooms_section_title), style = MaterialTheme.typography.titleMedium) }
             items(state.rooms, key = { it.id }) { room -> RoomRow(room, onClick = { viewModel.openRoom(room.id) }) }
         }
     }
@@ -115,17 +120,21 @@ private fun RoomRow(room: RoomSummaryDto, onClick: () -> Unit) {
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(room.name, style = MaterialTheme.typography.titleMedium)
-                Text("${room.questionCount} questions · ${roomStatusLabel(room.status)}", style = MaterialTheme.typography.bodySmall)
+                Text(
+                    "${pluralStringResource(R.plurals.social_question_count, room.questionCount, room.questionCount)} · " +
+                        stringResource(roomStatusRes(room.status)),
+                    style = MaterialTheme.typography.bodySmall,
+                )
             }
             Text(room.code, style = MaterialTheme.typography.titleMedium)
         }
     }
 }
 
-private fun roomStatusLabel(status: String): String = when (status) {
-    "lobby" -> "waiting"
-    "running" -> "in progress"
-    else -> "finished"
+private fun roomStatusRes(status: String): Int = when (status) {
+    "lobby" -> R.string.social_room_status_waiting
+    "running" -> R.string.social_room_status_in_progress
+    else -> R.string.social_room_status_finished
 }
 
 @Composable
@@ -134,7 +143,8 @@ private fun RoomBuilderDialog(
     onDismiss: () -> Unit,
     onCreate: (name: String, questionIds: List<String>, timed: Boolean) -> Unit,
 ) {
-    var name by remember { mutableStateOf("Shared test") }
+    val defaultName = stringResource(R.string.social_default_room_name)
+    var name by remember { mutableStateOf(defaultName) }
     var topic by remember { mutableStateOf<String?>(null) }
     var count by remember { mutableStateOf(10) }
     var timed by remember { mutableStateOf(false) }
@@ -144,12 +154,12 @@ private fun RoomBuilderDialog(
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Build a test") },
+        title = { Text(stringResource(R.string.social_build_test_dialog_title)) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                OutlinedTextField(value = name, onValueChange = { name = it }, label = { Text("Name") }, singleLine = true)
+                OutlinedTextField(value = name, onValueChange = { name = it }, label = { Text(stringResource(R.string.social_name_label)) }, singleLine = true)
 
-                Text("Questions", style = MaterialTheme.typography.labelMedium)
+                Text(stringResource(R.string.social_questions_label), style = MaterialTheme.typography.labelMedium)
                 SingleChoiceSegmentedButtonRow(modifier = Modifier.fillMaxWidth()) {
                     listOf(5, 10, 20).forEachIndexed { index, option ->
                         SegmentedButton(
@@ -161,19 +171,22 @@ private fun RoomBuilderDialog(
                 }
 
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
-                    Text("Timed")
+                    Text(stringResource(R.string.social_timed_label))
                     Switch(checked = timed, onCheckedChange = { timed = it })
                 }
 
-                Text("${matching.size} question${if (matching.size == 1) "" else "s"} to choose from.", style = MaterialTheme.typography.bodySmall)
+                Text(
+                    pluralStringResource(R.plurals.social_questions_available, matching.size, matching.size),
+                    style = MaterialTheme.typography.bodySmall,
+                )
             }
         },
         confirmButton = {
             TextButton(
                 onClick = { onCreate(name.trim(), matching.shuffled().take(count).map { it.id }, timed) },
                 enabled = matching.isNotEmpty() && name.isNotBlank(),
-            ) { Text("Create") }
+            ) { Text(stringResource(R.string.social_create_button)) }
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.social_cancel_button)) } },
     )
 }

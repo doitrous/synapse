@@ -23,9 +23,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.RoomMemberDto
 import com.synapse.app.core.api.StudyRoomDto
 import com.synapse.app.core.qbank.Question
@@ -41,7 +44,7 @@ fun RoomDetailScreen(viewModel: RoomViewModel, onLeave: () -> Unit) {
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            TextButton(onClick = onLeave) { Text("Leave") }
+            TextButton(onClick = onLeave) { Text(stringResource(R.string.social_leave_button)) }
         }
 
         when (val state = uiState) {
@@ -50,7 +53,7 @@ fun RoomDetailScreen(viewModel: RoomViewModel, onLeave: () -> Unit) {
             }
 
             is RoomDetailUiState.Gone -> Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                Text(state.message, modifier = Modifier.padding(24.dp))
+                Text(stringResource(state.message), modifier = Modifier.padding(24.dp))
             }
 
             is RoomDetailUiState.InRoom -> when {
@@ -71,21 +74,22 @@ private fun LobbyPane(state: RoomDetailUiState.InRoom, onStart: () -> Unit) {
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         Text(room.name, style = MaterialTheme.typography.headlineSmall)
-        Text("Share this code", style = MaterialTheme.typography.bodyMedium)
+        Text(stringResource(R.string.social_share_code_label), style = MaterialTheme.typography.bodyMedium)
         Text(room.code, style = MaterialTheme.typography.displaySmall, fontWeight = FontWeight.Bold)
         Text(
-            "${room.questionCount} questions · ${if (room.timed) "timed" else "untimed"}",
+            "${pluralStringResource(R.plurals.social_question_count, room.questionCount, room.questionCount)} · " +
+                stringResource(if (room.timed) R.string.social_timed_word else R.string.social_untimed_word),
             style = MaterialTheme.typography.bodySmall,
         )
 
-        state.message?.let { Text(it, color = MaterialTheme.colorScheme.error) }
+        state.message?.let { Text(stringResource(it), color = MaterialTheme.colorScheme.error) }
 
         MembersCard(room.members, room.questionCount, room.resultsOpen)
 
         if (room.isHost) {
-            Button(onClick = onStart, modifier = Modifier.fillMaxWidth()) { Text("Start the test") }
+            Button(onClick = onStart, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.social_start_test_button)) }
         } else {
-            Text("Waiting for the host to start.", style = MaterialTheme.typography.bodySmall)
+            Text(stringResource(R.string.social_waiting_for_host), style = MaterialTheme.typography.bodySmall)
         }
     }
 }
@@ -96,7 +100,7 @@ private fun RunningPane(state: RoomDetailUiState.InRoom, onSelect: (Int) -> Unit
     if (question == null) {
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
             Text(
-                "This room uses questions this device has not synced yet. Sync the Question Bank, then come back.",
+                stringResource(R.string.social_room_questions_not_synced),
                 modifier = Modifier.padding(24.dp),
             )
         }
@@ -106,9 +110,16 @@ private fun RunningPane(state: RoomDetailUiState.InRoom, onSelect: (Int) -> Unit
     LazyColumn(modifier = Modifier.fillMaxSize(), contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         item {
             Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                Text("${state.index + 1} of ${state.questions.size}", style = MaterialTheme.typography.labelMedium)
                 Text(
-                    "${state.room.members.count { it.finished }} of ${state.room.members.size} finished",
+                    stringResource(R.string.social_position_of_total, state.index + 1, state.questions.size),
+                    style = MaterialTheme.typography.labelMedium,
+                )
+                Text(
+                    stringResource(
+                        R.string.social_members_finished_count,
+                        state.room.members.count { it.finished },
+                        state.room.members.size,
+                    ),
                     style = MaterialTheme.typography.labelMedium,
                 )
             }
@@ -126,11 +137,11 @@ private fun RunningPane(state: RoomDetailUiState.InRoom, onSelect: (Int) -> Unit
                 onClick = { onSelect(position) },
             )
         }
-        state.message?.let { item { Text(it, color = MaterialTheme.colorScheme.error) } }
+        state.message?.let { item { Text(stringResource(it), color = MaterialTheme.colorScheme.error) } }
         if (state.chosenIndex != null) {
             item {
                 Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) {
-                    Text(if (state.index + 1 < state.questions.size) "Next" else "Hand it in")
+                    Text(stringResource(if (state.index + 1 < state.questions.size) R.string.social_next_button else R.string.social_hand_in_button))
                 }
             }
         }
@@ -145,9 +156,9 @@ private fun ResultsPane(state: RoomDetailUiState.InRoom, onToggleReview: (Boolea
     LazyColumn(modifier = Modifier.fillMaxSize(), contentPadding = PaddingValues(20.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         item {
             Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.fillMaxWidth()) {
-                Text("$myCorrect of ${room.questionCount}", style = MaterialTheme.typography.displaySmall)
+                Text(stringResource(R.string.social_score_fraction, myCorrect, room.questionCount), style = MaterialTheme.typography.displaySmall)
                 Text(
-                    if (room.resultsOpen) "Everyone has finished" else "Waiting for the others",
+                    stringResource(if (room.resultsOpen) R.string.social_everyone_finished else R.string.social_waiting_for_others),
                     style = MaterialTheme.typography.bodyMedium,
                 )
             }
@@ -155,7 +166,7 @@ private fun ResultsPane(state: RoomDetailUiState.InRoom, onToggleReview: (Boolea
         if (room.myAnswers.isNotEmpty()) {
             item {
                 TextButton(onClick = { onToggleReview(!state.reviewExpanded) }) {
-                    Text(if (state.reviewExpanded) "Hide your answers" else "Look back at your answers")
+                    Text(stringResource(if (state.reviewExpanded) R.string.social_hide_answers_button else R.string.social_review_answers_button))
                 }
             }
         }
@@ -165,9 +176,9 @@ private fun ResultsPane(state: RoomDetailUiState.InRoom, onToggleReview: (Boolea
                 val question = byId[answer.questionId]
                 Card(modifier = Modifier.fillMaxWidth()) {
                     Column(modifier = Modifier.padding(12.dp)) {
-                        Text(question?.stem ?: "(question no longer available)", style = MaterialTheme.typography.bodyMedium)
+                        Text(question?.stem ?: stringResource(R.string.social_question_unavailable), style = MaterialTheme.typography.bodyMedium)
                         Text(
-                            if (answer.correct) "Correct" else "Incorrect",
+                            stringResource(if (answer.correct) R.string.social_answer_correct else R.string.social_answer_incorrect),
                             color = if (answer.correct) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error,
                             style = MaterialTheme.typography.labelMedium,
                         )
@@ -183,12 +194,18 @@ private fun ResultsPane(state: RoomDetailUiState.InRoom, onToggleReview: (Boolea
 private fun MembersCard(members: List<RoomMemberDto>, questionCount: Int, resultsOpen: Boolean) {
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Text("Who is in", style = MaterialTheme.typography.titleSmall)
+            Text(stringResource(R.string.social_members_title), style = MaterialTheme.typography.titleSmall)
             members.forEach { member ->
                 Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                    Text(member.displayName?.takeIf { it.isNotBlank() } ?: "Student")
+                    Text(member.displayName?.takeIf { it.isNotBlank() } ?: stringResource(R.string.social_student_fallback))
                     val showScore = member.correct != null && (resultsOpen || member.finished)
-                    Text(if (showScore) "${member.correct} / $questionCount" else "${member.answered} / $questionCount")
+                    Text(
+                        stringResource(
+                            R.string.social_score_fraction,
+                            if (showScore) member.correct ?: 0 else member.answered,
+                            questionCount,
+                        ),
+                    )
                 }
             }
         }
