@@ -1,5 +1,6 @@
 package com.synapse.app.feature.practical
 
+import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -31,9 +32,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.practical.Practical
 import com.synapse.app.core.practical.PracticalProgress
 import com.synapse.app.core.practical.totalMarkItems
@@ -80,10 +84,10 @@ fun PracticalRoute(viewModel: PracticalViewModel = hiltViewModel()) {
     )
 }
 
-enum class PracticalTab(val label: String) {
-    OSCE("OSCE stations"),
-    CASES("Clinical cases"),
-    SKILLS("Skills"),
+enum class PracticalTab(@StringRes val labelRes: Int) {
+    OSCE(R.string.practical_tab_osce),
+    CASES(R.string.practical_tab_cases),
+    SKILLS(R.string.practical_tab_skills),
 }
 
 /** Where inside Practical the student currently is: a tab's list, or a runner over one item. */
@@ -104,7 +108,7 @@ private fun PracticalScreen(
             modifier = Modifier.fillMaxSize().testTag(PRACTICAL_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.practical_loading)) }
         return
     }
 
@@ -114,13 +118,13 @@ private fun PracticalScreen(
 
     when (pane) {
         is PracticalPane.List -> Column(modifier = Modifier.fillMaxSize()) {
-            Text("Practical", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(16.dp))
+            Text(stringResource(R.string.practical_title), style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(16.dp))
             TabRow(selectedTabIndex = pane.tab.ordinal) {
                 PracticalTab.entries.forEach { entry ->
                     Tab(
                         selected = pane.tab == entry,
                         onClick = { tab = entry },
-                        text = { Text(entry.label) },
+                        text = { Text(stringResource(entry.labelRes)) },
                         modifier = Modifier.testTag(practicalTabTag(entry)),
                     )
                 }
@@ -157,7 +161,7 @@ private fun EmptyHint(text: String) {
 @Composable
 private fun StationListPane(items: List<Practical>, progress: PracticalProgress, onOpen: (String) -> Unit) {
     if (items.isEmpty()) {
-        EmptyHint("No OSCE stations have been published for you yet.")
+        EmptyHint(stringResource(R.string.practical_osce_empty))
         return
     }
     Column(modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState())) {
@@ -168,12 +172,20 @@ private fun StationListPane(items: List<Practical>, progress: PracticalProgress,
                     Column {
                         Text(station.title, style = MaterialTheme.typography.bodyLarge)
                         Text(
-                            listOfNotNull(station.minutes?.let { "$it min" }, station.marks?.let { "$it marks" }, station.difficulty).joinToString(" · "),
+                            listOfNotNull(
+                                station.minutes?.let { stringResource(R.string.practical_minutes_format, it) },
+                                station.marks?.let { pluralStringResource(R.plurals.practical_marks, it, it) },
+                                station.difficulty,
+                            ).joinToString(" · "),
                             style = MaterialTheme.typography.bodySmall,
                         )
                     }
                     Text(
-                        if (best != null && best.outOf > 0) "Best ${best.bestMarks}/${best.outOf}" else "Not attempted",
+                        if (best != null && best.outOf > 0) {
+                            stringResource(R.string.practical_best_score_format, best.bestMarks, best.outOf)
+                        } else {
+                            stringResource(R.string.practical_not_attempted)
+                        },
                         style = MaterialTheme.typography.bodySmall,
                     )
                 }
@@ -186,22 +198,25 @@ private fun StationListPane(items: List<Practical>, progress: PracticalProgress,
 @Composable
 private fun CaseListPane(items: List<Practical>, progress: PracticalProgress, onOpen: (String) -> Unit) {
     if (items.isEmpty()) {
-        EmptyHint("No clinical cases have been published for you yet.")
+        EmptyHint(stringResource(R.string.practical_cases_empty))
         return
     }
     Column(modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState())) {
         items.forEach { case ->
             val record = progress.cases[case.id]
             val statusLabel = when (record?.status) {
-                PracticalProgress.CaseStatus.COMPLETED -> "Completed"
-                PracticalProgress.CaseStatus.IN_PROGRESS -> "Got to ${record.lastStep} of ${record.steps}"
-                else -> "Not started"
+                PracticalProgress.CaseStatus.COMPLETED -> stringResource(R.string.practical_case_completed)
+                PracticalProgress.CaseStatus.IN_PROGRESS -> stringResource(R.string.practical_case_progress_format, record.lastStep, record.steps)
+                else -> stringResource(R.string.practical_not_started)
             }
+            val minutesText = case.minutes?.let { stringResource(R.string.practical_minutes_format, it) }
+                ?: stringResource(R.string.practical_minutes_unknown)
+            val stepsText = pluralStringResource(R.plurals.practical_steps, case.decisions.size, case.decisions.size)
             Surface(onClick = { onOpen(case.id) }, modifier = Modifier.fillMaxWidth().testTag(practicalRowTag(case.id))) {
                 Row(modifier = Modifier.fillMaxWidth().padding(16.dp, 12.dp), horizontalArrangement = Arrangement.SpaceBetween) {
                     Column {
                         Text(case.title, style = MaterialTheme.typography.bodyLarge)
-                        Text("${case.minutes ?: "?"} min · ${case.decisions.size} steps", style = MaterialTheme.typography.bodySmall)
+                        Text("$minutesText · $stepsText", style = MaterialTheme.typography.bodySmall)
                     }
                     Text(statusLabel, style = MaterialTheme.typography.bodySmall)
                 }
@@ -221,7 +236,7 @@ private fun CaseListPane(items: List<Practical>, progress: PracticalProgress, on
 @Composable
 private fun SkillListPane(items: List<Practical>, progress: PracticalProgress, onOpen: (String) -> Unit, onCycleSkill: (String) -> Unit) {
     if (items.isEmpty()) {
-        EmptyHint("The skills checklist appears here once it has been published.")
+        EmptyHint(stringResource(R.string.practical_skills_empty))
         return
     }
     Column(modifier = Modifier.fillMaxSize().verticalScroll(rememberScrollState())) {
@@ -239,11 +254,16 @@ private fun SkillListPane(items: List<Practical>, progress: PracticalProgress, o
                     Text(skill.title, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
                     if (hasMarkScheme) {
                         val best = progress.stations[skill.id]
-                        Text(if (best != null && best.outOf > 0) "Best ${best.bestMarks}/${best.outOf}" else "Not attempted", style = MaterialTheme.typography.bodySmall)
+                        val text = if (best != null && best.outOf > 0) {
+                            stringResource(R.string.practical_best_score_format, best.bestMarks, best.outOf)
+                        } else {
+                            stringResource(R.string.practical_not_attempted)
+                        }
+                        Text(text, style = MaterialTheme.typography.bodySmall)
                     } else {
                         val status = progress.statusOfSkill(skill.id)
                         Button(onClick = { onCycleSkill(skill.id) }, modifier = Modifier.testTag(practicalSkillCycleTag(skill.id))) {
-                            Text(status.label())
+                            Text(stringResource(status.labelRes()))
                         }
                     }
                 }
@@ -253,10 +273,11 @@ private fun SkillListPane(items: List<Practical>, progress: PracticalProgress, o
     }
 }
 
-private fun PracticalProgress.SkillStatus.label(): String = when (this) {
-    PracticalProgress.SkillStatus.NOT_STARTED -> "Not started"
-    PracticalProgress.SkillStatus.PRACTISED -> "Practised"
-    PracticalProgress.SkillStatus.READY -> "Ready"
+@StringRes
+private fun PracticalProgress.SkillStatus.labelRes(): Int = when (this) {
+    PracticalProgress.SkillStatus.NOT_STARTED -> R.string.practical_not_started
+    PracticalProgress.SkillStatus.PRACTISED -> R.string.practical_skill_practised
+    PracticalProgress.SkillStatus.READY -> R.string.practical_skill_ready
 }
 
 /**
@@ -301,23 +322,28 @@ private fun RunnerPane(
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             IconButton(onClick = onBack, modifier = Modifier.testTag(PRACTICAL_BACK_BUTTON_TAG)) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.practical_back))
             }
             Text(practical.title, style = MaterialTheme.typography.titleLarge)
         }
         Text(
-            listOfNotNull(practical.type, practical.minutes?.let { "$it min" }, practical.marks?.let { "$it marks" }).joinToString(" · "),
+            listOfNotNull(
+                practical.type,
+                practical.minutes?.let { stringResource(R.string.practical_minutes_format, it) },
+                practical.marks?.let { pluralStringResource(R.plurals.practical_marks, it, it) },
+            ).joinToString(" · "),
             style = MaterialTheme.typography.labelLarge,
             modifier = Modifier.padding(top = 4.dp),
         )
         practical.learningObjective?.let { Text(it, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 8.dp)) }
 
         practical.candidateInstructions?.let {
-            SectionCard("Your instructions") { Text(it, style = MaterialTheme.typography.bodyLarge) }
+            SectionCard(stringResource(R.string.practical_candidate_instructions_title)) { Text(it, style = MaterialTheme.typography.bodyLarge) }
         }
 
+        val decisionDefaultTitle = stringResource(R.string.practical_decision_default_title)
         practical.decisions.forEach { decision ->
-            SectionCard(decision.title.ifBlank { "Decision" }) {
+            SectionCard(decision.title.ifBlank { decisionDefaultTitle }) {
                 Column {
                     if (decision.context.isNotBlank()) Text(decision.context, style = MaterialTheme.typography.bodyLarge)
                     decision.prompt?.let { Text(it, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp)) }
@@ -327,7 +353,7 @@ private fun RunnerPane(
         }
 
         practical.questions.forEach { question ->
-            SectionCard("Question") {
+            SectionCard(stringResource(R.string.practical_question_section_title)) {
                 Column {
                     Text(question.prompt, style = MaterialTheme.typography.bodyLarge)
                     if (revealed) question.answer?.let { Text(it, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp)) }
@@ -336,7 +362,7 @@ private fun RunnerPane(
         }
 
         if (practical.markSections.isNotEmpty()) {
-            SectionCard("Mark scheme") {
+            SectionCard(stringResource(R.string.practical_mark_scheme_title)) {
                 Column {
                     practical.markSections.forEach { section ->
                         if (section.title.isNotBlank()) Text(section.title, style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 8.dp))
@@ -358,27 +384,35 @@ private fun RunnerPane(
                         }
                     }
                     if (totalMarkItems > 0) {
-                        Text("${ticked.size} of $totalMarkItems ticked", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 8.dp))
+                        Text(
+                            stringResource(R.string.practical_ticked_count_format, ticked.size, totalMarkItems),
+                            style = MaterialTheme.typography.bodySmall,
+                            modifier = Modifier.padding(top = 8.dp),
+                        )
                         progress.stations[practical.id]?.takeIf { it.outOf > 0 }?.let {
-                            Text("Best ${it.bestMarks}/${it.outOf} · ${it.attempts} attempts", style = MaterialTheme.typography.bodySmall)
+                            val bestText = stringResource(R.string.practical_best_score_format, it.bestMarks, it.outOf)
+                            val attemptsText = pluralStringResource(R.plurals.practical_attempts, it.attempts, it.attempts)
+                            Text("$bestText · $attemptsText", style = MaterialTheme.typography.bodySmall)
                         }
                     }
                 }
             }
         }
 
-        if (revealed) practical.debrief?.let { SectionCard("Debrief") { Text(it, style = MaterialTheme.typography.bodyLarge) } }
+        if (revealed) {
+            practical.debrief?.let { SectionCard(stringResource(R.string.practical_debrief_title)) { Text(it, style = MaterialTheme.typography.bodyLarge) } }
+        }
 
         if (hasHiddenContent) {
             Button(
                 onClick = { revealed = true },
                 enabled = !revealed,
                 modifier = Modifier.padding(top = 16.dp).testTag(PRACTICAL_REVEAL_BUTTON_TAG),
-            ) { Text(if (revealed) "Answers shown" else "Show the answers") }
+            ) { Text(stringResource(if (revealed) R.string.practical_answers_shown else R.string.practical_reveal_answers)) }
         }
 
         if (practical.references.isNotEmpty()) {
-            SectionCard("References") {
+            SectionCard(stringResource(R.string.practical_references_title)) {
                 Column { practical.references.forEach { Text(it, style = MaterialTheme.typography.bodySmall) } }
             }
         }

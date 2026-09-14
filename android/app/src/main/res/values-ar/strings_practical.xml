@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/practical — Arabic strings. "OSCE"/"clinical case" terminology mirrors the
+         iOS app's Core/Localisation/ArabicStrings.swift ("أوسكي", "الحالات السريرية"). -->
+
+    <string name="practical_title">العملي</string>
+    <string name="practical_loading">جارٍ التحميل…</string>
+
+    <!-- Tabs (PracticalTab). -->
+    <string name="practical_tab_osce">محطات الأوسكي</string>
+    <string name="practical_tab_cases">الحالات السريرية</string>
+    <string name="practical_tab_skills">المهارات</string>
+
+    <!-- Empty states. -->
+    <string name="practical_osce_empty">لم تُنشر أي محطات أوسكي لك بعد.</string>
+    <string name="practical_cases_empty">لم تُنشر أي حالات سريرية لك بعد.</string>
+    <string name="practical_skills_empty">تظهر قائمة المهارات هنا بمجرد نشرها.</string>
+
+    <!-- Shared meta fragments — "min" mirrors iOS/web's plain, non-inflected "دقيقة". -->
+    <string name="practical_minutes_format">%1$d دقيقة</string>
+    <string name="practical_minutes_unknown">؟ دقيقة</string>
+
+    <plurals name="practical_marks">
+        <item quantity="zero">لا علامات</item>
+        <item quantity="one">علامة واحدة</item>
+        <item quantity="two">علامتان</item>
+        <item quantity="few">%1$d علامات</item>
+        <item quantity="many">%1$d علامة</item>
+        <item quantity="other">%1$d علامة</item>
+    </plurals>
+
+    <plurals name="practical_steps">
+        <item quantity="zero">لا خطوات</item>
+        <item quantity="one">خطوة واحدة</item>
+        <item quantity="two">خطوتان</item>
+        <item quantity="few">%1$d خطوات</item>
+        <item quantity="many">%1$d خطوة</item>
+        <item quantity="other">%1$d خطوة</item>
+    </plurals>
+
+    <plurals name="practical_attempts">
+        <item quantity="zero">لا محاولات</item>
+        <item quantity="one">محاولة واحدة</item>
+        <item quantity="two">محاولتان</item>
+        <item quantity="few">%1$d محاولات</item>
+        <item quantity="many">%1$d محاولة</item>
+        <item quantity="other">%1$d محاولة</item>
+    </plurals>
+
+    <!-- Standing (best score / attempted-or-not / case progress / skill status). -->
+    <string name="practical_best_score_format">الأفضل %1$d/%2$d</string>
+    <string name="practical_not_attempted">لم تتم المحاولة</string>
+    <string name="practical_not_started">لم يبدأ</string>
+    <string name="practical_case_completed">مكتملة</string>
+    <string name="practical_case_progress_format">وصلت إلى %1$d من %2$d</string>
+    <string name="practical_skill_practised">تم التدرب عليها</string>
+    <string name="practical_skill_ready">جاهزة</string>
+
+    <!-- RunnerPane. -->
+    <string name="practical_back">رجوع</string>
+    <string name="practical_candidate_instructions_title">تعليماتك</string>
+    <string name="practical_decision_default_title">قرار</string>
+    <string name="practical_question_section_title">سؤال</string>
+    <string name="practical_mark_scheme_title">مخطط التقييم</string>
+    <string name="practical_ticked_count_format">%1$d من %2$d محقَّقة</string>
+    <string name="practical_debrief_title">استخلاص</string>
+    <string name="practical_reveal_answers">عرض الإجابات</string>
+    <string name="practical_answers_shown">عُرضت الإجابات</string>
+    <string name="practical_references_title">المراجع</string>
+</resources>
