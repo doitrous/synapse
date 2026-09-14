@@ -13,9 +13,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.minigames.SpotterRefusal
 import com.synapse.app.core.minigames.SpotterRound
 import java.time.Duration
@@ -27,15 +29,15 @@ fun spotterOptionTag(option: String): String = "spotter_option_$option"
 fun SpotterRoute(onBack: () -> Unit, viewModel: SpotterViewModel = hiltViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        GameHeader(title = "Spotter", onBack = onBack)
+        GameHeader(title = stringResource(R.string.minigames_spotter_title), onBack = onBack)
         Text(
-            "A term's definition is shown but not its name — spot it from four options before moving on.",
+            stringResource(R.string.minigames_spotter_description),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp, bottom = 16.dp),
         )
 
         when (val state = uiState) {
-            is SpotterUiState.Loading -> Text("Loading…", modifier = Modifier.testTag(SPOTTER_LOADING_TAG))
+            is SpotterUiState.Loading -> Text(stringResource(R.string.minigames_loading), modifier = Modifier.testTag(SPOTTER_LOADING_TAG))
             is SpotterUiState.Content -> SpotterContent(
                 state = state,
                 onChoose = viewModel::choose,
@@ -55,7 +57,7 @@ private fun SpotterContent(
 ) {
     if (state.game.refusal == SpotterRefusal.TOO_FEW_TERMS) {
         Text(
-            "Spotter needs enough differently named glossary terms to build a round of options — there are too few published right now.",
+            stringResource(R.string.minigames_spotter_too_few_terms),
             style = MaterialTheme.typography.bodyMedium,
         )
         return
@@ -65,9 +67,12 @@ private fun SpotterContent(
         val elapsed = Duration.between(state.startedAt, state.finishedAt)
         Card(modifier = Modifier.fillMaxWidth()) {
             Column(modifier = Modifier.padding(12.dp)) {
-                Text("Score: ${state.correct}/${state.game.rounds.size}", style = MaterialTheme.typography.titleMedium)
-                Text("Time taken: ${elapsed.seconds}s", style = MaterialTheme.typography.bodyMedium)
-                Button(onClick = onReplay, modifier = Modifier.padding(top = 8.dp)) { Text("Play again") }
+                Text(
+                    stringResource(R.string.minigames_spotter_score_format, state.correct, state.game.rounds.size),
+                    style = MaterialTheme.typography.titleMedium,
+                )
+                Text(stringResource(R.string.minigames_time_taken_format, elapsed.seconds), style = MaterialTheme.typography.bodyMedium)
+                Button(onClick = onReplay, modifier = Modifier.padding(top = 8.dp)) { Text(stringResource(R.string.minigames_play_again)) }
             }
         }
         return
@@ -75,7 +80,7 @@ private fun SpotterContent(
 
     val round = state.game.rounds.getOrNull(state.roundIndex) ?: return
     Text(
-        "Round ${state.roundIndex + 1} of ${state.game.rounds.size}",
+        stringResource(R.string.minigames_spotter_round_format, state.roundIndex + 1, state.game.rounds.size),
         style = MaterialTheme.typography.labelLarge,
         modifier = Modifier.padding(bottom = 8.dp),
     )
@@ -83,11 +88,11 @@ private fun SpotterContent(
 
     if (state.chosen != null) {
         Text(
-            if (state.chosen == round.answer) "Correct!" else "Not quite — it's ${round.answer}.",
+            if (state.chosen == round.answer) stringResource(R.string.minigames_spotter_correct) else stringResource(R.string.minigames_spotter_wrong_format, round.answer),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 8.dp, bottom = 8.dp),
         )
-        Button(onClick = onAdvance) { Text("Continue") }
+        Button(onClick = onAdvance) { Text(stringResource(R.string.minigames_continue)) }
     }
 }
 

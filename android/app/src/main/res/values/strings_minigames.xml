@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/minigames — localized strings for the Minigames hub and its 6 games (EN/AR). -->
+
+    <!-- MinigamesHubScreen. Title reuses @string/nav_minigames (same value, same tab label). -->
+    <string name="minigames_hub_subtitle">Short, authored practice games for terms, mechanisms and red flags.</string>
+    <string name="minigames_hub_disclaimer">Medicine game facts come from reviewed local packs or published content. The app can shuffle and score them, but it does not invent facts during play.</string>
+
+    <plurals name="minigames_hub_packs_ready">
+        <item quantity="one">%1$d authored pack ready</item>
+        <item quantity="other">%1$d authored packs ready</item>
+    </plurals>
+
+    <!-- Hub catalog badges (MinigameEntry.badge). -->
+    <string name="minigames_badge_glossary">Glossary</string>
+    <string name="minigames_badge_authored_pack">Authored pack</string>
+
+    <!-- Per-game titles — shared by the hub card (MinigamesHub.kt) and the in-game header (GameHeader). -->
+    <string name="minigames_termgrid_title">Term Grid</string>
+    <string name="minigames_spotter_title">Spotter</string>
+    <string name="minigames_termmatch_title">Term Match</string>
+    <string name="minigames_clinicalsequence_title">Clinical Sequence</string>
+    <string name="minigames_mechanismchain_title">Mechanism Chain</string>
+    <string name="minigames_redflagsort_title">Red Flag Sort</string>
+
+    <!-- Hub card descriptions (MinigamesHub.kt — distinct wording from the in-game subtitle below). -->
+    <string name="minigames_termgrid_hub_description">Crossword practice from the published glossary.</string>
+    <string name="minigames_spotter_hub_description">Spot the glossary term from its definition under time pressure.</string>
+    <string name="minigames_termmatch_hub_description">Match fixed terms to shuffled definitions or Arabic translations.</string>
+    <string name="minigames_clinicalsequence_hub_description">Order reviewed procedural or clinical steps.</string>
+    <string name="minigames_mechanismchain_hub_description">Rebuild reviewed cause-to-effect chains.</string>
+    <string name="minigames_redflagsort_hub_description">Classify reviewed findings by escalation level.</string>
+
+    <!-- In-game subtitles (shown under the GameHeader on each game's own screen). -->
+    <string name="minigames_termgrid_description">A crossword built from the glossary — fill in each term from its definition.</string>
+    <string name="minigames_spotter_description">A term\'s definition is shown but not its name — spot it from four options before moving on.</string>
+    <string name="minigames_termmatch_description">Match each term to its Arabic translation or its definition — pick two tiles at a time.</string>
+    <string name="minigames_clinicalsequence_description">Order authored clinical or procedural steps.</string>
+    <string name="minigames_mechanismchain_description">Order authored cause-to-effect relationships.</string>
+    <string name="minigames_redflagsort_description">Classify authored urgent findings without generated facts.</string>
+
+    <!-- Shared chrome across games (OrderedGame.kt, RedFlagSort.kt, SpotterScreen.kt, TermGridScreen.kt, TermMatchScreen.kt). -->
+    <string name="minigames_pack_unavailable">No authored game pack is ready yet. This game appears once a reviewed local pack passes validation.</string>
+    <string name="minigames_loading">Loading…</string>
+    <string name="minigames_play_again">Play again</string>
+    <string name="minigames_continue">Continue</string>
+    <string name="minigames_time_taken_format">Time taken: %1$ds</string>
+    <string name="minigames_back_content_description">Back to Minigames</string>
+    <string name="minigames_glossary_not_published">The glossary has not been published yet.</string>
+
+    <!-- SpotterScreen. -->
+    <string name="minigames_spotter_too_few_terms">Spotter needs enough differently named glossary terms to build a round of options — there are too few published right now.</string>
+    <string name="minigames_spotter_score_format">Score: %1$d/%2$d</string>
+    <string name="minigames_spotter_round_format">Round %1$d of %2$d</string>
+    <string name="minigames_spotter_correct">Correct!</string>
+    <string name="minigames_spotter_wrong_format">Not quite — it\'s %1$s.</string>
+
+    <!-- TermGridScreen (MIN_TERMS = 8, see core/minigames/TermGrid.kt). -->
+    <plurals name="minigames_termgrid_too_few_terms">
+        <item quantity="one">Term Grid needs at least %1$d term in a category that can interlock into a crossword. This one has too few — try another category.</item>
+        <item quantity="other">Term Grid needs at least %1$d terms in a category that can interlock into a crossword. This one has too few — try another category.</item>
+    </plurals>
+    <string name="minigames_new_puzzle">New puzzle</string>
+    <string name="minigames_across">Across</string>
+    <string name="minigames_down">Down</string>
+    <string name="minigames_termgrid_clue_format">%1$d. %2$s (%3$d)</string>
+    <string name="minigames_revealed">Revealed</string>
+    <string name="minigames_reveal">Reveal</string>
+    <string name="minigames_termgrid_words_revealed_format">Words revealed: %1$d</string>
+
+    <!-- TermMatchScreen (MIN_PAIRS = 6, see core/minigames/TermMatch.kt). -->
+    <plurals name="minigames_termmatch_too_few_terms">
+        <item quantity="one">Term Match needs at least %1$d term with a translation or definition — there are too few published right now.</item>
+        <item quantity="other">Term Match needs at least %1$d terms with a translation or definition — there are too few published right now.</item>
+    </plurals>
+    <string name="minigames_termmatch_wrong_attempts_format">Wrong attempts: %1$d</string>
+    <string name="minigames_mode_arabic">Arabic</string>
+    <string name="minigames_mode_definition">Definition</string>
+
+    <!-- OrderedGame.kt — shared by Clinical Sequence and Mechanism Chain. -->
+    <string name="minigames_move_up">Move up</string>
+    <string name="minigames_move_down">Move down</string>
+    <string name="minigames_check_order">Check order</string>
+    <string name="minigames_new_order">New order</string>
+    <string name="minigames_ordered_result_format">%1$d/%2$d steps in the authored position</string>
+
+    <!-- RedFlagSort.kt. -->
+    <string name="minigames_check_sort">Check sort</string>
+    <string name="minigames_reset">Reset</string>
+    <string name="minigames_redflagsort_result_format">%1$d/%2$d findings matched to the authored lane</string>
+    <string name="minigames_redflagsort_correct_format">Correct — %1$s</string>
+</resources>

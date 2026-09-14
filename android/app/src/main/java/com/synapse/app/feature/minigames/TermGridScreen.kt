@@ -28,6 +28,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.KeyboardCapitalization
@@ -37,6 +39,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.minigames.GridDirection
 import com.synapse.app.core.minigames.MIN_TERMS
 import com.synapse.app.core.minigames.PlacedWord
@@ -49,15 +52,15 @@ fun termGridCellTag(row: Int, column: Int): String = "term_grid_cell_${row}_$col
 fun TermGridRoute(onBack: () -> Unit, viewModel: TermGridViewModel = hiltViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        GameHeader(title = "Term Grid", onBack = onBack)
+        GameHeader(title = stringResource(R.string.minigames_termgrid_title), onBack = onBack)
         Text(
-            "A crossword built from the glossary — fill in each term from its definition.",
+            stringResource(R.string.minigames_termgrid_description),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp, bottom = 16.dp),
         )
 
         when (val state = uiState) {
-            is TermGridUiState.Loading -> Text("Loading…", modifier = Modifier.testTag(TERM_GRID_LOADING_TAG))
+            is TermGridUiState.Loading -> Text(stringResource(R.string.minigames_loading), modifier = Modifier.testTag(TERM_GRID_LOADING_TAG))
             is TermGridUiState.Content -> TermGridContent(
                 state = state,
                 onSelectCategory = viewModel::selectCategory,
@@ -78,7 +81,7 @@ private fun TermGridContent(
     onNewPuzzle: () -> Unit,
 ) {
     if (state.categories.isEmpty()) {
-        Text("The glossary has not been published yet.", style = MaterialTheme.typography.bodyMedium)
+        Text(stringResource(R.string.minigames_glossary_not_published), style = MaterialTheme.typography.bodyMedium)
         return
     }
 
@@ -97,7 +100,7 @@ private fun TermGridContent(
 
     if (state.grid.words.isEmpty()) {
         Text(
-            "Term Grid needs at least $MIN_TERMS terms in a category that can interlock into a crossword. This one has too few — try another category.",
+            pluralStringResource(R.plurals.minigames_termgrid_too_few_terms, MIN_TERMS, MIN_TERMS),
             style = MaterialTheme.typography.bodyMedium,
         )
         return
@@ -107,9 +110,12 @@ private fun TermGridContent(
         val elapsed = Duration.between(state.startedAt, state.finishedAt)
         Card(modifier = Modifier.fillMaxWidth().padding(bottom = 12.dp)) {
             Column(modifier = Modifier.padding(12.dp)) {
-                Text("Time taken: ${elapsed.seconds}s", style = MaterialTheme.typography.bodyMedium)
-                Text("Words revealed: ${state.revealedWords.size}", style = MaterialTheme.typography.bodyMedium)
-                Button(onClick = onNewPuzzle, modifier = Modifier.padding(top = 8.dp)) { Text("New puzzle") }
+                Text(stringResource(R.string.minigames_time_taken_format, elapsed.seconds), style = MaterialTheme.typography.bodyMedium)
+                Text(
+                    stringResource(R.string.minigames_termgrid_words_revealed_format, state.revealedWords.size),
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Button(onClick = onNewPuzzle, modifier = Modifier.padding(top = 8.dp)) { Text(stringResource(R.string.minigames_new_puzzle)) }
             }
         }
         return
@@ -119,11 +125,21 @@ private fun TermGridContent(
         TermGridBoard(state, onLetterChange)
 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(vertical = 12.dp)) {
-            OutlinedButton(onClick = onNewPuzzle) { Text("New puzzle") }
+            OutlinedButton(onClick = onNewPuzzle) { Text(stringResource(R.string.minigames_new_puzzle)) }
         }
 
-        ClueList(state.grid.words.filter { it.direction == GridDirection.ACROSS }, "Across", state.revealedWords, onRevealWord)
-        ClueList(state.grid.words.filter { it.direction == GridDirection.DOWN }, "Down", state.revealedWords, onRevealWord)
+        ClueList(
+            state.grid.words.filter { it.direction == GridDirection.ACROSS },
+            stringResource(R.string.minigames_across),
+            state.revealedWords,
+            onRevealWord,
+        )
+        ClueList(
+            state.grid.words.filter { it.direction == GridDirection.DOWN },
+            stringResource(R.string.minigames_down),
+            state.revealedWords,
+            onRevealWord,
+        )
     }
 }
 
@@ -214,14 +230,14 @@ private fun ClueList(words: List<PlacedWord>, heading: String, revealedWords: Se
             verticalAlignment = Alignment.CenterVertically,
         ) {
             Text(
-                "${word.number}. ${word.clue} (${word.term.length})",
+                stringResource(R.string.minigames_termgrid_clue_format, word.number, word.clue, word.term.length),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.weight(1f),
             )
             if (word.term in revealedWords) {
-                Text("Revealed", style = MaterialTheme.typography.labelSmall)
+                Text(stringResource(R.string.minigames_revealed), style = MaterialTheme.typography.labelSmall)
             } else {
-                TextButton(onClick = { onRevealWord(word.term) }) { Text("Reveal") }
+                TextButton(onClick = { onRevealWord(word.term) }) { Text(stringResource(R.string.minigames_reveal)) }
             }
         }
     }

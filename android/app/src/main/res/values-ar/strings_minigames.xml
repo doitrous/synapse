@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/minigames — Arabic strings. Term Grid, Spotter and Term Match chrome
+         mirror the web app's src/data/i18n-ar.ts where a translation already exists
+         there (Spotter's "سبوتر" is a deliberate exam-format loanword, not a literal
+         translation — kept as-is). Clinical Sequence, Mechanism Chain and Red Flag
+         Sort have no prior Arabic translation anywhere in the product (web/iOS also
+         fall back to English for them) — authored fresh here in Modern Standard Arabic. -->
+
+    <string name="minigames_hub_subtitle">ألعاب تدريب قصيرة ومعتمدة للمصطلحات والآليات والعلامات التحذيرية.</string>
+    <string name="minigames_hub_disclaimer">حقائق الألعاب الطبية تأتي من حزم محلية مراجعة أو محتوى منشور. يمكن للتطبيق خلطها وتسجيل نتائجها، لكنه لا يبتكر حقائق أثناء اللعب.</string>
+
+    <!-- "حزمة" (pack) is feminine — zero/one/two/few/many/other all agree with it. -->
+    <plurals name="minigames_hub_packs_ready">
+        <item quantity="zero">لا حزم معتمدة جاهزة</item>
+        <item quantity="one">حزمة معتمدة واحدة جاهزة</item>
+        <item quantity="two">حزمتان معتمدتان جاهزتان</item>
+        <item quantity="few">%1$d حزم معتمدة جاهزة</item>
+        <item quantity="many">%1$d حزمة معتمدة جاهزة</item>
+        <item quantity="other">%1$d حزمة معتمدة جاهزة</item>
+    </plurals>
+
+    <string name="minigames_badge_glossary">القاموس</string>
+    <string name="minigames_badge_authored_pack">حزمة معتمدة</string>
+
+    <string name="minigames_termgrid_title">شبكة المصطلحات</string>
+    <string name="minigames_spotter_title">سبوتر</string>
+    <string name="minigames_termmatch_title">مطابقة المصطلحات</string>
+    <string name="minigames_clinicalsequence_title">التسلسل السريري</string>
+    <string name="minigames_mechanismchain_title">سلسلة الآلية المرضية</string>
+    <string name="minigames_redflagsort_title">فرز العلامات التحذيرية</string>
+
+    <string name="minigames_termgrid_hub_description">تدريب الكلمات المتقاطعة من القاموس المنشور.</string>
+    <string name="minigames_spotter_hub_description">تعرّف على مصطلح القاموس من تعريفه في زمن محدد.</string>
+    <string name="minigames_termmatch_hub_description">طابق المصطلحات الثابتة بتعريفات أو ترجمات عربية مبعثرة.</string>
+    <string name="minigames_clinicalsequence_hub_description">رتّب خطوات إجرائية أو سريرية مراجعة.</string>
+    <string name="minigames_mechanismchain_hub_description">أعد بناء سلاسل السبب والنتيجة المراجعة.</string>
+    <string name="minigames_redflagsort_hub_description">صنّف النتائج المراجعة حسب مستوى الخطورة.</string>
+
+    <string name="minigames_termgrid_description">لغز كلمات متقاطعة مبني من القاموس — أكمل كل مصطلح من تعريفه.</string>
+    <string name="minigames_spotter_description">يُعرض تعريف المصطلح دون اسمه — تعرّف عليه من بين أربعة خيارات قبل المتابعة.</string>
+    <string name="minigames_termmatch_description">طابق كل مصطلح بترجمته العربية أو بتعريفه — اختر بطاقتين في كل مرة.</string>
+    <string name="minigames_clinicalsequence_description">رتّب الخطوات السريرية أو الإجرائية المعتمدة.</string>
+    <string name="minigames_mechanismchain_description">رتّب علاقات السبب والنتيجة المعتمدة.</string>
+    <string name="minigames_redflagsort_description">صنّف النتائج العاجلة المعتمدة دون حقائق مولّدة.</string>
+
+    <string name="minigames_pack_unavailable">لا توجد حزمة لعبة معتمدة جاهزة بعد. تظهر هذه اللعبة بمجرد اجتياز حزمة محلية مراجعة للتحقق.</string>
+    <string name="minigames_loading">جارٍ التحميل…</string>
+    <string name="minigames_play_again">العب مرة أخرى</string>
+    <string name="minigames_continue">متابعة</string>
+    <string name="minigames_time_taken_format">الوقت المستغرق: %1$d ث</string>
+    <string name="minigames_back_content_description">الرجوع إلى الألعاب المصغّرة</string>
+    <string name="minigames_glossary_not_published">لم يُنشر القاموس بعد.</string>
+
+    <string name="minigames_spotter_too_few_terms">يحتاج سبوتر إلى عدد كافٍ من مصطلحات القاموس المختلفة الأسماء لبناء جولة خيارات — العدد المنشور حاليًا غير كافٍ.</string>
+    <string name="minigames_spotter_score_format">النتيجة: %1$d/%2$d</string>
+    <string name="minigames_spotter_round_format">الجولة %1$d من %2$d</string>
+    <string name="minigames_spotter_correct">إجابة صحيحة!</string>
+    <string name="minigames_spotter_wrong_format">ليست صحيحة — الإجابة هي %1$s.</string>
+
+    <!-- "مصطلح" (term) is masculine — MIN_TERMS = 8 currently renders the "few" form. -->
+    <plurals name="minigames_termgrid_too_few_terms">
+        <item quantity="zero">تحتاج شبكة المصطلحات إلى مصطلحات في هذا التصنيف يمكن أن تتشابك في لغز، وهذا التصنيف لا يحتوي على أي منها.</item>
+        <item quantity="one">تحتاج شبكة المصطلحات إلى مصطلح واحد على الأقل في هذا التصنيف يمكن أن يتشابك في لغز، وهذا التصنيف لا يحتوي على ما يكفي.</item>
+        <item quantity="two">تحتاج شبكة المصطلحات إلى مصطلحين على الأقل في هذا التصنيف يمكن أن يتشابكا في لغز، وهذا التصنيف لا يحتوي على ما يكفي.</item>
+        <item quantity="few">تحتاج شبكة المصطلحات إلى %1$d مصطلحات على الأقل في هذا التصنيف يمكن أن تتشابك في لغز، وهذا التصنيف لا يحتوي على ما يكفي.</item>
+        <item quantity="many">تحتاج شبكة المصطلحات إلى %1$d مصطلحًا على الأقل في هذا التصنيف يمكن أن يتشابك في لغز، وهذا التصنيف لا يحتوي على ما يكفي.</item>
+        <item quantity="other">تحتاج شبكة المصطلحات إلى %1$d مصطلح على الأقل في هذا التصنيف يمكن أن يتشابك في لغز، وهذا التصنيف لا يحتوي على ما يكفي.</item>
+    </plurals>
+    <string name="minigames_new_puzzle">لغز جديد</string>
+    <string name="minigames_across">أفقي</string>
+    <string name="minigames_down">رأسي</string>
+    <string name="minigames_termgrid_clue_format">%1$d. %2$s (%3$d)</string>
+    <string name="minigames_revealed">مكشوف</string>
+    <string name="minigames_reveal">كشف</string>
+    <string name="minigames_termgrid_words_revealed_format">الكلمات المكشوفة: %1$d</string>
+
+    <!-- "مصطلح" (term) is masculine — MIN_PAIRS = 6 currently renders the "few" form. -->
+    <plurals name="minigames_termmatch_too_few_terms">
+        <item quantity="zero">تحتاج مطابقة المصطلحات إلى مصطلحات تحمل ترجمة أو تعريفًا، ولا يوجد أي منها منشورًا حاليًا.</item>
+        <item quantity="one">تحتاج مطابقة المصطلحات إلى مصطلح واحد على الأقل يحمل ترجمة أو تعريفًا، والعدد المنشور حاليًا غير كافٍ.</item>
+        <item quantity="two">تحتاج مطابقة المصطلحات إلى مصطلحين على الأقل يحملان ترجمة أو تعريفًا، والعدد المنشور حاليًا غير كافٍ.</item>
+        <item quantity="few">تحتاج مطابقة المصطلحات إلى %1$d مصطلحات على الأقل تحمل ترجمة أو تعريفًا، والعدد المنشور حاليًا غير كافٍ.</item>
+        <item quantity="many">تحتاج مطابقة المصطلحات إلى %1$d مصطلحًا على الأقل يحمل ترجمة أو تعريفًا، والعدد المنشور حاليًا غير كافٍ.</item>
+        <item quantity="other">تحتاج مطابقة المصطلحات إلى %1$d مصطلح على الأقل يحمل ترجمة أو تعريفًا، والعدد المنشور حاليًا غير كافٍ.</item>
+    </plurals>
+    <string name="minigames_termmatch_wrong_attempts_format">المحاولات الخاطئة: %1$d</string>
+    <string name="minigames_mode_arabic">العربية</string>
+    <string name="minigames_mode_definition">التعريف</string>
+
+    <string name="minigames_move_up">تحريك لأعلى</string>
+    <string name="minigames_move_down">تحريك لأسفل</string>
+    <string name="minigames_check_order">تحقق من الترتيب</string>
+    <string name="minigames_new_order">ترتيب جديد</string>
+    <string name="minigames_ordered_result_format">%1$d/%2$d خطوات في الموضع المعتمد</string>
+
+    <string name="minigames_check_sort">تحقق من الفرز</string>
+    <string name="minigames_reset">إعادة تعيين</string>
+    <string name="minigames_redflagsort_result_format">%1$d/%2$d نتائج طابقت المسار المعتمد</string>
+    <string name="minigames_redflagsort_correct_format">إجابة صحيحة — %1$s</string>
+</resources>

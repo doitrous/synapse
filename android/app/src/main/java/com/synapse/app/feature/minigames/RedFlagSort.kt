@@ -17,10 +17,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.minigames.MiniGameKind
 import com.synapse.app.core.minigames.RedFlagFinding
 import com.synapse.app.core.minigames.RedFlagLane
@@ -84,16 +86,16 @@ const val RED_FLAG_SORT_CHECK_BUTTON_TAG = "red_flag_sort_check_button"
 fun RedFlagSortRoute(onBack: () -> Unit, viewModel: RedFlagSortViewModel = hiltViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        GameHeader(title = "Red Flag Sort", onBack = onBack)
+        GameHeader(title = stringResource(R.string.minigames_redflagsort_title), onBack = onBack)
         Text(
-            "Classify authored urgent findings without generated facts.",
+            stringResource(R.string.minigames_redflagsort_description),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp, bottom = 16.dp),
         )
 
         when (val state = uiState) {
             is RedFlagSortUiState.Unavailable -> Text(
-                "No authored game pack is ready yet. This game appears once a reviewed local pack passes validation.",
+                stringResource(R.string.minigames_pack_unavailable),
                 style = MaterialTheme.typography.bodyMedium,
             )
 
@@ -142,14 +144,14 @@ private fun RedFlagSortContent(
 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 8.dp)) {
             Button(onClick = onCheck, enabled = allPlaced, modifier = Modifier.testTag(RED_FLAG_SORT_CHECK_BUTTON_TAG)) {
-                Text("Check sort")
+                Text(stringResource(R.string.minigames_check_sort))
             }
-            OutlinedButton(onClick = onReset) { Text("Reset") }
+            OutlinedButton(onClick = onReset) { Text(stringResource(R.string.minigames_reset)) }
         }
 
         if (state.checked) {
             Text(
-                "${score.correct}/${score.total} findings matched to the authored lane",
+                stringResource(R.string.minigames_redflagsort_result_format, score.correct, score.total),
                 style = MaterialTheme.typography.labelLarge,
                 modifier = Modifier.padding(top = 12.dp),
             )
@@ -181,7 +183,7 @@ private fun RedFlagFindingCard(
             }
             if (checked && selected != null) {
                 Text(
-                    if (correct) "Correct — ${finding.rationale}" else finding.rationale,
+                    if (correct) stringResource(R.string.minigames_redflagsort_correct_format, finding.rationale) else finding.rationale,
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(top = 6.dp),
                 )
