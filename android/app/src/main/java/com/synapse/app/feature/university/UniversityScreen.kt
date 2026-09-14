@@ -26,9 +26,13 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import androidx.annotation.StringRes
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.EnrollmentChangeRequest
 import com.synapse.app.core.api.EnrollmentField
 import com.synapse.app.core.university.ModuleBadge
@@ -77,16 +81,16 @@ private fun UniversityScreen(
             modifier = Modifier.fillMaxSize().testTag(UNIVERSITY_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading your curriculum…") }
+        ) { Text(stringResource(R.string.university_loading)) }
 
         UniversityUiState.Unavailable -> Column(
             modifier = Modifier.fillMaxSize().padding(16.dp).testTag(UNIVERSITY_UNAVAILABLE_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
         ) {
-            Text("Your curriculum could not be read", style = MaterialTheme.typography.titleMedium)
+            Text(stringResource(R.string.university_unavailable_title), style = MaterialTheme.typography.titleMedium)
             Text(
-                "This needs a connection at least once. Try again when you're back online.",
+                stringResource(R.string.university_unavailable_description),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 8.dp),
             )
@@ -112,31 +116,33 @@ private fun UniversityContent(
 
     if (map.status == "missing_profile") {
         EmptyState(
-            title = "Tell Synapse where you study",
-            description = "Your university map stays empty until your account has a university and year.",
+            title = stringResource(R.string.university_missing_profile_title),
+            description = stringResource(R.string.university_missing_profile_description),
         )
         return
     }
     if (map.status == "being_verified" || map.university == null || map.year == null) {
         EmptyState(
-            title = "This year is being verified",
-            description = "Your account is enrolled, but the live academic projection has not published that year yet.",
+            title = stringResource(R.string.university_being_verified_title),
+            description = stringResource(R.string.university_being_verified_description),
         )
         return
     }
 
+    val unavailableMarks = stringResource(R.string.university_marks_unavailable)
+
     LazyColumn(modifier = Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
         item {
             Column {
-                Text("Your University", style = MaterialTheme.typography.titleLarge)
+                Text(stringResource(R.string.university_header_title), style = MaterialTheme.typography.titleLarge)
                 Text(
-                    "A quiet map of your own year: terms, modules, subjects, assessments, and the timetable your faculty has published.",
+                    stringResource(R.string.university_header_description),
                     style = MaterialTheme.typography.bodyMedium,
                     modifier = Modifier.padding(top = 4.dp),
                 )
                 if (state.stale) {
                     Text(
-                        "Showing the last copy saved on this device — reconnect to refresh it.",
+                        stringResource(R.string.university_stale_notice),
                         style = MaterialTheme.typography.labelMedium,
                         modifier = Modifier.padding(top = 6.dp),
                     )
@@ -150,14 +156,14 @@ private fun UniversityContent(
                     Text("${map.university.short} · ${map.year.year}", style = MaterialTheme.typography.labelLarge)
                     Text(map.university.name, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.padding(top = 4.dp))
                     Text(
-                        "This view is server-scoped to your own university and year. No other university or year can be requested from here.",
+                        stringResource(R.string.university_scope_notice),
                         style = MaterialTheme.typography.bodySmall,
                         modifier = Modifier.padding(top = 8.dp),
                     )
                     Row(modifier = Modifier.fillMaxWidth().padding(top = 12.dp), horizontalArrangement = Arrangement.spacedBy(24.dp)) {
-                        StatColumn("Terms", map.totals.terms.toString())
-                        StatColumn("Modules", map.totals.modules.toString())
-                        StatColumn("Marks", displayMarks(map.totals.marks))
+                        StatColumn(stringResource(R.string.university_stat_terms), map.totals.terms.toString())
+                        StatColumn(stringResource(R.string.university_stat_modules), map.totals.modules.toString())
+                        StatColumn(stringResource(R.string.university_stat_marks), displayMarks(map.totals.marks, unavailableMarks))
                     }
                 }
             }
@@ -166,8 +172,8 @@ private fun UniversityContent(
         if (map.terms.isEmpty() || map.totals.modules == 0) {
             item {
                 EmptyStateInline(
-                    title = "No modules in your year yet",
-                    description = "An admin can publish terms and modules from Academic Setup. Library and Qbank still work where content is available.",
+                    title = stringResource(R.string.university_no_modules_title),
+                    description = stringResource(R.string.university_no_modules_description),
                 )
             }
         } else {
@@ -224,38 +230,50 @@ private fun StatColumn(label: String, value: String) {
     }
 }
 
-private fun displayMarks(value: Double?): String = if (value == null) "unavailable" else {
+private fun displayMarks(value: Double?, unavailableLabel: String): String = if (value == null) unavailableLabel else {
     if (value == Math.floor(value)) value.toLong().toString() else String.format(java.util.Locale.ROOT, "%.2f", value)
 }
 
 @Composable
 private fun TermHeader(term: StudentTermMap, index: Int) {
     Column(modifier = Modifier.padding(top = 8.dp)) {
-        Text("Term ${index + 1}".uppercase(), style = MaterialTheme.typography.labelSmall)
+        Text(stringResource(R.string.university_term_number_format, index + 1).uppercase(), style = MaterialTheme.typography.labelSmall)
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
             Text(term.term, style = MaterialTheme.typography.titleLarge)
-            Text("${term.modules.size} modules · ${displayMarks(term.marks)} marks", style = MaterialTheme.typography.labelMedium)
+            Text(
+                stringResource(
+                    R.string.university_term_summary_format,
+                    pluralStringResource(R.plurals.university_modules_count, term.modules.size, term.modules.size),
+                    stringResource(
+                        R.string.university_marks_suffix_format,
+                        displayMarks(term.marks, stringResource(R.string.university_marks_unavailable)),
+                    ),
+                ),
+                style = MaterialTheme.typography.labelMedium,
+            )
         }
     }
 }
 
+@StringRes
+private fun moduleBadgeLabelRes(badge: ModuleBadge): Int = when (badge) {
+    ModuleBadge.Verified -> R.string.university_badge_verified
+    ModuleBadge.CarriedForward -> R.string.university_badge_carried_forward
+    ModuleBadge.Inferred -> R.string.university_badge_inferred
+    ModuleBadge.BeingVerified -> R.string.university_badge_being_verified
+    ModuleBadge.NeedsMarks -> R.string.university_badge_needs_marks
+    ModuleBadge.NeedsSchedule -> R.string.university_badge_needs_schedule
+}
+
 @Composable
 private fun ModuleBadgeChip(badge: ModuleBadge) {
-    val label = when (badge) {
-        ModuleBadge.Verified -> "verified marks"
-        ModuleBadge.CarriedForward -> "carried forward"
-        ModuleBadge.Inferred -> "inferred"
-        ModuleBadge.BeingVerified -> "being verified"
-        ModuleBadge.NeedsMarks -> "marks unavailable"
-        ModuleBadge.NeedsSchedule -> "schedule pending"
-    }
-    AssistChip(onClick = {}, label = { Text(label) })
+    AssistChip(onClick = {}, label = { Text(stringResource(moduleBadgeLabelRes(badge))) })
 }
 
 @Composable
 private fun SubjectTree(subjects: List<StudentSubjectMap>, depth: Int = 0) {
     if (subjects.isEmpty()) {
-        if (depth == 0) Text("No subject tree has been published for this module yet.", style = MaterialTheme.typography.bodySmall)
+        if (depth == 0) Text(stringResource(R.string.university_subject_tree_empty), style = MaterialTheme.typography.bodySmall)
         return
     }
     subjects.forEach { subject ->
@@ -271,7 +289,7 @@ private fun SubjectTree(subjects: List<StudentSubjectMap>, depth: Int = 0) {
 @Composable
 private fun ScheduleList(rows: List<StudentScheduleMap>) {
     if (rows.isEmpty()) {
-        Text("No timetable blocks are published for this module yet.", style = MaterialTheme.typography.bodySmall)
+        Text(stringResource(R.string.university_schedule_empty), style = MaterialTheme.typography.bodySmall)
         return
     }
     rows.take(3).forEach { row ->
@@ -285,14 +303,15 @@ private fun ScheduleList(rows: List<StudentScheduleMap>) {
     }
 }
 
+@Composable
 private fun scheduleWhen(row: StudentScheduleMap): String {
     val start = row.start
     val whenText = if (start != null) {
         DateTimeFormatter.ofPattern("MMM d, yyyy · HH:mm").withZone(ZoneId.systemDefault()).format(start)
     } else {
-        row.date ?: "date unavailable"
+        row.date ?: stringResource(R.string.university_date_unavailable)
     }
-    return if (row.location.isNullOrBlank()) whenText else "$whenText · ${row.location}"
+    return if (row.location.isNullOrBlank()) whenText else stringResource(R.string.university_schedule_location_format, whenText, row.location)
 }
 
 @Composable
@@ -303,7 +322,12 @@ private fun ModuleCard(module: StudentModuleMap) {
                 Column {
                     Text(module.name, style = MaterialTheme.typography.titleMedium)
                     Text(
-                        "${module.moduleId} · ${module.subjectCount} subject nodes · ${module.schedule.size} timetable blocks",
+                        stringResource(
+                            R.string.university_module_meta_format,
+                            module.moduleId,
+                            pluralStringResource(R.plurals.university_subject_nodes_count, module.subjectCount, module.subjectCount),
+                            pluralStringResource(R.plurals.university_timetable_blocks_count, module.schedule.size, module.schedule.size),
+                        ),
                         style = MaterialTheme.typography.labelSmall,
                     )
                 }
@@ -313,18 +337,18 @@ private fun ModuleCard(module: StudentModuleMap) {
             }
 
             HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
-            Text("Subject tree", style = MaterialTheme.typography.labelLarge)
+            Text(stringResource(R.string.university_subject_tree_label), style = MaterialTheme.typography.labelLarge)
             SubjectTree(module.subjects)
 
             HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
-            Text("Scoped schedule", style = MaterialTheme.typography.labelLarge)
+            Text(stringResource(R.string.university_scoped_schedule_label), style = MaterialTheme.typography.labelLarge)
             ScheduleList(module.schedule)
 
             HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
-            Text("Assessment total", style = MaterialTheme.typography.labelLarge)
+            Text(stringResource(R.string.university_assessment_total_label), style = MaterialTheme.typography.labelLarge)
             Text(module.assessment.displayTotal, style = MaterialTheme.typography.headlineSmall)
             if (module.assessment.components.none { it.marks != null }) {
-                Text("Assessment components are unavailable, not zero.", style = MaterialTheme.typography.bodySmall)
+                Text(stringResource(R.string.university_assessment_components_unavailable), style = MaterialTheme.typography.bodySmall)
             } else {
                 module.assessment.components.forEach { component ->
                     Row(modifier = Modifier.fillMaxWidth().padding(top = 4.dp), horizontalArrangement = Arrangement.SpaceBetween) {
@@ -341,7 +365,7 @@ private fun ModuleCard(module: StudentModuleMap) {
 private fun UpcomingSection(upcoming: List<UpcomingSession>) {
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(modifier = Modifier.padding(16.dp)) {
-            Text("Upcoming schedule", style = MaterialTheme.typography.titleMedium)
+            Text(stringResource(R.string.university_upcoming_schedule_title), style = MaterialTheme.typography.titleMedium)
             upcoming.take(4).forEach { session ->
                 Column(modifier = Modifier.padding(top = 10.dp)) {
                     Text(session.schedule.title, style = MaterialTheme.typography.bodyMedium)
@@ -357,20 +381,54 @@ private fun UpcomingSection(upcoming: List<UpcomingSession>) {
 private fun EvidenceSummary(subjects: Int, scheduleRows: Int, marksUnavailable: Boolean) {
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(modifier = Modifier.padding(16.dp)) {
-            Text("Evidence summary", style = MaterialTheme.typography.titleMedium)
+            Text(stringResource(R.string.university_evidence_summary_title), style = MaterialTheme.typography.titleMedium)
             Row(modifier = Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(24.dp)) {
-                StatColumn("Subjects", subjects.toString())
-                StatColumn("Schedule", scheduleRows.toString())
+                StatColumn(stringResource(R.string.university_stat_subjects), subjects.toString())
+                StatColumn(stringResource(R.string.university_stat_schedule), scheduleRows.toString())
             }
             if (marksUnavailable) {
                 Text(
-                    "Some assessment totals are unavailable while source evidence is still being reconciled.",
+                    stringResource(R.string.university_marks_unavailable_notice),
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(top = 8.dp),
                 )
             }
         }
     }
+}
+
+/**
+ * The server's own refusal-reason wire code (verbatim, per
+ * `EnrollmentChangeSubmission.Refused`'s doc: `invalid_field`,
+ * `requested_value_required`, `reason_required`, `profile_incomplete`,
+ * `unchanged`, `pending_exists`, or an `unknown_error` fallback) mapped to a
+ * localized message — the code itself never reaches the screen.
+ */
+@StringRes
+private fun changeRequestRefusalReasonRes(reason: String): Int = when (reason) {
+    "invalid_field" -> R.string.university_refusal_invalid_field
+    "requested_value_required" -> R.string.university_refusal_requested_value_required
+    "reason_required" -> R.string.university_refusal_reason_required
+    "profile_incomplete" -> R.string.university_refusal_profile_incomplete
+    "unchanged" -> R.string.university_refusal_unchanged
+    "pending_exists" -> R.string.university_refusal_pending_exists
+    else -> R.string.university_refusal_unknown
+}
+
+/** [EnrollmentChangeRequest.field] is the wire value (`"university"`/`"year"`) verbatim; this is only its display label. */
+@StringRes
+private fun enrollmentFieldLabelRes(wireValue: String): Int = when (wireValue) {
+    EnrollmentField.University.wireValue -> R.string.university_field_university
+    EnrollmentField.Year.wireValue -> R.string.university_field_year
+    else -> R.string.university_field_university
+}
+
+/** [EnrollmentChangeRequest.status] is the wire value (`pending`/`approved`/`rejected`) verbatim; this is only its display label. */
+@StringRes
+private fun changeRequestStatusLabelRes(status: String): Int = when (status) {
+    "approved" -> R.string.university_status_approved
+    "rejected" -> R.string.university_status_rejected
+    else -> R.string.university_status_pending
 }
 
 @Composable
@@ -393,51 +451,63 @@ private fun EnrollmentChangeSection(
 
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(modifier = Modifier.padding(16.dp)) {
-            Text("Request an enrollment change", style = MaterialTheme.typography.titleMedium)
+            Text(stringResource(R.string.university_change_request_title), style = MaterialTheme.typography.titleMedium)
             Text(
-                "Your university and year are locked once verified. Ask for a change here instead of editing them directly.",
+                stringResource(R.string.university_change_request_description),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 4.dp),
             )
 
             Row(modifier = Modifier.fillMaxWidth().padding(top = 12.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                FilterChip(selected = field == EnrollmentField.University, onClick = { field = EnrollmentField.University }, label = { Text("University") })
-                FilterChip(selected = field == EnrollmentField.Year, onClick = { field = EnrollmentField.Year }, label = { Text("Year") })
+                FilterChip(selected = field == EnrollmentField.University, onClick = { field = EnrollmentField.University }, label = { Text(stringResource(R.string.university_field_university)) })
+                FilterChip(selected = field == EnrollmentField.Year, onClick = { field = EnrollmentField.Year }, label = { Text(stringResource(R.string.university_field_year)) })
             }
 
             OutlinedTextField(
                 value = requestedValue,
                 onValueChange = { requestedValue = it },
-                label = { Text(if (field == EnrollmentField.University) "Requested university id" else "Requested year") },
+                label = { Text(stringResource(if (field == EnrollmentField.University) R.string.university_requested_university_label else R.string.university_requested_year_label)) },
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(UNIVERSITY_REQUEST_FIELD_VALUE_TAG),
             )
             OutlinedTextField(
                 value = reason,
                 onValueChange = { reason = it },
-                label = { Text("Why (at least 12 characters)") },
+                label = { Text(stringResource(R.string.university_reason_label)) },
                 modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(UNIVERSITY_REQUEST_REASON_TAG),
             )
             Button(
                 onClick = { onSubmit(field, requestedValue.trim(), reason.trim()) },
                 enabled = requestedValue.isNotBlank() && reason.trim().length >= 12,
                 modifier = Modifier.padding(top = 8.dp).testTag(UNIVERSITY_REQUEST_SUBMIT_TAG),
-            ) { Text("Submit request") }
+            ) { Text(stringResource(R.string.university_submit_request)) }
 
             when (result) {
-                ChangeRequestResult.Submitted -> StatusLine("Request submitted — an admin will review it.", onDismissResult)
-                is ChangeRequestResult.Refused -> StatusLine("Not submitted: ${result.reason.replace('_', ' ')}", onDismissResult)
-                ChangeRequestResult.Failed -> StatusLine("Couldn't reach the server. Try again.", onDismissResult)
+                ChangeRequestResult.Submitted -> StatusLine(stringResource(R.string.university_request_submitted), onDismissResult)
+                is ChangeRequestResult.Refused -> StatusLine(
+                    stringResource(R.string.university_request_refused_format, stringResource(changeRequestRefusalReasonRes(result.reason))),
+                    onDismissResult,
+                )
+                ChangeRequestResult.Failed -> StatusLine(stringResource(R.string.university_request_failed), onDismissResult)
                 null -> Unit
             }
 
             if (requests.isNotEmpty()) {
+                val unset = stringResource(R.string.university_value_unset)
                 HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
-                Text("Your requests", style = MaterialTheme.typography.labelLarge)
+                Text(stringResource(R.string.university_your_requests_title), style = MaterialTheme.typography.labelLarge)
                 requests.forEach { request ->
                     Column(modifier = Modifier.padding(top = 8.dp)) {
-                        Text("${request.field}: ${request.currentValue ?: "unset"} → ${request.requestedValue}", style = MaterialTheme.typography.bodyMedium)
-                        Text(request.status, style = MaterialTheme.typography.labelSmall)
+                        Text(
+                            stringResource(
+                                R.string.university_request_change_format,
+                                stringResource(enrollmentFieldLabelRes(request.field)),
+                                request.currentValue ?: unset,
+                                request.requestedValue,
+                            ),
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
+                        Text(stringResource(changeRequestStatusLabelRes(request.status)), style = MaterialTheme.typography.labelSmall)
                     }
                 }
             }
@@ -450,6 +520,6 @@ private fun EnrollmentChangeSection(
 private fun StatusLine(text: String, onDismiss: () -> Unit) {
     Row(modifier = Modifier.fillMaxWidth().padding(top = 10.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
         Text(text, style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f))
-        TextButton(onClick = onDismiss) { Text("Dismiss") }
+        TextButton(onClick = onDismiss) { Text(stringResource(R.string.university_dismiss)) }
     }
 }

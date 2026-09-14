@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/university — localized strings for the University surface (EN/AR). -->
+
+    <!-- Top-level screen states. -->
+    <string name="university_loading">Loading your curriculum…</string>
+    <string name="university_unavailable_title">Your curriculum could not be read</string>
+    <string name="university_unavailable_description">This needs a connection at least once. Try again when you\'re back online.</string>
+    <string name="university_missing_profile_title">Tell nishany where you study</string>
+    <string name="university_missing_profile_description">Your university map stays empty until your account has a university and year.</string>
+    <string name="university_being_verified_title">This year is being verified</string>
+    <string name="university_being_verified_description">Your account is enrolled, but the live academic projection has not published that year yet.</string>
+
+    <!-- Header. -->
+    <string name="university_header_title">Your University</string>
+    <string name="university_header_description">A quiet map of your own year: terms, modules, subjects, assessments, and the timetable your faculty has published.</string>
+    <string name="university_stale_notice">Showing the last copy saved on this device — reconnect to refresh it.</string>
+    <string name="university_scope_notice">This view is server-scoped to your own university and year. No other university or year can be requested from here.</string>
+
+    <!-- Stat labels, shared by the header card and the evidence summary. -->
+    <string name="university_stat_terms">Terms</string>
+    <string name="university_stat_modules">Modules</string>
+    <string name="university_stat_marks">Marks</string>
+    <string name="university_stat_subjects">Subjects</string>
+    <string name="university_stat_schedule">Schedule</string>
+    <string name="university_marks_unavailable">unavailable</string>
+    <string name="university_marks_suffix_format">%1$s marks</string>
+
+    <!-- No modules published yet. -->
+    <string name="university_no_modules_title">No modules in your year yet</string>
+    <string name="university_no_modules_description">An admin can publish terms and modules from Academic Setup. Library and Qbank still work where content is available.</string>
+
+    <!-- Term header. -->
+    <string name="university_term_number_format">Term %1$d</string>
+    <string name="university_term_summary_format">%1$s · %2$s</string>
+
+    <!-- Module badges. -->
+    <string name="university_badge_verified">verified marks</string>
+    <string name="university_badge_carried_forward">carried forward</string>
+    <string name="university_badge_inferred">inferred</string>
+    <string name="university_badge_being_verified">being verified</string>
+    <string name="university_badge_needs_marks">marks unavailable</string>
+    <string name="university_badge_needs_schedule">schedule pending</string>
+
+    <!-- Subject tree / schedule list. -->
+    <string name="university_subject_tree_empty">No subject tree has been published for this module yet.</string>
+    <string name="university_schedule_empty">No timetable blocks are published for this module yet.</string>
+    <string name="university_date_unavailable">date unavailable</string>
+    <string name="university_schedule_location_format">%1$s · %2$s</string>
+
+    <!-- Module card. -->
+    <string name="university_module_meta_format">%1$s · %2$s · %3$s</string>
+    <string name="university_subject_tree_label">Subject tree</string>
+    <string name="university_scoped_schedule_label">Scoped schedule</string>
+    <string name="university_assessment_total_label">Assessment total</string>
+    <string name="university_assessment_components_unavailable">Assessment components are unavailable, not zero.</string>
+
+    <!-- Upcoming schedule / evidence summary. -->
+    <string name="university_upcoming_schedule_title">Upcoming schedule</string>
+    <string name="university_evidence_summary_title">Evidence summary</string>
+    <string name="university_marks_unavailable_notice">Some assessment totals are unavailable while source evidence is still being reconciled.</string>
+
+    <!-- Enrollment change request section. -->
+    <string name="university_change_request_title">Request an enrollment change</string>
+    <string name="university_change_request_description">Your university and year are locked once verified. Ask for a change here instead of editing them directly.</string>
+    <string name="university_field_university">University</string>
+    <string name="university_field_year">Year</string>
+    <string name="university_requested_university_label">Requested university id</string>
+    <string name="university_requested_year_label">Requested year</string>
+    <string name="university_reason_label">Why (at least 12 characters)</string>
+    <string name="university_submit_request">Submit request</string>
+    <string name="university_request_submitted">Request submitted — an admin will review it.</string>
+    <string name="university_request_refused_format">Not submitted: %1$s</string>
+    <string name="university_request_failed">Couldn\'t reach the server. Try again.</string>
+    <string name="university_your_requests_title">Your requests</string>
+    <string name="university_request_change_format">%1$s: %2$s → %3$s</string>
+    <string name="university_value_unset">unset</string>
+    <string name="university_dismiss">Dismiss</string>
+
+    <!-- Enrollment-change refusal reasons — the wire codes (`invalid_field`,
+         `requested_value_required`, `reason_required`, `profile_incomplete`,
+         `unchanged`, `pending_exists`, per UniversityApi.kt / enrollmentChanges.js)
+         stay in English on the wire; these are only the display text. -->
+    <string name="university_refusal_invalid_field">That field isn\'t recognized.</string>
+    <string name="university_refusal_requested_value_required">Enter the value you\'re requesting.</string>
+    <string name="university_refusal_reason_required">Say why in at least 12 characters.</string>
+    <string name="university_refusal_profile_incomplete">Your profile needs a university and year first.</string>
+    <string name="university_refusal_unchanged">That\'s already your current value.</string>
+    <string name="university_refusal_pending_exists">You already have a pending request for this field.</string>
+    <string name="university_refusal_unknown">unknown reason</string>
+
+    <!-- Enrollment-change request status (wire values `pending`/`approved`/`rejected`). -->
+    <string name="university_status_pending">pending</string>
+    <string name="university_status_approved">approved</string>
+    <string name="university_status_rejected">rejected</string>
+
+    <!-- Counted items. -->
+    <plurals name="university_modules_count">
+        <item quantity="one">%1$d module</item>
+        <item quantity="other">%1$d modules</item>
+    </plurals>
+    <plurals name="university_subject_nodes_count">
+        <item quantity="one">%1$d subject node</item>
+        <item quantity="other">%1$d subject nodes</item>
+    </plurals>
+    <plurals name="university_timetable_blocks_count">
+        <item quantity="one">%1$d timetable block</item>
+        <item quantity="other">%1$d timetable blocks</item>
+    </plurals>
+</resources>
