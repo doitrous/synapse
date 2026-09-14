@@ -102,6 +102,7 @@ fun AppScaffold(
     studyTogetherContent: @Composable () -> Unit = { StudyTogetherRoute() },
     partiesContent: @Composable () -> Unit = { PartiesRoute() },
     sharesContent: @Composable () -> Unit = { SharesRoute() },
+    studyActivityTracker: @Composable (String?) -> Unit = { route -> StudyActivityTracker(currentRoute = route) },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -182,6 +183,7 @@ fun AppScaffold(
             }
         },
     ) { innerPadding ->
+        studyActivityTracker(currentRoute)
         NavHost(
             navController = navController,
             startDestination = DASHBOARD_ROUTE,
