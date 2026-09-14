@@ -1,7 +1,9 @@
 package com.synapse.app.feature.resources
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.resources.MedicalResource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -32,7 +34,7 @@ sealed interface ReaderState {
     data object Closed : ReaderState
     data class Downloading(val resourceId: String) : ReaderState
     data class Ready(val resourceId: String, val file: File, val mediaType: String) : ReaderState
-    data class Failed(val resourceId: String, val message: String) : ReaderState
+    data class Failed(val resourceId: String, @StringRes val messageRes: Int) : ReaderState
 }
 
 /**
@@ -92,7 +94,7 @@ class ResourcesViewModel @Inject constructor(
             } catch (e: CancellationException) {
                 throw e
             } catch (e: Exception) {
-                setReader(ReaderState.Failed(resource.id, "That file could not be opened. It may still be uploading."))
+                setReader(ReaderState.Failed(resource.id, R.string.resources_reader_failed_message))
             }
         }
     }

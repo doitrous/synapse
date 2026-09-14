@@ -47,10 +47,14 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
+import androidx.annotation.StringRes
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.resources.MedicalResource
 import com.synapse.app.core.resources.RESOURCE_TYPES
 import com.synapse.app.core.resources.groupResourcesByChapter
@@ -66,6 +70,16 @@ fun resourceRowTag(resourceId: String): String = "resources_row_$resourceId"
 fun resourceBookmarkButtonTag(resourceId: String): String = "resources_bookmark_$resourceId"
 const val RESOURCES_READER_BACK_BUTTON_TAG = "resources_reader_back_button"
 const val RESOURCES_READER_DOWNLOAD_BUTTON_TAG = "resources_reader_download_button"
+
+/** [RESOURCE_TYPES] is a fixed, controlled vocabulary (not synced free-form content) — safe to localize by mapping. */
+@StringRes
+private fun resourceTypeLabelRes(type: String): Int = when (type) {
+    "Book" -> R.string.resources_type_book
+    "Video" -> R.string.resources_type_video
+    "Guideline" -> R.string.resources_type_guideline
+    "Deck" -> R.string.resources_type_deck
+    else -> R.string.resources_type_article
+}
 
 /**
  * The Resources tab's single public entry point. The shell mounts this
@@ -99,7 +113,7 @@ private fun ResourcesScreen(
             modifier = Modifier.fillMaxSize().testTag(RESOURCES_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.resources_loading)) }
         return
     }
 
@@ -166,9 +180,9 @@ private fun CataloguePane(
     val folders = remember(filtered) { groupResourcesByChapter(filtered) }
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("Resources", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.nav_resources), style = MaterialTheme.typography.titleLarge)
         Text(
-            "Every book, video, guideline, and deck — filter by subject and type, and save what you use.",
+            stringResource(R.string.resources_subtitle),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp),
         )
@@ -176,7 +190,7 @@ private fun CataloguePane(
         OutlinedTextField(
             value = query,
             onValueChange = { query = it },
-            label = { Text("Search resources") },
+            label = { Text(stringResource(R.string.resources_search_label)) },
             singleLine = true,
             keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
             modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(RESOURCES_SEARCH_FIELD_TAG),
@@ -189,7 +203,7 @@ private fun CataloguePane(
             FilterChip(
                 selected = savedOnly,
                 onClick = { savedOnly = !savedOnly },
-                label = { Text("Saved only") },
+                label = { Text(stringResource(R.string.resources_saved_only)) },
                 leadingIcon = { Icon(if (savedOnly) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder, contentDescription = null) },
                 modifier = Modifier.testTag(RESOURCES_SAVED_ONLY_CHIP_TAG),
             )
@@ -200,12 +214,12 @@ private fun CataloguePane(
                 modifier = Modifier.fillMaxWidth().padding(top = 8.dp).horizontalScroll(rememberScrollState()),
                 horizontalArrangement = Arrangement.spacedBy(6.dp),
             ) {
-                FilterChip(selected = typeFilter == "all", onClick = { typeFilter = "all" }, label = { Text("All types") })
+                FilterChip(selected = typeFilter == "all", onClick = { typeFilter = "all" }, label = { Text(stringResource(R.string.resources_all_types)) })
                 availableTypes.forEach { type ->
                     FilterChip(
                         selected = typeFilter == type,
                         onClick = { typeFilter = type },
-                        label = { Text(type) },
+                        label = { Text(stringResource(resourceTypeLabelRes(type))) },
                         modifier = Modifier.testTag(resourcesTypeChipTag(type)),
                     )
                 }
@@ -217,7 +231,7 @@ private fun CataloguePane(
                 modifier = Modifier.fillMaxWidth().padding(top = 8.dp).horizontalScroll(rememberScrollState()),
                 horizontalArrangement = Arrangement.spacedBy(6.dp),
             ) {
-                FilterChip(selected = subjectFilter == "all", onClick = { subjectFilter = "all" }, label = { Text("All subjects") })
+                FilterChip(selected = subjectFilter == "all", onClick = { subjectFilter = "all" }, label = { Text(stringResource(R.string.resources_all_subjects)) })
                 availableSubjects.forEach { subjectId ->
                     FilterChip(selected = subjectFilter == subjectId, onClick = { subjectFilter = subjectId }, label = { Text(subjectId) })
                 }
@@ -225,14 +239,14 @@ private fun CataloguePane(
         }
 
         Text(
-            "${filtered.size} ${if (filtered.size == 1) "resource" else "resources"}",
+            pluralStringResource(R.plurals.resources_count, filtered.size, filtered.size),
             style = MaterialTheme.typography.labelMedium,
             modifier = Modifier.padding(top = 10.dp, bottom = 4.dp),
         )
 
         if (folders.isEmpty()) {
             Text(
-                "No resources match. Try clearing a filter or searching for something else.",
+                stringResource(R.string.resources_empty_message),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 16.dp),
             )
@@ -282,7 +296,7 @@ private fun ResourceRow(
                     Text(detail, style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 2.dp))
                     if (!resource.hasFile) {
                         Text(
-                            "File not uploaded yet",
+                            stringResource(R.string.resources_file_not_uploaded_yet),
                             style = MaterialTheme.typography.labelSmall,
                             modifier = Modifier.padding(top = 2.dp),
                         )
@@ -293,7 +307,7 @@ private fun ResourceRow(
                     modifier = Modifier.padding(end = 2.dp),
                 ) {
                     Text(
-                        resource.type,
+                        stringResource(resourceTypeLabelRes(resource.type)),
                         style = MaterialTheme.typography.labelSmall,
                         modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
                     )
@@ -301,14 +315,17 @@ private fun ResourceRow(
                 IconButton(onClick = onToggleBookmark, modifier = Modifier.testTag(resourceBookmarkButtonTag(resource.id))) {
                     Icon(
                         if (isSaved) Icons.Filled.Favorite else Icons.Filled.FavoriteBorder,
-                        contentDescription = if (isSaved) "Saved" else "Save",
+                        contentDescription = stringResource(if (isSaved) R.string.resources_saved_description else R.string.resources_save_description),
                         tint = if (isSaved) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
             }
             if (expanded && !resource.hasFile) {
                 Text(
-                    "No source file has been uploaded for this one yet. ${resource.meta.ifBlank { "Not recorded" }} — that is where to find it.",
+                    stringResource(
+                        R.string.resources_no_file_note_format,
+                        resource.meta.ifBlank { stringResource(R.string.resources_not_recorded) },
+                    ),
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(top = 6.dp),
                 )
@@ -328,12 +345,12 @@ private fun ReaderPane(
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             IconButton(onClick = onBack, modifier = Modifier.testTag(RESOURCES_READER_BACK_BUTTON_TAG)) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.resources_back_description))
             }
             Text(resource.title, style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
             if (reader is ReaderState.Ready) {
                 IconButton(onClick = onRemoveDownload) {
-                    Icon(Icons.Filled.Delete, contentDescription = "Remove download")
+                    Icon(Icons.Filled.Delete, contentDescription = stringResource(R.string.resources_remove_download_description))
                 }
             }
         }
@@ -342,13 +359,13 @@ private fun ReaderPane(
             when (reader) {
                 is ReaderState.Downloading -> Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     CircularProgressIndicator()
-                    Text("Downloading…", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 12.dp))
+                    Text(stringResource(R.string.resources_downloading), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 12.dp))
                 }
 
                 is ReaderState.Failed -> Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text("Could not open it", style = MaterialTheme.typography.titleMedium)
-                    Text(reader.message, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
-                    Button(onClick = onRetry, modifier = Modifier.padding(top = 12.dp)) { Text("Try again") }
+                    Text(stringResource(R.string.resources_reader_failed_title), style = MaterialTheme.typography.titleMedium)
+                    Text(stringResource(reader.messageRes), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
+                    Button(onClick = onRetry, modifier = Modifier.padding(top = 12.dp)) { Text(stringResource(R.string.resources_try_again)) }
                 }
 
                 is ReaderState.Ready ->
@@ -358,20 +375,20 @@ private fun ReaderPane(
                         // See core/resources/Resource.kt's doc comment: only
                         // PDF documents open in-app in this MVP.
                         Text(
-                            "This resource type isn't supported in the reader yet.",
+                            stringResource(R.string.resources_unsupported_type_message),
                             style = MaterialTheme.typography.bodyMedium,
                         )
                     }
 
                 is ReaderState.Closed -> Column(horizontalAlignment = Alignment.CenterHorizontally) {
                     Text(
-                        "Download it once and it stays on this phone, with or without a signal.",
+                        stringResource(R.string.resources_download_offline_message),
                         style = MaterialTheme.typography.bodyMedium,
                     )
                     Button(
                         onClick = onRetry,
                         modifier = Modifier.padding(top = 12.dp).testTag(RESOURCES_READER_DOWNLOAD_BUTTON_TAG),
-                    ) { Text("Download") }
+                    ) { Text(stringResource(R.string.resources_download_button)) }
                 }
             }
         }
@@ -404,7 +421,7 @@ private fun PdfPageViewer(file: File, openAtPage: Int?) {
     }
 
     if (renderer == null) {
-        Text("This document could not be opened as a PDF.", style = MaterialTheme.typography.bodyMedium)
+        Text(stringResource(R.string.resources_pdf_open_failed), style = MaterialTheme.typography.bodyMedium)
         return
     }
 
@@ -432,17 +449,20 @@ private fun PdfPageViewer(file: File, openAtPage: Int?) {
         Box(modifier = Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
             val current = bitmap
             if (current != null) {
-                Image(bitmap = current.asImageBitmap(), contentDescription = "Page ${currentPage + 1}")
+                Image(bitmap = current.asImageBitmap(), contentDescription = stringResource(R.string.resources_page_content_description_format, currentPage + 1))
             } else {
                 CircularProgressIndicator()
             }
         }
         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(vertical = 8.dp)) {
-            TextButton(onClick = { if (currentPage > 0) pageIndex = currentPage - 1 }, enabled = currentPage > 0) { Text("Previous") }
+            TextButton(onClick = { if (currentPage > 0) pageIndex = currentPage - 1 }, enabled = currentPage > 0) { Text(stringResource(R.string.resources_previous_button)) }
             Spacer(modifier = Modifier.width(12.dp))
-            Text("${currentPage + 1} of $pageCount", style = MaterialTheme.typography.bodyMedium)
+            Text(
+                pluralStringResource(R.plurals.resources_page_of_format, pageCount, currentPage + 1, pageCount),
+                style = MaterialTheme.typography.bodyMedium,
+            )
             Spacer(modifier = Modifier.width(12.dp))
-            TextButton(onClick = { if (currentPage < pageCount - 1) pageIndex = currentPage + 1 }, enabled = currentPage < pageCount - 1) { Text("Next") }
+            TextButton(onClick = { if (currentPage < pageCount - 1) pageIndex = currentPage + 1 }, enabled = currentPage < pageCount - 1) { Text(stringResource(R.string.resources_next_button)) }
         }
     }
 }

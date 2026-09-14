@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/resources — localized strings for the Resources catalogue + native PDF reader (EN/AR). -->
+
+    <string name="resources_loading">Loading…</string>
+
+    <!-- CataloguePane header + filters. -->
+    <string name="resources_subtitle">Every book, video, guideline, and deck — filter by subject and type, and save what you use.</string>
+    <string name="resources_search_label">Search resources</string>
+    <string name="resources_saved_only">Saved only</string>
+    <string name="resources_all_types">All types</string>
+    <string name="resources_all_subjects">All subjects</string>
+
+    <!-- RESOURCE_TYPES (core/resources/Resource.kt) — a fixed, controlled vocabulary, not synced free-form content. -->
+    <string name="resources_type_book">Book</string>
+    <string name="resources_type_video">Video</string>
+    <string name="resources_type_guideline">Guideline</string>
+    <string name="resources_type_deck">Deck</string>
+    <string name="resources_type_article">Article</string>
+
+    <plurals name="resources_count">
+        <item quantity="one">%1$d resource</item>
+        <item quantity="other">%1$d resources</item>
+    </plurals>
+
+    <string name="resources_empty_message">No resources match. Try clearing a filter or searching for something else.</string>
+
+    <!-- ResourceRow. -->
+    <string name="resources_file_not_uploaded_yet">File not uploaded yet</string>
+    <string name="resources_no_file_note_format">No source file has been uploaded for this one yet. %1$s — that is where to find it.</string>
+    <string name="resources_not_recorded">Not recorded</string>
+    <string name="resources_saved_description">Saved</string>
+    <string name="resources_save_description">Save</string>
+
+    <!-- ReaderPane. -->
+    <string name="resources_back_description">Back</string>
+    <string name="resources_remove_download_description">Remove download</string>
+    <string name="resources_downloading">Downloading…</string>
+    <string name="resources_reader_failed_title">Could not open it</string>
+    <string name="resources_reader_failed_message">That file could not be opened. It may still be uploading.</string>
+    <string name="resources_try_again">Try again</string>
+    <string name="resources_unsupported_type_message">This resource type isn\'t supported in the reader yet.</string>
+    <string name="resources_download_offline_message">Download it once and it stays on this phone, with or without a signal.</string>
+    <string name="resources_download_button">Download</string>
+
+    <!-- PdfPageViewer. -->
+    <string name="resources_pdf_open_failed">This document could not be opened as a PDF.</string>
+    <string name="resources_page_content_description_format">Page %1$d</string>
+    <string name="resources_previous_button">Previous</string>
+    <string name="resources_next_button">Next</string>
+
+    <plurals name="resources_page_of_format">
+        <item quantity="one">Page %1$d of %2$d</item>
+        <item quantity="other">Page %1$d of %2$d</item>
+    </plurals>
+</resources>
