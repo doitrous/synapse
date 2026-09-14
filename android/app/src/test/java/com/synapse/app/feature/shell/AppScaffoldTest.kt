@@ -52,6 +52,7 @@ class AppScaffoldTest {
                     whiteboardContent = { Text("WhiteboardStandIn") },
                     calendarContent = { Text("CalendarStandIn") },
                     universityContent = { Text("UniversityStandIn") },
+                    accountContent = { Text("AccountStandIn") },
                 )
             }
         }
@@ -135,6 +136,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingManageAccountInTheMoreHubRendersAccountContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("account")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Manage account")
+        composeTestRule.onNodeWithText("AccountStandIn").assertIsDisplayed()
     }
 
     @Test
