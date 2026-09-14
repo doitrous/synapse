@@ -297,7 +297,15 @@ function optionInScope(option, scope) {
     || scope.yearKeys.has(normalized(option.yearLabel))
     || (numericYear(option.yearLabel) !== null && scope.yearNumbers.has(numericYear(option.yearLabel)))
 }
-function contentModuleLabels(item, catalogue) {
+/**
+ * The catalogue-derived module lookup — invariant across items, so it is built
+ * ONCE per query (`catalogueModuleOptions`) and threaded into every per-item
+ * `contentModuleLabels` call. Rebuilding it inside the per-item function turned a
+ * 75k-item list into ~150k full-catalogue rebuilds and cost ~20s per request.
+ * `prep` is optional: callers that pass none (the parity tests, one-off lookups)
+ * keep the original build-it-here behaviour with identical output.
+ */
+function catalogueModuleOptions(catalogue) {
   const options = catalogue.flatMap((university) => university.years.flatMap((year) => year.courses.map((course, index) => ({
     id: course.moduleId ?? defaultModuleId(course.name, index + 1),
     label: course.name,
@@ -313,6 +321,11 @@ function contentModuleLabels(item, catalogue) {
     const labelKey = option.label.trim().toLowerCase()
     byLabel.set(labelKey, [...(byLabel.get(labelKey) ?? []), option])
   }
+  return { options, byId, byLabel }
+}
+
+function contentModuleLabels(item, catalogue, prep) {
+  const { options, byId, byLabel } = prep ?? catalogueModuleOptions(catalogue)
   const scope = authoredScope(item, options)
 
   const seen = new Set()
@@ -360,21 +373,21 @@ function facetToken(type, value) {
 function facetKey(facet) {
   return facetToken(facet.type, facet.value)
 }
-function itemFacetTokens(item, catalogue) {
+function itemFacetTokens(item, catalogue, prep) {
   const tokens = new Set()
-  const modules = contentModuleLabels(item, catalogue)
+  const modules = contentModuleLabels(item, catalogue, prep)
   for (const module of modules) tokens.add(facetToken('module', module.label))
   if (modules.length === 0) tokens.add(facetToken('flag', 'no-module'))
   if (item.subjectId) tokens.add(facetToken('subject', item.subjectId))
   for (const tag of contentTagsOf(item)) tokens.add(facetToken('tag', tag))
   return tokens
 }
-function availableFacets(items, catalogue) {
+function availableFacets(items, catalogue, prep) {
   const modules = new Map()
   const subjects = new Map()
   const tags = new Map()
   for (const item of items) {
-    for (const module of contentModuleLabels(item, catalogue)) {
+    for (const module of contentModuleLabels(item, catalogue, prep)) {
       modules.set(facetToken('module', module.label), { type: 'module', value: module.label, label: module.label })
     }
     if (item.subjectId) {
@@ -467,10 +480,14 @@ export function runContentQuery({ indexItems, byId, catalogue, contentScope = nu
 
   const existingContentTags = availableContentTags(items)
 
+  // The catalogue module lookup, built once and reused for every per-item facet
+  // derivation below (rebuilding it per item cost ~20s over 75k items).
+  const modulePrep = catalogueModuleOptions(catalogue)
+
   // Per-kind facets
   const kindItems = items.filter((item) => item.kind === activeKind)
-  const facetIndex = new Map(kindItems.map((item) => [item.id, itemFacetTokens(item, catalogue)]))
-  const facetGroups = availableFacets(kindItems, catalogue)
+  const facetIndex = new Map(kindItems.map((item) => [item.id, itemFacetTokens(item, catalogue, modulePrep)]))
+  const facetGroups = availableFacets(kindItems, catalogue, modulePrep)
   const facetFlags = kindItems.some((item) => facetIndex.get(item.id)?.has('flag:no-module'))
     ? [{ type: 'flag', value: 'no-module', label: 'Needs module' }]
     : []
@@ -533,7 +550,7 @@ export function runContentQuery({ indexItems, byId, catalogue, contentScope = nu
   const archiveStats = isArchiveView
     ? {
         previouslyPublished: summaryItems.filter((item) => item.archive?.originalStatus === 'Published').length,
-        noModule: summaryItems.filter((item) => contentModuleLabels(item, catalogue).length === 0).length,
+        noModule: summaryItems.filter((item) => contentModuleLabels(item, catalogue, modulePrep).length === 0).length,
         operations: new Set(summaryItems.map((item) => item.archive?.operationId).filter(Boolean)).size,
       }
     : { previouslyPublished: 0, noModule: 0, operations: 0 }
