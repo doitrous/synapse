@@ -54,6 +54,7 @@ class AppScaffoldTest {
                     universityContent = { Text("UniversityStandIn") },
                     accountContent = { Text("AccountStandIn") },
                     billingContent = { Text("BillingStandIn") },
+                    maristanasContent = { Text("MaristanasStandIn") },
                 )
             }
         }
@@ -137,6 +138,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingBuildMaristanasInTheMoreHubRendersMaristanasContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("maristanas")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Build Maristanas")
+        composeTestRule.onNodeWithText("MaristanasStandIn").assertIsDisplayed()
     }
 
     @Test
