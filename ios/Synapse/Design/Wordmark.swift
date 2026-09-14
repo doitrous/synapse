@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// The Connect Cortex mark and lockup.
+/// The nishany mark and lockup.
 ///
 /// This is the client's own artwork, carried across from `public/brand/` rather
 /// than redrawn — the O in "Connect" *is* the mark, so the wordmark and the

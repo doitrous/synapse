@@ -2,7 +2,7 @@ import SwiftUI
 import Testing
 @testable import Synapse
 
-/// The Connect Cortex palette.
+/// The nishany palette.
 ///
 /// The rebrand renamed a token rather than repainting one: `accent` used to
 /// mean "the action colour" and now means blue. Anything that still reads the

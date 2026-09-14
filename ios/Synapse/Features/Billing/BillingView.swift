@@ -2,7 +2,7 @@ import SwiftUI
 
 /// What the student is actually subscribed to.
 ///
-/// There is no payment provider in Connect Cortex, so this screen does not
+/// There is no payment provider in nishany, so this screen does not
 /// offer to take one. It shows the subscription an administrator granted,
 /// priced from the real catalogue, and lets a voucher be redeemed against the
 /// server. It deliberately does not offer to do things it cannot do.
