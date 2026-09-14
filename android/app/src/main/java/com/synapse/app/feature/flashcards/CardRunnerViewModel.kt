@@ -1,7 +1,9 @@
 package com.synapse.app.feature.flashcards
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.flashcards.AnkiDefaults
 import com.synapse.app.core.flashcards.CardSchedule
 import com.synapse.app.core.flashcards.CardState
@@ -39,8 +41,12 @@ data class StudySession(
 /** A one-shot signal ([FlashcardsViewModel.startStudy]) that a session was built and is ready to run. */
 data class StudyStart(val session: StudySession, val sessionId: String)
 
-/** One of the four grade buttons: its [grade] and its already-formatted "Good · 10m" style [label]. */
-data class GradeOption(val grade: Grade, val label: String)
+/**
+ * One of the four grade buttons: its [grade], its localized name resource [labelRes], and its
+ * already-formatted, locale-invariant Anki-style [interval] (e.g. "10m", "4d") — see
+ * [formatInterval]'s doc comment for why that compact notation is never translated.
+ */
+data class GradeOption(val grade: Grade, @StringRes val labelRes: Int, val interval: String)
 
 /**
  * What [CardRunnerScreen] renders. No score/accuracy field exists here by design — a flashcard
@@ -187,15 +193,16 @@ class CardRunnerViewModel @Inject constructor(
     private fun gradeOptions(schedule: CardSchedule, instant: Instant): List<GradeOption> =
         Grade.entries.map { g ->
             val next = computeGrade(schedule, g, instant, AnkiDefaults)
-            GradeOption(g, "${g.label()} · ${formatInterval(next, instant)}")
+            GradeOption(g, g.labelRes(), formatInterval(next, instant))
         }
 }
 
-private fun Grade.label(): String = when (this) {
-    Grade.Again -> "Again"
-    Grade.Hard -> "Hard"
-    Grade.Good -> "Good"
-    Grade.Easy -> "Easy"
+@StringRes
+private fun Grade.labelRes(): Int = when (this) {
+    Grade.Again -> R.string.flashcards_grade_again
+    Grade.Hard -> R.string.flashcards_grade_hard
+    Grade.Good -> R.string.flashcards_grade_good
+    Grade.Easy -> R.string.flashcards_grade_easy
 }
 
 /** Whole local-calendar days between [from] and the local-calendar day [dueIso] falls on. */

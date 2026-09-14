@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/flashcards — Arabic strings. Fresh Modern Standard Arabic — neither the iOS
+         ArabicStrings.swift nor the web i18n-ar.ts carry a flashcards-deck vocabulary of their
+         own (their "Deck"/"عرض تقديمي" entries refer to a library presentation, a different
+         concept), except nav_flashcards itself, already "البطاقات التعليمية" in strings.xml,
+         whose "بطاقة" (card) / "مجموعة" (deck) vocabulary this file follows. -->
+
+    <!-- DeckListScreen. -->
+    <string name="flashcards_loading">جارٍ التحميل…</string>
+    <string name="flashcards_your_decks_title">مجموعاتك</string>
+    <string name="flashcards_new_deck">مجموعة جديدة</string>
+    <string name="flashcards_no_own_decks">لم تُنشئ أي مجموعة بعد.</string>
+    <string name="flashcards_provided_decks_title">المجموعات المُقدَّمة</string>
+    <string name="flashcards_no_provided_decks_yet">تظهر المجموعات المنشورة هنا فور إصدارها.</string>
+    <string name="flashcards_provided_chip">مُقدَّمة</string>
+    <string name="flashcards_edit_deck_description">إضافة البطاقات وتعديلها</string>
+    <string name="flashcards_delete_deck_description">حذف المجموعة</string>
+    <string name="flashcards_study_button">ذاكِر</string>
+
+    <!-- "بطاقة" (card) is feminine. -->
+    <plurals name="flashcards_cards_count">
+        <item quantity="zero">لا بطاقات</item>
+        <item quantity="one">بطاقة واحدة</item>
+        <item quantity="two">بطاقتان</item>
+        <item quantity="few">%1$d بطاقات</item>
+        <item quantity="many">%1$d بطاقة</item>
+        <item quantity="other">%1$d بطاقة</item>
+    </plurals>
+
+    <!-- "مستحقة" agrees with the implicit feminine "بطاقة". -->
+    <plurals name="flashcards_due_count">
+        <item quantity="zero">لا شيء مستحق</item>
+        <item quantity="one">واحدة مستحقة</item>
+        <item quantity="two">اثنتان مستحقتان</item>
+        <item quantity="few">%1$d مستحقة</item>
+        <item quantity="many">%1$d مستحقة</item>
+        <item quantity="other">%1$d مستحقة</item>
+    </plurals>
+
+    <!-- "جديدة" agrees with the implicit feminine "بطاقة". -->
+    <plurals name="flashcards_new_count">
+        <item quantity="zero">لا شيء جديد</item>
+        <item quantity="one">واحدة جديدة</item>
+        <item quantity="two">اثنتان جديدتان</item>
+        <item quantity="few">%1$d جديدة</item>
+        <item quantity="many">%1$d جديدة</item>
+        <item quantity="other">%1$d جديدة</item>
+    </plurals>
+
+    <!-- CreateDeckDialog. -->
+    <string name="flashcards_deck_name_label">اسم المجموعة</string>
+    <string name="flashcards_create_deck_button">إنشاء المجموعة</string>
+    <string name="flashcards_cancel">إلغاء</string>
+
+    <!-- ManageDeckDialog. -->
+    <string name="flashcards_no_cards_yet">لا توجد بطاقات بعد. أضف الأولى أدناه.</string>
+    <string name="flashcards_add_a_card_label">إضافة بطاقة</string>
+    <string name="flashcards_front">الوجه الأمامي</string>
+    <string name="flashcards_back">الوجه الخلفي</string>
+    <string name="flashcards_add">إضافة</string>
+    <string name="flashcards_done">تم</string>
+    <string name="flashcards_delete_card_description">حذف البطاقة</string>
+
+    <!-- DeleteDeckDialog. -->
+    <string name="flashcards_delete_deck_title">حذف هذه المجموعة؟</string>
+    <string name="flashcards_delete_deck_body_format">سيؤدي هذا إلى إزالة %1$s وكل بطاقة وجدول مراجعة فيها. لا يمكن التراجع عن هذا.</string>
+    <string name="flashcards_delete">حذف</string>
+
+    <!-- CardRunnerScreen. -->
+    <string name="flashcards_back_link_format">العودة إلى البطاقات التعليمية · %1$s</string>
+    <string name="flashcards_progress_format">%1$d / %2$d</string>
+    <string name="flashcards_front_caption">الوجه الأمامي</string>
+    <string name="flashcards_back_caption">الوجه الخلفي</string>
+    <string name="flashcards_show_answer">إظهار الإجابة</string>
+    <string name="flashcards_session_complete_title">اكتملت الجلسة</string>
+    <string name="flashcards_nothing_due_title">لا شيء مستحق الآن</string>
+    <string name="flashcards_all_caught_up">أنجزت كل ما هو مستحق في هذه المجموعة لليوم.</string>
+    <string name="flashcards_done_button">العودة إلى البطاقات التعليمية</string>
+
+    <plurals name="flashcards_studied_summary">
+        <item quantity="zero">لم تُذاكر أي بطاقة</item>
+        <item quantity="one">ذاكرت بطاقة واحدة</item>
+        <item quantity="two">ذاكرت بطاقتين</item>
+        <item quantity="few">ذاكرت %1$d بطاقات</item>
+        <item quantity="many">ذاكرت %1$d بطاقة</item>
+        <item quantity="other">ذاكرت %1$d بطاقة</item>
+    </plurals>
+
+    <plurals name="flashcards_graduated_later">
+        <item quantity="zero"></item>
+        <item quantity="one"> · ستعود بطاقة واحدة غدًا أو لاحقًا.</item>
+        <item quantity="two"> · ستعود بطاقتان غدًا أو لاحقًا.</item>
+        <item quantity="few"> · ستعود %1$d بطاقات غدًا أو لاحقًا.</item>
+        <item quantity="many"> · ستعود %1$d بطاقة غدًا أو لاحقًا.</item>
+        <item quantity="other"> · ستعود %1$d بطاقة غدًا أو لاحقًا.</item>
+    </plurals>
+
+    <!-- Grade button names (Grade.label() in CardRunnerViewModel). -->
+    <string name="flashcards_grade_again">إعادة</string>
+    <string name="flashcards_grade_hard">صعب</string>
+    <string name="flashcards_grade_good">جيد</string>
+    <string name="flashcards_grade_easy">سهل</string>
+</resources>

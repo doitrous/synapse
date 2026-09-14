@@ -85,10 +85,10 @@ class CardRunnerViewModelTest {
         assertEquals("Back c1", state.back)
         assertEquals(4, state.gradeOptions.size)
         assertEquals(listOf(Grade.Again, Grade.Hard, Grade.Good, Grade.Easy), state.gradeOptions.map { it.grade })
-        // Every label is exactly what `grade()` itself would produce - not a fabricated number.
+        // Every interval is exactly what `grade()` itself would produce - not a fabricated number.
         state.gradeOptions.forEach { option ->
             val expectedNext = grade(due, option.grade, now, AnkiDefaults)
-            assertTrue(option.label.contains(formatInterval(expectedNext, now)))
+            assertEquals(formatInterval(expectedNext, now), option.interval)
         }
     }
 

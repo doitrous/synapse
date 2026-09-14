@@ -18,9 +18,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.flashcards.Grade
 
 const val CARD_RUNNER_BACK_LINK_TAG = "card_runner_back_link"
@@ -61,7 +64,7 @@ private fun CardRunnerContent(
 ) {
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
         TextButton(onClick = onLeave, modifier = Modifier.testTag(CARD_RUNNER_BACK_LINK_TAG)) {
-            Text("Back to Flashcards · ${uiState.deckTitle}")
+            Text(stringResource(R.string.flashcards_back_link_format, uiState.deckTitle))
         }
 
         if (uiState.finished) {
@@ -78,7 +81,10 @@ private fun CardRunnerContent(
                 progress = { if (uiState.total == 0) 0f else uiState.position / uiState.total.toFloat() },
                 modifier = Modifier.weight(1f),
             )
-            Text("${uiState.position} / ${uiState.total}", modifier = Modifier.testTag(CARD_RUNNER_PROGRESS_TAG))
+            Text(
+                stringResource(R.string.flashcards_progress_format, uiState.position, uiState.total),
+                modifier = Modifier.testTag(CARD_RUNNER_PROGRESS_TAG),
+            )
         }
 
         Column(
@@ -86,7 +92,7 @@ private fun CardRunnerContent(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
         ) {
-            Text("FRONT", style = MaterialTheme.typography.labelSmall)
+            Text(stringResource(R.string.flashcards_front_caption), style = MaterialTheme.typography.labelSmall)
             Text(
                 uiState.front,
                 style = MaterialTheme.typography.headlineSmall,
@@ -95,7 +101,7 @@ private fun CardRunnerContent(
 
             if (uiState.revealed) {
                 HorizontalDivider(modifier = Modifier.fillMaxWidth().padding(vertical = 20.dp))
-                Text("BACK", style = MaterialTheme.typography.labelSmall)
+                Text(stringResource(R.string.flashcards_back_caption), style = MaterialTheme.typography.labelSmall)
                 Text(
                     uiState.back,
                     style = MaterialTheme.typography.bodyLarge,
@@ -109,7 +115,7 @@ private fun CardRunnerContent(
                 onClick = onShowAnswer,
                 modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(CARD_RUNNER_SHOW_ANSWER_TAG),
             ) {
-                Text("Show answer")
+                Text(stringResource(R.string.flashcards_show_answer))
             }
         } else {
             GradeButtonGrid(uiState.gradeOptions, onGrade)
@@ -131,7 +137,7 @@ private fun GradeButtonGrid(options: List<GradeOption>, onGrade: (Grade) -> Unit
                         colors = option.grade.tone(),
                         modifier = Modifier.weight(1f).testTag(gradeButtonTag(option.grade)),
                     ) {
-                        Text(option.label)
+                        Text("${stringResource(option.labelRes)} · ${option.interval}")
                     }
                 }
             }
@@ -172,26 +178,27 @@ private fun SessionSummary(uiState: CardRunnerUiState, onLeave: () -> Unit) {
         verticalArrangement = Arrangement.Center,
     ) {
         Text(
-            if (uiState.studied > 0) "Session complete" else "Nothing due right now",
+            stringResource(
+                if (uiState.studied > 0) R.string.flashcards_session_complete_title else R.string.flashcards_nothing_due_title,
+            ),
             style = MaterialTheme.typography.titleLarge,
         )
         Text(
             text = if (uiState.studied > 0) {
-                val cardWord = if (uiState.studied == 1) "card" else "cards"
                 val graduated = if (uiState.graduatedLater > 0) {
-                    " · ${uiState.graduatedLater} will come back tomorrow or later."
+                    pluralStringResource(R.plurals.flashcards_graduated_later, uiState.graduatedLater, uiState.graduatedLater)
                 } else {
                     ""
                 }
-                "You studied ${uiState.studied} $cardWord$graduated"
+                pluralStringResource(R.plurals.flashcards_studied_summary, uiState.studied, uiState.studied) + graduated
             } else {
-                "You are all caught up on this deck for today."
+                stringResource(R.string.flashcards_all_caught_up)
             },
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 8.dp),
         )
         Button(onClick = onLeave, modifier = Modifier.padding(top = 20.dp).testTag(CARD_RUNNER_DONE_BUTTON_TAG)) {
-            Text("Back to Flashcards")
+            Text(stringResource(R.string.flashcards_done_button))
         }
     }
 }
