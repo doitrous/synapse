@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/essays — localized strings for the Essay questions surface
+         (EN/AR): read a question, draft an answer, reveal the key points or
+         mark scheme, self-mark against them. -->
+
+    <!-- EssaysListScreen. -->
+    <string name="essays_loading">Loading…</string>
+    <string name="essays_title">Essay questions</string>
+    <string name="essays_subtitle">Read a written question, write your answer, then reveal the key points and mark yourself against them.</string>
+    <string name="essays_empty">No written questions published yet.</string>
+    <string name="essays_section_written">Exam questions</string>
+    <string name="essays_section_practice">Practice essays</string>
+
+    <!-- Row status, shared by EssayRow and WrittenRow. -->
+    <string name="essays_status_not_started">Not started</string>
+    <string name="essays_status_draft_saved">Draft saved</string>
+
+    <!-- EssayRow: "Marked · X of Y points covered", plural on the total (Y). -->
+    <plurals name="essays_row_marked_points">
+        <item quantity="one">Marked · %1$d of %2$d point covered</item>
+        <item quantity="other">Marked · %1$d of %2$d points covered</item>
+    </plurals>
+
+    <!-- Reused for both the WrittenRow summary line and the part heading's mark count. -->
+    <plurals name="essays_parts_count">
+        <item quantity="one">%1$d part</item>
+        <item quantity="other">%1$d parts</item>
+    </plurals>
+    <plurals name="essays_marks_count">
+        <item quantity="one">%1$d mark</item>
+        <item quantity="other">%1$d marks</item>
+    </plurals>
+
+    <!-- WrittenRow: "{parts} · {marks} · {status}". -->
+    <string name="essays_written_row_summary_format">%1$s · %2$s · %3$s</string>
+
+    <!-- WrittenRow: "Marked · X of Y marks", plural on the total (Y). -->
+    <plurals name="essays_written_status_marked">
+        <item quantity="one">Marked · %1$d of %2$d mark</item>
+        <item quantity="other">Marked · %1$d of %2$d marks</item>
+    </plurals>
+
+    <!-- BackHeader. -->
+    <string name="essays_back_content_description">Back</string>
+
+    <!-- Shared by EssayRunnerPane and WrittenRunnerPane. -->
+    <string name="essays_your_answer_label">Your answer</string>
+
+    <!-- EssayRunnerPane. -->
+    <string name="essays_reveal_key_points_button">Reveal key points</string>
+    <string name="essays_examiner_note_heading">Examiner\'s note</string>
+    <string name="essays_tick_every_point">Tick every point you actually made</string>
+    <string name="essays_model_answer_heading">Model answer</string>
+
+    <!-- WrittenRunnerPane: "Score: X of Y marks", plural on the total (Y). -->
+    <plurals name="essays_score_format">
+        <item quantity="one">Score: %1$d of %2$d mark</item>
+        <item quantity="other">Score: %1$d of %2$d marks</item>
+    </plurals>
+
+    <!-- WrittenRunnerPane part heading: "(label) prompt [marks]" — label and
+         prompt are server-synced content and stay untranslated; only the
+         wrapping punctuation and the marks count are localized. -->
+    <string name="essays_part_heading_format">(%1$s) %2$s [%3$s]</string>
+    <string name="essays_reveal_mark_scheme_button">Reveal mark scheme</string>
+</resources>
