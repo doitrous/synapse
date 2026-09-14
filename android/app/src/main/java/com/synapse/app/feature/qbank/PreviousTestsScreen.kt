@@ -23,7 +23,10 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.synapse.app.R
 import com.synapse.app.core.qbank.QBankCollections.SessionSummary
 
 const val PREVIOUS_TESTS_EMPTY_TAG = "qbank_previous_tests_empty"
@@ -56,20 +59,21 @@ fun PreviousTestsScreen(
 ) {
     if (sessions.isEmpty()) {
         Column(modifier = modifier.fillMaxSize().padding(16.dp).testTag(PREVIOUS_TESTS_EMPTY_TAG)) {
-            Text("No tests yet", style = MaterialTheme.typography.titleMedium)
+            Text(stringResource(R.string.qbank_previous_none_title), style = MaterialTheme.typography.titleMedium)
             Text(
-                text = "Start a session and it will be kept here, with what you scored.",
+                text = stringResource(R.string.qbank_previous_none_body),
                 style = MaterialTheme.typography.bodyMedium,
             )
         }
         return
     }
 
+    val untitledTest = stringResource(R.string.qbank_untitled_test)
     LazyColumn(modifier = modifier.fillMaxSize().padding(16.dp)) {
         items(sessions, key = { it.sessionId }) { entry ->
             PreviousTestRow(
                 entry = entry,
-                name = names[entry.sessionId]?.trim().let { if (it.isNullOrBlank()) "Untitled test" else it },
+                name = names[entry.sessionId]?.trim().let { if (it.isNullOrBlank()) untitledTest else it },
                 canRetakeSame = canRetakeSame(entry.sessionId),
                 onRename = { name -> onRename(entry.sessionId, name) },
                 onReview = { onReview(entry.sessionId) },
@@ -103,7 +107,7 @@ private fun PreviousTestRow(
             OutlinedTextField(
                 value = draft,
                 onValueChange = { text -> draft = text; onRename(text) },
-                label = { Text("Test name") },
+                label = { Text(stringResource(R.string.qbank_test_name_label)) },
                 singleLine = true,
                 modifier = Modifier
                     .fillMaxWidth()
@@ -111,7 +115,7 @@ private fun PreviousTestRow(
             )
 
             Text(
-                text = "${entry.answered} question${if (entry.answered == 1) "" else "s"}" +
+                text = pluralStringResource(R.plurals.qbank_questions_count, entry.answered, entry.answered) +
                     (entry.accuracy?.let { " · ${(it * 100).toInt()}%" } ?: " · —"),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 4.dp),
@@ -126,19 +130,19 @@ private fun PreviousTestRow(
                     onClick = onRetakeSame,
                     enabled = canRetakeSame,
                     modifier = Modifier.testTag(previousTestRetakeSameTag(entry.sessionId)),
-                ) { Text("Retake these questions") }
+                ) { Text(stringResource(R.string.qbank_retake_these)) }
                 OutlinedButton(
                     onClick = onRetakeScope,
                     modifier = Modifier.testTag(previousTestRetakeScopeTag(entry.sessionId)),
-                ) { Text("New test, same scope") }
+                ) { Text(stringResource(R.string.qbank_new_test_same_scope)) }
                 TextButton(
                     onClick = onReview,
                     modifier = Modifier.testTag(previousTestReviewTag(entry.sessionId)),
-                ) { Text("Review answers") }
+                ) { Text(stringResource(R.string.qbank_review_answers)) }
                 TextButton(
                     onClick = { confirmingDelete = true },
                     modifier = Modifier.testTag(previousTestDeleteTag(entry.sessionId)),
-                ) { Text("Delete") }
+                ) { Text(stringResource(R.string.qbank_delete)) }
             }
         }
     }
@@ -146,13 +150,13 @@ private fun PreviousTestRow(
     if (confirmingDelete) {
         AlertDialog(
             onDismissRequest = { confirmingDelete = false },
-            title = { Text("Delete this test?") },
-            text = { Text("This removes every answer from that sitting. It cannot be undone.") },
+            title = { Text(stringResource(R.string.qbank_delete_test_dialog_title)) },
+            text = { Text(stringResource(R.string.qbank_delete_test_dialog_body)) },
             confirmButton = {
-                TextButton(onClick = { confirmingDelete = false; onDelete() }) { Text("Delete") }
+                TextButton(onClick = { confirmingDelete = false; onDelete() }) { Text(stringResource(R.string.qbank_delete)) }
             },
             dismissButton = {
-                TextButton(onClick = { confirmingDelete = false }) { Text("Cancel") }
+                TextButton(onClick = { confirmingDelete = false }) { Text(stringResource(R.string.qbank_cancel)) }
             },
         )
     }

@@ -19,7 +19,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import androidx.annotation.StringRes
+import com.synapse.app.R
 import com.synapse.app.core.qbank.QBankSession
 
 fun navigatorItemTag(index: Int): String = "qbank_nav_item_$index"
@@ -34,12 +37,13 @@ private fun QBankSession.NavState.color(): Color = when (this) {
     QBankSession.NavState.Omitted -> Color(0xFFE0A93B)
 }
 
-private fun QBankSession.NavState.label(): String = when (this) {
-    QBankSession.NavState.Unseen -> "Unseen"
-    QBankSession.NavState.Answered -> "Answered"
-    QBankSession.NavState.Correct -> "Correct"
-    QBankSession.NavState.Wrong -> "Wrong"
-    QBankSession.NavState.Omitted -> "Omitted"
+@StringRes
+private fun QBankSession.NavState.labelRes(): Int = when (this) {
+    QBankSession.NavState.Unseen -> R.string.qbank_navstate_unseen
+    QBankSession.NavState.Answered -> R.string.qbank_navstate_answered
+    QBankSession.NavState.Correct -> R.string.qbank_navstate_correct
+    QBankSession.NavState.Wrong -> R.string.qbank_navstate_wrong
+    QBankSession.NavState.Omitted -> R.string.qbank_navstate_omitted
 }
 
 /**
@@ -108,7 +112,7 @@ fun QuestionNavigator(
                             .background(state.color()),
                     )
                     Text(
-                        text = " ${state.label()}",
+                        text = " ${stringResource(state.labelRes())}",
                         style = MaterialTheme.typography.bodyMedium,
                     )
                 }

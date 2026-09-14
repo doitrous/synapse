@@ -20,14 +20,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.annotation.StringRes
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.qbank.QBankSession
 
 const val QBANK_SETUP_LOADING_TAG = "qbank_setup_loading"
@@ -99,10 +103,10 @@ private fun QBankSetupContent(
     }
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("Question Bank", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.qbank_setup_title), style = MaterialTheme.typography.titleLarge)
 
         Text(
-            text = "Source",
+            text = stringResource(R.string.qbank_source_label),
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(top = 16.dp),
         )
@@ -111,14 +115,14 @@ private fun QBankSetupContent(
                 FilterChip(
                     selected = uiState.source == source,
                     onClick = { onSourceChange(source) },
-                    label = { Text(source.label()) },
+                    label = { Text(stringResource(source.labelRes())) },
                     modifier = Modifier.testTag(sourceChipTag(source)),
                 )
             }
         }
 
         Text(
-            text = "Quick presets",
+            text = stringResource(R.string.qbank_quick_presets_label),
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(top = 16.dp),
         )
@@ -127,14 +131,14 @@ private fun QBankSetupContent(
                 FilterChip(
                     selected = uiState.preset == preset,
                     onClick = { onPresetSelected(preset) },
-                    label = { Text(preset.label()) },
+                    label = { Text(stringResource(preset.labelRes())) },
                     modifier = Modifier.testTag(presetChipTag(preset)),
                 )
             }
         }
 
         Text(
-            text = "Topics (${uiState.poolSize()} question${if (uiState.poolSize() == 1) "" else "s"} selected)",
+            text = pluralStringResource(R.plurals.qbank_topics_header, uiState.poolSize(), uiState.poolSize()),
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(top = 16.dp),
         )
@@ -148,23 +152,27 @@ private fun QBankSetupContent(
 
         HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
 
-        Text("Mode", style = MaterialTheme.typography.titleMedium)
+        Text(stringResource(R.string.qbank_mode_label), style = MaterialTheme.typography.titleMedium)
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 4.dp)) {
             FilterChip(
                 selected = uiState.mode == QBankSession.Mode.Tutor,
                 onClick = { onModeChange(QBankSession.Mode.Tutor) },
-                label = { Text("Tutor") },
+                label = { Text(stringResource(R.string.qbank_mode_tutor)) },
                 modifier = Modifier.testTag(QBANK_MODE_TUTOR_TAG),
             )
             FilterChip(
                 selected = uiState.mode == QBankSession.Mode.Timed,
                 onClick = { onModeChange(QBankSession.Mode.Timed) },
-                label = { Text("Timed") },
+                label = { Text(stringResource(R.string.qbank_mode_timed)) },
                 modifier = Modifier.testTag(QBANK_MODE_TIMED_TAG),
             )
         }
 
-        Text("Length", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 12.dp))
+        Text(
+            stringResource(R.string.qbank_length_label),
+            style = MaterialTheme.typography.titleMedium,
+            modifier = Modifier.padding(top = 12.dp),
+        )
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 4.dp)) {
             LENGTH_OPTIONS.forEach { length ->
                 FilterChip(
@@ -190,7 +198,7 @@ private fun QBankSetupContent(
                 customText = digits
                 digits.toIntOrNull()?.let(onCustomLengthChange)
             },
-            label = { Text("Custom length (max $QBANK_MAX_LENGTH)") },
+            label = { Text(stringResource(R.string.qbank_custom_length_format, QBANK_MAX_LENGTH)) },
             singleLine = true,
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
             modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(QBANK_CUSTOM_LENGTH_FIELD_TAG),
@@ -204,13 +212,13 @@ private fun QBankSetupContent(
                 onClick = onDownloadOffline,
                 modifier = Modifier.weight(1f).testTag(QBANK_DOWNLOAD_OFFLINE_BUTTON_TAG),
             ) {
-                Text("Download for offline")
+                Text(stringResource(R.string.qbank_download_for_offline))
             }
             TextButton(
                 onClick = onMultiResponsePractice,
                 modifier = Modifier.weight(1f).testTag(QBANK_MULTI_RESPONSE_ENTRY_TAG),
             ) {
-                Text("Multi-response practice")
+                Text(stringResource(R.string.qbank_multi_response_practice_button))
             }
         }
 
@@ -219,21 +227,24 @@ private fun QBankSetupContent(
             enabled = uiState.poolSize() > 0,
             modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(QBANK_START_BUTTON_TAG),
         ) {
-            Text("Start (${uiState.poolSize().coerceAtMost(uiState.length)} questions)")
+            val startCount = uiState.poolSize().coerceAtMost(uiState.length)
+            Text(pluralStringResource(R.plurals.qbank_start_button, startCount, startCount))
         }
     }
 }
 
-private fun QuestionSource.label(): String = when (this) {
-    QuestionSource.All -> "All"
-    QuestionSource.Flagged -> "Flagged"
-    QuestionSource.Incorrect -> "Got wrong"
-    QuestionSource.Omitted -> "Omitted"
+@StringRes
+private fun QuestionSource.labelRes(): Int = when (this) {
+    QuestionSource.All -> R.string.qbank_source_all
+    QuestionSource.Flagged -> R.string.qbank_source_flagged
+    QuestionSource.Incorrect -> R.string.qbank_source_incorrect
+    QuestionSource.Omitted -> R.string.qbank_source_omitted
 }
 
-private fun QBankPreset.label(): String = when (this) {
-    QBankPreset.Weak -> "Weak areas"
-    QBankPreset.Emergency -> "Emergency"
-    QBankPreset.Demanding -> "Demanding"
-    QBankPreset.Everything -> "Everything"
+@StringRes
+private fun QBankPreset.labelRes(): Int = when (this) {
+    QBankPreset.Weak -> R.string.qbank_preset_weak
+    QBankPreset.Emergency -> R.string.qbank_preset_emergency
+    QBankPreset.Demanding -> R.string.qbank_preset_demanding
+    QBankPreset.Everything -> R.string.qbank_preset_everything
 }

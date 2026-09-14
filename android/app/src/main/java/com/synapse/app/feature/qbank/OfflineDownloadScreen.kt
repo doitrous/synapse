@@ -18,9 +18,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.qbank.Question
 
 const val QBANK_OFFLINE_DOWNLOAD_BUTTON_TAG = "qbank_offline_download_button"
@@ -52,10 +55,10 @@ fun OfflineDownloadScreen(
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("Offline downloads", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.qbank_offline_title), style = MaterialTheme.typography.titleLarge)
 
         Text(
-            text = "Current selection: ${scope.size} scope item(s), ${questions.size} question(s) loaded.",
+            text = stringResource(R.string.qbank_offline_current_selection_format, scope.size, questions.size),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 8.dp),
         )
@@ -65,7 +68,7 @@ fun OfflineDownloadScreen(
             enabled = !uiState.downloading && scope.isNotEmpty(),
             modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(QBANK_OFFLINE_DOWNLOAD_BUTTON_TAG),
         ) {
-            Text("Download this selection for offline")
+            Text(stringResource(R.string.qbank_offline_download_selection_button))
         }
 
         if (uiState.downloading) {
@@ -78,20 +81,20 @@ fun OfflineDownloadScreen(
 
         uiState.lastResult?.let { result ->
             Text(
-                text = "Cached ${result.cachedCount} new item(s), ${result.alreadyCachedCount} already on device.",
+                text = stringResource(R.string.qbank_offline_result_format, result.cachedCount, result.alreadyCachedCount),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 8.dp).testTag(QBANK_OFFLINE_RESULT_TAG),
             )
         }
 
         Text(
-            text = "Pinned scopes",
+            text = stringResource(R.string.qbank_pinned_scopes_label),
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(top = 24.dp),
         )
         LazyColumn(modifier = Modifier.weight(1f).padding(top = 4.dp)) {
             if (uiState.pinnedScopes.isEmpty()) {
-                item { Text("Nothing pinned yet.", style = MaterialTheme.typography.bodyMedium) }
+                item { Text(stringResource(R.string.qbank_offline_nothing_pinned), style = MaterialTheme.typography.bodyMedium) }
             }
             itemsIndexed(uiState.pinnedScopes) { index, pinnedScope ->
                 Card(modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
@@ -99,18 +102,21 @@ fun OfflineDownloadScreen(
                         modifier = Modifier.fillMaxWidth().padding(12.dp),
                         horizontalArrangement = Arrangement.SpaceBetween,
                     ) {
-                        Text("${pinnedScope.size} scope item(s)", style = MaterialTheme.typography.bodyMedium)
+                        Text(
+                            pluralStringResource(R.plurals.qbank_scope_items_count, pinnedScope.size, pinnedScope.size),
+                            style = MaterialTheme.typography.bodyMedium,
+                        )
                         TextButton(
                             onClick = { viewModel.remove(pinnedScope) },
                             modifier = Modifier.testTag(offlineRemoveButtonTag(index)),
-                        ) { Text("Remove") }
+                        ) { Text(stringResource(R.string.qbank_remove)) }
                     }
                 }
             }
         }
 
         TextButton(onClick = onBack, modifier = Modifier.testTag(QBANK_OFFLINE_BACK_BUTTON_TAG)) {
-            Text("Back")
+            Text(stringResource(R.string.qbank_back))
         }
     }
 }

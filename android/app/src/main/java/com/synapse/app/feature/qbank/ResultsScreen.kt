@@ -18,7 +18,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.synapse.app.R
 import com.synapse.app.core.qbank.QBankQuestionResult
 import com.synapse.app.core.qbank.QBankSessionResult
 import com.synapse.app.core.qbank.Question
@@ -50,29 +52,29 @@ fun ResultsScreen(
     onRetrySave: () -> Unit = {},
 ) {
     val byId = questions.associateBy { it.id }
-    val bySubject = accuracyBy(result.perQuestion, byId) { it.subjectId }
-    val byTopic = accuracyBy(result.perQuestion, byId) { it.topic }
+    val unknownGroupLabel = stringResource(R.string.qbank_unknown_group)
+    val bySubject = accuracyBy(result.perQuestion, byId, unknownGroupLabel) { it.subjectId }
+    val byTopic = accuracyBy(result.perQuestion, byId, unknownGroupLabel) { it.topic }
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("Results", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.qbank_results_title), style = MaterialTheme.typography.titleLarge)
 
         val percent = if (result.total == 0) 0 else (result.correct * 100) / result.total
         Text(
-            text = "${result.correct} / ${result.total} correct ($percent%)",
+            text = stringResource(R.string.qbank_results_score_format, result.correct, result.total, percent),
             style = MaterialTheme.typography.titleMedium,
             modifier = Modifier.padding(top = 8.dp).testTag(QBANK_RESULTS_SCORE_TAG),
         )
 
         when (saveState) {
             SessionSaveState.Saving -> Text(
-                text = "Saving your answers…",
+                text = stringResource(R.string.qbank_results_saving),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 4.dp).testTag(QBANK_RESULTS_SAVE_STATUS_TAG),
             )
 
             SessionSaveState.Saved -> Text(
-                text = "Attempts were saved and will sync automatically — visit the Dashboard's " +
-                    "\"Sync now\" if you want to push them right away.",
+                text = stringResource(R.string.qbank_results_saved_message),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 4.dp).testTag(QBANK_RESULTS_SAVE_STATUS_TAG),
             )
@@ -83,8 +85,7 @@ fun ResultsScreen(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Text(
-                    text = "Couldn't save this sitting on your device — your results are shown " +
-                        "below but haven't been recorded yet.",
+                    text = stringResource(R.string.qbank_results_failed_message),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.error,
                     modifier = Modifier.weight(1f).testTag(QBANK_RESULTS_SAVE_STATUS_TAG),
@@ -93,19 +94,19 @@ fun ResultsScreen(
                     onClick = onRetrySave,
                     modifier = Modifier.testTag(QBANK_RESULTS_RETRY_BUTTON_TAG),
                 ) {
-                    Text("Retry save")
+                    Text(stringResource(R.string.qbank_results_retry_save))
                 }
             }
         }
 
         LazyColumn(modifier = Modifier.weight(1f).padding(top = 16.dp)) {
-            item { SectionHeader("By subject") }
+            item { SectionHeader(stringResource(R.string.qbank_results_by_subject)) }
             items(bySubject) { row -> AccuracyLine(row) }
 
-            item { SectionHeader("By topic", topPadding = 16) }
+            item { SectionHeader(stringResource(R.string.qbank_results_by_topic), topPadding = 16) }
             items(byTopic) { row -> AccuracyLine(row) }
 
-            item { SectionHeader("Review", topPadding = 16) }
+            item { SectionHeader(stringResource(R.string.qbank_results_review), topPadding = 16) }
             items(result.perQuestion) { pq -> ReviewRow(pq, byId[pq.questionId]) }
         }
 
@@ -113,7 +114,7 @@ fun ResultsScreen(
             onClick = onDone,
             modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(QBANK_RESULTS_DONE_BUTTON_TAG),
         ) {
-            Text("Done")
+            Text(stringResource(R.string.qbank_done))
         }
     }
 }
@@ -121,9 +122,10 @@ fun ResultsScreen(
 private fun accuracyBy(
     perQuestion: List<QBankQuestionResult>,
     byId: Map<String, Question>,
+    unknownLabel: String,
     key: (Question) -> String,
 ): List<AccuracyRow> {
-    val grouped = perQuestion.groupBy { byId[it.questionId]?.let(key) ?: "Unknown" }
+    val grouped = perQuestion.groupBy { byId[it.questionId]?.let(key) ?: unknownLabel }
     return grouped.map { (label, results) -> AccuracyRow(label, results.count { it.correct }, results.size) }
 }
 
@@ -140,7 +142,10 @@ private fun SectionHeader(title: String, topPadding: Int = 0) {
 private fun AccuracyLine(row: AccuracyRow) {
     Row(modifier = Modifier.fillMaxWidth().padding(vertical = 2.dp), horizontalArrangement = Arrangement.SpaceBetween) {
         Text(row.label, style = MaterialTheme.typography.bodyMedium)
-        Text("${row.correct}/${row.total} (${row.percent}%)", style = MaterialTheme.typography.bodyMedium)
+        Text(
+            stringResource(R.string.qbank_results_accuracy_line_format, row.correct, row.total, row.percent),
+            style = MaterialTheme.typography.bodyMedium,
+        )
     }
 }
 
@@ -149,11 +154,16 @@ private fun ReviewRow(result: QBankQuestionResult, question: Question?) {
     Card(modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
         Column(modifier = Modifier.padding(12.dp)) {
             Text(question?.stem ?: result.questionId, style = MaterialTheme.typography.bodyLarge)
+            val nothingPicked = stringResource(R.string.qbank_results_nothing_picked)
             Text(
                 text = if (result.correct) {
-                    "Correct — you picked ${result.pickedLabel ?: "nothing"}"
+                    stringResource(R.string.qbank_results_correct_picked_format, result.pickedLabel ?: nothingPicked)
                 } else {
-                    "Missed — you picked ${result.pickedLabel ?: "nothing"}, correct was ${question?.correctLabel ?: "?"}"
+                    stringResource(
+                        R.string.qbank_results_missed_picked_format,
+                        result.pickedLabel ?: nothingPicked,
+                        question?.correctLabel ?: "?",
+                    )
                 },
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 4.dp),

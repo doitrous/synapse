@@ -5,10 +5,12 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -39,6 +41,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -46,6 +49,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
 import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.qbank.AnswerOption
 import com.synapse.app.core.qbank.QBankSession
 import kotlinx.coroutines.delay
@@ -155,24 +159,24 @@ private fun SessionRunnerContent(
             Row {
                 if (uiState.isPaused) {
                     TextButton(onClick = onResumeTimer, modifier = Modifier.testTag(QBANK_RESUME_BUTTON_TAG)) {
-                        Text("Resume")
+                        Text(stringResource(R.string.qbank_resume))
                     }
                 }
                 IconButton(onClick = onToggleFlag, modifier = Modifier.testTag(QBANK_FLAG_BUTTON_TAG)) {
                     Icon(
                         Icons.Filled.Star,
-                        contentDescription = "Flag for review",
+                        contentDescription = stringResource(R.string.qbank_flag_for_review_description),
                         tint = if (uiState.isFlagged) Color(0xFFFFC107) else MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
                 TextButton(onClick = { showEndDialog = true }, modifier = Modifier.testTag(QBANK_END_BUTTON_TAG)) {
-                    Text("End")
+                    Text(stringResource(R.string.qbank_end))
                 }
             }
         }
 
         Text(
-            text = "Question ${uiState.index + 1} of ${uiState.total}",
+            text = stringResource(R.string.qbank_question_progress_format, uiState.index + 1, uiState.total),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp),
         )
@@ -207,7 +211,7 @@ private fun SessionRunnerContent(
             OutlinedTextField(
                 value = uiState.currentNote,
                 onValueChange = onNoteChange,
-                label = { Text("Private note") },
+                label = { Text(stringResource(R.string.qbank_private_note_label)) },
                 modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(QBANK_NOTE_FIELD_TAG),
             )
             QuestionNavigator(
@@ -225,7 +229,7 @@ private fun SessionRunnerContent(
                 enabled = uiState.pickedLabel != null,
                 modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(QBANK_CHECK_BUTTON_TAG),
             ) {
-                Text("Check")
+                Text(stringResource(R.string.qbank_check))
             }
         }
 
@@ -239,14 +243,16 @@ private fun SessionRunnerContent(
                 modifier = Modifier.testTag(QBANK_PREV_BUTTON_TAG),
             ) {
                 Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null)
-                Text(" Previous")
+                Spacer(Modifier.width(4.dp))
+                Text(stringResource(R.string.qbank_previous))
             }
             OutlinedButton(
                 onClick = onNext,
                 enabled = !uiState.isLast,
                 modifier = Modifier.testTag(QBANK_NEXT_BUTTON_TAG),
             ) {
-                Text("Next ")
+                Text(stringResource(R.string.qbank_next))
+                Spacer(Modifier.width(4.dp))
                 Icon(Icons.AutoMirrored.Filled.ArrowForward, contentDescription = null)
             }
         }
@@ -255,19 +261,19 @@ private fun SessionRunnerContent(
     if (showEndDialog) {
         AlertDialog(
             onDismissRequest = { showEndDialog = false },
-            title = { Text("End this sitting?") },
-            text = { Text("Leave without saving progress, or submit and see your results.") },
+            title = { Text(stringResource(R.string.qbank_end_dialog_title)) },
+            text = { Text(stringResource(R.string.qbank_end_dialog_body)) },
             confirmButton = {
                 TextButton(
                     onClick = { showEndDialog = false; onSubmit() },
                     modifier = Modifier.testTag(QBANK_END_DIALOG_SUBMIT_TAG),
-                ) { Text("Submit") }
+                ) { Text(stringResource(R.string.qbank_submit)) }
             },
             dismissButton = {
                 TextButton(
                     onClick = { showEndDialog = false; onLeave() },
                     modifier = Modifier.testTag(QBANK_END_DIALOG_LEAVE_TAG),
-                ) { Text("Leave") }
+                ) { Text(stringResource(R.string.qbank_leave)) }
             },
         )
     }
@@ -316,7 +322,10 @@ private fun OptionRow(
                 enabled = !isChecked,
                 modifier = Modifier.size(32.dp).testTag(optionCrossOutTag(option.label)),
             ) {
-                Icon(Icons.Filled.Close, contentDescription = "Cross out ${option.label}")
+                Icon(
+                    Icons.Filled.Close,
+                    contentDescription = stringResource(R.string.qbank_cross_out_option_format, option.label),
+                )
             }
         }
         if (isChecked) {
