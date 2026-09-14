@@ -10,4 +10,6 @@ package com.synapse.app.core.sync
 val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.flashcards.decks.v1",
     "synapse.flashcards.dailyCounts.v1",
+    "synapse.library.read",
+    "synapse.library.personalTags",
 )
