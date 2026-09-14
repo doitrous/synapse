@@ -34,9 +34,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.notebook.Note
 import com.synapse.app.core.notebook.NoteBlock
 import com.synapse.app.core.notebook.NoteBlockType
@@ -90,7 +92,7 @@ private fun NotebookScreen(
             modifier = Modifier.fillMaxSize().testTag(NOTEBOOK_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.notebook_loading)) }
         return
     }
 
@@ -123,30 +125,30 @@ private fun NotesListPane(notes: List<Note>, onSelectNote: (String) -> Unit, onN
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
-            Text("Notebook", style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+            Text(stringResource(R.string.notebook_title), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
             Button(onClick = onNewNote, modifier = Modifier.testTag(NOTEBOOK_NEW_NOTE_BUTTON_TAG)) {
                 Icon(Icons.Filled.Add, contentDescription = null, modifier = Modifier.size(18.dp))
-                Text(" New note")
+                Text(" " + stringResource(R.string.notebook_new_note))
             }
         }
 
         OutlinedTextField(
             value = query,
             onValueChange = { query = it },
-            label = { Text("Search notes…") },
+            label = { Text(stringResource(R.string.notebook_search_notes)) },
             singleLine = true,
             modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(NOTEBOOK_SEARCH_FIELD_TAG),
         )
 
         if (notes.isEmpty()) {
             Text(
-                "No notes yet. Start one with New note.",
+                stringResource(R.string.notebook_empty_no_notes),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 24.dp),
             )
         } else if (filtered.isEmpty()) {
             Text(
-                "No note matches that search.",
+                stringResource(R.string.notebook_empty_no_matches),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 24.dp),
             )
@@ -166,12 +168,12 @@ private fun NoteRow(note: Note, onClick: () -> Unit) {
     Surface(onClick = onClick, modifier = Modifier.fillMaxWidth().testTag(notebookRowTag(note.id))) {
         Column(modifier = Modifier.fillMaxWidth().padding(vertical = 10.dp)) {
             Text(
-                note.title.ifBlank { "Untitled note" },
+                note.title.ifBlank { stringResource(R.string.notebook_untitled_note) },
                 style = MaterialTheme.typography.bodyLarge,
             )
             val snippet = notePlainText(note.plainText, note.editorJson).lineSequence().firstOrNull { it.isNotBlank() }
             Text(
-                snippet ?: "No content yet",
+                snippet ?: stringResource(R.string.notebook_no_content_yet),
                 style = MaterialTheme.typography.bodySmall,
                 maxLines = 1,
                 modifier = Modifier.padding(top = 2.dp),
@@ -214,18 +216,18 @@ private fun NoteEditorPane(
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             IconButton(onClick = onBack, modifier = Modifier.testTag(NOTEBOOK_BACK_BUTTON_TAG)) {
-                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
+                Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.notebook_back))
             }
-            Text("Editing", style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
+            Text(stringResource(R.string.notebook_editing_title), style = MaterialTheme.typography.titleLarge, modifier = Modifier.weight(1f))
             IconButton(onClick = onDelete, modifier = Modifier.testTag(NOTEBOOK_DELETE_BUTTON_TAG)) {
-                Icon(Icons.Filled.Delete, contentDescription = "Delete note")
+                Icon(Icons.Filled.Delete, contentDescription = stringResource(R.string.notebook_delete_note))
             }
         }
 
         OutlinedTextField(
             value = note.title,
             onValueChange = onTitleChange,
-            label = { Text("Note title") },
+            label = { Text(stringResource(R.string.notebook_note_title_label)) },
             singleLine = true,
             modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(NOTEBOOK_TITLE_FIELD_TAG),
         )
@@ -238,7 +240,7 @@ private fun NoteEditorPane(
             onRemoveTag = onRemoveTag,
         )
 
-        Text("Body", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
+        Text(stringResource(R.string.notebook_body_label), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 20.dp))
         BlockEditor(blocks = blocks, onBlocksChange = onBlocksChange)
 
         NoteContext(note)
@@ -254,13 +256,14 @@ private fun TagEditor(
     onRemoveTag: (String) -> Unit,
 ) {
     Column(modifier = Modifier.padding(top = 16.dp)) {
-        Text("Tags", style = MaterialTheme.typography.titleMedium)
+        Text(stringResource(R.string.notebook_tags_label), style = MaterialTheme.typography.titleMedium)
+        val removeTagLabel = stringResource(R.string.notebook_remove_tag)
         Row(modifier = Modifier.fillMaxWidth().padding(top = 6.dp), horizontalArrangement = Arrangement.spacedBy(6.dp)) {
             tags.forEach { tag ->
                 AssistChip(
                     onClick = { onRemoveTag(tag) },
                     label = { Text(tag) },
-                    trailingIcon = { Icon(Icons.Filled.Close, contentDescription = "Remove tag", modifier = Modifier.size(16.dp)) },
+                    trailingIcon = { Icon(Icons.Filled.Close, contentDescription = removeTagLabel, modifier = Modifier.size(16.dp)) },
                 )
             }
         }
@@ -268,23 +271,24 @@ private fun TagEditor(
             OutlinedTextField(
                 value = newTag,
                 onValueChange = onNewTagChange,
-                label = { Text("Add a tag") },
+                label = { Text(stringResource(R.string.notebook_add_a_tag_label)) },
                 singleLine = true,
                 modifier = Modifier.weight(1f).testTag(NOTEBOOK_ADD_TAG_FIELD_TAG),
             )
             TextButton(onClick = onAddTag, enabled = newTag.isNotBlank(), modifier = Modifier.testTag(NOTEBOOK_ADD_TAG_BUTTON_TAG)) {
-                Text("Add")
+                Text(stringResource(R.string.notebook_add))
             }
         }
     }
 }
 
-private val blockTypeLabels: List<Pair<String, NoteBlockType>> = listOf(
-    "¶" to NoteBlockType.Paragraph,
-    "H1" to NoteBlockType.Heading(1),
-    "H2" to NoteBlockType.Heading(2),
-    "•" to NoteBlockType.BulletItem,
-    "1." to NoteBlockType.NumberItem,
+@Composable
+private fun blockTypeLabels(): List<Pair<String, NoteBlockType>> = listOf(
+    stringResource(R.string.notebook_block_paragraph_symbol) to NoteBlockType.Paragraph,
+    stringResource(R.string.notebook_block_heading_1) to NoteBlockType.Heading(1),
+    stringResource(R.string.notebook_block_heading_2) to NoteBlockType.Heading(2),
+    stringResource(R.string.notebook_block_bullet_symbol) to NoteBlockType.BulletItem,
+    stringResource(R.string.notebook_block_number_symbol) to NoteBlockType.NumberItem,
 )
 
 /**
@@ -296,11 +300,13 @@ private val blockTypeLabels: List<Pair<String, NoteBlockType>> = listOf(
  */
 @Composable
 private fun BlockEditor(blocks: List<NoteBlock>, onBlocksChange: (List<NoteBlock>) -> Unit) {
+    val typeLabels = blockTypeLabels()
+    val removeBlockLabel = stringResource(R.string.notebook_remove_block)
     Column(modifier = Modifier.fillMaxWidth().padding(top = 8.dp)) {
         blocks.forEachIndexed { index, block ->
             Row(verticalAlignment = Alignment.Top, modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp)) {
                 Row(horizontalArrangement = Arrangement.spacedBy(2.dp)) {
-                    blockTypeLabels.forEach { (label, type) ->
+                    typeLabels.forEach { (label, type) ->
                         FilterChip(
                             selected = block.type == type,
                             onClick = { onBlocksChange(blocks.toMutableList().also { it[index] = block.copy(type = type) }) },
@@ -315,7 +321,7 @@ private fun BlockEditor(blocks: List<NoteBlock>, onBlocksChange: (List<NoteBlock
                 )
                 IconButton(
                     onClick = { onBlocksChange(blocks.filterIndexed { i, _ -> i != index }.ifEmpty { listOf(NoteBlock(block.id, NoteBlockType.Paragraph, "")) }) },
-                ) { Icon(Icons.Filled.Close, contentDescription = "Remove block") }
+                ) { Icon(Icons.Filled.Close, contentDescription = removeBlockLabel) }
             }
         }
 
@@ -324,7 +330,7 @@ private fun BlockEditor(blocks: List<NoteBlock>, onBlocksChange: (List<NoteBlock
             modifier = Modifier.testTag(NOTEBOOK_ADD_BLOCK_BUTTON_TAG),
         ) {
             Icon(Icons.Filled.Add, contentDescription = null, modifier = Modifier.size(18.dp))
-            Text(" Add block")
+            Text(" " + stringResource(R.string.notebook_add_block))
         }
     }
 }
@@ -336,12 +342,13 @@ private fun NoteContext(note: Note) {
     if (subtopicTitle.isNullOrBlank() && refs.isEmpty()) return
 
     Column(modifier = Modifier.fillMaxWidth().padding(top = 20.dp)) {
-        Text("About", style = MaterialTheme.typography.labelLarge)
+        Text(stringResource(R.string.notebook_about_label), style = MaterialTheme.typography.labelLarge)
         if (!subtopicTitle.isNullOrBlank()) {
             Text(subtopicTitle, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp))
         }
         refs.forEach { ref ->
-            val label = ref.page?.let { "${ref.label} · p.$it" } ?: ref.label
+            val page = ref.page
+            val label = if (page != null) stringResource(R.string.notebook_doc_ref_page_format, ref.label, page) else ref.label
             Text(label, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 4.dp))
         }
     }
