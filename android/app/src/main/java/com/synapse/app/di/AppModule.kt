@@ -6,7 +6,9 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
+import com.synapse.app.core.api.LeaderboardApi
 import com.synapse.app.core.api.QBankApi
+import com.synapse.app.core.api.RetrofitLeaderboardApi
 import com.synapse.app.core.api.RetrofitQBankApi
 import com.synapse.app.core.api.RetrofitSynapseApi
 import com.synapse.app.core.api.SynapseApi
@@ -104,6 +106,11 @@ object AppModule {
     @Singleton
     fun provideQBankApi(config: AppConfig, authBackend: AuthBackend): QBankApi =
         RetrofitQBankApi(config, authBackend::accessToken)
+
+    @Provides
+    @Singleton
+    fun provideLeaderboardApi(config: AppConfig, authBackend: AuthBackend): LeaderboardApi =
+        RetrofitLeaderboardApi(config, authBackend::accessToken)
 
     @Provides
     @Singleton

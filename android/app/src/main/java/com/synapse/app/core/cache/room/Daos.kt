@@ -41,6 +41,9 @@ interface AttemptDao {
     @Query("SELECT * FROM attempt WHERE month=:month")
     suspend fun byMonth(month: String): List<AttemptEntity>
 
+    @Query("SELECT * FROM attempt")
+    suspend fun all(): List<AttemptEntity>
+
     @Query("DELETE FROM attempt")
     suspend fun clear(): Int
 }

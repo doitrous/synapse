@@ -104,4 +104,14 @@ class RoomLocalStoreTest {
         assertEquals(1, results.size)
         assertEquals(updated.payload, results.first().payload)
     }
+
+    @Test fun allAttemptsSpansEveryMonth() = runTest {
+        store.putAttempts(
+            listOf(
+                AttemptRecord(id = "att-1", month = "2026-07", payload = JsonObject(mapOf("score" to JsonPrimitive(1)))),
+                AttemptRecord(id = "att-2", month = "2026-08", payload = JsonObject(mapOf("score" to JsonPrimitive(2)))),
+            )
+        )
+        assertEquals(setOf("att-1", "att-2"), store.allAttempts().map { it.id }.toSet())
+    }
 }
