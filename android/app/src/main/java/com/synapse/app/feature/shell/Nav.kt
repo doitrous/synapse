@@ -10,6 +10,7 @@ import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Create
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material.icons.filled.Face
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LocationOn
@@ -115,6 +116,7 @@ val MORE_GROUPS: List<MoreGroup> = listOf(
             StudentDestination(FLASHCARDS_ROUTE, "Flashcards", Icons.Filled.Refresh),
             StudentDestination("minigames", "Minigames", Icons.Filled.PlayArrow),
             StudentDestination("study-together", "Study Together", Icons.Filled.Person),
+            StudentDestination("parties", "Parties", Icons.Filled.Face),
             StudentDestination("shares", "My Documents", Icons.Filled.Share),
         ),
     ),
