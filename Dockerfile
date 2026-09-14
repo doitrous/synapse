@@ -42,7 +42,10 @@ ENV PORT=8080
 # Production mode: Secure session cookies, no dev key fallback, express caching.
 ENV NODE_ENV=production
 EXPOSE 8080
-# Building the admin-content snapshot parses the ~250 MB authoring ledger into a
-# ~1–2 GB structure; give V8 headroom so a single cold build cannot hit the
-# default old-space cap. Host has 15 GB and no container memory limit.
-CMD ["node", "--max-old-space-size=4096", "src/index.js"]
+# Building the admin-content snapshot parses the ~250 MB authoring ledger and
+# holds the full items (~2.5–3 GB resident) plus the projected index together,
+# so the transient build peak runs past 4 GB. Give V8 8 GB of old-space so a cold
+# build cannot hit the cap; the warm snapshot then settles to ~3 GB resident.
+# Host has 15 GB and no container memory limit. (Proper fix is to get admin
+# content off the monolithic app_state blob — tracked separately.)
+CMD ["node", "--max-old-space-size=8192", "src/index.js"]
