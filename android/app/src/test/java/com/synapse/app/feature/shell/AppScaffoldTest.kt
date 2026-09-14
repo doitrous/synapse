@@ -46,6 +46,7 @@ class AppScaffoldTest {
                     taxonomyContent = { Text("TaxonomyStandIn") },
                     essaysContent = { Text("EssaysStandIn") },
                     practicalContent = { Text("PracticalStandIn") },
+                    performanceContent = { Text("PerformanceStandIn") },
                 )
             }
         }
@@ -118,6 +119,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Calendar")
         composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingPerformanceInTheMoreHubRendersPerformanceContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("performance")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Performance")
+        composeTestRule.onNodeWithText("PerformanceStandIn").assertIsDisplayed()
     }
 
     @Test
