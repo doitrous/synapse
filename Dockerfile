@@ -42,4 +42,7 @@ ENV PORT=8080
 # Production mode: Secure session cookies, no dev key fallback, express caching.
 ENV NODE_ENV=production
 EXPOSE 8080
-CMD ["node", "src/index.js"]
+# Building the admin-content snapshot parses the ~250 MB authoring ledger into a
+# ~1–2 GB structure; give V8 headroom so a single cold build cannot hit the
+# default old-space cap. Host has 15 GB and no container memory limit.
+CMD ["node", "--max-old-space-size=4096", "src/index.js"]

@@ -54,23 +54,40 @@ function build(signature, ledger) {
   return { signature, items, indexItems, byId, byKind, summary: countsFor(items) }
 }
 
+// One in-flight cold build, so concurrent misses share a single parse instead
+// of each holding its own ~250 MB copy of the ledger (that concurrency OOM-killed
+// the process). Keyed by the signature it is building for, so a publish landing
+// mid-build starts a fresh build rather than reusing a stale one.
+let building = null
+
 export async function loadAdminContent() {
-  // Version-checked on every use, not merely invalidated in memory: another
-  // process may have warmed its cache before this one's write. Same reasoning as
-  // studentContent.js/publishedQuestions.js.
-  const [rows] = await pool.query(
-    `SELECT s.v, (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
-       FROM app_state s WHERE s.k = ?`,
+  // Cheap version probe FIRST: a warm snapshot must never pull the ~250 MB ledger
+  // body just to learn we already have it. Version-checked on every use, not
+  // merely invalidated in memory, because another process may have warmed its
+  // cache before this one's write (same reasoning as studentContent.js).
+  const [vrows] = await pool.query(
+    `SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?`,
     [LEDGER_KEY],
   )
-  const signature = String(rows[0]?.version ?? 0)
+  const signature = String(vrows[0]?.version ?? 0)
   if (snapshot && snapshot.signature === signature) return snapshot
+  if (building && building.signature === signature) return building.promise
+  const promise = (async () => {
+    // The blob is fetched only on a miss — the whole point of the probe above.
+    const [rows] = await pool.query(`SELECT v FROM app_state WHERE k = ?`, [LEDGER_KEY])
+    try {
+      snapshot = build(signature, JSON.parse(rows[0]?.v ?? '[]'))
+    } catch {
+      snapshot = build(signature, [])
+    }
+    return snapshot
+  })()
+  building = { signature, promise }
   try {
-    snapshot = build(signature, JSON.parse(rows[0]?.v ?? '[]'))
-  } catch {
-    snapshot = build(signature, [])
+    return await promise
+  } finally {
+    if (building && building.signature === signature) building = null
   }
-  return snapshot
 }
 
 // Bump when a slice's PROJECTION shape changes without the ledger version
