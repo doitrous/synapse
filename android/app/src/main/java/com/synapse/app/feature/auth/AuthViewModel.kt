@@ -42,6 +42,24 @@ class AuthViewModel @Inject constructor(
     private val _uiState = MutableStateFlow(AuthUiState())
     val uiState: StateFlow<AuthUiState> = _uiState.asStateFlow()
 
+    init {
+        // Cold-start session restore. [AuthModel] starts in [AuthState.Loading] and
+        // nothing else moves it off at launch, so without this the app hangs forever on
+        // [RequireAuth]'s spinner. A fresh install (no stored token) resolves to
+        // SignedOut -> the login screen; a stored session is silently refreshed.
+        viewModelScope.launch {
+            try {
+                authModel.restore()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                // Never leave the UI stuck on the spinner: treat an unexpected
+                // cold-start failure as signed-out so the login screen appears.
+                authModel.signOut()
+            }
+        }
+    }
+
     fun onEmailChange(email: String) {
         _uiState.update { it.copy(email = email, error = null) }
     }
