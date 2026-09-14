@@ -27,6 +27,7 @@ struct StateOwnershipTests {
         "nishany.account.prefs.v1",
         "nishany.whiteboard.board",
         "nishany.highlights.doc42",
+        "nishany.terminology.progress.v1",
         "nishany-lang",
         "nishany-applied-voucher-v1",
         "nishany-notification-read-v1-student",

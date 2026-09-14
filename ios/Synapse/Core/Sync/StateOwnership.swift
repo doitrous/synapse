@@ -32,6 +32,7 @@ enum StateOwnership {
             "^nishany\\.reader\\.",
             "^nishany\\.bookmarks\\.",
             "^nishany\\.progress\\.",
+            "^nishany\\.terminology\\.",
             "^nishany\\.myDocuments\\.",
             "^nishany\\.termgrid\\.",
         ]

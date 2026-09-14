@@ -33,8 +33,8 @@ struct MoreView: View {
                     link("Practical", "list.bullet.clipboard") {
                         PracticalView(store: store, sync: sync, audience: audience, api: api)
                     }
-                    link("Medical taxonomy", "character.book.closed") {
-                        GlossaryView(store: store, sync: sync)
+                    link("Medical Terminology", "character.book.closed") {
+                        TerminologyView(store: store, sync: sync, api: api)
                     }
                 }
                 .listRowBackground(Theme.surface)
