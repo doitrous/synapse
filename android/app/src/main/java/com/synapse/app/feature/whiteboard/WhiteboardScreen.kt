@@ -43,12 +43,14 @@ import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.whiteboard.Board
 import com.synapse.app.core.whiteboard.BoardFile
 import com.synapse.app.core.whiteboard.BoardImage
@@ -149,10 +151,10 @@ private fun BoardTopBar(state: WhiteboardUiState.Content, viewModel: WhiteboardV
                         onClick = { menuOpen = false; viewModel.switchBoard(board.id) },
                     )
                 }
-                DropdownMenuItem(text = { Text("New board") }, onClick = { menuOpen = false; showNewBoardDialog = true })
-                DropdownMenuItem(text = { Text("Rename") }, onClick = { menuOpen = false; showRenameDialog = true })
+                DropdownMenuItem(text = { Text(stringResource(R.string.whiteboard_new_board)) }, onClick = { menuOpen = false; showNewBoardDialog = true })
+                DropdownMenuItem(text = { Text(stringResource(R.string.whiteboard_rename)) }, onClick = { menuOpen = false; showRenameDialog = true })
                 DropdownMenuItem(
-                    text = { Text("Delete this board") },
+                    text = { Text(stringResource(R.string.whiteboard_delete_board)) },
                     enabled = state.collection.boards.size > 1,
                     onClick = { menuOpen = false; viewModel.removeBoard(active.id) },
                 )
@@ -162,15 +164,15 @@ private fun BoardTopBar(state: WhiteboardUiState.Content, viewModel: WhiteboardV
             Text(if (active.stars.contains(LOCAL_STUDENT_ID)) "★" else "☆")
         }
         Spacer(Modifier.weight(1f))
-        TextButton(onClick = viewModel::undo, enabled = state.canUndo) { Text("Undo") }
-        TextButton(onClick = viewModel::redo, enabled = state.canRedo) { Text("Redo") }
+        TextButton(onClick = viewModel::undo, enabled = state.canUndo) { Text(stringResource(R.string.whiteboard_undo)) }
+        TextButton(onClick = viewModel::redo, enabled = state.canRedo) { Text(stringResource(R.string.whiteboard_redo)) }
     }
 
     if (showNewBoardDialog) {
-        BoardNameDialog(title = "New board", initial = "", onConfirm = { viewModel.addBoard(it); showNewBoardDialog = false }, onDismiss = { showNewBoardDialog = false })
+        BoardNameDialog(title = stringResource(R.string.whiteboard_new_board), initial = "", onConfirm = { viewModel.addBoard(it); showNewBoardDialog = false }, onDismiss = { showNewBoardDialog = false })
     }
     if (showRenameDialog) {
-        BoardNameDialog(title = "Rename board", initial = active.title, onConfirm = { viewModel.renameBoard(active.id, it); showRenameDialog = false }, onDismiss = { showRenameDialog = false })
+        BoardNameDialog(title = stringResource(R.string.whiteboard_rename_board_title), initial = active.title, onConfirm = { viewModel.renameBoard(active.id, it); showRenameDialog = false }, onDismiss = { showRenameDialog = false })
     }
 }
 
@@ -183,8 +185,8 @@ private fun BoardNameDialog(title: String, initial: String, onConfirm: (String) 
         onDismissRequest = onDismiss,
         title = { Text(title) },
         text = { OutlinedTextField(value = text, onValueChange = { text = it }, singleLine = true) },
-        confirmButton = { TextButton(onClick = { onConfirm(text) }) { Text("Save") } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        confirmButton = { TextButton(onClick = { onConfirm(text) }) { Text(stringResource(R.string.common_save)) } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.whiteboard_cancel)) } },
     )
 }
 
@@ -261,8 +263,9 @@ private fun WhiteboardCanvas(state: WhiteboardUiState.Content, viewModel: Whiteb
         for (frame in board.frames) {
             FrameView(frame, view, isSelected = state.selectedFrameId == frame.id, onTap = { viewModel.selectFrame(frame.id) }, viewModel = viewModel)
         }
+        val imageLabel = stringResource(R.string.whiteboard_image_label)
         for (image in imagesOf(board)) {
-            PlaceholderTile(x = image.x, y = image.y, width = image.width, height = image.height, label = image.alt.ifBlank { "Image" }, view = view, isSelected = state.selectedImageId == image.id, onTap = { viewModel.selectImage(image.id) }, onDragStart = { viewModel.beginImageDrag(image.id) }, onDragMove = { viewModel.dragImageTo(image.id, it) }, onDragEnd = { viewModel.commitDrag() })
+            PlaceholderTile(x = image.x, y = image.y, width = image.width, height = image.height, label = image.alt.ifBlank { imageLabel }, view = view, isSelected = state.selectedImageId == image.id, onTap = { viewModel.selectImage(image.id) }, onDragStart = { viewModel.beginImageDrag(image.id) }, onDragMove = { viewModel.dragImageTo(image.id, it) }, onDragEnd = { viewModel.commitDrag() })
         }
         for (file in filesOf(board)) {
             PlaceholderTile(x = file.x, y = file.y, width = 210.0, height = 78.0, label = file.name, view = view, isSelected = state.selectedFileId == file.id, onTap = { viewModel.selectFile(file.id) }, onDragStart = { viewModel.beginFileDrag(file.id) }, onDragMove = { viewModel.dragFileTo(file.id, it) }, onDragEnd = { viewModel.commitDrag() })
@@ -413,7 +416,7 @@ private fun NoteView(note: Note, view: BoardView, isSelected: Boolean, isLinkSou
             .testTag("whiteboard_note_${note.id}"),
     ) {
         Text(
-            note.text.ifBlank { "Empty note" },
+            note.text.ifBlank { stringResource(R.string.whiteboard_empty_note) },
             style = MaterialTheme.typography.bodySmall,
             maxLines = 4,
             overflow = TextOverflow.Ellipsis,
@@ -429,11 +432,11 @@ private fun NoteEditorDialog(note: Note, onSave: (Note) -> Unit, onDelete: () ->
     Dialog(onDismissRequest = { onSave(note.copy(text = text, tone = tone)); onDismiss() }) {
         Box(Modifier.background(MaterialTheme.colorScheme.surface, RoundedCornerShape(12.dp)).padding(16.dp)) {
             Column {
-                Text("Note", style = MaterialTheme.typography.titleMedium)
+                Text(stringResource(R.string.whiteboard_note_dialog_title), style = MaterialTheme.typography.titleMedium)
                 Spacer(Modifier.padding(4.dp))
                 OutlinedTextField(value = text, onValueChange = { text = it }, modifier = Modifier.fillMaxWidth(), minLines = 3, maxLines = 6)
                 Spacer(Modifier.padding(6.dp))
-                Text("Colour", style = MaterialTheme.typography.labelMedium)
+                Text(stringResource(R.string.whiteboard_colour_label), style = MaterialTheme.typography.labelMedium)
                 Row(Modifier.fillMaxWidth().padding(vertical = 6.dp)) {
                     TONE_ORDER.forEach { candidate ->
                         Box(
@@ -447,8 +450,8 @@ private fun NoteEditorDialog(note: Note, onSave: (Note) -> Unit, onDelete: () ->
                     }
                 }
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = androidx.compose.foundation.layout.Arrangement.SpaceBetween) {
-                    TextButton(onClick = { onDelete(); onDismiss() }) { Text("Delete") }
-                    TextButton(onClick = { onSave(note.copy(text = text, tone = tone)); onDismiss() }) { Text("Done") }
+                    TextButton(onClick = { onDelete(); onDismiss() }) { Text(stringResource(R.string.whiteboard_delete)) }
+                    TextButton(onClick = { onSave(note.copy(text = text, tone = tone)); onDismiss() }) { Text(stringResource(R.string.whiteboard_done)) }
                 }
             }
         }
@@ -499,19 +502,19 @@ private fun FrameEditorDialog(frame: Frame, onSave: (Frame) -> Unit, onDelete: (
     Dialog(onDismissRequest = onDismiss) {
         Box(Modifier.background(MaterialTheme.colorScheme.surface, RoundedCornerShape(12.dp)).padding(16.dp)) {
             Column {
-                Text("Frame", style = MaterialTheme.typography.titleMedium)
-                OutlinedTextField(value = title, onValueChange = { title = it }, label = { Text("Title") }, singleLine = true, modifier = Modifier.fillMaxWidth().padding(top = 8.dp))
+                Text(stringResource(R.string.whiteboard_frame_dialog_title), style = MaterialTheme.typography.titleMedium)
+                OutlinedTextField(value = title, onValueChange = { title = it }, label = { Text(stringResource(R.string.whiteboard_title_label)) }, singleLine = true, modifier = Modifier.fillMaxWidth().padding(top = 8.dp))
                 Row(Modifier.padding(top = 8.dp)) {
-                    OutlinedTextField(value = width, onValueChange = { width = it.filter(Char::isDigit) }, label = { Text("Width") }, singleLine = true, modifier = Modifier.weight(1f))
+                    OutlinedTextField(value = width, onValueChange = { width = it.filter(Char::isDigit) }, label = { Text(stringResource(R.string.whiteboard_width_label)) }, singleLine = true, modifier = Modifier.weight(1f))
                     Spacer(Modifier.width(8.dp))
-                    OutlinedTextField(value = height, onValueChange = { height = it.filter(Char::isDigit) }, label = { Text("Height") }, singleLine = true, modifier = Modifier.weight(1f))
+                    OutlinedTextField(value = height, onValueChange = { height = it.filter(Char::isDigit) }, label = { Text(stringResource(R.string.whiteboard_height_label)) }, singleLine = true, modifier = Modifier.weight(1f))
                 }
                 Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = androidx.compose.foundation.layout.Arrangement.SpaceBetween) {
-                    TextButton(onClick = { onDelete(); onDismiss() }) { Text("Delete") }
+                    TextButton(onClick = { onDelete(); onDismiss() }) { Text(stringResource(R.string.whiteboard_delete)) }
                     TextButton(onClick = {
                         onSave(frame.copy(title = title.ifBlank { frame.title }, width = width.toDoubleOrNull() ?: frame.width, height = height.toDoubleOrNull() ?: frame.height))
                         onDismiss()
-                    }) { Text("Done") }
+                    }) { Text(stringResource(R.string.whiteboard_done)) }
                 }
             }
         }
@@ -587,12 +590,12 @@ private fun Minimap(state: WhiteboardUiState.Content, viewModel: WhiteboardViewM
 private fun BoardToolbar(state: WhiteboardUiState.Content, viewModel: WhiteboardViewModel) {
     Column(Modifier.fillMaxWidth().padding(8.dp)) {
         Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-            ToolButton("Select", state.tool == Tool.Select) { viewModel.setTool(Tool.Select) }
-            ToolButton("Pen", state.tool == Tool.Pen) { viewModel.setTool(Tool.Pen) }
-            ToolButton("Eraser", state.tool == Tool.Eraser) { viewModel.setTool(Tool.Eraser) }
+            ToolButton(stringResource(R.string.whiteboard_tool_select), state.tool == Tool.Select) { viewModel.setTool(Tool.Select) }
+            ToolButton(stringResource(R.string.whiteboard_tool_pen), state.tool == Tool.Pen) { viewModel.setTool(Tool.Pen) }
+            ToolButton(stringResource(R.string.whiteboard_tool_eraser), state.tool == Tool.Eraser) { viewModel.setTool(Tool.Eraser) }
             Spacer(Modifier.weight(1f))
-            TextButton(onClick = { viewModel.addNoteAtCenter() }) { Text("+ Note") }
-            TextButton(onClick = { viewModel.addFrame() }) { Text("+ Frame") }
+            TextButton(onClick = { viewModel.addNoteAtCenter() }) { Text(stringResource(R.string.whiteboard_add_note_button)) }
+            TextButton(onClick = { viewModel.addFrame() }) { Text(stringResource(R.string.whiteboard_add_frame_button)) }
         }
         if (state.tool == Tool.Pen) {
             Row(Modifier.fillMaxWidth().padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -621,25 +624,25 @@ private fun BoardToolbar(state: WhiteboardUiState.Content, viewModel: Whiteboard
                 when {
                     selectedNote != null -> {
                         TextButton(onClick = { viewModel.startLinking(selectedNote) }) {
-                            Text(if (state.linkingFromNoteId == null) "Connect" else "Pick a note")
+                            Text(stringResource(if (state.linkingFromNoteId == null) R.string.whiteboard_connect else R.string.whiteboard_pick_a_note))
                         }
-                        TextButton(onClick = { viewModel.tapNote(selectedNote) }) { Text("Edit") }
-                        TextButton(onClick = { viewModel.deleteNote(selectedNote) }) { Text("Delete") }
+                        TextButton(onClick = { viewModel.tapNote(selectedNote) }) { Text(stringResource(R.string.whiteboard_edit)) }
+                        TextButton(onClick = { viewModel.deleteNote(selectedNote) }) { Text(stringResource(R.string.whiteboard_delete)) }
                     }
                     selectedFrame != null -> {
-                        TextButton(onClick = { viewModel.editFrame(selectedFrame) }) { Text("Edit") }
-                        TextButton(onClick = { viewModel.deleteFrame(selectedFrame) }) { Text("Delete") }
+                        TextButton(onClick = { viewModel.editFrame(selectedFrame) }) { Text(stringResource(R.string.whiteboard_edit)) }
+                        TextButton(onClick = { viewModel.deleteFrame(selectedFrame) }) { Text(stringResource(R.string.whiteboard_delete)) }
                     }
                     selectedLink != null -> {
-                        TextButton(onClick = { viewModel.straightenSelectedLink() }) { Text("Straighten") }
-                        TextButton(onClick = { viewModel.removeSelectedLink() }) { Text("Delete") }
+                        TextButton(onClick = { viewModel.straightenSelectedLink() }) { Text(stringResource(R.string.whiteboard_straighten_link)) }
+                        TextButton(onClick = { viewModel.removeSelectedLink() }) { Text(stringResource(R.string.whiteboard_delete)) }
                     }
                     selectedItem != null -> {
-                        TextButton(onClick = { viewModel.removeSelectedItem() }) { Text("Delete") }
+                        TextButton(onClick = { viewModel.removeSelectedItem() }) { Text(stringResource(R.string.whiteboard_delete)) }
                     }
                 }
                 Spacer(Modifier.weight(1f))
-                Text("${(state.view.scale * 100).roundToInt()}%", style = MaterialTheme.typography.labelSmall)
+                Text(stringResource(R.string.whiteboard_zoom_percent_format, (state.view.scale * 100).roundToInt()), style = MaterialTheme.typography.labelSmall)
             }
         }
     }
