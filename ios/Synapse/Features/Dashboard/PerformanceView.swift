@@ -275,7 +275,7 @@ struct PerformanceView: View {
 
             ForEach(model.summary.bySubject.prefix(10)) { row in
                 Bar(
-                    label: row.topic.isEmpty ? row.subjectId : row.topic,
+                    label: row.topic.isEmpty ? SubjectCatalog.name(row.subjectId) : row.topic,
                     accuracy: row.accuracy,
                     marked: row.marked
                 )
