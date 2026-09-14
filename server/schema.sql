@@ -771,6 +771,34 @@ CREATE TABLE IF NOT EXISTS qbank_attempts (
   INDEX idx_qbank_concept_scope (university_id, year, term, verified_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+/* ── Answer-change events ──────────────────────────────────────────────────
+   Append-only log of every graded qbank answer, the accurate source for
+   correct↔wrong transition tracking. Unlike qbank_attempts (deduped final
+   answer per sitting, no monotonic column), `seq` gives a reliable
+   server-assigned order within each (user, question) run, so transitions never
+   depend on client clocks. One row per distinct attempt (attempt_id =
+   "<session>:qbank:<question>"): a retake appends a new event, a retried POST
+   is idempotent. See migration 0013. */
+CREATE TABLE IF NOT EXISTS qbank_answer_events (
+  seq            BIGINT AUTO_INCREMENT PRIMARY KEY,
+  attempt_id     VARCHAR(64) NOT NULL,
+  user_id        VARCHAR(64) NOT NULL,
+  student_id     VARCHAR(64) NOT NULL,
+  session_id     VARCHAR(96) NOT NULL,
+  question_id    VARCHAR(96) NOT NULL,
+  university_id  VARCHAR(64) NOT NULL,
+  year           VARCHAR(32) NOT NULL,
+  term           VARCHAR(64) NOT NULL DEFAULT 'current',
+  answer_index   INT NOT NULL,
+  correct_index  INT NOT NULL,
+  correct        TINYINT(1) NOT NULL,
+  answered_at    DATETIME NOT NULL,
+  recorded_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_answer_event (attempt_id),
+  INDEX idx_answer_events_transition (user_id, question_id, seq),
+  INDEX idx_answer_events_scope (university_id, year, term, seq)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 /* ── Question of the Day ──────────────────────────────────────────────────
    A separate progress track: one shared question per (university, year)
    cohort per Cairo-local day, answered inline. Never joined with or written

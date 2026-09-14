@@ -50,6 +50,7 @@ export const OWNED_BY_USER_ID = [
   'study_party_game_answers',
   'enrollment_change_requests',
   'qbank_attempts',
+  'qbank_answer_events',
   'qotd_answers',
   'maristana_study_minutes',
   'maristana_hospitals',

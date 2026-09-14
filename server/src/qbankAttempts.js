@@ -179,6 +179,25 @@ export async function recordVerifiedAttempts(userId, input) {
           verified_at = CURRENT_TIMESTAMP`,
         params,
       )
+      // Append-only mirror for accurate transition tracking: one row per
+      // distinct attempt, ordered by its own AUTO_INCREMENT seq rather than a
+      // client clock. A retake (new session id → new attempt_id) appends; a
+      // retried POST hits the unique key and just refreshes the grade in place.
+      const eventPlaceholders = rows.map(() => '(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)').join(', ')
+      const eventParams = rows.flatMap((row) => [
+        row.id, userId, profile.id, row.sessionId, row.questionId, profile.universityId, profile.year, row.term,
+        row.answerIndex, row.correctIndex, row.correct ? 1 : 0, row.answeredAt,
+      ])
+      await conn.query(
+        `INSERT INTO qbank_answer_events
+         (attempt_id, user_id, student_id, session_id, question_id, university_id, year, term,
+          answer_index, correct_index, correct, answered_at)
+         VALUES ${eventPlaceholders}
+         ON DUPLICATE KEY UPDATE
+          answer_index = VALUES(answer_index), correct_index = VALUES(correct_index),
+          correct = VALUES(correct), answered_at = VALUES(answered_at)`,
+        eventParams,
+      )
       // The single funnel every attempt routes through, so this is where
       // "last seen" is honestly stamped. Nothing else updates last_active from
       // real student activity, so the admin Retention panel depends on it.

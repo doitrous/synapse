@@ -113,6 +113,10 @@ test('recordVerifiedAttempts writes a whole batch in one query, not one per atte
   const inserts = connSql.filter((sql) => /INSERT INTO qbank_attempts/.test(sql))
   assert.equal(inserts.length, 1, 'three attempts should reach the database as a single multi-row INSERT')
   assert.equal((inserts[0].match(/\(\?, \?/g) || []).length, 3, 'the one INSERT carries all three rows')
+  // Each attempt is also mirrored into the append-only answer-event log, once.
+  const events = connSql.filter((sql) => /INSERT INTO qbank_answer_events/.test(sql))
+  assert.equal(events.length, 1, 'the answer-event log is written as one multi-row INSERT too')
+  assert.equal((events[0].match(/\(\?, \?/g) || []).length, 3, 'all three events in one INSERT')
   // last_active is stamped on the same connection so it commits with the batch.
   assert.ok(connSql.some((sql) => /UPDATE students SET last_active/.test(sql)), 'last_active is updated in the same transaction')
 })
