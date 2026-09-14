@@ -44,4 +44,10 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     // `core/whiteboard/WhiteboardModel.kt`'s `migrateSingleBoardToCollection`).
     "synapse.whiteboard.boards.v1",
     "synapse.whiteboard.board",
+    // Calendar: the student's own planned blocks (the published timetable,
+    // synapse-module-schedules-v1, is a shared/read-only catalogue key —
+    // already in STUDENT_READABLE_KEYS, not here). Dotted, so
+    // StateOwnership.isUserOwned's `^synapse\.calendar\.blocks$` pattern
+    // matches it, matching web's STUDY_BLOCKS_STORAGE_KEY.
+    "synapse.calendar.blocks",
 )
