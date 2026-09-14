@@ -26,21 +26,34 @@ struct CortexMark: View {
 }
 
 /// The full lockup, mark and letters together.
+///
+/// Composed the way the website's header is — the live mark next to live text —
+/// rather than a single baked image. A pre-rendered lockup went stale once
+/// (it kept the old Connect-era mark long after the crimson Noon mark shipped),
+/// and only the mark is real artwork; the words are just the product's name set
+/// in a rounded face close to the brand's Baloo 2.
 struct Wordmark: View {
     @Environment(\.strings) private var strings
     var height: CGFloat = 28
 
-    @Environment(\.themeStore) private var theme
-
     var body: some View {
-        Image(onDarkGround(theme.appearance) ? "logo-wordmark-white" : "logo-wordmark")
-            .resizable()
-            .scaledToFit()
-            .frame(height: height)
-            // The lockup is the product's name, so it is read out as one —
-            // never as two words in two colours, which is what the artwork
-            // would otherwise dictate.
-            .accessibilityLabel(strings("Nishany"))
+        HStack(spacing: height * 0.32) {
+            CortexMark(size: height)
+
+            VStack(alignment: .leading, spacing: height * 0.02) {
+                Text("nishany")
+                    .font(.system(size: height * 0.72, weight: .bold, design: .rounded))
+                    .foregroundStyle(Theme.ink)
+                Text("BY CONNECT")
+                    .font(.system(size: height * 0.26, weight: .semibold, design: .rounded))
+                    .tracking(height * 0.08)
+                    .foregroundStyle(Theme.ink3)
+            }
+        }
+        // The lockup is the product's name, so it is read out as one — never as
+        // two words in two colours, which is what the artwork would dictate.
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(strings("Nishany"))
     }
 }
 
