@@ -34,4 +34,10 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.qbank.marked.v1",
     "synapse.qbank.sessionQuestions.v1",
     "synapse.qbank.sessionNames.v1",
+    // Calendar: the student's own planned blocks (the published timetable,
+    // synapse-module-schedules-v1, is a shared/read-only catalogue key —
+    // already in STUDENT_READABLE_KEYS, not here). Dotted, so
+    // StateOwnership.isUserOwned's `^synapse\.calendar\.blocks$` pattern
+    // matches it, matching web's STUDY_BLOCKS_STORAGE_KEY.
+    "synapse.calendar.blocks",
 )
