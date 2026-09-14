@@ -16,7 +16,9 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.synapse.app.R
 import com.synapse.app.core.qbank.Question
 
 fun collectionCardTag(key: String): String = "qbank_collection_$key"
@@ -52,18 +54,18 @@ fun RevisionCollectionsScreen(
 ) {
     val collections = listOf(
         RevisionCollection(
-            key = "flagged", title = "Flagged",
-            empty = "Flag a question while you're sitting a test and it waits here.",
+            key = "flagged", title = stringResource(R.string.qbank_source_flagged),
+            empty = stringResource(R.string.qbank_collection_flagged_empty),
             questions = flagged,
         ),
         RevisionCollection(
-            key = "incorrect", title = "Got wrong",
-            empty = "Questions you answered wrongly collect here, and leave once you get them right.",
+            key = "incorrect", title = stringResource(R.string.qbank_source_incorrect),
+            empty = stringResource(R.string.qbank_collection_incorrect_empty),
             questions = incorrect,
         ),
         RevisionCollection(
-            key = "omitted", title = "Omitted",
-            empty = "Questions a test served you but you never answered collect here.",
+            key = "omitted", title = stringResource(R.string.qbank_source_omitted),
+            empty = stringResource(R.string.qbank_collection_omitted_empty),
             questions = omitted,
         ),
     )
@@ -105,7 +107,7 @@ private fun CollectionCard(
                 }
                 if (collection.questions.size > 3) {
                     Text(
-                        text = "and ${collection.questions.size - 3} more",
+                        text = stringResource(R.string.qbank_collection_and_more_format, collection.questions.size - 3),
                         style = MaterialTheme.typography.bodySmall,
                         modifier = Modifier.padding(top = 4.dp),
                     )
@@ -119,17 +121,17 @@ private fun CollectionCard(
                     onClick = { onView(collection.questions) },
                     enabled = collection.questions.isNotEmpty(),
                     modifier = Modifier.testTag(collectionViewButtonTag(collection.key)),
-                ) { Text("View") }
+                ) { Text(stringResource(R.string.qbank_view)) }
                 OutlinedButton(
                     onClick = { onTestThese(collection.questions, collection.title) },
                     enabled = collection.questions.isNotEmpty(),
                     modifier = Modifier.testTag(collectionTestTheseButtonTag(collection.key)),
-                ) { Text("Test these") }
+                ) { Text(stringResource(R.string.qbank_test_these)) }
                 OutlinedButton(
                     onClick = { onTestScope(collection.questions, collection.title) },
                     enabled = collection.questions.isNotEmpty(),
                     modifier = Modifier.testTag(collectionTestScopeButtonTag(collection.key)),
-                ) { Text("Test this scope") }
+                ) { Text(stringResource(R.string.qbank_test_this_scope)) }
             }
         }
     }

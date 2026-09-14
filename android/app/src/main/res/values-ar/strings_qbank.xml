@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/qbank — Arabic strings. Terminology mirrors the iOS app's
+         Core/Localisation/ArabicStrings.swift where concepts match (Tutor/Timed,
+         Untitled test, Start, Done, Back, Delete, Cancel, Accuracy…). -->
+
+    <!-- Question navigator legend: per-question status — masculine, agreeing
+         with "سؤال" (question). -->
+    <string name="qbank_navstate_unseen">لم يُشاهد</string>
+    <string name="qbank_navstate_answered">تمت الإجابة</string>
+    <string name="qbank_navstate_correct">صحيح</string>
+    <string name="qbank_navstate_wrong">خاطئ</string>
+    <string name="qbank_navstate_omitted">متروك</string>
+
+    <!-- Shared source/collection group labels — feminine, agreeing with the
+         non-human plural "أسئلة" (questions) as a collective. -->
+    <string name="qbank_source_all">الكل</string>
+    <string name="qbank_source_flagged">المُعلَّمة</string>
+    <string name="qbank_source_incorrect">الخاطئة</string>
+    <string name="qbank_source_omitted">المتروكة</string>
+
+    <!-- Quick-preset chip labels. -->
+    <string name="qbank_preset_weak">مناطق الضعف</string>
+    <string name="qbank_preset_emergency">الطوارئ</string>
+    <string name="qbank_preset_demanding">صعبة</string>
+    <string name="qbank_preset_everything">الكل</string>
+
+    <!-- QBankSetupScreen. -->
+    <string name="qbank_setup_title">بنك الأسئلة</string>
+    <string name="qbank_source_label">المصدر</string>
+    <string name="qbank_quick_presets_label">اختصارات سريعة</string>
+    <string name="qbank_mode_label">الوضع</string>
+    <string name="qbank_mode_tutor">تعليمي</string>
+    <string name="qbank_mode_timed">موقوت</string>
+    <string name="qbank_length_label">عدد الأسئلة</string>
+    <string name="qbank_custom_length_format">عدد مخصّص (الحد الأقصى %1$d)</string>
+    <string name="qbank_download_for_offline">تنزيل للاستخدام دون اتصال</string>
+    <string name="qbank_multi_response_practice_button">تدريب متعدد الإجابات</string>
+
+    <plurals name="qbank_topics_header">
+        <item quantity="zero">المواضيع (لا أسئلة محددة)</item>
+        <item quantity="one">المواضيع (سؤال واحد محدد)</item>
+        <item quantity="two">المواضيع (سؤالان محددان)</item>
+        <item quantity="few">المواضيع (%1$d أسئلة محددة)</item>
+        <item quantity="many">المواضيع (%1$d سؤالاً محددًا)</item>
+        <item quantity="other">المواضيع (%1$d سؤال محدد)</item>
+    </plurals>
+
+    <plurals name="qbank_start_button">
+        <item quantity="zero">ابدأ (لا أسئلة)</item>
+        <item quantity="one">ابدأ (سؤال واحد)</item>
+        <item quantity="two">ابدأ (سؤالان)</item>
+        <item quantity="few">ابدأ (%1$d أسئلة)</item>
+        <item quantity="many">ابدأ (%1$d سؤالاً)</item>
+        <item quantity="other">ابدأ (%1$d سؤال)</item>
+    </plurals>
+
+    <!-- SessionRunnerScreen. -->
+    <string name="qbank_resume">استئناف</string>
+    <string name="qbank_flag_for_review_description">وضع علامة للمراجعة</string>
+    <string name="qbank_end">إنهاء</string>
+    <string name="qbank_question_progress_format">السؤال %1$d من %2$d</string>
+    <string name="qbank_private_note_label">ملاحظة خاصة</string>
+    <string name="qbank_check">تحقق</string>
+    <string name="qbank_previous">السابق</string>
+    <string name="qbank_next">التالي</string>
+    <string name="qbank_end_dialog_title">إنهاء هذه الجلسة؟</string>
+    <string name="qbank_end_dialog_body">غادر دون حفظ التقدم، أو سلّم واطّلع على نتائجك.</string>
+    <string name="qbank_submit">تسليم</string>
+    <string name="qbank_leave">مغادرة</string>
+    <string name="qbank_cross_out_option_format">شطب %1$s</string>
+
+    <!-- ResultsScreen. -->
+    <string name="qbank_results_title">النتائج</string>
+    <string name="qbank_results_score_format">%1$d من %2$d إجابة صحيحة (%3$d%%)</string>
+    <string name="qbank_results_saving">جارٍ حفظ إجاباتك…</string>
+    <string name="qbank_results_saved_message">حُفظت إجاباتك وستُزامَن تلقائيًا — يمكنك زيارة \"مزامنة الآن\" في لوحة التحكم إذا أردت رفعها فورًا.</string>
+    <string name="qbank_results_failed_message">تعذّر حفظ هذه الجلسة على جهازك — نتائجك معروضة أدناه لكنها لم تُسجَّل بعد.</string>
+    <string name="qbank_results_retry_save">أعد محاولة الحفظ</string>
+    <string name="qbank_results_by_subject">حسب المادة</string>
+    <string name="qbank_results_by_topic">حسب الموضوع</string>
+    <string name="qbank_results_review">المراجعة</string>
+    <string name="qbank_done">تم</string>
+    <string name="qbank_unknown_group">غير معروف</string>
+    <string name="qbank_results_correct_picked_format">صحيح — اخترت %1$s</string>
+    <string name="qbank_results_missed_picked_format">خطأ — اخترت %1$s، والصحيح هو %2$s</string>
+    <string name="qbank_results_nothing_picked">لا شيء</string>
+    <string name="qbank_results_accuracy_line_format">%1$d/%2$d (%3$d%%)</string>
+
+    <!-- MultiResponseRunner. -->
+    <string name="qbank_mr_empty_message">لا توجد أسئلة متعددة الإجابات في هذا النطاق بعد.</string>
+    <string name="qbank_back">رجوع</string>
+    <string name="qbank_mr_progress_format">تدريب متعدد الإجابات (%1$d من %2$d)</string>
+    <string name="qbank_mr_note_incorrect">غير صحيح — ليس أحد الإجابات الصحيحة</string>
+    <string name="qbank_mr_note_missed">فائتة — كانت هذه إجابة صحيحة</string>
+    <string name="qbank_mr_all_correct">كل الإجابات صحيحة!</string>
+    <string name="qbank_mr_not_quite">ليست دقيقة تمامًا — راجع الملاحظات أعلاه.</string>
+    <string name="qbank_mr_next_question">السؤال التالي</string>
+
+    <!-- RevisionCollectionsScreen (the "Flagged & missed" hub tab). -->
+    <string name="qbank_collection_flagged_empty">علّم سؤالًا أثناء أداء اختبار وسيظهر هنا في انتظارك.</string>
+    <string name="qbank_collection_incorrect_empty">الأسئلة التي أجبت عنها خطأً تجتمع هنا، وتُزال عند إجابتها بشكل صحيح.</string>
+    <string name="qbank_collection_omitted_empty">الأسئلة التي عرضها عليك اختبار ولم تُجب عنها تجتمع هنا.</string>
+    <string name="qbank_collection_and_more_format">و%1$d أخرى</string>
+    <string name="qbank_view">عرض</string>
+    <string name="qbank_test_these">اختبار هذه الأسئلة</string>
+    <string name="qbank_test_this_scope">اختبار هذا النطاق</string>
+
+    <!-- QuestionBankHubScreen tabs. -->
+    <string name="qbank_hub_tab_new">جديد</string>
+    <string name="qbank_hub_tab_collections">المُعلَّمة والفائتة</string>
+    <string name="qbank_hub_tab_previous">الاختبارات السابقة</string>
+
+    <!-- OfflineDownloadScreen. -->
+    <string name="qbank_offline_title">التنزيلات دون اتصال</string>
+    <string name="qbank_offline_current_selection_format">التحديد الحالي: %1$d من عناصر النطاق، و%2$d من الأسئلة محمّلة.</string>
+    <string name="qbank_offline_download_selection_button">تنزيل هذا التحديد للعمل دون اتصال</string>
+    <string name="qbank_offline_result_format">تم تخزين %1$d عنصر جديد مؤقتًا، و%2$d متوفر مسبقًا على الجهاز.</string>
+    <string name="qbank_pinned_scopes_label">النطاقات المثبَّتة</string>
+    <string name="qbank_offline_nothing_pinned">لا يوجد شيء مثبَّت بعد.</string>
+    <string name="qbank_remove">إزالة</string>
+
+    <plurals name="qbank_scope_items_count">
+        <item quantity="zero">لا عناصر نطاق</item>
+        <item quantity="one">عنصر نطاق واحد</item>
+        <item quantity="two">عنصرا نطاق</item>
+        <item quantity="few">%1$d عناصر نطاق</item>
+        <item quantity="many">%1$d عنصر نطاق</item>
+        <item quantity="other">%1$d عنصر نطاق</item>
+    </plurals>
+
+    <!-- PreviousTestsScreen. -->
+    <string name="qbank_previous_none_title">لا توجد اختبارات بعد</string>
+    <string name="qbank_previous_none_body">ابدأ جلسة وستُحفظ هنا مع الدرجة التي حصلت عليها.</string>
+    <string name="qbank_untitled_test">اختبار بلا عنوان</string>
+    <string name="qbank_test_name_label">اسم الاختبار</string>
+    <string name="qbank_retake_these">أعد هذه الأسئلة</string>
+    <string name="qbank_new_test_same_scope">اختبار جديد، النطاق نفسه</string>
+    <string name="qbank_review_answers">مراجعة الإجابات</string>
+    <string name="qbank_delete">حذف</string>
+    <string name="qbank_delete_test_dialog_title">حذف هذا الاختبار؟</string>
+    <string name="qbank_delete_test_dialog_body">سيؤدي هذا إلى إزالة كل إجابة من تلك الجلسة. لا يمكن التراجع عن هذا.</string>
+    <string name="qbank_cancel">إلغاء</string>
+
+    <plurals name="qbank_questions_count">
+        <item quantity="zero">لا أسئلة</item>
+        <item quantity="one">سؤال واحد</item>
+        <item quantity="two">سؤالان</item>
+        <item quantity="few">%1$d أسئلة</item>
+        <item quantity="many">%1$d سؤالاً</item>
+        <item quantity="other">%1$d سؤال</item>
+    </plurals>
+</resources>

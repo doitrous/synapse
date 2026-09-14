@@ -7,13 +7,16 @@ import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Tab
 import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
+import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 
 fun hubTabTag(tab: HubTab): String = "qbank_hub_tab_${tab.name}"
 
@@ -48,7 +51,7 @@ fun QuestionBankHubScreen(
                 Tab(
                     selected = uiState.hubTab == tab,
                     onClick = { viewModel.onHubTabChange(tab) },
-                    text = { Text(tab.label()) },
+                    text = { Text(stringResource(tab.labelRes())) },
                     modifier = Modifier.testTag(hubTabTag(tab)),
                 )
             }
@@ -84,8 +87,9 @@ fun QuestionBankHubScreen(
     }
 }
 
-private fun HubTab.label(): String = when (this) {
-    HubTab.New -> "New"
-    HubTab.Collections -> "Flagged & missed"
-    HubTab.Previous -> "Previous tests"
+@StringRes
+private fun HubTab.labelRes(): Int = when (this) {
+    HubTab.New -> R.string.qbank_hub_tab_new
+    HubTab.Collections -> R.string.qbank_hub_tab_collections
+    HubTab.Previous -> R.string.qbank_hub_tab_previous
 }

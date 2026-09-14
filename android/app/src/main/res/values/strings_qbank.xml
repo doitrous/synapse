@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/qbank — localized strings for the Question Bank surface (EN/AR). -->
+
+    <!-- Question navigator legend: per-question status (QBankSession.NavState). -->
+    <string name="qbank_navstate_unseen">Unseen</string>
+    <string name="qbank_navstate_answered">Answered</string>
+    <string name="qbank_navstate_correct">Correct</string>
+    <string name="qbank_navstate_wrong">Wrong</string>
+    <string name="qbank_navstate_omitted">Omitted</string>
+
+    <!-- Shared source/collection group labels (QuestionSource chips + Revise-hub collection titles). -->
+    <string name="qbank_source_all">All</string>
+    <string name="qbank_source_flagged">Flagged</string>
+    <string name="qbank_source_incorrect">Got wrong</string>
+    <string name="qbank_source_omitted">Omitted</string>
+
+    <!-- Quick-preset chip labels (QBankPreset). -->
+    <string name="qbank_preset_weak">Weak areas</string>
+    <string name="qbank_preset_emergency">Emergency</string>
+    <string name="qbank_preset_demanding">Demanding</string>
+    <string name="qbank_preset_everything">Everything</string>
+
+    <!-- QBankSetupScreen. -->
+    <string name="qbank_setup_title">Question Bank</string>
+    <string name="qbank_source_label">Source</string>
+    <string name="qbank_quick_presets_label">Quick presets</string>
+    <string name="qbank_mode_label">Mode</string>
+    <string name="qbank_mode_tutor">Tutor</string>
+    <string name="qbank_mode_timed">Timed</string>
+    <string name="qbank_length_label">Length</string>
+    <string name="qbank_custom_length_format">Custom length (max %1$d)</string>
+    <string name="qbank_download_for_offline">Download for offline</string>
+    <string name="qbank_multi_response_practice_button">Multi-response practice</string>
+
+    <plurals name="qbank_topics_header">
+        <item quantity="one">Topics (%1$d question selected)</item>
+        <item quantity="other">Topics (%1$d questions selected)</item>
+    </plurals>
+
+    <plurals name="qbank_start_button">
+        <item quantity="one">Start (%1$d question)</item>
+        <item quantity="other">Start (%1$d questions)</item>
+    </plurals>
+
+    <!-- SessionRunnerScreen. -->
+    <string name="qbank_resume">Resume</string>
+    <string name="qbank_flag_for_review_description">Flag for review</string>
+    <string name="qbank_end">End</string>
+    <string name="qbank_question_progress_format">Question %1$d of %2$d</string>
+    <string name="qbank_private_note_label">Private note</string>
+    <string name="qbank_check">Check</string>
+    <string name="qbank_previous">Previous</string>
+    <string name="qbank_next">Next</string>
+    <string name="qbank_end_dialog_title">End this sitting?</string>
+    <string name="qbank_end_dialog_body">Leave without saving progress, or submit and see your results.</string>
+    <string name="qbank_submit">Submit</string>
+    <string name="qbank_leave">Leave</string>
+    <string name="qbank_cross_out_option_format">Cross out %1$s</string>
+
+    <!-- ResultsScreen. -->
+    <string name="qbank_results_title">Results</string>
+    <string name="qbank_results_score_format">%1$d / %2$d correct (%3$d%%)</string>
+    <string name="qbank_results_saving">Saving your answers…</string>
+    <string name="qbank_results_saved_message">Attempts were saved and will sync automatically — visit the Dashboard\'s \"Sync now\" if you want to push them right away.</string>
+    <string name="qbank_results_failed_message">Couldn\'t save this sitting on your device — your results are shown below but haven\'t been recorded yet.</string>
+    <string name="qbank_results_retry_save">Retry save</string>
+    <string name="qbank_results_by_subject">By subject</string>
+    <string name="qbank_results_by_topic">By topic</string>
+    <string name="qbank_results_review">Review</string>
+    <string name="qbank_done">Done</string>
+    <string name="qbank_unknown_group">Unknown</string>
+    <string name="qbank_results_correct_picked_format">Correct — you picked %1$s</string>
+    <string name="qbank_results_missed_picked_format">Missed — you picked %1$s, correct was %2$s</string>
+    <string name="qbank_results_nothing_picked">nothing</string>
+    <string name="qbank_results_accuracy_line_format">%1$d/%2$d (%3$d%%)</string>
+
+    <!-- MultiResponseRunner. -->
+    <string name="qbank_mr_empty_message">No multi-response questions in this scope yet.</string>
+    <string name="qbank_back">Back</string>
+    <string name="qbank_mr_progress_format">Multi-response practice (%1$d of %2$d)</string>
+    <string name="qbank_mr_note_incorrect">Incorrect — not one of the right answers</string>
+    <string name="qbank_mr_note_missed">Missed — this was a correct answer</string>
+    <string name="qbank_mr_all_correct">All correct!</string>
+    <string name="qbank_mr_not_quite">Not quite — see the notes above.</string>
+    <string name="qbank_mr_next_question">Next question</string>
+
+    <!-- RevisionCollectionsScreen (the "Flagged & missed" hub tab). -->
+    <string name="qbank_collection_flagged_empty">Flag a question while you\'re sitting a test and it waits here.</string>
+    <string name="qbank_collection_incorrect_empty">Questions you answered wrongly collect here, and leave once you get them right.</string>
+    <string name="qbank_collection_omitted_empty">Questions a test served you but you never answered collect here.</string>
+    <string name="qbank_collection_and_more_format">and %1$d more</string>
+    <string name="qbank_view">View</string>
+    <string name="qbank_test_these">Test these</string>
+    <string name="qbank_test_this_scope">Test this scope</string>
+
+    <!-- QuestionBankHubScreen tabs. -->
+    <string name="qbank_hub_tab_new">New</string>
+    <string name="qbank_hub_tab_collections">Flagged &amp; missed</string>
+    <string name="qbank_hub_tab_previous">Previous tests</string>
+
+    <!-- OfflineDownloadScreen. -->
+    <string name="qbank_offline_title">Offline downloads</string>
+    <string name="qbank_offline_current_selection_format">Current selection: %1$d scope item(s), %2$d question(s) loaded.</string>
+    <string name="qbank_offline_download_selection_button">Download this selection for offline</string>
+    <string name="qbank_offline_result_format">Cached %1$d new item(s), %2$d already on device.</string>
+    <string name="qbank_pinned_scopes_label">Pinned scopes</string>
+    <string name="qbank_offline_nothing_pinned">Nothing pinned yet.</string>
+    <string name="qbank_remove">Remove</string>
+
+    <plurals name="qbank_scope_items_count">
+        <item quantity="one">%1$d scope item</item>
+        <item quantity="other">%1$d scope items</item>
+    </plurals>
+
+    <!-- PreviousTestsScreen. -->
+    <string name="qbank_previous_none_title">No tests yet</string>
+    <string name="qbank_previous_none_body">Start a session and it will be kept here, with what you scored.</string>
+    <string name="qbank_untitled_test">Untitled test</string>
+    <string name="qbank_test_name_label">Test name</string>
+    <string name="qbank_retake_these">Retake these questions</string>
+    <string name="qbank_new_test_same_scope">New test, same scope</string>
+    <string name="qbank_review_answers">Review answers</string>
+    <string name="qbank_delete">Delete</string>
+    <string name="qbank_delete_test_dialog_title">Delete this test?</string>
+    <string name="qbank_delete_test_dialog_body">This removes every answer from that sitting. It cannot be undone.</string>
+    <string name="qbank_cancel">Cancel</string>
+
+    <plurals name="qbank_questions_count">
+        <item quantity="one">%1$d question</item>
+        <item quantity="other">%1$d questions</item>
+    </plurals>
+</resources>

@@ -20,7 +20,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
+import com.synapse.app.R
 import com.synapse.app.core.qbank.MultiResponseQuestion
 import com.synapse.app.core.qbank.MultiResponseResult
 import com.synapse.app.core.qbank.markMultiResponse
@@ -57,8 +59,8 @@ fun MultiResponseRunner(
             modifier = Modifier.fillMaxSize().padding(24.dp).testTag(QBANK_MR_EMPTY_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Text("No multi-response questions in this scope yet.", style = MaterialTheme.typography.bodyLarge)
-            Button(onClick = onDone, modifier = Modifier.padding(top = 16.dp)) { Text("Back") }
+            Text(stringResource(R.string.qbank_mr_empty_message), style = MaterialTheme.typography.bodyLarge)
+            Button(onClick = onDone, modifier = Modifier.padding(top = 16.dp)) { Text(stringResource(R.string.qbank_back)) }
         }
         return
     }
@@ -70,7 +72,10 @@ fun MultiResponseRunner(
     val question = questions[index]
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        Text("Multi-response practice (${index + 1} of ${questions.size})", style = MaterialTheme.typography.titleMedium)
+        Text(
+            stringResource(R.string.qbank_mr_progress_format, index + 1, questions.size),
+            style = MaterialTheme.typography.titleMedium,
+        )
         Text(question.stem, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.padding(top = 12.dp))
 
         question.options.forEach { option ->
@@ -91,9 +96,9 @@ fun MultiResponseRunner(
             if (result != null) {
                 val r = result!!
                 val note = when (option.label) {
-                    in r.hit -> "Correct"
-                    in r.falsePositive -> "Incorrect — not one of the right answers"
-                    in r.missed -> "Missed — this was a correct answer"
+                    in r.hit -> stringResource(R.string.qbank_navstate_correct)
+                    in r.falsePositive -> stringResource(R.string.qbank_mr_note_incorrect)
+                    in r.missed -> stringResource(R.string.qbank_mr_note_missed)
                     else -> null
                 }
                 if (note != null) {
@@ -112,12 +117,16 @@ fun MultiResponseRunner(
                 enabled = selected.isNotEmpty(),
                 modifier = Modifier.fillMaxWidth().padding(top = 12.dp).testTag(QBANK_MR_CHECK_BUTTON_TAG),
             ) {
-                Text("Check")
+                Text(stringResource(R.string.qbank_check))
             }
         } else {
             val r = result!!
             Text(
-                text = if (r.allCorrect) "All correct!" else "Not quite — see the notes above.",
+                text = if (r.allCorrect) {
+                    stringResource(R.string.qbank_mr_all_correct)
+                } else {
+                    stringResource(R.string.qbank_mr_not_quite)
+                },
                 style = MaterialTheme.typography.titleMedium,
                 modifier = Modifier.padding(top = 12.dp).testTag(QBANK_MR_FEEDBACK_TAG),
             )
@@ -126,14 +135,14 @@ fun MultiResponseRunner(
                     onClick = { index++ },
                     modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(QBANK_MR_NEXT_BUTTON_TAG),
                 ) {
-                    Text("Next question")
+                    Text(stringResource(R.string.qbank_mr_next_question))
                 }
             } else {
                 Button(
                     onClick = onDone,
                     modifier = Modifier.fillMaxWidth().padding(top = 8.dp).testTag(QBANK_MR_DONE_TAG),
                 ) {
-                    Text("Done")
+                    Text(stringResource(R.string.qbank_done))
                 }
             }
         }
