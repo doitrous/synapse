@@ -32,6 +32,7 @@ import com.synapse.app.feature.library.LibraryRoute
 import com.synapse.app.feature.maristanas.MaristanasRoute
 import com.synapse.app.feature.minigames.MinigamesRoute
 import com.synapse.app.feature.notebook.NotebookRoute
+import com.synapse.app.feature.notifications.NotificationsRoute
 import com.synapse.app.feature.placeholder.PlaceholderScreen
 import com.synapse.app.feature.taxonomy.TaxonomyRoute
 import com.synapse.app.feature.university.UniversityRoute
@@ -102,6 +103,7 @@ fun AppScaffold(
     studyTogetherContent: @Composable () -> Unit = { StudyTogetherRoute() },
     partiesContent: @Composable () -> Unit = { PartiesRoute() },
     sharesContent: @Composable () -> Unit = { SharesRoute() },
+    notificationsContent: @Composable () -> Unit = { NotificationsRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -151,6 +153,7 @@ fun AppScaffold(
         "study-together" to studyTogetherContent,
         "parties" to partiesContent,
         "shares" to sharesContent,
+        "notifications" to notificationsContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 

@@ -59,6 +59,7 @@ class AppScaffoldTest {
                     studyTogetherContent = { Text("StudyTogetherStandIn") },
                     partiesContent = { Text("PartiesStandIn") },
                     sharesContent = { Text("SharesStandIn") },
+                    notificationsContent = { Text("NotificationsStandIn") },
                 )
             }
         }
@@ -166,6 +167,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("My Documents")
         composeTestRule.onNodeWithText("SharesStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingNotificationsInTheMoreHubRendersNotificationsContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("notifications")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Notifications")
+        composeTestRule.onNodeWithText("NotificationsStandIn").assertIsDisplayed()
     }
 
     @Test
