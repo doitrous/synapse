@@ -8,6 +8,7 @@ struct ResourcesView: View {
 
     @State private var query = ""
     @State private var savedOnly = false
+    @State private var typeFilter: ResourceType?
     @AppStorage("nishany.resources.openableOnly") private var openableOnly = false
     @State private var files: ResourceFileStore
     let api: SynapseAPI
@@ -136,6 +137,44 @@ struct ResourcesView: View {
         // Most of this shelf is catalogued but not uploaded, so "what can I
         // actually open" is the filter a student reaches for first.
         tick("Only ones I can open", isOn: openableOnly) { openableOnly.toggle() }
+
+        // Type chips with live counts, as on the web. Only worth showing when
+        // the shelf actually holds more than one kind.
+        let counts = typeCounts
+        if counts.count > 1 {
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 8) {
+                    typeChip(nil, label: "All", count: counts.values.reduce(0, +))
+                    ForEach(ResourceType.allCases.filter { counts[$0] != nil }, id: \.self) { type in
+                        typeChip(type, label: type.rawValue, count: counts[type] ?? 0)
+                    }
+                }
+            }
+        }
+    }
+
+    /// How many of each kind the shelf holds, before the saved/search filters —
+    /// so a chip's count reads as "how many of these exist", the way the web's do.
+    private var typeCounts: [ResourceType: Int] {
+        Dictionary(grouping: model.folders.flatMap(\.resources), by: \.type).mapValues(\.count)
+    }
+
+    private func typeChip(_ type: ResourceType?, label: String, count: Int) -> some View {
+        let selected = typeFilter == type
+        return Button {
+            typeFilter = type
+        } label: {
+            HStack(spacing: 4) {
+                Text(label)
+                Text("\(count)").font(Theme.numeric(11))
+            }
+            .font(Theme.ui(12, weight: selected ? 600 : 400))
+            .foregroundStyle(selected ? .white : Theme.ink2)
+            .padding(.horizontal, 10)
+            .padding(.vertical, 5)
+            .background(selected ? Theme.primary : Theme.inset, in: Capsule())
+        }
+        .buttonStyle(.plain)
     }
 
     private func tick(_ title: String, isOn: Bool, toggle: @escaping () -> Void) -> some View {
@@ -189,6 +228,9 @@ struct ResourcesView: View {
             if openableOnly {
                 matches = matches.filter(\.isOpenable)
             }
+            if let typeFilter {
+                matches = matches.filter { $0.type == typeFilter }
+            }
             if !trimmed.isEmpty {
                 matches = matches.filter {
                     $0.title.localizedCaseInsensitiveContains(trimmed)
@@ -234,11 +276,18 @@ private struct ResourceRow: View {
                 .lineLimit(1)
 
                 // A resource can be catalogued before its file is uploaded.
-                // Saying so is better than a tap that opens nothing.
+                // Saying so is better than a tap that opens nothing — and, as on
+                // the web, showing where the author said it can be found.
                 if !resource.isOpenable {
                     Text(strings("File not uploaded yet"))
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
+                    if !resource.meta.isEmpty {
+                        Text(resource.meta)
+                            .font(Theme.ui(11))
+                            .foregroundStyle(Theme.ink3)
+                            .lineLimit(2)
+                    }
                 } else if isDownloaded {
                     Label(strings("On this phone"), systemImage: "checkmark.circle")
                         .font(Theme.ui(11))
