@@ -16,6 +16,7 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LocationOn
 import androidx.compose.material.icons.filled.MailOutline
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
@@ -125,6 +126,7 @@ val MORE_GROUPS: List<MoreGroup> = listOf(
         items = listOf(
             StudentDestination("account", "Manage account", Icons.Filled.AccountCircle),
             StudentDestination("billing", "Billing", Icons.Filled.ShoppingCart),
+            StudentDestination("notifications", "Notifications", Icons.Filled.Notifications),
         ),
     ),
 )
