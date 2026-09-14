@@ -1,7 +1,9 @@
 package com.synapse.app.feature.party
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.PartyGamePublicStateDto
 import com.synapse.app.core.auth.AuthBackend
 import com.synapse.app.core.party.partyGameReasonMessage
@@ -22,14 +24,14 @@ sealed interface PartyGameUiState {
         val game: PartyGamePublicStateDto,
         val myUserId: String?,
         val busy: Boolean = false,
-        val message: String? = null,
+        @StringRes val message: Int? = null,
     ) : PartyGameUiState {
         val hasAnswered: Boolean get() = myUserId != null && game.answeredParticipantIds.contains(myUserId)
         val isHost: Boolean get() = myUserId != null && myUserId == game.hostId
     }
 
     /** The game is gone, or this student is not a member of its party — nothing left to poll for. */
-    data class Gone(val message: String) : PartyGameUiState
+    data class Gone(@StringRes val message: Int) : PartyGameUiState
 }
 
 /**
@@ -102,11 +104,11 @@ class PartyGameViewModel @Inject constructor(
         val myUserId = authBackend.session.value?.userId
         _uiState.value = when (tick) {
             is GamePoll.Loaded -> PartyGameUiState.InGame(tick.game, myUserId)
-            GamePoll.Gone -> PartyGameUiState.Gone("That party game is no longer available.")
+            GamePoll.Gone -> PartyGameUiState.Gone(R.string.party_gone_game)
             GamePoll.Unavailable -> {
                 val prev = _uiState.value as? PartyGameUiState.InGame
-                prev?.copy(busy = false, message = "Could not reach the game.")
-                    ?: PartyGameUiState.Gone("Could not reach the game.")
+                prev?.copy(busy = false, message = R.string.party_unreachable_game)
+                    ?: PartyGameUiState.Gone(R.string.party_unreachable_game)
             }
         }
     }

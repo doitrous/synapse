@@ -1,5 +1,6 @@
 package com.synapse.app.feature.party
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.synapse.app.core.api.OpenPartyDto
@@ -19,7 +20,7 @@ sealed interface PartiesUiState {
         val mine: List<PartySummaryDto>,
         val open: List<OpenPartyDto>,
         val offline: Boolean = false,
-        val message: String? = null,
+        @StringRes val message: Int? = null,
     ) : PartiesUiState
 }
 

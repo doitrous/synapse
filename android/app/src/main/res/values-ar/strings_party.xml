@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared across the party dialogs. -->
+    <string name="party_cancel">إلغاء</string>
+    <string name="party_name_label">الاسم</string>
+
+    <!-- Parties list (feature/party PartiesScreen). -->
+    <string name="party_join_title">الانضمام إلى مجموعة</string>
+    <string name="party_code_label">رمز المجموعة</string>
+    <string name="party_join">انضمام</string>
+    <string name="party_join_description">المجموعة تجمّع دائم لطلاب جامعتك وسنتك الدراسية — للعب الألعاب الدراسية وحضور الجلسات معًا.</string>
+    <string name="party_start">إنشاء مجموعة</string>
+    <string name="party_offline">تعذّر الوصول إلى nishany. تحتاج المجموعات إلى اتصال بالإنترنت.</string>
+    <string name="party_mine_title">مجموعاتك</string>
+    <string name="party_open_title">مفتوحة في سنتك الدراسية</string>
+    <string name="party_empty">لا توجد مجموعات بعد — أنشئ واحدة أو انضم برمز.</string>
+    <string name="party_start_confirm">إنشاء</string>
+    <string name="party_default_name">مجموعة مذاكرة</string>
+    <string name="party_host_badge">مضيف</string>
+    <string name="party_yours_badge">لك</string>
+
+    <plurals name="party_members_count">
+        <item quantity="zero">لا أعضاء</item>
+        <item quantity="one">عضو واحد</item>
+        <item quantity="two">عضوان</item>
+        <item quantity="few">%1$d أعضاء</item>
+        <item quantity="many">%1$d عضوًا</item>
+        <item quantity="other">%1$d عضو</item>
+    </plurals>
+
+    <!-- Party lobby (PartyLobbyScreen). -->
+    <string name="party_back_to_parties">العودة إلى المجموعات</string>
+    <string name="party_copy_code">نسخ الرمز</string>
+    <string name="party_visibility_open">مفتوحة لسنتك الدراسية</string>
+    <string name="party_visibility_invite">بالدعوة فقط</string>
+    <string name="party_who_is_in_count">الأعضاء (%1$d)</string>
+    <string name="party_member_fallback_name">طالب</string>
+    <string name="party_sessions_title">الجلسات</string>
+    <string name="party_schedule">جدولة</string>
+    <string name="party_no_sessions">لا توجد جلسات بعد.</string>
+    <string name="party_games_title">الألعاب الجماعية</string>
+    <string name="party_create">إنشاء</string>
+    <string name="party_no_games">لا توجد ألعاب جماعية بعد.</string>
+    <string name="party_leave">مغادرة المجموعة</string>
+    <string name="party_session_state_scheduled">مجدولة</string>
+    <string name="party_session_state_open">مفتوحة</string>
+    <string name="party_session_state_closed">مغلقة</string>
+    <string name="party_game_status_completed">منتهية</string>
+    <string name="party_game_status_live">مباشرة</string>
+    <string name="party_schedule_session_title">جدولة جلسة</string>
+    <string name="party_choose_question">اختر سؤالًا</string>
+    <string name="party_session_note">تبدأ فورًا، ومتاحة لكل أعضاء المجموعة. يمكن حاليًا جدولة الأنشطة العملية وأسئلة المقال من تطبيق الويب فقط.</string>
+    <string name="party_create_game_title">إنشاء لعبة جماعية</string>
+
+    <plurals name="party_items_count">
+        <item quantity="zero">لا عناصر</item>
+        <item quantity="one">عنصر واحد</item>
+        <item quantity="two">عنصران</item>
+        <item quantity="few">%1$d عناصر</item>
+        <item quantity="many">%1$d عنصرًا</item>
+        <item quantity="other">%1$d عنصر</item>
+    </plurals>
+
+    <!-- Party game kinds — mirrors the minigame titles used elsewhere. -->
+    <string name="party_game_kind_term_grid">شبكة المصطلحات</string>
+    <string name="party_game_kind_spotter">سبوتر</string>
+    <string name="party_game_kind_term_match">مطابقة المصطلحات</string>
+    <string name="party_game_kind_clinical_sequence">التسلسل السريري</string>
+    <string name="party_game_kind_mechanism_chain">سلسلة الآلية</string>
+    <string name="party_game_kind_red_flag_sort">فرز العلامات التحذيرية</string>
+
+    <!-- Party session (PartySessionScreen). -->
+    <string name="party_back">رجوع</string>
+    <string name="party_question_unavailable">لم يعد هذا السؤال متاحًا.</string>
+    <string name="party_who_is_in_title">الحاضرون</string>
+    <string name="party_leave_action">مغادرة</string>
+    <string name="party_submit_answer">إرسال الإجابة</string>
+    <string name="party_practical_item">عنصر عملي</string>
+    <string name="party_essay_question">سؤال مقال</string>
+    <string name="party_self_check_note">لا يمكن معاينة محتوى هذا العنصر على أندرويد بعد — أنجزه من تطبيق الويب، ثم علّمه كمكتمل هنا. يُقيَّم هذا العنصر ذاتيًا، ولا يصححه الخادم.</string>
+    <string name="party_done_this">أنجزت هذا</string>
+    <string name="party_your_result">نتيجتك</string>
+    <string name="party_marked_none">لم يُصحَّح أي سؤال في هذه الجلسة.</string>
+    <string name="party_self_checked_note">العناصر ذاتية التصحيح يُقيّمها من أنجزها لا الخادم — ولا تُحتسب كدرجة.</string>
+    <string name="party_correct_of">%1$d من %2$d إجابة صحيحة</string>
+    <string name="party_ratio_format">%1$d / %2$d</string>
+    <string name="party_not_marked_yet">لم يُصحَّح بعد</string>
+
+    <plurals name="party_self_checked_count">
+        <item quantity="zero">لا عناصر مُصحَّحة ذاتيًا</item>
+        <item quantity="one">عنصر واحد مُصحَّح ذاتيًا</item>
+        <item quantity="two">عنصران مُصحَّحان ذاتيًا</item>
+        <item quantity="few">%1$d عناصر مُصحَّحة ذاتيًا</item>
+        <item quantity="many">%1$d عنصرًا مُصحَّحًا ذاتيًا</item>
+        <item quantity="other">%1$d عنصر مُصحَّح ذاتيًا</item>
+    </plurals>
+
+    <!-- Party game (PartyGameScreen). -->
+    <string name="party_round_progress">الجولة %1$d من %2$d</string>
+    <string name="party_no_active_round">لا توجد جولة نشطة</string>
+    <string name="party_lobby_ready_title">غرفة الانتظار جاهزة</string>
+    <string name="party_lobby_ready_body">يبدأ المضيف اللعبة التي يديرها الخادم عندما يكتمل الجميع.</string>
+    <string name="party_start_game">بدء اللعبة الجماعية</string>
+    <string name="party_answer_submitted">تم إرسال الإجابة. في انتظار الجولة التالية.</string>
+    <string name="party_round_recorded_title">تم تسجيل الجولة</string>
+    <string name="party_round_recorded_body">يحسب الخادم النتائج. يمكن للمضيف المتابعة عند الاستعداد.</string>
+    <string name="party_complete_game">إنهاء اللعبة</string>
+    <string name="party_next_round">الجولة التالية</string>
+    <string name="party_game_complete_title">اكتملت اللعبة الجماعية</string>
+    <string name="party_game_complete_body">النتائج النهائية جاهزة أدناه.</string>
+    <string name="party_scoreboard_title">لوحة النتائج</string>
+    <string name="party_your_answer_label">إجابتك</string>
+    <string name="party_submit">إرسال</string>
+    <string name="party_your_order_label">ترتيبك</string>
+    <string name="party_clear_order">مسح الترتيب</string>
+    <string name="party_submit_order">إرسال الترتيب</string>
+    <string name="party_away_badge">غائب</string>
+
+    <!-- Server refusal reasons — see core/party/PartyMessages.kt. -->
+    <string name="party_reason_default">لم ينجح ذلك.</string>
+    <string name="party_reason_no_cohort">يجب تحديد جامعتك وسنتك الدراسية قبل استخدام المجموعات.</string>
+    <string name="party_reason_code_collision">تعذّر إنشاء رمز للمجموعة. حاول مرة أخرى.</string>
+    <string name="party_reason_invalid_visibility">هذا ليس إعداد ظهور صالحًا.</string>
+    <string name="party_reason_not_found">تعذّر العثور على ذلك.</string>
+    <string name="party_reason_not_host">المضيف وحده يمكنه فعل ذلك.</string>
+    <string name="party_reason_host_cannot_leave">لا يمكن للمضيف مغادرة مجموعته الخاصة.</string>
+    <string name="party_reason_no_items">اختر شيئًا لمذاكرته أولاً.</string>
+    <string name="party_reason_invalid_starts_at">هذا التاريخ والوقت غير صالحين.</string>
+    <string name="party_reason_not_a_member">أنت لست عضوًا في تلك المجموعة.</string>
+    <string name="party_reason_not_started">لم تبدأ هذه الجلسة بعد.</string>
+    <string name="party_reason_closed">أُغلقت هذه الجلسة بالفعل.</string>
+    <string name="party_reason_question_gone">لم يعد هذا السؤال منشورًا.</string>
+    <string name="party_reason_not_in_session">هذا العنصر ليس جزءًا من هذه الجلسة.</string>
+    <string name="party_reason_archived">تمت أرشفة هذه المجموعة.</string>
+
+    <string name="party_game_reason_invalid_kind">هذه اللعبة الجماعية غير متاحة.</string>
+    <string name="party_game_reason_client_content_refused">يجب إنشاء الألعاب الجماعية من محتوى تم التحقق منه من الخادم.</string>
+    <string name="party_game_reason_no_content">لا يوجد محتوى منشور أو مُعَدّ كافٍ لهذه اللعبة بعد.</string>
+    <string name="party_game_reason_not_host">مضيف هذه المجموعة وحده يمكنه فعل ذلك.</string>
+    <string name="party_game_reason_not_a_member">أنت لست عضوًا في هذه المجموعة.</string>
+    <string name="party_game_reason_invalid_state">هذا غير ممكن الآن.</string>
+    <string name="party_game_reason_wrong_round">لم تعد هذه الجولة نشطة.</string>
+    <string name="party_game_reason_duplicate_answer">لقد أجبت عن هذه الجولة بالفعل.</string>
+    <string name="party_game_reason_invalid_answer">تعذّر إرسال هذه الإجابة.</string>
+    <string name="party_game_reason_invalid_action">هذا الإجراء غير معروف.</string>
+
+    <!-- ViewModel "gone"/"unavailable" poll states (PartyLobby/PartySession/PartyGame ViewModels). -->
+    <string name="party_gone_party">لم تعد هذه المجموعة متاحة.</string>
+    <string name="party_unreachable_party">تعذّر الوصول إلى المجموعة.</string>
+    <string name="party_gone_session">لم تعد هذه الجلسة متاحة.</string>
+    <string name="party_unreachable_session">تعذّر الوصول إلى الجلسة.</string>
+    <string name="party_gone_game">لم تعد هذه اللعبة الجماعية متاحة.</string>
+    <string name="party_unreachable_game">تعذّر الوصول إلى اللعبة.</string>
+</resources>

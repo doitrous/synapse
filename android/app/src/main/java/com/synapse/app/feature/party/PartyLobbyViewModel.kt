@@ -1,7 +1,9 @@
 package com.synapse.app.feature.party
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.PartyDto
 import com.synapse.app.core.api.PartyGameSummaryDto
 import com.synapse.app.core.api.PartySessionItemRefDto
@@ -26,11 +28,11 @@ sealed interface PartyLobbyUiState {
         val sessions: List<PartySessionSummaryDto> = emptyList(),
         val games: List<PartyGameSummaryDto> = emptyList(),
         val availableQuestions: List<Question> = emptyList(),
-        val message: String? = null,
+        @StringRes val message: Int? = null,
     ) : PartyLobbyUiState
 
     /** The party is gone (deleted, or this student was never a member) — nothing left to poll for. */
-    data class Gone(val message: String) : PartyLobbyUiState
+    data class Gone(@StringRes val message: Int) : PartyLobbyUiState
 }
 
 /**
@@ -94,11 +96,11 @@ class PartyLobbyViewModel @Inject constructor(
                 val availableQuestions = prev?.availableQuestions ?: sessionsRepository.publishedQuestions()
                 _uiState.value = PartyLobbyUiState.Content(tick.party, sessions, games, availableQuestions)
             }
-            PartyPoll.Gone -> _uiState.value = PartyLobbyUiState.Gone("That party is no longer available.")
+            PartyPoll.Gone -> _uiState.value = PartyLobbyUiState.Gone(R.string.party_gone_party)
             PartyPoll.Unavailable -> {
                 val prev = _uiState.value as? PartyLobbyUiState.Content
-                _uiState.value = prev?.copy(message = "Could not reach the party.")
-                    ?: PartyLobbyUiState.Gone("Could not reach the party.")
+                _uiState.value = prev?.copy(message = R.string.party_unreachable_party)
+                    ?: PartyLobbyUiState.Gone(R.string.party_unreachable_party)
             }
         }
     }

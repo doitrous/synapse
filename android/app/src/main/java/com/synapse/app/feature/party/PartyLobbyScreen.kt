@@ -32,23 +32,43 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalClipboardManager
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.PartyGameSummaryDto
 import com.synapse.app.core.api.PartySessionItemRefDto
 import com.synapse.app.core.api.PartySessionSummaryDto
 import com.synapse.app.core.qbank.Question
 
-private val PARTY_GAME_KINDS = listOf(
-    "term-grid" to "Term Grid",
-    "spotter" to "Spotter",
-    "term-match" to "Term Match",
-    "clinical-sequence" to "Clinical Sequence",
-    "mechanism-chain" to "Mechanism Chain",
-    "red-flag-sort" to "Red Flag Sort",
+/** Wire kind code to its display name — the code is what's sent to the server, never translated. */
+private val PARTY_GAME_KINDS: List<Pair<String, Int>> = listOf(
+    "term-grid" to R.string.party_game_kind_term_grid,
+    "spotter" to R.string.party_game_kind_spotter,
+    "term-match" to R.string.party_game_kind_term_match,
+    "clinical-sequence" to R.string.party_game_kind_clinical_sequence,
+    "mechanism-chain" to R.string.party_game_kind_mechanism_chain,
+    "red-flag-sort" to R.string.party_game_kind_red_flag_sort,
 )
+
+/** Looks up a party game kind's display name; unrecognized kinds fall back to the raw wire value. */
+@Composable
+private fun partyGameKindLabel(kind: String): String {
+    val resId = PARTY_GAME_KINDS.firstOrNull { it.first == kind }?.second
+    return resId?.let { stringResource(it) } ?: kind
+}
+
+/** Maps a session's `scheduled`/`open`/`closed` wire state to its display label. */
+@Composable
+private fun partySessionStateLabel(state: String): String = when (state) {
+    "scheduled" -> stringResource(R.string.party_session_state_scheduled)
+    "open" -> stringResource(R.string.party_session_state_open)
+    "closed" -> stringResource(R.string.party_session_state_closed)
+    else -> state
+}
 
 /** One party's lobby: its code, members, visibility (host only), sessions and party games. */
 @Composable
@@ -66,8 +86,8 @@ fun PartyLobbyScreen(
         PartyLobbyUiState.Loading -> Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
 
         is PartyLobbyUiState.Gone -> Column(modifier = Modifier.fillMaxSize().padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text(state.message, style = MaterialTheme.typography.bodyLarge)
-            OutlinedButton(onClick = onBack) { Text("Back to parties") }
+            Text(stringResource(state.message), style = MaterialTheme.typography.bodyLarge)
+            OutlinedButton(onClick = onBack) { Text(stringResource(R.string.party_back_to_parties)) }
         }
 
         is PartyLobbyUiState.Content -> {
@@ -78,11 +98,11 @@ fun PartyLobbyScreen(
                             Text(state.party.name, style = MaterialTheme.typography.titleLarge)
                             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                                 Text(state.party.code, style = MaterialTheme.typography.headlineSmall)
-                                TextButton(onClick = { clipboard.setText(AnnotatedString(state.party.code)) }) { Text("Copy code") }
+                                TextButton(onClick = { clipboard.setText(AnnotatedString(state.party.code)) }) { Text(stringResource(R.string.party_copy_code)) }
                             }
                             if (state.party.isHost) {
                                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
-                                    Text(if (state.party.visibility == "open") "Open to your year" else "Invite only")
+                                    Text(stringResource(if (state.party.visibility == "open") R.string.party_visibility_open else R.string.party_visibility_invite))
                                     Switch(
                                         checked = state.party.visibility == "open",
                                         onCheckedChange = { viewModel.toggleVisibility(it) },
@@ -94,29 +114,29 @@ fun PartyLobbyScreen(
                 }
 
                 state.message?.let { message ->
-                    item { Text(message, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium) }
+                    item { Text(stringResource(message), color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodyMedium) }
                 }
 
-                item { Text("Who is in (${state.party.members.size})", style = MaterialTheme.typography.titleMedium) }
+                item { Text(stringResource(R.string.party_who_is_in_count, state.party.members.size), style = MaterialTheme.typography.titleMedium) }
                 items(state.party.members, key = { it.userId }) { member ->
                     Row(
                         modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically,
                     ) {
-                        Text(member.displayName ?: "Student")
-                        if (member.role == "host") Badge { Text("Host") }
+                        Text(member.displayName ?: stringResource(R.string.party_member_fallback_name))
+                        if (member.role == "host") Badge { Text(stringResource(R.string.party_host_badge)) }
                     }
                 }
 
                 item {
                     Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                        Text("Sessions", style = MaterialTheme.typography.titleMedium)
-                        if (state.party.isHost) TextButton(onClick = { showSessionBuilder = true }) { Text("Schedule") }
+                        Text(stringResource(R.string.party_sessions_title), style = MaterialTheme.typography.titleMedium)
+                        if (state.party.isHost) TextButton(onClick = { showSessionBuilder = true }) { Text(stringResource(R.string.party_schedule)) }
                     }
                 }
                 if (state.sessions.isEmpty()) {
-                    item { Text("No sessions yet.", style = MaterialTheme.typography.bodySmall) }
+                    item { Text(stringResource(R.string.party_no_sessions), style = MaterialTheme.typography.bodySmall) }
                 } else {
                     items(state.sessions, key = { "session-${it.id}" }) { session ->
                         SessionRow(session, onClick = { viewModel.openSession(session.id) })
@@ -125,12 +145,12 @@ fun PartyLobbyScreen(
 
                 item {
                     Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                        Text("Party games", style = MaterialTheme.typography.titleMedium)
-                        if (state.party.isHost) TextButton(onClick = { showGameBuilder = true }) { Text("Create") }
+                        Text(stringResource(R.string.party_games_title), style = MaterialTheme.typography.titleMedium)
+                        if (state.party.isHost) TextButton(onClick = { showGameBuilder = true }) { Text(stringResource(R.string.party_create)) }
                     }
                 }
                 if (state.games.isEmpty()) {
-                    item { Text("No party games yet.", style = MaterialTheme.typography.bodySmall) }
+                    item { Text(stringResource(R.string.party_no_games), style = MaterialTheme.typography.bodySmall) }
                 } else {
                     items(state.games, key = { "game-${it.id}" }) { game ->
                         GameRow(game, onClick = { viewModel.openGame(game.id) })
@@ -139,7 +159,7 @@ fun PartyLobbyScreen(
 
                 if (!state.party.isHost) {
                     item {
-                        OutlinedButton(onClick = { viewModel.leaveParty(onLeft) }, modifier = Modifier.fillMaxWidth()) { Text("Leave party") }
+                        OutlinedButton(onClick = { viewModel.leaveParty(onLeft) }, modifier = Modifier.fillMaxWidth()) { Text(stringResource(R.string.party_leave)) }
                     }
                 }
             }
@@ -174,9 +194,12 @@ private fun SessionRow(session: PartySessionSummaryDto, onClick: () -> Unit) {
         Row(modifier = Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(session.name, style = MaterialTheme.typography.titleMedium)
-                Text("${session.itemCount} item${if (session.itemCount == 1) "" else "s"} · ${session.state}", style = MaterialTheme.typography.bodySmall)
+                Text(
+                    "${pluralStringResource(R.plurals.party_items_count, session.itemCount, session.itemCount)} · ${partySessionStateLabel(session.state)}",
+                    style = MaterialTheme.typography.bodySmall,
+                )
             }
-            if (session.isMine) Badge { Text("Yours") }
+            if (session.isMine) Badge { Text(stringResource(R.string.party_yours_badge)) }
         }
     }
 }
@@ -187,7 +210,10 @@ private fun GameRow(game: PartyGameSummaryDto, onClick: () -> Unit) {
         Row(modifier = Modifier.fillMaxWidth().padding(16.dp), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(game.title, style = MaterialTheme.typography.titleMedium)
-                Text("${game.kind} · ${if (game.status == "completed") "Completed" else "Live"}", style = MaterialTheme.typography.bodySmall)
+                Text(
+                    "${partyGameKindLabel(game.kind)} · ${stringResource(if (game.status == "completed") R.string.party_game_status_completed else R.string.party_game_status_live)}",
+                    style = MaterialTheme.typography.bodySmall,
+                )
             }
         }
     }
@@ -205,14 +231,14 @@ private fun SessionBuilderDialog(
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Schedule a session") },
+        title = { Text(stringResource(R.string.party_schedule_session_title)) },
         text = {
             Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                OutlinedTextField(value = name, onValueChange = { name = it }, label = { Text("Name") }, singleLine = true)
+                OutlinedTextField(value = name, onValueChange = { name = it }, label = { Text(stringResource(R.string.party_name_label)) }, singleLine = true)
 
                 Box {
                     OutlinedButton(onClick = { expanded = true }, modifier = Modifier.fillMaxWidth()) {
-                        Text(chosen?.stem?.take(40) ?: "Choose a question")
+                        Text(chosen?.stem?.take(40) ?: stringResource(R.string.party_choose_question))
                     }
                     DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
                         available.take(50).forEach { question ->
@@ -221,7 +247,7 @@ private fun SessionBuilderDialog(
                     }
                 }
                 Text(
-                    "Starts immediately, open to the whole party. Practical and essay activities can be scheduled from the web app for now.",
+                    stringResource(R.string.party_session_note),
                     style = MaterialTheme.typography.bodySmall,
                 )
             }
@@ -233,9 +259,9 @@ private fun SessionBuilderDialog(
                     onCreate(name.trim().ifBlank { question.stem.take(40) }, PartySessionItemRefDto("question", question.id), null)
                 },
                 enabled = chosen != null,
-            ) { Text("Schedule") }
+            ) { Text(stringResource(R.string.party_schedule)) }
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.party_cancel)) } },
     )
 }
 
@@ -246,18 +272,18 @@ private fun GameBuilderDialog(onDismiss: () -> Unit, onCreate: (kind: String) ->
 
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Create a party game") },
+        title = { Text(stringResource(R.string.party_create_game_title)) },
         text = {
             Box {
-                OutlinedButton(onClick = { expanded = true }, modifier = Modifier.fillMaxWidth()) { Text(kind.second) }
+                OutlinedButton(onClick = { expanded = true }, modifier = Modifier.fillMaxWidth()) { Text(stringResource(kind.second)) }
                 DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
                     PARTY_GAME_KINDS.forEach { option ->
-                        DropdownMenuItem(text = { Text(option.second) }, onClick = { kind = option; expanded = false })
+                        DropdownMenuItem(text = { Text(stringResource(option.second)) }, onClick = { kind = option; expanded = false })
                     }
                 }
             }
         },
-        confirmButton = { TextButton(onClick = { onCreate(kind.first) }) { Text("Create") } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("Cancel") } },
+        confirmButton = { TextButton(onClick = { onCreate(kind.first) }) { Text(stringResource(R.string.party_create)) } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.party_cancel)) } },
     )
 }

@@ -1,7 +1,9 @@
 package com.synapse.app.feature.party
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.PartySessionDto
 import com.synapse.app.core.party.partyReasonMessage
 import com.synapse.app.core.qbank.Question
@@ -20,11 +22,11 @@ sealed interface PartySessionUiState {
     data class InSession(
         val session: PartySessionDto,
         val questions: List<Question>,
-        val message: String? = null,
+        @StringRes val message: Int? = null,
     ) : PartySessionUiState
 
     /** The session is gone, or this student is not a member of its party — nothing left to poll for. */
-    data class Gone(val message: String) : PartySessionUiState
+    data class Gone(@StringRes val message: Int) : PartySessionUiState
 }
 
 /**
@@ -81,11 +83,11 @@ class PartySessionViewModel @Inject constructor(
                 val questions = repository.questionsFor(tick.session)
                 _uiState.value = PartySessionUiState.InSession(tick.session, questions)
             }
-            SessionPoll.Gone -> _uiState.value = PartySessionUiState.Gone("That session is no longer available.")
+            SessionPoll.Gone -> _uiState.value = PartySessionUiState.Gone(R.string.party_gone_session)
             SessionPoll.Unavailable -> {
                 val prev = _uiState.value as? PartySessionUiState.InSession
-                _uiState.value = prev?.copy(message = "Could not reach the session.")
-                    ?: PartySessionUiState.Gone("Could not reach the session.")
+                _uiState.value = prev?.copy(message = R.string.party_unreachable_session)
+                    ?: PartySessionUiState.Gone(R.string.party_unreachable_session)
             }
         }
     }
