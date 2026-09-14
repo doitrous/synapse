@@ -16,4 +16,16 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.essay.answers.v1",
     "synapse.written.answers.v1",
     "synapse.practical.progress.v1",
+    // Adaptive Study. No entry for `synapse.progress.adaptive.evidenceIndex.v1`
+    // or the monthly `synapse.progress.adaptive.evidence.*` docs web/iOS use —
+    // Android's AdaptiveRepository reuses the QBank attempts store as its
+    // evidence source instead of maintaining a parallel evidence ledger (see
+    // `feature/adaptive/AdaptiveRepository.kt`'s doc comment).
+    "synapse.progress.adaptive.plan.v1",
+    "synapse.progress.adaptive.readiness.v1",
+    "synapse.progress.adaptive.session.v1",
+    "synapse.progress.adaptive.boosts.v1",
+    "synapse.progress.adaptive.coverageDebt.v1",
+    "synapse.progress.adaptive.overrides.v1",
+    "synapse.progress.adaptive.readinessSession.v1",
 )
