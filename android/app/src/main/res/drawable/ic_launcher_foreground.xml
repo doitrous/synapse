@@ -1,0 +1,44 @@
+<!--
+  nishany brand mark: two concentric broken rings (each a single round-capped
+  arc) plus the accent dot in the top-right opening — a stylised target
+  ("nishany" = "my target"). Reproduced 1:1 from the live nishany.com mark:
+  outer stroke #a81d40, inner #e0859b, dot #1b2b55. The rings are full circle
+  paths trimmed to 76.4% (the site's stroke-dasharray 163.2/213.6 = 96/125.66),
+  starting at 3 o'clock going clockwise, which leaves the gap top-right where the
+  dot sits. The mark's 100x100 art is scaled to ~0.8 and centred in the 108dp
+  adaptive-icon canvas so it stays inside the 66dp safe zone under any mask.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="50"
+        android:pivotY="50"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="4"
+        android:translateY="4">
+        <!-- Outer ring -->
+        <path
+            android:pathData="M84,50 A34,34 0 1 1 16,50 A34,34 0 1 1 84,50"
+            android:strokeColor="#a81d40"
+            android:strokeWidth="8"
+            android:strokeLineCap="round"
+            android:trimPathStart="0"
+            android:trimPathEnd="0.764" />
+        <!-- Inner ring -->
+        <path
+            android:pathData="M70,50 A20,20 0 1 1 30,50 A20,20 0 1 1 70,50"
+            android:strokeColor="#e0859b"
+            android:strokeWidth="7"
+            android:strokeLineCap="round"
+            android:trimPathStart="0"
+            android:trimPathEnd="0.764" />
+        <!-- Accent dot, in the top-right opening -->
+        <path
+            android:pathData="M67,28 A5,5 0 1 1 77,28 A5,5 0 1 1 67,28 Z"
+            android:fillColor="#1b2b55" />
+    </group>
+</vector>
