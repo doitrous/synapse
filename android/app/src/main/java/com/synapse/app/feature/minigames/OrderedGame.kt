@@ -23,10 +23,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.minigames.MiniGameKind
 import com.synapse.app.core.minigames.OrderedMiniGamePack
 import com.synapse.app.core.minigames.OrderedStepScore
@@ -119,8 +121,8 @@ fun orderedGameStepRowTag(stepId: String): String = "ordered_game_step_$stepId"
 fun ClinicalSequenceRoute(onBack: () -> Unit, viewModel: ClinicalSequenceViewModel = hiltViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     OrderedGameScreen(
-        title = "Clinical Sequence",
-        description = "Order authored clinical or procedural steps.",
+        title = stringResource(R.string.minigames_clinicalsequence_title),
+        description = stringResource(R.string.minigames_clinicalsequence_description),
         uiState = uiState,
         onMove = viewModel::move,
         onCheck = viewModel::check,
@@ -133,8 +135,8 @@ fun ClinicalSequenceRoute(onBack: () -> Unit, viewModel: ClinicalSequenceViewMod
 fun MechanismChainRoute(onBack: () -> Unit, viewModel: MechanismChainViewModel = hiltViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     OrderedGameScreen(
-        title = "Mechanism Chain",
-        description = "Order authored cause-to-effect relationships.",
+        title = stringResource(R.string.minigames_mechanismchain_title),
+        description = stringResource(R.string.minigames_mechanismchain_description),
         uiState = uiState,
         onMove = viewModel::move,
         onCheck = viewModel::check,
@@ -159,7 +161,7 @@ private fun OrderedGameScreen(
 
         when (uiState) {
             is OrderedGameUiState.Unavailable -> Text(
-                "No authored game pack is ready yet. This game appears once a reviewed local pack passes validation.",
+                stringResource(R.string.minigames_pack_unavailable),
                 style = MaterialTheme.typography.bodyMedium,
             )
 
@@ -208,23 +210,23 @@ private fun OrderedGameContent(
                         )
                     }
                     IconButton(onClick = { onMove(index, index - 1) }, enabled = index != 0) {
-                        Icon(Icons.Filled.KeyboardArrowUp, contentDescription = "Move up")
+                        Icon(Icons.Filled.KeyboardArrowUp, contentDescription = stringResource(R.string.minigames_move_up))
                     }
                     IconButton(onClick = { onMove(index, index + 1) }, enabled = index != state.ids.lastIndex) {
-                        Icon(Icons.Filled.KeyboardArrowDown, contentDescription = "Move down")
+                        Icon(Icons.Filled.KeyboardArrowDown, contentDescription = stringResource(R.string.minigames_move_down))
                     }
                 }
             }
         }
 
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 8.dp)) {
-            Button(onClick = onCheck, modifier = Modifier.testTag(ORDERED_GAME_CHECK_BUTTON_TAG)) { Text("Check order") }
-            Button(onClick = onNewGame, modifier = Modifier.testTag(ORDERED_GAME_NEW_GAME_BUTTON_TAG)) { Text("New order") }
+            Button(onClick = onCheck, modifier = Modifier.testTag(ORDERED_GAME_CHECK_BUTTON_TAG)) { Text(stringResource(R.string.minigames_check_order)) }
+            Button(onClick = onNewGame, modifier = Modifier.testTag(ORDERED_GAME_NEW_GAME_BUTTON_TAG)) { Text(stringResource(R.string.minigames_new_order)) }
         }
 
         if (state.checked) {
             Text(
-                "${score.exactPositions}/${score.total} steps in the authored position",
+                stringResource(R.string.minigames_ordered_result_format, score.exactPositions, score.total),
                 style = MaterialTheme.typography.labelLarge,
                 modifier = Modifier.padding(top = 12.dp),
             )
@@ -238,7 +240,7 @@ private fun OrderedGameContent(
 internal fun GameHeader(title: String, onBack: () -> Unit) {
     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         IconButton(onClick = onBack) {
-            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back to Minigames")
+            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = stringResource(R.string.minigames_back_content_description))
         }
         Text(title, style = MaterialTheme.typography.titleLarge)
     }

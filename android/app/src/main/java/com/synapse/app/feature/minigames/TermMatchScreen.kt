@@ -19,9 +19,12 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.minigames.MIN_PAIRS
 import com.synapse.app.core.minigames.MatchMode
 import com.synapse.app.core.minigames.MatchRefusal
@@ -39,15 +42,15 @@ fun termMatchTileTag(tileId: String): String = "term_match_tile_$tileId"
 fun TermMatchRoute(onBack: () -> Unit, viewModel: TermMatchViewModel = hiltViewModel()) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        GameHeader(title = "Term Match", onBack = onBack)
+        GameHeader(title = stringResource(R.string.minigames_termmatch_title), onBack = onBack)
         Text(
-            "Match each term to its Arabic translation or its definition — pick two tiles at a time.",
+            stringResource(R.string.minigames_termmatch_description),
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(top = 4.dp, bottom = 16.dp),
         )
 
         when (val state = uiState) {
-            is TermMatchUiState.Loading -> Text("Loading…", modifier = Modifier.testTag(TERM_MATCH_LOADING_TAG))
+            is TermMatchUiState.Loading -> Text(stringResource(R.string.minigames_loading), modifier = Modifier.testTag(TERM_MATCH_LOADING_TAG))
             is TermMatchUiState.Content -> TermMatchContent(
                 state = state,
                 onModeChange = viewModel::newGame,
@@ -76,7 +79,7 @@ private fun TermMatchContent(
 
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(bottom = 12.dp)) {
         for (mode in listOf(MatchMode.ARABIC, MatchMode.DEFINITION)) {
-            val label = if (mode == MatchMode.ARABIC) "Arabic" else "Definition"
+            val label = stringResource(if (mode == MatchMode.ARABIC) R.string.minigames_mode_arabic else R.string.minigames_mode_definition)
             if (mode == state.mode) {
                 Button(onClick = { onModeChange(mode) }) { Text(label) }
             } else {
@@ -87,7 +90,7 @@ private fun TermMatchContent(
 
     if (state.board.refusal == MatchRefusal.TOO_FEW_TERMS) {
         Text(
-            "Term Match needs at least $MIN_PAIRS terms with a translation or definition — there are too few published right now.",
+            pluralStringResource(R.plurals.minigames_termmatch_too_few_terms, MIN_PAIRS, MIN_PAIRS),
             style = MaterialTheme.typography.bodyMedium,
         )
         return
@@ -97,9 +100,12 @@ private fun TermMatchContent(
         val elapsed = Duration.between(state.startedAt, state.finishedAt)
         Card(modifier = Modifier.fillMaxWidth().padding(bottom = 12.dp)) {
             Column(modifier = Modifier.padding(12.dp)) {
-                Text("Time taken: ${elapsed.seconds}s", style = MaterialTheme.typography.bodyMedium)
-                Text("Wrong attempts: ${state.wrongAttempts}", style = MaterialTheme.typography.bodyMedium)
-                Button(onClick = onReplay, modifier = Modifier.padding(top = 8.dp)) { Text("Play again") }
+                Text(stringResource(R.string.minigames_time_taken_format, elapsed.seconds), style = MaterialTheme.typography.bodyMedium)
+                Text(
+                    stringResource(R.string.minigames_termmatch_wrong_attempts_format, state.wrongAttempts),
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Button(onClick = onReplay, modifier = Modifier.padding(top = 8.dp)) { Text(stringResource(R.string.minigames_play_again)) }
             }
         }
         return
