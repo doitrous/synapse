@@ -28,4 +28,10 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.progress.adaptive.coverageDebt.v1",
     "synapse.progress.adaptive.overrides.v1",
     "synapse.progress.adaptive.readinessSession.v1",
+    // Whiteboard. Both keys are pulled: the collection is the live document, and
+    // the legacy singleton is read once so a board saved from the web before the
+    // collection existed is still there to migrate (see
+    // `core/whiteboard/WhiteboardModel.kt`'s `migrateSingleBoardToCollection`).
+    "synapse.whiteboard.boards.v1",
+    "synapse.whiteboard.board",
 )
