@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/notebook — localized strings for the Notebook surface (EN/AR).
+         A note's own title/body/block text is synced document content the
+         student typed and is never localized here — see NotebookScreen for
+         which literals stay hardcoded on purpose (none persisted; the one
+         "Untitled note" fallback below is display-only, never written back
+         into note.title, matching qbank's untitled-test precedent). -->
+
+    <string name="notebook_loading">Loading…</string>
+
+    <!-- NotesListPane: list header, search, empty states. -->
+    <string name="notebook_title">Notebook</string>
+    <string name="notebook_new_note">New note</string>
+    <string name="notebook_search_notes">Search notes…</string>
+    <string name="notebook_empty_no_notes">No notes yet. Start one with New note.</string>
+    <string name="notebook_empty_no_matches">No note matches that search.</string>
+    <string name="notebook_untitled_note">Untitled note</string>
+    <string name="notebook_no_content_yet">No content yet</string>
+
+    <!-- NoteEditorPane: top bar, title field. -->
+    <string name="notebook_editing_title">Editing</string>
+    <string name="notebook_back">Back</string>
+    <string name="notebook_delete_note">Delete note</string>
+    <string name="notebook_note_title_label">Note title</string>
+
+    <!-- TagEditor. -->
+    <string name="notebook_tags_label">Tags</string>
+    <string name="notebook_remove_tag">Remove tag</string>
+    <string name="notebook_add_a_tag_label">Add a tag</string>
+    <string name="notebook_add">Add</string>
+
+    <!-- BlockEditor: section header, block type chips, add/remove block. -->
+    <string name="notebook_body_label">Body</string>
+    <string name="notebook_block_paragraph_symbol">¶</string>
+    <string name="notebook_block_heading_1">H1</string>
+    <string name="notebook_block_heading_2">H2</string>
+    <string name="notebook_block_bullet_symbol">•</string>
+    <string name="notebook_block_number_symbol">1.</string>
+    <string name="notebook_remove_block">Remove block</string>
+    <string name="notebook_add_block">Add block</string>
+
+    <!-- NoteContext: read-only article/resource context. -->
+    <string name="notebook_about_label">About</string>
+    <string name="notebook_doc_ref_page_format">%1$s · p.%2$d</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/notebook — Arabic strings. Mirrors iOS's
+         Core/Localisation/ArabicStrings.swift and web's src/data/i18n-ar.ts
+         Notebook sections where the concept matches (Notebook, Search notes,
+         New note, Note title, Delete note, Add, Back, and "block" → فقرة per
+         iOS's "Edit this block"); Tags/Body/About/Editing/empty states have
+         no exact Android-only precedent on those platforms and are fresh MSA. -->
+
+    <string name="notebook_loading">جارٍ التحميل…</string>
+
+    <!-- NotesListPane: list header, search, empty states. -->
+    <string name="notebook_title">المفكرة</string>
+    <string name="notebook_new_note">ملاحظة جديدة</string>
+    <string name="notebook_search_notes">ابحث في الملاحظات…</string>
+    <string name="notebook_empty_no_notes">لا توجد ملاحظات بعد. ابدأ واحدة بالضغط على ملاحظة جديدة.</string>
+    <string name="notebook_empty_no_matches">لا توجد ملاحظة مطابقة لهذا البحث.</string>
+    <string name="notebook_untitled_note">ملاحظة بلا عنوان</string>
+    <string name="notebook_no_content_yet">لا يوجد محتوى بعد</string>
+
+    <!-- NoteEditorPane: top bar, title field. -->
+    <string name="notebook_editing_title">تحرير</string>
+    <string name="notebook_back">رجوع</string>
+    <string name="notebook_delete_note">حذف الملاحظة</string>
+    <string name="notebook_note_title_label">عنوان الملاحظة</string>
+
+    <!-- TagEditor. -->
+    <string name="notebook_tags_label">الوسوم</string>
+    <string name="notebook_remove_tag">إزالة الوسم</string>
+    <string name="notebook_add_a_tag_label">أضف وسمًا</string>
+    <string name="notebook_add">إضافة</string>
+
+    <!-- BlockEditor: section header, block type chips, add/remove block. -->
+    <string name="notebook_body_label">المحتوى</string>
+    <string name="notebook_block_paragraph_symbol">¶</string>
+    <string name="notebook_block_heading_1">H1</string>
+    <string name="notebook_block_heading_2">H2</string>
+    <string name="notebook_block_bullet_symbol">•</string>
+    <string name="notebook_block_number_symbol">1.</string>
+    <string name="notebook_remove_block">إزالة الفقرة</string>
+    <string name="notebook_add_block">إضافة فقرة</string>
+
+    <!-- NoteContext: read-only article/resource context. -->
+    <string name="notebook_about_label">حول</string>
+    <string name="notebook_doc_ref_page_format">%1$s · ص %2$d</string>
+</resources>
