@@ -87,6 +87,7 @@ data class SessionUiState(
 @HiltViewModel
 class SessionViewModel @Inject constructor(
     private val recorder: AttemptRecorder,
+    private val flaggedStore: FlaggedQuestionsStore = FlaggedQuestionsStore.NoOp,
 ) : ViewModel() {
 
     var now: () -> Instant = Instant::now
@@ -124,6 +125,28 @@ class SessionViewModel @Inject constructor(
         crossedOut.clear()
         allottedSeconds = session.questions.sumOf { it.estimatedSeconds ?: DEFAULT_SECONDS_PER_QUESTION }
         refresh()
+        loadPersistedFlags()
+    }
+
+    /**
+     * Brings in flags the student set in an earlier sitting, so [SessionUiState.isFlagged]
+     * (and the navigator's flag markers) are right for a question re-encountered
+     * here. Async and best-effort: a slow or failed read just leaves this
+     * sitting's flags looking empty until it resolves, rather than blocking
+     * [begin].
+     */
+    private fun loadPersistedFlags() {
+        viewModelScope.launch {
+            val loaded = try {
+                flaggedStore.flaggedIds()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                emptySet()
+            }
+            flaggedIds.addAll(loaded)
+            refresh()
+        }
     }
 
     fun pick(label: String) {
@@ -169,10 +192,40 @@ class SessionViewModel @Inject constructor(
         refresh()
     }
 
+    /**
+     * Flags (or unflags) the current question, in memory immediately and
+     * persisted in the background so it survives past this sitting -- feeding
+     * the Revise hub's Flagged collection.
+     *
+     * The persisted write re-reads [flaggedStore] and applies just this one
+     * change, rather than pushing this sitting's whole in-memory [flaggedIds]
+     * snapshot: [loadPersistedFlags] is still in flight the first time a student
+     * flags something (it starts in [begin], asynchronously), and pushing a
+     * snapshot taken before that load lands would silently drop every flag from
+     * every other sitting.
+     * ponytail: a second toggle fired before the first one's read-modify-write
+     * completes could still race (both read the same starting set). Acceptable
+     * for one student's own sequential taps; a value-level merge (a set union
+     * rather than a replace) would close it if this ever needs to be airtight.
+     */
     fun toggleFlag() {
         val question = currentQuestion() ?: return
-        if (!flaggedIds.add(question.id)) flaggedIds.remove(question.id)
+        val nowFlagged = question.id !in flaggedIds
+        if (nowFlagged) flaggedIds.add(question.id) else flaggedIds.remove(question.id)
         refresh()
+        val at = now()
+        viewModelScope.launch {
+            try {
+                val persisted = flaggedStore.flaggedIds().toMutableSet()
+                if (nowFlagged) persisted.add(question.id) else persisted.remove(question.id)
+                flaggedStore.setFlaggedIds(persisted, at)
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                // Best-effort: the flag still shows correctly for this sitting even
+                // if persisting it failed.
+            }
+        }
     }
 
     fun setNote(text: String) {

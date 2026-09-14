@@ -250,6 +250,93 @@ class QBankRepositoryTest {
         assertFalse(repository.pinnedScopes().contains(scope))
     }
 
+    // --- flags / manifests / sitting names / Revise-hub history -------------
+
+    @Test
+    fun flaggedIdsRoundTripsThroughSetFlaggedIds() = runTest {
+        assertTrue(repository.flaggedIds().isEmpty())
+
+        repository.setFlaggedIds(setOf("Q1", "Q2"), Instant.parse("2026-08-29T12:00:00Z"))
+
+        assertEquals(setOf("Q1", "Q2"), repository.flaggedIds())
+        assertTrue(synapseApi.putCalls.contains("synapse.qbank.marked.v1"))
+    }
+
+    @Test
+    fun recordSessionManifestAccumulatesAcrossCalls() = runTest {
+        val now = Instant.parse("2026-08-29T12:00:00Z")
+        repository.recordSessionManifest("s1", listOf("Q1"), now)
+        repository.recordSessionManifest("s2", listOf("Q2"), now)
+
+        val manifests = repository.sessionManifests()
+        assertEquals(listOf("Q1"), manifests["s1"])
+        assertEquals(listOf("Q2"), manifests["s2"])
+    }
+
+    @Test
+    fun renameSessionSetsAndBlankClearsTheName() = runTest {
+        val now = Instant.parse("2026-08-29T12:00:00Z")
+        repository.renameSession("s1", "My test", now)
+        assertEquals("My test", repository.sessionNames()["s1"])
+
+        repository.renameSession("s1", "  ", now)
+        assertFalse(repository.sessionNames().containsKey("s1"))
+    }
+
+    @Test
+    fun allAttemptRecordsSeesAttemptsAcrossDifferentMonths() = runTest {
+        val now = Instant.parse("2026-08-29T15:00:00Z")
+        repository.recordAttempts(listOf(sampleAttempt(id = "a", at = "2026-07-15T12:00:00Z")), now)
+        repository.recordAttempts(listOf(sampleAttempt(id = "b", at = "2026-08-15T12:00:00Z")), now)
+
+        assertEquals(setOf("a", "b"), repository.allAttemptRecords().map { it.id }.toSet())
+    }
+
+    @Test
+    fun deleteSessionRemovesItsAttemptsAcrossMonthsAndItsManifestAndName() = runTest {
+        val now = Instant.parse("2026-08-29T15:00:00Z")
+        repository.recordAttempts(
+            listOf(
+                sampleAttempt(id = "sess-1:qbank:item-1", at = "2026-07-15T12:00:00Z"),
+                sampleAttempt(id = "sess-1:qbank:item-2", at = "2026-08-15T12:00:00Z"),
+            ),
+            now,
+        )
+        repository.recordSessionManifest("sess-1", listOf("item-1", "item-2"), now)
+        repository.renameSession("sess-1", "Doomed test", now)
+
+        repository.deleteSession("sess-1", now)
+
+        assertTrue(repository.allAttemptRecords().isEmpty())
+        assertFalse(repository.sessionManifests().containsKey("sess-1"))
+        assertFalse(repository.sessionNames().containsKey("sess-1"))
+        // Both affected months were re-synced with the deletion applied.
+        val julyKey = attemptsKey(monthKey(Instant.parse("2026-07-15T12:00:00Z")))
+        val augustKey = attemptsKey(monthKey(Instant.parse("2026-08-15T12:00:00Z")))
+        assertEquals(0, (synapseApi.putBodies.getValue(julyKey).value as JsonArray).size)
+        assertEquals(0, (synapseApi.putBodies.getValue(augustKey).value as JsonArray).size)
+    }
+
+    @Test
+    fun deleteSessionLeavingOtherSessionsAttemptsInThatMonthAlone() = runTest {
+        val now = Instant.parse("2026-08-29T15:00:00Z")
+        repository.recordAttempts(
+            listOf(
+                sampleAttempt(id = "sess-1:qbank:item-1", at = "2026-08-15T12:00:00Z"),
+                AttemptRecord(
+                    id = "sess-2:qbank:item-1", at = "2026-08-15T12:00:00Z", surface = "qbank", itemId = "item-1",
+                    subjectId = "subj-1", topic = "Topic", difficulty = "Moderate", correct = true, sessionId = "sess-2",
+                    selectedIndex = 0, correctIndex = 0,
+                ),
+            ),
+            now,
+        )
+
+        repository.deleteSession("sess-1", now)
+
+        assertEquals(listOf("sess-2:qbank:item-1"), repository.allAttemptRecords().map { it.id })
+    }
+
     // --- fixtures -----------------------------------------------------------
 
     private suspend fun seedLedger(items: List<String>) {
@@ -343,6 +430,8 @@ private class FakeLocalStore : LocalStore {
     override suspend fun putAttempts(items: List<ModelAttemptRecord>) { items.forEach { attemptsById[it.id] = it } }
     override suspend fun attempts(month: String): List<ModelAttemptRecord> =
         attemptsById.values.filter { it.month == month }
+    override suspend fun allAttempts(): List<ModelAttemptRecord> = attemptsById.values.toList()
+    override suspend fun deleteAttempts(ids: List<String>) { ids.forEach { attemptsById.remove(it) } }
     override suspend fun putUserState(key: String, json: String, savedAt: String?, serverUpdatedAt: String?) {
         userState[key] = Triple(json, savedAt, serverUpdatedAt)
     }

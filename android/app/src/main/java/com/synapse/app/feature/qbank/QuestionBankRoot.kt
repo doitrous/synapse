@@ -24,7 +24,7 @@ import com.synapse.app.core.qbank.Question
  * change: the session itself lives in the surviving [SessionViewModel], and
  * only the flow *position* needs restoring.
  */
-private enum class QBankPosition { Setup, Offline, MultiResponsePractice, Session }
+private enum class QBankPosition { Setup, Offline, MultiResponsePractice, Session, Review }
 
 /**
  * The Question Bank tab's entire flow: Setup, the single-select Runner +
@@ -48,6 +48,7 @@ fun QuestionBankRoot(
     var position by rememberSaveable { mutableStateOf(QBankPosition.Setup) }
     val setupState by setupViewModel.uiState.collectAsStateWithLifecycle()
     val sessionStart by setupViewModel.sessionStart.collectAsStateWithLifecycle()
+    val reviewTarget by setupViewModel.reviewTarget.collectAsStateWithLifecycle()
 
     LaunchedEffect(sessionStart) {
         val start = sessionStart ?: return@LaunchedEffect
@@ -56,8 +57,18 @@ fun QuestionBankRoot(
         setupViewModel.consumeSessionStart()
     }
 
+    LaunchedEffect(reviewTarget) {
+        if (reviewTarget == null) return@LaunchedEffect
+        position = QBankPosition.Review
+    }
+
+    // Leaving a finished (or abandoned) sitting is the one thing that can change
+    // what the hub's collections and Previous tests should show -- reload so
+    // they're not left showing what was true before this sitting happened.
+    val backToHub: () -> Unit = { setupViewModel.load(); position = QBankPosition.Setup }
+
     when (position) {
-        QBankPosition.Setup -> QBankSetupScreen(
+        QBankPosition.Setup -> QuestionBankHubScreen(
             onStartOffline = { position = QBankPosition.Offline },
             onStartMultiResponsePractice = { position = QBankPosition.MultiResponsePractice },
             viewModel = setupViewModel,
@@ -79,7 +90,7 @@ fun QuestionBankRoot(
                 SessionHost(
                     sessionViewModel = sessionViewModel,
                     questions = setupState.questions,
-                    onLeave = { position = QBankPosition.Setup },
+                    onLeave = backToHub,
                 )
             } else {
                 // Process death restored position=Session, but the session it
@@ -87,6 +98,18 @@ fun QuestionBankRoot(
                 // back to Setup rather than render an empty runner.
                 LaunchedEffect(Unit) { position = QBankPosition.Setup }
             }
+
+        QBankPosition.Review ->
+            reviewTarget?.let { target ->
+                ResultsScreen(
+                    result = target.result,
+                    questions = target.questions,
+                    onDone = {
+                        setupViewModel.consumeReviewTarget()
+                        position = QBankPosition.Setup
+                    },
+                )
+            } ?: LaunchedEffect(Unit) { position = QBankPosition.Setup }
     }
 }
 

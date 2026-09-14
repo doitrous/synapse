@@ -140,6 +140,216 @@ class QuestionBankViewModelTest {
         assertTrue(state.scope.isEmpty()) // no weakness signal to draw from -- documented, not fabricated
     }
 
+    // --- Revise hub: collections derived from flags/attempts/manifests -------
+
+    @Test fun flaggedSourceNarrowsStartToPersistedFlags() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        repo.setFlaggedIds(setOf("Q1"), Instant.parse("2026-08-29T00:00:00Z"))
+        val viewModel = QuestionBankViewModel(repo)
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertEquals(listOf("Q1"), viewModel.uiState.value.flaggedQuestions.map { it.id })
+
+        viewModel.onSourceChange(QuestionSource.Flagged)
+        viewModel.onPresetSelected(QBankPreset.Everything) // selects every topic
+        assertEquals(1, viewModel.uiState.value.poolSize()) // only Q1's topic has a flagged question
+    }
+
+    @Test fun incorrectSourceReflectsTheLatestVerdictOnly() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = false, at = "2026-08-29T00:00:00Z")), now)
+        val viewModel = QuestionBankViewModel(repo)
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertEquals(listOf("Q1"), viewModel.uiState.value.incorrectQuestions.map { it.id })
+
+        // Getting it right afterwards takes it back out.
+        repo.recordAttempts(listOf(attempt("s2", "Q1", correct = true, at = "2026-08-29T01:00:00Z")), now)
+        viewModel.load()
+        dispatcher.scheduler.advanceUntilIdle()
+        assertTrue(viewModel.uiState.value.incorrectQuestions.isEmpty())
+    }
+
+    @Test fun omittedSourceIsManifestMinusActuallyAnswered() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordSessionManifest("s1", listOf("Q1", "Q2"), now)
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z")), now)
+        val viewModel = QuestionBankViewModel(repo)
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertEquals(listOf("Q2"), viewModel.uiState.value.omittedQuestions.map { it.id })
+    }
+
+    @Test fun previousTestsListsFinishedSessionsNewestFirst() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z")), Instant.parse("2026-08-29T00:00:00Z"))
+        repo.recordAttempts(listOf(attempt("s2", "Q2", correct = false, at = "2026-08-30T00:00:00Z")), Instant.parse("2026-08-30T00:00:00Z"))
+        val viewModel = QuestionBankViewModel(repo)
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertEquals(listOf("s2", "s1"), viewModel.uiState.value.previousTests.map { it.sessionId })
+    }
+
+    @Test fun testTheseBuildsExactlyThoseQuestionsAndFilesManifestAndName() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { Instant.parse("2026-08-29T12:00:00Z") } }
+        dispatcher.scheduler.advanceUntilIdle()
+
+        viewModel.testThese(viewModel.uiState.value.questions, "My picks")
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val started = viewModel.sessionStart.value
+        assertTrue(started != null)
+        assertEquals(2, started!!.session.questions.size)
+        assertEquals("My picks", repo.sessionNames()[started.sessionId])
+        assertEquals(setOf("Q1", "Q2"), repo.sessionManifests()[started.sessionId]?.toSet())
+    }
+
+    @Test fun testScopePullsInUnseenQuestionsFromTheSameTopic() = runTest {
+        val repo = repository()
+        val ledger = """
+            [
+              { "id":"Q1","kind":"question","title":"Q1?","subjectId":"SYS_CVS","status":"Published",
+                "fields":{"Topic":"Heart failure"},
+                "questionData":{"correctAnswer":"A","answers":[{"label":"A","text":"A","explanation":"A"},{"label":"B","text":"B","explanation":"B"}]}},
+              { "id":"Q2","kind":"question","title":"Q2?","subjectId":"SYS_CVS","status":"Published",
+                "fields":{"Topic":"Heart failure"},
+                "questionData":{"correctAnswer":"A","answers":[{"label":"A","text":"A","explanation":"A"},{"label":"B","text":"B","explanation":"B"}]}}
+            ]
+        """.trimIndent()
+        val doc = StateDoc(value = json.parseToJsonElement(ledger), updatedAt = "2026-08-29T00:00:00Z")
+        localStore.putCatalogue(CONTENT_LEDGER_KEY, "2026-08-29T00:00:00Z", json.encodeToString(StateDoc.serializer(), doc))
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { Instant.parse("2026-08-29T12:00:00Z") } }
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val q1 = viewModel.uiState.value.questions.single { it.id == "Q1" }
+        viewModel.testScope(listOf(q1), "Flagged")
+        dispatcher.scheduler.advanceUntilIdle()
+
+        // Q2 was never in the collection handed to testScope, but shares Q1's topic.
+        assertEquals(setOf("Q1", "Q2"), viewModel.sessionStart.value!!.session.questions.map { it.id }.toSet())
+    }
+
+    @Test fun retakeSameRebuildsThatSessionsQuestionsUnderARetakeName() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z")), now)
+        repo.renameSession("s1", "Cardio drill", now)
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { now } }
+        dispatcher.scheduler.advanceUntilIdle()
+
+        viewModel.retakeSame("s1")
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val started = viewModel.sessionStart.value
+        assertEquals(listOf("Q1"), started!!.session.questions.map { it.id })
+        assertEquals("Cardio drill · retake", repo.sessionNames()[started.sessionId])
+    }
+
+    @Test fun retakeScopeDrawsFromEveryQuestionInTheSameSubjects() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z")), now)
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { now } }
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val summary = viewModel.uiState.value.previousTests.single()
+        viewModel.retakeScope(summary)
+        dispatcher.scheduler.advanceUntilIdle()
+
+        // s1 only ever attempted Q1 (subject SYS_CVS); Q2 is a different subject.
+        assertEquals(listOf("Q1"), viewModel.sessionStart.value!!.session.questions.map { it.id })
+    }
+
+    @Test fun renameSessionPersistsTheNewName() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z")), now)
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { now } }
+        dispatcher.scheduler.advanceUntilIdle()
+
+        viewModel.renameSession("s1", "My test")
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertEquals("My test", viewModel.uiState.value.sessionNames["s1"])
+    }
+
+    @Test fun deleteSessionRemovesItFromPreviousTests() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z")), now)
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { now } }
+        dispatcher.scheduler.advanceUntilIdle()
+        assertEquals(1, viewModel.uiState.value.previousTests.size)
+
+        viewModel.deleteSession("s1")
+        dispatcher.scheduler.advanceUntilIdle()
+
+        assertTrue(viewModel.uiState.value.previousTests.isEmpty())
+    }
+
+    @Test fun reviewCollectionPublishesAReadOnlyResultFromTheLatestAttempt() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z")), now)
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { now } }
+        dispatcher.scheduler.advanceUntilIdle()
+
+        val q1 = viewModel.uiState.value.questions.single { it.id == "Q1" }
+        viewModel.reviewCollection(listOf(q1))
+
+        val target = viewModel.reviewTarget.value
+        assertEquals(1, target!!.result.correct)
+        assertEquals(listOf(q1), target.questions)
+    }
+
+    @Test fun reviewSessionUsesOnlyThatSessionsOwnRecords() = runTest {
+        seedTwoTopics()
+        val repo = repository()
+        val now = Instant.parse("2026-08-29T00:00:00Z")
+        repo.recordAttempts(listOf(attempt("s1", "Q1", correct = true, at = "2026-08-29T00:00:00Z", selectedIndex = 0)), now)
+        repo.recordAttempts(listOf(attempt("s2", "Q1", correct = false, at = "2026-08-30T00:00:00Z", selectedIndex = 1)), now)
+        val viewModel = QuestionBankViewModel(repo).also { it.now = { now } }
+        dispatcher.scheduler.advanceUntilIdle()
+
+        viewModel.reviewSession("s1")
+
+        val target = viewModel.reviewTarget.value
+        assertEquals(1, target!!.result.correct)
+    }
+
+    private fun attempt(
+        sessionId: String,
+        itemId: String,
+        correct: Boolean,
+        at: String,
+        selectedIndex: Int = 0,
+    ) = com.synapse.app.core.qbank.AttemptRecord(
+        id = "$sessionId:qbank:$itemId",
+        at = at,
+        surface = "qbank",
+        itemId = itemId,
+        subjectId = if (itemId == "Q1") "SYS_CVS" else "SYS_RESP",
+        topic = if (itemId == "Q1") "Heart failure" else "Asthma",
+        difficulty = "Moderate",
+        correct = correct,
+        sessionId = sessionId,
+        selectedIndex = selectedIndex,
+        correctIndex = 0,
+    )
+
     // --- Fakes (mirroring QBankRepositoryTest) --------------------------------
 
     private class FakeLocalStore : LocalStore {
@@ -155,6 +365,8 @@ class QuestionBankViewModelTest {
         override suspend fun clearOutbox(key: String) { outbox.remove(key) }
         override suspend fun putAttempts(items: List<AttemptRecord>) { items.forEach { attemptsById[it.id] = it } }
         override suspend fun attempts(month: String): List<AttemptRecord> = attemptsById.values.filter { it.month == month }
+        override suspend fun allAttempts(): List<AttemptRecord> = attemptsById.values.toList()
+        override suspend fun deleteAttempts(ids: List<String>) { ids.forEach { attemptsById.remove(it) } }
         override suspend fun putUserState(key: String, json: String, savedAt: String?, serverUpdatedAt: String?) {
             userState[key] = Triple(json, savedAt, serverUpdatedAt)
         }

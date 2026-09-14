@@ -44,6 +44,9 @@ interface AttemptDao {
     @Query("SELECT * FROM attempt")
     suspend fun all(): List<AttemptEntity>
 
+    @Query("DELETE FROM attempt WHERE id IN (:ids)")
+    suspend fun deleteByIds(ids: List<String>): Int
+
     @Query("DELETE FROM attempt")
     suspend fun clear(): Int
 }

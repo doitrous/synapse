@@ -5,7 +5,7 @@ package com.synapse.app.core.sync
  * device (in addition to draining the write outbox). Each key must satisfy
  * [StateOwnership.isUserOwned] — it round-trips through `/state/user/:key`, not the
  * shared `/state/:key` catalogue endpoint. Extend this list as features land (Notebook,
- * Whiteboard, ...); QBank's flagged/missed/previous sources are a later follow-up.
+ * Whiteboard, ...).
  */
 val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.flashcards.decks.v1",
@@ -28,4 +28,10 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     "synapse.progress.adaptive.coverageDebt.v1",
     "synapse.progress.adaptive.overrides.v1",
     "synapse.progress.adaptive.readinessSession.v1",
+    // QBank's Flagged & missed hub and Previous tests: the flag list, the
+    // served-question manifest "omitted" is derived from, and the names a
+    // student has given their own sittings. See QBankRepository.
+    "synapse.qbank.marked.v1",
+    "synapse.qbank.sessionQuestions.v1",
+    "synapse.qbank.sessionNames.v1",
 )

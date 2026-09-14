@@ -24,4 +24,7 @@ interface LocalStore {
     suspend fun getUserState(key: String): String?
     suspend fun userStateSavedAt(key: String): String?
     suspend fun clearAll()
+
+    /** Permanently removes the attempts with these ids. See [allAttempts] on why this defaults to a no-op. */
+    suspend fun deleteAttempts(ids: List<String>) {}
 }

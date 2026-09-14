@@ -1,8 +1,10 @@
 package com.synapse.app.di
 
 import com.synapse.app.feature.qbank.AttemptRecorder
+import com.synapse.app.feature.qbank.FlaggedQuestionsStore
 import com.synapse.app.feature.qbank.QBankOfflineStore
 import com.synapse.app.feature.qbank.QBankRepository
+import com.synapse.app.feature.qbank.QBankRepositoryFlaggedQuestionsStore
 import com.synapse.app.feature.qbank.QBankRepositoryOfflineStore
 import dagger.Module
 import dagger.Provides
@@ -25,4 +27,8 @@ object QBankUiModule {
     @Provides
     fun provideQBankOfflineStore(repository: QBankRepository): QBankOfflineStore =
         QBankRepositoryOfflineStore(repository)
+
+    @Provides
+    fun provideFlaggedQuestionsStore(repository: QBankRepository): FlaggedQuestionsStore =
+        QBankRepositoryFlaggedQuestionsStore(repository)
 }
