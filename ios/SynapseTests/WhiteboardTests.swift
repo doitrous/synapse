@@ -245,6 +245,42 @@ struct WhiteboardTests {
         }
     }
 
+    @Suite("Collection")
+    struct Collection {
+
+        private var two: WhiteboardCollection {
+            let now = Date()
+            var c = Whiteboards.emptyCollection(now: now)
+            c = Whiteboards.addBoard(c, Whiteboards.createDocument(id: "b2", title: "Second", owner: .local, now: now))
+            return c
+        }
+
+        @Test("adding a board makes it the active one")
+        func addActivates() {
+            #expect(two.activeBoardId == "b2")
+            #expect(two.boards.count == 2)
+        }
+
+        @Test("the last board cannot be removed")
+        func keepsOne() {
+            let one = Whiteboards.emptyCollection(now: Date())
+            #expect(Whiteboards.removeBoard(one, id: one.activeBoardId).boards.count == 1)
+        }
+
+        @Test("removing the active board moves focus to another")
+        func removeActive() {
+            let after = Whiteboards.removeBoard(two, id: "b2")
+            #expect(after.boards.count == 1)
+            #expect(after.activeBoardId == after.boards[0].id)
+        }
+
+        @Test("renaming to blank falls back rather than leaving an empty title")
+        func renameFallback() {
+            let renamed = Whiteboards.renameBoard(two, id: "b2", title: "   ", now: Date())
+            #expect(renamed.boards.first { $0.id == "b2" }?.title == "Untitled board")
+        }
+    }
+
     @Suite("Frames")
     struct Frames {
 

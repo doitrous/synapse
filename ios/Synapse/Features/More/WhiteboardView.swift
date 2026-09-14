@@ -51,6 +51,8 @@ struct WhiteboardView: View {
     @State private var currentStroke: [CGPoint] = []
     @State private var strokeInProgress = false
 
+    @State private var showBoards = false
+
     /// Session-only undo/redo, snapshots of the whole board — the same simple
     /// stack the web keeps, and cleared when the app closes.
     @State private var history: [BoardState] = []
@@ -77,6 +79,8 @@ struct WhiteboardView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItemGroup(placement: .topBarTrailing) {
+                Button { showBoards = true } label: { Image(systemName: "square.stack") }
+                    .tint(Theme.primary)
                 Menu {
                     Button { addNote() } label: { Label(strings("Note"), systemImage: "note.text") }
                     Button { addFrame() } label: { Label(strings("Section"), systemImage: "rectangle.dashed") }
@@ -104,6 +108,17 @@ struct WhiteboardView: View {
             } delete: {
                 Task { await deleteFrame(frame) }
             }
+            .localisedSheet()
+        }
+        .sheet(isPresented: $showBoards) {
+            BoardListSheet(
+                boards: collection.boards,
+                activeId: activeBoardId,
+                onSwitch: { switchBoard(to: $0) },
+                onCreate: { createBoard() },
+                onRename: { renameBoard($0, to: $1) },
+                onDelete: { deleteBoard($0) }
+            )
             .localisedSheet()
         }
         .task { await load() }
@@ -715,6 +730,55 @@ struct WhiteboardView: View {
         )
     }
 
+    // MARK: - Boards
+
+    private func writeCollection() {
+        Task { await sync.write(key: whiteboardCollectionKey, value: collection) }
+    }
+
+    private func adoptActiveBoard() {
+        board = Whiteboards.activeBoard(collection, now: Date()).state
+        history = []
+        future = []
+        selected = nil
+        selectedFrame = nil
+        linkingFrom = nil
+    }
+
+    private func switchBoard(to id: String) {
+        guard id != activeBoardId else { return }
+        collection.activeBoardId = id
+        activeBoardId = id
+        adoptActiveBoard()
+        writeCollection()
+    }
+
+    private func createBoard() {
+        let doc = Whiteboards.createDocument(
+            id: UUID().uuidString, title: strings("New board"), owner: .local, now: Date()
+        )
+        collection = Whiteboards.addBoard(collection, doc)
+        activeBoardId = doc.id
+        adoptActiveBoard()
+        writeCollection()
+    }
+
+    private func renameBoard(_ id: String, to title: String) {
+        collection = Whiteboards.renameBoard(collection, id: id, title: title, now: Date())
+        writeCollection()
+    }
+
+    private func deleteBoard(_ id: String) {
+        // The last board cannot be removed — the helper already refuses.
+        let wasActive = id == activeBoardId
+        collection = Whiteboards.removeBoard(collection, id: id)
+        if wasActive {
+            activeBoardId = collection.activeBoardId
+            adoptActiveBoard()
+        }
+        writeCollection()
+    }
+
     // MARK: - Storage
 
     private func load() async {
@@ -894,6 +958,84 @@ private struct FrameCard: View {
                 )
         )
         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+    }
+}
+
+/// The board switcher: list every board, switch, create, rename, delete.
+private struct BoardListSheet: View {
+    @Environment(\.strings) private var strings
+    @Environment(\.dismiss) private var dismiss
+    let boards: [WhiteboardDocument]
+    let activeId: String
+    let onSwitch: (String) -> Void
+    let onCreate: () -> Void
+    let onRename: (String, String) -> Void
+    let onDelete: (String) -> Void
+
+    @State private var renaming: WhiteboardDocument?
+    @State private var draftTitle = ""
+
+    var body: some View {
+        NavigationStack {
+            List {
+                ForEach(boards) { doc in
+                    Button {
+                        onSwitch(doc.id)
+                        dismiss()
+                    } label: {
+                        HStack {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(doc.title.isEmpty ? strings("Untitled board") : doc.title)
+                                    .font(Theme.ui(15))
+                                    .foregroundStyle(Theme.ink)
+                                Text("\(doc.state.notes.count) note\(doc.state.notes.count == 1 ? "" : "s")")
+                                    .font(Theme.numeric(11))
+                                    .foregroundStyle(Theme.ink3)
+                            }
+                            Spacer()
+                            if doc.id == activeId {
+                                Image(systemName: "checkmark").foregroundStyle(Theme.primary)
+                            }
+                        }
+                    }
+                    .swipeActions(edge: .trailing) {
+                        if boards.count > 1 {
+                            Button(role: .destructive) { onDelete(doc.id) } label: {
+                                Label(strings("Delete"), systemImage: "trash")
+                            }
+                        }
+                        Button { renaming = doc; draftTitle = doc.title } label: {
+                            Label(strings("Rename"), systemImage: "pencil")
+                        }
+                        .tint(Theme.primary)
+                    }
+                    .listRowBackground(Theme.surface)
+                }
+            }
+            .scrollContentBackground(.hidden)
+            .background(Theme.paper)
+            .navigationTitle(strings("Boards"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button(strings("Done")) { dismiss() }
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button { onCreate(); dismiss() } label: { Image(systemName: "plus") }
+                        .tint(Theme.primary)
+                }
+            }
+            .alert(strings("Rename board"), isPresented: Binding(
+                get: { renaming != nil }, set: { if !$0 { renaming = nil } }
+            )) {
+                TextField(strings("Board name"), text: $draftTitle)
+                Button(strings("Save")) {
+                    if let board = renaming { onRename(board.id, draftTitle) }
+                    renaming = nil
+                }
+                Button(strings("Cancel"), role: .cancel) { renaming = nil }
+            }
+        }
     }
 }
 
