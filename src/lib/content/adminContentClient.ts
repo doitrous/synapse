@@ -20,6 +20,9 @@ import { useCallback, useEffect, useState, type Dispatch, type SetStateAction } 
 import { API_MODE, apiGetIfChanged, apiPost } from '../api'
 import { errorKind, type StateErrorKind } from '../apiErrors'
 import { CONTENT_LEDGER_STORAGE_KEY, mediaRequestsOf, type ManagedContentItem } from '@/data/contentControl'
+import { queryContentIndex, type ContentListParams, type ContentListResponse } from '@/data/contentQuery'
+import type { ContentScope } from '@/data/contentScope'
+import type { University } from '@/data/universities'
 import { isStoredMediaReference } from '@/lib/mediaStorage'
 
 interface CacheEntry { etag: string | null; data: unknown }
@@ -291,6 +294,23 @@ export function useAdminContentIndex(): {
     [],
   )
   return { items: state.items, setItems, loading: state.loading, error: state.error }
+}
+
+/**
+ * One page of the Content dashboard — filtered/searched/faceted/paged server-side
+ * (`POST /admin/content/list`) so the browser never downloads the whole ledger.
+ * Demo mode runs the identical pipeline (`queryContentIndex`) over the local
+ * ledger, so the dashboard consumes one response shape either way. The catalogue
+ * and scope are only read on the demo path; the server loads its own and derives
+ * scope from the authenticated identity.
+ */
+export function fetchContentList(
+  params: ContentListParams,
+  catalogue: University[],
+  contentScope: ContentScope | null,
+): Promise<ContentListResponse> {
+  if (!API_MODE) return Promise.resolve(queryContentIndex(demoLedger(), params, catalogue, contentScope))
+  return apiPost<ContentListResponse>('/admin/content/list', params)
 }
 
 /**

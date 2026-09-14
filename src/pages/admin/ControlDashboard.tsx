@@ -31,12 +31,11 @@ import { ImagePlus,
 import type { Status } from '@/data/admin'
 import {
   CONTENT_KIND_LABEL,
+  CONTENT_LEDGER_STORAGE_KEY,
   initialManagedContent,
   type ContentKind,
   type ManagedContentItem,
-  itemInScope,
   isUniversitySourced,
-  matchesMediaRequestFilter,
   sourceLabel,
   type MediaRequestFilter,
 } from '@/data/contentControl'
@@ -53,7 +52,7 @@ import { Table, Th, Td, Tr } from '@/components/ui/Table'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Icon } from '@/components/ui/Icon'
 import { Checkbox } from '@/components/ui/Checkbox'
-import { partitionByReadiness, publishReadiness } from '@/data/publishReadiness'
+import { publishReadiness } from '@/data/publishReadiness'
 import { ContentEditorDialog, ConfirmDeleteDialog } from '@/components/admin/ContentEditorDialog'
 import { QuestionEditorDialog } from '@/components/admin/QuestionEditorDialog'
 import { LibraryArticleEditorDialog } from '@/components/admin/LibraryArticleEditorDialog'
@@ -67,10 +66,10 @@ import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
 import { usePersistentState, preloadState } from '@/lib/usePersistentState'
-import { useAdminContentIndex, fetchAdminItem, fetchAdminItems } from '@/lib/content/adminContentClient'
+import { fetchContentList, fetchAdminContentIndex, fetchAdminItem, fetchAdminItems } from '@/lib/content/adminContentClient'
 import { saveLedgerChanges, type LedgerItemChange } from '@/lib/content/adminLedgerWrite'
-import { errorKind } from '@/lib/apiErrors'
-import { useScopedItems } from '@/lib/useScopedContent'
+import { errorKind, type StateErrorKind } from '@/lib/apiErrors'
+import type { ContentListParams, ContentListResponse } from '@/data/contentQuery'
 import { LibraryTreeEditor } from '@/components/admin/LibraryTreeEditor'
 import { useIdentity } from '@/lib/useIdentity'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
@@ -85,9 +84,9 @@ import { contentModuleLabels } from '@/data/contentModules'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { BulkContentTagDialog } from '@/components/admin/BulkContentTagDialog'
-import { addContentTags, availableContentTags, contentTagsOf } from '@/data/contentTags'
+import { addContentTags, contentTagsOf } from '@/data/contentTags'
 import { FacetFilter, FacetChips } from '@/components/admin/FacetFilter'
-import { availableFacets, itemFacetTokens, itemMatchesFacets, facetKey, type Facet } from '@/data/contentFacets'
+import type { Facet } from '@/data/contentFacets'
 
 const KIND_ICON = {
   question: FileQuestion,
@@ -252,23 +251,18 @@ export function ControlDashboard({
   archiveControl = 'internal',
 }: ControlDashboardProps) {
   const activeScope = scope ?? questionScope
-  // The catalogue is read list-projected (heavy bodies dropped) so the dashboard
-  // no longer parses the whole ~60 MB ledger to render a list. `setItems` is a
-  // local optimistic setter; the durable write is an item-scoped delta below.
-  const { items: ledger, setItems, loading: ledgerLoading, error: ledgerError } = useAdminContentIndex()
-  // The save signal, now driven by the explicit delta writes below rather than the
-  // shared store: pending while a write is in flight, error/conflict when it was
-  // refused and the optimistic edit rolled back.
+  // The catalogue is filtered/searched/faceted/paged on the SERVER: the dashboard
+  // fetches one 50-item page plus the aggregates it renders, instead of downloading
+  // the whole ~77–251 MB ledger to filter it in the browser. `data` is that page +
+  // aggregates; a write patches the page optimistically and then refetches.
+  const [data, setData] = useState<ContentListResponse | null>(null)
+  const [ledgerLoading, setLedgerLoading] = useState(true)
+  const [ledgerError, setLedgerError] = useState<StateErrorKind | null>(null)
+  const [refreshNonce, setRefreshNonce] = useState(0)
+  const refresh = useCallback(() => setRefreshNonce((n) => n + 1), [])
+  // The save signal: pending while a delta write is in flight, error/conflict when
+  // it was refused and the optimistic edit rolled back.
   const [saveStatus, setSaveStatus] = useState<{ pending: boolean; error: boolean; conflict: boolean }>({ pending: false, error: false, conflict: false })
-  /**
-   * What this person may actually work on.
-   *
-   * Only the read is narrowed. Every write below takes the functional form —
-   * `setItems((current) => …)` — so it operates on the stored document rather
-   * than on this view, and a scoped reviewer saving a change cannot delete the
-   * content they were never shown.
-   */
-  const items = useScopedItems(ledger)
   const identity = useIdentity()
   const { contentScope } = identity
   // The concept graph is a large document the catalogue needs only inside an
@@ -289,8 +283,18 @@ export function ControlDashboard({
   const deferredQuery = useDeferredValue(query)
   const [facets, setFacets] = useState<Set<string>>(() => new Set())
   const [editorOpen, setEditorOpen] = useState(false)
-  // Pull the deferred concept graph the first time an editor opens.
-  useEffect(() => { if (editorOpen) preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph) }, [editorOpen])
+  // The editors' link pickers (related articles/resources/questions) need the whole
+  // catalogue as options — the list-projected index. Like the concept graph, it is
+  // only needed inside an editor, so it is fetched the first time one opens, not on
+  // tab load. The list itself is server-paged and never pulls this.
+  const [contentIndex, setContentIndex] = useState<ManagedContentItem[]>([])
+  useEffect(() => {
+    if (!editorOpen) return
+    preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph)
+    let live = true
+    fetchAdminContentIndex().then((res) => { if (live) setContentIndex(res.items) }).catch(() => {})
+    return () => { live = false }
+  }, [editorOpen])
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
   const [deleting, setDeleting] = useState<ManagedContentItem | null>(null)
   const [notice, setNotice] = useState<{ text: string; tone: 'success' | 'warning' } | null>(null)
@@ -337,152 +341,68 @@ export function ControlDashboard({
   const isArchiveView = archiveSplit && archiveView && !contentScope
   const activeUniversityId = activeScope?.universityId
   const activeYear = activeScope?.year
-  const scopedItems = useMemo(() => {
-    const byKind = lockedKind ? items.filter((item) => item.kind === activeKind) : items
-    if (!archiveSplit) return byKind
-    return byKind.filter((item) => isArchiveView ? item.status === 'Archived' : item.status !== 'Archived')
-  }, [activeKind, archiveSplit, isArchiveView, items, lockedKind])
-
-  const summaryItems = useMemo(() => scopedItems.filter((item) => {
-    if (isArchiveView || (!activeUniversityId && !activeYear)) return true
-    if (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology') return true
-    return itemInScope(item, activeUniversityId, activeYear)
-  }), [activeKind, activeUniversityId, activeYear, isArchiveView, scopedItems])
-
-  const counts = useMemo(() => ({
-    total: summaryItems.length,
-    published: summaryItems.filter((item) => item.status === 'Published').length,
-    review: summaryItems.filter((item) => item.status === 'In review').length,
-    drafts: summaryItems.filter((item) => item.status === 'Draft').length,
-  }), [summaryItems])
-
-  const kindCounts = useMemo(() => ({
-    question: items.filter((item) => item.kind === 'question').length,
-    article: items.filter((item) => item.kind === 'article').length,
-    practical: items.filter((item) => item.kind === 'practical').length,
-    resource: items.filter((item) => item.kind === 'resource').length,
-    deck: items.filter((item) => item.kind === 'deck').length,
-    essay: items.filter((item) => item.kind === 'essay').length,
-    histology: items.filter((item) => item.kind === 'histology').length,
-  }), [items])
-
-  const existingContentTags = useMemo(() => availableContentTags(items), [items])
-
-  // The kind's items, and each one's facet tokens (module + subject + tags),
-  // computed once per change rather than per keystroke of the filters below.
-  const kindItems = useMemo(() => items.filter((item) => item.kind === activeKind), [items, activeKind])
-  const facetIndex = useMemo(
-    () => new Map(kindItems.map((item) => [item.id, itemFacetTokens(item, catalogue)] as const)),
-    [kindItems, catalogue],
-  )
-  const facetGroups = useMemo(() => availableFacets(kindItems, catalogue), [kindItems, catalogue])
-  const facetFlags = useMemo<Facet[]>(
-    () => (kindItems.some((item) => facetIndex.get(item.id)?.has('flag:no-module'))
-      ? [{ type: 'flag', value: 'no-module', label: 'Needs module' }]
-      : []),
-    [kindItems, facetIndex],
-  )
-  const facetLabels = useMemo(() => {
-    const map = new Map<string, string>()
-    for (const facet of [...facetGroups.modules, ...facetGroups.subjects, ...facetGroups.tags, ...facetFlags]) {
-      map.set(facetKey(facet), facet.label)
-    }
-    return map
-  }, [facetGroups, facetFlags])
-  const kindArchivedCount = useMemo(() => kindItems.filter((item) => item.status === 'Archived').length, [kindItems])
-  const kindCurrentCount = kindItems.length - kindArchivedCount
-
-  const matching = useMemo(() => {
-    const normalized = deferredQuery.trim().toLowerCase()
-    return items
-      .filter((item) => item.kind === activeKind)
-      .filter((item) => !archiveSplit || (isArchiveView ? item.status === 'Archived' : item.status !== 'Archived'))
-      .filter((item) => status === 'All' || item.status === status)
-      .filter((item) => matchesMediaRequestFilter(item, mediaFilter))
-      .filter((item) => itemMatchesFacets(facetIndex.get(item.id) ?? new Set(), facets))
-      // Navigator scope (Master → university → year) for question & resource catalogues.
-      .filter((item) => {
-        if ((!activeUniversityId && !activeYear) || isArchiveView || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology')) return true
-        // Authored scope, not a hash of the item's id.
-        return itemInScope(item, activeUniversityId, activeYear)
-      })
-      .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')} ${[...(facetIndex.get(item.id) ?? [])].join(' ')}`.toLowerCase().includes(normalized))
-      .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
-  }, [activeKind, activeUniversityId, activeYear, archiveSplit, facetIndex, facets, isArchiveView, items, mediaFilter, deferredQuery, status])
-
-  /**
-   * Questions and practicals taken from a faculty's own papers are reviewed,
-   * retired, and re-licensed as the batch they arrived in, so the catalogue can be
-   * held to one origin at a time. Admin-only: no student view reads this.
-   */
   const [sourceTab, setSourceTab] = useState<'all' | 'university' | 'internal'>('all')
+  const [page, setPage] = useState(1)
+  const [resourceTab, setResourceTab] = useState<ResourceTab>('Files')
+  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const universityName = (id?: string) => catalogue.find((university) => university.id === id)?.short ?? id ?? 'University'
   const showsSourceTabs = activeKind === 'question' || activeKind === 'practical'
-  const sourceCounts = useMemo(() => ({
-    all: matching.length,
-    university: matching.filter(isUniversitySourced).length,
-    internal: matching.filter((item) => !isUniversitySourced(item)).length,
-  }), [matching])
 
-  const rows = useMemo(() => {
-    if (!showsSourceTabs || sourceTab === 'all') return matching
-    return matching.filter((item) => (sourceTab === 'university' ? isUniversitySourced(item) : !isUniversitySourced(item)))
-  }, [matching, showsSourceTabs, sourceTab])
+  // The list query. Everything below the page — filter, search (including question
+  // bodies again), facets, sort, pagination and the aggregates — is computed on the
+  // server. `matching` (every matching item's id + readiness across all pages) is
+  // requested only when a selection exists, to drive cross-page bulk actions.
+  const hasSelection = selected.size > 0
+  const params = useMemo<ContentListParams>(() => ({
+    kind: activeKind,
+    universityId: activeUniversityId,
+    year: activeYear,
+    status,
+    mediaFilter,
+    facets: [...facets],
+    query: deferredQuery,
+    sourceTab,
+    archiveSplit,
+    archiveView: isArchiveView,
+    page,
+    pageSize: PAGE_SIZE,
+    includeMatchingIds: hasSelection,
+  }), [activeKind, activeUniversityId, activeYear, status, mediaFilter, facets, deferredQuery, sourceTab, archiveSplit, isArchiveView, page, hasSelection])
 
-  /**
-   * One page of rows.
-   *
-   * The catalogue used to render every match — 219 questions is 219 rows and every
-   * editor button on all of them. Grouping happens after the slice, so a group shows
-   * what this page holds rather than reaching across pages.
-   */
-  const pageCount = Math.max(1, Math.ceil(rows.length / PAGE_SIZE))
-  const [page, setPage] = useState(1)
-  const currentPage = Math.min(page, pageCount)
-  const pageRows = useMemo(() => rows.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE), [rows, currentPage])
+  useEffect(() => {
+    let live = true
+    setLedgerLoading(true)
+    fetchContentList(params, catalogue, contentScope)
+      .then((res) => { if (live) { setData(res); setLedgerError(null); setLedgerLoading(false) } })
+      .catch((error) => { if (live) { setLedgerError(errorKind(error)); setLedgerLoading(false) } })
+    return () => { live = false }
+  }, [params, catalogue, contentScope, refreshNonce])
+
+  // Back to page 1 and clear the selection whenever the filters change.
   useEffect(() => {
     setPage(1)
     setSelected(new Set())
-  }, [activeKind, activeUniversityId, activeYear, isArchiveView, status, mediaFilter, query, sourceTab, facets])
+  }, [activeKind, activeUniversityId, activeYear, isArchiveView, status, mediaFilter, deferredQuery, sourceTab, facets])
 
-  /**
-   * Open the item a link asked for.
-   *
-   * Media Requests has always linked here with `?item=<id>`, and this page has
-   * always ignored it — so "go to the item" landed on the unfiltered catalogue and
-   * left you to find it. The id is consumed once and cleared, so a refresh or a
-   * back-navigation does not reopen the editor.
-   */
-  const [searchParams, setSearchParams] = useSearchParams()
-  const handledItemParam = useRef<string | null>(null)
-  useEffect(() => {
-    const wanted = searchParams.get('item')
-    if (!wanted || handledItemParam.current === wanted) return
-    const target = items.find((item) => item.id === wanted)
-    if (!target) {
-      // Items load asynchronously; only give up once there is a catalogue to miss in.
-      if (!items.length) return
-      handledItemParam.current = wanted
-      warn('That item is no longer in this catalogue.')
-    } else {
-      handledItemParam.current = wanted
-      setQuery(target.title)
-      void openEditor(target)
-    }
-    setSearchParams((current) => {
-      const next = new URLSearchParams(current)
-      next.delete('item')
-      return next
-    }, { replace: true })
-  }, [items, searchParams, setSearchParams])
-
-  const [resourceTab, setResourceTab] = useState<ResourceTab>('Files')
-  const resourceCounts = useMemo(() => ({
-    Files: rows.filter((r) => r.fields.Type !== 'Video').length,
-    Videos: rows.filter((r) => r.fields.Type === 'Video').length,
-  }), [rows])
+  const counts = data?.counts ?? { total: 0, published: 0, review: 0, drafts: 0 }
+  const kindCounts = data?.kindCounts ?? { question: 0, article: 0, practical: 0, resource: 0, deck: 0, essay: 0, histology: 0 }
+  const existingContentTags = data?.existingContentTags ?? []
+  const facetGroups = data?.facetGroups ?? { modules: [], subjects: [], tags: [] }
+  const facetFlags: Facet[] = data?.facetFlags ?? []
+  const facetLabels = data?.facetLabels ?? {}
+  const kindArchivedCount = data?.kindArchivedCount ?? 0
+  const kindCurrentCount = data?.kindCurrentCount ?? 0
+  const sourceCounts = data?.sourceCounts ?? { all: 0, university: 0, internal: 0 }
+  const resourceCounts = data?.resourceCounts ?? { Files: 0, Videos: 0 }
+  const reviewQueue = data?.reviewQueue ?? []
+  const archiveStats = data?.archiveStats ?? { previouslyPublished: 0, noModule: 0, operations: 0 }
+  const scopeHidden = data?.scopeHidden ?? 0
+  const matchingEntries = data?.matching ?? []
+  const totalMatching = data?.total ?? 0
+  const pageCount = data?.pageCount ?? 1
+  const currentPage = Math.min(page, pageCount)
+  const pageRows = data?.page ?? []
   const groups = useMemo(() => buildGroups(activeKind, pageRows, resourceTab), [activeKind, pageRows, resourceTab])
-  const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const toggleGroup = (key: string) =>
     setCollapsed((prev) => {
       const next = new Set(prev)
@@ -491,27 +411,46 @@ export function ControlDashboard({
       return next
     })
 
-  const reviewQueue = useMemo(
-    () => summaryItems.filter((item) => item.status === 'In review').sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime()).slice(0, 7),
-    [summaryItems],
-  )
+  // Open the item a `?item=<id>` link points at — fetched directly, since it may
+  // not be on the page in front of you. Consumed once and cleared.
+  const [searchParams, setSearchParams] = useSearchParams()
+  const handledItemParam = useRef<string | null>(null)
+  useEffect(() => {
+    const wanted = searchParams.get('item')
+    if (!wanted || handledItemParam.current === wanted) return
+    handledItemParam.current = wanted
+    fetchAdminItem(wanted)
+      .then((res) => {
+        if (res.item) { setQuery(res.item.title); setEditing(res.item); setEditorOpen(true) }
+        else warn('That item is no longer in this catalogue.')
+      })
+      .catch(() => warn('That item could not be loaded to edit. Try again.'))
+    setSearchParams((current) => {
+      const next = new URLSearchParams(current)
+      next.delete('item')
+      return next
+    }, { replace: true })
+  }, [searchParams, setSearchParams])
 
   /**
-   * Save an item-scoped delta and reflect it in the list at once. Only the named
-   * ids are ever sent, so nothing this tab did not touch can change or be deleted
-   * (server/src/stateMerge.js applyDelta). A refused save — a conflict, or any
-   * error — rolls the optimistic edit back and the indicator says which.
+   * Save an item-scoped delta and reflect it at once. Only the named ids are ever
+   * sent, so nothing this tab did not touch can change or be deleted
+   * (server/src/stateMerge.js applyDelta). `patchPage` updates the visible page
+   * optimistically for instant feedback; on success the page and every aggregate
+   * are refetched authoritatively, and on a refusal — a conflict or any error — the
+   * page rolls back and the indicator says which.
    */
-  async function persist(changes: LedgerItemChange[], optimistic: (list: ManagedContentItem[]) => ManagedContentItem[]) {
+  async function persist(changes: LedgerItemChange[], patchPage: (page: ManagedContentItem[]) => ManagedContentItem[]) {
     if (!changes.length) return
-    const snapshot = ledger
+    const snapshot = data
     setSaveStatus({ pending: true, error: false, conflict: false })
-    setItems(optimistic)
+    setData((current) => (current ? { ...current, page: patchPage(current.page) } : current))
     try {
       await saveLedgerChanges(changes)
       setSaveStatus({ pending: false, error: false, conflict: false })
+      refresh()
     } catch (error) {
-      setItems(() => snapshot)
+      setData(snapshot)
       const conflict = errorKind(error) === 'conflict'
       setSaveStatus({ pending: false, error: !conflict, conflict })
     }
@@ -542,7 +481,9 @@ export function ControlDashboard({
   }
 
   function saveItem(next: ManagedContentItem) {
-    const exists = items.some((item) => item.id === next.id)
+    // `editing` is the full item the editor opened on (openEditor/link fetched it);
+    // a genuinely new item opened via openNew has none, so this is a creation.
+    const exists = editing !== null && editing.id === next.id
     const verdict = publishReadiness(next)
     const accepted = next.status === 'Published' && verdict.hardBlocked
       ? { ...next, status: 'In review' as const, updatedAt: new Date().toISOString() }
@@ -585,11 +526,8 @@ export function ControlDashboard({
   // The field a group's topic label maps to: chapter for resources, Topic otherwise.
   const topicField = activeKind === 'resource' ? 'Chapter' : 'Topic'
 
-  // The topic/chapter label an item currently sits under.
-  const currentTopicLabel = (it: ManagedContentItem): string =>
-    it.fields[topicField]?.trim() || (activeKind === 'resource' ? it.resourceData?.chapters?.[0] : '') || (activeKind === 'resource' ? 'General' : 'Other')
   // Retag one item from oldLabel to newLabel — applied to the full item for the
-  // write and to the projected row for the optimistic list update.
+  // write and to the page row for the optimistic list update.
   const retagTopic = (it: ManagedContentItem, oldLabel: string, newLabel: string): ManagedContentItem => {
     const nextFields = { ...it.fields, [topicField]: newLabel }
     if (activeKind === 'resource' && it.resourceData) {
@@ -602,15 +540,17 @@ export function ControlDashboard({
   /** Rename a topic/chapter group: retag every item in it and rename the taxonomy node. */
   async function renameTopic(subjectId: string, oldLabel: string, newLabel: string) {
     if (!newLabel.trim() || newLabel === oldLabel) return
-    // Which items sit under the old label is decided from the projected list; the
-    // write then pulls their full items so each change carries an exact `before`.
-    const affected = new Set(
-      ledger.filter((it) => it.kind === activeKind && it.subjectId === subjectId && currentTopicLabel(it) === oldLabel).map((it) => it.id),
-    )
-    if (affected.size) {
-      const fulls = await fetchAdminItems([...affected])
+    // Which items sit under the old label spans every page, so ask the server for
+    // all of this kind's items (unfiltered by the current status/media/facet/search
+    // — matching the old whole-ledger scan), then pull the affected ones' full
+    // items so each change carries an exact `before`.
+    const all = await fetchContentList({ kind: activeKind, includeMatchingIds: true, pageSize: 1 }, catalogue, contentScope)
+    const affectedIds = (all.matching ?? []).filter((m) => m.subjectId === subjectId && m.topic === oldLabel).map((m) => m.id)
+    if (affectedIds.length) {
+      const idSet = new Set(affectedIds)
+      const fulls = await fetchAdminItems(affectedIds)
       const changes = fulls.map((full) => ({ id: full.id, before: full, after: retagTopic(full, oldLabel, newLabel) }))
-      await persist(changes, (current) => current.map((it) => (affected.has(it.id) ? retagTopic(it, oldLabel, newLabel) : it)))
+      await persist(changes, (current) => current.map((it) => (idSet.has(it.id) ? retagTopic(it, oldLabel, newLabel) : it)))
     }
     const topic = taxonomy.find((s) => s.id === subjectId)?.topics.find((t) => t.title === oldLabel)
     if (topic) setTaxonomy((tree) => renameTaxonomyNode(tree, 'topic', topic.id, newLabel))
@@ -639,19 +579,23 @@ export function ControlDashboard({
 
   /* ---- Bulk selection ---------------------------------------------------- */
 
-  // Selection spans the whole filtered set, so working through page by page and
-  // publishing once at the end does what it looks like it does. Select-all only
-  // ever claims the page in front of you.
-  const selectedItems = useMemo(() => rows.filter((item) => selected.has(item.id)), [rows, selected])
-  const readiness = useMemo(() => partitionByReadiness(selectedItems), [selectedItems])
-  const hardBlocked = readiness.blocked.filter((entry) => entry.hardBlocked)
-  const forceableBlocked = readiness.blocked.filter((entry) => !entry.hardBlocked)
-  const someShownSelected = selectedItems.length > 0
+  // Selection spans the whole filtered set across pages. `matchingEntries` (sent by
+  // the server whenever a selection exists) carries each matching item's status and
+  // readiness, so the bar's counts and the publish decision are correct across every
+  // page without downloading full items — those are pulled only at write time.
+  const selectedMatching = useMemo(() => matchingEntries.filter((m) => selected.has(m.id)), [matchingEntries, selected])
+  const readyEntries = selectedMatching.filter((m) => m.ready)
+  const liveEntries = selectedMatching.filter((m) => m.status === 'Published')
+  const blockedEntries = selectedMatching.filter((m) => !m.ready && m.status !== 'Published')
+  const hardBlocked = blockedEntries.filter((m) => m.hardBlocked)
+  const forceableBlocked = blockedEntries.filter((m) => !m.hardBlocked)
+  const selectedCount = selected.size
+  const someShownSelected = selectedCount > 0
   const allPageSelected = pageRows.length > 0 && pageRows.every((item) => selected.has(item.id))
   const somePageSelected = pageRows.some((item) => selected.has(item.id))
-  const allMatchingSelected = rows.length > 0 && rows.every((item) => selected.has(item.id))
+  const allMatchingSelected = matchingEntries.length > 0 && matchingEntries.every((m) => selected.has(m.id))
 
-  /** Selection only ever refers to rows the current filters actually show. */
+  /** Selection refers to item ids, and can span pages. */
   const setSelection = (ids: string[], on: boolean) =>
     setSelected((current) => {
       const next = new Set(current)
@@ -660,18 +604,17 @@ export function ControlDashboard({
     })
 
   /**
-   * Apply a status to every selected item in one write.
-   *
-   * An empty target list used to return in silence, leaving the selection sitting
-   * there and the admin with no idea whether anything had happened. It now says so.
+   * Apply a status to a set of ids in one write. Pulls each id's full item (the
+   * write's exact `before`) and reflects the change on the visible page at once.
+   * An empty set says so rather than sitting there silently.
    */
-  async function applyStatus(targets: ManagedContentItem[], status: Status, nothingToDo: string) {
-    if (!targets.length) { warn(nothingToDo); return }
-    const ids = new Set(targets.map((item) => item.id))
+  async function applyStatusIds(ids: string[], status: Status, nothingToDo: string) {
+    if (!ids.length) { warn(nothingToDo); return }
+    const idSet = new Set(ids)
     const at = new Date().toISOString()
-    const fulls = await fetchAdminItems([...ids])
+    const fulls = await fetchAdminItems(ids)
     const changes = fulls.map((full) => ({ id: full.id, before: full, after: { ...full, status, updatedAt: at } }))
-    await persist(changes, (current) => current.map((item) => (ids.has(item.id) ? { ...item, status, updatedAt: at } : item)))
+    await persist(changes, (current) => current.map((item) => (idSet.has(item.id) ? { ...item, status, updatedAt: at } : item)))
     setSelected((current) => {
       const next = new Set(current)
       ids.forEach((id) => next.delete(id))
@@ -680,32 +623,34 @@ export function ControlDashboard({
   }
 
   async function applyTags(tags: string[]) {
-    if (!selectedItems.length || !tags.length) {
+    if (!selectedCount || !tags.length) {
       warn('Choose at least one content item and one tag.')
       return
     }
+    // The page rows do not carry editorial tags, so which selected items are
+    // actually missing a tag is decided on their fetched full items.
     const additions = new Set(tags.map((tag) => tag.toLocaleLowerCase()))
-    const changedItems = selectedItems.filter((item) => {
-      const current = new Set(contentTagsOf(item).map((tag) => tag.toLocaleLowerCase()))
+    const fulls = await fetchAdminItems([...selected])
+    const changedItems = fulls.filter((full) => {
+      const current = new Set(contentTagsOf(full).map((tag) => tag.toLocaleLowerCase()))
       return [...additions].some((tag) => !current.has(tag))
     })
     if (!changedItems.length) {
       setBulkTagOpen(false)
-      warn(selectedItems.length === 1 ? 'That item already has every selected tag.' : 'Every selected item already has those tags.')
+      warn(selectedCount === 1 ? 'That item already has every selected tag.' : 'Every selected item already has those tags.')
       return
     }
     const ids = new Set(changedItems.map((item) => item.id))
     const at = new Date().toISOString()
-    const fulls = await fetchAdminItems([...ids])
-    const changes = fulls.map((full) => ({ id: full.id, before: full, after: addContentTags(full, tags, at) }))
+    const changes = changedItems.map((full) => ({ id: full.id, before: full, after: addContentTags(full, tags, at) }))
     await persist(changes, (current) => current.map((item) => ids.has(item.id) ? addContentTags(item, tags, at) : item))
     setSelected(new Set())
     setBulkTagOpen(false)
   }
 
   function publishSelected(includeBlocked: boolean) {
-    const targets = includeBlocked ? [...readiness.ready, ...forceableBlocked.map((entry) => entry.item)] : readiness.ready
-    applyStatus(targets, 'Published', 'Nothing to publish in this selection.')
+    const ids = (includeBlocked ? [...readyEntries, ...forceableBlocked] : readyEntries).map((m) => m.id)
+    applyStatusIds(ids, 'Published', 'Nothing to publish in this selection.')
     setForcePublish(false)
   }
 
@@ -715,15 +660,15 @@ export function ControlDashboard({
    * the whole job. A mixed selection still publishes the rest.
    */
   function onPublishPressed() {
-    if (readiness.ready.length > 0) { publishSelected(false); return }
+    if (readyEntries.length > 0) { publishSelected(false); return }
     if (forceableBlocked.length > 0) { setForcePublish(true); return }
     if (hardBlocked.length > 0) {
       warn(`${hardBlocked.length} selected ${hardBlocked.length === 1 ? 'item has' : 'items have'} required media still unresolved. Nothing was published.`)
       return
     }
-    warn(readiness.live.length === 1
+    warn(liveEntries.length === 1
       ? 'Nothing to publish — that item is already published. Nothing was changed.'
-      : `Nothing to publish — all ${readiness.live.length} selected items are already published. Nothing was changed.`)
+      : `Nothing to publish — all ${liveEntries.length} selected items are already published. Nothing was changed.`)
   }
 
   async function deleteItem() {
@@ -740,10 +685,10 @@ export function ControlDashboard({
 
   const summaryCards = isArchiveView
     ? [
-        [`Archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}`, summaryItems.length, 'Retired from every student surface', null],
-        ['Previously published', summaryItems.filter((item) => item.archive?.originalStatus === 'Published').length, 'Published state retained in the archive receipt', null],
-        ['No module assigned', summaryItems.filter((item) => contentModuleLabels(item, catalogue).length === 0).length, 'Expected until a real curriculum placement is chosen', 'Needs placement'],
-        ['Archive operations', new Set(summaryItems.map((item) => item.archive?.operationId).filter(Boolean)).size, 'Distinct immutable retirement receipts', null],
+        [`Archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}`, counts.total, 'Retired from every student surface', null],
+        ['Previously published', archiveStats.previouslyPublished, 'Published state retained in the archive receipt', null],
+        ['No module assigned', archiveStats.noModule, 'Expected until a real curriculum placement is chosen', 'Needs placement'],
+        ['Archive operations', archiveStats.operations, 'Distinct immutable retirement receipts', null],
       ] as const
     : [
         ['All content', counts.total, 'Every managed student item', null],
@@ -923,11 +868,11 @@ export function ControlDashboard({
             <FacetFilter groups={facetGroups} flags={facetFlags} selected={facets} onChange={setFacets} />
             <FacetChips
               selected={facets}
-              labelFor={(token) => facetLabels.get(token) ?? token.split(':').slice(1).join(':')}
+              labelFor={(token) => facetLabels[token] ?? token.split(':').slice(1).join(':')}
               onRemove={(token) => setFacets((current) => { const next = new Set(current); next.delete(token); return next })}
             />
             <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">
-              {rows.length === 0 ? '0 shown' : `${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, rows.length)} of ${rows.length}`}
+              {totalMatching === 0 ? '0 shown' : `${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, totalMatching)} of ${totalMatching}`}
             </span>
           </div>
 
@@ -938,10 +883,10 @@ export function ControlDashboard({
               structures, which are independent of the generated taxonomy. */}
           {lockedKind && activeKind === 'article' && <LibraryTreeEditor />}
 
-          {contentScope && ledger.length > items.length && (
+          {contentScope && scopeHidden > 0 && (
             <p className="border-b border-line bg-inset px-4 py-2 text-[11.5px] leading-relaxed text-ink-2">
               You are seeing the {CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} in the modules and years assigned
-              to your account. {ledger.length - items.length} other item{ledger.length - items.length === 1 ? ' is' : 's are'} hidden.
+              to your account. {scopeHidden} other item{scopeHidden === 1 ? ' is' : 's are'} hidden.
               Ask a super admin or an editor to widen your scope.
             </p>
           )}
@@ -951,20 +896,20 @@ export function ControlDashboard({
           {someShownSelected && (
             <div className="sticky top-0 z-20 flex flex-wrap items-center gap-2 border-b border-primary-line bg-primary-tint/70 px-4 py-2.5 backdrop-blur">
               <span className="text-[12.5px] font-semibold text-primary-strong">
-                {selectedItems.length} selected
+                {selectedCount} selected
               </span>
               <span className="text-[12px] text-ink-2">
                 {isArchiveView
                   ? 'Add editorial tags without changing archive status'
                   : <>
-                      {readiness.ready.length} of {selectedItems.length} can publish
-                      {readiness.live.length > 0 && ` · ${readiness.live.length} already published`}
-                      {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
+                      {readyEntries.length} of {selectedCount} can publish
+                      {liveEntries.length > 0 && ` · ${liveEntries.length} already published`}
+                      {blockedEntries.length > 0 && ` · ${blockedEntries.length} blocked`}
                     </>}
               </span>
-              {!allMatchingSelected && rows.length > selectedItems.length && (
-                <Button variant="ghost" size="sm" onClick={() => setSelection(rows.map((item) => item.id), true)}>
-                  Select all {rows.length} matching
+              {!allMatchingSelected && totalMatching > selectedCount && (
+                <Button variant="ghost" size="sm" onClick={() => setSelection(matchingEntries.map((m) => m.id), true)}>
+                  Select all {totalMatching} matching
                 </Button>
               )}
               <div className="ms-auto flex flex-wrap items-center gap-2">
@@ -981,15 +926,15 @@ export function ControlDashboard({
                       iconLeft={CircleCheck}
                       onClick={onPublishPressed}
                     >
-                      {readiness.ready.length > 0
-                        ? `Publish ${readiness.ready.length}`
-                        : readiness.blocked.length > 0
-                          ? `Review ${readiness.blocked.length} blocked`
+                      {readyEntries.length > 0
+                        ? `Publish ${readyEntries.length}`
+                        : blockedEntries.length > 0
+                          ? `Review ${blockedEntries.length} blocked`
                           : 'Already published'}
                     </Button>
-                    <Button variant="secondary" size="sm" iconLeft={EyeOff} onClick={() => applyStatus(selectedItems.filter((item) => item.status === 'Published'), 'In review', 'No selected item is currently published.')}>Unpublish</Button>
-                    <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'Every selected item is already in review.')}>Send for review</Button>
-                    <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'Every selected item is already archived.')}>Archive</Button>
+                    <Button variant="secondary" size="sm" iconLeft={EyeOff} onClick={() => applyStatusIds(liveEntries.map((m) => m.id), 'In review', 'No selected item is currently published.')}>Unpublish</Button>
+                    <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatusIds(selectedMatching.filter((m) => m.status !== 'In review').map((m) => m.id), 'In review', 'Every selected item is already in review.')}>Send for review</Button>
+                    <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatusIds(selectedMatching.filter((m) => m.status !== 'Archived').map((m) => m.id), 'Archived', 'Every selected item is already archived.')}>Archive</Button>
                   </>
                 )}
                 <Button variant="ghost" size="sm" onClick={() => setSelected(new Set())}>Clear</Button>
@@ -1190,7 +1135,7 @@ export function ControlDashboard({
                   </Fragment>
                 )
               })}
-              {rows.length === 0 && (
+              {totalMatching === 0 && (
                 <tr>
                   <td colSpan={6} className="px-4 py-14 text-center">
                     <Icon icon={ledgerError ? Flag : Search} size={20} className="mx-auto text-ink-3" />
@@ -1208,7 +1153,7 @@ export function ControlDashboard({
                 Page {currentPage} of {pageCount}
               </span>
               {someShownSelected && (
-                <span className="text-[11.5px] text-primary-strong">{selectedItems.length} selected across all pages</span>
+                <span className="text-[11.5px] text-primary-strong">{selectedCount} selected across all pages</span>
               )}
               <div className="ms-auto flex items-center gap-1.5">
                 <Button variant="secondary" size="sm" iconLeft={ChevronLeft} disabled={currentPage <= 1} onClick={() => setPage(currentPage - 1)}>Previous</Button>
@@ -1252,17 +1197,20 @@ export function ControlDashboard({
           {!API_MODE && <Panel className="p-4">
             <div className="flex items-center gap-2"><Icon icon={RotateCcw} size={15} className="text-ink-3" /><p className="text-[12.5px] font-medium text-ink">Prototype data</p></div>
             <p className="mt-2 text-[11.5px] leading-relaxed text-ink-3">Content changes persist in this browser. Reset only when you want to restore the original student catalogue.</p>
-            <Button variant="secondary" size="sm" className="mt-3 w-full" onClick={() => { setItems(initialManagedContent()); say('Original content catalogue restored.') }}>Restore original catalogue</Button>
+            <Button variant="secondary" size="sm" className="mt-3 w-full" onClick={() => {
+              try { localStorage.setItem(CONTENT_LEDGER_STORAGE_KEY, JSON.stringify(initialManagedContent())) } catch { /* private browsing */ }
+              refresh(); say('Original content catalogue restored.')
+            }}>Restore original catalogue</Button>
           </Panel>}
         </div>
       </div>
 
       {activeKind === 'question' ? (
-        <QuestionEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={items} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+        <QuestionEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={contentIndex} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'article' ? (
-        <LibraryArticleEditorDialog open={editorOpen} item={editing} contentItems={items} graph={conceptGraph} onGraphChange={setConceptGraph} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+        <LibraryArticleEditorDialog open={editorOpen} item={editing} contentItems={contentIndex} graph={conceptGraph} onGraphChange={setConceptGraph} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'practical' && editing?.fields.Type !== 'Skills checklist' ? (
-        <PracticalEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={items} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
+        <PracticalEditorDialog open={editorOpen} item={editing} concepts={conceptGraph} contentItems={contentIndex} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'resource' ? (
         <ResourceEditorDialog open={editorOpen} item={editing} onClose={() => { setEditorOpen(false); setEditing(null) }} onSave={saveItem} />
       ) : activeKind === 'deck' ? (
@@ -1285,15 +1233,15 @@ export function ControlDashboard({
               <div className="min-w-0">
                 <h2 id="force-publish-title" className="font-serif text-[18px] font-semibold text-ink">Publish without student-visible content?</h2>
                 <p className="mt-2 text-[13px] leading-relaxed text-ink-2">
-                  {forceableBlocked.length} of the {selectedItems.length} selected {selectedItems.length === 1 ? 'item has' : 'items have'} no
+                  {forceableBlocked.length} of the {selectedCount} selected {selectedCount === 1 ? 'item has' : 'items have'} no
                   verified content to show. Published now, {forceableBlocked.length === 1 ? 'it' : 'they'} will appear in the student library as a
                   title and summary with an empty body.
                 </p>
                 <ul className="mt-3 max-h-40 space-y-1 overflow-y-auto rounded-lg border border-line bg-surface-2/50 p-2.5">
-                  {forceableBlocked.slice(0, 8).map(({ item, reason }) => (
-                    <li key={item.id} className="flex items-center gap-2 text-[12px] text-ink-2">
-                      <span className="min-w-0 flex-1 truncate">{item.title}</span>
-                      <span className="shrink-0 font-medium text-warning">{reason}</span>
+                  {forceableBlocked.slice(0, 8).map((entry) => (
+                    <li key={entry.id} className="flex items-center gap-2 text-[12px] text-ink-2">
+                      <span className="min-w-0 flex-1 truncate">{entry.title}</span>
+                      <span className="shrink-0 font-medium text-warning">{entry.reason}</span>
                     </li>
                   ))}
                   {forceableBlocked.length > 8 && <li className="text-[11.5px] text-ink-3">…and {forceableBlocked.length - 8} more</li>}
@@ -1311,7 +1259,7 @@ export function ControlDashboard({
       <ConfirmDeleteDialog item={deleting} onClose={() => setDeleting(null)} onConfirm={deleteItem} />
       <BulkContentTagDialog
         open={bulkTagOpen}
-        itemCount={selectedItems.length}
+        itemCount={selectedCount}
         existingTags={existingContentTags}
         onClose={closeBulkTagDialog}
         onApply={applyTags}

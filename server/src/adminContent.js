@@ -26,6 +26,7 @@ import { requireConsole } from './auth.js'
 import { countsFor } from './studentContent.js'
 import { collectMediaRequests } from './mediaRequestPolicy.js'
 import { toIndexItem } from './adminContentProject.js'
+import { adminContentListHandler } from './adminContentList.js'
 
 export { toIndexItem }
 
@@ -208,4 +209,5 @@ export function registerAdminContentRoutes(app) {
   app.get('/api/admin/content/stranded-media', requireConsole, wrap(adminStrandedMediaHandler))
   app.get('/api/admin/content/index', requireConsole, wrap(adminContentIndexHandler))
   app.post('/api/admin/content/items', requireConsole, wrap(adminContentItemsHandler))
+  app.post('/api/admin/content/list', requireConsole, wrap(adminContentListHandler))
 }
