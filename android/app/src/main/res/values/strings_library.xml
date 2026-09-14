@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/library — localized strings for the Library shelf, taxonomy/atlas
+         browse, and article reader chrome (EN/AR). Article/chapter/node titles and
+         body content come from the synced content ledger and are never localized. -->
+
+    <string name="library_loading">Loading…</string>
+    <string name="library_title">Library</string>
+
+    <!-- LibraryShelf. -->
+    <string name="library_browse_by_module_year">Browse by module &amp; year</string>
+    <string name="library_all_articles">All articles</string>
+    <string name="library_empty_message">Published articles appear here once they are released.</string>
+
+    <!-- friendlyScopeLabel — module:/year: scope ids turned into a chrome label. -->
+    <string name="library_module_label_format">Module %1$s</string>
+    <string name="library_year_label_format">Year %1$s</string>
+
+    <plurals name="library_article_count">
+        <item quantity="one">%1$d article</item>
+        <item quantity="other">%1$d articles</item>
+    </plurals>
+
+    <!-- TreePane. -->
+    <string name="library_tree_empty_message">Nothing is filed here yet.</string>
+    <string name="library_articles_here">Articles here</string>
+
+    <!-- BackHeader / ArticleRow. -->
+    <string name="library_back_description">Back</string>
+    <string name="library_read_description">Read</string>
+
+    <!-- ArticleReaderPane. -->
+    <string name="library_mark_as_read">Mark as read</string>
+    <string name="library_marked_as_read">Marked as read</string>
+    <string name="library_key_points">Key points</string>
+    <string name="library_exam_traps">Where people lose the mark</string>
+
+    <plurals name="library_linked_questions">
+        <item quantity="one">%1$d linked question in the question bank.</item>
+        <item quantity="other">%1$d linked questions in the question bank.</item>
+    </plurals>
+
+    <string name="library_your_tags">Your tags</string>
+    <string name="library_remove_tag_description">Remove tag</string>
+    <string name="library_add_tag_label">Add a tag</string>
+    <string name="library_add">Add</string>
+</resources>

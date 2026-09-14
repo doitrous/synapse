@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/library — Arabic strings. Vocabulary mirrors the web app's
+         src/data/i18n-ar.ts Library section (المكتبة, وسومك, أضف وسمًا…,
+         تم وضع علامة مقروء, وضع علامة مقروء, حيث يخسر الطلاب الدرجة) and
+         shared terms (Add/إضافة, Back/رجوع, سؤال/أسئلة). -->
+
+    <string name="library_loading">جارٍ التحميل…</string>
+    <string name="library_title">المكتبة</string>
+
+    <!-- LibraryShelf. -->
+    <string name="library_browse_by_module_year">تصفّح حسب الوحدة والسنة</string>
+    <string name="library_all_articles">كل المقالات</string>
+    <string name="library_empty_message">تظهر المقالات المنشورة هنا فور إصدارها.</string>
+
+    <!-- friendlyScopeLabel — module:/year: scope ids turned into a chrome label. -->
+    <string name="library_module_label_format">الوحدة %1$s</string>
+    <string name="library_year_label_format">السنة %1$s</string>
+
+    <plurals name="library_article_count">
+        <item quantity="zero">لا مقالات</item>
+        <item quantity="one">مقال واحد</item>
+        <item quantity="two">مقالان</item>
+        <item quantity="few">%1$d مقالات</item>
+        <item quantity="many">%1$d مقالة</item>
+        <item quantity="other">%1$d مقال</item>
+    </plurals>
+
+    <!-- TreePane. -->
+    <string name="library_tree_empty_message">لا يوجد شيء مصنَّف هنا بعد.</string>
+    <string name="library_articles_here">المقالات هنا</string>
+
+    <!-- BackHeader / ArticleRow. -->
+    <string name="library_back_description">رجوع</string>
+    <string name="library_read_description">مقروء</string>
+
+    <!-- ArticleReaderPane. -->
+    <string name="library_mark_as_read">وضع علامة مقروء</string>
+    <string name="library_marked_as_read">تم وضع علامة مقروء</string>
+    <string name="library_key_points">أهم النقاط</string>
+    <string name="library_exam_traps">حيث يخسر الطلاب الدرجة</string>
+
+    <plurals name="library_linked_questions">
+        <item quantity="zero">لا أسئلة مرتبطة في بنك الأسئلة.</item>
+        <item quantity="one">سؤال واحد مرتبط في بنك الأسئلة.</item>
+        <item quantity="two">سؤالان مرتبطان في بنك الأسئلة.</item>
+        <item quantity="few">%1$d أسئلة مرتبطة في بنك الأسئلة.</item>
+        <item quantity="many">%1$d سؤالًا مرتبطًا في بنك الأسئلة.</item>
+        <item quantity="other">%1$d سؤال مرتبط في بنك الأسئلة.</item>
+    </plurals>
+
+    <string name="library_your_tags">وسومك</string>
+    <string name="library_remove_tag_description">إزالة الوسم</string>
+    <string name="library_add_tag_label">أضف وسمًا</string>
+    <string name="library_add">إضافة</string>
+</resources>
