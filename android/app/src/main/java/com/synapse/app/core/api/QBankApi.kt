@@ -37,6 +37,19 @@ interface QBankApi {
 
     /** Raw bytes for one media asset, by its (already sha-derived) id. Caller closes the body. */
     suspend fun getMedia(id: String): ResponseBody
+
+    /**
+     * Raw bytes for one source document from the resources library
+     * (`GET /api/medical-resources/:id`), by its id. Caller closes the body.
+     *
+     * Defaulted rather than added to every existing [QBankApi] fake: this is
+     * a distinct endpoint from [getMedia] (a different storage root, and the
+     * server transparently 302s to an external host when the resource has no
+     * stored bytes), so a test double that never opens a resource document
+     * needs no changes to keep compiling.
+     */
+    suspend fun getMedicalResource(id: String): ResponseBody =
+        throw UnsupportedOperationException("getMedicalResource not implemented")
 }
 
 /**
@@ -85,11 +98,16 @@ class RetrofitQBankApi(
 
     override suspend fun getMedia(id: String): ResponseBody = call { service.getMedia(bearer(), id) }
 
+    override suspend fun getMedicalResource(id: String): ResponseBody = call { service.getMedicalResource(bearer(), id) }
+
     private interface Service {
         @POST("qbank/attempts")
         suspend fun postAttempts(@Header("Authorization") auth: String, @Body body: VerifiedAttemptsBody): ResponseBody
 
         @GET("media/{id}")
         suspend fun getMedia(@Header("Authorization") auth: String, @Path("id") id: String): ResponseBody
+
+        @GET("medical-resources/{id}")
+        suspend fun getMedicalResource(@Header("Authorization") auth: String, @Path("id") id: String): ResponseBody
     }
 }
