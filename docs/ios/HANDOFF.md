@@ -1,14 +1,23 @@
 # iOS port — HANDOFF
 
-Masterbrain handoff for the native iOS student app (Connect Cortex). Admin stays web; this is the student portal only.
+Masterbrain handoff for the native iOS student app (**nishany**). Admin stays web; this is the student portal only.
+
+## Production release track (approved plan: `~/.claude/plans/rippling-tumbling-bonbon.md`)
+Full-parity + social production App Store release. Phase 0 (correctness blockers) status:
+- **0.1 sync-key rebrand** `synapse.*`→`nishany.*` — DONE (staleness sync restored).
+- **0.2 402 / paywall** — DONE (`APIError.paymentRequired`, `PaywallView`, `SyncEngine.subscriptionRequired`, `fullScreenCover` over paid tabs).
+- **0.4 nishany build identity** — DONE (main already carried `com.nishany.app` / "Nishany"; my redundant rebrand reconciled during the rebase).
+- **0.5a video→external-open**, **0.5b QBank offline cold-launch cache (G2)** — DONE (+ `LocalStore` v3-userdoc migration, `QBankOfflineTests`).
+- **0.3 production repoint** (prod Supabase creds) — DEFERRED to last; needs Omar's prod creds + a non-test login.
+- **Rebased onto `origin/main` @ cd6319a19** (2026-09-14): 28 iOS commits replayed, my 0.4 taken as `--ours`/reconciled, force-pushed-with-lease. 646 tests green. Next: Phase 1 (complete existing surfaces) → 2 (new study screens) → 3 (social/native voice) → 4 (IA+launch). Note main already shipped a Today-tab redesign that supersedes part of the Phase 4 IA plan.
 
 ## Where the work lives
 - Branch: **`claude/cortex-ios-port-79b661`** (pushed to origin). **Push is over SSH**: the remote is `git@github.com:omary98/synapse.git` and the account's key is `~/.ssh/id_hetzner` — a non-default name that is *not* loaded in the agent, so a bare `git push` fails with `Permission denied (publickey)`. Push with `GIT_SSH_COMMAND='ssh -i ~/.ssh/id_hetzner -o IdentitiesOnly=yes' git push origin <branch>`, or have Omar run `ssh-add ~/.ssh/id_hetzner` once. iOS app in `ios/`, web reference in `src/`, Express API in `server/`.
 - Build in a **dedicated worktree**, not the main checkout (content lanes reset it). This branch touches only `ios/` and `docs/ios/` — content lanes touch `docs/`, `scripts/kasr/`, batches — so a rebase onto `origin/main` is clean.
 
 ## Baseline / how to build + test
-- **iOS: 633 tests pass** (was 507). Server: 385 pass.
-- Build+test: `xcodebuild test -project ios/Synapse.xcodeproj -scheme Synapse -destination 'platform=iOS Simulator,name=iPhone 17'`. **Never pass `CODE_SIGNING_ALLOWED=NO`** (breaks Keychain → silent 401). ~1–4 min.
+- **iOS: 646 tests pass** (was 633). Server: 385 pass.
+- Build+test: `xcodebuild test -project ios/Synapse.xcodeproj -scheme Synapse -destination 'platform=iOS Simulator,id=643D5D39-4A1F-469B-AEDA-5AFDDE97BCAE'` (sim **Nishany-QA**, OS 26.5; there is no "iPhone 17" sim on this machine). **Never pass `CODE_SIGNING_ALLOWED=NO`** (breaks Keychain → silent 401). ~1–4 min.
 - `Secrets.xcconfig`: copy from the main checkout (`cp <main>/ios/Config/Secrets.xcconfig ios/Config/`). node_modules + `server/node_modules`: symlink to the main checkout.
 - Sim login: **q@hotmail.com / 000000**.
 
