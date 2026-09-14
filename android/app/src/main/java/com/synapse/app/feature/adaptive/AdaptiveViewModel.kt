@@ -1,7 +1,10 @@
 package com.synapse.app.feature.adaptive
 
+import androidx.annotation.PluralsRes
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.adaptive.AdaptiveConfig
 import com.synapse.app.core.adaptive.AdaptiveEvidenceEvent
 import com.synapse.app.core.adaptive.AdaptiveItem
@@ -56,8 +59,20 @@ data class AdaptiveStudy(
 /** What the "Build a block" / "Start assessment" CTA on the Today tab would do, once wired. */
 enum class RecommendationCta { PRACTICE, READINESS }
 
+/**
+ * A [Recommendation] title, resolved to text only at the composable — plain
+ * [StringRes] and [PluralsRes] resources carry no language-specific grammar
+ * (Arabic plural agreement in particular) themselves, so the variant decides
+ * which resolver (`stringResource`/`pluralStringResource`) applies.
+ */
+sealed interface RecommendationTitle {
+    data class Text(@StringRes val res: Int) : RecommendationTitle
+    data class Counted(@PluralsRes val res: Int, val count: Int) : RecommendationTitle
+    data class Formatted(@StringRes val res: Int, val arg: Int) : RecommendationTitle
+}
+
 /** One recommended next action and the reason for it. Port of web's `Today.tsx` `nextAction`. */
-data class Recommendation(val title: String, val body: String, val cta: RecommendationCta?)
+data class Recommendation(val title: RecommendationTitle, @StringRes val bodyRes: Int, val cta: RecommendationCta?)
 
 /** What [AdaptiveScreen] renders. */
 sealed interface AdaptiveUiState {
@@ -153,7 +168,11 @@ class AdaptiveViewModel @Inject constructor(
             shares = shares,
             overrides = overrides,
             readiness = readiness,
-            recommendation = Recommendation("", "", null),
+            recommendation = Recommendation(
+                title = RecommendationTitle.Text(R.string.adaptive_recommendation_start_block_title),
+                bodyRes = R.string.adaptive_recommendation_start_block_body,
+                cta = null,
+            ),
         )
         return withoutRecommendation.copy(recommendation = recommendation(withoutRecommendation))
     }
@@ -186,15 +205,15 @@ fun statusCounts(states: Map<String, ConceptState>, conceptIds: List<String>): M
 private fun recommendation(study: AdaptiveStudy): Recommendation {
     if (study.blueprintNodes.isEmpty()) {
         return Recommendation(
-            title = "Nothing on your blueprint yet",
-            body = "No concepts are in scope for your university and year, so there is nothing to select from. This is a content gap, not a gap in your work.",
+            title = RecommendationTitle.Text(R.string.adaptive_recommendation_no_blueprint_title),
+            bodyRes = R.string.adaptive_recommendation_no_blueprint_body,
             cta = null,
         )
     }
     if (study.items.isEmpty()) {
         return Recommendation(
-            title = "No approved questions in scope",
-            body = "Your blueprint exists, but no published questions match your university, year and modules yet.",
+            title = RecommendationTitle.Text(R.string.adaptive_recommendation_no_items_title),
+            bodyRes = R.string.adaptive_recommendation_no_items_body,
             cta = null,
         )
     }
@@ -205,36 +224,36 @@ private fun recommendation(study: AdaptiveStudy): Recommendation {
 
     if (due > 0) {
         return Recommendation(
-            title = "$due concept${if (due == 1) "" else "s"} due for review",
-            body = "These were secure, and enough time has passed that they are worth checking before they fade.",
+            title = RecommendationTitle.Counted(R.plurals.adaptive_recommendation_due_title, due),
+            bodyRes = R.string.adaptive_recommendation_due_body,
             cta = RecommendationCta.PRACTICE,
         )
     }
     if (weak > 0) {
         return Recommendation(
-            title = "$weak weak concept${if (weak == 1) "" else "s"} to repair",
-            body = "Repeated evidence across different questions points to real gaps here. The next block will oversample them while still covering your blueprint.",
+            title = RecommendationTitle.Counted(R.plurals.adaptive_recommendation_weak_title, weak),
+            bodyRes = R.string.adaptive_recommendation_weak_body,
             cta = RecommendationCta.PRACTICE,
         )
     }
     if (study.readiness == null && study.events.size > 40) {
         return Recommendation(
-            title = "Time for a readiness assessment",
-            body = "You have enough practice behind you to measure where you stand. Practice accuracy will not tell you — adaptive blocks deliberately oversample your weak areas.",
+            title = RecommendationTitle.Text(R.string.adaptive_recommendation_readiness_title),
+            bodyRes = R.string.adaptive_recommendation_readiness_body,
             cta = RecommendationCta.READINESS,
         )
     }
     if (study.coverage.uncoveredWeight > 0.2) {
-        val pct = Math.round(study.coverage.uncoveredWeight * 100)
+        val pct = Math.round(study.coverage.uncoveredWeight * 100).toInt()
         return Recommendation(
-            title = "$pct% of your blueprint is unpractised",
-            body = "The next block will weight coverage more heavily so the untouched areas start being measured.",
+            title = RecommendationTitle.Formatted(R.string.adaptive_recommendation_uncovered_title, pct),
+            bodyRes = R.string.adaptive_recommendation_uncovered_body,
             cta = RecommendationCta.PRACTICE,
         )
     }
     return Recommendation(
-        title = "Start a block",
-        body = "Nothing is overdue and no confirmed weakness is outstanding. The next block will balance review with the parts of your blueprint that have the least evidence behind them.",
+        title = RecommendationTitle.Text(R.string.adaptive_recommendation_start_block_title),
+        bodyRes = R.string.adaptive_recommendation_start_block_body,
         cta = RecommendationCta.PRACTICE,
     )
 }

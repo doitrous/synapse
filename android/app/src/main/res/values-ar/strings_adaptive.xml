@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tabs (AdaptiveScreen). -->
+    <string name="adaptive_tab_today">اليوم</string>
+    <string name="adaptive_tab_practice">التدريب</string>
+    <string name="adaptive_tab_readiness">الجاهزية</string>
+    <string name="adaptive_tab_concepts">المفاهيم</string>
+    <string name="adaptive_tab_plan">التخطيط</string>
+    <string name="adaptive_tab_how_it_works">كيف يعمل هذا</string>
+
+    <string name="adaptive_loading">جارٍ التحميل…</string>
+    <string name="adaptive_coming_soon">قريبًا.</string>
+
+    <!-- Deferred tabs. -->
+    <string name="adaptive_practice_deferred_body">تُبنى الكتل عبر خوارزمية اختيار ذات قيود مرنة (التنوّع، مزيج الصعوبة، حدود التكرار) لم تصل بعد إلى أندرويد. تبويب اليوم يعرض لك بالفعل ما كانت الكتلة ستُعطيه الأولوية.</string>
+    <string name="adaptive_readiness_deferred_body">تقييمات الجاهزية جلسات مؤقّتة ومتوازنة وفق المخطط، تُبنى من أسئلة محجوزة عن التدريب. مسار هذه الجلسة لم يصل بعد إلى أندرويد.</string>
+    <string name="adaptive_plan_deferred_body">مُجدوِل خطة الدراسة الأسبوعية لم يُنقل بعد إلى هذا التطبيق.</string>
+
+    <!-- Today tab. -->
+    <string name="adaptive_recommended_next">التالي الموصى به</string>
+    <string name="adaptive_at_a_glance">نظرة سريعة</string>
+    <string name="adaptive_not_yet">ليس بعد</string>
+    <string name="adaptive_readiness_from_held_out">من %1$d سؤال محجوز</string>
+    <string name="adaptive_readiness_measured_separately">تُقاس بشكل منفصل، من أسئلة محجوزة عن التدريب.</string>
+    <string name="adaptive_blueprint_covered_label">المغطّى من المخطط</string>
+    <string name="adaptive_weak_concepts_label">المفاهيم الضعيفة</string>
+    <string name="adaptive_due_for_review_label">مستحقّ للمراجعة</string>
+    <string name="adaptive_blueprint_coverage_title">تغطية المخطط</string>
+    <string name="adaptive_next_block_title">ما ستحتويه كتلتك التالية</string>
+    <string name="adaptive_share_weakness">الضعف</string>
+    <string name="adaptive_share_coverage">التغطية</string>
+    <string name="adaptive_share_review">المراجعة</string>
+    <string name="adaptive_share_uncertainty">عدم اليقين</string>
+    <string name="adaptive_allocation_note">هذه أهداف توزيع، وليست مجموعات منفصلة. كثيرًا ما يلبّي سؤال واحد عدة أهداف في آنٍ واحد ويشغل خانة واحدة فقط.</string>
+    <string name="adaptive_wrong_vs_weak_heading">تُحسب الإجابات الخاطئة والمفاهيم الضعيفة بشكل مختلف</string>
+    <string name="adaptive_wrong_vs_weak_body">إذا أجبت خطأً عن ثلاثة أسئلة وكانت الثلاثة تختبر بشكل أساسي المفهوم نفسه، فهذا يُسجَّل كثلاث محاولات خاطئة ومفهوم ضعيف واحد على الأكثر. تُحفظ كل الأخطاء — فهي تجعل إصلاح ذلك المفهوم أكثر إلحاحًا — لكنها لا تُنشئ ثلاث نقاط ضعف منفصلة. لهذا يكون عدد الإجابات الخاطئة التي تتذكّرها أكبر عادةً من عدد المفاهيم الضعيفة المعروضة.</string>
+
+    <plurals name="adaptive_concepts_untouched_count">
+        <item quantity="zero">لا مفاهيم غير ممسوسة</item>
+        <item quantity="one">مفهوم واحد غير ممسوس</item>
+        <item quantity="two">مفهومان غير ممسوسين</item>
+        <item quantity="few">%1$d مفاهيم غير ممسوسة</item>
+        <item quantity="many">%1$d مفهومًا غير ممسوس</item>
+        <item quantity="other">%1$d مفهوم غير ممسوس</item>
+    </plurals>
+    <plurals name="adaptive_wrong_answers_recorded_count">
+        <item quantity="zero">لا إجابات خاطئة مسجَّلة</item>
+        <item quantity="one">إجابة خاطئة واحدة مسجَّلة</item>
+        <item quantity="two">إجابتان خاطئتان مسجَّلتان</item>
+        <item quantity="few">%1$d إجابات خاطئة مسجَّلة</item>
+        <item quantity="many">%1$d إجابة خاطئة مسجَّلة</item>
+        <item quantity="other">%1$d إجابة خاطئة مسجَّلة</item>
+    </plurals>
+    <plurals name="adaptive_concepts_measured_count">
+        <item quantity="zero">لا مفاهيم مقاسة</item>
+        <item quantity="one">مفهوم واحد مقاس</item>
+        <item quantity="two">مفهومان مقاسان</item>
+        <item quantity="few">%1$d مفاهيم مقاسة</item>
+        <item quantity="many">%1$d مفهومًا مقاسًا</item>
+        <item quantity="other">%1$d مفهوم مقاس</item>
+    </plurals>
+    <plurals name="adaptive_coverage_debt_message">
+        <item quantity="zero">الكتل الأخيرة قصّرت في تغطية المخطط. سيُعوَّض هذا القصور عبر الكتل القادمة بدلًا من دفعه دفعة واحدة.</item>
+        <item quantity="one">قصّرت الكتل الأخيرة في تغطية المخطط بمقدار سؤال واحد تقريبًا. سيُعوَّض هذا القصور عبر الكتل القادمة بدلًا من دفعه دفعة واحدة.</item>
+        <item quantity="two">قصّرت الكتل الأخيرة في تغطية المخطط بمقدار سؤالين تقريبًا. سيُعوَّض هذا القصور عبر الكتل القادمة بدلًا من دفعه دفعة واحدة.</item>
+        <item quantity="few">قصّرت الكتل الأخيرة في تغطية المخطط بمقدار %1$d أسئلة تقريبًا. سيُعوَّض هذا القصور عبر الكتل القادمة بدلًا من دفعه دفعة واحدة.</item>
+        <item quantity="many">قصّرت الكتل الأخيرة في تغطية المخطط بمقدار %1$d سؤالًا تقريبًا. سيُعوَّض هذا القصور عبر الكتل القادمة بدلًا من دفعه دفعة واحدة.</item>
+        <item quantity="other">قصّرت الكتل الأخيرة في تغطية المخطط بمقدار %1$d سؤال تقريبًا. سيُعوَّض هذا القصور عبر الكتل القادمة بدلًا من دفعه دفعة واحدة.</item>
+    </plurals>
+
+    <!-- Concepts tab. -->
+    <string name="adaptive_no_concepts_title">لا توجد مفاهيم ضمن النطاق</string>
+    <string name="adaptive_no_concepts_body">لا شيء مضاف إلى نطاق جامعتك وسنتك بعد، لذا لا يوجد ما يمكن قياسه. يتولّى أحد المسؤولين إعداد المخطط.</string>
+    <string name="adaptive_your_concepts_title">مفاهيمك (%1$d)</string>
+    <string name="adaptive_concept_group_percent">%1$s · %2$s من المخطط</string>
+    <string name="adaptive_concept_mastery_summary">الإتقان %1$s · %2$d عنصر · %3$d خطأ</string>
+    <string name="adaptive_not_enough_evidence">الأدلة غير كافية بعد</string>
+    <string name="adaptive_override_normal">عادي</string>
+    <string name="adaptive_override_snoozed">مؤجَّل</string>
+    <string name="adaptive_override_out_of_scope">خارج النطاق</string>
+    <string name="adaptive_overrides_title">ما الذي تفعله تجاوزاتك</string>
+    <string name="adaptive_override_snoozed_explanation">التأجيل يُبقي المفهوم مقاسًا ويحتفظ بأدلته، لكنه يمنع الاختيار من عرضه لمدة أسبوعين. استخدمه عندما تقرر العودة إلى شيء لاحقًا.</string>
+    <string name="adaptive_override_out_of_scope_explanation">خارج النطاق يزيل المفهوم من مخططك تمامًا، فيتوقف عن الاحتساب ضمن التغطية وعن الاختيار. استخدمه عندما يكون المفهوم فعلًا غير مطروح في امتحانك.</string>
+    <string name="adaptive_override_neither_deletes_note">لا يحذف أي منهما شيئًا. تبقى إجاباتك في السجل، وإعادة المفهوم إلى الوضع العادي تستعيد حالته تمامًا كما كانت.</string>
+
+    <!-- How this works tab. -->
+    <string name="adaptive_how_it_works_title">نظامان، يُقاسان بشكل منفصل</string>
+    <string name="adaptive_config_label">الإعداد</string>
+    <string name="adaptive_blueprint_label">المخطط</string>
+    <string name="adaptive_version_value">إصدار %1$d</string>
+    <string name="adaptive_practice_chooses_title">التدريب التكيّفي يختار ما تدرسه</string>
+    <string name="adaptive_practice_chooses_body">تتعمّد الكتل التكيّفية زيادة نسبة ما أنت أضعف فيه وما هو مستحق للمراجعة. لذا فإن دقتك داخلها ليست تقديرًا عادلًا لأدائك في الامتحان، ولا تُستخدم كذلك.</string>
+    <string name="adaptive_readiness_measures_title">تقييم الجاهزية يقيس موضعك الحالي</string>
+    <string name="adaptive_readiness_measures_body">تقييمات الجاهزية متوازنة وفق مخطط امتحانك، ومؤقّتة، ومبنية من أسئلة محجوزة عن التدريب المعتاد. تعرض مدى بدلًا من درجة واحدة، لأن عددًا محدودًا من الأسئلة لا يمكن أن يدعم دقة أكبر من ذلك.</string>
+    <string name="adaptive_your_record">سجلّك: %1$d إجابة خاطئة · %2$d مفهوم ضعيف</string>
+    <string name="adaptive_what_measures_title">ما الذي تقيسه Maristana</string>
+    <string name="adaptive_measured_mastery_title">إتقان المفاهيم</string>
+    <string name="adaptive_measured_mastery_body">تقدير متناقص القيمة لكل مفهوم، يُعاد بناؤه من كل إجابة قدّمتها. يحمل مدى وليس رقمًا واحدًا، ويتّسع هذا المدى كلما تقادمت الأدلة.</string>
+    <string name="adaptive_measured_coverage_body">مقدار مخطط امتحانك، بحسب الوزن، الذي توجد خلفه أي أدلة. التغطية تعني الممارسة فقط — وليست الإتقان.</string>
+    <string name="adaptive_measured_retention_title">الاحتفاظ بالمعلومة</string>
+    <string name="adaptive_measured_retention_body">هل يصمد المفهوم بعد فجوة زمنية. إجابة صحيحة بعد يومين على الأقل من آخر إجابة تُحسب بشكل مختلف عن أربع إجابات متتالية.</string>
+    <string name="adaptive_measured_uncertainty_body">مدى قلّة المعرفة حول مفهوم ما. هذا ما يوجّه التدريب نحو أشياء لم تُسأل عنها من قبل.</string>
+    <string name="adaptive_measured_readiness_body">قياس منفصل، متوازن وفق المخطط، ومؤقّت، يستخدم أسئلة محجوزة عن تدريبك.</string>
+    <string name="adaptive_not_measured_title">ما لا يقيسه</string>
+    <string name="adaptive_not_measured_time_in_app">الوقت الذي تقضيه في التطبيق، أو عدد مرات فتحه.</string>
+    <string name="adaptive_not_measured_questions_completed">عدد الأسئلة التي أكملتها.</string>
+    <string name="adaptive_not_measured_practice_accuracy">دقتك داخل الكتل التكيّفية — فهي تتعمّد زيادة نسبة نقاط ضعفك، لذا تظهر أقل من مستواك الحقيقي.</string>
+    <string name="adaptive_not_measured_other_students">أي شيء يخص طلابًا آخرين. لا رقم هنا هو مقارنة.</string>
+    <string name="adaptive_prediction_caveat">كل تقدير هنا هو مدى مبني على الأسئلة التي أجبت عنها حتى الآن، وفق نموذج لم يُعاير بعد وفق نتائج جامعتك. إنه يصف تحضيرك الحالي. إنه ليس تنبؤًا بنتيجة امتحانك، وليس ضمانًا.</string>
+    <string name="adaptive_next_block_explainer_title">كيف تُبنى كتلتك التالية</string>
+    <string name="adaptive_next_block_explainer_body">تُقسَّم كل كتلة إلى خانات. هذه أهداف توزيع، وليست مجموعات منفصلة — كثيرًا ما يلبّي سؤال واحد عدة احتياجات في آنٍ واحد، ويشغل دومًا خانة واحدة بالضبط.</string>
+    <string name="adaptive_rules_never_relaxed_title">قواعد لا تُخفَّف أبدًا</string>
+    <string name="adaptive_relaxation_order_note">عندما لا يستطيع بنك الأسئلة تلبية كل قاعدة اختيار، تُخفَّف القواعد أدناه وفق هذا الترتيب المعلن، ويُسجَّل هذا التخفيف، ويُبلَّغ عن أي نقص.</string>
+    <string name="adaptive_relaxation_rule_item">%1$d. %2$s</string>
+    <string name="adaptive_status_meanings_title">ماذا تعني كل حالة</string>
+    <string name="adaptive_status_explanation_unmeasured">لا توجد بعد أسئلة مستقلة كافية لقول أي شيء حول هذا.</string>
+    <string name="adaptive_status_explanation_attention">أخطأت في إجابة حديثة واحدة. سيُعاد فحص هذا — وهذه ليست علامة ضعف.</string>
+    <string name="adaptive_status_explanation_weak">تشير أدلة متكررة عبر أسئلة مختلفة إلى فجوة حقيقية هنا.</string>
+    <string name="adaptive_status_explanation_developing">قابل للقياس، لكنه ليس قويًا بعد بما يكفي ليُعدّ راسخًا.</string>
+    <string name="adaptive_status_explanation_secure">أُجيب عنه بشكل صحيح عبر عدة أسئلة مستقلة، بما في ذلك مرة بعد فجوة يومين على الأقل.</string>
+    <string name="adaptive_status_explanation_review_due">كان هذا راسخًا، وقد مرّ وقت كافٍ يستحق معه إعادة فحصه.</string>
+    <string name="adaptive_provenance_title">مصدر البيانات</string>
+    <string name="adaptive_provenance_most_recent_evidence">أحدث دليل</string>
+    <string name="adaptive_provenance_none_yet">لا شيء بعد</string>
+    <string name="adaptive_provenance_answers_recorded">الإجابات المسجَّلة</string>
+    <string name="adaptive_provenance_algorithm_version">إصدار الخوارزمية</string>
+    <string name="adaptive_provenance_no_blueprint">لا يوجد مخطط منشور</string>
+    <string name="adaptive_provenance_concepts_in_scope">المفاهيم ضمن النطاق</string>
+
+    <!-- Recommendation (AdaptiveViewModel). -->
+    <string name="adaptive_recommendation_no_blueprint_title">لا شيء في مخططك بعد</string>
+    <string name="adaptive_recommendation_no_blueprint_body">لا توجد مفاهيم ضمن نطاق جامعتك وسنتك، لذا لا يوجد ما يمكن الاختيار منه. هذه فجوة في المحتوى، وليست فجوة في عملك.</string>
+    <string name="adaptive_recommendation_no_items_title">لا توجد أسئلة معتمدة ضمن النطاق</string>
+    <string name="adaptive_recommendation_no_items_body">مخططك موجود، لكن لا توجد أسئلة منشورة تطابق جامعتك وسنتك ووحداتك بعد.</string>
+    <string name="adaptive_recommendation_due_body">كانت هذه راسخة، وقد مرّ وقت كافٍ يستحق معه فحصها قبل أن تتلاشى.</string>
+    <string name="adaptive_recommendation_weak_body">تشير أدلة متكررة عبر أسئلة مختلفة إلى فجوات حقيقية هنا. ستزيد الكتلة التالية نسبتها مع الاستمرار في تغطية مخططك.</string>
+    <string name="adaptive_recommendation_readiness_title">حان وقت تقييم الجاهزية</string>
+    <string name="adaptive_recommendation_readiness_body">لديك ما يكفي من التدريب لقياس موضعك الحالي. دقة التدريب لن تخبرك بذلك — فالكتل التكيّفية تتعمّد زيادة نسبة نقاط ضعفك.</string>
+    <string name="adaptive_recommendation_uncovered_title">%1$d%% من مخططك غير متدرَّب عليه</string>
+    <string name="adaptive_recommendation_uncovered_body">ستمنح الكتلة التالية وزنًا أكبر للتغطية بحيث تبدأ المناطق غير الممسوسة بالقياس.</string>
+    <string name="adaptive_recommendation_start_block_title">ابدأ كتلة</string>
+    <string name="adaptive_recommendation_start_block_body">لا يوجد شيء متأخر ولا ضعف مؤكد معلَّق. ستوازن الكتلة التالية بين المراجعة والأجزاء الأقل أدلة في مخططك.</string>
+
+    <plurals name="adaptive_recommendation_due_title">
+        <item quantity="zero">لا مفاهيم مستحقة للمراجعة</item>
+        <item quantity="one">مفهوم واحد مستحق للمراجعة</item>
+        <item quantity="two">مفهومان مستحقان للمراجعة</item>
+        <item quantity="few">%1$d مفاهيم مستحقة للمراجعة</item>
+        <item quantity="many">%1$d مفهومًا مستحقًا للمراجعة</item>
+        <item quantity="other">%1$d مفهوم مستحق للمراجعة</item>
+    </plurals>
+    <plurals name="adaptive_recommendation_weak_title">
+        <item quantity="zero">لا مفاهيم ضعيفة لإصلاحها</item>
+        <item quantity="one">مفهوم ضعيف واحد لإصلاحه</item>
+        <item quantity="two">مفهومان ضعيفان لإصلاحهما</item>
+        <item quantity="few">%1$d مفاهيم ضعيفة لإصلاحها</item>
+        <item quantity="many">%1$d مفهومًا ضعيفًا لإصلاحه</item>
+        <item quantity="other">%1$d مفهوم ضعيف لإصلاحه</item>
+    </plurals>
+</resources>

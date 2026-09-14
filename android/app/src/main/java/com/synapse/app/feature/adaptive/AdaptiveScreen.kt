@@ -1,5 +1,6 @@
 package com.synapse.app.feature.adaptive
 
+import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
@@ -25,9 +26,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.adaptive.CONCEPT_STATUS_LABEL
 import com.synapse.app.core.adaptive.ConceptStatus
 import com.synapse.app.core.adaptive.NON_NEGOTIABLE_CONSTRAINTS
@@ -70,13 +74,13 @@ fun AdaptiveRoute(viewModel: AdaptiveViewModel = hiltViewModel()) {
     AdaptiveScreen(uiState = uiState, onSetOverride = viewModel::setOverride)
 }
 
-enum class AdaptiveTab(val label: String) {
-    TODAY("Today"),
-    PRACTICE("Practice"),
-    READINESS("Readiness"),
-    CONCEPTS("Concepts"),
-    PLAN("Plan"),
-    HOW_IT_WORKS("How this works"),
+enum class AdaptiveTab(@StringRes val labelRes: Int) {
+    TODAY(R.string.adaptive_tab_today),
+    PRACTICE(R.string.adaptive_tab_practice),
+    READINESS(R.string.adaptive_tab_readiness),
+    CONCEPTS(R.string.adaptive_tab_concepts),
+    PLAN(R.string.adaptive_tab_plan),
+    HOW_IT_WORKS(R.string.adaptive_tab_how_it_works),
 }
 
 @Composable
@@ -86,7 +90,7 @@ private fun AdaptiveScreen(uiState: AdaptiveUiState, onSetOverride: (String, Ove
             modifier = Modifier.fillMaxSize().testTag(ADAPTIVE_LOADING_TAG),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-        ) { Text("Loading…") }
+        ) { Text(stringResource(R.string.adaptive_loading)) }
         return
     }
 
@@ -100,7 +104,7 @@ private fun AdaptiveScreen(uiState: AdaptiveUiState, onSetOverride: (String, Ove
                 Tab(
                     selected = index == selectedIndex,
                     onClick = { selectedIndex = index },
-                    text = { Text(tab.label) },
+                    text = { Text(stringResource(tab.labelRes)) },
                     modifier = Modifier.testTag(adaptiveTabTag(tab)),
                 )
             }
@@ -111,28 +115,28 @@ private fun AdaptiveScreen(uiState: AdaptiveUiState, onSetOverride: (String, Ove
             AdaptiveTab.CONCEPTS -> ConceptsTab(uiState.study, onSetOverride)
             AdaptiveTab.HOW_IT_WORKS -> HowItWorksTab(uiState.study)
             AdaptiveTab.PRACTICE -> DeferredTab(
-                title = "Practice",
-                body = "Blocks are built by a soft-constraint selector (novelty, difficulty mix, exposure caps) that has not landed on Android yet. Today already shows you what a block would prioritise.",
+                titleRes = R.string.adaptive_tab_practice,
+                bodyRes = R.string.adaptive_practice_deferred_body,
             )
             AdaptiveTab.READINESS -> DeferredTab(
-                title = "Readiness",
-                body = "Readiness assessments are timed, blueprint-balanced sittings drawn from questions held back from practice. That session flow has not landed on Android yet.",
+                titleRes = R.string.adaptive_tab_readiness,
+                bodyRes = R.string.adaptive_readiness_deferred_body,
             )
             AdaptiveTab.PLAN -> DeferredTab(
-                title = "Plan",
-                body = "The weekly study-plan scheduler has not been ported to this client yet.",
+                titleRes = R.string.adaptive_tab_plan,
+                bodyRes = R.string.adaptive_plan_deferred_body,
             )
         }
     }
 }
 
 @Composable
-private fun DeferredTab(title: String, body: String) {
+private fun DeferredTab(@StringRes titleRes: Int, @StringRes bodyRes: Int) {
     Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
-        Text(title, style = MaterialTheme.typography.titleLarge)
-        Text(body, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 10.dp))
+        Text(stringResource(titleRes), style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(bodyRes), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 10.dp))
         Text(
-            "Coming soon.",
+            stringResource(R.string.adaptive_coming_soon),
             style = MaterialTheme.typography.labelLarge,
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier.padding(top = 16.dp),
@@ -144,6 +148,13 @@ private fun DeferredTab(title: String, body: String) {
 
 private fun percent(value: Double): String = "${(value * 100).roundToInt()}%"
 private fun rangeText(lower: Double, upper: Double): String = "${percent(lower)}–${percent(upper)}"
+
+@Composable
+private fun recommendationTitleText(title: RecommendationTitle): String = when (title) {
+    is RecommendationTitle.Text -> stringResource(title.res)
+    is RecommendationTitle.Counted -> pluralStringResource(title.res, title.count, title.count)
+    is RecommendationTitle.Formatted -> stringResource(title.res, title.arg)
+}
 
 @Composable
 private fun SectionCard(title: String, content: @Composable ColumnScope.() -> Unit) {
@@ -183,40 +194,54 @@ private fun ShareRow(label: String, value: Double, max: Double) {
 @Composable
 private fun TodayTab(study: AdaptiveStudy) {
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
-        Text("Recommended next", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-        Text(study.recommendation.title, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.padding(top = 4.dp))
-        Text(study.recommendation.body, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
+        Text(stringResource(R.string.adaptive_recommended_next), style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+        Text(recommendationTitleText(study.recommendation.title), style = MaterialTheme.typography.headlineSmall, modifier = Modifier.padding(top = 4.dp))
+        Text(stringResource(study.recommendation.bodyRes), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
 
         val counts = statusCounts(study.states, study.blueprintNodes.map { it.conceptId })
         val weak = counts[ConceptStatus.WEAK] ?: 0
         val due = counts[ConceptStatus.REVIEW_DUE] ?: 0
         val measured = study.states.size
         val rawWrong = rawWrongAttempts(study.events)
+        val notYet = stringResource(R.string.adaptive_not_yet)
 
-        SectionCard("At a glance") {
+        SectionCard(stringResource(R.string.adaptive_at_a_glance)) {
             StatFigure(
-                label = "Readiness",
-                value = study.readiness?.let { rangeText(it.lower, it.upper) } ?: "Not yet",
-                sub = study.readiness?.let { "From ${it.answered} held-out questions" }
-                    ?: "Measured separately, on questions held back from practice.",
+                label = stringResource(R.string.adaptive_tab_readiness),
+                value = study.readiness?.let { rangeText(it.lower, it.upper) } ?: notYet,
+                sub = study.readiness?.let { stringResource(R.string.adaptive_readiness_from_held_out, it.answered) }
+                    ?: stringResource(R.string.adaptive_readiness_measured_separately),
             )
             StatFigure(
-                label = "Blueprint covered",
-                value = if (study.blueprintNodes.isEmpty()) "Not yet" else percent(study.coverage.coveredWeight),
-                sub = "${study.coverage.uncoveredConcepts.size} concept${if (study.coverage.uncoveredConcepts.size == 1) "" else "s"} untouched",
+                label = stringResource(R.string.adaptive_blueprint_covered_label),
+                value = if (study.blueprintNodes.isEmpty()) notYet else percent(study.coverage.coveredWeight),
+                sub = pluralStringResource(
+                    R.plurals.adaptive_concepts_untouched_count,
+                    study.coverage.uncoveredConcepts.size,
+                    study.coverage.uncoveredConcepts.size,
+                ),
             )
-            StatFigure(label = "Weak concepts", value = "$weak", sub = "$rawWrong wrong answer${if (rawWrong == 1) "" else "s"} recorded")
-            StatFigure(label = "Due for review", value = "$due", sub = "$measured concept${if (measured == 1) "" else "s"} measured")
+            StatFigure(
+                label = stringResource(R.string.adaptive_weak_concepts_label),
+                value = "$weak",
+                sub = pluralStringResource(R.plurals.adaptive_wrong_answers_recorded_count, rawWrong, rawWrong),
+            )
+            StatFigure(
+                label = stringResource(R.string.adaptive_due_for_review_label),
+                value = "$due",
+                sub = pluralStringResource(R.plurals.adaptive_concepts_measured_count, measured, measured),
+            )
         }
 
         if (study.blueprintNodes.isNotEmpty()) {
-            SectionCard("Blueprint coverage") {
+            SectionCard(stringResource(R.string.adaptive_blueprint_coverage_title)) {
                 study.coverage.groups.take(8).forEach { group ->
                     ShareRow(label = group.groupLabel, value = group.coveredWeight, max = group.weight)
                 }
                 if (study.debt.slots >= 1) {
+                    val slots = study.debt.slots.roundToInt()
                     Text(
-                        "Recent blocks under-served blueprint coverage by about ${study.debt.slots.roundToInt()} questions. That shortfall is being repaid across the next few blocks rather than all at once.",
+                        pluralStringResource(R.plurals.adaptive_coverage_debt_message, slots, slots),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.padding(top = 8.dp),
@@ -225,21 +250,21 @@ private fun TodayTab(study: AdaptiveStudy) {
             }
         }
 
-        SectionCard("What your next block will contain") {
-            ShareRow("Weakness", study.shares.weakness, 1.0)
-            ShareRow("Coverage", study.shares.coverage, 1.0)
-            ShareRow("Review", study.shares.review, 1.0)
-            ShareRow("Uncertainty", study.shares.uncertainty, 1.0)
+        SectionCard(stringResource(R.string.adaptive_next_block_title)) {
+            ShareRow(stringResource(R.string.adaptive_share_weakness), study.shares.weakness, 1.0)
+            ShareRow(stringResource(R.string.adaptive_share_coverage), study.shares.coverage, 1.0)
+            ShareRow(stringResource(R.string.adaptive_share_review), study.shares.review, 1.0)
+            ShareRow(stringResource(R.string.adaptive_share_uncertainty), study.shares.uncertainty, 1.0)
             Text(
-                "These are allocation targets, not separate pools. One question often satisfies several of them at once and takes a single slot.",
+                stringResource(R.string.adaptive_allocation_note),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = 8.dp),
             )
         }
 
-        SectionCard(WRONG_VS_WEAK_HEADING) {
-            Text(WRONG_VS_WEAK_BODY, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
+        SectionCard(stringResource(R.string.adaptive_wrong_vs_weak_heading)) {
+            Text(stringResource(R.string.adaptive_wrong_vs_weak_body), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
         }
     }
 }
@@ -250,9 +275,9 @@ private fun TodayTab(study: AdaptiveStudy) {
 private fun ConceptsTab(study: AdaptiveStudy, onSetOverride: (String, OverrideMode) -> Unit) {
     if (study.blueprintNodes.isEmpty()) {
         Column(modifier = Modifier.fillMaxSize().padding(20.dp)) {
-            Text("No concepts in scope", style = MaterialTheme.typography.titleLarge)
+            Text(stringResource(R.string.adaptive_no_concepts_title), style = MaterialTheme.typography.titleLarge)
             Text(
-                "Nothing is scoped to your university and year yet, so there is nothing to measure. An administrator sets the blueprint up.",
+                stringResource(R.string.adaptive_no_concepts_body),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 8.dp),
             )
@@ -273,11 +298,15 @@ private fun ConceptsTab(study: AdaptiveStudy, onSetOverride: (String, OverrideMo
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
         Text(
-            WRONG_VS_WEAK_BODY,
+            stringResource(R.string.adaptive_wrong_vs_weak_body),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
-        Text("Your concepts (${rows.size})", style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(top = 16.dp))
+        Text(
+            stringResource(R.string.adaptive_your_concepts_title, rows.size),
+            style = MaterialTheme.typography.titleMedium,
+            modifier = Modifier.padding(top = 16.dp),
+        )
 
         rows.forEach { node ->
             val state = study.states[node.conceptId]
@@ -290,7 +319,7 @@ private fun ConceptsTab(study: AdaptiveStudy, onSetOverride: (String, OverrideMo
                         Text(CONCEPT_STATUS_LABEL.getValue(status), style = MaterialTheme.typography.labelLarge)
                     }
                     Text(
-                        "${node.groupLabel} · ${percent(node.weight)} of blueprint",
+                        stringResource(R.string.adaptive_concept_group_percent, node.groupLabel, percent(node.weight)),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
@@ -298,48 +327,57 @@ private fun ConceptsTab(study: AdaptiveStudy, onSetOverride: (String, OverrideMo
                         val lower = (state.mean - state.uncertainty).coerceIn(0.0, 1.0)
                         val upper = (state.mean + state.uncertainty).coerceIn(0.0, 1.0)
                         Text(
-                            "Mastery ${rangeText(lower, upper)} · ${state.distinctItems} items · ${state.rawWrong} wrong",
+                            stringResource(
+                                R.string.adaptive_concept_mastery_summary,
+                                rangeText(lower, upper),
+                                state.distinctItems,
+                                state.rawWrong,
+                            ),
                             style = MaterialTheme.typography.bodySmall,
                             modifier = Modifier.padding(top = 4.dp),
                         )
                     } else {
-                        Text("Not enough evidence yet", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 4.dp))
+                        Text(
+                            stringResource(R.string.adaptive_not_enough_evidence),
+                            style = MaterialTheme.typography.bodySmall,
+                            modifier = Modifier.padding(top = 4.dp),
+                        )
                     }
 
                     Row(modifier = Modifier.fillMaxWidth().padding(top = 10.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         FilterChip(
                             selected = override == null || override.mode == OverrideMode.NORMAL,
                             onClick = { onSetOverride(node.conceptId, OverrideMode.NORMAL) },
-                            label = { Text("Normal") },
+                            label = { Text(stringResource(R.string.adaptive_override_normal)) },
                         )
                         FilterChip(
                             selected = override?.mode == OverrideMode.SNOOZED,
                             onClick = { onSetOverride(node.conceptId, OverrideMode.SNOOZED) },
-                            label = { Text("Snoozed") },
+                            label = { Text(stringResource(R.string.adaptive_override_snoozed)) },
                         )
                         FilterChip(
                             selected = override?.mode == OverrideMode.OUT_OF_SCOPE,
                             onClick = { onSetOverride(node.conceptId, OverrideMode.OUT_OF_SCOPE) },
-                            label = { Text("Out of scope") },
+                            label = { Text(stringResource(R.string.adaptive_override_out_of_scope)) },
                         )
                     }
                 }
             }
         }
 
-        SectionCard("What your overrides do") {
+        SectionCard(stringResource(R.string.adaptive_overrides_title)) {
             Text(
-                "Snoozed keeps the concept measured and keeps its evidence, but stops selection offering it for two weeks. Use it when you have decided to come back to something later.",
+                stringResource(R.string.adaptive_override_snoozed_explanation),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 6.dp),
             )
             Text(
-                "Out of scope removes the concept from your blueprint entirely, so it stops counting toward coverage and stops being selected. Use it when a concept genuinely is not on your exam.",
+                stringResource(R.string.adaptive_override_out_of_scope_explanation),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 6.dp),
             )
             Text(
-                "Neither deletes anything. Your answers stay in the record, and setting a concept back to Normal restores its state exactly as it was.",
+                stringResource(R.string.adaptive_override_neither_deletes_note),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = 6.dp),
@@ -358,103 +396,110 @@ private fun HowItWorksTab(study: AdaptiveStudy) {
     val lastEvidence = study.events.maxByOrNull { it.at }?.at
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp).verticalScroll(rememberScrollState())) {
-        Text("Two systems, measured separately", style = MaterialTheme.typography.titleLarge)
+        Text(stringResource(R.string.adaptive_how_it_works_title), style = MaterialTheme.typography.titleLarge)
+        val configLabel = stringResource(R.string.adaptive_config_label)
+        val blueprintLabel = stringResource(R.string.adaptive_blueprint_label)
         Text(
-            "Config v${study.config.version}" + (study.storedBlueprint?.let { " · Blueprint v${it.version}" } ?: ""),
+            "$configLabel ${stringResource(R.string.adaptive_version_value, study.config.version)}" +
+                (study.storedBlueprint?.let { " · $blueprintLabel ${stringResource(R.string.adaptive_version_value, it.version)}" } ?: ""),
             style = MaterialTheme.typography.labelMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = 4.dp),
         )
 
-        SectionCard("Adaptive practice chooses what to study") {
+        SectionCard(stringResource(R.string.adaptive_practice_chooses_title)) {
             Text(
-                "Adaptive blocks deliberately oversample what you are weakest at and what is due for review. Your accuracy inside them is therefore not a fair estimate of your exam performance, and it is not used as one.",
+                stringResource(R.string.adaptive_practice_chooses_body),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 6.dp),
             )
         }
-        SectionCard("Readiness assessment measures where you stand") {
+        SectionCard(stringResource(R.string.adaptive_readiness_measures_title)) {
             Text(
-                "Readiness assessments are balanced against your exam blueprint, timed, and built from questions held back from ordinary practice. They report a range rather than a single score, because a limited number of questions cannot support more precision than that.",
+                stringResource(R.string.adaptive_readiness_measures_body),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 6.dp),
             )
         }
 
-        SectionCard(WRONG_VS_WEAK_HEADING) {
-            Text(WRONG_VS_WEAK_BODY, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
+        SectionCard(stringResource(R.string.adaptive_wrong_vs_weak_heading)) {
+            Text(stringResource(R.string.adaptive_wrong_vs_weak_body), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 6.dp))
             Text(
-                "Your record: $rawWrong wrong answers · $weakConcepts weak concepts",
+                stringResource(R.string.adaptive_your_record, rawWrong, weakConcepts),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 8.dp),
             )
         }
 
-        SectionCard("What Maristana measures") {
-            MEASURED.forEach { (title, body) ->
-                Text(title, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 10.dp))
-                Text(body, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        SectionCard(stringResource(R.string.adaptive_what_measures_title)) {
+            MEASURED.forEach { (titleRes, bodyRes) ->
+                Text(stringResource(titleRes), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 10.dp))
+                Text(stringResource(bodyRes), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
         }
-        SectionCard("What it does not measure") {
-            NOT_MEASURED.forEach { line ->
-                Text("• $line", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 6.dp))
+        SectionCard(stringResource(R.string.adaptive_not_measured_title)) {
+            NOT_MEASURED.forEach { lineRes ->
+                Text("• ${stringResource(lineRes)}", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 6.dp))
             }
             Text(
-                PREDICTION_CAVEAT,
+                stringResource(R.string.adaptive_prediction_caveat),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = 10.dp),
             )
         }
 
-        SectionCard("How your next block is put together") {
+        SectionCard(stringResource(R.string.adaptive_next_block_explainer_title)) {
             Text(
-                "Each block is divided into slots. These are allocation targets, not separate pools — one question often satisfies several needs at once, and always takes exactly one slot.",
+                stringResource(R.string.adaptive_next_block_explainer_body),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 6.dp),
             )
-            ShareRow("Weakness", study.shares.weakness, 1.0)
-            ShareRow("Coverage", study.shares.coverage, 1.0)
-            ShareRow("Review", study.shares.review, 1.0)
-            ShareRow("Uncertainty", study.shares.uncertainty, 1.0)
+            ShareRow(stringResource(R.string.adaptive_share_weakness), study.shares.weakness, 1.0)
+            ShareRow(stringResource(R.string.adaptive_share_coverage), study.shares.coverage, 1.0)
+            ShareRow(stringResource(R.string.adaptive_share_review), study.shares.review, 1.0)
+            ShareRow(stringResource(R.string.adaptive_share_uncertainty), study.shares.uncertainty, 1.0)
         }
 
-        SectionCard("Rules that are never relaxed") {
+        SectionCard(stringResource(R.string.adaptive_rules_never_relaxed_title)) {
             NON_NEGOTIABLE_CONSTRAINTS.forEach { rule ->
                 Text("• $rule", style = MaterialTheme.typography.bodySmall, modifier = Modifier.padding(top = 6.dp))
             }
             Text(
-                "When the question bank cannot satisfy every selection rule, the rules below are relaxed in this published order, the relaxation is recorded, and a shortage is reported.",
+                stringResource(R.string.adaptive_relaxation_order_note),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 10.dp),
             )
             study.config.relaxationOrder.forEachIndexed { index, rule ->
                 Text(
-                    "${index + 1}. ${RELAXABLE_CONSTRAINT_LABEL.getValue(rule)}",
+                    stringResource(R.string.adaptive_relaxation_rule_item, index + 1, RELAXABLE_CONSTRAINT_LABEL.getValue(rule)),
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(top = 4.dp),
                 )
             }
         }
 
-        SectionCard("What each status means") {
+        SectionCard(stringResource(R.string.adaptive_status_meanings_title)) {
             CONCEPT_STATUS_LABEL.keys.forEach { status ->
                 Text(CONCEPT_STATUS_LABEL.getValue(status), style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 8.dp))
                 Text(
-                    STATUS_EXPLANATION.getValue(status),
+                    stringResource(STATUS_EXPLANATION.getValue(status)),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
             }
         }
 
-        SectionCard("Provenance") {
-            ProvenanceRow("Most recent evidence", lastEvidence ?: "None yet")
-            ProvenanceRow("Answers recorded", "${rawWrong + correctAnswers}")
-            ProvenanceRow("Algorithm version", "v${study.config.version}")
-            ProvenanceRow("Blueprint", study.storedBlueprint?.let { "v${it.version}" } ?: "No blueprint published")
-            ProvenanceRow("Concepts in scope", "${study.blueprintNodes.size}")
+        SectionCard(stringResource(R.string.adaptive_provenance_title)) {
+            ProvenanceRow(stringResource(R.string.adaptive_provenance_most_recent_evidence), lastEvidence ?: stringResource(R.string.adaptive_provenance_none_yet))
+            ProvenanceRow(stringResource(R.string.adaptive_provenance_answers_recorded), "${rawWrong + correctAnswers}")
+            ProvenanceRow(stringResource(R.string.adaptive_provenance_algorithm_version), stringResource(R.string.adaptive_version_value, study.config.version))
+            ProvenanceRow(
+                blueprintLabel,
+                study.storedBlueprint?.let { stringResource(R.string.adaptive_version_value, it.version) }
+                    ?: stringResource(R.string.adaptive_provenance_no_blueprint),
+            )
+            ProvenanceRow(stringResource(R.string.adaptive_provenance_concepts_in_scope), "${study.blueprintNodes.size}")
         }
     }
 }
@@ -468,34 +513,30 @@ private fun ProvenanceRow(label: String, value: String) {
 }
 
 // --- copy, ported verbatim from `src/data/adaptive/explain.ts` -------------------
+// Text lives in res/values{,-ar}/strings_adaptive.xml (adaptive_wrong_vs_weak_*,
+// adaptive_prediction_caveat, adaptive_measured_*, adaptive_not_measured_*,
+// adaptive_status_explanation_*) — only the pairing/ordering stays here.
 
-private const val WRONG_VS_WEAK_HEADING = "Wrong answers and weak concepts are counted differently"
-private const val WRONG_VS_WEAK_BODY =
-    "If you answer three questions incorrectly and all three were mainly testing the same concept, that records three wrong attempts and at most one weak concept. The mistakes are all kept — they make repairing that concept more urgent — but they do not create three separate weaknesses. This is why the number of wrong answers you remember is usually larger than the number of weak concepts shown."
-
-private const val PREDICTION_CAVEAT =
-    "Every estimate here is a range based on the questions you have answered so far, under a model that has not yet been calibrated against results at your university. It describes your current preparation. It is not a prediction of your exam result, and it is not a guarantee."
-
-private val MEASURED: List<Pair<String, String>> = listOf(
-    "Concept mastery" to "A decayed estimate per concept, rebuilt from every answer you have given. It carries a range, not a single number, and the range widens as evidence ages.",
-    "Blueprint coverage" to "How much of your exam blueprint, by weight, has any evidence behind it. Covered means practised at all — not mastered.",
-    "Retention" to "Whether a concept survives a gap. A correct answer at least two days after the last one counts differently from four in a row.",
-    "Uncertainty" to "How little is known about a concept. This is what funds practice on things you have never been asked about.",
-    "Readiness" to "A separate, blueprint-balanced, timed measurement using questions held back from your practice.",
+private val MEASURED: List<Pair<Int, Int>> = listOf(
+    R.string.adaptive_measured_mastery_title to R.string.adaptive_measured_mastery_body,
+    R.string.adaptive_blueprint_coverage_title to R.string.adaptive_measured_coverage_body,
+    R.string.adaptive_measured_retention_title to R.string.adaptive_measured_retention_body,
+    R.string.adaptive_share_uncertainty to R.string.adaptive_measured_uncertainty_body,
+    R.string.adaptive_tab_readiness to R.string.adaptive_measured_readiness_body,
 )
 
-private val NOT_MEASURED: List<String> = listOf(
-    "Time spent in the app, or how often you open it.",
-    "How many questions you have completed.",
-    "Your accuracy inside adaptive blocks — those deliberately oversample your weak areas, so it reads lower than your real standing.",
-    "Anything about other students. No figure here is a comparison.",
+private val NOT_MEASURED: List<Int> = listOf(
+    R.string.adaptive_not_measured_time_in_app,
+    R.string.adaptive_not_measured_questions_completed,
+    R.string.adaptive_not_measured_practice_accuracy,
+    R.string.adaptive_not_measured_other_students,
 )
 
-private val STATUS_EXPLANATION: Map<ConceptStatus, String> = mapOf(
-    ConceptStatus.UNMEASURED to "Not enough distinct questions yet to say anything about this.",
-    ConceptStatus.ATTENTION to "One recent answer went wrong. This will be checked again — this is not a weakness label.",
-    ConceptStatus.WEAK to "Repeated evidence across different questions points to a real gap here.",
-    ConceptStatus.DEVELOPING to "Measurable, but not yet strong enough to count as secure.",
-    ConceptStatus.SECURE to "Answered correctly across several distinct questions, including one after a gap of at least two days.",
-    ConceptStatus.REVIEW_DUE to "This was secure, and enough time has passed that it is worth checking again.",
+private val STATUS_EXPLANATION: Map<ConceptStatus, Int> = mapOf(
+    ConceptStatus.UNMEASURED to R.string.adaptive_status_explanation_unmeasured,
+    ConceptStatus.ATTENTION to R.string.adaptive_status_explanation_attention,
+    ConceptStatus.WEAK to R.string.adaptive_status_explanation_weak,
+    ConceptStatus.DEVELOPING to R.string.adaptive_status_explanation_developing,
+    ConceptStatus.SECURE to R.string.adaptive_status_explanation_secure,
+    ConceptStatus.REVIEW_DUE to R.string.adaptive_status_explanation_review_due,
 )
