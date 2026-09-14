@@ -42,6 +42,7 @@ class AppScaffoldTest {
                     qbankContent = { Text("QBankStandIn") },
                     flashcardsContent = { Text("FlashcardsStandIn") },
                     libraryContent = { Text("LibraryStandIn") },
+                    resourcesContent = { Text("ResourcesStandIn") },
                     taxonomyContent = { Text("TaxonomyStandIn") },
                 )
             }
@@ -67,13 +68,13 @@ class AppScaffoldTest {
     }
 
     @Test
-    fun clickingTheResourcesTabNavigatesToItsPlaceholder() {
+    fun clickingTheResourcesTabRendersResourcesContentSeam() {
         setScaffold()
 
         composeTestRule.onNodeWithTag(bottomNavItemTag(RESOURCES_ROUTE)).performClick()
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Resources")
-        composeTestRule.onNodeWithText("Coming soon").assertIsDisplayed()
+        composeTestRule.onNodeWithText("ResourcesStandIn").assertIsDisplayed()
     }
 
     @Test
