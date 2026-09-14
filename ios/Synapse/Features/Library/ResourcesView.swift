@@ -84,27 +84,8 @@ struct ResourcesView: View {
                         // Only an openable resource is a link. A row that
                         // pushes to "nothing here" teaches a student not to
                         // trust the rest of them.
-                        if resource.isOpenable {
-                            NavigationLink {
-                                ResourceReaderView(resource: resource, files: files, api: api, sync: sync)
-                            } label: {
-                                ResourceRow(
-                                    resource: resource,
-                                    isSaved: model.bookmarks.contains(resource.id),
-                                    isDownloaded: files.state(for: resource.id) == .ready(ResourceFileStore.fileURL(resource.id) ?? URL(fileURLWithPath: "/")),
-                                    toggle: { Task { await model.toggleBookmark(resource.id) } }
-                                )
-                            }
+                        row(resource, model: model)
                             .listRowBackground(Theme.surface)
-                        } else {
-                            ResourceRow(
-                                resource: resource,
-                                isSaved: model.bookmarks.contains(resource.id),
-                                isDownloaded: false,
-                                toggle: { Task { await model.toggleBookmark(resource.id) } }
-                            )
-                            .listRowBackground(Theme.surface)
-                        }
                     }
                 } header: {
                     Text(folder.title)
@@ -169,6 +150,32 @@ struct ResourcesView: View {
             }
         }
         .buttonStyle(.plain)
+    }
+
+    /// One catalogue row, routed by what it actually is. A PDF opens in the
+    /// in-app reader; a video or other non-PDF source opens externally (never
+    /// fed to PDFKit, which renders its bytes as a broken document, and never
+    /// downloaded as a `.pdf`); a source with no openable URL is shown inert.
+    @ViewBuilder
+    private func row(_ resource: LibraryResource, model: ResourceModel) -> some View {
+        let downloaded = (resource.file?.isPDF == true)
+            && files.state(for: resource.id) == .ready(ResourceFileStore.fileURL(resource.id) ?? URL(fileURLWithPath: "/"))
+        let card = ResourceRow(
+            resource: resource,
+            isSaved: model.bookmarks.contains(resource.id),
+            isDownloaded: downloaded,
+            toggle: { Task { await model.toggleBookmark(resource.id) } }
+        )
+
+        if resource.isOpenable, resource.file?.isPDF == true {
+            NavigationLink {
+                ResourceReaderView(resource: resource, files: files, api: api, sync: sync)
+            } label: { card }
+        } else if let uri = resource.file?.sourceUri, let url = URL(string: uri) {
+            Link(destination: url) { card }
+        } else {
+            card
+        }
     }
 
     private var visibleFolders: [ResourceModel.Folder] {
