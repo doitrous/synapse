@@ -1,7 +1,9 @@
 package com.synapse.app.feature.maristanas
 
+import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.ApiException
 import com.synapse.app.core.api.RenameHospitalResult
 import com.synapse.app.core.maristanas.MaristanaOnboardingState
@@ -25,8 +27,8 @@ sealed interface MaristanaUiState {
         val fromCache: Boolean,
         val selectedSlot: Int,
         val onboarding: MaristanaOnboardingState,
-        /** Set right after the server refused a rename; cleared by the next successful load. Never presented as though the rename had happened. */
-        val renameRefusalReason: String? = null,
+        /** Set right after the server refused a rename; cleared by the next successful load. Never presented as though the rename had happened. Already mapped from the wire reason code — see [renameRefusalMessage]. */
+        @StringRes val renameRefusalMessage: Int? = null,
     ) : MaristanaUiState
 
     /** Neither the network nor the offline cache had anything to show. */
@@ -94,7 +96,7 @@ class MaristanaViewModel @Inject constructor(
                 is RenameHospitalResult.Renamed -> refresh()
                 is RenameHospitalResult.Refused -> {
                     val state = _uiState.value as? MaristanaUiState.Content ?: return@launch
-                    _uiState.value = state.copy(renameRefusalReason = result.reason)
+                    _uiState.value = state.copy(renameRefusalMessage = renameRefusalMessage(result.reason))
                 }
                 null -> Unit
             }
@@ -108,4 +110,12 @@ class MaristanaViewModel @Inject constructor(
             _uiState.value = state.copy(onboarding = MaristanaOnboardingState(version = 1, completed = true))
         }
     }
+}
+
+/** Turns the server's verbatim rename refusal reason (a wire string, never localized itself) into a localized message id. */
+@StringRes
+private fun renameRefusalMessage(reason: String): Int = when (reason) {
+    "hospital_not_unlocked" -> R.string.maristanas_rename_refused_not_unlocked
+    "invalid_hospital" -> R.string.maristanas_rename_refused_invalid
+    else -> R.string.maristanas_rename_refused_generic
 }

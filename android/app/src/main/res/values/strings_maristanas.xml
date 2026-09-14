@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/maristanas — Build Maristanas: the gamified hospital-builder
+         that turns study evidence into construction credit (EN/AR). Hospital
+         names synced from synapse-maristana-config-v1 are admin-authored
+         content and are never localized here. -->
+
+    <string name="maristanas_title">Build Maristanas</string>
+    <string name="maristanas_unavailable_message">Your construction ledger could not be loaded. No construction credit has been changed.</string>
+    <string name="maristanas_cached_notice">Showing your last saved progress — reconnect to see the latest.</string>
+    <string name="maristanas_disabled_notice">Build Maristanas is resting. Your administrators have paused it; your learning evidence is still safe.</string>
+
+    <plurals name="maristanas_hospitals_completed">
+        <item quantity="one">%1$d hospital completed</item>
+        <item quantity="other">%1$d hospitals completed</item>
+    </plurals>
+
+    <plurals name="maristanas_credits_total">
+        <item quantity="one">%1$d total credit</item>
+        <item quantity="other">%1$d total credits</item>
+    </plurals>
+
+    <string name="maristanas_collection_title">Your collection</string>
+
+    <!-- Build ledger card. -->
+    <string name="maristanas_cancel">Cancel</string>
+    <string name="maristanas_rename_button">Rename</string>
+    <string name="maristanas_hospital_complete">Hospital complete</string>
+    <string name="maristanas_step_progress">Step %1$d of %2$d</string>
+
+    <plurals name="maristanas_credits_to_next_step">
+        <item quantity="one">%1$d credit to place the next part (each part costs %2$d)</item>
+        <item quantity="other">%1$d credits to place the next part (each part costs %2$d)</item>
+    </plurals>
+
+    <!-- Rename refusal — server reason codes (hospital_not_unlocked, invalid_hospital, ...) stay wire strings; only the mapped message is localized. -->
+    <string name="maristanas_rename_refused_not_unlocked">You can rename a hospital once you have started building it.</string>
+    <string name="maristanas_rename_refused_invalid">That name could not be saved. Try a shorter name.</string>
+    <string name="maristanas_rename_refused_generic">That name could not be saved.</string>
+
+    <!-- Construction ledger breakdown. -->
+    <string name="maristanas_ledger_title">Construction ledger</string>
+    <string name="maristanas_ledger_study_label">Focused study</string>
+    <plurals name="maristanas_ledger_study_minutes">
+        <item quantity="one">%1$d minute recorded</item>
+        <item quantity="other">%1$d minutes recorded</item>
+    </plurals>
+    <string name="maristanas_ledger_questions_label">Questions answered</string>
+    <plurals name="maristanas_ledger_questions_detail">
+        <item quantity="one">%1$d attempt</item>
+        <item quantity="other">%1$d attempts</item>
+    </plurals>
+    <string name="maristanas_ledger_accuracy_label">Correct-answer credit</string>
+    <string name="maristanas_ledger_accuracy_percent">%1$d%% accuracy</string>
+    <string name="maristanas_ledger_accuracy_none">No marked answers yet</string>
+    <string name="maristanas_ledger_assessments_label">Assessment scores</string>
+    <plurals name="maristanas_ledger_assessments_detail">
+        <item quantity="one">%1$d session · %2$d%% avg</item>
+        <item quantity="other">%1$d sessions · %2$d%% avg</item>
+    </plurals>
+    <string name="maristanas_ledger_assessments_none">No assessment session yet</string>
+    <string name="maristanas_ledger_credit_delta">+%1$d</string>
+
+    <!-- Hospital collection chips. -->
+    <string name="maristanas_hospital_built">Built · %1$d/%1$d</string>
+    <plurals name="maristanas_hospital_parts_placed">
+        <item quantity="one">%1$d/%2$d part placed</item>
+        <item quantity="other">%1$d/%2$d parts placed</item>
+    </plurals>
+
+    <!-- Achievements — six fixed construction milestones (not admin-configurable). -->
+    <string name="maristanas_achievements_title">Construction achievements</string>
+    <string name="maristanas_achievement_earned">Earned</string>
+    <string name="maristanas_achievement_stage">Stage %1$d</string>
+
+    <string name="maristanas_milestone_1_title">Site prepared</string>
+    <string name="maristanas_milestone_1_desc">The perimeter and first foundation are in place.</string>
+    <string name="maristanas_milestone_5_title">Courtyard planned</string>
+    <string name="maristanas_milestone_5_desc">The central court and its paths have been set out.</string>
+    <string name="maristanas_milestone_10_title">Arcades raised</string>
+    <string name="maristanas_milestone_10_desc">The first clinical wings now enclose the court.</string>
+    <string name="maristanas_milestone_15_title">Healing hall opened</string>
+    <string name="maristanas_milestone_15_desc">The central hall joins both sides of the Maristana.</string>
+    <string name="maristanas_milestone_20_title">Dome crowned</string>
+    <string name="maristanas_milestone_20_desc">The hospital has received its defining crown.</string>
+    <string name="maristanas_milestone_25_title">Maristana complete</string>
+    <string name="maristanas_milestone_25_desc">The hospital and its gardens are ready to serve.</string>
+
+    <!-- Onboarding. -->
+    <string name="maristanas_onboarding_title">Build a place of healing</string>
+    <string name="maristanas_onboarding_body">Your focused study becomes a Maristana — a hospital built one part at a time. Active study minutes, answered questions and assessment scores place the next part automatically.</string>
+    <string name="maristanas_onboarding_start">Start building</string>
+</resources>
