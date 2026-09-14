@@ -57,6 +57,7 @@ class AppScaffoldTest {
                     maristanasContent = { Text("MaristanasStandIn") },
                     minigamesContent = { Text("MinigamesStandIn") },
                     studyTogetherContent = { Text("StudyTogetherStandIn") },
+                    sharesContent = { Text("SharesStandIn") },
                 )
             }
         }
@@ -142,6 +143,17 @@ class AppScaffoldTest {
 
         composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("Adaptive Study")
         composeTestRule.onNodeWithText("AdaptiveStandIn").assertIsDisplayed()
+    }
+
+    @Test
+    fun tappingMyDocumentsInTheMoreHubRendersSharesContentSeam() {
+        setScaffold()
+
+        composeTestRule.onNodeWithTag(bottomNavItemTag(MORE_ROUTE)).performClick()
+        composeTestRule.onNodeWithTag(moreHubItemTag("shares")).performScrollTo().performClick()
+
+        composeTestRule.onNodeWithTag(APP_BAR_TITLE_TAG).assertTextEquals("My Documents")
+        composeTestRule.onNodeWithText("SharesStandIn").assertIsDisplayed()
     }
 
     @Test

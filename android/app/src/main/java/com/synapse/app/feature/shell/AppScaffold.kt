@@ -40,6 +40,7 @@ import com.synapse.app.feature.performance.PerformanceRoute
 import com.synapse.app.feature.practical.PracticalRoute
 import com.synapse.app.feature.qbank.QuestionBankRoot
 import com.synapse.app.feature.resources.ResourcesRoute
+import com.synapse.app.feature.shares.SharesRoute
 import com.synapse.app.feature.social.StudyTogetherRoute
 
 /** Test tag on the top bar's title [Text], so tests can read it unambiguously. */
@@ -98,6 +99,7 @@ fun AppScaffold(
     maristanasContent: @Composable () -> Unit = { MaristanasRoute() },
     minigamesContent: @Composable () -> Unit = { MinigamesRoute() },
     studyTogetherContent: @Composable () -> Unit = { StudyTogetherRoute() },
+    sharesContent: @Composable () -> Unit = { SharesRoute() },
 ) {
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -145,6 +147,7 @@ fun AppScaffold(
         "maristanas" to maristanasContent,
         "minigames" to minigamesContent,
         "study-together" to studyTogetherContent,
+        "shares" to sharesContent,
         MORE_ROUTE to { MoreHubScreen(onNavigate = ::navigateFromHub) },
     )
 

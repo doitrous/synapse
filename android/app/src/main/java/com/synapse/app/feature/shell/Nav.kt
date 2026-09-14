@@ -19,6 +19,7 @@ import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -114,6 +115,7 @@ val MORE_GROUPS: List<MoreGroup> = listOf(
             StudentDestination(FLASHCARDS_ROUTE, "Flashcards", Icons.Filled.Refresh),
             StudentDestination("minigames", "Minigames", Icons.Filled.PlayArrow),
             StudentDestination("study-together", "Study Together", Icons.Filled.Person),
+            StudentDestination("shares", "My Documents", Icons.Filled.Share),
         ),
     ),
     MoreGroup(
