@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/university — Arabic strings. "Module" mirrors iOS's ArabicStrings.swift
+         ("Module" → "الوحدة"); "Subject" mirrors the same file ("Subject" → "المادة"). -->
+
+    <!-- Top-level screen states. -->
+    <string name="university_loading">جارٍ تحميل منهجك الدراسي…</string>
+    <string name="university_unavailable_title">تعذّرت قراءة منهجك الدراسي</string>
+    <string name="university_unavailable_description">يحتاج هذا إلى اتصال بالإنترنت مرة واحدة على الأقل. حاول مرة أخرى عند عودة الاتصال.</string>
+    <string name="university_missing_profile_title">أخبر nishany بمكان دراستك</string>
+    <string name="university_missing_profile_description">تبقى خريطة جامعتك فارغة حتى يتضمّن حسابك جامعة وسنة دراسية.</string>
+    <string name="university_being_verified_title">يجري التحقق من هذه السنة الدراسية</string>
+    <string name="university_being_verified_description">حسابك مسجَّل، لكن الخريطة الأكاديمية الحيّة لم تنشر هذه السنة بعد.</string>
+
+    <!-- Header. -->
+    <string name="university_header_title">جامعتك</string>
+    <string name="university_header_description">خريطة هادئة لسنتك الدراسية: الفصول والوحدات والمواد والتقييمات والجدول الذي نشرته كليتك.</string>
+    <string name="university_stale_notice">تُعرَض آخر نسخة محفوظة على هذا الجهاز — أعد الاتصال لتحديثها.</string>
+    <string name="university_scope_notice">هذا العرض مقتصر من الخادم على جامعتك وسنتك الدراسية فقط. لا يمكن طلب جامعة أو سنة أخرى من هنا.</string>
+
+    <!-- Stat labels, shared by the header card and the evidence summary. -->
+    <string name="university_stat_terms">الفصول</string>
+    <string name="university_stat_modules">الوحدات</string>
+    <string name="university_stat_marks">الدرجات</string>
+    <string name="university_stat_subjects">المواد</string>
+    <string name="university_stat_schedule">الجدول</string>
+    <string name="university_marks_unavailable">غير متاح</string>
+    <string name="university_marks_suffix_format">%1$s درجة</string>
+
+    <!-- No modules published yet. -->
+    <string name="university_no_modules_title">لا وحدات في سنتك الدراسية بعد</string>
+    <string name="university_no_modules_description">يمكن لأحد المسؤولين نشر الفصول والوحدات من إعدادات الشؤون الأكاديمية. تظل المكتبة وبنك الأسئلة يعملان حيثما يتوفر المحتوى.</string>
+
+    <!-- Term header. -->
+    <string name="university_term_number_format">الفصل %1$d</string>
+    <string name="university_term_summary_format">%1$s · %2$s</string>
+
+    <!-- Module badges. -->
+    <string name="university_badge_verified">درجات موثّقة</string>
+    <string name="university_badge_carried_forward">منقولة من فصل سابق</string>
+    <string name="university_badge_inferred">مُستنتَجة</string>
+    <string name="university_badge_being_verified">قيد التحقق</string>
+    <string name="university_badge_needs_marks">الدرجات غير متاحة</string>
+    <string name="university_badge_needs_schedule">الجدول قيد الانتظار</string>
+
+    <!-- Subject tree / schedule list. -->
+    <string name="university_subject_tree_empty">لم تُنشر شجرة مواد لهذه الوحدة بعد.</string>
+    <string name="university_schedule_empty">لا توجد حصص جدول منشورة لهذه الوحدة بعد.</string>
+    <string name="university_date_unavailable">التاريخ غير متاح</string>
+    <string name="university_schedule_location_format">%1$s · %2$s</string>
+
+    <!-- Module card. -->
+    <string name="university_module_meta_format">%1$s · %2$s · %3$s</string>
+    <string name="university_subject_tree_label">شجرة المواد</string>
+    <string name="university_scoped_schedule_label">الجدول المخصّص</string>
+    <string name="university_assessment_total_label">إجمالي التقييم</string>
+    <string name="university_assessment_components_unavailable">مكوّنات التقييم غير متاحة، وليست صفرًا.</string>
+
+    <!-- Upcoming schedule / evidence summary. -->
+    <string name="university_upcoming_schedule_title">الجدول القادم</string>
+    <string name="university_evidence_summary_title">ملخص الأدلة</string>
+    <string name="university_marks_unavailable_notice">بعض إجماليات التقييم غير متاحة أثناء مطابقة الأدلة المصدرية.</string>
+
+    <!-- Enrollment change request section. -->
+    <string name="university_change_request_title">طلب تغيير في القيد</string>
+    <string name="university_change_request_description">تُقفَل جامعتك وسنتك الدراسية بعد التحقق منهما. اطلب تغييرًا من هنا بدلًا من تعديلهما مباشرة.</string>
+    <string name="university_field_university">الجامعة</string>
+    <string name="university_field_year">السنة الدراسية</string>
+    <string name="university_requested_university_label">معرّف الجامعة المطلوبة</string>
+    <string name="university_requested_year_label">السنة الدراسية المطلوبة</string>
+    <string name="university_reason_label">السبب (12 حرفًا على الأقل)</string>
+    <string name="university_submit_request">إرسال الطلب</string>
+    <string name="university_request_submitted">أُرسل الطلب — سيراجعه أحد المسؤولين.</string>
+    <string name="university_request_refused_format">لم يُرسَل: %1$s</string>
+    <string name="university_request_failed">تعذّر الوصول إلى الخادم. حاول مرة أخرى.</string>
+    <string name="university_your_requests_title">طلباتك</string>
+    <string name="university_request_change_format">%1$s: %2$s ← %3$s</string>
+    <string name="university_value_unset">غير محدد</string>
+    <string name="university_dismiss">تجاهل</string>
+
+    <!-- Enrollment-change refusal reasons — the wire codes stay in English on
+         the wire; these are only the display text. -->
+    <string name="university_refusal_invalid_field">هذا الحقل غير معروف.</string>
+    <string name="university_refusal_requested_value_required">أدخل القيمة التي تطلبها.</string>
+    <string name="university_refusal_reason_required">اذكر السبب في 12 حرفًا على الأقل.</string>
+    <string name="university_refusal_profile_incomplete">يحتاج ملفك الشخصي إلى جامعة وسنة دراسية أولًا.</string>
+    <string name="university_refusal_unchanged">هذه هي قيمتك الحالية بالفعل.</string>
+    <string name="university_refusal_pending_exists">لديك بالفعل طلب معلَّق لهذا الحقل.</string>
+    <string name="university_refusal_unknown">سبب غير معروف</string>
+
+    <!-- Enrollment-change request status (wire values `pending`/`approved`/`rejected`). -->
+    <string name="university_status_pending">قيد الانتظار</string>
+    <string name="university_status_approved">مقبول</string>
+    <string name="university_status_rejected">مرفوض</string>
+
+    <!-- Counted items — full Arabic plural set (zero/one/two/few/many/other). -->
+    <plurals name="university_modules_count">
+        <item quantity="zero">لا وحدات</item>
+        <item quantity="one">وحدة واحدة</item>
+        <item quantity="two">وحدتان</item>
+        <item quantity="few">%1$d وحدات</item>
+        <item quantity="many">%1$d وحدة</item>
+        <item quantity="other">%1$d وحدة</item>
+    </plurals>
+    <plurals name="university_subject_nodes_count">
+        <item quantity="zero">لا عقد مواد</item>
+        <item quantity="one">عقدة مادة واحدة</item>
+        <item quantity="two">عقدتا مادة</item>
+        <item quantity="few">%1$d عقد مواد</item>
+        <item quantity="many">%1$d عقدة مادة</item>
+        <item quantity="other">%1$d عقدة مادة</item>
+    </plurals>
+    <plurals name="university_timetable_blocks_count">
+        <item quantity="zero">لا حصص جدول</item>
+        <item quantity="one">حصة جدول واحدة</item>
+        <item quantity="two">حصتا جدول</item>
+        <item quantity="few">%1$d حصص جدول</item>
+        <item quantity="many">%1$d حصة جدول</item>
+        <item quantity="other">%1$d حصة جدول</item>
+    </plurals>
+</resources>
