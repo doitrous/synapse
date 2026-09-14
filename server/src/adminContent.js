@@ -122,6 +122,9 @@ export function articleIndexRow(item) {
     subtopicId: data.subtopicId,
     microtopicId: data.microtopicId,
     nanotopicId: data.nanotopicId,
+    // Media Requests inherits a question's placement from the article it links,
+    // by that article's primaryNodeId.
+    primaryNodeId: data.primaryNodeId,
     moduleIds: list(data.moduleIds),
   }
 }
@@ -143,6 +146,41 @@ export async function adminEscalationsHandler(req, res) {
   const content = await loadAdminContent()
   const items = content.items.filter((item) =>
     [...collectMediaRequests(item).values()].some((request) => request && request.escalation))
+  return sendVersioned(req, res, content.signature, { items })
+}
+
+/**
+ * The full items carrying any media request — the Media Requests queue's working
+ * set, instead of the whole ledger. Full items (not projected) because the queue
+ * previews the owner, writes media placements into it (which spreads the whole
+ * item), and needs the exact stored item as each write's delta `before`.
+ */
+export async function adminMediaRequestItemsHandler(req, res) {
+  const content = await loadAdminContent()
+  const items = content.items.filter((item) => collectMediaRequests(item).size > 0)
+  return sendVersioned(req, res, content.signature, { items })
+}
+
+/**
+ * Questions holding an image that lives only in one browser (a legacy
+ * `nishany-media:`/`synapse-media:` reference, never uploaded to the server) —
+ * the Media Requests banner's whole working set. Just id + title, since the
+ * banner only links each one; a data-integrity nudge, usually empty.
+ */
+const MEDIA_REFERENCE_PREFIXES = ['nishany-media:', 'synapse-media:']
+const isStoredMediaReference = (value) =>
+  typeof value === 'string' && MEDIA_REFERENCE_PREFIXES.some((prefix) => value.startsWith(prefix))
+
+function hasStrandedImage(item) {
+  const data = item.questionData
+  if (!data || typeof data !== 'object') return false
+  if (isStoredMediaReference(data.attachedImage ?? '')) return true
+  return Array.isArray(data.attachments) && data.attachments.some((attachment) => isStoredMediaReference(attachment?.url ?? ''))
+}
+
+export async function adminStrandedMediaHandler(req, res) {
+  const content = await loadAdminContent()
+  const items = content.items.filter(hasStrandedImage).map((item) => ({ id: item.id, title: item.title }))
   return sendVersioned(req, res, content.signature, { items })
 }
 
@@ -177,6 +215,8 @@ export function registerAdminContentRoutes(app) {
   app.get('/api/admin/content/item/:id', requireConsole, wrap(adminItemHandler))
   app.get('/api/admin/content/article-index', requireConsole, wrap(adminArticleIndexHandler))
   app.get('/api/admin/content/escalations', requireConsole, wrap(adminEscalationsHandler))
+  app.get('/api/admin/content/media-request-items', requireConsole, wrap(adminMediaRequestItemsHandler))
+  app.get('/api/admin/content/stranded-media', requireConsole, wrap(adminStrandedMediaHandler))
   app.get('/api/admin/content/index', requireConsole, wrap(adminContentIndexHandler))
   app.post('/api/admin/content/items', requireConsole, wrap(adminContentItemsHandler))
 }

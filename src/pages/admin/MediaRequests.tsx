@@ -24,7 +24,6 @@ import { useI18n } from '@/lib/i18n'
 import { ApiError, apiDelete, apiPost } from '@/lib/api'
 import { ROLE_LABEL } from '@/data/adminRoles'
 import {
-  CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
   MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES, MEDIA_REQUEST_MEDIA, MEDIA_REQUEST_OWNER_KINDS,
   ESCALATION_PRIORITIES, mediaRequestsOf,
   type MediaRequest, type MediaRequestStatus, type MediaReviewComment, type ManagedContentItem,
@@ -34,7 +33,9 @@ import type { Status } from '@/data/admin'
 import { MEDICAL_TAXONOMY_INDEX } from '@/data/medicalLibraryTaxonomy'
 import { StudentFaithfulPreview, type PreviewAnchor } from '@/components/review/StudentFaithfulPreview'
 import { PlacedImage } from '@/components/ui/PlacedMedia'
-import { isStoredMediaReference } from '@/lib/mediaStorage'
+import { useAdminMediaRequestItems, useAdminArticleIndex, useAdminStrandedMedia } from '@/lib/content/adminContentClient'
+import { saveLedgerChanges, type LedgerItemChange } from '@/lib/content/adminLedgerWrite'
+import { errorKind } from '@/lib/apiErrors'
 import {
   MEDIA_STATE_KEY, emptyMediaLibrary, mediaReleaseBlockers, mediaTypeOf, mediaUrl,
   type ManagedMediaType, type MediaLibraryDocument, type MediaPlacement, type MediaRecord,
@@ -197,6 +198,13 @@ function roleLabelFor(identity: Identity): string {
   return identity.role ? (ROLE_LABEL[identity.role] ?? 'Reviewer') : 'Reviewer'
 }
 
+/** The server's stated reason for refusing a save (e.g. `media_not_ready`), or a default. */
+function conflictMessage(error: unknown): string {
+  const detail = error instanceof ApiError && error.body && typeof error.body === 'object' ? (error.body as { error?: unknown; reason?: unknown }) : null
+  const stated = (typeof detail?.reason === 'string' && detail.reason) || (typeof detail?.error === 'string' && detail.error)
+  return stated || 'The last change could not be saved. Reload the page and try again.'
+}
+
 /**
  * Every asset the library still needs, across articles, questions and practicals.
  *
@@ -210,10 +218,16 @@ export function MediaRequests() {
   const identity = useIdentity()
   const { t } = useI18n()
   const [universityCatalogue] = useUniversityCatalogue()
-  const [ledger, setLedger, ledgerStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  // The backlog is only the request-bearing items, sliced server-side — not the
+  // whole ~60 MB ledger. Writes go through `saveLedgerChanges` (item deltas), so
+  // nothing this tab never loaded can change.
+  const { items: ledger, setItems: setLedger, loading: ledgerLoading, error: ledgerError } = useAdminMediaRequestItems()
+  const { articles: articleIndex } = useAdminArticleIndex()
+  const { items: stranded } = useAdminStrandedMedia()
   const [mediaLibrary] = usePersistentState<MediaLibraryDocument>(MEDIA_STATE_KEY, emptyMediaLibrary)
-  // The backlog shows only what this person may work on. `ledger` stays in
-  // scope below for one reason — see `nodeByArticle`.
+  // pending while a write is in flight; conflict holds the server's refusal reason.
+  const [saveStatus, setSaveStatus] = useState<{ pending: boolean; error: boolean; conflict: string | null }>({ pending: false, error: false, conflict: null })
+  // The backlog shows only what this person may work on.
   const scoped = useScopedItems(ledger)
   const [filters, setFilters] = useFilterState(FILTER_DEFAULTS, { enabled: true, prefix: 'mr.' })
   const [reviewingId, setReviewingId] = useState<string | null>(null)
@@ -226,13 +240,10 @@ export function MediaRequests() {
 
   const baseRows = useMemo<Row[]>(() => {
     // A question has no canonical placement of its own, so it inherits the one
-    // belonging to the article that teaches its answer.
-    // Built from the whole ledger, not the scoped view: this only reads an
-    // article's placement so a question can inherit it, and the article that
-    // places a question a reviewer owns may itself be one they cannot edit.
-    const nodeByArticle = new Map(
-      ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item.articleData?.primaryNodeId]),
-    )
+    // belonging to the article that teaches its answer. From the article index
+    // (every article's placement), not the request-bearing slice: the article
+    // that places a question may itself carry no request.
+    const nodeByArticle = new Map(articleIndex.map((row) => [row.id, row.primaryNodeId]))
     return scoped.flatMap((item) => {
       const requests = mediaRequestsOf(item)
       if (!requests?.length) return []
@@ -252,7 +263,7 @@ export function MediaRequests() {
         curriculum,
       }))
     })
-  }, [ledger, scoped, universityCatalogue])
+  }, [articleIndex, scoped, universityCatalogue])
 
   // Requirement #3: a media request whose owning content is archived never
   // reaches the actionable reviewer queue. Editors/superadmins may opt in via
@@ -322,39 +333,59 @@ export function MediaRequests() {
    * editors — it is a fact the server sets once the attached media verifies,
    * never a label anyone applies by hand.
    */
+  /**
+   * Save an item-scoped delta and reflect it at once. Only the named owner is
+   * sent, so nothing this tab never loaded can change (server applyDelta). A
+   * refused save rolls the optimistic edit back; conflict holds the reason.
+   */
+  async function persist(before: ManagedContentItem, after: ManagedContentItem) {
+    const change: LedgerItemChange = { id: before.id, before, after }
+    const snapshot = ledger
+    setSaveStatus({ pending: true, error: false, conflict: null })
+    setLedger((items) => items.map((item) => (item.id === before.id ? after : item)))
+    try {
+      await saveLedgerChanges([change])
+      setSaveStatus({ pending: false, error: false, conflict: null })
+    } catch (error) {
+      setLedger(() => snapshot)
+      const conflict = errorKind(error) === 'conflict'
+      setSaveStatus({ pending: false, error: !conflict, conflict: conflict ? conflictMessage(error) : null })
+    }
+  }
+
   function setRequestStatus(row: Row, next: MediaRequestStatus) {
     if (next === 'supplied') return
-    setLedger((items) => items.map((item) => item.id === row.ownerId
-      ? patchMediaRequest(item, row.id, (request) => ({ ...request, status: next }))
-      : item))
+    const before = ledger.find((item) => item.id === row.ownerId)
+    if (!before) return
+    void persist(before, patchMediaRequest(before, row.id, (request) => ({ ...request, status: next })))
   }
 
   function addReviewComment(row: Row, comment: MediaReviewComment) {
-    setLedger((items) => items.map((item) => item.id === row.ownerId
-      ? patchMediaRequest(item, row.id, (request) => ({ ...request, reviewComments: [...(request.reviewComments ?? []), comment] }))
-      : item))
+    const before = ledger.find((item) => item.id === row.ownerId)
+    if (!before) return
+    void persist(before, patchMediaRequest(before, row.id, (request) => ({ ...request, reviewComments: [...(request.reviewComments ?? []), comment] })))
   }
 
   /** A reviewer's request for editorial help. Once open, the server refuses this reviewer's further edits to it. */
   function escalate(row: Row, reason: string, priority: EscalationPriority) {
+    const before = ledger.find((item) => item.id === row.ownerId)
+    if (!before) return
     const at = new Date().toISOString()
     const actorRole = roleLabelFor(identity)
     const event: MediaEscalationEvent = { at, actorId: identity.userId, actorName: identity.displayName, actorRole, action: 'escalated', note: reason }
-    setLedger((items) => items.map((item) => item.id === row.ownerId
-      ? patchMediaRequest(item, row.id, (request) => ({
-        ...request,
-        escalation: {
-          reason,
-          priority,
-          byUserId: identity.userId,
-          byName: identity.displayName,
-          byRole: actorRole,
-          at,
-          status: 'open',
-          history: [...(request.escalation?.history ?? []), event],
-        },
-      }))
-      : item))
+    void persist(before, patchMediaRequest(before, row.id, (request) => ({
+      ...request,
+      escalation: {
+        reason,
+        priority,
+        byUserId: identity.userId,
+        byName: identity.displayName,
+        byRole: actorRole,
+        at,
+        status: 'open',
+        history: [...(request.escalation?.history ?? []), event],
+      },
+    })))
   }
 
   /** "Report a problem" no longer just leaves a local note — it files a real Content Report. */
@@ -385,7 +416,7 @@ export function MediaRequests() {
    * request's `status` is deliberately left untouched: the server alone moves
    * it to `supplied`, once it has independently verified the attached media
    * is `ready`. If it is not, the save comes back refused (409
-   * `media_not_ready`) — see `ledgerStatus.conflict` in the workspace below.
+   * `media_not_ready`) — see `saveStatus.conflict` in the workspace below.
    */
   function fulfil(row: Row, mediaId: string, destination: string, suppliedRecord?: MediaRecord): string | null {
     if (row.escalation?.status === 'open') return 'This request is escalated to the editorial team and is read-only until it is returned or resolved.'
@@ -415,9 +446,9 @@ export function MediaRequests() {
       if (practicalIndex < 0) return 'That practical section no longer exists. Choose a current section before supplying the media.'
     }
 
-    setLedger((items) => items.map((item) => {
-      if (item.id !== row.ownerId) return item
-      let updated: ManagedContentItem = item
+    const item = ownerItem
+    let updated: ManagedContentItem = item
+    {
       if (item.kind === 'question' && item.questionData) {
         const slot: MediaPlacement['slot'] = questionAnswer
           ? 'answer'
@@ -438,8 +469,7 @@ export function MediaRequests() {
             media: [...(item.questionData.media ?? []).filter((candidate) => candidate.id !== placement.id), placement],
           },
         }
-      } else {
-        if (!record) return item
+      } else if (record) {
         if (item.kind === 'article' && item.articleData) {
           const articleBlock = destination.trim().toLowerCase() === 'article summary' ? 'summary' : 'body'
           updated = {
@@ -481,26 +511,20 @@ export function MediaRequests() {
           updated = { ...item, practicalData }
         }
       }
-      // Verified media has been attached, so the request is supplied — reflected
-      // here for an immediate queue update rather than only on the next reload.
-      // This is not a reviewer hand-marking supplied: it always rides an attach,
-      // which is the one way to reach supplied, and the write route still verifies
-      // the media is genuinely ready and refuses the whole save (media_not_ready)
-      // if it is not — rolling this optimistic status back with it.
-      return patchMediaRequest(updated, row.id, (request) => ({ ...request, mediaId, status: 'supplied' }))
-    }))
+    }
+    // Verified media has been attached, so the request is supplied — reflected
+    // optimistically for an immediate queue update. This is not a reviewer
+    // hand-marking supplied: it always rides an attach, which is the one way to
+    // reach supplied, and the write route still verifies the media is genuinely
+    // ready and refuses the whole save (media_not_ready) if it is not — `persist`
+    // rolls this optimistic status back with it and surfaces the reason.
+    const after = patchMediaRequest(updated, row.id, (request) => ({ ...request, mediaId, status: 'supplied' }))
+    void persist(item, after)
     return null
   }
 
   const outstanding = rows.filter((row) => row.status === 'needed' || row.status === 'planned')
   const requiredOutstanding = outstanding.filter((row) => row.priority === 'required')
-
-  /** Every image that still lives in one browser and reaches nobody. */
-  const stranded = useMemo(() => ledger.filter((item) => {
-    const data = item.questionData
-    if (isStoredMediaReference(data?.attachedImage ?? '')) return true
-    return (data?.attachments ?? []).some((attachment) => isStoredMediaReference(attachment.url))
-  }), [ledger])
 
   /**
    * The backlog, grouped under the item waiting on it.
@@ -606,13 +630,13 @@ export function MediaRequests() {
         </Panel>
       </div>
 
-      {ledgerStatus.error && (
+      {(ledgerError || saveStatus.error || saveStatus.conflict) && (
         <Panel className="mb-4 border-danger/30 bg-danger-tint/50 p-3.5">
           <p className="flex items-center gap-2 text-[12.5px] font-medium text-danger">
             <Icon icon={TriangleAlert} size={15} />
-            {!ledgerStatus.hydrated
+            {ledgerError
               ? t('The backlog could not be loaded. Check your connection and reload the page.')
-              : (ledgerStatus.conflict || t('The last change could not be saved. Reload the page and try again.'))}
+              : (saveStatus.conflict || t('The last change could not be saved. Reload the page and try again.'))}
           </p>
         </Panel>
       )}
@@ -623,7 +647,7 @@ export function MediaRequests() {
           item={reviewingItem}
           identity={identity}
           canManage={canManage}
-          ledgerConflict={ledgerStatus.conflict}
+          ledgerConflict={saveStatus.conflict}
           onClose={() => setReviewingId(null)}
           onFulfil={fulfil}
           onComment={addReviewComment}
@@ -691,13 +715,13 @@ export function MediaRequests() {
           />
         </div>
 
-        {!ledgerStatus.hydrated && ledgerStatus.error ? (
+        {ledgerError ? (
           <EmptyState
             icon={TriangleAlert}
             title={t('The backlog could not be loaded')}
             description={t('Check your connection and reload the page.')}
           />
-        ) : !ledgerStatus.hydrated ? (
+        ) : ledgerLoading ? (
           <div className="flex items-center justify-center gap-2 py-16 text-ink-3">
             <LoadingRegion label={t('Loading the backlog…')} className="w-full"><SkeletonTable rows={6} columns={4} /></LoadingRegion>
           </div>

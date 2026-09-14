@@ -20,6 +20,7 @@ import { useCallback, useEffect, useState, type Dispatch, type SetStateAction } 
 import { API_MODE, apiGetIfChanged, apiPost } from '../api'
 import { errorKind, type StateErrorKind } from '../apiErrors'
 import { CONTENT_LEDGER_STORAGE_KEY, mediaRequestsOf, type ManagedContentItem } from '@/data/contentControl'
+import { isStoredMediaReference } from '@/lib/mediaStorage'
 
 interface CacheEntry { etag: string | null; data: unknown }
 const cache = new Map<string, CacheEntry>()
@@ -81,6 +82,7 @@ export interface AdminArticleIndexRow {
   subtopicId?: string
   microtopicId?: string
   nanotopicId?: string
+  primaryNodeId?: string
   moduleIds: string[]
 }
 export interface AdminArticleIndexResponse { version: string; articles: AdminArticleIndexRow[] }
@@ -93,7 +95,7 @@ export function fetchAdminArticleIndex(force = false): Promise<AdminArticleIndex
       .filter((item) => item.kind === 'article')
       .map((item) => {
         const data = item.articleData
-        return { id: item.id, subtopicId: data?.subtopicId, microtopicId: data?.microtopicId, nanotopicId: data?.nanotopicId, moduleIds: listOf(data?.moduleIds) }
+        return { id: item.id, subtopicId: data?.subtopicId, microtopicId: data?.microtopicId, nanotopicId: data?.nanotopicId, primaryNodeId: data?.primaryNodeId, moduleIds: listOf(data?.moduleIds) }
       })
     return Promise.resolve({ version: 'demo', articles })
   }
@@ -161,6 +163,81 @@ export function useAdminEscalations(): {
     [],
   )
   return { items: state.items, setItems, loading: state.loading, error: state.error }
+}
+
+/**
+ * The full items carrying any media request — the Media Requests queue's working
+ * set, fetched once instead of the whole ledger. Full items because the queue
+ * previews the owner, writes media placements into it, and needs the exact stored
+ * item as each write's `before`.
+ */
+export function fetchAdminMediaRequestItems(force = false): Promise<AdminItemsResponse> {
+  if (!API_MODE) {
+    return Promise.resolve({ version: 'demo', items: demoLedger().filter((item) => mediaRequestsOf(item).length > 0) })
+  }
+  return load<AdminItemsResponse>('admin:media-request-items', '/admin/content/media-request-items', force)
+}
+
+/** Media-request-bearing items as local, optimistically-mutable state. */
+export function useAdminMediaRequestItems(): {
+  items: ManagedContentItem[]
+  setItems: Dispatch<SetStateAction<ManagedContentItem[]>>
+  loading: boolean
+  error: StateErrorKind | null
+} {
+  const [state, setState] = useState<{ items: ManagedContentItem[]; loading: boolean; error: StateErrorKind | null }>(
+    { items: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdminMediaRequestItems()
+      .then((response) => { if (live) setState({ items: response.items, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ items: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  const setItems = useCallback<Dispatch<SetStateAction<ManagedContentItem[]>>>(
+    (update) => setState((prev) => ({ ...prev, items: typeof update === 'function' ? (update as (p: ManagedContentItem[]) => ManagedContentItem[])(prev.items) : update })),
+    [],
+  )
+  return { items: state.items, setItems, loading: state.loading, error: state.error }
+}
+
+/** id + title of questions whose image lives only in one browser — the stranded banner's rows. */
+export interface AdminStrandedRow { id: string; title: string }
+export interface AdminStrandedResponse { version: string; items: AdminStrandedRow[] }
+
+const strandedRow = (item: ManagedContentItem): AdminStrandedRow => ({ id: item.id, title: item.title })
+
+/**
+ * Questions holding a browser-local (`nishany-media:`) image, fetched once
+ * instead of scanning the whole ledger for the banner. Demo mode reuses the
+ * client predicate over the local ledger.
+ */
+export function fetchAdminStrandedMedia(force = false): Promise<AdminStrandedResponse> {
+  if (!API_MODE) {
+    const items = demoLedger().filter((item) => {
+      const data = item.questionData
+      if (!data) return false
+      return isStoredMediaReference(data.attachedImage ?? '') || (data.attachments ?? []).some((a) => isStoredMediaReference(a.url))
+    }).map(strandedRow)
+    return Promise.resolve({ version: 'demo', items })
+  }
+  return load<AdminStrandedResponse>('admin:stranded-media', '/admin/content/stranded-media', force)
+}
+
+/** The stranded-image banner's rows (id + title), fetched once on mount. */
+export function useAdminStrandedMedia(): { items: AdminStrandedRow[]; loading: boolean; error: StateErrorKind | null } {
+  const [state, setState] = useState<{ items: AdminStrandedRow[]; loading: boolean; error: StateErrorKind | null }>(
+    { items: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdminStrandedMedia()
+      .then((response) => { if (live) setState({ items: response.items, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ items: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  return state
 }
 
 /**
