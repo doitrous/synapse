@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/dashboard — Arabic strings. No dashboard-shaped screen exists yet in
+         iOS's Core/Localisation/ArabicStrings.swift or web's src/data/i18n-ar.ts (greeting
+         + sync status + empty-state cards has no precedent there), so these are fresh
+         Modern Standard Arabic. -->
+
+    <!-- DashboardContent: greeting header. -->
+    <string name="dashboard_greeting_with_name">أهلاً بعودتك، %1$s</string>
+    <string name="dashboard_greeting_default">أهلاً بعودتك</string>
+
+    <!-- SyncStatusChip + "Sync now" button. -->
+    <string name="dashboard_syncing">جارٍ المزامنة…</string>
+    <string name="dashboard_offline">غير متصل</string>
+    <string name="dashboard_synced_default">تمت المزامنة</string>
+    <string name="dashboard_synced_at_format">تمت المزامنة %1$s</string>
+    <string name="dashboard_sync_now">مزامنة الآن</string>
+
+    <!-- Empty-state cards, shown until adaptive review scheduling / calendar content lands. -->
+    <string name="dashboard_due_reviews_title">مراجعات مستحقة</string>
+    <string name="dashboard_due_reviews_body">لا توجد مراجعات مستحقة بعد — ستظهر هنا بمجرد إعداد جدول المراجعة.</string>
+    <string name="dashboard_agenda_title">خطة اليوم</string>
+    <string name="dashboard_agenda_body">ستظهر هنا خطة يومك بمجرد إعداد خطة دراسية.</string>
+</resources>

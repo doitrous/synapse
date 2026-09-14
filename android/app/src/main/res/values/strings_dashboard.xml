@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/dashboard — localized strings for the Today/Dashboard surface (EN/AR).
+         No "Dashboard" screen exists yet on iOS's ArabicStrings.swift or web's i18n-ar.ts
+         with this shape (greeting + sync status + empty-state cards), so these are fresh
+         Modern Standard Arabic rather than mirrored copy. -->
+
+    <!-- DashboardContent: greeting header. -->
+    <string name="dashboard_greeting_with_name">Welcome back, %1$s</string>
+    <string name="dashboard_greeting_default">Welcome back</string>
+
+    <!-- SyncStatusChip + "Sync now" button. -->
+    <string name="dashboard_syncing">Syncing…</string>
+    <string name="dashboard_offline">Offline</string>
+    <string name="dashboard_synced_default">Synced</string>
+    <string name="dashboard_synced_at_format">Synced %1$s</string>
+    <string name="dashboard_sync_now">Sync now</string>
+
+    <!-- Empty-state cards, shown until adaptive review scheduling / calendar content lands. -->
+    <string name="dashboard_due_reviews_title">Due reviews</string>
+    <string name="dashboard_due_reviews_body">Nothing due yet — this fills in once your review schedule is set up.</string>
+    <string name="dashboard_agenda_title">Today\'s agenda</string>
+    <string name="dashboard_agenda_body">Your day\'s plan will show up here once a study plan is in place.</string>
+</resources>
