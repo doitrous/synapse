@@ -32,9 +32,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.api.LeaderboardMetric
 import com.synapse.app.core.api.LeaderboardRow
 
@@ -80,7 +83,7 @@ private fun PerformanceScreen(
 
     Column(modifier = Modifier.fillMaxSize()) {
         Text(
-            "Performance",
+            stringResource(R.string.performance_title),
             style = MaterialTheme.typography.titleLarge,
             modifier = Modifier.padding(16.dp),
         )
@@ -90,13 +93,13 @@ private fun PerformanceScreen(
             Tab(
                 selected = tabIndex == 0,
                 onClick = { onSelectTab(PerformanceTab.Personal) },
-                text = { Text("Personal progress") },
+                text = { Text(stringResource(R.string.performance_tab_personal)) },
                 modifier = Modifier.testTag(PERFORMANCE_TAB_PERSONAL_TAG),
             )
             Tab(
                 selected = tabIndex == 1,
                 onClick = { onSelectTab(PerformanceTab.Leaders) },
-                text = { Text("Top performers") },
+                text = { Text(stringResource(R.string.performance_tab_leaders)) },
                 modifier = Modifier.testTag(PERFORMANCE_TAB_LEADERS_TAG),
             )
         }
@@ -122,7 +125,7 @@ private fun PersonalProgressPane(stats: PersonalStats) {
             contentAlignment = Alignment.Center,
         ) {
             Text(
-                "Nothing measured yet. Answer some questions and your accuracy, coverage and streak appear here.",
+                stringResource(R.string.performance_empty_message),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(24.dp),
             )
@@ -136,13 +139,13 @@ private fun PersonalProgressPane(stats: PersonalStats) {
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         item { HeadlineRow(stats) }
-        item { SectionCard(title = "When you study") { HeatmapGrid(stats.heatmap) } }
+        item { SectionCard(title = stringResource(R.string.performance_section_when_you_study)) { HeatmapGrid(stats.heatmap) } }
         if (stats.bySubject.isNotEmpty()) {
-            item { SectionCard(title = "Accuracy by subject") { BreakdownBarList(stats.bySubject) } }
+            item { SectionCard(title = stringResource(R.string.performance_section_by_subject)) { BreakdownBarList(stats.bySubject) } }
         }
         if (stats.byDifficulty.isNotEmpty()) {
             item {
-                SectionCard(title = "Accuracy by difficulty") {
+                SectionCard(title = stringResource(R.string.performance_section_by_difficulty)) {
                     val ordered = stats.byDifficulty.sortedBy { row ->
                         DIFFICULTY_ORDER.indexOf(row.key).let { if (it < 0) DIFFICULTY_ORDER.size else it }
                     }
@@ -151,7 +154,7 @@ private fun PersonalProgressPane(stats: PersonalStats) {
             }
         }
         if (stats.bySurface.isNotEmpty()) {
-            item { SectionCard(title = "Where the work went") { BreakdownBarList(stats.bySurface, showCount = true) } }
+            item { SectionCard(title = stringResource(R.string.performance_section_by_surface)) { BreakdownBarList(stats.bySurface, showCount = true) } }
         }
     }
 }
@@ -159,23 +162,39 @@ private fun PersonalProgressPane(stats: PersonalStats) {
 @Composable
 private fun HeadlineRow(stats: PersonalStats) {
     Row(horizontalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxWidth()) {
+        val accuracyLabel = stringResource(R.string.performance_kpi_accuracy_label)
+        val noValue = stringResource(R.string.performance_no_value)
         if (stats.marked >= MIN_MARKED_FOR_ACCURACY) {
             KpiTile(
                 modifier = Modifier.weight(1f),
-                label = "Accuracy",
-                value = stats.overallAccuracy?.let { "${(it * 100).toInt()}%" } ?: "—",
-                sub = "of ${stats.marked} marked",
+                label = accuracyLabel,
+                value = stats.overallAccuracy?.let { stringResource(R.string.performance_accuracy_percent, (it * 100).toInt()) } ?: noValue,
+                sub = pluralStringResource(R.plurals.performance_marked_of, stats.marked, stats.marked),
             )
         } else {
             KpiTile(
                 modifier = Modifier.weight(1f),
-                label = "Accuracy",
-                value = "—",
-                sub = "${MIN_MARKED_FOR_ACCURACY - stats.marked} more marked answers needed",
+                label = accuracyLabel,
+                value = noValue,
+                sub = pluralStringResource(
+                    R.plurals.performance_more_marked_needed,
+                    MIN_MARKED_FOR_ACCURACY - stats.marked,
+                    MIN_MARKED_FOR_ACCURACY - stats.marked,
+                ),
             )
         }
-        KpiTile(modifier = Modifier.weight(1f), label = "Streak", value = "${stats.streak}", sub = if (stats.streak == 1) "day" else "days")
-        KpiTile(modifier = Modifier.weight(1f), label = "Items covered", value = "${stats.distinctItems}", sub = "${stats.attempts} attempts")
+        KpiTile(
+            modifier = Modifier.weight(1f),
+            label = stringResource(R.string.performance_kpi_streak_label),
+            value = "${stats.streak}",
+            sub = pluralStringResource(R.plurals.performance_streak_unit, stats.streak),
+        )
+        KpiTile(
+            modifier = Modifier.weight(1f),
+            label = stringResource(R.string.performance_kpi_items_label),
+            value = "${stats.distinctItems}",
+            sub = pluralStringResource(R.plurals.performance_attempts_count, stats.attempts, stats.attempts),
+        )
     }
 }
 
@@ -211,7 +230,9 @@ private fun BreakdownBarList(rows: List<Breakdown>, showCount: Boolean = false) 
                     Text(row.key, style = MaterialTheme.typography.bodyMedium)
                     Text(
                         if (showCount) "${row.attempts}"
-                        else row.accuracy?.let { "${(it * 100).toInt()}% / ${row.marked}" } ?: "not marked",
+                        else row.accuracy?.let {
+                            stringResource(R.string.performance_breakdown_accuracy_of_marked, (it * 100).toInt(), row.marked)
+                        } ?: stringResource(R.string.performance_not_marked),
                         style = MaterialTheme.typography.bodySmall,
                     )
                 }
@@ -239,7 +260,7 @@ private fun BreakdownBarList(rows: List<Breakdown>, showCount: Boolean = false) 
 @Composable
 private fun HeatmapGrid(days: List<DayCount>) {
     if (days.isEmpty()) {
-        Text("No activity yet.", style = MaterialTheme.typography.bodySmall)
+        Text(stringResource(R.string.performance_heatmap_empty), style = MaterialTheme.typography.bodySmall)
         return
     }
     val weeks = days.chunked(7)
@@ -280,12 +301,12 @@ private fun TopPerformersPane(
                 selected = metric == LeaderboardMetric.ConceptsMastered,
                 onClick = { onSelectMetric(LeaderboardMetric.ConceptsMastered) },
                 shape = SegmentedButtonDefaults.itemShape(index = 0, count = 2),
-            ) { Text("Concepts mastered") }
+            ) { Text(stringResource(R.string.performance_metric_concepts_mastered)) }
             SegmentedButton(
                 selected = metric == LeaderboardMetric.PercentCorrect,
                 onClick = { onSelectMetric(LeaderboardMetric.PercentCorrect) },
                 shape = SegmentedButtonDefaults.itemShape(index = 1, count = 2),
-            ) { Text("% correct") }
+            ) { Text(stringResource(R.string.performance_metric_percent_correct)) }
         }
         Spacer(modifier = Modifier.height(12.dp))
 
@@ -298,7 +319,7 @@ private fun TopPerformersPane(
                 contentAlignment = Alignment.Center,
             ) {
                 Text(
-                    "The leaderboard could not be loaded. Your own performance data has not been substituted.",
+                    stringResource(R.string.performance_leaderboard_unavailable),
                     style = MaterialTheme.typography.bodyMedium,
                     modifier = Modifier.padding(24.dp),
                 )
@@ -316,7 +337,7 @@ private fun TopPerformersPane(
                     Box(
                         modifier = Modifier.fillMaxSize().testTag(PERFORMANCE_LEADERBOARD_EMPTY_TAG),
                         contentAlignment = Alignment.Center,
-                    ) { Text("No eligible performers yet in your cohort.", style = MaterialTheme.typography.bodyMedium) }
+                    ) { Text(stringResource(R.string.performance_leaderboard_empty), style = MaterialTheme.typography.bodyMedium) }
                 } else {
                     LazyColumn(verticalArrangement = Arrangement.spacedBy(4.dp)) {
                         items(state.response.rows) { row -> LeaderboardRowItem(row, metric) }
@@ -334,12 +355,22 @@ private fun LeaderboardRowItem(row: LeaderboardRow, metric: LeaderboardMetric) {
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Text("#${row.rank}", style = MaterialTheme.typography.labelLarge, modifier = Modifier.padding(end = 8.dp))
-        Text("@${row.username}", style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+        Text(
+            stringResource(R.string.performance_leaderboard_rank, row.rank),
+            style = MaterialTheme.typography.labelLarge,
+            modifier = Modifier.padding(end = 8.dp),
+        )
+        Text(
+            stringResource(R.string.performance_leaderboard_username, row.username),
+            style = MaterialTheme.typography.bodyLarge,
+            modifier = Modifier.weight(1f),
+        )
         Text(
             when (metric) {
                 LeaderboardMetric.ConceptsMastered -> "${row.securedConcepts ?: 0}"
-                LeaderboardMetric.PercentCorrect -> row.accuracy?.let { "${(it * 100).toInt()}%" } ?: "—"
+                LeaderboardMetric.PercentCorrect -> row.accuracy?.let {
+                    stringResource(R.string.performance_accuracy_percent, (it * 100).toInt())
+                } ?: stringResource(R.string.performance_no_value)
             },
             style = MaterialTheme.typography.bodyLarge,
         )
