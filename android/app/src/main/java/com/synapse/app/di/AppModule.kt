@@ -6,12 +6,15 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
+import com.synapse.app.core.api.AccountApi
 import com.synapse.app.core.api.LeaderboardApi
 import com.synapse.app.core.api.QBankApi
+import com.synapse.app.core.api.RetrofitAccountApi
 import com.synapse.app.core.api.RetrofitLeaderboardApi
 import com.synapse.app.core.api.RetrofitQBankApi
 import com.synapse.app.core.api.RetrofitSynapseApi
 import com.synapse.app.core.api.SynapseApi
+import com.synapse.app.core.auth.AccountIdentityStore
 import com.synapse.app.core.auth.AuthBackend
 import com.synapse.app.core.auth.AuthModel
 import com.synapse.app.core.auth.DataStoreTokenStore
@@ -43,6 +46,11 @@ import javax.inject.Singleton
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class QBankPinsDataStore
+
+/** Distinguishes the per-device [AccountIdentityStore] cache's [DataStore] from the others above. */
+@Qualifier
+@Retention(AnnotationRetention.BINARY)
+annotation class AccountIdentityDataStore
 
 /**
  * The app's Hilt object graph. Breaks the api/auth cycle deliberately: the
@@ -111,6 +119,24 @@ object AppModule {
     @Singleton
     fun provideLeaderboardApi(config: AppConfig, authBackend: AuthBackend): LeaderboardApi =
         RetrofitLeaderboardApi(config, authBackend::accessToken)
+
+    @Provides
+    @Singleton
+    fun provideAccountApi(config: AppConfig, authBackend: AuthBackend): AccountApi =
+        RetrofitAccountApi(config, authBackend::accessToken)
+
+    @Provides
+    @Singleton
+    @AccountIdentityDataStore
+    fun provideAccountIdentityDataStore(@ApplicationContext context: Context): DataStore<Preferences> =
+        PreferenceDataStoreFactory.create(
+            produceFile = { context.preferencesDataStoreFile("account-identity") }
+        )
+
+    @Provides
+    @Singleton
+    fun provideAccountIdentityStore(@AccountIdentityDataStore dataStore: DataStore<Preferences>): AccountIdentityStore =
+        AccountIdentityStore(dataStore)
 
     @Provides
     @Singleton

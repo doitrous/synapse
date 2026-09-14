@@ -50,4 +50,14 @@ val STUDENT_USER_STATE_KEYS: List<String> = listOf(
     // StateOwnership.isUserOwned's `^synapse\.calendar\.blocks$` pattern
     // matches it, matching web's STUDY_BLOCKS_STORAGE_KEY.
     "synapse.calendar.blocks",
+    // Account: notification prefs (timezone, review/calendar reminder
+    // switches) — matches iOS/web's AccountPrefs.key exactly. See
+    // `core/account/AccountPrefs.kt`.
+    "synapse.account.prefs.v1",
+    // Account: the student's language choice. No `.v1`, no `synapse.`
+    // prefix — matches iOS/web's `synapse-lang` exactly (StateOwnership
+    // already carries a dedicated `^synapse-lang$` pattern for it, not the
+    // `synapse\.` family the rest of this list belongs to). Storage only —
+    // see `AccountRepository.LANGUAGE_KEY`'s doc comment.
+    "synapse-lang",
 )
