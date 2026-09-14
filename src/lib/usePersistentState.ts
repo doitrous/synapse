@@ -13,6 +13,9 @@ import {
 export type { PersistentStateStatus } from './stateStore'
 export { preloadState } from './stateStore'
 
+/** A deferred read never gates first paint — see the call site below. */
+const DEFERRED_READ = { hydrated: true, error: null } as const
+
 /**
  * Small persistence boundary. Two modes:
  *  - Demo (no VITE_API_BASE): backed by localStorage.
@@ -51,7 +54,12 @@ export function usePersistentState<T>(
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key, defer])
 
-  useInitialRead(snapshot[2])
+  // A deferred document is by definition not part of first paint: it stays
+  // unhydrated until something calls `preloadState(key)` (e.g. an editor opens),
+  // so reporting its raw `hydrated: false` would gate the InitialReadBoundary
+  // forever in live mode (demo mode seeds hydrated, which is why this only bit
+  // production). Report it as satisfied; the on-demand consumer owns its own load.
+  useInitialRead(defer ? DEFERRED_READ : snapshot[2])
 
   return snapshot as unknown as readonly [T, (next: Updater<T>) => void, PersistentStateStatus]
 }
