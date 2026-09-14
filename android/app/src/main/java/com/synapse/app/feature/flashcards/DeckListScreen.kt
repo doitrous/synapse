@@ -34,9 +34,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.res.pluralStringResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.synapse.app.R
 import com.synapse.app.core.flashcards.DeckCard
 
 const val FLASHCARDS_LOADING_TAG = "flashcards_loading"
@@ -97,7 +100,7 @@ private fun DeckListContent(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
         ) {
-            Text("Loading…")
+            Text(stringResource(R.string.flashcards_loading))
         }
         return
     }
@@ -110,16 +113,16 @@ private fun DeckListContent(
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            Text("Your decks", style = MaterialTheme.typography.titleLarge)
+            Text(stringResource(R.string.flashcards_your_decks_title), style = MaterialTheme.typography.titleLarge)
             TextButton(onClick = { creating = true }, modifier = Modifier.testTag(FLASHCARDS_NEW_DECK_BUTTON_TAG)) {
                 Icon(Icons.Filled.Add, contentDescription = null)
-                Text(" New deck")
+                Text(" " + stringResource(R.string.flashcards_new_deck))
             }
         }
 
         if (uiState.ownDecks.isEmpty()) {
             Text(
-                "You have not created a deck yet.",
+                stringResource(R.string.flashcards_no_own_decks),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 8.dp),
             )
@@ -135,10 +138,14 @@ private fun DeckListContent(
             }
         }
 
-        Text("Provided decks", style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 24.dp))
+        Text(
+            stringResource(R.string.flashcards_provided_decks_title),
+            style = MaterialTheme.typography.titleLarge,
+            modifier = Modifier.padding(top = 24.dp),
+        )
         if (uiState.providedDecks.isEmpty()) {
             Text(
-                "Published decks appear here once they are released.",
+                stringResource(R.string.flashcards_no_provided_decks_yet),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 8.dp),
             )
@@ -200,23 +207,25 @@ private fun DeckRow(
             Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                 Text(deck.title, style = MaterialTheme.typography.bodyLarge)
                 if (deck.provided) {
-                    AssistChip(onClick = {}, enabled = false, label = { Text("Provided") })
+                    AssistChip(onClick = {}, enabled = false, label = { Text(stringResource(R.string.flashcards_provided_chip)) })
                 }
             }
             Text(
-                "${deck.cards.size} cards · ${deck.dueCount} due · ${deck.freshCount} new",
+                pluralStringResource(R.plurals.flashcards_cards_count, deck.cards.size, deck.cards.size) +
+                    " · " + pluralStringResource(R.plurals.flashcards_due_count, deck.dueCount, deck.dueCount) +
+                    " · " + pluralStringResource(R.plurals.flashcards_new_count, deck.freshCount, deck.freshCount),
                 style = MaterialTheme.typography.bodySmall,
                 modifier = Modifier.padding(top = 2.dp),
             )
         }
         if (onManage != null) {
             IconButton(onClick = onManage, modifier = Modifier.testTag(deckEditButtonTag(deck.id))) {
-                Icon(Icons.Filled.Edit, contentDescription = "Add and edit cards")
+                Icon(Icons.Filled.Edit, contentDescription = stringResource(R.string.flashcards_edit_deck_description))
             }
         }
         if (onDelete != null) {
             IconButton(onClick = onDelete, modifier = Modifier.testTag(deckDeleteButtonTag(deck.id))) {
-                Icon(Icons.Filled.Delete, contentDescription = "Delete deck")
+                Icon(Icons.Filled.Delete, contentDescription = stringResource(R.string.flashcards_delete_deck_description))
             }
         }
         Button(
@@ -225,7 +234,7 @@ private fun DeckRow(
             modifier = Modifier.testTag(deckStudyButtonTag(deck.id)),
         ) {
             Icon(Icons.Filled.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
-            Text(" Study")
+            Text(" " + stringResource(R.string.flashcards_study_button))
         }
     }
 }
@@ -235,12 +244,12 @@ private fun CreateDeckDialog(onClose: () -> Unit, onCreate: (String) -> Unit) {
     var name by remember { mutableStateOf("") }
     AlertDialog(
         onDismissRequest = onClose,
-        title = { Text("New deck") },
+        title = { Text(stringResource(R.string.flashcards_new_deck)) },
         text = {
             OutlinedTextField(
                 value = name,
                 onValueChange = { name = it },
-                label = { Text("Deck name") },
+                label = { Text(stringResource(R.string.flashcards_deck_name_label)) },
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth().testTag(CREATE_DECK_NAME_FIELD_TAG),
             )
@@ -250,9 +259,9 @@ private fun CreateDeckDialog(onClose: () -> Unit, onCreate: (String) -> Unit) {
                 onClick = { onCreate(name) },
                 enabled = name.isNotBlank(),
                 modifier = Modifier.testTag(CREATE_DECK_CONFIRM_BUTTON_TAG),
-            ) { Text("Create deck") }
+            ) { Text(stringResource(R.string.flashcards_create_deck_button)) }
         },
-        dismissButton = { TextButton(onClick = onClose) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onClose) { Text(stringResource(R.string.flashcards_cancel)) } },
     )
 }
 
@@ -280,23 +289,23 @@ private fun ManageDeckDialog(
         text = {
             Column(modifier = Modifier.verticalScroll(rememberScrollState())) {
                 if (deck.cards.isEmpty()) {
-                    Text("No cards yet. Add the first one below.", style = MaterialTheme.typography.bodyMedium)
+                    Text(stringResource(R.string.flashcards_no_cards_yet), style = MaterialTheme.typography.bodyMedium)
                 } else {
                     deck.cards.forEach { card -> ExistingCardRow(card, onUpdateCard, onRemoveCard) }
                 }
 
                 HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
-                Text("Add a card", style = MaterialTheme.typography.labelLarge)
+                Text(stringResource(R.string.flashcards_add_a_card_label), style = MaterialTheme.typography.labelLarge)
                 OutlinedTextField(
                     value = newFront,
                     onValueChange = { newFront = it },
-                    label = { Text("Front") },
+                    label = { Text(stringResource(R.string.flashcards_front)) },
                     modifier = Modifier.fillMaxWidth().padding(top = 6.dp).testTag(MANAGE_DECK_ADD_FRONT_FIELD_TAG),
                 )
                 OutlinedTextField(
                     value = newBack,
                     onValueChange = { newBack = it },
-                    label = { Text("Back") },
+                    label = { Text(stringResource(R.string.flashcards_back)) },
                     modifier = Modifier.fillMaxWidth().padding(top = 6.dp).testTag(MANAGE_DECK_ADD_BACK_FIELD_TAG),
                 )
                 TextButton(
@@ -309,11 +318,11 @@ private fun ManageDeckDialog(
                     modifier = Modifier.padding(top = 4.dp).testTag(MANAGE_DECK_ADD_BUTTON_TAG),
                 ) {
                     Icon(Icons.Filled.Add, contentDescription = null)
-                    Text(" Add")
+                    Text(" " + stringResource(R.string.flashcards_add))
                 }
             }
         },
-        confirmButton = { TextButton(onClick = onClose) { Text("Done") } },
+        confirmButton = { TextButton(onClick = onClose) { Text(stringResource(R.string.flashcards_done)) } },
     )
 }
 
@@ -328,17 +337,17 @@ private fun ExistingCardRow(card: DeckCard, onUpdateCard: (String, String, Strin
             OutlinedTextField(
                 value = card.front,
                 onValueChange = { onUpdateCard(card.id, it, card.back) },
-                label = { Text("Front") },
+                label = { Text(stringResource(R.string.flashcards_front)) },
                 modifier = Modifier.weight(1f),
             )
             OutlinedTextField(
                 value = card.back,
                 onValueChange = { onUpdateCard(card.id, card.front, it) },
-                label = { Text("Back") },
+                label = { Text(stringResource(R.string.flashcards_back)) },
                 modifier = Modifier.weight(1f),
             )
             IconButton(onClick = { onRemoveCard(card.id) }, modifier = Modifier.testTag(manageDeckCardDeleteTag(card.id))) {
-                Icon(Icons.Filled.Delete, contentDescription = "Delete card")
+                Icon(Icons.Filled.Delete, contentDescription = stringResource(R.string.flashcards_delete_card_description))
             }
         }
     }
@@ -348,11 +357,13 @@ private fun ExistingCardRow(card: DeckCard, onUpdateCard: (String, String, Strin
 private fun DeleteDeckDialog(name: String, onClose: () -> Unit, onConfirm: () -> Unit) {
     AlertDialog(
         onDismissRequest = onClose,
-        title = { Text("Delete this deck") },
-        text = { Text("This removes $name and every card and schedule in it. This cannot be undone.") },
+        title = { Text(stringResource(R.string.flashcards_delete_deck_title)) },
+        text = { Text(stringResource(R.string.flashcards_delete_deck_body_format, name)) },
         confirmButton = {
-            TextButton(onClick = onConfirm, modifier = Modifier.testTag(DELETE_DECK_CONFIRM_BUTTON_TAG)) { Text("Delete") }
+            TextButton(onClick = onConfirm, modifier = Modifier.testTag(DELETE_DECK_CONFIRM_BUTTON_TAG)) {
+                Text(stringResource(R.string.flashcards_delete))
+            }
         },
-        dismissButton = { TextButton(onClick = onClose) { Text("Cancel") } },
+        dismissButton = { TextButton(onClick = onClose) { Text(stringResource(R.string.flashcards_cancel)) } },
     )
 }

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/flashcards — localized strings for the Flashcards surface (EN/AR). -->
+
+    <!-- DeckListScreen. -->
+    <string name="flashcards_loading">Loading…</string>
+    <string name="flashcards_your_decks_title">Your decks</string>
+    <string name="flashcards_new_deck">New deck</string>
+    <string name="flashcards_no_own_decks">You have not created a deck yet.</string>
+    <string name="flashcards_provided_decks_title">Provided decks</string>
+    <string name="flashcards_no_provided_decks_yet">Published decks appear here once they are released.</string>
+    <string name="flashcards_provided_chip">Provided</string>
+    <string name="flashcards_edit_deck_description">Add and edit cards</string>
+    <string name="flashcards_delete_deck_description">Delete deck</string>
+    <string name="flashcards_study_button">Study</string>
+
+    <plurals name="flashcards_cards_count">
+        <item quantity="one">%1$d card</item>
+        <item quantity="other">%1$d cards</item>
+    </plurals>
+
+    <plurals name="flashcards_due_count">
+        <item quantity="one">%1$d due</item>
+        <item quantity="other">%1$d due</item>
+    </plurals>
+
+    <plurals name="flashcards_new_count">
+        <item quantity="one">%1$d new</item>
+        <item quantity="other">%1$d new</item>
+    </plurals>
+
+    <!-- CreateDeckDialog. -->
+    <string name="flashcards_deck_name_label">Deck name</string>
+    <string name="flashcards_create_deck_button">Create deck</string>
+    <string name="flashcards_cancel">Cancel</string>
+
+    <!-- ManageDeckDialog. -->
+    <string name="flashcards_no_cards_yet">No cards yet. Add the first one below.</string>
+    <string name="flashcards_add_a_card_label">Add a card</string>
+    <string name="flashcards_front">Front</string>
+    <string name="flashcards_back">Back</string>
+    <string name="flashcards_add">Add</string>
+    <string name="flashcards_done">Done</string>
+    <string name="flashcards_delete_card_description">Delete card</string>
+
+    <!-- DeleteDeckDialog. -->
+    <string name="flashcards_delete_deck_title">Delete this deck</string>
+    <string name="flashcards_delete_deck_body_format">This removes %1$s and every card and schedule in it. This cannot be undone.</string>
+    <string name="flashcards_delete">Delete</string>
+
+    <!-- CardRunnerScreen. -->
+    <string name="flashcards_back_link_format">Back to Flashcards · %1$s</string>
+    <string name="flashcards_progress_format">%1$d / %2$d</string>
+    <string name="flashcards_front_caption">FRONT</string>
+    <string name="flashcards_back_caption">BACK</string>
+    <string name="flashcards_show_answer">Show answer</string>
+    <string name="flashcards_session_complete_title">Session complete</string>
+    <string name="flashcards_nothing_due_title">Nothing due right now</string>
+    <string name="flashcards_all_caught_up">You are all caught up on this deck for today.</string>
+    <string name="flashcards_done_button">Back to Flashcards</string>
+
+    <plurals name="flashcards_studied_summary">
+        <item quantity="one">You studied %1$d card</item>
+        <item quantity="other">You studied %1$d cards</item>
+    </plurals>
+
+    <plurals name="flashcards_graduated_later">
+        <item quantity="one"> · %1$d will come back tomorrow or later.</item>
+        <item quantity="other"> · %1$d will come back tomorrow or later.</item>
+    </plurals>
+
+    <!-- Grade button names (Grade.label() in CardRunnerViewModel). -->
+    <string name="flashcards_grade_again">Again</string>
+    <string name="flashcards_grade_hard">Hard</string>
+    <string name="flashcards_grade_good">Good</string>
+    <string name="flashcards_grade_easy">Easy</string>
+</resources>
