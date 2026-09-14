@@ -12,6 +12,7 @@ class StateOwnershipTest {
             "synapse.progress.mastery.v1", "synapse.maristanas.tour",
             "synapse.myDocuments.v1", "synapse.termgrid.state",
             "synapse.practical.progress", "synapse.essay.answers",
+            "synapse.written.answers.v1",
             "synapse.highlights.x", "synapse.account.prefs",
             "synapse.calendar.blocks",
             "synapse.library.marks", "synapse.library.read",

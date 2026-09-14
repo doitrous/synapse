@@ -20,6 +20,13 @@ object StateOwnership {
         Regex("^synapse\\.flashcards\\."),
         Regex("^synapse\\.practical\\."),
         Regex("^synapse\\.essay\\."),
+        // Web's own USER_OWNED_PATTERNS has no entry for `synapse.written.` —
+        // `synapse.written.answers.v1` (src/lib/useWrittenAnswers.ts) matches no
+        // pattern there, so a live-mode save would route to the shared/admin
+        // endpoint and be refused for a student. Added here so the written
+        // self-mark flow actually persists; flagged rather than silently
+        // ported so the same gap can be fixed on web.
+        Regex("^synapse\\.written\\."),
         Regex("^synapse\\.highlights\\."),
         Regex("^synapse\\.annotations\\."),
         Regex("^synapse\\.reader\\."),
