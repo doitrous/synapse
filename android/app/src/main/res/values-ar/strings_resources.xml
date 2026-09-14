@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/resources — Arabic strings. Vocabulary mirrors the web app's
+         src/data/i18n-ar.ts Resources section (Search resources…, All types,
+         Saved only, resource/resources) and the iOS/qbank Previous/Next terms
+         where concepts match. -->
+
+    <string name="resources_loading">جارٍ التحميل…</string>
+
+    <!-- CataloguePane header + filters. -->
+    <string name="resources_subtitle">كل كتاب وفيديو ودليل وعرض تقديمي — صنّف حسب المادة والنوع، واحفظ ما تستخدمه.</string>
+    <string name="resources_search_label">ابحث في المصادر</string>
+    <string name="resources_saved_only">المحفوظة فقط</string>
+    <string name="resources_all_types">كل الأنواع</string>
+    <string name="resources_all_subjects">كل المواد</string>
+
+    <!-- RESOURCE_TYPES — fixed vocabulary. -->
+    <string name="resources_type_book">كتاب</string>
+    <string name="resources_type_video">فيديو</string>
+    <string name="resources_type_guideline">دليل إرشادي</string>
+    <string name="resources_type_deck">عرض تقديمي</string>
+    <string name="resources_type_article">مقال</string>
+
+    <plurals name="resources_count">
+        <item quantity="zero">لا مصادر</item>
+        <item quantity="one">مصدر واحد</item>
+        <item quantity="two">مصدران</item>
+        <item quantity="few">%1$d مصادر</item>
+        <item quantity="many">%1$d مصدرًا</item>
+        <item quantity="other">%1$d مصدر</item>
+    </plurals>
+
+    <string name="resources_empty_message">لا توجد مصادر مطابقة. جرّب مسح أحد عوامل التصفية أو البحث عن شيء آخر.</string>
+
+    <!-- ResourceRow. -->
+    <string name="resources_file_not_uploaded_yet">لم يُرفع الملف بعد</string>
+    <string name="resources_no_file_note_format">لم يُرفع ملف مصدر لهذا العنصر بعد. %1$s — هناك يمكن إيجاده.</string>
+    <string name="resources_not_recorded">غير مسجَّل</string>
+    <string name="resources_saved_description">محفوظ</string>
+    <string name="resources_save_description">احفظ</string>
+
+    <!-- ReaderPane. -->
+    <string name="resources_back_description">رجوع</string>
+    <string name="resources_remove_download_description">إزالة التنزيل</string>
+    <string name="resources_downloading">جارٍ التنزيل…</string>
+    <string name="resources_reader_failed_title">تعذّر فتحه</string>
+    <string name="resources_reader_failed_message">تعذّر فتح هذا الملف. قد يكون لا يزال قيد الرفع.</string>
+    <string name="resources_try_again">حاول مرة أخرى</string>
+    <string name="resources_unsupported_type_message">هذا النوع من المصادر غير مدعوم في القارئ بعد.</string>
+    <string name="resources_download_offline_message">نزّله مرة واحدة ويبقى على هذا الهاتف، بوجود إشارة أو بدونها.</string>
+    <string name="resources_download_button">تنزيل</string>
+
+    <!-- PdfPageViewer. -->
+    <string name="resources_pdf_open_failed">تعذّر فتح هذا المستند كملف PDF.</string>
+    <string name="resources_page_content_description_format">الصفحة %1$d</string>
+    <string name="resources_previous_button">السابق</string>
+    <string name="resources_next_button">التالي</string>
+
+    <plurals name="resources_page_of_format">
+        <item quantity="zero">لا صفحات</item>
+        <item quantity="one">الصفحة %1$d من صفحة واحدة</item>
+        <item quantity="two">الصفحة %1$d من صفحتين</item>
+        <item quantity="few">الصفحة %1$d من %2$d صفحات</item>
+        <item quantity="many">الصفحة %1$d من %2$d صفحة</item>
+        <item quantity="other">الصفحة %1$d من %2$d صفحة</item>
+    </plurals>
+</resources>
