@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/billing — localized strings for the Billing tab: read-only
+         entitlement/subscription status and voucher redemption (EN/AR). No
+         payment provider is wired into this app, so there is nothing here to
+         buy, change or cancel — see BillingRepository's doc comment. -->
+
+    <string name="billing_title">Billing</string>
+    <string name="billing_unavailable">Billing could not be loaded. Check your connection and try again.</string>
+
+    <!-- Entitlement state labels (MeEntitlement.state wire values stay in English; these are only the display labels). -->
+    <string name="billing_entitlement_trial">Trial</string>
+    <string name="billing_entitlement_active">Active</string>
+    <string name="billing_entitlement_expired">Expired</string>
+    <string name="billing_entitlement_cancelled">Cancelled</string>
+    <string name="billing_entitlement_none">No subscription</string>
+
+    <!-- Your plan. -->
+    <string name="billing_plan_title">Your plan</string>
+    <string name="billing_no_plan_body">No plan has been granted to your account yet. Plans are arranged on the website.</string>
+    <string name="billing_plan_fallback">Your plan</string>
+    <string name="billing_open_ended">Open-ended · no expiry recorded</string>
+    <string name="billing_runs_until_format">Runs until %1$s</string>
+    <string name="billing_plan_managed_note">Subscriptions are managed by the team. To change or end your plan, use the website.</string>
+
+    <plurals name="billing_runs_until_days_left">
+        <item quantity="one">Runs until %1$s · %2$d day left</item>
+        <item quantity="other">Runs until %1$s · %2$d days left</item>
+    </plurals>
+
+    <!-- Payments. -->
+    <string name="billing_payments_title">Payments</string>
+    <string name="billing_payments_body">This app does not take card payments, and stores no card details. Your plan is arranged on the website.</string>
+
+    <!-- Student voucher. -->
+    <string name="billing_voucher_title">Student voucher</string>
+    <string name="billing_voucher_applied_badge">Applied</string>
+    <string name="billing_voucher_eligibility_note">Eligibility is checked on the server against your university, year, group, the voucher dates, and the remaining redemption limit.</string>
+    <string name="billing_voucher_code_placeholder">Enter voucher code</string>
+    <string name="billing_apply">Apply</string>
+    <string name="billing_remove">Remove</string>
+
+    <!-- Applied-voucher row. -->
+    <string name="billing_trial_ended">Trial has ended.</string>
+    <string name="billing_trial_full_access">Full access trial</string>
+    <string name="billing_voucher_applied_generic">Applied to your account</string>
+
+    <plurals name="billing_trial_days_left">
+        <item quantity="one">Full access · %1$d day left</item>
+        <item quantity="other">Full access · %1$d days left</item>
+    </plurals>
+
+    <!-- Redeem/remove outcomes (BillingViewModel). -->
+    <string name="billing_voucher_applied_discount">%1$s has been applied to your next renewal.</string>
+    <string name="billing_redeem_failed_transport">That voucher could not be applied. Check your connection and try again.</string>
+    <string name="billing_voucher_removed">Voucher removed.</string>
+    <string name="billing_voucher_remove_failed">That voucher could not be removed. Try again.</string>
+
+    <plurals name="billing_voucher_applied_trial">
+        <item quantity="one">%1$s opens full access for %2$d day.</item>
+        <item quantity="other">%1$s opens full access for %2$d days.</item>
+    </plurals>
+
+    <!-- Redemption refusal reasons (core/billing/BillingMessages.kt billingReasonMessage) —
+         mirrors server/src/vouchers.js#REFUSALS. The `reason` wire codes themselves
+         are never translated, only the message they map to. -->
+    <string name="billing_reason_generic">That voucher could not be applied.</string>
+    <string name="billing_reason_not_found">That voucher code was not found. Check the spelling and try again.</string>
+    <string name="billing_reason_inactive">This voucher is not active.</string>
+    <string name="billing_reason_not_started">This voucher is not available yet.</string>
+    <string name="billing_reason_expired">This voucher has expired.</string>
+    <string name="billing_reason_limit_reached">This voucher has reached its redemption limit.</string>
+    <string name="billing_reason_not_your_university">This voucher is not available for your university.</string>
+    <string name="billing_reason_not_your_year">This voucher is not available for your year.</string>
+    <string name="billing_reason_not_your_group">This voucher is not available for your group.</string>
+    <string name="billing_reason_already_redeemed">You have already applied this voucher.</string>
+    <string name="billing_reason_no_profile">Your student profile has not been set up yet, so targeted vouchers cannot be checked.</string>
+</resources>

@@ -1,10 +1,13 @@
 package com.synapse.app.feature.billing
 
+import androidx.annotation.AnyRes
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.synapse.app.R
 import com.synapse.app.core.api.MeEntitlement
 import com.synapse.app.core.api.Voucher
 import com.synapse.app.core.api.VoucherRedemption
+import com.synapse.app.core.billing.billingReasonMessage
 import com.synapse.app.core.billing.isTrialVoucher
 import com.synapse.app.core.billing.trialEndsAt
 import com.synapse.app.core.billing.voucherTrialDays
@@ -16,6 +19,18 @@ import kotlinx.coroutines.launch
 import java.time.Instant
 import java.time.temporal.ChronoUnit
 import javax.inject.Inject
+
+/**
+ * A user-facing message resolved at the composable: a plain `@StringRes`
+ * [res] (optionally with format [args]), or — when [pluralCount] is set — a
+ * `@PluralsRes` [res] selected on that count (with [args] as its format args,
+ * same convention as `resources.getQuantityString(res, pluralCount, *args)`).
+ */
+data class BillingMessage(
+    @AnyRes val res: Int,
+    val args: List<Any> = emptyList(),
+    val pluralCount: Int? = null,
+)
 
 /** What [BillingRoute] renders. */
 sealed interface BillingUiState {
@@ -34,7 +49,7 @@ sealed interface BillingUiState {
         val trialExpired: Boolean = false,
         val code: String = "",
         val isBusy: Boolean = false,
-        val message: String? = null,
+        val message: BillingMessage? = null,
     ) : BillingUiState
 }
 
@@ -98,21 +113,22 @@ class BillingViewModel @Inject constructor(
                     _uiState.value = content.copy(
                         code = "",
                         message = if (isTrialVoucher(outcome.voucher)) {
-                            "${outcome.voucher.code} opens full access for ${voucherDaysText(outcome.voucher)}."
+                            val days = voucherTrialDays(outcome.voucher)
+                            BillingMessage(R.plurals.billing_voucher_applied_trial, listOf(outcome.voucher.code, days), pluralCount = days)
                         } else {
-                            "${outcome.voucher.code} has been applied to your next renewal."
+                            BillingMessage(R.string.billing_voucher_applied_discount, listOf(outcome.voucher.code))
                         },
                     )
                 }
                 is RedeemOutcome.Refused -> {
                     val current = _uiState.value as? BillingUiState.Content ?: return@launch
-                    _uiState.value = current.copy(isBusy = false, message = outcome.message)
+                    _uiState.value = current.copy(isBusy = false, message = BillingMessage(billingReasonMessage(outcome.reason)))
                 }
                 RedeemOutcome.Failed -> {
                     val current = _uiState.value as? BillingUiState.Content ?: return@launch
                     _uiState.value = current.copy(
                         isBusy = false,
-                        message = "That voucher could not be applied. Check your connection and try again.",
+                        message = BillingMessage(R.string.billing_redeem_failed_transport),
                     )
                 }
             }
@@ -133,10 +149,10 @@ class BillingViewModel @Inject constructor(
                     appliedVoucher = null,
                     trialDaysLeft = null,
                     trialExpired = false,
-                    message = "Voucher removed.",
+                    message = BillingMessage(R.string.billing_voucher_removed),
                 )
             } else {
-                current.copy(isBusy = false, message = "That voucher could not be removed. Try again.")
+                current.copy(isBusy = false, message = BillingMessage(R.string.billing_voucher_remove_failed))
             }
         }
     }
@@ -164,10 +180,5 @@ class BillingViewModel @Inject constructor(
         if (end.isBefore(current)) return 0 to true
         val daysLeft = ChronoUnit.DAYS.between(current, end).toInt().coerceAtLeast(0)
         return daysLeft to false
-    }
-
-    private fun voucherDaysText(voucher: Voucher): String {
-        val days = voucherTrialDays(voucher)
-        return if (days == 1) "1 day" else "$days days"
     }
 }
