@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/calendar — Arabic strings. Terms mirror iOS's ArabicStrings.swift:
+         "Curriculum" → "المنهج", "Personal" → "شخصي", "Study block" → "مهمة دراسية". -->
+
+    <string name="calendar_loading">جارٍ التحميل…</string>
+
+    <!-- Header controls. -->
+    <string name="calendar_previous">السابق</string>
+    <string name="calendar_next">التالي</string>
+    <string name="calendar_today">اليوم</string>
+    <string name="calendar_view_week">أسبوع</string>
+    <string name="calendar_view_month">شهر</string>
+    <string name="calendar_add_block">إضافة مهمة</string>
+    <string name="calendar_week_range_format">%1$s – %2$s</string>
+
+    <!-- Visibility toggles, also reused as the week list's per-event badge. -->
+    <string name="calendar_curriculum">المنهج</string>
+    <string name="calendar_personal">شخصي</string>
+
+    <!-- Month grid overflow. -->
+    <string name="calendar_more_events_format">+%1$d أخرى</string>
+
+    <!-- Week list. -->
+    <string name="calendar_add_short">+ إضافة</string>
+    <string name="calendar_nothing_scheduled">لا شيء مجدول.</string>
+
+    <!-- Add/edit personal block dialog. -->
+    <string name="calendar_dialog_title_edit">تعديل مهمة دراسية</string>
+    <string name="calendar_dialog_title_add">إضافة مهمة دراسية</string>
+    <string name="calendar_field_title_label">على ماذا تعمل؟</string>
+    <string name="calendar_field_date_label">التاريخ (YYYY-MM-DD)</string>
+    <string name="calendar_field_starts_label">يبدأ</string>
+    <string name="calendar_field_ends_label">ينتهي</string>
+    <string name="calendar_field_type_label">النوع</string>
+    <string name="calendar_kind_default">مهمة دراسية</string>
+    <string name="calendar_dialog_save_changes">حفظ التغييرات</string>
+    <string name="calendar_delete">حذف</string>
+    <string name="calendar_cancel">إلغاء</string>
+</resources>

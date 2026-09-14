@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- feature/calendar — localized strings for the Calendar surface (EN/AR). -->
+
+    <string name="calendar_loading">Loading…</string>
+
+    <!-- Header controls. -->
+    <string name="calendar_previous">Previous</string>
+    <string name="calendar_next">Next</string>
+    <string name="calendar_today">Today</string>
+    <string name="calendar_view_week">Week</string>
+    <string name="calendar_view_month">Month</string>
+    <string name="calendar_add_block">Add block</string>
+    <string name="calendar_week_range_format">%1$s – %2$s</string>
+
+    <!-- Visibility toggles, also reused as the week list's per-event badge. -->
+    <string name="calendar_curriculum">Curriculum</string>
+    <string name="calendar_personal">Personal</string>
+
+    <!-- Month grid overflow. -->
+    <string name="calendar_more_events_format">+%1$d more</string>
+
+    <!-- Week list. -->
+    <string name="calendar_add_short">+ Add</string>
+    <string name="calendar_nothing_scheduled">Nothing scheduled.</string>
+
+    <!-- Add/edit personal block dialog. -->
+    <string name="calendar_dialog_title_edit">Edit study block</string>
+    <string name="calendar_dialog_title_add">Add a study block</string>
+    <string name="calendar_field_title_label">What are you working on?</string>
+    <string name="calendar_field_date_label">Date (YYYY-MM-DD)</string>
+    <string name="calendar_field_starts_label">Starts</string>
+    <string name="calendar_field_ends_label">Ends</string>
+    <string name="calendar_field_type_label">Type</string>
+    <string name="calendar_kind_default">Study block</string>
+    <string name="calendar_dialog_save_changes">Save changes</string>
+    <string name="calendar_delete">Delete</string>
+    <string name="calendar_cancel">Cancel</string>
+</resources>
