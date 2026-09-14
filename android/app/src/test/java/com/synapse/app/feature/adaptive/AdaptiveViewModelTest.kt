@@ -1,7 +1,11 @@
 package com.synapse.app.feature.adaptive
 
+import androidx.datastore.preferences.core.PreferenceDataStoreFactory
+import androidx.datastore.preferences.preferencesDataStoreFile
+import androidx.test.core.app.ApplicationProvider
 import com.synapse.app.core.adaptive.ConceptStatus
 import com.synapse.app.core.api.SynapseApi
+import com.synapse.app.core.auth.AccountIdentityStore
 import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.cache.OutboxEntry
 import com.synapse.app.core.model.AttemptRecord as ModelAttemptRecord
@@ -11,8 +15,10 @@ import com.synapse.app.core.model.StateDoc
 import com.synapse.app.core.qbank.AttemptRecord
 import com.synapse.app.core.qbank.monthKey
 import com.synapse.app.core.sync.SyncEngine
+import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.test.StandardTestDispatcher
 import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runTest
@@ -26,6 +32,8 @@ import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
 import java.time.Instant
 
 /**
@@ -33,9 +41,14 @@ import java.time.Instant
  * the latter wired to hand-written fakes — same convention as
  * `LibraryViewModelTest`. Exercises the pure `core.adaptive` engine wired end
  * to end: a stored blueprint + a couple of QBank attempts produce a real
- * mastery rebuild, never a fabricated figure.
+ * mastery rebuild, never a fabricated figure. A real [AccountIdentityStore]
+ * against a Robolectric-backed DataStore file backs [AdaptiveRepository]'s
+ * identity dependency; none of these tests save an identity, so the
+ * blueprint scope stays unscoped throughout, same as before this dependency
+ * existed.
  */
 @OptIn(ExperimentalCoroutinesApi::class)
+@RunWith(RobolectricTestRunner::class)
 class AdaptiveViewModelTest {
 
     private val dispatcher = StandardTestDispatcher()
@@ -45,8 +58,26 @@ class AdaptiveViewModelTest {
     @Before fun setUp() { Dispatchers.setMain(dispatcher) }
     @After fun tearDown() { Dispatchers.resetMain() }
 
+    /**
+     * DataStore normally does its own file I/O on a real `Dispatchers.IO`-backed
+     * scope, independent of [dispatcher] — under [StandardTestDispatcher],
+     * `advanceUntilIdle` then has nothing of its own to advance and can return
+     * before that real work lands, making assertions racy. Pinning the
+     * DataStore's scope to [dispatcher] keeps every bit of work on the one
+     * virtual clock this test controls — same fix as `AccountViewModelTest`.
+     */
+    private fun freshIdentityDataStore() = AccountIdentityStore(
+        PreferenceDataStoreFactory.create(
+            scope = CoroutineScope(dispatcher + SupervisorJob()),
+            produceFile = {
+                ApplicationProvider.getApplicationContext<android.content.Context>()
+                    .preferencesDataStoreFile("adaptive_vm_test_${System.nanoTime()}")
+            }
+        )
+    )
+
     private fun repository(localStore: VmFakeLocalStore = VmFakeLocalStore(), api: VmFakeApi = VmFakeApi()): AdaptiveRepository =
-        AdaptiveRepository(localStore, SyncEngine(api, localStore, readableKeys = emptyList(), userStateKeys = emptyList()), json)
+        AdaptiveRepository(localStore, SyncEngine(api, localStore, readableKeys = emptyList(), userStateKeys = emptyList()), json, freshIdentityDataStore())
 
     private fun viewModel(repository: AdaptiveRepository): AdaptiveViewModel =
         AdaptiveViewModel(repository).apply { now = { this@AdaptiveViewModelTest.now } }

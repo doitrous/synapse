@@ -1,10 +1,14 @@
 package com.synapse.app.feature.calendar
 
+import com.synapse.app.core.auth.AccountIdentity
+import com.synapse.app.core.auth.AccountIdentityStore
 import com.synapse.app.core.cache.LocalStore
+import com.synapse.app.core.calendar.CalendarCourse
 import com.synapse.app.core.calendar.CurriculumSession
 import com.synapse.app.core.calendar.ModuleScheduleBlockDto
 import com.synapse.app.core.calendar.ModuleScheduleStore
 import com.synapse.app.core.calendar.StudyBlock
+import com.synapse.app.core.calendar.flattenModuleSchedule
 import com.synapse.app.core.model.StateDoc
 import com.synapse.app.core.sync.SyncEngine
 import kotlinx.coroutines.sync.Mutex
@@ -28,13 +32,15 @@ private const val BLOCKS_KEY = "synapse.calendar.blocks"
  * durable user-state store — mirrors `LibraryRepository`/`PracticalRepository`'s
  * shape.
  *
- * **Deliberately not built here: a scoped [curriculumSessions].** See that
- * method's doc comment.
+ * [curriculumSessions] scopes the published timetable by this student's own
+ * university/year, read from [AccountIdentityStore] — see that method's doc
+ * comment.
  */
 class CalendarRepository @Inject constructor(
     private val localStore: LocalStore,
     private val syncEngine: SyncEngine,
     private val json: Json,
+    private val accountIdentityStore: AccountIdentityStore,
 ) {
 
     /** Serializes [saveBlock]/[deleteBlock] so two concurrent edits can't clobber each other. */
@@ -78,29 +84,56 @@ class CalendarRepository @Inject constructor(
 
     /**
      * The published university timetable, projected for the student's own
-     * university/year. **Always empty today.**
+     * university/year, via the already-ported
+     * [com.synapse.app.core.calendar.flattenModuleSchedule].
      *
      * `synapse-module-schedules-v1` is keyed
      * `<universityId>:<yearId-or-label>:<courseId>` — every block is
      * authored against a specific university and year, so there is no
      * meaningful "everyone" bucket to fall back to the way an unscoped
      * [com.synapse.app.core.adaptive.BlueprintScope] does for blueprints.
-     * Android has no confirmed source yet for which university/year the
-     * signed-in student belongs to; `feature/adaptive/AdaptiveRepository.kt`
-     * hits the exact same gap (`BlueprintScope("", "")`) and documents it the
-     * same way. Per this task's brief: show what is readable (this
-     * student's own [blocks], which need no such scope) and defer the
-     * timetable honestly rather than invent an enrollment.
-     *
-     * The pure projection this would call is already ported and unit-tested
-     * — [com.synapse.app.core.calendar.flattenModuleSchedule] — so wiring
-     * this up the day identity lands is a one-line change: decode
-     * [moduleScheduleStore] (already done here) and pass it the real
-     * university id, year id/label, and course list.
+     * Empty until [AccountIdentityStore] has enough to scope by
+     * ([AccountIdentity.isKnown]) — same honest degradation
+     * `feature/adaptive/AdaptiveRepository.kt` falls back to for an unknown
+     * identity, never an invented enrollment. [coursesIn] derives the course
+     * list straight off which keys [moduleScheduleStore] actually has blocks
+     * for under this student's university/year, rather than a course-name
+     * catalogue this client does not have.
      */
-    suspend fun curriculumSessions(): List<CurriculumSession> = emptyList()
+    suspend fun curriculumSessions(): List<CurriculumSession> {
+        val identity = accountIdentityStore.current()
+        if (!identity.isKnown) return emptyList()
+        val store = moduleScheduleStore()
+        return flattenModuleSchedule(
+            universityId = identity.universityId,
+            yearId = identity.yearId,
+            yearLabel = identity.year,
+            courses = coursesIn(store, identity),
+            store = store,
+        )
+    }
 
-    /** The schedule catalogue, tolerantly decoded, ready for [com.synapse.app.core.calendar.flattenModuleSchedule] once a university/year scope exists. Empty if absent/unparseable. */
+    /**
+     * The distinct courses [store] actually publishes blocks for, under
+     * [identity]'s university keyed by either its yearId or its year label —
+     * mirrors [com.synapse.app.core.calendar.moduleKey]'s own label-then-id
+     * fallback. No course-name catalogue exists on Android yet, so
+     * [CalendarCourse.name] is the course id itself: [flattenModuleSchedule]
+     * only reads it for display, and the id is the one piece of real data
+     * available rather than an invented label.
+     */
+    private fun coursesIn(store: ModuleScheduleStore, identity: AccountIdentity): List<CalendarCourse> {
+        val prefixes = listOfNotNull(
+            "${identity.universityId}:${identity.yearId}:".takeIf { identity.yearId.isNotEmpty() },
+            "${identity.universityId}:${identity.year}:".takeIf { identity.year.isNotEmpty() },
+        )
+        return store.keys
+            .mapNotNull { key -> prefixes.firstOrNull { key.startsWith(it) }?.let { key.removePrefix(it) } }
+            .distinct()
+            .map { CalendarCourse(id = it, name = it) }
+    }
+
+    /** The schedule catalogue, tolerantly decoded, ready for [com.synapse.app.core.calendar.flattenModuleSchedule]. Empty if absent/unparseable. */
     suspend fun moduleScheduleStore(): ModuleScheduleStore {
         val stored = localStore.getCatalogue(MODULE_SCHEDULES_KEY) ?: return emptyMap()
         val value = runCatching {

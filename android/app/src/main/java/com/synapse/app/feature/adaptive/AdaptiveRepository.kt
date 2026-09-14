@@ -19,6 +19,7 @@ import com.synapse.app.core.adaptive.PresentationMode
 import com.synapse.app.core.adaptive.ReadinessResult
 import com.synapse.app.core.adaptive.blueprintFor
 import com.synapse.app.core.adaptive.normaliseNodes
+import com.synapse.app.core.auth.AccountIdentityStore
 import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.model.StateDoc
 import com.synapse.app.core.qbank.AttemptRecord
@@ -131,18 +132,23 @@ fun snoozedConcepts(overrides: OverrideLedger, now: Instant): Set<String> =
  * university/year plus the concept graph's own derived weights
  * ([com.synapse.app.core.adaptive] does not port `deriveBlueprint` either —
  * see `Blueprint.kt`'s doc comment: no concept graph exists on this client).
- * Android additionally has no student university/year identity source yet
- * (`feature.qbank`'s own scope picker is manual, topic-by-topic — see
- * `QBankScope.kt`). [blueprintNodes] therefore reads the *published*
- * blueprint's own nodes directly, for an unscoped [BlueprintScope]. Once an
- * identity source and a concept-graph port exist, both gaps close together:
- * pass the real scope in here, and resolve derived nodes against it before
- * overlaying the stored blueprint.
+ * Android has no concept-graph port, so it still cannot *derive* weights —
+ * but it does now have a student identity source
+ * ([com.synapse.app.core.auth.AccountIdentityStore], shipped with Account).
+ * [storedBlueprint]/[blueprintNodes] default their [BlueprintScope] to this
+ * student's own university/yearId when [AccountIdentity.isKnown][com.synapse.app.core.auth.AccountIdentity.isKnown],
+ * and fall back to the same unscoped `BlueprintScope("", "")` as before when
+ * there is no enrolment yet — never a fabricated scope. [blueprintNodes]
+ * still reads the *published* blueprint's own nodes directly rather than a
+ * derived-and-overlaid set (`feature.qbank`'s own scope picker is manual,
+ * topic-by-topic — see `QBankScope.kt`); that half of the gap closes once a
+ * concept-graph port exists.
  */
 class AdaptiveRepository @Inject constructor(
     private val localStore: LocalStore,
     private val syncEngine: SyncEngine,
     private val json: Json,
+    private val accountIdentityStore: AccountIdentityStore,
 ) {
 
     /** Serializes [setOverride] so two concurrent writes can't clobber each other. */
@@ -158,13 +164,18 @@ class AdaptiveRepository @Inject constructor(
     suspend fun blueprints(): List<Blueprint> =
         catalogueOrNull(ADAPTIVE_BLUEPRINTS_KEY, ListSerializer(Blueprint.serializer())) ?: emptyList()
 
-    /** The published blueprint governing [scope], or null when none is published for it. */
-    suspend fun storedBlueprint(scope: BlueprintScope = BlueprintScope("", "")): Blueprint? =
-        blueprintFor(blueprints(), scope)
+    /**
+     * The published blueprint governing [scope], or null when none is
+     * published for it. [scope] defaults to this student's own — see
+     * [defaultScope] — null rather than a default value because Kotlin
+     * cannot evaluate a suspend call as a default parameter expression.
+     */
+    suspend fun storedBlueprint(scope: BlueprintScope? = null): Blueprint? =
+        blueprintFor(blueprints(), scope ?: defaultScope())
 
     /** This student's blueprint nodes — see this class's doc comment on why these are read as published rather than derived-and-overlaid. */
-    suspend fun blueprintNodes(scope: BlueprintScope = BlueprintScope("", "")): List<BlueprintNode> =
-        normaliseNodes(storedBlueprint(scope)?.nodes.orEmpty())
+    suspend fun blueprintNodes(scope: BlueprintScope? = null): List<BlueprintNode> =
+        normaliseNodes(storedBlueprint(scope ?: defaultScope())?.nodes.orEmpty())
 
     /** The shared held-out item registry. Falls back to [EMPTY_HELD_OUT] (nothing reserved) if absent/unparseable. */
     suspend fun heldOutRegistry(): HeldOutRegistry =
@@ -221,6 +232,12 @@ class AdaptiveRepository @Inject constructor(
             }
             syncEngine.write(ADAPTIVE_OVERRIDES_KEY, json.encodeToString(overridesSerializer, next), now)
         }
+    }
+
+    /** This student's own [BlueprintScope] from [AccountIdentityStore]; the same unscoped `BlueprintScope("", "")` as before when no enrolment is known yet — never a fabricated guess. */
+    private suspend fun defaultScope(): BlueprintScope {
+        val identity = accountIdentityStore.current()
+        return if (identity.isKnown) BlueprintScope(identity.universityId, identity.yearId) else BlueprintScope("", "")
     }
 
     /** The content ledger's raw `value` JSON, stringified for [AdaptiveItemProjection]. */

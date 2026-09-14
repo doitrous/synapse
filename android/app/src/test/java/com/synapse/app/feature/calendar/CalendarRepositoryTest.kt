@@ -1,5 +1,10 @@
 package com.synapse.app.feature.calendar
 
+import androidx.datastore.preferences.core.PreferenceDataStoreFactory
+import androidx.datastore.preferences.preferencesDataStoreFile
+import androidx.test.core.app.ApplicationProvider
+import com.synapse.app.core.auth.AccountIdentity
+import com.synapse.app.core.auth.AccountIdentityStore
 import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.cache.OutboxEntry
 import com.synapse.app.core.calendar.StudyBlock
@@ -15,6 +20,8 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
+import org.junit.runner.RunWith
+import org.robolectric.RobolectricTestRunner
 import java.time.Instant
 
 /**
@@ -22,8 +29,11 @@ import java.time.Instant
  * this student's own planned blocks over the durable user-state store. A
  * real [SyncEngine] is used against a fake in-memory [LocalStore] so the
  * write-through-then-read round-trip is actually exercised, matching
- * `PracticalRepositoryTest`/`LibraryRepositoryTest`.
+ * `PracticalRepositoryTest`/`LibraryRepositoryTest`, and a real
+ * [AccountIdentityStore] against a Robolectric-backed DataStore file — same
+ * convention as `AccountRepositoryTest`.
  */
+@RunWith(RobolectricTestRunner::class)
 class CalendarRepositoryTest {
 
     private val json = Json { ignoreUnknownKeys = true }
@@ -31,6 +41,7 @@ class CalendarRepositoryTest {
     private lateinit var localStore: FakeLocalStore
     private lateinit var synapseApi: FakeSynapseApi
     private lateinit var syncEngine: SyncEngine
+    private lateinit var identityStore: AccountIdentityStore
     private lateinit var repository: CalendarRepository
 
     @Before
@@ -38,8 +49,16 @@ class CalendarRepositoryTest {
         localStore = FakeLocalStore()
         synapseApi = FakeSynapseApi()
         syncEngine = SyncEngine(synapseApi, localStore, readableKeys = emptyList(), userStateKeys = emptyList())
-        repository = CalendarRepository(localStore, syncEngine, json)
+        identityStore = AccountIdentityStore(freshDataStore())
+        repository = CalendarRepository(localStore, syncEngine, json, identityStore)
     }
+
+    private fun freshDataStore() = PreferenceDataStoreFactory.create(
+        produceFile = {
+            ApplicationProvider.getApplicationContext<android.content.Context>()
+                .preferencesDataStoreFile("calendar_repo_test_${System.nanoTime()}")
+        }
+    )
 
     // --- blocks -------------------------------------------------------------
 
@@ -110,9 +129,45 @@ class CalendarRepositoryTest {
     // --- curriculumSessions / moduleScheduleStore -----------------------------
 
     @Test
-    fun curriculumSessionsIsAlwaysEmptyUntilAUniversityYearScopeExists() = runTest {
-        // Documented gap — see CalendarRepository.curriculumSessions's doc comment.
+    fun curriculumSessionsIsEmptyWhenIdentityIsNotKnownYet() = runTest {
+        // No enrolment saved to identityStore — AccountIdentity.Unknown, never a fabricated scope.
+        seedCatalogue(
+            MODULE_SCHEDULES_KEY,
+            """{"kau:KAU_Y1:course-1":[{"id":"b1","type":"lecture","title":"Heart failure","date":"2026-09-10","startTime":"09:00","endTime":"10:00"}]}""",
+        )
+
         assertTrue(repository.curriculumSessions().isEmpty())
+    }
+
+    @Test
+    fun curriculumSessionsProjectsTheScheduleForAKnownIdentity() = runTest {
+        identityStore.save(AccountIdentity(universityId = "kau", year = "Year 1", yearId = "KAU_Y1"))
+        seedCatalogue(
+            MODULE_SCHEDULES_KEY,
+            """{"kau:KAU_Y1:course-1":[{"id":"b1","type":"lecture","title":"Heart failure","date":"2026-09-10","startTime":"09:00","endTime":"10:00"}]}""",
+        )
+
+        val sessions = repository.curriculumSessions()
+
+        assertEquals(1, sessions.size)
+        val session = sessions.single()
+        assertEquals("Heart failure", session.block.title)
+        assertEquals("course-1", session.courseId)
+    }
+
+    @Test
+    fun curriculumSessionsFallsBackToTheYearLabelKeyWhenNoYearIdMatchExists() = runTest {
+        // Schedules published before years had stable ids are keyed by the year's label — moduleKey's own fallback.
+        identityStore.save(AccountIdentity(universityId = "kau", year = "Year 1", yearId = "KAU_Y1"))
+        seedCatalogue(
+            MODULE_SCHEDULES_KEY,
+            """{"kau:Year 1:course-1":[{"id":"b1","type":"lecture","title":"Heart failure","date":"2026-09-10","startTime":"09:00","endTime":"10:00"}]}""",
+        )
+
+        val sessions = repository.curriculumSessions()
+
+        assertEquals(1, sessions.size)
+        assertEquals("course-1", sessions.single().courseId)
     }
 
     @Test
