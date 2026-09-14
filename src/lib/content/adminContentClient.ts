@@ -17,7 +17,7 @@
  * ledger `demoPreview` seeded into localStorage.
  */
 import { useCallback, useEffect, useState, type Dispatch, type SetStateAction } from 'react'
-import { API_MODE, apiGetIfChanged } from '../api'
+import { API_MODE, apiGetIfChanged, apiPost } from '../api'
 import { errorKind, type StateErrorKind } from '../apiErrors'
 import { CONTENT_LEDGER_STORAGE_KEY, mediaRequestsOf, type ManagedContentItem } from '@/data/contentControl'
 
@@ -152,6 +152,59 @@ export function useAdminEscalations(): {
   useEffect(() => {
     let live = true
     fetchAdminEscalations()
+      .then((response) => { if (live) setState({ items: response.items, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ items: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  const setItems = useCallback<Dispatch<SetStateAction<ManagedContentItem[]>>>(
+    (update) => setState((prev) => ({ ...prev, items: typeof update === 'function' ? (update as (p: ManagedContentItem[]) => ManagedContentItem[])(prev.items) : update })),
+    [],
+  )
+  return { items: state.items, setItems, loading: state.loading, error: state.error }
+}
+
+/**
+ * Every item, list-projected (heavy bodies dropped) — the Content dashboard's
+ * catalogue for lists, counts, facets and editor pickers. Demo mode returns the
+ * full local ledger: no server to slice, no perf concern.
+ */
+export function fetchAdminContentIndex(force = false): Promise<AdminItemsResponse> {
+  if (!API_MODE) return Promise.resolve({ version: 'demo', items: demoLedger() })
+  return load<AdminItemsResponse>('admin:content-index', '/admin/content/index', force)
+}
+
+/**
+ * The FULL items for a set of ids — the editor's open source and the per-item
+ * `before` a bulk or rename write needs. Deduped; missing ids are dropped.
+ */
+export async function fetchAdminItems(ids: string[]): Promise<ManagedContentItem[]> {
+  const unique = [...new Set(ids)].filter(Boolean)
+  if (!unique.length) return []
+  if (!API_MODE) {
+    const byId = new Map(demoLedger().map((item) => [item.id, item]))
+    return unique.map((id) => byId.get(id)).filter((item): item is ManagedContentItem => Boolean(item))
+  }
+  const response = await apiPost<{ version: string; items: ManagedContentItem[] }>('/admin/content/items', { ids: unique })
+  return response.items ?? []
+}
+
+/**
+ * The list-projected catalogue as local, optimistically-mutable state — the
+ * Content dashboard's read. Writes go through `saveLedgerChanges` (with a full
+ * `before` fetched per item); `setItems` reflects them in the list at once.
+ */
+export function useAdminContentIndex(): {
+  items: ManagedContentItem[]
+  setItems: Dispatch<SetStateAction<ManagedContentItem[]>>
+  loading: boolean
+  error: StateErrorKind | null
+} {
+  const [state, setState] = useState<{ items: ManagedContentItem[]; loading: boolean; error: StateErrorKind | null }>(
+    { items: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdminContentIndex()
       .then((response) => { if (live) setState({ items: response.items, loading: false, error: null }) })
       .catch((error) => { if (live) setState({ items: [], loading: false, error: errorKind(error) }) })
     return () => { live = false }

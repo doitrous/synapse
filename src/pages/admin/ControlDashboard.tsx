@@ -30,7 +30,6 @@ import { ImagePlus,
 } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
-  CONTENT_LEDGER_STORAGE_KEY,
   CONTENT_KIND_LABEL,
   initialManagedContent,
   type ContentKind,
@@ -68,6 +67,9 @@ import { Segmented } from '@/components/ui/Tabs'
 import { initialConceptGraph, CONCEPT_STORAGE_KEY, type ConceptGraph } from '@/data/conceptGraph'
 import { useTaxonomyTree, renameTaxonomyNode, addTaxTopic } from '@/data/taxonomyStore'
 import { usePersistentState, preloadState } from '@/lib/usePersistentState'
+import { useAdminContentIndex, fetchAdminItem, fetchAdminItems } from '@/lib/content/adminContentClient'
+import { saveLedgerChanges, type LedgerItemChange } from '@/lib/content/adminLedgerWrite'
+import { errorKind } from '@/lib/apiErrors'
 import { useScopedItems } from '@/lib/useScopedContent'
 import { LibraryTreeEditor } from '@/components/admin/LibraryTreeEditor'
 import { useIdentity } from '@/lib/useIdentity'
@@ -250,7 +252,14 @@ export function ControlDashboard({
   archiveControl = 'internal',
 }: ControlDashboardProps) {
   const activeScope = scope ?? questionScope
-  const [ledger, setItems, saveStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  // The catalogue is read list-projected (heavy bodies dropped) so the dashboard
+  // no longer parses the whole ~60 MB ledger to render a list. `setItems` is a
+  // local optimistic setter; the durable write is an item-scoped delta below.
+  const { items: ledger, setItems, loading: ledgerLoading, error: ledgerError } = useAdminContentIndex()
+  // The save signal, now driven by the explicit delta writes below rather than the
+  // shared store: pending while a write is in flight, error/conflict when it was
+  // refused and the optimistic edit rolled back.
+  const [saveStatus, setSaveStatus] = useState<{ pending: boolean; error: boolean; conflict: boolean }>({ pending: false, error: false, conflict: false })
   /**
    * What this person may actually work on.
    *
@@ -458,8 +467,7 @@ export function ControlDashboard({
     } else {
       handledItemParam.current = wanted
       setQuery(target.title)
-      setEditing(target)
-      setEditorOpen(true)
+      void openEditor(target)
     }
     setSearchParams((current) => {
       const next = new URLSearchParams(current)
@@ -488,6 +496,46 @@ export function ControlDashboard({
     [summaryItems],
   )
 
+  /**
+   * Save an item-scoped delta and reflect it in the list at once. Only the named
+   * ids are ever sent, so nothing this tab did not touch can change or be deleted
+   * (server/src/stateMerge.js applyDelta). A refused save — a conflict, or any
+   * error — rolls the optimistic edit back and the indicator says which.
+   */
+  async function persist(changes: LedgerItemChange[], optimistic: (list: ManagedContentItem[]) => ManagedContentItem[]) {
+    if (!changes.length) return
+    const snapshot = ledger
+    setSaveStatus({ pending: true, error: false, conflict: false })
+    setItems(optimistic)
+    try {
+      await saveLedgerChanges(changes)
+      setSaveStatus({ pending: false, error: false, conflict: false })
+    } catch (error) {
+      setItems(() => snapshot)
+      const conflict = errorKind(error) === 'conflict'
+      setSaveStatus({ pending: false, error: !conflict, conflict })
+    }
+  }
+
+  /**
+   * Open the editor on the FULL item. The list holds list-projected rows (a
+   * question without its stem or answers), so an edit must load the whole item
+   * first — saving a projected row back would drop the very content it omits.
+   */
+  const [openingId, setOpeningId] = useState<string | null>(null)
+  async function openEditor(row: ManagedContentItem) {
+    setOpeningId(row.id)
+    try {
+      const full = await fetchAdminItem(row.id)
+      setEditing(full.item ?? row)
+      setEditorOpen(true)
+    } catch {
+      warn('That item could not be loaded to edit. Try again.')
+    } finally {
+      setOpeningId(null)
+    }
+  }
+
   function openNew() {
     setEditing(null)
     setEditorOpen(true)
@@ -499,7 +547,13 @@ export function ControlDashboard({
     const accepted = next.status === 'Published' && verdict.hardBlocked
       ? { ...next, status: 'In review' as const, updatedAt: new Date().toISOString() }
       : next
-    setItems((current) => exists ? current.map((item) => item.id === accepted.id ? accepted : item) : [accepted, ...current])
+    // `editing` is the full item the editor opened on (openEditor fetched it), so
+    // it is the exact stored `before`; a genuinely new item has none.
+    const before = exists ? editing : null
+    void persist(
+      [{ id: accepted.id, before, after: accepted }],
+      (current) => exists ? current.map((item) => item.id === accepted.id ? accepted : item) : [accepted, ...current],
+    )
     // Auto-link: a resource tagged with concepts adds itself to those concepts'
     // approved file/video resource lists (so concepts only reference vetted media).
     if (accepted.kind === 'resource') {
@@ -531,20 +585,33 @@ export function ControlDashboard({
   // The field a group's topic label maps to: chapter for resources, Topic otherwise.
   const topicField = activeKind === 'resource' ? 'Chapter' : 'Topic'
 
+  // The topic/chapter label an item currently sits under.
+  const currentTopicLabel = (it: ManagedContentItem): string =>
+    it.fields[topicField]?.trim() || (activeKind === 'resource' ? it.resourceData?.chapters?.[0] : '') || (activeKind === 'resource' ? 'General' : 'Other')
+  // Retag one item from oldLabel to newLabel — applied to the full item for the
+  // write and to the projected row for the optimistic list update.
+  const retagTopic = (it: ManagedContentItem, oldLabel: string, newLabel: string): ManagedContentItem => {
+    const nextFields = { ...it.fields, [topicField]: newLabel }
+    if (activeKind === 'resource' && it.resourceData) {
+      const chapters = (it.resourceData.chapters ?? []).map((c) => (c === oldLabel ? newLabel : c))
+      return { ...it, fields: nextFields, resourceData: { ...it.resourceData, chapters: chapters.length ? chapters : [newLabel] } }
+    }
+    return { ...it, fields: nextFields }
+  }
+
   /** Rename a topic/chapter group: retag every item in it and rename the taxonomy node. */
-  function renameTopic(subjectId: string, oldLabel: string, newLabel: string) {
+  async function renameTopic(subjectId: string, oldLabel: string, newLabel: string) {
     if (!newLabel.trim() || newLabel === oldLabel) return
-    setItems((cur) => cur.map((it) => {
-      if (it.kind !== activeKind || it.subjectId !== subjectId) return it
-      const current = it.fields[topicField]?.trim() || (activeKind === 'resource' ? it.resourceData?.chapters?.[0] : '') || (activeKind === 'resource' ? 'General' : 'Other')
-      if (current !== oldLabel) return it
-      const nextFields = { ...it.fields, [topicField]: newLabel }
-      if (activeKind === 'resource' && it.resourceData) {
-        const chapters = (it.resourceData.chapters ?? []).map((c) => (c === oldLabel ? newLabel : c))
-        return { ...it, fields: nextFields, resourceData: { ...it.resourceData, chapters: chapters.length ? chapters : [newLabel] } }
-      }
-      return { ...it, fields: nextFields }
-    }))
+    // Which items sit under the old label is decided from the projected list; the
+    // write then pulls their full items so each change carries an exact `before`.
+    const affected = new Set(
+      ledger.filter((it) => it.kind === activeKind && it.subjectId === subjectId && currentTopicLabel(it) === oldLabel).map((it) => it.id),
+    )
+    if (affected.size) {
+      const fulls = await fetchAdminItems([...affected])
+      const changes = fulls.map((full) => ({ id: full.id, before: full, after: retagTopic(full, oldLabel, newLabel) }))
+      await persist(changes, (current) => current.map((it) => (affected.has(it.id) ? retagTopic(it, oldLabel, newLabel) : it)))
+    }
     const topic = taxonomy.find((s) => s.id === subjectId)?.topics.find((t) => t.title === oldLabel)
     if (topic) setTaxonomy((tree) => renameTaxonomyNode(tree, 'topic', topic.id, newLabel))
     say(`${activeKind === 'resource' ? 'Chapter' : 'Topic'} renamed to “${newLabel}”.`)
@@ -559,9 +626,15 @@ export function ControlDashboard({
     say(`Topic “${name}” added to Subjects & Topics.`)
   }
 
-  function sendForReview(item: ManagedContentItem) {
+  async function sendForReview(item: ManagedContentItem) {
     if (item.status === 'In review') return
-    setItems((current) => current.map((candidate) => candidate.id === item.id ? { ...candidate, status: 'In review', updatedAt: new Date().toISOString() } : candidate))
+    const [full] = await fetchAdminItems([item.id])
+    if (!full) { warn('That item is no longer in the catalogue.'); return }
+    const at = new Date().toISOString()
+    await persist(
+      [{ id: full.id, before: full, after: { ...full, status: 'In review', updatedAt: at } }],
+      (current) => current.map((candidate) => candidate.id === item.id ? { ...candidate, status: 'In review', updatedAt: at } : candidate),
+    )
   }
 
   /* ---- Bulk selection ---------------------------------------------------- */
@@ -592,11 +665,13 @@ export function ControlDashboard({
    * An empty target list used to return in silence, leaving the selection sitting
    * there and the admin with no idea whether anything had happened. It now says so.
    */
-  function applyStatus(targets: ManagedContentItem[], status: Status, nothingToDo: string) {
+  async function applyStatus(targets: ManagedContentItem[], status: Status, nothingToDo: string) {
     if (!targets.length) { warn(nothingToDo); return }
     const ids = new Set(targets.map((item) => item.id))
     const at = new Date().toISOString()
-    setItems((current) => current.map((item) => (ids.has(item.id) ? { ...item, status, updatedAt: at } : item)))
+    const fulls = await fetchAdminItems([...ids])
+    const changes = fulls.map((full) => ({ id: full.id, before: full, after: { ...full, status, updatedAt: at } }))
+    await persist(changes, (current) => current.map((item) => (ids.has(item.id) ? { ...item, status, updatedAt: at } : item)))
     setSelected((current) => {
       const next = new Set(current)
       ids.forEach((id) => next.delete(id))
@@ -604,7 +679,7 @@ export function ControlDashboard({
     })
   }
 
-  function applyTags(tags: string[]) {
+  async function applyTags(tags: string[]) {
     if (!selectedItems.length || !tags.length) {
       warn('Choose at least one content item and one tag.')
       return
@@ -621,7 +696,9 @@ export function ControlDashboard({
     }
     const ids = new Set(changedItems.map((item) => item.id))
     const at = new Date().toISOString()
-    setItems((current) => current.map((item) => ids.has(item.id) ? addContentTags(item, tags, at) : item))
+    const fulls = await fetchAdminItems([...ids])
+    const changes = fulls.map((full) => ({ id: full.id, before: full, after: addContentTags(full, tags, at) }))
+    await persist(changes, (current) => current.map((item) => ids.has(item.id) ? addContentTags(item, tags, at) : item))
     setSelected(new Set())
     setBulkTagOpen(false)
   }
@@ -649,14 +726,16 @@ export function ControlDashboard({
       : `Nothing to publish — all ${readiness.live.length} selected items are already published. Nothing was changed.`)
   }
 
-  function deleteItem() {
+  async function deleteItem() {
     if (!deleting) return
-    const deleted = deleting
-    for (const attachment of deleted.questionData?.attachments ?? []) {
+    const target = deleting
+    setDeleting(null)
+    const [full] = await fetchAdminItems([target.id])
+    if (!full) { warn('That item is no longer in the catalogue.'); return }
+    for (const attachment of full.questionData?.attachments ?? []) {
       void removeStoredMedia(attachment.url)
     }
-    setItems((current) => current.filter((item) => item.id !== deleted.id))
-    setDeleting(null)
+    await persist([{ id: target.id, before: full, after: null }], (current) => current.filter((item) => item.id !== target.id))
   }
 
   const summaryCards = isArchiveView
@@ -1097,7 +1176,7 @@ export function ControlDashboard({
                               <Td><StatusBadge status={item.status} /></Td>
                               <Td align="end" className="sticky right-0 bg-inherit pr-4">
                                 <div className="inline-flex items-center justify-end gap-1">
-                                  <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" onClick={() => { setEditing(item); setEditorOpen(true) }} />
+                                  <IconButton icon={Pencil} label={`Edit ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10" disabled={openingId === item.id} onClick={() => void openEditor(item)} />
                                   {item.kind === 'question' && <IconButton icon={Flag} label={`Report “${item.title}” for editorial review`} size="sm" className="size-10" onClick={() => setReportTarget({ kind: 'question', id: item.id, title: item.title })} />}
                                   {item.status !== 'Archived' && <IconButton icon={item.status === 'In review' ? CircleCheck : Send} label={item.status === 'In review' ? 'Awaiting review' : 'Send for review'} size="sm" className="size-10" disabled={item.status === 'In review'} onClick={() => sendForReview(item)} />}
                                   <IconButton icon={Trash2} label={`Delete ${CONTENT_KIND_LABEL[item.kind].singular}`} size="sm" className="size-10 text-danger hover:border-danger/20 hover:bg-danger-tint hover:text-danger" onClick={() => setDeleting(item)} />
@@ -1114,9 +1193,9 @@ export function ControlDashboard({
               {rows.length === 0 && (
                 <tr>
                   <td colSpan={6} className="px-4 py-14 text-center">
-                    <Icon icon={Search} size={20} className="mx-auto text-ink-3" />
-                    <p className="mt-2 text-[13px] font-medium text-ink">{isArchiveView ? `No archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} yet` : 'No matching content'}</p>
-                    <p className="mt-1 text-[12px] text-ink-3">{isArchiveView ? 'Items you archive from the current view appear here.' : 'Change the search, status, or tag filter, or add a new item.'}</p>
+                    <Icon icon={ledgerError ? Flag : Search} size={20} className="mx-auto text-ink-3" />
+                    <p className="mt-2 text-[13px] font-medium text-ink">{ledgerError ? 'Could not load the catalogue' : ledgerLoading ? 'Loading catalogue…' : isArchiveView ? `No archived ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} yet` : 'No matching content'}</p>
+                    <p className="mt-1 text-[12px] text-ink-3">{ledgerError ? 'Reload the page to try again.' : ledgerLoading ? 'Fetching content.' : isArchiveView ? 'Items you archive from the current view appear here.' : 'Change the search, status, or tag filter, or add a new item.'}</p>
                   </td>
                 </tr>
               )}
@@ -1152,7 +1231,7 @@ export function ControlDashboard({
                         <p className="line-clamp-2 text-[12.5px] font-medium leading-snug text-ink">{item.title}</p>
                         <p className="mt-1 text-[10.5px] text-ink-3">{CONTENT_KIND_LABEL[item.kind].singular} · {relativeUpdated(item.updatedAt)}</p>
                       </div>
-                      <button type="button" className="text-[11.5px] font-semibold text-primary-strong hover:text-primary" onClick={() => { setKind(item.kind); setEditing(item); setEditorOpen(true) }}>Open</button>
+                      <button type="button" className="text-[11.5px] font-semibold text-primary-strong hover:text-primary" onClick={() => { setKind(item.kind); void openEditor(item) }}>Open</button>
                     </div>
                   </li>
                 ))}
