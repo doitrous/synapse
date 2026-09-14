@@ -59,6 +59,7 @@ final class LibraryModel {
             meta: "",
             year: nil,
             chapters: [],
+            modules: [],
             hasFile: true,
             file: file
         )

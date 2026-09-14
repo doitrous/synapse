@@ -15,6 +15,8 @@ struct LibraryResource: Identifiable, Equatable, Sendable {
     let meta: String
     let year: Int?
     let chapters: [String]
+    /// Curriculum module ids this resource is tagged with (web `moduleIds`).
+    let modules: [String]
     /// What the ledger claims. The authoritative answer is `file`.
     let hasFile: Bool
     /// The source document behind this, when one exists.
@@ -180,6 +182,7 @@ final class ResourceModel {
             meta: fields["Location"]?.trimmed ?? "",
             year: Int(fields["Year"] ?? ""),
             chapters: chapters,
+            modules: data?["moduleIds"] as? [String] ?? [],
             // A catalogued resource with no uploaded file cannot be opened.
             hasFile: (data?["storageKey"] as? String)?.isEmpty == false
         )
@@ -190,11 +193,12 @@ final class ResourceModel {
     /// The web keeps this choice per device under `synapse.resources.groupBy`:
     /// it is about how a student likes to browse, not about the student.
     enum Grouping: String, CaseIterable, Sendable {
-        case system, kind
+        case system, subject, kind
 
         var label: String {
             switch self {
             case .system: "By chapter"
+            case .subject: "By subject"
             case .kind: "By type"
             }
         }
@@ -213,6 +217,7 @@ final class ResourceModel {
         for resource in resources {
             let title = switch grouping {
             case .system: resource.chapter ?? "Unfiled"
+            case .subject: resource.subjectId.isEmpty ? "Unfiled" : SubjectCatalog.name(resource.subjectId)
             case .kind: resource.type.rawValue
             }
             if folders[title] == nil {

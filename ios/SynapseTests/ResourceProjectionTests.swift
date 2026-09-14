@@ -73,7 +73,7 @@ struct ResourceProjectionTests {
         private func resource(_ id: String, _ title: String, chapter: String?) -> LibraryResource {
             LibraryResource(
                 id: id, title: title, type: .book, subjectId: "S", source: "—", meta: "",
-                year: nil, chapters: chapter.map { [$0] } ?? [], hasFile: true
+                year: nil, chapters: chapter.map { [$0] } ?? [], modules: [], hasFile: true
             )
         }
 
@@ -104,6 +104,28 @@ struct ResourceProjectionTests {
         @Test("an empty catalogue produces no folders")
         func empty() {
             #expect(ResourceModel.group([]).isEmpty)
+        }
+
+        /// The subject axis names each folder from the ported catalogue, and an
+        /// off-catalogue id (a resource tagged with a system this build doesn't
+        /// list) is kept and shown by its own code rather than dropped.
+        @Test("resources group by subject with catalogue names; unknown ids kept")
+        func groupsBySubject() {
+            func r(_ id: String, subject: String) -> LibraryResource {
+                LibraryResource(
+                    id: id, title: id, type: .book, subjectId: subject, source: "—",
+                    meta: "", year: nil, chapters: [], modules: [], hasFile: true
+                )
+            }
+            let titles = Set(ResourceModel.group([
+                r("1", subject: "cvs"),
+                r("2", subject: "resp"),
+                r("3", subject: "zzz"),
+            ], by: .subject).map(\.title))
+
+            #expect(titles.contains("Cardiovascular"))
+            #expect(titles.contains("Respiratory"))
+            #expect(titles.contains("ZZZ"))
         }
     }
 }

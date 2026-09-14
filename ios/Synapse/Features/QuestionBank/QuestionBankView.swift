@@ -116,7 +116,7 @@ private struct SessionBuilder: View {
                 topics: model.chooserTopics,
                 counts: model.scopeCounts,
                 scope: $model.scope,
-                subjectName: { $0.uppercased() }
+                subjectName: { SubjectCatalog.name($0) }
             )
         .localisedSheet()
         }
