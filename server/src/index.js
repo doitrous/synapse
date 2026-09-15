@@ -239,7 +239,15 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
       try {
         res.setHeader('Cache-Control', 'no-cache')
         const [html, seo] = await Promise.all([readFile(document, 'utf8'), resolveSeo(store, `/${locale}`, locale)])
-        res.type('html').send(injectHead(html, seo))
+        // composeSeo templates a fallback *title* when the hub page has none, but leaves
+        // `description` as '' — the runtime never templates one (CONTRACT.md). injectHead
+        // strips whatever description tag is already in `html` unconditionally, so an empty
+        // hub override must fall back to this shell's own baked-in description here, or the
+        // page ends up with no description meta at all instead of keeping Vite's copy.
+        const shellDescription = html.match(/<meta\b[^>]*\bname\s*=\s*"description"[^>]*>/i)?.[0]
+          ?.match(/\bcontent\s*=\s*"([^"]*)"/i)?.[1]
+        const seoWithFallback = seo.description ? seo : { ...seo, description: shellDescription ?? '' }
+        res.type('html').send(injectHead(html, seoWithFallback))
       } catch (e) { next(e) }
     })
   }
