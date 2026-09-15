@@ -39,6 +39,7 @@ import { registerAdaptivePoolRoutes } from './adaptivePool.js'
 import { registerAdminConceptRoutes } from './adminConcept.js'
 import { registerPublicRoutes } from './routes/public.js'
 import { registerSeo, store } from './seo.js'
+import { rawTitleOverride, shellHead, withShellFallback } from './seoShell.js'
 import { isKnownSpaPath } from './spaRoutes.js'
 import { registerAuthRoutes } from './routes/auth.js'
 import { registerAssistantRoutes, registerEssayRoutes } from './routes/assistant.js'
@@ -241,13 +242,14 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
         const [html, seo] = await Promise.all([readFile(document, 'utf8'), resolveSeo(store, `/${locale}`, locale)])
         // composeSeo templates a fallback *title* when the hub page has none, but leaves
         // `description` as '' — the runtime never templates one (CONTRACT.md). injectHead
-        // strips whatever description tag is already in `html` unconditionally, so an empty
-        // hub override must fall back to this shell's own baked-in description here, or the
-        // page ends up with no description meta at all instead of keeping Vite's copy.
-        const shellDescription = html.match(/<meta\b[^>]*\bname\s*=\s*"description"[^>]*>/i)?.[0]
-          ?.match(/\bcontent\s*=\s*"([^"]*)"/i)?.[1]
-        const seoWithFallback = seo.description ? seo : { ...seo, description: shellDescription ?? '' }
-        res.type('html').send(injectHead(html, seoWithFallback))
+        // strips whatever <title>/description tag is already in `html` unconditionally, so
+        // neither of composeSeo's composed values can be fed to it as-is: an empty resolved
+        // description must fall back to this shell's own baked-in description, and — worse,
+        // since composeSeo's title is almost never really empty — only a real raw `seoTitle`
+        // override (read straight from the store, bypassing the template) may replace the
+        // shell's own baked-in title. See seoShell.js for the exact mechanism.
+        const rawTitle = await rawTitleOverride(store, `/${locale}`, locale)
+        res.type('html').send(injectHead(html, withShellFallback(seo, shellHead(html), rawTitle)))
       } catch (e) { next(e) }
     })
   }
