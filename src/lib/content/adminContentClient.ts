@@ -184,6 +184,59 @@ export function useAdminConceptIndex(): { concepts: AdminConceptIndexRow[]; load
   return state
 }
 
+/**
+ * One relationship's slim fields — endpoints, type, verification badge — never
+ * its evidence arrays. Mirrors `server/src/adminConcept.js` `relationIndexRow`.
+ */
+export interface AdminRelationIndexRow {
+  id: string
+  sourceId: string
+  targetId: string
+  type: string
+  verificationStatus?: string
+}
+export interface AdminRelationIndexResponse { version: string; items: AdminRelationIndexRow[] }
+
+/** The demo build's relations: whatever `demoPreview` seeded into localStorage. */
+function demoRelations(): Array<Record<string, unknown>> {
+  if (typeof localStorage === 'undefined') return []
+  try {
+    const raw = JSON.parse(localStorage.getItem(CONCEPT_STORAGE_KEY) ?? '{}')
+    return Array.isArray(raw?.relations) ? raw.relations : []
+  } catch { return [] }
+}
+
+export function fetchAdminRelationIndex(force = false): Promise<AdminRelationIndexResponse> {
+  if (!API_MODE) {
+    const items: AdminRelationIndexRow[] = demoRelations()
+      .filter((relation) => relation && typeof relation.id === 'string')
+      .map((relation) => ({
+        id: relation.id as string,
+        sourceId: relation.sourceId as string,
+        targetId: relation.targetId as string,
+        type: relation.type as string,
+        verificationStatus: relation.verificationStatus as string | undefined,
+      }))
+    return Promise.resolve({ version: 'demo', items })
+  }
+  return load<AdminRelationIndexResponse>('admin:relation-index', '/admin/concept/relation-index', force)
+}
+
+/** The relation index (slim edges), fetched once on mount. */
+export function useAdminRelationIndex(): { relations: AdminRelationIndexRow[]; loading: boolean; error: StateErrorKind | null } {
+  const [state, setState] = useState<{ relations: AdminRelationIndexRow[]; loading: boolean; error: StateErrorKind | null }>(
+    { relations: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdminRelationIndex()
+      .then((response) => { if (live) setState({ relations: response.items, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ relations: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  return state
+}
+
 /** The article index (ids + taxonomy placement), fetched once on mount. */
 export function useAdminArticleIndex(): { articles: AdminArticleIndexRow[]; loading: boolean; error: StateErrorKind | null } {
   const [state, setState] = useState<{ articles: AdminArticleIndexRow[]; loading: boolean; error: StateErrorKind | null }>(

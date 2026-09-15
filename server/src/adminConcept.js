@@ -58,6 +58,21 @@ export function conceptIndexRow(concept) {
   }
 }
 
+/**
+ * One relationship's slim fields: the endpoints, the type, and the verification
+ * badge the relations table shows — never the evidence-claim/citation arrays.
+ * Enough to render the table, the per-concept relation count, and the dedup key.
+ */
+export function relationIndexRow(relation) {
+  return {
+    id: relation.id,
+    sourceId: relation.sourceId,
+    targetId: relation.targetId,
+    type: relation.type,
+    verificationStatus: relation.verificationStatus,
+  }
+}
+
 async function load() {
   // Cheap version probe first: a warm snapshot must never pull the 72 MB graph
   // just to learn we already have it. Version-checked on every use, not merely
@@ -71,13 +86,20 @@ async function load() {
   if (snapshot && snapshot.signature === signature) return snapshot
   const [rows] = await pool.query(`SELECT v FROM app_state WHERE k = ?`, [GRAPH_KEY])
   let concepts = []
+  let relations = []
   try {
     const graph = JSON.parse(rows[0]?.v ?? '{"concepts":[]}')
     concepts = Array.isArray(graph?.concepts) ? graph.concepts : []
+    relations = Array.isArray(graph?.relations) ? graph.relations : []
   } catch {
     concepts = []
+    relations = []
   }
-  snapshot = { signature, items: concepts.filter((concept) => concept && concept.id).map(conceptIndexRow) }
+  snapshot = {
+    signature,
+    items: concepts.filter((concept) => concept && concept.id).map(conceptIndexRow),
+    relations: relations.filter((relation) => relation && relation.id).map(relationIndexRow),
+  }
   return snapshot
 }
 
@@ -90,10 +112,20 @@ export async function adminConceptIndexHandler(req, res) {
   return res.json({ version: signature, items })
 }
 
+export async function adminRelationIndexHandler(req, res) {
+  const { signature, relations } = await load()
+  const etag = `W/"admin-relation-index-1-${signature}"`
+  res.set('ETag', etag)
+  res.set('Cache-Control', 'private, no-cache')
+  if (req.get('if-none-match') === etag) return res.status(304).end()
+  return res.json({ version: signature, items: relations })
+}
+
 export function registerAdminConceptRoutes(app) {
   const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
     console.error(error)
     res.status(500).json({ error: error.message || 'server error' })
   })
   app.get('/api/admin/concept/index', requireConsole, wrap(adminConceptIndexHandler))
+  app.get('/api/admin/concept/relation-index', requireConsole, wrap(adminRelationIndexHandler))
 }

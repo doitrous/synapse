@@ -1,4 +1,4 @@
-import { Fragment, useMemo, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import { Plus, Trash2, ArrowRight, Upload, FileSpreadsheet, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -9,7 +9,9 @@ import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Field, SearchInput, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Table, Th, Td, Tr } from '@/components/ui/Table'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { usePersistentState, preloadState } from '@/lib/usePersistentState'
+import { API_MODE } from '@/lib/api'
+import { useAdminConceptIndex, useAdminRelationIndex } from '@/lib/content/adminContentClient'
 import { subjects, getSubject } from '@/data/subjects'
 import { libraryTopics } from '@/data/library'
 import { useTaxonomyTree, renameTaxonomyNode } from '@/data/taxonomyStore'
@@ -44,8 +46,25 @@ const RELATION_TYPES_KEY = 'nishany-relation-types-v1'
 const slugType = (s: string) => s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '_').replace(/(^_|_$)/g, '')
 
 export function RelationshipsSetup() {
-  const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
-  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  // Deferred: the relations table and concept pickers paint from the slim relation
+  // and concept indexes (below), so neither the 72 MB graph nor the evidence store
+  // is on the mount path. Both preload in the background on mount — the writes need
+  // the whole graph as their diff base, so they unlock once it lands (`ready`).
+  // The write path is unchanged: `setGraph` still diffs against the full graph.
+  const [graph, setGraph, graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph, { defer: true })
+  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, { defer: true })
+  const { concepts: conceptIndex } = useAdminConceptIndex()
+  const { relations: relationIndex } = useAdminRelationIndex()
+  const ready = !API_MODE || graphStatus.hydrated
+  useEffect(() => {
+    preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph)
+    preloadState(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  }, [])
+  // Before the full graph lands the list reads the indexes; the moment it hydrates
+  // it takes over as the single source of truth, so a write shows at once and
+  // nothing needs invalidating.
+  const navConcepts = graphStatus.hydrated ? graph.concepts : (conceptIndex as unknown as ConceptGraph['concepts'])
+  const navRelations = graphStatus.hydrated ? graph.relations : (relationIndex as unknown as ConceptGraph['relations'])
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [medicalTaxonomy] = useMedicalTaxonomy()
   const [customTypes, setCustomTypes] = usePersistentState<string[]>(RELATION_TYPES_KEY, [])
@@ -74,8 +93,8 @@ export function RelationshipsSetup() {
   const [targetQuery, setTargetQuery] = useState('')
   const toggleGroup = (k: string) => setCollapsed((prev) => { const n = new Set(prev); if (n.has(k)) n.delete(k); else n.add(k); return n })
 
-  const conceptLabel = (id: string) => graph.concepts.find((c) => c.id === id)?.label ?? id
-  const conceptOptions = [...graph.concepts].sort((a, b) => a.label.localeCompare(b.label))
+  const conceptLabel = (id: string) => navConcepts.find((c) => c.id === id)?.label ?? id
+  const conceptOptions = [...navConcepts].sort((a, b) => a.label.localeCompare(b.label))
 
   // Map each concept to its System (subject) and Topic, for grouping.
   const { subjectOfArticle, topicOfArticle } = useMemo(() => {
@@ -86,11 +105,11 @@ export function RelationshipsSetup() {
   }, [])
   const knownSubjects = useMemo(() => new Set(subjects.map((s) => s.id)), [])
   const conceptSubject = (id: string): string => {
-    const c = graph.concepts.find((x) => x.id === id)
+    const c = navConcepts.find((x) => x.id === id)
     return c?.subjectId || c?.articleIds?.map((a) => subjectOfArticle[a]).find(Boolean) || ''
   }
   const conceptTopic = (id: string): string => {
-    const c = graph.concepts.find((x) => x.id === id)
+    const c = navConcepts.find((x) => x.id === id)
     if (!c) return 'General'
     // Prefer the single-source taxonomy: explicit topic tag, else the topic that
     // owns one of the concept's article/subtopic nodes.
@@ -110,7 +129,7 @@ export function RelationshipsSetup() {
 
   const rows = useMemo(() => {
     const q = query.trim().toLowerCase()
-    return graph.relations
+    return navRelations
       .filter((rel) => {
         // A concept picked in the navigator narrows the table to its own
         // relations, in either direction — that is what makes a graph this size
@@ -129,7 +148,7 @@ export function RelationshipsSetup() {
         return la !== 0 ? la : conceptLabel(a.targetId).localeCompare(conceptLabel(b.targetId))
       })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph.relations, query, filterType, graph.concepts, focusId])
+  }, [navRelations, query, filterType, navConcepts, focusId])
 
   // Group the filtered rows into System → Topic for the collapsible list.
   const grouped = useMemo(() => {
@@ -150,24 +169,26 @@ export function RelationshipsSetup() {
 
   // Concepts grouped by system for the built-in source picker.
   const conceptsBySystem = useMemo(() => {
-    const bySys = new Map<string, typeof graph.concepts>()
+    const bySys = new Map<string, typeof navConcepts>()
     conceptOptions.forEach((c) => { const sys = conceptSubject(c.id) || 'zzz'; bySys.set(sys, [...(bySys.get(sys) ?? []), c]) })
     const order = [...subjects.map((s) => s.id), 'zzz']
     return [...bySys.entries()].sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]))
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [graph.concepts])
+  }, [navConcepts])
 
   function startEdit(rel: ConceptGraph['relations'][number]) {
     setEditingId(rel.id)
     setEditDraft({ sourceId: rel.sourceId, type: rel.type, targetId: rel.targetId })
   }
   function saveEdit() {
+    if (!graphStatus.hydrated) return
     if (!editingId || !editDraft.sourceId || !editDraft.targetId || editDraft.sourceId === editDraft.targetId) { setEditingId(null); return }
     setGraph((g) => ({ ...g, relations: g.relations.map((r) => r.id === editingId ? { ...r, sourceId: editDraft.sourceId, type: editDraft.type as ConceptRelationType, targetId: editDraft.targetId } : r) }))
     setEditingId(null)
   }
 
   function addRelation() {
+    if (!graphStatus.hydrated) return
     const tgts = targets.filter((t) => t && t !== source)
     if (!source || tgts.length === 0) return
     const exists = new Set(graph.relations.map((r) => `${r.sourceId}|${r.type}|${r.targetId}`))
@@ -202,6 +223,7 @@ export function RelationshipsSetup() {
   const addTarget = (id: string) => { if (id && !targets.includes(id)) setTargets((cur) => [...cur, id]) }
 
   function removeRelation(id: string) {
+    if (!graphStatus.hydrated) return
     setGraph((g) => ({ ...g, relations: g.relations.filter((r) => r.id !== id) }))
   }
 
@@ -215,6 +237,7 @@ export function RelationshipsSetup() {
   }
 
   function runImport() {
+    if (!graphStatus.hydrated) return
     const byId = new Map(graph.concepts.map((c) => [c.id, c]))
     const byLabel = new Map(graph.concepts.map((c) => [c.label.toLowerCase(), c]))
     const resolve = (token: string) => byId.get(token.trim()) ?? byLabel.get(token.trim().toLowerCase())
@@ -276,7 +299,7 @@ export function RelationshipsSetup() {
         {/* Navigator: pick a concept to work on its relations only. */}
         <ConceptNavigator
           title="Browse concepts"
-          graph={graph}
+          graph={{ concepts: navConcepts, relations: navRelations }}
           taxonomy={taxonomy}
           medicalTaxonomy={medicalTaxonomy}
           selectedId={focusId}
@@ -286,16 +309,22 @@ export function RelationshipsSetup() {
             if (concept) setSource(concept.id)
           }}
           badgeFor={(concept) => {
-            const count = graph.relations.filter((rel) => rel.sourceId === concept.id || rel.targetId === concept.id).length
+            const count = navRelations.filter((rel) => rel.sourceId === concept.id || rel.targetId === concept.id).length
             return <span className="tnum shrink-0 font-mono text-[10px] text-ink-3">{count}</span>
           }}
           footer={focusId
             ? <button type="button" onClick={() => setFocusId(null)} className="font-medium text-primary-strong hover:underline">Showing {conceptLabel(focusId)} · show all</button>
-            : <><span className="tnum font-mono font-medium text-ink-2">{graph.relations.length}</span> relationships across <span className="tnum font-mono font-medium text-ink-2">{graph.concepts.length}</span> concepts</>}
+            : <><span className="tnum font-mono font-medium text-ink-2">{navRelations.length}</span> relationships across <span className="tnum font-mono font-medium text-ink-2">{navConcepts.length}</span> concepts</>}
           className="lg:sticky lg:top-[4.5rem] lg:max-h-[calc(100dvh-6rem)]"
         />
 
         <div className="min-w-0">
+      {!ready && (
+        <div role="status" className="mb-4 flex items-center gap-2 rounded-lg border border-line bg-surface-2 px-4 py-2.5 text-[12.5px] text-ink-2">
+          <span className="size-2 shrink-0 animate-pulse rounded-full bg-primary" />
+          Loading the full graph so edits save safely — the relationships list is ready to browse; editing unlocks in a moment.
+        </div>
+      )}
       {/* Add relationship */}
       <Panel className="mb-4">
         <PanelHeader title="Add a relationship" icon={Plus} hint="One source → one or more targets; optionally both directions" />
@@ -401,7 +430,7 @@ export function RelationshipsSetup() {
         </div>
         <div className="flex items-center justify-between gap-2 px-4 pb-4">
           <p className="text-[11.5px] text-ink-3">{source && targets.length ? `${conceptLabel(source)} ${bidirectional ? '↔' : '→'} ${type} ${bidirectional ? '↔' : '→'} ${targets.length} concept${targets.length === 1 ? '' : 's'}` : 'Pick a source and one or more targets.'}</p>
-          <Button variant="primary" iconLeft={Plus} onClick={addRelation} disabled={!source || targets.length === 0}>Add {targets.length > 1 ? `${targets.length} relations` : 'relation'}</Button>
+          <Button variant="primary" iconLeft={Plus} onClick={addRelation} disabled={!source || targets.length === 0 || !ready}>Add {targets.length > 1 ? `${targets.length} relations` : 'relation'}</Button>
         </div>
         <div className="flex flex-wrap items-end gap-2 border-t border-line px-4 py-3">
           <Field label="Add a custom relationship type" hint="Define your own directed type — it becomes available above and in bulk import." className="min-w-[16rem] flex-1">
@@ -430,7 +459,7 @@ export function RelationshipsSetup() {
             <option value="all">All types</option>
             {allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}
           </Select>
-          <span className="ms-auto tnum font-mono text-[11.5px] text-ink-3">{rows.length} of {graph.relations.length}</span>
+          <span className="ms-auto tnum font-mono text-[11.5px] text-ink-3">{rows.length} of {navRelations.length}</span>
         </div>
         <Table>
           <thead><tr><Th className="pl-4">Source</Th><Th>Relation</Th><Th>Target</Th><Th align="end" className="pr-4">Actions</Th></tr></thead>
@@ -468,14 +497,14 @@ export function RelationshipsSetup() {
                             <Td className="pl-4"><Select value={editDraft.sourceId} onChange={(e) => setEditDraft((d) => ({ ...d, sourceId: e.target.value }))} className="h-9">{conceptOptions.map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
                             <Td><Select value={editDraft.type} onChange={(e) => setEditDraft((d) => ({ ...d, type: e.target.value }))} className="h-9">{allTypes.map((rt) => <option key={rt} value={rt}>{rt}</option>)}</Select></Td>
                             <Td><Select value={editDraft.targetId} onChange={(e) => setEditDraft((d) => ({ ...d, targetId: e.target.value }))} className="h-9">{conceptOptions.filter((c) => c.id !== editDraft.sourceId).map((c) => <option key={c.id} value={c.id}>{c.label}</option>)}</Select></Td>
-                            <Td align="end" className="pr-4"><div className="inline-flex gap-1"><Button variant="primary" size="sm" iconLeft={Check} onClick={saveEdit}>Save</Button><Button variant="ghost" size="sm" iconLeft={X} onClick={() => setEditingId(null)}>Cancel</Button></div></Td>
+                            <Td align="end" className="pr-4"><div className="inline-flex gap-1"><Button variant="primary" size="sm" iconLeft={Check} onClick={saveEdit} disabled={!ready}>Save</Button><Button variant="ghost" size="sm" iconLeft={X} onClick={() => setEditingId(null)}>Cancel</Button></div></Td>
                           </Tr>
                         ) : (
                           <Tr key={rel.id} hover>
                             <Td className="pl-4 font-medium ps-10">{conceptLabel(rel.sourceId)}</Td>
                             <Td><span className="inline-flex items-center gap-1.5"><Badge tone="primary">{rel.type}</Badge><Icon icon={ArrowRight} size={13} className="text-ink-3" /></span><span className="mt-1 block"><Badge tone={rel.verificationStatus === 'verified' ? 'success' : 'warning'}>{rel.verificationStatus ?? 'needs evidence'}</Badge></span></Td>
                             <Td className="text-ink-2">{conceptLabel(rel.targetId)}</Td>
-                            <Td align="end" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)}>Remove</Button></div></Td>
+                            <Td align="end" className="pr-4"><div className="inline-flex gap-1"><Button variant="ghost" size="sm" iconLeft={Pencil} onClick={() => startEdit(rel)} disabled={!ready}>Edit</Button><Button variant="ghost" size="sm" iconLeft={Trash2} className="hover:text-danger" onClick={() => removeRelation(rel.id)} disabled={!ready}>Remove</Button></div></Td>
                           </Tr>
                         ))}
                       </Fragment>
@@ -526,7 +555,7 @@ export function RelationshipsSetup() {
             </div>
             <div className="flex items-center justify-between gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
               <Button variant="ghost" onClick={() => setImporting(false)}>Close</Button>
-              <Button variant="primary" iconLeft={Upload} onClick={runImport} disabled={!importText.trim()}>Import</Button>
+              <Button variant="primary" iconLeft={Upload} onClick={runImport} disabled={!importText.trim() || !ready}>Import</Button>
             </div>
           </Panel>
         </div>
