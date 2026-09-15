@@ -24,22 +24,37 @@ const GRAPH_KEY = 'nishany-concept-graph-v2'
 let snapshot = null
 
 const list = (value) => (Array.isArray(value) ? value.filter((entry) => typeof entry === 'string' && entry) : [])
+const numbers = (value) => (Array.isArray(value) ? value.filter((entry) => typeof entry === 'number' && Number.isFinite(entry)) : [])
 
 /**
- * Every concept's id, label and taxonomy placement — the fields the navigator,
- * the import reference-guards and the curriculum membership read. Never the
- * definition/pitfalls/evidence prose, which is most of the weight.
+ * The slim fields every concept-navigator surface reads: the label and its short
+ * `definition`/`aliases` (the "no definition" badge and the search box), the full
+ * taxonomy placement (tree grouping), and the curriculum scope (`moduleIds`,
+ * `learnerYears`, `universityIds`) a scoped reviewer's navigator is filtered by.
+ *
+ * Never the heavy prose that makes the graph 72 MB — pitfalls, provenance,
+ * evidence/claim arrays, exam signal, original wording. `definition` is one or
+ * two sentences by editorial convention, so it stays cheap. The concept editor
+ * itself still opens on the full document (the deferred whole-graph read).
  */
 export function conceptIndexRow(concept) {
   return {
     id: concept.id,
     label: concept.label,
+    definition: typeof concept.definition === 'string' ? concept.definition : '',
+    aliases: list(concept.aliases),
+    articleIds: list(concept.articleIds),
+    subjectId: concept.subjectId,
+    systemId: concept.systemId,
     topicTagId: concept.topicTagId,
     subtopicId: concept.subtopicId,
     microtopicId: concept.microtopicId,
     nanotopicId: concept.nanotopicId,
     primaryNodeId: concept.primaryNodeId,
     secondaryNodeIds: list(concept.secondaryNodeIds),
+    moduleIds: list(concept.moduleIds),
+    learnerYears: numbers(concept.learnerYears),
+    universityIds: list(concept.universityIds),
   }
 }
 
@@ -68,7 +83,7 @@ async function load() {
 
 export async function adminConceptIndexHandler(req, res) {
   const { signature, items } = await load()
-  const etag = `W/"admin-concept-index-1-${signature}"`
+  const etag = `W/"admin-concept-index-2-${signature}"`
   res.set('ETag', etag)
   res.set('Cache-Control', 'private, no-cache')
   if (req.get('if-none-match') === etag) return res.status(304).end()

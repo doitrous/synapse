@@ -108,16 +108,28 @@ export function fetchAdminArticleIndex(force = false): Promise<AdminArticleIndex
   return load<AdminArticleIndexResponse>('admin:article-index', '/admin/content/article-index', force)
 }
 
-/** One concept's id, label and taxonomy placement — never its prose. Mirrors the server projection. */
+/**
+ * One concept's slim navigator fields — label, short definition/aliases, full
+ * taxonomy placement and curriculum scope — never its heavy prose. Mirrors the
+ * server projection (`server/src/adminConcept.js` `conceptIndexRow`).
+ */
 export interface AdminConceptIndexRow {
   id: string
   label?: string
+  definition?: string
+  aliases?: string[]
+  articleIds?: string[]
+  subjectId?: string
+  systemId?: string
   topicTagId?: string
   subtopicId?: string
   microtopicId?: string
   nanotopicId?: string
   primaryNodeId?: string
   secondaryNodeIds: string[]
+  moduleIds?: string[]
+  learnerYears?: number[]
+  universityIds?: string[]
 }
 export interface AdminConceptIndexResponse { version: string; items: AdminConceptIndexRow[] }
 
@@ -137,12 +149,20 @@ export function fetchAdminConceptIndex(force = false): Promise<AdminConceptIndex
       .map((concept) => ({
         id: concept.id as string,
         label: concept.label as string | undefined,
+        definition: typeof concept.definition === 'string' ? concept.definition : '',
+        aliases: listOf(concept.aliases),
+        articleIds: listOf(concept.articleIds),
+        subjectId: concept.subjectId as string | undefined,
+        systemId: concept.systemId as string | undefined,
         topicTagId: concept.topicTagId as string | undefined,
         subtopicId: concept.subtopicId as string | undefined,
         microtopicId: concept.microtopicId as string | undefined,
         nanotopicId: concept.nanotopicId as string | undefined,
         primaryNodeId: concept.primaryNodeId as string | undefined,
         secondaryNodeIds: listOf(concept.secondaryNodeIds),
+        moduleIds: listOf(concept.moduleIds),
+        learnerYears: Array.isArray(concept.learnerYears) ? (concept.learnerYears as number[]).filter((year) => Number.isFinite(year)) : [],
+        universityIds: listOf(concept.universityIds),
       }))
     return Promise.resolve({ version: 'demo', items })
   }

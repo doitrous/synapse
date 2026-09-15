@@ -15,7 +15,8 @@ import { Icon } from '@/components/ui/Icon'
 import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
 import { DateField } from '@/components/ui/DateTimeField'
 import { cn } from '@/lib/cn'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { usePersistentState, preloadState } from '@/lib/usePersistentState'
+import { useAdminConceptIndex } from '@/lib/content/adminContentClient'
 import {
   CONCEPT_STORAGE_KEY,
   initialConceptGraph,
@@ -237,10 +238,23 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
 
 export function ConceptsSetup() {
   const identity = useIdentity()
-  const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
-  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  // Deferred: the navigator paints from the slim concept index (below), so the
+  // 72 MB graph and the evidence store are not on the mount path. They load in
+  // the background the first time a concept is opened — the editor, its evidence
+  // panel, its relations and every write read the FULL graph, so those are gated
+  // on `graphStatus.hydrated`. The write path is unchanged: `setGraph` still
+  // diffs against the full loaded graph, never a slice.
+  const [graph, setGraph, graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph, { defer: true })
+  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, { defer: true })
+  const { concepts: conceptIndex } = useAdminConceptIndex()
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [medicalTaxonomy] = useMedicalTaxonomy()
+
+  /** Pull the full graph + evidence in the background once the admin means to edit. */
+  function loadFullGraph() {
+    preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph)
+    preloadState(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  }
   /**
    * The navigator's graph, narrowed to what this person may edit.
    *
@@ -251,9 +265,20 @@ export function ConceptsSetup() {
    * a related concept outside their scope should read as its name rather than
    * as a bare identifier.
    */
-  const scopedConcepts = useScopedConcepts(graph.concepts)
-  const navigatorGraph = useMemo(() => ({ ...graph, concepts: scopedConcepts }), [graph, scopedConcepts])
-  const [selectedId, setSelectedId] = useState<string | null>(graph.concepts[0]?.id ?? null)
+  // Before the full graph arrives the navigator lists the slim index; the moment
+  // it lands it takes over as the single source of truth, so a save reflects in
+  // the list at once and nothing needs invalidating. The index carries every
+  // field the navigator and the scope filter read (label, definition, aliases,
+  // placement, moduleIds/learnerYears/universityIds) — see `conceptIndexRow`.
+  const navConcepts = graphStatus.hydrated ? graph.concepts : (conceptIndex as unknown as Concept[])
+  const scopedConcepts = useScopedConcepts(navConcepts)
+  const navigatorGraph = useMemo<ConceptGraph>(
+    () => ({ concepts: scopedConcepts, relations: graphStatus.hydrated ? graph.relations : [] }),
+    [graph, scopedConcepts, graphStatus.hydrated],
+  )
+  // No auto-select: picking the first concept would force the 72 MB graph on
+  // mount for a page the admin may only be browsing.
+  const [selectedId, setSelectedId] = useState<string | null>(null)
   const [creating, setCreating] = useState(false)
   const [importing, setImporting] = useState(false)
   const [importText, setImportText] = useState('')
@@ -267,16 +292,19 @@ export function ConceptsSetup() {
   const [draftAliases, setDraftAliases] = useState(selected?.aliases.join(', ') ?? '')
   const [savedId, setSavedId] = useState<string | null>(null)
 
-  // Load the editor whenever a different concept is selected.
+  // Load the editor when a different concept is selected, and again the moment
+  // the full graph hydrates (a concept picked from the index before the graph
+  // arrived has no body yet). Keyed on selection + hydration only, so later graph
+  // updates from a save do not reset an in-progress edit.
   useEffect(() => {
+    if (!graphStatus.hydrated) return
     const concept = graph.concepts.find((c) => c.id === selectedId)
     setDraftDef(concept?.definition ?? '')
     setDraftAliases(concept?.aliases.join(', ') ?? '')
     setDraft(concept ? { ...concept } : {})
     setSavedId(null)
-    // Intentionally keyed on selectedId only, so edits survive graph updates.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedId])
+  }, [selectedId, graphStatus.hydrated])
 
   const patch = (next: Partial<Concept>) => setDraft((d) => ({ ...d, ...next }))
   const num01 = (v: string) => Math.min(1, Math.max(0, Number(v) || 0))
@@ -341,8 +369,15 @@ export function ConceptsSetup() {
     setSavedId(null)
   }
 
+  /** Navigator click: the index row is slim, so start the full-graph load and let
+   *  the draft effect fill the editor once the body arrives. */
+  function pickConcept(id: string) {
+    loadFullGraph()
+    setSelectedId(id)
+  }
+
   function saveConcept() {
-    if (!selected) return
+    if (!selected || !graphStatus.hydrated) return
     const aliases = draftAliases.split(',').map((a) => a.trim()).filter(Boolean)
     setGraph((g) => ({
       ...g,
@@ -371,6 +406,7 @@ export function ConceptsSetup() {
   }
 
   function deleteConcept(id: string) {
+    if (!graphStatus.hydrated) return
     setGraph((g) => ({
       concepts: g.concepts.filter((c) => c.id !== id),
       relations: g.relations.filter((r) => r.sourceId !== id && r.targetId !== id),
@@ -380,7 +416,7 @@ export function ConceptsSetup() {
 
   function createConcept() {
     const label = nLabel.trim()
-    if (!label) return
+    if (!label || !graphStatus.hydrated) return
     const id = `med.concept.${slug(label)}`
     if (graph.concepts.some((c) => c.id === id)) return
     const clamp = (v: string) => { const n = Number(v); return Number.isFinite(n) && v.trim() ? Math.min(1, Math.max(0, n)) : undefined }
@@ -410,6 +446,7 @@ export function ConceptsSetup() {
   }
 
   function runImport() {
+    if (!graphStatus.hydrated) return
     const blocks = importText.split(/^\s*---\s*$/m).map((b) => b.trim()).filter(Boolean)
     const existing = new Set(graph.concepts.map((c) => c.id))
     const additions: Concept[] = []
@@ -493,9 +530,9 @@ export function ConceptsSetup() {
           taxonomy={taxonomy}
           medicalTaxonomy={medicalTaxonomy}
           selectedId={selectedId}
-          onSelect={(concept) => concept && selectConcept(concept)}
+          onSelect={(concept) => concept && pickConcept(concept.id)}
           onRename={renameBranch}
-          action={<Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setCreating(true)} className="w-full">New concept</Button>}
+          action={<Button variant="primary" size="sm" iconLeft={Plus} onClick={() => { loadFullGraph(); setCreating(true) }} className="w-full">New concept</Button>}
           footer={<>
             <span className="tnum font-mono font-medium text-ink-2">{scopedConcepts.length}</span> concepts ·{' '}
             <span className="tnum font-mono font-medium text-ink-2">{scopedConcepts.filter((c) => !c.definition).length}</span> without a definition
@@ -626,6 +663,14 @@ export function ConceptsSetup() {
                 <AfterRevealPreview concept={{ ...selected, definition: draftDef, aliases: draftAliases.split(',').map((a) => a.trim()).filter(Boolean) }} />
               </div>
             </Panel>
+          ) : selectedId && !graphStatus.hydrated ? (
+            <Panel>
+              <div className="p-8 text-center">
+                <span className="mx-auto grid size-11 animate-pulse place-items-center rounded-xl bg-inset text-ink-3"><Icon icon={Braces} size={20} /></span>
+                <p className="mt-3 text-[14px] font-medium text-ink">Loading the full record…</p>
+                <p className="mt-1 text-[13px] text-ink-2">The concept navigator is ready; the editable record is being fetched.</p>
+              </div>
+            </Panel>
           ) : (
             <Panel>
               <div className="p-8 text-center">
@@ -683,7 +728,7 @@ export function ConceptsSetup() {
             </div>
             <div className="flex items-center justify-end gap-2 border-t border-line bg-surface-2/40 px-5 py-3">
               <Button variant="ghost" onClick={() => setCreating(false)}>Cancel</Button>
-              <Button variant="primary" iconLeft={Plus} onClick={createConcept} disabled={!nLabel.trim()}>Create concept</Button>
+              <Button variant="primary" iconLeft={Plus} onClick={createConcept} disabled={!nLabel.trim() || !graphStatus.hydrated}>{graphStatus.hydrated ? 'Create concept' : 'Loading records…'}</Button>
             </div>
           </Panel>
         </div>
