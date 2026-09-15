@@ -21,6 +21,8 @@ import { API_MODE, apiGetIfChanged, apiPost } from '../api'
 import { errorKind, type StateErrorKind } from '../apiErrors'
 import { CONTENT_LEDGER_STORAGE_KEY, mediaRequestsOf, type ManagedContentItem } from '@/data/contentControl'
 import { CONCEPT_STORAGE_KEY } from '@/data/conceptGraph'
+import { adaptiveItemsFrom } from '@/data/adaptive/itemProjection'
+import type { AdaptivePoolItem } from '@/data/adaptive/item'
 import { queryContentIndex, type ContentListParams, type ContentListResponse } from '@/data/contentQuery'
 import type { ContentScope } from '@/data/contentScope'
 import type { University } from '@/data/universities'
@@ -252,6 +254,47 @@ export function useAdminStrandedMedia(): { items: AdminStrandedRow[]; loading: b
 export function fetchAdminContentIndex(force = false): Promise<AdminItemsResponse> {
   if (!API_MODE) return Promise.resolve({ version: 'demo', items: demoLedger() })
   return load<AdminItemsResponse>('admin:content-index', '/admin/content/index', force)
+}
+
+export interface AdaptivePoolResponse { version: string; items: AdaptivePoolItem[] }
+
+/**
+ * The approved question bank projected to the fields Adaptive Setup counts by —
+ * concept ids and scope, never the question body — so the console never pulls the
+ * 239 MB ledger. Demo mode derives the same slim shape from the local ledger
+ * through the client projection, which is what the server projection is proven
+ * (`server/src/adaptivePool.test.js`) to match.
+ */
+export function fetchAdaptivePool(force = false): Promise<AdaptivePoolResponse> {
+  if (!API_MODE) {
+    const items: AdaptivePoolItem[] = adaptiveItemsFrom(demoLedger()).map((item) => ({
+      id: item.id,
+      mainConceptIds: item.mainConceptIds,
+      secondaryConceptIds: item.secondaryConceptIds,
+      conceptIds: item.conceptIds,
+      universityIds: item.universityIds,
+      years: item.years,
+      onlyFor: item.onlyFor,
+      moduleIds: item.moduleIds,
+    }))
+    return Promise.resolve({ version: 'demo', items })
+  }
+  return load<AdaptivePoolResponse>('admin:adaptive-pool', '/admin/adaptive/pool', force)
+}
+
+/** The adaptive pool as loading-aware state — Adaptive Setup's whole read. */
+export function useAdaptivePool(): { items: AdaptivePoolItem[]; loading: boolean; error: StateErrorKind | null } {
+  const [state, setState] = useState<{ items: AdaptivePoolItem[]; loading: boolean; error: StateErrorKind | null }>(
+    { items: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdaptivePool()
+      .then((response) => { if (live) setState({ items: response.items, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ items: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  return state
 }
 
 /**

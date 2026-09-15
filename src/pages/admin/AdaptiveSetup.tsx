@@ -34,9 +34,8 @@ import { SettingGroup } from '@/components/admin/adaptive/controls'
 import {
   useAdaptiveBlueprints, useAdaptiveConfig, useConceptLabels, usePublishConfig, useResolvedBlueprint,
 } from '@/lib/adaptive/useAdaptiveConfig'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
-import { adaptiveItemsFrom } from '@/data/adaptive/itemProjection'
-import { itemInScope } from '@/data/adaptive/item'
+import { useAdaptivePool } from '@/lib/content/adminContentClient'
+import { itemInScope, type AdaptivePoolItem } from '@/data/adaptive/item'
 import { EMPTY_HELD_OUT, HELD_OUT_STORAGE_KEY, heldOutIds, type HeldOutRegistry } from '@/data/adaptive/readiness'
 import { draftBlueprint, weightByGroup, type Blueprint } from '@/data/adaptive/blueprint'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
@@ -60,7 +59,7 @@ const TABS = [
  * covered by any block, however heavily the blueprint weights it, and no amount
  * of algorithm tuning will fix that.
  */
-function poolHealth(items: ReturnType<typeof adaptiveItemsFrom>, conceptIds: string[], heldOut: Set<string>) {
+function poolHealth(items: AdaptivePoolItem[], conceptIds: string[], heldOut: Set<string>) {
   const byConcept = new Map<string, { total: number; practice: number }>()
   for (const conceptId of conceptIds) byConcept.set(conceptId, { total: 0, practice: 0 })
 
@@ -85,7 +84,9 @@ export function AdaptiveSetup() {
   const [note, setNote] = useState('')
 
   const [registry, setRegistry] = usePersistentState<HeldOutRegistry>(HELD_OUT_STORAGE_KEY, EMPTY_HELD_OUT)
-  const [catalogue] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  // Only the approved bank's concept ids and scope — projected server-side, never
+  // the 239 MB ledger. Feeds pool health, the held-out reserve and scope counts.
+  const { items: approved } = useAdaptivePool()
   const [blueprints, setBlueprints] = useAdaptiveBlueprints()
   const [universities] = useUniversityCatalogue()
   const labels = useConceptLabels()
@@ -103,9 +104,6 @@ export function AdaptiveSetup() {
   )
   const blueprint = useResolvedBlueprint(scope)
 
-  // Project the whole catalogue once. The projection resolves every item against
-  // the full catalogue, so it must not re-run each time the scope selector changes.
-  const approved = useMemo(() => adaptiveItemsFrom(catalogue), [catalogue])
   const items = useMemo(
     () => (universityId ? approved.filter((item) => itemInScope(item, scope)) : approved),
     [approved, scope, universityId],

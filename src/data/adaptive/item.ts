@@ -60,6 +60,24 @@ export interface AdaptiveItem {
 }
 
 /**
+ * The pool-shape fields the admin console's pool-health, held-out and scope
+ * maths read — and nothing else. The server projects exactly these
+ * (`server/src/adaptivePool.js`), so Adaptive Setup never downloads the 239 MB
+ * ledger just to count concepts. `AdaptiveItem` satisfies it structurally, so
+ * the student runner keeps passing whole items to the same predicates.
+ */
+export interface AdaptivePoolItem {
+  id: string
+  mainConceptIds: string[]
+  secondaryConceptIds: string[]
+  conceptIds: string[]
+  universityIds: string[]
+  years: string[]
+  onlyFor: string[]
+  moduleIds: string[]
+}
+
+/**
  * The role a concept plays for this item.
  *
  * Returns null when the item does not assess the concept at all, so a caller
@@ -110,7 +128,7 @@ export function primaryConcept(item: AdaptiveItem): string | null {
  * allow-list and nothing outside it qualifies.
  */
 export function itemInScope(
-  item: AdaptiveItem,
+  item: AdaptivePoolItem,
   scope: { universityId: string; yearId: string; moduleIds?: string[] },
 ): boolean {
   if (item.onlyFor.length > 0) {

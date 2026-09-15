@@ -17,7 +17,7 @@
  */
 
 import type { AdaptiveConfig } from './config.ts'
-import type { AdaptiveItem } from './item.ts'
+import type { AdaptiveItem, AdaptivePoolItem } from './item.ts'
 import { itemInScope } from './item.ts'
 import type { BlueprintNode } from './blueprint.ts'
 import { mulberry32, seedFrom } from './blockBuilder.ts'
@@ -54,7 +54,7 @@ export const EMPTY_HELD_OUT: HeldOutRegistry = {
  * blueprint node with no practice questions left teaches nobody anything.
  */
 export function isHeldOut(
-  item: AdaptiveItem,
+  item: AdaptivePoolItem,
   registry: HeldOutRegistry,
   poolSizeForItem: number,
   config: AdaptiveConfig,
@@ -73,7 +73,7 @@ export function isHeldOut(
 
 /** Build the held-out set once for a whole catalogue. */
 export function heldOutIds(
-  items: AdaptiveItem[],
+  items: AdaptivePoolItem[],
   registry: HeldOutRegistry,
   config: AdaptiveConfig,
 ): Set<string> {
