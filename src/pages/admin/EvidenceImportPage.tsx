@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react'
 import { ImportWizard } from '@/components/admin/ImportWizard'
 import { Select } from '@/components/ui/Field'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { API_MODE } from '@/lib/api'
+import { usePersistentState, preloadState } from '@/lib/usePersistentState'
 import {
   MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore,
 } from '@/data/medicalEvidence'
@@ -106,10 +107,15 @@ CIT-FND-PLASMA-MEMBRANE-01-LOCAL`,
  * `needs_evidence` — there was nowhere to record the source supporting it.
  */
 export function EvidenceImportPage() {
-  const [store, setStore] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  // Deferred: the 37.5 MB evidence store and 72 MB graph are needed only to
+  // validate references and upsert, not to paint the wizard. Both download in the
+  // background once a file is chosen (`onBegin`). Evidence is not a delta key, so
+  // `setStore` writes it whole — safe because it holds the full loaded store.
+  const [store, setStore, storeStatus] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, { defer: true })
+  const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph, { defer: true })
   const { articles } = useAdminArticleIndex()
   const [kind, setKind] = useState<EvidenceRecordKind>('claim')
+  const ready = !API_MODE || (storeStatus.hydrated && graphStatus.hydrated)
 
   const context = useMemo<EvidenceContext>(() => ({
     store,
@@ -118,6 +124,11 @@ export function EvidenceImportPage() {
   }), [graph, articles, store])
 
   function commit(rows: Array<Record<string, string>>) {
+    // Disabled until both stores load; last guard so a commit never validates
+    // references against, or upserts onto, the empty seed.
+    if (!ready) {
+      return { imported: 0, failed: rows.length, errors: ['The evidence store and concept graph are still loading — wait a moment, then import again.'] }
+    }
     const errors: string[] = []
     // A file may carry claims and the citations that support them together, so
     // references are resolved against the whole file, not row by row.
@@ -190,6 +201,11 @@ export function EvidenceImportPage() {
         </label>
       }
       commit={commit}
+      onBegin={() => {
+        preloadState(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+        preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph)
+      }}
+      ready={ready}
       backTo="/admin/library"
       backLabel="Back to Library Setup"
     />

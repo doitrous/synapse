@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { ImportWizard } from '@/components/admin/ImportWizard'
 import { Select } from '@/components/ui/Field'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { API_MODE } from '@/lib/api'
+import { usePersistentState, preloadState } from '@/lib/usePersistentState'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph, type ConceptRelation } from '@/data/conceptGraph'
 import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '@/data/conceptImport'
 import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
@@ -41,11 +42,21 @@ needs_evidence
 why: both present as exertional chest pain`
 
 export function RelationsImportPage() {
-  const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
-  const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+  // Deferred: the 72 MB graph and 37.5 MB evidence store are needed only to
+  // validate and upsert edges, not to paint the wizard. Both download in the
+  // background once a file is chosen (`onBegin`); the write still diffs against
+  // the full loaded graph, so the delta is per-item safe, never a slice.
+  const [graph, setGraph, graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph, { defer: true })
+  const [evidence, , evidenceStatus] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, { defer: true })
   const [mergeMode, setMergeMode] = useState<'create' | 'update'>('update')
+  const ready = !API_MODE || (graphStatus.hydrated && evidenceStatus.hydrated)
 
   function commit(rows: Array<Record<string, string>>) {
+    // Disabled until both stores load; last guard so a commit never validates or
+    // dedupes against the empty seed.
+    if (!ready) {
+      return { imported: 0, failed: rows.length, errors: ['The concept graph and evidence store are still loading — wait a moment, then import again.'] }
+    }
     const errors: string[] = []
     const byId = new Map(graph.relations.map((relation) => [relation.id, relation]))
     const additions: ConceptRelation[] = []
@@ -108,6 +119,11 @@ export function RelationsImportPage() {
         </label>
       }
       commit={commit}
+      onBegin={() => {
+        preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph)
+        preloadState(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
+      }}
+      ready={ready}
       backTo="/admin/relationships"
       backLabel="Back to relationships"
     />

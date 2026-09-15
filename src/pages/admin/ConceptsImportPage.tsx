@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { ImportWizard } from '@/components/admin/ImportWizard'
 import { Select } from '@/components/ui/Field'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { API_MODE } from '@/lib/api'
+import { usePersistentState, preloadState } from '@/lib/usePersistentState'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import { CONCEPT_IMPORT_FIELDS, conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement } from '@/data/conceptImport'
 import { mapList } from '@/data/importSemantics'
@@ -63,7 +64,12 @@ needs_evidence
 arabicLabel: awaiting reviewed Arabic terminology`
 
 export function ConceptsImportPage() {
-  const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  // Deferred: the 72 MB graph is only needed to upsert (existence check + merge
+  // base), not to paint the wizard, so the page loads instantly and the graph
+  // downloads in the background once a file is chosen (`onBegin`). The write path
+  // is unchanged — `setGraph` still diffs against the full loaded graph, so the
+  // per-item delta is safe by construction, never a slice.
+  const [graph, setGraph, graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph, { defer: true })
   const [taxonomy] = useTaxonomyTree()
   const [mergeMode, setMergeMode] = useState<'create' | 'update'>('update')
 
@@ -85,6 +91,11 @@ export function ConceptsImportPage() {
   }
 
   function commit(rows: Array<Record<string, string>>) {
+    // The button is disabled until the graph is loaded; this is the last guard so
+    // a commit can never compute existence/merge against the empty seed.
+    if (API_MODE && !graphStatus.hydrated) {
+      return { imported: 0, failed: rows.length, errors: ['The concept graph is still loading — wait a moment, then import again.'] }
+    }
     const errors: string[] = []
     const byId = new Map(graph.concepts.map((concept) => [concept.id, concept]))
     const additions: Concept[] = []
@@ -151,6 +162,8 @@ export function ConceptsImportPage() {
         </label>
       }
       commit={commit}
+      onBegin={() => preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph)}
+      ready={!API_MODE || graphStatus.hydrated}
       backTo="/admin/concepts"
       backLabel="Back to concepts"
     />
