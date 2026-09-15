@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { ImportWizard } from '@/components/admin/ImportWizard'
 import { Badge } from '@/components/ui/Badge'
-import { usePersistentState } from '@/lib/usePersistentState'
 import {
   useTaxonomyTree, systemId, topicIdOf, subtopicIdOf, microtopicIdOf, nanotopicIdOf,
   type TaxSysNode,
@@ -10,8 +9,7 @@ import {
   SUBJECTS_IMPORT_FIELDS, applyRow, indexTree, duplicateLabelsIn, referencesTo,
   type StructuralChange,
 } from '@/data/subjectsImport'
-import { useAdminArticleIndex } from '@/lib/content/adminContentClient'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { useAdminArticleIndex, useAdminConceptIndex } from '@/lib/content/adminContentClient'
 
 const MD = `# Item
 ## system
@@ -52,7 +50,9 @@ function describe(change: StructuralChange): string {
 export function SubjectsImportPage() {
   const [tree, setTree] = useTaxonomyTree()
   const { articles: articleIndex } = useAdminArticleIndex()
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  // Only concept placement is read (the reference guard below) — never the 72 MB
+  // graph. The index carries the taxonomy ids and nothing else.
+  const { concepts } = useAdminConceptIndex()
   const [impact, setImpact] = useState<string[]>([])
 
   function commit(rows: Array<Record<string, string>>) {
@@ -80,7 +80,7 @@ export function SubjectsImportPage() {
       disruptive.map((change) => change.nodeId),
       {
         articles: articleIndex,
-        concepts: graph.concepts,
+        concepts,
       },
     )
 

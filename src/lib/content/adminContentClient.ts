@@ -108,6 +108,62 @@ export function fetchAdminArticleIndex(force = false): Promise<AdminArticleIndex
   return load<AdminArticleIndexResponse>('admin:article-index', '/admin/content/article-index', force)
 }
 
+/** One concept's id, label and taxonomy placement — never its prose. Mirrors the server projection. */
+export interface AdminConceptIndexRow {
+  id: string
+  label?: string
+  topicTagId?: string
+  subtopicId?: string
+  microtopicId?: string
+  nanotopicId?: string
+  primaryNodeId?: string
+  secondaryNodeIds: string[]
+}
+export interface AdminConceptIndexResponse { version: string; items: AdminConceptIndexRow[] }
+
+/** The demo build's concept graph: whatever `demoPreview` seeded into localStorage. */
+function demoConcepts(): Array<Record<string, unknown>> {
+  if (typeof localStorage === 'undefined') return []
+  try {
+    const raw = JSON.parse(localStorage.getItem(CONCEPT_STORAGE_KEY) ?? '{}')
+    return Array.isArray(raw?.concepts) ? raw.concepts : []
+  } catch { return [] }
+}
+
+export function fetchAdminConceptIndex(force = false): Promise<AdminConceptIndexResponse> {
+  if (!API_MODE) {
+    const items: AdminConceptIndexRow[] = demoConcepts()
+      .filter((concept) => concept && typeof concept.id === 'string')
+      .map((concept) => ({
+        id: concept.id as string,
+        label: concept.label as string | undefined,
+        topicTagId: concept.topicTagId as string | undefined,
+        subtopicId: concept.subtopicId as string | undefined,
+        microtopicId: concept.microtopicId as string | undefined,
+        nanotopicId: concept.nanotopicId as string | undefined,
+        primaryNodeId: concept.primaryNodeId as string | undefined,
+        secondaryNodeIds: listOf(concept.secondaryNodeIds),
+      }))
+    return Promise.resolve({ version: 'demo', items })
+  }
+  return load<AdminConceptIndexResponse>('admin:concept-index', '/admin/concept/index', force)
+}
+
+/** The concept index (ids + label + taxonomy placement), fetched once on mount. */
+export function useAdminConceptIndex(): { concepts: AdminConceptIndexRow[]; loading: boolean; error: StateErrorKind | null } {
+  const [state, setState] = useState<{ concepts: AdminConceptIndexRow[]; loading: boolean; error: StateErrorKind | null }>(
+    { concepts: [], loading: true, error: null },
+  )
+  useEffect(() => {
+    let live = true
+    fetchAdminConceptIndex()
+      .then((response) => { if (live) setState({ concepts: response.items, loading: false, error: null }) })
+      .catch((error) => { if (live) setState({ concepts: [], loading: false, error: errorKind(error) }) })
+    return () => { live = false }
+  }, [])
+  return state
+}
+
 /** The article index (ids + taxonomy placement), fetched once on mount. */
 export function useAdminArticleIndex(): { articles: AdminArticleIndexRow[]; loading: boolean; error: StateErrorKind | null } {
   const [state, setState] = useState<{ articles: AdminArticleIndexRow[]; loading: boolean; error: StateErrorKind | null }>(

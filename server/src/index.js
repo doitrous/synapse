@@ -36,6 +36,7 @@ import { startQotdReminderScheduler } from './qotdReminders.js'
 import { registerContentRoutes } from './studentContent.js'
 import { registerAdminContentRoutes } from './adminContent.js'
 import { registerAdaptivePoolRoutes } from './adaptivePool.js'
+import { registerAdminConceptRoutes } from './adminConcept.js'
 import { registerPublicRoutes } from './routes/public.js'
 import { registerSeo, store } from './seo.js'
 import { isKnownSpaPath } from './spaRoutes.js'
@@ -179,6 +180,7 @@ registerStateDocumentRoutes(app)
 registerContentRoutes(app)
 registerAdminContentRoutes(app)
 registerAdaptivePoolRoutes(app)
+registerAdminConceptRoutes(app)
 registerContentReportRoutes(app)
 registerMcqValidationRoutes(app)
 registerUserStateRoutes(app)
