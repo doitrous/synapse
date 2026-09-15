@@ -11,10 +11,14 @@ const pick = (obj, keys) => { const out = {}; for (const key of keys) if (obj[ke
 // them; that search now matches title/topic/tags instead).
 const HEAVY_FIELDS = ['Vignette', 'Explanation']
 // The only `questionData` members the list path reads: scope/placement tags and
-// the media requests that gate publish + drive the media filter.
-const QUESTION_DATA_KEEP = ['tags', 'mediaRequests']
-// The `articleData` members the list path reads (scope, modules, gate, requests).
-const ARTICLE_DATA_KEEP = ['universityIds', 'yearIds', 'moduleIds', 'moduleSubjectPaths', 'publicationGate', 'mediaRequests']
+// the media requests that gate publish + drive the media filter. `libraryIds` +
+// `format` are for the curriculum/schedule editors' membership maths, not the
+// list — both are tiny (a short id array, an enum) so they ride in the index.
+const QUESTION_DATA_KEEP = ['tags', 'mediaRequests', 'libraryIds', 'format']
+// The `articleData` members the list path reads (scope, modules, gate, requests),
+// plus the taxonomy placement (`primaryNodeId`/`secondaryNodeIds`) the curriculum
+// editor needs to answer "everything under this topic" — both short scalars.
+const ARTICLE_DATA_KEEP = ['universityIds', 'yearIds', 'moduleIds', 'moduleSubjectPaths', 'publicationGate', 'mediaRequests', 'primaryNodeId', 'secondaryNodeIds']
 
 /**
  * The list projection.

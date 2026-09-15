@@ -11,9 +11,10 @@ import { Icon } from '@/components/ui/Icon'
 import { Toggle } from '@/components/ui/Toggle'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
-import { usePersistentState } from '@/lib/usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { usePersistentState, preloadState } from '@/lib/usePersistentState'
+import { type ManagedContentItem } from '@/data/contentControl'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { fetchAdminContentIndex } from '@/lib/content/adminContentClient'
 import { CourseCurriculumDialog } from '@/components/admin/CourseCurriculumDialog'
 import { COURSE_CURRICULA_STORAGE_KEY, curriculumCount, type CourseCurriculumSelection } from '@/data/courseCurriculum'
 import { ModuleScheduleDialog } from '@/components/admin/ModuleScheduleDialog'
@@ -47,8 +48,13 @@ type ModuleTarget = { course: CurriculumCourse; yearIdx: number; key: string }
 
 export function AcademicSetup() {
   const [unis, setUnis, uniStatus] = useUniversityCatalogue()
-  const [contentItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
-  const [conceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  // The curriculum and schedule editors browse the whole catalogue; the page
+  // itself never does. So the 239 MB ledger is not loaded on mount — it is
+  // fetched list-projected (~77 MB) the first time one of those dialogs opens,
+  // and the 72 MB concept graph is deferred the same way (ControlDashboard's
+  // pattern), pulled on demand rather than blocking first paint.
+  const [contentIndex, setContentIndex] = useState<ManagedContentItem[]>([])
+  const [conceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph, { defer: true })
   const [curricula, setCurricula, curriculaStatus] = usePersistentState<Record<string, CourseCurriculumSelection>>(COURSE_CURRICULA_STORAGE_KEY, {})
   const [schedules, setSchedules, scheduleStatus] = usePersistentState<ModuleScheduleStore>('nishany-module-schedules-v1', {})
   const [subjects, setSubjects, subjectStatus] = usePersistentState<ModuleSubjectStore>(MODULE_SUBJECTS_STORAGE_KEY, {})
@@ -84,6 +90,17 @@ export function AcademicSetup() {
     }
     if (!unis.some((university) => university.id === selectedId)) setSelectedId(unis[0].id)
   }, [selectedId, unis])
+
+  // Load the catalogue only when an editor that needs it opens. The concept
+  // graph is only read by the curriculum editor. Both fetches are cached, so a
+  // second open costs nothing.
+  useEffect(() => {
+    if (!curriculumEditor && !scheduleEditor) return
+    if (curriculumEditor) preloadState(CONCEPT_STORAGE_KEY, initialConceptGraph)
+    let live = true
+    fetchAdminContentIndex().then((res) => { if (live) setContentIndex(res.items) }).catch(() => {})
+    return () => { live = false }
+  }, [curriculumEditor, scheduleEditor])
 
   /**
    * Move the stored documents off year *labels* and onto year *ids*, once.
@@ -602,7 +619,7 @@ export function AcademicSetup() {
           key={curriculumEditor.key}
           course={curriculumEditor.course}
           year={uni.years[curriculumEditor.yearIdx].year}
-          items={contentItems}
+          items={contentIndex}
           graph={conceptGraph}
           value={subjects[curriculumEditor.key] ?? []}
           onClose={() => setCurriculumEditor(null)}
@@ -615,7 +632,7 @@ export function AcademicSetup() {
           module={scheduleEditor.course}
           university={uni.name}
           year={uni.years[scheduleEditor.yearIdx].year}
-          items={contentItems}
+          items={contentIndex}
           curriculum={mergeCurricula(subjects[scheduleEditor.key] ?? [])}
           value={schedules[scheduleEditor.key] ?? []}
           published={isSchedulePublished(schedules, scheduleEditor.key)}
