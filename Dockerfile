@@ -11,7 +11,14 @@ ENV VITE_TURNSTILE_SITE_KEY=$VITE_TURNSTILE_SITE_KEY
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .
-RUN npm run build           # → /web/dist
+# Bundle only — do NOT run `tsc -b` here. The typecheck is a gate, not a build
+# step (tsconfig.app.json is noEmit, so it produces nothing vite needs), and CI
+# (.github/workflows/web.yml) already runs `tsc -b` + `npm run build` on every
+# push to main, which is the ref Coolify deploys. Re-running the ~1.2 GB, 20s+
+# solution typecheck on the deploy host — next to the still-running old
+# container during a rolling deploy — was doubling the build's memory spike and
+# its wall time for no added safety. `build` still type-checks for local dev.
+RUN npm run build:app       # → /web/dist
 
 # Stage 2 — the API server, serving ./public (the built SPA)
 # Debian (glibc) rather than Alpine: mediasoup ships a prebuilt worker binary
