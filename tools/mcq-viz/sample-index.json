@@ -1,0 +1,131 @@
+{
+  "university": "Kasr Alainy",
+  "generatedAt": "2026-09-06T00:00:00Z",
+  "totals": { "mcqs": 3, "held": 1, "sources": 2, "sourcesResolved": 2 },
+  "tree": [
+    {
+      "name": "207 END", "type": "folder", "mcqCount": 3,
+      "children": [
+        { "name": "EOM", "type": "folder", "mcqCount": 3, "children": [
+          { "name": "EOM - End of END - 207 2023 195 With Answers.pdf", "type": "source", "srcId": "src_bb589c39762100585461", "mcqCount": 2 },
+          { "name": "EOM - END-207 2024 ANS.pdf", "type": "source", "srcId": "src_2d00db5decd243a861ea", "mcqCount": 1 }
+        ]}
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "srcId": "src_bb589c39762100585461",
+      "title": "EOM - End of END - 207 2023 195 With Answers",
+      "module": "207 END",
+      "sourceRelativePath": "207 END/EOM/EOM - End of END - 207 2023 195 With Answers.pdf",
+      "pdfUrl": "Desktop/Universities/Kasr%20Alainy/y2/207%20END/EOM/EOM%20-%20End%20of%20END%20-%20207%202023%20195%20With%20Answers.pdf",
+      "pdfFound": true,
+      "sha256": "bb589c397621005854617e35a4007a8a6333d18871c18607d1fb19a6b9a9a202",
+      "pageCount": 19,
+      "institution": "Kasr Al Ainy Faculty of Medicine, Cairo University",
+      "collection": "kau-y2",
+      "mcqCount": 2,
+      "heldCount": 1,
+      "pageHistogram": { "2": 2 }
+    },
+    {
+      "srcId": "src_2d00db5decd243a861ea",
+      "title": "EOM - END-207 2024 ANS",
+      "module": "207 END",
+      "sourceRelativePath": "207 END/EOM/EOM - END-207 2024 ANS.pdf",
+      "pdfUrl": "Desktop/Universities/Kasr%20Alainy/y2/207%20END/EOM/EOM%20-%20END-207%202024%20ANS.pdf",
+      "pdfFound": true,
+      "sha256": "2d00db5decd243a861ea82701e8208db547c5ed5a3b841fced9128792b189832",
+      "pageCount": 11,
+      "institution": "Kasr Al Ainy Faculty of Medicine, Cairo University",
+      "collection": "kau-y2",
+      "mcqCount": 1,
+      "heldCount": 0,
+      "pageHistogram": { "unknown": 1 }
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "QST-KASR207END-2023EOM-003",
+      "key": "q03",
+      "srcId": "src_bb589c39762100585461",
+      "module": "207 END",
+      "cluster": "2023eom",
+      "page": 2,
+      "pageRaw": "Q3",
+      "pageSource": "field_notes",
+      "title": "Characteristic feature of the pars nervosa",
+      "question": "The following is a characteristic feature of pars nervosa:",
+      "options": {
+        "A": "It is formed of groups of nerve cells separated by fenestrated capillaries.",
+        "B": "It has accumulated neurosecretion called Herring bodies.",
+        "C": "It is formed of follicles of basophilic cells with granular cytoplasm.",
+        "D": "It has an upward extension known as the pars tuberalis."
+      },
+      "correct": "B",
+      "explanations": {
+        "A": "Incorrect. The pars nervosa contains few or no nerve cell bodies.",
+        "B": "Correct. The pars nervosa stores hypothalamic hormones; dilated axon terminals packed with neurosecretory granules are visible as Herring bodies. They store oxytocin or ADH bound to neurophysin.",
+        "C": "Incorrect. Follicles of basophilic cells describe glandular adenohypophyseal tissue.",
+        "D": "Incorrect. The pars tuberalis is an extension of the pars distalis."
+      },
+      "concept": "CON-END-2889B7789A466E",
+      "topic": "Histology",
+      "subtopic": "Pituitary gland",
+      "difficulty": "Moderate",
+      "sourceCitation": "Kasr Al Ainy 207 END End-of-Module 2023 (solved), p.2",
+      "fieldNotes": { "keySource": "printed answer table p.19 (Q3=b)", "kasr": "2023 EOM 195, p.2" },
+      "stem": "the following is a characteristic feature of pars nervosa"
+    },
+    {
+      "id": "QST-KASR207END-2023EOM-007",
+      "key": "q07",
+      "srcId": "src_bb589c39762100585461",
+      "module": "207 END",
+      "cluster": "2023eom",
+      "page": 2,
+      "pageRaw": "Q7",
+      "pageSource": "field_notes",
+      "title": "Stain that identifies mammotrophs",
+      "question": "Mammotrophs could be identified by the following stain:",
+      "options": { "A": "Silver.", "B": "Orcein.", "C": "Orange G.", "D": "Carmine." },
+      "correct": "D",
+      "explanations": {
+        "A": "Incorrect. Silver stains demonstrate reticular fibres.",
+        "B": "Incorrect. Orcein is an elastic-fibre stain.",
+        "C": "Incorrect. Orange G stains somatotrophs.",
+        "D": "Correct. Mammotrophs are the prolactin-secreting acidophils demonstrated with carmine, which distinguishes them from orange-G-positive somatotrophs. Their number increases during pregnancy and lactation."
+      },
+      "concept": "CON-END-AAAA1111BBBB22",
+      "topic": "Histology",
+      "subtopic": "Pituitary gland",
+      "difficulty": "Moderate",
+      "sourceCitation": "Kasr Al Ainy 207 END End-of-Module 2023 (solved), p.2",
+      "fieldNotes": { "keySource": "printed answer table p.19 (Q7=d)", "kasr": "2023 EOM 195, p.2" },
+      "stem": "mammotrophs could be identified by the following stain"
+    },
+    {
+      "id": "QST-KASR207END-2024EOM-001",
+      "key": "q01",
+      "srcId": "src_2d00db5decd243a861ea",
+      "module": "207 END",
+      "cluster": "2024eom",
+      "page": null,
+      "pageRaw": "Q1",
+      "pageSource": "unknown",
+      "title": "Scanned-source example (no native text layer)",
+      "question": "This item comes from a scanned PDF; the viewer should still render the page but cannot draw a text highlight.",
+      "options": { "A": "A", "B": "B", "C": "C", "D": "D" },
+      "correct": "A",
+      "explanations": { "A": "Correct.", "B": "No.", "C": "No.", "D": "No." },
+      "concept": "CON-END-CCCC3333DDDD44",
+      "topic": "Histology",
+      "subtopic": "Adrenal gland",
+      "difficulty": "Moderate",
+      "sourceCitation": "Kasr Al Ainy 207 END EOM 2024 (solved)",
+      "fieldNotes": { "keySource": "red circle over option, OCR'd" },
+      "stem": "this item comes from a scanned pdf"
+    }
+  ]
+}
