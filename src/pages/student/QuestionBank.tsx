@@ -140,6 +140,19 @@ export function QuestionBank() {
   const [count, setCount] = useState(5)
 
   const [session, setSession] = useState<Question[]>([])
+  /**
+   * A start whose questions are still being built.
+   *
+   * The first sitting in a subject waits on `useScopedPublishedQuestions` to
+   * fetch and build the heavy options/explanations — a second or two on a cold
+   * subject. Rather than leave the student on the hub staring at a Start button
+   * that has visibly done nothing, the runner opens *now*, on a shape of the
+   * test with the first stem already legible (summaries carry it), and swaps in
+   * the real, answerable questions the moment they land. `preview` is the
+   * lightweight slice picked for the sitting; `phase` stays `'setup'` under this
+   * overlay, so nothing is timed, mirrored to storage or graded until the swap.
+   */
+  const [preparing, setPreparing] = useState<{ preview: Question[]; name?: string } | null>(null)
   const [idx, setIdx] = useState(0)
   // Called unconditionally, ahead of the phase branches below, like every
   // other hook in this component — `session[idx]` is simply undefined outside
@@ -207,9 +220,11 @@ export function QuestionBank() {
   // ran, which is the one screen that needs the width most.
   const { setImmersive } = useImmersion()
   useEffect(() => {
-    setImmersive(phase === 'running' || (phase === 'setup' && mixedRunning))
+    // `preparing` is the running frame opening ahead of its questions, so it
+    // owns the width the same way a live sitting does.
+    setImmersive(phase === 'running' || preparing != null || (phase === 'setup' && mixedRunning))
     return () => setImmersive(false)
-  }, [phase, mixedRunning, setImmersive])
+  }, [phase, preparing, mixedRunning, setImmersive])
   const { record } = useMastery()
   const logAttempt = useRecordAttempt()
   const logAttempts = useRecordAttempts()
@@ -715,12 +730,21 @@ export function QuestionBank() {
    */
   function beginSession(picked: Question[], name?: string) {
     if (!picked.length) return
+    // Open the runner frame *now*, on the lightweight slice, so the start reads
+    // as instant even when the heavy build is a cold fetch away. On a warm
+    // subject `run` below fires synchronously and this overlay never paints;
+    // on a cold one it holds the frame until the swap. `picked` carries the
+    // first stem (summaries do), which is what the frame shows meanwhile.
+    setPreparing({ preview: picked, name })
     // `picked` came off the lightweight `questions` above (or a stored
     // sitting's ids) — never the real thing to hand the runner. `runWhenHydrated`
     // resolves the same ids against the fully-built questions, triggering that
     // build the first time any test starts.
     runWhenHydrated(picked.map((question) => question.id), (real) => {
-      if (!real.length) return
+      // Nothing answerable came back (every picked question unpublished between
+      // the pick and the fetch): drop the frame rather than hold it on a test
+      // that will never fill.
+      if (!real.length) { setPreparing(null); return }
       // Three things hang off one id, and all three are minted here.
       //
       // The name, because callers used to write it against whatever `sessionId`
@@ -760,6 +784,8 @@ export function QuestionBank() {
       questionStartedAt.current = 0
       setVisited(new Set([0]))
       setPhase('running')
+      // The answerable questions are on screen now; the frame has done its job.
+      setPreparing(null)
     })
   }
 
@@ -1101,6 +1127,52 @@ export function QuestionBank() {
         endedAt={mixedEndedAt}
         onDone={() => { setMixedEndedAt(null); mixed.end() }}
       />
+    )
+  }
+
+  /* ---- Preparing (the runner opening ahead of its questions) --------- */
+  if (preparing) {
+    const first = preparing.preview[0]
+    const total = preparing.preview.length
+    return (
+      <PageContainer className="max-w-[820px]">
+        <div className="mb-5 flex items-center justify-between gap-3">
+          <div className="min-w-0">
+            <h1 className="truncate font-serif text-[22px] font-semibold tracking-[-0.01em] text-ink">
+              {preparing.name?.trim() || t('Your test')}
+            </h1>
+            <p className="mt-1 flex items-center gap-2 text-[13px] text-ink-2">
+              <span className="size-2 animate-pulse rounded-full bg-ink-2" aria-hidden />
+              {t('Preparing')} {total} {total === 1 ? t('question') : t('questions')}…
+            </p>
+          </div>
+          {/* The frame can outlive its fetch on a dead connection; Cancel is the
+              way back to the hub rather than a spinner with no exit. */}
+          <Button variant="ghost" size="sm" onClick={() => setPreparing(null)}>{t('Cancel')}</Button>
+        </div>
+        <div className="rounded-xl border border-line bg-surface p-5 shadow-panel sm:p-6">
+          <div className="mb-5 flex flex-wrap gap-1.5">
+            {Array.from({ length: Math.min(total, 20) }).map((_, i) => (
+              <span key={i} className="size-2.5 rounded-full bg-inset" aria-hidden />
+            ))}
+          </div>
+          {/* The first stem is already in hand (summaries carry it), so the
+              student reads the question they are about to sit while the
+              answerable options are still being built below. */}
+          {first?.vignette?.trim() && (
+            <p className="mb-3 text-[14px] leading-relaxed text-ink-2">{first.vignette}</p>
+          )}
+          {first?.stem?.trim()
+            ? <p className="text-[15px] font-medium leading-relaxed text-ink">{first.stem}</p>
+            : <div className="h-4 w-3/4 rounded bg-inset" aria-hidden />}
+          <div className="mt-5 space-y-2.5" aria-hidden>
+            {Array.from({ length: 5 }).map((_, i) => (
+              <div key={i} className="h-11 animate-pulse rounded-lg border border-line bg-inset/60" />
+            ))}
+          </div>
+          <p className="sr-only">{t('Loading the answers…')}</p>
+        </div>
+      </PageContainer>
     )
   }
 

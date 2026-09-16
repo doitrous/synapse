@@ -107,8 +107,13 @@ export function QuestionNavigator({
       </div>
 
       {open && (
-        <div className="border-t border-line px-3 pb-3 pt-2.5">
-          <ol className="flex flex-wrap gap-1.5">
+        // The number grid and the legend share one row: the grid wraps on the
+        // left, the legend is pinned top-right and wraps within its own column.
+        // Parking the key here instead of on a row of its own keeps it off the
+        // page's vertical budget — it costs height only when the grid is a
+        // single row, and then only the height the grid already spends.
+        <div className="flex items-start gap-x-4 gap-y-2.5 border-t border-line px-3 pb-3 pt-2.5">
+          <ol className="flex flex-1 flex-wrap gap-1.5">
             {indexes.map((i) => {
               const state = stateFor(i)
               const here = i === current
@@ -141,15 +146,23 @@ export function QuestionNavigator({
             })}
           </ol>
 
-          <ul className="mt-3 flex flex-wrap items-center gap-x-3.5 gap-y-1.5 border-t border-line pt-2.5">
+          {/* Two swatches per line, three lines at most — a tidy block that
+              reads the same on a phone as on a wide screen. Columns size to
+              their labels (not an even split) so the key stays narrow and the
+              number grid keeps room to wrap. */}
+          <ul className="grid shrink-0 grid-cols-[auto_auto] gap-x-2.5 gap-y-1">
             {(graded ? GRADED_LEGEND : LEGEND).map(({ state, label }) => (
-              <li key={state} className="inline-flex items-center gap-1.5 text-[11px] text-ink-2">
-                <span className={cn('size-2.5 rounded-[3px] border', SWATCH[state])} aria-hidden />
+              <li key={state} className="inline-flex items-center gap-1.5 text-[10.5px] text-ink-2">
+                <span className={cn('size-2 rounded-[3px] border', SWATCH[state])} aria-hidden />
                 {t(label)}
               </li>
             ))}
-            <li className="inline-flex items-center gap-1.5 text-[11px] text-ink-2">
-              <span className="size-2 rounded-full bg-primary" aria-hidden />
+            <li className="col-span-2 inline-flex items-center gap-1.5 text-[10.5px] text-ink-2">
+              {/* Round like the flag badge on the pills, boxed to the swatch
+                  width so the labels stay left-aligned with the squares above. */}
+              <span className="grid size-2 place-items-center" aria-hidden>
+                <span className="size-1.5 rounded-full bg-primary" />
+              </span>
               {t('Marked for review')}
             </li>
           </ul>
