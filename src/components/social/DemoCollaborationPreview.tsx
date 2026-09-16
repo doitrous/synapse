@@ -25,7 +25,7 @@ export function DemoSharedTestsPreview() {
       </Panel>
       <div className="space-y-4">
         <Panel><PanelHeader title={t('Join with a code')} icon={LogIn} /><div className="space-y-3 p-5"><TextInput value="K7PQR2" readOnly className="font-mono tracking-[0.2em]" /><Button className="w-full" variant="secondary" disabled>{t('Join')}</Button></div></Panel>
-        <Panel><PanelHeader title={t('Your shared tests')} icon={Users} hint="1 open" /><div className="flex items-center gap-3 px-4 py-3"><span className="min-w-0 flex-1"><span className="block truncate text-[13.5px] font-medium text-ink">Cardiology evening sprint</span><span className="mt-0.5 block text-[12px] text-ink-3"><span className="font-mono">K7PQR2</span> · 4 people · 10 questions</span></span><Badge tone="primary">Waiting</Badge></div></Panel>
+        <Panel><PanelHeader title={t('Your shared tests')} icon={Users} hint={t('1 open')} /><div className="flex items-center gap-3 px-4 py-3"><span className="min-w-0 flex-1"><span className="block truncate text-[13.5px] font-medium text-ink">Cardiology evening sprint</span><span className="mt-0.5 block text-[12px] text-ink-3"><span className="font-mono">K7PQR2</span> · {t('4 people · 10 questions')}</span></span><Badge tone="primary">{t('Waiting')}</Badge></div></Panel>
       </div>
     </div>
   )
@@ -65,7 +65,7 @@ export function DemoFriendsPreview() {
   const t = useT()
   return (
     <div className="grid grid-cols-1 items-start gap-4">
-      <Panel><PanelHeader title={t('Classmates in your year')} icon={Users} action={<Badge tone="primary" dot>{t('Demo preview')}</Badge>} /><ul className="divide-y divide-line">{[['Nora Hassan', '@neuro-nora'], ['Karim Adel', '@cardio-karim'], ['Hana Samir', '@hema-hana']].map(([name, username]) => <li key={username} className="flex items-center gap-3 px-4 py-3"><Avatar name={name} size="sm" /><span className="min-w-0 flex-1"><span className="block text-[13.5px] font-medium text-ink">{name}</span><span className="text-[12px] text-ink-3">{username} · ASU Year 1</span></span><Button size="sm" variant="secondary" disabled>Add</Button></li>)}</ul></Panel>
+      <Panel><PanelHeader title={t('Classmates in your year')} icon={Users} action={<Badge tone="primary" dot>{t('Demo preview')}</Badge>} /><ul className="divide-y divide-line">{[['Nora Hassan', '@neuro-nora'], ['Karim Adel', '@cardio-karim'], ['Hana Samir', '@hema-hana']].map(([name, username]) => <li key={username} className="flex items-center gap-3 px-4 py-3"><Avatar name={name} size="sm" /><span className="min-w-0 flex-1"><span className="block text-[13.5px] font-medium text-ink">{name}</span><span className="text-[12px] text-ink-3">{username} · ASU Year 1</span></span><Button size="sm" variant="secondary" disabled>{t('Add')}</Button></li>)}</ul></Panel>
       <DiscoverabilityControl/>
     </div>
   )

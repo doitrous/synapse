@@ -288,7 +288,7 @@ function LegacyMaristanas() {
         <Panel className="overflow-hidden">
           <div className="flex min-h-[76px] items-center justify-between gap-4 border-b border-line px-4 py-3 sm:px-5">
             <div className="min-w-0">
-              <RenameHospital hospital={selected} onSave={(name) => rename(selected.slot, name)} />
+              <RenameHospital key={selected.slot} hospital={selected} onSave={(name) => rename(selected.slot, name)} />
               <p className="mt-0.5 text-[11.5px] text-ink-3">{t('Hospital')} {String(selected.slot).padStart(2, '0')} · {selected.completed ? t('Ready to serve') : t('Construction in progress')}</p>
             </div>
             <span className={cn('hidden rounded-md border px-2.5 py-1.5 text-[11px] font-semibold sm:inline-flex', selected.completed ? 'border-success/25 bg-success-tint text-success' : 'border-primary-line bg-primary-tint text-primary-strong')}>

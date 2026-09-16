@@ -430,7 +430,7 @@ export function TermGridBoard({
                     spellCheck={false}
                     maxLength={1}
                     value={value}
-                    disabled={disabled || revealed}
+                    disabled={disabled || revealed || given}
                     aria-label={ariaLabelFor(info)}
                     onFocus={(event) => event.currentTarget.select()}
                     onClick={() => handleCellClick(row, column)}

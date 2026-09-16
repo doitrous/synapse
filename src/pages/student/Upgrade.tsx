@@ -40,7 +40,7 @@ export function Upgrade() {
         <p className="text-[14px] leading-relaxed text-ink-2">{detail}</p>
       </div>
 
-      <ul className="grid w-full gap-2 text-left text-[13.5px] text-ink-2">
+      <ul className="grid w-full gap-2 text-start text-[13.5px] text-ink-2">
         {[
           t('The full question bank with explanations'),
           t('The medical library and adaptive study'),

@@ -19,6 +19,13 @@ export interface BuilderSummaryProps {
    * `matching === 0`, the original behaviour every other caller still gets.
    */
   disabled?: boolean
+  /**
+   * Renders the counter and Start button without their own panel chrome, so
+   * they read as the tail of the section that hosts them rather than a second
+   * card beneath it. The MCQ composer folds the count into the "Session" step
+   * this way; every other caller keeps the standalone card.
+   */
+  embedded?: boolean
 }
 
 /**
@@ -30,7 +37,7 @@ export interface BuilderSummaryProps {
  * bank on a wide screen, a fixed bar above the thumb on a narrow one, so a
  * student never has to scroll back to find out what they just built.
  */
-export function BuilderSummary({ matching, pool, count, summary, onStart, disabled }: BuilderSummaryProps) {
+export function BuilderSummary({ matching, pool, count, summary, onStart, disabled, embedded }: BuilderSummaryProps) {
   const t = useT()
   const serving = Math.min(count, matching)
   const empty = matching === 0
@@ -38,7 +45,15 @@ export function BuilderSummary({ matching, pool, count, summary, onStart, disabl
 
   return (
     <>
-      <div className="rounded-xl border border-mist-line bg-mist p-5 shadow-panel">
+      {/* Embedded: no card of its own — a rule sets it off from the controls
+          above it inside the shared panel. Standalone: its own mist card. */}
+      <div
+        className={
+          embedded
+            ? 'mt-5 border-t border-line pt-5'
+            : 'rounded-xl border border-mist-line bg-mist p-5 shadow-panel'
+        }
+      >
         <p className="text-[14px] font-semibold text-ink">{t('This test')}</p>
         <div className="mt-4 flex items-center gap-4">
           <TargetRing

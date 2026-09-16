@@ -615,6 +615,7 @@ export function Performance() {
   const split = useMemo(() => firstAttemptSplit(records), [records])
   const difficulties = useMemo(() => byDifficulty(records), [records])
   const surfaces = useMemo(() => bySurface(records), [records])
+  const practiceBySubject = useMemo(() => bySubject(records), [records])
   const overall = accuracyOf(records)
   const median = medianSeconds(records)
   const average = averageSecondsPerQuestion(records)
@@ -800,13 +801,16 @@ export function Performance() {
           <Panel>
             <PanelHeader title={t('How much you practise each subject')} icon={Layers} hint={t('Number of tries per subject')} />
             <div className="p-5">
-              <BarList data={bySubject(records).map((row) => ({
-                key: row.key,
-                value: row.attempts,
-                valueLabel: String(row.attempts),
-                color: 'var(--color-primary)',
-                label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{subjectName(row.key)}</span>,
-              }))} />
+              <BarList
+                max={Math.max(1, ...practiceBySubject.map((row) => row.attempts))}
+                data={practiceBySubject.map((row) => ({
+                  key: row.key,
+                  value: row.attempts,
+                  valueLabel: String(row.attempts),
+                  color: 'var(--color-primary)',
+                  label: <span className="inline-flex items-center gap-1.5"><SubjectDot id={row.key} />{subjectName(row.key)}</span>,
+                }))}
+              />
             </div>
           </Panel>
           <WhenYouStudy records={records} />

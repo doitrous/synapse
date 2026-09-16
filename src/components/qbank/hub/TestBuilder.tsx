@@ -263,6 +263,9 @@ export function TestBuilder({
             <TopicChooser value={scope} onChange={setScope} pool={scopePool} countPool={scopeCountPool} />
           </Step>
 
+        </div>
+
+        <div className="min-w-0 space-y-4">
           <Step number={4} label={t('Session')}>
             <div className="space-y-5">
               <div>
@@ -328,11 +331,11 @@ export function TestBuilder({
                 </div>
               </div>
             </div>
+            {/* The count and Start live inside this same step, under a rule, so
+                the student reads one "Session" section and starts from its
+                foot — not a second card that looks like another decision. */}
+            <BuilderSummary embedded matching={matching} pool={pool} count={count} summary={summary} onStart={onStart} />
           </Step>
-        </div>
-
-        <div className="min-w-0 space-y-4">
-          <BuilderSummary matching={matching} pool={pool} count={count} summary={summary} onStart={onStart} />
           {stats}
         </div>
       </div>

@@ -153,7 +153,12 @@ export function ProgressRingStack() {
       label: t('Question bank'),
       pct: bankPct,
       present: bankTotal > 0,
-      detail: `${seen.toLocaleString()} / ${bankTotal.toLocaleString()} ${t('questions')}`,
+      // `seen` can outrun `bankTotal` once the published set shrinks under
+      // questions the student already answered (content unpublished, or their
+      // audience scope narrows) — clamp it here too, the same way `bankPct`
+      // above already does, so the row never reads "142 / 100 questions"
+      // while its own ring shows 100%.
+      detail: `${Math.min(seen, bankTotal).toLocaleString()} / ${bankTotal.toLocaleString()} ${t('questions')}`,
       note: firstAccuracy === null ? null : `${Math.round(firstAccuracy * 100)}% ${t('first attempt')}`,
     },
     {

@@ -77,7 +77,15 @@ function points(buckets: Bucket[]) {
   return buckets.map((bucket, index) => {
     const x = buckets.length === 1 ? 50 : (index / (buckets.length - 1)) * 100
     const value = bucket.accuracy === null ? null : Math.round(bucket.accuracy * 100)
-    return { x, y: value === null ? null : 92 - ((value - 40) / 60) * 82, value, bucket }
+    // The plot is zoomed to the 40–100% band (gridlines only mark 50/75/100),
+    // so the formula below extrapolates past the bottom of the SVG's own
+    // viewBox for anything under it — a struggling student scoring, say, 10%
+    // first-attempt accuracy in a bucket got a y far past the chart's drawable
+    // area, rendering the point (and the line into it) below the panel and
+    // over whatever sits under it on the page. Clamp to the viewBox's usable
+    // floor so a low score pins to the bottom of the chart instead of escaping it.
+    const y = value === null ? null : Math.min(100, 92 - ((value - 40) / 60) * 82)
+    return { x, y, value, bucket }
   })
 }
 
