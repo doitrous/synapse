@@ -11,7 +11,7 @@
  * catch-all all depend on it).
  */
 import { fileURLToPath } from 'node:url'
-import { dirname, join } from 'node:path'
+import { dirname, join, extname } from 'node:path'
 import { existsSync } from 'node:fs'
 import { readFile } from 'node:fs/promises'
 import express from 'express'
@@ -253,6 +253,47 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
       } catch (e) { next(e) }
     })
   }
+
+  /*
+   * Serve the Brotli-precompressed `.br` sibling (emitted at build time by the
+   * precompress-assets Vite plugin) when the client accepts it. Registered
+   * before the static handlers below so hashed assets go out already compressed
+   * at Brotli's maximum quality — smaller and cheaper than re-gzipping every
+   * response at runtime. Requests without `br`, or for files with no `.br`
+   * sibling (e.g. already-compressed woff2/images), fall through to plain static
+   * serving. `compression()` at the top of the stack skips anything that already
+   * carries a Content-Encoding, so it never double-compresses these; it still
+   * gzips dynamic API responses.
+   */
+  const BR_CONTENT_TYPES = {
+    '.js': 'text/javascript; charset=utf-8',
+    '.mjs': 'text/javascript; charset=utf-8',
+    '.css': 'text/css; charset=utf-8',
+    '.html': 'text/html; charset=utf-8',
+    '.svg': 'image/svg+xml',
+    '.json': 'application/json; charset=utf-8',
+    '.webmanifest': 'application/manifest+json',
+  }
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) return next()
+    if (!/\bbr\b/.test(req.headers['accept-encoding'] || '')) return next()
+    const type = BR_CONTENT_TYPES[extname(req.path)]
+    if (!type) return next()
+    // join() normalises away any `..`; the prefix check rejects what escapes PUBLIC_DIR.
+    const target = join(PUBLIC_DIR, req.path)
+    if (!target.startsWith(PUBLIC_DIR)) return next()
+    const brPath = `${target}.br`
+    if (!existsSync(brPath)) return next()
+    res.setHeader('Content-Encoding', 'br')
+    res.setHeader('Content-Type', type)
+    res.setHeader('Vary', 'Accept-Encoding')
+    // Match the cache policy the plain static handlers below would have applied.
+    if (req.path.startsWith('/assets/')) res.setHeader('Cache-Control', 'public, max-age=31536000, immutable')
+    else if (req.path.endsWith('.html')) res.setHeader('Cache-Control', 'no-cache')
+    // send() leaves our Content-Type in place and never sets Content-Encoding,
+    // so it streams the compressed bytes with the headers set above.
+    res.sendFile(brPath, (err) => { if (err) next(err) })
+  })
 
   app.use('/assets', express.static(join(PUBLIC_DIR, 'assets'), { index: false, maxAge: '1y', immutable: true }))
   app.use(express.static(PUBLIC_DIR, {

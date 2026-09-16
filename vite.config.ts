@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 import fs from 'node:fs'
+import zlib from 'node:zlib'
 
 /**
  * Writes dist/sw-assets.json: the hashed build files public/sw.js precaches
@@ -56,6 +57,102 @@ function swAssetManifest(): Plugin {
 }
 
 /**
+ * Injects a `<link rel="preload">` for the font(s) first paint actually uses
+ * into each built entry document, so the browser starts fetching the UI font
+ * while it is still parsing the head instead of only after the entry CSS
+ * resolves. Discovered late (via the entry CSS's @font-face), the UI font
+ * otherwise lands on the critical path behind JS and delays FCP/LCP.
+ *
+ * Only the faces first paint uses are preloaded — preloading a font the first
+ * screen never renders would just contend with the LCP resource for bandwidth:
+ *   - Figtree (Latin) is `--font-sans`, the body/UI font on every screen, so it
+ *     is preloaded on all three entries.
+ *   - IBM Plex Sans Arabic (400) carries the Arabic script that dominates the
+ *     Arabic entry's first paint, so it is preloaded on `ar/index.html` only.
+ * Baloo (logotype only, see src/main.tsx) and Source Serif (headings only) are
+ * deliberately left out. `crossorigin` is required even though the fonts are
+ * same-origin: font fetches are always anonymous-CORS, and without it the
+ * preload misses the cache and the browser downloads the font twice.
+ */
+function preloadFonts(): Plugin {
+  let base = '/'
+  // Fontsource emits `<family>-<subset>-<axis-or-weight>-<style>-<hash>.woff2`
+  // — the same naming the skipPrecache pass above keys on. Match the *base*
+  // Latin subset, not `latin-ext`, and the woff2 (not the .woff fallback).
+  const FIGTREE_LATIN = /(?:^|\/)figtree-latin-wght-normal-[^/]*\.woff2$/
+  const PLEX_ARABIC_400 = /(?:^|\/)ibm-plex-sans-arabic-arabic-400-normal-[^/]*\.woff2$/
+  return {
+    name: 'preload-fonts',
+    configResolved(config) {
+      base = config.base
+    },
+    // transformIndexHtml at the output stage receives the final bundle (so the
+    // hashed font names are known) and lets Vite inject the tags itself — a
+    // generateBundle mutation of the HTML source is overwritten by Vite's own
+    // HTML emission, so the injection has to go through this hook.
+    transformIndexHtml: {
+      order: 'post',
+      handler(_html, ctx) {
+        if (!ctx.bundle) return
+        const findFont = (re: RegExp) => Object.keys(ctx.bundle!).find((name) => re.test(name))
+        const figtree = findFont(FIGTREE_LATIN)
+        const plexArabic = findFont(PLEX_ARABIC_400)
+        const isArabic = ctx.filename.endsWith('ar/index.html') || ctx.path === '/ar/index.html'
+        const fonts = [figtree]
+        if (isArabic) fonts.push(plexArabic)
+        if (!figtree) this.warn(`preload-fonts: Figtree Latin woff2 not found in bundle; ${ctx.path} will not preload the UI font`)
+        if (isArabic && !plexArabic) this.warn('preload-fonts: IBM Plex Sans Arabic 400 woff2 not found in bundle; the Arabic entry will not preload its font')
+        return fonts.filter((f): f is string => Boolean(f)).map((fileName) => ({
+          tag: 'link',
+          attrs: { rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: true, href: `${base}${fileName}` },
+          injectTo: 'head' as const,
+        }))
+      },
+    },
+  }
+}
+
+/**
+ * Emits a Brotli-compressed `.br` sibling next to every compressible text asset
+ * in the build. The server serves these directly (see server/src/index.js)
+ * rather than re-compressing each response at runtime: paying the cost once at
+ * build time, at Brotli's maximum quality, is both cheaper per request and
+ * smaller on the wire than the runtime gzip it replaces for static assets.
+ *
+ * Already-compressed binaries (woff2, images, wasm) are skipped — they do not
+ * shrink, so a `.br` would only cost an extra request. Brotli only, no gzip: the
+ * build target floor (iOS 15.4+ / Chrome 90+) supports Brotli over HTTPS
+ * everywhere, so a gzip sibling would be dead weight.
+ */
+function precompressAssets(): Plugin {
+  const compressible = /\.(?:js|mjs|css|html|svg|json|webmanifest)$/
+  return {
+    name: 'precompress-assets',
+    // writeBundle runs after generateBundle (where the HTML is rewritten) and
+    // after every file is on disk, so the `.br` reflects the final bytes.
+    writeBundle(options, bundle) {
+      const dir = options.dir
+      if (!dir) return
+      for (const [fileName, file] of Object.entries(bundle)) {
+        if (!compressible.test(fileName)) continue
+        const source = file.type === 'chunk' ? file.code : file.source
+        const input = typeof source === 'string' ? Buffer.from(source) : Buffer.from(source as Uint8Array)
+        const compressed = zlib.brotliCompressSync(input, {
+          params: {
+            [zlib.constants.BROTLI_PARAM_QUALITY]: 11,
+            [zlib.constants.BROTLI_PARAM_SIZE_HINT]: input.length,
+          },
+        })
+        // A `.br` no smaller than the original would only cost an extra request
+        // for no saving — skip it and let the server serve the plain file.
+        if (compressed.length >= input.length) continue
+        fs.writeFileSync(path.join(dir, `${fileName}.br`), compressed)
+      }
+    },
+  }
+}
+
+/**
  * Where `node_modules` really lives. A git worktree borrows the main
  * checkout's dependencies through a symlink, and Vite's dev server refuses to
  * serve files (fonts, most visibly) from outside the project root unless the
@@ -75,7 +172,7 @@ export default defineConfig({
   // a build under a path (`VITE_BASE_PATH=/some-preview/`); the router reads
   // the same value back through `import.meta.env.BASE_URL`.
   base: process.env.VITE_BASE_PATH || '/',
-  plugins: [react(), tailwindcss(), swAssetManifest()],
+  plugins: [react(), tailwindcss(), swAssetManifest(), preloadFonts(), precompressAssets()],
   resolve: {
     alias: {
       '@': path.resolve(import.meta.dirname, 'src'),
