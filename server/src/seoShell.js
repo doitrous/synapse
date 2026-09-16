@@ -66,26 +66,33 @@ const POPULAR_SEARCHES = [
   ['/ar/pricing', 'خطط واشتراكات نيشاني'],
 ]
 
-/** Footer's "Popular searches" block plus the Help center / Editorial guidelines trust-page
- *  links (10-internal-linking-menu-footer.md), rendered as plain anchors — no client router
- *  needed to see real href text. Static content, so no escaping is needed. */
+/**
+ * The inner markup for the footer's "Popular searches" block plus the Help center / Editorial
+ * guidelines trust-page links (10-internal-linking-menu-footer.md), rendered as plain anchors —
+ * no client router needed to see real href text. Static content, so no escaping is needed.
+ *
+ * Returns the nav + links only, not a `<footer>` wrapper: callers already have their own footer
+ * element (this module's `shellBodyExtras`, and `seoArticles.js`'s blog templates, both wrap it
+ * themselves) — wrapping it here too would nest a second `<footer>` inside the first.
+ */
 export function footerExtrasHtml(lang) {
   const t = lang === 'ar'
     ? { popular: 'عمليات بحث شائعة', help: 'مركز المساعدة', editorial: 'المبادئ التحريرية' }
     : { popular: 'Popular searches', help: 'Help center', editorial: 'Editorial guidelines' }
   const items = POPULAR_SEARCHES.map(([href, label]) => `<li><a href="${href}">${label}</a></li>`).join('')
-  return `<footer><nav aria-label="${t.popular}"><h2>${t.popular}</h2><ul>${items}</ul></nav>`
-    + `<p><a href="/help">${t.help}</a> · <a href="/editorial-guidelines">${t.editorial}</a></p></footer>`
+  return `<nav aria-label="${t.popular}"><h2>${t.popular}</h2><ul>${items}</ul></nav>`
+    + `<p><a href="/help">${t.help}</a> · <a href="/editorial-guidelines">${t.editorial}</a></p>`
 }
 
 /**
- * The share block (01-site-setup.md §5) plus the footer extras above, as one string ready to
- * splice into the shell's prerendered body via `injectBodyExtras`. `seo` is the same resolved
- * object handed to `injectHead` (see index.js), so the share links always target the page's own
- * canonical URL and title, not the shell's static baked-in copy.
+ * The share block (01-site-setup.md §5) plus the footer extras above, wrapped in its own
+ * `<footer>`, as one string ready to splice into the shell's prerendered body via
+ * `injectBodyExtras`. `seo` is the same resolved object handed to `injectHead` (see index.js), so
+ * the share links always target the page's own canonical URL and title, not the shell's static
+ * baked-in copy.
  */
 export function shellBodyExtras(seo, lang) {
-  return `<div>${shareBlockHtml({ url: seo.canonical, title: seo.title })}</div>${footerExtrasHtml(lang)}`
+  return `<div>${shareBlockHtml({ url: seo.canonical, title: seo.title })}</div><footer>${footerExtrasHtml(lang)}</footer>`
 }
 
 /**
