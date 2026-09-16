@@ -149,6 +149,37 @@ function legalLinks(lang: 'ar' | 'en'): [string, string][] {
   )
 }
 
+/**
+ * The footer's "Popular searches" block (10-internal-linking-menu-footer.md) — the site's real
+ * home → category → item hierarchy (04-supporting-pages.md's "Courses" row), limited to routes
+ * that actually exist and always resolve: `/blog/{lang}` is the category-level index, `/{lang}`
+ * and the pricing page the trunk and the product/plan page. No per-article link: blog posts are
+ * hub-synced (server/src/seoArticles.js) and may not exist yet, so a hardcoded slug here could
+ * 404. Kept in sync by hand with the identical list server-rendered into the `/en`/`/ar` shell by
+ * server/src/seoShell.js — there is no shared package between the client bundle and the API to
+ * import it from.
+ */
+const POPULAR_SEARCHES: [string, string][] = [
+  ['/en', 'Medical exam prep platform for Egyptian medical students'],
+  ['/blog/en', 'Clinical study guides and exam-prep articles'],
+  ['/pricing', 'Nishany study plans and pricing'],
+  ['/ar', 'منصة التحضير لامتحانات كليات الطب المصرية'],
+  ['/blog/ar', 'أدلة المذاكرة السريرية ومقالات التحضير للامتحانات'],
+  ['/ar/pricing', 'خطط واشتراكات نيشاني'],
+]
+
+/**
+ * Help center and Editorial guidelines (01-site-setup.md §2) — like Popular searches above,
+ * rendered as plain `<a>` tags rather than react-router's `Link`: neither `/help` nor
+ * `/editorial-guidelines` is a client route (they are full HTML pages the API renders itself, see
+ * server/src/seo.js and CLAUDE.md's ticket notes), so a `Link` would hand them to the SPA's own
+ * catch-all and show `NotFound` instead of ever reaching the server.
+ */
+const TRUST_PAGE_LINKS: Record<'ar' | 'en', [string, string][]> = {
+  en: [['/help', 'Help center'], ['/editorial-guidelines', 'Editorial guidelines']],
+  ar: [['/help', 'مركز المساعدة'], ['/editorial-guidelines', 'المبادئ التحريرية']],
+}
+
 export function MarketingShell({
   c,
   otherHref,
@@ -298,13 +329,29 @@ export function MarketingShell({
             <p className="max-w-md text-start sm:text-end">{m.footer}</p>
           </div>
 
-          {/* The four documents. One English copy of each serves both shells —
-              the Arabic labels lead to the same pages, which say for themselves
-              that the Arabic translation is still under review. */}
+          {/* Popular searches: real home → category → item links, plain <a> tags rather than
+              `Link` — see the POPULAR_SEARCHES comment above for why. */}
+          <nav
+            aria-label={c.lang === 'ar' ? 'عمليات بحث شائعة' : 'Popular searches'}
+            className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line py-4 text-[12.5px] text-ink-3"
+          >
+            {POPULAR_SEARCHES.map(([href, label]) => (
+              <a key={href} href={href} className="inline-flex min-h-11 items-center font-medium transition-colors hover:text-ink sm:min-h-0">{label}</a>
+            ))}
+          </nav>
+
+          {/* The four legal documents plus Help center and Editorial guidelines. One English
+              copy of each legal document serves both shells — the Arabic labels lead to the same
+              pages, which say for themselves that the Arabic translation is still under review.
+              Help/Editorial use plain <a> tags (see TRUST_PAGE_LINKS above); the rest use `Link`
+              since those paths are real client routes. */}
           <nav
             aria-label={c.lang === 'ar' ? 'روابط قانونية' : 'Legal and support'}
             className="flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line py-4 text-[12.5px] text-ink-3"
           >
+            {TRUST_PAGE_LINKS[c.lang].map(([href, label]) => (
+              <a key={href} href={href} className="inline-flex min-h-11 items-center font-medium transition-colors hover:text-ink sm:min-h-0">{label}</a>
+            ))}
             {legalLinks(c.lang).map(([href, label]) => (
               <Link key={href} to={href} className="inline-flex min-h-11 items-center font-medium transition-colors hover:text-ink sm:min-h-0">{label}</Link>
             ))}

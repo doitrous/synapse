@@ -39,7 +39,7 @@ import { registerAdaptivePoolRoutes } from './adaptivePool.js'
 import { registerAdminConceptRoutes } from './adminConcept.js'
 import { registerPublicRoutes } from './routes/public.js'
 import { registerSeo, store } from './seo.js'
-import { rawTitleOverride, shellHead, withShellFallback } from './seoShell.js'
+import { injectBodyExtras, rawTitleOverride, shellBodyExtras, shellHead, withShellFallback } from './seoShell.js'
 import { isKnownSpaPath } from './spaRoutes.js'
 import { registerAuthRoutes } from './routes/auth.js'
 import { registerAssistantRoutes, registerEssayRoutes } from './routes/assistant.js'
@@ -249,7 +249,12 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
         // override (read straight from the store, bypassing the template) may replace the
         // shell's own baked-in title. See seoShell.js for the exact mechanism.
         const rawTitle = await rawTitleOverride(store, `/${locale}`, locale)
-        res.type('html').send(injectHead(html, withShellFallback(seo, shellHead(html), rawTitle)))
+        const finalSeo = withShellFallback(seo, shellHead(html), rawTitle)
+        // Share block (01-site-setup.md §5) + footer Popular-searches/Help/Editorial links
+        // (10-internal-linking-menu-footer.md), server-rendered into this prerendered shell so
+        // they exist for a crawler that never runs the SPA's own JS. See seoShell.js.
+        const withExtras = injectBodyExtras(html, shellBodyExtras(finalSeo, locale))
+        res.type('html').send(injectHead(withExtras, finalSeo))
       } catch (e) { next(e) }
     })
   }
