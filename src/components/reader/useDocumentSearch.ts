@@ -63,9 +63,17 @@ export function useDocumentSearch(doc: PDFDocumentProxy | null) {
       if (page % PAGES_PER_SLICE === 0 || page === doc.numPages || found.length >= MAX_MATCHES) {
         const truncated = found.length >= MAX_MATCHES
         const matches = truncated ? found.slice(0, MAX_MATCHES) : [...found]
-        setState({
-          query, matches, currentIndex: matches.length ? 0 : -1,
-          scanned: page, total: doc.numPages, running: !truncated && page < doc.numPages, truncated,
+        // A functional update, not a fixed `currentIndex: 0`: the student may
+        // already have stepped forward while this slice was still scanning, and
+        // a fresh batch of matches should not snap them back to the first one.
+        setState((current) => {
+          const currentIndex = matches.length
+            ? Math.min(current.currentIndex >= 0 ? current.currentIndex : 0, matches.length - 1)
+            : -1
+          return {
+            query, matches, currentIndex,
+            scanned: page, total: doc.numPages, running: !truncated && page < doc.numPages, truncated,
+          }
         })
         if (truncated) return
         // Yield, so a long document does not freeze the interface it is in.

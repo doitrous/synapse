@@ -13,6 +13,12 @@ export interface BuilderSummaryProps {
   /** One line naming what has been chosen: the pool, the scope, the mode. */
   summary: string
   onStart: () => void
+  /**
+   * Blocks Start for a reason other than an empty pool — e.g. a mixed sitting
+   * whose banks don't yet add up to the requested length. Defaults to
+   * `matching === 0`, the original behaviour every other caller still gets.
+   */
+  disabled?: boolean
 }
 
 /**
@@ -24,10 +30,11 @@ export interface BuilderSummaryProps {
  * bank on a wide screen, a fixed bar above the thumb on a narrow one, so a
  * student never has to scroll back to find out what they just built.
  */
-export function BuilderSummary({ matching, pool, count, summary, onStart }: BuilderSummaryProps) {
+export function BuilderSummary({ matching, pool, count, summary, onStart, disabled }: BuilderSummaryProps) {
   const t = useT()
   const serving = Math.min(count, matching)
   const empty = matching === 0
+  const blocked = disabled ?? empty
 
   return (
     <>
@@ -56,7 +63,7 @@ export function BuilderSummary({ matching, pool, count, summary, onStart }: Buil
             `inline-flex`, and a `hidden` alongside it is a coin toss on which
             display utility the stylesheet emits last. */}
         <div className="mt-4 hidden lg:block">
-          <Button variant="primary" size="md" iconLeft={Play} onClick={onStart} disabled={empty} className="w-full">
+          <Button variant="primary" size="md" iconLeft={Play} onClick={onStart} disabled={blocked} className="w-full">
             {t('Start test')}
           </Button>
         </div>
@@ -70,7 +77,7 @@ export function BuilderSummary({ matching, pool, count, summary, onStart }: Buil
             <span className="tnum font-mono text-[15px] font-semibold text-ink">{serving}</span>{' '}
             {empty ? t('questions match') : t('questions ready')}
           </p>
-          <Button variant="primary" size="md" iconLeft={Play} onClick={onStart} disabled={empty}>
+          <Button variant="primary" size="md" iconLeft={Play} onClick={onStart} disabled={blocked}>
             {t('Start test')}
           </Button>
         </div>

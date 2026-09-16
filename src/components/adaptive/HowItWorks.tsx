@@ -52,7 +52,14 @@ export function HowItWorks({ study }: { study: AdaptiveStudy }) {
   const rawWrong = rawWrongTotal(study.events)
   const weakConcepts = [...study.states.values()].filter((state) => state.status === 'weak').length
   const lastEvidence = study.events[study.events.length - 1]?.at ?? null
-  const correctAnswers = study.events.filter((event) => event.correct === true).length
+  // One submitted answer produces one evidence event per concept it maps to
+  // (`evidenceLedger.ts`'s `<attemptId>:<conceptId>` id) — `rawWrongTotal`
+  // already collapses that back to distinct attempts via `attemptId`, so this
+  // has to as well, or a question tagged with several concepts would count as
+  // several correct answers here.
+  const correctAnswers = new Set(
+    study.events.filter((event) => event.correct === true).map((event) => event.attemptId),
+  ).size
 
   return (
     <div className="space-y-5">

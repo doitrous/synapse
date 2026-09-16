@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, type Location } from 'react-router-dom'
 import { BookOpen, CheckCircle2, ChevronDown, FileText, Flag, GitFork, Loader, Lock, LogOut, MessageSquareWarning, NotebookPen, Target } from 'lucide-react'
 import { backState } from '@/components/ui/BackBar'
@@ -136,7 +136,12 @@ export function StudyRail({
   const [notes, setNotes, notesStatus] = usePersistentState<Record<string, string>>(QBANK_NOTES_STORAGE_KEY, {})
   // The cue appears once this student has actually typed something. Showing
   // "Saved" against a note nobody has written is noise, not reassurance.
+  // Scoped to the question on screen: this component is reused across a
+  // sitting's questions without remounting, so without resetting here a note
+  // typed on one question left the "Saved" cue showing on the very next one,
+  // even though its own note box was empty.
   const [touched, setTouched] = useState(false)
+  useEffect(() => setTouched(false), [question.id])
   // Collapsed by default: the notepad is optional, and leaving it open pushed
   // the concepts and reading links down out of sight on most screens.
   const [notesOpen, setNotesOpen] = useState(false)

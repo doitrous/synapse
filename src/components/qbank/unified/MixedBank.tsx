@@ -218,9 +218,10 @@ export function MixedBank({
 
         <div className="min-w-0 space-y-4">
           <BuilderSummary
-            matching={balanced ? chosen : 0}
+            matching={chosen}
             pool={Math.max(splitTotal(available), 1)}
-            count={balanced ? chosen : 0}
+            count={chosen}
+            disabled={!balanced || chosen === 0}
             summary={MIXED_KINDS
               .filter((kind) => split[kind] > 0)
               .map((kind) => `${split[kind]} ${labels[kind].toLowerCase()}`)

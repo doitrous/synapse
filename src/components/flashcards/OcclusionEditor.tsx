@@ -170,6 +170,13 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
       const r = clampRect(rectFromPoints(d.startImg.x, d.startImg.y, p.x, p.y), image.width, image.height)
       setDraft({ kind: tool === 'ellipse' ? 'ellipse' : 'rect', ...r })
     } else if (d.kind === 'move') {
+      // Snapshot on the first move only, mirroring the resize handler below: it
+      // must capture the pre-drag position before any mutation, so undo can
+      // restore it. Snapshotting in onPointerUp instead (as this used to) reads
+      // `occluders` after the drag's setOccluders calls have already committed,
+      // pushing the post-drag position onto the undo stack and making Undo a
+      // silent no-op right after a drag.
+      if (!d.didSnapshot) { snapshot(); d.didSnapshot = true }
       const dx = p.x - d.lastImg.x
       const dy = p.y - d.lastImg.y
       setOccluders((cur) => cur.map((o) => (selection.has(o.id) ? { ...o, shape: nudgeShape(o.shape, dx, dy, image.width, image.height) } : o)))
@@ -200,9 +207,9 @@ export function OcclusionEditor({ api, deckId, onDone }: { api: FlashcardsApi; d
   const onPointerUp = () => {
     const d = drag.current
     drag.current = null
-    // A resize is fully committed during onPointerMove (it snapshots on the
-    // first move), so it needs nothing on pointer-up beyond clearing the drag.
-    if (d?.kind === 'move') { snapshot(); return }
+    // A move or resize is fully committed during onPointerMove (each snapshots
+    // on its first move), so neither needs anything on pointer-up beyond
+    // clearing the drag.
     if (d?.kind === 'draw' && draft) {
       const b = shapeBounds(draft)
       if (isDrawable({ x: b.x, y: b.y, w: b.w, h: b.h })) {

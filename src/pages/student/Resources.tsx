@@ -881,7 +881,9 @@ function dedupedMediaBytes({ documents, notes, board }: MediaInventoryInput): nu
   for (const note of notes) {
     if (note.imageData) total += dataUrlBytes(note.imageData)
   }
-  for (const image of imagesOf(board)) total += dataUrlBytes(image.src ?? '')
+  for (const image of imagesOf(board)) {
+    if (!image.documentId || !countedDocumentIds.has(image.documentId)) total += dataUrlBytes(image.src ?? '')
+  }
   for (const file of filesOf(board)) {
     if (file.documentId && !countedDocumentIds.has(file.documentId)) total += file.sizeBytes
   }

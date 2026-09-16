@@ -26,12 +26,32 @@ import { useT } from '@/lib/i18n'
 
 const DAY_NAMES = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
+/**
+ * `YYYY-MM-DD` for a `Date`, read from its local getters.
+ *
+ * Every `date` field in `schedule.ts` and `crashCourse.ts` is documented as a
+ * local calendar day (the same convention `data/flashcards/time.ts`'s
+ * `localDay` uses) — never round-trip one through `toISOString()`, which
+ * reports the UTC calendar day and is a different date from the local one for
+ * part of every day, in either direction, for any timezone offset from UTC.
+ */
+function toDateKey(date: Date): string {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
+}
+
+/** The reverse of `toDateKey`: a `YYYY-MM-DD` key as the local date it names,
+ * not the UTC midnight instant `new Date(key)` would parse it as. */
+function fromDateKey(key: string): Date {
+  const [year, month, day] = key.split('-').map(Number)
+  return new Date(year, month - 1, day)
+}
+
 /** The Monday of the week containing `from`. */
 function weekStart(from = new Date()): string {
   const date = new Date(from)
   const offset = (date.getDay() + 6) % 7
   date.setDate(date.getDate() - offset)
-  return date.toISOString().slice(0, 10)
+  return toDateKey(date)
 }
 
 const TIER_TONE = { minimum: 'primary', recommended: 'neutral', stretch: 'outline' } as const
@@ -73,10 +93,10 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
   const start = useMemo(() => weekStart(), [])
 
   const days: DayCapacity[] = useMemo(() => Array.from({ length: 7 }, (_, index) => {
-    const date = new Date(start)
+    const date = fromDateKey(start)
     date.setDate(date.getDate() + index)
     return {
-      date: date.toISOString().slice(0, 10),
+      date: toDateKey(date),
       statedMinutes: minutesPerDay,
       reservedMinutes: 0,
       unavailable: false,
@@ -175,7 +195,7 @@ export function Plan({ study }: { study: AdaptiveStudy }) {
             <div key={date} className="min-w-0 space-y-2">
               <div className="flex items-baseline justify-between">
                 <p className="text-[12px] font-semibold text-ink">
-                  {t(DAY_NAMES[new Date(date).getDay()])}
+                  {t(DAY_NAMES[fromDateKey(date).getDay()])}
                 </p>
                 <span className="tnum font-mono text-[11px] text-ink-3">
                   {tasks.reduce((sum, task) => sum + task.expectedMinutes, 0)}m

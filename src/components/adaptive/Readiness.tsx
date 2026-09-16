@@ -7,7 +7,7 @@
  * the moment a student learns it can.
  */
 
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { ChevronLeft, ChevronRight, ClipboardCheck, History, Timer, TrendingUp } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -125,7 +125,6 @@ export function Readiness({ study }: { study: AdaptiveStudy }) {
   const t = useT()
   const [results] = useReadinessResults()
   const { session, start, answer, goTo, finish, discard } = useReadinessSession(study)
-  const [shortfall, setShortfall] = useState<number | null>(null)
 
   const itemsById = useMemo(() => new Map(study.items.map((item) => [item.id, item])), [study.items])
 
@@ -231,6 +230,19 @@ export function Readiness({ study }: { study: AdaptiveStudy }) {
           <Caveat>
             {t('Anything you leave blank is recorded as an omission, not as a wrong answer. It is reported separately rather than dragging the range down.')}
           </Caveat>
+
+          {/* The pool couldn't fill a full, balanced assessment. This has to be
+              read from the session itself, not from a value set alongside
+              `start()`: that call also starts the session in the same tick, so a
+              caveat living in the idle view below would never get a render in
+              which to appear. */}
+          {session.items.length < study.config.readiness.assessmentSize && (
+            <Caveat>
+              {t('Only')} <span className="tnum font-mono">{session.items.length}</span> {t('of')}{' '}
+              <span className="tnum font-mono">{study.config.readiness.assessmentSize}</span>{' '}
+              {t('questions could be drawn while keeping the assessment balanced against your blueprint. The result will say which areas are under-represented rather than filling the gap from elsewhere.')}
+            </Caveat>
+          )}
         </div>
       </div>
     )
@@ -338,10 +350,7 @@ export function Readiness({ study }: { study: AdaptiveStudy }) {
               variant="primary"
               iconLeft={ClipboardCheck}
               className="mt-4"
-              onClick={() => {
-                const assembly = start()
-                setShortfall(assembly.items.length)
-              }}
+              onClick={() => start()}
               disabled={study.heldOut.size === 0}
             >
               {t('Start assessment')}
@@ -350,14 +359,6 @@ export function Readiness({ study }: { study: AdaptiveStudy }) {
             {study.heldOut.size === 0 && (
               <Caveat className="mt-3">
                 {t("No questions are reserved for measurement yet, so a readiness assessment cannot be assembled. Reserving items is an administrator's decision — practice accuracy is not offered as a substitute.")}
-              </Caveat>
-            )}
-
-            {shortfall !== null && shortfall < study.config.readiness.assessmentSize && (
-              <Caveat className="mt-3">
-                {t('Only')} <span className="tnum font-mono">{shortfall}</span> {t('of')}{' '}
-                <span className="tnum font-mono">{study.config.readiness.assessmentSize}</span>{' '}
-                {t('questions could be drawn while keeping the assessment balanced against your blueprint. The result will say which areas are under-represented rather than filling the gap from elsewhere.')}
               </Caveat>
             )}
           </div>
