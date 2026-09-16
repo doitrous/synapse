@@ -14,7 +14,7 @@
  */
 
 import type { Difficulty, Question } from '@/data/qbank'
-import { yearScopeMatches } from '../universities.ts'
+import { yearScopeMatches, scopeUniversities } from '../universities.ts'
 
 /**
  * A question plus everything needed to decide whether to ask it.
@@ -135,10 +135,14 @@ export function itemInScope(
     const allowed = new Set(item.onlyFor)
     if (!allowed.has(scope.yearId) && !allowed.has(scope.universityId)) return false
   }
-  if (scope.universityId && item.universityIds.length > 0 && !item.universityIds.includes(scope.universityId)) {
-    return false
-  }
-  if (!yearScopeMatches(item.years, scope.yearId)) return false
+  // University = explicit tags ∪ any a composite year id names, matched
+  // case-insensitively — the same union the server hard gate uses, so a cloned
+  // question tagged for this university but carrying its source university's
+  // composite year id is not dropped here after the server allowed it.
+  const universities = scopeUniversities(item.universityIds, item.years)
+  const universityGated = !!scope.universityId && universities.size > 0
+  if (universityGated && !universities.has(scope.universityId.toLowerCase())) return false
+  if (!yearScopeMatches(item.years, scope.yearId, universityGated)) return false
   if (scope.moduleIds?.length && item.moduleIds.length > 0) {
     const wanted = new Set(scope.moduleIds)
     if (!item.moduleIds.some((id) => wanted.has(id))) return false

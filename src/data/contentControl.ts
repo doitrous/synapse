@@ -1,5 +1,5 @@
 import type { Status } from './admin.ts'
-import { yearScopeMatches } from './universities.ts'
+import { yearScopeMatches, scopeUniversities } from './universities.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
 import type { QuestionSource } from './questionSource.ts'
@@ -819,8 +819,16 @@ export function itemScope(item: ManagedContentItem): { universityIds: string[]; 
 /** True when an item is in scope for the given university and/or year. */
 export function itemInScope(item: ManagedContentItem, universityId?: string, yearId?: string): boolean {
   const scope = itemScope(item)
-  if (universityId && scope.universityIds.length > 0 && !scope.universityIds.includes(universityId)) return false
-  if (!yearScopeMatches(scope.yearIds, yearId)) return false
+  // The university signal is the explicit tag plus any a composite year id names
+  // — the same union the server hard gate uses. Comparing case-insensitively so
+  // a "ASU"-cased tag still matches the lowercased `asu` audience.
+  const universities = scopeUniversities(scope.universityIds, scope.yearIds)
+  const universityGated = !!universityId && universities.size > 0
+  if (universityGated && !universities.has(universityId.toLowerCase())) return false
+  // Once the university is gated, years compare by ordinal (see yearTokensMatch),
+  // so a cloned "KAU_Y1" tag on an ASU question still admits an ASU Year 1
+  // student instead of being dropped by the browser after the server allowed it.
+  if (!yearScopeMatches(scope.yearIds, yearId, universityGated)) return false
   return true
 }
 

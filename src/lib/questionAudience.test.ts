@@ -68,6 +68,36 @@ test('a question allow-listed away from its own university reaches nobody', () =
   assert.equal(questionInAudience(contradictory, 'hu', 'HU_Y3'), false)
 })
 
+test('an ASU question whose year kept a cloned "KAU_Y1" prefix still reaches an ASU Year 1 student', () => {
+  // The anchor bug. A bank cloned into ASU carried its Kasr source's composite
+  // year ids. The question is explicitly tagged for ASU and the server hard gate
+  // (server/src/studentContent.js) passes it, but the browser used to drop it
+  // because two composite year ids only matched when literally identical — the
+  // client re-filter was stricter than the gate it was meant to merely echo.
+  const cloned = question({ universityIds: ['asu'], years: ['KAU_Y1'] })
+  assert.equal(questionInAudience(cloned, 'asu', 'ASU_Y1'), true)
+})
+
+test('a case-mismatched university tag still admits its own student', () => {
+  // Tags authored as the short code ("ASU") must still reach the lowercased
+  // "asu" audience, matching the server, which uppercases both sides.
+  const upper = question({ universityIds: ['ASU'], years: ['ASU_Y1'] })
+  assert.equal(questionInAudience(upper, 'asu', 'ASU_Y1'), true)
+})
+
+test('a composite year from another university, with no university tag, does not leak', () => {
+  // No explicit university tag: the composite year is the only signal, so its
+  // embedded university still isolates it (as the server derives it from the id).
+  const kasrOnly = question({ years: ['KAU_Y1'] })
+  assert.equal(questionInAudience(kasrOnly, 'asu', 'ASU_Y1'), false)
+  assert.equal(questionInAudience(kasrOnly, 'kau', 'KAU_Y1'), true)
+})
+
+test('an explicit university tag still blocks a student named by neither signal', () => {
+  const asuY1 = question({ universityIds: ['asu'], years: ['ASU_Y1'] })
+  assert.equal(questionInAudience(asuY1, 'hu', 'HU_Y1'), false)
+})
+
 test('a blank audience (demo, admin preview, unsettled onboarding) applies no filter', () => {
   assert.equal(questionInAudience(helwanY3, '', ''), true)
   assert.equal(questionInAudience(helwanY3, undefined, undefined), true)

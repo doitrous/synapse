@@ -103,9 +103,50 @@ export function universityYearId(universityShort: string, label: string): string
  * universities. A bare label carries no university, so the separate university
  * tag is what gates it. Empty list means unrestricted, as everywhere else.
  */
-export function yearScopeMatches(itemYears: string[] | undefined, scopeYearId?: string): boolean {
+export function yearScopeMatches(
+  itemYears: string[] | undefined,
+  scopeYearId?: string,
+  universityGated = false,
+): boolean {
   if (!scopeYearId || !itemYears || itemYears.length === 0) return true
-  return itemYears.some((token) => yearTokensMatch(token, scopeYearId))
+  return itemYears.some((token) => yearTokensMatch(token, scopeYearId, universityGated))
+}
+
+/**
+ * The university a composite year id like "KAU_Y1"/"OMS_INT2" names, lowercased
+ * to match how the client stores university ids, or null for a bare label.
+ *
+ * The server hard gate (`server/src/contentScope.js`) reads the university out
+ * of a composite year the same way, so a question whose only university signal
+ * is its year id is gated identically on both sides.
+ */
+export function universityOfYear(token: string | undefined): string | null {
+  const match = String(token ?? '').trim().match(/^([A-Za-z]+)_(?:Y|INT)\d+$/i)
+  return match ? match[1].toLowerCase() : null
+}
+
+/**
+ * Every university an item belongs to: its explicit `universityIds` plus any a
+ * composite year id names, all lowercased.
+ *
+ * This mirrors `itemUniversities` in the server hard gate: an item cloned into a
+ * new university keeps its source university's composite year ids, and both
+ * universities legitimately own it. The client used to fold that isolation into
+ * the *year* compare (two composites had to match literally), which made the
+ * browser stricter than the server and silently dropped questions the server
+ * had already approved.
+ */
+export function scopeUniversities(
+  universityIds: string[] | undefined,
+  yearIds: string[] | undefined,
+): Set<string> {
+  const set = new Set<string>()
+  for (const id of universityIds ?? []) if (id) set.add(String(id).toLowerCase())
+  for (const year of yearIds ?? []) {
+    const uni = universityOfYear(year)
+    if (uni) set.add(uni)
+  }
+  return set
 }
 
 function yearOrdinal(token: string): string | null {
@@ -125,9 +166,16 @@ function isCompositeYear(token: string): boolean {
   return /_(?:Y|INT)\d+$/i.test(token.trim())
 }
 
-function yearTokensMatch(itemYear: string, scopeYearId: string): boolean {
+function yearTokensMatch(itemYear: string, scopeYearId: string, universityGated = false): boolean {
   if (itemYear === scopeYearId) return true
-  if (isCompositeYear(itemYear) && isCompositeYear(scopeYearId)) return false
+  // Two composite ids normally must match literally: a composite names its
+  // university, and matching them by ordinal alone would leak content across
+  // universities. When the caller has *already* gated the university (an
+  // explicit tag or a year id's own prefix put the student's university in
+  // scope), that isolation is done, so the year need only agree on the ordinal —
+  // this is what lets an "ASU"-tagged question whose year kept a cloned "KAU_Y1"
+  // prefix reach an ASU Year 1 student, matching the server hard gate.
+  if (!universityGated && isCompositeYear(itemYear) && isCompositeYear(scopeYearId)) return false
   const a = yearOrdinal(itemYear)
   return a !== null && a === yearOrdinal(scopeYearId)
 }
@@ -342,26 +390,3 @@ export function getUniversity(id: string): University | undefined {
 }
 
 export const YEARS = ['Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5', 'Internship Year 1', 'Internship Year 2']
-
-/* ---- Content scoping ---------------------------------------------------- */
-
-/**
- * Which universities and years a piece of content applies to.
- *
- * Read from what the author recorded on the item, with an empty list meaning
- * "everyone". This replaced two functions that invented the answer:
- * `scopeUniversities` hashed the item's id and used `h % 2` and `h % 3` to
- * decide which universities it belonged to, and `scopeYear` mapped a subject to
- * a year from an eight-entry table. Both produced confident, real-looking chips
- * on the student's screen that described nothing.
- */
-export interface AuthoredScope {
-  universityIds?: string[]
-  yearIds?: string[]
-}
-
-export function scopeMatches(scope: AuthoredScope | undefined, universityId?: string, yearId?: string): boolean {
-  if (universityId && (scope?.universityIds?.length ?? 0) > 0 && !scope!.universityIds!.includes(universityId)) return false
-  if (!yearScopeMatches(scope?.yearIds, yearId)) return false
-  return true
-}
