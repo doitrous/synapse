@@ -1,12 +1,22 @@
+import { shareBlockHtml } from '@omary98/seo-runtime-core'
+import { footerExtrasHtml } from './seoShell.js'
+
 export const SUPPORTED = ['en', 'ar']
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
 
 const T = { en: { blog: 'Blog', home: 'Nishany', by: 'By', faq: 'Frequently asked questions', more: 'Read more', references: 'References' }, ar: { blog: 'المدونة', home: 'نيشاني', by: 'بقلم', faq: 'الأسئلة الشائعة', more: 'اقرأ المزيد', references: 'المراجع' } }
-const shell = (lang, head, body) => `<!doctype html>
+// `shareHtml` is page-specific (each caller knows its own canonical/title), so it's built by
+// articlePage/indexPage and passed in rather than computed here. The footer already exists on
+// every blog page (unlike the /en /ar shell, which has none — see seoShell.js's
+// `shellBodyExtras`), so `footerExtrasHtml` is appended inside it rather than in its own element:
+// 01-site-setup.md §5 requires the share block on every content page, blog posts included, and
+// 10-internal-linking-menu-footer.md requires the Popular-searches/Help/Editorial links in the
+// footer that appears on every page — not only the ones the seo-runtime package renders itself.
+const shell = (lang, head, body, shareHtml) => `<!doctype html>
 <html lang="${lang}" dir="${lang === 'ar' ? 'rtl' : 'ltr'}">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">${head}
 <style>body{margin:0;font-family:${lang === 'ar' ? "'IBM Plex Sans Arabic',system-ui" : 'Figtree,system-ui'},sans-serif;color:#1c1c1e;background:#fff}header,main,footer{max-width:760px;margin:0 auto;padding:1.5rem 1.25rem}header a{color:#0b5fff;text-decoration:none;font-weight:600}h1{font-size:2rem;line-height:1.2}article img{max-width:100%;border-radius:12px}article p,article li{line-height:1.8}article h2{margin-top:2rem}.meta{color:#666;font-size:.9rem}.card{padding:1rem 0;border-bottom:1px solid #eee}footer{color:#666;font-size:.85rem}</style></head>
-<body><header><a href="/${lang}">${T[lang].home}</a> · <a href="/blog/${lang}">${T[lang].blog}</a></header><main>${body}</main><footer>© Nishany</footer></body></html>`
+<body><header><a href="/${lang}">${T[lang].home}</a> · <a href="/blog/${lang}">${T[lang].blog}</a></header><main>${body}</main>${shareHtml}<footer>© Nishany ${footerExtrasHtml(lang)}</footer></body></html>`
 
 export function articlePage(row, siblings, origin) {
   // slug is hub-supplied; escaped here like every other user-derived string
@@ -25,7 +35,11 @@ export function articlePage(row, siblings, origin) {
   const head = `<title>${esc(row.meta_title || row.title)}</title><meta name="description" content="${esc(row.meta_description)}"><link rel="canonical" href="${url}">${alternates}<meta property="og:title" content="${esc(row.og_title || row.title)}"><meta property="og:description" content="${esc(row.og_description || row.meta_description)}">${row.image_url ? `<meta property="og:image" content="${esc(row.image_url)}">` : ''}${ld}`
   const byline = row.author_name ? `<p class="meta">${t.by} ${esc(row.author_name)}${row.author_credentials ? ', ' + esc(row.author_credentials) : ''}${row.published_at ? ' · ' + new Date(row.published_at).toISOString().slice(0, 10) : ''}</p>` : ''
   const img = row.image_url ? `<img src="${esc(row.image_url)}" alt="${esc(row.image_alt || row.title)}">` : ''
-  return shell(row.lang, head, `<article><h1>${esc(row.title)}</h1>${byline}${img}${row.body_html}${faq}${refs}</article>`)
+  // Raw `url`/`row.title`, not the `esc()`-escaped values used in the head/body above:
+  // shareBlockHtml does its own escaping (xmlEscape for the data-* attributes, encodeURIComponent
+  // for the share links), so feeding it already-HTML-escaped text would double-escape it.
+  const shareHtml = shareBlockHtml({ url, title: row.title })
+  return shell(row.lang, head, `<article><h1>${esc(row.title)}</h1>${byline}${img}${row.body_html}${faq}${refs}</article>`, shareHtml)
 }
 export function indexPage(lang, rows, origin) {
   const t = T[lang]
@@ -36,5 +50,6 @@ export function indexPage(lang, rows, origin) {
     const img = r.image_url ? `<img src="${esc(r.image_url)}" alt="${esc(r.image_alt || r.title)}" loading="lazy">` : ''
     return `<div class="card">${img}<h2><a href="/blog/${lang}/${esc(r.slug)}">${esc(r.title)}</a></h2><p>${esc(r.meta_description)}</p><p class="meta">${r.published_at ? new Date(r.published_at).toISOString().slice(0, 10) : ''}</p></div>`
   }).join('')
-  return shell(lang, head, `<h1>${t.blog}</h1>${cards}`)
+  const shareHtml = shareBlockHtml({ url: `${origin}/blog/${lang}`, title: t.blog })
+  return shell(lang, head, `<h1>${t.blog}</h1>${cards}`, shareHtml)
 }

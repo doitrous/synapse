@@ -1,9 +1,12 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { rawTitleOverride, shellHead, withShellFallback } from './seoShell.js'
+import { footerExtrasHtml, injectBodyExtras, rawTitleOverride, shellBodyExtras, shellHead, withShellFallback } from './seoShell.js'
 
 const SHELL_HTML = '<html><head><title>Nishany — Medical Education</title>' +
   '<meta name="description" content="Nishany own description"></head><body></body></html>'
+
+const ROOT_SHELL_HTML = '<html><head></head><body><div id="root"><main><h1>x</h1></main></div>'
+  + '<script type="module" src="/src/main.tsx"></script></body></html>'
 
 // Regression case: a hub page synced with an empty/whitespace-only seoTitle must NOT replace the
 // shell's own <title> with composeSeo's templated fallback (page.title, or organization.name).
@@ -45,4 +48,47 @@ test('withShellFallback keeps the shell description when composeSeo resolved non
   const shell = shellHead(SHELL_HTML)
   assert.equal(withShellFallback({ title: 'x', description: '' }, shell, null).description, 'Nishany own description')
   assert.equal(withShellFallback({ title: 'x', description: 'Hub description' }, shell, null).description, 'Hub description')
+})
+
+// footerExtrasHtml: the footer's Popular searches + Help center + Editorial guidelines links must
+// be real, always-resolving routes — never an invented course/category URL (see the comment above
+// POPULAR_SEARCHES) — and the Help/Editorial links must always be present regardless of language.
+test('footerExtrasHtml links only to real routes and always carries Help/Editorial', () => {
+  for (const lang of ['en', 'ar']) {
+    const html = footerExtrasHtml(lang)
+    assert.match(html, /href="\/en"/)
+    assert.match(html, /href="\/ar"/)
+    assert.match(html, /href="\/blog\/en"/)
+    assert.match(html, /href="\/blog\/ar"/)
+    assert.match(html, /href="\/pricing"/)
+    assert.match(html, /href="\/ar\/pricing"/)
+    assert.match(html, /href="\/help"/)
+    assert.match(html, /href="\/editorial-guidelines"/)
+  }
+})
+
+test('footerExtrasHtml localizes its headings for Arabic', () => {
+  assert.match(footerExtrasHtml('ar'), /مركز المساعدة/)
+  assert.match(footerExtrasHtml('en'), />Help center</)
+})
+
+// shellBodyExtras: the share block must point at the page's own resolved canonical/title, not the
+// shell's static baked-in copy — that is the whole point of computing it per-request.
+test('shellBodyExtras builds a share block from the resolved canonical and title', () => {
+  const html = shellBodyExtras({ canonical: 'https://nishany.com/ar', title: 'نيشاني' }, 'ar')
+  assert.match(html, /data-url="https:\/\/nishany\.com\/ar"/)
+  assert.match(html, /data-title="نيشاني"/)
+  assert.match(html, /<footer>/)
+})
+
+// injectBodyExtras: splices right after </main> and before the #root-closing </div>, matching the
+// real en/index.html and ar/index.html shells, and never throws on a document that lacks that pair.
+test('injectBodyExtras splices extras between </main> and the closing #root </div>', () => {
+  const result = injectBodyExtras(ROOT_SHELL_HTML, '<footer>EXTRA</footer>')
+  assert.match(result, /<\/main><footer>EXTRA<\/footer><\/div>/)
+})
+
+test('injectBodyExtras returns the document unchanged when there is no </main></div> pair', () => {
+  const html = '<html><body><p>no main here</p></body></html>'
+  assert.equal(injectBodyExtras(html, '<footer>EXTRA</footer>'), html)
 })

@@ -77,3 +77,44 @@ test('articlePage falls back to the title and meta description when og is absent
   assert.ok(html.includes('<meta property="og:description" content="md">'))
   assert.equal(html.includes('References'), false)
 })
+
+// 01-site-setup.md §5: every content page carries the share block — blog posts included, even
+// though they're this site's own template rather than one the seo-runtime package renders itself.
+test('articlePage carries a share block pointed at its own canonical URL and title', () => {
+  const html = articlePage(baseRow, [{ lang: 'en', slug: baseRow.slug }], 'https://nishany.com')
+  assert.ok(html.includes('data-url="https://nishany.com/blog/en/anatomy-study-plan"'))
+  assert.ok(html.includes('data-title="Study plan for anatomy"'))
+  assert.ok(html.includes('wa.me'))
+  assert.ok(html.includes('twitter.com/intent/tweet'))
+  assert.ok(html.includes('facebook.com/sharer'))
+  assert.ok(html.includes('linkedin.com/sharing'))
+  assert.ok(html.includes('data-share-copy='))
+})
+
+test('indexPage carries a share block pointed at the blog index URL', () => {
+  const html = indexPage('ar', [], 'https://nishany.com')
+  assert.ok(html.includes('data-url="https://nishany.com/blog/ar"'))
+  assert.ok(html.includes('data-title="المدونة"'))
+})
+
+// 10-internal-linking-menu-footer.md: the footer that appears on every page (blog posts included)
+// carries Popular searches plus Help center / Editorial guidelines — same links seoShell.js
+// server-renders into the /en and /ar shell, reused here via footerExtrasHtml.
+test('articlePage and indexPage footers carry Popular searches, Help center and Editorial guidelines', () => {
+  const articleHtml = articlePage(baseRow, [{ lang: 'en', slug: baseRow.slug }], 'https://nishany.com')
+  const indexHtml = indexPage('en', [baseRow], 'https://nishany.com')
+  for (const html of [articleHtml, indexHtml]) {
+    assert.ok(html.includes('>Popular searches<'))
+    assert.ok(html.includes('href="/help">Help center<'))
+    assert.ok(html.includes('href="/editorial-guidelines">Editorial guidelines<'))
+    assert.ok(html.includes('href="/blog/en">'))
+    assert.ok(html.includes('href="/pricing">'))
+  }
+})
+
+test('articlePage and indexPage footers localize Popular searches/Help/Editorial for Arabic', () => {
+  const html = indexPage('ar', [], 'https://nishany.com')
+  assert.ok(html.includes('عمليات بحث شائعة'))
+  assert.ok(html.includes('مركز المساعدة'))
+  assert.ok(html.includes('المبادئ التحريرية'))
+})
