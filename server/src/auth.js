@@ -167,13 +167,37 @@ export function csrfOk(req, origins = portalOrigins()) {
  */
 const refreshing = new Map() // session id -> Promise<session|null>
 
+/**
+ * Whether a failed refresh means the session is genuinely dead (destroy it) or
+ * just that GoTrue was momentarily unreachable (keep it — the next request
+ * retries once the service is back). Only an explicit rejection of the refresh
+ * token — a 4xx from GoTrue — is fatal. A network blip, a 5xx, a rate-limit, or
+ * a "not configured" answer must NOT sign a student out: `withFreshToken` fires
+ * roughly hourly on every active session, so treating a transient outage as
+ * fatal would log valid 30-day sessions out at random.
+ */
+export function refreshFailureIsFatal(error) {
+  if (!error) return false
+  const status = Number(error.status)
+  if (error.code === 'auth_unreachable' || error.code === 'auth_not_configured') return false
+  if (Number.isFinite(status) && status >= 500) return false
+  if (status === 429) return false
+  return true
+}
+
 async function withFreshToken(session) {
   if (session.accessExpiresAt.getTime() - Date.now() > 60_000) return session
   let inflight = refreshing.get(session.id)
   if (!inflight) {
     inflight = (async () => {
       const { data, error } = await refreshGrant(session.refreshToken)
-      if (error || !data?.access_token) return null
+      if (!data?.access_token) {
+        // Destroy only on a definitive rejection; otherwise keep the session
+        // (with its still-current tokens) so a transient GoTrue outage does not
+        // sign the student out. The individual request may fail identity
+        // resolution below, but the session survives to retry.
+        return refreshFailureIsFatal(error) ? null : session
+      }
       const next = {
         ...session,
         accessToken: data.access_token,
