@@ -103,8 +103,62 @@ function stampServerAt(attempts: Pending[], serverAt: number): void {
   }
 }
 
-// Retry the backlog when the app boots and whenever connectivity returns.
+// ---- Session retraction (deleting a sitting) ---------------------------------
+// Deleting a sitting locally must also retract it from the server ledger, or
+// leaderboards/analytics keep the "deleted" answers forever. Queued and retried
+// like sends, so a failed delete isn't silent server drift; the endpoint is
+// idempotent and user-scoped.
+
+const DELETE_QUEUE_KEY = 'nishany-qbank-delete-queue-v1'
+
+function loadDeleteQueue(): string[] {
+  try {
+    const raw = localStorage.getItem(DELETE_QUEUE_KEY)
+    const parsed = raw ? JSON.parse(raw) : []
+    return Array.isArray(parsed) ? parsed : []
+  } catch { return [] }
+}
+
+function saveDeleteQueue(ids: string[]): void {
+  try {
+    if (ids.length) localStorage.setItem(DELETE_QUEUE_KEY, JSON.stringify(ids))
+    else localStorage.removeItem(DELETE_QUEUE_KEY)
+  } catch { /* private browsing */ }
+}
+
+let deleting = false
+
+/** Retract a sitting server-side, durably. */
+export function queueSessionDeletion(sessionId: string): void {
+  if (!API_MODE || typeof window === 'undefined' || !sessionId) return
+  const queue = loadDeleteQueue()
+  if (!queue.includes(sessionId)) queue.push(sessionId)
+  saveDeleteQueue(queue)
+  void flushSessionDeletions()
+}
+
+export async function flushSessionDeletions(): Promise<void> {
+  if (!API_MODE || typeof window === 'undefined' || deleting) return
+  const pending = loadDeleteQueue()
+  if (!pending.length) return
+  deleting = true
+  try {
+    for (const sessionId of pending) {
+      try {
+        await apiPost('/qbank/attempts/delete', { sessionId })
+      } catch {
+        return // keep this and the rest; retried on next reconnect/boot
+      }
+      saveDeleteQueue(loadDeleteQueue().filter((id) => id !== sessionId))
+    }
+  } finally {
+    deleting = false
+  }
+}
+
+// Retry both backlogs when the app boots and whenever connectivity returns.
 if (API_MODE && typeof window !== 'undefined') {
-  window.addEventListener('online', () => { void flushVerifiedAttempts() })
-  void flushVerifiedAttempts()
+  const flush = () => { void flushVerifiedAttempts(); void flushSessionDeletions() }
+  window.addEventListener('online', flush)
+  flush()
 }

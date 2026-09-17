@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { accuracyBand, rankAccuracy, rankMastery, recordVerifiedAttempts, viewerStanding } from './qbankAttempts.js'
+import { accuracyBand, deleteVerifiedSession, rankAccuracy, rankMastery, recordVerifiedAttempts, viewerStanding } from './qbankAttempts.js'
 import { pool } from './db.js'
 
 test('pace bands follow the requested timing thresholds', () => {
@@ -170,4 +170,31 @@ test('recordVerifiedAttempts records the valid attempts and skips a bad one, not
   const inserts = connSql.filter((sql) => /INSERT INTO qbank_attempts/.test(sql))
   assert.equal(inserts.length, 1, 'the valid answers still reach the database')
   assert.equal((inserts[0].match(/\(\?, \?/g) || []).length, 2, 'the INSERT carries exactly the two valid rows')
+})
+
+test('deleteVerifiedSession retracts only the caller\'s rows for that sitting, from both tables', async (t) => {
+  const sql = []
+  const conn = {
+    beginTransaction: async () => {}, commit: async () => {}, rollback: async () => {}, release: () => {},
+    query: async (text, params) => { sql.push({ text, params }); return [{ affectedRows: 3 }] },
+  }
+  t.mock.method(pool, 'getConnection', async () => conn)
+
+  const result = await deleteVerifiedSession('user-1', 'sess-x')
+  assert.equal(result.ok, true)
+  assert.equal(result.removed, 3)
+  const deletes = sql.filter((q) => /DELETE FROM/.test(q.text))
+  assert.equal(deletes.length, 2, 'both qbank_attempts and qbank_answer_events are cleared')
+  assert.ok(deletes.some((q) => /qbank_attempts/.test(q.text)))
+  assert.ok(deletes.some((q) => /qbank_answer_events/.test(q.text)))
+  // Every delete is scoped to the caller and the session — never a broad wipe.
+  for (const q of deletes) {
+    assert.ok(/user_id = \? AND session_id = \?/.test(q.text))
+    assert.deepEqual(q.params, ['user-1', 'sess-x'])
+  }
+})
+
+test('deleteVerifiedSession rejects an empty session id', async () => {
+  const result = await deleteVerifiedSession('user-1', '')
+  assert.equal(result.error, 'invalid_session')
 })

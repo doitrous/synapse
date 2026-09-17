@@ -1,6 +1,6 @@
 import { useCallback, useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { queueVerifiedAttempts } from './attemptSync'
+import { queueVerifiedAttempts, queueSessionDeletion } from './attemptSync'
 import {
   addAttempt, attemptId, attemptMonth, attemptMonthKey, ATTEMPT_INDEX_KEY, emptyMonth,
   EMPTY_INDEX, indexAttempt, recentMonths, removeSession, unindexAttempts,
@@ -151,6 +151,9 @@ export function useDeleteAttemptSession() {
     if (!removed.length) return
     writers.forEach((write) => write((current) => removeSession(current, sessionId)))
     setIndex((current) => unindexAttempts(current, removed))
+    // Retract the sitting from the server ledger too, or leaderboards/analytics
+    // keep the "deleted" answers — the delete dialog promises they won't.
+    queueSessionDeletion(sessionId)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [signature, setIndex])
 }

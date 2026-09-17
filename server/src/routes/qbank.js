@@ -4,12 +4,18 @@
 import { answerDistributionFor } from '../answerDistribution.js'
 import { requireAuthenticated } from '../auth.js'
 import { wrap } from '../http.js'
-import { leaderboardFor, recordVerifiedAttempts } from '../qbankAttempts.js'
+import { deleteVerifiedSession, leaderboardFor, recordVerifiedAttempts } from '../qbankAttempts.js'
 
 export function registerQbankRoutes(app) {
   app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
     const result = await recordVerifiedAttempts(req.identity.id, req.body ?? {})
     if (result.error) return res.status(result.error === 'profile_incomplete' ? 409 : 400).json(result)
+    res.json(result)
+  }))
+
+  app.post('/api/qbank/attempts/delete', requireAuthenticated, wrap(async (req, res) => {
+    const result = await deleteVerifiedSession(req.identity.id, req.body?.sessionId)
+    if (result.error) return res.status(400).json(result)
     res.json(result)
   }))
 

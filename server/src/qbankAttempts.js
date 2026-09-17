@@ -234,6 +234,34 @@ export async function recordVerifiedAttempts(userId, input) {
   })) }
 }
 
+/**
+ * Retract one sitting from the server ledger — the counterpart to the student
+ * deleting it locally. Scoped to the caller's own rows and that session id, so
+ * a student can only erase their own sitting. Idempotent: deleting an
+ * already-gone sitting is a no-op, which is what makes a retry safe.
+ */
+export async function deleteVerifiedSession(userId, sessionId) {
+  const id = cleanText(sessionId, 96)
+  if (!id) return { error: 'invalid_session' }
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [attempts] = await conn.query(
+      'DELETE FROM qbank_attempts WHERE user_id = ? AND session_id = ?', [userId, id],
+    )
+    await conn.query(
+      'DELETE FROM qbank_answer_events WHERE user_id = ? AND session_id = ?', [userId, id],
+    )
+    await conn.commit()
+    return { ok: true, removed: attempts.affectedRows ?? 0 }
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}
+
 export async function leaderboardFor(userId, { metric = 'accuracy', term = 'current', limit = 50 } = {}) {
   const profile = await studentProfile(userId)
   if (!profile?.universityId || !profile?.year) return { error: 'profile_incomplete' }
