@@ -77,12 +77,14 @@ export function StudyAssistant() {
           type="button"
           onClick={() => setOpen(true)}
           aria-label={t('Study assistant')}
-          // ponytail: bottom-20 is a fixed clearance guess for the mobile
+          // ponytail: the 5rem clearance is a fixed guess for the mobile
           // BuilderSummary bar / RoomDock collapsed bar, not real collision
-          // detection — if RoomDock's expanded state or another bottom bar
-          // grows past ~5rem, this can still overlap. Upgrade: a shared
-          // bottom-inset registry if a third floating bar shows up.
-          className="fixed bottom-20 end-4 z-40 inline-flex size-12 items-center justify-center gap-2 rounded-full border border-line bg-surface text-[13.5px] font-semibold text-ink shadow-pop transition-colors hover:bg-surface-2 lg:bottom-4 lg:size-auto lg:min-h-12 lg:justify-start lg:px-4"
+          // detection — plus env(safe-area-inset-bottom) so it clears those
+          // bars (which also carry the inset) on notched phones. If RoomDock's
+          // expanded state or another bottom bar grows past this, it can still
+          // overlap. Upgrade: a shared bottom-inset registry if a third
+          // floating bar shows up.
+          className="fixed bottom-[calc(5rem+env(safe-area-inset-bottom))] end-4 z-40 inline-flex size-12 items-center justify-center gap-2 rounded-full border border-line bg-surface text-[13.5px] font-semibold text-ink shadow-pop transition-colors hover:bg-surface-2 lg:bottom-4 lg:size-auto lg:min-h-12 lg:justify-start lg:px-4"
         >
           <Icon icon={Bot} size={17} className="text-primary-strong" />
           <span className="hidden lg:inline">{t('Study assistant')}</span>
