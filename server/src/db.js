@@ -58,6 +58,26 @@ console.log(`[db] pool ready: connectionLimit=${dbPoolConfig.connectionLimit} qu
 export const pool = mysql.createPool(dbPoolConfig)
 
 /**
+ * The current version id of each app_state key, WITHOUT reading its value.
+ *
+ * The value blobs (chiefly the content ledger) are ~60 MB in production. A
+ * snapshot loader version-checks on every request but needs the blobs only when
+ * its cache is stale, so the check must never select `v` — doing so read the
+ * whole ledger out of MariaDB on every content request (a ~10s per-request cost
+ * against an already-warm cache). Returns Map<key, version|null>; a key absent
+ * from app_state is absent from the map (its version reads as null/0, unchanged
+ * from the correlated-subquery form this replaces).
+ */
+export async function appStateVersions(keys) {
+  const [rows] = await pool.query(
+    `SELECT s.k, (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+       FROM app_state s WHERE s.k IN (${keys.map(() => '?').join(', ')})`,
+    keys,
+  )
+  return new Map(rows.map((r) => [r.k, r.version]))
+}
+
+/**
  * Applies every not-yet-applied file in server/migrations (see migrations.js:
  * runMigrations), which is now the fresh-install path too (0001_baseline.sql
  * is today's schema.sql plus the back-compat ALTERs formerly run ad hoc

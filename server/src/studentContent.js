@@ -19,7 +19,7 @@
  * server process refreshes after another one's write. Invalidation is one call
  * inside `invalidateSnapshots`, the same place every other snapshot is dropped.
  */
-import { pool } from './db.js'
+import { pool, appStateVersions } from './db.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
 import { loadConceptCatalogue } from './conceptCatalogue.js'
@@ -288,22 +288,19 @@ function build(signature, ledger, media, catalogue) {
 }
 
 export async function loadStudentContent() {
+  const keys = [LEDGER_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_KEY]
   // Version-checked on every use, not merely invalidated in memory: another
   // process may have warmed its cache before this one's write. See the same
-  // reasoning in publishedQuestions.js.
-  const [rows] = await pool.query(
-    `SELECT s.k, s.v,
-            (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
-       FROM app_state s WHERE s.k IN (?, ?, ?)`,
-    [LEDGER_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_KEY],
-  )
-  const row = (key) => rows.find((entry) => entry.k === key)
+  // reasoning in publishedQuestions.js. The check reads versions only, never the
+  // ~60 MB value blobs — those are pulled below solely on a cache miss.
+  const versions = await appStateVersions(keys)
   // Dot-joined rather than JSON: this doubles as the ETag, and an ETag may not
   // contain a quote.
-  const signature = [LEDGER_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_KEY]
-    .map((key) => row(key)?.version ?? 0)
-    .join('.')
+  const signature = keys.map((key) => versions.get(key) ?? 0).join('.')
   if (snapshot && snapshot.signature === signature) return snapshot
+  // Cache miss: only now is it worth pulling the (large) value blobs.
+  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?)', keys)
+  const row = (key) => rows.find((entry) => entry.k === key)
   try {
     snapshot = build(
       signature,

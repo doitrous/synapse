@@ -12,7 +12,7 @@
  * The marking rule itself lives in `questionKey.js`, which has no database
  * import so it can be tested directly.
  */
-import { pool } from './db.js'
+import { pool, appStateVersions } from './db.js'
 import { questionKeysFromLedger } from './questionKey.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { releasedMediaIdsFromDocument } from './studentLedger.js'
@@ -36,19 +36,19 @@ async function loadSnapshots() {
   // before a catalogue archive. app_state_versions is committed in the same
   // transaction as every protected state write, so this signature makes that
   // other process refresh before it freezes or marks another question.
-  const [rows] = await pool.query(
-    `SELECT s.k, s.v,
-            (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
-       FROM app_state s WHERE s.k IN (?, ?, ?)`,
-    [LEDGER_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_KEY],
-  )
-  const versions = new Map(rows.map((row) => [row.k, row.version === null ? null : String(row.version)]))
+  // Versions only — never the ~60 MB value blobs, which are pulled below solely
+  // on a cache miss. Selecting `v` here read the whole ledger out of MariaDB on
+  // every authoritative use, warm cache or not. See appStateVersions.
+  const keys = [LEDGER_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_KEY]
+  const rawVersions = await appStateVersions(keys)
+  const version = (key) => { const v = rawVersions.get(key); return v == null ? null : String(v) }
   const signature = JSON.stringify([
-    versions.get(LEDGER_KEY) ?? null,
-    versions.get(MEDIA_STATE_KEY) ?? null,
-    versions.get(ACADEMIC_CATALOGUE_KEY) ?? null,
+    version(LEDGER_KEY),
+    version(MEDIA_STATE_KEY),
+    version(ACADEMIC_CATALOGUE_KEY),
   ])
   if (questionSnapshot && questionSnapshotVersion === signature) return
+  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?)', keys)
   try {
     const ledgerRow = rows.find((row) => row.k === LEDGER_KEY)
     const mediaRow = rows.find((row) => row.k === MEDIA_STATE_KEY)
