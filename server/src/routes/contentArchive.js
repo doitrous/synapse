@@ -3,7 +3,6 @@
  * activity tracking, the archive preflight and apply, and academic publishing.
  */
 import { randomUUID } from 'node:crypto'
-import { open } from 'node:fs/promises'
 import { ACADEMIC_STATE_KEYS, academicPreview } from '../academic.js'
 import { requireSuperAdmin, requireTab } from '../auth.js'
 import { CONTENT_ARCHIVE_SELECTION, CONTENT_ARCHIVE_TTL_MINUTES, activeArchiveBlockers, applyContentArchive, archiveActivityAllowed, archiveConfirmation, contentArchiveManifest, contentDigest } from '../contentArchive.js'

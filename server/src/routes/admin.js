@@ -3,7 +3,6 @@
  * mutating route requires a written reason, stored beside the change.
  */
 import { randomUUID } from 'node:crypto'
-import { open } from 'node:fs/promises'
 import { cancelSubscription, getUser, getUserActivity, grantSubscription, listUsers, passwordResetConfigured, readReason, recordAction, requestPasswordReset, setAccessStatus, setContentScope, setRole, setUserPassword } from '../accounts.js'
 import { requireTab } from '../auth.js'
 import { pool } from '../db.js'

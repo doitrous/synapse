@@ -2,7 +2,6 @@
  * Content reports, the public contact form, and the media-escalation badge count.
  */
 import { randomUUID } from 'node:crypto'
-import { open } from 'node:fs/promises'
 import { getUserByIdentity } from '../accounts.js'
 import { requireAuthenticated, requireSuperAdmin, requireTab } from '../auth.js'
 import { submitContactMessage } from '../contact.js'
