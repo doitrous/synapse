@@ -13,7 +13,7 @@
  * byte-identical in behaviour to the client's `src/data/qotdCohort.ts` /
  * `qotdSelection.ts` so a future shared-vector test can prove parity.
  */
-import { pool } from './db.js'
+import { pool, appStateVersions } from './db.js'
 import { publishedQuestions } from './publishedQuestions.js'
 
 const LEDGER_KEY = 'nishany-admin-content-ledger-v4'
@@ -175,9 +175,39 @@ function computeStreak(dates, todayIso) {
   return { current, longest }
 }
 
+/**
+ * The QOTD selection inputs — the answerable candidates and the admin pins —
+ * cached per ledger/pins version. Picking today's question needed the full
+ * ~60 MB ledger read and parsed on every /api/qotd/today call (a ~6s TTFB that
+ * also held up the streak, which ships in the same response). Now the raw read
+ * happens only when the ledger or pins actually change; warm calls reuse the
+ * parsed candidate list. Same version-signature pattern as the content
+ * snapshots (see appStateVersions), including coalescing the cold rebuild.
+ */
+let selectionCache = null
+let selectionRebuilding = null
+async function loadQotdSelection() {
+  const keys = [LEDGER_KEY, PINS_KEY]
+  const versions = await appStateVersions(keys)
+  const signature = keys.map((key) => versions.get(key) ?? 0).join('.')
+  if (selectionCache && selectionCache.signature === signature) return selectionCache
+  if (selectionRebuilding && selectionRebuilding.signature === signature) return selectionRebuilding.promise
+  const promise = (async () => {
+    const [ledger, pins] = await Promise.all([readState(LEDGER_KEY), readState(PINS_KEY)])
+    selectionCache = { signature, candidates: candidatesFromLedger(ledger), pins: pins ?? {} }
+    return selectionCache
+  })()
+  selectionRebuilding = { signature, promise }
+  try {
+    return await promise
+  } finally {
+    if (selectionRebuilding && selectionRebuilding.promise === promise) selectionRebuilding = null
+  }
+}
+
 export async function todaysQuestionId(cohort, isoDate) {
-  const [ledger, pins] = await Promise.all([readState(LEDGER_KEY), readState(PINS_KEY)])
-  return selectQotdId(candidatesFromLedger(ledger), cohort, isoDate, pins ?? {})
+  const { candidates, pins } = await loadQotdSelection()
+  return selectQotdId(candidates, cohort, isoDate, pins)
 }
 
 export async function qotdToday(userId) {

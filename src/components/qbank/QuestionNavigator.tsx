@@ -1,4 +1,4 @@
-import { type ReactNode, useEffect, useRef, useState } from 'react'
+import { type CSSProperties, type ReactNode, useEffect, useRef, useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
@@ -121,10 +121,15 @@ export function QuestionNavigator({
         // single row, and then only the height the grid already spends.
         <div className="flex flex-col gap-x-4 gap-y-2.5 border-t border-line px-3 pb-3 pt-2.5 sm:flex-row sm:items-start">
           {/* One scrolling row on a phone so a long block costs one line, not a
-              screenful of wrapped rows; the familiar wrapping grid returns once
-              there is room (sm+). Scrollbar hidden — the row snaps and the
-              current number scrolls itself into view. */}
-          <ol className="flex flex-1 gap-1.5 overflow-x-auto snap-x [-ms-overflow-style:none] [scrollbar-width:none] sm:min-w-0 sm:flex-wrap sm:overflow-visible [&::-webkit-scrollbar]:hidden">
+              screenful of wrapped rows. On a pointer (sm+) it becomes a grid of
+              at most 20 columns, so a 40-question block breaks into two equal
+              rows of 20 rather than wrapping unevenly to the panel width; the
+              fixed-size squares keep every row the same width. Scrollbar hidden
+              — the row snaps and the current number scrolls itself into view. */}
+          <ol
+            style={{ '--cols': Math.min(count, 20) } as CSSProperties}
+            className="flex flex-1 gap-1.5 overflow-x-auto snap-x [-ms-overflow-style:none] [scrollbar-width:none] sm:grid sm:min-w-0 sm:justify-start sm:overflow-visible sm:[grid-template-columns:repeat(var(--cols),auto)] [&::-webkit-scrollbar]:hidden"
+          >
             {indexes.map((i) => {
               const state = stateFor(i)
               const here = i === current
