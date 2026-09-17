@@ -1,5 +1,5 @@
 import { ContentSkeleton } from '@/components/loading/PageSkeleton'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useBlocker, useLocation, useSearchParams } from 'react-router-dom'
 import {
   ListChecks,
@@ -43,8 +43,6 @@ import { QbankHub, type QbankBank, type QbankHubTab } from '@/components/qbank/h
 import { YourProgress } from '@/components/qbank/hub/YourProgress'
 import { TestBuilder } from '@/components/qbank/hub/TestBuilder'
 import { UnifiedBuilder } from '@/components/qbank/unified/UnifiedBuilder'
-import { MixedRunner } from '@/components/qbank/unified/MixedRunner'
-import { MixedSummary } from '@/components/qbank/unified/MixedSummary'
 import { useMixedSession } from '@/lib/useMixedSession'
 import { mixedClosed, mixedFinished } from '@/data/mixedSession'
 import { PreviousTestsTab, type PreviousFilter } from '@/components/qbank/hub/PreviousTestsTab'
@@ -53,7 +51,6 @@ import { useSittings } from '@/lib/useSittings'
 import { sittingsOfKind, type SittingKind } from '@/data/sittings'
 import { useAttemptHistory, useDeleteAttemptSession, useRecordAttempt, useRecordAttempts } from '@/lib/useAttemptLog'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { EndSessionDialog } from '@/components/qbank/EndSessionDialog'
 import { ContinueCard } from '@/components/qbank/ContinueCard'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -63,26 +60,22 @@ import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
 import { Dialog } from '@/components/ui/Dialog'
 import { SubjectDot } from '@/components/ui/Subject'
-import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
+import { type ReportTarget } from '@/components/reports/ReportContentDialog'
 import { cn } from '@/lib/cn'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
-import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
-import { QuestionNavigator, type QuestionState } from '@/components/qbank/QuestionNavigator'
-import { StudyRail } from '@/components/qbank/StudyRail'
+import { type QuestionState } from '@/components/qbank/QuestionNavigator'
 import {
   HighlightSelectionPopover,
   HighlightableText,
   useQuestionHighlights,
 }from '@/components/qbank/QuestionHighlights'
-import { QuickAddFlashcardDialog } from '@/components/flashcards/QuickAddFlashcardDialog'
 import { chooserTopics, questionsInScope, questionsInSources, type Scope } from '@/data/qbankScope'
 import { useT } from '@/lib/i18n'
 import { useImmersion } from '@/components/shell/ImmersionContext'
 import { useAnswerDistribution } from '@/lib/useAnswerDistribution'
 import { answerPercentages } from '@/data/answerDistribution'
-import { AnswerStatBar } from '@/components/qbank/AnswerStatBar'
 import { sourceOptions } from '@/data/sourceCoverage'
 import {
   QUESTION_SOURCES,
@@ -109,8 +102,23 @@ import {
   type Source,
 }from './qbank/state'
 import { SessionDetailPanel } from './qbank/SessionDetailPanel'
-import { PreviousTests } from './qbank/PreviousTests'
 import { WHOLE_BANK, useQbankQuestions } from './qbank/useQbankQuestions'
+import {
+  LazyAnswerStatBar,
+  LazyEndSessionDialog,
+  LazyMediaAttachmentView,
+  LazyMixedRunner,
+  LazyMixedSummary,
+  LazyPreviousTests,
+  LazyQuestionNavigator,
+  LazyQuickAddFlashcardDialog,
+  LazyReportContentDialog,
+  LazyStudyRail,
+  LazyZoomableImage,
+  preloadMixedRunner,
+  preloadPreviousTests,
+  preloadRunnerSurface,
+}from './qbank/runnerLazy'
 
 export function QuestionBank() {
   const t = useT()
@@ -305,6 +313,10 @@ export function QuestionBank() {
     }, { replace: true })
   }, [setParams])
   const setHubTab = useCallback((next: QbankHubTab) => {
+    // The Previous tab's chunk is not part of the hub's first paint (the
+    // builder is), so the click that switches to it is the intent that should
+    // start fetching it.
+    if (next === 'previous') preloadPreviousTests()
     setHubTabState(next)
     setParams((current) => {
       const draft = new URLSearchParams(current)
@@ -730,6 +742,11 @@ export function QuestionBank() {
    */
   function beginSession(picked: Question[], name?: string) {
     if (!picked.length) return
+    // Every path into the runner funnels through here, so this is the one place
+    // that has to fire it: the click is about to need `QuestionNavigator`,
+    // `StudyRail` and the rest, and this starts that fetch before the state
+    // change below asks Suspense to render them.
+    preloadRunnerSurface()
     // Open the runner frame *now*, on the lightweight slice, so the start reads
     // as instant even when the heavy build is a cold fetch away. On a warm
     // subject `run` below fires synchronously and this overlay never paints;
@@ -906,6 +923,7 @@ export function QuestionBank() {
     // `runWhenHydrated` resolves them against the real, fully-built questions.
     const ids = reviewableQuestions(sessionId).map((question) => question.id)
     if (!ids.length) return
+    preloadRunnerSurface()
     runWhenHydrated(ids, (rebuilt) => {
       if (!rebuilt.length) return
       const answered: Record<string, number> = {}
@@ -944,6 +962,7 @@ export function QuestionBank() {
    */
   function resumeSaved() {
     if (!saved) return
+    preloadRunnerSurface()
     // The same drop the mount effect performs, because that effect runs once and
     // never again: `usePublishedQuestions` can retire a question long after
     // `restored` is set, and `restoreFrom` filters tolerantly rather than
@@ -1078,8 +1097,8 @@ export function QuestionBank() {
   // all practicals, and an empty MCQ catalogue must not swallow it.
   if (phase === 'setup' && mixed.session && !mixedFinished(mixed.session)) {
     return (
-      <>
-        <MixedRunner
+      <Suspense fallback={<ContentSkeleton shape="qbank" />}>
+        <LazyMixedRunner
           session={mixed.session}
           questions={realQuestions}
           onMark={mixed.mark}
@@ -1110,7 +1129,7 @@ export function QuestionBank() {
             </div>
           </Dialog>
         )}
-      </>
+      </Suspense>
     )
   }
 
@@ -1122,11 +1141,13 @@ export function QuestionBank() {
   // the sitting itself is still in Previous tests. See `mixedClosed`.
   if (phase === 'setup' && mixed.session && mixedEndedAt != null) {
     return (
-      <MixedSummary
-        session={mixed.session}
-        endedAt={mixedEndedAt}
-        onDone={() => { setMixedEndedAt(null); mixed.end() }}
-      />
+      <Suspense fallback={<ContentSkeleton shape="qbank" />}>
+        <LazyMixedSummary
+          session={mixed.session}
+          endedAt={mixedEndedAt}
+          onDone={() => { setMixedEndedAt(null); mixed.end() }}
+        />
+      </Suspense>
     )
   }
 
@@ -1242,26 +1263,28 @@ export function QuestionBank() {
               showOthers={previousFilter !== 'mcq'}
               others={<SittingRows sittings={otherSittings} onDelete={sittingsLedger.forget} />}
               mcq={(
-                <PreviousTests
-                  sessions={sessionSummaries}
-                  names={savedNames}
-                  // `liveSittingId`, not `saved?.sessionId`: a submitted sitting is
-                  // still stored, and calling that one "in progress" put Resume on a
-                  // test that was already finished.
-                  liveSessionId={liveSittingId(saved)}
-                  records={history.records}
-                  questions={realQuestions}
-                  onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
-                  onResume={resumeSaved}
-                  onTerminate={discardSaved}
-                  onReview={reviewSession}
-                  onRetakeSame={retakeSameQuestions}
-                  onRetakeScope={retakeSameScope}
-                  onDelete={deleteSession}
-                  canReview={(sessionId) => reviewableQuestions(sessionId).length > 0}
-                  canRetakeSame={(sessionId) => reviewableQuestions(sessionId).length > 0}
-                  t={t}
-                />
+                <Suspense fallback={<ContentSkeleton shape="qbank" />}>
+                  <LazyPreviousTests
+                    sessions={sessionSummaries}
+                    names={savedNames}
+                    // `liveSittingId`, not `saved?.sessionId`: a submitted sitting is
+                    // still stored, and calling that one "in progress" put Resume on a
+                    // test that was already finished.
+                    liveSessionId={liveSittingId(saved)}
+                    records={history.records}
+                    questions={realQuestions}
+                    onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
+                    onResume={resumeSaved}
+                    onTerminate={discardSaved}
+                    onReview={reviewSession}
+                    onRetakeSame={retakeSameQuestions}
+                    onRetakeScope={retakeSameScope}
+                    onDelete={deleteSession}
+                    canReview={(sessionId) => reviewableQuestions(sessionId).length > 0}
+                    canRetakeSame={(sessionId) => reviewableQuestions(sessionId).length > 0}
+                    t={t}
+                  />
+                </Suspense>
               )}
             />
           ) : (
@@ -1269,7 +1292,7 @@ export function QuestionBank() {
               bank={bank}
               questions={questions}
               collections={collectionQuestions}
-              onStart={(pools, split) => mixed.start(pools, split)}
+              onStart={(pools, split) => { preloadMixedRunner(); mixed.start(pools, split) }}
               // One node, handed to the MCQ composer and to the other three
               // banks, so "Your progress" sits in the same place whichever
               // bank is open. Its filter preselects to `bank`.
@@ -1375,6 +1398,8 @@ export function QuestionBank() {
             variant="secondary"
             size="md"
             iconLeft={BookOpen}
+            onMouseEnter={preloadRunnerSurface}
+            onFocus={preloadRunnerSurface}
             onClick={() => {
               // Every opener of a review has to state its own exit, because
               // `reviewReturn` outlives the review that last set it. A collection
@@ -1382,6 +1407,7 @@ export function QuestionBank() {
               // button — pressed from the results screen the student is standing
               // on — then offered "Done" back to the hub instead of "Back to
               // results". The other two openers already declare it.
+              preloadRunnerSurface()
               setReviewReturn('results')
               setReviewing(true)
               setIdx(0)
@@ -1645,11 +1671,12 @@ export function QuestionBank() {
   ) : null
 
   return (
+    <Suspense fallback={<ContentSkeleton shape="qbank" />}>
     <div className="mx-auto max-w-[1180px] px-3 pt-2 pb-6 sm:px-4">
       {/* Top strip: the question-number grid spans the full width, and the
           timer and split toggle are embedded at the top-right of that same
           count box rather than sitting on a row of their own. */}
-      <QuestionNavigator
+      <LazyQuestionNavigator
         className="mb-2"
         count={session.length}
         current={idx}
@@ -1714,12 +1741,12 @@ export function QuestionBank() {
 
             {q.attachedImage && (
               <div className="mt-4 overflow-hidden rounded-xl border border-line bg-inset p-2">
-                <ZoomableImage src={q.attachedImage} alt={t('Question attachment')} className="max-h-80 w-full rounded-lg object-contain" />
+                <LazyZoomableImage src={q.attachedImage} alt={t('Question attachment')} className="max-h-80 w-full rounded-lg object-contain" />
               </div>
             )}
             {q.attachments && q.attachments.length > 0 && (
               <div className="mt-4 space-y-2">
-                {q.attachments.map((attachment) => <MediaAttachmentView key={attachment.id} attachment={attachment} />)}
+                {q.attachments.map((attachment) => <LazyMediaAttachmentView key={attachment.id} attachment={attachment} />)}
               </div>
             )}
 
@@ -1804,7 +1831,7 @@ export function QuestionBank() {
                             </p>
                           )}
                         </div>
-                        {percentages && <AnswerStatBar pct={percentages[i] ?? 0} tone={statTone} />}
+                        {percentages && <LazyAnswerStatBar pct={percentages[i] ?? 0} tone={statTone} />}
                       </div>
                     ) : (
                       <div className={cn(shape, 'relative p-0')}>
@@ -1923,7 +1950,7 @@ export function QuestionBank() {
             alone. */}
         <div className="space-y-4 lg:sticky lg:top-4">
           {splitActive && explanations}
-          <StudyRail
+          <LazyStudyRail
             question={q}
             revealed={revealed}
             location={location}
@@ -1943,12 +1970,12 @@ export function QuestionBank() {
           />
         </div>
       </div>
-      <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
+      <LazyReportContentDialog open={Boolean(reportTarget)} target={reportTarget} onClose={() => setReportTarget(null)} />
       {flashcardSeed && (
-        <QuickAddFlashcardDialog initialFront={flashcardSeed.front} initialBack={flashcardSeed.back} onClose={() => setFlashcardSeed(null)} />
+        <LazyQuickAddFlashcardDialog initialFront={flashcardSeed.front} initialBack={flashcardSeed.back} onClose={() => setFlashcardSeed(null)} />
       )}
       {endOpen && (
-        <EndSessionDialog
+        <LazyEndSessionDialog
           answered={session.filter((question) => answers[question.id] != null).length}
           total={session.length}
           onLeave={leaveSession}
@@ -1958,5 +1985,6 @@ export function QuestionBank() {
         />
       )}
     </div>
+    </Suspense>
   )
 }

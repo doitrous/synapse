@@ -12,6 +12,15 @@ import { useScopedPublishedQuestionSummaries } from '@/lib/usePublishedQuestions
 export interface PracticeProgress {
   /** Bank and room attempts only — the records the bank figures are cut from. */
   loading: boolean
+  /**
+   * Per-domain load flags, so a surface can render each figure the moment its
+   * own source lands instead of holding the whole panel for the slowest of the
+   * three. The combined `loading` above stays for callers that want all-or-
+   * nothing (the Practice hub); the dashboard ring reads these.
+   */
+  bankLoading: boolean
+  practicalLoading: boolean
+  essayLoading: boolean
   error: import('./apiErrors').StateErrorKind | null
   qbankRecords: AttemptRecord[]
   /** Distinct bank questions the student has answered at least once. */
@@ -66,8 +75,13 @@ export function usePracticeProgress(): PracticeProgress {
       const covered = coveredCount(answers[essay.id]?.ticked ?? null, essay.keyPoints.map((point) => point.id))
       if (covered) markedCount += 1
     }
+    const practicalLoading = !practicalStatus.hydrated && !practicalStatus.error
+    const essayLoading = !essayStatus.hydrated && !essayStatus.error
     return {
-      loading: history.loading || (!practicalStatus.hydrated && !practicalStatus.error) || (!essayStatus.hydrated && !essayStatus.error),
+      loading: history.loading || practicalLoading || essayLoading,
+      bankLoading: history.loading,
+      practicalLoading,
+      essayLoading,
       error: history.error ?? practicalStatus.error ?? essayStatus.error,
       qbankRecords,
       seen: distinctItems(qbankRecords),

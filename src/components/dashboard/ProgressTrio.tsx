@@ -142,7 +142,10 @@ function RingStack({ rings, allEarned }: { rings: { value: number; color: string
  */
 export function ProgressRingStack() {
   const t = useT()
-  const { seen, bankTotal, firstAccuracy, practicalTotal, attempted, essayTotal, markedCount, loading, error } = usePracticeProgress()
+  const {
+    seen, bankTotal, firstAccuracy, practicalTotal, attempted, essayTotal, markedCount,
+    bankLoading, practicalLoading, essayLoading, error,
+  } = usePracticeProgress()
   const bankPct = bankTotal ? Math.round((Math.min(seen, bankTotal) / bankTotal) * 100) : 0
   const practicalPct = practicalTotal ? Math.round((attempted / practicalTotal) * 100) : 0
   const essayPct = essayTotal ? Math.round((markedCount / essayTotal) * 100) : 0
@@ -153,6 +156,7 @@ export function ProgressRingStack() {
       label: t('Question bank'),
       pct: bankPct,
       present: bankTotal > 0,
+      loading: bankLoading,
       // `seen` can outrun `bankTotal` once the published set shrinks under
       // questions the student already answered (content unpublished, or their
       // audience scope narrows) — clamp it here too, the same way `bankPct`
@@ -166,6 +170,7 @@ export function ProgressRingStack() {
       label: t('Practical'),
       pct: practicalPct,
       present: practicalTotal > 0,
+      loading: practicalLoading,
       detail: `${attempted} / ${practicalTotal} ${t('items attempted')}`,
       note: null,
     },
@@ -174,17 +179,23 @@ export function ProgressRingStack() {
       label: t('Essay'),
       pct: essayPct,
       present: essayTotal > 0,
+      loading: essayLoading,
       detail: `${markedCount} / ${essayTotal} ${t('marked')}`,
       note: null,
     },
   ]
 
-  const shown = rows.filter((row) => row.present)
+  // A row earns its place once it has data or is still fetching it; a domain
+  // that has finished loading with nothing published drops out. Each row then
+  // fills on its own source rather than the whole panel waiting for the slowest.
+  const shown = rows.filter((row) => row.present || row.loading)
   // Re-subscribes to the ledger entry the counts above are already derived
   // from, just to recover the load status they otherwise drop.
   const availability = useCatalogueAvailability(bankTotal + practicalTotal + essayTotal)
   if (error) return <LoadingError />
-  if (loading || availability.kind === 'loading') return <ProgressSkeleton />
+  // The question-bank figure is the headline, so the panel appears once it is
+  // ready; practical and essay rows fill in behind their own skeletons.
+  if (bankLoading || availability.kind === 'loading') return <ProgressSkeleton />
   if (!shown.length) {
     if (availability.kind === 'error') {
       return (
@@ -219,7 +230,12 @@ export function ProgressRingStack() {
             >
               <span className="relative top-[1px] size-2.5 shrink-0 rounded-full" style={{ backgroundColor: row.color }} aria-hidden />
               <span className="min-w-0 flex-1 truncate text-[13px] font-medium text-ink">{row.label}</span>
-              {row.present ? (
+              {row.loading ? (
+                <>
+                  <Skeleton className="h-3 w-24" />
+                  <Skeleton className="h-3 w-8" />
+                </>
+              ) : row.present ? (
                 <>
                   {row.note && <span className="hidden text-[11px] text-ink-3 sm:inline">{row.note}</span>}
                   <span className="text-[11.5px] text-ink-3">{row.detail}</span>

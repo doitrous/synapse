@@ -1,11 +1,10 @@
-import { DayStripSkeleton } from '@/components/loading/DashboardSkeletons'
-import { LoadingError } from '@/components/loading/LoadingError'
 import { useMemo, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { CalendarDays } from 'lucide-react'
 import { preloadStudentRoute } from '@/router'
 import { Panel } from '@/components/ui/Panel'
 import { Icon } from '@/components/ui/Icon'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { StreakDots, type DayStatus } from '@/components/ui/StreakDots'
 import { useDueReviewSummary } from '@/components/dashboard/DueReviews'
 import { EXAM_KIND_LABEL, daysUntil } from '@/data/examProgramme'
@@ -99,6 +98,18 @@ function Fact({
   )
 }
 
+/** A fact whose own hook hasn't resolved yet — same footprint as `Fact`, no link. */
+function FactSkeleton() {
+  return (
+    <div className="flex min-w-0 sm:min-w-[8rem] sm:border-s sm:border-line sm:first:border-s-0">
+      <div className="flex min-h-[44px] min-w-0 flex-1 flex-col justify-center gap-1.5 rounded-lg border border-line bg-mist/60 px-3 py-2.5 sm:min-h-0 sm:border-0 sm:bg-transparent sm:px-5 sm:py-1">
+        <Skeleton className="h-4 w-10" />
+        <Skeleton className="h-3 w-16" />
+      </div>
+    </div>
+  )
+}
+
 /**
  * The dashboard's day strip: who is here, what day it is, and the four facts
  * nothing else on the page reports.
@@ -150,29 +161,50 @@ export function TodaysTarget() {
     }
   }
 
-  if (scheduleError || examError || due.error) return <div className="w-full max-w-[60rem]"><LoadingError /></div>
-  if (scheduleLoading || examLoading || qotd.loading || due.loading) return <DayStripSkeleton />
+  // The greeting and date above need only `useIdentity()` — synchronous — so
+  // they paint on the first frame. Each fact below keys off a different hook
+  // and is gated on that hook alone, so the fastest one never waits for the
+  // slowest; a fact whose own source errored just stays out of the strip
+  // rather than taking the whole panel down with it.
+  const facts: ReactNode[] = []
 
-  const facts: ReactNode[] = [
-    <Fact
-      key="streak"
-      to="/app/qbank"
-      value={qotd.current}
-      unit={qotd.current === 1 ? t('day') : t('days')}
-      tone="primary"
-      label={t('Streak')}
-      trailing={streakDays.length > 0 ? <StreakDots days={streakDays} size={6} /> : undefined}
-    />,
-    <Fact
-      key="reviews"
-      to={due.startHref}
-      value={due.count}
-      tone={due.count > 0 ? 'warning' : 'ink'}
-      label={due.count > 0 ? t('Reviews due today') : t('Nothing due')}
-    />,
-  ]
+  if (qotd.loading) {
+    facts.push(<FactSkeleton key="streak" />)
+  } else {
+    facts.push(
+      <Fact
+        key="streak"
+        to="/app/qbank"
+        value={qotd.current}
+        unit={qotd.current === 1 ? t('day') : t('days')}
+        tone="primary"
+        label={t('Streak')}
+        trailing={streakDays.length > 0 ? <StreakDots days={streakDays} size={6} /> : undefined}
+      />,
+    )
+  }
 
-  if (personal.length > 0) {
+  if (due.error) {
+    // silent — the strip keeps the facts that did load
+  } else if (due.loading) {
+    facts.push(<FactSkeleton key="reviews" />)
+  } else {
+    facts.push(
+      <Fact
+        key="reviews"
+        to={due.startHref}
+        value={due.count}
+        tone={due.count > 0 ? 'warning' : 'ink'}
+        label={due.count > 0 ? t('Reviews due today') : t('Nothing due')}
+      />,
+    )
+  }
+
+  if (scheduleError) {
+    // silent
+  } else if (scheduleLoading) {
+    facts.push(<FactSkeleton key="blocks" />)
+  } else if (personal.length > 0) {
     facts.push(
       <Fact
         key="blocks"
@@ -184,7 +216,11 @@ export function TodaysTarget() {
     )
   }
 
-  if (exam) {
+  if (examError) {
+    // silent
+  } else if (examLoading) {
+    facts.push(<FactSkeleton key="exam" />)
+  } else if (exam) {
     facts.push(
       <Fact
         key="exam"

@@ -28,6 +28,7 @@ import { Dialog } from '@/components/ui/Dialog'
 import { SubjectDot } from '@/components/ui/Subject'
 import { cn } from '@/lib/cn'
 import { SessionDetailPanel } from './SessionDetailPanel'
+import { preloadRunnerSurface } from './runnerLazy'
 
 /**
  * Tests already taken, and what to do about them.
@@ -190,11 +191,20 @@ export function PreviousTests({
                       iconLeft={RotateCcw}
                       disabled={!canRetakeSame(entry.sessionId)}
                       title={canRetakeSame(entry.sessionId) ? undefined : t('None of these questions are published any more')}
+                      onMouseEnter={preloadRunnerSurface}
+                      onFocus={preloadRunnerSurface}
                       onClick={() => onRetakeSame(entry.sessionId)}
                     >
                       {t('Retake these questions')}
                     </Button>
-                    <Button size="sm" variant="secondary" iconLeft={Shuffle} onClick={() => onRetakeScope(entry)}>
+                    <Button
+                      size="sm"
+                      variant="secondary"
+                      iconLeft={Shuffle}
+                      onMouseEnter={preloadRunnerSurface}
+                      onFocus={preloadRunnerSurface}
+                      onClick={() => onRetakeScope(entry)}
+                    >
                       {t('New test, same scope')}
                     </Button>
                     <Button
@@ -202,12 +212,14 @@ export function PreviousTests({
                       variant="ghost"
                       iconLeft={Eye}
                       disabled={!canReview(entry.sessionId)}
+                      onMouseEnter={preloadRunnerSurface}
+                      onFocus={preloadRunnerSurface}
                       onClick={() => onReview(entry.sessionId)}
                     >
                       {t('Review answers')}
                     </Button>
                     {live && (
-                      <Button size="sm" variant="ghost" iconLeft={Play} onClick={onResume}>{t('Resume this test')}</Button>
+                      <Button size="sm" variant="ghost" iconLeft={Play} onMouseEnter={preloadRunnerSurface} onFocus={preloadRunnerSurface} onClick={onResume}>{t('Resume this test')}</Button>
                     )}
                   </div>
                 </>

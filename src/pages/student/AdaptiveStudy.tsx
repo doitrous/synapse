@@ -13,7 +13,7 @@
  * the Concepts tab.
  */
 
-import { useState } from 'react'
+import { lazy, Suspense, useState } from 'react'
 import {
   Braces, CalendarRange, ClipboardCheck, Compass, PlayCircle, ScrollText,
 } from 'lucide-react'
@@ -25,15 +25,21 @@ import { Badge } from '@/components/ui/Badge'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { AsyncSurface } from '@/components/ui/AsyncSurface'
 import { ContentSkeleton } from '@/components/loading/PageSkeleton'
-import { Today } from '@/components/adaptive/Today'
-import { Practice } from '@/components/adaptive/Practice'
-import { Readiness } from '@/components/adaptive/Readiness'
-import { Concepts } from '@/components/adaptive/Concepts'
-import { Plan } from '@/components/adaptive/Plan'
-import { HowItWorks } from '@/components/adaptive/HowItWorks'
 import { useAdaptiveStudy } from '@/lib/adaptive/useAdaptiveStudy'
 import { useLatestReadiness } from '@/lib/adaptive/useReadiness'
 import { useT } from '@/lib/i18n'
+
+/**
+ * Only the active tab's module — and its transitive deps (charts, tables) —
+ * should land in the network. Six eager imports here used to put all of them
+ * in the route's own chunk even though one tab renders at a time.
+ */
+const Today = lazy(() => import('@/components/adaptive/Today').then((m) => ({ default: m.Today })))
+const Practice = lazy(() => import('@/components/adaptive/Practice').then((m) => ({ default: m.Practice })))
+const Readiness = lazy(() => import('@/components/adaptive/Readiness').then((m) => ({ default: m.Readiness })))
+const Concepts = lazy(() => import('@/components/adaptive/Concepts').then((m) => ({ default: m.Concepts })))
+const Plan = lazy(() => import('@/components/adaptive/Plan').then((m) => ({ default: m.Plan })))
+const HowItWorks = lazy(() => import('@/components/adaptive/HowItWorks').then((m) => ({ default: m.HowItWorks })))
 
 /** Labels are translated at render, so the English string stays the key. */
 const TABS = [
@@ -95,7 +101,7 @@ export function AdaptiveStudy() {
             />
           </Panel>
         ) : (
-          <>
+          <Suspense fallback={<ContentSkeleton shape="adaptive" />}>
             {tab === 'today' && (
               <Today
                 study={study}
@@ -109,7 +115,7 @@ export function AdaptiveStudy() {
             {tab === 'concepts' && <Concepts study={study} />}
             {tab === 'plan' && <Plan study={study} />}
             {tab === 'how' && <HowItWorks study={study} />}
-          </>
+          </Suspense>
         )}
       </AsyncSurface>
     </PageContainer>
