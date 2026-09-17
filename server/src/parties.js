@@ -61,6 +61,23 @@ async function displayNamesFor(userIds) {
 }
 
 /**
+ * Each member's all-time cumulative study minutes, from the same per-minute
+ * ledger `maristanaOverview` totals for one student (`maristana_study_minutes`
+ * — one accepted row per active minute, anywhere in the app, not just in a
+ * room). Batched by the room's own member ids, the same shape `displayNamesFor`
+ * already queries in, so a twenty-person room stays one extra query rather
+ * than one per member.
+ */
+async function studyMinutesFor(userIds) {
+  if (!userIds.length) return new Map()
+  const [rows] = await pool.query(
+    'SELECT user_id AS userId, COUNT(*) AS minutes FROM maristana_study_minutes WHERE user_id IN (?) GROUP BY user_id',
+    [userIds],
+  )
+  return new Map(rows.map((row) => [row.userId, Number(row.minutes)]))
+}
+
+/**
  * Every member row of one party, seat columns included, in join order.
  *
  * One query in one place: the party read, the seat write and the realtime
@@ -92,7 +109,7 @@ async function memberRows(partyId) {
  * while `lastActiveAt` is rebuilt as a UTC instant, so the browser can make the
  * same judgement on its own clock rather than trusting ours.
  */
-function memberView(row, names) {
+function memberView(row, names, studyMinutes) {
   const age = row.activeAgoSeconds
   const info = names.get(row.userId)
   return {
@@ -109,6 +126,11 @@ function memberView(row, names) {
       ? null
       : new Date(Date.now() - Number(age) * 1000).toISOString(),
     activity: activityAfter(row.activity, age),
+    // Cumulative, all-time, the same number Maristanas shows this student for
+    // themselves — not minutes in this room alone. 0 rather than undefined for
+    // a member who has never sent a heartbeat, so the room can show "0m" instead
+    // of hiding the figure.
+    totalStudyMinutes: studyMinutes.get(row.userId) ?? 0,
   }
 }
 
@@ -123,8 +145,9 @@ function memberView(row, names) {
 export async function partyMembers(partyId, userId) {
   const rows = await memberRows(partyId)
   if (!rows.some((row) => row.userId === userId)) return null
-  const names = await displayNamesFor(rows.map((row) => row.userId))
-  return rows.map((row) => memberView(row, names))
+  const ids = rows.map((row) => row.userId)
+  const [names, studyMinutes] = await Promise.all([displayNamesFor(ids), studyMinutesFor(ids)])
+  return rows.map((row) => memberView(row, names, studyMinutes))
 }
 
 /**
@@ -147,13 +170,14 @@ export async function roomSnapshot(partyId) {
   )
   if (!parties.length) return null
   const rows = await memberRows(partyId)
-  const names = await displayNamesFor(rows.map((row) => row.userId))
+  const ids = rows.map((row) => row.userId)
+  const [names, studyMinutes] = await Promise.all([displayNamesFor(ids), studyMinutesFor(ids)])
   return {
     id: parties[0].id,
     code: parties[0].code,
     name: parties[0].name, layoutKey:parties[0].layoutKey,
     archivedAt: parties[0].archivedAt ?? null,
-    members: rows.map((row) => memberView(row, names)),
+    members: rows.map((row) => memberView(row, names, studyMinutes)),
   }
 }
 
@@ -323,7 +347,8 @@ export async function partyFor(userId, partyId) {
   const me = members.find((member) => member.userId === userId) ?? null
   if (!me) return null
 
-  const names = await displayNamesFor(members.map((member) => member.userId))
+  const memberIds = members.map((member) => member.userId)
+  const [names, studyMinutes] = await Promise.all([displayNamesFor(memberIds), studyMinutesFor(memberIds)])
 
   return {
     id: party.id,
@@ -336,7 +361,7 @@ export async function partyFor(userId, partyId) {
     visibility: party.visibility, layoutKey:party.layoutKey, scope:party.scope, capacity:roomLayout(party.layoutKey).capacity,
     createdAt: party.createdAt,
     archivedAt: party.archivedAt,
-    members: members.map((member) => memberView(member, names)),
+    members: members.map((member) => memberView(member, names, studyMinutes)),
   }
 }
 

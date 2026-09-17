@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Check, Copy, Eye, Link2, Lock, PencilLine, RefreshCw, Trash2 } from 'lucide-react'
+import { Check, Copy, Eye, Link2, Lock, PencilLine, RefreshCw, Share2, Trash2 } from 'lucide-react'
 import { Dialog } from '@/components/ui/Dialog'
 import { PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
@@ -7,6 +7,7 @@ import { Icon } from '@/components/ui/Icon'
 import { API_MODE } from '@/lib/api'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
+import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
 import {
   createShare, deleteShare, fetchShare, shareUrl, updateShare, useShareIndex,
   type ShareAccess, type ShareKind,
@@ -58,6 +59,10 @@ export function ShareDialog({
   const [error, setError] = useState('')
   const [publishedAt, setPublishedAt] = useState<string | null>(null)
   const [revision, setRevision] = useState<number | null>(null)
+  const [sentToRoom, setSentToRoom] = useState(false)
+  // Null outside a live, connected room — demo rooms and no room at all both
+  // leave `channel` null on the provider, so there is nothing else to check here.
+  const roomChannel = useRoomSession()?.channel
 
   // What the link currently allows is the server's answer, not a remembered
   // one: the owner may have changed it from another device.
@@ -73,7 +78,7 @@ export function ShareDialog({
     return () => { live = false }
   }, [handle, open, setIndex, shareId])
 
-  useEffect(() => { if (open) { setCopied(false); setError('') } }, [open])
+  useEffect(() => { if (open) { setCopied(false); setError(''); setSentToRoom(false) } }, [open])
 
   async function publish(nextAccess: ShareAccess) {
     setError('')
@@ -181,6 +186,20 @@ export function ShareDialog({
                     <Icon icon={RefreshCw} size={12} />
                     {t('Live revision')} {revision ?? 1}
                   </p>
+                )}
+                {roomChannel?.connected && (
+                  <Button
+                    size="sm"
+                    variant="secondary"
+                    className="mt-2"
+                    iconLeft={sentToRoom ? Check : Share2}
+                    onClick={() => {
+                      roomChannel.sendChat(`${title}: ${url}`)
+                      setSentToRoom(true)
+                    }}
+                  >
+                    {sentToRoom ? t('Shared to room') : t('Share to room')}
+                  </Button>
                 )}
               </div>
             )}

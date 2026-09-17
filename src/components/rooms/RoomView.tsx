@@ -13,6 +13,7 @@ import { useParty } from '@/lib/useParties'
 import { useIdentity } from '@/lib/useIdentity'
 import { API_MODE, apiSend } from '@/lib/api'
 import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
+import { useMaristanas } from '@/lib/useMaristanas'
 import { universities as seededUniversities } from '@/data/universities'
 import { focusFirstWithin, wrapTab } from '@/lib/focusTrap'
 import { pushOverlay, popOverlay, isTopOverlay } from '@/lib/overlayStack'
@@ -121,16 +122,20 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
     return()=>{document.removeEventListener('keydown',close,true);hidden.forEach(({node,inert})=>{node.inert=inert});document.body.style.overflow=overflow;popOverlay(overlayId);previous?.focus()}
   },[focusMode])
   const sample=useMemo(()=>mockWorldPresence(selfId,world),[selfId,world])
+  // The same cumulative total Maristanas shows the student for themselves —
+  // reused rather than tracked separately, so the room and the rest of the app
+  // never disagree about "how much have I studied, ever."
+  const {data:maristanaData}=useMaristanas()
   const people=useMemo<StudyPresence[]>(()=>{
-    const others:StudyPresence[]=demo?sample:(session.channel?.members??party?.members??[]).filter(m=>m.userId!==selfId).map(m=>({id:m.userId,name:m.displayName||t('Student'),seat:normalizeSeat(m.seat),seatIndex:m.seat?.seatIndex,studying:m.activity==='studying',speaking:session.audio?.speaking.has(m.userId)??false,goal:'statusMessage' in m ? m.statusMessage??undefined : undefined,status:m.activity==='studying'?'Focusing':undefined}))
+    const others:StudyPresence[]=demo?sample:(session.channel?.members??party?.members??[]).filter(m=>m.userId!==selfId).map(m=>({id:m.userId,name:m.displayName||t('Student'),seat:normalizeSeat(m.seat),seatIndex:m.seat?.seatIndex,studying:m.activity==='studying',speaking:session.audio?.speaking.has(m.userId)??false,goal:'statusMessage' in m ? m.statusMessage??undefined : undefined,status:m.activity==='studying'?'Focusing':undefined,totalStudyMinutes:m.totalStudyMinutes}))
     // elapsedSeconds is intentionally left off self here: it ticks every
     // second via useFocusSession, and folding it into this memo would give
     // `people`/`desks` a new array (and re-run placeSeats) once a second even
     // when no seat actually changed. The live value is applied outside this
     // memo — see `selfElapsedSeconds` below — so only the clock label updates.
-    const self:StudyPresence={id:selfId,name:identity.displayName||t('You'),seat,seatIndex:focus.seatIndex??(demo?1:party?.members.find(m=>m.userId===selfId)?.seat?.seatIndex),studying:!['On Break','Needs Help','Available to Talk'].includes(focus.status),speaking:session.audio?.speaking.has(selfId)??false,university:universityName,year:identity.audience.year||undefined,topic:focus.topic,goal:focus.goal,status:focus.status,micMuted:!session.audio?.callActive||session.audio.muted,handRaised:focus.handRaised,personalisation}
+    const self:StudyPresence={id:selfId,name:identity.displayName||t('You'),seat,seatIndex:focus.seatIndex??(demo?1:party?.members.find(m=>m.userId===selfId)?.seat?.seatIndex),studying:!['On Break','Needs Help','Available to Talk'].includes(focus.status),speaking:session.audio?.speaking.has(selfId)??false,university:universityName,year:identity.audience.year||undefined,topic:focus.topic,goal:focus.goal,status:focus.status,micMuted:!session.audio?.callActive||session.audio.muted,handRaised:focus.handRaised,personalisation,totalStudyMinutes:maristanaData?.studyMinutes}
     return [...others,self]
-  },[demo,sample,session.channel?.members,party?.members,selfId,t,identity.displayName,universityName,identity.audience.year,seat,focus,session.audio,personalisation])
+  },[demo,sample,session.channel?.members,party?.members,selfId,t,identity.displayName,universityName,identity.audience.year,seat,focus,session.audio,personalisation,maristanaData?.studyMinutes])
   const selfElapsedSeconds=elapsed/1000
   const desks=useMemo(()=>placeSeats(people,world.capacity) as (StudyPresence|null)[],[people,world.capacity])
   const selectedPerson=selected!==null?desks[selected]:null
@@ -209,7 +214,7 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
           onCustomise={()=>setCustomising(true)}
           shared={sharedSeat}
           onLeaveRoom={onLeave}
-          onStudyTogether={()=>setActivitiesOpen(true)}
+          onStudyTogether={()=>{setActivitiesOpen(true);session.markSharedActivitySeen()}}
           manage={!demo&&party?<PartyPage partyId={room.roomId} party={party} onReload={reload} onExit={onLeave}/>:undefined}
         />
       </aside>

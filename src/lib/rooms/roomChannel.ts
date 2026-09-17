@@ -30,6 +30,8 @@ export interface ChannelMember {
   seat: ChannelSeat | null
   lastActiveAt: string | null
   activity: 'studying' | 'idle'
+  /** Cumulative, all-time active-study minutes — the same total Maristanas shows the student for themselves. Absent from a server that predates it. */
+  totalStudyMinutes?: number
 }
 
 export interface ChannelProducer {

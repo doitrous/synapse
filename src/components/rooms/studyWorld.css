@@ -223,6 +223,7 @@
 .room-chat-empty>svg{color:var(--color-accent-strong)}.room-chat-empty h3{font-size:15px;font-family:var(--font-serif);color:var(--color-ink)}.room-chat-empty p{font-size:12px;max-width:240px;line-height:1.6}
 .room-chat-log article+article{margin-top:16px}.room-chat-log article>div{display:flex;justify-content:space-between;font-size:10px;color:var(--color-ink-2);margin-bottom:6px;gap:10px}
 .room-chat-log article>p{background:var(--color-primary-tint);color:var(--color-ink);padding:10px 12px;border-radius:8px 8px 2px 8px;font-size:13px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere}
+.room-chat-log article>p a{color:var(--color-primary-strong);text-decoration:underline;text-underline-offset:2px}
 .room-chat-box form{display:grid;grid-template-columns:1fr auto;align-items:center;gap:8px;padding:14px;border-top:1px solid var(--color-line)}
 .room-chat-box textarea{resize:none;width:100%;border:1px solid var(--color-line);border-radius:6px;padding:9px 10px;background:var(--color-surface-2);color:var(--color-ink);font-size:13px;line-height:1.5}
 .room-chat-box form small{grid-column:1/-1;font-size:10px;color:var(--color-ink-2)}.room-chat-live{overflow:auto;padding:16px}
@@ -473,7 +474,8 @@
 .session-together:focus-visible{outline:2px solid var(--color-primary);outline-offset:-2px}
 .session-together-icon{flex:0 0 auto;color:var(--color-primary-strong)}
 .session-together-copy{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
-.session-together-copy strong{font-size:13px;font-weight:600}
+.session-together-copy strong{font-size:13px;font-weight:600;display:inline-flex;align-items:center;gap:6px}
+.session-together-badge{width:7px;height:7px;border-radius:99px;background:var(--color-danger);flex:0 0 auto}
 .session-together-copy small{font-size:11px;color:var(--color-ink-2)}
 .session-together-chevron{flex:0 0 auto;color:var(--color-ink-3)}
 

@@ -1,8 +1,10 @@
 import { createContext, useCallback, useContext, useEffect, useRef, type ReactNode } from 'react'
-import { Bell, BellOff, Minus, Pause, Play, Plus, RotateCcw, SkipForward, Volume2, VolumeX } from 'lucide-react'
+import { Bell, BellOff, Clock3, Minus, Pause, Play, Plus, RotateCcw, SkipForward, Volume2, VolumeX } from 'lucide-react'
 import { IconButton } from '@/components/ui/IconButton'
 import { cn } from '@/lib/cn'
+import { formatMinutes } from '@/lib/format'
 import { useLocalJsonPreference, useLocalPreference } from '@/lib/useLocalPreference'
+import { useMaristanas } from '@/lib/useMaristanas'
 import { useT } from '@/lib/i18n'
 
 type Mode = 'focus' | 'short' | 'long'
@@ -357,6 +359,10 @@ export function usePomodoro(): PomodoroEngine | null {
 export function PomodoroPanel({ engine, settingsOpen }: { engine: PomodoroEngine; settingsOpen: boolean }) {
   const t = useT()
   const { current, settings, progress } = engine
+  // The student's running total, not just this block or this session — the
+  // same cumulative figure Maristanas already tracks server-side, reused here
+  // rather than kept as a second counter.
+  const { data: maristanaData } = useMaristanas()
 
   if (settingsOpen) {
     return (
@@ -482,6 +488,12 @@ export function PomodoroPanel({ engine, settingsOpen }: { engine: PomodoroEngine
         </div>
       </div>
 
+      {maristanaData && (
+        <div className="flex items-center gap-1.5 border-t border-line px-3 py-2 text-[10.5px] text-ink-2">
+          <Clock3 size={12} />
+          <span>{formatMinutes(maristanaData.studyMinutes)} {t('total study time')}</span>
+        </div>
+      )}
       <div className="flex items-center justify-between border-t border-line bg-surface-2/40 px-3 py-2.5">
         <p className="text-[10.5px] text-ink-3">{current.focusCycles} {t('focus blocks completed')}</p>
         <div className="flex items-center gap-0.5">

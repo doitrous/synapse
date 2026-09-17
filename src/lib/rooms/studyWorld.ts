@@ -73,6 +73,8 @@ export function normalizePersonalisation(raw: unknown): DeskPersonalisation {
 export interface StudyPresence extends SeatOccupant {
   university?: string; year?: string; topic?: string; goal?: string; status?: StudyStatus
   elapsedSeconds?: number; micMuted?: boolean; handRaised?: boolean; personalisation?: DeskPersonalisation
+  /** Cumulative, all-time active-study minutes — not this session's elapsed time. Undefined when not known (a server that predates it). */
+  totalStudyMinutes?: number
 }
 export interface FocusSession {
   startedAt: number | null; accumulatedMs: number; durationMinutes: number
@@ -99,6 +101,7 @@ export function mockWorldPresence(selfId: string, room: StudyRoomDefinition): St
     studying: i !== 2, speaking: false, university: ['Cairo University','Ain Shams University','Alexandria University'][i%3], year: `Year ${i%3+2}`,
     topic: topics[i%4], goal: ['Review the conduction pathway','Finish 20 flashcards','Explain the key mechanisms'][i%3],
     status: (['Focusing','Focusing','On Break','Needs Help','Available to Talk'] as StudyStatus[])[i%5], elapsedSeconds: 430+i*137, micMuted: true,
+    totalStudyMinutes: 180+i*97,
     personalisation: { ...DEFAULT_PERSONALISATION, note:MOTIVATIONAL_REMINDERS[(i*7+room.capacity)%50], model: STUDENT_MODELS[[0,4,2,5,1,6,3][i%7]].id },
   }))
 }

@@ -1,9 +1,30 @@
-import { useEffect, useRef, useState } from 'react'
+import { Fragment, useEffect, useRef, useState } from 'react'
 import { AtSign, MessageCircle, Send, X } from 'lucide-react'
 import { useT } from '@/lib/i18n'
 import { Button } from '@/components/ui/Button'
 import type { ChatMessage } from '@/lib/rooms/roomChannel'
 export interface RoomMessage {id:number;text:string}
+
+/** Matches a share link (or any http(s) URL) inside a chat line, so a classmate's shared note or board is a tap, not a copy-paste. */
+const URL_PATTERN=/https?:\/\/\S+/g
+
+/** Chat text with any URL turned into a clickable link — everything else rendered as plain text, unchanged. */
+function linkifyMessage(text:string){
+  const parts=text.split(URL_PATTERN)
+  const urls=text.match(URL_PATTERN)??[]
+  if(!urls.length)return text
+  return parts.flatMap((part,index)=>{
+    const url=urls[index]
+    // A trailing sentence punctuation mark almost never belongs to the URL.
+    const trimmed=url?.replace(/[).,!?]+$/,'')??''
+    const trailing=url?url.slice(trimmed.length):''
+    return [
+      <Fragment key={`t-${index}`}>{part}</Fragment>,
+      url?<a key={`u-${index}`} href={trimmed} target="_blank" rel="noopener noreferrer">{trimmed}</a>:null,
+      trailing,
+    ]
+  })
+}
 
 /** Who a private line is addressed to, or being composed for. Just enough to label a bubble or a chip. */
 export interface ChatTarget { id: string; name: string }
@@ -54,7 +75,7 @@ function Conversation({demo,messages,draft,onDraft,onSend,name,live}:{demo:boole
   if(demo)return <>
     <p className="room-chat-context">{t('Preview chat · only visible on this device.')}</p>
     <div ref={log} className="room-chat-log" role="log" aria-label={t('Chat messages')} aria-live="polite" aria-relevant="additions">
-      {messages.length===0?empty:messages.map(message=><article key={message.id}><div><strong>{name}</strong><time dateTime={new Date(message.id).toISOString()}>{new Date(message.id).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</time></div><p>{message.text}</p></article>)}
+      {messages.length===0?empty:messages.map(message=><article key={message.id}><div><strong>{name}</strong><time dateTime={new Date(message.id).toISOString()}>{new Date(message.id).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</time></div><p>{linkifyMessage(message.text)}</p></article>)}
     </div>
     <form onSubmit={e=>{e.preventDefault();onSend()}}><label className="sr-only" htmlFor="room-chat-message">{t('Message')}</label><textarea id="room-chat-message" ref={input} maxLength={500} rows={2} value={draft} onChange={e=>onDraft(e.target.value)} placeholder={t('Write to the room…')} onKeyDown={e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.nativeEvent.isComposing){e.preventDefault();onSend()}}}/><Button type="submit" size="sm" disabled={!draft.trim()} aria-label={t('Send message')}><Send size={17}/></Button><small>{t('Enter to send · Shift + Enter for a new line')}</small></form>
   </>
@@ -67,7 +88,7 @@ function Conversation({demo,messages,draft,onDraft,onSend,name,live}:{demo:boole
     <div ref={log} className="room-chat-log" role="log" aria-label={t('Chat messages')} aria-live="polite" aria-relevant="additions">
       {live.messages.length===0?empty:live.messages.map(message=>{
         const mine=message.from===live.selfId
-        return <article key={message.id} className={mine?'is-mine':''}><div><strong>{mine?name:live.nameFor(message.from)}{message.private?` · ${message.private&&mine?`${t('To')} ${live.nameFor(message.to??'')}`:t('Private')}`:''}</strong><time dateTime={message.at}>{new Date(message.at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</time></div><p>{message.text}</p></article>
+        return <article key={message.id} className={mine?'is-mine':''}><div><strong>{mine?name:live.nameFor(message.from)}{message.private?` · ${message.private&&mine?`${t('To')} ${live.nameFor(message.to??'')}`:t('Private')}`:''}</strong><time dateTime={message.at}>{new Date(message.at).toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'})}</time></div><p>{linkifyMessage(message.text)}</p></article>
       })}
     </div>
     <form className="room-chat-form" onSubmit={e=>{e.preventDefault();submitLive()}}>
