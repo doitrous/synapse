@@ -1,6 +1,6 @@
 import { FOUNDATION_TOPICS,FOUNDATION_ORDER_PACKS,FOUNDATION_RED_FLAG_PACKS } from '../../../server/shared/foundationGames.js'
 import { FOUNDATION_SPOTTERS } from '../../../server/shared/foundationSpotters.js'
-import { useCallback,useEffect,useMemo,useRef,useState } from 'react'
+import { useEffect,useMemo,useRef,useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowLeft,Bell,Gamepad2,ClipboardList,X } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
@@ -8,24 +8,27 @@ import { Field,Select,TextInput } from '@/components/ui/Field'
 import { useT } from '@/lib/i18n'
 import { apiGet,apiPost } from '@/lib/api'
 import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
-import { usePartyActions,usePartySessions,PARTY_REFUSALS } from '@/lib/useParties'
+import { usePartyActions,PARTY_REFUSALS } from '@/lib/useParties'
 import { PartySessionRunner } from '@/components/social/PartySessionRunner'
 import { PartyGameSyncPlayer } from '@/components/social/PartyGameSyncPlayer'
 import type { PartyGamePublicState } from '@/data/partyGameSync'
 import { useIdentity } from '@/lib/useIdentity'
+import { useRoomSession } from '@/lib/rooms/RoomSessionProvider'
 const kinds=[['term-grid','Term Grid'],['term-match','Term Match'],['spotter','Spotter'],['clinical-sequence','Clinical Sequence'],['mechanism-chain','Mechanism Chain'],['red-flag-sort','Red Flag Sort'],['maristanas','Build Maristanas']] as const
 export function RoomActivities({partyId,shared,demo,onClose}:{partyId:string;shared:boolean;demo:boolean;onClose:()=>void}){
-  const t=useT(),identity=useIdentity(),questions=usePublishedQuestions(),{createSession}=usePartyActions(),{sessions,reload}=usePartySessions(demo?null:partyId)
-  const [scope,setScope]=useState<'room'|'table'>('room'),[kind,setKind]=useState('term-match'),[selectedPack,setSelectedPack]=useState(''),[name,setName]=useState(''),[count,setCount]=useState(10),[topic,setTopic]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[sessionId,setSessionId]=useState<string|null>(null),[game,setGame]=useState<PartyGamePublicState|null>(null),[games,setGames]=useState<{id:string;title:string;tableId?:string|null;status:string}[]>([])
+  const t=useT(),identity=useIdentity(),questions=usePublishedQuestions(),{createSession}=usePartyActions()
+  // Sessions and games are polled at room lifetime by RoomSessionProvider, not
+  // here — this dialog reads that one shared poll rather than starting a
+  // second one of its own for as long as it happens to be open.
+  const session=useRoomSession()!
+  // The provider already resolves both to `[]` for a demo/no-room session — see
+  // `liveRoomId` in RoomSessionProvider — so there is no separate demo branch here.
+  const {sharedSessions:sessions,sharedGames:games,reloadSharedSessions:reload,reloadSharedGames:refreshGames}=session
+  const [scope,setScope]=useState<'room'|'table'>('room'),[kind,setKind]=useState('term-match'),[selectedPack,setSelectedPack]=useState(''),[name,setName]=useState(''),[count,setCount]=useState(10),[topic,setTopic]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState(''),[sessionId,setSessionId]=useState<string|null>(null),[game,setGame]=useState<PartyGamePublicState|null>(null)
   const topics=useMemo(()=>[...new Set(questions.map(q=>q.topic).filter(Boolean))],[questions])
   const gameSets=kind==='spotter'?FOUNDATION_SPOTTERS:kind==='red-flag-sort'?FOUNDATION_RED_FLAG_PACKS:kind==='clinical-sequence'||kind==='mechanism-chain'?FOUNDATION_ORDER_PACKS.filter(pack=>pack.kind===kind.replaceAll('-','_')):FOUNDATION_TOPICS
   const gamePack=gameSets.find(pack=>pack.id===selectedPack)?.id??gameSets[0].id
   const eligible=questions.filter(q=>!topic||q.topic===topic)
-  const refreshGames=useCallback(async()=>{if(demo)return;try{const result=await apiGet<{games:typeof games}>(`/parties/${partyId}/games`);setGames(result.games)}catch{setMessage('Could not load activities. Try again.')}},[partyId,demo])
-  // Poll both lists on one clock so a shared test another student starts shows
-  // up here the same way a shared game already did — usePartySessions loads
-  // once on its own, which left new tests invisible to everyone but their author.
-  useEffect(()=>{const tick=()=>{void refreshGames();void reload()};tick();const interval=setInterval(tick,6000);return()=>clearInterval(interval)},[refreshGames,reload])
   useEffect(()=>{if(!shared)setScope('room')},[shared])
   // Flag a shared test someone else has just opened that this student may join —
   // a room test, or a table test when they are seated at a shared table. The

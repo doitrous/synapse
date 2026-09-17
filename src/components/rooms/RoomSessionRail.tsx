@@ -90,11 +90,16 @@ export function RoomSessionRail({
         <p className="session-voice-status" role="status">{voiceStatus}</p>
       </div>
 
-      {/* Study together — the one door into shared tests and games. */}
+      {/* Study together — the one door into shared tests and games. The dot
+          flags a classmate's test or game the student has not opened yet,
+          even though this button was closed when it started. */}
       <button type="button" className="session-together" onClick={onStudyTogether}>
         <ClipboardList size={18} className="session-together-icon" />
         <span className="session-together-copy">
-          <strong>{t('Study together')}</strong>
+          <strong>
+            {t('Study together')}
+            {session.hasNewSharedActivity && <span className="session-together-badge" aria-label={t('New shared activity')} />}
+          </strong>
           <small>{t('Start a shared test or game')}</small>
         </span>
         <ChevronRight size={16} className="session-together-chevron" />

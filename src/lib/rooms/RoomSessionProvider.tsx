@@ -1,12 +1,25 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { API_MODE, apiPost } from '@/lib/api'
+import { API_MODE, apiGet, apiPost } from '@/lib/api'
 import { useIdentity } from '@/lib/useIdentity'
+import { usePartySessions, type PartySessionSummary } from '@/lib/useParties'
 import { useRoomAudio, type RoomAudio } from './useRoomAudio'
 import { useRoomChannel } from './useRoomChannel'
 import type { RoomChannel } from './useRoomChannel'
 import { useFocusSession, type FocusSessionController } from './useFocusSession'
 import { worldForRoom } from './studyWorld'
 import { loadActiveRoom, saveActiveRoom, sameRoom, type ActiveRoom } from './activeRoom'
+
+/** A shared game as the room's activity list shows it — the same shape `RoomActivities` polled locally before this moved here. */
+export interface PartyGameSummary {
+  id: string
+  title: string
+  tableId?: string | null
+  status: string
+  hostId?: string
+}
+
+/** How often shared tests and games are re-polled while a live room is open. */
+const ACTIVITY_POLL_MS = 6_000
 
 /**
  * The study room, lifted out of the page so it can outlive it.
@@ -45,6 +58,23 @@ export interface RoomSession {
   /** The dock's own open/closed state, so it reads the same on every page. */
   dockExpanded: boolean
   setDockExpanded(value: boolean): void
+  /**
+   * Shared tests and games for the active live room, polled for the whole time
+   * the student is in the room — not just while "Study together" is open. See
+   * `hasNewSharedActivity` below for why this moved here.
+   */
+  sharedSessions: PartySessionSummary[]
+  sharedGames: PartyGameSummary[]
+  reloadSharedSessions(): Promise<void>
+  reloadSharedGames(): Promise<void>
+  /**
+   * Whether a classmate has started a shared test or game since the student
+   * last opened "Study together". Tracked at room lifetime rather than inside
+   * `RoomActivities` (which only exists while that dialog is open) so the cue
+   * survives a closed dialog — the whole point of the badge.
+   */
+  hasNewSharedActivity: boolean
+  markSharedActivitySeen(): void
 }
 
 const RoomSessionContext = createContext<RoomSession | null>(null)
@@ -72,6 +102,54 @@ export function RoomSessionProvider({ children }: { children: ReactNode }) {
   const isLive = Boolean(room && !room.demo)
   const channel = useRoomChannel(isLive ? room!.roomCode : null)
   const audio = useRoomAudio(room?.roomId ?? '', selfId, room ? (room.demo ? null : channel) : null)
+
+  // Shared tests and games, polled for as long as the room is live — moved out
+  // of `RoomActivities` (which only exists while its dialog is open) so a test
+  // a classmate starts is still detected while the student is elsewhere in the
+  // room, or elsewhere in the app entirely.
+  const liveRoomId = isLive ? room!.roomId : null
+  const { sessions: sharedSessions, reload: reloadSharedSessions } = usePartySessions(liveRoomId)
+  const [sharedGames, setSharedGames] = useState<PartyGameSummary[]>([])
+  const reloadSharedGames = useCallback(async () => {
+    if (!liveRoomId || !API_MODE) { setSharedGames([]); return }
+    try {
+      const result = await apiGet<{ games: PartyGameSummary[] }>(`/parties/${encodeURIComponent(liveRoomId)}/games`)
+      setSharedGames(result.games)
+    } catch {
+      setSharedGames([])
+    }
+  }, [liveRoomId])
+  useEffect(() => {
+    if (!liveRoomId || !API_MODE) return undefined
+    void reloadSharedGames()
+    const timer = window.setInterval(() => void reloadSharedGames(), ACTIVITY_POLL_MS)
+    return () => window.clearInterval(timer)
+  }, [liveRoomId, reloadSharedGames])
+
+  // Which shared-activity ids the student has already seen. Seeded to the
+  // current list the first time it is read for this room, so joining a room
+  // that already has activities in progress does not cue every one of them —
+  // only genuinely new ones from here on. Reset whenever the live room changes.
+  const seenActivityIds = useRef<Set<string> | null>(null)
+  const [hasNewSharedActivity, setHasNewSharedActivity] = useState(false)
+  useEffect(() => {
+    seenActivityIds.current = null
+    setHasNewSharedActivity(false)
+  }, [liveRoomId])
+  useEffect(() => {
+    if (!liveRoomId) return
+    const current = new Set<string>([...sharedSessions.map((s) => s.id), ...sharedGames.map((g) => g.id)])
+    const seen = seenActivityIds.current
+    if (seen === null) { seenActivityIds.current = current; return }
+    const isNewTest = sharedSessions.some((s) => !seen.has(s.id) && !s.isMine && s.state !== 'closed')
+    const isNewGame = sharedGames.some((g) => !seen.has(g.id) && g.hostId !== selfId && g.status !== 'completed')
+    if (isNewTest || isNewGame) setHasNewSharedActivity(true)
+    seenActivityIds.current = current
+  }, [sharedSessions, sharedGames, liveRoomId, selfId])
+  const markSharedActivitySeen = useCallback(() => {
+    seenActivityIds.current = new Set<string>([...sharedSessions.map((s) => s.id), ...sharedGames.map((g) => g.id)])
+    setHasNewSharedActivity(false)
+  }, [sharedSessions, sharedGames])
 
   const roomRef = useRef(room)
   roomRef.current = room
@@ -145,7 +223,13 @@ export function RoomSessionProvider({ children }: { children: ReactNode }) {
     setViewingFull,
     dockExpanded,
     setDockExpanded,
-  }), [room, study, isLive, channel, audio, join, leave, viewingFull, dockExpanded])
+    sharedSessions,
+    sharedGames,
+    reloadSharedSessions,
+    reloadSharedGames,
+    hasNewSharedActivity,
+    markSharedActivitySeen,
+  }), [room, study, isLive, channel, audio, join, leave, viewingFull, dockExpanded, sharedSessions, sharedGames, reloadSharedSessions, reloadSharedGames, hasNewSharedActivity, markSharedActivitySeen])
 
   return <RoomSessionContext.Provider value={value}>{children}</RoomSessionContext.Provider>
 }

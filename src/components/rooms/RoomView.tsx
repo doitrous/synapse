@@ -209,7 +209,7 @@ export function RoomView({onMinimise,onLeave}: {onMinimise:()=>void;onLeave:()=>
           onCustomise={()=>setCustomising(true)}
           shared={sharedSeat}
           onLeaveRoom={onLeave}
-          onStudyTogether={()=>setActivitiesOpen(true)}
+          onStudyTogether={()=>{setActivitiesOpen(true);session.markSharedActivitySeen()}}
           manage={!demo&&party?<PartyPage partyId={room.roomId} party={party} onReload={reload} onExit={onLeave}/>:undefined}
         />
       </aside>
