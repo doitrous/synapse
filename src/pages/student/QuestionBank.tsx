@@ -22,6 +22,7 @@ import { bySession, sessionDetail, type SessionSummary } from '@/data/attemptSta
 import { useSubjectName } from '@/lib/useSubjectName'
 import { useMastery } from '@/lib/useMastery'
 import {
+  attemptedIds,
   incorrectIds,
   omittedIds,
   pruneManifests,
@@ -40,7 +41,6 @@ import {
   type Phase,
 }from '@/data/qbankSession'
 import { QbankHub, type QbankBank, type QbankHubTab } from '@/components/qbank/hub/QbankHub'
-import { YourProgress } from '@/components/qbank/hub/YourProgress'
 import { TestBuilder } from '@/components/qbank/hub/TestBuilder'
 import { UnifiedBuilder } from '@/components/qbank/unified/UnifiedBuilder'
 import { useMixedSession } from '@/lib/useMixedSession'
@@ -566,6 +566,11 @@ export function QuestionBank() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
 
   const flaggedQuestions = useMemo(() => questionsById(questions, marked), [questions, marked])
+  // Never attempted anywhere — the fresh questions a student wants to work through.
+  const unsolvedQuestions = useMemo(() => {
+    const attempted = attemptedIds(history.records)
+    return articleQuestions.filter((question) => !attempted.has(question.id))
+  }, [articleQuestions, history.records])
   const incorrectQuestions = useMemo(
     () => questionsById(questions, incorrectIds(history.records)),
     [questions, history.records],
@@ -577,11 +582,12 @@ export function QuestionBank() {
   }, [questions, sessionQuestions, history.records, saved])
 
   const sourcePool = useMemo(() => {
+    if (source === 'unsolved') return unsolvedQuestions
     if (source === 'flagged') return flaggedQuestions
     if (source === 'incorrect') return incorrectQuestions
     if (source === 'omitted') return omittedQuestions
     return articleQuestions
-  }, [source, articleQuestions, flaggedQuestions, incorrectQuestions, omittedQuestions])
+  }, [source, articleQuestions, unsolvedQuestions, flaggedQuestions, incorrectQuestions, omittedQuestions])
 
   const scoped = useMemo(
     () => questionsInScope(sourcePool, scope, libraryTopics),
@@ -653,10 +659,11 @@ export function QuestionBank() {
   /** What each chip in the composer's first step stands for. */
   const sourceCounts = useMemo(() => ({
     all: articleQuestions.length,
+    unsolved: unsolvedQuestions.length,
     flagged: flaggedQuestions.length,
     incorrect: incorrectQuestions.length,
     omitted: omittedQuestions.length,
-  }), [articleQuestions.length, flaggedQuestions.length, incorrectQuestions.length, omittedQuestions.length])
+  }), [articleQuestions.length, unsolvedQuestions.length, flaggedQuestions.length, incorrectQuestions.length, omittedQuestions.length])
 
   /**
    * A review session opened from elsewhere in the app.
@@ -1293,10 +1300,8 @@ export function QuestionBank() {
               questions={questions}
               collections={collectionQuestions}
               onStart={(pools, split) => { preloadMixedRunner(); mixed.start(pools, split) }}
-              // One node, handed to the MCQ composer and to the other three
-              // banks, so "Your progress" sits in the same place whichever
-              // bank is open. Its filter preselects to `bank`.
-              stats={<YourProgress bank={bank} questions={questions} history={history} />}
+              // "Your progress" now lives on the Performance tab, next to the
+              // rest of a student's record, rather than beside the builder.
               mcq={(
                 <TestBuilder
                   source={source}
@@ -1319,7 +1324,6 @@ export function QuestionBank() {
                   matching={available.length}
                   pool={articleQuestions.length}
                   onStart={start}
-                  stats={<YourProgress bank={bank} questions={questions} history={history} />}
                 />
               )}
             />
@@ -1648,12 +1652,12 @@ export function QuestionBank() {
           </summary>
           <div className="space-y-2.5 p-3">
             {otherWrong.map(({ opt, i }) => (
-              <div key={i} className="rounded-lg border border-line bg-surface-2/50 px-3 py-2.5">
-                <div className="flex items-center gap-2">
-                  <span className="grid size-5 shrink-0 place-items-center rounded-full border border-line-2 bg-surface text-[11px] font-semibold text-ink-2">{LETTERS[i]}</span>
-                  <span className="text-[12px] font-semibold text-ink">{t('Why this is wrong')}</span>
-                </div>
-                <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-2">
+              // The answer's letter leads the line, and the explanation sits
+              // right beside it — no "Why this is wrong" label, since the banner
+              // above already says these are the wrong answers.
+              <div key={i} className="flex gap-2.5 rounded-lg border border-line bg-surface-2/50 px-3 py-2.5">
+                <span className="mt-0.5 grid size-5 shrink-0 place-items-center rounded-full border border-line-2 bg-surface text-[11px] font-semibold text-ink-2">{LETTERS[i]}</span>
+                <p className="min-w-0 flex-1 text-[12.5px] leading-relaxed text-ink-2">
                   <HighlightableText text={opt.rationale.trim()} enabled blockId={`rationale-${i}`} highlights={highlights} />
                 </p>
               </div>
@@ -1824,9 +1828,9 @@ export function QuestionBank() {
                                   : 'border-danger/20 bg-danger-tint/40 text-ink-2',
                               )}
                             >
-                              <span className="mb-0.5 block text-[11px] font-bold uppercase tracking-[0.05em] text-ink-3">
-                                {opt.correct ? t('Why this is right') : t('Why your answer is wrong')}
-                              </span>
+                              {/* No "Why this is right/wrong" label — the option
+                                  it sits under already shows its letter and
+                                  correct/incorrect colour. */}
                               <HighlightableText text={rationaleText} enabled blockId={`rationale-${i}`} highlights={highlights} />
                             </p>
                           )}

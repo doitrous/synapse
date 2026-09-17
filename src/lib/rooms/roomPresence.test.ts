@@ -3,10 +3,12 @@ import assert from 'node:assert/strict'
 import {
   DEFAULT_SEAT,
   HALL_WIDTH,
+  LEFT_WINDOW_MS,
   ROW_HEIGHT,
   SEAT_WIDTH,
   STUDYING_WINDOW_MS,
   hallHeight,
+  isPresent,
   isStudying,
   normalizeSeat,
   placeSeats,
@@ -16,6 +18,23 @@ import {
 } from './roomPresence.ts'
 
 const NOW = Date.UTC(2026, 8, 2, 12, 0, 0)
+
+/* ---- isPresent (the hour-long "still in the room" window) -------------- */
+
+test('someone idle five minutes is still present though not studying', () => {
+  const fiveMinAgo = NOW - 300_000
+  assert.equal(isStudying(fiveMinAgo, NOW), false)
+  assert.equal(isPresent(fiveMinAgo, NOW), true)
+})
+
+test('the 60 minute boundary is inclusive, then they have left', () => {
+  assert.equal(isPresent(NOW - LEFT_WINDOW_MS, NOW), true)
+  assert.equal(isPresent(NOW - LEFT_WINDOW_MS - 1, NOW), false)
+})
+
+test('never having been seen is not present', () => {
+  assert.equal(isPresent(null, NOW), false)
+})
 
 /* ---- isStudying -------------------------------------------------------- */
 

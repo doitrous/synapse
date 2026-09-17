@@ -87,6 +87,16 @@ export function omittedIds(manifests: SessionManifests, records: AttemptRecord[]
   return out
 }
 
+/** Every question id the student has attempted on a question surface, ever. */
+export function attemptedIds(records: AttemptRecord[]): Set<string> {
+  const out = new Set<string>()
+  for (const entry of records) {
+    if (!QUESTION_SURFACES.has(entry.surface)) continue
+    out.add(entry.itemId)
+  }
+  return out
+}
+
 /** The published questions behind a set of ids, in pool order. */
 export function questionsById(pool: Question[], ids: Set<string>): Question[] {
   return pool.filter((question) => ids.has(question.id))

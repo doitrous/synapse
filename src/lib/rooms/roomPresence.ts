@@ -119,6 +119,30 @@ export function isStudying(
   return elapsed <= windowMs
 }
 
+/**
+ * How long a student can be idle before they are treated as having left — stood
+ * up from the desk and out of the room. Far longer than the studying window: a
+ * dimmed desk means "stepped away for a moment", but a full hour of no input
+ * means the tab was left open, so the seat should be freed and the student not
+ * put back in the room when they next open the app. The self auto-leave in
+ * `RoomSessionProvider` measures against this, and a server-side sweep should
+ * use the same hour.
+ */
+export const LEFT_WINDOW_MS = 3_600_000
+
+/**
+ * Whether `lastActiveAt` is recent enough that the student is still in the room
+ * rather than stood up. It is the studying test with the hour-long window, so
+ * the one ruler decides both "is their desk lit" (short window) and "are they
+ * still here at all" (this one).
+ */
+export function isPresent(
+  lastActiveAt: string | number | Date | null | undefined,
+  now: number,
+): boolean {
+  return isStudying(lastActiveAt, now, LEFT_WINDOW_MS)
+}
+
 /* ---- Layout ------------------------------------------------------------ */
 
 /**

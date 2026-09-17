@@ -32,6 +32,8 @@ import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
+import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { YourProgress } from '@/components/qbank/hub/YourProgress'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { QUESTION_HIGHLIGHTS_STORAGE_KEY, type QuestionHighlightStore } from '@/data/questionHighlights'
 import { analyzeHighlightBehavior, classifyAnswerChanges, flattenHighlightStore } from '@/data/studyTracking'
@@ -605,7 +607,9 @@ export function Performance() {
   const t = useT()
   const subjectName = useSubjectName()
   const [view, setView] = useState<PerformanceView>('personal')
-  const { records, loading } = useAttemptHistory()
+  const history = useAttemptHistory()
+  const { records, loading } = history
+  const questions = usePublishedQuestions()
 
   const scored = useMemo(() => marked(records), [records])
   const subjects = useMemo(
@@ -659,6 +663,7 @@ export function Performance() {
       <PageContainer>
         {header}
         <div className="space-y-4">
+          <YourProgress bank="mixed" questions={questions} history={history} />
           <div className="grid gap-4 lg:grid-cols-2">
             <ExamReadinessCard />
             <PerformanceOverview />

@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  incorrectIds, latestVerdicts, omittedIds, pruneManifests, questionsById, scopeFromQuestions,
+  attemptedIds, incorrectIds, latestVerdicts, omittedIds, pruneManifests, questionsById, scopeFromQuestions,
 } from './qbankCollections.ts'
 import type { AttemptRecord } from './attempts.ts'
 import type { Question } from './qbank.ts'
@@ -68,6 +68,18 @@ test('getting a question right takes it out of the wrong list', () => {
   assert.deepEqual([...incorrectIds(wrong)], ['q1'])
   const fixed = [...wrong, record('q1', true, '2026-08-05T09:00:00.000Z', 's2')]
   assert.deepEqual([...incorrectIds(fixed)], [])
+})
+
+test('attemptedIds collects every question touched on a question surface, right or wrong', () => {
+  // Unsolved = the whole bank minus these. A null (unmarked) attempt still
+  // counts as touched: the student engaged with it, so it is not "unsolved".
+  const records = [
+    record('q1', true, '2026-08-01T09:00:00.000Z', 's1'),
+    record('q2', false, '2026-08-02T09:00:00.000Z', 's1'),
+    record('q3', null, '2026-08-03T09:00:00.000Z', 's2'),
+  ]
+  assert.deepEqual([...attemptedIds(records)].sort(), ['q1', 'q2', 'q3'])
+  assert.deepEqual([...attemptedIds([])], [])
 })
 
 test('a question a sitting served but never recorded is omitted', () => {

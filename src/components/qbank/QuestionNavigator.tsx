@@ -1,4 +1,4 @@
-import { type ReactNode, useState } from 'react'
+import { type ReactNode, useEffect, useRef, useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
@@ -69,6 +69,13 @@ export function QuestionNavigator({
   // marked, and a collapsed strip reads as a heading rather than a control.
   // It still collapses on request; it simply no longer hides itself.
   const [open, setOpen] = useState(true)
+  // Keep the question you are on in view: on a phone the strip is one
+  // horizontally-scrolling row, so without this the current number scrolls off
+  // the end as you move through a long block.
+  const activeRef = useRef<HTMLButtonElement | null>(null)
+  useEffect(() => {
+    activeRef.current?.scrollIntoView({ inline: 'center', block: 'nearest' })
+  }, [current, open])
   const indexes = Array.from({ length: count }, (_, i) => i)
   const answered = indexes.filter((i) => stateFor(i) !== 'unseen' && stateFor(i) !== 'omitted').length
   const flagged = indexes.filter(isFlagged).length
@@ -112,14 +119,19 @@ export function QuestionNavigator({
         // Parking the key here instead of on a row of its own keeps it off the
         // page's vertical budget — it costs height only when the grid is a
         // single row, and then only the height the grid already spends.
-        <div className="flex items-start gap-x-4 gap-y-2.5 border-t border-line px-3 pb-3 pt-2.5">
-          <ol className="flex flex-1 flex-wrap gap-1.5">
+        <div className="flex flex-col gap-x-4 gap-y-2.5 border-t border-line px-3 pb-3 pt-2.5 sm:flex-row sm:items-start">
+          {/* One scrolling row on a phone so a long block costs one line, not a
+              screenful of wrapped rows; the familiar wrapping grid returns once
+              there is room (sm+). Scrollbar hidden — the row snaps and the
+              current number scrolls itself into view. */}
+          <ol className="flex flex-1 gap-1.5 overflow-x-auto snap-x [-ms-overflow-style:none] [scrollbar-width:none] sm:min-w-0 sm:flex-wrap sm:overflow-visible [&::-webkit-scrollbar]:hidden">
             {indexes.map((i) => {
               const state = stateFor(i)
               const here = i === current
               return (
-                <li key={i} className="relative">
+                <li key={i} className="relative shrink-0 snap-center">
                   <button
+                    ref={here ? activeRef : undefined}
                     type="button"
                     onClick={() => onJump(i)}
                     aria-current={here ? 'true' : undefined}

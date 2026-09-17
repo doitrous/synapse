@@ -82,10 +82,51 @@ export function saveActiveRoom(
     }
     storage.setItem(
       ACTIVE_ROOM_KEY,
-      JSON.stringify({ roomId: room.roomId, roomCode: room.roomCode, ...(room.roomName ? { roomName: room.roomName } : {}) }),
+      JSON.stringify({ roomId: room.roomId, roomCode: room.roomCode, ...(room.roomName ? { roomName: room.roomName } : {}), lastActiveAt: Date.now() }),
     )
   } catch {
     /* private browsing, or a full quota — the room simply is not remembered */
+  }
+}
+
+/**
+ * When the remembered room last saw activity, or null.
+ *
+ * Persisted so a student who left the tab open and walked away is not silently
+ * put back in the room on their next visit: the provider reads this at start and
+ * drops a membership that has gone stale past `LEFT_WINDOW_MS`.
+ */
+export function loadActiveRoomAt(storage: Pick<Storage, 'getItem'> | undefined = safeStorage()): number | null {
+  if (!storage) return null
+  try {
+    const raw = storage.getItem(ACTIVE_ROOM_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw) as { lastActiveAt?: unknown }
+    return typeof parsed.lastActiveAt === 'number' && Number.isFinite(parsed.lastActiveAt) ? parsed.lastActiveAt : null
+  } catch {
+    return null
+  }
+}
+
+/**
+ * Refresh the remembered room's activity stamp without changing the room.
+ *
+ * Called on the room heartbeat so the "still here" signal survives a reload; a
+ * no-op when no live room is stored.
+ */
+export function touchActiveRoom(
+  now: number = Date.now(),
+  storage: Pick<Storage, 'getItem' | 'setItem'> | undefined = safeStorage(),
+): void {
+  if (!storage) return
+  try {
+    const raw = storage.getItem(ACTIVE_ROOM_KEY)
+    if (!raw) return
+    const parsed = JSON.parse(raw) as Record<string, unknown>
+    if (typeof parsed.roomId !== 'string' || !parsed.roomId) return
+    storage.setItem(ACTIVE_ROOM_KEY, JSON.stringify({ ...parsed, lastActiveAt: now }))
+  } catch {
+    /* private browsing, or a full quota — the stamp simply is not refreshed */
   }
 }
 

@@ -40,9 +40,14 @@ function lazyNamed(loader: () => Promise<Record<string, unknown>>, exportName: s
 function PageReads({ children }: { children: ReactElement }) {
   const { pathname, search } = useLocation()
   // Dashboard sections load independently. Canvas/reader pages own their
-  // viewport and use their local content and media loaders.
+  // viewport and use their local content and media loaders. Question Bank does
+  // too: its setup screen paints from `useCatalogueAvailability` (the content
+  // summary) and never needs the ~20 per-key reads — attempt-history month
+  // shards, sittings, mastery, saved sessions — that only feed the Previous and
+  // Flagged tabs. Gating the whole page on all of them held first paint hostage
+  // to the slowest one, which is what made the bank feel slow to open.
   const layout = loadingLayoutFor(pathname, search)
-  if (['dashboard', 'reader', 'whiteboard', 'atlas', 'room'].includes(layout.shape)) return children
+  if (['dashboard', 'reader', 'whiteboard', 'atlas', 'room', 'qbank'].includes(layout.shape)) return children
   return <InitialReadBoundary key={pathname} layout={layout} tab={new URLSearchParams(search).get('tab') ?? undefined}>{children}</InitialReadBoundary>
 }
 

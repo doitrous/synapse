@@ -9,7 +9,7 @@ import { newId } from '@/data/userLibrary'
 
 export const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F']
 export type Mode = 'tutor' | 'timed'
-export type Source = 'all' | 'flagged' | 'incorrect' | 'omitted'
+export type Source = 'all' | 'unsolved' | 'flagged' | 'incorrect' | 'omitted'
 
 export function shuffle<T>(a: T[]): T[] {
   const b = [...a]

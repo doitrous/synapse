@@ -16,7 +16,7 @@ import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
 
 /** The pool a test is drawn from before any topic scope is applied. */
-export type DrawFrom = 'all' | 'flagged' | 'incorrect' | 'omitted'
+export type DrawFrom = 'all' | 'unsolved' | 'flagged' | 'incorrect' | 'omitted'
 export type SessionMode = 'tutor' | 'timed'
 
 /** One question-source card, as the page counts them. */
@@ -144,9 +144,10 @@ export function TestBuilder({
   const lenChoice = custom ? 'custom' : String(count)
 
   const drawLabel = source === 'all' ? t('the whole bank')
-    : source === 'flagged' ? t('your flagged questions')
-      : source === 'incorrect' ? t('questions you got wrong')
-        : t('questions you left unanswered')
+    : source === 'unsolved' ? t('questions you have not solved')
+      : source === 'flagged' ? t('your flagged questions')
+        : source === 'incorrect' ? t('questions you got wrong')
+          : t('questions you left unanswered')
   const scopeLabel = scope.size === 0
     ? t('every topic')
     : scope.size === 1 ? t('1 topic selected') : `${scope.size} ${t('topics selected')}`
@@ -170,6 +171,7 @@ export function TestBuilder({
               onChange={(value) => setSource(value as DrawFrom)}
               items={[
                 { value: 'all', label: t('All questions'), count: sourceCounts.all },
+                { value: 'unsolved', label: t('Unsolved'), count: sourceCounts.unsolved },
                 { value: 'flagged', label: t('Flagged'), count: sourceCounts.flagged },
                 { value: 'incorrect', label: t('Got wrong'), count: sourceCounts.incorrect },
                 { value: 'omitted', label: t('Omitted'), count: sourceCounts.omitted },

@@ -7,7 +7,8 @@ import { useRoomChannel } from './useRoomChannel'
 import type { RoomChannel } from './useRoomChannel'
 import { useFocusSession, type FocusSessionController } from './useFocusSession'
 import { worldForRoom } from './studyWorld'
-import { loadActiveRoom, saveActiveRoom, sameRoom, type ActiveRoom } from './activeRoom'
+import { loadActiveRoom, loadActiveRoomAt, saveActiveRoom, touchActiveRoom, sameRoom, type ActiveRoom } from './activeRoom'
+import { LEFT_WINDOW_MS } from './roomPresence'
 
 /** A shared game as the room's activity list shows it — the same shape `RoomActivities` polled locally before this moved here. */
 export interface PartyGameSummary {
@@ -95,7 +96,18 @@ export function RoomSessionProvider({ children }: { children: ReactNode }) {
   // the room rather than at the lobby. Voice is not auto-rejoined — a browser
   // will not open a microphone after a reload without a fresh gesture, and the
   // dock offers "Join voice" for exactly that.
-  const [room, setRoom] = useState<ActiveRoom | null>(() => (API_MODE ? loadActiveRoom() : null))
+  const [room, setRoom] = useState<ActiveRoom | null>(() => {
+    if (!API_MODE) return null
+    const saved = loadActiveRoom()
+    // A student who left the tab open and walked away for an hour is not put back
+    // in the room on their next visit: the seat was given up, so land at the lobby.
+    const at = loadActiveRoomAt()
+    if (saved && at !== null && Date.now() - at >= LEFT_WINDOW_MS) {
+      saveActiveRoom(null)
+      return null
+    }
+    return saved
+  })
   const [viewingFull, setViewingFull] = useState(false)
   const [dockExpanded, setDockExpanded] = useState(false)
 
@@ -201,13 +213,19 @@ export function RoomSessionProvider({ children }: { children: ReactNode }) {
     const code = room!.roomCode
     const path = `/parties/${encodeURIComponent(code)}/heartbeat`
     const beat = () => {
-      const activity = Date.now() - activeRef.current < 90_000 ? 'studying' : 'idle'
+      const idleMs = Date.now() - activeRef.current
+      // An hour with no input in any tab means the student walked away. Stand
+      // them up — free the desk and leave the room — rather than hold a seat
+      // nobody is in and put them back at it next visit.
+      if (idleMs >= LEFT_WINDOW_MS) { leave(); return }
+      touchActiveRoom()
+      const activity = idleMs < 90_000 ? 'studying' : 'idle'
       void apiPost(path, { activity }).catch(() => undefined)
     }
     beat()
     const timer = window.setInterval(beat, 30_000)
     return () => window.clearInterval(timer)
-  }, [isLive, room?.roomCode])
+  }, [isLive, room?.roomCode, leave])
 
   const resetStudy = study.reset
   useEffect(() => { resetStudy(worldForRoom(room?.roomId ?? '').minutes) }, [room?.roomId, resetStudy])
