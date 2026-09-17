@@ -285,6 +285,47 @@ export function preloadStudentRoute(to: string): void {
   studentPages[to.replace(/^\/app\/?/, '')]?.preload()
 }
 
+/**
+ * Every admin page component, by the path its nav item points at — for
+ * preloading only; `adminBuilt` below still owns rendering (and the one extra
+ * prop `content` needs). Kept as its own map rather than derived from
+ * `adminBuilt` so this is purely additive next to it.
+ */
+const adminPages: Record<string, Preloadable> = {
+  academic: AcademicSetup,
+  content: QuestionsSetup,
+  adaptive: AdaptiveSetup,
+  knowledge: KnowledgeGraph,
+  taxonomy: TaxonomySetup,
+  glossary: GlossarySetup,
+  tutorial: TutorialSetup,
+  legal: LegalPagesSetup,
+  notifications: NotificationCampaigns,
+  vouchers: VoucherManagement,
+  payments: PaymentsFinance,
+  email: EmailAutomations,
+  mailbox: MailBox,
+  privacy: PrivacySupport,
+  settings: AdminSettings,
+  audit: AuditSecurity,
+  access: AccessControl,
+  assistant: AssistantSetup,
+  validation: ValidationAnalytics,
+  analytics: StudentAnalytics,
+  inbox: Inbox,
+  people: People,
+}
+
+/**
+ * Fetch an admin route's chunk ahead of the click, the admin-side sibling of
+ * `preloadStudentRoute`. Previously the sidebar called `preloadStudentRoute`
+ * for both portals: its `/app/` strip is a no-op on an `/admin/...` path, so
+ * every admin nav item silently preloaded nothing on hover/focus/touch.
+ */
+export function preloadAdminRoute(to: string): void {
+  adminPages[to.replace(/^\/admin\/?/, '')]?.preload()
+}
+
 // RouteLoading resolves both portals through the explicit loading-layout registry.
 const adminBuilt: Record<string, ReactElement> = {
   academic: render(AcademicSetup),
