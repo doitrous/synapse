@@ -278,24 +278,24 @@ class SyncEngine(
          * granted students must not be guessed at here.
          */
         val CATALOGUE_KEYS: List<String> = listOf(
-            "synapse-academic-universities-v1",
-            "synapse-course-curricula-v1",
-            "synapse-module-schedules-v1",
-            "synapse-admin-content-ledger-v4",
-            "synapse-concept-graph-v2",
-            "synapse-relation-types-v1",
-            "synapse-taxonomy-tree-v4",
-            "synapse-medical-library-taxonomy-v1",
-            "synapse-medical-glossary-v1",
-            "synapse-medical-evidence-published-v1",
-            "synapse-plans-v1",
-            "synapse-notification-campaigns-v1",
-            "synapse-vouchers-v1",
-            "synapse-system-colors-v1",
+            "nishany-academic-universities-v1",
+            "nishany-course-curricula-v1",
+            "nishany-module-schedules-v1",
+            "nishany-admin-content-ledger-v4",
+            "nishany-concept-graph-v2",
+            "nishany-relation-types-v1",
+            "nishany-taxonomy-tree-v4",
+            "nishany-medical-library-taxonomy-v1",
+            "nishany-medical-glossary-v1",
+            "nishany-medical-evidence-published-v1",
+            "nishany-plans-v1",
+            "nishany-notification-campaigns-v1",
+            "nishany-vouchers-v1",
+            "nishany-system-colors-v1",
         )
 
         /** The content ledger's key — the one catalogue document that also gets shredded into rows [LocalStore] can query. */
-        private const val LEDGER_KEY = "synapse-admin-content-ledger-v4"
+        private const val LEDGER_KEY = "nishany-admin-content-ledger-v4"
 
         /**
          * The per-student documents the qbank and practical surfaces read.
@@ -305,11 +305,11 @@ class SyncEngine(
          * annotations) is deliberately out of scope.
          */
         private val USER_STATE_KEYS: List<String> = listOf(
-            "synapse.qbank.activeSession.v1", // src/pages/student/QuestionBank.tsx:232
-            "synapse.qbank.marked.v1", // src/pages/student/QuestionBank.tsx:100
-            "synapse.qbank.questionNotes.v1", // src/components/qbank/StudyRail.tsx:19
-            "synapse.qbank.sessionNames.v1", // src/pages/student/QuestionBank.tsx:233
-            "synapse.practical.progress.v1", // src/data/practicalProgress.ts:17
+            "nishany.qbank.activeSession.v1", // src/pages/student/QuestionBank.tsx:232
+            "nishany.qbank.marked.v1", // src/pages/student/QuestionBank.tsx:100
+            "nishany.qbank.questionNotes.v1", // src/components/qbank/StudyRail.tsx:19
+            "nishany.qbank.sessionNames.v1", // src/pages/student/QuestionBank.tsx:233
+            "nishany.practical.progress.v1", // src/data/practicalProgress.ts:17
         )
     }
 }

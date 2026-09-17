@@ -25,8 +25,8 @@ class AttemptTest {
 
     @Test
     fun `the shard key matches the web's spelling`() {
-        assertEquals("synapse.progress.attempts.2026-08", AttemptStore.monthKey("2026-08"))
-        assertEquals("synapse.progress.attemptIndex.v1", AttemptStore.INDEX_KEY)
+        assertEquals("nishany.progress.attempts.2026-08", AttemptStore.monthKey("2026-08"))
+        assertEquals("nishany.progress.attemptIndex.v1", AttemptStore.INDEX_KEY)
     }
 
     @Test

@@ -53,7 +53,7 @@ data class AttemptIndex(
 
 object AttemptStore {
 
-    const val INDEX_KEY = "synapse.progress.attemptIndex.v1"
+    const val INDEX_KEY = "nishany.progress.attemptIndex.v1"
 
     /**
      * How many month shards count as "the student's history", everywhere.
@@ -86,7 +86,7 @@ object AttemptStore {
         return "%04d-%02d".format(local.year, local.monthValue)
     }
 
-    fun monthKey(month: String) = "synapse.progress.attempts.$month"
+    fun monthKey(month: String) = "nishany.progress.attempts.$month"
 
     /**
      * The id a record is deduplicated by: `"$sessionId:$surface:$itemId"`,

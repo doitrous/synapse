@@ -94,13 +94,13 @@ class SyncEngineTest {
     fun `the catalogue key list matches STUDENT_READABLE_STATE exactly`() {
         assertEquals(
             listOf(
-                "synapse-academic-universities-v1", "synapse-course-curricula-v1",
-                "synapse-module-schedules-v1", "synapse-admin-content-ledger-v4",
-                "synapse-concept-graph-v2", "synapse-relation-types-v1",
-                "synapse-taxonomy-tree-v4", "synapse-medical-library-taxonomy-v1",
-                "synapse-medical-glossary-v1", "synapse-medical-evidence-published-v1",
-                "synapse-plans-v1", "synapse-notification-campaigns-v1",
-                "synapse-vouchers-v1", "synapse-system-colors-v1",
+                "nishany-academic-universities-v1", "nishany-course-curricula-v1",
+                "nishany-module-schedules-v1", "nishany-admin-content-ledger-v4",
+                "nishany-concept-graph-v2", "nishany-relation-types-v1",
+                "nishany-taxonomy-tree-v4", "nishany-medical-library-taxonomy-v1",
+                "nishany-medical-glossary-v1", "nishany-medical-evidence-published-v1",
+                "nishany-plans-v1", "nishany-notification-campaigns-v1",
+                "nishany-vouchers-v1", "nishany-system-colors-v1",
             ),
             SyncEngine.CATALOGUE_KEYS,
         )
@@ -109,9 +109,9 @@ class SyncEngineTest {
     @Test
     fun `only documents whose stamp moved are fetched`() = runBlocking {
         val stamp = Instant.parse("2026-01-01T00:00:00Z")
-        val unchangedA = "synapse-plans-v1"
-        val unchangedB = "synapse-vouchers-v1"
-        val changed = "synapse-system-colors-v1"
+        val unchangedA = "nishany-plans-v1"
+        val unchangedB = "nishany-vouchers-v1"
+        val changed = "nishany-system-colors-v1"
 
         store.putDocument(unchangedA, """{"a":1}""", stamp)
         store.putDocument(unchangedB, """{"b":1}""", stamp)
@@ -155,7 +155,7 @@ class SyncEngineTest {
 
     @Test
     fun `the ledger is shredded into rows the store can query`() = runBlocking {
-        val ledgerKey = "synapse-admin-content-ledger-v4"
+        val ledgerKey = "nishany-admin-content-ledger-v4"
         val stamp = Instant.parse("2026-03-01T00:00:00Z")
         stubManifest(mapOf(ledgerKey to stamp))
         stubGet(
@@ -175,7 +175,7 @@ class SyncEngineTest {
 
     @Test
     fun `a newer local copy is not overwritten by the server's`() = runBlocking {
-        val key = "synapse.qbank.marked.v1"
+        val key = "nishany.qbank.marked.v1"
         store.putDocument(key, """["q1"]""", null)
         // Clearly in the past relative to the local write that just happened.
         stubGet(key, """["q1","q2"]""", Instant.now().minusSeconds(600))
@@ -187,7 +187,7 @@ class SyncEngineTest {
 
     @Test
     fun `a stale local copy is replaced`() = runBlocking {
-        val key = "synapse.qbank.marked.v1"
+        val key = "nishany.qbank.marked.v1"
         store.putDocument(key, """["q1"]""", null)
         // Millisecond precision: Room's Instant converter (Converters.kt)
         // round-trips through epoch millis, so a stamp with finer precision
@@ -205,8 +205,8 @@ class SyncEngineTest {
 
     @Test
     fun `the outbox drains in order and empties`() = runBlocking {
-        val keyA = "synapse.qbank.marked.v1"
-        val keyB = "synapse.practical.progress.v1"
+        val keyA = "nishany.qbank.marked.v1"
+        val keyB = "nishany.practical.progress.v1"
         store.enqueue(keyA, """["q1"]""", Instant.now())
         store.enqueue(keyB, """{"done":1}""", Instant.now())
 
@@ -219,7 +219,7 @@ class SyncEngineTest {
 
     @Test
     fun `a forbidden document is dropped from the queue rather than retried forever`() = runBlocking {
-        val key = "synapse.qbank.marked.v1"
+        val key = "nishany.qbank.marked.v1"
         store.enqueue(key, """["q1"]""", Instant.now())
         overrides["PUT /api/user-state/$key"] = { MockResponse().setResponseCode(403) }
 
@@ -230,7 +230,7 @@ class SyncEngineTest {
 
     @Test
     fun `a transient failure leaves the entry queued`() = runBlocking {
-        val key = "synapse.qbank.marked.v1"
+        val key = "nishany.qbank.marked.v1"
         store.enqueue(key, """["q1"]""", Instant.now())
         overrides["PUT /api/user-state/$key"] = { MockResponse().setResponseCode(500) }
 
@@ -243,8 +243,8 @@ class SyncEngineTest {
 
     @Test
     fun `a malformed outbox entry is dropped without wedging the rest of the queue`() = runBlocking {
-        val badKey = "synapse.qbank.marked.v1"
-        val goodKey = "synapse.practical.progress.v1"
+        val badKey = "nishany.qbank.marked.v1"
+        val goodKey = "nishany.practical.progress.v1"
         // Not valid JSON at all -- parseToJsonElement throws SerializationException,
         // which must be handled the same way ApiError.Forbidden is, not left to
         // abort the loop and strand goodKey behind it.
@@ -260,7 +260,7 @@ class SyncEngineTest {
 
     @Test
     fun `write puts the document locally and drains it opportunistically`() = runBlocking {
-        val key = "synapse.qbank.marked.v1"
+        val key = "nishany.qbank.marked.v1"
 
         engine.write(key, """["q1"]""")
 
@@ -271,7 +271,7 @@ class SyncEngineTest {
 
     @Test
     fun `write lands the document and the outbox entry together in one transaction`() = runBlocking {
-        val key = "synapse.qbank.marked.v1"
+        val key = "nishany.qbank.marked.v1"
         // Nothing drains it: write() must have already made both rows visible
         // in the same LocalStore.putDocumentAndEnqueue transaction before
         // drain() ever runs, not as two separable writes that could land one

@@ -71,7 +71,7 @@ class AppGraphTest {
         val built = AppGraph(context(), unconfigured())
         graph = built
 
-        built.store.enqueue(key = "synapse.qbank.marked.v1", json = "{}", savedAt = Instant.now())
+        built.store.enqueue(key = "nishany.qbank.marked.v1", json = "{}", savedAt = Instant.now())
 
         val countSeenThroughDatabase = withTimeout(5_000) {
             built.database.outboxDao().count().first { it == 1 }

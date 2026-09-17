@@ -56,7 +56,7 @@ class ThemePreference(context: Context) {
     }
 
     private companion object {
-        const val PREFS_NAME = "synapse-theme"
-        const val KEY = "synapse-theme"
+        const val PREFS_NAME = "nishany-theme"
+        const val KEY = "nishany-theme"
     }
 }
