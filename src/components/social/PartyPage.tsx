@@ -116,7 +116,7 @@ export function PartyPage({
   const error = providedParty ? '' : owned.error
   const reload = onReload ?? owned.reload
   const { sessions, reload: reloadSessions } = usePartySessions(partyId)
-  const { setVisibility, createSession } = usePartyActions()
+  const { setVisibility, setScope, createSession } = usePartyActions()
   const questions = usePublishedQuestions()
   const practicals = useLivePracticals()
   const essays = useLiveEssays()
@@ -208,6 +208,15 @@ export function PartyPage({
     setBusy(true)
     setMessage('')
     const result = await setVisibility(party!.id, nextOpen ? 'open' : 'invite')
+    setBusy(false)
+    if (!result.ok) setMessage(PARTY_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t))
+    else void reload()
+  }
+
+  async function changeScope(scope: 'cohort' | 'university' | 'global') {
+    setBusy(true)
+    setMessage('')
+    const result = await setScope(party!.id, scope)
     setBusy(false)
     if (!result.ok) setMessage(PARTY_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t))
     else void reload()
@@ -337,6 +346,17 @@ export function PartyPage({
                     label={t('Open to your year')}
                   />
                 </div>
+                <Field label={t('Who can join?')} hint={t('A global room appears for every university. Change it any time.')}>
+                  <Select
+                    value={party.scope ?? 'cohort'}
+                    disabled={busy}
+                    onChange={(e) => void changeScope(e.target.value as 'cohort' | 'university' | 'global')}
+                  >
+                    <option value="cohort">{t('My university and year')}</option>
+                    <option value="university">{t('My university · all years')}</option>
+                    <option value="global">{t('Global · all universities')}</option>
+                  </Select>
+                </Field>
                 {busy && <p className="text-[12px] text-ink-3">{t('Saving…')}</p>}
                 {message && <p role="status" className="text-[12.5px] text-danger">{message}</p>}
               </div>

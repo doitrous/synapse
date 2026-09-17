@@ -5,7 +5,7 @@ import { inviteToRoom,roomInvitationFor,respondToRoomInvitation,roomInvitationNo
  */
 import { requireAuthenticated } from '../auth.js'
 import { wrap } from '../http.js'
-import { answerItem, closeSession, createParty, createSession, ensureSeated, joinByCode, leaveParty, myParties, openParties, partyFor, partyMembers, recordActivity, resolvePartyId, sessionFor, sessionsFor, setSeat, setVisibility } from '../parties.js'
+import { answerItem, closeSession, createParty, createSession, ensureSeated, joinByCode, leaveParty, myParties, openParties, partyFor, partyMembers, recordActivity, resolvePartyId, sessionFor, sessionsFor, setSeat, setScope, setVisibility } from '../parties.js'
 import { actOnPartyGame, createPartyGame, partyGameFor, partyGamesFor, streamPartyGameEvents } from '../partyGames.js'
 import { notifyRoomPresence } from '../roomsRealtime.js'
 
@@ -41,6 +41,10 @@ export function registerPartyRoutes(app) {
 
   app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, res) => {
     res.json(await setVisibility(req.identity.id, req.params.id, req.body?.visibility))
+  }))
+
+  app.post('/api/parties/:id/scope', requireAuthenticated, wrap(async (req, res) => {
+    res.json(await setScope(req.identity.id, req.params.id, req.body?.scope))
   }))
 
   app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {

@@ -329,6 +329,26 @@ export async function setVisibility(userId, partyId, visibility) {
 }
 
 /**
+ * Change who a room is for, after it was created.
+ *
+ * Creation is the only place scope used to be set, so a room made before the
+ * global option existed — or made without changing the default — was stuck at
+ * its original audience for good: a room the host wanted open to every
+ * university simply never appeared outside their own. The host can now widen
+ * or narrow it here. The stored `university_id`/`year` (the host's own cohort
+ * at creation) stay put; only which of them the audience test consults
+ * changes. Host-only, exactly like visibility.
+ */
+export async function setScope(userId, partyId, scope) {
+  if (!['cohort', 'university', 'global'].includes(scope)) return { ok: false, reason: 'invalid_room_scope' }
+  const [rows] = await pool.query('SELECT host_user_id AS hostUserId FROM study_parties WHERE id = ?', [partyId])
+  if (!rows.length) return { ok: false, reason: 'not_found' }
+  if (rows[0].hostUserId !== userId) return { ok: false, reason: 'not_host' }
+  await pool.query('UPDATE study_parties SET room_scope = ? WHERE id = ?', [scope, partyId])
+  return { ok: true, party: await partyFor(userId, partyId) }
+}
+
+/**
  * A party as one member may see it. A non-member gets null, exactly as
  * `roomFor` does — whether a party exists is not something a stranger should
  * be able to probe by id.
@@ -397,14 +417,21 @@ export async function myParties(userId) {
  */
 export async function openParties(userId) {
   const cohort = await cohortFor(userId)
-  if (!cohort) return []
+  // A global room is open to everyone, cohort or not — so a student who has not
+  // finished setting their university and year still sees the platform-wide
+  // rooms. Only the university/cohort lists need a cohort to match against;
+  // absent one, the first branch (`? IS NOT NULL` = false) drops them and
+  // global rooms are all that remain. This used to `return []` here, which
+  // hid every room — global included — from anyone without a year on file.
+  const universityId = cohort?.universityId ?? null
+  const year = cohort?.year ?? null
 
   const [rows] = await pool.query(
     `SELECT p.id, p.code, p.name, p.host_user_id AS hostUserId, p.university_id AS universityId, p.year,
             p.visibility, p.layout_key AS layoutKey, p.room_scope AS scope, p.created_at AS createdAt, p.archived_at AS archivedAt,
             (SELECT COUNT(*) FROM study_party_members pm WHERE pm.party_id = p.id) AS members
        FROM study_parties p
-      WHERE (p.room_scope = 'global' OR (p.university_id = ? AND (p.room_scope = 'university' OR p.year = ?)))
+      WHERE (p.room_scope = 'global' OR (? IS NOT NULL AND p.university_id = ? AND (p.room_scope = 'university' OR p.year = ?)))
         -- "Open in your year" is a list of parties to join. One you are already
         -- in is not an invitation, and offering to let someone join a party they
         -- are standing in reads as a bug.
@@ -412,7 +439,7 @@ export async function openParties(userId) {
           SELECT 1 FROM study_party_members pm
            WHERE pm.party_id = p.id AND pm.user_id = ?
         )`,
-    [cohort.universityId, cohort.year, userId],
+    [universityId, universityId, year, userId],
   )
   const candidates = rows.map((row) => ({
     id: row.id,
@@ -426,7 +453,7 @@ export async function openParties(userId) {
     archivedAt: row.archivedAt,
     members: Number(row.members),
   }))
-  return visibleTo(candidates, cohort).map((party) => ({
+  return visibleTo(candidates, cohort ?? { universityId: null, year: null }).map((party) => ({
     id: party.id,
     code: party.code,
     name: party.name,

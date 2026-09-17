@@ -150,6 +150,7 @@ export const PARTY_REFUSALS: Record<string, string> = {
   wrong_cohort: 'That link does not open a party you can join.',
   archived: 'That party has been archived and is no longer taking new members.',
   invalid_visibility: 'That is not a valid visibility setting.',
+  invalid_room_scope: 'That is not a valid room audience.',
   // Shared by a party lookup (setting visibility, leaving) and a session
   // lookup (answering, closing) — the server answers both the same way, so
   // one sentence covers either without claiming to know which was meant.
@@ -367,6 +368,11 @@ export function usePartyActions() {
       apiPost<{ ok: boolean; reason?: string; party?: Party }>(`/parties/${encodeURIComponent(partyId)}/visibility`, { visibility }),
     [],
   )
+  const setScope = useCallback(
+    (partyId: string, scope: 'cohort' | 'university' | 'global') =>
+      apiPost<{ ok: boolean; reason?: string; party?: Party }>(`/parties/${encodeURIComponent(partyId)}/scope`, { scope }),
+    [],
+  )
   const leave = useCallback(
     (partyId: string) => apiPost<{ ok: boolean; reason?: string }>(`/parties/${encodeURIComponent(partyId)}/leave`),
     [],
@@ -389,5 +395,5 @@ export function usePartyActions() {
       apiPost<{ ok: boolean; reason?: string; session?: PartySession }>(`/party-sessions/${encodeURIComponent(sessionId)}/close`),
     [],
   )
-  return { create, join, setVisibility, leave, createSession, answer, closeSession }
+  return { create, join, setVisibility, setScope, leave, createSession, answer, closeSession }
 }
