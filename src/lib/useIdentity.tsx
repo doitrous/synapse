@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { API_MODE, adoptOwnerLookup, apiPut, loadMe, setStateOwnerId, SESSION_EXPIRED_EVENT } from './api'
+import { API_MODE, adoptOwnerLookup, apiPut, errorKind, isRetryable, loadMe, setStateOwnerId, SESSION_EXPIRED_EVENT } from './api'
 import { usePersistentState } from './usePersistentState'
 import { retryAfterSignIn } from './stateStore'
 import { yearId as deriveYearId } from '@/data/taxonomy'
@@ -322,15 +322,25 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
     // the one cookie, so arriving on either is arriving signed in.
     const load = async () => {
       let me: MeResponse | null = null
-      try {
-        const request = loadMe<MeResponse>()
-        // The state store asks the same question for its recovery keys; hand it
-        // this request so a boot makes one `/me` call, not two.
-        void adoptOwnerLookup(request)
-        me = await request
-      } catch {
-        // A 401 here is the ordinary signed-out case, not a fault. Anything
-        // else leaves the app unauthenticated too, which is the safe reading.
+      // A 401 is the ordinary signed-out case — conclude anonymous at once. But
+      // a network blip or a 5xx (a redeploy caught mid-refresh) is transient:
+      // retrying a few times stops a valid cookie session from being read as
+      // signed-out and bounced to /login. Out of retries, anonymous is still
+      // the safe reading.
+      const backoff = [0, 400, 1200]
+      for (let attempt = 0; attempt < backoff.length; attempt++) {
+        if (backoff[attempt]) await new Promise((resolve) => setTimeout(resolve, backoff[attempt]))
+        if (cancelled) return
+        try {
+          const request = loadMe<MeResponse>()
+          // The state store asks the same question for its recovery keys; hand
+          // it this request so a boot makes one `/me` call, not two.
+          if (attempt === 0) void adoptOwnerLookup(request)
+          me = await request
+          break
+        } catch (error) {
+          if (!isRetryable(errorKind(error)) || attempt === backoff.length - 1) break
+        }
       }
       if (cancelled) return
 
