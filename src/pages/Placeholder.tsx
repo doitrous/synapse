@@ -3,6 +3,7 @@ import { Check } from 'lucide-react'
 import { PLACEHOLDERS } from './placeholders'
 import { studentNav } from '@/components/shell/nav'
 import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
+import { ADMIN_TAB_ICONS } from '@/data/adminTabIcons'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -12,7 +13,10 @@ import { useT } from '@/lib/i18n'
 // Naming an unbuilt route, not deciding who may reach it — so this reads the
 // whole registry rather than the caller's tabs. A page nobody holds still has a
 // name, and RequireAuth is what stops them arriving at it.
-const ALL_ITEMS = [...studentNav.flatMap((g) => g.items), ...ADMIN_TAB_VIEWS]
+const ALL_ITEMS = [
+  ...studentNav.flatMap((g) => g.items),
+  ...ADMIN_TAB_VIEWS.map((view) => ({ label: view.label, to: view.to, icon: ADMIN_TAB_ICONS[view.icon] })),
+]
 
 /** A faint schematic of the surface to come — a blueprint, not a spinner. */
 function BlueprintSketch() {

@@ -10,6 +10,7 @@ import { usePersistentState } from '@/lib/usePersistentState'
 import {
   ADMIN_TAB_VIEWS, DEFAULT_ROLE_TABS, ROLE_TABS_STATE_KEY, tabsForRole,
 } from '@/data/adminTabs'
+import { ADMIN_TAB_ICONS } from '@/data/adminTabIcons'
 import { ROLE_LABEL } from '@/data/adminRoles'
 
 const CONFIGURABLE = ['editor', 'admin', 'reviewer'] as const
@@ -104,7 +105,7 @@ export function AccessControl() {
                 <Tr key={view.id}>
                   <Td>
                     <span className="flex items-center gap-2">
-                      <Icon icon={view.icon} size={14} className="shrink-0 text-ink-3" />
+                      <Icon icon={ADMIN_TAB_ICONS[view.icon]} size={14} className="shrink-0 text-ink-3" />
                       <span className="text-[12.5px] font-medium text-ink">{view.label}</span>
                     </span>
                     <span className="mt-0.5 block font-mono text-[11px] text-ink-3">{view.to}</span>

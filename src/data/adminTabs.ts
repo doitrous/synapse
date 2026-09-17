@@ -8,13 +8,7 @@
  * test files are excluded from `tsconfig.app.json` and run on Node, which is
  * where a cross-boundary import belongs. Same arrangement as `adminRoles.ts`.
  */
-import type { LucideIcon } from 'lucide-react'
-import {
-  Gauge, ChartColumnBig, Network, Languages, GraduationCap, Scale, Compass,
-  GitFork, ImagePlus, Flag, MonitorPlay, FileText, FolderOpen, Mail, Inbox, BellRing,
-  Siren,
-  UserCog, Users, Banknote, TicketPercent, Bot, LifeBuoy, Settings, ShieldCheck, KeyRound, ClipboardCheck,
-} from 'lucide-react'
+import type { AdminTabIconName } from './adminTabIcons.ts'
 import { rank } from './adminRoles.ts'
 
 export const ROLE_TABS_STATE_KEY = 'nishany-role-tabs-v1'
@@ -25,7 +19,9 @@ export interface AdminTabView {
   id: string
   label: string
   to: string
-  icon: LucideIcon
+  /** Name of the lucide glyph, resolved to a component by `adminTabIcons.ts`
+   * in the lazy surfaces that draw it — keeps icon code out of eager load. */
+  icon: AdminTabIconName
   group: AdminTabGroup
   /** What this tab governs, shown on Access Control before somebody hides it. */
   stateKeys: string[]
@@ -46,62 +42,62 @@ export interface AdminTabView {
 }
 
 export const ADMIN_TAB_VIEWS: AdminTabView[] = [
-  { id: 'dashboard', label: 'Control Dashboard', to: '/admin', icon: Gauge, group: 'Overview', end: true, stateKeys: [], apiPrefixes: ['/api/admin/platform'] },
-  { id: 'validation', label: 'MCQ Validation', to: '/admin/validation', icon: ClipboardCheck, group: 'Overview', adminOnly: true,
+  { id: 'dashboard', label: 'Control Dashboard', to: '/admin', icon: 'Gauge', group: 'Overview', end: true, stateKeys: [], apiPrefixes: ['/api/admin/platform'] },
+  { id: 'validation', label: 'MCQ Validation', to: '/admin/validation', icon: 'ClipboardCheck', group: 'Overview', adminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/admin/mcq-validation'] },
-  { id: 'analytics', label: 'Student Analytics', to: '/admin/analytics', icon: ChartColumnBig, group: 'Overview', adminOnly: true,
+  { id: 'analytics', label: 'Student Analytics', to: '/admin/analytics', icon: 'ChartColumnBig', group: 'Overview', adminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/admin/analytics'] },
 
-  { id: 'taxonomy', label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network, group: 'Content',
+  { id: 'taxonomy', label: 'Systems & Topics', to: '/admin/taxonomy', icon: 'Network', group: 'Content',
     stateKeys: ['nishany-taxonomy-tree-v4', 'nishany-medical-library-taxonomy-v1'], apiPrefixes: [] },
-  { id: 'glossary', label: 'Glossary', to: '/admin/glossary', icon: Languages, group: 'Content',
+  { id: 'glossary', label: 'Glossary', to: '/admin/glossary', icon: 'Languages', group: 'Content',
     stateKeys: ['nishany-medical-glossary-v1'], apiPrefixes: [] },
-  { id: 'academic', label: 'Academic Setup', to: '/admin/academic', icon: GraduationCap, group: 'Content',
+  { id: 'academic', label: 'Academic Setup', to: '/admin/academic', icon: 'GraduationCap', group: 'Content',
     stateKeys: ['nishany-academic-universities-v1', 'nishany-course-curricula-v1', 'nishany-module-schedules-v1', 'nishany-module-subjects-v1', 'nishany-assessment-schemes-v1', 'nishany-academic-source-provenance-v1'], apiPrefixes: [] },
-  { id: 'marks', label: 'Marks & Weights', to: '/admin/academic/marks', icon: Scale, group: 'Content',
+  { id: 'marks', label: 'Marks & Weights', to: '/admin/academic/marks', icon: 'Scale', group: 'Content',
     stateKeys: ['nishany-module-subjects-v1', 'nishany-assessment-schemes-v1'], apiPrefixes: [] },
-  { id: 'content', label: 'Content', to: '/admin/content', icon: FolderOpen, group: 'Content',
+  { id: 'content', label: 'Content', to: '/admin/content', icon: 'FolderOpen', group: 'Content',
     stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-medical-evidence-v1', 'nishany-medical-evidence-published-v1', 'nishany-import-journal-v1', 'nishany-library-trees-v1', 'nishany-minigame-packs-v1', 'nishany-media-library-v1'],
     apiPrefixes: ['/api/medical-library/coverage', '/api/medical-resources', '/api/media'] },
-  { id: 'adaptive', label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass, group: 'Content',
+  { id: 'adaptive', label: 'Adaptive Learning', to: '/admin/adaptive', icon: 'Compass', group: 'Content',
     stateKeys: ['nishany-adaptive-config-v1', 'nishany-adaptive-blueprints-v1', 'nishany-adaptive-heldout-v1'], apiPrefixes: [] },
-  { id: 'knowledge', label: 'Knowledge Graph', to: '/admin/knowledge', icon: GitFork, group: 'Content',
+  { id: 'knowledge', label: 'Knowledge Graph', to: '/admin/knowledge', icon: 'GitFork', group: 'Content',
     stateKeys: ['nishany-concept-graph-v2', 'nishany-relation-types-v1', 'nishany-import-journal-v1'], apiPrefixes: [] },
-  { id: 'media', label: 'Media Requests', to: '/admin/library/media', icon: ImagePlus, group: 'Content', navHidden: true,
+  { id: 'media', label: 'Media Requests', to: '/admin/library/media', icon: 'ImagePlus', group: 'Content', navHidden: true,
     stateKeys: ['nishany-admin-content-ledger-v4', 'nishany-media-library-v1'], apiPrefixes: ['/api/media'] },
-  { id: 'escalations', label: 'Escalations', to: '/admin/escalations', icon: Siren, group: 'Content', navHidden: true,
+  { id: 'escalations', label: 'Escalations', to: '/admin/escalations', icon: 'Siren', group: 'Content', navHidden: true,
     stateKeys: [], apiPrefixes: [] },
-  { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: Flag, group: 'Content', navHidden: true,
+  { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: 'Flag', group: 'Content', navHidden: true,
     stateKeys: ['nishany-content-reports-v1'], apiPrefixes: [] },
-  { id: 'tutorial', label: 'Tutorial Videos', to: '/admin/tutorial', icon: MonitorPlay, group: 'Content',
+  { id: 'tutorial', label: 'Tutorial Videos', to: '/admin/tutorial', icon: 'MonitorPlay', group: 'Content',
     stateKeys: ['nishany-tutorial-videos-v1'], apiPrefixes: [] },
-  { id: 'legal', label: 'Legal pages', to: '/admin/legal', icon: FileText, group: 'Content',
+  { id: 'legal', label: 'Legal pages', to: '/admin/legal', icon: 'FileText', group: 'Content',
     stateKeys: ['nishany-legal-pages-v1'], apiPrefixes: [] },
 
-  { id: 'email', label: 'Email & Automations', to: '/admin/email', icon: Mail, group: 'Operations',
+  { id: 'email', label: 'Email & Automations', to: '/admin/email', icon: 'Mail', group: 'Operations',
     stateKeys: ['nishany-email-automations-v1'], apiPrefixes: [] },
-  { id: 'mailbox', label: 'Mail Box', to: '/admin/mailbox', icon: Inbox, group: 'Operations',
+  { id: 'mailbox', label: 'Mail Box', to: '/admin/mailbox', icon: 'Inbox', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/mail', '/api/mailboxes'] },
-  { id: 'notifications', label: 'Student Notifications', to: '/admin/notifications', icon: BellRing, group: 'Operations',
+  { id: 'notifications', label: 'Student Notifications', to: '/admin/notifications', icon: 'BellRing', group: 'Operations',
     stateKeys: ['nishany-notification-campaigns-v1'], apiPrefixes: [] },
-  { id: 'users', label: 'Console Users', to: '/admin/users', icon: UserCog, group: 'Operations', navHidden: true,
+  { id: 'users', label: 'Console Users', to: '/admin/users', icon: 'UserCog', group: 'Operations', navHidden: true,
     stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/admin/enrollment-change-requests'] },
-  { id: 'students', label: 'Students', to: '/admin/students', icon: Users, group: 'Operations', navHidden: true,
+  { id: 'students', label: 'Students', to: '/admin/students', icon: 'Users', group: 'Operations', navHidden: true,
     stateKeys: [], apiPrefixes: ['/api/students'] },
-  { id: 'payments', label: 'Payments & Finance', to: '/admin/payments', icon: Banknote, group: 'Operations',
+  { id: 'payments', label: 'Payments & Finance', to: '/admin/payments', icon: 'Banknote', group: 'Operations',
     stateKeys: ['nishany-plans-v1', 'nishany-plan-catalog-v1', 'nishany-student-id-discount-v1'], apiPrefixes: ['/api/admin/pricing'] },
-  { id: 'vouchers', label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent, group: 'Operations',
+  { id: 'vouchers', label: 'Vouchers', to: '/admin/vouchers', icon: 'TicketPercent', group: 'Operations',
     stateKeys: ['nishany-vouchers-v1'], apiPrefixes: [] },
-  { id: 'assistant', label: 'AI Assistant', to: '/admin/assistant', icon: Bot, group: 'Operations',
+  { id: 'assistant', label: 'AI Assistant', to: '/admin/assistant', icon: 'Bot', group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/admin/assistant'] },
-  { id: 'privacy', label: 'Privacy & Support', to: '/admin/privacy', icon: LifeBuoy, group: 'Operations',
+  { id: 'privacy', label: 'Privacy & Support', to: '/admin/privacy', icon: 'LifeBuoy', group: 'Operations',
     stateKeys: [], apiPrefixes: [] },
 
-  { id: 'settings', label: 'Settings', to: '/admin/settings', icon: Settings, group: 'Governance', superAdminOnly: true,
+  { id: 'settings', label: 'Settings', to: '/admin/settings', icon: 'Settings', group: 'Governance', superAdminOnly: true,
     stateKeys: ['nishany-storage-limits-v1', 'nishany-system-colors-v1', 'nishany-maristana-config-v1'], apiPrefixes: [] },
-  { id: 'audit', label: 'Audit & Security', to: '/admin/audit', icon: ShieldCheck, group: 'Governance', superAdminOnly: true,
+  { id: 'audit', label: 'Audit & Security', to: '/admin/audit', icon: 'ShieldCheck', group: 'Governance', superAdminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/backups', '/api/launch'] },
-  { id: 'access', label: 'Access Control', to: '/admin/access', icon: KeyRound, group: 'Governance', superAdminOnly: true,
+  { id: 'access', label: 'Access Control', to: '/admin/access', icon: 'KeyRound', group: 'Governance', superAdminOnly: true,
     stateKeys: [ROLE_TABS_STATE_KEY], apiPrefixes: [] },
 ]
 

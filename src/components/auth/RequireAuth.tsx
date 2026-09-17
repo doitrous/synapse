@@ -1,11 +1,29 @@
 import { Link, Navigate, useLocation } from 'react-router-dom'
 import type { ReactElement } from 'react'
-import { ShieldAlert } from 'lucide-react'
 import { useIdentity } from '@/lib/useIdentity'
 import { RouteLoading } from '@/components/shell/RouteLoading'
-import { Icon } from '@/components/ui/Icon'
 import { hasConsoleAccess, mfaEnforced } from '@/data/adminRoles'
 import { useNoIndex } from '@/lib/pageMeta'
+
+/**
+ * The one icon this guard shows, inlined instead of pulled from lucide-react:
+ * RequireAuth is in the router's eager import graph, so importing an icon here
+ * dragged the whole shared `icons` chunk (~87KB) into the initial load of every
+ * page, marketing and login included. An access-denied glyph is not worth that.
+ */
+function ShieldAlertGlyph({ size = 16, className }: { size?: number; className?: string }) {
+  return (
+    <svg
+      width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      strokeWidth={1.95} strokeLinecap="round" strokeLinejoin="round"
+      className={`shrink-0${className ? ` ${className}` : ''}`} aria-hidden="true"
+    >
+      <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+      <path d="M12 8v4" />
+      <path d="M12 16h.01" />
+    </svg>
+  )
+}
 
 /**
  * A portal only renders for someone entitled to see it.
@@ -95,7 +113,7 @@ export function RequireAuth({ console: needsConsole, tab, anyTab, student, valid
   if (needsMfaSetup && gatedTab) {
     return (
       <div className="mx-auto flex min-h-[60vh] max-w-md flex-col justify-center gap-3 px-6 text-center">
-        <span className="mx-auto grid size-12 place-items-center rounded-xl bg-warning-tint text-warning"><Icon icon={ShieldAlert} size={22} /></span>
+        <span className="mx-auto grid size-12 place-items-center rounded-xl bg-warning-tint text-warning"><ShieldAlertGlyph size={22} /></span>
         <h1 className="text-[20px] font-semibold text-ink">Set up two-factor to continue</h1>
         <p className="text-[13px] leading-relaxed text-ink-2">Your role can change who else has console access, so this part of the console asks for an authenticator app first. It takes a minute and only has to be done once.</p>
         <p>
@@ -138,7 +156,7 @@ export function RequireAuth({ console: needsConsole, tab, anyTab, student, valid
     return (
       <>
         <div role="status" className="flex flex-wrap items-center gap-2 border-b border-warning/30 bg-warning-tint px-4 py-2.5 text-[12.5px] text-ink-2">
-          <Icon icon={ShieldAlert} size={15} className="shrink-0 text-warning" />
+          <ShieldAlertGlyph size={15} className="text-warning" />
           Set up two-factor to continue: your role requires it before you can open any console tab.
           <Link to="/app/account?tab=security" className="font-semibold text-primary-strong hover:text-primary">Set it up in Account → Security</Link>
         </div>

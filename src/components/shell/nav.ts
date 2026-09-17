@@ -6,6 +6,7 @@ import {
 // has no bundler alias, and the nine destinations are exactly the sort of list
 // that is worth being able to assert on. Same arrangement as `adminTabs.ts`.
 import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '../../data/adminTabs.ts'
+import { ADMIN_TAB_ICONS } from '../../data/adminTabIcons.ts'
 
 export type Portal = 'student' | 'admin'
 
@@ -155,7 +156,7 @@ export function adminNavFor(tabs: readonly string[]): NavGroup[] {
           }
           continue
         }
-        if (held.has(view.id)) items.push({ label: view.label, to: view.to, icon: view.icon, end: view.end })
+        if (held.has(view.id)) items.push({ label: view.label, to: view.to, icon: ADMIN_TAB_ICONS[view.icon], end: view.end })
       }
       // The first group is the dashboard on its own and reads better unlabelled.
       return { label: group === 'Overview' ? undefined : group, items }

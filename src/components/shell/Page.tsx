@@ -1,10 +1,27 @@
 import type { ReactNode } from 'react'
 import { useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ArrowLeft } from 'lucide-react'
 import { cn } from '@/lib/cn'
-import { Icon } from '@/components/ui/Icon'
 import { useT } from '@/lib/i18n'
+
+/**
+ * Back arrow, inlined rather than pulled from lucide-react. PageHeader is in the
+ * router's eager import graph (via the loading skeletons), so importing an icon
+ * here dragged the whole shared `icons` chunk (~87KB) into every page's initial
+ * load. One arrow is not worth that; icons load lazily with the pages using them.
+ */
+function ArrowLeftGlyph({ size = 15, className }: { size?: number; className?: string }) {
+  return (
+    <svg
+      width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      strokeWidth={1.95} strokeLinecap="round" strokeLinejoin="round"
+      className={cn('shrink-0', className)} aria-hidden="true"
+    >
+      <path d="m12 19-7-7 7-7" />
+      <path d="M19 12H5" />
+    </svg>
+  )
+}
 
 export function PageContainer({
   children,
@@ -55,7 +72,7 @@ export function PageHeader({
           onClick={handleBack}
           className="mb-3 -ms-2 inline-flex min-h-11 items-center gap-1.5 rounded-md px-2 sm:min-h-9 text-[12.5px] font-medium text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
         >
-          <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
+          <ArrowLeftGlyph size={15} className="rtl:-scale-x-100" />
           {back.label || t('Back')}
         </button>
       )}
