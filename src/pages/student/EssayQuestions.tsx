@@ -1,4 +1,5 @@
-import { ContentSkeleton } from '@/components/loading/PageSkeleton'
+import { SkeletonPanel, SkeletonRows } from '@/components/loading/SkeletonParts'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { useMemo, useState } from 'react'
 import { BookOpen, ChevronRight, Crosshair, FileText, ListChecks, PenLine, Shuffle, TextCursorInput } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
@@ -6,7 +7,7 @@ import { WRITTEN_GUIDE } from '@/data/writtenGuide'
 import { coveredCount, type EssayQuestion as EssayQuestionData } from '@/data/essay'
 import { useLiveEssays } from '@/lib/useLiveEssays'
 import { useEssayAnswers } from '@/lib/useEssayAnswers'
-import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
+import { catalogueAvailability } from '@/lib/catalogueAvailability'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 import { subjects } from '@/data/subjects'
@@ -272,6 +273,22 @@ function EssayList({ essays, onOpen }: { essays: EssayQuestionData[]; onOpen: (e
   )
 }
 
+/** One section whose own source has not resolved yet — the same row footprint it will become. */
+function SectionSkeleton() {
+  return (
+    <section>
+      <Skeleton className="mb-2 h-5 w-40" />
+      <Skeleton className="mb-3 h-3 w-72 max-w-full" />
+      <SkeletonPanel title={false}><SkeletonRows rows={3} /></SkeletonPanel>
+    </section>
+  )
+}
+
+/** A source is still loading only while it has neither hydrated nor failed. */
+function isLoading(status: { hydrated: boolean; error: unknown }): boolean {
+  return !status.hydrated && !status.error
+}
+
 export function EssayQuestions() {
   const t = useT()
   const essays = useLiveEssays()
@@ -280,10 +297,6 @@ export function EssayQuestions() {
   const multi = useLiveMultiResponseQuestions()
   const labeling = useLiveLabelingQuestions()
   const completion = useLiveCompletionQuestions()
-  const availability = useCatalogueAvailability(
-    essays.length + written.length + matching.length + multi.length
-    + labeling.length + completion.length,
-  )
   const [active, setActive] = useState<EssayQuestionData | null>(null)
   const [activeWritten, setActiveWritten] = useState<WrittenQuestion | null>(null)
   const [activeMatching, setActiveMatching] = useState<MatchingQuestionView | null>(null)
@@ -318,6 +331,19 @@ export function EssayQuestions() {
     return <CompletionRunner key={activeCompletion.id} question={activeCompletion} onExit={() => setActiveCompletion(null)} />
   }
 
+  // Each of the six sources is a genuinely separate fetch, so each section is
+  // gated on its OWN status — the fast one paints the moment it lands instead of
+  // waiting behind the slowest (Responsiveness doctrine, rule 3). The single
+  // unavailable panel is kept only for when every source has settled with
+  // nothing to show (or failed): the one state where there is no section to hold.
+  const sources = [essays, written, matching, multi, labeling, completion]
+  const anyLoading = sources.some((source) => isLoading(source.status))
+  const anyItems = sources.some((source) => source.items.length > 0)
+  // Only meaningful once other formats have settled; while they load, a missing
+  // "Practice essays" heading is corrected the moment they land.
+  const otherFormats = written.items.length + matching.items.length
+    + multi.items.length + labeling.items.length + completion.items.length
+
   return (
     <PageContainer>
       <PageHeader
@@ -326,10 +352,13 @@ export function EssayQuestions() {
 
       <Guide />
 
-      {availability.kind !== 'ready' ? (
+      {!anyItems && !anyLoading ? (
         <Panel className="p-8">
-          <CatalogueUnavailable skeleton={<ContentSkeleton shape="essays" />}
-            availability={availability}
+          <CatalogueUnavailable
+            availability={catalogueAvailability({
+              statuses: sources.map((source) => ({ hydrated: source.status.hydrated, error: source.status.error })),
+              itemCount: 0,
+            })}
             empty={{
               title: t('No written questions published yet'),
               description: t('Written questions appear here once they are published in Written Setup.'),
@@ -338,7 +367,9 @@ export function EssayQuestions() {
         </Panel>
       ) : (
         <div className="space-y-6">
-          {written.length > 0 && (
+          {isLoading(written.status) ? (
+            <SectionSkeleton />
+          ) : written.items.length > 0 && (
             <section>
               <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{t('Exam questions')}</h2>
               <p className="mb-3 text-[12.5px] leading-relaxed text-ink-2">
@@ -346,7 +377,7 @@ export function EssayQuestions() {
               </p>
               <Panel className="overflow-hidden">
                 <ul className="divide-y divide-line">
-                  {written.map((question) => (
+                  {written.items.map((question) => (
                     <li key={question.id}>
                       <WrittenRow question={question} onOpen={() => setActiveWritten(question)} />
                     </li>
@@ -356,54 +387,64 @@ export function EssayQuestions() {
             </section>
           )}
 
-          <FormatSection
-            title={t('Matching questions')}
-            blurb={t('Match every prompt to an option, then check the block as a whole.')}
-            icon={Shuffle}
-            items={matching}
-            subtitle={(question) => t('{prompts} prompts · {options} options')
-              .replace('{prompts}', String(question.matching.prompts.length))
-              .replace('{options}', String(question.matching.options.length))}
-            onOpen={setActiveMatching}
-          />
+          {isLoading(matching.status) ? <SectionSkeleton /> : (
+            <FormatSection
+              title={t('Matching questions')}
+              blurb={t('Match every prompt to an option, then check the block as a whole.')}
+              icon={Shuffle}
+              items={matching.items}
+              subtitle={(question) => t('{prompts} prompts · {options} options')
+                .replace('{prompts}', String(question.matching.prompts.length))
+                .replace('{options}', String(question.matching.options.length))}
+              onOpen={setActiveMatching}
+            />
+          )}
 
-          <FormatSection
-            title={t('Select all that apply')}
-            blurb={t('More than one option is correct. Choosing wrongly and leaving something out are reported apart.')}
-            icon={ListChecks}
-            items={multi}
-            subtitle={(question) => t('{n} of {total} options are correct')
-              .replace('{n}', String(question.correctAnswers.length))
-              .replace('{total}', String(question.options.length))}
-            onOpen={setActiveMulti}
-          />
+          {isLoading(multi.status) ? <SectionSkeleton /> : (
+            <FormatSection
+              title={t('Select all that apply')}
+              blurb={t('More than one option is correct. Choosing wrongly and leaving something out are reported apart.')}
+              icon={ListChecks}
+              items={multi.items}
+              subtitle={(question) => t('{n} of {total} options are correct')
+                .replace('{n}', String(question.correctAnswers.length))
+                .replace('{total}', String(question.options.length))}
+              onOpen={setActiveMulti}
+            />
+          )}
 
-          <FormatSection
-            title={t('Labelling')}
-            blurb={t('Name the structure at each pointer, as a practical paper asks.')}
-            icon={Crosshair}
-            items={labeling}
-            subtitle={(question) => t('{n} structures to name')
-              .replace('{n}', String(question.labeling.points.length))}
-            onOpen={setActiveLabeling}
-          />
+          {isLoading(labeling.status) ? <SectionSkeleton /> : (
+            <FormatSection
+              title={t('Labelling')}
+              blurb={t('Name the structure at each pointer, as a practical paper asks.')}
+              icon={Crosshair}
+              items={labeling.items}
+              subtitle={(question) => t('{n} structures to name')
+                .replace('{n}', String(question.labeling.points.length))}
+              onOpen={setActiveLabeling}
+            />
+          )}
 
-          <FormatSection
-            title={t('Completion')}
-            blurb={t('Fill the words back into the sentence, as the department books ask.')}
-            icon={TextCursorInput}
-            items={completion}
-            subtitle={(question) => t('{n} blanks to fill')
-              .replace('{n}', String(question.completion.blanks.length))}
-            onOpen={setActiveCompletion}
-          />
+          {isLoading(completion.status) ? <SectionSkeleton /> : (
+            <FormatSection
+              title={t('Completion')}
+              blurb={t('Fill the words back into the sentence, as the department books ask.')}
+              icon={TextCursorInput}
+              items={completion.items}
+              subtitle={(question) => t('{n} blanks to fill')
+                .replace('{n}', String(question.completion.blanks.length))}
+              onOpen={setActiveCompletion}
+            />
+          )}
 
-          {essays.length > 0 && (
+          {isLoading(essays.status) ? (
+            <SectionSkeleton />
+          ) : essays.items.length > 0 && (
             <section>
-              {(written.length + matching.length + multi.length + labeling.length + completion.length > 0) && (
+              {otherFormats > 0 && (
                 <h2 className="mb-2 font-serif text-[16px] font-semibold text-ink">{t('Practice essays')}</h2>
               )}
-              <EssayList essays={essays} onOpen={setActive} />
+              <EssayList essays={essays.items} onOpen={setActive} />
             </section>
           )}
         </div>

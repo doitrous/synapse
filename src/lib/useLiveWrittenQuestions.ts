@@ -33,8 +33,9 @@ export function publishedWrittenFromCatalogue(catalogue: ManagedContentItem[]): 
  * shape and nothing else.
  */
 export function useLiveWrittenQuestions() {
-  const [catalogue] = useScopedQuestions(WRITTEN_SCOPE)
-  return useMemo(() => publishedWrittenFromCatalogue(catalogue), [catalogue])
+  const [catalogue, status] = useScopedQuestions(WRITTEN_SCOPE)
+  const items = useMemo(() => publishedWrittenFromCatalogue(catalogue), [catalogue])
+  return { items, status }
 }
 
 export function publishedMatchingFromCatalogue(catalogue: ManagedContentItem[]): MatchingQuestionView[] {
@@ -45,36 +46,40 @@ export function publishedMatchingFromCatalogue(catalogue: ManagedContentItem[]):
 
 /** Every published matching question. */
 export function useLiveMatchingQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'matching' })
-  return useMemo(() => publishedMatchingFromCatalogue(catalogue), [catalogue])
+  const [catalogue, status] = useScopedQuestions({ format: 'matching' })
+  const items = useMemo(() => publishedMatchingFromCatalogue(catalogue), [catalogue])
+  return { items, status }
 }
 
 /** Every published multiple-response question. */
 export function useLiveMultiResponseQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'mcq_multi' })
-  return useMemo(
+  const [catalogue, status] = useScopedQuestions({ format: 'mcq_multi' })
+  const items = useMemo(
     () => catalogue.map(managedMultiToStudentMulti)
       .filter((q): q is MultiResponseQuestionView => q !== null),
     [catalogue],
   )
+  return { items, status }
 }
 
 /** Every published labelling question. */
 export function useLiveLabelingQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'labeling' })
-  return useMemo(
+  const [catalogue, status] = useScopedQuestions({ format: 'labeling' })
+  const items = useMemo(
     () => catalogue.map(managedLabelingToStudentLabeling)
       .filter((q): q is LabelingQuestionView => q !== null),
     [catalogue],
   )
+  return { items, status }
 }
 
 /** Every published completion question. */
 export function useLiveCompletionQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'completion' })
-  return useMemo(
+  const [catalogue, status] = useScopedQuestions({ format: 'completion' })
+  const items = useMemo(
     () => catalogue.map(managedCompletionToStudentCompletion)
       .filter((q): q is CompletionQuestionView => q !== null),
     [catalogue],
   )
+  return { items, status }
 }

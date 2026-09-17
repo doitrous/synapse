@@ -34,7 +34,7 @@ export function EssayBank({ onStart, stats }: {
   stats?: ReactNode
 }) {
   const t = useT()
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
   const { answers } = useEssayAnswers()
   const pools = useEssayPools()
 

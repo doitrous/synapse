@@ -50,7 +50,7 @@ export function MixedSummary({
   const t = useT()
   const tally = useMemo(() => summariseMixed(session), [session])
   const { answers } = useEssayAnswers()
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
   const { progress } = usePracticalProgress()
 
   const essayIds = session.items.filter((item) => item.kind === 'essay').map((item) => item.id)

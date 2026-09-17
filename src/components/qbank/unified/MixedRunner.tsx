@@ -222,7 +222,7 @@ function Unavailable({ loading, onNext, last }: { loading: boolean; onNext: () =
 export function MixedRunner({ session, questions, onMark, onNext, onEnd }: MixedRunnerProps) {
   const t = useT()
   const practicals = usePracticalCatalogue()
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
   const questionsById = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])
   const essaysById = useMemo(() => new Map(essays.map((essay) => [essay.id, essay])), [essays])
 

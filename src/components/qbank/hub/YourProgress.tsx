@@ -59,7 +59,7 @@ export function YourProgress({
   const catalogue = usePracticalCatalogue()
   const { progress } = usePracticalProgress()
   const { answers } = useEssayAnswers()
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
 
   // The filter follows the bank, and the student can still override it. Derived
   // during render rather than in an effect: an effect would paint one frame of

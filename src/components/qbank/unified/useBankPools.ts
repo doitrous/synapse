@@ -46,7 +46,7 @@ export function usePracticalPools(): BankPools<PracticalEntry> {
 }
 
 export function useEssayPools(): BankPools<EssayQuestion> {
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
   const { flags } = useItemFlags()
   const { answers } = useEssayAnswers()
 

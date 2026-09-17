@@ -48,7 +48,7 @@ export function SittingKindBadge({ kind }: { kind: SittingKind }) {
 export function SittingRows({ sittings, onDelete }: { sittings: Sitting[]; onDelete?: (id: string) => void }) {
   const t = useT()
   const catalogue = usePracticalCatalogue()
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
   const [open, setOpen] = useState<string | null>(null)
 
   const essaysById = useMemo(() => new Map(essays.map((essay) => [essay.id, essay])), [essays])

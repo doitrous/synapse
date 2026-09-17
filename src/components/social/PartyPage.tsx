@@ -119,7 +119,7 @@ export function PartyPage({
   const { setVisibility, setScope, createSession } = usePartyActions()
   const questions = usePublishedQuestions()
   const practicals = useLivePracticals()
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
   const [, setCalendarBlocks] = usePersistentState<StudyBlock[]>(STUDY_BLOCKS_STORAGE_KEY, [])
   const [copied, setCopied] = useState(false)
   const [copiedLink, setCopiedLink] = useState(false)

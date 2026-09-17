@@ -158,7 +158,7 @@ export function PartySessionRunner({ sessionId, onExit }: { sessionId: string; o
   const logAttempt = useRecordAttempt()
 
   const questions = usePublishedQuestions()
-  const essays = useLiveEssays()
+  const { items: essays } = useLiveEssays()
   const [practicals] = useContentSlice('practical')
 
   const questionsById = useMemo(() => new Map(questions.map((question) => [question.id, question])), [questions])

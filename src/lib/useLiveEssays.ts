@@ -9,10 +9,17 @@ export function publishedEssaysFromCatalogue(catalogue: ManagedContentItem[]): E
     .filter((essay): essay is EssayQuestion => essay !== null)
 }
 
-/** Published admin content is the single source of truth for every student essay surface. */
+/**
+ * Published admin content is the single source of truth for every student essay surface.
+ *
+ * Returns the slice's own load `status` alongside the items so a surface that
+ * shows essays next to other formats can gate each on its own source rather than
+ * AND-ing them behind the slowest — see `EssayQuestions`.
+ */
 export function useLiveEssays() {
-  const [catalogue] = useContentSlice('essay')
-  return useMemo(() => publishedEssaysFromCatalogue(catalogue), [catalogue])
+  const [catalogue, status] = useContentSlice('essay')
+  const items = useMemo(() => publishedEssaysFromCatalogue(catalogue), [catalogue])
+  return { items, status }
 }
 
 /**
