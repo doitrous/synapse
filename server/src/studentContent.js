@@ -427,11 +427,15 @@ export async function itemsHandler(req, res) {
     })
   }
   if (!SLICE_KINDS.has(kind)) return res.status(400).json({ error: 'unsupported kind' })
+  const summaryRow = req.query.view === 'summary' ? SLICE_SUMMARY_PROJECTIONS[kind] : null
   // Full slice bodies (resources, practicals, essays, histology, decks) are the
   // paid product; the id-manifest and article-index branches above are not.
-  if (await contentLocked(req, res)) return
+  // Neither is a `view=summary` projection for a kind that has one (essay,
+  // practical) — it carries no body, the same policy as the question-summary
+  // view. A kind with no projection (resource, histology, deck) leaves
+  // summaryRow null and so stays gated regardless of the view param.
+  if (!summaryRow && await contentLocked(req, res)) return
   const items = scoped(content.byKind.get(kind) ?? [], audience)
-  const summaryRow = req.query.view === 'summary' ? SLICE_SUMMARY_PROJECTIONS[kind] : null
   return sendVersioned(req, res, content.signature, {
     items: summaryRow ? items.map(summaryRow) : items,
   })

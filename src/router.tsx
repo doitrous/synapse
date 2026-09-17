@@ -2,7 +2,6 @@ import { InitialReadBoundary } from '@/components/loading/InitialReadBoundary'
 import { loadingLayoutFor } from '@/components/loading/routeSkeletons'
 import { lazy, Suspense, useEffect, useState, type ComponentType, type ReactElement } from 'react'
 import { createBrowserRouter, Navigate, useLocation } from 'react-router-dom'
-import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RedirectWithSearch } from '@/components/shell/RedirectWithSearch'
@@ -124,6 +123,20 @@ function Panel({ title, body }: { title: string; body: string }): ReactElement {
         <a href="/logout" className="inline-flex min-h-11 items-center justify-center rounded-lg border border-line-2 bg-surface px-4 text-[13px] font-semibold text-ink hover:bg-inset">Sign out</a>
       </p>
     </div>
+  )
+}
+
+// The app/admin chrome — sidebar, topbar, command search, study assistant,
+// room dock — pulled in every page under /app and /admin along with it. A
+// marketing/login/pricing visitor never renders either shell, so it has no
+// business in their bundle; lazy like every page below.
+const AppShell = lazyNamed(() => import('@/components/shell/AppShell'), 'AppShell')
+
+function renderShell(portal: 'student' | 'admin'): ReactElement {
+  return (
+    <RouteBoundary>
+      <Suspense fallback={<RouteLoading />}><AppShell portal={portal} /></Suspense>
+    </RouteBoundary>
   )
 }
 
@@ -272,6 +285,47 @@ export function preloadStudentRoute(to: string): void {
   studentPages[to.replace(/^\/app\/?/, '')]?.preload()
 }
 
+/**
+ * Every admin page component, by the path its nav item points at — for
+ * preloading only; `adminBuilt` below still owns rendering (and the one extra
+ * prop `content` needs). Kept as its own map rather than derived from
+ * `adminBuilt` so this is purely additive next to it.
+ */
+const adminPages: Record<string, Preloadable> = {
+  academic: AcademicSetup,
+  content: QuestionsSetup,
+  adaptive: AdaptiveSetup,
+  knowledge: KnowledgeGraph,
+  taxonomy: TaxonomySetup,
+  glossary: GlossarySetup,
+  tutorial: TutorialSetup,
+  legal: LegalPagesSetup,
+  notifications: NotificationCampaigns,
+  vouchers: VoucherManagement,
+  payments: PaymentsFinance,
+  email: EmailAutomations,
+  mailbox: MailBox,
+  privacy: PrivacySupport,
+  settings: AdminSettings,
+  audit: AuditSecurity,
+  access: AccessControl,
+  assistant: AssistantSetup,
+  validation: ValidationAnalytics,
+  analytics: StudentAnalytics,
+  inbox: Inbox,
+  people: People,
+}
+
+/**
+ * Fetch an admin route's chunk ahead of the click, the admin-side sibling of
+ * `preloadStudentRoute`. Previously the sidebar called `preloadStudentRoute`
+ * for both portals: its `/app/` strip is a no-op on an `/admin/...` path, so
+ * every admin nav item silently preloaded nothing on hover/focus/touch.
+ */
+export function preloadAdminRoute(to: string): void {
+  adminPages[to.replace(/^\/admin\/?/, '')]?.preload()
+}
+
 // RouteLoading resolves both portals through the explicit loading-layout registry.
 const adminBuilt: Record<string, ReactElement> = {
   academic: render(AcademicSetup),
@@ -396,13 +450,13 @@ const toStudentSite = <HandOver origin={STUDENT_ORIGIN} />
 
 const studentApp = {
   path: '/app',
-  element: <RequireAuth student><AppShell portal="student" /></RequireAuth>,
+  element: <RequireAuth student>{renderShell('student')}</RequireAuth>,
   children: [{ index: true, element: render(Dashboard) }, ...studentRoutes],
 }
 
 const adminApp = {
   path: '/admin',
-  element: <RequireAuth console><AppShell portal="admin" /></RequireAuth>,
+  element: <RequireAuth console>{renderShell('admin')}</RequireAuth>,
   children: [
     { index: true, element: <RouteBoundary><Suspense fallback={<RouteLoading />}><AdminHome /></Suspense></RouteBoundary> },
     // `import/:kind` is the one path whose tab depends on the parameter, so it

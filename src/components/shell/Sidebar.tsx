@@ -10,7 +10,7 @@ import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { ThemeSwitch } from './ThemeSwitch'
 import { LanguageSwitch } from './LanguageSwitch'
 import { MenuToggle } from './MenuToggle'
-import { preloadStudentRoute } from '@/router'
+import { preloadStudentRoute, preloadAdminRoute } from '@/router'
 import { cn } from '@/lib/cn'
 import { useI18n } from '@/lib/i18n'
 import { useIdentity } from '@/lib/useIdentity'
@@ -35,6 +35,9 @@ export function Sidebar({
   const identity = useIdentity()
   const avatar = useAvatar()
   const groups = navFor(portal, identity.tabs)
+  // The sidebar is shared by both portals, and a chunk fetched ahead of the
+  // click has to be looked up in the matching route registry.
+  const preloadRoute = portal === 'admin' ? preloadAdminRoute : preloadStudentRoute
   const escalationCount = useOpenEscalationCount()
   const { pathname } = useLocation()
   // `audience`, not `profile`: the roster record is authoritative but often
@@ -113,9 +116,9 @@ export function Sidebar({
                     to={item.to}
                     end={item.end}
                     onClick={onNavigate}
-                    onMouseEnter={() => preloadStudentRoute(item.to)}
-                    onFocus={() => preloadStudentRoute(item.to)}
-                    onTouchStart={() => preloadStudentRoute(item.to)}
+                    onMouseEnter={() => preloadRoute(item.to)}
+                    onFocus={() => preloadRoute(item.to)}
+                    onTouchStart={() => preloadRoute(item.to)}
                     className={({ isActive }) =>
                       cn(
                         'group relative flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
