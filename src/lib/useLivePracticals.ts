@@ -29,8 +29,11 @@ const asDifficulty = (v?: string): Difficulty => (DIFFICULTIES.includes(v as Dif
 /** How many steps an authored item actually has, rather than a placeholder zero. */
 const stepCount = (item: ManagedContentItem): number => {
   const data = item.practicalData
-  if (data?.format === 'case') return data.decisions.length
-  if (data?.format === 'lab') return data.questions.length
+  // Optional-chain the arrays: the view=summary slice strips practicalData to
+  // just `format`, so decisions/questions are absent there and this must report
+  // 0 rather than throw on `undefined.length`.
+  if (data?.format === 'case') return data.decisions?.length ?? 0
+  if (data?.format === 'lab') return data.questions?.length ?? 0
   return 0
 }
 
