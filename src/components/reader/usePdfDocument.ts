@@ -1,8 +1,22 @@
 import { useEffect, useState } from 'react'
 import type { PDFDocumentProxy } from 'pdfjs-dist'
+import '@/lib/reader/pdfCompat'
 import { applyMeasurement, sizesAreUniform, type PageSize } from '@/lib/reader/pageLayout'
 import { apiFetchFile } from '@/lib/api'
 import { resolveMediaSource } from '@/lib/mediaStorage'
+
+/**
+ * One shared module worker for the whole app, built from our own entry so the
+ * runtime shims load into the worker realm before pdf.js does. pdf.js supports
+ * a reused `workerPort`, and this reader only opens one document at a time, so
+ * a singleton avoids leaking a worker on every file change.
+ */
+let pdfWorker: Worker | null = null
+function ensurePdfWorker(pdfjs: typeof import('pdfjs-dist')): void {
+  if (pdfWorker) return
+  pdfWorker = new Worker(new URL('./pdfWorker.ts', import.meta.url), { type: 'module' })
+  pdfjs.GlobalWorkerOptions.workerPort = pdfWorker
+}
 
 export interface OutlineEntry {
   title: string
@@ -58,7 +72,7 @@ export function usePdfDocument(
         const pdfjs = await import('pdfjs-dist')
         // Resolved through Vite rather than a CDN, so the reader keeps working
         // offline and under the app's own content policy.
-        pdfjs.GlobalWorkerOptions.workerSrc = (await import('pdfjs-dist/build/pdf.worker.mjs?url')).default
+        ensurePdfWorker(pdfjs)
         const data = localRef
           ? await (await fetch((await resolveMediaSource(localRef)).url)).arrayBuffer()
           : await apiFetchFile(filePath as string)

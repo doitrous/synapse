@@ -458,7 +458,7 @@ export function ReaderShell() {
   const markers = annotations.markers
 
   return (
-    <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
+    <div className="flex h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
         <button type="button" onClick={goBack} className="inline-flex min-h-11 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink sm:min-h-10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">
           <Icon icon={ArrowLeft} size={15} />
