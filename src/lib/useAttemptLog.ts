@@ -57,24 +57,23 @@ function recordVerified(records: AttemptRecord[]): void {
  */
 export function useRecordAttempt() {
   const month = attemptMonth(new Date())
-  const [, setMonth] = usePersistentState<AttemptMonth>(attemptMonthKey(month), () => emptyMonth(month))
+  const [shard, setMonth] = usePersistentState<AttemptMonth>(attemptMonthKey(month), () => emptyMonth(month))
   const [, setIndex] = usePersistentState<AttemptIndex>(ATTEMPT_INDEX_KEY, EMPTY_INDEX)
 
   return useCallback((input: Omit<AttemptRecord, 'id' | 'at'>) => {
-    const at = new Date().toISOString()
-    const record: AttemptRecord = { ...input, id: attemptId(input), at }
-    // A tab left open across the turn of a month files that answer in the
-    // month it was opened. Everything downstream groups by `record.at`, so the
-    // figures stay right; only which document holds it differs.
+    const record: AttemptRecord = { ...input, id: attemptId(input), at: new Date().toISOString() }
+    // The shard refuses duplicates by id; the index has to refuse them the same
+    // way, or a re-checked answer inflates the totals it feeds. Comparing the
+    // index's `lastAt` to this call's fresh timestamp never matched (every call
+    // stamps a new `at`), so the guard was effectively off — dedupe by id, as
+    // useRecordAttempts already does.
+    // A tab left open across the turn of a month files that answer in the month
+    // it was opened; downstream groups by `record.at`, so the figures stay right.
+    const isDuplicate = shard.records.some((existing) => existing.id === record.id)
     setMonth((current) => addAttempt(current, record))
-    setIndex((current) => {
-      // The shard refuses duplicates; the index has to refuse them too, or a
-      // re-checked answer inflates the totals it feeds.
-      if (current.totals.lastAt === at) return current
-      return indexAttempt(current, record)
-    })
+    if (!isDuplicate) setIndex((current) => indexAttempt(current, record))
     recordVerified([record])
-  }, [setIndex, setMonth])
+  }, [shard.records, setIndex, setMonth])
 }
 
 /**
