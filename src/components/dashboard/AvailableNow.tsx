@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Sparkles, Users, Gamepad2, ArrowRight, Lock, type LucideIcon } from 'lucide-react'
+import { preloadStudentRoute } from '@/router'
 import { useIdentity } from '@/lib/useIdentity'
 import { useT } from '@/lib/i18n'
 import { Icon } from '@/components/ui/Icon'
@@ -54,6 +55,9 @@ export function AvailableNow() {
         </div>
         <Link
           to="/app/account?tab=billing"
+          onMouseEnter={() => preloadStudentRoute('/app/account')}
+          onFocus={() => preloadStudentRoute('/app/account')}
+          onTouchStart={() => preloadStudentRoute('/app/account')}
           className="inline-flex min-h-10 items-center gap-1.5 rounded-lg bg-primary px-4 text-[13px] font-semibold text-on-primary hover:bg-primary-hover"
         >
           {entitlement.state === 'expired' || entitlement.state === 'cancelled' ? t('Renew') : t('Subscribe')}
@@ -66,6 +70,9 @@ export function AvailableNow() {
           <Link
             key={to}
             to={to}
+            onMouseEnter={() => preloadStudentRoute(to)}
+            onFocus={() => preloadStudentRoute(to)}
+            onTouchStart={() => preloadStudentRoute(to)}
             className="group flex items-center gap-3 rounded-lg border border-line bg-surface px-3.5 py-3 hover:border-primary/40 hover:bg-primary-tint/40"
           >
             <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary">

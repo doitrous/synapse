@@ -2,6 +2,7 @@ import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'reac
 import { Link, type LinkProps } from 'react-router-dom'
 import type { LucideIcon } from 'lucide-react'
 import { cn } from '@/lib/cn'
+import { preloadStudentRoute } from '@/router'
 import { NishanyLoader } from './NishanyLoader'
 
 type Variant = 'primary' | 'secondary' | 'ghost' | 'danger'
@@ -125,10 +126,15 @@ export function ButtonLink({
   className,
   children,
   onClick,
+  onMouseEnter,
+  onFocus,
+  onTouchStart,
+  to,
   ...props
 }: LinkProps & SharedButtonProps) {
   return (
     <Link
+      to={to}
       className={buttonClasses({ variant, size, className: cn(loading && 'pointer-events-none opacity-55', className) })}
       aria-disabled={loading || undefined}
       onClick={(event) => {
@@ -137,6 +143,18 @@ export function ButtonLink({
           return
         }
         onClick?.(event)
+      }}
+      onMouseEnter={(event) => {
+        preloadStudentRoute(typeof to === 'string' ? to : to.pathname ?? '')
+        onMouseEnter?.(event)
+      }}
+      onFocus={(event) => {
+        preloadStudentRoute(typeof to === 'string' ? to : to.pathname ?? '')
+        onFocus?.(event)
+      }}
+      onTouchStart={(event) => {
+        preloadStudentRoute(typeof to === 'string' ? to : to.pathname ?? '')
+        onTouchStart?.(event)
       }}
       {...props}
     >

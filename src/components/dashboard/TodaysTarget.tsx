@@ -3,6 +3,7 @@ import { LoadingError } from '@/components/loading/LoadingError'
 import { useMemo, type ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { CalendarDays } from 'lucide-react'
+import { preloadStudentRoute } from '@/router'
 import { Panel } from '@/components/ui/Panel'
 import { Icon } from '@/components/ui/Icon'
 import { StreakDots, type DayStatus } from '@/components/ui/StreakDots'
@@ -75,6 +76,9 @@ function Fact({
     <div className="flex min-w-0 sm:min-w-[8rem] sm:border-s sm:border-line sm:first:border-s-0">
       <Link
         to={to}
+        onMouseEnter={() => preloadStudentRoute(to)}
+        onFocus={() => preloadStudentRoute(to)}
+        onTouchStart={() => preloadStudentRoute(to)}
         className="flex min-h-[44px] min-w-0 flex-1 flex-col justify-center gap-0.5 rounded-lg border border-line bg-mist/60 px-3 py-2.5 transition-colors hover:bg-inset/50 sm:min-h-0 sm:border-0 sm:bg-transparent sm:px-5 sm:py-1"
       >
         <span className={cn(

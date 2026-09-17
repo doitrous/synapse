@@ -1,6 +1,7 @@
 import { NextStepSkeleton } from '@/components/loading/DashboardSkeletons'
 import { LoadingError } from '@/components/loading/LoadingError'
 import { Link } from 'react-router-dom'
+import { preloadStudentRoute } from '@/router'
 import {
   AlarmClock, BookOpenText, CalendarClock, CalendarPlus,
   FileQuestion, MapPin, PenLine, Stethoscope,
@@ -89,6 +90,9 @@ function ThenPill({ eyebrow, title, to }: { eyebrow: string; title: string; to: 
   return (
     <Link
       to={to}
+      onMouseEnter={() => preloadStudentRoute(to)}
+      onFocus={() => preloadStudentRoute(to)}
+      onTouchStart={() => preloadStudentRoute(to)}
       className="flex min-h-11 flex-1 items-center gap-2.5 rounded-lg border border-line bg-surface/60 px-3 py-2.5 text-start transition-colors hover:bg-surface sm:min-h-0"
     >
       <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{eyebrow}</span>
