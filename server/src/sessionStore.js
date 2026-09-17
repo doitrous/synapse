@@ -176,8 +176,29 @@ export async function saveTokens(id, { accessToken, refreshToken, expiresAt, aal
   )
 }
 
-/** Idle expiry needs a heartbeat; a write per request would not be one. */
+/**
+ * Idle expiry needs a heartbeat; a write per request would not be one.
+ *
+ * Called on every authenticated request, so the SQL is throttled by
+ * `last_seen_at` — but that still ran an UPDATE (grabbing a pool connection and
+ * a row lock on the session) on every request, only to match zero rows. An
+ * in-memory guard skips the round trip entirely between heartbeats, so a page
+ * firing 25 requests at once does one touch, not 25. The interval here is
+ * shorter than the SQL's so the DB stays the source of truth across processes.
+ */
+const lastTouchAt = new Map()
+const TOUCH_MEMO_MS = 60_000
 export async function touchSession(id) {
+  const now = Date.now()
+  const prev = lastTouchAt.get(id)
+  if (prev && now - prev < TOUCH_MEMO_MS) return
+  lastTouchAt.set(id, now)
+  // Bound the map: this is a heartbeat memo, not a session store.
+  if (lastTouchAt.size > 10_000) {
+    for (const key of lastTouchAt.keys()) {
+      if (now - lastTouchAt.get(key) >= TOUCH_MEMO_MS) lastTouchAt.delete(key)
+    }
+  }
   await pool.query(
     `UPDATE sessions SET last_seen_at = NOW()
       WHERE id = ? AND last_seen_at < NOW() - INTERVAL ${TOUCH_INTERVAL}`,
