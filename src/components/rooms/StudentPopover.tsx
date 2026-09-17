@@ -1,6 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { X, MicOff, Mic, MessageCircle, Volume2, VolumeX, Ban } from 'lucide-react'
 import { useT } from '@/lib/i18n'
+import { formatMinutes } from '@/lib/format'
 import { clockText, type StudyPresence } from '@/lib/rooms/studyWorld'
 import { StudentPortrait } from './StudyWorldArt'
 export function StudentPopover({person,index,self,elapsedSeconds,onClose,onCustomise,onInvite,muted,onToggleMute,onMessage,onBlock}:{onInvite?:()=>void;person:StudyPresence;index:number;self:boolean;elapsedSeconds?:number;onClose:()=>void;onCustomise:()=>void;muted?:boolean;onToggleMute?:()=>void;onMessage?:()=>void;onBlock?:()=>void}){
@@ -32,7 +33,7 @@ export function StudentPopover({person,index,self,elapsedSeconds,onClose,onCusto
     <header><StudentPortrait model={person.personalisation?.model??'man-1'} className="size-9 shrink-0"/><div><h3>{person.name}</h3><p>{t('Desk')} {index+1} · {person.year||t('Student')}</p></div><button type="button" aria-label={t('Close student details')} onClick={onClose}><X size={16}/></button></header>
     {person.university&&<p className="student-popover-university">{person.university}</p>}
     <div className="student-popover-status"><span>{t(person.status??'In the room')}</span><span>{elapsedSeconds===undefined?t('Here'):clockText(elapsedSeconds)}</span>{person.micMuted===undefined?<span aria-label={t('Microphone not shared')}>Mic —</span>:person.micMuted===false?<Mic size={13} aria-label={t('Microphone on')}/>:<MicOff size={13} aria-label={t('Microphone muted')}/>}</div>
-    <dl><div><dt>{t('Topic')}</dt><dd>{person.topic||t('Not set')}</dd></div><div><dt>{t('Goal')}</dt><dd>{person.goal||t('Not set')}</dd></div></dl>
+    <dl><div><dt>{t('Topic')}</dt><dd>{person.topic||t('Not set')}</dd></div><div><dt>{t('Goal')}</dt><dd>{person.goal||t('Not set')}</dd></div>{person.totalStudyMinutes!==undefined&&<div><dt>{t('Total study time')}</dt><dd>{formatMinutes(person.totalStudyMinutes)}</dd></div>}</dl>
     {person.personalisation?.items.includes('note')&&<p className="student-popover-note">{person.personalisation.note}</p>}
     {!self&&onInvite&&<button className="student-popover-edit" type="button" onClick={onInvite}>{t('Invite to my table')}</button>}
     {!self&&onMessage&&<button className="student-popover-edit" type="button" onClick={onMessage}><MessageCircle size={14}/> {t('Message privately')}</button>}

@@ -73,6 +73,8 @@ export interface PartyMember {
   lastActiveAt?: string | null
   /** What that heartbeat claimed, expired by the server against its own clock. */
   activity?: 'studying' | 'idle'
+  /** Cumulative, all-time active-study minutes — the same total Maristanas shows the student for themselves. Absent from a server that predates it. */
+  totalStudyMinutes?: number
 }
 
 export interface Party {
