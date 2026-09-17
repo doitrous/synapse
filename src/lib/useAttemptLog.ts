@@ -1,6 +1,6 @@
 import { useCallback, useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { API_MODE, apiPost } from './api'
+import { queueVerifiedAttempts } from './attemptSync'
 import {
   addAttempt, attemptId, attemptMonth, attemptMonthKey, ATTEMPT_INDEX_KEY, emptyMonth,
   EMPTY_INDEX, indexAttempt, recentMonths, removeSession, unindexAttempts,
@@ -16,37 +16,6 @@ import {
  * shows — the longest is the seventeen-week heatmap.
  */
 export const HISTORY_MONTHS = 6
-
-/**
- * Send a markable Question Bank answer to the server-owned ledger.
- *
- * The local attempt log still drives the student's immediate private reports.
- * Public rankings and hospital construction must use the server's published
- * answer key instead, so neither `correct` nor `correctIndex` is transmitted as
- * truth. A retry is safe because the server keys by student + sitting + item.
- */
-function recordVerified(records: AttemptRecord[]): void {
-  if (!API_MODE) return
-  const attempts = records.flatMap((record) => {
-    if (record.surface !== 'qbank' || !Number.isInteger(record.selectedIndex)) return []
-    return [{
-      attemptId: record.id,
-      sessionId: record.sessionId,
-      questionId: record.itemId,
-      answerIndex: record.selectedIndex,
-      seconds: record.seconds,
-      sessionDurationSeconds: record.sessionDurationSeconds,
-      overtimeSeconds: record.sessionOvertimeSeconds,
-      answeredAt: record.at,
-    }]
-  })
-  if (!attempts.length) return
-  void apiPost('/qbank/attempts', { attempts })
-    .then(() => window.dispatchEvent(new Event('nishany:maristana-progress')))
-    // The private record is already safe. A profile still being enrolled or a
-    // transient API fault must never interrupt the question the student sees.
-    .catch(() => undefined)
-}
 
 /**
  * Add to the log.
@@ -72,7 +41,7 @@ export function useRecordAttempt() {
     const isDuplicate = shard.records.some((existing) => existing.id === record.id)
     setMonth((current) => addAttempt(current, record))
     if (!isDuplicate) setIndex((current) => indexAttempt(current, record))
-    recordVerified([record])
+    queueVerifiedAttempts([record])
   }, [shard.records, setIndex, setMonth])
 }
 
@@ -103,7 +72,7 @@ export function useRecordAttempts() {
     if (!fresh.length) return
     setMonth((current) => fresh.reduce(addAttempt, current))
     setIndex((current) => fresh.reduce(indexAttempt, current))
-    recordVerified(fresh)
+    queueVerifiedAttempts(fresh)
   }, [shard.records, setIndex, setMonth])
 }
 

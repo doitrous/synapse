@@ -222,7 +222,10 @@ export async function recordVerifiedAttempts(userId, input) {
       conn.release()
     }
   }
-  return { ok: true, recorded: rows.length, skipped, results: rows.map((row) => ({
+  // A single server-clock stamp for the batch: the client writes it back onto
+  // each record so "latest verdict"/transition ordering is device-independent
+  // (the attempt log is synced across devices, whose wall clocks disagree).
+  return { ok: true, recorded: rows.length, serverAt: Date.now(), skipped, results: rows.map((row) => ({
     questionId: row.questionId,
     answerIndex: row.answerIndex,
     correctIndex: row.correctIndex,
