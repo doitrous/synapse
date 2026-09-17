@@ -30,7 +30,7 @@ struct Note: Codable, Identifiable, Equatable, Sendable {
     /// ISO timestamp of the last edit.
     var updatedAt: String
 
-    static let storageKey = "synapse.notebook.notes"
+    static let storageKey = "nishany.notebook.notes"
 }
 
 /// A document a note refers to.
@@ -260,7 +260,7 @@ private struct NoteEditor: View {
 
     /// Reading or writing. Device-scoped, as on the web: whether you are
     /// reading your notes or editing them is about the moment, not the account.
-    @AppStorage("synapse.notebook.reading") private var reading = false
+    @AppStorage("nishany.notebook.reading") private var reading = false
     @State private var tagDraft = ""
 
     var body: some View {

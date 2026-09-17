@@ -19,7 +19,7 @@ enum AppTheme: String, CaseIterable, Sendable {
         }
     }
 
-    static let key = "synapse-theme"
+    static let key = "nishany-theme"
 }
 
 /// Which theme is in force, and a way to change it.

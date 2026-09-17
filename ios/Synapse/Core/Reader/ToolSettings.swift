@@ -161,23 +161,23 @@ enum ReaderPreferences {
 
     /// Which side the toolbar sits on. `synapse.reader.toolbarEdge` on the web.
     static var toolbarEdge: Edge {
-        get { Edge(rawValue: defaults.string(forKey: "synapse.reader.toolbarEdge") ?? "") ?? .trailing }
-        set { defaults.set(newValue.rawValue, forKey: "synapse.reader.toolbarEdge") }
+        get { Edge(rawValue: defaults.string(forKey: "nishany.reader.toolbarEdge") ?? "") ?? .trailing }
+        set { defaults.set(newValue.rawValue, forKey: "nishany.reader.toolbarEdge") }
     }
 
     /// How far down, as a fraction of the reader's height. Clamped to the same
     /// range the web uses so the toolbar cannot be parked off-screen.
     static var toolbarOffset: Double {
         get {
-            let stored = defaults.object(forKey: "synapse.reader.toolbarOffset") as? Double
+            let stored = defaults.object(forKey: "nishany.reader.toolbarOffset") as? Double
             return min(max(stored ?? 0.34, 0.02), 0.75)
         }
-        set { defaults.set(min(max(newValue, 0.02), 0.75), forKey: "synapse.reader.toolbarOffset") }
+        set { defaults.set(min(max(newValue, 0.02), 0.75), forKey: "nishany.reader.toolbarOffset") }
     }
 
     /// Whether the toolbar is folded down to just the active tool.
     static var toolbarCollapsed: Bool {
-        get { defaults.bool(forKey: "synapse.reader.toolbarCollapsed") }
-        set { defaults.set(newValue, forKey: "synapse.reader.toolbarCollapsed") }
+        get { defaults.bool(forKey: "nishany.reader.toolbarCollapsed") }
+        set { defaults.set(newValue, forKey: "nishany.reader.toolbarCollapsed") }
     }
 }

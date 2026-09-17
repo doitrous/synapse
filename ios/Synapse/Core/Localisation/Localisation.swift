@@ -36,7 +36,7 @@ enum AppLanguage: String, CaseIterable, Codable, Sendable {
 @Observable
 final class Localisation {
 
-    static let key = "synapse-lang"
+    static let key = "nishany-lang"
 
     private(set) var language: AppLanguage
 

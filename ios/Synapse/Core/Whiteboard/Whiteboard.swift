@@ -47,7 +47,7 @@ struct BoardState: Codable, Equatable, Sendable {
     var links: [BoardLink] = []
     var frames: [BoardFrame] = []
 
-    static let storageKey = "synapse.whiteboard.board"
+    static let storageKey = "nishany.whiteboard.board"
     static let empty = BoardState()
 }
 

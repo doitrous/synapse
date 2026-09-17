@@ -8,7 +8,7 @@ struct ResourcesView: View {
 
     @State private var query = ""
     @State private var savedOnly = false
-    @AppStorage("synapse.resources.openableOnly") private var openableOnly = false
+    @AppStorage("nishany.resources.openableOnly") private var openableOnly = false
     @State private var files: ResourceFileStore
     let api: SynapseAPI
 

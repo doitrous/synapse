@@ -16,7 +16,7 @@ enum AnnotationKey {
     /// Pages per shard. Small enough to rewrite cheaply, large enough to be few.
     static let shardPages = 16
 
-    private static let prefix = "synapse.annotations.v1."
+    private static let prefix = "nishany.annotations.v1."
     /// `k VARCHAR(160)` in `user_state`.
     private static let maxKeyLength = 160
     /// Room for the longest suffix appended below: `.s` plus digits.

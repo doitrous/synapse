@@ -124,7 +124,7 @@ struct WeeklyPlan: Codable, Equatable, Sendable {
     var configVersion: Int
 
     /// Dotted, so the sync layer files it under the student's own record.
-    static let key = "synapse.progress.adaptive.plan.v1"
+    static let key = "nishany.progress.adaptive.plan.v1"
 
     /// The statement that must accompany every plan.
     ///

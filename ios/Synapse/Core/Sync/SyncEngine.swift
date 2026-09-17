@@ -18,41 +18,41 @@ final class SyncEngine {
     /// documents the learning product is made of, and everything else on the
     /// server is operational data.
     static let catalogueKeys = [
-        "synapse-academic-universities-v1",
-        "synapse-course-curricula-v1",
-        "synapse-module-schedules-v1",
-        "synapse-admin-content-ledger-v4",
-        "synapse-concept-graph-v2",
-        "synapse-relation-types-v1",
-        "synapse-taxonomy-tree-v4",
-        "synapse-medical-library-taxonomy-v1",
-        "synapse-medical-glossary-v1",
-        "synapse-medical-evidence-published-v1",
-        "synapse-plans-v1",
-        "synapse-notification-campaigns-v1",
-        "synapse-vouchers-v1",
-        "synapse-system-colors-v1",
+        "nishany-academic-universities-v1",
+        "nishany-course-curricula-v1",
+        "nishany-module-schedules-v1",
+        "nishany-admin-content-ledger-v4",
+        "nishany-concept-graph-v2",
+        "nishany-relation-types-v1",
+        "nishany-taxonomy-tree-v4",
+        "nishany-medical-library-taxonomy-v1",
+        "nishany-medical-glossary-v1",
+        "nishany-medical-evidence-published-v1",
+        "nishany-plans-v1",
+        "nishany-notification-campaigns-v1",
+        "nishany-vouchers-v1",
+        "nishany-system-colors-v1",
     ]
 
     /// The ledger: the one document every study surface is built from.
-    static let ledgerKey = "synapse-admin-content-ledger-v4"
+    static let ledgerKey = "nishany-admin-content-ledger-v4"
     /// The published evidence store. What resolves here is what a gated article
     /// may show — see `ArticleProjection`.
-    static let evidenceKey = "synapse-medical-evidence-published-v1"
+    static let evidenceKey = "nishany-medical-evidence-published-v1"
     /// Published concepts, for the annotations a reader may reveal.
-    static let conceptGraphKey = "synapse-concept-graph-v2"
+    static let conceptGraphKey = "nishany-concept-graph-v2"
     /// The medical library taxonomy — the systems, disciplines, skills and
     /// knowledge branches a student browses by.
-    static let medicalTaxonomyKey = "synapse-medical-library-taxonomy-v1"
+    static let medicalTaxonomyKey = "nishany-medical-library-taxonomy-v1"
     /// Universities and their years, for resolving a student's cohort.
-    static let universitiesKey = "synapse-academic-universities-v1"
+    static let universitiesKey = "nishany-academic-universities-v1"
     /// The published timetable, per university/year/course.
-    static let moduleSchedulesKey = "synapse-module-schedules-v1"
+    static let moduleSchedulesKey = "nishany-module-schedules-v1"
     /// The bilingual AR⇄EN glossary behind the taxonomy surface.
-    static let glossaryKey = "synapse-medical-glossary-v1"
+    static let glossaryKey = "nishany-medical-glossary-v1"
     /// Per-system colours, admin-editable. Fetched rather than hardcoded, so a
     /// new system in the admin console does not need an app release.
-    static let systemColorsKey = "synapse-system-colors-v1"
+    static let systemColorsKey = "nishany-system-colors-v1"
 
     enum Status: Equatable {
         case idle

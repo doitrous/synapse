@@ -12,8 +12,8 @@ import Testing
 struct UserLibraryTests {
 
     @Test func bothKeysAreTheWebsAndBelongToTheStudent() {
-        #expect(UserLibrary.readKey == "synapse.library.read")
-        #expect(UserLibrary.tagsKey == "synapse.library.personalTags")
+        #expect(UserLibrary.readKey == "nishany.library.read")
+        #expect(UserLibrary.tagsKey == "nishany.library.personalTags")
         #expect(StateOwnership.isUserOwned(UserLibrary.readKey))
         #expect(StateOwnership.isUserOwned(UserLibrary.tagsKey))
     }

@@ -13,7 +13,7 @@ struct PracticalProgress: Codable, Equatable, Sendable {
     var labs: [String: Lab] = [:]
     var skills: [String: Skill] = [:]
 
-    static let key = "synapse.practical.progress.v1"
+    static let key = "nishany.practical.progress.v1"
 
     struct Station: Codable, Equatable, Sendable {
         var attempts: Int

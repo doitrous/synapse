@@ -52,7 +52,7 @@ struct CoverageDebt: Codable, Equatable, Sendable {
     var updatedAt: String?
 
     static let empty = CoverageDebt()
-    static let key = "synapse.progress.adaptive.coverageDebt.v1"
+    static let key = "nishany.progress.adaptive.coverageDebt.v1"
 }
 
 /// How much of the blueprint has actually been practised, and what is owed.

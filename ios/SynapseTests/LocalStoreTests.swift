@@ -45,11 +45,11 @@ struct LocalStoreTests {
         let document = Data(#"{"hello":"world"}"#.utf8)
         let stamp = Date(timeIntervalSince1970: 1_700_000_000)
 
-        try await store.saveCatalogue(key: "synapse-plans-v1", document: document, updatedAt: stamp)
+        try await store.saveCatalogue(key: "nishany-plans-v1", document: document, updatedAt: stamp)
 
-        #expect(try await store.catalogue(key: "synapse-plans-v1") == document)
+        #expect(try await store.catalogue(key: "nishany-plans-v1") == document)
         let versions = try await store.catalogueVersions()
-        #expect(versions["synapse-plans-v1"] ?? nil == stamp)
+        #expect(versions["nishany-plans-v1"] ?? nil == stamp)
     }
 
     @Test("re-fetching a document replaces it rather than duplicating it")
@@ -153,7 +153,7 @@ struct LocalStoreTests {
         @Test("repeated edits to one document collapse to a single upload")
         func coalesces() async throws {
             let store = try LocalStore(path: nil)
-            let key = "synapse.notebook.notes"
+            let key = "nishany.notebook.notes"
 
             try await store.enqueue(key: key, payload: Data("v1".utf8))
             try await store.enqueue(key: key, payload: Data("v2".utf8))
@@ -169,7 +169,7 @@ struct LocalStoreTests {
         @Test("an edit made during an upload survives that upload finishing")
         func doesNotDropAnInFlightEdit() async throws {
             let store = try LocalStore(path: nil)
-            let key = "synapse.notebook.notes"
+            let key = "nishany.notebook.notes"
 
             let firstQueuedAt = Date(timeIntervalSince1970: 1_000)
             try await store.enqueue(key: key, payload: Data("first".utf8), at: firstQueuedAt)
@@ -223,7 +223,7 @@ struct LocalStoreTests {
         let sample = sampleItems()
         try await store.replaceItems(sample.items, searchTexts: sample.searchTexts)
         try await store.saveCatalogue(key: "k", document: Data("d".utf8), updatedAt: Date())
-        try await store.enqueue(key: "synapse.notebook.notes", payload: Data("v".utf8))
+        try await store.enqueue(key: "nishany.notebook.notes", payload: Data("v".utf8))
 
         try await store.clearAll()
 

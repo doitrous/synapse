@@ -16,7 +16,7 @@ struct AccountPrefs: Codable, Equatable, Sendable {
     var calendarReminders: Bool
 
     /// The student's own, so dotted.
-    static let key = "synapse.account.prefs.v1"
+    static let key = "nishany.account.prefs.v1"
 
     static var `default`: AccountPrefs {
         AccountPrefs(

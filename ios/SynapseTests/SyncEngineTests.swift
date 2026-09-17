@@ -338,7 +338,7 @@ struct SyncEngineTests {
 
         let requested = server.cataloguePaths()
         #expect(
-            requested.contains { $0.hasSuffix("/state/synapse-admin-content-ledger-v4") },
+            requested.contains { $0.hasSuffix("/state/nishany-admin-content-ledger-v4") },
             "the ledger key must arrive literally; got \(requested.filter { $0.contains("ledger") })"
         )
         #expect(!requested.contains { $0.contains("%") }, "no path component should be percent-escaped")
@@ -374,7 +374,7 @@ struct SyncEngineTests {
             let store = try LocalStore(path: nil)
             let engine = SyncEngine(api: server.api, store: store)
 
-            await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
+            await engine.write(key: "nishany.notebook.notes", value: ["a": "note"])
 
             #expect(try await store.pendingCount() == 0)
             #expect(!server.userStatePaths().isEmpty)
@@ -387,7 +387,7 @@ struct SyncEngineTests {
             let store = try LocalStore(path: nil)
             let engine = SyncEngine(api: server.api, store: store)
 
-            await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
+            await engine.write(key: "nishany.notebook.notes", value: ["a": "note"])
 
             #expect(try await store.pendingCount() == 1, "the student's note must not be lost")
             let pending = try await store.pendingWrites()
@@ -407,7 +407,7 @@ struct SyncEngineTests {
             let store = try LocalStore(path: nil)
             let engine = SyncEngine(api: server.api, store: store)
 
-            await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
+            await engine.write(key: "nishany.notebook.notes", value: ["a": "note"])
             #expect(try await store.pendingCount() == 1)
 
             online.value = true
@@ -450,7 +450,7 @@ struct SyncEngineTests {
 
             let store = try LocalStore(path: nil)
             let engine = SyncEngine(api: server.api, store: store)
-            let key = "synapse.whiteboard.board"
+            let key = "nishany.whiteboard.board"
 
             let first = Task { await engine.write(key: key, value: ["text": ""]) }
             // Queued behind it, with a later `queuedAt`.
@@ -475,7 +475,7 @@ struct SyncEngineTests {
             let store = try LocalStore(path: nil)
             let engine = SyncEngine(api: server.api, store: store)
 
-            await engine.write(key: "synapse.notebook.notes", value: ["a": "note"])
+            await engine.write(key: "nishany.notebook.notes", value: ["a": "note"])
 
             #expect(try await store.pendingCount() == 0, "a refused write must not stall the queue")
         }

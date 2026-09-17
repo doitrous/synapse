@@ -71,7 +71,7 @@ struct PlanCatalog: Codable, Equatable, Sendable {
     var plans: [CatalogPlan] = []
 
     /// Admin-authored, so hyphenated and read from the shared catalogue.
-    static let key = "synapse-plan-catalog-v1"
+    static let key = "nishany-plan-catalog-v1"
 
     /// Periods shortest first, whatever order they were entered in.
     var byLength: [BillingPeriodDef] { periods.sorted { $0.months < $1.months } }

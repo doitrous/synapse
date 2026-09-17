@@ -13,7 +13,7 @@ import Observation
 @Observable
 final class StudyTimer {
 
-    private static let key = "synapse.reader.timer.v1"
+    private static let key = "nishany.reader.timer.v1"
 
     private struct Stored: Codable {
         var startedAt: Double?

@@ -52,7 +52,7 @@ struct ReadinessResult: Codable, Equatable, Sendable {
     var configVersion: Int
     var blueprintVersion: Int?
 
-    static let key = "synapse.progress.adaptive.readiness.v1"
+    static let key = "nishany.progress.adaptive.readiness.v1"
 }
 
 /// How ready a student is, said as a range.

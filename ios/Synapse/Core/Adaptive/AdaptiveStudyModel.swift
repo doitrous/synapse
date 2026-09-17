@@ -309,7 +309,7 @@ final class AdaptiveStudyModel {
     }
 
     /// Admin-authored, so hyphenated and read from the shared catalogue.
-    static let blueprintKey = "synapse-adaptive-blueprints-v1"
+    static let blueprintKey = "nishany-adaptive-blueprints-v1"
     /// The student's own, so dotted.
-    static let evidenceKey = "synapse.progress.adaptive.evidence.v1"
+    static let evidenceKey = "nishany.progress.adaptive.evidence.v1"
 }
