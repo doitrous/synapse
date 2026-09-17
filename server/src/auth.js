@@ -66,25 +66,42 @@ async function supabaseIdentity(token) {
   const email = typeof payload.email === 'string' ? payload.email : null
   const appMetadata = payload.app_metadata && typeof payload.app_metadata === 'object' ? payload.app_metadata : {}
   const provider = typeof appMetadata.provider === 'string' ? appMetadata.provider.slice(0, 32) : null
-  await pool.query(
-    `INSERT INTO user_access (user_id, email, role) VALUES (?, ?, 'student')
-     ON DUPLICATE KEY UPDATE email = COALESCE(VALUES(email), email)`,
-    [userId, email],
-  )
-  if (provider && provider !== 'email') {
-    await pool.query(
-      `UPDATE students
-          SET social_provider = COALESCE(social_provider, ?),
-              social_subject = COALESCE(social_subject, ?)
-        WHERE user_id = ?`,
-      [provider, userId, userId],
-    )
-  }
-  const [rows] = await pool.query(
-    'SELECT role, status, mfa_required, content_scope FROM user_access WHERE user_id = ?',
+  // Read first. This runs on EVERY authenticated request; the old unconditional
+  // `INSERT ... ON DUPLICATE KEY UPDATE` took a write lock on the caller's own
+  // user_access row every time, so a burst of requests from one student (a page
+  // firing ~25 state reads at once) serialised on that single row lock. The row
+  // exists for every returning user, so the common path is now a lock-free
+  // SELECT; the provisioning write happens only when the row is missing or the
+  // token's email has changed. Status/role/mfa are still read fresh here, so
+  // this changes only when we write, never what a request is allowed to do.
+  let [rows] = await pool.query(
+    'SELECT role, status, mfa_required, content_scope, email FROM user_access WHERE user_id = ?',
     [userId],
   )
-  const access = rows[0]
+  let access = rows[0]
+  if (!access || (email && access.email !== email)) {
+    await pool.query(
+      `INSERT INTO user_access (user_id, email, role) VALUES (?, ?, 'student')
+       ON DUPLICATE KEY UPDATE email = COALESCE(VALUES(email), email)`,
+      [userId, email],
+    )
+    // Recorded once, on first sight (the row we just provisioned): a returning
+    // social user does not need this rewritten on every request.
+    if (provider && provider !== 'email') {
+      await pool.query(
+        `UPDATE students
+            SET social_provider = COALESCE(social_provider, ?),
+                social_subject = COALESCE(social_subject, ?)
+          WHERE user_id = ?`,
+        [provider, userId, userId],
+      )
+    }
+    ;[rows] = await pool.query(
+      'SELECT role, status, mfa_required, content_scope, email FROM user_access WHERE user_id = ?',
+      [userId],
+    )
+    access = rows[0]
+  }
   if (!access || access.status !== 'active') return null
   const role = effectiveRole(email, access.role, superAdminEmails)
   return {
