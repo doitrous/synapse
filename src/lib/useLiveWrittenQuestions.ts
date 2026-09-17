@@ -8,6 +8,7 @@ import { managedMultiToStudentMulti, type MultiResponseQuestionView } from '@/da
 import { managedLabelingToStudentLabeling, type LabelingQuestionView } from '@/data/labelingQuestion'
 import { managedCompletionToStudentCompletion, type CompletionQuestionView } from '@/data/completionQuestion'
 import { WRITTEN_FORMATS } from '@/data/questionFormat'
+import type { PersistentStateStatus } from './stateStore'
 import { useScopedQuestions } from './content'
 
 /**
@@ -32,9 +33,13 @@ export function publishedWrittenFromCatalogue(catalogue: ManagedContentItem[]): 
  * faculty paper, carrying that paper's parts and marks. They share a runner
  * shape and nothing else.
  */
+export function useLiveWrittenQuestionsWithStatus(): readonly [WrittenQuestion[], PersistentStateStatus] {
+  const [catalogue, status] = useScopedQuestions(WRITTEN_SCOPE)
+  return [useMemo(() => publishedWrittenFromCatalogue(catalogue), [catalogue]), status]
+}
+
 export function useLiveWrittenQuestions() {
-  const [catalogue] = useScopedQuestions(WRITTEN_SCOPE)
-  return useMemo(() => publishedWrittenFromCatalogue(catalogue), [catalogue])
+  return useLiveWrittenQuestionsWithStatus()[0]
 }
 
 export function publishedMatchingFromCatalogue(catalogue: ManagedContentItem[]): MatchingQuestionView[] {
@@ -43,38 +48,54 @@ export function publishedMatchingFromCatalogue(catalogue: ManagedContentItem[]):
     .filter((question): question is MatchingQuestionView => question !== null)
 }
 
+export function useLiveMatchingQuestionsWithStatus(): readonly [MatchingQuestionView[], PersistentStateStatus] {
+  const [catalogue, status] = useScopedQuestions({ format: 'matching' })
+  return [useMemo(() => publishedMatchingFromCatalogue(catalogue), [catalogue]), status]
+}
+
 /** Every published matching question. */
 export function useLiveMatchingQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'matching' })
-  return useMemo(() => publishedMatchingFromCatalogue(catalogue), [catalogue])
+  return useLiveMatchingQuestionsWithStatus()[0]
+}
+
+export function useLiveMultiResponseQuestionsWithStatus(): readonly [MultiResponseQuestionView[], PersistentStateStatus] {
+  const [catalogue, status] = useScopedQuestions({ format: 'mcq_multi' })
+  return [useMemo(
+    () => catalogue.map(managedMultiToStudentMulti)
+      .filter((q): q is MultiResponseQuestionView => q !== null),
+    [catalogue],
+  ), status]
 }
 
 /** Every published multiple-response question. */
 export function useLiveMultiResponseQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'mcq_multi' })
-  return useMemo(
-    () => catalogue.map(managedMultiToStudentMulti)
-      .filter((q): q is MultiResponseQuestionView => q !== null),
+  return useLiveMultiResponseQuestionsWithStatus()[0]
+}
+
+export function useLiveLabelingQuestionsWithStatus(): readonly [LabelingQuestionView[], PersistentStateStatus] {
+  const [catalogue, status] = useScopedQuestions({ format: 'labeling' })
+  return [useMemo(
+    () => catalogue.map(managedLabelingToStudentLabeling)
+      .filter((q): q is LabelingQuestionView => q !== null),
     [catalogue],
-  )
+  ), status]
 }
 
 /** Every published labelling question. */
 export function useLiveLabelingQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'labeling' })
-  return useMemo(
-    () => catalogue.map(managedLabelingToStudentLabeling)
-      .filter((q): q is LabelingQuestionView => q !== null),
+  return useLiveLabelingQuestionsWithStatus()[0]
+}
+
+export function useLiveCompletionQuestionsWithStatus(): readonly [CompletionQuestionView[], PersistentStateStatus] {
+  const [catalogue, status] = useScopedQuestions({ format: 'completion' })
+  return [useMemo(
+    () => catalogue.map(managedCompletionToStudentCompletion)
+      .filter((q): q is CompletionQuestionView => q !== null),
     [catalogue],
-  )
+  ), status]
 }
 
 /** Every published completion question. */
 export function useLiveCompletionQuestions() {
-  const [catalogue] = useScopedQuestions({ format: 'completion' })
-  return useMemo(
-    () => catalogue.map(managedCompletionToStudentCompletion)
-      .filter((q): q is CompletionQuestionView => q !== null),
-    [catalogue],
-  )
+  return useLiveCompletionQuestionsWithStatus()[0]
 }

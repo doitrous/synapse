@@ -4,9 +4,9 @@ import { BookOpen, ChevronRight, Crosshair, FileText, ListChecks, PenLine, Shuff
 import type { LucideIcon } from 'lucide-react'
 import { WRITTEN_GUIDE } from '@/data/writtenGuide'
 import { coveredCount, type EssayQuestion as EssayQuestionData } from '@/data/essay'
-import { useLiveEssays } from '@/lib/useLiveEssays'
+import { useLiveEssaysWithStatus } from '@/lib/useLiveEssays'
 import { useEssayAnswers } from '@/lib/useEssayAnswers'
-import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
+import { type CatalogueAvailability } from '@/lib/catalogueAvailability'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 import { subjects } from '@/data/subjects'
@@ -21,8 +21,8 @@ import { SystemMark } from '@/components/ui/SystemMark'
 import { EssayRunner } from '@/components/essay/EssayRunner'
 import { WrittenRunner } from '@/components/written/WrittenRunner'
 import {
-  useLiveCompletionQuestions, useLiveLabelingQuestions, useLiveMatchingQuestions,
-  useLiveMultiResponseQuestions, useLiveWrittenQuestions,
+  useLiveCompletionQuestionsWithStatus, useLiveLabelingQuestionsWithStatus, useLiveMatchingQuestionsWithStatus,
+  useLiveMultiResponseQuestionsWithStatus, useLiveWrittenQuestionsWithStatus,
 } from '@/lib/useLiveWrittenQuestions'
 import { CompletionRunner } from '@/components/written/CompletionRunner'
 import type { CompletionQuestionView } from '@/data/completionQuestion'
@@ -274,16 +274,29 @@ function EssayList({ essays, onOpen }: { essays: EssayQuestionData[]; onOpen: (e
 
 export function EssayQuestions() {
   const t = useT()
-  const essays = useLiveEssays()
-  const written = useLiveWrittenQuestions()
-  const matching = useLiveMatchingQuestions()
-  const multi = useLiveMultiResponseQuestions()
-  const labeling = useLiveLabelingQuestions()
-  const completion = useLiveCompletionQuestions()
-  const availability = useCatalogueAvailability(
-    essays.length + written.length + matching.length + multi.length
-    + labeling.length + completion.length,
-  )
+  const [essays, essaysStatus] = useLiveEssaysWithStatus()
+  const [written, writtenStatus] = useLiveWrittenQuestionsWithStatus()
+  const [matching, matchingStatus] = useLiveMatchingQuestionsWithStatus()
+  const [multi, multiStatus] = useLiveMultiResponseQuestionsWithStatus()
+  const [labeling, labelingStatus] = useLiveLabelingQuestionsWithStatus()
+  const [completion, completionStatus] = useLiveCompletionQuestionsWithStatus()
+  // This page reads six independent format slices. Rather than hold the whole
+  // list for the slowest of them (or, worse, for the global in-flight queue via
+  // the shared count helper), decide from these six sources alone: ready the
+  // moment any one has questions, empty only once every one has settled with
+  // none, and never a spinner while another surface's unrelated fetch runs.
+  const total = essays.length + written.length + matching.length + multi.length
+    + labeling.length + completion.length
+  const statuses = [essaysStatus, writtenStatus, matchingStatus, multiStatus, labelingStatus, completionStatus]
+  const firstError = statuses.find((status) => status.error)?.error ?? null
+  const allSettled = statuses.every((status) => status.hydrated || status.error)
+  const availability: CatalogueAvailability = total > 0
+    ? { kind: 'ready' }
+    : firstError
+      ? { kind: 'error', error: firstError }
+      : allSettled
+        ? { kind: 'empty' }
+        : { kind: 'loading' }
   const [active, setActive] = useState<EssayQuestionData | null>(null)
   const [activeWritten, setActiveWritten] = useState<WrittenQuestion | null>(null)
   const [activeMatching, setActiveMatching] = useState<MatchingQuestionView | null>(null)
