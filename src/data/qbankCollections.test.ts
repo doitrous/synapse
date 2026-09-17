@@ -40,6 +40,18 @@ test('the latest verdict wins, not the first', () => {
   assert.equal(latestVerdicts(records).get('q1'), true)
 })
 
+test('serverAt decides order across devices even when the wall clock disagrees', () => {
+  // Device A's clock runs fast: it marks q1 WRONG at a later local time, but the
+  // server received it FIRST (serverAt 1000). Device B marks it RIGHT at an
+  // earlier local time, received LAST (serverAt 2000). Ordering by `at` keeps
+  // the wrong answer; ordering by serverAt — the fix — keeps the right one.
+  const wrongFastClock = { ...record('q1', false, '2026-08-10T09:00:00.000Z', 'sA'), serverAt: 1000 }
+  const rightSlowClock = { ...record('q1', true, '2026-08-01T09:00:00.000Z', 'sB'), serverAt: 2000 }
+  assert.equal(latestVerdicts([wrongFastClock, rightSlowClock]).get('q1'), true)
+  // Flip the server order and the verdict flips with it.
+  assert.equal(latestVerdicts([{ ...wrongFastClock, serverAt: 3000 }, rightSlowClock]).get('q1'), false)
+})
+
 test('an unmarked record does not clear a verdict', () => {
   // A station is ticked against a checklist, not marked against a key. It is
   // evidence of practice and says nothing about whether the student was right,

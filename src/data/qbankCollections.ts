@@ -1,4 +1,4 @@
-import type { AttemptRecord } from './attempts.ts'
+import { attemptOrder, type AttemptRecord } from './attempts.ts'
 import type { Question } from './qbank.ts'
 import type { LibTopic } from './library.ts'
 import { subtopicKey, topicKey, type Scope } from './qbankScope.ts'
@@ -43,12 +43,13 @@ const QUESTION_SURFACES: ReadonlySet<string> = new Set(['qbank', 'room'])
  * says nothing about correctness.
  */
 export function latestVerdicts(records: AttemptRecord[]): Map<string, boolean> {
-  const latest = new Map<string, { at: string; correct: boolean }>()
+  const latest = new Map<string, { order: number; correct: boolean }>()
   for (const entry of records) {
     if (!QUESTION_SURFACES.has(entry.surface) || entry.correct === null) continue
+    const order = attemptOrder(entry)
     const seen = latest.get(entry.itemId)
-    if (seen && seen.at >= entry.at) continue
-    latest.set(entry.itemId, { at: entry.at, correct: entry.correct })
+    if (seen && seen.order >= order) continue
+    latest.set(entry.itemId, { order, correct: entry.correct })
   }
   const out = new Map<string, boolean>()
   latest.forEach((entry, itemId) => out.set(itemId, entry.correct))

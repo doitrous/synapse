@@ -1,4 +1,4 @@
-import type { AttemptRecord } from './attempts'
+import { attemptOrder, type AttemptRecord } from './attempts.ts'
 import type { QuestionHighlight } from './questionHighlights'
 
 /**
@@ -119,7 +119,7 @@ export function classifyAnswerChanges(records: AttemptRecord[]): AnswerChangeSum
 
   for (const [itemId, group] of byItem) {
     if (group.length < 2) continue
-    const ordered = [...group].sort((a, b) => a.at.localeCompare(b.at))
+    const ordered = [...group].sort((a, b) => attemptOrder(a) - attemptOrder(b))
     const itemCounts = zeroTransitionCounts()
     for (let i = 1; i < ordered.length; i++) {
       const kind = transitionKind(ordered[i - 1].correct as boolean, ordered[i].correct as boolean)

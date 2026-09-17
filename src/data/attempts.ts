@@ -19,8 +19,17 @@ export type AttemptSurface = 'qbank' | 'case' | 'lab' | 'station' | 'room' | 'ca
 
 export interface AttemptRecord {
   id: string
-  /** ISO timestamp of when the answer was committed. */
+  /** ISO timestamp of when the answer was committed (this device's clock). */
   at: string
+  /**
+   * The server's receipt time (epoch ms), stamped once the verified POST is
+   * acknowledged. The attempt log is synced across a student's devices, so
+   * ordering by the per-device `at` misorders when two devices' clocks disagree
+   * (a wrong answer on one device can look "later" than a right one on another).
+   * The server is a single clock, so ordering by `serverAt` — see `attemptOrder`
+   * — is device-independent. Absent until confirmed, and on legacy records.
+   */
+  serverAt?: number
   surface: AttemptSurface
   itemId: string
   subjectId: string
@@ -105,6 +114,18 @@ export interface AttemptIndex {
 }
 
 export const ATTEMPT_INDEX_KEY = 'nishany.progress.attemptIndex.v1'
+
+/**
+ * Device-independent ordering key for an attempt: the server's receipt time
+ * once acknowledged (one clock for every device), falling back to this device's
+ * commit time for attempts not yet confirmed or written before `serverAt`
+ * existed. Order by this — never by raw `at` — wherever "which attempt came
+ * last" decides a verdict or a transition, so a synced log can't be misordered
+ * by two devices' clocks disagreeing.
+ */
+export function attemptOrder(record: AttemptRecord): number {
+  return record.serverAt ?? Date.parse(record.at)
+}
 
 /** `YYYY-MM` — the shard a timestamp belongs to. */
 export function attemptMonth(at: string | Date): string {

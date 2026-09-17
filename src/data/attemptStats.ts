@@ -1,4 +1,4 @@
-import type { AttemptRecord, AttemptSurface } from './attempts'
+import { attemptOrder, type AttemptRecord, type AttemptSurface } from './attempts.ts'
 import type { Difficulty } from './qbank'
 import { paceBand, type PaceBand } from './qbankSession.ts'
 import { bucketOf, type SourceBucket } from './questionSource.ts'
@@ -214,7 +214,7 @@ export interface FirstAttemptSplit {
  * number over both flatters the record, so they are kept apart.
  */
 export function firstAttemptSplit(records: AttemptRecord[]): FirstAttemptSplit {
-  const ordered = [...records].sort((a, b) => a.at.localeCompare(b.at))
+  const ordered = [...records].sort((a, b) => attemptOrder(a) - attemptOrder(b))
   const seen = new Set<string>()
   const firsts: AttemptRecord[] = []
   const repeats: AttemptRecord[] = []
