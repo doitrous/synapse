@@ -122,16 +122,28 @@ export async function recordVerifiedAttempts(userId, input) {
   const term = cleanText(input?.term, 64) ?? 'current'
   const sessionId = cleanText(input?.sessionId, 96) ?? randomUUID()
   const rows = []
+  const skipped = []
   for (const attempt of attempts) {
     const questionId = cleanText(attempt?.questionId ?? attempt?.id, 96)
+    // Skip an unmarkable/invalid attempt instead of discarding the whole batch:
+    // a finished sitting POSTs every answer at once, and one question retracted
+    // mid-sitting used to make the entire session's answers vanish. Record every
+    // valid answer; report the rest as skipped.
     const key = questionId ? snapshot.get(questionId) : null
-    if (!questionId || !key || key.correctIndex < 0) return { error: 'question_not_markable', questionId }
+    if (!questionId || !key || key.correctIndex < 0) {
+      skipped.push({ questionId: questionId ?? null, reason: 'question_not_markable' })
+      continue
+    }
     const answerIndex = Number(attempt?.answerIndex ?? attempt?.selectedIndex)
     if (!Number.isInteger(answerIndex) || answerIndex < 0 || answerIndex >= key.optionCount) {
-      return { error: 'invalid_answer_index', questionId }
+      skipped.push({ questionId, reason: 'invalid_answer_index' })
+      continue
     }
     const answeredAt = attempt?.answeredAt ? new Date(attempt.answeredAt) : new Date()
-    if (!Number.isFinite(answeredAt.getTime())) return { error: 'invalid_answered_at', questionId }
+    if (!Number.isFinite(answeredAt.getTime())) {
+      skipped.push({ questionId, reason: 'invalid_answered_at' })
+      continue
+    }
     rows.push({
       id: cleanText(attempt?.attemptId, 64) ?? randomUUID(),
       sessionId: cleanText(attempt?.sessionId, 96) ?? sessionId,
@@ -210,7 +222,7 @@ export async function recordVerifiedAttempts(userId, input) {
       conn.release()
     }
   }
-  return { ok: true, recorded: rows.length, results: rows.map((row) => ({
+  return { ok: true, recorded: rows.length, skipped, results: rows.map((row) => ({
     questionId: row.questionId,
     answerIndex: row.answerIndex,
     correctIndex: row.correctIndex,

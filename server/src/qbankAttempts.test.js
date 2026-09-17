@@ -120,3 +120,54 @@ test('recordVerifiedAttempts writes a whole batch in one query, not one per atte
   // last_active is stamped on the same connection so it commits with the batch.
   assert.ok(connSql.some((sql) => /UPDATE students SET last_active/.test(sql)), 'last_active is updated in the same transaction')
 })
+
+test('recordVerifiedAttempts records the valid attempts and skips a bad one, not the whole batch', async (t) => {
+  const ledger = [{
+    id: 'q1',
+    kind: 'question',
+    status: 'Published',
+    title: 'Q1',
+    subjectId: 'anatomy',
+    fields: { subtopic: 'General' },
+    questionData: {
+      tags: { topic: 'Topic', mainConceptIds: ['c1'], conceptIds: [] },
+      correctAnswer: 'A',
+      answers: [{ label: 'A', text: 'Correct' }, { label: 'B', text: 'Wrong' }],
+    },
+  }]
+
+  const connSql = []
+  const conn = {
+    beginTransaction: async () => {},
+    commit: async () => {},
+    rollback: async () => {},
+    release: () => {},
+    query: async (sql) => { connSql.push(sql); return [{ affectedRows: 2 }] },
+  }
+  t.mock.method(pool, 'getConnection', async () => conn)
+  t.mock.method(pool, 'query', async (sql) => {
+    if (/FROM students WHERE user_id/.test(sql)) {
+      return [[{ id: 'stu-1', universityId: 'cairo', year: 'Year 1', username: 'omary98', profileIcon: null }]]
+    }
+    if (/FROM app_state s WHERE s\.k IN/.test(sql)) {
+      return [[{ k: 'nishany-admin-content-ledger-v4', v: JSON.stringify(ledger), version: '1' }]]
+    }
+    return [[]]
+  })
+
+  // The middle answer references a question that was retracted mid-sitting.
+  const result = await recordVerifiedAttempts('user-1', {
+    attempts: [
+      { attemptId: 'a1', questionId: 'q1', answerIndex: 0 },
+      { attemptId: 'a2', questionId: 'gone', answerIndex: 0 },
+      { attemptId: 'a3', questionId: 'q1', answerIndex: 1 },
+    ],
+  })
+
+  assert.equal(result.ok, true)
+  assert.equal(result.recorded, 2, 'the two valid answers are still recorded')
+  assert.deepEqual(result.skipped, [{ questionId: 'gone', reason: 'question_not_markable' }])
+  const inserts = connSql.filter((sql) => /INSERT INTO qbank_attempts/.test(sql))
+  assert.equal(inserts.length, 1, 'the valid answers still reach the database')
+  assert.equal((inserts[0].match(/\(\?, \?/g) || []).length, 2, 'the INSERT carries exactly the two valid rows')
+})
