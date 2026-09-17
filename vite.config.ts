@@ -97,11 +97,19 @@ export default defineConfig({
         // Dependencies change far less often than the product does. Splitting
         // them out means a deploy that touches only our code leaves these
         // cached, instead of re-downloading React and the icon set every time.
-        manualChunks: (id: string) => {
-          if (!id.includes('node_modules')) return undefined
-          if (/node_modules\/(react|react-dom|react-router|react-router-dom|scheduler)\//.test(id)) return 'react'
-          if (id.includes('node_modules/lucide-react/')) return 'icons'
-          return undefined
+        //
+        // rolldown's `advancedChunks`, not a `manualChunks` function: the
+        // function form co-located React's core (`react/index`) with its lucide
+        // importer in the `icons` chunk regardless of what it returned, which
+        // dragged that 87KB chunk into every page's eager load (React is needed
+        // at boot). `advancedChunks` places a matched module deterministically
+        // and shares it, so React stays in `react` and `icons` holds only glyphs
+        // — and so loads lazily, with the pages that actually draw them.
+        advancedChunks: {
+          groups: [
+            { name: 'react', test: /node_modules\/(react|react-dom|react-router|react-router-dom|scheduler)\// },
+            { name: 'icons', test: /node_modules\/lucide-react\// },
+          ],
         },
       },
     },
