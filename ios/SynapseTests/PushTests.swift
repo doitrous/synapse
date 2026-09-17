@@ -95,7 +95,7 @@ import UIKit
         defer { push.onNudge = nil }
 
         for payload in [["aps": ["content-available": 1]],
-                        ["aps": ["content-available": 1], "k": "synapse.progress.attempts.v1"]] {
+                        ["aps": ["content-available": 1], "k": "nishany.progress.attempts.v1"]] {
             _ = await withCheckedContinuation { (continuation: CheckedContinuation<UIBackgroundFetchResult, Never>) in
                 PushDelegate().application(
                     UIApplication.shared,

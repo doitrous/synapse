@@ -44,7 +44,7 @@ class LiveSessionTest {
 
     @Test
     fun `the key is spelled as the web spells it`() {
-        assertEquals("synapse.qbank.activeSession.v1", LiveSession.KEY)
+        assertEquals("nishany.qbank.activeSession.v1", LiveSession.KEY)
     }
 
     @Test

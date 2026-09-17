@@ -13,9 +13,9 @@ import Observation
 @Observable
 final class QBankStore {
 
-    static let markedKey = "synapse.qbank.marked.v1"
-    static let notesKey = "synapse.qbank.questionNotes.v1"
-    static let namesKey = "synapse.qbank.sessionNames.v1"
+    static let markedKey = "nishany.qbank.marked.v1"
+    static let notesKey = "nishany.qbank.questionNotes.v1"
+    static let namesKey = "nishany.qbank.sessionNames.v1"
 
     /// Question ids the student has flagged to come back to.
     private(set) var marked: Set<String> = []

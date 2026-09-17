@@ -87,10 +87,10 @@ class LocalStoreTest {
     @Test fun `a document round-trips with its server stamp`() = runBlocking {
         val serverStamp = Instant.parse("2026-03-01T12:00:00Z")
 
-        store.putDocument("synapse-plans-v1", """{"value":1}""", serverStamp)
-        val stored = store.document("synapse-plans-v1")
+        store.putDocument("nishany-plans-v1", """{"value":1}""", serverStamp)
+        val stored = store.document("nishany-plans-v1")
 
-        assertEquals("synapse-plans-v1", stored?.key)
+        assertEquals("nishany-plans-v1", stored?.key)
         assertEquals("""{"value":1}""", stored?.json)
         assertEquals(serverStamp, stored?.serverUpdatedAt)
     }
@@ -176,12 +176,12 @@ class LocalStoreTest {
     }
 
     @Test fun `an outbox entry survives being read`() = runBlocking {
-        store.enqueue("synapse-notes-v1", """{"text":"hello"}""", Instant.parse("2026-02-01T00:00:00Z"))
+        store.enqueue("nishany-notes-v1", """{"text":"hello"}""", Instant.parse("2026-02-01T00:00:00Z"))
 
         val entries = store.outbox()
 
         assertEquals(1, entries.size)
-        assertEquals("synapse-notes-v1", entries.single().key)
+        assertEquals("nishany-notes-v1", entries.single().key)
         assertEquals("""{"text":"hello"}""", entries.single().json)
     }
 

@@ -61,7 +61,7 @@ struct ConceptBoost: Codable, Equatable, Sendable {
     /// repair again.
     var repairQuestionIds: [String] = []
 
-    static let key = "synapse.progress.adaptive.boosts.v1"
+    static let key = "nishany.progress.adaptive.boosts.v1"
 }
 
 extension Dictionary where Key == String, Value == ConceptBoost {

@@ -16,7 +16,7 @@ struct ConceptGraph: Codable, Equatable, Sendable {
     var concepts: [Concept]
 
     /// Admin-authored, so hyphenated and read from the shared catalogue.
-    static let key = "synapse-concept-graph-v2"
+    static let key = "nishany-concept-graph-v2"
 
     /// Either half missing is an empty half rather than a decoding failure: a
     /// catalogue with concepts but no edges yet is a normal state, and so is

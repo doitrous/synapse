@@ -32,7 +32,7 @@ struct StudyBlock: Codable, Identifiable, Equatable, Sendable {
     /// The timetable session this was planned from, when it came from one.
     var sourceSessionId: String?
 
-    static let storageKey = "synapse.calendar.blocks"
+    static let storageKey = "nishany.calendar.blocks"
 
     /// Minutes between the two `HH:MM` values, floored at zero.
     var minutes: Int {

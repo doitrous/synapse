@@ -12,21 +12,21 @@ package com.synapse.android.core.sync
 object StateOwnership {
 
     private val userOwnedPatterns: List<Regex> = listOf(
-        """^synapse-lang$""",
-        """^synapse\.notebook\.""",
-        """^synapse\.whiteboard\.""",
-        """^synapse\.calendar\.blocks$""",
-        """^synapse\.library\.(read|userArticles|personalTags|marks)""",
-        """^synapse\.account\.""",
-        """^synapse-notification-read-v1-""",
-        """^synapse-applied-voucher-v1$""",
-        """^synapse\.qbank\.""",
-        """^synapse\.practical\.""",
-        """^synapse\.highlights\.""",
-        """^synapse\.annotations\.""",
-        """^synapse\.reader\.""",
-        """^synapse\.bookmarks\.""",
-        """^synapse\.progress\.""",
+        """^nishany-lang$""",
+        """^nishany\.notebook\.""",
+        """^nishany\.whiteboard\.""",
+        """^nishany\.calendar\.blocks$""",
+        """^nishany\.library\.(read|userArticles|personalTags|marks)""",
+        """^nishany\.account\.""",
+        """^nishany-notification-read-v1-""",
+        """^nishany-applied-voucher-v1$""",
+        """^nishany\.qbank\.""",
+        """^nishany\.practical\.""",
+        """^nishany\.highlights\.""",
+        """^nishany\.annotations\.""",
+        """^nishany\.reader\.""",
+        """^nishany\.bookmarks\.""",
+        """^nishany\.progress\.""",
     ).map(::Regex)
 
     fun isUserOwned(key: String): Boolean =

@@ -11,8 +11,8 @@ import Observation
 @Observable
 final class UserLibrary {
 
-    static let readKey = "synapse.library.read"
-    static let tagsKey = "synapse.library.personalTags"
+    static let readKey = "nishany.library.read"
+    static let tagsKey = "nishany.library.personalTags"
 
     /// Article id → read. Stored as a map rather than a list because that is
     /// what the website writes.

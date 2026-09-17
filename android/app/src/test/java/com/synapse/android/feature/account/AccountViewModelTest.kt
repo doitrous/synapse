@@ -82,8 +82,8 @@ class AccountViewModelTest {
     fun `Account reports how many writes are still waiting`() = runBlocking {
         // Not a debug affordance. It is the honest answer to "is my work
         // saved?", and a student on a ward deserves to see it.
-        store.enqueue("synapse.qbank.marked.v1", "{}", Instant.now())
-        store.enqueue("synapse.qbank.marked.v1", "{}", Instant.now())
+        store.enqueue("nishany.qbank.marked.v1", "{}", Instant.now())
+        store.enqueue("nishany.qbank.marked.v1", "{}", Instant.now())
 
         val ui = withTimeout(5_000) { viewModel().ui.first { it.pendingWrites == 2 } }
 

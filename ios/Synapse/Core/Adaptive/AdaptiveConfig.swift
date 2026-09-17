@@ -26,7 +26,7 @@ struct AdaptiveConfig: Codable, Equatable, Sendable {
 
     /// Admin-authored, so it is read from the shared catalogue rather than the
     /// student's own record — which is why the key is hyphenated.
-    static let key = "synapse-adaptive-config-v1"
+    static let key = "nishany-adaptive-config-v1"
 
     struct Mastery: Codable, Equatable, Sendable {
         var priorAlpha: Double

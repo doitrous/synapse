@@ -10,38 +10,38 @@ import Testing
 struct StateOwnershipTests {
 
     @Test("a student's own work is routed to their private store", arguments: [
-        "synapse.qbank.marked.v1",
-        "synapse.qbank.activeSession.v1",
-        "synapse.progress.attempts.2026-08",
-        "synapse.progress.mastery.v1",
-        "synapse.notebook.notes",
-        "synapse.calendar.blocks",
-        "synapse.practical.progress.v1",
-        "synapse.bookmarks.resources.v1",
-        "synapse.library.read",
-        "synapse.library.personalTags",
-        "synapse.library.userArticles",
-        "synapse.library.marks.v1",
-        "synapse.annotations.v1.doc42.s0",
-        "synapse.reader.fit",
-        "synapse.account.prefs.v1",
-        "synapse.whiteboard.board",
-        "synapse.highlights.doc42",
-        "synapse-lang",
-        "synapse-applied-voucher-v1",
-        "synapse-notification-read-v1-student",
+        "nishany.qbank.marked.v1",
+        "nishany.qbank.activeSession.v1",
+        "nishany.progress.attempts.2026-08",
+        "nishany.progress.mastery.v1",
+        "nishany.notebook.notes",
+        "nishany.calendar.blocks",
+        "nishany.practical.progress.v1",
+        "nishany.bookmarks.resources.v1",
+        "nishany.library.read",
+        "nishany.library.personalTags",
+        "nishany.library.userArticles",
+        "nishany.library.marks.v1",
+        "nishany.annotations.v1.doc42.s0",
+        "nishany.reader.fit",
+        "nishany.account.prefs.v1",
+        "nishany.whiteboard.board",
+        "nishany.highlights.doc42",
+        "nishany-lang",
+        "nishany-applied-voucher-v1",
+        "nishany-notification-read-v1-student",
     ])
     func userOwned(key: String) {
         #expect(StateOwnership.isUserOwned(key), "\(key) must go to /api/user-state")
     }
 
     @Test("shared catalogue documents are not student-writable", arguments: [
-        "synapse-admin-content-ledger-v4",
-        "synapse-taxonomy-tree-v4",
-        "synapse-concept-graph-v2",
-        "synapse-system-colors-v1",
-        "synapse-plans-v1",
-        "synapse-medical-glossary-v1",
+        "nishany-admin-content-ledger-v4",
+        "nishany-taxonomy-tree-v4",
+        "nishany-concept-graph-v2",
+        "nishany-system-colors-v1",
+        "nishany-plans-v1",
+        "nishany-medical-glossary-v1",
     ])
     func shared(key: String) {
         #expect(!StateOwnership.isUserOwned(key), "\(key) must go to /api/state")
@@ -52,10 +52,10 @@ struct StateOwnershipTests {
     @Test("the match is anchored, not a substring")
     func anchoring() {
         #expect(!StateOwnership.isUserOwned("prefixed-synapse.qbank.marked"))
-        #expect(!StateOwnership.isUserOwned("synapse-qbank-marked"))
-        #expect(!StateOwnership.isUserOwned("synapse-langx"))
+        #expect(!StateOwnership.isUserOwned("nishany-qbank-marked"))
+        #expect(!StateOwnership.isUserOwned("nishany-langx"))
         // `synapse-lang` is anchored at both ends, unlike the dotted families.
-        #expect(StateOwnership.isUserOwned("synapse-lang"))
+        #expect(StateOwnership.isUserOwned("nishany-lang"))
     }
 
     /// This is the one the web app's own comment warns about: a stale local copy

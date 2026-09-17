@@ -16,7 +16,7 @@ import kotlinx.serialization.Serializable
  * in this product yet -- so nothing here has a `signedOffBy` field, and no
  * screen may imply one exists.
  */
-const val PRACTICAL_PROGRESS_KEY = "synapse.practical.progress.v1"
+const val PRACTICAL_PROGRESS_KEY = "nishany.practical.progress.v1"
 
 @Serializable
 data class StationProgress(
