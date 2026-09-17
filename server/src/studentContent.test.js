@@ -326,10 +326,17 @@ test('a practical\'s summary view keeps its type and drops every decision, quest
   })
 })
 
-test('a lapsed student is refused the essay/practical summary view exactly like the full one', async () => {
+test('a lapsed student is refused the essay/practical full view but keeps the summary', async () => {
   await withLedger(async () => {
-    assert.equal((await call(itemsHandler, { query: { kind: 'essay', view: 'summary' } })).statusCode, 402)
-    assert.equal((await call(itemsHandler, { query: { kind: 'practical', view: 'summary' } })).statusCode, 402)
+    // The counts-only projection carries no body, so it's open like the
+    // question-summary view — the free dashboard's progress ring is built on it.
+    assert.equal((await call(itemsHandler, { query: { kind: 'essay', view: 'summary' } })).statusCode, 200)
+    assert.equal((await call(itemsHandler, { query: { kind: 'practical', view: 'summary' } })).statusCode, 200)
+    // The full body is still the paid product.
+    assert.equal((await call(itemsHandler, { query: { kind: 'essay' } })).statusCode, 402)
+    assert.equal((await call(itemsHandler, { query: { kind: 'practical' } })).statusCode, 402)
+    // A kind with no summary projection stays gated regardless of the view param.
+    assert.equal((await call(itemsHandler, { query: { kind: 'resource', view: 'summary' } })).statusCode, 402)
   }, { subscription: null })
 })
 
