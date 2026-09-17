@@ -22,6 +22,9 @@ const ACADEMIC_CATALOGUE_KEY = 'nishany-academic-universities-v1'
 
 let questionSnapshot = null
 let questionSnapshotVersion = null
+// A rebuild in progress, shared so concurrent cold callers await one 60 MB read
+// + build instead of each doing their own. See loadSnapshots.
+let rebuilding = null
 
 export function invalidatePublishedQuestions(key) {
   if (key === LEDGER_KEY || key === MEDIA_STATE_KEY || key === ACADEMIC_CATALOGUE_KEY) {
@@ -48,22 +51,32 @@ async function loadSnapshots() {
     version(ACADEMIC_CATALOGUE_KEY),
   ])
   if (questionSnapshot && questionSnapshotVersion === signature) return
-  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?)', keys)
+  // Coalesce concurrent cold rebuilds for the same version onto one promise.
+  if (rebuilding && rebuilding.signature === signature) return rebuilding.promise
+  const promise = (async () => {
+    const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?)', keys)
+    try {
+      const ledgerRow = rows.find((row) => row.k === LEDGER_KEY)
+      const mediaRow = rows.find((row) => row.k === MEDIA_STATE_KEY)
+      const catalogueRow = rows.find((row) => row.k === ACADEMIC_CATALOGUE_KEY)
+      const ledger = ledgerRow ? JSON.parse(ledgerRow.v) : []
+      const media = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
+      const catalogue = catalogueRow ? JSON.parse(catalogueRow.v) : []
+      const released = releasedMediaIdsFromDocument(media)
+      questionSnapshot = questionKeysFromLedger(ledger, released, catalogue)
+      questionSnapshotVersion = signature
+    } catch {
+      // A malformed ledger or media document yields an empty set rather than a
+      // question entering a room without its required teaching media.
+      questionSnapshot = new Map()
+      questionSnapshotVersion = signature
+    }
+  })()
+  rebuilding = { signature, promise }
   try {
-    const ledgerRow = rows.find((row) => row.k === LEDGER_KEY)
-    const mediaRow = rows.find((row) => row.k === MEDIA_STATE_KEY)
-    const catalogueRow = rows.find((row) => row.k === ACADEMIC_CATALOGUE_KEY)
-    const ledger = ledgerRow ? JSON.parse(ledgerRow.v) : []
-    const media = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
-    const catalogue = catalogueRow ? JSON.parse(catalogueRow.v) : []
-    const released = releasedMediaIdsFromDocument(media)
-    questionSnapshot = questionKeysFromLedger(ledger, released, catalogue)
-    questionSnapshotVersion = signature
-  } catch {
-    // A malformed ledger or media document yields an empty set rather than a
-    // question entering a room without its required teaching media.
-    questionSnapshot = new Map()
-    questionSnapshotVersion = signature
+    return await promise
+  } finally {
+    if (rebuilding && rebuilding.promise === promise) rebuilding = null
   }
 }
 

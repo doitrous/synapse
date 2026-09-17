@@ -51,6 +51,9 @@ const SLICE_KINDS = new Set(['resource', 'practical', 'essay', 'histology', 'dec
 const DEFAULT_QUESTION_FORMAT = 'mcq_single_best'
 
 let snapshot = null
+// A rebuild in progress, shared so concurrent cold requests await one 60 MB
+// read + build instead of each doing their own. See loadStudentContent.
+let rebuilding = null
 
 export function invalidateStudentContent(key) {
   if (key === LEDGER_KEY || key === MEDIA_STATE_KEY || key === ACADEMIC_CATALOGUE_KEY) snapshot = null
@@ -298,22 +301,34 @@ export async function loadStudentContent() {
   // contain a quote.
   const signature = keys.map((key) => versions.get(key) ?? 0).join('.')
   if (snapshot && snapshot.signature === signature) return snapshot
-  // Cache miss: only now is it worth pulling the (large) value blobs.
-  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?)', keys)
-  const row = (key) => rows.find((entry) => entry.k === key)
+  // Cache miss. Coalesce: if a rebuild for this same version is already running
+  // (the cold-start herd — several content requests arriving at once), await it
+  // rather than each pulling the 60 MB blobs and rebuilding independently.
+  if (rebuilding && rebuilding.signature === signature) return rebuilding.promise
+  const promise = (async () => {
+    // Only now is it worth pulling the (large) value blobs.
+    const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?)', keys)
+    const row = (key) => rows.find((entry) => entry.k === key)
+    try {
+      snapshot = build(
+        signature,
+        JSON.parse(row(LEDGER_KEY)?.v ?? '[]'),
+        JSON.parse(row(MEDIA_STATE_KEY)?.v ?? '{"records":[]}'),
+        JSON.parse(row(ACADEMIC_CATALOGUE_KEY)?.v ?? '[]'),
+      )
+    } catch {
+      // A malformed document yields nothing rather than a thrown request, the
+      // same way the published-question snapshot treats it.
+      snapshot = build(signature, [], { records: [] }, [])
+    }
+    return snapshot
+  })()
+  rebuilding = { signature, promise }
   try {
-    snapshot = build(
-      signature,
-      JSON.parse(row(LEDGER_KEY)?.v ?? '[]'),
-      JSON.parse(row(MEDIA_STATE_KEY)?.v ?? '{"records":[]}'),
-      JSON.parse(row(ACADEMIC_CATALOGUE_KEY)?.v ?? '[]'),
-    )
-  } catch {
-    // A malformed document yields nothing rather than a thrown request, the
-    // same way the published-question snapshot treats it.
-    snapshot = build(signature, [], { records: [] }, [])
+    return await promise
+  } finally {
+    if (rebuilding && rebuilding.promise === promise) rebuilding = null
   }
-  return snapshot
 }
 
 /** The caller's own cohort, or null for "no audience filter". */
