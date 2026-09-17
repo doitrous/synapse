@@ -1,5 +1,5 @@
 import { FoundationGameLibrary } from '@/components/games/FoundationGameLibrary'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
   ArrowLeft, ArrowRight, Award, BookOpenCheck, Building2, Check, CircleHelp, ClipboardCheck, Clock3, Hammer,
@@ -11,6 +11,7 @@ import { Button, ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { TextInput } from '@/components/ui/Field'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { Skeleton } from '@/components/ui/Skeleton'
 import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { MaristanaModel } from '@/components/maristanas/MaristanaModel'
 import { MaristanaAchievementRail, MaristanaAchievementToast } from '@/components/maristanas/MaristanaAchievements'
@@ -225,65 +226,37 @@ function LegacyMaristanas() {
     return data.hospitals.find((hospital) => hospital.slot === selectedSlot) ?? data.hospitals.at(-1)
   }, [data, selectedSlot])
 
-  if (loading && !data) {
-    return (
-      <PageContainer className="space-y-4" aria-label={t('Loading Build Maristanas')}>
-        <ContentSkeleton shape="hospital" />
-      </PageContainer>
-    )
-  }
+  const accuracy = data?.questionsAnswered ? Math.round((data.correctAnswers / data.questionsAnswered) * 100) : null
 
-  if (error || !data || !selected) {
+  const onboardingReady = Boolean(data) && Boolean(selected) && audienceSettled && !audienceUnknown && (onboardingStatus.hydrated || onboardingStatus.error != null)
+
+  // The hero (icon, title, intro copy) and the exit link need no network data,
+  // so they paint on the first frame regardless of what state the ledger is
+  // in; only the trophy count and everything below it waits on `data`.
+  let body: ReactNode
+  if (loading && !data) {
+    body = <ContentSkeleton shape="hospital" />
+  } else if (error || !data || !selected) {
     // Offline is a more specific — and more actionable — truth than the
     // generic server-error copy below (mirrors CatalogueUnavailable's own
     // offline branch).
-    if (!online) {
-      return (
-        <PageContainer>
-          <Panel className="p-10">
-            <EmptyState
-              icon={WifiOff}
-              title={t("You're offline")}
-              description={t('This page keeps retrying in the background — it will load as soon as you reconnect.')}
-              action={<Button loading={loading} onClick={() => void refresh()}>{t('Try again')}</Button>}
-            />
-          </Panel>
-        </PageContainer>
-      )
-    }
-    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('No construction credit has changed.')} action={<Button loading={loading} onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel></PageContainer>
-  }
-
-  if (!data.enabled) {
-    return <PageContainer><Panel className="p-10"><EmptyState icon={Building2} title={t('Build Maristanas is resting')} description={t('Your administrators have temporarily paused the construction experience. Your learning evidence is still safe.')} /></Panel></PageContainer>
-  }
-
-  const accuracy = data.questionsAnswered ? Math.round((data.correctAnswers / data.questionsAnswered) * 100) : null
-
-  const onboardingReady = audienceSettled && !audienceUnknown && (onboardingStatus.hydrated || onboardingStatus.error != null)
-
-  return (
-    <>
-    <PageContainer className="max-w-[1280px]">
-      <BackButton />
-      <header className="mb-5 flex flex-wrap items-end justify-between gap-4 sm:mb-6">
-        <div className="max-w-2xl">
-          <div className="flex items-center gap-2 text-primary-strong">
-            <Icon icon={Hammer} size={15} />
-            <p className="text-[10.5px] font-bold uppercase tracking-[0.09em]">{t('Build Maristanas')}</p>
-          </div>
-          <h1 className="mt-2 text-balance font-serif text-[30px] font-semibold leading-tight tracking-[-0.03em] text-ink sm:text-[39px]">{t('Knowledge becomes a place of healing.')}</h1>
-          <p className="mt-2 max-w-xl text-[13.5px] leading-relaxed text-ink-2">{t('Focused study and scored performance place every part. Build carefully; every hospital is a record of work you actually completed.')}</p>
-        </div>
-        <div className="flex flex-wrap items-center gap-2">
-          <Button variant="secondary" iconLeft={CircleHelp} onClick={() => setHowItWorksOpen(true)} className="active:scale-[0.96]">{t('How it works')}</Button>
-          <div className="flex items-center gap-3 rounded-lg border border-line bg-surface px-3.5 py-2.5 shadow-panel">
-            <span className="grid size-9 place-items-center rounded-md bg-primary-tint text-primary-strong"><Icon icon={Trophy} size={17} /></span>
-            <div><p className="tnum font-mono text-[17px] font-semibold leading-none text-ink">{data.completedHospitals}</p><p className="mt-1 text-[10.5px] text-ink-3">{t('hospitals completed')}</p></div>
-          </div>
-        </div>
-      </header>
-
+    body = !online ? (
+      <Panel className="p-10">
+        <EmptyState
+          icon={WifiOff}
+          title={t("You're offline")}
+          description={t('This page keeps retrying in the background — it will load as soon as you reconnect.')}
+          action={<Button loading={loading} onClick={() => void refresh()}>{t('Try again')}</Button>}
+        />
+      </Panel>
+    ) : (
+      <Panel className="p-10"><EmptyState icon={Building2} title={t('Construction ledger unavailable')} description={t('No construction credit has changed.')} action={<Button loading={loading} onClick={() => void refresh()}>{t('Try again')}</Button>} /></Panel>
+    )
+  } else if (!data.enabled) {
+    body = <Panel className="p-10"><EmptyState icon={Building2} title={t('Build Maristanas is resting')} description={t('Your administrators have temporarily paused the construction experience. Your learning evidence is still safe.')} /></Panel>
+  } else {
+    body = (
+      <>
       <div>
         <Panel className="overflow-hidden">
           <div className="flex min-h-[76px] items-center justify-between gap-4 border-b border-line px-4 py-3 sm:px-5">
@@ -370,6 +343,40 @@ function LegacyMaristanas() {
           </div>
         </Panel>
       </div>
+      </>
+    )
+  }
+
+  return (
+    <>
+    <PageContainer className="max-w-[1280px]">
+      <BackButton />
+      <header className="mb-5 flex flex-wrap items-end justify-between gap-4 sm:mb-6">
+        <div className="max-w-2xl">
+          <div className="flex items-center gap-2 text-primary-strong">
+            <Icon icon={Hammer} size={15} />
+            <p className="text-[10.5px] font-bold uppercase tracking-[0.09em]">{t('Build Maristanas')}</p>
+          </div>
+          <h1 className="mt-2 text-balance font-serif text-[30px] font-semibold leading-tight tracking-[-0.03em] text-ink sm:text-[39px]">{t('Knowledge becomes a place of healing.')}</h1>
+          <p className="mt-2 max-w-xl text-[13.5px] leading-relaxed text-ink-2">{t('Focused study and scored performance place every part. Build carefully; every hospital is a record of work you actually completed.')}</p>
+        </div>
+        <div className="flex flex-wrap items-center gap-2">
+          <Button variant="secondary" iconLeft={CircleHelp} onClick={() => setHowItWorksOpen(true)} className="active:scale-[0.96]">{t('How it works')}</Button>
+          {data ? (
+            <div className="flex items-center gap-3 rounded-lg border border-line bg-surface px-3.5 py-2.5 shadow-panel">
+              <span className="grid size-9 place-items-center rounded-md bg-primary-tint text-primary-strong"><Icon icon={Trophy} size={17} /></span>
+              <div><p className="tnum font-mono text-[17px] font-semibold leading-none text-ink">{data.completedHospitals}</p><p className="mt-1 text-[10.5px] text-ink-3">{t('hospitals completed')}</p></div>
+            </div>
+          ) : (
+            <div className="flex items-center gap-3 rounded-lg border border-line bg-surface px-3.5 py-2.5 shadow-panel">
+              <Skeleton className="size-9 rounded-md" />
+              <div className="space-y-1.5"><Skeleton className="h-4 w-8" /><Skeleton className="h-2.5 w-20" /></div>
+            </div>
+          )}
+        </div>
+      </header>
+
+      {body}
     </PageContainer>
     {onboardingReady && !onboarding.completed && <MaristanaOnboarding onStart={startBuilding} />}
     {howItWorksOpen && <MaristanaHowItWorksDialog onClose={closeHowItWorks} />}

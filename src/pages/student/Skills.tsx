@@ -1,4 +1,4 @@
-import { PageSkeleton } from '@/components/loading/PageSkeleton'
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { LoadingError } from '@/components/loading/LoadingError'
 import { useNavigate } from 'react-router-dom'
 import { HubStat } from '@/components/hub'
@@ -23,19 +23,25 @@ export function Skills() {
   const { progress, loading, status } = usePracticalProgress()
   const summary = summariseSkills(progress, skills.length)
 
-  if (status.error) return <PageContainer><LoadingError /></PageContainer>
-  if (loading) return <PageSkeleton layout={{ shape: 'skills' }} />
-
+  // The title and back button need nothing from the ledger, so they paint on
+  // the first frame; only the ready-count badge and the checklist body — both
+  // sourced from `progress` — wait on it, the same split `University.tsx` uses.
   return (
     <PageContainer>
       <PageHeader
         title={t('Skills')}
         back={{ fallback: '/app/practice' }}
-        actions={summary.total ? (
+        actions={!loading && summary.total ? (
           <HubStat label="Ready" value={`${summary.ready}/${summary.total}`} sub="marked ready" />
         ) : undefined}
       />
-      <SkillsChecklist onGoToOsce={() => navigate('/app/practical?tab=osce')} />
+      {status.error ? (
+        <LoadingError />
+      ) : loading ? (
+        <ContentSkeleton shape="skills" />
+      ) : (
+        <SkillsChecklist onGoToOsce={() => navigate('/app/practical?tab=osce')} />
+      )}
     </PageContainer>
   )
 }

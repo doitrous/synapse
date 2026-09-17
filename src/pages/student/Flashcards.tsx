@@ -88,9 +88,9 @@ function FlashcardsShell() {
   useCommands(navCommands)
 
   if (api.error) return <PageContainer><LoadingError /></PageContainer>
-  if (!api.ready || ledgerAvailability.kind === 'loading') return <PageSkeleton layout={{ shape: 'flashcards' }} />
 
-  // Study takes over the whole surface, like the old runner.
+  // Study takes over the whole surface, like the old runner. Only reachable
+  // once a deck was clicked, so `api.ready` is already true here.
   if (studyDeckId) {
     return (
       <StudyScreen
@@ -110,6 +110,10 @@ function FlashcardsShell() {
     { value: 'stats', label: t('Stats'), icon: BarChart3 },
   ]
 
+  // The title, help actions and tab bar need no data — they paint on the
+  // first frame. Only the tab body waits on `api`/the catalogue ledger.
+  const loading = !api.ready || ledgerAvailability.kind === 'loading'
+
   return (
     <PageContainer>
       <PageHeader
@@ -124,27 +128,33 @@ function FlashcardsShell() {
 
       <Tabs items={tabs} value={view} onChange={(next) => setView(next as FlashcardsView)} className="mb-5" />
 
-      {view === 'decks' && (
-        <DeckDashboard
-          api={api}
-          ledgerAvailability={ledgerAvailability}
-          onStudy={(deckId) => setStudyDeckId(deckId)}
-          onAddToDeck={(deckId) => { setAddDeckId(deckId); setView('add') }}
-        />
+      {loading ? (
+        <PageSkeleton layout={{ shape: 'flashcards' }} />
+      ) : (
+        <>
+          {view === 'decks' && (
+            <DeckDashboard
+              api={api}
+              ledgerAvailability={ledgerAvailability}
+              onStudy={(deckId) => setStudyDeckId(deckId)}
+              onAddToDeck={(deckId) => { setAddDeckId(deckId); setView('add') }}
+            />
+          )}
+          {view === 'add' && (
+            <AddView
+              key={editNoteId ?? 'new'}
+              api={api}
+              initialDeckId={addDeckId}
+              editNoteId={editNoteId}
+              onDone={() => { setEditNoteId(undefined); setView(editNoteId ? 'browse' : 'decks') }}
+            />
+          )}
+          {view === 'browse' && <BrowseView api={api} onAdd={() => openAdd()} onEditNote={(noteId) => openAdd({ noteId })} />}
+          {/* Omar: the flashcards Stats tab is coming soon — the whole tab sits behind
+              the gate, preview included. Study Rhythm itself is live, on the deck views. */}
+          {view === 'stats' && <FlashcardsStatsGate><StatsView api={api} /></FlashcardsStatsGate>}
+        </>
       )}
-      {view === 'add' && (
-        <AddView
-          key={editNoteId ?? 'new'}
-          api={api}
-          initialDeckId={addDeckId}
-          editNoteId={editNoteId}
-          onDone={() => { setEditNoteId(undefined); setView(editNoteId ? 'browse' : 'decks') }}
-        />
-      )}
-      {view === 'browse' && <BrowseView api={api} onAdd={() => openAdd()} onEditNote={(noteId) => openAdd({ noteId })} />}
-      {/* Omar: the flashcards Stats tab is coming soon — the whole tab sits behind
-          the gate, preview included. Study Rhythm itself is live, on the deck views. */}
-      {view === 'stats' && <FlashcardsStatsGate><StatsView api={api} /></FlashcardsStatsGate>}
 
       {guideOpen && <FlashcardsGuide onClose={() => setGuideOpen(false)} />}
     </PageContainer>

@@ -1,4 +1,4 @@
-import { PageSkeleton } from '@/components/loading/PageSkeleton'
+import { ContentSkeleton } from '@/components/loading/PageSkeleton'
 import { LoadingError } from '@/components/loading/LoadingError'
 import { HubStat } from '@/components/hub'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -19,15 +19,15 @@ export function OralQuestions() {
   const { progress, loading, status } = usePracticalProgress()
   const marked = Math.min(Object.keys(progress.oral ?? {}).length, oralQuestions.length)
 
-  if (status.error) return <PageContainer><LoadingError /></PageContainer>
-  if (loading) return <PageSkeleton layout={{ shape: 'oral' }} />
-
+  // Title and back arrow need nothing from the store, so they paint on the
+  // first frame; only the marked-count stat and the rehearsal itself wait on
+  // the record to hydrate.
   return (
     <PageContainer>
       <PageHeader
         title={t('Oral questions')}
         back={{ fallback: '/app/practice' }}
-        actions={oralQuestions.length ? (
+        actions={oralQuestions.length && !loading && !status.error ? (
           <HubStat
             label="Marked"
             value={`${marked}/${oralQuestions.length}`}
@@ -35,7 +35,7 @@ export function OralQuestions() {
           />
         ) : undefined}
       />
-      <OralRehearsal />
+      {status.error ? <LoadingError /> : loading ? <ContentSkeleton shape="oral" /> : <OralRehearsal />}
     </PageContainer>
   )
 }
