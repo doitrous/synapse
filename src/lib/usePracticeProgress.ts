@@ -4,8 +4,8 @@ import { distinctItems, firstAttemptSplit } from '@/data/attemptStats'
 import type { AttemptRecord } from '@/data/attempts'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
 import { useEssayAnswers } from '@/lib/useEssayAnswers'
-import { useLiveEssays } from '@/lib/useLiveEssays'
-import { useLivePracticals } from '@/lib/useLivePracticals'
+import { useLiveEssaysSummary } from '@/lib/useLiveEssays'
+import { useLivePracticalsSummary } from '@/lib/useLivePracticals'
 import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { useScopedPublishedQuestionSummaries } from '@/lib/usePublishedQuestions'
 
@@ -45,8 +45,11 @@ export function usePracticeProgress(): PracticeProgress {
   const questions = useScopedPublishedQuestionSummaries()
   const history = useAttemptHistory()
   const { progress, status: practicalStatus } = usePracticalProgress()
-  const { osceStations, clinicalCases, labImaging } = useLivePracticals()
-  const essays = useLiveEssays()
+  // Same reasoning, essay/practical side: only array lengths and each essay's
+  // key-point ids are read below, never a station's script or an essay's
+  // prompt/model answer, so the summary slices (no bodies) are enough.
+  const { osceStations, clinicalCases, labImaging } = useLivePracticalsSummary()
+  const essays = useLiveEssaysSummary()
   const { answers, status: essayStatus } = useEssayAnswers()
 
   const qbankRecords = useMemo(

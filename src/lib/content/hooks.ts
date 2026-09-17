@@ -39,6 +39,7 @@ import {
   type ItemsResponse,
   type ManifestRow,
   type QuestionScope,
+  type SliceView,
   type SummaryResponse,
 } from './contentClient'
 
@@ -115,13 +116,19 @@ export function useContentSummary(): readonly [ContentCounts, PersistentStateSta
   return [held.data?.counts ?? EMPTY_COUNTS, held.status] as const
 }
 
+/**
+ * `view: 'summary'` is a different *document*, not a cheaper read of the same
+ * one — see `useScopedPublishedQuestionSummaries`. It gets its own cache key so
+ * a surface that asked for the light rows is never handed a full slice cached
+ * under the same kind, nor the reverse.
+ */
 export function useContentSlice(
   kind: ContentSliceKind,
-  { enabled = true }: { enabled?: boolean } = {},
+  { enabled = true, view }: { enabled?: boolean; view?: SliceView } = {},
 ): readonly [ManagedContentItem[], PersistentStateStatus] {
   const held = useContentResource<ItemsResponse>(
-    enabled ? sliceKey(kind) : null,
-    useCallback((force) => fetchSlice(kind, force), [kind]),
+    enabled ? sliceKey(kind, view) : null,
+    useCallback((force) => fetchSlice(kind, force, view), [kind, view]),
   )
   return [held.data?.items ?? EMPTY_ITEMS, held.status] as const
 }

@@ -14,3 +14,14 @@ export function useLiveEssays() {
   const [catalogue] = useContentSlice('essay')
   return useMemo(() => publishedEssaysFromCatalogue(catalogue), [catalogue])
 }
+
+/**
+ * The counts-only sibling of `useLiveEssays`: same inclusion rule and the same
+ * projection, but reads the `view=summary` slice — no prompt, examiner's note
+ * or model answer. `usePracticeProgress` only ever reads `.length` and each
+ * essay's key-point ids, never a body, so this is what it should mount with.
+ */
+export function useLiveEssaysSummary() {
+  const [catalogue] = useContentSlice('essay', { view: 'summary' })
+  return useMemo(() => publishedEssaysFromCatalogue(catalogue), [catalogue])
+}

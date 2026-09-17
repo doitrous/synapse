@@ -141,6 +141,44 @@ export function questionSummaryRow(item) {
   }
 }
 
+/**
+ * One essay as `usePracticeProgress` needs it: enough to know it counts and
+ * whether it has been marked, none of the prompt, examiner's note or model
+ * answer — the three fields that make an essay body what it is.
+ *
+ * `prompt` survives as a placeholder rather than disappearing:
+ * `managedEssayToStudentEssay` (reused unchanged against this row) refuses an
+ * essay with no prompt, and a light row must fail that check exactly when the
+ * full one would.
+ */
+export function essaySummaryRow(item) {
+  const data = item.essayData
+  if (!data) return item
+  return {
+    ...item,
+    essayData: {
+      prompt: data.prompt?.trim() ? '·' : '',
+      keyPoints: (data.keyPoints ?? []).map((point) => ({ id: point.id, text: '' })),
+      examinerNote: '',
+      modelAnswer: '',
+    },
+  }
+}
+
+/**
+ * One practical as `usePracticeProgress` needs it: enough to sort it into
+ * stations/cases/labs and count it, none of the decisions, questions, actor
+ * script or media a station actually runs on.
+ */
+export function practicalSummaryRow(item) {
+  const data = item.practicalData
+  if (!data) return item
+  return { ...item, practicalData: { format: data.format } }
+}
+
+/** `view=summary` projections, by slice kind — the essay/practical siblings of `questionSummaryRow`. */
+const SLICE_SUMMARY_PROJECTIONS = { essay: essaySummaryRow, practical: practicalSummaryRow }
+
 /** Which questions point at which article. The client used to scan the whole ledger for this. */
 export function questionLinksFor(questions) {
   const links = {}
@@ -392,8 +430,10 @@ export async function itemsHandler(req, res) {
   // Full slice bodies (resources, practicals, essays, histology, decks) are the
   // paid product; the id-manifest and article-index branches above are not.
   if (await contentLocked(req, res)) return
+  const items = scoped(content.byKind.get(kind) ?? [], audience)
+  const summaryRow = req.query.view === 'summary' ? SLICE_SUMMARY_PROJECTIONS[kind] : null
   return sendVersioned(req, res, content.signature, {
-    items: scoped(content.byKind.get(kind) ?? [], audience),
+    items: summaryRow ? items.map(summaryRow) : items,
   })
 }
 

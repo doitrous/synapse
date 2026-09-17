@@ -120,8 +120,11 @@ function remember<T>(key: string, data: T): T {
   return data
 }
 
+/** `essay`/`practical` counts-only view — the slice sibling of `QuestionScope.view`. See `fetchSlice`. */
+export type SliceView = 'summary'
+
 export const SUMMARY_KEY = 'content:summary'
-export const sliceKey = (kind: ContentSliceKind) => `content:items:${kind}`
+export const sliceKey = (kind: ContentSliceKind, view?: SliceView) => `content:items:${kind}${view ? `:${view}` : ''}`
 export const ARTICLE_INDEX_KEY = 'content:articles'
 export const itemKey = (id: string) => `content:item:${id}`
 
@@ -145,12 +148,15 @@ export function fetchSummary(force = false): Promise<SummaryResponse> {
   return load<SummaryResponse>(SUMMARY_KEY, '/content/summary', force)
 }
 
-export function fetchSlice(kind: ContentSliceKind, force = false): Promise<ItemsResponse> {
-  const key = sliceKey(kind)
+export function fetchSlice(kind: ContentSliceKind, force = false, view?: SliceView): Promise<ItemsResponse> {
+  const key = sliceKey(kind, view)
   if (!API_MODE) {
+    // Demo mode's ledger is already local and small, so — exactly like
+    // `fetchQuestions` — there is nothing to slim: `view` only changes what a
+    // real request ships over the wire.
     return Promise.resolve(remember(key, { version: 'demo', items: demoLedger().filter((item) => item.kind === kind) }))
   }
-  return load<ItemsResponse>(key, `/content/items?kind=${kind}`, force)
+  return load<ItemsResponse>(key, `/content/items?kind=${kind}${view ? `&view=${view}` : ''}`, force)
 }
 
 /**

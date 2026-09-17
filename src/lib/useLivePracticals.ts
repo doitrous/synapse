@@ -35,6 +35,57 @@ const stepCount = (item: ManagedContentItem): number => {
 }
 
 /**
+ * The merge and inclusion logic shared by `useLivePracticals` and its
+ * counts-only sibling below — extracted so the two can never quietly diverge.
+ * Tolerates a slimmed `practicalData` (the `view=summary` slice strips
+ * everything but `format`): `stepCount` then reports 0, which only the
+ * admin-created branch's `steps`/`items` fields surface, and the summary
+ * caller reads neither.
+ */
+function buildPracticals(ledger: ManagedContentItem[]) {
+  const items = ledger.filter((i) => i.kind === 'practical')
+  const byId = new Map(items.map((i) => [i.id, i]))
+  const archived = (id: string) => {
+    const item = byId.get(id)
+    return item?.status === 'Archived' || (item?.status === 'Published' && !isStudentPublishable(item))
+  }
+  const seededIds = new Set([...SEED_OSCE, ...SEED_CASES, ...SEED_LAB].map((x) => x.id))
+
+  const osceStations: OsceStation[] = SEED_OSCE.filter((s) => !archived(s.id)).map((s) => {
+    const it = byId.get(s.id)
+    if (!it) return s
+    return { ...s, title: it.title?.trim() || s.title, subjectId: it.subjectId || s.subjectId, minutes: Number(it.fields.Duration) || s.minutes, marks: Number(it.fields.Marks) || s.marks, difficulty: asDifficulty(it.fields.Difficulty) }
+  })
+
+  const clinicalCases: ClinicalCase[] = SEED_CASES.filter((c) => !archived(c.id)).map((c) => {
+    const it = byId.get(c.id)
+    if (!it) return c
+    return { ...c, title: it.title?.trim() || c.title, subjectId: it.subjectId || c.subjectId, minutes: Number(it.fields.Duration) || c.minutes }
+  })
+
+  const labImaging: LabImagingSet[] = SEED_LAB.filter((l) => !archived(l.id)).map((l) => {
+    const it = byId.get(l.id)
+    if (!it) return l
+    const isImaging = it.fields.Type === 'Imaging interpretation' || it.fields['Lab subtype'] === 'Imaging'
+    return { ...l, title: it.title?.trim() || l.title, subjectId: it.subjectId || l.subjectId, type: isImaging ? 'Imaging' : l.type }
+  })
+
+  // Admin-created (published) practicals with no seed → appended by their type.
+  items
+    .filter((i) => !seededIds.has(i.id) && isStudentPublishable(i))
+    .forEach((i) => {
+      const type = i.fields.Type
+      // A checklist runs through the station runner with no actor, so it joins
+      // the same list rather than having nowhere to appear.
+      if (type === 'OSCE station' || type === 'Skills checklist') osceStations.push({ id: i.id, title: i.title, subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 8, difficulty: asDifficulty(i.fields.Difficulty), marks: Number(i.fields.Marks) || 20, kind: type === 'Skills checklist' ? 'checklist' : 'station' })
+      else if (type === 'Clinical case') clinicalCases.push({ id: i.id, title: i.title, presentation: i.fields.Vignette || '', subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 12, steps: stepCount(i) })
+      else if (type === 'Lab interpretation' || type === 'Imaging interpretation') labImaging.push({ id: i.id, title: i.title, type: type === 'Imaging interpretation' ? 'Imaging' : 'Lab', subjectId: i.subjectId, items: stepCount(i) })
+    })
+
+  return { osceStations, clinicalCases, labImaging }
+}
+
+/**
  * Practical content as students should see it: the catalogue only.
  *
  * These records describe the items — title, subject, duration, marks. What a
@@ -45,47 +96,17 @@ const stepCount = (item: ManagedContentItem): number => {
  */
 export function useLivePracticals() {
   const [ledger] = useContentSlice('practical')
+  return useMemo(() => buildPracticals(ledger), [ledger])
+}
 
-  return useMemo(() => {
-    const items = ledger.filter((i) => i.kind === 'practical')
-    const byId = new Map(items.map((i) => [i.id, i]))
-    const archived = (id: string) => {
-      const item = byId.get(id)
-      return item?.status === 'Archived' || (item?.status === 'Published' && !isStudentPublishable(item))
-    }
-    const seededIds = new Set([...SEED_OSCE, ...SEED_CASES, ...SEED_LAB].map((x) => x.id))
-
-    const osceStations: OsceStation[] = SEED_OSCE.filter((s) => !archived(s.id)).map((s) => {
-      const it = byId.get(s.id)
-      if (!it) return s
-      return { ...s, title: it.title?.trim() || s.title, subjectId: it.subjectId || s.subjectId, minutes: Number(it.fields.Duration) || s.minutes, marks: Number(it.fields.Marks) || s.marks, difficulty: asDifficulty(it.fields.Difficulty) }
-    })
-
-    const clinicalCases: ClinicalCase[] = SEED_CASES.filter((c) => !archived(c.id)).map((c) => {
-      const it = byId.get(c.id)
-      if (!it) return c
-      return { ...c, title: it.title?.trim() || c.title, subjectId: it.subjectId || c.subjectId, minutes: Number(it.fields.Duration) || c.minutes }
-    })
-
-    const labImaging: LabImagingSet[] = SEED_LAB.filter((l) => !archived(l.id)).map((l) => {
-      const it = byId.get(l.id)
-      if (!it) return l
-      const isImaging = it.fields.Type === 'Imaging interpretation' || it.fields['Lab subtype'] === 'Imaging'
-      return { ...l, title: it.title?.trim() || l.title, subjectId: it.subjectId || l.subjectId, type: isImaging ? 'Imaging' : l.type }
-    })
-
-    // Admin-created (published) practicals with no seed → appended by their type.
-    items
-      .filter((i) => !seededIds.has(i.id) && isStudentPublishable(i))
-      .forEach((i) => {
-        const type = i.fields.Type
-        // A checklist runs through the station runner with no actor, so it joins
-        // the same list rather than having nowhere to appear.
-        if (type === 'OSCE station' || type === 'Skills checklist') osceStations.push({ id: i.id, title: i.title, subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 8, difficulty: asDifficulty(i.fields.Difficulty), marks: Number(i.fields.Marks) || 20, kind: type === 'Skills checklist' ? 'checklist' : 'station' })
-        else if (type === 'Clinical case') clinicalCases.push({ id: i.id, title: i.title, presentation: i.fields.Vignette || '', subjectId: i.subjectId, minutes: Number(i.fields.Duration) || 12, steps: stepCount(i) })
-        else if (type === 'Lab interpretation' || type === 'Imaging interpretation') labImaging.push({ id: i.id, title: i.title, type: type === 'Imaging interpretation' ? 'Imaging' : 'Lab', subjectId: i.subjectId, items: stepCount(i) })
-      })
-
-    return { osceStations, clinicalCases, labImaging }
-  }, [ledger])
+/**
+ * The counts-only sibling of `useLivePracticals`: same merge and inclusion
+ * logic, but reads the `view=summary` slice — no decisions, questions, actor
+ * script or media. `usePracticeProgress` only ever reads the three lists'
+ * `.length`, never a station's or case's content, so this is what it should
+ * mount with.
+ */
+export function useLivePracticalsSummary() {
+  const [ledger] = useContentSlice('practical', { view: 'summary' })
+  return useMemo(() => buildPracticals(ledger), [ledger])
 }

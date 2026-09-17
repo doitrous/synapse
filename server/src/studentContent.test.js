@@ -82,6 +82,49 @@ function resource(id, universityId, yearId) {
   }
 }
 
+// Essays carry no curriculum placement (see `contentScope.js`'s `tagsOf`), so
+// one is enough — it reaches every audience regardless of university/year.
+function essay(id) {
+  return {
+    id,
+    kind: 'essay',
+    status: 'Published',
+    title: `Essay ${id}`,
+    subjectId: 'cvs',
+    fields: {},
+    essayData: {
+      prompt: 'Discuss the mechanism of heart failure in detail.',
+      keyPoints: [
+        { id: 'kp-1', text: 'Reduced ejection fraction' },
+        { id: 'kp-2', text: 'Neurohormonal activation', legible: true },
+      ],
+      examinerNote: 'Look for the exact phrase "neurohormonal activation".',
+      modelAnswer: 'A model answer spanning several paragraphs of reasoning.',
+    },
+  }
+}
+
+function practical(id, universityId, yearId) {
+  return {
+    id,
+    kind: 'practical',
+    status: 'Published',
+    title: `Practical ${id}`,
+    subjectId: 'cvs',
+    fields: { Type: 'Clinical case', Duration: '12' },
+    practicalData: {
+      universityIds: [universityId],
+      yearIds: [yearId],
+      format: 'case',
+      references: [],
+      conceptTags: { mainConceptIds: [], conceptIds: [], contextualConceptIds: [] },
+      mediaRequests: [],
+      decisions: [{ id: 'd-1', title: 'Step 1', context: 'the whole clinical vignette', question: 'q', answers: [], rationale: 'because of the mechanism' }],
+      debrief: 'the whole debrief text',
+    },
+  }
+}
+
 const LEDGER = [
   question('q-oms', 'OMS', 'OMS_Y1', ['a-oms']),
   question('q-alx', 'ALX', 'ALX_Y1'),
@@ -90,6 +133,9 @@ const LEDGER = [
   article('a-alx', 'ALX', 'ALX_Y1'),
   resource('r-oms', 'OMS', 'OMS_Y1'),
   resource('r-alx', 'ALX', 'ALX_Y1'),
+  essay('e-1'),
+  practical('p-oms', 'OMS', 'OMS_Y1'),
+  practical('p-alx', 'ALX', 'ALX_Y1'),
 ]
 
 function rowsAt(version) {
@@ -183,9 +229,9 @@ test('a console caller is unscoped, and may preview another cohort', async () =>
 test('the summary counts the caller\'s audience, by kind, module and subject', async () => {
   await withLedger(async () => {
     const res = await call(summaryHandler)
-    assert.deepEqual(res.body.counts.byKind, { question: 1, article: 1, resource: 1 })
+    assert.deepEqual(res.body.counts.byKind, { question: 1, article: 1, resource: 1, essay: 1, practical: 1 })
     assert.deepEqual(res.body.counts.byModule['CVS 01'], { question: 1, article: 1, resource: 1 })
-    assert.deepEqual(res.body.counts.bySubject.cvs, { question: 1, article: 1, resource: 1 })
+    assert.deepEqual(res.body.counts.bySubject.cvs, { question: 1, article: 1, resource: 1, essay: 1, practical: 1 })
   })
 })
 
@@ -244,6 +290,47 @@ test('the summary view carries what the hub groups by and nothing a student coul
       assert.equal(wire.includes(leak), false, `summary leaked ${leak}`)
     }
   })
+})
+
+test('an essay\'s summary view keeps its key-point ids and drops the prompt, note and model answer', async () => {
+  await withLedger(async () => {
+    const res = await call(itemsHandler, { query: { kind: 'essay', view: 'summary' } })
+    assert.deepEqual(res.body.items.map((item) => item.id), ['e-1'])
+    const row = res.body.items[0]
+    // Only the ids survive — `usePracticeProgress` marks an essay covered by
+    // intersecting ticked ids against exactly these.
+    assert.deepEqual(row.essayData.keyPoints.map((point) => point.id), ['kp-1', 'kp-2'])
+    // The prompt-present check a full essay is filtered by must still pass.
+    assert.ok(row.essayData.prompt.trim())
+
+    const wire = JSON.stringify(row)
+    for (const leak of ['heart failure', 'neurohormonal activation', 'model answer spanning', 'Reduced ejection fraction']) {
+      assert.equal(wire.includes(leak), false, `essay summary leaked ${leak}`)
+    }
+  })
+})
+
+test('a practical\'s summary view keeps its type and drops every decision, question and script', async () => {
+  await withLedger(async () => {
+    const res = await call(itemsHandler, { query: { kind: 'practical', view: 'summary' } })
+    assert.deepEqual(res.body.items.map((item) => item.id), ['p-oms'])
+    const row = res.body.items[0]
+    assert.equal(row.fields.Type, 'Clinical case')
+    assert.equal(row.practicalData.format, 'case')
+    assert.equal(row.practicalData.decisions, undefined)
+
+    const wire = JSON.stringify(row)
+    for (const leak of ['clinical vignette', 'because of the mechanism', 'the whole debrief text']) {
+      assert.equal(wire.includes(leak), false, `practical summary leaked ${leak}`)
+    }
+  })
+})
+
+test('a lapsed student is refused the essay/practical summary view exactly like the full one', async () => {
+  await withLedger(async () => {
+    assert.equal((await call(itemsHandler, { query: { kind: 'essay', view: 'summary' } })).statusCode, 402)
+    assert.equal((await call(itemsHandler, { query: { kind: 'practical', view: 'summary' } })).statusCode, 402)
+  }, { subscription: null })
 })
 
 test('a manifest answers about named ids only, within the caller\'s audience', async () => {

@@ -9,6 +9,7 @@ export {
   type ManifestRow,
   type QuestionLink,
   type QuestionScope,
+  type SliceView,
 } from './contentClient'
 export {
   useArticleIndex,
