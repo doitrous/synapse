@@ -19,6 +19,10 @@ struct SignedInView: View {
     /// Which tab is showing, so a screen settles on arrival rather than on
     /// every redraw.
     @State private var tab = Destination.today
+    /// The one live study room, held here so it survives leaving the Study Rooms
+    /// tab: a minimised room keeps its socket open and shows a dock everywhere.
+    @State private var activeRoom: RoomModel?
+    @State private var roomPresented = false
 
     enum Destination: String, Hashable {
         case today, questions, rooms, library, more
@@ -106,7 +110,7 @@ struct SignedInView: View {
             }
             Tab(strings("Study Rooms"), systemImage: "person.2", value: Destination.rooms) {
                 NavigationStack {
-                    StudyTogetherView(api: auth.api, store: container.store, audience: audience)
+                    RoomsLobbyView(api: auth.api, onEnter: enterRoom)
                 }
             }
             Tab(strings("Library"), systemImage: "books.vertical", value: Destination.library) {
@@ -142,6 +146,48 @@ struct SignedInView: View {
             .environment(\.strings, strings)
             .environment(\.layoutDirection, strings.layoutDirection)
         }
+        // The live room, over everything. Minimising dismisses this cover but
+        // keeps the model; leaving tears it down and clears the dock.
+        .fullScreenCover(isPresented: $roomPresented) {
+            if let activeRoom {
+                RoomHallView(
+                    model: activeRoom,
+                    onMinimize: { roomPresented = false },
+                    onLeave: {
+                        await activeRoom.leave()
+                        self.activeRoom = nil
+                        roomPresented = false
+                    }
+                )
+                .environment(\.strings, strings)
+                .environment(\.themeStore, theme)
+                .environment(\.layoutDirection, strings.layoutDirection)
+                .id(theme.appearance)
+            }
+        }
+        // A minimised room shows a dock above the tab bar, from any tab.
+        .safeAreaInset(edge: .bottom) {
+            if let activeRoom, !roomPresented {
+                RoomDock(model: activeRoom, onOpen: { roomPresented = true })
+                    .environment(\.strings, strings)
+            }
+        }
+    }
+
+    /// Step into a room: build the live model (replacing any other room) and
+    /// present it. Re-entering the same room re-opens the existing model.
+    private func enterRoom(_ party: Party) {
+        if activeRoom?.party.code != party.code {
+            activeRoom?.disconnect()
+            activeRoom = RoomModel(
+                api: auth.api,
+                base: AppConfig.apiBaseURL,
+                token: auth.tokenProvider,
+                party: party,
+                myUserId: user.id
+            )
+        }
+        roomPresented = true
     }
 
     private func start() async {
