@@ -267,13 +267,40 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
       if (filePath.endsWith('.html')) res.setHeader('Cache-Control', 'no-cache')
     },
   }))
-  app.get('*', (req, res, next) => {
+  // The built index.html carries a prerendered marketing shell inside #root so a
+  // crawler with no JS still sees real content. React replaces it the instant it
+  // mounts — fine on the marketing pages it describes, but on an authenticated
+  // app route it flashes landing copy ("See exactly what to study next…") for a
+  // beat before the app paints. Those routes are behind auth and never indexed,
+  // so serve them a copy with #root emptied: nothing to flash, React fills it.
+  const INDEX_HTML = join(PUBLIC_DIR, 'index.html')
+  let appShellCache = null
+  const appShell = async () => {
+    if (appShellCache == null) {
+      const raw = await readFile(INDEX_HTML, 'utf8')
+      // Strip from #root's open to its own close (the one right before the SPA
+      // <script>), leaving the marketing content of the real pages untouched.
+      appShellCache = raw.replace(/<div id="root">[\s\S]*?<\/div>(\s*<script)/i, '<div id="root"></div>$1')
+    }
+    return appShellCache
+  }
+  const APP_SHELL_PREFIXES = ['/app', '/admin', '/auth', '/login', '/logout']
+  const wantsAppShell = (path) => APP_SHELL_PREFIXES.some((p) => path === p || path.startsWith(`${p}/`))
+
+  app.get('*', async (req, res, next) => {
     if (req.path.startsWith('/api')) return next()
     // Every path the client router actually owns (react-router's own top-level `path:` entries in
     // src/router.tsx), so a crawler asking for something outside that set gets a real 404 instead
     // of the 200 soft-404 this used to send for every unknown path — the same document either way
     // (the SPA renders its own `NotFound` page client-side), only the status code differs.
-    res.status(isKnownSpaPath(req.path) ? 200 : 404).sendFile(join(PUBLIC_DIR, 'index.html'))
+    const status = isKnownSpaPath(req.path) ? 200 : 404
+    if (wantsAppShell(req.path)) {
+      try {
+        res.status(status).type('html').set('Cache-Control', 'no-cache').send(await appShell())
+        return
+      } catch { /* fall through to the file below if the shell could not be read */ }
+    }
+    res.status(status).sendFile(INDEX_HTML)
   })
   console.log('Serving SPA from', PUBLIC_DIR)
 }

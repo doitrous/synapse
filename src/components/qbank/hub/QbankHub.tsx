@@ -51,11 +51,6 @@ export function QbankHub({
 }: QbankHubProps) {
   const t = useT()
 
-  const lede = bank === 'mcq' ? t('Single-best-answer questions, marked against their key.')
-    : bank === 'practical' ? t('OSCE stations, clinical cases and interpretation sets, run one after another.')
-      : bank === 'essay' ? t('Written questions: write, reveal, then mark yourself against the key points.')
-        : t('One queue drawn from all three banks, in whatever proportions you set.')
-
   return (
     <>
       <PageHeader title={t('Question Bank')} />
@@ -76,7 +71,6 @@ export function QbankHub({
             { value: 'mixed', label: t('Mixed'), icon: Shuffle },
           ]}
         />
-        <p className="mt-2 text-[12.5px] leading-relaxed text-ink-2">{lede}</p>
       </section>
 
       <Tabs

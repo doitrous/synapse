@@ -354,29 +354,41 @@ export function QuestionBank() {
    */
   const [saved, setSaved, savedStatus] = usePersistentState<LiveSession | null>(ACTIVE_SESSION_STORAGE_KEY, null)
   /**
-   * The two places that read a question's real content straight off a prop —
-   * an active mixed sitting (`MixedRunner`), and the Previous-tests answer
-   * review (`SessionDetailPanel`, via `PreviousTests`) — rather than going
-   * through `runWhenHydrated`. Neither is the common "just landed on the hub"
-   * case, so triggering the heavy build here still leaves a plain visit cheap.
-   * A paused *plain* MCQ sitting needs no entry here: the restore effect below
-   * already reaches `runWhenHydrated` through `restoreFrom`.
+   * An active mixed sitting (`MixedRunner`) reads a question's real content
+   * straight off a prop rather than through `runWhenHydrated`, so the heavy
+   * whole-bank build has to be on for as long as one is running. A paused
+   * *plain* MCQ sitting needs no entry here: the restore effect below already
+   * reaches `runWhenHydrated` through `restoreFrom`.
    *
-   * Both read questions the student sat at some point, across any subject, so
-   * this widens the fetch back to the whole bank rather than leaving whatever
-   * slice the last start narrowed it to — a past test sat in another subject
-   * would otherwise review with no options at all. Both setters are no-ops
-   * when nothing changes (`WHOLE_BANK` is one shared object), so this cannot
-   * loop.
+   * It reads questions the student sat across any subject, so this widens the
+   * fetch back to the whole bank rather than leaving whatever slice the last
+   * start narrowed it to. Both setters are no-ops when nothing changes
+   * (`WHOLE_BANK` is one shared object), so this cannot loop.
    */
   useEffect(() => {
-    if (hubTab === 'previous' || (mixed.session && !mixedFinished(mixed.session))) {
+    if (mixed.session && !mixedFinished(mixed.session)) {
       setFullScope(WHOLE_BANK)
       setNeedsFullQuestions(true)
     }
     // Both setters come from `useState` inside `useQbankQuestions`, so they are
     // stable — listed only because the linter can no longer see that.
-  }, [hubTab, mixed.session, setFullScope, setNeedsFullQuestions])
+  }, [mixed.session, setFullScope, setNeedsFullQuestions])
+
+  /**
+   * The Previous-tests answer review (`SessionDetailPanel`, via `PreviousTests`)
+   * is the other prop reader — but the *list* of past tests needs nothing from
+   * the full bank, only an expanded row's per-question breakdown does. Building
+   * 2895 questions with every option and explanation the moment the tab opens
+   * blocked the main thread for ~3.7s and was the whole of the "ages to load".
+   * So the build waits for a row to actually open, where the panel fills in its
+   * stems and option text once the questions land (it shows the topic and
+   * generic text in the meantime). Whole-bank, because a past test may have
+   * been sat in any subject.
+   */
+  const revealPreviousTestQuestions = useCallback(() => {
+    setFullScope(WHOLE_BANK)
+    setNeedsFullQuestions(true)
+  }, [setFullScope, setNeedsFullQuestions])
   const restored = useRef(false)
   // Held in a ref, not read back from `saved`: the mirror effect below writes
   // `saved`, so depending on it there would make the write retrigger the effect
@@ -1280,6 +1292,7 @@ export function QuestionBank() {
                     liveSessionId={liveSittingId(saved)}
                     records={history.records}
                     questions={realQuestions}
+                    onOpenDetail={revealPreviousTestQuestions}
                     onRename={(sessionId, name) => setSavedNames((current) => ({ ...current, [sessionId]: name }))}
                     onResume={resumeSaved}
                     onTerminate={discardSaved}

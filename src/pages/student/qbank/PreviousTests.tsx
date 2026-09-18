@@ -49,6 +49,7 @@ export function PreviousTests({
   liveSessionId,
   records,
   questions,
+  onOpenDetail,
   onRename,
   onResume,
   onTerminate,
@@ -67,6 +68,12 @@ export function PreviousTests({
   /** The whole log; each row reads only its own sitting out of it. */
   records: AttemptRecord[]
   questions: Question[]
+  /**
+   * Called the first time a row is expanded, so the page can start building the
+   * full questions the detail panel's answer review needs. The list and stats
+   * need none of it, so this stays off until a row actually opens.
+   */
+  onOpenDetail?: () => void
   onRename: (sessionId: string, name: string) => void
   onResume: () => void
   onTerminate: () => void
@@ -110,7 +117,7 @@ export function PreviousTests({
               <div className="flex flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3.5">
                 <button
                   type="button"
-                  onClick={() => setExpanded(isOpen ? null : entry.sessionId)}
+                  onClick={() => { if (!isOpen) onOpenDetail?.(); setExpanded(isOpen ? null : entry.sessionId) }}
                   aria-expanded={isOpen}
                   aria-label={`${isOpen ? t('Hide') : t('Show')} ${name}`}
                   className="grid size-11 shrink-0 place-items-center rounded-md text-ink-3 transition-colors hover:bg-inset hover:text-ink sm:size-7"

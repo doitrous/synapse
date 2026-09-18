@@ -161,10 +161,7 @@ export function TestBuilder({
     <div className="pb-24 lg:pb-0">
       <div className="grid grid-cols-1 items-start gap-4 lg:grid-cols-[minmax(0,1fr)_20rem]">
         <div className="min-w-0 space-y-4">
-          <Step number={1} label={t('Draw from')} note={source === 'all'
-            ? t('Every published question you have access to.')
-            : t('Narrowed to one of your lists — combine it with a topic below.')}
-          >
+          <Step number={1} label={t('Draw from')}>
             <DrawFromChips
               label={t('Draw from')}
               value={source}
