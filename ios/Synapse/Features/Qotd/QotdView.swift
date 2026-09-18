@@ -100,6 +100,12 @@ struct QotdView: View {
                 }
             }
 
+            if let answerError = model.answerErrorText {
+                Text(strings(answerError))
+                    .font(Theme.ui(13))
+                    .foregroundStyle(Theme.danger)
+            }
+
             if model.answered {
                 reveal(question)
             }

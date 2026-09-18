@@ -17,7 +17,13 @@ final class QotdModel {
     private let audience: StudentAudience
 
     private(set) var isLoading = true
+    /// A failure to LOAD the question — the screen has nothing to show, so this
+    /// is the one error allowed to replace the whole view.
     private(set) var errorText: String?
+    /// A failure to SUBMIT an answer. Shown inline beneath the options, which
+    /// stay tappable: a failed submit leaves `answered` false, so tapping an
+    /// option again is the retry. It must never blank a question that loaded.
+    private(set) var answerErrorText: String?
     private(set) var emptyReason: String?
 
     private(set) var today: QotdToday?
@@ -84,6 +90,7 @@ final class QotdModel {
     func answer(_ label: String) async {
         guard !answered, let q = question,
               let index = q.options.firstIndex(where: { $0.label == label }) else { return }
+        answerErrorText = nil
         do {
             let result = try await api.qotdAnswer(questionId: q.id, answerIndex: index)
             answered = true
@@ -94,7 +101,9 @@ final class QotdModel {
             current = result.current
             longest = result.longest
         } catch {
-            errorText = "Your answer couldn't be submitted. Check your connection and try again."
+            // Inline, not full-screen: the question is still there, and tapping
+            // an option again resubmits (the server ignores a duplicate day).
+            answerErrorText = "That didn't send. Tap your answer to try again."
             return
         }
         await loadSocial()
