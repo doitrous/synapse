@@ -148,3 +148,41 @@ private func reduceFrame(_ state: RoomChannelState, _ frame: InboundFrame) -> Ro
         return state
     }
 }
+
+// MARK: - Reconnection and the socket URL
+
+/// First retry, and the ceiling. A room is worth waiting half a minute for.
+let backoffMinMS = 1_000
+let backoffMaxMS = 30_000
+
+/// How long to wait before retry number `attempt` (0-based): doubling from one
+/// second to thirty. Deterministic; the caller adds jitter, where a random
+/// number belongs, so the schedule can be asserted.
+func backoffDelay(attempt: Int) -> Int {
+    let step = max(0, attempt)
+    // 2^step, capped, without overflowing for large attempts.
+    if step >= 30 { return backoffMaxMS }
+    return min(backoffMaxMS, backoffMinMS * (1 << step))
+}
+
+/// The socket URL for a room, from the configured API base.
+///
+/// `http` -> `ws` and `https` -> `wss`. The base already ends in `/api` in every
+/// live deployment (`AppConfig.apiBaseURL` is `https://<host>/api`), so a
+/// trailing `/api` path segment is stripped before the `/api/rooms/ws` suffix is
+/// added — one `/api`, never the `/api/api/rooms/ws` that silently 404'd the
+/// upgrade. Only a trailing path segment is touched; a host like
+/// `api.nishany.com` is left alone. Returns nil for an empty code.
+func roomSocketURL(base: URL, code: String) -> URL? {
+    guard !code.isEmpty else { return nil }
+    guard var components = URLComponents(url: base, resolvingAgainstBaseURL: false) else { return nil }
+
+    var path = components.path
+    while path.hasSuffix("/") { path.removeLast() }
+    if path.lowercased().hasSuffix("/api") { path.removeLast(4) }
+    components.path = path + "/api/rooms/ws"
+
+    components.scheme = (components.scheme?.lowercased() == "http") ? "ws" : "wss"
+    components.queryItems = [URLQueryItem(name: "code", value: code)]
+    return components.url
+}
