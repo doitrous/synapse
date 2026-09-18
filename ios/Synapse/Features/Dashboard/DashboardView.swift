@@ -494,9 +494,7 @@ struct DashboardView: View {
             }
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         }
     }
 
@@ -544,9 +542,7 @@ struct DashboardView: View {
             }
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         }
     }
 
@@ -620,9 +616,7 @@ struct DashboardView: View {
             }
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         } else if !mastery.upcoming.isEmpty {
             // Nothing to do is worth saying plainly, with when the next thing
             // lands — an empty panel reads as something broken.
@@ -642,9 +636,7 @@ struct DashboardView: View {
             }
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         }
     }
 
