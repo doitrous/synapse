@@ -11,6 +11,13 @@ struct TargetRing: View {
     var lineWidth: CGFloat = 8
 
     @Environment(\.layoutDirection) private var layoutDirection
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+    /// The arc sweeps up to its value on arrival rather than being painted
+    /// already full — the one moment of motion that tells the student the dial
+    /// is theirs and it just moved. Held in state so `trim` has something to
+    /// animate between; it starts at zero and springs to `progress` on appear.
+    @State private var shown: Double = 0
 
     private var progress: Double {
         guard goal > 0 else { return 0 }
@@ -27,12 +34,19 @@ struct TargetRing: View {
                 .stroke(Theme.grid, lineWidth: 1.5)
                 .padding(size * 0.159)
             Circle()
-                .trim(from: 0, to: progress)
+                .trim(from: 0, to: shown)
                 .stroke(Theme.primary, style: StrokeStyle(lineWidth: lineWidth, lineCap: .round))
                 .rotationEffect(.degrees(-90))
             Circle()
                 .fill(Theme.primary)
                 .frame(width: lineWidth * 1.25, height: lineWidth * 1.25)
+        }
+        .onAppear {
+            guard !reduceMotion else { shown = progress; return }
+            withAnimation(Motion.settleSpring.delay(0.15)) { shown = progress }
+        }
+        .onChange(of: progress) { _, new in
+            withAnimation(reduceMotion ? nil : Motion.settleSpring) { shown = new }
         }
         .padding(lineWidth / 2)
         .frame(width: size, height: size)

@@ -13,8 +13,11 @@ struct QotdCard: View {
         Button(action: open) {
             HStack(spacing: 14) {
                 Image(systemName: "flame.fill")
-                    .font(.system(size: 22))
+                    .font(.system(size: 20))
                     .foregroundStyle(Theme.danger)
+                    .frame(width: 44, height: 44)
+                    .background(Theme.dangerTint)
+                    .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                 VStack(alignment: .leading, spacing: 3) {
                     Text(strings("Question of the Day"))
                         .font(Theme.ui(16, weight: 600))
@@ -29,10 +32,8 @@ struct QotdCard: View {
                     .foregroundStyle(Theme.ink3)
             }
             .padding(16)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+            .card(Theme.Radius.lg)
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressableCard)
     }
 }

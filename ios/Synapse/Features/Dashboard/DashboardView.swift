@@ -150,15 +150,16 @@ struct DashboardView: View {
                     Text(greeting)
                         .font(Theme.display(22))
                         .foregroundStyle(Theme.ink)
-                    targetHero
+                        .entrance(0)
+                    targetHero.entrance(1)
                     if let liveSession {
-                        resumeCard(liveSession)
+                        resumeCard(liveSession).entrance(2)
                     }
-                    todayGrid
-                    QotdCard { showingQotd = true }
-                    nextOnSchedule
-                    dueReviews
-                    lastUsed
+                    todayGrid.entrance(3)
+                    QotdCard { showingQotd = true }.entrance(4)
+                    nextOnSchedule.entrance(5)
+                    dueReviews.entrance(6)
+                    lastUsed.entrance(7)
                 }
                 .padding(16)
                 .frame(maxWidth: 680)
@@ -219,7 +220,7 @@ struct DashboardView: View {
                     .overlay(Circle().stroke(Theme.accentLine, lineWidth: 1))
                     .clipShape(Circle())
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressableCard)
             .accessibilityLabel(strings("Account"))
         }
     }
@@ -247,19 +248,22 @@ struct DashboardView: View {
                         .foregroundStyle(Theme.onPrimary)
                         .padding(.horizontal, 16)
                         .padding(.vertical, 8)
-                        .background(Theme.primary)
+                        .background(
+                            LinearGradient(
+                                colors: [Theme.primary, Theme.primaryStrong],
+                                startPoint: .topLeading, endPoint: .bottomTrailing
+                            )
+                        )
                         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.md))
+                        .shadow(color: Theme.primary.opacity(0.35), radius: 8, y: 3)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.pressable)
                 .padding(.top, 4)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }
         .padding(18)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xxl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xxl))
-        .shadow(color: .black.opacity(0.05), radius: 2, y: 1)
+        .card(Theme.Radius.xxl)
     }
 
     // MARK: - Resume
@@ -292,13 +296,11 @@ struct DashboardView: View {
                     .overlay(Capsule().stroke(Theme.primaryLine, lineWidth: 1))
                     .clipShape(Capsule())
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 14)
+            .card()
         }
-        .buttonStyle(.plain)
-        .padding(.horizontal, 16)
-        .padding(.vertical, 14)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        .buttonStyle(.pressableCard)
     }
 
     // MARK: - The 2×2 grid
@@ -310,9 +312,10 @@ struct DashboardView: View {
                     Text(Money.number(Double(questionCount), strings.language))
                         .font(Theme.numeric(11))
                         .foregroundStyle(Theme.ink3)
+                        .contentTransition(.numericText())
                 }
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressableCard)
 
             NavigationLink {
                 AdaptiveStudyView(api: api, sync: sync, store: library, audience: audience)
@@ -323,7 +326,7 @@ struct DashboardView: View {
                         .foregroundStyle(Theme.ink3)
                 }
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressableCard)
 
             Button { openTab(.library) } label: {
                 gridCard(symbol: "books.vertical", title: "Medical library") {
@@ -332,7 +335,7 @@ struct DashboardView: View {
                         .foregroundStyle(Theme.ink3)
                 }
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressableCard)
 
             NavigationLink {
                 PerformanceView(store: library, sync: sync)
@@ -343,7 +346,7 @@ struct DashboardView: View {
                         .foregroundStyle(Theme.ink3)
                 }
             }
-            .buttonStyle(.plain)
+            .buttonStyle(.pressableCard)
         }
     }
 
@@ -352,10 +355,13 @@ struct DashboardView: View {
     private func gridCard<Sublabel: View>(
         symbol: String, title: String, @ViewBuilder sublabel: () -> Sublabel
     ) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .leading, spacing: 10) {
             Image(systemName: symbol)
-                .font(.system(size: 22))
+                .font(.system(size: 19))
                 .foregroundStyle(Theme.accentStrong)
+                .frame(width: 40, height: 40)
+                .background(Theme.accentTint)
+                .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
             Text(strings(title))
                 .font(Theme.ui(13.5, weight: 600))
                 .foregroundStyle(Theme.ink)
@@ -363,9 +369,7 @@ struct DashboardView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        .card()
     }
 
     /// Counts what the student can actually open, not what is in the ledger.
@@ -375,7 +379,8 @@ struct DashboardView: View {
     /// they cannot reach is worse than telling them nothing.
     private func refresh() async {
         await model.load()
-        questionCount = (try? await library.items(kind: .question, audience: audience).count) ?? 0
+        let count = (try? await library.items(kind: .question, audience: audience).count) ?? 0
+        withAnimation(Motion.settleSpring) { questionCount = count }
 
         // The resume card only offers a sitting that is actually still open —
         // one already scored is a finished sitting, not one to pick back up.
@@ -684,8 +689,6 @@ struct StatTile: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(14)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        .card()
     }
 }
