@@ -88,8 +88,6 @@ private class VmFakeApi : SynapseApi {
     override suspend fun putUserState(key: String, doc: StateDoc) {
         putUserStateError?.let { throw it }
     }
-    override suspend fun getAttempts(month: String): List<AttemptRecord> = emptyList()
-    override suspend fun postAttempt(attempt: AttemptRecord) {}
 }
 
 private class VmFakeStore : LocalStore {

@@ -265,6 +265,4 @@ private class FakeSynapseApi : SynapseApi {
         putCalls += key
         putBodies[key] = doc
     }
-    override suspend fun getAttempts(month: String): List<ModelAttemptRecord> = emptyList()
-    override suspend fun postAttempt(attempt: ModelAttemptRecord) { /* unused */ }
 }

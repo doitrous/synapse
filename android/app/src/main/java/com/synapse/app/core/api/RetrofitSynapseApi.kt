@@ -1,7 +1,6 @@
 package com.synapse.app.core.api
 
 import com.synapse.app.core.config.AppConfig
-import com.synapse.app.core.model.AttemptRecord
 import com.synapse.app.core.model.Manifest
 import com.synapse.app.core.model.SessionDto
 import com.synapse.app.core.model.StateDoc
@@ -16,10 +15,8 @@ import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFact
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Header
-import retrofit2.http.POST
 import retrofit2.http.PUT
 import retrofit2.http.Path
-import retrofit2.http.Query
 import java.io.IOException
 
 /**
@@ -79,10 +76,6 @@ class RetrofitSynapseApi(
     override suspend fun putUserState(key: String, doc: StateDoc) {
         call { service.putUserState(bearer(), key, doc).close() }
     }
-    override suspend fun getAttempts(month: String): List<AttemptRecord> = call { service.getAttempts(bearer(), month) }
-    override suspend fun postAttempt(attempt: AttemptRecord) {
-        call { service.postAttempt(bearer(), attempt).close() }
-    }
 
     private interface Service {
         @GET("session")
@@ -99,11 +92,5 @@ class RetrofitSynapseApi(
 
         @PUT("user-state/{key}")
         suspend fun putUserState(@Header("Authorization") auth: String, @Path("key") key: String, @Body doc: StateDoc): ResponseBody
-
-        @GET("qbank/attempts")
-        suspend fun getAttempts(@Header("Authorization") auth: String, @Query("month") month: String): List<AttemptRecord>
-
-        @POST("qbank/attempts")
-        suspend fun postAttempt(@Header("Authorization") auth: String, @Body attempt: AttemptRecord): ResponseBody
     }
 }

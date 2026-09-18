@@ -159,7 +159,6 @@ private class FakeApi : SynapseApi {
     var manifestMap: Map<String, String> = emptyMap()
     var manifestError: Throwable? = null
     val states = mutableMapOf<String, StateDoc>()
-    var attemptList = mutableListOf<AttemptRecord>()
     val putErrors = mutableMapOf<String, ApiError>()
     val getUserStateErrors = mutableMapOf<String, Throwable>()
     val fetchedStateKeys = mutableListOf<String>()
@@ -182,8 +181,6 @@ private class FakeApi : SynapseApi {
         putCalls += key
         putErrors[key]?.let { throw ApiException(it) }
     }
-    override suspend fun getAttempts(month: String): List<AttemptRecord> = attemptList.toList()
-    override suspend fun postAttempt(attempt: AttemptRecord) { attemptList += attempt }
 }
 
 private class FakeStore : LocalStore {

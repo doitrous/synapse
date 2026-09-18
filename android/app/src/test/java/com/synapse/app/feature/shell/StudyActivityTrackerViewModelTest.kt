@@ -214,6 +214,4 @@ private class FakeSynapseApi : SynapseApi {
     override suspend fun getState(key: String): StateDoc = StateDoc(JsonNull)
     override suspend fun getUserState(key: String): StateDoc = StateDoc(JsonNull)
     override suspend fun putUserState(key: String, doc: StateDoc) { /* unused */ }
-    override suspend fun getAttempts(month: String): List<AttemptRecord> = emptyList()
-    override suspend fun postAttempt(attempt: AttemptRecord) { /* unused */ }
 }
