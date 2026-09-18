@@ -37,6 +37,11 @@ final class AuthModel {
     /// without a second, divergent copy of how a token is read.
     private let readToken: @Sendable () async -> String?
 
+    /// The token provider, for clients that open their own authenticated
+    /// connections rather than going through `api` — the Study Rooms socket,
+    /// which carries the bearer token in its WebSocket subprotocol.
+    var tokenProvider: SynapseAPI.TokenProvider { readToken }
+
     init(userCache: SessionUserCache = KeychainSessionUserCache()) {
         self.userCache = userCache
         if let url = AppConfig.supabaseURL, let key = AppConfig.supabaseAnonKey {
