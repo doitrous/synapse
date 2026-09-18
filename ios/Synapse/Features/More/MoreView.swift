@@ -66,6 +66,12 @@ struct MoreView: View {
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
             .navigationTitle(strings("More"))
+            // A `List` with a hidden scroll background does not paint the large
+            // title at rest (the collection view's scroll-edge tracking drops
+            // it); the flagship card screens render large titles because they
+            // are ScrollViews. Utility List screens use the inline title, as
+            // Calendar does — reliable, and a coherent second tier.
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     AssistantButton(surface: "More")

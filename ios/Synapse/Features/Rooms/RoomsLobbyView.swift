@@ -32,6 +32,9 @@ struct RoomsLobbyView: View {
         .scrollContentBackground(.hidden)
         .background(Theme.paper)
         .navigationTitle(strings("Study Rooms"))
+        // A `List` with a hidden scroll background leaves the large title blank
+        // at rest; the inline title renders reliably (see MoreView / Calendar).
+        .navigationBarTitleDisplayMode(.inline)
         .task { await load() }
         .refreshable { await load() }
     }
@@ -109,10 +112,22 @@ struct RoomsLobbyView: View {
 
     private func load() async {
         error = nil
-        async let a = try? await api.myParties()
-        async let b = try? await api.openParties()
-        mine = await a ?? []
-        open = await b ?? []
+        // The access token can still be refreshing on a cold launch, so the very
+        // first read throws and the lists come back empty for a moment. Retry a
+        // couple of times before settling — an empty room list is indistinguishable
+        // from a failed one, so silently swallowing left the lobby blank.
+        for attempt in 0..<3 {
+            do {
+                async let a = api.myParties()
+                async let b = api.openParties()
+                mine = try await a
+                open = try await b
+                return
+            } catch {
+                if attempt == 2 { return }   // keep whatever we have; no scary banner for a background read
+                try? await Task.sleep(nanoseconds: 500_000_000)
+            }
+        }
     }
 
     private func create() async {
@@ -138,8 +153,14 @@ struct RoomsLobbyView: View {
     }
 
     private func openExisting(_ room: PartySummary) async {
-        if let party = try? await api.party(room.id) { onEnter(party) }
-        else { error = "That room is no longer open." }
+        // Retry once: a nil here is usually a transient read right after launch,
+        // not a deleted room, and flashing "no longer open" at a room that is
+        // plainly listed reads as a bug.
+        for attempt in 0..<2 {
+            if let party = try? await api.party(room.id) { onEnter(party); return }
+            if attempt == 0 { try? await Task.sleep(nanoseconds: 500_000_000) }
+        }
+        error = "That room is no longer open."
     }
 
     private func joinListed(_ room: PartySummary) async {

@@ -76,9 +76,20 @@ struct CalendarView: View {
 
                     if blocks.isEmpty {
                         Section {
-                            Text(strings("Nothing planned yet."))
-                                .font(Theme.ui(14))
-                                .foregroundStyle(Theme.ink3)
+                            VStack(spacing: 8) {
+                                Image(systemName: "calendar")
+                                    .font(.system(size: 30, weight: .light))
+                                    .foregroundStyle(Theme.ink3)
+                                Text(strings("Nothing planned yet."))
+                                    .font(Theme.ui(15, weight: 600))
+                                    .foregroundStyle(Theme.ink2)
+                                Text(strings("Tap + to plan a study block. It syncs to the website."))
+                                    .font(Theme.ui(12.5))
+                                    .foregroundStyle(Theme.ink3)
+                                    .multilineTextAlignment(.center)
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 24)
                         }
                         .listRowBackground(Theme.surface)
                     } else {
