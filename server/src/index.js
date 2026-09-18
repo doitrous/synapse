@@ -278,9 +278,12 @@ if (existsSync(join(PUBLIC_DIR, 'index.html'))) {
   const appShell = async () => {
     if (appShellCache == null) {
       const raw = await readFile(INDEX_HTML, 'utf8')
-      // Strip from #root's open to its own close (the one right before the SPA
-      // <script>), leaving the marketing content of the real pages untouched.
-      appShellCache = raw.replace(/<div id="root">[\s\S]*?<\/div>(\s*<script)/i, '<div id="root"></div>$1')
+      // Strip from #root's open to its own close — the one right before the end
+      // of the body (this build emits the module scripts in <head>, so nothing
+      // follows #root but </body>). Anchoring on either keeps it working if the
+      // bundler moves the scripts back. Nested </div>s inside the marketing
+      // shell are skipped: only #root's own close is followed by the anchor.
+      appShellCache = raw.replace(/<div id="root">[\s\S]*?<\/div>(\s*(?:<script|<\/body>))/i, '<div id="root"></div>$1')
     }
     return appShellCache
   }
