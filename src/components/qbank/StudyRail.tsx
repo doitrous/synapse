@@ -6,8 +6,8 @@ import { Textarea } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { ConceptChip } from '@/components/concepts/ConceptChip'
 import { cn } from '@/lib/cn'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import type { Question } from '@/data/qbank'
+import { useConceptIndex } from '@/lib/content'
 import { migrateLegacyLocalKey, usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
 
@@ -132,7 +132,7 @@ export function StudyRail({
   className?: string
 }) {
   const t = useT()
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [graph] = useConceptIndex()
   const [notes, setNotes, notesStatus] = usePersistentState<Record<string, string>>(QBANK_NOTES_STORAGE_KEY, {})
   // The cue appears once this student has actually typed something. Showing
   // "Saved" against a note nobody has written is noise, not reassurance.

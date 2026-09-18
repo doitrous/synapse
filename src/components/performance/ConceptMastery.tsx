@@ -3,9 +3,8 @@ import { useT } from '@/lib/i18n'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Meter } from '@/components/ui/Meter'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { useConceptIndex } from '@/lib/content'
 import { useMastery } from '@/lib/useMastery'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { masteryBand, summarise, weakest, type ConceptMastery as Entry, type MasteryBand } from '@/data/mastery'
 
 const BAND_TONE: Record<MasteryBand, 'neutral' | 'primary' | 'success' | 'warning' | 'danger'> = {
@@ -35,7 +34,7 @@ const BAND_LABEL: Record<MasteryBand, string> = {
 export function ConceptMasteryPanel() {
   const t = useT()
   const { ledger } = useMastery()
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [graph] = useConceptIndex()
 
   const summary = summarise(ledger)
   const label = (conceptId: string) =>

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { ArrowLeft, ArrowRight, BookOpenText, ExternalLink, FileText, GitFork, TriangleAlert, X } from 'lucide-react'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
+import { type Concept } from '@/data/conceptGraph'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type EvidenceLocator, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { Icon } from '@/components/ui/Icon'
 import { PlacedImage } from '@/components/ui/PlacedMedia'
@@ -9,7 +9,7 @@ import { Popover } from '@/components/ui/Popover'
 import { RichText } from '@/components/ui/RichText'
 import { apiOpenFile } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { useConceptDetail } from '@/lib/content'
+import { useConceptDetail, useConceptIndex } from '@/lib/content'
 import { useT } from '@/lib/i18n'
 
 function escapeRegExp(value: string) {
@@ -38,7 +38,7 @@ export function ConceptText({ text, enabled = true }: { text: string; enabled?: 
   const [open, setOpen] = useState<{ concept: Concept; anchor: HTMLElement } | null>(null)
   const mediaRecords = useMediaRecords()
   const active = open?.concept ?? null
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [graph] = useConceptIndex()
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   // The graph the app holds is the slim concept *index* — labels, aliases and
   // relations, no prose. When a card opens, fetch that one concept's full

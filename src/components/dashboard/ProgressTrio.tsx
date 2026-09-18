@@ -10,9 +10,8 @@ import { cn } from '@/lib/cn'
 import { clamp } from '@/lib/format'
 import { useI18n, useT } from '@/lib/i18n'
 import { masteryBand } from '@/data/mastery'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { useConceptIndex } from '@/lib/content'
 import { useMastery } from '@/lib/useMastery'
-import { usePersistentState } from '@/lib/usePersistentState'
 import { usePracticeProgress } from '@/lib/usePracticeProgress'
 import { useCatalogueAvailability } from '@/lib/useCatalogueAvailability'
 
@@ -298,7 +297,7 @@ function StatBox({
 export function ExamReadinessCard({ compact = false }: { compact?: boolean }) {
   const t = useT()
   const { ledger, loading: masteryLoading, status: masteryStatus } = useMastery()
-  const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [graph, graphStatus] = useConceptIndex()
 
   const totalConcepts = graph.concepts.length
   const bands = useMemo(() => {

@@ -22,7 +22,7 @@
 import { pool, appStateVersions } from './db.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
-import { loadConceptCatalogue } from './conceptCatalogue.js'
+import { loadConceptCatalogue, loadConceptIndex } from './conceptCatalogue.js'
 import { itemModules, itemUniversities, itemYears, yearNumber } from './contentScope.js'
 import { requireAuthenticated } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
@@ -526,6 +526,24 @@ export async function conceptHandler(req, res) {
   return sendVersioned(req, res, signature, { concept })
 }
 
+/**
+ * The slim concept index for the caller's own university — the bulk read every
+ * many-concept student surface holds.
+ *
+ * Scoped to the caller's *student profile* university, not `audienceFor`'s
+ * query params, so a console user viewing a student surface gets their cohort's
+ * slim index rather than the whole authoring graph the `/api/state` route hands
+ * authors. The ETag carries the university because two cohorts' indexes differ.
+ */
+export async function conceptIndexHandler(req, res) {
+  const [rows] = await pool.query(
+    'SELECT university_id AS universityId FROM students WHERE user_id = ? LIMIT 1',
+    [req.identity.id],
+  )
+  const { signature, uni, graph } = await loadConceptIndex(rows[0]?.universityId ?? null)
+  return sendVersioned(req, res, `${signature}.${uni}`, { graph })
+}
+
 const wrap = (fn) => (req, res) => Promise.resolve(fn(req, res)).catch((error) => {
   console.error(error)
   res.status(500).json({ error: error.message || 'server error' })
@@ -537,4 +555,5 @@ export function registerContentRoutes(app) {
   app.get('/api/content/questions', requireAuthenticated, wrap(questionsHandler))
   app.get('/api/content/item/:id', requireAuthenticated, wrap(itemHandler))
   app.get('/api/content/concept/:id', requireAuthenticated, wrap(conceptHandler))
+  app.get('/api/content/concept-index', requireAuthenticated, wrap(conceptIndexHandler))
 }

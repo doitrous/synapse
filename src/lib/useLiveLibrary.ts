@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { useArticleIndex, useContentItem, type ArticleIndexResponse } from './content'
+import { useArticleIndex, useConceptIndex, useContentItem, type ArticleIndexResponse } from './content'
 import { isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { libraryTopics as SEED_TOPICS, type LibTopic, type Subtopic } from '@/data/library'
 import { subjects, getSubject } from '@/data/subjects'
@@ -10,7 +10,7 @@ import { compareLibraryTopics } from '@/data/libraryOrder'
 import { API_MODE } from './api'
 import { MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type MedicalEvidenceStore } from '@/data/medicalEvidence'
 import { overlaySubtopic, articleToSubtopic } from '@/data/articleProjection'
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
+import { initialConceptGraph } from '@/data/conceptGraph'
 import { catalogueAvailability } from './catalogueAvailability'
 import { useUniversityCatalogue } from './useUniversityCatalogue'
 
@@ -188,7 +188,7 @@ export function useArticleWithBody(
 ): LiveSubtopic | undefined {
   const [item] = useContentItem(article?.id ?? null)
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_PUBLISHED_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [graph] = useConceptIndex()
 
   return useMemo(() => {
     if (!article) return undefined

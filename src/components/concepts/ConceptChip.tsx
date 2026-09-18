@@ -1,5 +1,4 @@
-import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
-import { usePersistentState } from '@/lib/usePersistentState'
+import { useConceptIndex } from '@/lib/content'
 import { ConceptText } from './ConceptText'
 
 /**
@@ -15,7 +14,7 @@ import { ConceptText } from './ConceptText'
  * an empty panel is worse than no chip.
  */
 export function ConceptChip({ conceptId }: { conceptId: string }) {
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
+  const [graph] = useConceptIndex()
   const concept = graph.concepts.find((item) => item.id === conceptId && item.status === 'active')
   if (!concept) return null
 

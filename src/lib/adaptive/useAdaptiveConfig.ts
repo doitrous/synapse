@@ -17,7 +17,8 @@ import {
   ADAPTIVE_BLUEPRINT_STORAGE_KEY, blueprintFor, deriveBlueprint, resolveBlueprint,
   type Blueprint, type BlueprintNode,
 } from '@/data/adaptive/blueprint'
-import { CONCEPT_STORAGE_KEY, conceptGraphFromStorage, type Concept, type ConceptGraph } from '@/data/conceptGraph'
+import { type Concept } from '@/data/conceptGraph'
+import { useConceptIndex } from '@/lib/content'
 import { CURRICULUM_CATALOG } from '@/data/curriculumCatalog'
 import { subjectsById } from '@/data/subjects'
 
@@ -162,7 +163,7 @@ export function useResolvedBlueprint(scope: {
   yearId: string
   moduleIds?: string[]
 }): ResolvedBlueprint {
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, conceptGraphFromStorage)
+  const [graph] = useConceptIndex()
   const [blueprints] = useAdaptiveBlueprints()
 
   // Destructured to primitives before the memo. A caller that builds its scope
@@ -189,7 +190,7 @@ export function useResolvedBlueprint(scope: {
 
 /** Labels for concepts, so a table can name what it is showing. */
 export function useConceptLabels(): Map<string, string> {
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, conceptGraphFromStorage)
+  const [graph] = useConceptIndex()
   return useMemo(
     () => new Map(graph.concepts.map((concept) => [concept.id, concept.label])),
     [graph.concepts],
@@ -204,7 +205,7 @@ export function useConceptLabels(): Map<string, string> {
  * first.
  */
 export function usePrerequisites(): Map<string, string[]> {
-  const [graph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, conceptGraphFromStorage)
+  const [graph] = useConceptIndex()
   return useMemo(() => {
     const edges = new Map<string, string[]>()
     for (const relation of graph.relations) {

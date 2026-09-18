@@ -14,6 +14,7 @@ export {
 export {
   useArticleIndex,
   useConceptDetail,
+  useConceptIndex,
   useContentBusy,
   useContentItem,
   useContentManifest,

@@ -14,14 +14,16 @@ import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore
 import { errorKind, type StateErrorKind } from '../api'
 import type { PersistentStateStatus } from '../stateStore'
 import type { ManagedContentItem } from '@/data/contentControl'
-import type { Concept } from '@/data/conceptGraph'
+import { initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import {
   ARTICLE_INDEX_KEY,
+  CONCEPT_INDEX_KEY,
   SUMMARY_KEY,
   conceptKey,
   contentBusy,
   fetchArticleIndex,
   fetchConceptDetail,
+  fetchConceptIndex,
   fetchItem,
   fetchItemManifest,
   fetchQuestions,
@@ -34,6 +36,7 @@ import {
   sliceKey,
   subscribeContent,
   type ArticleIndexResponse,
+  type ConceptIndexResponse,
   type ContentCounts,
   type ContentSliceKind,
   type ItemsResponse,
@@ -188,6 +191,28 @@ export function useContentItem(id: string | null): readonly [ManagedContentItem 
     useCallback((force: boolean) => (id ? fetchItem(id, force) : Promise.resolve({ version: '', item: null })), [id]),
   )
   return [held.data?.item ?? null, held.status] as const
+}
+
+/** One stable empty graph, so a loading/absent index never churns downstream memos. */
+const EMPTY_GRAPH: ConceptGraph = initialConceptGraph()
+
+/**
+ * The slim concept index for the student's university — the bulk read the
+ * many-concept surfaces (dashboard, library, performance, qbank, adaptive) hold.
+ *
+ * Replaces `usePersistentState(CONCEPT_STORAGE_KEY)` on those surfaces: that read
+ * hands console users the whole ~70 MB authoring graph, while this endpoint
+ * always serves the few-MB student projection whatever the caller's role. The
+ * per-concept prose is fetched on demand by `useConceptDetail`.
+ */
+export function useConceptIndex(
+  { enabled = true }: { enabled?: boolean } = {},
+): readonly [ConceptGraph, PersistentStateStatus] {
+  const held = useContentResource<ConceptIndexResponse>(
+    enabled ? CONCEPT_INDEX_KEY : null,
+    useCallback((force) => fetchConceptIndex(force), []),
+  )
+  return [held.data?.graph ?? EMPTY_GRAPH, held.status] as const
 }
 
 /**

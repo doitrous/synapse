@@ -19,7 +19,7 @@
  */
 import { API_MODE, apiGetIfChanged } from '../api'
 import { CONTENT_LEDGER_STORAGE_KEY, type ManagedContentItem } from '@/data/contentControl'
-import { CONCEPT_STORAGE_KEY, type Concept } from '@/data/conceptGraph'
+import { CONCEPT_STORAGE_KEY, initialConceptGraph, type Concept, type ConceptGraph } from '@/data/conceptGraph'
 import type { QuestionFormat } from '@/data/questionFormat'
 import { manifestKey, questionLinksFrom, questionsKey, type QuestionLink, type QuestionScope } from './contentKeys'
 
@@ -303,6 +303,29 @@ export function fetchConceptDetail(id: string, force = false): Promise<ConceptDe
     return Promise.resolve(remember(key, { version: 'demo', concept: demoConcept(id) }))
   }
   return load<ConceptDetailResponse>(key, `/content/concept/${encodeURIComponent(id)}`, force)
+}
+
+export interface ConceptIndexResponse { version: string; graph: ConceptGraph }
+export const CONCEPT_INDEX_KEY = 'content:concept-index'
+
+/**
+ * The slim concept index — every field the many-concept surfaces read, scoped to
+ * the student's university, without the per-concept prose (`fetchConceptDetail`
+ * carries that). Served regardless of role, so a console user on a student
+ * surface gets the few-MB index rather than the ~70 MB authoring graph the
+ * `/api/state` route hands authors. Demo mode reads the whole local graph, which
+ * the same surfaces consume unchanged.
+ */
+export function fetchConceptIndex(force = false): Promise<ConceptIndexResponse> {
+  if (!API_MODE) {
+    let graph = initialConceptGraph()
+    try {
+      const raw = typeof localStorage !== 'undefined' ? JSON.parse(localStorage.getItem(CONCEPT_STORAGE_KEY) ?? 'null') : null
+      if (raw && Array.isArray(raw.concepts)) graph = raw as ConceptGraph
+    } catch { /* keep the empty graph */ }
+    return Promise.resolve(remember(CONCEPT_INDEX_KEY, { version: 'demo', graph }))
+  }
+  return load<ConceptIndexResponse>(CONCEPT_INDEX_KEY, '/content/concept-index', force)
 }
 
 /** Test seam: forget both the data and the ETags. */
