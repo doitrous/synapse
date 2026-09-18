@@ -443,10 +443,17 @@ private struct Runner: View {
                 .font(Theme.ui(16, weight: 600))
                 .frame(maxWidth: .infinity)
                 .frame(height: 48)
-                .background(Theme.primary)
+                .background(
+                    LinearGradient(
+                        colors: [Theme.primary, Theme.primaryStrong],
+                        startPoint: .topLeading, endPoint: .bottomTrailing
+                    )
+                )
                 .foregroundStyle(Theme.onPrimary)
                 .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+                .shadow(color: Theme.primary.opacity(0.3), radius: 10, y: 4)
         }
+        .buttonStyle(.pressable)
         .padding(.horizontal, 20)
     }
 

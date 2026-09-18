@@ -226,7 +226,7 @@ private struct StudyChooser: View {
                 }
                 .padding(.top, 8)
 
-                ForEach(LibraryViewKind.allCases) { kind in
+                ForEach(Array(LibraryViewKind.allCases.enumerated()), id: \.offset) { index, kind in
                     let palette = Self.palette(kind)
                     Button { choose(kind) } label: {
                         HStack(alignment: .center, spacing: 14) {
@@ -261,11 +261,10 @@ private struct StudyChooser: View {
                                 .flipsForRightToLeftLayoutDirection(true)
                         }
                         .padding(14)
-                        .background(Theme.surface)
-                        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-                        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+                        .card()
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.pressableCard)
+                    .entrance(index)
                 }
             }
             .padding(16)

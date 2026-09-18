@@ -33,10 +33,14 @@ struct OptionRow: View {
             }
             .padding(14)
             .background(background)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(border, lineWidth: 1))
+            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(border, lineWidth: state == .unanswered ? 1 : 1.5))
             .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+            // The reveal — track/tint/border shifting as the answer is marked —
+            // settles rather than snapping, so a right answer lands like a small
+            // event instead of a repaint.
+            .animation(Motion.settleSpring, value: state)
         }
-        .buttonStyle(.plain)
+        .buttonStyle(.pressable)
         .disabled(isAnswered)
     }
 
