@@ -22,10 +22,13 @@ export const subjectsById: Record<string, Subject> = Object.fromEntries(
  *
  * Content can legitimately reference a subject the catalogue no longer lists —
  * an import from another curriculum, a system since renamed. Showing the raw id
- * in a muted grey is more useful than an empty badge or a thrown error.
+ * in a muted grey is more useful than an empty badge or a thrown error. A
+ * missing id (a curriculum or planned event with no subject) is coerced to ''
+ * so the fallback renders a dash rather than throwing on `undefined.toUpperCase`.
  */
 export function getSubject(id: string): Subject {
-  return subjectsById[id] ?? { id, name: id, short: id.toUpperCase(), color: '#6d7688' }
+  const key = id ?? ''
+  return subjectsById[key] ?? { id: key, name: key, short: key.toUpperCase() || '—', color: '#6d7688' }
 }
 
 /**

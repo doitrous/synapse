@@ -161,7 +161,7 @@ function blockEvent(block: StudyBlock): CalEvent {
     time: block.start,
     endTime: block.end,
     layer: 'personal',
-    subjectId: block.subjectId,
+    subjectId: block.subjectId ?? '',
     moduleId: block.moduleId,
     kind: block.kind,
   }
