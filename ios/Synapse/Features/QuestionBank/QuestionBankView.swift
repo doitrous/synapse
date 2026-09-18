@@ -549,9 +549,7 @@ private struct Runner: View {
                 }
                 .tint(Theme.primary)
                 .padding(14)
-                .background(Theme.surface)
-                .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
-                .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+                .card(Theme.Radius.lg)
             }
 
             // Named last because it states what the question was testing —
@@ -644,9 +642,7 @@ private struct Runner: View {
         }
         .padding(14)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+        .card(Theme.Radius.lg)
     }
 
     /// After the scheme is out, the honest grade. Once given it becomes a pill;
@@ -714,9 +710,7 @@ private struct Runner: View {
         }
         .padding(14)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+        .card(Theme.Radius.lg)
     }
 }
 
@@ -756,9 +750,7 @@ private struct Results: View {
                         .padding(14)
                     }
                 }
-                .background(Theme.surface)
-                .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-                .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+                .card()
 
                 Button(strings("Another sitting")) { model.restart() }
                     .font(Theme.ui(16, weight: 600))
