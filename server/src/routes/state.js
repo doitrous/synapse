@@ -83,6 +83,9 @@ const STUDENT_READABLE_STATE = new Set([
   'nishany-answer-stats-v1',
 ])
 
+/** How many documents one console boot batch may name. A page reads ~two dozen. */
+const MAX_STATE_BATCH_KEYS = 100
+
 export function registerStateManifestRoutes(app) {
   /**
    * When each catalogue document last changed.
@@ -121,6 +124,59 @@ export function registerStateManifestRoutes(app) {
     const out = {}
     for (const r of rows) { try { out[r.k] = JSON.parse(r.v) } catch { out[r.k] = null } }
     res.json(out)
+  }))
+
+  /**
+   * Read many shared documents in one request — the console's boot batch.
+   *
+   * A console page mounts a page-full of `usePersistentState` hooks at once, each
+   * of which read its own document through `/api/state/:key`: a burst of
+   * authenticated round trips that each resolve identity and take a pool
+   * connection. This reads them in one query. Console-only, which is also why it
+   * needs no per-student projection — an authoring caller reads every document
+   * whole, exactly as the single read returns it to them, so this returns
+   * `value` + `updatedAt` + `version` + `deltaSupported` per key with nothing
+   * redacted or sliced. Answers under the key the client sent; a key with
+   * nothing stored is `{ value: null }`, the same as the single read.
+   *
+   * An admin-only document (one outside the student-readable set) still requires
+   * MFA: without it the key is simply omitted, and the client reads it on its own
+   * through `/api/state/:key`, which refuses it with the same 403 it always did.
+   * The concept graph's per-cohort ETag is not offered here — it is student-only
+   * and deferred, so it never joins a console boot batch.
+   */
+  app.get('/api/state-batch', requireConsole, wrap(async (req, res) => {
+    const requested = String(req.query.keys ?? '')
+      .split(',')
+      .map((key) => key.trim())
+      .filter(Boolean)
+      .slice(0, MAX_STATE_BATCH_KEYS)
+    if (!requested.length) return res.json({ values: {} })
+    const mfaOk = mfaSatisfied(req.identity)
+    // Canonicalise for the lookup, but answer under the key the client sent, and
+    // serve only the keys this caller may read here (admin-only keys need MFA;
+    // the rest fall back to the single read, which applies the same gate).
+    const canonicalOf = new Map(requested.map((key) => [key, canonicalStateKey(key)]))
+    const servable = requested.filter((key) => STUDENT_READABLE_STATE.has(canonicalOf.get(key)) || mfaOk)
+    if (!servable.length) return res.json({ values: {} })
+    const canonicals = [...new Set(servable.map((key) => canonicalOf.get(key)))]
+    const [rows] = await pool.query(
+      `SELECT s.k, s.v, s.updated_at AS updatedAt,
+              (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+         FROM app_state s WHERE s.k IN (${canonicals.map(() => '?').join(', ')})`,
+      canonicals,
+    )
+    const byCanonical = new Map(rows.map((row) => [row.k, row]))
+    const values = {}
+    for (const key of servable) {
+      const canonical = canonicalOf.get(key)
+      const deltaSupported = isMergeable(canonical)
+      const row = byCanonical.get(canonical)
+      if (!row) { values[key] = { value: null, updatedAt: null, version: null, deltaSupported }; continue }
+      try { values[key] = { value: JSON.parse(row.v), updatedAt: row.updatedAt, version: row.version, deltaSupported } }
+      catch { values[key] = { value: null, updatedAt: row.updatedAt, version: row.version, deltaSupported } }
+    }
+    res.json({ values })
   }))
 }
 

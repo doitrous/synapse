@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
-import { API_MODE, adoptOwnerLookup, apiPut, errorKind, isRetryable, loadMe, setStateOwnerId, SESSION_EXPIRED_EVENT } from './api'
+import { API_MODE, adoptOwnerLookup, apiPut, errorKind, isRetryable, loadMe, setStateConsole, setStateOwnerId, SESSION_EXPIRED_EVENT } from './api'
 import { usePersistentState } from './usePersistentState'
 import { retryAfterSignIn } from './stateStore'
 import { yearId as deriveYearId } from '@/data/taxonomy'
@@ -347,6 +347,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       if (!me?.user) {
         authed = false
         setStateOwnerId(null)
+        setStateConsole(false)
         setState((s) => ({ ...s, status: 'anonymous', userId: null, email: null, role: null, tabs: [], contentScope: null, aal: null, emailVerified: false, mfaPending: false, metadataName: null, avatarUrl: null, profile: null, subscription: null, entitlement: NO_ENTITLEMENT }))
         return
       }
@@ -359,6 +360,10 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
       // Crash-recovery copies are keyed to the account that wrote them, and
       // this is the first moment that account is known.
       setStateOwnerId(me.user.id)
+      // A console caller (rank ≥ 1) batches its shared-document reads; set the
+      // flag here too so a retry attempt (which does not call adoptOwnerLookup)
+      // still enables it.
+      setStateConsole(rankOf(readRole(me.user.role) ?? '') >= 1)
       // Documents read before the session was restored were refused with a 401
       // and are sitting unread; a signed-in identity is what makes them
       // readable. Without this the app boots empty and stays that way until the

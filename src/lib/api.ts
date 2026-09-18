@@ -22,6 +22,16 @@ const BASE = import.meta.env.VITE_API_BASE as string | undefined
 let ownerId: string | null = null
 let ownerAsked: Promise<string | null> | null = null
 
+/**
+ * Whether the signed-in caller has console access (rank ≥ 1). Only a console
+ * caller batches its shared-document reads (see `getState`): a student's shared
+ * reads each carry per-caller projection the single `/api/state/:key` route
+ * applies, so they stay one-by-one. Told by whoever resolves `/api/me` first —
+ * `adoptOwnerLookup` below and the identity provider both set it.
+ */
+let stateConsole = false
+export function setStateConsole(isConsole: boolean): void { stateConsole = isConsole }
+
 /** Told by the identity provider the moment `/api/me` answers. */
 export function setStateOwnerId(id: string | null): void {
   ownerId = id
@@ -67,6 +77,10 @@ export function adoptOwnerLookup(request: Promise<{ user: { id: string } | null 
   const lookup = request
     .then((me) => {
       ownerId = me?.user?.id ?? null
+      // The role travels on the same payload; set the console flag here so it is
+      // known the moment the store's own `stateOwnerId` resolves, not a tick
+      // later when the identity provider's separate `.then` runs.
+      stateConsole = Number((me as { user?: { rank?: number } } | null)?.user?.rank ?? 0) >= 1
       return ownerId
     })
     .catch((error: unknown) => {
@@ -332,11 +346,69 @@ export interface RemoteState<T> {
   deltaSupported?: boolean
 }
 
-export async function getState<T>(key: string): Promise<RemoteState<T>> {
+async function getStateSingle<T>(key: string): Promise<RemoteState<T>> {
   try {
     const r = await apiGet<{ value: T | null; updatedAt?: string | null; version?: number | null; deltaSupported?: boolean }>(`/state/${encodeURIComponent(key)}`)
     return { value: r.value, updatedAt: r.updatedAt ?? null, version: r.version ?? null, error: null, deltaSupported: r.deltaSupported === true }
   } catch (error) { return { value: null, updatedAt: null, version: null, error: errorKind(error) } }
+}
+
+/**
+ * Coalesce a console boot's shared-document reads into one request.
+ *
+ * A console page mounts a page-full of `usePersistentState` hooks at once, each
+ * reading its own shared document — a burst of authenticated round trips that
+ * each take a database connection on a shared box. When the caller has console
+ * access (`stateConsole`), this gathers the keys asked for within a short window
+ * and reads them in a single `GET /api/state-batch`, then hands each caller its
+ * own slice — carrying `version` and `deltaSupported`, which shared documents
+ * need and user-owned ones do not. A student never batches: its shared reads
+ * each carry the per-caller projection only the single route applies.
+ *
+ * The batch is a pure optimisation. A key it does not answer for — an admin-only
+ * document without MFA — and a batch that fails outright both fall back to the
+ * single read, so batching is never worse than not batching.
+ */
+const STATE_BATCH_MS = 8
+const STATE_BATCH_MAX = 100
+interface StateBatch {
+  keys: string[]
+  waiters: Map<string, Array<(state: RemoteState<unknown>) => void>>
+  timer: ReturnType<typeof setTimeout> | null
+}
+let stateBatch: StateBatch | null = null
+
+async function flushStateBatch(batch: StateBatch): Promise<void> {
+  if (stateBatch === batch) stateBatch = null
+  if (batch.timer != null) { clearTimeout(batch.timer); batch.timer = null }
+  const deliver = (key: string, state: RemoteState<unknown>) => {
+    for (const resolve of batch.waiters.get(key) ?? []) resolve(state)
+  }
+  try {
+    const query = batch.keys.map((key) => encodeURIComponent(key)).join(',')
+    const r = await apiGet<{ values: Record<string, { value: unknown; updatedAt?: string | null; version?: number | null; deltaSupported?: boolean }> }>(`/state-batch?keys=${query}`)
+    for (const key of batch.keys) {
+      const hit = r.values?.[key]
+      if (!hit) { void getStateSingle(key).then((state) => deliver(key, state)); continue }
+      deliver(key, { value: hit.value, updatedAt: hit.updatedAt ?? null, version: hit.version ?? null, error: null, deltaSupported: hit.deltaSupported === true })
+    }
+  } catch {
+    for (const key of batch.keys) void getStateSingle(key).then((state) => deliver(key, state))
+  }
+}
+
+export function getState<T>(key: string): Promise<RemoteState<T>> {
+  if (!stateConsole) return getStateSingle<T>(key)
+  return new Promise<RemoteState<T>>((resolve) => {
+    if (!stateBatch) stateBatch = { keys: [], waiters: new Map(), timer: null }
+    const batch = stateBatch
+    if (!batch.waiters.has(key)) { batch.waiters.set(key, []); batch.keys.push(key) }
+    batch.waiters.get(key)!.push(resolve as (state: RemoteState<unknown>) => void)
+    // A page never approaches the cap, but a burst past it flushes early rather
+    // than building one oversized URL.
+    if (batch.keys.length >= STATE_BATCH_MAX) { void flushStateBatch(batch); return }
+    if (batch.timer == null) batch.timer = setTimeout(() => void flushStateBatch(batch), STATE_BATCH_MS)
+  })
 }
 
 /**
