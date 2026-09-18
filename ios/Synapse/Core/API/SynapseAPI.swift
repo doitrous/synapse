@@ -442,6 +442,62 @@ struct SynapseAPI {
         return try Self.decoder.decode(RoomMutation.self, from: data)
     }
 
+    // MARK: - Study parties (the live hall)
+
+    /// The party system (`server/src/parties.js`) — the real Study Rooms hall
+    /// with presence, chat and voice. Named apart from the `…Room` methods above,
+    /// which drive the separate shared-quiz "Study Together" feature.
+
+    func createParty(name: String) async throws -> PartyMutation {
+        struct Body: Encodable { let name: String }
+        let data = try await send(["parties"], method: "POST", body: Body(name: name))
+        return try Self.decoder.decode(PartyMutation.self, from: data)
+    }
+
+    func joinParty(code: String) async throws -> PartyMutation {
+        struct Body: Encodable { let code: String }
+        let data = try await send(["parties", "join"], method: "POST", body: Body(code: code))
+        return try Self.decoder.decode(PartyMutation.self, from: data)
+    }
+
+    func myParties() async throws -> [PartySummary] {
+        struct Envelope: Decodable { let parties: [PartySummary] }
+        return try await get(Envelope.self, ["parties", "mine"]).parties
+    }
+
+    func openParties() async throws -> [PartySummary] {
+        struct Envelope: Decodable { let parties: [PartySummary] }
+        return try await get(Envelope.self, ["parties", "open"]).parties
+    }
+
+    /// The full room by id or code. Returns nil for a party the caller cannot see.
+    func party(_ idOrCode: String) async throws -> Party? {
+        struct Envelope: Decodable { let party: Party? }
+        return try await get(Envelope.self, ["parties", idOrCode]).party
+    }
+
+    func leaveParty(_ id: String) async throws {
+        _ = try await send(["parties", id, "leave"], method: "POST", body: Optional<Int>.none)
+    }
+
+    /// "I am still here." Sent from the room every thirty seconds.
+    func roomHeartbeat(code: String, activity: String = "studying") async throws {
+        struct Body: Encodable { let activity: String }
+        _ = try await send(["parties", code, "heartbeat"], method: "POST", body: Body(activity: activity))
+    }
+
+    /// The room's members, seats and activity — the same list the socket broadcasts.
+    func roomMembers(code: String) async throws -> [RoomMember] {
+        struct Envelope: Decodable { let members: [RoomMember] }
+        return try await get(Envelope.self, ["parties", code, "members"]).members
+    }
+
+    /// Block a student. Gates whispers to and from them server-side.
+    func blockUser(_ userId: String) async throws {
+        struct Body: Encodable { let userId: String }
+        _ = try await send(["friends", "block"], method: "POST", body: Body(userId: userId))
+    }
+
     /// Register this device for push notifications.
     func registerDevice(token deviceToken: String, environment: String, locale: String?, appVersion: String?) async throws {
         struct Body: Encodable {
