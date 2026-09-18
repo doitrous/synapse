@@ -6,8 +6,51 @@ import { wrap } from '../http.js'
 import { normaliseDeviceToken, sendSilentNudge } from '../push.js'
 import { canonicalStateKey } from '../stateKeys.js'
 
+/** How many documents one batch read may name. A page hydrates ~two dozen. */
+const MAX_BATCH_KEYS = 100
+
 export function registerUserStateRoutes(app) {
   /* ── Private, per-user state ─────────────────────────────────────────────── */
+
+  /**
+   * Read many of the caller's documents in one request.
+   *
+   * A page mounts ~two dozen `usePersistentState` hooks, each of which used to
+   * fetch its own key — two dozen authenticated round trips, all resolving the
+   * identity and taking a pool connection. This reads them in a single query so
+   * the page pays one auth and one trip. A GET (keys in the query string, which
+   * are document names, never user data) so it stays outside CSRF and is plainly
+   * a read. Registered before `/:key`, though the paths do not overlap.
+   *
+   * The response is keyed by the exact key the client asked for; a key with
+   * nothing stored comes back as `{ value: null }`, the same as the single read.
+   */
+  app.get('/api/user-state', wrap(async (req, res) => {
+    const requested = String(req.query.keys ?? '')
+      .split(',')
+      .map((key) => key.trim())
+      .filter(Boolean)
+      .slice(0, MAX_BATCH_KEYS)
+    if (!requested.length) return res.json({ values: {} })
+    // Canonicalise for the lookup, but answer under the key the client sent so
+    // it can match results to its own callers without knowing the aliasing.
+    const canonicalOf = new Map(requested.map((key) => [key, canonicalStateKey(key)]))
+    const canonicals = [...new Set(canonicalOf.values())]
+    const [rows] = await pool.query(
+      `SELECT k, v, updated_at AS updatedAt FROM user_state
+        WHERE user_id = ? AND k IN (${canonicals.map(() => '?').join(', ')})`,
+      [req.identity.id, ...canonicals],
+    )
+    const byCanonical = new Map(rows.map((row) => [row.k, row]))
+    const values = {}
+    for (const key of requested) {
+      const row = byCanonical.get(canonicalOf.get(key))
+      if (!row) { values[key] = { value: null, updatedAt: null }; continue }
+      try { values[key] = { value: JSON.parse(row.v), updatedAt: row.updatedAt } }
+      catch { values[key] = { value: null, updatedAt: row.updatedAt } }
+    }
+    res.json({ values })
+  }))
 
   app.get('/api/user-state/:key', wrap(async (req, res) => {
     const key = canonicalStateKey(req.params.key)

@@ -363,12 +363,67 @@ export function putStateDelta(key: string, changes: unknown[], baseVersion: numb
   return apiPut(`/state/${encodeURIComponent(key)}`, { changes, baseVersion })
 }
 
-export async function getUserState<T>(key: string): Promise<RemoteState<T>> {
+/**
+ * Coalesce the per-key reads a page fires on mount into one request.
+ *
+ * A page mounts ~two dozen `usePersistentState` hooks at once, each calling
+ * `getUserState` for its own key. Sent one-by-one, each is an authenticated
+ * round trip that resolves identity and takes a database connection — two dozen
+ * of them, in a burst, against a shared database. This gathers every key asked
+ * for within a short window and reads them in a single `GET /api/user-state`,
+ * then hands each caller its own slice. The window is a few milliseconds — far
+ * below a round trip, so nothing waits meaningfully longer, and a late-mounting
+ * surface simply forms the next batch rather than blocking on this one.
+ *
+ * The result shape and semantics are identical to a single read: a key with
+ * nothing stored resolves to `{ value: null }`, and a request that fails hands
+ * every key in the batch the same error, exactly as a lone read would.
+ */
+const USER_STATE_BATCH_MS = 8
+const USER_STATE_BATCH_MAX = 100
+interface UserStateBatch {
+  keys: string[]
+  waiters: Map<string, Array<(state: RemoteState<unknown>) => void>>
+  timer: ReturnType<typeof setTimeout> | null
+}
+let userStateBatch: UserStateBatch | null = null
+
+async function flushUserStateBatch(batch: UserStateBatch): Promise<void> {
+  if (userStateBatch === batch) userStateBatch = null
+  if (batch.timer != null) { clearTimeout(batch.timer); batch.timer = null }
+  const deliver = (key: string, state: RemoteState<unknown>) => {
+    for (const resolve of batch.waiters.get(key) ?? []) resolve(state)
+  }
   try {
-    const r = await apiGet<{ value: T | null; updatedAt?: string | null }>(`/user-state/${encodeURIComponent(key)}`)
-    // Private per-user documents have one writer, so they need no version.
-    return { value: r.value, updatedAt: r.updatedAt ?? null, version: null, error: null }
-  } catch (error) { return { value: null, updatedAt: null, version: null, error: errorKind(error) } }
+    const query = batch.keys.map((key) => encodeURIComponent(key)).join(',')
+    const r = await apiGet<{ values: Record<string, { value: unknown; updatedAt?: string | null }> }>(`/user-state?keys=${query}`)
+    for (const key of batch.keys) {
+      const hit = r.values?.[key]
+      // A key the server did not answer for is a retryable fault, never treated
+      // as an empty document: reading "empty" here would let a later write push
+      // the seed over whatever is actually stored. A stored-but-empty document
+      // comes back present, as `{ value: null }`, and is handled by the branch
+      // below. Private per-user documents have one writer, so they need no version.
+      if (!hit) { deliver(key, { value: null, updatedAt: null, version: null, error: 'server' }); continue }
+      deliver(key, { value: hit.value, updatedAt: hit.updatedAt ?? null, version: null, error: null })
+    }
+  } catch (error) {
+    const kind = errorKind(error)
+    for (const key of batch.keys) deliver(key, { value: null, updatedAt: null, version: null, error: kind })
+  }
+}
+
+export function getUserState<T>(key: string): Promise<RemoteState<T>> {
+  return new Promise<RemoteState<T>>((resolve) => {
+    if (!userStateBatch) userStateBatch = { keys: [], waiters: new Map(), timer: null }
+    const batch = userStateBatch
+    if (!batch.waiters.has(key)) { batch.waiters.set(key, []); batch.keys.push(key) }
+    batch.waiters.get(key)!.push(resolve as (state: RemoteState<unknown>) => void)
+    // A page never approaches the cap, but a burst past it flushes early rather
+    // than building one oversized URL.
+    if (batch.keys.length >= USER_STATE_BATCH_MAX) { void flushUserStateBatch(batch); return }
+    if (batch.timer == null) batch.timer = setTimeout(() => void flushUserStateBatch(batch), USER_STATE_BATCH_MS)
+  })
 }
 
 export function putUserState(key: string, value: unknown, keepalive = false): Promise<unknown> {
