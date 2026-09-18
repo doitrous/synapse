@@ -5,8 +5,10 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
@@ -81,6 +83,17 @@ fun LoginScreen(
                 .fillMaxWidth()
                 .padding(top = 16.dp),
         ) {
+            if (uiState.submitting) {
+                CircularProgressIndicator(
+                    strokeWidth = 2.dp,
+                    modifier = Modifier
+                        .size(18.dp)
+                        .padding(end = 8.dp),
+                    color = MaterialTheme.colorScheme.onPrimary,
+                )
+            }
+            // Text stays present (even while submitting) so it remains the button's
+            // stable label for both users and tests; the spinner sits beside it.
             Text(stringResource(R.string.auth_sign_in))
         }
 

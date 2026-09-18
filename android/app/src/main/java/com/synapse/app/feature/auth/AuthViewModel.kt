@@ -70,6 +70,12 @@ class AuthViewModel @Inject constructor(
 
     fun onSignIn() = submit {
         authModel.signIn(_uiState.value.email, _uiState.value.password)
+        // Supabase accepted the credentials but the app is still signed out: the
+        // server-side confirm gate (/api/session) rejected the session. Surface it
+        // instead of silently returning to the login screen with no feedback.
+        check(authModel.state.value !is AuthState.SignedOut) {
+            "Signed in, but the server rejected the session. Please try again."
+        }
     }
 
     fun onSignUp() = submit {

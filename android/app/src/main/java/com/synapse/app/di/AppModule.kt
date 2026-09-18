@@ -167,7 +167,18 @@ object AppModule {
     @Provides
     @Singleton
     fun provideAuthModel(authBackend: AuthBackend, api: SynapseApi): AuthModel =
-        AuthModel(authBackend, confirmSession = { runCatching { api.session() }.isSuccess })
+        AuthModel(authBackend, confirmSession = {
+            // Server-side gate: the token verifies against Supabase's JWKS only when
+            // `/api/session` returns a populated `user`. Any failure (401, network,
+            // malformed body) counts as unconfirmed -> signed out.
+            try {
+                api.session().user != null
+            } catch (e: kotlinx.coroutines.CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                false
+            }
+        })
 
     @Provides
     @Singleton
