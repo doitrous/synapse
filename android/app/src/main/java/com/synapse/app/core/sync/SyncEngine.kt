@@ -7,7 +7,6 @@ import com.synapse.app.core.cache.LocalStore
 import com.synapse.app.core.model.StateDoc
 import kotlinx.serialization.json.Json
 import java.time.Instant
-import java.time.ZoneOffset
 import kotlin.coroutines.cancellation.CancellationException
 
 /**
@@ -25,7 +24,6 @@ class SyncEngine(
 ) {
     suspend fun refresh(now: Instant): SyncResult {
         pullCatalogues()
-        pullAttempts(now)
         pullUserState()
         return drainOutbox()
     }
@@ -56,19 +54,6 @@ class SyncEngine(
             }
             store.putCatalogue(key, doc.updatedAt ?: "", Json.encodeToString(StateDoc.serializer(), doc))
         }
-    }
-
-    /** Attempts are append-only and idempotent; merge them into the local store by id. */
-    private suspend fun pullAttempts(now: Instant) {
-        val date = now.atZone(ZoneOffset.UTC)
-        val month = String.format("%04d-%02d", date.year, date.monthValue)
-        val remote = try {
-            api.getAttempts(month)
-        } catch (e: Exception) {
-            if (e is CancellationException) throw e
-            return
-        }
-        store.putAttempts(remote)
     }
 
     /**

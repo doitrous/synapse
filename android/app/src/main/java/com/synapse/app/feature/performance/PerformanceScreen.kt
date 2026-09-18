@@ -328,7 +328,7 @@ private fun TopPerformersPane(
                 val scope = state.response.scope
                 if (scope != null) {
                     Text(
-                        listOfNotNull(scope.university, scope.year, scope.term).joinToString(" · "),
+                        listOfNotNull(scope.year, state.response.term).joinToString(" · "),
                         style = MaterialTheme.typography.labelMedium,
                     )
                     Spacer(modifier = Modifier.height(8.dp))

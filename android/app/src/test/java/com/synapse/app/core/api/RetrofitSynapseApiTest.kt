@@ -39,6 +39,18 @@ class RetrofitSynapseApiTest {
         assertEquals("Bearer test-token", server.takeRequest().getHeader("Authorization"))
     }
 
+    // The server wraps the manifest as {"keys":{...}} with a null value for any key
+    // it has never written; both must be handled or the whole manifest-diff falls back
+    // to refetching every catalogue key on every sync.
+    @Test fun manifestUnwrapsKeysAndDropsNulls() = runTest {
+        server.enqueue(
+            MockResponse().setResponseCode(200)
+                .setBody("{\"keys\":{\"synapse-x-v1\":\"2026-08-20T10:00:00Z\",\"synapse-y-v1\":null}}")
+        )
+        val manifest = api.manifest()
+        assertEquals(mapOf("synapse-x-v1" to "2026-08-20T10:00:00Z"), manifest)
+    }
+
     @Test fun maps401ToUnauthorized() = runTest {
         server.enqueue(MockResponse().setResponseCode(401).setBody("{}"))
         val error = runCatching { api.getUserState("k") }.exceptionOrNull()

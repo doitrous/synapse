@@ -11,7 +11,6 @@ import com.synapse.app.core.model.SessionDto
 import com.synapse.app.core.model.StateDoc
 import kotlinx.coroutines.test.runTest
 import kotlinx.serialization.json.JsonNull
-import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.JsonPrimitive
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -88,13 +87,6 @@ class SyncEngineTest {
         assertTrue(result.stoppedUnauthorized)
         assertEquals(listOf("synapse.notebook.a"), api.putCalls)  // stopped after the first
         assertEquals(2, store.outbox.size)                        // nothing cleared
-    }
-
-    @Test fun attemptsMergeByIdNotReplace() = runTest {
-        store.putAttempts(listOf(AttemptRecord("x", "2026-08", JsonObject(emptyMap()))))
-        api.attemptList = mutableListOf(AttemptRecord("y", "2026-08", JsonObject(mapOf("s" to JsonPrimitive(1)))))
-        engine.refresh(NOW)
-        assertEquals(setOf("x", "y"), store.attemptsById.keys)  // merged, not replaced
     }
 
     @Test fun retryableEntryIsKeptForNextDrain() = runTest {

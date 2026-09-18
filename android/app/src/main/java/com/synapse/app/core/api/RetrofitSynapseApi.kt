@@ -5,6 +5,7 @@ import com.synapse.app.core.model.AttemptRecord
 import com.synapse.app.core.model.Manifest
 import com.synapse.app.core.model.SessionDto
 import com.synapse.app.core.model.StateDoc
+import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
@@ -28,6 +29,10 @@ import java.io.IOException
  * and sent as a Bearer header. HTTP failures are mapped to [ApiException] so the
  * sync engine can class them: 401 → Unauthorized, 403 → Forbidden, else Retryable.
  */
+/** Wrapper for `GET /api/state/manifest`, whose body is `{ "keys": { ... } }` with nullable values. */
+@Serializable
+private data class ManifestResponse(val keys: Map<String, String?> = emptyMap())
+
 class RetrofitSynapseApi(
     baseUrl: String,
     private val tokenProvider: suspend () -> String?,
@@ -63,7 +68,12 @@ class RetrofitSynapseApi(
     }
 
     override suspend fun session(): SessionDto = call { service.session(bearer()) }
-    override suspend fun manifest(): Manifest = call { service.manifest(bearer()) }
+    override suspend fun manifest(): Manifest = call {
+        // Server shape is { "keys": { <key>: <updatedAt|null> } }. Drop the keys the
+        // server has never written (null) so pullCatalogues diffs only real content;
+        // without this unwrap the whole manifest-diff fell back to refetching every key.
+        service.manifest(bearer()).keys.filterValues { it != null }.mapValues { it.value!! }
+    }
     override suspend fun getState(key: String): StateDoc = call { service.getState(bearer(), key) }
     override suspend fun getUserState(key: String): StateDoc = call { service.getUserState(bearer(), key) }
     override suspend fun putUserState(key: String, doc: StateDoc) {
@@ -79,7 +89,7 @@ class RetrofitSynapseApi(
         suspend fun session(@Header("Authorization") auth: String): SessionDto
 
         @GET("state/manifest")
-        suspend fun manifest(@Header("Authorization") auth: String): Map<String, String>
+        suspend fun manifest(@Header("Authorization") auth: String): ManifestResponse
 
         @GET("state/{key}")
         suspend fun getState(@Header("Authorization") auth: String, @Path("key") key: String): StateDoc

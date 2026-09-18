@@ -25,8 +25,10 @@ import java.io.IOException
  */
 @Serializable
 data class Voucher(
-    val id: String,
-    val code: String,
+    // Defaulted: vouchers come from the admin-authored catalogue, which isn't
+    // field-validated server-side, so a malformed entry must degrade, not crash.
+    val id: String = "",
+    val code: String = "",
     val name: String = "",
     val discountType: String = "Percentage",
     val amount: Double = 0.0,

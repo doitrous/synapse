@@ -25,12 +25,12 @@ data class LeaderboardRow(
     val lastVerifiedAt: String? = null,
 )
 
-/** The cohort this board is scoped to, server-side — university + year + term. */
+/** The cohort this board is scoped to, server-side. The server nests only
+ *  `universityId` + `year` here; `term` is a sibling of `scope` on the response. */
 @Serializable
 data class LeaderboardScope(
-    val university: String? = null,
+    val universityId: String? = null,
     val year: String? = null,
-    val term: String? = null,
 )
 
 /** Whether the caller themself is eligible to appear, and how close they are if not. */
@@ -45,13 +45,17 @@ data class LeaderboardViewer(
 data class LeaderboardResponse(
     val rows: List<LeaderboardRow> = emptyList(),
     val scope: LeaderboardScope? = null,
+    val term: String? = null,
     val viewer: LeaderboardViewer? = null,
 )
 
-/** Which figure the board ranks by — the two metrics `GET /leaderboards` accepts. */
+/**
+ * Which figure the board ranks by. The server only recognises the literal
+ * `metric=mastery`; anything else (here `accuracy`) is the percent-correct board.
+ */
 enum class LeaderboardMetric(val wireValue: String) {
-    ConceptsMastered("conceptsMastered"),
-    PercentCorrect("percentCorrect"),
+    ConceptsMastered("mastery"),
+    PercentCorrect("accuracy"),
 }
 
 interface LeaderboardApi {

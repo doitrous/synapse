@@ -59,19 +59,23 @@ data class ProjectionProfile(
 )
 
 @Serializable
-data class ProjectionUniversity(val id: String, val name: String, val short: String, val region: String)
+// Fields default to "" because the server builds this from the admin-authored
+// academic catalogue, which validates only that the document is an array — a row
+// missing `short`/`region`/`name` has that key dropped from the JSON entirely,
+// which would otherwise throw MissingFieldException on the University screen.
+data class ProjectionUniversity(val id: String = "", val name: String = "", val short: String = "", val region: String = "")
 
 @Serializable
 data class ProjectionYear(
-    val id: String,
-    val year: String,
+    val id: String = "",
+    val year: String = "",
     val active: Boolean = true,
     val terms: List<String> = emptyList(),
 )
 
 /** The slim `modules` list on the wire root — see [ProjectionModule] for the rich per-term one. */
 @Serializable
-data class ProjectionModuleSummary(val id: String, val name: String, val moduleId: String? = null, val term: String = "")
+data class ProjectionModuleSummary(val id: String = "", val name: String = "", val moduleId: String? = null, val term: String = "")
 
 @Serializable
 data class ProjectionTerm(val term: String = "", val modules: List<ProjectionModule> = emptyList())

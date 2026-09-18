@@ -27,14 +27,14 @@ class LeaderboardApiTest {
 
         val request = server.takeRequest()
         assertEquals("GET", request.method)
-        assertTrue(request.path!!.contains("leaderboards?metric=conceptsMastered"))
+        assertTrue(request.path!!.contains("leaderboards?metric=mastery"))
     }
 
     @Test fun percentCorrectMetricSendsItsOwnWireValue() = runTest {
         server.enqueue(MockResponse().setResponseCode(200).setBody("{\"rows\":[]}"))
         api.getLeaderboard(LeaderboardMetric.PercentCorrect)
 
-        assertTrue(server.takeRequest().path!!.contains("metric=percentCorrect"))
+        assertTrue(server.takeRequest().path!!.contains("metric=accuracy"))
     }
 
     @Test fun sendsBearerTokenHeader() = runTest {
@@ -49,7 +49,8 @@ class LeaderboardApiTest {
                 """
                 {
                   "rows": [{"rank":1,"username":"a1","securedConcepts":12,"verifiedAnswers":140}],
-                  "scope": {"university":"Cairo University","year":"Year 3","term":"Fall"},
+                  "term": "Fall",
+                  "scope": {"universityId":"u-cairo","year":"Year 3"},
                   "viewer": {"eligible": false, "verifiedAnswers": 10, "requiredAnswers": 100}
                 }
                 """.trimIndent()
@@ -60,7 +61,8 @@ class LeaderboardApiTest {
         assertEquals(1, response.rows.size)
         assertEquals("a1", response.rows.single().username)
         assertEquals(12, response.rows.single().securedConcepts)
-        assertEquals("Cairo University", response.scope?.university)
+        assertEquals("u-cairo", response.scope?.universityId)
+        assertEquals("Fall", response.term)
         assertEquals(false, response.viewer?.eligible)
     }
 
