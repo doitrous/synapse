@@ -156,9 +156,7 @@ struct QotdView: View {
         }
         .padding(14)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+        .card(Theme.Radius.lg)
     }
 
     // MARK: - Leaderboard
@@ -187,9 +185,7 @@ struct QotdView: View {
             }
             .padding(14)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+            .card(Theme.Radius.lg)
         }
     }
 
@@ -210,9 +206,7 @@ struct QotdView: View {
             }
             .padding(14)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.lg).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
+            .card(Theme.Radius.lg)
         }
     }
 

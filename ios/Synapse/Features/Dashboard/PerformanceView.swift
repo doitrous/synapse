@@ -105,9 +105,7 @@ struct PerformanceView: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(16)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         }
     }
 
@@ -133,9 +131,7 @@ struct PerformanceView: View {
             }
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         }
     }
 
@@ -187,9 +183,7 @@ struct PerformanceView: View {
             }
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         }
     }
 
@@ -224,9 +218,7 @@ struct PerformanceView: View {
             }
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface)
-            .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-            .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+            .card()
         }
     }
 
@@ -254,9 +246,7 @@ struct PerformanceView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(16)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        .card()
     }
 
     /// The site's heatmap ramp, from the palest step to the accent.
@@ -283,9 +273,7 @@ struct PerformanceView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(16)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        .card()
     }
 
     /// Weakest first — the order that answers "what should I study?".
@@ -305,9 +293,7 @@ struct PerformanceView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding(16)
-        .background(Theme.surface)
-        .overlay(RoundedRectangle(cornerRadius: Theme.Radius.xl).stroke(Theme.line, lineWidth: 1))
-        .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.xl))
+        .card()
     }
 }
 
