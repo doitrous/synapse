@@ -45,16 +45,23 @@ export const DEFAULT_STUN_URL = 'stun:stun.l.google.com:19302'
  */
 export function sfuConfig(env = process.env) {
   // Four ports per member in voice (UDP + TCP on each of a send and a receive
-  // transport). 10 000 ports is roughly 2 500 concurrent speakers across every
-  // room on the host. The default MUST match the ports the deployment
-  // publishes: mediasoup binds anywhere in this range, so a range wider than the
-  // Docker port mapping / firewall hands members transports on unreachable ports
-  // and breaks voice. The Nishany deployment publishes 40000-49999 (Coolify
-  // Ports Mappings + host firewall, set 2026-09-11), so this default tracks it.
-  // To change the ceiling, move all three together — this env pair, the Coolify
-  // port mapping, and the host firewall — see docs/rooms-voice.md.
+  // transport). 40000-40400 is ~100 concurrent speakers across every room on the
+  // host — enough, and deliberately NOT wider. Docker publishes each mapped port
+  // with its own `docker-proxy` process: a 10 000-port range is ~20 000 of them
+  // (UDP+TCP), which exhausts host memory, takes minutes to bring up, and fails
+  // the container start (exit 255) — it took the deployment down twice on
+  // 2026-09-11. Keep this range in the low hundreds.
+  //
+  // The default MUST match the ports the deployment publishes: mediasoup binds
+  // anywhere in this range, so a range wider than the Docker port mapping /
+  // firewall hands members transports on unreachable ports and breaks voice. The
+  // Nishany deployment publishes 40000-40400 (Coolify Ports Mappings + host
+  // firewall). To change the ceiling, move all three together — this env pair,
+  // the Coolify port mapping, and the host firewall — see docs/rooms-voice.md.
+  // ponytail: docker-proxy-per-port ceiling; if you truly need thousands of
+  // concurrent speakers, switch the SFU to host networking, don't widen this.
   const min = Number(env.SFU_RTC_MIN_PORT) || 40000
-  const max = Number(env.SFU_RTC_MAX_PORT) || 49999
+  const max = Number(env.SFU_RTC_MAX_PORT) || 40400
   return {
     listenIp: env.SFU_LISTEN_IP || '0.0.0.0',
     // No default is possible: this is the address other people's browsers dial,
