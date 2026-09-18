@@ -13,13 +13,13 @@ import kotlinx.serialization.Serializable
  *
  * ponytail: only the config sections the ported engine actually reads are
  * included (mastery, validity, statuses, review intervals, the horizon/share
- * split, the soft constraints + relaxation order, and readiness). The web's
- * `AdaptiveConfig` also carries `priority`, `interventions`, `schedule`,
- * `crashHorizons` and `changeNotes` sections for algorithms this task does not
- * port (block builder, boosts/interventions, weekly schedule, crash course).
- * Add them here when those engines are ported — duplicating their shape now
- * with no reader would be exactly the speculative flexibility ponytail exists
- * to cut.
+ * split, the soft constraints + relaxation order, readiness, and now
+ * schedule for the weekly planner). The web's `AdaptiveConfig` also carries
+ * `priority`, `interventions` and `crashHorizons`/`changeNotes` sections for
+ * algorithms this task does not port (block builder, boosts/interventions,
+ * crash course). Add them here when those engines are ported — duplicating
+ * their shape now with no reader would be exactly the speculative
+ * flexibility ponytail exists to cut.
  */
 
 /** The four things a slot can be bought with. Order matters: it is the tie-break order for apportionment. */
@@ -174,6 +174,29 @@ data class ConstraintConfig(
     val targetHighCognitiveShare: Double,
 )
 
+/**
+ * The weekly plan's guardrails.
+ *
+ * Every number here exists to stop the planner doing the thing planners do:
+ * filling every free minute, stacking the hardest work together, and
+ * answering a missed day with a doubled one. Port of iOS's `ScheduleConfig`.
+ */
+@Serializable
+data class ScheduleConfig(
+    /** Share of stated capacity held back. Never schedule every free minute. */
+    val capacityBufferShare: Double,
+    val minTaskMinutes: Int,
+    val maxTaskMinutes: Int,
+    /** How far demanding sessions may outrun light ones on a single day. */
+    val maxConsecutiveHighEffort: Int,
+    val minimumTierShare: Double,
+    val recommendedTierShare: Double,
+    /** Days a mock sits before the exam, so a poor result is still repairable. */
+    val mockLeadDays: Int,
+    /** The share of missed work that carries forward. Never all of it. */
+    val catchUpShare: Double,
+)
+
 /** Readiness assessment separation. */
 @Serializable
 data class ReadinessConfig(
@@ -207,6 +230,7 @@ data class AdaptiveConfig(
     val constraints: ConstraintConfig,
     val relaxationOrder: List<RelaxableConstraint>,
     val readiness: ReadinessConfig,
+    val schedule: ScheduleConfig,
 )
 
 private fun shares(weakness: Double, coverage: Double, review: Double, uncertainty: Double) =
@@ -301,6 +325,17 @@ val DEFAULT_ADAPTIVE_CONFIG: AdaptiveConfig = AdaptiveConfig(
         secondsPerItem = 75,
         minItemsPerTopicReport = 3,
         intervalConfidence = 0.9,
+    ),
+
+    schedule = ScheduleConfig(
+        capacityBufferShare = 0.18,
+        minTaskMinutes = 15,
+        maxTaskMinutes = 60,
+        maxConsecutiveHighEffort = 1,
+        minimumTierShare = 0.5,
+        recommendedTierShare = 0.35,
+        mockLeadDays = 7,
+        catchUpShare = 0.5,
     ),
 )
 

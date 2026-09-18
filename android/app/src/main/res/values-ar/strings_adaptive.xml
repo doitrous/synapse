@@ -9,12 +9,6 @@
     <string name="adaptive_tab_how_it_works">كيف يعمل هذا</string>
 
     <string name="adaptive_loading">جارٍ التحميل…</string>
-    <string name="adaptive_coming_soon">قريبًا.</string>
-
-    <!-- Deferred tabs. -->
-    <string name="adaptive_practice_deferred_body">تُبنى الكتل عبر خوارزمية اختيار ذات قيود مرنة (التنوّع، مزيج الصعوبة، حدود التكرار) لم تصل بعد إلى أندرويد. تبويب اليوم يعرض لك بالفعل ما كانت الكتلة ستُعطيه الأولوية.</string>
-    <string name="adaptive_readiness_deferred_body">تقييمات الجاهزية جلسات مؤقّتة ومتوازنة وفق المخطط، تُبنى من أسئلة محجوزة عن التدريب. مسار هذه الجلسة لم يصل بعد إلى أندرويد.</string>
-    <string name="adaptive_plan_deferred_body">مُجدوِل خطة الدراسة الأسبوعية لم يُنقل بعد إلى هذا التطبيق.</string>
 
     <!-- Today tab. -->
     <string name="adaptive_recommended_next">التالي الموصى به</string>
@@ -180,4 +174,32 @@
     <string name="adaptive_non_negotiable_scope">نطاق الجامعة والسنة والوحدة</string>
     <string name="adaptive_non_negotiable_language_accessibility">متطلبات اللغة وإمكانية الوصول</string>
     <string name="adaptive_non_negotiable_held_out_readiness">أسئلة الجاهزية المحجوزة مستبعدة من التدريب</string>
+
+    <!-- Practice tab. -->
+    <string name="adaptive_practice_repair_title">يستحق العودة إليه</string>
+    <string name="adaptive_practice_empty_title">لا شيء يحتاج إلى إصلاح</string>
+    <string name="adaptive_practice_empty_body">أجب عن بعض الأسئلة، وما تجده صعبًا سيظهر هنا.</string>
+
+    <!-- Readiness tab. -->
+    <string name="adaptive_readiness_how_ready_title">مدى جاهزيتك</string>
+    <string name="adaptive_readiness_by_area_title">حسب المجال</string>
+    <string name="adaptive_readiness_too_few">قليلة جدًا لتحديدها</string>
+
+    <!-- Plan tab. -->
+    <string name="adaptive_plan_this_week_title">هذا الأسبوع</string>
+    <string name="adaptive_plan_minutes_per_day_label">الدقائق يوميًا</string>
+    <string name="adaptive_plan_minutes_suffix">%1$dد</string>
+    <string name="adaptive_plan_decrease_minutes">تقليل الدقائق يوميًا</string>
+    <string name="adaptive_plan_increase_minutes">زيادة الدقائق يوميًا</string>
+    <string name="adaptive_plan_time_goes_title">إلى أين يذهب وقت الأسبوع</string>
+    <string name="adaptive_plan_capacity_title">السعة</string>
+    <string name="adaptive_plan_capacity_stated">قلت إن لديك</string>
+    <string name="adaptive_plan_capacity_planned">المخطَّط</string>
+    <string name="adaptive_plan_capacity_buffer">متروك بحرية عمدًا</string>
+    <string name="adaptive_plan_unplaced_title">ما لم يتسع له الوقت</string>
+    <string name="adaptive_plan_unplaced_note">لا تتسع ساعاتك المعلنة لكل ما أراده المخطط. يُعرض النقص بدلًا من إسقاطه.</string>
+    <string name="adaptive_plan_caveat">إتمام هذه الخطة لا يعني بحد ذاته أنك جاهز. تُقاس الجاهزية بشكل منفصل، على أسئلة متوازنة وفق المخطط ومحجوزة عن تدريبك.</string>
+    <string name="adaptive_tier_minimum">الحد الأدنى</string>
+    <string name="adaptive_tier_recommended">موصى به</string>
+    <string name="adaptive_tier_stretch">إضافي</string>
 </resources>

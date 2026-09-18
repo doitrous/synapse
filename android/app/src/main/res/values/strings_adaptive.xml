@@ -9,12 +9,6 @@
     <string name="adaptive_tab_how_it_works">How this works</string>
 
     <string name="adaptive_loading">Loading…</string>
-    <string name="adaptive_coming_soon">Coming soon.</string>
-
-    <!-- Deferred tabs. -->
-    <string name="adaptive_practice_deferred_body">Blocks are built by a soft-constraint selector (novelty, difficulty mix, exposure caps) that has not landed on Android yet. Today already shows you what a block would prioritise.</string>
-    <string name="adaptive_readiness_deferred_body">Readiness assessments are timed, blueprint-balanced sittings drawn from questions held back from practice. That session flow has not landed on Android yet.</string>
-    <string name="adaptive_plan_deferred_body">The weekly study-plan scheduler has not been ported to this client yet.</string>
 
     <!-- Today tab. -->
     <string name="adaptive_recommended_next">Recommended next</string>
@@ -159,4 +153,32 @@
     <string name="adaptive_non_negotiable_scope">University, year and module scope</string>
     <string name="adaptive_non_negotiable_language_accessibility">Language and accessibility requirements</string>
     <string name="adaptive_non_negotiable_held_out_readiness">Held-out readiness items excluded from practice</string>
+
+    <!-- Practice tab. -->
+    <string name="adaptive_practice_repair_title">Worth going back to</string>
+    <string name="adaptive_practice_empty_title">Nothing needs repairing</string>
+    <string name="adaptive_practice_empty_body">Answer some questions and what you find hard will show up here.</string>
+
+    <!-- Readiness tab. -->
+    <string name="adaptive_readiness_how_ready_title">How ready you are</string>
+    <string name="adaptive_readiness_by_area_title">By area</string>
+    <string name="adaptive_readiness_too_few">Too few to say</string>
+
+    <!-- Plan tab. -->
+    <string name="adaptive_plan_this_week_title">This week</string>
+    <string name="adaptive_plan_minutes_per_day_label">Minutes a day</string>
+    <string name="adaptive_plan_minutes_suffix">%1$dm</string>
+    <string name="adaptive_plan_decrease_minutes">Fewer minutes a day</string>
+    <string name="adaptive_plan_increase_minutes">More minutes a day</string>
+    <string name="adaptive_plan_time_goes_title">Where the week\'s time goes</string>
+    <string name="adaptive_plan_capacity_title">Capacity</string>
+    <string name="adaptive_plan_capacity_stated">You said you have</string>
+    <string name="adaptive_plan_capacity_planned">Planned</string>
+    <string name="adaptive_plan_capacity_buffer">Deliberately left free</string>
+    <string name="adaptive_plan_unplaced_title">What would not fit</string>
+    <string name="adaptive_plan_unplaced_note">Your stated hours cannot hold everything the plan wanted. The shortfall is shown rather than dropped.</string>
+    <string name="adaptive_plan_caveat">Completing this plan does not by itself mean you are ready. Readiness is measured separately, on blueprint-balanced questions held back from your practice.</string>
+    <string name="adaptive_tier_minimum">Minimum</string>
+    <string name="adaptive_tier_recommended">Recommended</string>
+    <string name="adaptive_tier_stretch">Stretch</string>
 </resources>
