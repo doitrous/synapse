@@ -165,11 +165,16 @@ struct SignedInView: View {
                 .id(theme.appearance)
             }
         }
-        // A minimised room shows a dock above the tab bar, from any tab.
-        .safeAreaInset(edge: .bottom) {
+        // A minimised room shows a dock riding just above the tab bar, from any
+        // tab. An overlay (not a safeAreaInset, which consumed the tab bar and
+        // stranded the student on one tab): the standard 49pt tab-bar height
+        // lifts it clear, and the overlay already sits inside the home-indicator
+        // safe area, so the bar stays fully tappable beneath it.
+        .overlay(alignment: .bottom) {
             if let activeRoom, !roomPresented {
                 RoomDock(model: activeRoom, onOpen: { roomPresented = true })
                     .environment(\.strings, strings)
+                    .padding(.bottom, 49)
             }
         }
     }
