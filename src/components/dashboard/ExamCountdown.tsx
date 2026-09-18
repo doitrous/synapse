@@ -186,7 +186,9 @@ function ExamHero() {
 
 /** Where an item sends the student to prepare, when there is no exam plan to ask. */
 function actionFor(item: UpcomingItem): { to: string; icon: typeof FileQuestion } {
-  const kind = item.kind.toLowerCase()
+  // A curriculum item may carry no `kind`; default it rather than crash the tile
+  // (and with it the whole dashboard route) — it falls through to the library.
+  const kind = (item.kind ?? '').toLowerCase()
   if (kind.includes('practical') || kind.includes('station')) return { to: '/app/practical', icon: Stethoscope }
   if (kind.includes('review') || kind.includes('revision') || kind.includes('question')) return { to: '/app/qbank', icon: FileQuestion }
   return { to: '/app/library', icon: BookOpenText }

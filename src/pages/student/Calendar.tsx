@@ -287,7 +287,9 @@ function BlockDialog({ date, existing, onClose, onSave, onDelete }: {
 
 /** Maps an event's kind to the surface a student would most likely open next. */
 function actionFor(event: CalEvent): { to: string; label: string } | null {
-  const k = event.kind.toLowerCase()
+  // Curriculum-layer events carry no `kind` — they fall through to the
+  // `layer === 'curriculum'` case below, so this must not assume one exists.
+  const k = (event.kind ?? '').toLowerCase()
   if (k.includes('qbank') || k.includes('question')) return { to: '/app/qbank', label: 'Open Question Bank' }
   if (k.includes('review')) return { to: '/app/qbank', label: 'Start a review' }
   if (k.includes('read') || k.includes('library') || k.includes('lecture')) return { to: '/app/library', label: 'Open Library' }
